@@ -1,0 +1,614 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Flair — veille IA</title>
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🐕</text></svg>">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400&family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700;12..96,800&display=swap" rel="stylesheet">
+<style>
+:root{
+  --fond:#E6EBE3; --surface:#F6F8F3; --surface2:#EEF2EB; --encre:#16221B; --doux:#56675B;
+  --trait:#C7D1C3; --blaze:#D9531A; --blaze-pale:#F8DCCB; --foret:#22543A; --foret-pale:#D5E6DA;
+  --titre:"Bricolage Grotesque", "Segoe UI", system-ui, sans-serif;
+  --texte:"Atkinson Hyperlegible", "Segoe UI", system-ui, sans-serif;
+  box-sizing:border-box;
+  padding-top:env(safe-area-inset-top,0px); padding-bottom:env(safe-area-inset-bottom,0px);
+  color-scheme:light;
+}
+@media (prefers-color-scheme:dark){ :root:not([data-theme="light"]){
+  --fond:#0F1612; --surface:#17211B; --surface2:#1C2821; --encre:#E4ECE3; --doux:#93A496;
+  --trait:#2A3A30; --blaze:#FF7B3F; --blaze-pale:#3A2216; --foret:#86C9A0; --foret-pale:#1D3326; color-scheme:dark;
+}}
+:root[data-theme="dark"]{
+  --fond:#0F1612; --surface:#17211B; --surface2:#1C2821; --encre:#E4ECE3; --doux:#93A496;
+  --trait:#2A3A30; --blaze:#FF7B3F; --blaze-pale:#3A2216; --foret:#86C9A0; --foret-pale:#1D3326; color-scheme:dark;
+}
+*,*::before,*::after{box-sizing:inherit}
+[hidden]{display:none!important}
+html{scroll-padding-top:env(safe-area-inset-top,0px)}
+body{margin:0;background:var(--fond);color:var(--encre);font:16px/1.55 var(--texte);-webkit-font-smoothing:antialiased}
+a{color:inherit}
+button,input,select{font:inherit;color:inherit}
+:focus-visible{outline:3px solid var(--blaze);outline-offset:2px;border-radius:4px}
+.wrap{max-width:1240px;margin:0 auto;padding:0 20px}
+
+/* En-tête */
+header.top{display:flex;align-items:center;gap:16px;padding:18px 0 10px}
+.marque{font:800 26px/1 var(--titre);letter-spacing:-.02em;display:flex;align-items:center;gap:10px;margin:0}
+.marque svg{width:30px;height:30px}
+.etat{color:var(--doux);font-size:14px;margin-left:auto;text-align:right}
+.etat b{color:var(--encre);font-weight:700}
+.btn-icone{background:var(--surface);border:1px solid var(--trait);border-radius:10px;width:40px;height:40px;cursor:pointer;display:grid;place-items:center}
+
+/* Brief du jour : l'élément fort */
+.brief{display:grid;grid-template-columns:1.35fr 1fr;gap:28px;padding:26px 0 30px;border-bottom:2px solid var(--encre)}
+.brief h2{font:800 clamp(30px,4.4vw,54px)/1.02 var(--titre);letter-spacing:-.03em;margin:0 0 14px;max-width:18ch}
+.brief p{margin:0 0 12px;max-width:62ch;color:var(--encre)}
+.brief .quand{color:var(--doux);font-size:14px;margin-bottom:10px}
+.tester{background:var(--foret-pale);border-radius:14px;padding:18px 20px}
+.tester h3{font:700 18px/1.2 var(--titre);margin:0 0 10px;color:var(--foret)}
+.tester ol{margin:0;padding-left:22px}
+.tester li{margin:6px 0}
+.piste{margin-top:18px;border:2px solid var(--blaze);border-radius:14px;padding:16px 18px;background:var(--surface);cursor:pointer;text-align:left;width:100%}
+.piste small{display:block;color:var(--blaze);font-weight:700;margin-bottom:4px}
+.piste strong{font:700 19px/1.25 var(--titre)}
+
+/* Barre d'outils */
+.outils{display:flex;flex-wrap:wrap;gap:10px;align-items:center;padding:18px 0}
+.recherche{flex:1 1 260px;position:relative}
+.recherche input{width:100%;padding:11px 14px 11px 40px;border:1px solid var(--trait);border-radius:12px;background:var(--surface)}
+.recherche svg{position:absolute;left:13px;top:50%;transform:translateY(-50%);width:18px;height:18px;color:var(--doux)}
+.segments{display:flex;background:var(--surface);border:1px solid var(--trait);border-radius:12px;padding:3px}
+.segments button{border:0;background:none;padding:7px 12px;border-radius:9px;cursor:pointer;color:var(--doux)}
+.segments button[aria-pressed="true"]{background:var(--encre);color:var(--fond)}
+select{padding:10px 12px;border:1px solid var(--trait);border-radius:12px;background:var(--surface)}
+
+/* Grille principale */
+.grille{display:grid;grid-template-columns:230px 1fr;gap:28px;align-items:start;padding-bottom:60px}
+aside.filtres{position:sticky;top:calc(env(safe-area-inset-top,0px) + 12px)}
+.bloc{margin-bottom:22px}
+.bloc h3{font:700 15px/1.2 var(--titre);margin:0 0 8px;color:var(--doux)}
+.choix{display:flex;justify-content:space-between;width:100%;border:0;background:none;padding:7px 10px;border-radius:9px;cursor:pointer;text-align:left}
+.choix:hover{background:var(--surface2)}
+.choix[aria-pressed="true"]{background:var(--encre);color:var(--fond)}
+.choix span:last-child{opacity:.7;font-size:14px}
+.bascule{display:flex;align-items:center;gap:10px;padding:6px 2px;cursor:pointer}
+.bascule input{width:18px;height:18px;accent-color:var(--blaze)}
+.lien-btn{border:1px solid var(--trait);background:var(--surface);padding:9px 12px;border-radius:10px;cursor:pointer;width:100%;margin-top:6px}
+
+/* Liste des sujets */
+.compte{color:var(--doux);font-size:14px;margin:0 0 8px}
+ul.fil{list-style:none;margin:0;padding:0;background:var(--surface);border:1px solid var(--trait);border-radius:16px;overflow:hidden}
+.sujet{display:grid;grid-template-columns:34px 1fr auto;gap:14px;padding:15px 18px;border-bottom:1px solid var(--trait);cursor:pointer;align-items:start}
+.sujet:last-child{border-bottom:0}
+.sujet:hover,.sujet.actif{background:var(--surface2)}
+.sujet.lu .titre{color:var(--doux);font-weight:400}
+.titre{font:700 17px/1.3 var(--titre);margin:0 0 5px}
+.meta{display:flex;flex-wrap:wrap;gap:6px 12px;font-size:14px;color:var(--doux)}
+.badge{font-size:13px;padding:1px 8px;border-radius:99px;background:var(--surface2);border:1px solid var(--trait);color:var(--encre)}
+.badge.pc{background:var(--foret-pale);border-color:transparent;color:var(--foret);font-weight:700}
+.badge.echo{background:var(--blaze-pale);border-color:transparent;color:var(--blaze);font-weight:700}
+.fav{border:0;background:none;cursor:pointer;font-size:20px;line-height:1;padding:4px;color:var(--doux)}
+.fav[aria-pressed="true"]{color:var(--blaze)}
+
+/* Jauge de flair : la signature */
+.flair{display:flex;gap:3px;align-items:flex-end;height:26px;margin-top:3px}
+.flair i{width:4px;border-radius:2px;background:var(--trait)}
+.flair i:nth-child(1){height:30%}.flair i:nth-child(2){height:46%}.flair i:nth-child(3){height:62%}.flair i:nth-child(4){height:80%}.flair i:nth-child(5){height:100%}
+.flair i.on{background:var(--blaze)}
+
+.vide{padding:40px 24px;text-align:center;color:var(--doux)}
+.vide strong{display:block;font:700 20px/1.3 var(--titre);color:var(--encre);margin-bottom:6px}
+.vide code{background:var(--surface2);padding:2px 6px;border-radius:6px}
+.plus{display:block;margin:14px auto 0;padding:10px 18px;border-radius:12px;border:1px solid var(--trait);background:var(--surface);cursor:pointer}
+
+/* Panneau de détail */
+.voile{position:fixed;inset:0;background:rgba(10,18,14,.45);opacity:0;pointer-events:none;transition:opacity .2s}
+.voile.ouvert{opacity:1;pointer-events:auto}
+.panneau{position:fixed;top:0;right:0;height:100%;width:min(620px,100%);background:var(--surface);border-left:1px solid var(--trait);
+  transform:translateX(100%);transition:transform .25s ease;overflow-y:auto;padding:calc(env(safe-area-inset-top,0px) + 22px) 28px calc(env(safe-area-inset-bottom,0px) + 40px)}
+.panneau.ouvert{transform:none}
+.panneau .fermer{float:right}
+.panneau h2{font:800 28px/1.1 var(--titre);letter-spacing:-.02em;margin:8px 0 10px;clear:both}
+.panneau h3{font:700 17px/1.2 var(--titre);margin:24px 0 8px}
+.panneau p{margin:0 0 10px;max-width:64ch}
+.panneau .original{color:var(--doux);font-size:14px}
+.etapes{counter-reset:e;list-style:none;padding:0;margin:0}
+.etapes li{counter-increment:e;position:relative;padding:8px 0 8px 40px;border-bottom:1px dashed var(--trait)}
+.etapes li::before{content:counter(e);position:absolute;left:0;top:7px;width:26px;height:26px;border-radius:50%;background:var(--encre);color:var(--fond);display:grid;place-items:center;font:700 14px var(--titre)}
+.encadre{background:var(--foret-pale);color:var(--encre);border-radius:12px;padding:14px 16px}
+.encadre.non{background:var(--surface2)}
+.actions{display:flex;gap:10px;flex-wrap:wrap;margin-top:22px}
+.cta{display:inline-block;background:var(--blaze);color:#fff;text-decoration:none;padding:11px 18px;border-radius:12px;font-weight:700}
+.cta.sec{background:var(--surface2);color:var(--encre);border:1px solid var(--trait)}
+.sans-analyse{background:var(--blaze-pale);border-radius:12px;padding:12px 14px;font-size:15px}
+
+/* Onglets */
+nav.onglets{display:flex;gap:4px;border-bottom:2px solid var(--encre);margin-top:6px;overflow-x:auto}
+nav.onglets a{padding:10px 16px;text-decoration:none;font:700 16px/1.2 var(--titre);color:var(--doux);border-radius:10px 10px 0 0;white-space:nowrap}
+nav.onglets a[aria-current="page"]{background:var(--encre);color:var(--fond)}
+.vue[hidden]{display:none!important}
+.entete-vue{padding:28px 0 18px}
+.entete-vue h2{font:800 clamp(28px,4vw,46px)/1.05 var(--titre);letter-spacing:-.03em;margin:0 0 10px;max-width:22ch}
+.entete-vue p{margin:0;max-width:68ch;color:var(--doux)}
+.verif{font-size:14px;color:var(--doux);margin-top:8px}
+
+/* Annuaire */
+.puces{display:flex;flex-wrap:wrap;gap:8px;margin:18px 0 22px}
+.puce{border:1px solid var(--trait);background:var(--surface);padding:8px 14px;border-radius:99px;cursor:pointer}
+.puce[aria-pressed="true"]{background:var(--blaze);border-color:var(--blaze);color:#fff;font-weight:700}
+.annuaire{display:grid;grid-template-columns:repeat(auto-fill,minmax(340px,1fr));gap:0;border-top:1px solid var(--trait);padding-bottom:60px}
+.fiche{display:block;width:100%;text-align:left;background:none;border:0;border-bottom:1px solid var(--trait);padding:20px 18px 20px 0;cursor:pointer;transition:opacity .2s}
+.fiche:hover .fiche-nom{color:var(--blaze)}
+.fiche.pale{opacity:.35}
+.fiche-nom{font:800 26px/1.05 var(--titre);letter-spacing:-.02em;margin:0 0 4px}
+.fiche-org{color:var(--doux);font-size:14px;margin-bottom:8px}
+.fiche-ideal{margin:0 0 10px;max-width:46ch}
+.pouls{display:inline-flex;align-items:center;gap:6px;font-size:14px;color:var(--doux)}
+.pouls b{color:var(--blaze)}
+
+/* Frise */
+.frise{list-style:none;margin:0;padding:0;border-left:3px solid var(--encre);margin-left:6px}
+.frise li{position:relative;padding:0 0 14px 20px}
+.frise li::before{content:"";position:absolute;left:-8px;top:6px;width:13px;height:13px;border-radius:50%;background:var(--fond);border:3px solid var(--blaze)}
+.frise b{display:block;font:700 15px/1.3 var(--titre)}
+.listing{margin:0;padding-left:20px}
+.listing li{margin:5px 0}
+
+/* Contrôle */
+.legende{display:flex;flex-wrap:wrap;gap:8px 18px;font-size:14px;color:var(--doux);margin-top:14px}
+.preuve{display:inline-flex;align-items:center;gap:6px;font-size:13px;font-weight:700;padding:2px 9px;border-radius:99px}
+.preuve::before{content:"";width:8px;height:8px;border-radius:50%;background:currentColor}
+.preuve.documente{background:var(--foret-pale);color:var(--foret)}
+.preuve.plausible{background:var(--blaze-pale);color:var(--blaze)}
+.preuve.speculatif{background:var(--surface2);color:var(--doux);border:1px dashed var(--doux)}
+.dossiers{display:grid;grid-template-columns:repeat(auto-fill,minmax(360px,1fr));gap:14px;margin-bottom:34px}
+.dossier{text-align:left;background:var(--surface);border:1px solid var(--trait);border-left:6px solid var(--encre);border-radius:6px 14px 14px 6px;padding:18px 20px;cursor:pointer}
+.dossier:hover{border-left-color:var(--blaze)}
+.dossier h3{font:800 21px/1.15 var(--titre);margin:0 0 8px}
+.dossier p{margin:0 0 12px;color:var(--doux);font-size:15px}
+.balance{display:flex;gap:6px;flex-wrap:wrap}
+h3.section{font:800 24px/1.1 var(--titre);letter-spacing:-.01em;margin:30px 0 14px}
+.deux{display:grid;grid-template-columns:1fr 1.25fr;gap:34px;align-items:start;padding-bottom:60px}
+.bloc-recit{background:var(--surface2);border-radius:12px;padding:14px 16px;font-style:italic}
+.fait{border-bottom:1px dashed var(--trait);padding:10px 0}
+.fait p{margin:6px 0 4px}
+.fait small a{color:var(--doux)}
+
+@media (max-width:900px){
+  .deux{grid-template-columns:1fr}
+  .annuaire,.dossiers{grid-template-columns:1fr}
+  .brief{grid-template-columns:1fr}
+  .grille{grid-template-columns:1fr}
+  aside.filtres{position:static;display:flex;gap:10px;overflow-x:auto;padding-bottom:4px}
+  aside.filtres .bloc{flex:0 0 auto;margin:0;min-width:200px;background:var(--surface);border:1px solid var(--trait);border-radius:12px;padding:10px}
+  .etat{display:none}
+}
+@media (prefers-reduced-motion:reduce){*{transition:none!important}}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header class="top">
+    <h1 class="marque">
+      <svg viewBox="0 0 32 32" aria-hidden="true"><path fill="currentColor" d="M9 4c1.6 0 2.8 1.6 2.8 3.6S10.6 11.2 9 11.2 6.2 9.6 6.2 7.6 7.4 4 9 4Zm14 0c1.6 0 2.8 1.6 2.8 3.6s-1.2 3.6-2.8 3.6-2.8-1.6-2.8-3.6S21.4 4 23 4ZM4 12.6c1.4-.4 3 .9 3.5 2.8.5 1.9-.2 3.8-1.6 4.2-1.4.4-3-.9-3.5-2.8-.5-1.9.2-3.8 1.6-4.2Zm24 0c1.4.4 2.1 2.3 1.6 4.2-.5 1.9-2.1 3.2-3.5 2.8-1.4-.4-2.1-2.3-1.6-4.2.5-1.9 2.1-3.2 3.5-2.8ZM16 14c3.2 0 7.5 5 7.5 9.2 0 2.6-2 3.8-4.2 3.8-1.6 0-2.3-.8-3.3-.8s-1.7.8-3.3.8c-2.2 0-4.2-1.2-4.2-3.8C8.5 19 12.8 14 16 14Z" style="color:var(--blaze)"/></svg>
+      Flair
+    </h1>
+    <div class="etat" id="etat">Chargement…</div>
+    <button class="btn-icone" id="theme" aria-label="Changer de thème">◐</button>
+  </header>
+  <nav class="onglets" aria-label="Sections">
+    <a href="#veille" data-vue="veille">Veille</a>
+    <a href="#annuaire" data-vue="annuaire">Les IA</a>
+    <a href="#controle" data-vue="controle">Contrôle et pouvoir</a>
+  </nav>
+
+  <section class="vue" id="vue-veille">
+
+  <section class="brief" id="brief" hidden></section>
+
+  <div class="outils">
+    <label class="recherche">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg>
+      <input id="q" type="search" placeholder="Chercher un modèle, un outil, une entreprise… ( / )" aria-label="Rechercher">
+    </label>
+    <div class="segments" role="group" aria-label="Période" id="periode">
+      <button data-v="24" aria-pressed="false">24 h</button>
+      <button data-v="72" aria-pressed="false">3 jours</button>
+      <button data-v="168" aria-pressed="true">7 jours</button>
+      <button data-v="0" aria-pressed="false">Tout</button>
+    </div>
+    <select id="tri" aria-label="Trier">
+      <option value="flair">Plus flairé d'abord</option>
+      <option value="date">Plus récent d'abord</option>
+    </select>
+  </div>
+
+  <div class="grille">
+    <aside class="filtres">
+      <div class="bloc"><h3>Thème</h3><div id="f-cat"></div></div>
+      <div class="bloc"><h3>Provenance</h3><div id="f-type"></div></div>
+      <div class="bloc">
+        <h3>Affiner</h3>
+        <label class="bascule"><input type="checkbox" id="f-pc"> Utilisable sur mon PC</label>
+        <label class="bascule"><input type="checkbox" id="f-nonlu"> Non lus seulement</label>
+        <label class="bascule"><input type="checkbox" id="f-fav"> Mes favoris</label>
+        <label class="bascule"><input type="checkbox" id="f-chaud"> Sujets chauds (flair 4+)</label>
+        <button class="lien-btn" id="tout-lu">Tout marquer comme lu</button>
+        <button class="lien-btn" id="export">Exporter mes favoris (.md)</button>
+      </div>
+    </aside>
+    <main>
+      <p class="compte" id="compte"></p>
+      <ul class="fil" id="fil"></ul>
+      <button class="plus" id="plus" hidden>Afficher plus</button>
+    </main>
+  </div>
+  </section>
+
+  <section class="vue" id="vue-annuaire" hidden>
+    <div class="entete-vue">
+      <h2>Les IA qui comptent, et comment t'en servir</h2>
+      <p>Pour chaque IA : à quoi elle sert le mieux, ses forces et ses limites, comment l'utiliser concrètement, ce qu'elle fait en ce moment et son histoire. Choisis une tâche pour voir lesquelles s'y prêtent.</p>
+      <div class="verif" id="annuaire-verif"></div>
+    </div>
+    <div class="puces" id="taches" role="group" aria-label="Filtrer par tâche"></div>
+    <div class="annuaire" id="annuaire"></div>
+  </section>
+
+  <section class="vue" id="vue-controle" hidden>
+    <div class="entete-vue">
+      <h2>L'IA va-t-elle nous contrôler&nbsp;?</h2>
+      <p id="controle-intro"></p>
+      <div class="legende" id="legende"></div>
+    </div>
+    <div class="dossiers" id="dossiers"></div>
+    <div class="deux">
+      <div>
+        <h3 class="section" id="chrono-titre"></h3>
+        <ol class="frise" id="chrono"></ol>
+        <p class="verif" id="chrono-sources"></p>
+      </div>
+      <div>
+        <h3 class="section">Le fil de la semaine</h3>
+        <p class="compte" id="compte-controle"></p>
+        <ul class="fil" id="fil-controle"></ul>
+      </div>
+    </div>
+  </section>
+</div>
+
+<div class="voile" id="voile"></div>
+<article class="panneau" id="panneau" aria-hidden="true" role="dialog" aria-label="Détail du sujet"></article>
+
+<script>
+const $ = s => document.querySelector(s);
+const TYPES = {officiel:"Sources officielles", presse:"Presse tech", communaute:"Communauté", recherche:"Recherche", fr:"En français"};
+const store = {
+  get(k, d){ try{ const v = localStorage.getItem("flair:"+k); return v ? JSON.parse(v) : d; }catch{ return d; } },
+  set(k, v){ try{ localStorage.setItem("flair:"+k, JSON.stringify(v)); }catch{} }
+};
+let ITEMS = [], TOUS = [], META = {}, ANNUAIRE = null, CONTROLE = null, tacheActive = null, lus = new Set(store.get("lus", [])), favs = new Set(store.get("favs", []));
+const etat = {q:"", heures:168, tri:"flair", cat:null, type:null, pc:false, nonlu:false, fav:false, chaud:false, limite:60, actif:-1};
+let visibles = [];
+
+const esc = s => String(s ?? "").replace(/[&<>"']/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
+function depuis(iso){
+  const m = Math.round((Date.now() - new Date(iso)) / 60000);
+  if (m < 60) return `il y a ${Math.max(m,1)} min`;
+  const h = Math.round(m/60); if (h < 24) return `il y a ${h} h`;
+  const j = Math.round(h/24); return j === 1 ? "hier" : `il y a ${j} jours`;
+}
+const jauge = n => `<div class="flair" title="Flair ${n}/5" aria-label="Importance ${n} sur 5">${[1,2,3,4,5].map(i=>`<i class="${i<=n?"on":""}"></i>`).join("")}</div>`;
+const titreDe = it => it.analyse?.titre_fr || it.titre;
+
+async function charger(){
+  try{
+    const [a, b] = await Promise.all([fetch("data/items.json",{cache:"no-store"}), fetch("data/meta.json",{cache:"no-store"})]);
+    TOUS = await a.json(); META = await b.json();
+  }catch(e){ TOUS = []; META = {}; }
+  ITEMS = TOUS.filter(i => i.rubrique !== "controle");
+  try{ ANNUAIRE = await (await fetch("data/annuaire.json",{cache:"no-store"})).json(); }catch{ ANNUAIRE = null; }
+  try{ CONTROLE = await (await fetch("data/controle.json",{cache:"no-store"})).json(); }catch{ CONTROLE = null; }
+  const nbSources = (META.sources_ok||[]).length;
+  $("#etat").innerHTML = META.maj
+    ? `Dernière chasse <b>${depuis(META.maj)}</b><br>${nbSources} sources, ${META.analyses||0} sujets expliqués${(META.sources_ko||[]).length?`, ${(META.sources_ko).length} en panne`:""}`
+    : "Pas encore de chasse";
+  rendreBrief(); rendreFiltres(); rendre(); rendreAnnuaire(); rendreControle(); router();
+}
+
+function rendreBrief(){
+  const b = META.brief, el = $("#brief");
+  const top = ITEMS.filter(i => Date.now() - new Date(i.date) < 36*3600e3).sort((x,y)=>y.score-x.score)[0];
+  if (!b && !top) { el.hidden = true; return; }
+  el.hidden = false;
+  el.innerHTML = `
+    <div>
+      <div class="quand">Brief du ${new Date(META.maj||Date.now()).toLocaleDateString("fr-FR",{weekday:"long",day:"numeric",month:"long"})}</div>
+      <h2>${esc(b?.titre || "Ce qui bouge dans l'IA aujourd'hui")}</h2>
+      ${b?.texte ? `<p>${esc(b.texte)}</p>` : `<p>Ajoute une clé API gratuite pour que le chien rédige un brief chaque matin (voir le README).</p>`}
+    </div>
+    <div>
+      ${b?.a_tester?.length ? `<div class="tester"><h3>À tester cette semaine</h3><ol>${b.a_tester.map(x=>`<li>${esc(x)}</li>`).join("")}</ol></div>` : ""}
+      ${top ? `<button class="piste" data-id="${top.id}"><small>La piste la plus chaude</small><strong>${esc(titreDe(top))}</strong></button>` : ""}
+    </div>`;
+  el.querySelector(".piste")?.addEventListener("click", e => ouvrir(e.currentTarget.dataset.id));
+}
+
+function filtrer(sauf){
+  const q = etat.q.toLowerCase().trim();
+  return ITEMS.filter(it => {
+    if (etat.heures && Date.now() - new Date(it.date) > etat.heures*3600e3) return false;
+    if (sauf !== "cat" && etat.cat && it.categorie !== etat.cat) return false;
+    if (sauf !== "type" && etat.type && it.type !== etat.type) return false;
+    if (etat.pc && !it.local) return false;
+    if (etat.nonlu && lus.has(it.id)) return false;
+    if (etat.fav && !favs.has(it.id)) return false;
+    if (etat.chaud && it.flair < 4) return false;
+    if (q){
+      const a = it.analyse || {};
+      const txt = [it.titre, it.extrait, it.source, a.titre_fr, a.resume, (a.tags||[]).join(" ")].join(" ").toLowerCase();
+      if (!q.split(/\s+/).every(m => txt.includes(m))) return false;
+    }
+    return true;
+  });
+}
+
+function listeChoix(el, cle, valeurs, libelle){
+  const base = filtrer(cle), compte = {};
+  base.forEach(it => compte[it[cle==="cat"?"categorie":"type"]] = (compte[it[cle==="cat"?"categorie":"type"]]||0)+1);
+  el.innerHTML = [`<button class="choix" data-v="" aria-pressed="${!etat[cle]}"><span>Tous</span><span>${base.length}</span></button>`]
+    .concat(valeurs.map(v => `<button class="choix" data-v="${esc(v)}" aria-pressed="${etat[cle]===v}"><span>${esc(libelle(v))}</span><span>${compte[v]||0}</span></button>`)).join("");
+  el.querySelectorAll(".choix").forEach(b => b.onclick = () => { etat[cle] = b.dataset.v || null; etat.limite = 60; rendreFiltres(); rendre(); });
+}
+function rendreFiltres(){
+  const cats = [...new Set(ITEMS.map(i=>i.categorie).filter(Boolean))].sort();
+  listeChoix($("#f-cat"), "cat", cats, v=>v);
+  const types = Object.keys(TYPES).filter(t => ITEMS.some(i=>i.type===t));
+  listeChoix($("#f-type"), "type", types, v=>TYPES[v]);
+}
+
+function rendre(){
+  visibles = filtrer();
+  visibles.sort(etat.tri === "date" ? (a,b)=> b.date.localeCompare(a.date) : (a,b)=> (b.flair-a.flair) || (b.score-a.score));
+  $("#compte").textContent = `${visibles.length} sujet${visibles.length>1?"s":""}${lus.size ? `, ${visibles.filter(i=>!lus.has(i.id)).length} non lus` : ""}`;
+  const fil = $("#fil");
+  if (!ITEMS.length){
+    fil.innerHTML = `<li class="vide"><strong>Le chien n'est pas encore sorti</strong>Lance le workflow « Chasse aux nouveautés IA » dans l'onglet Actions de ton dépôt GitHub, ou lance <code>python veille.py</code> sur ton PC.</li>`;
+    $("#plus").hidden = true; return;
+  }
+  if (!visibles.length){
+    fil.innerHTML = `<li class="vide"><strong>Aucune piste avec ces filtres</strong>Élargis la période ou retire un filtre.</li>`;
+    $("#plus").hidden = true; return;
+  }
+  fil.innerHTML = visibles.slice(0, etat.limite).map((it,i) => `
+    <li class="sujet ${lus.has(it.id)?"lu":""} ${i===etat.actif?"actif":""}" data-id="${it.id}" tabindex="0">
+      ${jauge(it.flair)}
+      <div>
+        <p class="titre">${esc(titreDe(it))}</p>
+        <div class="meta">
+          <span>${esc(it.source)}</span><span>${depuis(it.date)}</span>
+          ${it.categorie?`<span class="badge">${esc(it.categorie)}</span>`:""}
+          ${it.local?`<span class="badge pc">Sur mon PC</span>`:""}
+          ${it.echos?.length?`<span class="badge echo">+${it.echos.length} source${it.echos.length>1?"s":""}</span>`:""}
+        </div>
+      </div>
+      <button class="fav" aria-label="Favori" aria-pressed="${favs.has(it.id)}" data-fav="${it.id}">${favs.has(it.id)?"★":"☆"}</button>
+    </li>`).join("");
+  $("#plus").hidden = visibles.length <= etat.limite;
+  fil.querySelectorAll(".sujet").forEach(li => {
+    li.onclick = e => { if (e.target.closest(".fav")) return; ouvrir(li.dataset.id); };
+    li.onkeydown = e => { if (e.key === "Enter") ouvrir(li.dataset.id); };
+  });
+  fil.querySelectorAll(".fav").forEach(b => b.onclick = () => basculerFav(b.dataset.fav));
+}
+
+function basculerFav(id){ favs.has(id) ? favs.delete(id) : favs.add(id); store.set("favs",[...favs]); rendre(); if ($("#panneau").classList.contains("ouvert")) ouvrir(id, true); }
+function marquerLu(id){ if (!lus.has(id)){ lus.add(id); store.set("lus",[...lus].slice(-3000)); } }
+
+function ouvrir(id, silencieux){
+  const it = TOUS.find(i=>i.id===id); if (!it) return;
+  if (it.rubrique === "controle") return ouvrirControle(it);
+  marquerLu(id); etat.actif = visibles.findIndex(v=>v.id===id);
+  const a = it.analyse;
+  const p = $("#panneau");
+  p.innerHTML = `
+    <button class="btn-icone fermer" aria-label="Fermer">✕</button>
+    ${jauge(it.flair)}
+    <h2>${esc(titreDe(it))}</h2>
+    ${a?.titre_fr ? `<p class="original">Titre original : ${esc(it.titre)}</p>` : ""}
+    <div class="meta">
+      <span>${esc(it.source)}</span><span>${new Date(it.date).toLocaleString("fr-FR",{dateStyle:"medium",timeStyle:"short"})}</span>
+      ${a?.niveau?`<span class="badge">Niveau ${esc(a.niveau)}</span>`:""}
+      ${(a?.tags||[]).map(t=>`<span class="badge">${esc(t)}</span>`).join("")}
+    </div>
+    ${a ? `
+      <h3>De quoi il s'agit</h3><p>${esc(a.resume)}</p>
+      ${a.pourquoi?`<h3>Pourquoi c'est important</h3><p>${esc(a.pourquoi)}</p>`:""}
+      ${a.comment_ca_marche?`<h3>Comment ça marche</h3><p>${esc(a.comment_ca_marche)}</p>`:""}
+      ${a.utiliser?.length?`<h3>Comment l'utiliser</h3><ol class="etapes">${a.utiliser.map(e=>`<li>${esc(e)}</li>`).join("")}</ol>`:""}
+      ${a.sur_mon_pc?`<h3>Sur mon PC</h3><div class="encadre ${it.local?"":"non"}">${esc(a.sur_mon_pc)}</div>`:""}
+    ` : `
+      <h3>Extrait</h3><p>${esc(it.extrait || "Pas d'extrait fourni par la source.")}</p>
+      <p class="sans-analyse">Ce sujet n'a pas encore été expliqué par l'IA. Il le sera au prochain passage s'il fait partie des plus flairés (et si une clé API est configurée).</p>
+    `}
+    ${it.echos?.length?`<h3>Aussi repéré chez</h3><p>${it.echos.map(e=>`<a href="${esc(e.lien)}" target="_blank" rel="noopener">${esc(e.source)}</a>`).join(", ")}</p>`:""}
+    <div class="actions">
+      <a class="cta" href="${esc(it.lien)}" target="_blank" rel="noopener">Lire la source</a>
+      <button class="cta sec" data-fav="${it.id}">${favs.has(it.id)?"Retirer des favoris":"Ajouter aux favoris"}</button>
+    </div>`;
+  p.querySelector(".fermer").onclick = fermer;
+  p.querySelector("[data-fav]").onclick = () => basculerFav(it.id);
+  montrerPanneau();
+  if (!silencieux){ p.scrollTop = 0; p.querySelector(".fermer").focus(); rendre(); }
+}
+function montrerPanneau(){ const p=$("#panneau"); p.classList.add("ouvert"); p.setAttribute("aria-hidden","false"); $("#voile").classList.add("ouvert"); }
+function panneau(html){ const p=$("#panneau"); p.innerHTML = `<button class="btn-icone fermer" aria-label="Fermer">✕</button>` + html; p.querySelector(".fermer").onclick = fermer; montrerPanneau(); p.scrollTop = 0; p.querySelector(".fermer").focus(); }
+const liste = arr => `<ul class="listing">${arr.map(x=>`<li>${esc(x)}</li>`).join("")}</ul>`;
+const code = t => esc(t).replace(/`([^`]+)`/g, "<code>$1</code>");
+
+// ----- Annuaire des IA -----
+function mentions(ia, jours){
+  const re = new RegExp("\\b(" + ia.mots.map(m=>m.replace(/[.*+?^${}()|[\]\\]/g,"\\$&")).join("|") + ")", "i");
+  return TOUS.filter(i => (!jours || Date.now()-new Date(i.date) < jours*864e5) && re.test(i.titre + " " + (i.analyse?.titre_fr||"") + " " + (i.extrait||"")))
+             .sort((a,b)=>b.date.localeCompare(a.date));
+}
+function rendreAnnuaire(){
+  if (!ANNUAIRE){ $("#annuaire").innerHTML = `<p class="vide">Fichier data/annuaire.json introuvable.</p>`; return; }
+  $("#annuaire-verif").textContent = ANNUAIRE.note;
+  $("#taches").innerHTML = Object.entries(ANNUAIRE.taches).map(([k,v])=>`<button class="puce" data-t="${k}" aria-pressed="${tacheActive===k}">${esc(v)}</button>`).join("");
+  $("#taches").querySelectorAll(".puce").forEach(b => b.onclick = () => { tacheActive = tacheActive===b.dataset.t ? null : b.dataset.t; rendreAnnuaire(); });
+  const ias = [...ANNUAIRE.ia].sort((a,b)=> tacheActive ? (b.taches.includes(tacheActive)) - (a.taches.includes(tacheActive)) : 0);
+  $("#annuaire").innerHTML = ias.map(ia => {
+    const n = mentions(ia, 7).length;
+    return `<button class="fiche ${tacheActive && !ia.taches.includes(tacheActive) ? "pale" : ""}" data-ia="${ia.id}">
+      <p class="fiche-nom">${esc(ia.nom)}</p>
+      <div class="fiche-org">${esc(ia.entreprise)}, ${esc(ia.pays)}, depuis ${esc(ia.cree)}</div>
+      <p class="fiche-ideal">${esc(ia.ideal)}</p>
+      <div class="meta">
+        ${ia.id==="local" ? `<span class="badge pc">Outil gratuit</span>` : ia.ouvert ? `<span class="badge pc">Poids ouverts</span>` : `<span class="badge">Modèle fermé</span>`}
+        <span class="pouls">${n ? `<b>${n}</b> actu${n>1?"s":""} cette semaine` : "Calme cette semaine"}</span>
+      </div>
+    </button>`;
+  }).join("");
+  $("#annuaire").querySelectorAll(".fiche").forEach(b => b.onclick = () => ouvrirIA(b.dataset.ia));
+}
+function ouvrirIA(id){
+  const ia = ANNUAIRE.ia.find(x=>x.id===id); if (!ia) return;
+  const actus = mentions(ia, 0).slice(0, 8);
+  panneau(`
+    <div class="fiche-org">${esc(ia.entreprise)}, ${esc(ia.pays)}</div>
+    <h2>${esc(ia.nom)}</h2>
+    <p>${esc(ia.ideal)}</p>
+    <h3>Comment je l'utilise</h3>
+    <ol class="etapes">${ia.utiliser.map(e=>`<li>${code(e)}</li>`).join("")}</ol>
+    <h3>Sur mon PC</h3><div class="encadre ${ia.ouvert?"":"non"}">${code(ia.sur_pc)}</div>
+    ${ia.astuce?`<h3>L'astuce</h3><p>${esc(ia.astuce)}</p>`:""}
+    <h3>Points forts</h3>${liste(ia.forces)}
+    <h3>Limites</h3>${liste(ia.limites)}
+    <h3>Modèles actuels</h3>${liste(ia.modeles)}
+    <h3>Ce qu'elle fait en ce moment</h3>${liste(ia.activite)}
+    <h3>Dans ta veille</h3>
+    ${actus.length ? `<ul class="listing">${actus.map(a=>`<li><a href="#" data-item="${a.id}">${esc(titreDe(a))}</a> <span class="original">(${esc(a.source)}, ${depuis(a.date)})</span></li>`).join("")}</ul>` : `<p class="original">Rien dans ta veille pour l'instant. Les actus apparaîtront ici automatiquement.</p>`}
+    <h3>Son histoire</h3>
+    <ol class="frise">${ia.histoire.map(([d,t])=>`<li><b>${esc(d)}</b>${esc(t)}</li>`).join("")}</ol>
+    <div class="actions"><a class="cta" href="${esc(ia.site)}" target="_blank" rel="noopener">Ouvrir ${esc(ia.nom)}</a></div>`);
+  $("#panneau").querySelectorAll("[data-item]").forEach(a => a.onclick = e => { e.preventDefault(); ouvrir(a.dataset.item); });
+}
+
+// ----- Contrôle et pouvoir -----
+const PREUVE = {documente:"Prouvé", plausible:"Plausible", speculatif:"Spéculatif"};
+const pastille = p => `<span class="preuve ${p}">${PREUVE[p]||p}</span>`;
+function lienSource(cle){ const s = CONTROLE.sources[cle]; return s ? `<a href="${esc(s.lien)}" target="_blank" rel="noopener">${esc(s.nom)}</a>` : ""; }
+function rendreControle(){
+  if (!CONTROLE) return;
+  $("#controle-intro").textContent = CONTROLE.intro;
+  $("#legende").innerHTML = Object.entries(CONTROLE.echelle).map(([k,v])=>`<span>${pastille(k)} ${esc(v.split(":")[1]||"")}</span>`).join("");
+  $("#dossiers").innerHTML = CONTROLE.dossiers.map(d => {
+    const c = {documente:0, plausible:0}; d.faits.forEach(f=>c[f.preuve]=(c[f.preuve]||0)+1);
+    return `<button class="dossier" data-d="${d.id}"><h3>${esc(d.titre)}</h3><p>${esc(d.recit)}</p>
+      <div class="balance">${c.documente?`<span class="preuve documente">${c.documente} fait${c.documente>1?"s":""} prouvé${c.documente>1?"s":""}</span>`:""}${c.plausible?`<span class="preuve plausible">${c.plausible} plausible${c.plausible>1?"s":""}</span>`:""}<span class="preuve speculatif">${d.speculatif.length} spéculatif${d.speculatif.length>1?"s":""}</span></div></button>`;
+  }).join("");
+  $("#dossiers").querySelectorAll(".dossier").forEach(b => b.onclick = () => ouvrirDossier(b.dataset.d));
+  $("#chrono-titre").textContent = CONTROLE.chronologie_titre;
+  $("#chrono").innerHTML = CONTROLE.chronologie.map(([d,t])=>`<li><b>${esc(d)}</b>${esc(t)}</li>`).join("");
+  $("#chrono-sources").innerHTML = "Sources : " + CONTROLE.chronologie_sources.map(lienSource).join(", ");
+  rendreFilControle();
+}
+function rendreFilControle(){
+  const items = TOUS.filter(i => i.rubrique === "controle" && Date.now()-new Date(i.date) < 7*864e5).sort((a,b)=>(b.flair-a.flair)||b.date.localeCompare(a.date));
+  $("#compte-controle").textContent = items.length ? `${items.length} sujet${items.length>1?"s":""} sur 7 jours` : "";
+  $("#fil-controle").innerHTML = items.length ? items.slice(0,40).map(it => `
+    <li class="sujet ${lus.has(it.id)?"lu":""}" data-id="${it.id}" tabindex="0">
+      ${jauge(it.flair)}
+      <div><p class="titre">${esc(titreDe(it))}</p>
+        <div class="meta"><span>${esc(it.source)}</span><span>${depuis(it.date)}</span>
+        ${it.categorie?`<span class="badge">${esc(it.categorie)}</span>`:""}${it.analyse?.preuve?pastille(it.analyse.preuve):""}</div></div><span></span>
+    </li>`).join("") : `<li class="vide"><strong>Rien pour l'instant</strong>Le fil se remplit au prochain passage du chien de chasse.</li>`;
+  $("#fil-controle").querySelectorAll(".sujet").forEach(li => { li.onclick = () => ouvrir(li.dataset.id); li.onkeydown = e => { if (e.key==="Enter") ouvrir(li.dataset.id); }; });
+}
+function ouvrirDossier(id){
+  const d = CONTROLE.dossiers.find(x=>x.id===id); if (!d) return;
+  panneau(`
+    <h2>${esc(d.titre)}</h2>
+    <h3>Le récit</h3><div class="bloc-recit">${esc(d.recit)}</div>
+    <h3>Ce qui est établi</h3>
+    ${d.faits.map(f=>`<div class="fait">${pastille(f.preuve)}<p>${esc(f.texte)}</p>${f.sources.length?`<small>${f.sources.map(lienSource).join(", ")}</small>`:""}</div>`).join("")}
+    <h3>Ce qui reste spéculatif</h3>${liste(d.speculatif)}
+    <h3>Les signaux à surveiller</h3>${liste(d.signaux)}
+    <p class="verif">Dossier vérifié le ${new Date(CONTROLE.verifie).toLocaleDateString("fr-FR")}. Les nouveaux éléments arrivent dans le fil de la semaine.</p>`);
+}
+function ouvrirControle(it){
+  marquerLu(it.id); const a = it.analyse;
+  panneau(`
+    ${jauge(it.flair)}
+    <h2>${esc(titreDe(it))}</h2>
+    <div class="meta"><span>${esc(it.source)}</span><span>${depuis(it.date)}</span>${it.categorie?`<span class="badge">${esc(it.categorie)}</span>`:""}${a?.preuve?pastille(a.preuve):""}</div>
+    ${a ? `
+      <h3>Ce qui s'est passé</h3><p>${esc(a.resume)}</p>
+      <h3>La crainte</h3><div class="bloc-recit">${esc(a.la_crainte)}</div>
+      <h3>Ce que les faits disent</h3><p>${esc(a.les_faits)}</p>
+      <h3>Ce qu'on ne sait pas</h3><p>${esc(a.inconnues)}</p>
+      ${a.a_surveiller?`<h3>À surveiller</h3><p>${esc(a.a_surveiller)}</p>`:""}
+    ` : `<h3>Extrait</h3><p>${esc(it.extrait || "Pas d'extrait fourni par la source.")}</p><p class="sans-analyse">Pas encore analysé. Il le sera au prochain passage s'il fait partie des sujets les plus importants.</p>`}
+    <div class="actions"><a class="cta" href="${esc(it.lien)}" target="_blank" rel="noopener">Lire la source</a></div>`);
+  rendreFilControle();
+}
+
+// ----- Navigation -----
+function router(){
+  const vue = ["veille","annuaire","controle"].includes(location.hash.slice(1)) ? location.hash.slice(1) : "veille";
+  document.querySelectorAll(".vue").forEach(v => v.hidden = v.id !== "vue-"+vue);
+  document.querySelectorAll("nav.onglets a").forEach(a => a.dataset.vue===vue ? a.setAttribute("aria-current","page") : a.removeAttribute("aria-current"));
+  fermer();
+}
+window.addEventListener("hashchange", router);
+
+function fermer(){ const p=$("#panneau"); p.classList.remove("ouvert"); p.setAttribute("aria-hidden","true"); $("#voile").classList.remove("ouvert"); }
+
+function exporter(){
+  const f = ITEMS.filter(i=>favs.has(i.id));
+  if (!f.length){ alert("Aucun favori pour l'instant : clique sur ☆ à côté d'un sujet."); return; }
+  const md = `# Mes favoris de veille IA — ${new Date().toLocaleDateString("fr-FR")}\n\n` + f.map(i => {
+    const a = i.analyse || {};
+    return `## ${titreDe(i)}\n*${i.source}, ${new Date(i.date).toLocaleDateString("fr-FR")}* — ${i.lien}\n\n${a.resume || i.extrait || ""}\n${a.utiliser?.length ? "\n**À faire :**\n" + a.utiliser.map(e=>`- ${e}`).join("\n") + "\n" : ""}`;
+  }).join("\n");
+  const url = URL.createObjectURL(new Blob([md], {type:"text/markdown"}));
+  const lien = Object.assign(document.createElement("a"), {href:url, download:"favoris-veille-ia.md"});
+  document.body.append(lien); lien.click(); lien.remove(); URL.revokeObjectURL(url);
+}
+
+// Événements
+let minuterie;
+$("#q").oninput = e => { clearTimeout(minuterie); minuterie = setTimeout(()=>{ etat.q = e.target.value; etat.limite = 60; rendreFiltres(); rendre(); }, 150); };
+$("#periode").querySelectorAll("button").forEach(b => b.onclick = () => {
+  $("#periode").querySelectorAll("button").forEach(x=>x.setAttribute("aria-pressed", x===b));
+  etat.heures = +b.dataset.v; etat.limite = 60; rendreFiltres(); rendre();
+});
+$("#tri").onchange = e => { etat.tri = e.target.value; rendre(); };
+[["#f-pc","pc"],["#f-nonlu","nonlu"],["#f-fav","fav"],["#f-chaud","chaud"]].forEach(([s,k]) => $(s).onchange = e => { etat[k] = e.target.checked; rendreFiltres(); rendre(); });
+$("#plus").onclick = () => { etat.limite += 60; rendre(); };
+$("#tout-lu").onclick = () => { visibles.forEach(i=>lus.add(i.id)); store.set("lus",[...lus].slice(-3000)); rendre(); };
+$("#export").onclick = exporter;
+$("#voile").onclick = fermer;
+$("#theme").onclick = () => {
+  const sombre = document.documentElement.dataset.theme ? document.documentElement.dataset.theme === "dark" : matchMedia("(prefers-color-scheme: dark)").matches;
+  document.documentElement.dataset.theme = sombre ? "light" : "dark"; store.set("theme", document.documentElement.dataset.theme);
+};
+const t = store.get("theme", null); if (t) document.documentElement.dataset.theme = t;
+document.addEventListener("keydown", e => {
+  if (e.target.matches("input,select,textarea")) { if (e.key === "Escape") e.target.blur(); return; }
+  if (e.key === "/" && !$("#vue-veille").hidden) { e.preventDefault(); $("#q").focus(); }
+  else if (e.key === "Escape") fermer();
+  else if ((e.key === "j" || e.key === "k") && visibles.length && !$("#vue-veille").hidden){
+    etat.actif = Math.max(0, Math.min(visibles.length-1, etat.actif + (e.key==="j"?1:-1)));
+    ouvrir(visibles[etat.actif].id);
+  }
+});
+charger();
+</script>
+</body>
+</html>

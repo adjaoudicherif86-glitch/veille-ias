@@ -1,0 +1,177 @@
+{
+ "_aide": "type = officiel | presse | recherche | communaute | fr. filtre_ia = true pour ne garder que les articles qui parlent d'IA. max = nombre d'articles gardés par passage. rubrique = veille (défaut) ou controle (onglet Contrôle et pouvoir).",
+ "sources": [
+  {
+   "nom": "OpenAI",
+   "url": "https://openai.com/news/rss.xml",
+   "type": "officiel"
+  },
+  {
+   "nom": "Google DeepMind",
+   "url": "https://deepmind.google/blog/rss.xml",
+   "type": "officiel"
+  },
+  {
+   "nom": "Google AI",
+   "url": "https://blog.google/technology/ai/rss/",
+   "type": "officiel"
+  },
+  {
+   "nom": "Microsoft AI",
+   "url": "https://blogs.microsoft.com/ai/feed/",
+   "type": "officiel"
+  },
+  {
+   "nom": "NVIDIA",
+   "url": "https://blogs.nvidia.com/feed/",
+   "type": "officiel",
+   "filtre_ia": true
+  },
+  {
+   "nom": "Hugging Face",
+   "url": "https://huggingface.co/blog/feed.xml",
+   "type": "officiel"
+  },
+  {
+   "nom": "Anthropic (actus)",
+   "url": "https://news.google.com/rss/search?q=Anthropic+OR+%22Claude+AI%22&hl=en-US&gl=US&ceid=US:en",
+   "type": "presse",
+   "max": 15
+  },
+  {
+   "nom": "Mistral AI (actus)",
+   "url": "https://news.google.com/rss/search?q=%22Mistral+AI%22&hl=fr&gl=FR&ceid=FR:fr",
+   "type": "fr",
+   "max": 10
+  },
+  {
+   "nom": "Meta Llama (actus)",
+   "url": "https://news.google.com/rss/search?q=%22Meta%22+Llama+AI&hl=en-US&gl=US&ceid=US:en",
+   "type": "presse",
+   "max": 10
+  },
+  {
+   "nom": "MIT Technology Review",
+   "url": "https://www.technologyreview.com/topic/artificial-intelligence/feed",
+   "type": "presse"
+  },
+  {
+   "nom": "The Verge IA",
+   "url": "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml",
+   "type": "presse"
+  },
+  {
+   "nom": "TechCrunch IA",
+   "url": "https://techcrunch.com/category/artificial-intelligence/feed/",
+   "type": "presse"
+  },
+  {
+   "nom": "VentureBeat IA",
+   "url": "https://venturebeat.com/category/ai/feed/",
+   "type": "presse"
+  },
+  {
+   "nom": "Simon Willison",
+   "url": "https://simonwillison.net/atom/everything/",
+   "type": "communaute",
+   "filtre_ia": true
+  },
+  {
+   "nom": "Hacker News (IA, 100+ pts)",
+   "url": "https://hnrss.org/newest?q=AI+OR+LLM+OR+GPT+OR+Claude+OR+Gemini&points=100",
+   "type": "communaute"
+  },
+  {
+   "nom": "r/LocalLLaMA",
+   "url": "https://www.reddit.com/r/LocalLLaMA/top/.rss?t=day",
+   "type": "communaute",
+   "max": 10
+  },
+  {
+   "nom": "arXiv cs.AI",
+   "url": "https://rss.arxiv.org/rss/cs.AI",
+   "type": "recherche",
+   "max": 8
+  },
+  {
+   "nom": "arXiv cs.CL",
+   "url": "https://rss.arxiv.org/rss/cs.CL",
+   "type": "recherche",
+   "max": 8
+  },
+  {
+   "nom": "ActuIA",
+   "url": "https://www.actuia.com/feed/",
+   "type": "fr"
+  },
+  {
+   "nom": "IA en français (actus)",
+   "url": "https://news.google.com/rss/search?q=%22intelligence+artificielle%22+nouveau+mod%C3%A8le&hl=fr&gl=FR&ceid=FR:fr",
+   "type": "fr",
+   "max": 15
+  },
+  {
+   "nom": "Surveillance et IA",
+   "url": "https://news.google.com/rss/search?q=AI+mass+surveillance+OR+%22facial+recognition%22&hl=en-US&gl=US&ceid=US:en-US",
+   "type": "presse",
+   "rubrique": "controle",
+   "max": 10
+  },
+  {
+   "nom": "IA et surveillance (FR)",
+   "url": "https://news.google.com/rss/search?q=intelligence+artificielle+surveillance+OR+reconnaissance+faciale&hl=fr&gl=FR&ceid=FR:fr",
+   "type": "fr",
+   "rubrique": "controle",
+   "max": 10
+  },
+  {
+   "nom": "IA militaire",
+   "url": "https://news.google.com/rss/search?q=AI+Pentagon+OR+%22autonomous+weapons%22+OR+%22military+AI%22&hl=en-US&gl=US&ceid=US:en-US",
+   "type": "presse",
+   "rubrique": "controle",
+   "max": 10
+  },
+  {
+   "nom": "Anthropic et gouvernement",
+   "url": "https://news.google.com/rss/search?q=Anthropic+Pentagon+OR+Anthropic+court+OR+Anthropic+government&hl=en-US&gl=US&ceid=US:en-US",
+   "type": "presse",
+   "rubrique": "controle",
+   "max": 10
+  },
+  {
+   "nom": "Sécurité des modèles",
+   "url": "https://news.google.com/rss/search?q=%22AI+safety%22+incident+OR+%22AI+model%22+shutdown+OR+%22rogue+AI%22&hl=en-US&gl=US&ceid=US:en-US",
+   "type": "presse",
+   "rubrique": "controle",
+   "max": 10
+  },
+  {
+   "nom": "Contrôles à l'export IA",
+   "url": "https://news.google.com/rss/search?q=AI+%22export+controls%22&hl=en-US&gl=US&ceid=US:en-US",
+   "type": "presse",
+   "rubrique": "controle",
+   "max": 10
+  },
+  {
+   "nom": "Désinformation et deepfakes",
+   "url": "https://news.google.com/rss/search?q=deepfake+election+OR+%22AI+influence+operation%22&hl=en-US&gl=US&ceid=US:en-US",
+   "type": "presse",
+   "rubrique": "controle",
+   "max": 10
+  },
+  {
+   "nom": "Régulation européenne",
+   "url": "https://news.google.com/rss/search?q=%22AI+Act%22+OR+%22r%C3%A8glement+IA%22&hl=fr&gl=FR&ceid=FR:fr",
+   "type": "fr",
+   "rubrique": "controle",
+   "max": 10
+  },
+  {
+   "nom": "Vie privée et assistants IA",
+   "url": "https://news.google.com/rss/search?q=AI+assistant+privacy+data&hl=en-US&gl=US&ceid=US:en-US",
+   "type": "presse",
+   "rubrique": "controle",
+   "max": 10
+  }
+ ]
+}

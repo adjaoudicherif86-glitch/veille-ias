@@ -1,0 +1,642 @@
+{
+ "verifie": "2026-09-30",
+ "note": "Fiches vérifiées le 30 septembre 2026. Les versions changent vite : la rubrique « Dans ta veille » de chaque fiche, elle, se met à jour toute seule.",
+ "taches": {
+  "ecrire": "Écrire, reformuler",
+  "coder": "Coder",
+  "chercher": "Chercher sur le web",
+  "documents": "Analyser des documents",
+  "agents": "Déléguer des tâches (agents)",
+  "medias": "Images, vidéo, voix",
+  "local": "En local, hors ligne",
+  "europe": "Souveraineté, français"
+ },
+ "ia": [
+  {
+   "id": "claude",
+   "nom": "Claude",
+   "entreprise": "Anthropic",
+   "pays": "États-Unis",
+   "cree": "2021",
+   "ouvert": false,
+   "site": "https://claude.ai",
+   "ideal": "Écrire, coder et travailler sur de longs documents avec beaucoup de rigueur.",
+   "taches": [
+    "ecrire",
+    "coder",
+    "documents",
+    "agents"
+   ],
+   "modeles": [
+    "Claude Opus 5.5 (septembre 2026) : le modèle polyvalent haut de gamme",
+    "Claude Sonnet 5.5 : plus rapide et moins cher",
+    "Claude Haiku 4.5 : le plus léger",
+    "Claude Fable 5.1 (septembre 2026) : modèle de classe Mythos ouvert au public, avec des garde-fous renforcés",
+    "Claude Mythos 5.1 : même modèle, réservé à quelques organisations (Project Glasswing)"
+   ],
+   "forces": [
+    "Qualité d'écriture et de raisonnement, très apprécié en français",
+    "Code : Claude Code travaille directement dans tes projets",
+    "Lit de très longs documents (contrats, rapports, bases de code)",
+    "Agents : Cowork, Claude in Chrome, Excel, PowerPoint"
+   ],
+   "limites": [
+    "Quotas d'usage limités en version gratuite",
+    "Ne génère pas d'images elle-même",
+    "Politique de sécurité parfois jugée prudente"
+   ],
+   "utiliser": [
+    "Va sur claude.ai et crée un compte (gratuit pour commencer)",
+    "Glisse un PDF, un tableur ou une capture d'écran dans la conversation et pose ta question",
+    "Crée un « Projet » pour lui donner une fois pour toutes le contexte de ton travail",
+    "Pour un document, une appli ou un tableau de bord, demande-lui de le fabriquer : il le crée directement",
+    "Pour le code, installe Claude Code et lance-le dans le dossier de ton projet"
+   ],
+   "sur_pc": "Application Claude pour Windows et Mac (claude.ai/download). Claude Code en ligne de commande pour les développeurs. Pas de version locale : les modèles tournent chez Anthropic.",
+   "astuce": "Donne-lui un exemple du résultat que tu veux (un mail, un format de rapport) : c'est souvent plus efficace qu'une longue consigne.",
+   "activite": [
+    "Septembre 2026 : sortie de Claude Opus 5.5, de Fable 5.1 et de Mythos 5.1",
+    "Fin septembre 2026 : dossier d'introduction en Bourse (prospectus rapporté par Reuters et le FT)",
+    "25 septembre 2026 : une cour d'appel fédérale confirme l'étiquette de « risque pour la chaîne d'approvisionnement » posée par le Pentagone (voir l'onglet Contrôle et pouvoir)"
+   ],
+   "histoire": [
+    [
+     "2021",
+     "Fondée par Dario et Daniela Amodei et d'anciens chercheurs d'OpenAI, avec la sécurité de l'IA comme mission"
+    ],
+    [
+     "2023",
+     "Premières versions de Claude"
+    ],
+    [
+     "2024",
+     "Famille Claude 3, puis Claude 3.5 Sonnet, très remarqué pour le code"
+    ],
+    [
+     "2025",
+     "Lancement de Claude Code, l'agent de programmation"
+    ],
+    [
+     "Avril 2026",
+     "Annonce de Claude Mythos, un modèle plus puissant d'abord réservé à des partenaires de cybersécurité"
+    ],
+    [
+     "Juin 2026",
+     "Sortie de Fable 5 et Mythos 5, accès suspendu du 12 juin au 1er juillet pour se conformer à des contrôles à l'export américains"
+    ],
+    [
+     "Septembre 2026",
+     "Versions 5.1, Opus 5.5 et préparation de l'entrée en Bourse"
+    ]
+   ],
+   "mots": [
+    "anthropic",
+    "claude",
+    "mythos",
+    "fable",
+    "amodei"
+   ]
+  },
+  {
+   "id": "chatgpt",
+   "nom": "ChatGPT",
+   "entreprise": "OpenAI",
+   "pays": "États-Unis",
+   "cree": "2015",
+   "ouvert": false,
+   "site": "https://chatgpt.com",
+   "ideal": "L'assistant tout-terrain : questions du quotidien, images, voix, et maintenant agents permanents.",
+   "taches": [
+    "ecrire",
+    "coder",
+    "chercher",
+    "medias",
+    "agents"
+   ],
+   "modeles": [
+    "GPT-6 Astra : le modèle phare",
+    "GPT-6.1 Sol (29 septembre 2026) : proche d'Astra en code et usage de l'ordinateur, pour une fraction du prix",
+    "Codex : l'agent de programmation"
+   ],
+   "forces": [
+    "L'écosystème le plus large : voix, images, recherche web, plugins",
+    "Dots : des agents qui travaillent en continu sur tes objectifs, avec leur propre ordinateur dans le cloud",
+    "ChatGPT Space et Pages pour travailler à plusieurs avec l'IA",
+    "Énorme communauté, donc beaucoup de tutoriels"
+   ],
+   "limites": [
+    "Les fonctions les plus avancées sont réservées aux abonnements chers (nouveau plan Pro 500)",
+    "Dots réservé pour l'instant aux abonnés Pro et Business Premium",
+    "Enchaînement très rapide des versions, difficile à suivre"
+   ],
+   "utiliser": [
+    "Va sur chatgpt.com ou installe l'appli mobile",
+    "Active la voix pour réfléchir à voix haute ou t'entraîner à un entretien",
+    "Utilise la recherche web pour les questions d'actualité",
+    "Crée un GPT personnalisé pour une tâche répétitive (répondre à des mails types, par exemple)",
+    "Si tu as l'abonnement adéquat, confie un objectif à un Dot et vérifie régulièrement son travail"
+   ],
+   "sur_pc": "Application ChatGPT pour Windows et Mac. Codex pour les développeurs. Pas de version locale de GPT-6.",
+   "astuce": "Demande-lui de te poser des questions avant de répondre : « Pose-moi 5 questions pour bien comprendre mon besoin, puis réponds ».",
+   "activite": [
+    "29 septembre 2026 : DevDay, plus de 20 annonces (Dots, GPT-6.1 Sol, ChatGPT Space, plan Pro 500, Agents API)",
+    "Septembre 2026 : OpenAI renonce à publier GPT-6.1 Astra, jugé insuffisant sur ses critères de sécurité",
+    "OpenAI revendique 1,2 milliard d'utilisateurs par semaine"
+   ],
+   "histoire": [
+    [
+     "2015",
+     "Fondée comme laboratoire à but non lucratif, avec notamment Sam Altman et Elon Musk"
+    ],
+    [
+     "2019",
+     "Création d'une structure à but lucratif plafonné et partenariat avec Microsoft"
+    ],
+    [
+     "Novembre 2022",
+     "Lancement de ChatGPT, qui déclenche la vague de l'IA générative"
+    ],
+    [
+     "2023",
+     "GPT-4"
+    ],
+    [
+     "2024",
+     "Modèles de raisonnement (série o)"
+    ],
+    [
+     "2026",
+     "Génération GPT-6, agents Dots, et procès perdu par Elon Musk contre OpenAI"
+    ]
+   ],
+   "mots": [
+    "openai",
+    "chatgpt",
+    "gpt-6",
+    "gpt6",
+    "altman",
+    "codex",
+    "sora"
+   ]
+  },
+  {
+   "id": "gemini",
+   "nom": "Gemini",
+   "entreprise": "Google DeepMind",
+   "pays": "États-Unis / Royaume-Uni",
+   "cree": "2023",
+   "ouvert": false,
+   "site": "https://gemini.google.com",
+   "ideal": "Tout ce qui touche à l'écosystème Google, aux vidéos et aux très gros volumes de documents.",
+   "taches": [
+    "chercher",
+    "documents",
+    "medias",
+    "coder",
+    "agents"
+   ],
+   "modeles": [
+    "Gemini 3.8 Flash (septembre 2026) : le modèle recommandé pour les nouveaux projets",
+    "Gemini 3.1 Pro et 3 Deep Think : raisonnement poussé",
+    "Gemini Omni : génération et montage vidéo",
+    "NotebookLM : assistant de recherche sur tes propres sources"
+   ],
+   "forces": [
+    "Intégré à Gmail, Docs, Drive, Android",
+    "Très longs contextes : des bases de code ou des vidéos entières",
+    "API avec offre gratuite (c'est elle qui alimente les explications de ton appli Flair)",
+    "NotebookLM transforme tes documents en résumé audio façon podcast"
+   ],
+   "limites": [
+    "Certaines fonctions arrivent plus tard ou pas du tout dans l'Espace économique européen",
+    "Sur l'offre gratuite de l'API, Google peut utiliser tes données pour améliorer ses produits"
+   ],
+   "utiliser": [
+    "Va sur gemini.google.com avec ton compte Google",
+    "Connecte Gmail et Drive pour lui demander « résume mes mails importants de la semaine »",
+    "Ouvre notebooklm.google, ajoute tes PDF ou tes liens, puis génère un résumé audio",
+    "Pour développer, récupère une clé gratuite sur aistudio.google.com"
+   ],
+   "sur_pc": "Dans le navigateur, ou en appli sur Android. Les modèles Gemma (famille ouverte de Google) peuvent, eux, tourner en local via Ollama ou LM Studio.",
+   "astuce": "NotebookLM ne répond qu'à partir des sources que tu lui donnes : idéal pour éviter les inventions sur un sujet précis.",
+   "activite": [
+    "Septembre 2026 : Gemini 3.8 Flash devient le modèle conseillé aux développeurs",
+    "19 septembre 2026 : révélation que Gemini a accédé aux systèmes de trois entreprises lors de tests de cybersécurité (voir l'onglet Contrôle et pouvoir)",
+    "Fin septembre 2026 : Gemini alimente, avec Grok, le portail fédéral America.gov"
+   ],
+   "histoire": [
+    [
+     "2010",
+     "Création de DeepMind à Londres, rachetée par Google en 2014"
+    ],
+    [
+     "2016",
+     "AlphaGo bat le champion du monde de go"
+    ],
+    [
+     "Mars 2023",
+     "Lancement de Bard, réponse de Google à ChatGPT"
+    ],
+    [
+     "Février 2024",
+     "Bard devient Gemini"
+    ],
+    [
+     "2026",
+     "Gemini 3.x, agents, vidéo Omni et robotique (Gemini Robotics ER 2)"
+    ]
+   ],
+   "mots": [
+    "gemini",
+    "google",
+    "deepmind",
+    "notebooklm",
+    "gemma"
+   ]
+  },
+  {
+   "id": "grok",
+   "nom": "Grok",
+   "entreprise": "SpaceXAI (ex-xAI)",
+   "pays": "États-Unis",
+   "cree": "2023",
+   "ouvert": false,
+   "site": "https://grok.com",
+   "ideal": "Suivre ce qui se dit en temps réel sur X et tester un ton plus libre.",
+   "taches": [
+    "chercher",
+    "coder",
+    "agents",
+    "medias"
+   ],
+   "modeles": [
+    "Grok 4.7 (21 septembre 2026) : le modèle phare",
+    "Grok Bot : agent en bêta qui tourne sur un ordinateur dans le cloud",
+    "Imagine : images et vidéo"
+   ],
+   "forces": [
+    "Accès aux publications de X en direct",
+    "Grand contexte (500 000 jetons annoncés pour la génération 4.6)",
+    "Rythme de sortie très rapide"
+   ],
+   "limites": [
+    "Plusieurs polémiques de contenu : bloqué temporairement en Malaisie et en Indonésie en janvier 2026",
+    "Proximité avec les intérêts d'Elon Musk, à garder en tête pour les sujets politiques"
+   ],
+   "utiliser": [
+    "Va sur grok.com ou utilise-le directement dans X",
+    "Demande « Que dit-on sur X de [sujet] depuis ce matin ? » pour une veille à chaud",
+    "Recoupe toujours avec une autre source : ce qui circule sur X n'est pas vérifié"
+   ],
+   "sur_pc": "Navigateur, application X, et voitures Tesla. Les poids de Grok-1 et Grok-2 ont été publiés, mais ils sont trop gros et anciens pour un usage pratique sur PC.",
+   "astuce": "Excellent pour sentir l'ambiance d'un sujet, beaucoup moins pour établir des faits.",
+   "activite": [
+    "21 septembre 2026 : sortie de Grok 4.7",
+    "Août 2026 : xAI devient SpaceXAI, lancement de Grok Bot",
+    "Fin septembre 2026 : alimente, avec Gemini, le portail America.gov"
+   ],
+   "histoire": [
+    [
+     "2023",
+     "Elon Musk fonde xAI"
+    ],
+    [
+     "Novembre 2023",
+     "Premier Grok"
+    ],
+    [
+     "Mars 2024",
+     "Publication des poids de Grok-1 en licence Apache 2.0"
+    ],
+    [
+     "Mars 2025",
+     "xAI absorbe le réseau social X"
+    ],
+    [
+     "Février 2026",
+     "SpaceX rachète xAI"
+    ],
+    [
+     "Août 2026",
+     "Renommée SpaceXAI"
+    ]
+   ],
+   "mots": [
+    "grok",
+    "xai",
+    "spacexai",
+    "musk"
+   ]
+  },
+  {
+   "id": "meta",
+   "nom": "Meta AI et Muse",
+   "entreprise": "Meta (Superintelligence Labs)",
+   "pays": "États-Unis",
+   "cree": "2023",
+   "ouvert": false,
+   "site": "https://www.meta.ai",
+   "ideal": "L'IA déjà présente dans WhatsApp, Instagram et Messenger.",
+   "taches": [
+    "ecrire",
+    "medias",
+    "agents"
+   ],
+   "modeles": [
+    "Muse Spark (avril 2026) : remplace Llama dans les applis Meta",
+    "Muse Image (juillet 2026) : génération d'images",
+    "Muse (septembre 2026) : appli d'agent personnel, États-Unis et Canada"
+   ],
+   "forces": [
+    "Accessible à plus de 3 milliards de personnes via les applis Meta",
+    "Rien à installer si tu utilises déjà WhatsApp",
+    "Les anciens modèles Llama restent téléchargeables et utilisables en local"
+   ],
+   "limites": [
+    "Connexion via Facebook ou Instagram, ce qui pose des questions de vie privée",
+    "Mode « shopping » qui s'appuie sur tes centres d'intérêt",
+    "Muse Spark n'est plus un modèle ouvert, contrairement à Llama",
+    "Disponibilité limitée hors Amérique du Nord au lancement"
+   ],
+   "utiliser": [
+    "Dans WhatsApp, ouvre la conversation Meta AI ou tape @Meta AI dans un groupe",
+    "Demande un résumé d'une longue discussion de groupe",
+    "Génère une image pour une invitation ou un post"
+   ],
+   "sur_pc": "Muse est hébergé chez Meta. Pour du local, les modèles Llama 3 restent une référence avec Ollama ou LM Studio.",
+   "astuce": "Évite d'y partager des informations professionnelles sensibles : tout est lié à ton compte Meta.",
+   "activite": [
+    "8 septembre 2026 : lancement de l'appli d'agent Muse",
+    "Mark Zuckerberg estime qu'aucune coordination de sécurité à l'échelle du secteur n'est nécessaire (NBC News, septembre 2026)"
+   ],
+   "histoire": [
+    [
+     "2013",
+     "Création du laboratoire de recherche FAIR"
+    ],
+    [
+     "2023",
+     "Llama, puis Llama 2 : Meta devient le champion des modèles ouverts"
+    ],
+    [
+     "2025",
+     "Llama 4 déçoit ; Meta investit 14,3 milliards de dollars dans Scale AI et crée Superintelligence Labs"
+    ],
+    [
+     "Avril 2026",
+     "Muse Spark, premier modèle du nouveau laboratoire, cette fois propriétaire"
+    ]
+   ],
+   "mots": [
+    "meta ai",
+    "muse spark",
+    "llama",
+    "zuckerberg",
+    "superintelligence labs"
+   ]
+  },
+  {
+   "id": "mistral",
+   "nom": "Le Chat (Mistral AI)",
+   "entreprise": "Mistral AI",
+   "pays": "France",
+   "cree": "2023",
+   "ouvert": true,
+   "site": "https://chat.mistral.ai",
+   "ideal": "Une IA européenne, performante en français, avec des modèles téléchargeables.",
+   "taches": [
+    "ecrire",
+    "coder",
+    "local",
+    "europe",
+    "documents"
+   ],
+   "modeles": [
+    "Mistral Large 3 (décembre 2025) : 675 milliards de paramètres, poids ouverts sous licence Apache 2.0",
+    "Mistral Medium 3.5",
+    "Petits modèles ouverts qui tournent sur un PC",
+    "Robostral Navigate (juillet 2026) : navigation robotique"
+   ],
+   "forces": [
+    "Données hébergées en Europe, argument clé pour les entreprises et administrations",
+    "Beaucoup de modèles à poids ouverts",
+    "Très bon en français",
+    "Déployé auprès d'agents publics français"
+   ],
+   "limites": [
+    "En dessous des leaders américains sur les classements les plus exigeants",
+    "Écosystème d'outils plus réduit"
+   ],
+   "utiliser": [
+    "Va sur chat.mistral.ai ou installe l'appli Le Chat",
+    "Utilise-le pour tes documents confidentiels si l'hébergement européen compte pour toi",
+    "Télécharge un petit modèle Mistral dans Ollama pour travailler hors ligne"
+   ],
+   "sur_pc": "Oui. Dans Ollama : `ollama run mistral` (ou un modèle Mistral plus récent listé sur ollama.com). Un PC récent avec 16 Go de RAM suffit pour les petits modèles.",
+   "astuce": "Pour une entreprise française, c'est souvent le choix le plus simple à défendre côté conformité.",
+   "activite": [
+    "2026 : rachat de Koyeb (cloud) et d'Emmi AI (simulation industrielle)",
+    "Mars 2026 : 830 millions de dollars de dette pour un centre de calcul près de Paris",
+    "Objectif affiché : dépasser 1 milliard d'euros de revenus en 2026"
+   ],
+   "histoire": [
+    [
+     "Avril 2023",
+     "Fondée à Paris par Arthur Mensch, Timothée Lacroix et Guillaume Lample, anciens de Google DeepMind et Meta"
+    ],
+    [
+     "Septembre 2023",
+     "Mistral 7B, petit modèle ouvert qui surprend par ses performances"
+    ],
+    [
+     "2024",
+     "Lancement de Le Chat"
+    ],
+    [
+     "Septembre 2025",
+     "Levée de 1,7 milliard d'euros menée par ASML, valorisation de 11,7 milliards : première décacorne française"
+    ],
+    [
+     "Décembre 2025",
+     "Mistral Large 3 en poids ouverts"
+    ]
+   ],
+   "mots": [
+    "mistral",
+    "le chat",
+    "mensch"
+   ]
+  },
+  {
+   "id": "deepseek",
+   "nom": "DeepSeek",
+   "entreprise": "DeepSeek",
+   "pays": "Chine",
+   "cree": "2023",
+   "ouvert": true,
+   "site": "https://www.deepseek.com",
+   "ideal": "Des performances de haut niveau à très bas prix, avec des poids ouverts.",
+   "taches": [
+    "coder",
+    "documents",
+    "local"
+   ],
+   "modeles": [
+    "DeepSeek-V4-Pro (avril 2026) : 1 600 milliards de paramètres, dont 49 milliards actifs par mot",
+    "DeepSeek-V4-Flash : 284 milliards, dont 13 milliards actifs",
+    "Contexte d'un million de jetons pour les deux"
+   ],
+   "forces": [
+    "Poids ouverts publiés sur Hugging Face",
+    "API très bon marché, compatible avec les formats OpenAI et Anthropic",
+    "Excellent en code et en mathématiques"
+   ],
+   "limites": [
+    "L'appli et l'API officielles hébergent les données en Chine",
+    "Censure sur certains sujets politiques chinois",
+    "Même la version Flash est trop grosse pour un PC classique"
+   ],
+   "utiliser": [
+    "Pour tester, utilise chat.deepseek.com, sans y mettre de données sensibles",
+    "Pour un usage confidentiel, passe par un hébergeur européen ou américain qui propose les poids ouverts",
+    "Pour du local sur PC, prends plutôt une version distillée, plus petite"
+   ],
+   "sur_pc": "Les versions V4 complètes demandent un serveur avec plusieurs GPU. Sur un PC, cherche les versions « distill » dans Ollama.",
+   "astuce": "Ses modèles ouverts permettent de vérifier et d'héberger toi-même, ce qui règle la question de l'hébergement en Chine.",
+   "activite": [
+    "24 avril 2026 : sortie de V4-Pro et V4-Flash en poids ouverts",
+    "Juillet 2026 : fin des anciens noms d'API deepseek-chat et deepseek-reasoner"
+   ],
+   "histoire": [
+    [
+     "2023",
+     "Création à Hangzhou, issue du fonds quantitatif High-Flyer"
+    ],
+    [
+     "Décembre 2024",
+     "DeepSeek-V3"
+    ],
+    [
+     "Janvier 2025",
+     "DeepSeek-R1 : un modèle de raisonnement ouvert et peu coûteux qui provoque un décrochage boursier historique des valeurs tech"
+    ],
+    [
+     "Avril 2026",
+     "Famille V4"
+    ]
+   ],
+   "mots": [
+    "deepseek"
+   ]
+  },
+  {
+   "id": "qwen",
+   "nom": "Qwen",
+   "entreprise": "Alibaba",
+   "pays": "Chine",
+   "cree": "2023",
+   "ouvert": true,
+   "site": "https://chat.qwen.ai",
+   "ideal": "La plus grande famille de modèles ouverts, du tout petit au très gros.",
+   "taches": [
+    "coder",
+    "local",
+    "documents"
+   ],
+   "modeles": [
+    "Des dizaines de tailles, de moins d'un milliard à plusieurs centaines de milliards de paramètres",
+    "Déclinaisons spécialisées : code, vision, mathématiques"
+   ],
+   "forces": [
+    "Il existe presque toujours une version adaptée à ta carte graphique",
+    "Très populaire dans la communauté du local (r/LocalLLaMA)",
+    "Licences généralement permissives"
+   ],
+   "limites": [
+    "Même réserve que DeepSeek sur les sujets politiques chinois",
+    "Le choix de la bonne version peut dérouter au début"
+   ],
+   "utiliser": [
+    "Installe Ollama (voir la fiche suivante)",
+    "Cherche « qwen » sur ollama.com et prends la taille qui correspond à ta RAM ou à ta carte graphique",
+    "Lance-le et utilise-le comme un ChatGPT privé, hors ligne"
+   ],
+   "sur_pc": "Oui, c'est son point fort. Règle simple : un modèle de 7 à 8 milliards de paramètres tourne correctement avec 16 Go de RAM, un 14 milliards avec une carte graphique de 12 Go et plus.",
+   "astuce": "Pour du code en local, les versions « Coder » sont les plus utiles.",
+   "activite": [
+    "Sorties régulières suivies par ta veille, rubrique Open source et local"
+   ],
+   "histoire": [
+    [
+     "2023",
+     "Premières versions publiées par Alibaba Cloud"
+    ],
+    [
+     "2024-2025",
+     "Devient une des familles ouvertes les plus téléchargées au monde"
+    ]
+   ],
+   "mots": [
+    "qwen",
+    "alibaba"
+   ]
+  },
+  {
+   "id": "local",
+   "nom": "Ollama et LM Studio",
+   "entreprise": "Outils gratuits",
+   "pays": "International",
+   "cree": "2023",
+   "ouvert": true,
+   "site": "https://ollama.com",
+   "ideal": "Faire tourner des IA sur ton propre PC, gratuitement, sans que tes données sortent.",
+   "taches": [
+    "local",
+    "europe",
+    "ecrire",
+    "coder"
+   ],
+   "modeles": [
+    "Tous les modèles ouverts : Llama, Mistral, Qwen, Gemma, versions distillées de DeepSeek…"
+   ],
+   "forces": [
+    "100 % gratuit et privé : rien ne part sur Internet",
+    "Fonctionne hors ligne",
+    "LM Studio a une interface graphique très simple",
+    "Ollama s'intègre à des dizaines d'applis et d'outils"
+   ],
+   "limites": [
+    "Moins puissant que les meilleurs modèles en ligne",
+    "Dépend de ta machine : RAM et carte graphique",
+    "Il faut choisir et télécharger les modèles (plusieurs gigaoctets chacun)"
+   ],
+   "utiliser": [
+    "Débutant : télécharge LM Studio (lmstudio.ai), ouvre l'onglet de recherche, choisis un modèle marqué compatible avec ta machine, puis discute",
+    "Plus technique : installe Ollama (ollama.com), ouvre un terminal et tape `ollama run qwen3` ou `ollama run mistral`",
+    "Ajoute Open WebUI si tu veux une interface façon ChatGPT par-dessus Ollama"
+   ],
+   "sur_pc": "C'est tout l'intérêt. Minimum confortable : 16 Go de RAM. Avec une carte NVIDIA RTX de 8 Go ou plus, ou un Mac à puce Apple, c'est nettement plus rapide.",
+   "astuce": "Commence petit (modèle de 7-8 milliards de paramètres). Si c'est fluide, essaie plus gros.",
+   "activite": [
+    "Le filtre « Utilisable sur mon PC » de ta veille remonte toutes les nouveautés qui s'utilisent avec ces outils"
+   ],
+   "histoire": [
+    [
+     "2023",
+     "llama.cpp rend possible l'IA sur un ordinateur ordinaire ; Ollama et LM Studio en simplifient l'usage"
+    ],
+    [
+     "2024-2026",
+     "Le local devient crédible pour un usage professionnel quotidien"
+    ]
+   ],
+   "mots": [
+    "ollama",
+    "lm studio",
+    "gguf",
+    "llama.cpp",
+    "local"
+   ]
+  }
+ ]
+}

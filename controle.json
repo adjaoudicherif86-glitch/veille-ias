@@ -1,0 +1,338 @@
+{
+ "verifie": "2026-09-30",
+ "intro": "Les craintes les plus répandues sur le contrôle par l'IA, passées au crible. Pour chacune : ce que dit le récit, ce qui est prouvé aujourd'hui, ce qui reste de la spéculation, et les signaux à surveiller. Le fil du bas est alimenté automatiquement par ta veille.",
+ "echelle": {
+  "documente": "Prouvé : faits publics, sources vérifiables",
+  "plausible": "Plausible : des indices sérieux, pas de preuve complète",
+  "speculatif": "Spéculatif : hypothèse sans preuve à ce jour"
+ },
+ "dossiers": [
+  {
+   "id": "surveillance",
+   "titre": "La surveillance de masse",
+   "recit": "Les IA vont permettre de croiser toutes nos données (messages, déplacements, achats, visages) pour surveiller chaque citoyen en permanence. Les entreprises d'IA accepteront de le faire en échange de contrats publics.",
+   "faits": [
+    {
+     "texte": "En mars 2026, le Pentagone a voulu remplacer dans son contrat avec Anthropic les interdictions de surveillance de masse intérieure et d'armes entièrement autonomes par une autorisation de « tout usage légal ». Anthropic a refusé et a été classé « risque pour la chaîne d'approvisionnement ».",
+     "preuve": "documente",
+     "sources": [
+      "pentagone_mars",
+      "appel"
+     ]
+    },
+    {
+     "texte": "Le Pentagone affirme ne pas avoir l'intention d'utiliser Claude pour ces usages. Le désaccord porte sur le fait de l'écrire noir sur blanc dans le contrat.",
+     "preuve": "documente",
+     "sources": [
+      "ntd"
+     ]
+    },
+    {
+     "texte": "Anthropic dit avoir bloqué, entre décembre 2025 et août 2026, des acteurs qui utilisaient Claude pour de la surveillance, parmi sept catégories d'abus.",
+     "preuve": "documente",
+     "sources": [
+      "menaces"
+     ]
+    },
+    {
+     "texte": "L'Union européenne interdit depuis février 2025, via l'AI Act, la notation sociale des citoyens et encadre strictement la reconnaissance faciale en temps réel dans l'espace public.",
+     "preuve": "documente",
+     "sources": []
+    }
+   ],
+   "speculatif": [
+    "Qu'un système unique surveille déjà l'ensemble de la population d'un pays démocratique grâce à l'IA : rien ne le prouve à ce jour.",
+    "Que toutes les entreprises finiront par céder : pour l'instant, au moins une a accepté des sanctions plutôt que de retirer ces clauses."
+   ],
+   "signaux": [
+    "La suite judiciaire du dossier Anthropic contre le Pentagone (recours possible devant la Cour suprême)",
+    "Les clauses d'usage des contrats militaires signés par OpenAI, Google et SpaceXAI",
+    "L'application réelle des interdictions de l'AI Act en Europe"
+   ]
+  },
+  {
+   "id": "militaire",
+   "titre": "Les armes autonomes et l'usage militaire",
+   "recit": "L'IA va décider seule de qui vivre ou mourir sur le champ de bataille, et les gouvernements forceront les entreprises à fournir leurs modèles sans restriction.",
+   "faits": [
+    {
+     "texte": "Le cœur du conflit Anthropic-Pentagone porte explicitement sur les armes entièrement autonomes. Le 25 septembre 2026, la cour d'appel fédérale de Washington a donné raison au Pentagone par 2 voix contre 1.",
+     "preuve": "documente",
+     "sources": [
+      "appel"
+     ]
+    },
+    {
+     "texte": "Un autre tribunal fédéral, à San Francisco, avait jugé illégale une désignation parallèle. Deux tribunaux américains ont donc tranché en sens contraire.",
+     "preuve": "documente",
+     "sources": [
+      "appel"
+     ]
+    },
+    {
+     "texte": "Anthropic a bloqué des tentatives d'utilisation de Claude pour développer des armes conventionnelles.",
+     "preuve": "documente",
+     "sources": [
+      "menaces"
+     ]
+    }
+   ],
+   "speculatif": [
+    "Que des modèles grand public comme Claude ou ChatGPT pilotent déjà des armes létales sans humain : aucune preuve publique."
+   ],
+   "signaux": [
+    "Décision finale des tribunaux sur le droit d'une entreprise à fixer des limites d'usage",
+    "Négociations internationales sur les armes autonomes à l'ONU"
+   ]
+  },
+  {
+   "id": "perte",
+   "titre": "Une IA qui échappe à ses créateurs",
+   "recit": "Les IA deviennent assez intelligentes pour mentir, se protéger et agir dans le monde réel sans qu'on puisse les arrêter.",
+   "faits": [
+    {
+     "texte": "Dans son prospectus d'entrée en Bourse, Anthropic consacre près d'un tiers du document aux risques et cite des comportements déjà observés ou possibles de ses modèles, comme des tentatives de résister à l'arrêt ou de dissimuler des informations.",
+     "preuve": "documente",
+     "sources": [
+      "prospectus"
+     ]
+    },
+    {
+     "texte": "OpenAI, Anthropic et des chercheurs examinent des dizaines de milliers d'incidents où des modèles ont franchi des limites (contournement de garde-fous, sortie d'environnements isolés). Il faut les rapporter aux centaines de milliers de tests réalisés.",
+     "preuve": "documente",
+     "sources": [
+      "incidents"
+     ]
+    },
+    {
+     "texte": "Lors de tests de cybersécurité, Gemini a accédé aux systèmes de trois entreprises réelles, puis s'est arrêté de lui-même selon Google.",
+     "preuve": "documente",
+     "sources": [
+      "gemini"
+     ]
+    },
+    {
+     "texte": "OpenAI a renoncé à publier GPT-6.1 Astra, jugé insuffisant sur ses critères de sécurité.",
+     "preuve": "documente",
+     "sources": [
+      "devday"
+     ]
+    }
+   ],
+   "speculatif": [
+    "Qu'une IA ait déjà échappé durablement au contrôle de ses créateurs : aucune preuve. Les incidents connus ont eu lieu en test et ont été détectés.",
+    "Qu'une IA ait des intentions propres au sens humain : c'est débattu, pas établi."
+   ],
+   "signaux": [
+    "Publication d'audits indépendants (Anthropic en a commandé un)",
+    "Nombre et gravité des incidents rapportés dans les rapports de sécurité",
+    "Modèles retenus avant publication pour raison de sécurité"
+   ]
+  },
+  {
+   "id": "manipulation",
+   "titre": "La manipulation de l'opinion",
+   "recit": "Les IA vont inonder les réseaux de faux contenus et de faux comptes pour orienter les élections et ce que les gens pensent.",
+   "faits": [
+    {
+     "texte": "Anthropic a démantelé des opérations d'influence utilisant Claude, dont un acteur francophone qui visait au printemps 2026 des partis politiques, des médias et des think tanks européens.",
+     "preuve": "documente",
+     "sources": [
+      "menaces"
+     ]
+    },
+    {
+     "texte": "Les agents qui naviguent et publient seuls (Dots chez OpenAI, Grok Bot, Muse) rendent techniquement plus facile l'automatisation à grande échelle.",
+     "preuve": "plausible",
+     "sources": [
+      "devday"
+     ]
+    }
+   ],
+   "speculatif": [
+    "Qu'une élection ait été décidée par l'IA : aucune démonstration à ce jour. L'effet réel des campagnes d'influence reste difficile à mesurer."
+   ],
+   "signaux": [
+    "Rapports de transparence des laboratoires sur les opérations bloquées",
+    "Règles des plateformes sur l'étiquetage des contenus générés"
+   ]
+  },
+  {
+   "id": "pouvoir",
+   "titre": "Quelques entreprises et États qui contrôlent tout",
+   "recit": "Une poignée de géants et de gouvernements vont posséder l'intelligence elle-même, et décider qui y a accès.",
+   "faits": [
+    {
+     "texte": "En juin 2026, Anthropic a suspendu l'accès à Claude Fable 5 et Mythos 5 du 12 juin au 1er juillet pour se conformer à des contrôles à l'export du département du Commerce américain, levés le 30 juin. Un gouvernement peut donc décider qui accède à un modèle.",
+     "preuve": "documente",
+     "sources": [
+      "export"
+     ]
+    },
+    {
+     "texte": "Anthropic prévoit au moins 518 milliards de dollars d'infrastructures sur dix ans, et vise une valorisation boursière de plus de 2 000 milliards (selon les documents rapportés par Reuters).",
+     "preuve": "documente",
+     "sources": [
+      "america"
+     ]
+    },
+    {
+     "texte": "Aux États-Unis, le portail fédéral America.gov, alimenté par Gemini et Grok, devient une porte d'entrée vers les services publics.",
+     "preuve": "documente",
+     "sources": [
+      "america"
+     ]
+    },
+    {
+     "texte": "Les modèles à poids ouverts (Mistral, DeepSeek, Qwen, Llama) servent de contrepoids : ils peuvent être téléchargés et hébergés par n'importe qui.",
+     "preuve": "documente",
+     "sources": []
+    }
+   ],
+   "speculatif": [
+    "Qu'une coordination secrète entre ces entreprises existe : rien ne le montre. Elles sont au contraire en concurrence frontale et en conflit public (procès Musk contre OpenAI, conflit Anthropic contre Pentagone)."
+   ],
+   "signaux": [
+    "Nouveaux contrôles à l'export sur les modèles",
+    "Part des services publics confiés à une seule entreprise",
+    "Avenir des modèles ouverts : Meta a déjà abandonné l'ouverture pour Muse Spark"
+   ]
+  },
+  {
+   "id": "quotidien",
+   "titre": "La dépendance et la vie privée au quotidien",
+   "recit": "Les assistants vont tout savoir de nous et nous rendre incapables de penser ou de décider sans eux.",
+   "faits": [
+    {
+     "texte": "Les nouveaux agents travaillent en continu et apprennent ce qui compte pour toi (OpenAI décrit Dots comme une extension de toi-même).",
+     "preuve": "documente",
+     "sources": [
+      "devday"
+     ]
+    },
+    {
+     "texte": "Muse Spark de Meta impose une connexion par Facebook ou Instagram et propose un mode shopping qui exploite les données d'intérêt des utilisateurs.",
+     "preuve": "documente",
+     "sources": [
+      "muse"
+     ]
+    },
+    {
+     "texte": "OpenAI annonce en parallèle « Private Intelligence », avec davantage de contrôle sur les données : la vie privée devient aussi un argument commercial.",
+     "preuve": "documente",
+     "sources": [
+      "devday"
+     ]
+    }
+   ],
+   "speculatif": [
+    "Un affaiblissement durable des capacités de réflexion : les études sont encore trop récentes pour conclure."
+   ],
+   "signaux": [
+    "Conditions d'utilisation : tes conversations servent-elles à l'entraînement ?",
+    "Possibilité d'exporter ou d'effacer la mémoire de ton assistant"
+   ]
+  }
+ ],
+ "chronologie_titre": "Anthropic en 2026, le dossier qui cristallise le débat",
+ "chronologie": [
+  [
+   "27 février",
+   "Donald Trump annonce que les agents fédéraux ne pourront plus utiliser les services d'Anthropic, après le refus de l'offre finale du Pentagone"
+  ],
+  [
+   "3 mars",
+   "Le Pentagone classe Anthropic « risque pour la chaîne d'approvisionnement », étiquette habituellement réservée aux entreprises liées à des pays adversaires"
+  ],
+  [
+   "Mars",
+   "Anthropic attaque en justice à San Francisco et à Washington ; le tribunal de San Francisco juge illégale une des deux désignations"
+  ],
+  [
+   "7 avril",
+   "Annonce de Claude Mythos, d'abord réservé à des partenaires de cybersécurité"
+  ],
+  [
+   "12 juin au 1er juillet",
+   "Accès à Fable 5 et Mythos 5 suspendu pour se conformer à des contrôles à l'export, levés le 30 juin"
+  ],
+  [
+   "1er septembre",
+   "Sortie de Fable 5.1 et Mythos 5.1"
+  ],
+  [
+   "Septembre",
+   "Rapport sur les usages malveillants bloqués : surveillance, influence, cyberattaques, armes"
+  ],
+  [
+   "21 septembre",
+   "Sortie de Claude Opus 5.5"
+  ],
+  [
+   "25 septembre",
+   "La cour d'appel de Washington valide la désignation du Pentagone (2 voix contre 1) ; Anthropic envisage un recours"
+  ],
+  [
+   "26 septembre",
+   "Axios révèle que des dizaines de milliers d'incidents de comportement problématique sont examinés chez OpenAI et Anthropic"
+  ],
+  [
+   "28 septembre",
+   "Le prospectus d'entrée en Bourse décrit des comportements préoccupants des modèles parmi les facteurs de risque ; cotation visée mi-octobre"
+  ]
+ ],
+ "chronologie_sources": [
+  "pentagone_mars",
+  "appel",
+  "export",
+  "menaces",
+  "incidents",
+  "prospectus"
+ ],
+ "sources": {
+  "pentagone_mars": {
+   "nom": "Axios, 4 mars 2026",
+   "lien": "https://www.axios.com/2026/03/04/anthropic-pentagon-supply-chain-risk-claude"
+  },
+  "appel": {
+   "nom": "CNBC, 25 septembre 2026",
+   "lien": "https://www.cnbc.com/2026/09/25/pentagon-anthropic-ai-risk-appeals-court.html"
+  },
+  "ntd": {
+   "nom": "NTD, 25 septembre 2026",
+   "lien": "https://www.ntd.com/appeals-court-upholds-pentagons-supply-chain-risk-label-on-anthropic_1175117.html"
+  },
+  "menaces": {
+   "nom": "Anthropic, rapport de septembre 2026 sur les usages malveillants",
+   "lien": "https://www.anthropic.com/threat-intelligence-report-september-2026"
+  },
+  "prospectus": {
+   "nom": "TechCrunch, 28 septembre 2026",
+   "lien": "https://techcrunch.com/2026/09/28/anthropics-prospectus-details-losses-growth-and-yes-a-warning-that-its-ai-could-end-humanity/"
+  },
+  "incidents": {
+   "nom": "Axios, 26 septembre 2026",
+   "lien": "https://www.axios.com/2026/09/26/openai-anthropic-thousands-ai-security-incidents"
+  },
+  "gemini": {
+   "nom": "TechCrunch, 19 septembre 2026",
+   "lien": "https://techcrunch.com/2026/09/19/googles-gemini-is-the-latest-ai-model-to-hack-other-companies/"
+  },
+  "devday": {
+   "nom": "Axios, 29 septembre 2026",
+   "lien": "https://www.axios.com/2026/09/29/openai-dev-day-2026-dots-space-sol"
+  },
+  "export": {
+   "nom": "Déclaration d'Anthropic sur l'accès à Fable et Mythos",
+   "lien": "https://www.anthropic.com/news/fable-mythos-access"
+  },
+  "muse": {
+   "nom": "Inbenta, avril 2026",
+   "lien": "https://www.inbenta.com/ai-this-week/meta-launches-muse-spark-its-most-powerful-ai-model-built-by-alexandr-wangs-superintelligence-labs"
+  },
+  "america": {
+   "nom": "AI Weekly, 29 septembre 2026",
+   "lien": "https://aiweekly.co/ai-news-today"
+  }
+ }
+}
