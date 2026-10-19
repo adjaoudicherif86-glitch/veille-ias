@@ -1,5 +1,5 @@
 {
- "maj": "2026-10-19T13:43:18.083859+00:00",
+ "maj": "2026-10-19T16:46:50.999712+00:00",
  "sources_ok": [
   "OpenAI",
   "Google DeepMind",
@@ -40,15 +40,15 @@
    "erreur": "429 Client Error: Too Many Requests for url: https://venturebeat.com/category/ai/feed/"
   }
  ],
- "total": 328,
- "analyses": 54,
+ "total": 351,
+ "analyses": 81,
  "brief": {
-  "titre": "L'open-source et les agents autonomes dominent l'actualité IA",
-  "texte": "L'écosystème open-source s'accélère avec l'alliance surprise de Meta et Apple, l'arrivée de quatre nouveaux modèles en 72 heures et la sortie du performant MiniMax M3.1 Flash. Du côté des agents autonomes, Google impressionne avec Gemini 4 capable de résoudre Minecraft et libère Harness2 pour l'auto-amélioration, tandis que la recherche explore l'autonomie de Claude sur une île virtuelle. Enfin, l'industrie fait face à des pressions réglementaires croissantes entre poursuites judiciaires aux États-Unis et propositions d'Anthropic pour un seuil légal des risques. Les infrastructures montrent également des limites, comme le prouve le contrat perdu par Microsoft pour des raisons énergétiques.",
+  "titre": "L'écosystème open-source explose : l'ère des agents IA est en marche",
+  "texte": "L'actualité de l'intelligence artificielle est marquée par une déferlante de nouveaux modèles open-source et open weights, illustrée par les sorties simultanées de Nvidia, Google et Mistral. Meta et Apple unissent également leurs forces pour démocratiser l'accès à ces technologies, tandis que les partenariats stratégiques se multiplient pour intégrer les agents IA dans les secteurs institutionnels et d'entreprise. Cette démocratisation rapide des outils locaux et vocaux, à l'instar d'AuroraASR-1M, redéfinit les standards de performance et d'autonomie. Face à cette accélération, la sécurisation des agents et la gestion des incidents, comme l'a rappelé l'actualité d'Anthropic, deviennent des priorités absolues.",
   "a_tester": [
-   "Tester les derniers modèles open weights sortis cette semaine pour vos cas d'usage locaux",
-   "Expérimenter les capacités des nouveaux agents autonomes sur des tâches complexes",
-   "Examiner les implications des propositions d'Anthropic sur la conformité de vos futurs projets IA"
+   "Tester les nouveaux modèles open weights disponibles pour vos cas d'usage locaux",
+   "Explorer les capacités de reconnaissance vocale du modèle ultra-léger AuroraASR-1M",
+   "Analyser l'impact des nouveaux frameworks d'agents IA pour automatiser vos processus métier"
   ]
  },
  "top5": {
