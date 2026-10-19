@@ -1,5 +1,5 @@
 {
- "maj": "2026-10-19T12:37:54.644977+00:00",
+ "maj": "2026-10-19T13:43:18.083859+00:00",
  "sources_ok": [
   "OpenAI",
   "Google DeepMind",
@@ -15,9 +15,15 @@
   "Simon Willison",
   "Hacker News (IA, 100+ pts)",
   "r/LocalLLaMA",
+  "arXiv cs.AI",
   "arXiv cs.CL",
   "ActuIA",
   "IA en français (actus)",
+  "Microsoft Copilot (actus)",
+  "Google Gemini (actus)",
+  "OpenAI (actus)",
+  "Grok et SpaceXAI (actus)",
+  "Grandes annonces IA",
   "Surveillance et IA",
   "IA et surveillance (FR)",
   "IA militaire",
@@ -30,27 +36,50 @@
  ],
  "sources_ko": [
   {
-   "nom": "Microsoft AI",
-   "erreur": "410 Client Error: Gone for url: https://blogs.microsoft.com/ai/feed/"
-  },
-  {
    "nom": "VentureBeat IA",
    "erreur": "429 Client Error: Too Many Requests for url: https://venturebeat.com/category/ai/feed/"
-  },
-  {
-   "nom": "arXiv cs.AI",
-   "erreur": "flux vide ou illisible"
   }
  ],
- "total": 267,
- "analyses": 28,
+ "total": 328,
+ "analyses": 54,
  "brief": {
-  "titre": "Fiabilité des modèles et accélération open source",
-  "texte": "L'actualité de l'IA met en lumière une surestimation moyenne de 6,4 % des benchmarks par les laboratoires, renforçant le besoin d'outils d'évaluation rigoureux comme AuditKIT. Parallèlement, l'écosystème open weights s'accélère avec l'arrivée de quatre nouveaux modèles en trois jours, le format GGUF de DeepSeek-V4.1-Flash par Unsloth, et l'outil Harness2 de Google pour les agents auto-améliorants. Enfin, des avancées notables touchent l'autonomie des agents avec Claude et les usages multimodaux avec Embedding Gemma 2.",
+  "titre": "L'open-source et les agents autonomes dominent l'actualité IA",
+  "texte": "L'écosystème open-source s'accélère avec l'alliance surprise de Meta et Apple, l'arrivée de quatre nouveaux modèles en 72 heures et la sortie du performant MiniMax M3.1 Flash. Du côté des agents autonomes, Google impressionne avec Gemini 4 capable de résoudre Minecraft et libère Harness2 pour l'auto-amélioration, tandis que la recherche explore l'autonomie de Claude sur une île virtuelle. Enfin, l'industrie fait face à des pressions réglementaires croissantes entre poursuites judiciaires aux États-Unis et propositions d'Anthropic pour un seuil légal des risques. Les infrastructures montrent également des limites, comme le prouve le contrat perdu par Microsoft pour des raisons énergétiques.",
   "a_tester": [
-   "Tester la version GGUF de DeepSeek-V4.1-Flash avec Unsloth",
-   "Explorer AuditKIT pour auditer vos LLM et agents",
-   "Expérimenter la recherche de texte dans les images avec Embedding Gemma 2"
+   "Tester les derniers modèles open weights sortis cette semaine pour vos cas d'usage locaux",
+   "Expérimenter les capacités des nouveaux agents autonomes sur des tâches complexes",
+   "Examiner les implications des propositions d'Anthropic sur la conformité de vos futurs projets IA"
+  ]
+ },
+ "top5": {
+  "maj": "2026-10-19T13:43:18.083859+00:00",
+  "par_ia": true,
+  "items": [
+   {
+    "id": "2ae6d8610039e2",
+    "pourquoi": "L'alliance inattendue entre Meta et Apple pour un grand modèle open-source marque un tournant stratégique majeur dans l'écosystème mobile et l'IA ouverte.",
+    "a_faire": "Surveiller les performances et les conditions d'utilisation de ce nouveau modèle open-source."
+   },
+   {
+    "id": "744f2ba6b23269",
+    "pourquoi": "Google libère Harness2, un système permettant à un agent IA d'auto-améliorer sa structure en autonomie, ouvrant de nouvelles perspectives pour l'automatisation avancée.",
+    "a_faire": "Tester Harness2 sur vos cas d'usage d'agents autonomes."
+   },
+   {
+    "id": "21e3505542d990",
+    "pourquoi": "Le lancement de Muse Spark Open, optimisé pour les puces Apple Silicon, démocratise l'exécution locale de modèles performants pour les utilisateurs de Mac.",
+    "a_faire": "Télécharger et tester le modèle en local sur macOS."
+   },
+   {
+    "id": "b3279837258732",
+    "pourquoi": "L'expérience du MIT sur l'autonomie prolongée de Claude sur une île virtuelle offre un éclairage crucial sur les comportements émergents des agents IA.",
+    "a_faire": "Lire l'étude du MIT pour comprendre les risques et limites des agents autonomes."
+   },
+   {
+    "id": "e837df18b1c339",
+    "pourquoi": "La sortie d'AuroraASR-1M (à peine 1 Mo) permet une reconnaissance vocale ultrarapide et locale sur un simple cœur CPU, idéal pour l'embarqué.",
+    "a_faire": "Tester le modèle AuroraASR-1M pour des projets nécessitant de la transcription hors-ligne."
+   }
   ]
  }
 }
