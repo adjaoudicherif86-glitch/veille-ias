@@ -32,11 +32,15 @@ Onglet **Actions** → « Chasse aux nouveautés IA » → « Run workflow ». A
 
 ## Les trois onglets
 
-**Veille** : le fil des nouveautés, avec le brief du jour, les filtres et la fiche « comment l'utiliser » de chaque sujet.
+**Veille** : en haut, **les 5 sujets à suivre cette semaine**, présélectionnés par le flair du chien puis choisis par l'IA, avec pour chacun pourquoi le suivre et une action concrète. En dessous, le brief du jour et le fil complet. Chaque article présente **la société concernée** (qui elle est, ce qu'elle fait, ses autres actus de la semaine) et explique **pourquoi le chien l'a remonté** (repris par plusieurs sources, nouveau modèle, acteur majeur, open source…). Un filtre « Société » permet de suivre un acteur précis.
 
 **Les IA** : l'annuaire des IA qui comptent (Claude, ChatGPT, Gemini, Grok, Meta AI, Mistral, DeepSeek, Qwen, Ollama et LM Studio). Chaque fiche donne : à quoi elle sert le mieux, comment l'utiliser pas à pas, comment l'avoir sur ton PC, ses forces, ses limites, ses modèles actuels, son activité et son histoire. Les boutons de tâche (coder, local, souveraineté…) mettent en avant les IA adaptées. La rubrique « Dans ta veille » de chaque fiche se remplit toute seule avec les actus qui la concernent.
 
 **Contrôle et pouvoir** : six dossiers sur les craintes de contrôle par l'IA (surveillance, militaire, perte de contrôle, manipulation, concentration du pouvoir, vie privée). Chaque dossier sépare le récit, les faits prouvés (avec leurs sources), ce qui reste spéculatif et les signaux à surveiller. En dessous : la chronologie 2026 d'Anthropic et un fil d'actus dédié, où l'IA analyse chaque article en quatre temps : la crainte, les faits, les inconnues, le niveau de preuve.
+
+## Les sociétés reconnues
+
+La liste est dans `docs/data/societes.json` : nom, pays, présentation en une phrase, poids (3 = acteur majeur) et les mots qui permettent de la reconnaître. Pour en ajouter une, copie un bloc existant. Pour une société absente de la liste, l'IA rédige elle-même une présentation dans la fiche de l'article.
 
 ## Mettre à jour les fiches
 
@@ -44,7 +48,7 @@ Les fiches de l'annuaire (`docs/data/annuaire.json`) et les dossiers (`docs/data
 
 ## Utiliser l'appli
 
-- La jauge orange à gauche de chaque sujet, c'est le **flair** : de 1 à 5, selon la source, les mots-clés (lancement, open source, nouveau modèle…), la fraîcheur et surtout le nombre de sources qui en parlent en même temps.
+- La jauge orange à gauche de chaque sujet, c'est le **flair** : de 1 à 5, selon le rang du sujet parmi tous ceux de la période (les 4 % les plus importants ont 5). Le score tient compte du nombre de sources qui en parlent, de la société concernée, du type d'annonce (nouveau modèle, open source, prix, régulation), de la fraîcheur et de l'avis de l'IA. Les témoignages clients et les petites mises à jour techniques sont rétrogradés.
 - Le badge **+2 sources** signale un sujet chaud repris par plusieurs médias (les doublons sont fusionnés en un seul sujet).
 - Le filtre **Utilisable sur mon PC** ne garde que ce que tu peux faire tourner chez toi (Ollama, LM Studio, modèles open weights, etc.).
 - Clique sur un sujet pour ouvrir la fiche complète. Raccourcis clavier : `/` pour chercher, `j` / `k` pour passer au sujet suivant ou précédent, `Échap` pour fermer.

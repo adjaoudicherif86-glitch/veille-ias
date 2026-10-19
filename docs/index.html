@@ -10,8 +10,10 @@
 <link href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400&family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700;12..96,800&display=swap" rel="stylesheet">
 <style>
 :root{
-  --fond:#E6EBE3; --surface:#F6F8F3; --surface2:#EEF2EB; --encre:#16221B; --doux:#56675B;
-  --trait:#C7D1C3; --blaze:#D9531A; --blaze-pale:#F8DCCB; --foret:#22543A; --foret-pale:#D5E6DA;
+  --fond:#E3E9DF; --surface:#F7F9F4; --surface2:#ECF1E8; --encre:#14201A; --doux:#526357;
+  --trait:#C3CEBF; --blaze:#D24E14; --blaze-pale:#FADBC8; --foret:#1F5237; --foret-pale:#D3E6D8;
+  --ombre:0 1px 0 rgba(20,32,26,.06), 0 8px 24px -12px rgba(20,32,26,.18);
+  --une-fond:#14201A; --une-texte:#EEF3EA;
   --titre:"Bricolage Grotesque", "Segoe UI", system-ui, sans-serif;
   --texte:"Atkinson Hyperlegible", "Segoe UI", system-ui, sans-serif;
   box-sizing:border-box;
@@ -20,11 +22,11 @@
 }
 @media (prefers-color-scheme:dark){ :root:not([data-theme="light"]){
   --fond:#0F1612; --surface:#17211B; --surface2:#1C2821; --encre:#E4ECE3; --doux:#93A496;
-  --trait:#2A3A30; --blaze:#FF7B3F; --blaze-pale:#3A2216; --foret:#86C9A0; --foret-pale:#1D3326; color-scheme:dark;
+  --trait:#2A3A30; --blaze:#FF7B3F; --blaze-pale:#3A2216; --foret:#86C9A0; --foret-pale:#1D3326; --ombre:0 1px 0 rgba(0,0,0,.4), 0 10px 28px -14px rgba(0,0,0,.7); --une-fond:#203A2C; --une-texte:#EEF3EA; color-scheme:dark;
 }}
 :root[data-theme="dark"]{
   --fond:#0F1612; --surface:#17211B; --surface2:#1C2821; --encre:#E4ECE3; --doux:#93A496;
-  --trait:#2A3A30; --blaze:#FF7B3F; --blaze-pale:#3A2216; --foret:#86C9A0; --foret-pale:#1D3326; color-scheme:dark;
+  --trait:#2A3A30; --blaze:#FF7B3F; --blaze-pale:#3A2216; --foret:#86C9A0; --foret-pale:#1D3326; --ombre:0 1px 0 rgba(0,0,0,.4), 0 10px 28px -14px rgba(0,0,0,.7); --une-fond:#203A2C; --une-texte:#EEF3EA; color-scheme:dark;
 }
 *,*::before,*::after{box-sizing:inherit}
 [hidden]{display:none!important}
@@ -35,26 +37,73 @@ button,input,select{font:inherit;color:inherit}
 :focus-visible{outline:3px solid var(--blaze);outline-offset:2px;border-radius:4px}
 .wrap{max-width:1240px;margin:0 auto;padding:0 20px}
 
-/* En-tête */
+/* Barre du haut, collante */
+.barre{position:sticky;top:0;z-index:20;background:color-mix(in srgb, var(--fond) 82%, transparent);backdrop-filter:blur(12px);-webkit-backdrop-filter:blur(12px);border-bottom:1px solid var(--trait);padding-top:env(safe-area-inset-top,0px)}
+.barre-in{display:flex;align-items:center;gap:18px;padding-top:10px;padding-bottom:10px}
 header.top{display:flex;align-items:center;gap:16px;padding:18px 0 10px}
-.marque{font:800 26px/1 var(--titre);letter-spacing:-.02em;display:flex;align-items:center;gap:10px;margin:0}
+.marque{font:800 24px/1 var(--titre);letter-spacing:-.02em;display:flex;align-items:center;gap:10px;margin:0}
 .marque svg{width:30px;height:30px}
 .etat{color:var(--doux);font-size:14px;margin-left:auto;text-align:right}
 .etat b{color:var(--encre);font-weight:700}
 .btn-icone{background:var(--surface);border:1px solid var(--trait);border-radius:10px;width:40px;height:40px;cursor:pointer;display:grid;place-items:center}
 
-/* Brief du jour : l'élément fort */
-.brief{display:grid;grid-template-columns:1.35fr 1fr;gap:28px;padding:26px 0 30px;border-bottom:2px solid var(--encre)}
-.brief h2{font:800 clamp(30px,4.4vw,54px)/1.02 var(--titre);letter-spacing:-.03em;margin:0 0 14px;max-width:18ch}
-.brief p{margin:0 0 12px;max-width:62ch;color:var(--encre)}
-.brief .quand{color:var(--doux);font-size:14px;margin-bottom:10px}
-.tester{background:var(--foret-pale);border-radius:14px;padding:18px 20px}
-.tester h3{font:700 18px/1.2 var(--titre);margin:0 0 10px;color:var(--foret)}
-.tester ol{margin:0;padding-left:22px}
-.tester li{margin:6px 0}
-.piste{margin-top:18px;border:2px solid var(--blaze);border-radius:14px;padding:16px 18px;background:var(--surface);cursor:pointer;text-align:left;width:100%}
-.piste small{display:block;color:var(--blaze);font-weight:700;margin-bottom:4px}
-.piste strong{font:700 19px/1.25 var(--titre)}
+/* Les 5 à suivre : l'élément fort */
+.une{padding:30px 0 8px}
+.une-tete{display:flex;flex-wrap:wrap;align-items:baseline;justify-content:space-between;gap:6px 24px;margin-bottom:18px}
+.une-tete h2{font:800 clamp(32px,4.6vw,58px)/1 var(--titre);letter-spacing:-.035em;margin:0}
+.une-tete p{margin:0;color:var(--doux);font-size:15px}
+.cinq{list-style:none;margin:0;padding:0;display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:14px}
+.cinq>li{display:flex;min-width:0}
+.cinq>li:first-child{grid-column:1/-1}
+.carte:not(.premier){padding:16px 18px 18px}
+.carte:not(.premier) .rang{position:static;font-size:40px;margin-bottom:8px}
+.carte.premier>*{max-width:68ch}
+.carte{position:relative;display:flex;flex-direction:column;align-items:flex-start;justify-content:flex-start;width:100%;height:100%;text-align:left;background:var(--surface);border:1px solid var(--trait);border-radius:18px;padding:20px 22px 20px 74px;cursor:pointer;box-shadow:var(--ombre);transition:border-color .15s, transform .15s;min-width:0}
+.carte:hover{border-color:var(--blaze)}
+.carte:active{transform:scale(.995)}
+.carte.lu .carte-titre{color:var(--doux)}
+.rang{position:absolute;left:18px;top:14px;font:800 46px/1 var(--titre);letter-spacing:-.04em;color:var(--blaze);font-variant-numeric:tabular-nums}
+.carte-titre{font:700 19px/1.22 var(--titre);letter-spacing:-.01em;margin:8px 0 6px}
+.carte p{margin:0 0 8px;font-size:15px;color:var(--doux)}
+.carte .faire{color:var(--foret);font-weight:700;font-size:14px;margin:0}
+.carte.premier{padding:28px 32px 28px 112px;background:var(--une-fond);color:var(--une-texte);border-color:var(--une-fond)}
+.carte.premier .rang{font-size:84px;left:28px;top:22px}
+.carte.premier .raisons{padding-top:6px}
+.carte.premier .carte-titre{font-size:clamp(24px,2.6vw,34px);line-height:1.08;letter-spacing:-.025em;margin:12px 0 12px}
+.carte.premier p{color:color-mix(in srgb, var(--une-texte) 78%, transparent);font-size:16px}
+.carte.premier .faire{color:#FF8A52}
+.carte.premier .etiquette{color:#FF8A52}
+.carte.premier .rang{color:#FF7B3F}
+.carte.premier .soc-nom{color:var(--une-texte)}
+.carte.premier .raisons span{border-color:color-mix(in srgb, var(--une-texte) 30%, transparent);color:color-mix(in srgb, var(--une-texte) 85%, transparent)}
+.carte.premier:hover{border-color:var(--blaze)}
+.carte .etiquette{display:block;font-weight:700;font-size:13px;color:var(--blaze);margin:14px 0 2px}
+.cinq .carte:not(.premier) .lignes{display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden}
+
+/* Société */
+.soc{display:inline-flex;align-items:center;gap:8px;min-width:0}
+.soc-nom{font-weight:700;font-size:14px;color:var(--encre);white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.mono{flex:0 0 auto;width:26px;height:26px;border-radius:8px;display:grid;place-items:center;font:800 11px/1 var(--titre);letter-spacing:.02em;color:#fff;background:hsl(var(--h) 42% 38%)}
+.mono.grand{width:48px;height:48px;border-radius:14px;font-size:17px}
+.carte-soc{display:grid;grid-template-columns:auto 1fr;gap:4px 14px;align-items:center;background:var(--surface2);border:1px solid var(--trait);border-radius:16px;padding:16px 18px;margin:18px 0 6px}
+.carte-soc .mono{grid-row:span 2}
+.carte-soc strong{font:700 18px/1.2 var(--titre)}
+.carte-soc small{color:var(--doux)}
+.carte-soc p{grid-column:1/-1;margin:8px 0 0}
+.carte-soc .liens{grid-column:1/-1;display:flex;flex-wrap:wrap;gap:8px 16px;margin-top:8px;font-size:14px}
+.retenir{font:700 19px/1.35 var(--titre);border-left:4px solid var(--blaze);padding:4px 0 4px 16px;margin:18px 0}
+.raisons{display:flex;flex-wrap:wrap;gap:6px;margin-top:10px}
+.raisons span{font-size:12.5px;padding:2px 9px;border-radius:99px;border:1px solid var(--trait);color:var(--doux)}
+
+/* Brief du jour : une bande calme */
+.brief{display:grid;grid-template-columns:auto 1fr auto;gap:8px 26px;align-items:start;margin:22px 0 4px;padding:18px 22px;border-radius:18px;background:var(--foret-pale)}
+.brief .quand{font:700 13px/1.4 var(--texte);color:var(--foret);white-space:nowrap;padding-top:3px}
+.brief h3{font:800 20px/1.2 var(--titre);margin:0 0 6px;letter-spacing:-.01em}
+.brief p{margin:0;max-width:72ch}
+.brief .tests{display:flex;flex-direction:column;gap:6px;min-width:240px;max-width:340px}
+.brief .tests b{font-size:13px;color:var(--foret)}
+.brief .tests span{font-size:14px;background:var(--surface);border-radius:10px;padding:6px 10px}
+.brief details summary{cursor:pointer;color:var(--foret);font-weight:700;font-size:14px;margin-top:6px}
 
 /* Barre d'outils */
 .outils{display:flex;flex-wrap:wrap;gap:10px;align-items:center;padding:18px 0}
@@ -86,7 +135,9 @@ ul.fil{list-style:none;margin:0;padding:0;background:var(--surface);border:1px s
 .sujet:last-child{border-bottom:0}
 .sujet:hover,.sujet.actif{background:var(--surface2)}
 .sujet.lu .titre{color:var(--doux);font-weight:400}
-.titre{font:700 17px/1.3 var(--titre);margin:0 0 5px}
+.titre{font:700 17px/1.3 var(--titre);margin:0 0 4px}
+.chapo{margin:0 0 7px;color:var(--doux);font-size:15px;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden;max-width:78ch}
+li.jour{padding:10px 18px;font:800 14px/1.2 var(--titre);background:var(--surface2);border-bottom:1px solid var(--trait);color:var(--doux);position:sticky;top:61px;z-index:1}
 .meta{display:flex;flex-wrap:wrap;gap:6px 12px;font-size:14px;color:var(--doux)}
 .badge{font-size:13px;padding:1px 8px;border-radius:99px;background:var(--surface2);border:1px solid var(--trait);color:var(--encre)}
 .badge.pc{background:var(--foret-pale);border-color:transparent;color:var(--foret);font-weight:700}
@@ -106,9 +157,9 @@ ul.fil{list-style:none;margin:0;padding:0;background:var(--surface);border:1px s
 .plus{display:block;margin:14px auto 0;padding:10px 18px;border-radius:12px;border:1px solid var(--trait);background:var(--surface);cursor:pointer}
 
 /* Panneau de détail */
-.voile{position:fixed;inset:0;background:rgba(10,18,14,.45);opacity:0;pointer-events:none;transition:opacity .2s}
+.voile{position:fixed;inset:0;z-index:30;background:rgba(10,18,14,.45);opacity:0;pointer-events:none;transition:opacity .2s}
 .voile.ouvert{opacity:1;pointer-events:auto}
-.panneau{position:fixed;top:0;right:0;height:100%;width:min(620px,100%);background:var(--surface);border-left:1px solid var(--trait);
+.panneau{position:fixed;z-index:31;top:0;right:0;height:100%;width:min(620px,100%);background:var(--surface);border-left:1px solid var(--trait);
   transform:translateX(100%);transition:transform .25s ease;overflow-y:auto;padding:calc(env(safe-area-inset-top,0px) + 22px) 28px calc(env(safe-area-inset-bottom,0px) + 40px)}
 .panneau.ouvert{transform:none}
 .panneau .fermer{float:right}
@@ -127,8 +178,9 @@ ul.fil{list-style:none;margin:0;padding:0;background:var(--surface);border:1px s
 .sans-analyse{background:var(--blaze-pale);border-radius:12px;padding:12px 14px;font-size:15px}
 
 /* Onglets */
-nav.onglets{display:flex;gap:4px;border-bottom:2px solid var(--encre);margin-top:6px;overflow-x:auto}
-nav.onglets a{padding:10px 16px;text-decoration:none;font:700 16px/1.2 var(--titre);color:var(--doux);border-radius:10px 10px 0 0;white-space:nowrap}
+nav.onglets{display:flex;gap:2px;overflow-x:auto;background:var(--surface);border:1px solid var(--trait);border-radius:12px;padding:3px}
+nav.onglets a{padding:7px 14px;text-decoration:none;font:700 15px/1.2 var(--titre);color:var(--doux);border-radius:9px;white-space:nowrap}
+nav.onglets a:hover{color:var(--encre)}
 nav.onglets a[aria-current="page"]{background:var(--encre);color:var(--fond)}
 .vue[hidden]{display:none!important}
 .entete-vue{padding:28px 0 18px}
@@ -179,6 +231,14 @@ h3.section{font:800 24px/1.1 var(--titre);letter-spacing:-.01em;margin:30px 0 14
 .fait small a{color:var(--doux)}
 
 @media (max-width:900px){
+  .cinq{grid-template-columns:1fr 1fr}
+  .carte.premier{padding:24px 20px 22px 20px}
+  .carte.premier .rang{position:static;font-size:60px;margin-bottom:6px}
+  .brief{grid-template-columns:1fr}
+  .brief .tests{max-width:none}
+  .barre-in{flex-wrap:wrap;gap:10px}
+  nav.onglets{order:3;width:100%}
+  li.jour{top:110px}
   .deux{grid-template-columns:1fr}
   .annuaire,.dossiers{grid-template-columns:1fr}
   .brief{grid-template-columns:1fr}
@@ -188,26 +248,33 @@ h3.section{font:800 24px/1.1 var(--titre);letter-spacing:-.01em;margin:30px 0 14
   .etat{display:none}
 }
 @media (prefers-reduced-motion:reduce){*{transition:none!important}}
+@media (max-width:560px){ .cinq{grid-template-columns:1fr} }
 </style>
 </head>
 <body>
-<div class="wrap">
-  <header class="top">
+<div class="barre"><div class="wrap barre-in">
+  <header class="top" style="display:contents">
     <h1 class="marque">
       <svg viewBox="0 0 32 32" aria-hidden="true"><path fill="currentColor" d="M9 4c1.6 0 2.8 1.6 2.8 3.6S10.6 11.2 9 11.2 6.2 9.6 6.2 7.6 7.4 4 9 4Zm14 0c1.6 0 2.8 1.6 2.8 3.6s-1.2 3.6-2.8 3.6-2.8-1.6-2.8-3.6S21.4 4 23 4ZM4 12.6c1.4-.4 3 .9 3.5 2.8.5 1.9-.2 3.8-1.6 4.2-1.4.4-3-.9-3.5-2.8-.5-1.9.2-3.8 1.6-4.2Zm24 0c1.4.4 2.1 2.3 1.6 4.2-.5 1.9-2.1 3.2-3.5 2.8-1.4-.4-2.1-2.3-1.6-4.2.5-1.9 2.1-3.2 3.5-2.8ZM16 14c3.2 0 7.5 5 7.5 9.2 0 2.6-2 3.8-4.2 3.8-1.6 0-2.3-.8-3.3-.8s-1.7.8-3.3.8c-2.2 0-4.2-1.2-4.2-3.8C8.5 19 12.8 14 16 14Z" style="color:var(--blaze)"/></svg>
       Flair
     </h1>
+    <nav class="onglets" aria-label="Sections">
+      <a href="#veille" data-vue="veille">Veille</a>
+      <a href="#annuaire" data-vue="annuaire">Les IA</a>
+      <a href="#controle" data-vue="controle">Contrôle et pouvoir</a>
+    </nav>
     <div class="etat" id="etat">Chargement…</div>
-    <button class="btn-icone" id="theme" aria-label="Changer de thème">◐</button>
+    <button class="btn-icone" id="theme" aria-label="Changer de thème"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="8.5"/><path d="M12 3.5a8.5 8.5 0 0 1 0 17z" fill="currentColor"/></svg></button>
   </header>
-  <nav class="onglets" aria-label="Sections">
-    <a href="#veille" data-vue="veille">Veille</a>
-    <a href="#annuaire" data-vue="annuaire">Les IA</a>
-    <a href="#controle" data-vue="controle">Contrôle et pouvoir</a>
-  </nav>
+</div></div>
+<div class="wrap">
 
   <section class="vue" id="vue-veille">
 
+  <section class="une" id="une" hidden>
+    <div class="une-tete"><h2>Les 5 à suivre cette semaine</h2><p id="une-sous"></p></div>
+    <ol class="cinq" id="cinq"></ol>
+  </section>
   <section class="brief" id="brief" hidden></section>
 
   <div class="outils">
@@ -230,6 +297,7 @@ h3.section{font:800 24px/1.1 var(--titre);letter-spacing:-.01em;margin:30px 0 14
   <div class="grille">
     <aside class="filtres">
       <div class="bloc"><h3>Thème</h3><div id="f-cat"></div></div>
+      <div class="bloc"><h3>Société</h3><div id="f-soc"></div></div>
       <div class="bloc"><h3>Provenance</h3><div id="f-type"></div></div>
       <div class="bloc">
         <h3>Affiner</h3>
@@ -291,8 +359,8 @@ const store = {
   get(k, d){ try{ const v = localStorage.getItem("flair:"+k); return v ? JSON.parse(v) : d; }catch{ return d; } },
   set(k, v){ try{ localStorage.setItem("flair:"+k, JSON.stringify(v)); }catch{} }
 };
-let ITEMS = [], TOUS = [], META = {}, ANNUAIRE = null, CONTROLE = null, tacheActive = null, lus = new Set(store.get("lus", [])), favs = new Set(store.get("favs", []));
-const etat = {q:"", heures:168, tri:"flair", cat:null, type:null, pc:false, nonlu:false, fav:false, chaud:false, limite:60, actif:-1};
+let SOCS = {}, ITEMS = [], TOUS = [], META = {}, ANNUAIRE = null, CONTROLE = null, tacheActive = null, lus = new Set(store.get("lus", [])), favs = new Set(store.get("favs", []));
+const etat = {q:"", heures:168, tri:"flair", cat:null, type:null, soc:null, pc:false, nonlu:false, fav:false, chaud:false, limite:60, actif:-1};
 let visibles = [];
 
 const esc = s => String(s ?? "").replace(/[&<>"']/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
@@ -304,6 +372,47 @@ function depuis(iso){
 }
 const jauge = n => `<div class="flair" title="Flair ${n}/5" aria-label="Importance ${n} sur 5">${[1,2,3,4,5].map(i=>`<i class="${i<=n?"on":""}"></i>`).join("")}</div>`;
 const titreDe = it => it.analyse?.titre_fr || it.titre;
+const chapoDe = it => it.analyse?.a_retenir || it.analyse?.resume || "";
+function societeDe(it){
+  const d = it.societe && SOCS[it.societe], a = it.analyse?.societe;
+  if (d) return {...d, presentation: d.presentation || a?.presentation};
+  if (a?.nom && !/^(inconnu|non précisé|aucune?|n\/a|\?)/i.test(a.nom)) return {id:"x-"+a.nom.toLowerCase(), nom:a.nom, presentation:a.presentation, pays:""};
+  return null;
+}
+function teinte(t){ let h = 0; for (const c of t) h = (h*31 + c.charCodeAt(0)) % 360; return h; }
+function initiales(n){ const m = n.replace(/\(.*?\)/g,"").trim().split(/[\s-]+/).filter(Boolean); return (m.length>1 ? m[0][0]+m[1][0] : m[0].slice(0,2)).toUpperCase(); }
+const mono = (soc, grand) => soc ? `<span class="mono ${grand?"grand":""}" style="--h:${teinte(soc.id)}" aria-hidden="true">${esc(initiales(soc.nom))}</span>` : "";
+const socChip = it => { const s = societeDe(it); return s ? `<span class="soc">${mono(s)}<span class="soc-nom">${esc(s.nom)}</span></span>` : ""; };
+const parSociete = id => TOUS.filter(i => i.societe === id && Date.now()-new Date(i.date) < 7*864e5).length;
+
+function topCinq(){
+  const t = (META.top5?.items||[]).map(x => ({...x, it: TOUS.find(i=>i.id===x.id)})).filter(x=>x.it);
+  if (t.length >= 3) return t;
+  const vus = new Set();
+  return ITEMS.filter(i => Date.now()-new Date(i.date) < 7*864e5).sort((a,b)=>b.score-a.score)
+    .filter(i => { const k = i.societe || i.id; if (vus.has(k)) return false; vus.add(k); return true; })
+    .slice(0,5).map(it => ({id:it.id, it, pourquoi: it.analyse?.pourquoi || "", a_faire:""}));
+}
+function rendreUne(){
+  const t = topCinq(), el = $("#une");
+  if (!t.length){ el.hidden = true; return; }
+  el.hidden = false;
+  $("#une-sous").textContent = META.top5?.par_ia ? `Choisis par le chien et l'IA parmi ${ITEMS.filter(i=>Date.now()-new Date(i.date)<7*864e5).length} sujets de la semaine` : "Classés par le flair du chien";
+  $("#cinq").innerHTML = t.map((x,n) => {
+    const it = x.it, prem = n === 0;
+    const txt = prem ? (chapoDe(it) || it.extrait || "") : (x.pourquoi || chapoDe(it));
+    return `<li><button class="carte ${prem?"premier":""} ${lus.has(it.id)?"lu":""}" data-id="${it.id}">
+      <span class="rang">${n+1}</span>
+      ${socChip(it)}
+      <h3 class="carte-titre">${esc(titreDe(it))}</h3>
+      ${txt?`<p class="lignes">${esc(txt)}</p>`:""}
+      ${prem && x.pourquoi ? `<span class="etiquette">Pourquoi le suivre</span><p>${esc(x.pourquoi)}</p>` : ""}
+      ${x.a_faire ? `<p class="faire">À faire : ${esc(x.a_faire)}</p>` : ""}
+      ${prem && it.raisons?.length ? `<div class="raisons">${it.raisons.map(r=>`<span>${esc(r)}</span>`).join("")}</div>` : ""}
+    </button></li>`;
+  }).join("");
+  $("#cinq").querySelectorAll(".carte").forEach(b => b.onclick = () => ouvrir(b.dataset.id));
+}
 
 async function charger(){
   try{
@@ -311,31 +420,24 @@ async function charger(){
     TOUS = await a.json(); META = await b.json();
   }catch(e){ TOUS = []; META = {}; }
   ITEMS = TOUS.filter(i => i.rubrique !== "controle");
+  try{ const d = await (await fetch("data/societes.json",{cache:"no-store"})).json(); d.societes.forEach(x => SOCS[x.id] = x); }catch{ SOCS = {}; }
   try{ ANNUAIRE = await (await fetch("data/annuaire.json",{cache:"no-store"})).json(); }catch{ ANNUAIRE = null; }
   try{ CONTROLE = await (await fetch("data/controle.json",{cache:"no-store"})).json(); }catch{ CONTROLE = null; }
   const nbSources = (META.sources_ok||[]).length;
   $("#etat").innerHTML = META.maj
     ? `Dernière chasse <b>${depuis(META.maj)}</b><br>${nbSources} sources, ${META.analyses||0} sujets expliqués${(META.sources_ko||[]).length?`, ${(META.sources_ko).length} en panne`:""}`
     : "Pas encore de chasse";
-  rendreBrief(); rendreFiltres(); rendre(); rendreAnnuaire(); rendreControle(); router();
+  rendreUne(); rendreBrief(); rendreFiltres(); rendre(); rendreAnnuaire(); rendreControle(); router();
 }
 
 function rendreBrief(){
   const b = META.brief, el = $("#brief");
-  const top = ITEMS.filter(i => Date.now() - new Date(i.date) < 36*3600e3).sort((x,y)=>y.score-x.score)[0];
-  if (!b && !top) { el.hidden = true; return; }
+  if (!b) { el.hidden = true; return; }
   el.hidden = false;
   el.innerHTML = `
-    <div>
-      <div class="quand">Brief du ${new Date(META.maj||Date.now()).toLocaleDateString("fr-FR",{weekday:"long",day:"numeric",month:"long"})}</div>
-      <h2>${esc(b?.titre || "Ce qui bouge dans l'IA aujourd'hui")}</h2>
-      ${b?.texte ? `<p>${esc(b.texte)}</p>` : `<p>Ajoute une clé API gratuite pour que le chien rédige un brief chaque matin (voir le README).</p>`}
-    </div>
-    <div>
-      ${b?.a_tester?.length ? `<div class="tester"><h3>À tester cette semaine</h3><ol>${b.a_tester.map(x=>`<li>${esc(x)}</li>`).join("")}</ol></div>` : ""}
-      ${top ? `<button class="piste" data-id="${top.id}"><small>La piste la plus chaude</small><strong>${esc(titreDe(top))}</strong></button>` : ""}
-    </div>`;
-  el.querySelector(".piste")?.addEventListener("click", e => ouvrir(e.currentTarget.dataset.id));
+    <div class="quand">Brief du ${new Date(META.maj||Date.now()).toLocaleDateString("fr-FR",{weekday:"long",day:"numeric",month:"long"})}</div>
+    <div><h3>${esc(b.titre || "Ce qui bouge dans l'IA aujourd'hui")}</h3><p>${esc(b.texte || "")}</p></div>
+    ${b.a_tester?.length ? `<div class="tests"><b>À tester</b>${b.a_tester.map(x=>`<span>${esc(x)}</span>`).join("")}</div>` : ""}`;
 }
 
 function filtrer(sauf){
@@ -344,13 +446,14 @@ function filtrer(sauf){
     if (etat.heures && Date.now() - new Date(it.date) > etat.heures*3600e3) return false;
     if (sauf !== "cat" && etat.cat && it.categorie !== etat.cat) return false;
     if (sauf !== "type" && etat.type && it.type !== etat.type) return false;
+    if (sauf !== "soc" && etat.soc && it.societe !== etat.soc) return false;
     if (etat.pc && !it.local) return false;
     if (etat.nonlu && lus.has(it.id)) return false;
     if (etat.fav && !favs.has(it.id)) return false;
     if (etat.chaud && it.flair < 4) return false;
     if (q){
       const a = it.analyse || {};
-      const txt = [it.titre, it.extrait, it.source, a.titre_fr, a.resume, (a.tags||[]).join(" ")].join(" ").toLowerCase();
+      const txt = [it.titre, it.extrait, it.source, a.titre_fr, a.resume, societeDe(it)?.nom, (a.tags||[]).join(" ")].join(" ").toLowerCase();
       if (!q.split(/\s+/).every(m => txt.includes(m))) return false;
     }
     return true;
@@ -358,8 +461,8 @@ function filtrer(sauf){
 }
 
 function listeChoix(el, cle, valeurs, libelle){
-  const base = filtrer(cle), compte = {};
-  base.forEach(it => compte[it[cle==="cat"?"categorie":"type"]] = (compte[it[cle==="cat"?"categorie":"type"]]||0)+1);
+  const base = filtrer(cle), compte = {}, champ = {cat:"categorie", type:"type", soc:"societe"}[cle];
+  base.forEach(it => compte[it[champ]] = (compte[it[champ]]||0)+1);
   el.innerHTML = [`<button class="choix" data-v="" aria-pressed="${!etat[cle]}"><span>Tous</span><span>${base.length}</span></button>`]
     .concat(valeurs.map(v => `<button class="choix" data-v="${esc(v)}" aria-pressed="${etat[cle]===v}"><span>${esc(libelle(v))}</span><span>${compte[v]||0}</span></button>`)).join("");
   el.querySelectorAll(".choix").forEach(b => b.onclick = () => { etat[cle] = b.dataset.v || null; etat.limite = 60; rendreFiltres(); rendre(); });
@@ -369,6 +472,10 @@ function rendreFiltres(){
   listeChoix($("#f-cat"), "cat", cats, v=>v);
   const types = Object.keys(TYPES).filter(t => ITEMS.some(i=>i.type===t));
   listeChoix($("#f-type"), "type", types, v=>TYPES[v]);
+  const nb = {}; ITEMS.forEach(i => i.societe && (nb[i.societe] = (nb[i.societe]||0)+1));
+  const socs = Object.keys(nb).filter(k=>SOCS[k]).sort((a,b)=>nb[b]-nb[a]).slice(0,10);
+  if (etat.soc && !socs.includes(etat.soc)) socs.push(etat.soc);
+  listeChoix($("#f-soc"), "soc", socs, v=>SOCS[v]?.nom || v);
 }
 
 function rendre(){
@@ -384,26 +491,48 @@ function rendre(){
     fil.innerHTML = `<li class="vide"><strong>Aucune piste avec ces filtres</strong>Élargis la période ou retire un filtre.</li>`;
     $("#plus").hidden = true; return;
   }
-  fil.innerHTML = visibles.slice(0, etat.limite).map((it,i) => `
+  let jourPrec = "";
+  const jourDe = d => { const j = Math.floor((new Date().setHours(0,0,0,0) - new Date(d).setHours(0,0,0,0)) / 864e5);
+    return j <= 0 ? "Aujourd'hui" : j === 1 ? "Hier" : new Date(d).toLocaleDateString("fr-FR",{weekday:"long",day:"numeric",month:"long"}); };
+  fil.innerHTML = visibles.slice(0, etat.limite).map((it,i) => {
+    let tete = "";
+    if (etat.tri === "date"){ const j = jourDe(it.date); if (j !== jourPrec){ jourPrec = j; tete = `<li class="jour">${esc(j)}</li>`; } }
+    const ch = chapoDe(it);
+    return tete + `
     <li class="sujet ${lus.has(it.id)?"lu":""} ${i===etat.actif?"actif":""}" data-id="${it.id}" tabindex="0">
       ${jauge(it.flair)}
       <div>
         <p class="titre">${esc(titreDe(it))}</p>
+        ${ch?`<p class="chapo">${esc(ch)}</p>`:""}
         <div class="meta">
-          <span>${esc(it.source)}</span><span>${depuis(it.date)}</span>
+          ${socChip(it)}<span>${esc(it.source)}</span><span>${depuis(it.date)}</span>
           ${it.categorie?`<span class="badge">${esc(it.categorie)}</span>`:""}
           ${it.local?`<span class="badge pc">Sur mon PC</span>`:""}
-          ${it.echos?.length?`<span class="badge echo">+${it.echos.length} source${it.echos.length>1?"s":""}</span>`:""}
+          ${(n => n ? `<span class="badge echo">+${n} source${n>1?"s":""}</span>` : "")(new Set((it.echos||[]).map(e=>e.source)).size)}
         </div>
       </div>
       <button class="fav" aria-label="Favori" aria-pressed="${favs.has(it.id)}" data-fav="${it.id}">${favs.has(it.id)?"★":"☆"}</button>
-    </li>`).join("");
+    </li>`; }).join("");
   $("#plus").hidden = visibles.length <= etat.limite;
   fil.querySelectorAll(".sujet").forEach(li => {
     li.onclick = e => { if (e.target.closest(".fav")) return; ouvrir(li.dataset.id); };
     li.onkeydown = e => { if (e.key === "Enter") ouvrir(li.dataset.id); };
   });
   fil.querySelectorAll(".fav").forEach(b => b.onclick = () => basculerFav(b.dataset.fav));
+}
+
+function carteSociete(it){
+  const s = societeDe(it); if (!s) return "";
+  const n = SOCS[s.id] ? parSociete(s.id) : 0;
+  const fiche = s.annuaire && ANNUAIRE?.ia.some(x=>x.id===s.annuaire);
+  return `<div class="carte-soc">${mono(s, true)}<strong>${esc(s.nom)}</strong><small>${esc(s.pays||"")}${s.pays&&n?", ":""}${n?`${n} actu${n>1?"s":""} cette semaine`:""}</small>
+    ${s.presentation ? `<p>${esc(s.presentation)}</p>` : ""}
+    <div class="liens">${fiche?`<a href="#annuaire" data-fiche="${esc(s.annuaire)}">Voir sa fiche complète</a>`:""}${SOCS[s.id]?`<a href="#veille" data-soc="${esc(s.id)}">Toutes ses actus</a>`:""}</div></div>`;
+}
+function brancherSociete(){
+  const p = $("#panneau");
+  p.querySelector("[data-fiche]")?.addEventListener("click", e => { e.preventDefault(); const id = e.currentTarget.dataset.fiche; location.hash = "#annuaire"; setTimeout(()=>ouvrirIA(id), 50); });
+  p.querySelector("[data-soc]")?.addEventListener("click", e => { e.preventDefault(); etat.soc = e.currentTarget.dataset.soc; etat.heures = 168; document.querySelectorAll("#periode button").forEach(x=>x.setAttribute("aria-pressed", x.dataset.v==="168")); location.hash = "#veille"; fermer(); rendreFiltres(); rendre(); document.getElementById("fil").scrollIntoView({behavior:"smooth"}); });
 }
 
 function basculerFav(id){ favs.has(id) ? favs.delete(id) : favs.add(id); store.set("favs",[...favs]); rendre(); if ($("#panneau").classList.contains("ouvert")) ouvrir(id, true); }
@@ -425,6 +554,9 @@ function ouvrir(id, silencieux){
       ${a?.niveau?`<span class="badge">Niveau ${esc(a.niveau)}</span>`:""}
       ${(a?.tags||[]).map(t=>`<span class="badge">${esc(t)}</span>`).join("")}
     </div>
+    ${carteSociete(it)}
+    ${a?.a_retenir ? `<p class="retenir">${esc(a.a_retenir)}</p>` : ""}
+    ${it.raisons?.length ? `<h3>Pourquoi le chien l'a remonté</h3><div class="raisons">${it.raisons.map(r=>`<span>${esc(r)}</span>`).join("")}</div>` : ""}
     ${a ? `
       <h3>De quoi il s'agit</h3><p>${esc(a.resume)}</p>
       ${a.pourquoi?`<h3>Pourquoi c'est important</h3><p>${esc(a.pourquoi)}</p>`:""}
@@ -435,14 +567,14 @@ function ouvrir(id, silencieux){
       <h3>Extrait</h3><p>${esc(it.extrait || "Pas d'extrait fourni par la source.")}</p>
       <p class="sans-analyse">Ce sujet n'a pas encore été expliqué par l'IA. Il le sera au prochain passage s'il fait partie des plus flairés (et si une clé API est configurée).</p>
     `}
-    ${it.echos?.length?`<h3>Aussi repéré chez</h3><p>${it.echos.map(e=>`<a href="${esc(e.lien)}" target="_blank" rel="noopener">${esc(e.source)}</a>`).join(", ")}</p>`:""}
+    ${it.echos?.length?`<h3>Aussi repéré chez</h3><p>${[...new Map(it.echos.map(e=>[e.source,e])).values()].map(e=>`<a href="${esc(e.lien)}" target="_blank" rel="noopener">${esc(e.source)}</a>`).join(", ")}</p>`:""}
     <div class="actions">
       <a class="cta" href="${esc(it.lien)}" target="_blank" rel="noopener">Lire la source</a>
       <button class="cta sec" data-fav="${it.id}">${favs.has(it.id)?"Retirer des favoris":"Ajouter aux favoris"}</button>
     </div>`;
   p.querySelector(".fermer").onclick = fermer;
   p.querySelector("[data-fav]").onclick = () => basculerFav(it.id);
-  montrerPanneau();
+  montrerPanneau(); brancherSociete();
   if (!silencieux){ p.scrollTop = 0; p.querySelector(".fermer").focus(); rendre(); }
 }
 function montrerPanneau(){ const p=$("#panneau"); p.classList.add("ouvert"); p.setAttribute("aria-hidden","false"); $("#voile").classList.add("ouvert"); }

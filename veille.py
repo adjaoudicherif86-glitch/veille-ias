@@ -128,8 +128,8 @@ def chasser(sources):
             r = requests.get(src["url"], headers={"User-Agent": UA}, timeout=25)
             r.raise_for_status()
             flux = feedparser.parse(r.content)
-            if not flux.entries:
-                raise ValueError("flux vide ou illisible")
+            if not flux.entries and flux.bozo:
+                raise ValueError("flux illisible")
         except Exception as e:  # une source en panne ne bloque jamais les autres
             ko.append({"nom": src["nom"], "erreur": str(e)[:160]})
             print(f"  ✗ {src['nom']} : {e}", file=sys.stderr)
@@ -160,7 +160,15 @@ def chasser(sources):
         print(f"  ✓ {src['nom']} : {garde} articles")
     return trouves, ok, ko
 
-# --- 2. Le flair : doublons, échos, score, catégories ----------------------
+# --- 2. Le flair : doublons, échos, société, score, explication -----------
+
+def charger_societes():
+    d = charger_json(DATA / "societes.json", {"societes": []})["societes"]
+    for s in d:
+        s["_re"] = re.compile(r"(?:" + s["motifs"] + r")", re.I)
+    return sorted(d, key=lambda s: -s["poids"])
+
+SOCIETES = []
 
 def fusionner(anciens, nouveaux):
     par_id = {a["id"]: a for a in anciens}
@@ -174,47 +182,124 @@ def fusionner(anciens, nouveaux):
     return [a for a in par_id.values() if datetime.fromisoformat(a["date"]) >= limite]
 
 
+MOTS_VIDES = set("the a an and or of to in on for with by from at is are its new how what why this that le la les un une des de du et ou en au aux pour par sur avec dans est son ses ce cette qui que ai ia".split())
+
+def jetons(titre):
+    return {m for m in titre_normalise(titre).split() if len(m) > 2 and m not in MOTS_VIDES}
+
+RE_MODELE = re.compile(r"\b([a-z][a-z]{2,}[- ]?v?\d+(?:\.\d+)*)(?![\d%x.])", re.I)
+PAS_MODELE = MOTS_VIDES | set("top cuts than over under about only page step part phase level since until".split())
+
+def ids_modeles(titre, debut=False):
+    t = titre[:45] if debut else titre
+    return {re.sub(r"[- ]", "", m.lower()) for m in RE_MODELE.findall(t)
+            if re.split(r"[- ]?v?\d", m.lower())[0] not in PAS_MODELE and not re.search(r"(19|20)\d\d$", m)}
+
+def meme_sujet(a, b):
+    if SequenceMatcher(None, a["_tn"], b["_tn"]).ratio() > 0.72:
+        return True
+    ja, jb = a["_tok"], b["_tok"]
+    if not ja or not jb:
+        return False
+    jac = len(ja & jb) / len(ja | jb)
+    return jac >= 0.5 or (bool(a["_mod"] & b["_mod"]) and jac >= 0.2)
+
 def regrouper(items):
-    """Regroupe les articles qui parlent du même sujet (sources différentes)."""
+    """Regroupe les articles qui parlent du même sujet (sources différentes) et garde l'historique des échos."""
     items.sort(key=lambda a: (-POIDS_TYPE.get(a["type"], 1), a["date"]))
+    for it in items:
+        it["_tn"], it["_tok"], it["_mod"] = titre_normalise(it["titre"]), jetons(it["titre"]), ids_modeles(it["titre"])
     groupes = []
     for it in items:
-        tn = titre_normalise(it["titre"])
         d = datetime.fromisoformat(it["date"])
-        place = False
         for g in groupes:
             chef = g[0]
             if chef.get("rubrique", "veille") != it.get("rubrique", "veille"):
                 continue
             if abs((datetime.fromisoformat(chef["date"]) - d).days) > 3:
                 continue
-            if SequenceMatcher(None, tn, chef["_tn"]).ratio() > 0.72:
+            if meme_sujet(it, chef):
                 g.append(it)
-                place = True
                 break
-        it["_tn"] = tn
-        if not place:
+        else:
             groupes.append([it])
     sortie = []
     for g in groupes:
         chef = g[0]
-        chef["echos"] = [{"source": x["source"], "lien": x["lien"]} for x in g[1:] if x["source"] != chef["source"]]
+        echos = {e["lien"]: e for e in chef.get("echos", [])}
+        for x in g[1:]:
+            for e in [{"source": x["source"], "lien": x["lien"]}] + x.get("echos", []):
+                if e["source"] != chef["source"]:
+                    echos.setdefault(e["lien"], e)
+        chef["echos"] = list(echos.values())
         sortie.append(chef)
     for it in items:
-        it.pop("_tn", None)
+        for k in ("_tn", "_tok", "_mod"):
+            it.pop(k, None)
     return sortie
 
 
-def flairer(it):
-    texte = f"{it['titre']} {it['extrait']}"
-    score = POIDS_TYPE.get(it["type"], 1.5)
-    for motif, poids in BOOSTS:
-        if re.search(motif, texte, re.I):
-            score += poids
-    score += 1.5 * min(len(it.get("echos", [])), 4)
+BASE_TYPE = {"officiel": (3.0, "Source officielle"), "presse": (2.2, None), "fr": (2.0, None),
+             "communaute": (1.6, None), "recherche": (0.8, None)}
+RE_LANCEMENT = re.compile(r"\b(launch\w*|releas\w*|introduc\w*|announc\w*|unveil\w*|debut\w*|rolls? out|now available|lance\w*|dévoil\w*|annonce\w*|présente\w*|sortie)\b", re.I)
+RE_OUVERT = re.compile(r"\b(open[- ]?source\w*|open[- ]?weights?|poids ouverts|apache 2\.0|mit license|gguf)\b", re.I)
+RE_ARGENT = re.compile(r"\b(raises?|funding|levée|lève|valuation|valoris\w*|ipo|introduction en bourse|acqui\w*|rachat|rachète|billion|milliards?)\b", re.I)
+RE_REGLE = re.compile(r"\b(regulat\w*|régulation|ai act|lawsuit|procès|court|tribunal|ban\w*|interdi\w*|export controls?|antitrust|amende|fine[ds]?)\b", re.I)
+RE_PRIX = re.compile(r"\b(pric\w*|tarif\w*|prix|free tier|gratuit\w*|cheaper|moins cher)\b", re.I)
+RE_PAQUET = re.compile(r"^[\w.-]+ v?\d+(\.\d+)*([ab]|rc|dev)?\d*$", re.I)
+RE_TEMOIGNAGE = re.compile(r"^(how|comment) .{3,60} (uses?|is using|builds?|is building|answers|scales?|transforms?|utilise)\b"
+                           r"|\b(cuts?|boosts?|reduces?|saves?|triples?|doubles?|speeds? up|answers)\b.{0,60}\bwith\b", re.I)
+
+
+def detecter_societe(it):
+    """Renvoie (société, trouvée_dans_le_titre)."""
+    titre, texte = it["titre"], f"{it['titre']} {it.get('extrait', '')}"
+    for zone, dans_titre in ((titre, True), (texte, False)):
+        for s in SOCIETES:
+            if s["_re"].search(zone):
+                return s, dans_titre
+    return None, False
+
+
+def noter(it):
+    titre, texte = it["titre"], f"{it['titre']} {it.get('extrait', '')}"
+    base, raison = BASE_TYPE.get(it["type"], (1.5, None))
+    score, raisons = base, ([raison] if raison else [])
+    soc, dans_titre = detecter_societe(it)
+    it["societe"] = soc["id"] if soc else None
+    if soc:
+        score += {3: 1.5, 2: 1.0, 1: 0.5}[soc["poids"]] * (1 if dans_titre else 0.4)
+        if soc["poids"] == 3 and dans_titre:
+            raisons.append(f"Acteur majeur : {soc['nom']}")
+    lance = RE_LANCEMENT.search(titre)
+    if (lance and ids_modeles(titre)) or (it["type"] == "officiel" and ids_modeles(titre, debut=True)):
+        score += 2.5; raisons.append("Nouveau modèle ou nouvelle version")
+    elif lance:
+        score += 1.2; raisons.append("Lancement ou annonce")
+    if RE_OUVERT.search(texte):
+        score += 1.5; raisons.append("Utilisable librement (open source)")
+    if RE_ARGENT.search(titre):
+        score += 0.8; raisons.append("Argent, levée ou rachat")
+    if RE_REGLE.search(titre):
+        score += 0.8; raisons.append("Régulation ou justice")
+    if RE_PRIX.search(titre):
+        score += 0.6; raisons.append("Prix ou accès")
+    n = len({e["source"] for e in it.get("echos", [])})
+    if n:
+        score += 1.6 * min(n, 5); raisons.insert(0, f"Repris par {n + 1} sources")
+    if RE_PAQUET.match(titre.strip()):
+        score -= 2.5
+    if RE_TEMOIGNAGE.match(titre.strip()):
+        score -= 1.2
+    imp = it.get("analyse", {}).get("importance")
+    if imp:
+        score += (int(imp) - 3) * 1.2
+        if int(imp) >= 4:
+            raisons.append(f"Jugé important par l'IA ({imp}/5)")
     age_h = (MAINTENANT - datetime.fromisoformat(it["date"])).total_seconds() / 3600
-    score -= min(age_h / 48, 2.5)
+    score -= min(age_h / 36, 3)
     it["score"] = round(score, 2)
+    it["raisons"] = raisons[:4]
     if not it.get("analyse"):
         it["local"] = bool(LOCAL.search(texte))
         it["categorie"] = next((nom for nom, m in CATEGORIES if re.search(m, texte, re.I)), "Actualité")
@@ -222,12 +307,20 @@ def flairer(it):
             it["categorie"] = "Recherche"
         if it.get("rubrique") == "controle":
             it["categorie"] = next((nom for nom, m in THEMES_CONTROLE if re.search(m, texte, re.I)), "Pouvoir et régulation")
-    # flair de 1 à 5 : l'analyse IA, si présente, a le dernier mot
-    flair = max(1, min(5, round(score / 1.8)))
-    if it.get("analyse", {}).get("importance"):
-        flair = round((flair + 2 * int(it["analyse"]["importance"])) / 3)
-    it["flair"] = max(1, min(5, flair))
     return it
+
+
+def flairer(items):
+    """Score de chaque sujet puis flair de 1 à 5 selon son rang dans sa rubrique (top 4 % = 5)."""
+    for it in items:
+        noter(it)
+    for rub in ("veille", "controle"):
+        groupe = sorted([i for i in items if i.get("rubrique", "veille") == rub], key=lambda i: -i["score"])
+        n = max(len(groupe), 1)
+        for rang, it in enumerate(groupe):
+            p = rang / n
+            it["flair"] = 5 if p < .04 else 4 if p < .12 else 3 if p < .30 else 2 if p < .60 else 1
+    return items
 
 # --- 3. L'explication : analyse par un modèle d'IA gratuit ------------------
 
@@ -235,6 +328,8 @@ CONSIGNE = """Tu es un analyste de veille IA pour un professionnel francophone.
 On te donne une actualité. Réponds UNIQUEMENT avec un objet JSON valide (pas de ```), avec ces clés :
 {
  "titre_fr": "titre clair en français, 12 mots max",
+ "societe": {"nom": "la société principale concernée", "presentation": "1-2 phrases : qui elle est et ce qu'elle fait, pour un lecteur qui ne la connaît pas"},
+ "a_retenir": "LA phrase à retenir, simple et concrète",
  "resume": "2-3 phrases : de quoi il s'agit concrètement",
  "pourquoi": "1-2 phrases : pourquoi c'est important pour un pro",
  "comment_ca_marche": "3-5 phrases de vulgarisation technique du principe",
@@ -316,7 +411,9 @@ def analyser(items):
     a_faire = [i for i in sans if i.get("rubrique") != "controle"][:MAX_ANALYSES] + \
               [i for i in sans if i.get("rubrique") == "controle"][:MAX_ANALYSES_CONTROLE]
     for n, it in enumerate(a_faire, 1):
-        msg = f"Source : {it['source']} ({it['type']})\nDate : {it['date'][:10]}\nTitre : {it['titre']}\nExtrait : {it['extrait'] or '(aucun)'}\nLien : {it['lien']}"
+        soc = next((x for x in SOCIETES if x["id"] == it.get("societe")), None)
+        info_soc = f"Société repérée : {soc['nom']} ({soc['presentation']})\n" if soc else ""
+        msg = f"{info_soc}Source : {it['source']} ({it['type']})\nDate : {it['date'][:10]}\nTitre : {it['titre']}\nExtrait : {it['extrait'] or '(aucun)'}\nLien : {it['lien']}"
         try:
             consigne = CONSIGNE_CONTROLE if it.get("rubrique") == "controle" else CONSIGNE
             a = extraire_json(appeler_llm(session, modele, consigne, msg))
@@ -353,6 +450,51 @@ def brief_du_jour(items, llm):
         print(f"  (brief non généré : {e})", file=sys.stderr)
         return None
 
+def top_semaine(items, llm, ancien):
+    """Les 5 sujets à suivre cette semaine : présélection par le flair, choix final par l'IA."""
+    semaine = [i for i in items if i.get("rubrique") != "controle"
+               and (MAINTENANT - datetime.fromisoformat(i["date"])) < timedelta(days=7)]
+    semaine.sort(key=lambda i: -i["score"])
+    cands, par_soc = [], {}
+    for it in semaine:
+        cle = it.get("societe") or it["id"]
+        if par_soc.get(cle, 0) >= 2:
+            continue
+        par_soc[cle] = par_soc.get(cle, 0) + 1
+        cands.append(it)
+        if len(cands) >= 15:
+            break
+    ids = {i["id"] for i in cands}
+    if ancien and ancien.get("par_ia") and (MAINTENANT - datetime.fromisoformat(ancien["maj"])) < timedelta(hours=12) \
+            and all(x["id"] in {i["id"] for i in items} for x in ancien.get("items", [])):
+        return ancien
+    diversifies, vus = [], set()
+    for it in cands:
+        if (it.get("societe") or it["id"]) not in vus:
+            vus.add(it.get("societe") or it["id"]); diversifies.append(it)
+    if llm and cands:
+        session, modele = llm
+        liste = "\n".join(
+            f"[{i['id']}] {i['date'][:10]} | {i['source']} | société : {i.get('societe') or '?'} | "
+            f"{i.get('analyse', {}).get('titre_fr') or i['titre']} | {i.get('analyse', {}).get('resume', '')[:220]}"
+            for i in cands)
+        consigne = ("Tu es le rédacteur en chef d'une veille IA pour un professionnel francophone. "
+                    "Parmi ces sujets de la semaine, choisis les 5 qu'il doit VRAIMENT suivre (impact concret, nouveauté réelle, "
+                    "pas de doublon, pas de sujet mineur). Classe-les du plus important au moins important. "
+                    "Réponds UNIQUEMENT en JSON : {\"top\": [{\"id\": \"identifiant entre crochets\", "
+                    "\"pourquoi\": \"1-2 phrases : pourquoi le suivre cette semaine\", "
+                    "\"a_faire\": \"une action concrète (tester, lire, surveiller…)\"}]}. N'invente rien.")
+        try:
+            rep = extraire_json(appeler_llm(session, modele, consigne, liste, 0.3))
+            choix = [x for x in rep.get("top", []) if x.get("id") in ids][:5]
+            if len(choix) >= 3:
+                return {"maj": MAINTENANT.isoformat(), "par_ia": True,
+                        "items": [{"id": x["id"], "pourquoi": x.get("pourquoi", ""), "a_faire": x.get("a_faire", "")} for x in choix]}
+        except Exception as e:
+            print(f"  (top 5 par l'IA impossible : {e})", file=sys.stderr)
+    return {"maj": MAINTENANT.isoformat(), "par_ia": False,
+            "items": [{"id": i["id"], "pourquoi": (i.get("analyse") or {}).get("pourquoi", ""), "a_faire": ""} for i in diversifies[:5]]}
+
 # --- Programme principal ---------------------------------------------------
 
 def main():
@@ -361,10 +503,10 @@ def main():
     print(f"🐕 La chasse commence : {len(sources)} sources")
     nouveaux, ok, ko = chasser(sources)
     anciens = charger_json(FICHIER_ITEMS, [])
-    items = regrouper(fusionner(anciens, nouveaux))
-    items = [flairer(i) for i in items]
+    SOCIETES[:] = charger_societes()
+    items = flairer(regrouper(fusionner(anciens, nouveaux)))
     llm = analyser(items)
-    items = [flairer(i) for i in items]  # re-score avec l'importance donnée par l'IA
+    items = flairer(items)  # re-score avec l'importance donnée par l'IA
     items.sort(key=lambda i: i["date"], reverse=True)
 
     meta_ancienne = charger_json(FICHIER_META, {})
@@ -376,6 +518,7 @@ def main():
         "total": len(items),
         "analyses": sum(1 for i in items if i.get("analyse")),
         "brief": brief,
+        "top5": top_semaine(items, llm, meta_ancienne.get("top5")),
     }
     FICHIER_ITEMS.write_text(json.dumps(items, ensure_ascii=False, indent=1), encoding="utf-8")
     FICHIER_META.write_text(json.dumps(meta, ensure_ascii=False, indent=1), encoding="utf-8")

@@ -1,0 +1,194 @@
+{
+ "_aide": "Sociétés reconnues par le chien. poids 3 = acteur majeur. motifs = expression régulière (minuscules). annuaire = id de la fiche dans l'onglet Les IA.",
+ "societes": [
+  {
+   "id": "openai",
+   "nom": "OpenAI",
+   "pays": "États-Unis",
+   "poids": 3,
+   "presentation": "Créateur de ChatGPT, des modèles GPT-6 et de l'agent de code Codex. Le leader historique de l'IA générative grand public.",
+   "motifs": "openai|chatgpt|gpt-?\\d|codex|sora|altman",
+   "annuaire": "chatgpt"
+  },
+  {
+   "id": "anthropic",
+   "nom": "Anthropic",
+   "pays": "États-Unis",
+   "poids": 3,
+   "presentation": "Créateur de Claude. Fondée en 2021 par d'anciens d'OpenAI, elle mise sur la sécurité de l'IA et domine sur le code et les usages pro.",
+   "motifs": "anthropic|claude|mythos|amodei",
+   "annuaire": "claude"
+  },
+  {
+   "id": "google",
+   "nom": "Google DeepMind",
+   "pays": "États-Unis / Royaume-Uni",
+   "poids": 3,
+   "presentation": "La branche IA de Google : modèles Gemini, NotebookLM, et des avancées scientifiques comme AlphaFold.",
+   "motifs": "google|deepmind|gemini|gemma|notebooklm|alphafold|antigravity",
+   "annuaire": "gemini"
+  },
+  {
+   "id": "meta",
+   "nom": "Meta",
+   "pays": "États-Unis",
+   "poids": 3,
+   "presentation": "Maison mère de Facebook, Instagram et WhatsApp. Développe les modèles Muse (et auparavant Llama) via ses Superintelligence Labs.",
+   "motifs": "\\bmeta\\b|llama|muse spark|zuckerberg|superintelligence labs",
+   "annuaire": "meta"
+  },
+  {
+   "id": "microsoft",
+   "nom": "Microsoft",
+   "pays": "États-Unis",
+   "poids": 3,
+   "presentation": "Premier partenaire d'OpenAI, il intègre l'IA partout via Copilot (Windows, Office, GitHub) et son cloud Azure.",
+   "motifs": "microsoft|copilot|azure|github copilot|phi-?\\d",
+   "annuaire": null
+  },
+  {
+   "id": "nvidia",
+   "nom": "NVIDIA",
+   "pays": "États-Unis",
+   "poids": 3,
+   "presentation": "Fabricant des puces (GPU) sur lesquelles tourne presque toute l'IA mondiale. Publie aussi ses propres modèles ouverts (Nemotron).",
+   "motifs": "nvidia|geforce|rtx|nemotron|cuda|jensen huang",
+   "annuaire": null
+  },
+  {
+   "id": "spacexai",
+   "nom": "SpaceXAI (ex-xAI)",
+   "pays": "États-Unis",
+   "poids": 2,
+   "presentation": "La société d'IA d'Elon Musk, absorbée par SpaceX en 2026. Développe Grok, intégré au réseau social X.",
+   "motifs": "\\bxai\\b|spacexai|grok|musk",
+   "annuaire": "grok"
+  },
+  {
+   "id": "mistral",
+   "nom": "Mistral AI",
+   "pays": "France",
+   "poids": 2,
+   "presentation": "Le champion français de l'IA, fondé en 2023. Modèles ouverts et assistant Le Chat, avec des données hébergées en Europe.",
+   "motifs": "mistral|le chat|arthur mensch",
+   "annuaire": "mistral"
+  },
+  {
+   "id": "deepseek",
+   "nom": "DeepSeek",
+   "pays": "Chine",
+   "poids": 2,
+   "presentation": "Laboratoire chinois qui publie des modèles ouverts très performants à faible coût. Son R1 a secoué la Bourse en janvier 2025.",
+   "motifs": "deepseek",
+   "annuaire": "deepseek"
+  },
+  {
+   "id": "alibaba",
+   "nom": "Alibaba (Qwen)",
+   "pays": "Chine",
+   "poids": 2,
+   "presentation": "Le géant chinois du commerce en ligne, éditeur de Qwen, l'une des plus grandes familles de modèles ouverts.",
+   "motifs": "alibaba|qwen",
+   "annuaire": "qwen"
+  },
+  {
+   "id": "apple",
+   "nom": "Apple",
+   "pays": "États-Unis",
+   "poids": 2,
+   "presentation": "Intègre l'IA dans l'iPhone et le Mac (Apple Intelligence, Siri), avec un accent sur le traitement local et la vie privée.",
+   "motifs": "\\bapple\\b|siri|apple intelligence|iphone|\\bmlx\\b",
+   "annuaire": null
+  },
+  {
+   "id": "amazon",
+   "nom": "Amazon",
+   "pays": "États-Unis",
+   "poids": 2,
+   "presentation": "Géant du cloud (AWS, Bedrock) et gros investisseur d'Anthropic. Développe Alexa+ et ses puces IA Trainium.",
+   "motifs": "amazon|\\baws\\b|bedrock|alexa|trainium",
+   "annuaire": null
+  },
+  {
+   "id": "huggingface",
+   "nom": "Hugging Face",
+   "pays": "France / États-Unis",
+   "poids": 2,
+   "presentation": "La plateforme de référence où la communauté publie et télécharge les modèles ouverts. Fondée par des Français.",
+   "motifs": "hugging ?face",
+   "annuaire": null
+  },
+  {
+   "id": "ollama",
+   "nom": "Ollama",
+   "pays": "États-Unis",
+   "poids": 1,
+   "presentation": "Outil gratuit pour faire tourner des modèles d'IA sur son propre ordinateur, sans Internet.",
+   "motifs": "ollama|lm ?studio|llama\\.cpp|gguf|unsloth",
+   "annuaire": "local"
+  },
+  {
+   "id": "moonshot",
+   "nom": "Moonshot AI (Kimi)",
+   "pays": "Chine",
+   "poids": 1,
+   "presentation": "Startup chinoise éditrice des modèles Kimi, reconnus pour leurs longs contextes et leurs poids ouverts.",
+   "motifs": "moonshot|kimi",
+   "annuaire": null
+  },
+  {
+   "id": "perplexity",
+   "nom": "Perplexity",
+   "pays": "États-Unis",
+   "poids": 1,
+   "presentation": "Moteur de recherche à réponses générées par IA, avec sources citées.",
+   "motifs": "perplexity",
+   "annuaire": null
+  },
+  {
+   "id": "cursor",
+   "nom": "Cursor (Anysphere)",
+   "pays": "États-Unis",
+   "poids": 1,
+   "presentation": "Éditeur de code dopé à l'IA, très utilisé par les développeurs.",
+   "motifs": "\\bcursor\\b|anysphere",
+   "annuaire": null
+  },
+  {
+   "id": "ibm",
+   "nom": "IBM",
+   "pays": "États-Unis",
+   "poids": 1,
+   "presentation": "Pionnier de l'informatique d'entreprise, il publie les modèles ouverts Granite pour les usages professionnels.",
+   "motifs": "\\bibm\\b|granite",
+   "annuaire": null
+  },
+  {
+   "id": "samsung",
+   "nom": "Samsung",
+   "pays": "Corée du Sud",
+   "poids": 1,
+   "presentation": "Fabricant de smartphones et de puces mémoire indispensables aux serveurs d'IA.",
+   "motifs": "samsung",
+   "annuaire": null
+  },
+  {
+   "id": "ue",
+   "nom": "Union européenne",
+   "pays": "Europe",
+   "poids": 2,
+   "presentation": "L'UE encadre l'IA avec l'AI Act, premier grand règlement mondial sur le sujet.",
+   "motifs": "ai act|commission européenne|european commission|bruxelles|brussels|\\bue\\b|\\beu\\b",
+   "annuaire": null
+  },
+  {
+   "id": "usgov",
+   "nom": "Gouvernement américain",
+   "pays": "États-Unis",
+   "poids": 2,
+   "presentation": "Maison-Blanche, Pentagone, département du Commerce : acteurs clés des contrats, des contrôles à l'export et de la régulation.",
+   "motifs": "pentagon\\w*|white house|maison-blanche|trump|department of (war|defense|commerce)|congress",
+   "annuaire": null
+  }
+ ]
+}

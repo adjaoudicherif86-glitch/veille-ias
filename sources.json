@@ -17,11 +17,6 @@
    "type": "officiel"
   },
   {
-   "nom": "Microsoft AI",
-   "url": "https://blogs.microsoft.com/ai/feed/",
-   "type": "officiel"
-  },
-  {
    "nom": "NVIDIA",
    "url": "https://blogs.nvidia.com/feed/",
    "type": "officiel",
@@ -74,7 +69,8 @@
    "nom": "Simon Willison",
    "url": "https://simonwillison.net/atom/everything/",
    "type": "communaute",
-   "filtre_ia": true
+   "filtre_ia": true,
+   "max": 10
   },
   {
    "nom": "Hacker News (IA, 100+ pts)",
@@ -109,6 +105,36 @@
    "url": "https://news.google.com/rss/search?q=%22intelligence+artificielle%22+nouveau+mod%C3%A8le&hl=fr&gl=FR&ceid=FR:fr",
    "type": "fr",
    "max": 15
+  },
+  {
+   "nom": "Microsoft Copilot (actus)",
+   "url": "https://news.google.com/rss/search?q=Microsoft+Copilot+OR+%22Microsoft+AI%22&hl=en-US&gl=US&ceid=US:en",
+   "type": "presse",
+   "max": 12
+  },
+  {
+   "nom": "Google Gemini (actus)",
+   "url": "https://news.google.com/rss/search?q=Gemini+Google+OR+DeepMind&hl=en-US&gl=US&ceid=US:en",
+   "type": "presse",
+   "max": 12
+  },
+  {
+   "nom": "OpenAI (actus)",
+   "url": "https://news.google.com/rss/search?q=OpenAI+OR+ChatGPT&hl=en-US&gl=US&ceid=US:en",
+   "type": "presse",
+   "max": 12
+  },
+  {
+   "nom": "Grok et SpaceXAI (actus)",
+   "url": "https://news.google.com/rss/search?q=Grok+OR+SpaceXAI&hl=en-US&gl=US&ceid=US:en",
+   "type": "presse",
+   "max": 12
+  },
+  {
+   "nom": "Grandes annonces IA",
+   "url": "https://news.google.com/rss/search?q=%22AI+model%22+launch+OR+release&hl=en-US&gl=US&ceid=US:en",
+   "type": "presse",
+   "max": 12
   },
   {
    "nom": "Surveillance et IA",
