@@ -1,1 +1,56 @@
-{}
+{
+ "maj": "2026-10-19T12:37:54.644977+00:00",
+ "sources_ok": [
+  "OpenAI",
+  "Google DeepMind",
+  "Google AI",
+  "NVIDIA",
+  "Hugging Face",
+  "Anthropic (actus)",
+  "Mistral AI (actus)",
+  "Meta Llama (actus)",
+  "MIT Technology Review",
+  "The Verge IA",
+  "TechCrunch IA",
+  "Simon Willison",
+  "Hacker News (IA, 100+ pts)",
+  "r/LocalLLaMA",
+  "arXiv cs.CL",
+  "ActuIA",
+  "IA en français (actus)",
+  "Surveillance et IA",
+  "IA et surveillance (FR)",
+  "IA militaire",
+  "Anthropic et gouvernement",
+  "Sécurité des modèles",
+  "Contrôles à l'export IA",
+  "Désinformation et deepfakes",
+  "Régulation européenne",
+  "Vie privée et assistants IA"
+ ],
+ "sources_ko": [
+  {
+   "nom": "Microsoft AI",
+   "erreur": "410 Client Error: Gone for url: https://blogs.microsoft.com/ai/feed/"
+  },
+  {
+   "nom": "VentureBeat IA",
+   "erreur": "429 Client Error: Too Many Requests for url: https://venturebeat.com/category/ai/feed/"
+  },
+  {
+   "nom": "arXiv cs.AI",
+   "erreur": "flux vide ou illisible"
+  }
+ ],
+ "total": 267,
+ "analyses": 28,
+ "brief": {
+  "titre": "Fiabilité des modèles et accélération open source",
+  "texte": "L'actualité de l'IA met en lumière une surestimation moyenne de 6,4 % des benchmarks par les laboratoires, renforçant le besoin d'outils d'évaluation rigoureux comme AuditKIT. Parallèlement, l'écosystème open weights s'accélère avec l'arrivée de quatre nouveaux modèles en trois jours, le format GGUF de DeepSeek-V4.1-Flash par Unsloth, et l'outil Harness2 de Google pour les agents auto-améliorants. Enfin, des avancées notables touchent l'autonomie des agents avec Claude et les usages multimodaux avec Embedding Gemma 2.",
+  "a_tester": [
+   "Tester la version GGUF de DeepSeek-V4.1-Flash avec Unsloth",
+   "Explorer AuditKIT pour auditer vos LLM et agents",
+   "Expérimenter la recherche de texte dans les images avec Embedding Gemma 2"
+  ]
+ }
+}
