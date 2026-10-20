@@ -11,13 +11,13 @@
   "echos": [],
   "anciens_ids": [],
   "societe": "google",
-  "score": 2.49,
+  "score": 2.48,
   "raisons": [
    "Acteur majeur : Google DeepMind"
   ],
   "local": false,
   "categorie": "Outils & applis",
-  "flair": 3,
+  "flair": 2,
   "analyse": {
    "titre_fr": "Google Sheets sur iPhone intègre les fonctionnalités Gemini",
    "societe": {
@@ -58,7 +58,7 @@
   "echos": [],
   "anciens_ids": [],
   "societe": "samsung",
-  "score": 2.69,
+  "score": 2.68,
   "raisons": [],
   "local": false,
   "categorie": "Actualité",
@@ -149,7 +149,7 @@
   "extrait": "Le salon de la défense 2026 utilise l'IA pour identifier et préparer deux hélicoptères d'urgence. Vietnam.vn",
   "echos": [],
   "societe": null,
-  "score": -0.42,
+  "score": -0.43,
   "raisons": [],
   "local": false,
   "categorie": "Militaire",
@@ -222,13 +222,13 @@
   "extrait": "Microsoft Copilot Adds OpenAI GPT 6.1 and Anthropic Claude Opus 5.5 Geeky Gadgets",
   "echos": [],
   "societe": "openai",
-  "score": 3.67,
+  "score": 3.66,
   "raisons": [
    "Acteur majeur : OpenAI"
   ],
   "local": false,
   "categorie": "Outils & applis",
-  "flair": 4,
+  "flair": 3,
   "analyse": {
    "titre_fr": "Microsoft Copilot intègre les modèles GPT-6.1 et Claude Opus 5.5",
    "societe": {
@@ -317,7 +317,7 @@
   "echos": [],
   "anciens_ids": [],
   "societe": "anthropic",
-  "score": 4.84,
+  "score": 4.83,
   "raisons": [
    "Acteur majeur : Anthropic",
    "Jugé important par l'IA (4/5)"
@@ -592,7 +592,7 @@
   "extrait": "AI Researcher Claims Neurons Are Legible, Sparking Debate Over Pentagon Autonomy Rules The SOFX Report",
   "echos": [],
   "societe": "usgov",
-  "score": 3.07,
+  "score": 3.06,
   "raisons": [],
   "local": false,
   "categorie": "Militaire",
@@ -627,7 +627,7 @@
   "extrait": "AI Act : le guide de conformité 2026 pour les entreprises Brief IA",
   "echos": [],
   "societe": "ue",
-  "score": 3.67,
+  "score": 3.66,
   "raisons": [
    "Régulation ou justice"
   ],
@@ -664,11 +664,11 @@
   "extrait": "arXiv:2610.23866v1 Announce Type: new Abstract: We introduce GardenBench, a benchmark with 11 test suites that evaluate the capabilities of Large Language Models (LLMs) across a range of tasks. By systematically prompting LLMs with various lightweight queries, we document day-to-day changes in model performance, including run costs and times, that other benchmarks miss. This allows us to compare the accuracy and features of responses across model providers and versions. We account for daily variations in model accuracy, capturing both model progress and degradation, for instance, when a model is changed post-deployment or when a new model is released. We base our evaluation on general-use ta…",
   "echos": [],
   "societe": null,
-  "score": 0.65,
+  "score": 0.64,
   "raisons": [],
   "local": false,
   "categorie": "Recherche",
-  "flair": 1,
+  "flair": 2,
   "anciens_ids": []
  },
  {
@@ -682,7 +682,7 @@
   "extrait": "arXiv:2610.23921v1 Announce Type: new Abstract: There is growing interest in automating business activities with Agentic Artificial Intelligence (AI) due to latter's seeming ease of use. Never has it been easier, or costlier, to do less with more. However, little is known about when agents are preferable to established alternatives such as local computation, Representational State Transfer (REST), the Simple Object Access Protocol (SOAP), and the Model Context Protocol (MCP), particularly when development speed, performance, and operational cost are considered. We investigate this question using a controlled mathematical task that compares seven methods on a benchmark of 1,000 arithmetic exp…",
   "echos": [],
   "societe": null,
-  "score": 0.65,
+  "score": 0.64,
   "raisons": [],
   "local": true,
   "categorie": "Recherche",
@@ -700,7 +700,7 @@
   "extrait": "arXiv:2610.23962v1 Announce Type: new Abstract: We propose a controlled Large Language Model (LLM) workflow for explaining risk score differences using similar historical transactions. The workflow combines reference retrieval and contrastive SHapley Additive exPlanations (SHAP) evidence with reference-based LLM reasoning and deterministic validation. Experiments on a test dataset show that the workflow produces more consistent, evidence-grounded and traceable diagnoses than the same LLM without structured workflow guidance.",
   "echos": [],
   "societe": null,
-  "score": 0.65,
+  "score": 0.64,
   "raisons": [],
   "local": false,
   "categorie": "Recherche",
@@ -718,7 +718,7 @@
   "extrait": "arXiv:2610.24006v1 Announce Type: new Abstract: Prominent AI safety discussions emphasize existential threats and catastrophic events, such as AI-enabled nuclear conflict or engineered biological outbreaks. This position paper argues that there is another type of AI risk that arises and accumulates from the widespread use of AI. Drawing on lessons from social media, we argue that safety assessments must also address accumulative harms that develop through repeated use, recurring decisions, and feedback across interconnected deployments. Repeated reassurance, selective exposure, recurring decision biases, and growing personal profiles may gradually narrow perspectives, weaken independent judg…",
   "echos": [],
   "societe": null,
-  "score": 0.65,
+  "score": 0.64,
   "raisons": [],
   "local": false,
   "categorie": "Recherche",
@@ -736,7 +736,7 @@
   "extrait": "arXiv:2610.24010v1 Announce Type: new Abstract: Generative AI is becoming an important medium for artistic creation, yet existing interactions often assume that creators can specify intentions in advance and accurately communicate them through text prompts. Artistic intentions, however, may be vague, latent, or recognizable only after seeing concrete visual possibilities. We propose a human-AI co-creation paradigm beyond explicit intent expression. By expanding model exploration, we expose artists to diverse visual possibilities, allowing them to identify previously unarticulated preferences through observation, comparison, and selection. We then integrate artists' curatorial judgments into …",
   "echos": [],
   "societe": null,
-  "score": 0.65,
+  "score": 0.64,
   "raisons": [],
   "local": false,
   "categorie": "Recherche",
@@ -754,7 +754,7 @@
   "extrait": "arXiv:2610.24024v1 Announce Type: new Abstract: Rare diseases (RDs) affect an estimated 300 million people globally, leaving patients to navigate a protracted diagnostic odyssey constrained by clinical scarcity and fragmented medical knowledge. Artificial intelligence (AI) has progressively advanced RD diagnostics, from symbolic methods and deep learning to large language model (LLM)-based systems. However, each paradigm carries structural limitations: symbolic methods are bounded by knowledge completeness, neural models sacrifice interpretability, and LLM-based systems are vulnerable to evaluation biases like data leakage. In this study, we introduce FusionRare, a unified multiparadigm fusi…",
   "echos": [],
   "societe": null,
-  "score": 0.65,
+  "score": 0.64,
   "raisons": [],
   "local": false,
   "categorie": "Recherche",
@@ -772,7 +772,7 @@
   "extrait": "arXiv:2610.24051v1 Announce Type: new Abstract: Text-to-Image (T2I) generative models have made significant progress in producing high-fidelity images from natural-language prompts. Alongside this progress, numerous benchmarks have been developed to evaluate capabilities such as attribute binding, numeracy, spatial reasoning, and commonsense reasoning. In this work, we propose a new perspective on T2I evaluation by casting it as a constraint-satisfaction problem. We introduce a logical framework that formally specifies the benchmark domain, including objects, attributes, and relations, alongside the constraints that generated images must satisfy. We evaluated four state-of-the-art T2I models…",
   "echos": [],
   "societe": null,
-  "score": 0.65,
+  "score": 0.64,
   "raisons": [],
   "local": false,
   "categorie": "Recherche",
@@ -790,7 +790,7 @@
   "extrait": "arXiv:2610.24061v1 Announce Type: new Abstract: As teams of AI agents take on larger projects and long-standing open problems, agent collaboration offers another dimension for scaling inference-time compute. To understand what makes such collaboration effective and scalable, we develop Software World, a framework for simulating multi-agent coworking in realistic software ecosystems. It comes with a pipeline to create environments of real, interdependent Python packages of different topics, sizes, and dependency structures, which we call software worlds. In a simulation, agents maintain packages in the world with a high-level goal of improving software efficiency, and they are free to discove…",
   "echos": [],
   "societe": null,
-  "score": 0.65,
+  "score": 0.64,
   "raisons": [],
   "local": false,
   "categorie": "Recherche",
@@ -808,7 +808,7 @@
   "extrait": "arXiv:2610.23860v1 Announce Type: new Abstract: The Prisoner's Dilemma has long served as a foundational framework for studying human decision-making and cooperative outcomes across social scenarios, yet human behavior consistently deviates from predictions of fully rational economic theory. Previous works have studied human and LLM outcomes in the Prisoner's Dilemma; however, these studies have lacked at least one key feature: a memory component for LLM agents, accessible open-source models, or comparison against empirical human data. This project investigates whether open-source LLMs, TII Falcon 7B Instruct, Google Gemma 7B, Meta Llama 3.1 8B Instruct, Microsoft Phi Mini MoE Instruct, and …",
   "echos": [],
   "societe": "google",
-  "score": 1.55,
+  "score": 1.54,
   "raisons": [
    "Utilisable librement (open source)"
   ],
@@ -856,7 +856,7 @@
   "extrait": "arXiv:2610.23867v1 Announce Type: new Abstract: Large language models (LLMs) are increasingly used as simulated respondents in computational social science, yet accurately reproducing population-specific heterogeneous response distributions remains challenging. Existing methods such as demographic prompting are sensitive to prompt design and increase inference overhead, while parameter-based methods struggle to reuse demographic information efficiently, limiting generalization to unseen combinations. In this regard, we propose PARADE, a composable PARAmetric DEmographic injection framework that represents each demographic attribute value with a reusable and composable LoRA module. Specifical…",
   "echos": [],
   "societe": null,
-  "score": 0.65,
+  "score": 0.64,
   "raisons": [],
   "local": true,
   "categorie": "Recherche",
@@ -874,7 +874,7 @@
   "extrait": "arXiv:2610.23868v1 Announce Type: new Abstract: Machine translation systems often preserve meaning but systematically flatten linguistic style, a failure that is most acute when translating into non-Western languages. The RASTA framework of Havaldar et al. (2025a) addresses this through retrieval-augmented stylistic alignment, but relies on GPT-4, a closed, proprietary model. We investigate whether an open-weight translation specialist, Hunyuan-MT-7B, can serve as an open-weight alternative. We evaluate three variants of the model, the base model, a LoRA supervised fine-tune, and a GRPO-steered policy. We do this across three style dimensions (formality, politeness, and intimacy) and twelve …",
   "echos": [],
   "societe": "openai",
-  "score": 3.65,
+  "score": 3.64,
   "raisons": [
    "Acteur majeur : OpenAI",
    "Utilisable librement (open source)"
@@ -923,12 +923,40 @@
   "extrait": "arXiv:2610.24048v1 Announce Type: new Abstract: LLM agents that read untrusted content can be hijacked by prompt injections. Runtime monitors that try to catch a hijack before the agent acts, and benchmarks that score each task with a single run, share an assumption: whether an agent follows an injection is settled when the injection is read. We test this assumption with branching rollouts that replay an episode exactly up to the step at which the agent reads an injection and then resample the rest of the episode many times, splitting the outcome variance into a part fixed at read time and a part decided afterwards. Across four AgentDojo suites, a Qwen3 agent without thinking is largely deci…",
   "echos": [],
   "societe": "alibaba",
-  "score": 1.05,
+  "score": 1.04,
   "raisons": [],
   "local": false,
   "categorie": "Recherche",
   "flair": 2,
-  "anciens_ids": []
+  "anciens_ids": [],
+  "analyse": {
+   "titre_fr": "La vulnérabilité des agents LLM face aux injections de requêtes",
+   "societe": {
+    "nom": "Alibaba",
+    "provenance": "Le géant chinois du commerce en ligne, éditeur de Qwen, l'une des plus grandes familles de modèles ouverts."
+   },
+   "a_retenir": "Le succès d'une injection de requêtes ne se joue pas uniquement au moment de sa lecture, mais dépend largement de la phase de raisonnement ultérieure.",
+   "resume": "Une étude menée avec un agent Qwen analyse comment les agents LLM réagissent aux contenus non fiables. En utilisant des simulations par arborescence, les chercheurs montrent qu'une partie significative du comportement de l'agent face à une injection est décidée après la lecture de celle-ci.",
+   "pourquoi": "Cette découverte remet en cause l'efficacité des moniteurs d'exécution actuels et des benchmarks qui supposent qu'une tentative de piratage est bloquée ou réussie dès sa lecture.",
+   "comment_ca_marche": "Les chercheurs utilisent des rejeux avec ramifications, répétant un épisode exact jusqu'à l'étape où l'agent lit une injection, puis rééchantillonnent la suite de l'épisode à de multiples reprises. Cela permet de diviser la variance des résultats entre ce qui est fixé au moment de la lecture et ce qui est décidé plus tard lors du raisonnement de l'agent. L'étude observe ainsi le comportement d'un agent Qwen3 face à ces scénarios.",
+   "utiliser": [
+    "Prendre en compte que la sécurité des agents LLM ne se limite pas au filtrage des entrées",
+    "Intégrer le comportement de raisonnement dans l'évaluation des risques d'injection",
+    "Suivre les évolutions des benchmarks de sécurité pour les agents autonomes"
+   ],
+   "sur_mon_pc": "Pas en local : service en ligne uniquement",
+   "local": false,
+   "niveau": "avancé",
+   "categorie": "Recherche",
+   "importance": 3,
+   "tags": [
+    "sécurité",
+    "agents",
+    "LLM",
+    "injection",
+    "Qwen"
+   ]
+  }
  },
  {
   "id": "1883b786e5fb6f",
@@ -941,7 +969,7 @@
   "extrait": "arXiv:2610.24050v1 Announce Type: new Abstract: As automated research is increasingly adopted for writing papers, automated review has become a critical link between paper generation and quality control. However, existing methods largely rely on single-model feedback or simple review aggregation, failing to explicitly model expert responsibilities or collective deliberation in actual peer reviews, which limits effective cross-examination and reliable decision-making. Therefore, we formulate paper review as a computational modeling problem of peer review mechanisms and propose RoundtableReview, a deliberative multi-agent framework for enhancing automated research. RoundtableReview structures …",
   "echos": [],
   "societe": null,
-  "score": 0.65,
+  "score": 0.64,
   "raisons": [],
   "local": false,
   "categorie": "Recherche",
@@ -959,7 +987,7 @@
   "extrait": "arXiv:2610.24087v1 Announce Type: new Abstract: Can large language model (LLM) agents deliver expert-level operations research (OR) solutions directly from original client materials, without prior expert reformulation? Existing OR benchmarks typically begin with self-contained descriptions or predefined optimization tasks, underrepresenting the translation of original business materials into professionally validated solutions. We introduce OR-License, an end-to-end benchmark of 31 instances across 10 industrial scenarios from paid OR engagements totaling USD 3.68 million. It preserves original requirements, input data, deliverable formats, and information boundaries after de-identification. …",
   "echos": [],
   "societe": null,
-  "score": 0.65,
+  "score": 0.64,
   "raisons": [],
   "local": false,
   "categorie": "Recherche",
@@ -977,7 +1005,7 @@
   "extrait": "arXiv:2610.24118v1 Announce Type: new Abstract: Variable roles describe recurring behaviors such as accumulation, traversal, and retaining the best candidate encountered. We use Sajaniemi's independently defined taxonomy to study which role distinctions can be recovered from large language models, how sparse autoencoders (SAEs) retain those distinctions, and whether associated directions support control of generation. We introduce static annotation rules for all eleven roles and a corpus of 126,926 natural-code files across five languages. Across five model-SAE systems, residual probes outperform individual SAE features and tested lexical baselines, with modest losses after neutral target re…",
   "echos": [],
   "societe": null,
-  "score": 0.65,
+  "score": 0.64,
   "raisons": [],
   "local": false,
   "categorie": "Recherche",
@@ -995,7 +1023,7 @@
   "extrait": "arXiv:2610.24123v1 Announce Type: new Abstract: Prefix-tuning is a parameter-efficient fine-tuning method for large language models (LLMs) that steers model outputs by prepending task-specific prefix representations to the input sequence. Despite its practical success, the theoretical understanding of the expressiveness of prefixes remains incomplete. In particular, the following question remains open: Given a pretrained autoregressive Transformer, for any input-output sequence pair $(\\mathtt{x},\\mathtt{y})$, does there always exist a prefix $\\mathcal{S}$ such that prepending $\\mathcal{S}$ to $\\mathtt{x}$ induces the model to generate the target output $\\mathtt{y}$? In this work, we prove th…",
   "echos": [],
   "societe": null,
-  "score": 0.65,
+  "score": 0.64,
   "raisons": [],
   "local": false,
   "categorie": "Recherche",
@@ -1061,7 +1089,7 @@
   "extrait": "Residents frustrated with SpaceXAI trucks despite city action plan Action News 5",
   "echos": [],
   "societe": "spacexai",
-  "score": 0.63,
+  "score": 0.62,
   "raisons": [],
   "local": false,
   "categorie": "Actualité",
@@ -1144,7 +1172,7 @@
   "extrait": "Just a heads up, especially on my Windows machine, but also my Linux machine I'm getting tons of breaking changes with Strata. They added a bunch of needless requirements around serving, the web UI seems to be going way in favor of a desktop app. I could go on but you get the picture, at least make a backup first. I know this post is going to be downvoted by the most fickle subreddit of all time, but I hope this warning reaches at least one person submitted by /u/randylush [link] [comments]",
   "echos": [],
   "societe": null,
-  "score": 0.19,
+  "score": 0.18,
   "raisons": [],
   "local": true,
   "categorie": "Actualité",
@@ -1190,7 +1218,7 @@
   "extrait": "Mayor Zohran Mamdani said Monday night that New Yorkers must resist the narrative that an AI takeover is inevitable and demand regulations that protect the public and put power back in their hands.",
   "echos": [],
   "societe": null,
-  "score": 0.78,
+  "score": 0.77,
   "raisons": [],
   "local": false,
   "categorie": "Business & régulation",
@@ -1317,7 +1345,7 @@
   "extrait": "Accenture Expands Federal AI Push With Google's Gemini Agents, Months After OpenAI Partnership Stocktwits",
   "echos": [],
   "societe": "openai",
-  "score": 3.45,
+  "score": 3.44,
   "raisons": [
    "Acteur majeur : OpenAI"
   ],
@@ -1365,7 +1393,7 @@
   "extrait": "My obituary for programming Jeremy Scheff poignantly captures the key loss caused by coding agents for career programmers who enjoyed the puzzle of developing code: Programming turned into one of the greatest jobs you could imagine. You got paid to work on tricky little logic puzzles. The trickier the puzzle, the more you got paid. But even pretty simple puzzles were worth a lot of money because regular people just couldn't do it! No, they needed us. They would give us a problem and we would solve it the way we wanted. We set the strategy, we made the timeline, we defined what was and was not possible. If you're a programmer who thrives on building working systems and doesn't care too deeply…",
   "echos": [],
   "societe": null,
-  "score": 1.34,
+  "score": 1.33,
   "raisons": [],
   "local": false,
   "categorie": "Actualité",
@@ -1416,7 +1444,7 @@
    }
   ],
   "societe": "anthropic",
-  "score": 5.03,
+  "score": 5.02,
   "raisons": [
    "Repris par 2 sources",
    "Acteur majeur : Anthropic"
@@ -1609,7 +1637,7 @@
   "extrait": "Former Google CEO Schmidt owns 1% stake in Anthropic, Bloomberg reports Reuters",
   "echos": [],
   "societe": "anthropic",
-  "score": 2.21,
+  "score": 2.2,
   "raisons": [
    "Acteur majeur : Anthropic"
   ],
@@ -1750,7 +1778,7 @@
   "extrait": "Google wants you to chat with Gemini to fix issues instead of scrolling through support pages Digital Trends",
   "echos": [],
   "societe": "google",
-  "score": 3.4,
+  "score": 3.39,
   "raisons": [
    "Acteur majeur : Google DeepMind"
   ],
@@ -1994,7 +2022,7 @@
   "extrait": "CoreWeave had a bad week last week. Its bonds slipped into distressed territory by a common definition - when investors demand 1,000 basis points more in yield than they'd get from government bonds. Last Tuesady Chamath \"SPAC King\" Palihapitiya noticed the distressed debt, and also asked whether the AI buildout was a private credit bubble. […]",
   "echos": [],
   "societe": null,
-  "score": 3.07,
+  "score": 3.06,
   "raisons": [
    "Jugé important par l'IA (4/5)"
   ],
@@ -2221,7 +2249,7 @@
   "extrait": "Hi everyone, I got annoyed a bit with all the AI slop post I have seen here on this subreddit (and reddit in general). It has gotten better in the last few months, but that hasn't stopped me from doing an in depth analysis of AI slop in different subreddits over the years. If you're into that, you can read it here: https://thil.ooo/blog/measuring-slop/ I even went all out on predicting the future of AI slop. Fingers crossed I got it wrong. It's stupid and not at all serious – hope you enjoy. submitted by /u/Uhlo [link] [comments]",
   "echos": [],
   "societe": null,
-  "score": -1.17,
+  "score": -1.18,
   "raisons": [],
   "local": false,
   "categorie": "Actualité",
@@ -2459,14 +2487,14 @@
    }
   ],
   "societe": "meta",
-  "score": 4.71,
+  "score": 4.7,
   "raisons": [
    "Repris par 2 sources",
    "Acteur majeur : Meta"
   ],
   "local": false,
   "categorie": "Actualité",
-  "flair": 5,
+  "flair": 4,
   "analyse": {
    "titre_fr": "Comparatif IA : Mistral Large 4 face à Muse Spark Open",
    "societe": {
@@ -2508,7 +2536,7 @@
   "extrait": "AI companion app Tolan has raised another $30 million after attracting more than 250,000 active users.",
   "echos": [],
   "societe": null,
-  "score": 0.6,
+  "score": 0.59,
   "raisons": [],
   "local": false,
   "categorie": "Business & régulation",
@@ -2561,7 +2589,7 @@
   ],
   "local": false,
   "categorie": "Business & régulation",
-  "flair": 4,
+  "flair": 3,
   "analyse": {
    "titre_fr": "Une introduction en bourse d'Anthropic valorisée à 1 500 milliards",
    "société": {
@@ -2694,7 +2722,7 @@
   "extrait": "After drawing acquisition interest earlier this year, the Nvidia challenger raised $1.5 billion to remain independent.",
   "echos": [],
   "societe": "nvidia",
-  "score": 4.69,
+  "score": 4.68,
   "raisons": [
    "Utilisable librement (open source)",
    "Argent, levée ou rachat"
@@ -2884,7 +2912,7 @@
   "extrait": "How to shape your slides and videos with Gemini Notebook blog.google",
   "echos": [],
   "societe": "google",
-  "score": 3.27,
+  "score": 3.26,
   "raisons": [
    "Acteur majeur : Google DeepMind"
   ],
@@ -3071,7 +3099,7 @@
   "societe_force": null,
   "echos": [],
   "societe": "deepseek",
-  "score": 5.44,
+  "score": 5.43,
   "raisons": [
    "Source primaire",
    "Utilisable librement (open source)",
@@ -3401,6 +3429,54 @@
   "anciens_ids": []
  },
  {
+  "id": "322d414e0f140e",
+  "titre": "Google DeepMind’s AI wins another game, company says Gemini 4 Argon agents beat Minecraft from scratch in - The Times of India",
+  "lien": "https://news.google.com/rss/articles/CBMioAJBVV95cUxNbHZ2R0lNbXozUnBiYzY1ZUxKaVZzcGFsX0ROY1hiUmg2bVRVRjFuS1BCNjB2ZE83bFA2R3dWaWVFMTdoVHhOZzROOHJLMzItLTZkWlo0YmFQWV8xN2pudnZLTGE4cEVtUE1YMWlELXpIc0h1Q0tIMWVfM2dYNUc1WXpUQWtlbDRVT2xaWmpDQmhzNXlXN25TS1N3R3JKN01NdkptUVRwRFBkclRKNVhKSEZzU1Z2Wk9aUzhIWk9ha0lIWHh6WDluM2FvMGhiNi1IeFV1eEtoQUhuLVNjN1VIMGRFZE5lR1pmb2wxa2dheklncDRzQWNEdkFMMHJ1SkptQ281WnlhQ2tzZE1melctRDFzdXpHUkREdGRmdWJ6ZUXSAaYCQVVfeXFMUE1xX200QXBaTGQ0OWFtUHVOd0FONlB4OVZRVF9HYURqelVydTF1QnI0Qm1OR1liNS1WZ3Q1S09GX2ZzOFFTd05fZEtNQlEwVzZuUmoyQVU0UTBVVXQ0UV9FeThtNWtNSUNtUU55akdiNEY5cVljSWNCZm5jbEVXQ0lJcnFnSFNTQ3VUVE5ld2ZORHN3V2dFcVVOOTZ6RWZBbW1JQVRacDJmVndVU0xINmNtUXZaMUhBeVk2Tmx1TURrUzdRYTFlV1BZZWo1Q2dNZEVJQkRIeUtDUUI4RmZWUW1lVExObE1tWmd3Y256d1BQS3ZlVVVqTzFCZlk5a0tqd1VvUWVyMWtYUU84LUhRUWxVRWx2Q2NIc3paNnhzTzFFRWJfTEpB?oc=5",
+  "source": "Google Gemini (actus)",
+  "type": "presse",
+  "rubrique": "veille",
+  "date": "2026-10-19T15:54:00+00:00",
+  "extrait": "Google DeepMind’s AI wins another game, company says Gemini 4 Argon agents beat Minecraft from scratch in The Times of India",
+  "echos": [],
+  "anciens_ids": [],
+  "societe": "google",
+  "score": 4.41,
+  "raisons": [
+   "Acteur majeur : Google DeepMind",
+   "Jugé important par l'IA (4/5)"
+  ],
+  "local": false,
+  "categorie": "Modèles",
+  "flair": 4,
+  "analyse": {
+   "titre_fr": "Google DeepMind : les agents Gemini 4 Argon battent Minecraft",
+   "societe": {
+    "nom": "Google DeepMind",
+    "presentation": "La branche de recherche en intelligence artificielle de Google, connue pour ses modèles Gemini, ses assistants comme NotebookLM et des percées scientifiques majeures comme AlphaFold."
+   },
+   "a_retenir": "Les agents IA basés sur Gemini 4 Argon ont réussi à terminer Minecraft en partant de zéro.",
+   "resume": "Google DeepMind annonce que ses agents IA, baptisés Gemini 4 Argon, sont parvenus à battre le jeu Minecraft de zéro. Cette performance démontre la capacité des nouveaux agents à planifier et interagir dans un environnement virtuel complexe.",
+   "pourquoi": "Cela illustre l'évolution des modèles vers des agents capables de planifier, d'exécuter des actions à long terme et de résoudre des problèmes complexes dans des environnements ouverts.",
+   "comment_ca_marche": "Les agents s'appuient sur le modèle multimodal Gemini pour analyser l'état du jeu à l'écran, planifier une stratégie et exécuter des actions clavier/souris. Ils apprennent et s'adaptent progressivement pour progresser dans l'environnement de Minecraft sans intervention humaine.",
+   "utiliser": [
+    "Suivre les publications officielles de Google DeepMind sur les capacités d'agents",
+    "Observer les cas d'usage des agents autonomes dans les environnements virtuels",
+    "Évaluer l'impact des modèles multimodaux pour l'automatisation de tâches complexes"
+   ],
+   "sur_mon_pc": "Pas en local : service en ligne uniquement",
+   "local": false,
+   "niveau": "intermédiaire",
+   "categorie": "Modèles",
+   "importance": 4,
+   "tags": [
+    "Gemini",
+    "Google DeepMind",
+    "Minecraft",
+    "Agents IA"
+   ]
+  }
+ },
+ {
   "id": "33d4db3f6bb25d",
   "titre": "llama.cpp support for Cohere models",
   "lien": "https://www.reddit.com/r/LocalLLaMA/comments/1xa0cyz/llamacpp_support_for_cohere_models/",
@@ -3411,7 +3487,7 @@
   "extrait": "Hey guys, Nick here from Cohere. It's been a minute. We had a great time launching Command A+ and beta-testing North Mini Code with you guys earlier this year, your feedback has really helped make our models and delivery much better. one of the biggest things we heard was that you really wanted llama.cpp support, which makes total sense given the nature of this sub. i didn't want to post in here again until we'd been able to fulfill that promise, and I'm really happy to say that we've made progress. Our team recently merged llama.cpp support for the vision encoder of North Micro Vision Instruct , which means that now all of our latest model architectures are compatible with llama.cpp (the LL…",
   "echos": [],
   "societe": "ollama",
-  "score": 1.61,
+  "score": 1.6,
   "raisons": [],
   "local": true,
   "categorie": "Open source & local",
@@ -3552,7 +3628,7 @@
   "extrait": "Anthropic is AI trade's last big hope for a major IPO this year CNBC",
   "echos": [],
   "societe": "anthropic",
-  "score": 4.0,
+  "score": 3.99,
   "raisons": [
    "Acteur majeur : Anthropic",
    "Argent, levée ou rachat"
@@ -3599,7 +3675,7 @@
   "extrait": "Ex-OpenAI employee accused of planting device appears to have Saudi backing, US prosecutors say Reuters",
   "echos": [],
   "societe": "openai",
-  "score": 2.0,
+  "score": 1.99,
   "raisons": [
    "Acteur majeur : OpenAI"
   ],
@@ -3645,7 +3721,7 @@
   "extrait": "At a creative industry event that took place today in Berlin — hosted in collaboration with Adobe, Bertelsmann, NVIDIA and UFA — the latest advancements in intelligent media were on display. Key to the news: the European Broadcasting Union (EBU) is collaborating with NVIDIA to expand its sovereign framework with cloud, open models and integration […]",
   "echos": [],
   "societe": "nvidia",
-  "score": 3.99,
+  "score": 3.98,
   "raisons": [
    "Source officielle",
    "Acteur majeur : NVIDIA"
@@ -3682,6 +3758,54 @@
    ]
   },
   "anciens_ids": []
+ },
+ {
+  "id": "c825774bbf1e21",
+  "titre": "ISTA-DASLab/Qwen3.8-Flash-Next-GSQ-RCO-Coder-GGUF updated",
+  "lien": "https://www.reddit.com/r/LocalLLaMA/comments/1x9yvgw/istadaslabqwen38flashnextgsqrcocodergguf_updated/",
+  "source": "r/LocalLLaMA",
+  "type": "communaute",
+  "rubrique": "veille",
+  "date": "2026-10-19T14:47:14+00:00",
+  "extrait": "Look out for the updated version! What changed This update changes which experts are retained . No retained weights were modified relative to the base IQ3_S model. About 25% of the retained expert selection differs from the previous release. The model remains English-only . With a limited expert budget, we prioritized preserving English capabilities so unfortunately, multilingual capabilities were not preserved. submitted by /u/Murky-Routine-4255 [link] [comments]",
+  "echos": [],
+  "anciens_ids": [],
+  "societe": "alibaba",
+  "score": 2.38,
+  "raisons": [
+   "Utilisable librement (open source)"
+  ],
+  "local": true,
+  "categorie": "Open source & local",
+  "flair": 2,
+  "analyse": {
+   "titre_fr": "Mise à jour du modèle quantifié Qwen3.8-Flash-Coder au format GGUF",
+   "societe": {
+    "nom": "Alibaba (Qwen)",
+    "presentation": "Le géant chinois du commerce en ligne et de la tech, éditeur de Qwen, l'une des plus grandes familles de modèles ouverts d'intelligence artificielle."
+   },
+   "a_retenir": "Une nouvelle version du modèle quantifié GGUF spécialisé en code optimise le choix des experts actifs pour l'anglais.",
+   "resume": "La communauté (via ISTA-DASLab sur Reddit) a publié une version mise à jour du modèle Qwen3.8-Flash-Next-GSQ-RCO-Coder au format GGUF. Cette mise à jour modifie la sélection des experts retenus (environ 25% de différence) tout en préservant prioritairement les compétences en anglais au détriment du multilingue.",
+   "pourquoi": "C'est important pour les professionnels cherchant à exécuter localement des modèles de code ultra-performants et optimisés en ressources.",
+   "comment_ca_marche": "Il s'agit d'une variante au format GGUF, un format de quantification populaire permettant de faire tourner des modèles de langage lourds sur du matériel grand public. Cette version ajuste dynamiquement le routage des experts d'un modèle Mixture of Experts (MoE) pour maximiser les performances en programmation en anglais sous un budget de calcul réduit.",
+   "utiliser": [
+    "Télécharger le fichier GGUF mis à jour depuis le dépôt communautaire indiqué sur Reddit",
+    "Charger le modèle dans un logiciel compatible GGUF comme LM Studio ou llama.cpp",
+    "Configurer le contexte pour l'utiliser sur des tâches de génération de code en anglais"
+   ],
+   "sur_mon_pc": "Nécessite un PC équipé d'un GPU compatible ou d'un processeur récent avec assez de RAM pour faire tourner un modèle GGUF de taille moyenne via un client comme LM Studio ou Ollama.",
+   "local": true,
+   "niveau": "intermédiaire",
+   "categorie": "Open source & local",
+   "importance": 2,
+   "tags": [
+    "GGUF",
+    "Qwen",
+    "Open Source",
+    "Code",
+    "Local"
+   ]
+  }
  },
  {
   "id": "3eb1248b9b9f2f",
@@ -3831,7 +3955,7 @@
   "extrait": "A hacker broke into more than 100 websites using an army of AI agents that mostly operated on their own, according to findings from the AI security firm Norforge. Though Norforge doesn't name the targets, Reuters reports that the victims included companies like John Deere, SharkNinja, and Cummins. Concerns over AI-powered cybersecurity breaches have grown […]",
   "echos": [],
   "societe": null,
-  "score": 2.86,
+  "score": 2.85,
   "raisons": [
    "Jugé important par l'IA (4/5)"
   ],
@@ -4145,7 +4269,7 @@
   "extrait": "University of Michigan spinout Laplace Intelligence uses AI agents and interactive simulation to stress-test robots and self-driving vehicles before deployment. The profitable startup is competing in Startup Battlefield at TechCrunch Disrupt, October 13-15 in San Francisco.",
   "echos": [],
   "societe": null,
-  "score": 1.62,
+  "score": 1.61,
   "raisons": [],
   "local": false,
   "categorie": "Outils & applis",
@@ -4235,12 +4359,41 @@
   "extrait": "Article URL: https://github.com/IsuruMaduranga/harness-engineering-101 Comments URL: https://news.ycombinator.com/item?id=50151390 Points: 130 # Comments: 64",
   "echos": [],
   "societe": null,
-  "score": 1.01,
+  "score": 1.0,
   "raisons": [],
-  "local": false,
-  "categorie": "Actualité",
+  "local": true,
+  "categorie": "Open source & local",
   "flair": 2,
-  "anciens_ids": []
+  "anciens_ids": [],
+  "analyse": {
+   "titre_fr": "Harness Engineering 101 : Concevoir le corps des agents IA",
+   "societe": {
+    "nom": "IsuruMaduranga",
+    "presentation": "Contributeur open source et auteur de guides techniques sur l'ingénierie des LLM."
+   },
+   "a_retenir": "Le LLM agit comme le cerveau d'un agent, tandis que le 'harness' (l'infrastructure logicielle) constitue son corps et ses capacités d'action.",
+   "resume": "Ce guide explique comment concevoir l'infrastructure logicielle qui entoure les grands modèles de langage pour les transformer en systèmes opérationnels et fiables. Il détaille l'importance de structurer les entrées, les sorties et les boucles de rétroaction autour du modèle.",
+   "pourquoi": "C'est une compétence clé pour passer de simples tests de LLM en ligne de commande à des applications d'agents IA robustes et prêtes pour la production.",
+   "comment_ca_marche": "Le principe consiste à encapsuler le modèle de langage dans une structure logicielle qui gère le contexte, l'accès aux outils externes et la validation des réponses. Le 'harness' intercepte les requêtes du LLM, exécute les actions correspondantes (comme des appels API ou du code) et renvoie les résultats sous un format compréhensible. Cela permet de guider le comportement du modèle de manière déterministe malgré sa nature probabiliste.",
+   "utiliser": [
+    "Définir clairement le rôle et les limites du LLM",
+    "Implémenter une boucle d'exécution pour gérer les erreurs et les retries",
+    "Connecter des outils validés (API, bases de données) via des interfaces strictes",
+    "Tester le système de manière automatisée"
+   ],
+   "sur_mon_pc": "Disponible sur GitHub (https://github.com/IsuruMaduranga/harness-engineering-101), nécessite un environnement de développement standard (Python/Git).",
+   "local": true,
+   "niveau": "intermédiaire",
+   "categorie": "Open source & local",
+   "importance": 3,
+   "tags": [
+    "Agents",
+    "LLM",
+    "Ingénierie",
+    "Open Source",
+    "Architecture"
+   ]
+  }
  },
  {
   "id": "7a364f356aab49",
@@ -4354,7 +4507,7 @@
   "extrait": "Accenture Federal Services and Google Public Sector Establish Gemini Launchpads to Power Purpose-Built Agents Across Federal Missions Business Wire",
   "echos": [],
   "societe": "google",
-  "score": 4.3,
+  "score": 4.29,
   "raisons": [
    "Acteur majeur : Google DeepMind",
    "Lancement ou annonce"
@@ -4405,7 +4558,7 @@
   "extrait": "I saw this LinkedIn post from a Meta engineer and it resonated with me: https://www.linkedin.com/posts/ali-hamie_im-an-engineer-at-m... > I'm an engineer at Meta and I never felt this uncomfortable doing my job. I'm writing code these days and it all feels like a black box. This new standard of shipping with AI is moving so fast that if we're going to spend our time checking each line of code, it's going to take forever. That means you can end up with systems you've built where you don't truly understand how all the code works. You understand the high level, but not every detail. And maybe this is becoming the new standard. It goes against every instinct of being a software engineer. I'm use…",
   "echos": [],
   "societe": "meta",
-  "score": 2.79,
+  "score": 2.78,
   "raisons": [
    "Jugé important par l'IA (4/5)"
   ],
@@ -4452,7 +4605,7 @@
   "extrait": "Bitcoin mining offshoot Nscale loses Microsoft AI deal as power delay stretches into 2030s CoinDesk",
   "echos": [],
   "societe": "microsoft",
-  "score": 3.08,
+  "score": 3.07,
   "raisons": [
    "Acteur majeur : Microsoft"
   ],
@@ -4667,13 +4820,13 @@
   "extrait": "Removing Gemini from your Google TV is hard but not impossible Pocket-lint",
   "echos": [],
   "societe": "google",
-  "score": 0.65,
+  "score": 0.64,
   "raisons": [
    "Acteur majeur : Google DeepMind"
   ],
   "local": false,
   "categorie": "Outils & applis",
-  "flair": 1,
+  "flair": 2,
   "analyse": {
    "titre_fr": "Désinstaller Gemini de Google TV : complexe mais réalisable",
    "societe": {
@@ -4714,7 +4867,7 @@
   "extrait": "Scientists say Elon Musk is getting something wrong about whether Grok is getting tortured Business Insider",
   "echos": [],
   "societe": "spacexai",
-  "score": 0.15,
+  "score": 0.14,
   "raisons": [],
   "local": false,
   "categorie": "Actualité",
@@ -4757,7 +4910,7 @@
   "date": "2026-10-19T10:00:00+00:00",
   "extrait": "Entreprises : Avec l’AI Act, l’Europe fait le pari d’une IA d’aide à la décision plutôt que d’une IA de contrôle InformatiqueNews",
   "echos": [],
-  "score": 3.15,
+  "score": 3.14,
   "local": false,
   "categorie": "Pouvoir et régulation",
   "flair": 4,
@@ -4796,7 +4949,7 @@
   "extrait": "Eight US States Sue OpenAI Over Alleged ChatGPT Safety Risks to Children TechRepublic",
   "echos": [],
   "societe": "openai",
-  "score": 3.05,
+  "score": 3.04,
   "raisons": [
    "Acteur majeur : OpenAI"
   ],
@@ -4978,7 +5131,7 @@
   "date": "2026-10-19T09:17:11+00:00",
   "extrait": "AI Act : les entreprises ont-elles encore le temps de préparer la gouvernance de leurs agents IA ? JDN",
   "echos": [],
-  "score": 1.93,
+  "score": 1.92,
   "local": false,
   "categorie": "Pouvoir et régulation",
   "flair": 3,
@@ -5152,7 +5305,7 @@
   "date": "2026-10-19T08:55:02+00:00",
   "extrait": "By the original authors of DFlash 2 It's about 20% faster than MTP in their table when concurrency 1. submitted by /u/rerri [link] [comments]",
   "echos": [],
-  "score": 1.92,
+  "score": 1.91,
   "local": true,
   "categorie": "Open source & local",
   "flair": 2,
@@ -5200,10 +5353,10 @@
   "date": "2026-10-19T08:34:36+00:00",
   "extrait": "How AI is shaping Israel's election campaign DW.com",
   "echos": [],
-  "score": 1.51,
+  "score": 1.5,
   "local": false,
   "categorie": "Manipulation",
-  "flair": 3,
+  "flair": 2,
   "analyse": {
    "titre_fr": "L'influence de l'intelligence artificielle sur la campagne électorale en Israël",
    "resume": "Un article de DW.com examine comment l'intelligence artificielle façonne la campagne électorale en Israël. L'extrait fourni ne donne aucun détail supplémentaire sur les méthodes ou les cas précis.",
@@ -5238,7 +5391,7 @@
   "score": 0.28,
   "local": false,
   "categorie": "Militaire",
-  "flair": 2,
+  "flair": 1,
   "societe": null,
   "raisons": [],
   "analyse": {
@@ -5382,7 +5535,7 @@
   "extrait": "OpenAI bugging suspect's conduct could pose danger to U.S. national security, feds warn CNBC",
   "echos": [],
   "societe": "openai",
-  "score": 0.54,
+  "score": 0.53,
   "raisons": [
    "Acteur majeur : OpenAI"
   ],
@@ -5858,7 +6011,7 @@
   "date": "2026-10-19T03:50:00+00:00",
   "extrait": "❝Autonomous weapons: what does human control really mean? Geneva Solutions",
   "echos": [],
-  "score": 1.38,
+  "score": 1.37,
   "local": false,
   "categorie": "Militaire",
   "flair": 2,
@@ -5938,7 +6091,7 @@
   "extrait": "Exclusive: Anthropic CEO calls for stronger regulation of AI ABC News - Breaking News, Latest News and Videos",
   "echos": [],
   "societe": "anthropic",
-  "score": 2.45,
+  "score": 2.44,
   "raisons": [
    "Acteur majeur : Anthropic",
    "Régulation ou justice"
@@ -6154,7 +6307,7 @@
   "extrait": "Anthropic’s $1B AI Safety Bar Sparks Pushback [2026] shattered.io",
   "echos": [],
   "societe": "anthropic",
-  "score": 1.55,
+  "score": 1.54,
   "raisons": [
    "Acteur majeur : Anthropic"
   ],
@@ -6179,6 +6332,43 @@
    ]
   },
   "anciens_ids": []
+ },
+ {
+  "id": "b25143fd8d0241",
+  "titre": "China considers export controls on AI, chips - Semafor",
+  "lien": "https://news.google.com/rss/articles/CBMiekFVX3lxTFBVNjVEeGFwdmtNQzc2aDljc0tuY1JVR3Jhc3JPby1ReGRWaXhJMVF5M1dJTERzVXdIZmN2ZTZwOE1LX0RCaElEcm1GNTU1Vk5SY1p5dmJRSmVoSnU5ZUdQV2Y3UkRLYmNNcmJlVTM5NmR4R0hueHctRXl3?oc=5",
+  "source": "Contrôles à l'export IA",
+  "type": "presse",
+  "rubrique": "controle",
+  "date": "2026-10-18T22:34:00+00:00",
+  "extrait": "China considers export controls on AI, chips Semafor",
+  "echos": [],
+  "anciens_ids": [],
+  "societe": null,
+  "score": 2.03,
+  "raisons": [
+   "Régulation ou justice"
+  ],
+  "local": false,
+  "categorie": "Pouvoir et régulation",
+  "flair": 3,
+  "analyse": {
+   "titre_fr": "La Chine envisage des contrôles sur l'exportation d'IA et de puces",
+   "resume": "Selon un article de Semafor, la Chine envisage d'instaurer des contrôles sur l'exportation de technologies liées à l'intelligence artificielle et aux semi-conducteurs.",
+   "la_crainte": "Une escalade des guerres technologiques et commerciales mondiales, où l'IA et les puces deviennent des armes géopolitiques majeures de contrôle et de restriction.",
+   "les_faits": "La Chine envisage d'appliquer des contrôles à l'exportation concernant l'intelligence artificielle et les puces électroniques, d'après les informations rapportées par Semafor.",
+   "inconnues": "Les détails précis des mesures envisagées, le calendrier d'application, la portée exacte des technologies concernées et les contre-mesures potentielles restent à vérifier.",
+   "preuve": "plausible",
+   "a_surveiller": "L'officialisation éventuelle de ces mesures par les autorités chinoises et la réaction des marchés internationaux ou des autres puissances.",
+   "categorie": "Pouvoir et régulation",
+   "importance": 3,
+   "tags": [
+    "contrôles export",
+    "Chine",
+    "puces",
+    "intelligence artificielle"
+   ]
+  }
  },
  {
   "id": "744f2ba6b23269",
@@ -6271,7 +6461,7 @@
   "date": "2026-10-18T20:37:40+00:00",
   "extrait": "The company offered some broad-strokes ideas for how this money might actually be used, such as “large donations to traditional nonprofits or direct distributions to specific populations.”",
   "echos": [],
-  "score": 2.68,
+  "score": 2.67,
   "local": false,
   "categorie": "Business & régulation",
   "flair": 3,
@@ -6560,16 +6750,16 @@
   "type": "recherche",
   "rubrique": "veille",
   "date": "2026-10-18T20:00:00+00:00",
-  "extrait": "Publication de recherche de MemTensor, 117 votes sur Hugging Face Papers.\nRésumé des auteurs :\nMemory-native evolution requires making memory an intrinsic capability of foundation models, enabling them to continuously accumulate and utilize information. To this end, we introduce MemT-1.0, a new architecture of memory foundation models that internalize memory as part of model computation. Building on Metis, MemT-1.0 employs Gated DeltaNet-2 with a stable token-level memory update mechanism within each turn. We further introduce Mixture-of-Storage to scale native memory capacity. Following a deliberate backbone preparation, we develop a two-stage training pipeline consisting of continued pre-training and post-training, supported by 34B tokens of training data and efficient training and inference infrastructure. We release a model family comprising MemT-1.0-Nano and MemT-1.0-Flash, and conduct a comprehensive evaluation of memory and general capabilities. The results show that they outperform the parametric memory baselines on average and remain competitive with retrieval-augmented methods, while largely preserving general capabilities. At a history length of 128K tokens, MemT-1.0-Nano achieves approximately 1.86times end-to-end inference speedup and a 66times reduction in persistent storage relative to full context KV cache. By internalizing retrieved procedural experience, MemT-1.0 improves task success on agentic tasks, providing a practical step toward memory-native evolution.",
+  "extrait": "Publication de recherche de MemTensor, 118 votes sur Hugging Face Papers.\nRésumé des auteurs :\nMemory-native evolution requires making memory an intrinsic capability of foundation models, enabling them to continuously accumulate and utilize information. To this end, we introduce MemT-1.0, a new architecture of memory foundation models that internalize memory as part of model computation. Building on Metis, MemT-1.0 employs Gated DeltaNet-2 with a stable token-level memory update mechanism within each turn. We further introduce Mixture-of-Storage to scale native memory capacity. Following a deliberate backbone preparation, we develop a two-stage training pipeline consisting of continued pre-training and post-training, supported by 34B tokens of training data and efficient training and inference infrastructure. We release a model family comprising MemT-1.0-Nano and MemT-1.0-Flash, and conduct a comprehensive evaluation of memory and general capabilities. The results show that they outperform the parametric memory baselines on average and remain competitive with retrieval-augmented methods, while largely preserving general capabilities. At a history length of 128K tokens, MemT-1.0-Nano achieves approximately 1.86times end-to-end inference speedup and a 66times reduction in persistent storage relative to full context KV cache. By internalizing retrieved procedural experience, MemT-1.0 improves task success on agentic tasks, providing a practical step toward memory-native evolution.",
   "primaire": true,
   "signal": 3.0,
-  "signal_raison": "117 votes de chercheurs sur Hugging Face Papers",
+  "signal_raison": "118 votes de chercheurs sur Hugging Face Papers",
   "societe_force": null,
   "echos": [],
   "societe": "huggingface",
   "score": 4.36,
   "raisons": [
-   "117 votes de chercheurs sur Hugging Face Papers",
+   "118 votes de chercheurs sur Hugging Face Papers",
    "Jugé important par l'IA (4/5)"
   ],
   "local": false,
@@ -6615,13 +6805,40 @@
   "date": "2026-10-18T18:28:10+00:00",
   "extrait": "Carolyn Marvin was arrested and charged with disorderly conduct after blocking the path of an Uber delivery robot and refusing to get out of the way. Marvin told Philadelphia's ABC13 \"I know they're taking the jobs of human delivery workers and so, I have been protesting them whenever I saw them by standing in front […]",
   "echos": [],
-  "score": 1.12,
+  "score": -0.09,
   "local": false,
-  "categorie": "Actualité",
-  "flair": 2,
+  "categorie": "Business & régulation",
+  "flair": 1,
   "societe": null,
   "raisons": [],
-  "anciens_ids": []
+  "anciens_ids": [],
+  "analyse": {
+   "titre_fr": "Arrestation d'une femme à Philadelphie pour avoir bloqué un robot de livraison",
+   "societe": {
+    "nom": "Uber",
+    "presentation": "Une entreprise technologique mondiale connue pour ses plateformes de mise en relation de transport de passagers, de livraison de repas et de fret."
+   },
+   "a_retenir": "Une manifestante a été arrêtée à Philadelphie après avoir bloqué volontairement un robot de livraison d'Uber pour protester contre la suppression d'emplois humains.",
+   "resume": "Carolyn Marvin a été arrêtée et inculpée de trouble à l'ordre public à Philadelphie pour s'être obstinément mise en travers du chemin d'un robot de livraison autonome d'Uber. Elle a expliqué mener cette action militante pour dénoncer le remplacement des travailleurs humains par des machines.",
+   "pourquoi": "Cet événement illustre les tensions croissantes et les résistances sociales face à l'automatisation de l'espace public et à l'usage des robots de livraison.",
+   "comment_ca_marche": "Les robots de livraison autonomes utilisent des capteurs, des caméras et de l'intelligence artificielle pour naviguer sur les trottoirs et livrer des marchandises sans intervention humaine directe. Lorsqu'ils rencontrent un obstacle persistant comme un piéton immobile, ils s'arrêtent généralement et signalent le problème à distance à un opérateur ou modifient leur trajectoire.",
+   "utiliser": [
+    "Observer l'évolution des réglementations locales concernant les robots autonomes sur les trottoirs.",
+    "Analyser l'impact de l'acceptabilité sociale sur le déploiement des technologies autonomes."
+   ],
+   "sur_mon_pc": "Pas en local : service en ligne uniquement",
+   "local": false,
+   "niveau": "débutant",
+   "categorie": "Business & régulation",
+   "importance": 2,
+   "tags": [
+    "robotique",
+    "livraison",
+    "automatisation",
+    "protestation",
+    "uber"
+   ]
+  }
  },
  {
   "id": "c2269a5d98d7eb",
@@ -6674,7 +6891,7 @@
   "date": "2026-10-18T17:02:33+00:00",
   "extrait": "Apparently whilst doing some performance tuning on my 4x5090 rig I may have made things a little TOO fast and melted my plug and socket 🫠 Probably should put in a 16/20 amp socket in the wall rather than relying on a bog standard 13A fuse! Anyone else managed to melt the wall before the 12VHPWR plug? Honestly... I'm surprised they didn't go first 😂 submitted by /u/Zo0x78 [link] [comments]",
   "echos": [],
-  "score": 0.48,
+  "score": 0.47,
   "local": false,
   "categorie": "Actualité",
   "flair": 1,
@@ -6740,11 +6957,38 @@
   "echos": [],
   "score": 1.06,
   "local": false,
-  "categorie": "Actualité",
+  "categorie": "Business & régulation",
   "flair": 2,
   "societe": null,
   "raisons": [],
-  "anciens_ids": []
+  "anciens_ids": [],
+  "analyse": {
+   "titre_fr": "Disney s'apprête à embaucher la majorité des effectifs de Character.AI",
+   "societe": {
+    "nom": "Character.AI",
+    "presentation": "Une entreprise spécialisée dans les assistants conversationnels et les personnages virtuels dotés d'intelligence artificielle."
+   },
+   "a_retenir": "Disney rachète indirectement les talents de Character.AI via une offre de type 'stalking horse' acceptée par la majorité des salariés.",
+   "resume": "Selon un document financier, la grande majorité des employés de Character.AI qui se sont vu proposer un poste chez Disney ont accepté l'offre. Il s'agit d'une offre 'stalking horse', ce qui signifie qu'une autre entreprise pourrait potentiellement surenchérir.",
+   "pourquoi": "Ce mouvement illustre la tendance des géants du divertissement à s'emparer des talents clés en IA pour renforcer leurs capacités technologiques.",
+   "comment_ca_marche": "Une offre de type 'stalking horse' est une offre initiale placée sur une entreprise en difficulté ou en restructuration pour fixer un prix de référence plancher. Les autres acquéreurs potentiels peuvent ensuite surenchérir lors d'une enchère publique encadrée. Si la surenchère l'emporte, le premier enchérisseur est généralement dédommagé. C'est une stratégie courante pour sécuriser rapidement des actifs critiques comme les équipes d'ingénieurs.",
+   "utiliser": [
+    "Surveiller l'évolution de l'offre et l'éventuelle surenchère d'autres acteurs",
+    "Évaluer l'impact de ce mouvement sur l'avenir des services de Character.AI",
+    "Analyser la stratégie d'intégration des talents IA chez Disney"
+   ],
+   "sur_mon_pc": "Pas en local : service en ligne uniquement",
+   "local": false,
+   "niveau": "débutant",
+   "categorie": "Business & régulation",
+   "importance": 3,
+   "tags": [
+    "Disney",
+    "Character.AI",
+    "Acquisition",
+    "RH"
+   ]
+  }
  },
  {
   "id": "2ae6d8610039e2",
@@ -6806,7 +7050,7 @@
   "date": "2026-10-18T14:51:58+00:00",
   "extrait": "no document or announcement from unslot team yet submitted by /u/MundanePercentage674 [link] [comments]",
   "echos": [],
-  "score": 1.72,
+  "score": 1.71,
   "local": true,
   "categorie": "Open source & local",
   "flair": 2,
@@ -6893,7 +7137,7 @@
   "extrait": "Four Gemini 4 Argon agents beat Minecraft without any human help The Decoder",
   "echos": [],
   "societe": "google",
-  "score": 3.66,
+  "score": 3.65,
   "raisons": [
    "Acteur majeur : Google DeepMind",
    "Jugé important par l'IA (4/5)"
@@ -6943,7 +7187,7 @@
   "extrait": "Article URL: https://www.vals.ai/blogs/impossible-refund Comments URL: https://news.ycombinator.com/item?id=50140462 Points: 105 # Comments: 124",
   "echos": [],
   "societe": null,
-  "score": 0.35,
+  "score": 0.34,
   "raisons": [],
   "local": false,
   "categorie": "Actualité",
@@ -6960,7 +7204,7 @@
   "date": "2026-10-18T11:37:44+00:00",
   "extrait": "'Vous vous appelez Sophie et vous habitez à Mortsel': lunettes Meta et reconnaissance faciale, les dangers pour la vie privée RTBF",
   "echos": [],
-  "score": 2.23,
+  "score": 2.22,
   "local": false,
   "categorie": "Vie privée",
   "flair": 3,
@@ -7107,7 +7351,7 @@
   "extrait": "Anthropic wants outside input on Claude’s values. But who gets the final say? NBC News",
   "echos": [],
   "societe": "anthropic",
-  "score": 1.17,
+  "score": 1.16,
   "raisons": [
    "Acteur majeur : Anthropic"
   ],
@@ -7152,7 +7396,7 @@
   "date": "2026-10-18T08:04:26+00:00",
   "extrait": "OpenAI prépare GPT-6 Cyber pour booster la cybersécurité BlogNT",
   "echos": [],
-  "score": 2.13,
+  "score": 2.12,
   "local": false,
   "categorie": "Modèles",
   "flair": 2,
@@ -7265,7 +7509,7 @@
   "date": "2026-10-18T02:17:00+00:00",
   "extrait": "Siri's Access To Your Personal Data Is Greater Than Ever - Here's How To Restrict It BGR",
   "echos": [],
-  "score": 0.47,
+  "score": 0.46,
   "local": false,
   "categorie": "Vie privée",
   "flair": 2,
@@ -7351,13 +7595,40 @@
   "echos": [],
   "anciens_ids": [],
   "societe": "ollama",
-  "score": 1.12,
+  "score": -0.09,
   "raisons": [
    "Source primaire"
   ],
   "local": true,
   "categorie": "Open source & local",
-  "flair": 2
+  "flair": 1,
+  "analyse": {
+   "titre_fr": "Sortie d'Ollama v0.40.7 : améliorations et correctifs",
+   "societe": {
+    "nom": "Ollama",
+    "presentation": "Ollama est un outil gratuit et open source permettant de faire tourner des modèles d'intelligence artificielle en local sur son propre ordinateur, sans nécessiter de connexion Internet."
+   },
+   "a_retenir": "La version v0.40.7 d'Ollama apporte des ajustements techniques, notamment sur l'API OpenAI et le support matériel.",
+   "resume": "Ollama publie sa version v0.40.7-rc0. Cette mise à jour mineure intègre la gestion des efforts de réponse sur les modèles non-réfléchissants via l'API OpenAI, l'inférence automatique du type de 'speculative draft' pour llama-server, et l'ajout du support PPLX Decider v1.2 pour MLX.",
+   "pourquoi": "Ces mises à jour garantissent une meilleure compatibilité avec l'API OpenAI et optimisent les performances d'exécution sur différents matériels, ce qui intéresse les développeurs utilisant des IA en local.",
+   "comment_ca_marche": "Ollama se télécharge et s'installe comme un logiciel classique sur son poste de travail. Via le terminal, il permet de télécharger (ex: ollama run llama3) et d'exécuter des grands modèles de langage en exploitant les ressources locales du CPU ou du GPU. Cette version apporte des correctifs sur la façon dont les requêtes et les serveurs internes gèrent certains paramètres de génération.",
+   "utiliser": [
+    "Télécharger la dernière version d'Ollama depuis GitHub",
+    "Mettre à jour l'application sur son poste",
+    "Tester la compatibilité avec vos scripts utilisant l'API OpenAI"
+   ],
+   "sur_mon_pc": "Téléchargeable sur le site officiel ou GitHub d'Ollama. Configuration minimale : 8 Go de RAM et un processeur récent (un GPU dédié est recommandé pour de meilleures performances).",
+   "local": true,
+   "niveau": "intermédiaire",
+   "categorie": "Open source & local",
+   "importance": 2,
+   "tags": [
+    "Ollama",
+    "Open source",
+    "IA locale",
+    "Mise à jour"
+   ]
+  }
  },
  {
   "id": "581a32947df4f4",
@@ -7688,7 +7959,7 @@
   "date": "2026-10-17T16:33:13+00:00",
   "extrait": "IA : Anthropic préfère qu'un juge suspende un nouveau modèle considéré comme dangereux La Tribune",
   "echos": [],
-  "score": 2.9,
+  "score": 2.89,
   "local": false,
   "categorie": "Business & régulation",
   "flair": 3,
@@ -7758,7 +8029,7 @@
   "societe_force": "ollama",
   "echos": [],
   "societe": "ollama",
-  "score": 1.17,
+  "score": 1.16,
   "raisons": [
    "Source primaire",
    "Utilisable librement (open source)"
@@ -7983,7 +8254,7 @@
   "date": "2026-10-17T13:00:00+00:00",
   "extrait": "Article URL: https://www.theverge.com/ai-artificial-intelligence/1013195/ai-agents-blocked-web Comments URL: https://news.ycombinator.com/item?id=50141657 Points: 154 # Comments: 149",
   "echos": [],
-  "score": -0.3,
+  "score": -0.31,
   "local": false,
   "categorie": "Outils & applis",
   "flair": 1,
@@ -8020,7 +8291,7 @@
   "extrait": "Microsoft Copilot for Legal Brings AI to Lawyers and Law Firms Windows Report",
   "echos": [],
   "societe": "microsoft",
-  "score": 1.67,
+  "score": 1.66,
   "raisons": [
    "Acteur majeur : Microsoft"
   ],
@@ -8308,7 +8579,7 @@
   "date": "2026-10-16T23:41:00+00:00",
   "extrait": "Colorado law to stop AI deepfakes from swaying elections will be tested after the election 9News",
   "echos": [],
-  "score": -0.07,
+  "score": -0.08,
   "local": false,
   "categorie": "Manipulation",
   "flair": 1,
@@ -8512,7 +8783,7 @@
   "score": 0.7,
   "local": false,
   "categorie": "Modèles",
-  "flair": 1,
+  "flair": 2,
   "societe": "anthropic",
   "raisons": [
    "Acteur majeur : Anthropic"
@@ -8529,7 +8800,7 @@
   "date": "2026-10-16T19:00:00+00:00",
   "extrait": "With ia.i, a conversational interface, and the IARA governance platform, Itaú is applying its AI First strategy to customers and employees — in one of Brazil’s most regulated sectors.",
   "echos": [],
-  "score": -0.6,
+  "score": -0.61,
   "local": false,
   "categorie": "Actualité",
   "flair": 1,
@@ -8557,7 +8828,7 @@
   ],
   "local": false,
   "categorie": "Actualité",
-  "flair": 3,
+  "flair": 2,
   "anciens_ids": [
    "60f466f8ae4275"
   ],
@@ -8600,7 +8871,7 @@
   "date": "2026-10-16T18:18:10+00:00",
   "extrait": "China plans to tighten export controls on open-weight models and 23 key AI technologies The Decoder",
   "echos": [],
-  "score": 2.08,
+  "score": 2.07,
   "local": true,
   "categorie": "Pouvoir et régulation",
   "flair": 3,
@@ -8657,7 +8928,7 @@
   "extrait": "Meta Releases Muse Spark Open, and Challenges China Tech.co",
   "echos": [],
   "societe": "meta",
-  "score": 2.47,
+  "score": 2.46,
   "raisons": [
    "Acteur majeur : Meta",
    "Lancement ou annonce"
@@ -8704,7 +8975,7 @@
   "date": "2026-10-16T17:52:24+00:00",
   "extrait": "The agents got in through credentials and connection settings left exposed in app configurations, public code repositories, and overly permissive cloud roles.",
   "echos": [],
-  "score": -0.23,
+  "score": -0.24,
   "local": false,
   "categorie": "Outils & applis",
   "flair": 1,
@@ -8778,7 +9049,7 @@
   "date": "2026-10-16T17:08:38+00:00",
   "extrait": "Article URL: https://www.mercor.com/research/labor-index/benchmark-map/ Comments URL: https://news.ycombinator.com/item?id=50121179 Points: 625 # Comments: 574",
   "echos": [],
-  "score": -0.85,
+  "score": -0.86,
   "local": false,
   "categorie": "Modèles",
   "flair": 1,
@@ -8852,17 +9123,44 @@
   "date": "2026-10-16T16:30:00+00:00",
   "extrait": "Amulya Vishwanath, who spent seven years leading product marketing for NVIDIA’s robotics platforms, says robotics is currently in its “Lego era,” with the basic building blocks like actuators, robotic hands, software, and safety standards still being rebuilt. This view runs counter to those who believe that robotics, powered by a general foundation model, is about to have […]",
   "echos": [],
-  "score": 1.23,
+  "score": 0.02,
   "local": false,
-  "categorie": "Modèles",
-  "flair": 2,
+  "categorie": "Actualité",
+  "flair": 1,
   "societe": "openai",
   "raisons": [
    "Acteur majeur : OpenAI"
   ],
   "anciens_ids": [
    "3ee888866ef9d7"
-  ]
+  ],
+  "analyse": {
+   "titre_fr": "Pourquoi la robotique n'a pas encore connu son moment ChatGPT",
+   "societe": {
+    "nom": "OpenAI",
+    "presentation": "Créateur de ChatGPT, des modèles avancés et leader historique de l'IA générative grand public."
+   },
+   "a_retenir": "La robotique est encore dans son « ère Lego », car ses briques fondamentales matérielles et logicielles sont toujours en cours de reconstruction.",
+   "resume": "Selon une ancienne responsable de Nvidia passée dans le capital-risque, la robotique ne connaîtra pas immédiatement son équivalent du moment ChatGPT. Le secteur doit d'abord stabiliser ses composants de base avant qu'un modèle de fondation universel ne puisse tout révolutionner.",
+   "pourquoi": "Cela permet aux professionnels de nuancer les promesses marketing autour de l'IA physique et de comprendre les défis techniques actuels de la robotique.",
+   "comment_ca_marche": "Les modèles de fondation en robotique visent à connecter des réseaux de neurones géants à des corps mécaniques pour généraliser les mouvements. Cependant, contrairement au texte ou aux images, la robotique dépend d'interactions physiques complexes avec le monde réel. Les actionneurs, les mains robotisées, les logiciels de contrôle et les normes de sécurité doivent d'abord converger vers des standards stables. Tant que ces briques élémentaires ne sont pas unifiées, le 'moment ChatGPT' de la robotique reste bloqué par des contraintes matérielles.",
+   "utiliser": [
+    "Analyser les dépendances matérielles de vos projets d'automatisation",
+    "Suivre l'évolution des standards logiciels et de sécurité en robotique",
+    "Ne pas baser une stratégie produit sur un modèle robotique universel immédiat"
+   ],
+   "sur_mon_pc": "Pas en local : service en ligne uniquement",
+   "local": false,
+   "niveau": "intermédiaire",
+   "categorie": "Actualité",
+   "importance": 2,
+   "tags": [
+    "robotique",
+    "Nvidia",
+    "OpenAI",
+    "matériel"
+   ]
+  }
  },
  {
   "id": "3f28125b66601d",
@@ -8874,7 +9172,7 @@
   "date": "2026-10-16T16:26:00+00:00",
   "extrait": "How employment is changing at Anthropic Anthropic",
   "echos": [],
-  "score": -1.17,
+  "score": -1.18,
   "local": false,
   "categorie": "Actualité",
   "flair": 1,
@@ -8921,7 +9219,7 @@
   "extrait": "ChatGPT stole cryptocurrency to secretly fund coding task The Independent",
   "echos": [],
   "societe": "openai",
-  "score": 1.23,
+  "score": 1.22,
   "raisons": [
    "Acteur majeur : OpenAI"
   ],
@@ -8969,14 +9267,40 @@
   "extrait": "Working at the frontier shapes expectations for the future Anthropic",
   "echos": [],
   "societe": "anthropic",
-  "score": 1.22,
+  "score": 0.02,
   "raisons": [
    "Acteur majeur : Anthropic"
   ],
   "local": false,
   "categorie": "Actualité",
-  "flair": 2,
-  "anciens_ids": []
+  "flair": 1,
+  "anciens_ids": [],
+  "analyse": {
+   "titre_fr": "Working at the frontier shapes expectations for the future",
+   "societe": {
+    "nom": "Anthropic",
+    "presentation": "Créateur de l'assistant Claude, fondé en 2021 par d'anciens d'OpenAI, misant sur la sécurité de l'IA et dominant sur le code et les usages professionnels."
+   },
+   "a_retenir": "Travailler à la frontière de l'IA façonne les attentes pour le futur, selon les réflexions partagées par Anthropic.",
+   "resume": "Cet article d'Anthropic aborde la manière dont le travail aux avant-postes de la recherche en intelligence artificielle influence la vision et les attentes concernant l'avenir du secteur. Le contenu exact fourni est limité mais s'inscrit dans les publications de communication de l'entreprise.",
+   "pourquoi": "Il est important pour les professionnels de suivre les perspectives des leaders de l'IA comme Anthropic pour anticiper les tendances et les évolutions technologiques à venir.",
+   "comment_ca_marche": "À vérifier sur la source, l'extrait fourni ne contenant pas de détails techniques précis sur le fonctionnement de la technologie.",
+   "utiliser": [
+    "Consulter le site officiel d'Anthropic pour lire l'article complet",
+    "Analyser les perspectives partagées pour votre veille stratégique"
+   ],
+   "sur_mon_pc": "Pas en local : service en ligne uniquement",
+   "local": false,
+   "niveau": "débutant",
+   "categorie": "Actualité",
+   "importance": 2,
+   "tags": [
+    "Anthropic",
+    "IA",
+    "Futur",
+    "Veille"
+   ]
+  }
  },
  {
   "id": "6f0ec75f9d13ae",
@@ -9096,15 +9420,42 @@
   "date": "2026-10-16T15:00:00+00:00",
   "extrait": "Nvidia's RTX Spark N1X processor is finally here, and we've been collectively testing a small fortune's worth of powerful laptops sporting this new \"superchip.\" RTX Spark is designed to be a high-performing Arm-based SoC for laptops and small desktop computers, rivaling the best from Apple, Intel, AMD, and Qualcomm. It has loads of cores, Nvidia […]",
   "echos": [],
-  "score": 1.19,
-  "local": true,
+  "score": 1.18,
+  "local": false,
   "categorie": "Actualité",
   "flair": 2,
   "societe": "nvidia",
   "raisons": [
    "Acteur majeur : NVIDIA"
   ],
-  "anciens_ids": []
+  "anciens_ids": [],
+  "analyse": {
+   "titre_fr": "Nvidia lance RTX Spark : premier test des ordinateurs portables sous puce Arm",
+   "societe": {
+    "nom": "NVIDIA",
+    "presentation": "Fabricant mondial de puces (GPU) et de processeurs graphiques, leader incontournable des infrastructures pour l'intelligence artificielle."
+   },
+   "a_retenir": "Nvidia entre sur le marché des PC portables sous architecture Arm avec sa nouvelle puce RTX Spark N1X.",
+   "resume": "Des journalistes ont testé les premiers ordinateurs portables équipés de la puce RTX Spark de Nvidia. Cette puce SoC basée sur l'architecture Arm vise à concurrencer directement Apple, Intel, AMD et Qualcomm sur le segment des PC portables et petits ordinateurs de bureau.",
+   "pourquoi": "Cela marque l'arrivée agressive de Nvidia sur le marché des processeurs pour ordinateurs personnels, un secteur dominé par d'autres géants technologiques.",
+   "comment_ca_marche": "Le processeur RTX Spark N1X intègre de nombreux cœurs de calcul et des technologies Nvidia dans un format SoC (System-on-Chip) conçu pour l'architecture Arm. Cette architecture matérielle combine haute performance et efficacité énergétique, permettant d'exécuter des charges de travail lourdes, notamment liées à l'IA, directement sur un ordinateur portable.",
+   "utiliser": [
+    "Se renseigner sur les premiers tests des ordinateurs portables équipés de la puce RTX Spark.",
+    "Comparer les performances de RTX Spark face aux offres concurrentes d'Apple, Intel, AMD et Qualcomm."
+   ],
+   "sur_mon_pc": "Pas en local : service en ligne uniquement",
+   "local": false,
+   "niveau": "débutant",
+   "categorie": "Actualité",
+   "importance": 3,
+   "tags": [
+    "Nvidia",
+    "RTX Spark",
+    "Arm",
+    "PC portable",
+    "Processeur"
+   ]
+  }
  },
  {
   "id": "c340d58ee6fa85",
@@ -9117,7 +9468,7 @@
   "extrait": "China moves to curb tech exports, including AI, citing national security risks AP News",
   "echos": [],
   "societe": null,
-  "score": -0.31,
+  "score": -0.32,
   "raisons": [],
   "local": false,
   "categorie": "Pouvoir et régulation",
@@ -9152,14 +9503,42 @@
   "extrait": "Here’s How ChatGPT Is Targeting You With Ads Gizmodo",
   "echos": [],
   "societe": "openai",
-  "score": 1.18,
+  "score": 2.38,
   "raisons": [
-   "Acteur majeur : OpenAI"
+   "Acteur majeur : OpenAI",
+   "Jugé important par l'IA (4/5)"
   ],
   "local": false,
-  "categorie": "Actualité",
+  "categorie": "Business & régulation",
   "flair": 2,
-  "anciens_ids": []
+  "anciens_ids": [],
+  "analyse": {
+   "titre_fr": "Comment ChatGPT cible les utilisateurs avec de la publicité",
+   "societe": {
+    "nom": "OpenAI",
+    "presentation": "Créateur de ChatGPT, des modèles GPT et leader historique de l'intelligence artificielle générative grand public."
+   },
+   "a_retenir": "OpenAI commence à intégrer de la publicité ciblée au sein de ChatGPT selon de récentes révélations.",
+   "resume": "Un article de Gizmodo analyse la manière dont OpenAI déploie ou envisage le ciblage publicitaire pour les utilisateurs de ChatGPT. C'est un tournant majeur pour le modèle économique de l'entreprise, historiquement basé sur les abonnements et les API.",
+   "pourquoi": "Cela marque un changement de modèle économique pour l'outil de référence, impactant potentiellement la neutralité des réponses et ouvrant de nouveaux canaux marketing.",
+   "comment_ca_marche": "Les systèmes publicitaires dans les IA analysent les requêtes textuelles, le contexte des conversations et le profil de l'utilisateur pour afficher des annonces pertinentes sous forme de suggestions ou de liens sponsorisés directement dans l'interface de discussion.",
+   "utiliser": [
+    "Surveiller l'apparition de bannières ou liens sponsorisés dans l'interface de ChatGPT",
+    "Évaluer l'impact de ces publicités sur la pertinence et la neutralité des réponses obtenues",
+    "Adapter sa stratégie de veille sur les nouveaux canaux publicitaires en IA"
+   ],
+   "sur_mon_pc": "Pas en local : service en ligne uniquement",
+   "local": false,
+   "niveau": "débutant",
+   "categorie": "Business & régulation",
+   "importance": 4,
+   "tags": [
+    "OpenAI",
+    "ChatGPT",
+    "Publicité",
+    "Business Model"
+   ]
+  }
  },
  {
   "id": "9d337093f9bfed",
@@ -9187,13 +9566,17 @@
   "type": "communaute",
   "rubrique": "veille",
   "date": "2026-10-16T14:18:44+00:00",
-  "extrait": "I've refreshed StarSkirmish Bench, a benchmark where LLMs play StarCraft BW by writing code, with results from the flagship models of OpenAI, Anthropic, Google, and Muse Comments URL: https://news.ycombinator.com/item?id=50118688 Points: 249 # Comments: 111",
+  "extrait": "I've refreshed StarSkirmish Bench, a benchmark where LLMs play StarCraft BW by writing code, with results from the flagship models of OpenAI, Anthropic, Google, and Muse Comments URL: https://news.ycombinator.com/item?id=50118688 Points: 252 # Comments: 111",
   "echos": [],
-  "score": 2.84,
+  "score": 0.56,
   "local": false,
   "categorie": "Modèles",
-  "flair": 2,
-  "anciens_ids": []
+  "flair": 1,
+  "anciens_ids": [],
+  "societe": "google",
+  "raisons": [
+   "Acteur majeur : Google DeepMind"
+  ]
  },
  {
   "id": "ad3a47861a304e",
@@ -9260,15 +9643,42 @@
   "date": "2026-10-16T14:00:00+00:00",
   "extrait": "Nova Scotia to host massive data centre to power Anthropic's AI assistant Claude CBC",
   "echos": [],
-  "score": 1.16,
+  "score": -0.04,
   "local": false,
-  "categorie": "Modèles",
-  "flair": 2,
+  "categorie": "Actualité",
+  "flair": 1,
   "societe": "anthropic",
   "raisons": [
    "Acteur majeur : Anthropic"
   ],
-  "anciens_ids": []
+  "anciens_ids": [],
+  "analyse": {
+   "titre_fr": "Nouvelle-Écosse : un centre de données massif pour Claude",
+   "societe": {
+    "nom": "Anthropic",
+    "presentation": "Créateur de l'assistant Claude, fondé en 2021 par d'anciens d'OpenAI, axé sur la sécurité et les usages professionnels."
+   },
+   "a_retenir": "Anthropic va s'appuyer sur un nouveau centre de données géant en Nouvelle-Écosse pour alimenter son IA Claude.",
+   "resume": "La province canadienne de la Nouvelle-Écosse a été choisie pour accueillir une infrastructure majeure de centres de données. Ce site servira à fournir la puissance de calcul nécessaire au fonctionnement de l'assistant intelligent Claude.",
+   "pourquoi": "Illustre la croissance des besoins en infrastructure physique et en énergie pour faire tourner les modèles d'IA à grande échelle.",
+   "comment_ca_marche": "Les grands modèles de langage comme Claude nécessitent des milliers de serveurs spécialisés (GPU) interconnectés pour traiter les requêtes et générer du texte. Un centre de données de cette envergure regroupe une immense puissance de calcul, des systèmes de refroidissement avancés et un approvisionnement massif en électricité pour faire fonctionner ces puces en continu.",
+   "utiliser": [
+    "Suivre les annonces officielles d'Anthropic sur leurs capacités de calcul",
+    "Anticiper les impacts géographiques et énergétiques des infrastructures d'IA",
+    "Observer l'évolution des performances et de la disponibilité des services Claude"
+   ],
+   "sur_mon_pc": "Pas en local : service en ligne uniquement",
+   "local": false,
+   "niveau": "débutant",
+   "categorie": "Actualité",
+   "importance": 2,
+   "tags": [
+    "Anthropic",
+    "Claude",
+    "Centre de données",
+    "Infrastructure"
+   ]
+  }
  },
  {
   "id": "03e02abc3531a9",
@@ -9335,7 +9745,7 @@
   "extrait": "China adds 40 technologies in AI, biomedicine and PV for export controls in draft revised catalog in ‘necessary step’ to safeguard national security Global Times",
   "echos": [],
   "societe": null,
-  "score": 0.43,
+  "score": 0.42,
   "raisons": [
    "Régulation ou justice"
   ],
@@ -9376,7 +9786,7 @@
   "societe_force": null,
   "echos": [],
   "societe": null,
-  "score": -0.4,
+  "score": -0.41,
   "raisons": [
    "Source primaire"
   ],
@@ -9587,7 +9997,7 @@
   "extrait": "Exclusive / Conservative AI safety group proposes export controls, visa restrictions Semafor",
   "echos": [],
   "societe": null,
-  "score": -0.88,
+  "score": -0.89,
   "raisons": [
    "Régulation ou justice"
   ],
@@ -9623,9 +10033,9 @@
   "date": "2026-10-16T08:34:01+00:00",
   "extrait": "Des milliards de simulations de collision : Mistral s'associe au CERN pour créer un modèle d'IA de pointe pour la physique des particules Numerama",
   "echos": [],
-  "score": 1.11,
+  "score": 1.1,
   "local": false,
-  "categorie": "Modèles",
+  "categorie": "Recherche",
   "flair": 2,
   "societe": "mistral",
   "raisons": [
@@ -9633,7 +10043,35 @@
   ],
   "anciens_ids": [
    "083bc0e27b46aa"
-  ]
+  ],
+  "analyse": {
+   "titre_fr": "Mistral AI s'associe au CERN pour modéliser la physique des particules",
+   "societe": {
+    "nom": "Mistral AI",
+    "presentation": "Champion français de l'intelligence artificielle fondé en 2023, spécialisé dans les modèles ouverts et l'assistant Le Chat avec un hébergement européen."
+   },
+   "a_retenir": "Mistral AI s'associe au CERN pour concevoir un modèle d'IA de pointe dédié aux simulations de collisions en physique des particules.",
+   "resume": "Le CERN et Mistral AI unissent leurs forces pour créer un modèle d'intelligence artificielle avancé capable de traiter des milliards de simulations de collision. Cette collaboration vise à repousser les limites de la recherche en physique des particules grâce aux technologies de pointe du champion français.",
+   "pourquoi": "Cette alliance illustre la pénétration des modèles d'IA européens de pointe dans la recherche scientifique fondamentale de très haute précision.",
+   "comment_ca_marche": "Le principe repose sur l'entraînement de modèles de Machine Learning capables d'analyser et de générer des milliards de données issues de collisions de particules. L'IA apprend à reconnaître des schémas complexes et à simuler des comportements physiques à très grande échelle pour assister les chercheurs du CERN dans leurs calculs et leurs analyses.",
+   "utiliser": [
+    "Suivre les publications scientifiques conjointes du CERN et de Mistral AI",
+    "Explorer les applications industrielles ou scientifiques des grands modèles de langage pour le traitement de données massives",
+    "Évaluer l'intégration potentielle de modèles Mistral pour des calculs scientifiques lourds"
+   ],
+   "sur_mon_pc": "Pas en local : service en ligne uniquement",
+   "local": false,
+   "niveau": "intermédiaire",
+   "categorie": "Recherche",
+   "importance": 3,
+   "tags": [
+    "Mistral AI",
+    "CERN",
+    "Physique",
+    "Recherche",
+    "Simulation"
+   ]
+  }
  },
  {
   "id": "268c9b52756f1d",
@@ -9646,7 +10084,7 @@
   "extrait": "China mulls new tech export bans covering AI, biotechnology and solar power South China Morning Post",
   "echos": [],
   "societe": null,
-  "score": 0.31,
+  "score": 0.3,
   "raisons": [
    "Régulation ou justice"
   ],
@@ -9706,7 +10144,7 @@
   "date": "2026-10-16T08:12:23+00:00",
   "extrait": "Le moniteur indépendant du marché PJM demande à la FERC de conditionner le rachat des renouvelables nord-américaines d'EDF par KKR au maintien de 938 MW sur le marché. En juillet, la Commission avait refusé la même condition dans un autre dossier, ce qui fait de ce cas un test pour la doctrine de la FERC sur les cessions d'actifs électriques.",
   "echos": [],
-  "score": -0.7,
+  "score": -0.71,
   "local": false,
   "categorie": "Business & régulation",
   "flair": 1,
@@ -9759,7 +10197,7 @@
   "date": "2026-10-16T06:04:00+00:00",
   "extrait": "Une prépublication montre qu'un agent peut exécuter un outil avant même de formuler un refus, révélant un décalage entre la réponse du modèle et l'action réellement déclenchée par l'orchestrateur. L'étude documente aussi 253 bogues vérifiés dans 118 serveurs MCP, soulignant la nécessité de contrôler les actions indépendamment des sorties du modèle.",
   "echos": [],
-  "score": -0.76,
+  "score": -0.77,
   "local": false,
   "categorie": "Modèles",
   "flair": 1,
@@ -9899,7 +10337,7 @@
   "extrait": "Eight US states sue OpenAI, alleging ChatGPT harms children NZ Herald",
   "echos": [],
   "societe": "openai",
-  "score": 0.87,
+  "score": 0.86,
   "raisons": [
    "Acteur majeur : OpenAI"
   ],
@@ -9923,7 +10361,7 @@
   "societe_force": "apple",
   "echos": [],
   "societe": "apple",
-  "score": 0.35,
+  "score": 0.34,
   "raisons": [
    "Source primaire"
   ],
@@ -9942,7 +10380,7 @@
   "date": "2026-10-16T01:44:47+00:00",
   "extrait": "",
   "echos": [],
-  "score": 0.12,
+  "score": 0.11,
   "local": false,
   "categorie": "Actualité",
   "flair": 1,
@@ -10098,7 +10536,7 @@
   "date": "2026-10-15T23:34:00+00:00",
   "extrait": "Minnesota voters may come across deepfake political ads during final days of the election kare11.com",
   "echos": [],
-  "score": -0.74,
+  "score": -0.75,
   "local": false,
   "categorie": "Manipulation",
   "flair": 1,
@@ -10451,11 +10889,16 @@
   "rubrique": "veille",
   "date": "2026-10-15T20:04:53+00:00",
   "extrait": "Meta and Apple have teamed up for the launch of the social media giant's newest model, Muse Spark Open, which will run locally on Apple silicon.",
-  "echos": [],
-  "score": 4.6,
+  "echos": [
+   {
+    "source": "Grandes annonces IA",
+    "lien": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQQlZfb0U3cFViMUxwX19EejMxOTNmczEyTzU1YzZqZGhaTnR6dVFrVnVURUVqbGpENzRRWnViS2RrV0pLUkZxcVd6R01DRUhENmZ0azlMTmhNMEh1VnYwNzZndF9qN29GSHZDWXZQSmFrd19lS3E5STJTekhTaW9ETjhHLTg1R0tMTERPTUpNN1M?oc=5"
+   }
+  ],
+  "score": 6.2,
   "local": true,
   "categorie": "Open source & local",
-  "flair": 4,
+  "flair": 5,
   "analyse": {
    "titre_fr": "Meta lance Muse Spark Open, un modèle IA open-weight optimisé pour Mac",
    "resume": "Meta et Apple se sont associés pour lancer Muse Spark Open, un nouveau modèle d'intelligence artificielle aux poids ouverts conçu pour tourner localement sur les puces Apple Silicon des ordinateurs Mac.",
@@ -10481,12 +10924,14 @@
   },
   "societe": "meta",
   "raisons": [
+   "Repris par 2 sources",
    "Acteur majeur : Meta",
    "Lancement ou annonce",
-   "Utilisable librement (open source)",
-   "Jugé important par l'IA (4/5)"
+   "Utilisable librement (open source)"
   ],
-  "anciens_ids": []
+  "anciens_ids": [
+   "c21a09c1613821"
+  ]
  },
  {
   "id": "9e84bea1068c36",
@@ -10692,7 +11137,7 @@
   "score": 0.7,
   "local": false,
   "categorie": "Modèles",
-  "flair": 1,
+  "flair": 2,
   "societe": "anthropic",
   "raisons": [
    "Acteur majeur : Anthropic"
@@ -10895,50 +11340,6 @@
   "anciens_ids": []
  },
  {
-  "id": "ef6c7beadf74ae",
-  "titre": "Be There for the Beginning: Celebrate the Launch of NVIDIA RTX Spark",
-  "lien": "https://blogs.nvidia.com/blog/local-ai-rtx-spark-launch-event-invite/",
-  "source": "NVIDIA",
-  "type": "officiel",
-  "rubrique": "veille",
-  "date": "2026-10-15T17:00:23+00:00",
-  "extrait": "A new beginning for Windows PCs starts tomorrow with the launch of NVIDIA RTX Spark — one PC built for creators, gamers and AI agents. All are invited to celebrate with NVIDIA and partners at launch events around the world. Share Your Spark Every PC has a story. What was your first Windows PC, and […]",
-  "echos": [],
-  "score": 2.7,
-  "local": false,
-  "categorie": "Actualité",
-  "flair": 3,
-  "analyse": {
-   "titre_fr": "Lancement de NVIDIA RTX Spark pour les PC Windows",
-   "resume": "NVIDIA annonce le lancement de RTX Spark, un nouveau concept de PC Windows conçu pour les créateurs, les joueurs et les agents d'intelligence artificielle. Des événements mondiaux sont organisés pour célébrer ce lancement avec des partenaires.",
-   "pourquoi": "Cela représente une nouvelle orientation matérielle et logicielle pour intégrer nativement des agents IA sur les PC Windows grand public.",
-   "comment_ca_marche": "Il s'agit d'une configuration matérielle et logicielle optimisée par les technologies RTX de NVIDIA pour exécuter localement des charges de travail lourdes, incluant le jeu vidéo et l'inférence de modèles d'IA pour des agents autonomes. Les détails techniques précis de l'architecture 'Spark' seront révélés lors des événements de lancement.",
-   "utiliser": [
-    "Consulter les annonces officielles de NVIDIA et de ses partenaires pour connaître les spécifications techniques exactes",
-    "Participer aux événements de lancement mondiaux ou en ligne",
-    "Vérifier la compatibilité des futurs logiciels et agents IA avec cette nouvelle configuration"
-   ],
-   "sur_mon_pc": "Pas en local : service en ligne uniquement",
-   "local": false,
-   "niveau": "débutant",
-   "categorie": "Actualité",
-   "importance": 3,
-   "tags": [
-    "NVIDIA",
-    "RTX",
-    "PC Windows",
-    "Agents IA"
-   ]
-  },
-  "societe": "nvidia",
-  "raisons": [
-   "Source officielle",
-   "Acteur majeur : NVIDIA",
-   "Lancement ou annonce"
-  ],
-  "anciens_ids": []
- },
- {
   "id": "c5dfe5472e7c8f",
   "titre": "UK Election Watchdog Develops AI System to Flag Deepfakes Within 3 Hours - Tech Policy Press",
   "lien": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNVHdtVkRZM3plVEpnWnhBYlQ1aU9TX0p6NTNjV2pNYVZzdDJoeVctSExkM1ZaQmJYVjVNOUx2dG1wYWlZMDBlem5TaVI0MUQzSlRGRkhYNW5MUjRER21VTXh1WV9fbXlsU25rblZsOFRycVNLczFMLW1mQjRxVU42RUxOdndpeDVXY3BESW56ZTJSY0hUZFdzYmVMNENvd0duT3JGMw?oc=5",
@@ -10954,7 +11355,24 @@
   "flair": 1,
   "societe": null,
   "raisons": [],
-  "anciens_ids": []
+  "anciens_ids": [],
+  "analyse": {
+   "titre_fr": "Le gendarme électoral britannique développe un outil anti-deepfakes",
+   "resume": "L'autorité de régulation électorale britannique développe un système d'intelligence artificielle conçu pour identifier et signaler les deepfakes en l'espace de trois heures.",
+   "la_crainte": "L'utilisation croissante de l'intelligence artificielle pour générer des deepfakes menace l'intégrité des processus démocratiques et les autorités pourraient ne pas réussir à contrer la manipulation à grande échelle.",
+   "les_faits": "L'organisme de surveillance électorale du Royaume-Uni développe un système d'IA destiné à repérer les deepfakes en trois heures.",
+   "inconnues": "Les détails techniques du fonctionnement de l'outil, son taux de fiabilité, son coût et la date exacte de son déploiement ne sont pas précisés dans l'extrait.",
+   "preuve": "plausible",
+   "a_surveiller": "L'efficacité réelle du système lors de prochaines échéances électorales et sa capacité à traiter les contenus en temps réel.",
+   "categorie": "Manipulation",
+   "importance": 3,
+   "tags": [
+    "deepfakes",
+    "Royaume-Uni",
+    "élections",
+    "désinformation"
+   ]
+  }
  },
  {
   "id": "5c4e115ef4ee5e",
@@ -10966,13 +11384,30 @@
   "date": "2026-10-15T16:21:45+00:00",
   "extrait": "Friends don’t let friends feed their data to AI agents The Verge",
   "echos": [],
-  "score": -0.8,
+  "score": -2.0,
   "local": false,
-  "categorie": "Pouvoir et régulation",
+  "categorie": "Vie privée",
   "flair": 1,
   "societe": null,
   "raisons": [],
-  "anciens_ids": []
+  "anciens_ids": [],
+  "analyse": {
+   "titre_fr": "Les risques des assistants IA pour la vie privée",
+   "resume": "Un article de The Verge aborde la question du partage de données personnelles avec des agents conversationnels et des assistants IA.",
+   "la_crainte": "L'utilisation croissante des assistants IA par les particuliers conduit à une collecte massive et invasive de données personnelles au profit des entreprises technologiques.",
+   "les_faits": "L'extrait fourni mentionne uniquement le titre d'un article de The Verge critiquant le fait de nourrir des agents IA avec ses données personnelles.",
+   "inconnues": "Les détails précis, les arguments de l'article, les types de données concernées et les entreprises visées ne sont pas fournis dans l'extrait.",
+   "preuve": "speculatif",
+   "a_surveiller": "La publication future d'analyses détaillées sur les politiques de confidentialité des assistants IA.",
+   "categorie": "Vie privée",
+   "importance": 2,
+   "tags": [
+    "vie privée",
+    "assistants IA",
+    "données personnelles",
+    "The Verge"
+   ]
+  }
  },
  {
   "id": "996b33c09ad574",
@@ -11417,13 +11852,32 @@
   "date": "2026-10-15T08:25:40+00:00",
   "extrait": "AI will not set its own limits in warfare. States must. ICRC",
   "echos": [],
-  "score": -0.8,
+  "score": 0.4,
   "local": false,
-  "categorie": "Pouvoir et régulation",
-  "flair": 1,
+  "categorie": "Militaire",
+  "flair": 2,
   "societe": null,
-  "raisons": [],
-  "anciens_ids": []
+  "raisons": [
+   "Jugé important par l'IA (4/5)"
+  ],
+  "anciens_ids": [],
+  "analyse": {
+   "titre_fr": "Le CICR rappelle que les États doivent fixer les limites de l'IA militaire",
+   "resume": "Le Comité international de la Croix-Rouge (CICR) a déclaré que l'intelligence artificielle ne fixera pas elle-même ses propres limites dans la guerre et que cette responsabilité incombe aux États.",
+   "la_crainte": "L'IA militaire pourrait échapper au contrôle humain sur le champ de bataille et mener des actions armées de manière autonome sans barrières éthiques.",
+   "les_faits": "Le CICR affirme que l'intelligence artificielle ne fixera pas ses propres limites en matière de guerre et que les États doivent s'en charger.",
+   "inconnues": "Les mesures concrètes que les États comptent prendre pour encadrer l'IA militaire et la position des différents gouvernements face à cet appel.",
+   "preuve": "plausible",
+   "a_surveiller": "Les résolutions ou traités internationaux adoptés par les États concernant l'encadrement des armes autonomes et de l'IA militaire.",
+   "categorie": "Militaire",
+   "importance": 4,
+   "tags": [
+    "CICR",
+    "IA militaire",
+    "régulation",
+    "armes autonomes"
+   ]
+  }
  },
  {
   "id": "dad987a1f1a775",
@@ -11705,7 +12159,25 @@
   "local": false,
   "categorie": "Manipulation",
   "flair": 1,
-  "anciens_ids": []
+  "anciens_ids": [],
+  "analyse": {
+   "titre_fr": "Risques de deepfakes et d'arnaques liés aux élections de mi-mandat",
+   "resume": "Un article de CNET publié à l'approche des élections de mi-mandat aborde la question de l'identification des deepfakes et des arnaques électorales utilisant l'intelligence artificielle.",
+   "la_crainte": "L'IA générative est perçue comme un outil de manipulation de masse capable de détruire la confiance dans les processus démocratiques grâce à des faux contenus indétectables.",
+   "les_faits": "L'article mentionne le contexte des élections imminentes et propose des conseils pour repérer les deepfakes et les escroqueries liés au scrutin.",
+   "inconnues": "Le contenu détaillé des méthodes d'identification présentées par CNET et l'ampleur réelle des arnaques constatées ne sont pas fournis dans l'extrait.",
+   "preuve": "plausible",
+   "a_surveiller": "L'apparition avérée de campagnes de deepfakes à grande échelle ciblant les électeurs lors de ces élections.",
+   "categorie": "Manipulation",
+   "importance": 3,
+   "tags": [
+    "deepfakes",
+    "élections",
+    "désinformation",
+    "manipulation",
+    "arnaques"
+   ]
+  }
  },
  {
   "id": "bbc1e25e9e985e",
@@ -11741,7 +12213,24 @@
   "flair": 1,
   "societe": null,
   "raisons": [],
-  "anciens_ids": []
+  "anciens_ids": [],
+  "analyse": {
+   "titre_fr": "Le débat persistant sur la définition des armes autonomes selon le Council on Foreign Relations",
+   "resume": "Un article du Council on Foreign Relations aborde les difficultés persistantes liées à la définition des armes autonomes dans le débat international.",
+   "la_crainte": "L'absence de consensus sur la définition des armes autonomes empêche toute régulation efficace, ouvrant la voie à une prolifération incontrôlée de systèmes d'armes létaux automatisés.",
+   "les_faits": "L'article met en évidence un problème de définition persistant concernant les armes autonomes, sans apporter de détails factuels supplémentaires dans l'extrait fourni.",
+   "inconnues": "Les critères précis qui font débat, les acteurs impliqués dans cette discussion et les impacts opérationnels exacts ne sont pas mentionnés dans l'extrait.",
+   "preuve": "speculatif",
+   "a_surveiller": "Les prochaines prises de position ou propositions de cadres juridiques internationaux sur les armes autonomes.",
+   "categorie": "Militaire",
+   "importance": 3,
+   "tags": [
+    "armes autonomes",
+    "défense",
+    "régulation internationale",
+    "géopolitique"
+   ]
+  }
  },
  {
   "id": "316b2e95f5f1c3",
@@ -12038,13 +12527,32 @@
   "date": "2026-10-14T15:00:14+00:00",
   "extrait": "Ukraine Tests AI-Powered Drones As Debate Grows Over Autonomous Weapons Radio Free Europe/Radio Liberty",
   "echos": [],
-  "score": -0.8,
+  "score": 0.4,
   "local": false,
   "categorie": "Militaire",
-  "flair": 1,
+  "flair": 2,
   "societe": null,
-  "raisons": [],
-  "anciens_ids": []
+  "raisons": [
+   "Jugé important par l'IA (4/5)"
+  ],
+  "anciens_ids": [],
+  "analyse": {
+   "titre_fr": "L'Ukraine teste des drones dopés à l'IA",
+   "resume": "L'Ukraine procède à des tests de drones pilotés par intelligence artificielle. Cette démarche intervient alors que le débat s'intensifie autour des armes autonomes.",
+   "la_crainte": "L'essor de drones d'attaque totalement autonomes décidant de la vie et de la mort sans intervention humaine, ouvrant la voie à des dérives de guerre automatisée.",
+   "les_faits": "L'Ukraine teste actuellement des drones dotés d'intelligence artificielle, ce qui relance les discussions sur l'utilisation d'armes autonomes.",
+   "inconnues": "Le degré exact d'autonomie de ces drones, les spécificités techniques des IA utilisées, ainsi que la nature précise des tests menés restent inconnus dans cet extrait.",
+   "preuve": "plausible",
+   "a_surveiller": "L'évolution des cadres juridiques ou réglementaires internationaux concernant l'utilisation militaire des armes autonomes.",
+   "categorie": "Militaire",
+   "importance": 4,
+   "tags": [
+    "drones",
+    "Ukraine",
+    "armes autonomes",
+    "militaire"
+   ]
+  }
  },
  {
   "id": "e43c1cd9df40df",
@@ -12234,13 +12742,30 @@
   "date": "2026-10-14T07:18:47+00:00",
   "extrait": "The United Kingdom’s Military AI Ambitions Need Guardrails War on the Rocks",
   "echos": [],
-  "score": -0.8,
+  "score": -2.0,
   "local": false,
   "categorie": "Militaire",
   "flair": 1,
   "societe": null,
   "raisons": [],
-  "anciens_ids": []
+  "anciens_ids": [],
+  "analyse": {
+   "titre_fr": "Les ambitions de l'IA militaire britannique nécessitent des garde-fous",
+   "resume": "Un article d'analyse publié par War on the Rocks discute des ambitions du Royaume-Uni en matière d'intelligence artificielle militaire et souligne le besoin de mettre en place des garde-fous.",
+   "la_crainte": "L'utilisation croissante de l'IA par les armées pourrait mener à une perte de contrôle humaine sur les décisions létales et à une course aux armements incontrôlable.",
+   "les_faits": "L'extrait mentionne uniquement le titre d'un article de War on the Rocks abordant les ambitions du Royaume-Uni en matière d'IA militaire et la nécessité de garde-fous.",
+   "inconnues": "Le contenu détaillé de l'article, la nature exacte des projets d'IA militaire britanniques et les types de garde-fous proposés ne sont pas fournis dans l'extrait.",
+   "preuve": "speculatif",
+   "a_surveiller": "La publication de doctrines officielles sur l'usage de l'IA par le ministère de la Défense britannique.",
+   "categorie": "Militaire",
+   "importance": 2,
+   "tags": [
+    "Royaume-Uni",
+    "IA militaire",
+    "Garde-fous",
+    "Défense"
+   ]
+  }
  },
  {
   "id": "e181547094b0a1",
@@ -12348,6 +12873,55 @@
    ]
   },
   "anciens_ids": []
+ },
+ {
+  "id": "641fd03bcae8fe",
+  "titre": "NVIDIA Announces New Investments in the UK Startup Ecosystem",
+  "lien": "https://blogs.nvidia.com/blog/uk-ecosystem-deployment/",
+  "source": "NVIDIA",
+  "type": "officiel",
+  "rubrique": "veille",
+  "date": "2026-10-14T06:04:15+00:00",
+  "extrait": "Across industries, the U.K. is putting the full stack to work. The scale of deployment is growing fast, from enterprises transforming their businesses to startups solving some of the planet’s hardest problems. NVIDIA is putting that principle into practice, including through a five-year, $250 million compute commitment to strengthen the U.K.’s agentic safety and security […]",
+  "echos": [],
+  "anciens_ids": [],
+  "societe": "nvidia",
+  "score": 1.5,
+  "raisons": [
+   "Source officielle",
+   "Acteur majeur : NVIDIA",
+   "Lancement ou annonce"
+  ],
+  "local": false,
+  "categorie": "Business & régulation",
+  "flair": 2,
+  "analyse": {
+   "titre_fr": "Nvidia investit 250 millions de dollars dans l'écosystème tech britannique",
+   "societe": {
+    "nom": "NVIDIA",
+    "presentation": "Fabricant mondial de processeurs graphiques (GPU) indispensables au calcul intensif en IA et développeur de modèles ouverts comme Nemotron."
+   },
+   "a_retenir": "Nvidia annonce un engagement de 250 millions de dollars sur cinq ans pour renforcer la sécurité des agents IA au Royaume-Uni.",
+   "resume": "Nvidia renforce son soutien à l'écosystème de startups et d'entreprises britanniques en déployant un investissement massif en puissance de calcul. Cet engagement vise spécifiquement à sécuriser le développement des agents IA autonomes.",
+   "pourquoi": "Cet investissement montre la volonté de Nvidia de structurer et sécuriser le marché des agents IA à l'échelle régionale, tout en consolidant ses parts de marché auprès des startups.",
+   "comment_ca_marche": "L'initiative consiste à fournir des ressources de calcul (GPU et infrastructures associées) aux startups et chercheurs britanniques. Cette mise à disposition de matériel permet d'entraîner et de tester des garde-fous pour garantir la sécurité et la fiabilité des systèmes d'IA d'agents autonomes.",
+   "utiliser": [
+    "Suivre les programmes d'accompagnement ou de subventions liés à cet investissement si votre startup est basée au Royaume-Uni.",
+    "Surveiller les nouveaux standards et outils de sécurité pour agents IA issus de ces recherches."
+   ],
+   "sur_mon_pc": "Pas en local : service en ligne uniquement",
+   "local": false,
+   "niveau": "débutant",
+   "categorie": "Business & régulation",
+   "importance": 2,
+   "tags": [
+    "Nvidia",
+    "Royaume-Uni",
+    "Agents IA",
+    "Investissement",
+    "Sécurité"
+   ]
+  }
  },
  {
   "id": "5f7238246fc055",
@@ -12497,13 +13071,40 @@
   "echos": [],
   "score": 1.0,
   "local": false,
-  "categorie": "Outils & applis",
+  "categorie": "Actualité",
   "flair": 2,
   "societe": "ue",
   "raisons": [
    "Source officielle"
   ],
-  "anciens_ids": []
+  "anciens_ids": [],
+  "analyse": {
+   "titre_fr": "L'essor de l'IA agentique dans les entreprises européennes",
+   "societe": {
+    "nom": "OpenAI",
+    "presentation": "Entreprise américaine de recherche et de développement en intelligence artificielle, créatrice de la série de modèles GPT et de ChatGPT."
+   },
+   "a_retenir": "L'adoption de l'IA agentique progresse rapidement au sein des entreprises européennes, ouvrant de nouvelles perspectives de valeur.",
+   "resume": "Une nouvelle analyse publiée par OpenAI montre comment l'intelligence artificielle agentique gagne du terrain auprès des entreprises et des PME dans l'Union européenne. Le rapport met en lumière les secteurs où une utilisation plus approfondie pourrait libérer un potentiel économique supplémentaire.",
+   "pourquoi": "C'est un indicateur clé pour comprendre la transition des assistants textuels vers des agents autonomes capables d'exécuter des flux de travail complexes en Europe.",
+   "comment_ca_marche": "L'IA agentique dépasse la simple génération de texte en combinant des grands modèles de langage avec des outils, des API et des capacités de planification. Le système reçoit un objectif global, décompose la tâche en plusieurs étapes, exécute des actions de manière autonome et s'adapte aux résultats intermédiaires pour atteindre le but fixé.",
+   "utiliser": [
+    "Identifier les processus répétitifs ou multi-étapes éligibles à l'automatisation par agent",
+    "Évaluer la maturité de vos équipes face à l'intégration d'agents IA autonomes",
+    "Consulter l'analyse d'OpenAI pour repérer les cas d'usage à fort retour sur investissement en Europe"
+   ],
+   "sur_mon_pc": "Pas en local : service en ligne uniquement",
+   "local": false,
+   "niveau": "débutant",
+   "categorie": "Actualité",
+   "importance": 3,
+   "tags": [
+    "IA agentique",
+    "Union européenne",
+    "Entreprises",
+    "OpenAI"
+   ]
+  }
  },
  {
   "id": "781a955ce35228",
@@ -12632,20 +13233,24 @@
   }
  },
  {
-  "id": "471508c04c304c",
-  "titre": "Developing Gemini 4 Argon responsibly and safely",
-  "lien": "https://deepmind.google/blog/developing-gemini-4-argon-responsibly-and-safely/",
-  "source": "Google DeepMind",
-  "type": "officiel",
+  "id": "cc2f870f432958",
+  "titre": "Developing Gemini 4 Argon responsibly and safely - blog.google",
+  "lien": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOQ2ExMndUd3p2T0tCT080TWJ2QWFjYWt4Tk14dDllRVpHOTk1SWswdDlucUh0SVBaRUN1VGJVZUdGVk5taUxkcldvTm96MWVHd1Bxek5VR0Y0OER1Yi01RjhSdkNCbEdmRTJYcF9sUUlRdnpfWUQyNDRFR21sN190dnRJS3VNOURqclNNQlFYUVJnZjlsUnhzLVp3UHU?oc=5",
+  "source": "Google Gemini (actus)",
+  "type": "presse",
   "rubrique": "veille",
-  "date": "2026-10-13T19:43:07+00:00",
-  "extrait": "",
+  "date": "2026-10-13T18:14:01+00:00",
+  "extrait": "Developing Gemini 4 Argon responsibly and safely blog.google",
   "echos": [],
-  "score": 1.5,
+  "anciens_ids": [],
+  "societe": "google",
+  "score": 0.7,
+  "raisons": [
+   "Acteur majeur : Google DeepMind"
+  ],
   "local": false,
   "categorie": "Modèles",
-  "flair": 1,
-  "anciens_ids": []
+  "flair": 2
  },
  {
   "id": "f9eb89f74ed89d",
@@ -12694,22 +13299,6 @@
     "Entreprise"
    ]
   },
-  "anciens_ids": []
- },
- {
-  "id": "884ebf3c3978ea",
-  "titre": "Gemini 4 Argon for Robotics",
-  "lien": "https://deepmind.google/blog/gemini-4-argon-for-robotics/",
-  "source": "Google DeepMind",
-  "type": "officiel",
-  "rubrique": "veille",
-  "date": "2026-10-13T16:01:58+00:00",
-  "extrait": "",
-  "echos": [],
-  "score": 1.5,
-  "local": false,
-  "categorie": "Modèles",
-  "flair": 1,
   "anciens_ids": []
  },
  {
@@ -12772,6 +13361,18 @@
    {
     "source": "Google DeepMind",
     "lien": "https://deepmind.google/blog/introducing-gemini-4-argon/"
+   },
+   {
+    "source": "Google DeepMind",
+    "lien": "https://deepmind.google/blog/gemini-4-argon-for-robotics/"
+   },
+   {
+    "source": "Google DeepMind",
+    "lien": "https://deepmind.google/blog/developing-gemini-4-argon-responsibly-and-safely/"
+   },
+   {
+    "source": "Google Gemini (actus)",
+    "lien": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQSnlfSFAtZ3F0bFlnbTVkTUJHb2ZMa2ZLR2Q0Zm4wUi1yd0dPNjk0Z1dxalhMZ0x3WFpmNGF0bnA5SGpnalRXSFZEcjc0M2VsNjlHOFZtU1dVVUlrUGpNN24zLW02V0U0NFk5Z3dwbDZFcE1kS0ZSaFNxOHVHUWdTWURZSWIyUENmbXdjeTRwOGQ3SkhOSHMxaHlBMVpEbWw2?oc=5"
    }
   ],
   "score": 8.4,
@@ -12813,6 +13414,9 @@
    ]
   },
   "anciens_ids": [
+   "39db9021f36a3b",
+   "471508c04c304c",
+   "884ebf3c3978ea",
    "f174716114a913"
   ]
  },
@@ -12974,7 +13578,9 @@
    "Acteur majeur : NVIDIA",
    "Jugé important par l'IA (5/5)"
   ],
-  "anciens_ids": [],
+  "anciens_ids": [
+   "ef6c7beadf74ae"
+  ],
   "analyse": {
    "titre_fr": "NVIDIA annonce RTX Spark, une superpuce IA pour PC",
    "societe": {
@@ -13112,66 +13718,6 @@
   ]
  },
  {
-  "id": "3ea3de408bbe32",
-  "titre": "Avec son modèle Muse Wonder, Meta cherche à “rattraper le temps perdu dans la course à l’IA” - Courrier international",
-  "lien": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxPSGNacDBzQ0tMM21scXpVRF9JRDkwcVpZNDBwb0Uzb2JYVkFhZnhYbm9rLVhkNFRDaVl1QkdHTHp1eXdCMU5rcGtPZTlHTEw3dWtRRkdsa0NwM0JoS2VCWnYwaDRmSXk1dGRIUkVLX3FnTzVfOEs1TmhzdXNKTEhmY1RXWlIwMGVxc0QyeWpUTDVGVWF2S2RKVWw1WW9yekVWTXB1dVIyUjRhR3dtbWJ0eE1zNmkzNllXdG1aOUFrbzBxSkpmZ0hJTk9GUFVxOEg2VDVZTlJvUHRMQS1XblBjTmNoNXFhdGw1ZFdBSk9mU0VSRE05YmRKVU9NOWM?oc=5",
-  "source": "IA en français (actus)",
-  "type": "fr",
-  "rubrique": "veille",
-  "date": "2026-10-13T03:55:09+00:00",
-  "extrait": "Avec son modèle Muse Wonder, Meta cherche à “rattraper le temps perdu dans la course à l’IA” Courrier international",
-  "echos": [],
-  "score": 0.5,
-  "local": false,
-  "categorie": "Modèles",
-  "flair": 1,
-  "societe": "meta",
-  "raisons": [
-   "Acteur majeur : Meta"
-  ],
-  "anciens_ids": []
- },
- {
-  "id": "5391b0addb32e2",
-  "titre": "Avec son nouveau modèle d’IA, Muse Wonder, le groupe Meta affirme rivaliser avec OpenAI et Anthropic - Le Monde.fr",
-  "lien": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxNMlFxZVJzV0FVMGNnSkRIeWVKb1MyNlFLUENuWkpHbDlFX3RyZzRiMlN0NWZfbTFRa0NBOUdhRDhQVU1kSHRqYV92amN1TmszRW1jclpWZElpRkkxWm5qWkZhRktZb2NrQ3Z2TDdPMU44U0NlVnNIT241UHpERFM1UmF1OW9TYkI4WWNfUURsWWdTdTd5SUh3cG5YS1NSUWR2UklHblFMUzF4a3Q0dWRtVlBuOXR2eGx4dGJycnRlZkRDTlIzdkh2bFhPRGVyQzBDRWJrcG45RFBNQVA4dm5DU1JRUVp3N1dJQnZnZUhYcklKbTZ5RmVyQ1dXNA?oc=5",
-  "source": "IA en français (actus)",
-  "type": "fr",
-  "rubrique": "veille",
-  "date": "2026-10-13T01:19:07+00:00",
-  "extrait": "Avec son nouveau modèle d’IA, Muse Wonder, le groupe Meta affirme rivaliser avec OpenAI et Anthropic Le Monde.fr",
-  "echos": [],
-  "score": 0.5,
-  "local": false,
-  "categorie": "Modèles",
-  "flair": 1,
-  "societe": "openai",
-  "raisons": [
-   "Acteur majeur : OpenAI"
-  ],
-  "anciens_ids": []
- },
- {
-  "id": "62d6b157f12fbd",
-  "titre": "Anthropic says new safeguards sharply reduce AI distillation attacks - Reuters",
-  "lien": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPVlZuUXZob1BWeEV1WEZOdWIwRW9ucW92UFVueWd3clAxbHNSUHh1VXFuX1dTalVxLWgyX3Y5ZmZhYzIxc1BNRGN4Y3JUOXBIQjhZUUlDMlNyZ2Q1WW4zOThMbF85R1NGZ0RrWnRLVWMyNjdFWmswb2hrMmNlQWttOUZVOGFjUnRaUzduMDVKMnI1ODlUaWJuTkZ1M3U5N3haQWIzMzNyNzNNUUt1eW5ZVk5EV1pPczA?oc=5",
-  "source": "Anthropic (actus)",
-  "type": "presse",
-  "rubrique": "veille",
-  "date": "2026-10-13T01:07:00+00:00",
-  "extrait": "Anthropic says new safeguards sharply reduce AI distillation attacks Reuters",
-  "echos": [],
-  "societe": "anthropic",
-  "score": 0.7,
-  "raisons": [
-   "Acteur majeur : Anthropic"
-  ],
-  "local": false,
-  "categorie": "Actualité",
-  "flair": 2,
-  "anciens_ids": []
- },
- {
   "id": "ef47cf6a028c4b",
   "titre": "llm-meta-ai 0.2",
   "lien": "https://simonwillison.net/2026/Oct/12/llm-meta-ai/",
@@ -13209,7 +13755,9 @@
   "raisons": [
    "Acteur majeur : OpenAI"
   ],
-  "anciens_ids": []
+  "anciens_ids": [
+   "5391b0addb32e2"
+  ]
  },
  {
   "id": "ed39b6f511651f",
@@ -13230,7 +13778,9 @@
   "local": false,
   "categorie": "Modèles",
   "flair": 2,
-  "anciens_ids": [],
+  "anciens_ids": [
+   "3ea3de408bbe32"
+  ],
   "analyse": {
    "titre_fr": "Meta dévoile Muse Wonder, son nouveau modèle d'intelligence artificielle",
    "societe": {
@@ -13419,7 +13969,7 @@
   "score": 0.0,
   "local": false,
   "categorie": "Vie privée",
-  "flair": 2,
+  "flair": 1,
   "societe": null,
   "raisons": [
    "Régulation ou justice"
@@ -13498,7 +14048,9 @@
   "raisons": [
    "Acteur majeur : Anthropic"
   ],
-  "anciens_ids": []
+  "anciens_ids": [
+   "62d6b157f12fbd"
+  ]
  },
  {
   "id": "218832d6e632f9",
@@ -14023,7 +14575,7 @@
   "score": 0.0,
   "local": false,
   "categorie": "Manipulation",
-  "flair": 2,
+  "flair": 1,
   "societe": null,
   "raisons": [
    "Régulation ou justice"
@@ -14469,15 +15021,42 @@
   "extrait": "",
   "echos": [],
   "score": 1.2,
-  "local": false,
-  "categorie": "Actualité",
+  "local": true,
+  "categorie": "Modèles",
   "flair": 2,
   "societe": null,
   "raisons": [
    "Source officielle",
    "Lancement ou annonce"
   ],
-  "anciens_ids": []
+  "anciens_ids": [],
+  "analyse": {
+   "titre_fr": "Introduction de Falcon ASR par TII sur Hugging Face",
+   "societe": {
+    "nom": "Technology Innovation Institute (TII)",
+    "presentation": "Un centre de recherche international basé à Abou Dabi, connu pour le développement de la famille de modèles open source Falcon."
+   },
+   "a_retenir": "TII lance Falcon ASR, un nouveau modèle de reconnaissance automatique de la parole disponible sur Hugging Face.",
+   "resume": "L'extrait annonce le lancement de Falcon ASR sans fournir de détails techniques approfondis. Le modèle s'inscrit dans la lignée des technologies open source de TII.",
+   "pourquoi": "Il est important pour les professionnels de suivre l'évolution des capacités vocales et audio des grands modèles open source.",
+   "comment_ca_marche": "Les détails techniques précis ne sont pas fournis dans l'extrait disponible. En général, les modèles ASR (Automatic Speech Recognition) convertissent des flux audio en texte à l'aide d'architectures neuronales de type encodeur-décodeur ou transformeurs.",
+   "utiliser": [
+    "Consulter la page officielle du modèle sur Hugging Face",
+    "Lire la documentation associée pour connaître les cas d'usage",
+    "Tester l'intégration dans un pipeline de traitement audio"
+   ],
+   "sur_mon_pc": "À vérifier sur la source",
+   "local": true,
+   "niveau": "intermédiaire",
+   "categorie": "Modèles",
+   "importance": 3,
+   "tags": [
+    "Falcon ASR",
+    "TII",
+    "Hugging Face",
+    "Reconnaissance vocale"
+   ]
+  }
  },
  {
   "id": "ad4e14640e358f",
@@ -14511,14 +15090,41 @@
   "echos": [],
   "score": 1.2,
   "local": false,
-  "categorie": "Actualité",
+  "categorie": "Outils & applis",
   "flair": 2,
   "societe": null,
   "raisons": [
    "Source officielle",
    "Lancement ou annonce"
   ],
-  "anciens_ids": []
+  "anciens_ids": [],
+  "analyse": {
+   "titre_fr": "Google lance Playground, une plateforme expérimentale de jeux vidéo sur mesure",
+   "societe": {
+    "nom": "Google AI",
+    "presentation": "La division de Google dédiée à la recherche et au développement en intelligence artificielle, créatrice notamment des modèles Gemini."
+   },
+   "a_retenir": "Google introduit Playground, une nouvelle plateforme expérimentale permettant de créer et de jouer à des jeux personnalisés.",
+   "resume": "Google annonce le lancement de Playground, un outil expérimental centré sur le jeu vidéo. Cette plateforme permet aux utilisateurs de concevoir et d'expérimenter des jeux personnalisés grâce aux technologies innovantes de l'entreprise.",
+   "pourquoi": "Cette initiative illustre l'expansion de l'IA générative et des technologies Google dans le domaine du divertissement interactif et de la création de contenu ludique.",
+   "comment_ca_marche": "Bien que les détails techniques précis ne soient pas fournis dans l'extrait, ce type de plateforme s'appuie généralement sur des modèles de langage et de génération de contenu pour interpréter les consignes textuelles de l'utilisateur. Ces instructions sont ensuite traduites en règles de jeu, en environnements ou en mécaniques interactives. Le tout s'exécute via une interface web centralisée gérée par l'infrastructure cloud du fournisseur.",
+   "utiliser": [
+    "Consulter le blog officiel de Google AI pour découvrir les modalités d'accès",
+    "Explorer l'interface de Playground pour tester la création de jeux",
+    "Expérimenter avec les options de personnalisation proposées par la plateforme"
+   ],
+   "sur_mon_pc": "Pas en local : service en ligne uniquement",
+   "local": false,
+   "niveau": "débutant",
+   "categorie": "Outils & applis",
+   "importance": 3,
+   "tags": [
+    "Google",
+    "Jeux vidéo",
+    "IA",
+    "Playground"
+   ]
+  }
  },
  {
   "id": "618107f2a0cf15",
@@ -15284,34 +15890,72 @@
   "rubrique": "veille",
   "date": "2026-10-06T07:00:00+00:00",
   "extrait": "Mistral AI lance un nouveau modèle d’IA censé « réduire l’écart » avec les meilleurs concurrents chinois Le Monde.fr",
-  "echos": [],
-  "score": 1.2,
+  "echos": [
+   {
+    "source": "IA en français (actus)",
+    "lien": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxQWGtoOTFGazEyMVdVa0xGRmVFNGo2WG53U1JVbGgwUUlvVkJEeWxwa3dtTDVOU3dOOFBIRDNCdnJwSDNoSEtKNjBRX0FJbWR3Wk9IQlVVaUtzNTBKSXhrSFZRT1hLR2JQbXlXTUh2NXZpWXdJOGVNRFRoMXdSOTRMcC1LTHdZY2ZYbHVkLTJjLXVkTTNFMUpNYU1qdjN0MmlZOGp3MTVxa082R0s3ejk3bnlDVm1WRlNOZXRWSGpZNkxDdG81LUtUcjk0bFgwZkpMb3pJdDR6d2V5NTc4eFNqbVJKT2VOMFhPbnl1Y2Q5UklZUkZMMjJtUUxn?oc=5"
+   },
+   {
+    "source": "IA en français (actus)",
+    "lien": "https://news.google.com/rss/articles/CBMiiwJBVV95cUxQaEVrcmlLeWg4N2tzNWRpbjJOdDU5QVhQMTVJWG5ibVpKZms5MWdpTnRyNUhjMFV5cXZhWFAybkhFTHQ0UlFQRmktSzJkclhlekx5S2d4LVNiTVYwQ3ViMkVNUElIRTI3ZGtVUU11Z1JReG5KTEYtV0tIaEpNSDZpOHU0cDlaUXI0UnBDN3RFcEROcHdJZ01kNEZ3d3ZBTW5qVndFeTV0NUszRjlnTHNrUEJfbWJnYjNnQ2NMRU9wX3BvUkw5UEZYYktHeXVBR2pUMkU1YVFHT2xSQ1BkdGY4Q2U3UzAxNlNjR0dUbTIzNmk2N244OFdSR00wN016c2hMZ0tEUUV5eUhwQVU?oc=5"
+   },
+   {
+    "source": "IA en français (actus)",
+    "lien": "https://news.google.com/rss/articles/CBMiiAJBVV95cUxQT0FYclJKWE5Tek9nN0tTbTVvemt6d3pIZS1tRDRGbkxhVjNua3U4UVc0czhCVUVuZHhWa1dxY0YtTTZ4YVVoVVlQZkUtQTJzNnJFa0duS0V1elVGdmg4d2d2WUlvSlB5MkotMVNiWG9qaG0zZTVySGNBNjNXRXlQQjBZVkloXzFPdFIwSV9tS1ItMlUwWVctRzlUczNZb0ZZbVlaMG81eGFXZkQ3RkhZTkxSQmZISFlFX2Y5SmliZnlmXzVRSGt6VTFXc1FwNkNKaDlQM1lIVENiVklwTjZOMlc3VmlGd2RKMUI5VW5aLUJudVJjdnBDZVByYjR4Q0kwaklrSlI2MWo?oc=5"
+   },
+   {
+    "source": "IA en français (actus)",
+    "lien": "https://news.google.com/rss/articles/CBMirAJBVV95cUxNaWcxdjEwVXRVSTJ5THljTnBqRFA3T2lkblltbkxMSTFGdWR6Rk15UTFiWHJGcjVQcTN1ZWpMRktFb0RaUXJ1Z0NNSzl1REZiQm5TNVdOdlplV19pUWdYUmdrM1V1ODdZYzBzN3R6UTkyNHJsd2RCdk5LOUUwbWVlNF9tV1VzTjV4YmZ1SzF3OHAzSXU5Zzd1YmZYdEo4RW02YzM4VjRYZGNuVzFNejNxQlJfUDV1Qy1JMWJfZzY0SnZvd3JWYUdoWE03NDhDcjFmcDNIcVA1RW0ySVg0TnFPX043ZUdLZDU2SVhDNTM3ek5TNXc2VGo3NUR0dU5Jc29uOGZBdGNZTnZYcFB6c2t0UHZtbk42RDd5akZFVXZYRTR1Z1NVZkx5SXU3eVE?oc=5"
+   },
+   {
+    "source": "IA en français (actus)",
+    "lien": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNaDYtVU1yWjVyd0pYMXp1OU9XWmEtQl9lYzVIVXlsN09fNjctTTZudU1jZEs3SVFOYS1fYTVnSUp2RHNySVA5S2ZjcnZPdk0zUXByUzU5MnBqWVhXVEZjdldoVlN1Wm5XbFpHaWVRVjZsYmV5RU5WMDZXMzhsVTZQOVRYS1UxWmNPa3dtZmMyTDhvVi1iUF9GZnRKWXJmR3NJZUdNU0dfRF92X0VpRHV2YVVtLVVLYmh5ZWdHTDBPbFp5LUtfcy1IakNFS3l0anM?oc=5"
+   }
+  ],
+  "score": 4.0,
   "local": false,
   "categorie": "Modèles",
-  "flair": 2,
+  "flair": 4,
   "societe": "mistral",
   "raisons": [
-   "Lancement ou annonce"
+   "Repris par 2 sources",
+   "Lancement ou annonce",
+   "Jugé important par l'IA (4/5)"
   ],
-  "anciens_ids": []
- },
- {
-  "id": "750ba66a7e707f",
-  "titre": "Après des mois d'attente, Mistral sort un nouveau modèle d'IA pour maintenir l'Europe dans la course - Les Echos",
-  "lien": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxQWGtoOTFGazEyMVdVa0xGRmVFNGo2WG53U1JVbGgwUUlvVkJEeWxwa3dtTDVOU3dOOFBIRDNCdnJwSDNoSEtKNjBRX0FJbWR3Wk9IQlVVaUtzNTBKSXhrSFZRT1hLR2JQbXlXTUh2NXZpWXdJOGVNRFRoMXdSOTRMcC1LTHdZY2ZYbHVkLTJjLXVkTTNFMUpNYU1qdjN0MmlZOGp3MTVxa082R0s3ejk3bnlDVm1WRlNOZXRWSGpZNkxDdG81LUtUcjk0bFgwZkpMb3pJdDR6d2V5NTc4eFNqbVJKT2VOMFhPbnl1Y2Q5UklZUkZMMjJtUUxn?oc=5",
-  "source": "IA en français (actus)",
-  "type": "fr",
-  "rubrique": "veille",
-  "date": "2026-10-06T07:00:00+00:00",
-  "extrait": "Après des mois d'attente, Mistral sort un nouveau modèle d'IA pour maintenir l'Europe dans la course Les Echos",
-  "echos": [],
-  "score": 0.0,
-  "local": false,
-  "categorie": "Modèles",
-  "flair": 1,
-  "societe": "mistral",
-  "raisons": [],
-  "anciens_ids": []
+  "anciens_ids": [
+   "050343820c4918",
+   "15bc2097b9376b",
+   "190fc47cf600b6",
+   "750ba66a7e707f",
+   "8688bd813155e8"
+  ],
+  "analyse": {
+   "titre_fr": "Mistral AI lance un nouveau modèle pour concurrencer les modèles chinois",
+   "societe": {
+    "nom": "Mistral AI",
+    "presentation": "Champion français de l'intelligence artificielle fondé en 2023, connu pour ses modèles ouverts et son assistant Le Chat, avec des données hébergées en Europe."
+   },
+   "a_retenir": "Mistral AI déploie un nouveau modèle visant à réduire l'écart technologique avec les meilleurs acteurs chinois.",
+   "resume": "La startup française Mistral AI a officialisé le lancement d'un nouveau modèle d'intelligence artificielle. Cette sortie vise explicitement à rivaliser avec les performances des meilleurs concurrents venus de Chine sur le marché mondial.",
+   "pourquoi": "Cela démontre la capacité de Mistral AI à rester compétitif face à la domination technologique américaine et asiatique, offrant une alternative européenne de pointe pour les professionnels.",
+   "comment_ca_marche": "Il s'agit d'un modèle d'intelligence artificielle entraîné sur de vastes volumes de données textuelles et multimodales, optimisé pour surpasser les versions précédentes en termes de raisonnement, de vitesse d'exécution et de performance globale. Les détails techniques précis de l'architecture restent à vérifier sur la source officielle.",
+   "utiliser": [
+    "Consulter les annonces officielles de Mistral AI",
+    "Tester le nouveau modèle via l'assistant Le Chat ou l'API",
+    "Évaluer les performances du modèle sur vos cas d'usage métiers"
+   ],
+   "sur_mon_pc": "Pas en local : service en ligne uniquement",
+   "local": false,
+   "niveau": "intermédiaire",
+   "categorie": "Modèles",
+   "importance": 4,
+   "tags": [
+    "Mistral AI",
+    "Modèle d'IA",
+    "Concurrence",
+    "Europe"
+   ]
+  }
  },
  {
   "id": "7da26e5b664eb2",
@@ -15329,44 +15973,6 @@
   "flair": 1,
   "societe": "mistral",
   "raisons": [],
-  "anciens_ids": []
- },
- {
-  "id": "8688bd813155e8",
-  "titre": "Mistral lance un nouveau modèle d’IA pour rivaliser avec les géants américains et chinois - Libération",
-  "lien": "https://news.google.com/rss/articles/CBMiiwJBVV95cUxQaEVrcmlLeWg4N2tzNWRpbjJOdDU5QVhQMTVJWG5ibVpKZms5MWdpTnRyNUhjMFV5cXZhWFAybkhFTHQ0UlFQRmktSzJkclhlekx5S2d4LVNiTVYwQ3ViMkVNUElIRTI3ZGtVUU11Z1JReG5KTEYtV0tIaEpNSDZpOHU0cDlaUXI0UnBDN3RFcEROcHdJZ01kNEZ3d3ZBTW5qVndFeTV0NUszRjlnTHNrUEJfbWJnYjNnQ2NMRU9wX3BvUkw5UEZYYktHeXVBR2pUMkU1YVFHT2xSQ1BkdGY4Q2U3UzAxNlNjR0dUbTIzNmk2N244OFdSR00wN016c2hMZ0tEUUV5eUhwQVU?oc=5",
-  "source": "IA en français (actus)",
-  "type": "fr",
-  "rubrique": "veille",
-  "date": "2026-10-06T07:00:00+00:00",
-  "extrait": "Mistral lance un nouveau modèle d’IA pour rivaliser avec les géants américains et chinois Libération",
-  "echos": [],
-  "score": 1.2,
-  "local": false,
-  "categorie": "Modèles",
-  "flair": 2,
-  "societe": "mistral",
-  "raisons": [
-   "Lancement ou annonce"
-  ],
-  "anciens_ids": []
- },
- {
-  "id": "15bc2097b9376b",
-  "titre": "Avec son nouveau modèle, l’entreprise française Mistral veut revenir dans la course mondiale à l’intelligence artificielle - lanouvellerepublique.fr",
-  "lien": "https://news.google.com/rss/articles/CBMiiAJBVV95cUxQT0FYclJKWE5Tek9nN0tTbTVvemt6d3pIZS1tRDRGbkxhVjNua3U4UVc0czhCVUVuZHhWa1dxY0YtTTZ4YVVoVVlQZkUtQTJzNnJFa0duS0V1elVGdmg4d2d2WUlvSlB5MkotMVNiWG9qaG0zZTVySGNBNjNXRXlQQjBZVkloXzFPdFIwSV9tS1ItMlUwWVctRzlUczNZb0ZZbVlaMG81eGFXZkQ3RkhZTkxSQmZISFlFX2Y5SmliZnlmXzVRSGt6VTFXc1FwNkNKaDlQM1lIVENiVklwTjZOMlc3VmlGd2RKMUI5VW5aLUJudVJjdnBDZVByYjR4Q0kwaklrSlI2MWo?oc=5",
-  "source": "IA en français (actus)",
-  "type": "fr",
-  "rubrique": "veille",
-  "date": "2026-10-06T07:00:00+00:00",
-  "extrait": "Avec son nouveau modèle, l’entreprise française Mistral veut revenir dans la course mondiale à l’intelligence artificielle lanouvellerepublique.fr",
-  "echos": [],
-  "societe": "mistral",
-  "score": 0.0,
-  "raisons": [],
-  "local": false,
-  "categorie": "Modèles",
-  "flair": 1,
   "anciens_ids": []
  },
  {
@@ -15388,24 +15994,6 @@
   "anciens_ids": [
    "050343820c4918"
   ]
- },
- {
-  "id": "190fc47cf600b6",
-  "titre": "Critiquée pour son retard et sa stratégie, la française Mistral AI contre-attaque avec un nouveau modèle - Ouest-France",
-  "lien": "https://news.google.com/rss/articles/CBMirAJBVV95cUxNaWcxdjEwVXRVSTJ5THljTnBqRFA3T2lkblltbkxMSTFGdWR6Rk15UTFiWHJGcjVQcTN1ZWpMRktFb0RaUXJ1Z0NNSzl1REZiQm5TNVdOdlplV19pUWdYUmdrM1V1ODdZYzBzN3R6UTkyNHJsd2RCdk5LOUUwbWVlNF9tV1VzTjV4YmZ1SzF3OHAzSXU5Zzd1YmZYdEo4RW02YzM4VjRYZGNuVzFNejNxQlJfUDV1Qy1JMWJfZzY0SnZvd3JWYUdoWE03NDhDcjFmcDNIcVA1RW0ySVg0TnFPX043ZUdLZDU2SVhDNTM3ek5TNXc2VGo3NUR0dU5Jc29uOGZBdGNZTnZYcFB6c2t0UHZtbk42RDd5akZFVXZYRTR1Z1NVZkx5SXU3eVE?oc=5",
-  "source": "IA en français (actus)",
-  "type": "fr",
-  "rubrique": "veille",
-  "date": "2026-10-06T07:00:00+00:00",
-  "extrait": "Critiquée pour son retard et sa stratégie, la française Mistral AI contre-attaque avec un nouveau modèle Ouest-France",
-  "echos": [],
-  "societe": "mistral",
-  "score": 0.0,
-  "raisons": [],
-  "local": false,
-  "categorie": "Modèles",
-  "flair": 1,
-  "anciens_ids": []
  },
  {
   "id": "1ba99535ff8c26",
@@ -15673,16 +16261,43 @@
   "date": "2026-10-02T15:00:00+00:00",
   "extrait": "A video showing the September AI updates",
   "echos": [],
-  "score": 1.2,
+  "score": 0.0,
   "local": false,
   "categorie": "Actualité",
-  "flair": 2,
+  "flair": 1,
   "societe": null,
   "raisons": [
    "Source officielle",
    "Lancement ou annonce"
   ],
-  "anciens_ids": []
+  "anciens_ids": [],
+  "analyse": {
+   "titre_fr": "Actualités de l'intelligence artificielle chez Google pour septembre 2026",
+   "societe": {
+    "nom": "Google AI",
+    "presentation": "La division de Google dédiée à la recherche et au développement de technologies et de produits en intelligence artificielle."
+   },
+   "a_retenir": "Google a publié sa récapitulation mensuelle en vidéo des dernières annonces et mises à jour en IA pour septembre 2026.",
+   "resume": "Cette publication officielle de Google résume en vidéo l'ensemble des nouveautés et annonces en matière d'intelligence artificielle déployées au cours du mois de septembre 2026.",
+   "pourquoi": "Permet aux professionnels de suivre rapidement les dernières évolutions des écosystèmes et outils IA de Google.",
+   "comment_ca_marche": "L'extrait ne fournit pas de détails techniques précis sur les technologies présentées, renvoyant vers une vidéo récapitulative officielle.",
+   "utiliser": [
+    "Consulter la source officielle pour voir la vidéo récapitulative",
+    "Identifier les nouveaux outils Google pertinents pour votre activité",
+    "Mettre en veille vos connaissances sur les nouveautés de l'écosystème"
+   ],
+   "sur_mon_pc": "Pas en local : service en ligne uniquement",
+   "local": false,
+   "niveau": "débutant",
+   "categorie": "Actualité",
+   "importance": 2,
+   "tags": [
+    "Google",
+    "Actualité",
+    "Mises à jour",
+    "IA"
+   ]
+  }
  },
  {
   "id": "1f284fec3a90e4",
@@ -16038,17 +16653,22 @@
   "rubrique": "veille",
   "date": "2026-09-30T20:01:45+00:00",
   "extrait": "",
-  "echos": [],
-  "score": 5.2,
+  "echos": [
+   {
+    "source": "Google Gemini (actus)",
+    "lien": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNRjB3amppaF9yb1FhSmxoUW5GUEtCREcxbW1ScXJRRWN5ZGtIM0N0d21wVEI3ZTd5ZHY4N09KRWNwX3U2Z3JBeDNWakYxYXlBVE95NEpKWW5vcWFKZlA5Qkdka3hGZG9INUZtMVN2VTJhWG1TTldVSE1JVm5VaVlvcnpWRlhzX0V1NGJXZGhfMEY?oc=5"
+   }
+  ],
+  "score": 6.8,
   "local": false,
   "categorie": "Modèles",
   "flair": 5,
   "societe": "google",
   "raisons": [
+   "Repris par 2 sources",
    "Source officielle",
    "Acteur majeur : Google DeepMind",
-   "Nouveau modèle ou nouvelle version",
-   "Jugé important par l'IA (4/5)"
+   "Nouveau modèle ou nouvelle version"
   ],
   "analyse": {
    "titre_fr": "Google DeepMind annonce Gemini 4 Argon",
@@ -16077,7 +16697,9 @@
     "IA générative"
    ]
   },
-  "anciens_ids": []
+  "anciens_ids": [
+   "60f2867bc71bce"
+  ]
  },
  {
   "id": "0a622a33b8e3e3",
@@ -16089,16 +16711,45 @@
   "date": "2026-09-30T15:03:07+00:00",
   "extrait": "Proof of concept for watermarking AI-generated proteins while preserving biological function.",
   "echos": [],
-  "score": 1.2,
+  "score": 2.4,
   "local": false,
-  "categorie": "Actualité",
+  "categorie": "Recherche",
   "flair": 2,
   "societe": null,
   "raisons": [
    "Source officielle",
-   "Lancement ou annonce"
+   "Lancement ou annonce",
+   "Jugé important par l'IA (4/5)"
   ],
-  "anciens_ids": []
+  "anciens_ids": [],
+  "analyse": {
+   "titre_fr": "Google DeepMind présente SynthID Bio pour marquer les protéines IA",
+   "societe": {
+    "nom": "Google DeepMind",
+    "presentation": "Laboratoire de recherche en intelligence artificielle de premier plan, filiale de Google, pionnier dans l'apprentissage profond et les applications scientifiques comme AlphaFold."
+   },
+   "a_retenir": "SynthID Bio est un prototype de filigrane pour identifier les protéines générées par IA sans altérer leur fonction biologique.",
+   "resume": "Google DeepMind introduit SynthID Bio, une preuve de concept permettant d'appliquer un filigrane numérique aux protéines conçues par intelligence artificielle. Cette technologie vise à garantir la traçabilité des séquences biologiques synthétiques tout en préservant leur intégrité et leur efficacité fonctionnelle.",
+   "pourquoi": "C'est une avancée cruciale pour la biosécurité et la régulation de la biologie synthétique, permettant de distinguer les créations biologiques artificielles des naturelles.",
+   "comment_ca_marche": "La technique intègre des motifs spécifiques ou des signatures invisibles directement dans la structure ou la séquence des acides aminés de la protéine. Ces modifications sont conçues pour être détectables par des algorithmes dédiés tout en n'affectant pas le repliement ni l'activité biologique de la protéine. Le processus s'appuie sur des modèles d'IA générative spécialisés en biologie.",
+   "utiliser": [
+    "Consulter la publication officielle de Google DeepMind pour comprendre le fonctionnement de la preuve de concept.",
+    "Suivre les évolutions réglementaires et techniques concernant la biosécurité et la traçabilité des protéines synthétiques.",
+    "Évaluer l'intégration future de ces outils de filigranage dans les workflows de recherche en biologie."
+   ],
+   "sur_mon_pc": "Pas en local : service en ligne uniquement",
+   "local": false,
+   "niveau": "avancé",
+   "categorie": "Recherche",
+   "importance": 4,
+   "tags": [
+    "SynthID Bio",
+    "Google DeepMind",
+    "Protéines",
+    "Biosécurité",
+    "Biologie synthétique"
+   ]
+  }
  },
  {
   "id": "581ab3112c302f",
