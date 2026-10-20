@@ -23,25 +23,35 @@ FICHIER_VEC = RACINE / "etat" / "histoires_vec.json"
 MAINTENANT = datetime.now(timezone.utc)
 
 TAILLE_LOT = int(os.getenv("HISTOIRES_LOT", "25"))        # actus par requête
-LOTS_MAX = int(os.getenv("HISTOIRES_LOTS_MAX", "4"))      # requêtes par passage (rattrapage progressif)
+LOTS_MAX = int(os.getenv("HISTOIRES_LOTS_MAX", "6"))      # requêtes par passage (rattrapage progressif)
 FLAIR_MIN = int(os.getenv("HISTOIRES_FLAIR_MIN", "3"))    # en dessous, l'actu n'est pas suivie
 JOURS_ACTIVE = 10                                         # sans nouvel épisode depuis : « en sommeil »
 JOURS_OUBLI = 75                                          # sans nouvel épisode depuis : oubliée
 
-CONSIGNE = """Tu es le rédacteur en chef d'une veille IA. Tu suis des HISTOIRES dans le temps : une histoire est une
-affaire qui connaît plusieurs épisodes (ex. « Anthropic contre le Pentagone », « Gemini 4 Argon : du lancement aux usages »,
-« La Chine et les contrôles à l'export de l'IA »). Une histoire est plus précise qu'un thème : « les agents IA » n'est pas une histoire.
+CONSIGNE = """Tu es le rédacteur en chef d'une veille IA. Tu suis des HISTOIRES : une affaire PRÉCISE qui connaît plusieurs
+épisodes, où chaque épisode est la SUITE DIRECTE du précédent (le même produit précis, le même conflit, le même texte de loi,
+la même opération financière, le même procès).
+
+BONNES histoires : « Anthropic contre le Pentagone », « Le projet de loi d'Anthropic sur la sécurité de l'IA »,
+« Gemini 4 Argon : de l'annonce à la disponibilité », « La Chine prépare des contrôles à l'export de l'IA »,
+« L'introduction en Bourse d'Anthropic », « MiniMax M3.1 : annonce puis publication des poids ».
+MAUVAISES histoires (INTERDIT) : une entreprise ou sa gamme (« NVIDIA et son écosystème », « Les activités d'Anthropic »),
+un thème (« les agents IA », « la concurrence chinoise »), une catégorie (« partenariats cloud »).
+Deux actus sur la même entreprise ne sont PAS la même histoire si elles portent sur des sujets différents
+(un nouveau modèle, une levée de fonds et une expérience scientifique d'Anthropic = trois sujets différents).
 
 On te donne des histoires existantes et de nouvelles actus, dans l'ordre chronologique. Pour CHAQUE actu, décide :
-- "h_..." : c'est un nouvel épisode d'une histoire existante (même affaire, suite logique) ;
-- "N1", "N2"... : c'est le début d'une nouvelle histoire (plusieurs actus de la liste peuvent partager la même clé N) ;
-  n'ouvre une histoire que si l'affaire a des suites probables (lancement majeur, conflit, procès, rachat, régulation, rivalité…) ;
-- "aucune" : actu isolée, sans suite prévisible.
-Pour chaque épisode, écris "neuf" : UNE phrase sur ce que cet épisode change ou apporte par rapport à la situation précédente.
-Pour chaque histoire touchée (existante ou nouvelle), écris un résumé « où en est-on » de 2-3 phrases, à jour.
+- "h_..." : nouvel épisode d'une histoire existante, UNIQUEMENT si c'est la suite directe du même objet précis ;
+- "N1", "N2"... : début d'une nouvelle histoire, si l'affaire aura probablement des suites (plusieurs actus de la liste peuvent
+  partager la même clé si elles portent sur le même objet précis) ;
+- "aucune" : dans le doute, et pour toute actu isolée. C'est le choix par défaut.
+Pour chaque rattachement, "fil" = le lien concret avec l'histoire (« même projet de loi », « même modèle Gemini 4 Argon »…).
+Si tu ne peux pas écrire un fil précis, choisis "aucune".
+"neuf" = UNE phrase : ce que cet épisode change par rapport à l'épisode précédent.
+Pour chaque histoire touchée, un résumé « où en est-on » de 2-3 phrases, à jour, qui ne parle QUE de l'objet de l'histoire.
 Réponds UNIQUEMENT en JSON :
-{"affectations": [{"actu": "id", "histoire": "h_... | N1 | aucune", "neuf": "..."}],
- "nouvelles": [{"cle": "N1", "titre": "titre court de l'histoire, 8 mots max"}],
+{"affectations": [{"actu": "id", "histoire": "h_... | N1 | aucune", "fil": "...", "neuf": "..."}],
+ "nouvelles": [{"cle": "N1", "titre": "l'objet précis de l'histoire, 8 mots max"}],
  "resumes": [{"histoire": "h_... ou N1", "resume": "..."}]}
 N'invente aucun fait : appuie-toi seulement sur ce qui est fourni."""
 
@@ -134,10 +144,10 @@ def suivre(items, vecteurs, demander):
     FICHIER_VEC.write_text(json.dumps(hvec, separators=(",", ":")), encoding="utf-8")
     if traites:
         suivies = sum(1 for h in liste if len(h["episodes"]) >= 2)
-        print(f"   → {traites} actu(s) traitée(s) ; {suivies} histoire(s) à plusieurs épisodes")
+        print(f"   → {traites} actu(s) traitée(s) ; {suivies} histoire(s) à plusieurs épisodes ; {len(REFUS)} rattachement(s) refusé(s) par le garde-fou")
 
 
-def _histoires_candidates(lot, hist, hvec, vecteurs, maxi=25):
+def _histoires_candidates(lot, hist, hvec, vecteurs, maxi=18):
     """Les histoires les plus proches (par le sens) des actus du lot, plus les plus récentes."""
     scores = {}
     for it in lot:
@@ -152,6 +162,19 @@ def _histoires_candidates(lot, hist, hvec, vecteurs, maxi=25):
     choix = [hist[h] for h, _ in sorted(scores.items(), key=lambda x: -x[1])[:maxi]]
     recentes = sorted((h for h in hist.values() if h not in choix and h["statut"] == "active"), key=lambda h: h["maj"], reverse=True)
     return choix + recentes[:max(0, min(8, maxi - len(choix)))]
+
+
+REFUS = []
+SEUIL_PROCHE = float(os.getenv("HISTOIRES_SEUIL", "0.72"))
+
+
+def _assez_proche(it, h, vecteurs):
+    """Garde-fou : l'actu doit ressembler (par le sens) à au moins un épisode récent de l'histoire."""
+    if not vecteurs or it["id"] not in vecteurs or not h["episodes"]:
+        return True
+    v = vecteurs[it["id"]]
+    proches = [_cos(v, vecteurs[e["id"]]) for e in h["episodes"][-4:] if e["id"] in vecteurs]
+    return not proches or max(proches) >= SEUIL_PROCHE
 
 
 def _ajouter_vec(hvec, hid, v, n):
@@ -176,13 +199,17 @@ def _appliquer(rep, lot, hist, hvec, vecteurs, par_id, autorisees):
         if iid not in ids_lot:
             continue
         hid = nouvelles.get(cible) or (cible if cible in autorisees and cible in hist else None)
-        if not hid:
+        if not hid or len((a.get("fil") or "").strip()) < 6:
             continue
         it, h = par_id[iid], hist[hid]
+        if not _assez_proche(it, h, vecteurs):
+            REFUS.append((it["titre"][:80], h["titre"]))
+            continue
         if any(ep["id"] == iid for ep in h["episodes"]):
             continue
         h["episodes"].append({
             "id": iid, "date": it["date"], "titre": _titre(it), "neuf": (a.get("neuf") or "").strip()[:300],
+            "fil": (a.get("fil") or "").strip()[:140],
             "source": it["source"], "lien": it["lien"], "nb_sources": 1 + len({e["source"] for e in it.get("echos", [])}),
             "primaire": bool(it.get("primaire")),
         })
