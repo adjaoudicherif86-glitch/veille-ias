@@ -1,5 +1,5 @@
 {
- "maj": "2026-10-20T09:16:21.309896+00:00",
+ "maj": "2026-10-20T09:22:35.559981+00:00",
  "sources_ok": [
   "Notes de version Claude (API)",
   "Notes de version OpenAI (API)",
@@ -57,15 +57,15 @@
    "erreur": "429 Client Error: Too Many Requests for url: https://venturebeat.com/category/ai/feed/"
   }
  ],
- "total": 468,
- "analyses": 237,
+ "total": 469,
+ "analyses": 264,
  "brief": {
-  "titre": "Modèles ouverts et agents autonomes : l'écosystème IA s'accélère",
-  "texte": "L'écosystème de l'IA ouverte franchit un cap majeur avec les nouveaux modèles pour PC de Nvidia et l'intégration de DeepSeek-V4.1-Flash par Unsloth. Google démocratise l'amélioration continue des agents avec Harness2, tandis que Microsoft et Anthropic rappellent les défis cruciaux de la sécurité et des faux signalements. Côté hardware, Tenstorrent atteint 6,2 milliards de valorisation et Amazon lance TorchNeuron pour concurrencer Nvidia sur PyTorch. Enfin, les partenariats institutionnels se multiplient, à l'image d'Accenture et Google pour le secteur public américain.",
+  "titre": "Modèles ouverts et agents autonomes : l'écosystème IA accélère",
+  "texte": "Nvidia et Google renforcent l'écosystème des agents IA avec de nouveaux modèles ouverts et le framework Harness2, tandis qu'Unsloth intègre les dernières nouveautés DeepSeek et FLUX. Du côté des infrastructures, Tenstorrent et Amazon poursuivent leurs investissements massifs pour concurrencer le quasi-monopole actuel sur les puces et le calcul. Enfin, les questions de sécurité et de gouvernance émergent avec acuité, illustrées par la comparaison de Microsoft sur les menaces internes et les récents incidents de signalement chez Anthropic. Cette semaine, l'heure est à l'optimisation des flux de développement et au déploiement encadré d'agents autonomes.",
   "a_tester": [
-   "Tester l'intégration de DeepSeek-V4.1-Flash via Unsloth pour vos entraînements de modèles",
-   "Explorer Harness2 de Google pour concevoir des agents IA auto-améliorants",
-   "Évaluer TorchNeuron d'Amazon sur vos pipelines PyTorch"
+   "Tester l'intégration de DeepSeek-V4.1-Flash et FLUX.3 Image Klein via Unsloth pour vos projets de génération.",
+   "Expérimenter le framework Harness2 de Google pour évaluer l'auto-amélioration de vos agents IA locaux.",
+   "Auditer vos politiques de sécurité face aux risques d'agents IA autonomes soulignés par Microsoft."
   ]
  },
  "top5": {
