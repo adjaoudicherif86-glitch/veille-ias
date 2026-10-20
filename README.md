@@ -38,6 +38,16 @@ Onglet **Actions** → « Chasse aux nouveautés IA » → « Run workflow ». A
 
 **Contrôle et pouvoir** : six dossiers sur les craintes de contrôle par l'IA (surveillance, militaire, perte de contrôle, manipulation, concentration du pouvoir, vie privée). Chaque dossier sépare le récit, les faits prouvés (avec leurs sources), ce qui reste spéculatif et les signaux à surveiller. En dessous : la chronologie 2026 d'Anthropic et un fil d'actus dédié, où l'IA analyse chaque article en quatre temps : la crainte, les faits, les inconnues, le niveau de preuve.
 
+## Les sources primaires
+
+En plus de la presse, le chien lit l'info à la source (marquée « Source primaire » dans l'appli) :
+- **les notes de version officielles** des API Claude, OpenAI et Gemini : la page est comparée au passage précédent, et seuls les ajouts sont remontés ;
+- **les nouvelles versions** des outils clés sur GitHub (Ollama, vLLM, Transformers, Claude Code, Codex, SDK OpenAI, Anthropic et Gemini, Open WebUI, ComfyUI, Unsloth, MLX) ;
+- **les modèles qui entrent dans les tendances Hugging Face**, avec le début de leur fiche technique ;
+- **les publications de recherche les plus votées** sur Hugging Face Papers.
+
+Dans `sources.json`, ces sources ont un champ `kind` (`page`, `github`, `hf_modeles`, `hf_papiers`). Pour suivre un autre projet GitHub, copie un bloc `github` et change `repo`. Le dossier `etat/` garde la mémoire des pages et des modèles déjà vus : ne le supprime pas.
+
 ## Les sociétés reconnues
 
 La liste est dans `docs/data/societes.json` : nom, pays, présentation en une phrase, poids (3 = acteur majeur) et les mots qui permettent de la reconnaître. Pour en ajouter une, copie un bloc existant. Pour une société absente de la liste, l'IA rédige elle-même une présentation dans la fiche de l'article.

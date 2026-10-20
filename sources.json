@@ -1,6 +1,134 @@
 {
- "_aide": "type = officiel | presse | recherche | communaute | fr. filtre_ia = true pour ne garder que les articles qui parlent d'IA. max = nombre d'articles gardés par passage. rubrique = veille (défaut) ou controle (onglet Contrôle et pouvoir).",
+ "_aide": "kind = rss (défaut) | github | hf_modeles | hf_papiers | page. type = officiel | presse | recherche | communaute | fr | primaire. filtre_ia = true pour ne garder que les articles qui parlent d'IA. max = nombre d'articles gardés par passage. rubrique = veille (défaut) ou controle. github : repo + filtre optionnel (regex sur les notes de version). page : url d'une page de changements, comparée au passage précédent.",
  "sources": [
+  {
+   "nom": "Notes de version Claude (API)",
+   "kind": "page",
+   "url": "https://platform.claude.com/docs/en/release-notes/overview",
+   "type": "primaire",
+   "societe": "anthropic"
+  },
+  {
+   "nom": "Notes de version OpenAI (API)",
+   "kind": "page",
+   "url": "https://developers.openai.com/api/docs/changelog",
+   "type": "primaire",
+   "societe": "openai"
+  },
+  {
+   "nom": "Notes de version Gemini (API)",
+   "kind": "page",
+   "url": "https://ai.google.dev/gemini-api/docs/changelog",
+   "type": "primaire",
+   "societe": "google"
+  },
+  {
+   "nom": "Hugging Face : modèles en tendance",
+   "kind": "hf_modeles",
+   "top": 30,
+   "type": "primaire"
+  },
+  {
+   "nom": "Hugging Face Papers",
+   "kind": "hf_papiers",
+   "votes_min": 20,
+   "max": 6,
+   "type": "primaire"
+  },
+  {
+   "nom": "Ollama",
+   "kind": "github",
+   "repo": "ollama/ollama",
+   "type": "primaire",
+   "societe": "ollama"
+  },
+  {
+   "nom": "vLLM",
+   "kind": "github",
+   "repo": "vllm-project/vllm",
+   "max": 1,
+   "type": "primaire"
+  },
+  {
+   "nom": "Transformers",
+   "kind": "github",
+   "repo": "huggingface/transformers",
+   "max": 1,
+   "type": "primaire",
+   "societe": "huggingface"
+  },
+  {
+   "nom": "Claude Code",
+   "kind": "github",
+   "repo": "anthropics/claude-code",
+   "max": 1,
+   "type": "primaire",
+   "societe": "anthropic"
+  },
+  {
+   "nom": "Codex CLI",
+   "kind": "github",
+   "repo": "openai/codex",
+   "max": 1,
+   "type": "primaire",
+   "societe": "openai"
+  },
+  {
+   "nom": "SDK OpenAI",
+   "kind": "github",
+   "repo": "openai/openai-python",
+   "max": 1,
+   "filtre": "\\bfeat|\\bmodel",
+   "type": "primaire",
+   "societe": "openai"
+  },
+  {
+   "nom": "SDK Anthropic",
+   "kind": "github",
+   "repo": "anthropics/anthropic-sdk-python",
+   "max": 1,
+   "filtre": "\\bfeat|\\bmodel",
+   "type": "primaire",
+   "societe": "anthropic"
+  },
+  {
+   "nom": "SDK Gemini",
+   "kind": "github",
+   "repo": "googleapis/python-genai",
+   "max": 1,
+   "filtre": "\\bfeat|\\bmodel",
+   "type": "primaire",
+   "societe": "google"
+  },
+  {
+   "nom": "Open WebUI",
+   "kind": "github",
+   "repo": "open-webui/open-webui",
+   "max": 1,
+   "type": "primaire"
+  },
+  {
+   "nom": "ComfyUI",
+   "kind": "github",
+   "repo": "comfyanonymous/ComfyUI",
+   "max": 1,
+   "type": "primaire"
+  },
+  {
+   "nom": "Unsloth",
+   "kind": "github",
+   "repo": "unslothai/unsloth",
+   "max": 1,
+   "type": "primaire"
+  },
+  {
+   "nom": "MLX LM (Mac)",
+   "kind": "github",
+   "repo": "ml-explore/mlx-lm",
+   "max": 1,
+   "type": "primaire",
+   "societe": "apple"
+  },
   {
    "nom": "OpenAI",
    "url": "https://openai.com/news/rss.xml",

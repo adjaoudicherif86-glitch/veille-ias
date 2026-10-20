@@ -28,6 +28,8 @@ from pathlib import Path
 import feedparser
 import requests
 
+import primaires
+
 RACINE = Path(__file__).parent
 DATA = RACINE / "docs" / "data"
 FICHIER_ITEMS = DATA / "items.json"
@@ -86,7 +88,7 @@ THEMES_CONTROLE = [
     ("Vie privée", r"\b(privacy|vie privée|personal data|données personnelles|gdpr|rgpd)\b"),
 ]
 
-POIDS_TYPE = {"officiel": 3.0, "presse": 2.0, "communaute": 2.0, "fr": 1.8, "recherche": 1.2}
+POIDS_TYPE = {"primaire": 3.5, "officiel": 3.0, "presse": 2.0, "communaute": 2.0, "fr": 1.8, "recherche": 1.2}
 
 # --- Outils ---------------------------------------------------------------
 
@@ -124,6 +126,17 @@ def charger_json(chemin, defaut):
 def chasser(sources):
     trouves, ok, ko = [], [], []
     for src in sources:
+        collecteur = primaires.COLLECTEURS.get(src.get("kind", "rss"))
+        if collecteur:
+            try:
+                lot = collecteur(src)
+                trouves.extend(lot)
+                ok.append(src["nom"])
+                print(f"  ✓ {src['nom']} : {len(lot)} nouveauté(s) [source primaire]")
+            except Exception as e:
+                ko.append({"nom": src["nom"], "erreur": str(e)[:160]})
+                print(f"  ✗ {src['nom']} : {e}", file=sys.stderr)
+            continue
         try:
             r = requests.get(src["url"], headers={"User-Agent": UA}, timeout=25)
             r.raise_for_status()
@@ -175,7 +188,7 @@ def fusionner(anciens, nouveaux):
     for n in nouveaux:
         if n["id"] in par_id:
             # garde l'analyse déjà faite, rafraîchit les champs bruts
-            par_id[n["id"]].update({k: n.get(k) for k in ("titre", "extrait", "source", "type", "rubrique")})
+            par_id[n["id"]].update({k: n.get(k) for k in ("titre", "extrait", "source", "type", "rubrique", "primaire", "signal", "signal_raison", "societe_force") if k in n})
         else:
             par_id[n["id"]] = n
     limite = MAINTENANT - timedelta(days=JOURS_GARDES)
@@ -216,6 +229,8 @@ def regrouper(items):
             chef = g[0]
             if chef.get("rubrique", "veille") != it.get("rubrique", "veille"):
                 continue
+            if chef.get("primaire") and it.get("primaire") and chef["source"] != it["source"]:
+                continue  # deux annonces officielles distinctes ne se fusionnent jamais
             if abs((datetime.fromisoformat(chef["date"]) - d).days) > 3:
                 continue
             if meme_sujet(it, chef):
@@ -239,13 +254,14 @@ def regrouper(items):
     return sortie
 
 
-BASE_TYPE = {"officiel": (3.0, "Source officielle"), "presse": (2.2, None), "fr": (2.0, None),
+BASE_TYPE = {"primaire": (2.2, "Source primaire"), "officiel": (3.0, "Source officielle"), "presse": (2.2, None), "fr": (2.0, None),
              "communaute": (1.6, None), "recherche": (0.8, None)}
 RE_LANCEMENT = re.compile(r"\b(launch\w*|releas\w*|introduc\w*|announc\w*|unveil\w*|debut\w*|rolls? out|now available|lance\w*|dévoil\w*|annonce\w*|présente\w*|sortie)\b", re.I)
 RE_OUVERT = re.compile(r"\b(open[- ]?source\w*|open[- ]?weights?|poids ouverts|apache 2\.0|mit license|gguf)\b", re.I)
 RE_ARGENT = re.compile(r"\b(raises?|funding|levée|lève|valuation|valoris\w*|ipo|introduction en bourse|acqui\w*|rachat|rachète|billion|milliards?)\b", re.I)
 RE_REGLE = re.compile(r"\b(regulat\w*|régulation|ai act|lawsuit|procès|court|tribunal|ban\w*|interdi\w*|export controls?|antitrust|amende|fine[ds]?)\b", re.I)
 RE_PRIX = re.compile(r"\b(pric\w*|tarif\w*|prix|free tier|gratuit\w*|cheaper|moins cher)\b", re.I)
+RE_NOUVEAU_SUPPORT = re.compile(r"\b(new models?|nouveaux? modèles?|add(ed|s)? support for|now supports?|support for .{0,40}(model|llm)|introduc\w+ .{0,30}model|breaking change|deprecat\w+)\b", re.I)
 RE_PAQUET = re.compile(r"^[\w.-]+ v?\d+(\.\d+)*([ab]|rc|dev)?\d*$", re.I)
 RE_TEMOIGNAGE = re.compile(r"^(how|comment) .{3,60} (uses?|is using|builds?|is building|answers|scales?|transforms?|utilise)\b"
                            r"|\b(cuts?|boosts?|reduces?|saves?|triples?|doubles?|speeds? up|answers)\b.{0,60}\bwith\b", re.I)
@@ -254,6 +270,10 @@ RE_TEMOIGNAGE = re.compile(r"^(how|comment) .{3,60} (uses?|is using|builds?|is b
 def detecter_societe(it):
     """Renvoie (société, trouvée_dans_le_titre)."""
     titre, texte = it["titre"], f"{it['titre']} {it.get('extrait', '')}"
+    if it.get("societe_force"):
+        force = next((s for s in SOCIETES if s["id"] == it["societe_force"]), None)
+        if force:
+            return force, True
     for zone, dans_titre in ((titre, True), (texte, False)):
         for s in SOCIETES:
             if s["_re"].search(zone):
@@ -284,10 +304,16 @@ def noter(it):
         score += 0.8; raisons.append("Régulation ou justice")
     if RE_PRIX.search(titre):
         score += 0.6; raisons.append("Prix ou accès")
+    if it.get("signal"):
+        score += it["signal"]
+        if it.get("signal_raison"):
+            raisons.append(it["signal_raison"])
+    if it.get("primaire") and RE_NOUVEAU_SUPPORT.search(it.get("extrait", "")):
+        score += 1.5; raisons.append("Nouvelle fonctionnalité ou nouveau modèle pris en charge")
     n = len({e["source"] for e in it.get("echos", [])})
     if n:
         score += 1.6 * min(n, 5); raisons.insert(0, f"Repris par {n + 1} sources")
-    if RE_PAQUET.match(titre.strip()):
+    if RE_PAQUET.match(titre.strip()) and not it.get("primaire"):
         score -= 2.5
     if RE_TEMOIGNAGE.match(titre.strip()):
         score -= 1.2
@@ -413,7 +439,9 @@ def analyser(items):
     for n, it in enumerate(a_faire, 1):
         soc = next((x for x in SOCIETES if x["id"] == it.get("societe")), None)
         info_soc = f"Société repérée : {soc['nom']} ({soc['presentation']})\n" if soc else ""
-        msg = f"{info_soc}Source : {it['source']} ({it['type']})\nDate : {it['date'][:10]}\nTitre : {it['titre']}\nExtrait : {it['extrait'] or '(aucun)'}\nLien : {it['lien']}"
+        nature = ("Nature : SOURCE PRIMAIRE (texte officiel ou fiche technique). Appuie-toi précisément sur ce texte, "
+                  "c'est lui qui fait foi.\n") if it.get("primaire") else ""
+        msg = f"{info_soc}{nature}Source : {it['source']} ({it['type']})\nDate : {it['date'][:10]}\nTitre : {it['titre']}\nExtrait : {it['extrait'] or '(aucun)'}\nLien : {it['lien']}"
         try:
             consigne = CONSIGNE_CONTROLE if it.get("rubrique") == "controle" else CONSIGNE
             a = extraire_json(appeler_llm(session, modele, consigne, msg))

@@ -34,7 +34,7 @@
    "pays": "États-Unis",
    "poids": 3,
    "presentation": "Maison mère de Facebook, Instagram et WhatsApp. Développe les modèles Muse (et auparavant Llama) via ses Superintelligence Labs.",
-   "motifs": "\\bmeta\\b|llama|muse spark|zuckerberg|superintelligence labs",
+   "motifs": "\\bmeta\\b|\\bllama ?\\d|\\bllama\\b(?!\\.cpp)|muse spark|zuckerberg|superintelligence labs",
    "annuaire": "meta"
   },
   {
