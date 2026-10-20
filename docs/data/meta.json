@@ -1,5 +1,5 @@
 {
- "maj": "2026-10-19T20:43:18.318551+00:00",
+ "maj": "2026-10-20T00:55:52.869563+00:00",
  "sources_ok": [
   "OpenAI",
   "Google DeepMind",
@@ -40,15 +40,15 @@
    "erreur": "429 Client Error: Too Many Requests for url: https://venturebeat.com/category/ai/feed/"
   }
  ],
- "total": 377,
- "analyses": 109,
+ "total": 398,
+ "analyses": 136,
  "brief": {
-  "titre": "L'open source et les modèles ouverts dominent l'actualité IA",
-  "texte": "L'écosystème open source accélère fortement avec des lancements majeurs de Meta, Apple, Google et Nvidia. De nouveaux modèles ouverts et des puces alternatives, comme celles de Tenstorrent ou TorchNeuron d'Amazon, renforcent la décentralisation et la concurrence. Les acteurs industriels et institutionnels, à l'image de l'Allemagne avec Nvidia, intègrent massivement ces technologies pour leurs agents et infrastructures. Parallèlement, la multiplication des modèles 'weights' et des outils vocaux offre de nouvelles perspectives techniques aux développeurs.",
+  "titre": "Explosion de l'open-source et essor des agents IA autonomes",
+  "texte": "L'actualité est dominée par une vague massive de modèles ouverts et l'accélération des agents IA autonomes en entreprise. Meta, Apple et Nvidia renforcent l'écosystème open weights tandis que Google déploie Harness2 pour l'auto-amélioration. En parallèle, la concurrence s'intensifie sur le matériel avec Tenstorrent et Amazon TorchNeuron, posant de nouveaux défis de sécurité et de gouvernance, notamment soulignés par Microsoft. Cette dynamique redéfinit les performances des LLM, illustrée par les comparatifs face à Mistral et l'arrivée de Gemini 4 Argon.",
   "a_tester": [
-   "Tester les nouveaux modèles open weights sortis ces derniers jours sur vos cas d'usage locaux.",
-   "Explorer Harness2 de Google pour expérimenter la création d'agents auto-améliorants.",
-   "Évaluer l'impact de TorchNeuron d'Amazon pour vos flux de travail PyTorch face à Nvidia."
+   "Tester les nouveaux modèles ouverts pour PC et entreprise lancés par Nvidia",
+   "Explorer l'outil Harness2 de Google pour évaluer l'auto-amélioration des agents IA",
+   "Comparer les performances des derniers modèles open weights sortis ces 72 heures"
   ]
  },
  "top5": {
