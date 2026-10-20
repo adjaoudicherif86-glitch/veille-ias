@@ -209,48 +209,100 @@ def ids_modeles(titre, debut=False):
     return {re.sub(r"[- ]", "", m.lower()) for m in RE_MODELE.findall(t)
             if re.split(r"[- ]?v?\d", m.lower())[0] not in PAS_MODELE and not re.search(r"(19|20)\d\d$", m)}
 
-def meme_sujet(a, b, vecteurs=None):
-    """Même événement ? Par le sens si les empreintes existent, sinon (et en complément) par le titre."""
-    ratio = SequenceMatcher(None, a["_tn"], b["_tn"]).ratio()
-    ja, jb = a["_tok"], b["_tok"]
-    jac = len(ja & jb) / len(ja | jb) if ja and jb else 0
-    c = semantique.cosinus(vecteurs[a["id"]], vecteurs[b["id"]]) if vecteurs and a["id"] in vecteurs and b["id"] in vecteurs else None
-    raison = None
-    if ratio > 0.72 or jac >= 0.5 or (bool(a["_mod"] & b["_mod"]) and jac >= 0.2):
-        raison = "titres proches"
-    elif c is not None and c >= semantique.SEUIL_FORT:
-        raison = "sens très proche"
-    elif c is not None and c >= semantique.SEUIL_MOYEN:
-        # zone grise : il faut un indice concret en plus du sens. Ni la même société
-        # (elle a plusieurs actus), ni des mots banals comme « open » ou « agents » ne suffisent.
-        if not (a["_soc"] and b["_soc"] and a["_soc"] != b["_soc"]):
-            if a["_mod"] & b["_mod"]:
-                raison = "sens proche + même modèle cité"
-            elif jac >= 0.3:
-                raison = "sens proche + mêmes mots-clés"
+def meme_sujet(a, b, vecteurs=None, arbitrages=None):
+    """Même événement précis ? Doublon évident par le sens, sinon décision de l'IA (arbitrage).
+    Sans empreintes, on se rabat sur la ressemblance des titres."""
+    if a["_tn"] == b["_tn"]:
+        raison = "même titre"
+    elif a.get("primaire") and b.get("primaire"):
+        return False  # deux annonces officielles distinctes (ou deux versions) ne se fusionnent jamais
+    elif vecteurs and a["id"] in vecteurs and b["id"] in vecteurs:
+        c = semantique.cosinus(vecteurs[a["id"]], vecteurs[b["id"]])
+        decision = (arbitrages or {}).get(semantique.cle_paire(a["id"], b["id"]))
+        raison = ("sens quasi identique" if c >= semantique.SEUIL_FORT
+                  else "même événement selon l'IA" if decision is True else None)
+        if raison:
+            semantique.FUSIONS.append((round(c, 3), raison, a["titre"][:110], b["titre"][:110]))
+        return bool(raison)
+    else:
+        ratio = SequenceMatcher(None, a["_tn"], b["_tn"]).ratio()
+        ja, jb = a["_tok"], b["_tok"]
+        jac = len(ja & jb) / len(ja | jb) if ja and jb else 0
+        raison = "titres proches" if (ratio > 0.72 or jac >= 0.5 or (bool(a["_mod"] & b["_mod"]) and jac >= 0.2)) else None
     if raison:
-        semantique.FUSIONS.append((round(c, 3) if c is not None else None, raison, a["titre"][:110], b["titre"][:110]))
+        semantique.FUSIONS.append((None, raison, a["titre"][:110], b["titre"][:110]))
     return bool(raison)
 
-def regrouper(items, vecteurs=None):
-    """Regroupe les articles qui parlent du même sujet (sources différentes) et garde l'historique des échos."""
-    items.sort(key=lambda a: (-POIDS_TYPE.get(a["type"], 1), a["date"]))
+
+def preparer(items):
     for it in items:
         it["_tn"], it["_tok"], it["_mod"] = titre_normalise(it["titre"]), jetons(it["titre"]), ids_modeles(it["titre"])
         soc, _ = detecter_societe(it)
         it["_soc"] = soc["id"] if soc else None
+
+
+def comparables(a, b):
+    return (a.get("rubrique", "veille") == b.get("rubrique", "veille")
+            and abs((datetime.fromisoformat(a["date"]) - datetime.fromisoformat(b["date"])).days) <= 3)
+
+
+def arbitrer(items, vecteurs):
+    """Fait trancher par l'IA les paires « peut-être le même événement ». Décisions mémorisées."""
+    memo = semantique.charger_arbitrages()
+    llm = connexion_llm()
+    if not vecteurs or not llm:
+        return memo
+    preparer(items)
+    par_id = {it["id"]: it for it in items}
+    candidats = []
+    vus = [it for it in items if it["id"] in vecteurs]
+    for i, a in enumerate(vus):
+        for b in vus[i + 1:]:
+            if not comparables(a, b) or (a.get("primaire") and b.get("primaire")) or a["_tn"] == b["_tn"]:
+                continue
+            if a["_soc"] and b["_soc"] and a["_soc"] != b["_soc"]:
+                continue
+            c = semantique.cosinus(vecteurs[a["id"]], vecteurs[b["id"]])
+            cle = semantique.cle_paire(a["id"], b["id"])
+            if semantique.SEUIL_ARBITRAGE <= c < semantique.SEUIL_FORT and cle not in memo:
+                candidats.append((c, cle, a["id"], b["id"]))
+    candidats.sort(reverse=True)
+    candidats = candidats[:semantique.MAX_ARBITRAGES]
+    if candidats:
+        session, modele = llm
+        extrait = lambda it: f"{it['titre']} — {(it.get('extrait') or '')[:180]}"
+        liste = "\n".join(f"{n}. A : {extrait(par_id[x])}\n   B : {extrait(par_id[y])}" for n, (_, _, x, y) in enumerate(candidats, 1))
+        consigne = ("Tu es secrétaire de rédaction. Pour chaque paire, dis si A et B rapportent le MÊME événement précis "
+                    "(même annonce, même fait, même étude), éventuellement dans deux langues. Deux actus différentes sur la même "
+                    "entreprise, le même modèle ou le même thème ne sont PAS le même événement. "
+                    "Réponds UNIQUEMENT en JSON : {\"reponses\": [{\"n\": 1, \"meme\": true}, ...]}")
+        try:
+            rep = extraire_json(appeler_llm(session, modele, consigne, liste, 0))
+            decisions = {int(r["n"]): bool(r["meme"]) for r in rep.get("reponses", [])}
+            for n, (c, cle, _, _) in enumerate(candidats, 1):
+                if n in decisions:
+                    memo[cle] = decisions[n]
+            oui = sum(1 for v in decisions.values() if v)
+            print(f"⚖️  Arbitrage : {len(decisions)} paire(s) examinée(s), {oui} fusion(s) validée(s)")
+        except Exception as e:
+            print(f"  (arbitrage impossible : {e})", file=sys.stderr)
+    semantique.sauver_arbitrages(memo, {it["id"] for it in items})
+    return memo
+
+
+def regrouper(items, vecteurs=None, arbitrages=None):
+    """Regroupe les articles qui parlent du même événement (sources différentes) et garde l'historique des échos.
+    Chaque article est comparé au sujet principal du groupe seulement : pas d'effet de chaîne."""
+    items.sort(key=lambda a: (-POIDS_TYPE.get(a["type"], 1), a["date"]))
+    preparer(items)
     groupes = []
     for it in items:
         d = datetime.fromisoformat(it["date"])
         for g in groupes:
             chef = g[0]
-            if chef.get("rubrique", "veille") != it.get("rubrique", "veille"):
+            if not comparables(chef, it):
                 continue
-            if chef.get("primaire") and it.get("primaire") and chef["source"] != it["source"]:
-                continue  # deux annonces officielles distinctes ne se fusionnent jamais
-            if abs((datetime.fromisoformat(chef["date"]) - d).days) > 3:
-                continue
-            if any(meme_sujet(it, membre, vecteurs) for membre in g):
+            if meme_sujet(it, chef, vecteurs, arbitrages):
                 g.append(it)
                 break
         else:
@@ -448,13 +500,25 @@ def extraire_json(texte):
     return json.loads(texte[debut:fin + 1])
 
 
-def analyser(items):
+_LLM = []
+
+def connexion_llm():
+    """(session, modèle) ou None sans clé. Créée une seule fois par passage."""
     if not LLM_API_KEY:
+        return None
+    if not _LLM:
+        session = requests.Session()
+        session.headers.update({"Authorization": f"Bearer {LLM_API_KEY}", "Content-Type": "application/json"})
+        _LLM.append((session, choisir_modele(session)))
+    return _LLM[0]
+
+
+def analyser(items):
+    llm = connexion_llm()
+    if not llm:
         print("→ Pas de LLM_API_KEY : collecte seule, sans explications IA.")
         return None
-    session = requests.Session()
-    session.headers.update({"Authorization": f"Bearer {LLM_API_KEY}", "Content-Type": "application/json"})
-    modele = choisir_modele(session)
+    session, modele = llm
     print(f"→ Analyse avec le modèle : {modele}")
     sans = sorted([i for i in items if not i.get("analyse")], key=lambda i: -i["score"])
     a_faire = [i for i in sans if i.get("rubrique") != "controle"][:MAX_ANALYSES] + \
@@ -558,7 +622,8 @@ def main():
     items = fusionner(anciens, nouveaux)
     vecteurs = semantique.empreintes(items, LLM_API_KEY, LLM_API_URL)
     avant = len(items)
-    items = flairer(regrouper(items, vecteurs))
+    arbitrages = arbitrer(items, vecteurs)
+    items = flairer(regrouper(items, vecteurs, arbitrages))
     print(f"🧩 Regroupement : {avant} articles → {len(items)} sujets distincts")
     try:
         semantique.releve_similarites(items, vecteurs)

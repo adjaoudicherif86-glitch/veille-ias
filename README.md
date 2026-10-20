@@ -50,7 +50,15 @@ Dans `sources.json`, ces sources ont un champ `kind` (`page`, `github`, `hf_mode
 
 ## Le regroupement par le sens
 
-Chaque article reçoit une empreinte numérique (embedding) calculée gratuitement par l'API Gemini. Deux articles sur le même événement ont des empreintes proches, même si leurs titres n'ont presque aucun mot en commun : ils deviennent un seul sujet, avec la liste des sources qui en parlent. Au-dessus du seuil fort (`SEUIL_FORT`, 0,90 par défaut), la fusion est automatique ; entre les deux seuils (`SEUIL_MOYEN`, 0,84), il faut en plus un indice concret (même nom de modèle cité, ou mêmes mots-clés). Deux sociétés différentes ne sont jamais fusionnées dans cette zone grise. Les empreintes sont gardées dans `etat/embeddings.json`, et `etat/similarites.json` liste les fusions du dernier passage (avec leur score) et les paires les plus proches restées séparées, pour régler les seuils.
+Chaque article reçoit une empreinte numérique (embedding) calculée gratuitement par l'API Gemini. Deux articles sur le même événement ont des empreintes proches, même si leurs titres n'ont presque aucun mot en commun, ou s'ils sont dans deux langues différentes.
+
+Mesuré sur les vraies données : un même événement raconté par deux médias obtient une similarité de 0,84 à 0,89, mais deux publications de recherche différentes peuvent aussi atteindre 0,86. Un seuil seul ne suffit donc pas. Le chien fait comme un secrétaire de rédaction :
+- au-dessus de 0,93 (`SEUIL_FORT`), c'est un doublon évident, et il fusionne ;
+- entre 0,80 et 0,93 (`SEUIL_ARBITRAGE`), il demande à l'IA si les deux articles rapportent le même fait précis. Toutes les paires douteuses partent en une seule requête (40 au maximum, `MAX_ARBITRAGES`), et chaque décision est mémorisée dans `etat/arbitrages.json` ;
+- deux sociétés différentes, ou deux annonces officielles distinctes, ne sont jamais fusionnées ;
+- chaque article est comparé au sujet principal du groupe, et non à tous ses membres, ce qui évite les fusions en chaîne.
+
+`etat/similarites.json` liste chaque fusion du dernier passage (score et raison) et les paires proches restées séparées.
 
 ## Les sociétés reconnues
 

@@ -1352,12 +1352,7 @@
   "rubrique": "veille",
   "date": "2026-10-19T23:39:38+00:00",
   "extrait": "If the deal goes through, it would be the latest in a long string of giant compute deals Anthropic has struck over the past year.",
-  "echos": [
-   {
-    "source": "Anthropic (actus)",
-    "lien": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNUU9NUV9MeHl0M0tXSXZaOUxGUGV0NkhXa0Z0UExZMWltNFlYSDNnbUNlLTh5b1c5MzNtenplYzMteFFZNUFXRDRwX2o0aURsbWgwNFN3VWRTUUxxN2ZFSEljUEdmNG5US3d3QTluNkx1NTNZdGh2RkpSNXJMd1RaS25UVFozbjNVbnBCZ1RNSXRCQ2dOVnpsYm4wQ1BhM0F0M2hGOFpFbXZDNVJDUnk3SU1JVE1VNVVkN0Vz?oc=5"
-   }
-  ],
+  "echos": [],
   "societe": "anthropic",
   "score": 5.03,
   "raisons": [
@@ -1394,9 +1389,7 @@
     "GPU"
    ]
   },
-  "anciens_ids": [
-   "8b7bf899c029c9"
-  ]
+  "anciens_ids": []
  },
  {
   "id": "80fbccdecd6cb2",
@@ -1585,9 +1578,7 @@
     "Investissement"
    ]
   },
-  "anciens_ids": [
-   "c67f6c5228fc30"
-  ]
+  "anciens_ids": []
  },
  {
   "id": "d45dacf783b254",
@@ -2348,12 +2339,7 @@
   "rubrique": "veille",
   "date": "2026-10-19T19:18:11+00:00",
   "extrait": "Mistral Large 4 devancé d'un point par Muse Spark Open, mais devant lui sur les épreuves d'agent ActuIA",
-  "echos": [
-   {
-    "source": "ActuIA",
-    "lien": "https://www.actuia.com/actualite/mistral-large-4-devance-dun-point-par-muse-spark-open-mais-devant-lui-sur-les-epreuves-dagent/"
-   }
-  ],
+  "echos": [],
   "societe": "meta",
   "score": 4.71,
   "raisons": [
@@ -2389,9 +2375,7 @@
     "Benchmark"
    ]
   },
-  "anciens_ids": [
-   "09b252a1c0d0c7"
-  ]
+  "anciens_ids": []
  },
  {
   "id": "e37065d0e75499",
@@ -2673,6 +2657,53 @@
   }
  },
  {
+  "id": "313a53b5ba6175",
+  "titre": "MiniMax M3.1 Flash Launches, Cuts AI Costs 70% [2026] - shattered.io",
+  "lien": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9CdnRNSzZFX1cxV1dUTm9LM2ZPZnpycm1SYk92cWRjUkxQVHRUZkR6dEcxVE9rekRUaHJ1S05rX0tpbmZHcHFmVm81SVJqb0NqbGtwdnVqMDB6a2ZGbGtCTTZJVWFsZW0tMTdadDJB?oc=5",
+  "source": "Grandes annonces IA",
+  "type": "presse",
+  "rubrique": "veille",
+  "date": "2026-10-19T18:16:03+00:00",
+  "extrait": "MiniMax M3.1 Flash Launches, Cuts AI Costs 70% [2026] shattered.io",
+  "echos": [],
+  "societe": null,
+  "score": 3.0,
+  "raisons": [
+   "Lancement ou annonce"
+  ],
+  "local": false,
+  "categorie": "Modèles",
+  "flair": 3,
+  "analyse": {
+   "titre_fr": "Lancement de MiniMax M3.1 Flash : réduction des coûts d'IA de 70%",
+   "societe": {
+    "nom": "MiniMax",
+    "presentation": "Une entreprise spécialisée dans le développement de modèles d'intelligence artificielle avancés, notamment reconnue pour ses solutions multimodales et ses performances économiques."
+   },
+   "a_retenir": "Le nouveau modèle MiniMax M3.1 Flash réduit drastiquement les coûts d'utilisation de l'IA de 70%.",
+   "resume": "MiniMax a officialisé le lancement de M3.1 Flash, un modèle conçu pour offrir des performances accrues tout en diminuant de 70% les coûts d'infrastructure et d'API pour les utilisateurs. Cette annonce s'inscrit dans la tendance globale de démocratisation et de baisse des prix des services d'intelligence artificielle.",
+   "pourquoi": "Cette baisse tarifaire importante permet aux professionnels d'intégrer des fonctionnalités d'IA avancées à moindre coût, modifiant l'équation économique des projets technologiques.",
+   "comment_ca_marche": "Les détails techniques précis de l'optimisation ne sont pas explicités dans l'extrait fourni, mais une telle réduction de coût implique généralement des architectures de modèles plus compactes, des optimisations d'inférence avancées ou des techniques de distillation de connaissances pour maintenir la performance avec moins de ressources de calcul.",
+   "utiliser": [
+    "Consulter la documentation officielle de MiniMax pour tester le modèle M3.1 Flash",
+    "Évaluer l'impact financier d'une réduction de 70% des coûts sur vos cas d'usage actuels",
+    "Comparer les performances de M3.1 Flash avec vos solutions d'IA actuelles"
+   ],
+   "sur_mon_pc": "Pas en local : service en ligne uniquement",
+   "local": false,
+   "niveau": "intermédiaire",
+   "categorie": "Modèles",
+   "importance": 3,
+   "tags": [
+    "MiniMax",
+    "Modèle IA",
+    "Économie",
+    "API"
+   ]
+  },
+  "anciens_ids": []
+ },
+ {
   "id": "1e1490055ff5ac",
   "titre": "‘An army of Claudes, with every one asking for my attention’: Anthropic calls human attention the bottleneck in the botsitting world to come - Fortune",
   "lien": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQbl9PcUp2RThiUVVvSVgxQnJ0bEtHaTVpUVRIX3JHbkVCbW5GUkxjYWhnXzBTeV84SVdESHJuVmFMLU1DM1NSZV9pREVsUS1DanFqelQ5ck5aSHk3MFEyZnk2aHpkNmI0NlA2Zl9oSk1aZmF4TUNPSDBxZjN4eW42N0M2bWxyN2VlNUE?oc=5",
@@ -2765,10 +2796,7 @@
     "Optimisation"
    ]
   },
-  "anciens_ids": [
-   "313a53b5ba6175",
-   "3510b2740932e1"
-  ]
+  "anciens_ids": []
  },
  {
   "id": "db4b4a61a46d04",
@@ -3056,6 +3084,54 @@
   "anciens_ids": []
  },
  {
+  "id": "14367e39ff3673",
+  "titre": "Welcome to Google Gemini 4 Argon - Towards Data Science",
+  "lien": "https://news.google.com/rss/articles/CBMickFVX3lxTE1uZTJkalB3aTJDdmZFOFhaOHJDZG43YTdOOGRoQkZGeEgyTVp1ak5QcDNvbXN2aXZUWWJLZE5VeXo3d0dXc0NuMGw2bFJfd2hPTUktZnVXcHM1ZnBIWW5RX2F2NGZKbS13UnFmTm5vSEd2dw?oc=5",
+  "source": "Google Gemini (actus)",
+  "type": "presse",
+  "rubrique": "veille",
+  "date": "2026-10-19T16:45:48+00:00",
+  "extrait": "Welcome to Google Gemini 4 Argon Towards Data Science",
+  "echos": [],
+  "societe": "google",
+  "score": 4.86,
+  "raisons": [
+   "Repris par 2 sources",
+   "Acteur majeur : Google DeepMind"
+  ],
+  "local": false,
+  "categorie": "Modèles",
+  "flair": 5,
+  "analyse": {
+   "titre_fr": "Google Gemini 4 Argon : Annonce et perspectives",
+   "societe": {
+    "nom": "Google DeepMind",
+    "presentation": "La branche IA de Google, créatrice des modèles Gemini, de NotebookLM et d'avancées scientifiques majeures comme AlphaFold."
+   },
+   "a_retenir": "Google annonce ou évoque l'arrivée de Gemini 4 Argon, un nouveau modèle ou jalon pour sa gamme d'intelligence artificielle.",
+   "resume": "Un article aborde l'arrivée de Google Gemini 4 Argon, signalant de potentielles nouvelles capacités ou versions dans l'écosystème Gemini de Google DeepMind.",
+   "pourquoi": "Suivre les évolutions des modèles phares comme Gemini permet d'anticiper les nouvelles capacités disponibles pour les professionnels et les développeurs.",
+   "comment_ca_marche": "Il s'agit d'un grand modèle de langage (LLM) développé par Google, utilisant des architectures de réseaux de neurones de type Transformer pour traiter et générer du texte, du code et potentiellement des contenus multimodaux à partir d'immenses volumes de données.",
+   "utiliser": [
+    "Consulter la source officielle de Google DeepMind pour vérifier la disponibilité de Gemini 4 Argon",
+    "Tester les nouvelles fonctionnalités sur l'interface de Google Gemini si elles sont déployées",
+    "Évaluer l'impact de ces nouveautés sur vos cas d'usage professionnels actuels"
+   ],
+   "sur_mon_pc": "Pas en local : service en ligne uniquement",
+   "local": false,
+   "niveau": "débutant",
+   "categorie": "Modèles",
+   "importance": 3,
+   "tags": [
+    "Google",
+    "Gemini",
+    "LLM",
+    "DeepMind"
+   ]
+  },
+  "anciens_ids": []
+ },
+ {
   "id": "b1fe1ec46a7363",
   "titre": "Cognizant and Google Cloud Launch Gemini Frontier Capability Group - Unite.AI",
   "lien": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPN01ndGxhZXB0UWVJOUFqcDlIcVUyX2xMNFcwWnNKNEhHeW1jNUpKX3lRQzV1ZkFVR25QYmtfN3NfTDY0X2pHakU5VTdfa2dKcFVqQS1rS18xLW5YV1Nsa3pJQVdVZ1NyZW9GVHZuanVLWW0xWmF4dWtUUnk1empodDREajNhTDJEQ2lzZ2pjZFBaZw?oc=5",
@@ -3101,9 +3177,7 @@
     "Partenariat"
    ]
   },
-  "anciens_ids": [
-   "b13b701d72f285"
-  ]
+  "anciens_ids": []
  },
  {
   "id": "f1b272ed5a8387",
@@ -3714,6 +3788,43 @@
   "anciens_ids": []
  },
  {
+  "id": "6ebba81423828b",
+  "titre": "Emil Michael tells The Information export controls can rein in AI labs - The Next Web",
+  "lien": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQSEhWRFdvTXFYOG9pTWx0SzR5VTN0a0phTjNmM0tpVUt6Vm9FdzZKNzY2N0s5MDVmX196TXZPM3duNElRaEtmWFpYQm50aVRzdWNJdk84WlNESGRuYUp2eEFBY3o4a1BpN0xpWlhXcjBuQ0VERVAwZ0VJRUdyUk5mQkEzeU1vMmx2ckVmRXB4cFAtc2pn?oc=5",
+  "source": "IA militaire",
+  "type": "presse",
+  "rubrique": "controle",
+  "date": "2026-10-19T14:15:00+00:00",
+  "extrait": "Emil Michael tells The Information export controls can rein in AI labs The Next Web",
+  "echos": [],
+  "societe": null,
+  "score": 1.29,
+  "raisons": [
+   "Régulation ou justice"
+  ],
+  "local": false,
+  "categorie": "Pouvoir et régulation",
+  "flair": 2,
+  "analyse": {
+   "titre_fr": "Des contrôles à l'exportation pour freiner les laboratoires d'IA",
+   "resume": "Emil Michael a déclaré au média The Information que les contrôles à l'exportation constituent un moyen de limiter ou de réguler l'activité des laboratoires spécialisés en intelligence artificielle.",
+   "la_crainte": "L'utilisation des barrières géopolitiques et réglementaires comme outil de contrôle autoritaire ou de censure centralisée sur le développement technologique mondial.",
+   "les_faits": "Emil Michael a affirmé auprès de The Information que les contrôles à l'exportation ont la capacité de restreindre ou de canaliser l'action des laboratoires d'IA.",
+   "inconnues": "Les mesures concrètes envisagées, le périmètre exact de ces contrôles, ainsi que les réactions des laboratoires concernés ou des gouvernements étrangers ne sont pas détaillés dans l'extrait.",
+   "preuve": "speculatif",
+   "a_surveiller": "La mise en place effective ou l'annonce de nouvelles politiques de restriction à l'exportation visant le secteur de l'IA.",
+   "categorie": "Pouvoir et régulation",
+   "importance": 2,
+   "tags": [
+    "contrôles à l'export",
+    "laboratoires d'IA",
+    "régulation",
+    "géopolitique"
+   ]
+  },
+  "anciens_ids": []
+ },
+ {
   "id": "c08e28e17ab3ca",
   "titre": "A hacker broke into John Deere and SharkNinja with an army of AI agents",
   "lien": "https://www.theverge.com/ai-artificial-intelligence/1013643/ai-agents-hack-john-deere-shark-ninja-cummins",
@@ -3909,12 +4020,7 @@
   "rubrique": "controle",
   "date": "2026-10-19T13:00:00+00:00",
   "extrait": "Pentagon’s Emil Michael Vows Export Controls if AI Labs Don’t Cooperate With Government The Information",
-  "echos": [
-   {
-    "source": "IA militaire",
-    "lien": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQSEhWRFdvTXFYOG9pTWx0SzR5VTN0a0phTjNmM0tpVUt6Vm9FdzZKNzY2N0s5MDVmX196TXZPM3duNElRaEtmWFpYQm50aVRzdWNJdk84WlNESGRuYUp2eEFBY3o4a1BpN0xpWlhXcjBuQ0VERVAwZ0VJRUdyUk5mQkEzeU1vMmx2ckVmRXB4cFAtc2pn?oc=5"
-   }
-  ],
+  "echos": [],
   "societe": "usgov",
   "score": 6.23,
   "raisons": [
@@ -3942,9 +4048,7 @@
     "coopération gouvernementale"
    ]
   },
-  "anciens_ids": [
-   "6ebba81423828b"
-  ]
+  "anciens_ids": []
  },
  {
   "id": "fd622d74dadf9c",
@@ -4287,12 +4391,7 @@
   "rubrique": "veille",
   "date": "2026-10-19T12:00:00+00:00",
   "extrait": "Learn how OpenAI is improving ChatGPT across low-resource programming languages, with new evaluations for software engineering, SQLite, and COBOL migration.",
-  "echos": [
-   {
-    "source": "OpenAI (actus)",
-    "lien": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1NRVhFQTROZDktT3lCTEV5S3RndURZTlJISmctaThYa2t3dHJoWDNVODBSS2pFa1VrY1FGXzk4S1RncEt4b3hvU1BKbWRYdFB5U21EZmxaTGtEdGluSlpmcnRlVzUxRVdsWnY4dw?oc=5"
-   }
-  ],
+  "echos": [],
   "societe": "openai",
   "score": 4.61,
   "raisons": [
@@ -4330,9 +4429,7 @@
     "Programmation"
    ]
   },
-  "anciens_ids": [
-   "32042c8ac47054"
-  ]
+  "anciens_ids": []
  },
  {
   "id": "9279cf6bb0c3cf",
@@ -5207,9 +5304,7 @@
     "Open source"
    ]
   },
-  "anciens_ids": [
-   "c825774bbf1e21"
-  ]
+  "anciens_ids": []
  },
  {
   "id": "cd8aed4dc57e54",
@@ -6830,6 +6925,95 @@
   "anciens_ids": []
  },
  {
+  "id": "834c683561a92f",
+  "titre": "unsloth/DeepSeek-V4.1-Flash-1017-GGUF · Hugging Face",
+  "lien": "https://www.reddit.com/r/LocalLLaMA/comments/1x95491/unslothdeepseekv41flash1017gguf_hugging_face/",
+  "source": "r/LocalLLaMA",
+  "type": "communaute",
+  "rubrique": "veille",
+  "date": "2026-10-18T14:51:58+00:00",
+  "extrait": "no document or announcement from unslot team yet submitted by /u/MundanePercentage674 [link] [comments]",
+  "echos": [],
+  "score": 1.85,
+  "local": true,
+  "categorie": "Open source & local",
+  "flair": 2,
+  "analyse": {
+   "titre_fr": "Version GGUF non officielle de DeepSeek-V4.1-Flash par Unsloth",
+   "resume": "Un utilisateur a partagé un dépôt sur Hugging Face proposant une version au format GGUF du modèle DeepSeek-V4.1-Flash optimisée par l'équipe Unsloth. Aucune annonce officielle n'a encore été publiée par l'équipe Unsloth concernant ce modèle.",
+   "pourquoi": "Permet potentiellement d'exécuter des versions allégées de modèles récents sur du matériel local, mais nécessite de la prudence en l'absence de communication officielle.",
+   "comment_ca_marche": "Le format GGUF compresse et quantifie les poids des grands modèles de langage pour qu'ils puissent tourner sur des configurations matérielles grand public, comme les cartes graphiques de PC ou les processeurs, en réduisant la précision numérique.",
+   "utiliser": [
+    "Consulter le dépôt sur Hugging Face mentionné par la communauté",
+    "Vérifier la source et les notes de version avant tout téléchargement",
+    "Tester le fichier GGUF avec un logiciel compatible comme LM Studio ou llama.cpp"
+   ],
+   "sur_mon_pc": "Nécessite un PC récent avec une bonne quantité de RAM et/ou une carte graphique dédiée (VRAM suffisante selon la quantification du modèle GGUF).",
+   "local": true,
+   "niveau": "intermédiaire",
+   "categorie": "Open source & local",
+   "importance": 2,
+   "tags": [
+    "DeepSeek",
+    "GGUF",
+    "Unsloth",
+    "Open Source"
+   ]
+  },
+  "societe": "deepseek",
+  "raisons": [
+   "Utilisable librement (open source)"
+  ],
+  "anciens_ids": []
+ },
+ {
+  "id": "a257dddc2d05fd",
+  "titre": "Anthropic's proposed AI safety bill only kicks in if 50 deaths or $1B in damages",
+  "lien": "https://www.tomshardware.com/tech-industry/artificial-intelligence/anthropics-proposed-ai-safety-bill-only-kicks-in-if-50-deaths-or-usd1-billion-in-damages-are-on-the-line-proposal-would-effectively-make-the-commerce-department-the-only-agency-capable-of-stopping-an-ai-model",
+  "source": "Hacker News (IA, 100+ pts)",
+  "type": "communaute",
+  "rubrique": "veille",
+  "date": "2026-10-18T14:30:27+00:00",
+  "extrait": "Article URL: https://www.tomshardware.com/tech-industry/artificial-intelligence/anthropics-proposed-ai-safety-bill-only-kicks-in-if-50-deaths-or-usd1-billion-in-damages-are-on-the-line-proposal-would-effectively-make-the-commerce-department-the-only-agency-capable-of-stopping-an-ai-model Comments URL: https://news.ycombinator.com/item?id=50141429 Points: 170 # Comments: 167",
+  "echos": [],
+  "score": 3.13,
+  "local": false,
+  "categorie": "Business & régulation",
+  "flair": 3,
+  "societe": "anthropic",
+  "raisons": [
+   "Acteur majeur : Anthropic",
+   "Jugé important par l'IA (4/5)"
+  ],
+  "analyse": {
+   "titre_fr": "Le projet de loi sur la sécurité de l'IA d'Anthropic soumis à de sévères seuils de dégâts",
+   "societe": {
+    "nom": "Anthropic",
+    "presentation": "Créateur de l'assistant Claude, fondé en 2021 par d'anciens cadres d'OpenAI. L'entreprise se concentre sur la sécurité de l'intelligence artificielle et l'alignement des modèles."
+   },
+   "a_retenir": "La proposition de loi d'Anthropic ne s'enclencherait qu'en cas de risque de 50 décès ou d'un milliard de dollars de dégâts.",
+   "resume": "Anthropic a proposé un projet de loi sur la sécurité de l'IA dont les dispositions ne s'appliquent qu'en présence de seuils critiques, à savoir 50 décès ou un milliard de dollars de dommages. La proposition conférerait également au Département du Commerce le pouvoir exclusif d'arrêter un modèle d'IA.",
+   "pourquoi": "Ce texte pose des jalons cruciaux sur la régulation fédérale des modèles d'IA les plus puissants et redéfinit l'équilibre entre responsabilité des entreprises et contrôle gouvernemental.",
+   "comment_ca_marche": "Le mécanisme législatif proposé introduit un seuil de déclenchement quantitatif basé sur l'impact (victimes humaines ou pertes financières massives). Si un modèle d'IA franchit ou menace de franchir ces limites lors de son utilisation ou de son entraînement, des mesures de contrôle fédérales s'activent. Le Département du Commerce devient alors l'autorité centrale habilitée à suspendre ou interdire le système.",
+   "utiliser": [
+    "Analyser les implications juridiques et de conformité de cette proposition de loi pour vos futurs déploiements d'IA.",
+    "Suivre les débats réglementaires aux États-Unis concernant la régulation fédérale du secteur."
+   ],
+   "sur_mon_pc": "Pas en local : service en ligne uniquement",
+   "local": false,
+   "niveau": "intermédiaire",
+   "categorie": "Business & régulation",
+   "importance": 4,
+   "tags": [
+    "Anthropic",
+    "Régulation",
+    "Sécurité IA",
+    "Politique"
+   ]
+  },
+  "anciens_ids": []
+ },
+ {
   "id": "e837df18b1c339",
   "titre": "AuroraASR-1M Releases!",
   "lien": "https://www.reddit.com/r/LocalLLaMA/comments/1x92ejs/auroraasr1m_releases/",
@@ -6882,12 +7066,7 @@
   "rubrique": "veille",
   "date": "2026-10-18T12:43:42+00:00",
   "extrait": "Four Gemini 4 Argon agents beat Minecraft without any human help The Decoder",
-  "echos": [
-   {
-    "source": "ActuIA",
-    "lien": "https://www.actuia.com/actualite/lapi-gemini-4-argon-doublera-ses-tarifs-le-1er-decembre/"
-   }
-  ],
+  "echos": [],
   "societe": "google",
   "score": 5.26,
   "raisons": [
@@ -6924,10 +7103,7 @@
     "Google DeepMind"
    ]
   },
-  "anciens_ids": [
-   "14367e39ff3673",
-   "322d414e0f140e"
-  ]
+  "anciens_ids": []
  },
  {
   "id": "6e2930f20afd26",
@@ -6993,12 +7169,7 @@
   "rubrique": "veille",
   "date": "2026-10-18T11:25:00+00:00",
   "extrait": "Anthropic’s proposed AI safety bill only kicks in if 50 deaths or $1 billion in damages are on the line — proposal would effectively make the Commerce Department the only agency capable of stopping an AI model Tom's Hardware",
-  "echos": [
-   {
-    "source": "Hacker News (IA, 100+ pts)",
-    "lien": "https://www.tomshardware.com/tech-industry/artificial-intelligence/anthropics-proposed-ai-safety-bill-only-kicks-in-if-50-deaths-or-usd1-billion-in-damages-are-on-the-line-proposal-would-effectively-make-the-commerce-department-the-only-agency-capable-of-stopping-an-ai-model"
-   }
-  ],
+  "echos": [],
   "societe": "anthropic",
   "score": 4.82,
   "raisons": [
@@ -7035,9 +7206,7 @@
     "Législation"
    ]
   },
-  "anciens_ids": [
-   "a257dddc2d05fd"
-  ]
+  "anciens_ids": []
  },
  {
   "id": "f09663b58cdbc0",
@@ -7783,9 +7952,7 @@
     "IA Locale"
    ]
   },
-  "anciens_ids": [
-   "13fefa362f502f"
-  ]
+  "anciens_ids": []
  },
  {
   "id": "53979e664e0126",
@@ -8287,12 +8454,7 @@
   "signal": 2.0,
   "signal_raison": "N°1 des tendances Hugging Face",
   "societe_force": null,
-  "echos": [
-   {
-    "source": "r/LocalLLaMA",
-    "lien": "https://www.reddit.com/r/LocalLLaMA/comments/1x95491/unslothdeepseekv41flash1017gguf_hugging_face/"
-   }
-  ],
+  "echos": [],
   "societe": "deepseek",
   "score": 5.81,
   "raisons": [
@@ -8333,9 +8495,7 @@
     "Open Source"
    ]
   },
-  "anciens_ids": [
-   "c2049a2028b874"
-  ]
+  "anciens_ids": []
  },
  {
   "id": "10694d24088d1e",
@@ -8660,9 +8820,7 @@
   "local": false,
   "categorie": "Modèles",
   "flair": 2,
-  "anciens_ids": [
-   "60f466f8ae4275"
-  ]
+  "anciens_ids": []
  },
  {
   "id": "312d9d2bf59580",
@@ -8795,12 +8953,7 @@
   "rubrique": "veille",
   "date": "2026-10-16T17:29:00+00:00",
   "extrait": "Designing more efficient quantum circuits with Claude Anthropic",
-  "echos": [
-   {
-    "source": "Hacker News (IA, 100+ pts)",
-    "lien": "https://www.anthropic.com/research/designing-efficient-quantum-circuits"
-   }
-  ],
+  "echos": [],
   "score": 2.86,
   "local": false,
   "categorie": "Recherche",
@@ -8837,9 +8990,7 @@
     "Optimisation"
    ]
   },
-  "anciens_ids": [
-   "04b7640931c7c9"
-  ]
+  "anciens_ids": []
  },
  {
   "id": "9795228c1bdcf1",
@@ -8868,12 +9019,7 @@
   "rubrique": "veille",
   "date": "2026-10-16T17:02:00+00:00",
   "extrait": "Claude reveals ECDSA curve origins Anthropic",
-  "echos": [
-   {
-    "source": "Hacker News (IA, 100+ pts)",
-    "lien": "https://www.anthropic.com/research/ecdsa-curve-origins"
-   }
-  ],
+  "echos": [],
   "score": 2.85,
   "local": false,
   "categorie": "Recherche",
@@ -8911,9 +9057,7 @@
     "Sécurité"
    ]
   },
-  "anciens_ids": [
-   "7a6a342eb95837"
-  ]
+  "anciens_ids": []
  },
  {
   "id": "1f9b468e86423e",
@@ -9060,12 +9204,7 @@
   "rubrique": "veille",
   "date": "2026-10-16T15:33:49+00:00",
   "extrait": "The data comes from Vercel's AI gateway, a unified API service similar to OpenRouter.",
-  "echos": [
-   {
-    "source": "Grandes annonces IA",
-    "lien": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOZ00xUFYySmRIeEd4akp6azdfXzlKcUhzRGdlWlZ0cEpXcFFyNWUxb0xSdnFRYUJOdnpTdDlmSmgwRnhNS0V6ME1VSlZ1cUl5M3FPamRtMjFvc0loYUJBTmJoVHF6RkhJYkhBNDliNkFoTUlSNkJUTXJwRElKU2YzMjlvZGJZdw?oc=5"
-   }
-  ],
+  "echos": [],
   "score": 1.31,
   "local": false,
   "categorie": "Modèles",
@@ -9074,9 +9213,7 @@
   "raisons": [
    "Repris par 2 sources"
   ],
-  "anciens_ids": [
-   "093ad16b7c2dcb"
-  ]
+  "anciens_ids": []
  },
  {
   "id": "2a1ef3ecec8dbb",
@@ -9187,6 +9324,22 @@
   "flair": 1,
   "societe": null,
   "raisons": [],
+  "anciens_ids": []
+ },
+ {
+  "id": "22d04cd04ff740",
+  "titre": "Show HN: Gemini 4 Argon plays StarCraft",
+  "lien": "https://starskirmish.com/bench/v0-2/",
+  "source": "Hacker News (IA, 100+ pts)",
+  "type": "communaute",
+  "rubrique": "veille",
+  "date": "2026-10-16T14:18:44+00:00",
+  "extrait": "I've refreshed StarSkirmish Bench, a benchmark where LLMs play StarCraft BW by writing code, with results from the flagship models of OpenAI, Anthropic, Google, and Muse Comments URL: https://news.ycombinator.com/item?id=50118688 Points: 249 # Comments: 111",
+  "echos": [],
+  "score": 2.84,
+  "local": false,
+  "categorie": "Modèles",
+  "flair": 2,
   "anciens_ids": []
  },
  {
@@ -9543,10 +9696,7 @@
     "régulation"
    ]
   },
-  "anciens_ids": [
-   "751a7e7d96a765",
-   "b25143fd8d0241"
-  ]
+  "anciens_ids": []
  },
  {
   "id": "083bc0e27b46aa",
@@ -9883,6 +10033,51 @@
   }
  },
  {
+  "id": "7c9b818c4bf203",
+  "titre": "L’API Gemini 4 Argon doublera ses tarifs le 1er décembre",
+  "lien": "https://www.actuia.com/actualite/lapi-gemini-4-argon-doublera-ses-tarifs-le-1er-decembre/",
+  "source": "ActuIA",
+  "type": "fr",
+  "rubrique": "veille",
+  "date": "2026-10-16T05:32:00+00:00",
+  "extrait": "Google a ouvert le 13 octobre 2026 son modèle Gemini 4 Argon aux développeurs et aux entreprises, dans le monde entier. Le tarif affiché au lancement, 2 dollars par million de tokens en entrée et 10 d...",
+  "echos": [],
+  "score": 2.88,
+  "local": false,
+  "categorie": "Business & régulation",
+  "flair": 3,
+  "analyse": {
+   "titre_fr": "L'API Gemini 4 Argon verra ses tarifs doubler le 1er décembre",
+   "resume": "Google a lancé mondialement son modèle Gemini 4 Argon pour les développeurs et entreprises. Le tarif promotionnel de lancement doublera à compter du 1er décembre 2026.",
+   "pourquoi": "Cette augmentation tarifaire significative impacte directement le budget des professionnels et entreprises intégrant ce modèle dans leurs applications.",
+   "comment_ca_marche": "L'API permet d'accéder au modèle de langage Gemini 4 Argon via le cloud de Google pour intégrer ses capacités dans des applications tierces. Le modèle traite les requêtes textuelles ou multimodales facturées au nombre de tokens (mots ou fragments de mots) en entrée et en sortie. À partir du 1er décembre, le coût de ces transactions sera multiplié par deux par rapport au tarif initial de lancement.",
+   "utiliser": [
+    "Auditer la consommation actuelle de tokens sur les applications utilisant Gemini 4 Argon.",
+    "Estimer l'impact financier du doublement des tarifs sur le budget prévisionnel.",
+    "Anticiper une potentielle migration vers d'autres modèles ou optimiser les prompts avant le 1er décembre."
+   ],
+   "sur_mon_pc": "Pas en local : service en ligne uniquement",
+   "local": false,
+   "niveau": "intermédiaire",
+   "categorie": "Business & régulation",
+   "importance": 4,
+   "tags": [
+    "Google",
+    "Gemini 4 Argon",
+    "API",
+    "Tarifs",
+    "Développeurs"
+   ]
+  },
+  "societe": "google",
+  "raisons": [
+   "Acteur majeur : Google DeepMind",
+   "Prix ou accès",
+   "Jugé important par l'IA (4/5)"
+  ],
+  "anciens_ids": []
+ },
+ {
   "id": "6fe2f0b004abb9",
   "titre": "Recours rédigés par IA : la justice administrative sous pression",
   "lien": "https://www.actuia.com/actualite/recours-rediges-par-ia-la-justice-administrative-sous-pression/",
@@ -10040,12 +10235,7 @@
   "rubrique": "veille",
   "date": "2026-10-16T00:00:00+00:00",
   "extrait": "Two engineers shipped Stack Overflow for Agents in a few weeks with Codex, and its ChatGPT plugin helped drive up to 10× growth in agent creation.",
-  "echos": [
-   {
-    "source": "OpenAI (actus)",
-    "lien": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5XWktKRmU0bnRhVC1LejhhZTFxbjNKS1NkcTBPeDM2dUFKQm1SVXFlWnBJRGUydWFtMUMxRjRZelI0TU9kc2xKQWJhYktVb1BzNTg5ZmZyY293M2pCZ2NoTmQyX0dYUQ?oc=5"
-   }
-  ],
+  "echos": [],
   "score": 3.17,
   "local": false,
   "categorie": "Business & régulation",
@@ -10487,12 +10677,7 @@
   "rubrique": "veille",
   "date": "2026-10-15T20:04:53+00:00",
   "extrait": "Meta and Apple have teamed up for the launch of the social media giant's newest model, Muse Spark Open, which will run locally on Apple silicon.",
-  "echos": [
-   {
-    "source": "Grandes annonces IA",
-    "lien": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQQlZfb0U3cFViMUxwX19EejMxOTNmczEyTzU1YzZqZGhaTnR6dVFrVnVURUVqbGpENzRRWnViS2RrV0pLUkZxcVd6R01DRUhENmZ0azlMTmhNMEh1VnYwNzZndF9qN29GSHZDWXZQSmFrd19lS3E5STJTekhTaW9ETjhHLTg1R0tMTERPTUpNN1M?oc=5"
-   }
-  ],
+  "echos": [],
   "score": 6.2,
   "local": true,
   "categorie": "Open source & local",
@@ -12171,9 +12356,7 @@
   "local": false,
   "categorie": "Modèles",
   "flair": 1,
-  "anciens_ids": [
-   "fc0f57b47d916b"
-  ]
+  "anciens_ids": []
  },
  {
   "id": "6d86b41320ec46",
@@ -12577,6 +12760,108 @@
   "anciens_ids": []
  },
  {
+  "id": "471508c04c304c",
+  "titre": "Developing Gemini 4 Argon responsibly and safely",
+  "lien": "https://deepmind.google/blog/developing-gemini-4-argon-responsibly-and-safely/",
+  "source": "Google DeepMind",
+  "type": "officiel",
+  "rubrique": "veille",
+  "date": "2026-10-13T19:43:07+00:00",
+  "extrait": "",
+  "echos": [],
+  "score": 1.5,
+  "local": false,
+  "categorie": "Modèles",
+  "flair": 1,
+  "anciens_ids": []
+ },
+ {
+  "id": "550c4c02e9ff21",
+  "titre": "Run fast, private agents on-device with LFM2.5-24B-A2B",
+  "lien": "https://huggingface.co/blog/LiquidAI/lfm25-24b-a2b",
+  "source": "Hugging Face",
+  "type": "officiel",
+  "rubrique": "veille",
+  "date": "2026-10-13T17:05:48+00:00",
+  "extrait": "",
+  "echos": [],
+  "score": 0.0,
+  "local": true,
+  "categorie": "Outils & applis",
+  "flair": 1,
+  "societe": null,
+  "raisons": [
+   "Source officielle"
+  ],
+  "anciens_ids": []
+ },
+ {
+  "id": "f9eb89f74ed89d",
+  "titre": "Google launches flagship AI model Gemini 4 Argon for developers, businesses - Reuters",
+  "lien": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQclhsaXp4NUtqeVJDQTNIUjVXQVdJcnNXYnpYZUFTZm4wY3UxcTM1SzJvdzRBNE9HaURlNG1obzFGQ0o3R0pWNVJfNGFDOUdFZnhfdEJxSkszQ2hZQlowMjdCbVliRE9uX3A5ak1CYkJHOEV1elBYRWgtUHBwdF9lcWEyUGdjbmhQb2JONkpNeWhLTHgzQzRhRFRnZTEwcDRCa3k3RkpxY0c5Z1RsSlFCSmQwNmRmQQ?oc=5",
+  "source": "Grandes annonces IA",
+  "type": "presse",
+  "rubrique": "veille",
+  "date": "2026-10-13T16:10:19+00:00",
+  "extrait": "Google launches flagship AI model Gemini 4 Argon for developers, businesses Reuters",
+  "echos": [],
+  "societe": "google",
+  "score": 7.2,
+  "raisons": [
+   "Repris par 2 sources",
+   "Acteur majeur : Google DeepMind",
+   "Nouveau modèle ou nouvelle version",
+   "Jugé important par l'IA (5/5)"
+  ],
+  "local": false,
+  "categorie": "Modèles",
+  "flair": 5,
+  "analyse": {
+   "titre_fr": "Google lance Gemini 4 Argon, son nouveau modèle phare pour développeurs et entreprises",
+   "societe": {
+    "nom": "Google DeepMind",
+    "presentation": "La branche de recherche en intelligence artificielle de Google, créatrice des modèles Gemini, de NotebookLM et d'avancées scientifiques majeures comme AlphaFold."
+   },
+   "a_retenir": "Google déploie Gemini 4 Argon, un nouveau modèle d'IA phare destiné aux développeurs et aux entreprises.",
+   "resume": "Google a officialisé le lancement de Gemini 4 Argon, son nouveau modèle d'intelligence artificielle haut de gamme. Conçu spécifiquement pour les professionnels et les développeurs, il vise à offrir de nouvelles performances pour les intégrations en entreprise.",
+   "pourquoi": "C'est un événement majeur pour l'écosystème professionnel car il redéfinit les standards des modèles phares proposés par les géants de la tech pour les cas d'usage d'entreprise.",
+   "comment_ca_marche": "Basé sur l'architecture avancée de Google DeepMind, le modèle traite et analyse de grandes quantités de données multimodales (texte, code, etc.) grâce à des réseaux de neurones profonds optimisés. Il est accessible via les interfaces de développement et les cloud de Google pour alimenter des applications tierces et des agents intelligents. Les détails techniques précis de l'architecture restent à analyser via la documentation officielle de l'éditeur.",
+   "utiliser": [
+    "Consulter la documentation officielle pour développeurs de Google Cloud / AI",
+    "Tester l'intégration de Gemini 4 Argon via les API proposées",
+    "Évaluer les performances du modèle sur vos cas d'usage métier spécifiques"
+   ],
+   "sur_mon_pc": "Pas en local : service en ligne uniquement",
+   "local": false,
+   "niveau": "intermédiaire",
+   "categorie": "Modèles",
+   "importance": 5,
+   "tags": [
+    "Google",
+    "Gemini 4 Argon",
+    "Modèle de langage",
+    "Entreprise"
+   ]
+  },
+  "anciens_ids": []
+ },
+ {
+  "id": "884ebf3c3978ea",
+  "titre": "Gemini 4 Argon for Robotics",
+  "lien": "https://deepmind.google/blog/gemini-4-argon-for-robotics/",
+  "source": "Google DeepMind",
+  "type": "officiel",
+  "rubrique": "veille",
+  "date": "2026-10-13T16:01:58+00:00",
+  "extrait": "",
+  "echos": [],
+  "score": 1.5,
+  "local": false,
+  "categorie": "Modèles",
+  "flair": 1,
+  "anciens_ids": []
+ },
+ {
   "id": "e9ee5ddfcd2b4a",
   "titre": "Redesigning source control at Anthropic - Anthropic",
   "lien": "https://news.google.com/rss/articles/CBMickFVX3lxTFBrYlpJeHk2enVYSG9CYl8wRndZeW1XOUpvWHA2NXVHREZBV2JoSFhmTW0tLU1MWDNrWlZVNU9yMDZCbVd5YUZyNFJDaXVxbFo4V1hURTAySlBUVmowR3BVMzJxbmNLdDMtSW5KV3U0NlBqdw?oc=5",
@@ -12585,12 +12870,7 @@
   "rubrique": "veille",
   "date": "2026-10-13T16:00:43+00:00",
   "extrait": "Redesigning source control at Anthropic Anthropic",
-  "echos": [
-   {
-    "source": "Simon Willison",
-    "lien": "https://simonwillison.net/2026/Oct/13/redesigning-source-control-at-anthropic/"
-   }
-  ],
+  "echos": [],
   "score": 1.1,
   "local": false,
   "categorie": "Actualité",
@@ -12638,44 +12918,7 @@
   "rubrique": "veille",
   "date": "2026-10-13T16:00:00+00:00",
   "extrait": "TBD",
-  "echos": [
-   {
-    "source": "Google DeepMind",
-    "lien": "https://deepmind.google/blog/introducing-gemini-4-argon/"
-   },
-   {
-    "source": "Google DeepMind",
-    "lien": "https://deepmind.google/blog/gemini-4-argon-for-robotics/"
-   },
-   {
-    "source": "Google DeepMind",
-    "lien": "https://deepmind.google/blog/developing-gemini-4-argon-responsibly-and-safely/"
-   },
-   {
-    "source": "Google Gemini (actus)",
-    "lien": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQSnlfSFAtZ3F0bFlnbTVkTUJHb2ZMa2ZLR2Q0Zm4wUi1yd0dPNjk0Z1dxalhMZ0x3WFpmNGF0bnA5SGpnalRXSFZEcjc0M2VsNjlHOFZtU1dVVUlrUGpNN24zLW02V0U0NFk5Z3dwbDZFcE1kS0ZSaFNxOHVHUWdTWURZSWIyUENmbXdjeTRwOGQ3SkhOSHMxaHlBMVpEbWw2?oc=5"
-   },
-   {
-    "source": "Google Gemini (actus)",
-    "lien": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOQ2ExMndUd3p2T0tCT080TWJ2QWFjYWt4Tk14dDllRVpHOTk1SWswdDlucUh0SVBaRUN1VGJVZUdGVk5taUxkcldvTm96MWVHd1Bxek5VR0Y0OER1Yi01RjhSdkNCbEdmRTJYcF9sUUlRdnpfWUQyNDRFR21sN190dnRJS3VNOURqclNNQlFYUVJnZjlsUnhzLVp3UHU?oc=5"
-   },
-   {
-    "source": "Hacker News (IA, 100+ pts)",
-    "lien": "https://starskirmish.com/bench/v0-2/"
-   },
-   {
-    "source": "Grandes annonces IA",
-    "lien": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQclhsaXp4NUtqeVJDQTNIUjVXQVdJcnNXYnpYZUFTZm4wY3UxcTM1SzJvdzRBNE9HaURlNG1obzFGQ0o3R0pWNVJfNGFDOUdFZnhfdEJxSkszQ2hZQlowMjdCbVliRE9uX3A5ak1CYkJHOEV1elBYRWgtUHBwdF9lcWEyUGdjbmhQb2JONkpNeWhLTHgzQzRhRFRnZTEwcDRCa3k3RkpxY0c5Z1RsSlFCSmQwNmRmQQ?oc=5"
-   },
-   {
-    "source": "Google Gemini (actus)",
-    "lien": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQSzdXRWFBYmFCTmVtLUNoX0NQOWl2ajE2ektFS29LdHQyY09TMVlDSXg2REgzdjlZcWRLS2dlVGlMRmg4SUNBM05sYlBjam1NZ0czREpwVXBxdFF1UGpEcFFQVDFKQTI1ZU9mV3BubkZtWmpCemQ4bENJUXlvVUdRb3Q3NnNtWVBDUkdEVmpxTjQ3TWN4YnVTVHNEM2QtX0N0Sk96YkxaUGFsNEl5?oc=5"
-   },
-   {
-    "source": "ActuIA",
-    "lien": "https://www.actuia.com/actualite/lapi-gemini-4-argon-doublera-ses-tarifs-le-1er-decembre/"
-   }
-  ],
+  "echos": [],
   "score": 13.2,
   "local": false,
   "categorie": "Modèles",
@@ -12714,16 +12957,7 @@
     "DeepMind"
    ]
   },
-  "anciens_ids": [
-   "22d04cd04ff740",
-   "39db9021f36a3b",
-   "471508c04c304c",
-   "7c9b818c4bf203",
-   "884ebf3c3978ea",
-   "cc2f870f432958",
-   "f174716114a913",
-   "f9eb89f74ed89d"
-  ]
+  "anciens_ids": []
  },
  {
   "id": "692bf12463a9e4",
@@ -12988,9 +13222,7 @@
     "Agents IA"
    ]
   },
-  "anciens_ids": [
-   "641fd03bcae8fe"
-  ]
+  "anciens_ids": []
  },
  {
   "id": "3ea3de408bbe32",
@@ -13365,12 +13597,7 @@
   "signal": 1.2,
   "signal_raison": "N°8 des tendances Hugging Face",
   "societe_force": null,
-  "echos": [
-   {
-    "source": "Hugging Face",
-    "lien": "https://huggingface.co/blog/LiquidAI/lfm25-24b-a2b"
-   }
-  ],
+  "echos": [],
   "societe": "huggingface",
   "score": 4.2,
   "raisons": [
@@ -13410,9 +13637,7 @@
     "Agents"
    ]
   },
-  "anciens_ids": [
-   "550c4c02e9ff21"
-  ]
+  "anciens_ids": []
  },
  {
   "id": "de6b851d2dac5b",
@@ -14574,12 +14799,7 @@
   "rubrique": "veille",
   "date": "2026-10-07T00:00:00+00:00",
   "extrait": "GPT‑6 is rolling out globally in ChatGPT with Intelligent UI, delivering faster responses with visuals and interactive experiences you can explore and use directly.",
-  "echos": [
-   {
-    "source": "OpenAI (actus)",
-    "lien": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE9ZcDg5SXNmVWFZbnFGQkVMYjVFNjBxeUVDWlN2RFJNREhRb0xXbmRsUWhWRnkzOWNHSjgxT3ROQk96VkZ3OHR4X2JrZDNmUThOa3ZJWU9zcw?oc=5"
-   }
-  ],
+  "echos": [],
   "score": 8.0,
   "local": false,
   "categorie": "Modèles",
@@ -14618,9 +14838,7 @@
     "Interface utilisateur"
    ]
   },
-  "anciens_ids": [
-   "b864ed51fa458d"
-  ]
+  "anciens_ids": []
  },
  {
   "id": "4dd290070848fb",
@@ -15110,9 +15328,7 @@
   "local": false,
   "categorie": "Modèles",
   "flair": 1,
-  "anciens_ids": [
-   "680f178e4cbf1d"
-  ]
+  "anciens_ids": []
  },
  {
   "id": "413a3fa5c4c0ba",
@@ -15130,9 +15346,7 @@
   "local": false,
   "categorie": "Modèles",
   "flair": 1,
-  "anciens_ids": [
-   "050343820c4918"
-  ]
+  "anciens_ids": []
  },
  {
   "id": "190fc47cf600b6",
@@ -15260,9 +15474,7 @@
   "local": false,
   "categorie": "Actualité",
   "flair": 1,
-  "anciens_ids": [
-   "b0ccc481380399"
-  ]
+  "anciens_ids": []
  },
  {
   "id": "89764eae00994c",
@@ -15715,12 +15927,7 @@
   "rubrique": "veille",
   "date": "2026-09-30T20:01:45+00:00",
   "extrait": "",
-  "echos": [
-   {
-    "source": "Google Gemini (actus)",
-    "lien": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNRjB3amppaF9yb1FhSmxoUW5GUEtCREcxbW1ScXJRRWN5ZGtIM0N0d21wVEI3ZTd5ZHY4N09KRWNwX3U2Z3JBeDNWakYxYXlBVE95NEpKWW5vcWFKZlA5Qkdka3hGZG9INUZtMVN2VTJhWG1TTldVSE1JVm5VaVlvcnpWRlhzX0V1NGJXZGhfMEY?oc=5"
-   }
-  ],
+  "echos": [],
   "score": 6.8,
   "local": false,
   "categorie": "Modèles",
@@ -15759,9 +15966,7 @@
     "IA générative"
    ]
   },
-  "anciens_ids": [
-   "60f2867bc71bce"
-  ]
+  "anciens_ids": []
  },
  {
   "id": "0a622a33b8e3e3",

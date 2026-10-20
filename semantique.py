@@ -23,8 +23,12 @@ DIMS = 256          # on tronque les empreintes : assez précis, cache léger
 LOT = 50            # articles envoyés par requête
 
 # Seuils de similarité (cosinus entre -1 et 1)
-SEUIL_FORT = float(os.getenv("SEUIL_FORT", "0.90"))   # même sujet sans autre condition
-SEUIL_MOYEN = float(os.getenv("SEUIL_MOYEN", "0.84"))
+# Mesuré sur les vraies données (20/10/2026) : un même événement raconté par deux médias
+# donne 0,84 à 0,89 ; deux publications différentes peuvent aussi monter à 0,86.
+# Donc : au-dessus de SEUIL_FORT, doublon évident ; entre les deux, l'IA tranche.
+SEUIL_FORT = float(os.getenv("SEUIL_FORT", "0.93"))
+SEUIL_ARBITRAGE = float(os.getenv("SEUIL_ARBITRAGE", "0.80"))
+MAX_ARBITRAGES = int(os.getenv("MAX_ARBITRAGES", "40"))  # paires soumises à l'IA par passage
 
 FUSIONS = []  # (cosinus, raison, titre A, titre B), pour vérifier les fusions faites  # même sujet si un indice concret le confirme
 
@@ -90,6 +94,23 @@ def empreintes(items, cle, url_chat):
     return cache
 
 
+def cle_paire(a, b):
+    return "|".join(sorted((a, b)))
+
+
+def charger_arbitrages():
+    try:
+        return json.loads((ETAT / "arbitrages.json").read_text(encoding="utf-8"))
+    except (FileNotFoundError, json.JSONDecodeError):
+        return {}
+
+
+def sauver_arbitrages(memo, ids_actuels):
+    garde = {k: v for k, v in memo.items() if all(i in ids_actuels for i in k.split("|"))}
+    ETAT.mkdir(parents=True, exist_ok=True)
+    (ETAT / "arbitrages.json").write_text(json.dumps(garde, indent=0), encoding="utf-8")
+
+
 def cosinus(a, b):
     return sum(x * y for x, y in zip(a, b))
 
@@ -109,5 +130,5 @@ def releve_similarites(items, vecteurs, n=60):
     paires.sort(reverse=True)
     choix = paires[:n] + [p for p in paires if 0.78 <= p[0] < 0.88][:40]
     (ETAT / "similarites.json").write_text(
-        json.dumps({"seuils": [SEUIL_FORT, SEUIL_MOYEN], "fusions_du_passage": FUSIONS, "paires_non_fusionnees": choix}, ensure_ascii=False, indent=1),
+        json.dumps({"seuils": {"doublon": SEUIL_FORT, "arbitrage_ia": SEUIL_ARBITRAGE}, "fusions_du_passage": FUSIONS, "paires_non_fusionnees": choix}, ensure_ascii=False, indent=1),
         encoding="utf-8")
