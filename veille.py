@@ -228,7 +228,11 @@ def meme_sujet(a, b, vecteurs=None, arbitrages=None):
         ratio = SequenceMatcher(None, a["_tn"], b["_tn"]).ratio()
         ja, jb = a["_tok"], b["_tok"]
         jac = len(ja & jb) / len(ja | jb) if ja and jb else 0
-        raison = "titres proches" if (ratio > 0.72 or jac >= 0.5 or (bool(a["_mod"] & b["_mod"]) and jac >= 0.2)) else None
+        if vecteurs:
+            # empreintes activées mais manquantes pour l'un des deux (quota) : seulement les titres quasi identiques
+            raison = "titres quasi identiques" if (ratio > 0.88 or jac >= 0.7) else None
+        else:
+            raison = "titres proches" if (ratio > 0.72 or jac >= 0.5 or (bool(a["_mod"] & b["_mod"]) and jac >= 0.2)) else None
     if raison:
         semantique.FUSIONS.append((None, raison, a["titre"][:110], b["titre"][:110]))
     return bool(raison)

@@ -12,6 +12,7 @@ import json
 import math
 import os
 import sys
+import time
 from datetime import datetime
 from pathlib import Path
 
@@ -20,7 +21,7 @@ import requests
 ETAT = Path(__file__).parent / "etat"
 CACHE = ETAT / "embeddings.json"
 DIMS = 256          # on tronque les empreintes : assez précis, cache léger
-LOT = 50            # articles envoyés par requête
+LOT = 20            # articles envoyés par requête (quota gratuit par minute)
 
 # Seuils de similarité (cosinus entre -1 et 1)
 # Mesuré sur les vraies données (20/10/2026) : un même événement raconté par deux médias
@@ -71,17 +72,27 @@ def empreintes(items, cle, url_chat):
         s.headers.update({"Authorization": f"Bearer {cle}", "Content-Type": "application/json"})
         modele = _choisir_modele(s, url_base)
         print(f"→ Empreintes de sens : {len(manquants)} sujet(s) avec {modele}")
-        for i in range(0, len(manquants), LOT):
+        faits, essais = 0, 0
+        i = 0
+        while i < len(manquants):
             lot = manquants[i:i + LOT]
             try:
                 r = s.post(f"{url_base}/embeddings", timeout=90,
                            json={"model": modele, "input": [texte_de(it) for it in lot]})
                 if r.status_code == 429:
-                    print("  ⏸ quota d'empreintes atteint, la suite au prochain passage")
-                    break
+                    essais += 1
+                    if essais > 4:
+                        print(f"  ⏸ quota d'empreintes atteint ({faits} faites), la suite au prochain passage")
+                        break
+                    time.sleep(20 * essais)  # on patiente que le quota par minute se libère
+                    continue
                 r.raise_for_status()
+                essais = 0
                 for it, d in zip(lot, sorted(r.json()["data"], key=lambda d: d.get("index", 0))):
                     cache[it["id"]] = _normaliser(d["embedding"])
+                faits += len(lot)
+                i += LOT
+                time.sleep(1.5)
             except Exception as e:
                 print(f"  ✗ empreintes indisponibles ({e}) : regroupement par les titres", file=sys.stderr)
                 break
