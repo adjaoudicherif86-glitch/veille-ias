@@ -231,7 +231,45 @@ h3.section{font:800 24px/1.1 var(--titre);letter-spacing:-.01em;margin:30px 0 14
 .fait p{margin:6px 0 4px}
 .fait small a{color:var(--doux)}
 
+/* Fils d'histoire */
+.avancent{margin:22px 0 4px}
+.avancent-tete{display:flex;align-items:baseline;justify-content:space-between;gap:12px;margin-bottom:10px}
+.avancent-tete h2{font:800 22px/1.15 var(--titre);letter-spacing:-.015em;margin:0}
+.avancent-tete a{font-weight:700;font-size:14px;color:var(--foret)}
+.fils{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px}
+.fil-carte{display:flex;flex-direction:column;align-items:flex-start;gap:6px;text-align:left;cursor:pointer;background:var(--surface);border:1px solid var(--trait);border-left:5px solid var(--foret);border-radius:6px 16px 16px 6px;padding:14px 16px;min-width:0}
+.fil-carte:hover{border-color:var(--foret)}
+.fil-carte h3{font:700 17px/1.2 var(--titre);margin:0}
+.fil-carte .ep{font-size:13px;font-weight:700;color:var(--foret)}
+.fil-carte p{margin:0;font-size:14.5px;color:var(--doux);display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden}
+.perles{display:flex;gap:4px;align-items:center;margin-top:auto;padding-top:4px}
+.perles i{width:9px;height:9px;border-radius:50%;background:var(--trait)}
+.perles i.recent{background:var(--foret)}
+.histoires{display:grid;grid-template-columns:repeat(auto-fill,minmax(360px,1fr));gap:14px;padding-bottom:60px}
+.histoires .fil-carte{padding:18px 20px}
+.histoires .fil-carte h3{font-size:20px}
+.histoires .fil-carte.dort{border-left-color:var(--trait);opacity:.8}
+.statut{font-size:12.5px;font-weight:700;padding:2px 9px;border-radius:99px;background:var(--foret-pale);color:var(--foret)}
+.statut.dort{background:var(--surface2);color:var(--doux)}
+.badge.fil{background:var(--foret-pale);border-color:transparent;color:var(--foret);font-weight:700;max-width:260px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.encart-fil{border:1px solid var(--trait);border-left:5px solid var(--foret);border-radius:6px 16px 16px 6px;padding:14px 16px;margin:18px 0 6px;background:var(--surface)}
+.encart-fil small{color:var(--foret);font-weight:700}
+.encart-fil strong{display:block;font:700 18px/1.2 var(--titre);margin:2px 0 6px}
+.encart-fil p{margin:0 0 8px;font-size:15px}
+.chrono{list-style:none;margin:6px 0 0;padding:0;border-left:3px solid var(--foret-pale);margin-left:6px}
+.chrono li{position:relative;padding:0 0 14px 20px}
+.chrono li::before{content:"";position:absolute;left:-8px;top:5px;width:13px;height:13px;border-radius:50%;background:var(--surface);border:3px solid var(--foret)}
+.chrono li.ici::before{background:var(--blaze);border-color:var(--blaze)}
+.chrono time{display:block;font-size:13px;font-weight:700;color:var(--doux)}
+.chrono .ep-titre{font-weight:700;margin:1px 0 2px}
+.chrono .ep-titre a,.chrono .ep-titre button{all:unset;cursor:pointer;text-decoration:underline;text-decoration-color:var(--trait);text-underline-offset:3px}
+.chrono .ep-titre button:focus-visible{outline:3px solid var(--blaze)}
+.chrono p{margin:0;font-size:15px;color:var(--doux)}
+.chrono .ep-meta{font-size:13px;color:var(--doux)}
+.ou-en-est{background:var(--foret-pale);border-radius:14px;padding:14px 16px;margin:12px 0}
 @media (max-width:900px){
+  .fils{grid-template-columns:1fr}
+  .histoires{grid-template-columns:1fr}
   .cinq{grid-template-columns:1fr 1fr}
   .carte.premier{padding:24px 20px 22px 20px}
   .carte.premier .rang{position:static;font-size:60px;margin-bottom:6px}
@@ -261,6 +299,7 @@ h3.section{font:800 24px/1.1 var(--titre);letter-spacing:-.01em;margin:30px 0 14
     </h1>
     <nav class="onglets" aria-label="Sections">
       <a href="#veille" data-vue="veille">Veille</a>
+      <a href="#histoires" data-vue="histoires">Histoires</a>
       <a href="#annuaire" data-vue="annuaire">Les IA</a>
       <a href="#controle" data-vue="controle">Contrôle et pouvoir</a>
     </nav>
@@ -275,6 +314,10 @@ h3.section{font:800 24px/1.1 var(--titre);letter-spacing:-.01em;margin:30px 0 14
   <section class="une" id="une" hidden>
     <div class="une-tete"><h2>Les 5 à suivre cette semaine</h2><p id="une-sous"></p></div>
     <ol class="cinq" id="cinq"></ol>
+  </section>
+  <section class="avancent" id="avancent" hidden>
+    <div class="avancent-tete"><h2>Les histoires qui avancent</h2><a href="#histoires">Toutes les histoires</a></div>
+    <div class="fils" id="fils"></div>
   </section>
   <section class="brief" id="brief" hidden></section>
 
@@ -316,6 +359,18 @@ h3.section{font:800 24px/1.1 var(--titre);letter-spacing:-.01em;margin:30px 0 14
       <button class="plus" id="plus" hidden>Afficher plus</button>
     </main>
   </div>
+  </section>
+
+  <section class="vue" id="vue-histoires" hidden>
+    <div class="entete-vue">
+      <h2>Les histoires suivies</h2>
+      <p>Une histoire est une affaire qui se joue sur plusieurs épisodes : un lancement et ses suites, un conflit, une régulation qui avance. Le chien rattache chaque actu importante à son histoire, note ce que l'épisode change et tient à jour le point de la situation.</p>
+    </div>
+    <div class="puces" id="filtre-hist" role="group" aria-label="Filtrer les histoires">
+      <button class="puce" data-f="active" aria-pressed="true">En cours</button>
+      <button class="puce" data-f="tout" aria-pressed="false">Toutes</button>
+    </div>
+    <div class="histoires" id="liste-hist"></div>
   </section>
 
   <section class="vue" id="vue-annuaire" hidden>
@@ -360,7 +415,7 @@ const store = {
   get(k, d){ try{ const v = localStorage.getItem("flair:"+k); return v ? JSON.parse(v) : d; }catch{ return d; } },
   set(k, v){ try{ localStorage.setItem("flair:"+k, JSON.stringify(v)); }catch{} }
 };
-let SOCS = {}, ITEMS = [], TOUS = [], META = {}, ANNUAIRE = null, CONTROLE = null, tacheActive = null, lus = new Set(store.get("lus", [])), favs = new Set(store.get("favs", []));
+let HIST = [], filtreHist = "active", SOCS = {}, ITEMS = [], TOUS = [], META = {}, ANNUAIRE = null, CONTROLE = null, tacheActive = null, lus = new Set(store.get("lus", [])), favs = new Set(store.get("favs", []));
 const etat = {q:"", heures:168, tri:"flair", cat:null, type:null, soc:null, pc:false, nonlu:false, fav:false, chaud:false, limite:60, actif:-1};
 let visibles = [];
 
@@ -431,11 +486,12 @@ async function charger(){
   try{ const d = await (await fetch("data/societes.json",{cache:"no-store"})).json(); d.societes.forEach(x => SOCS[x.id] = x); }catch{ SOCS = {}; }
   try{ ANNUAIRE = await (await fetch("data/annuaire.json",{cache:"no-store"})).json(); }catch{ ANNUAIRE = null; }
   try{ CONTROLE = await (await fetch("data/controle.json",{cache:"no-store"})).json(); }catch{ CONTROLE = null; }
+  try{ HIST = (await (await fetch("data/histoires.json",{cache:"no-store"})).json()).histoires.filter(h => h.episodes.length >= 2); }catch{ HIST = []; }
   const nbSources = (META.sources_ok||[]).length;
   $("#etat").innerHTML = META.maj
     ? `Dernière chasse <b>${depuis(META.maj)}</b><br>${nbSources} sources, ${META.analyses||0} sujets expliqués${(META.sources_ko||[]).length?`, ${(META.sources_ko).length} en panne`:""}`
     : "Pas encore de chasse";
-  rendreUne(); rendreBrief(); rendreFiltres(); rendre(); rendreAnnuaire(); rendreControle(); router();
+  rendreUne(); rendreAvancent(); rendreBrief(); rendreFiltres(); rendre(); rendreAnnuaire(); rendreControle(); rendreHistoires(); router();
 }
 
 function rendreBrief(){
@@ -514,6 +570,7 @@ function rendre(){
         ${ch?`<p class="chapo">${esc(ch)}</p>`:""}
         <div class="meta">
           ${socChip(it)}${it.primaire?`<span class="badge prim">Source primaire</span>`:""}<span>${esc(it.source)}</span><span>${depuis(it.date)}</span>
+          ${(h => h ? `<span class="badge fil" title="${esc(h.titre)}">Épisode ${h.episodes.findIndex(e=>e.id===it.id)+1} · ${esc(h.titre)}</span>` : "")(histoireDe(it))}
           ${it.categorie?`<span class="badge">${esc(it.categorie)}</span>`:""}
           ${it.local?`<span class="badge pc">Sur mon PC</span>`:""}
           ${(n => n ? `<span class="badge echo">+${n} source${n>1?"s":""}</span>` : "")(new Set((it.echos||[]).map(e=>e.source)).size)}
@@ -563,6 +620,7 @@ function ouvrir(id, silencieux){
       ${a?.niveau?`<span class="badge">Niveau ${esc(a.niveau)}</span>`:""}
       ${(a?.tags||[]).map(t=>`<span class="badge">${esc(t)}</span>`).join("")}
     </div>
+    ${encartHistoire(it)}
     ${carteSociete(it)}
     ${a?.a_retenir ? `<p class="retenir">${esc(a.a_retenir)}</p>` : ""}
     ${it.raisons?.length ? `<h3>Pourquoi le chien l'a remonté</h3><div class="raisons">${it.raisons.map(r=>`<span>${esc(r)}</span>`).join("")}</div>` : ""}
@@ -584,6 +642,7 @@ function ouvrir(id, silencieux){
   p.querySelector(".fermer").onclick = fermer;
   p.querySelector("[data-fav]").onclick = () => basculerFav(it.id);
   montrerPanneau(); brancherSociete();
+  p.querySelector("[data-histoire]")?.addEventListener("click", e => { e.preventDefault(); ouvrirHistoire(e.currentTarget.dataset.histoire); });
   if (!silencieux){ p.scrollTop = 0; p.querySelector(".fermer").focus(); rendre(); }
 }
 function montrerPanneau(){ const p=$("#panneau"); p.classList.add("ouvert"); p.setAttribute("aria-hidden","false"); $("#voile").classList.add("ouvert"); }
@@ -617,6 +676,70 @@ function rendreAnnuaire(){
   }).join("");
   $("#annuaire").querySelectorAll(".fiche").forEach(b => b.onclick = () => ouvrirIA(b.dataset.ia));
 }
+// ----- Fils d'histoire -----
+const histoireDe = it => it.histoire ? HIST.find(h => h.id === it.histoire) : null;
+const dateCourte = d => new Date(d).toLocaleDateString("fr-FR",{day:"numeric",month:"long"});
+const perles = h => `<div class="perles" aria-label="${h.episodes.length} épisodes">${h.episodes.slice(-12).map(e=>`<i class="${Date.now()-new Date(e.date)<7*864e5?"recent":""}"></i>`).join("")}</div>`;
+function carteFil(h, grand){
+  const der = h.episodes[h.episodes.length-1];
+  const socs = (h.societes||[]).map(id=>SOCS[id]).filter(Boolean).slice(0,3);
+  return `<button class="fil-carte ${h.statut!=="active"?"dort":""}" data-h="${h.id}">
+    ${grand ? `<span class="statut ${h.statut!=="active"?"dort":""}">${h.statut==="active"?"En cours":"En sommeil"}</span>` : ""}
+    <h3>${esc(h.titre)}</h3>
+    <span class="ep">Épisode ${h.episodes.length}, ${dateCourte(der.date)}</span>
+    <p>${esc(grand ? (h.resume || der.neuf) : (der.neuf || der.titre))}</p>
+    ${grand && socs.length ? `<div class="meta">${socs.map(x=>`<span class="soc">${mono(x)}<span class="soc-nom">${esc(x.nom)}</span></span>`).join("")}</div>` : ""}
+    ${perles(h)}
+  </button>`;
+}
+function rendreAvancent(){
+  const el = $("#avancent");
+  const hs = HIST.filter(h => h.statut === "active" && Date.now()-new Date(h.maj) < 7*864e5)
+    .sort((a,b) => b.episodes.filter(e=>Date.now()-new Date(e.date)<7*864e5).length - a.episodes.filter(e=>Date.now()-new Date(e.date)<7*864e5).length || b.maj.localeCompare(a.maj)).slice(0,3);
+  if (!hs.length){ el.hidden = true; return; }
+  el.hidden = false;
+  $("#fils").innerHTML = hs.map(h => carteFil(h, false)).join("");
+  $("#fils").querySelectorAll(".fil-carte").forEach(b => b.onclick = () => ouvrirHistoire(b.dataset.h));
+}
+function rendreHistoires(){
+  const hs = HIST.filter(h => filtreHist === "tout" || h.statut === "active");
+  $("#filtre-hist").querySelectorAll(".puce").forEach(b => { b.setAttribute("aria-pressed", b.dataset.f===filtreHist); b.onclick = () => { filtreHist = b.dataset.f; rendreHistoires(); }; });
+  $("#liste-hist").innerHTML = hs.length ? hs.map(h => carteFil(h, true)).join("")
+    : `<p class="vide"><strong>Pas encore d'histoire suivie</strong>Elles apparaissent dès qu'une affaire compte au moins deux épisodes.</p>`;
+  $("#liste-hist").querySelectorAll(".fil-carte").forEach(b => b.onclick = () => ouvrirHistoire(b.dataset.h));
+}
+function chrono(h, ici){
+  return `<ol class="chrono">${[...h.episodes].reverse().map(e => {
+    const dispo = TOUS.some(i => i.id === e.id);
+    const titre = dispo ? `<button data-item="${e.id}">${esc(e.titre)}</button>` : `<a href="${esc(e.lien)}" target="_blank" rel="noopener">${esc(e.titre)}</a>`;
+    return `<li class="${e.id===ici?"ici":""}"><time>${dateCourte(e.date)}</time><div class="ep-titre">${titre}</div>
+      ${e.neuf?`<p>${esc(e.neuf)}</p>`:""}<div class="ep-meta">${esc(e.source)}${e.nb_sources>1?`, ${e.nb_sources} sources`:""}${e.primaire?", source primaire":""}</div></li>`;
+  }).join("")}</ol>`;
+}
+function brancherChrono(){ $("#panneau").querySelectorAll("[data-item]").forEach(b => b.onclick = e => { e.preventDefault(); ouvrir(b.dataset.item); }); }
+function encartHistoire(it){
+  const h = histoireDe(it); if (!h) return "";
+  const n = h.episodes.findIndex(e => e.id === it.id) + 1;
+  const ep = h.episodes[n-1];
+  return `<div class="encart-fil"><small>Épisode ${n} sur ${h.episodes.length} de l'histoire</small><strong>${esc(h.titre)}</strong>
+    ${ep?.neuf ? `<p><b>Ce que cet épisode change :</b> ${esc(ep.neuf)}</p>` : ""}
+    <a href="#" data-histoire="${h.id}">Voir toute l'histoire</a></div>`;
+}
+function ouvrirHistoire(id){
+  const h = HIST.find(x => x.id === id); if (!h) return;
+  const socs = (h.societes||[]).map(x=>SOCS[x]).filter(Boolean);
+  const sources = new Set(h.episodes.map(e=>e.source)).size;
+  panneau(`
+    <span class="statut ${h.statut!=="active"?"dort":""}">${h.statut==="active"?"En cours":"En sommeil"}</span>
+    <h2>${esc(h.titre)}</h2>
+    <div class="meta">${socs.map(x=>`<span class="soc">${mono(x)}<span class="soc-nom">${esc(x.nom)}</span></span>`).join("")}
+      <span>${h.episodes.length} épisodes, du ${dateCourte(h.episodes[0].date)} au ${dateCourte(h.maj)}, ${sources} source${sources>1?"s":""}</span></div>
+    ${h.resume ? `<h3>Où en est-on</h3><div class="ou-en-est">${esc(h.resume)}</div>` : ""}
+    <h3>Les épisodes, du plus récent au plus ancien</h3>
+    ${chrono(h)}`);
+  brancherChrono();
+}
+
 function ouvrirIA(id){
   const ia = ANNUAIRE.ia.find(x=>x.id===id); if (!ia) return;
   const actus = mentions(ia, 0).slice(0, 8);
@@ -688,6 +811,7 @@ function ouvrirControle(it){
     ${jauge(it.flair)}
     <h2>${esc(titreDe(it))}</h2>
     <div class="meta"><span>${esc(it.source)}</span><span>${depuis(it.date)}</span>${it.categorie?`<span class="badge">${esc(it.categorie)}</span>`:""}${a?.preuve?pastille(a.preuve):""}</div>
+    ${encartHistoire(it)}
     ${a ? `
       <h3>Ce qui s'est passé</h3><p>${esc(a.resume)}</p>
       <h3>La crainte</h3><div class="bloc-recit">${esc(a.la_crainte)}</div>
@@ -696,12 +820,13 @@ function ouvrirControle(it){
       ${a.a_surveiller?`<h3>À surveiller</h3><p>${esc(a.a_surveiller)}</p>`:""}
     ` : `<h3>Extrait</h3><p>${esc(it.extrait || "Pas d'extrait fourni par la source.")}</p><p class="sans-analyse">Pas encore analysé. Il le sera au prochain passage s'il fait partie des sujets les plus importants.</p>`}
     <div class="actions"><a class="cta" href="${esc(it.lien)}" target="_blank" rel="noopener">Lire la source</a></div>`);
+  $("#panneau").querySelector("[data-histoire]")?.addEventListener("click", e => { e.preventDefault(); ouvrirHistoire(e.currentTarget.dataset.histoire); });
   rendreFilControle();
 }
 
 // ----- Navigation -----
 function router(){
-  const vue = ["veille","annuaire","controle"].includes(location.hash.slice(1)) ? location.hash.slice(1) : "veille";
+  const vue = ["veille","histoires","annuaire","controle"].includes(location.hash.slice(1)) ? location.hash.slice(1) : "veille";
   document.querySelectorAll(".vue").forEach(v => v.hidden = v.id !== "vue-"+vue);
   document.querySelectorAll("nav.onglets a").forEach(a => a.dataset.vue===vue ? a.setAttribute("aria-current","page") : a.removeAttribute("aria-current"));
   fermer();

@@ -30,6 +30,7 @@ import requests
 
 import primaires
 import semantique
+import histoires
 
 RACINE = Path(__file__).parent
 DATA = RACINE / "docs" / "data"
@@ -635,6 +636,20 @@ def main():
         print(f"  (relevé des similarités impossible : {e})", file=sys.stderr)
     llm = analyser(items)
     items = flairer(items)  # re-score avec l'importance donnée par l'IA
+
+    def demander(consigne, message):
+        c = connexion_llm()
+        if not c:
+            return None
+        try:
+            return extraire_json(appeler_llm(c[0], c[1], consigne, message, 0.2))
+        except Exception as e:
+            print(f"  (fils d'histoire : requête impossible, {e})", file=sys.stderr)
+            return None
+    try:
+        histoires.suivre(items, vecteurs, demander if LLM_API_KEY else None)
+    except Exception as e:
+        print(f"  (fils d'histoire indisponibles : {e})", file=sys.stderr)
     items.sort(key=lambda i: i["date"], reverse=True)
 
     meta_ancienne = charger_json(FICHIER_META, {})
