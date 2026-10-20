@@ -1,5 +1,5 @@
 {
- "maj": "2026-10-20T09:36:36.454712+00:00",
+ "maj": "2026-10-20T09:50:55.623255+00:00",
  "sources_ok": [
   "Notes de version Claude (API)",
   "Notes de version OpenAI (API)",
@@ -57,15 +57,15 @@
    "erreur": "429 Client Error: Too Many Requests for url: https://venturebeat.com/category/ai/feed/"
   }
  ],
- "total": 457,
- "analyses": 310,
+ "total": 451,
+ "analyses": 325,
  "brief": {
-  "titre": "Modèles ouverts, puces et agents autonomes dominent l'actualité",
-  "texte": "L'écosystème open-weights s'accélère avec l'arrivée de nouveaux modèles signés Nvidia, l'intégration de DeepSeek-V4.1-Flash par Unsloth et la libération de Harness2 par Google pour des agents auto-améliorants. Côté infrastructure, Tenstorrent atteint 6,2 milliards de valorisation pour ses puces ouvertes tandis qu'Amazon lance TorchNeuron pour concurrencer Nvidia sur PyTorch. Les investissements massifs continuent avec de potentielles discussions à 45 milliards pour Anthropic, malgré des défis persistants en matière de sécurité et de gouvernance. Enfin, les géants déploient massivement des agents spécialisés, de Google DeepMind dans Minecraft aux partenariats sectoriels avec Accenture.",
+  "titre": "Modèles ouverts, puces et agents : l'écosystème IA s'accélère",
+  "texte": "L'actualité de l'IA est marquée par une forte dynamique autour des modèles ouverts et des agents autonomes. Nvidia et Unsloth renforcent l'offre open-source avec de nouveaux modèles et intégrations, tandis que Google libère Harness2 pour des agents auto-améliorants. Les investissements atteignent des sommets, illustrés par la valorisation de Tenstorrent et les discussions massives d'Anthropic. Enfin, les géants comme Amazon et Microsoft structurant leurs offres matérielles et sécuritaires face à Nvidia.",
   "a_tester": [
-   "Tester les dernières optimisations d'Unsloth avec DeepSeek-V4.1-Flash",
-   "Explorer les nouveaux modèles ouverts Nvidia pour les agents sur PC",
-   "Évaluer TorchNeuron d'Amazon pour vos flux de travail PyTorch"
+   "Tester les nouveaux modèles ouverts de Nvidia pour vos cas d'usage sur PC",
+   "Explorer l'intégration de DeepSeek-V4.1-Flash via Unsloth pour vos projets",
+   "Évaluer les capacités de codage de ChatGPT sur des langages rares"
   ]
  },
  "top5": {
