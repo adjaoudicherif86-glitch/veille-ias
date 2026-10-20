@@ -1,18 +1,12 @@
 {
- "seuils": [
-  0.9,
-  0.84
- ],
+ "seuils": {
+  "doublon": 0.93,
+  "arbitrage_ia": 0.8
+ },
  "fusions_du_passage": [
   [
    null,
-   "titres proches",
-   "Ollama v0.40.7",
-   "Ollama v0.40.6"
-  ],
-  [
-   null,
-   "titres proches",
+   "même titre",
    "Gemini 4 Argon: Built to solve your hardest problems",
    "Gemini 4 Argon: Built to solve your hardest problems"
   ],
@@ -43,38 +37,32 @@
   [
    null,
    "titres proches",
-   "Gemini 4 Argon: our next era of frontier intelligence - blog.google",
-   "Gemini 4 Argon: our next era of frontier intelligence"
-  ],
-  [
-   null,
-   "titres proches",
    "Musk Says He’ll Rename SpaceXAI To ‘SpaceXSI’ - Forbes",
    "Musk says he will rename SpaceXAI to SpaceXSI - Reuters"
   ],
   [
    null,
-   "titres proches",
+   "même titre",
    "GPT-6 and Intelligent UI for everyone - OpenAI",
    "GPT-6 and Intelligent UI for everyone"
   ],
   [
-   null,
-   "titres proches",
-   "Google launches flagship AI model Gemini 4 Argon for developers, businesses - Reuters",
-   "Gemini 4 Argon for Robotics"
+   0.869,
+   "même événement selon l'IA",
+   "China proposes adding 40 AI, biotech, solar technologies to export control list - Yahoo",
+   "China mulls new tech export bans covering AI, biotechnology and solar power - South China Morning Post"
   ],
   [
-   null,
-   "titres proches",
-   "Gemini 4 Argon: Built to solve your hardest problems - blog.google",
-   "Gemini 4 Argon: Built to solve your hardest problems"
+   0.842,
+   "même événement selon l'IA",
+   "China Plans AI Tech Export Curbs to Manage Security Risks - Bloomberg.com",
+   "China Proposes Export Controls on AI Technologies - WSJ"
   ],
   [
-   null,
-   "titres proches",
-   "Developing Gemini 4 Argon responsibly and safely - blog.google",
-   "Gemini 4 Argon: Built to solve your hardest problems"
+   0.845,
+   "même événement selon l'IA",
+   "Taiwan to impose strict controls on AI chip exports to China - Taiwan News",
+   "Taiwan to Curb AI Chip Exports to China as Part of US Trade Deal - Bloomberg.com"
   ],
   [
    null,
@@ -90,21 +78,57 @@
   ],
   [
    null,
-   "titres proches",
+   "même titre",
    "Jev is Vercel’s fastest-adopted AI model ever - TechCrunch",
    "Jev is Vercel’s fastest-adopted AI model ever"
   ],
   [
+   0.945,
+   "sens quasi identique",
+   "Physical AI is more than robots, says the Nvidia veteran now investing in it",
+   "An Nvidia insider-turned-VC on why robotics hasn’t hit its ChatGPT moment, yet"
+  ],
+  [
    null,
-   "titres proches",
+   "même titre",
    "Designing more efficient quantum circuits with Claude",
    "Designing more efficient quantum circuits with Claude - Anthropic"
   ],
   [
    null,
-   "titres proches",
+   "même titre",
    "Claude reveals ECDSA curve origins",
    "Claude reveals ECDSA curve origins - Anthropic"
+  ],
+  [
+   0.838,
+   "même événement selon l'IA",
+   "Beijing seeks tighter grip on AI exports amid US rivalry - Reuters",
+   "China Proposes Export Controls on AI Technologies - WSJ"
+  ],
+  [
+   0.861,
+   "même événement selon l'IA",
+   "China Reportedly Planning AI Export Controls, Citing National Security - PCMag",
+   "China Proposes Export Controls on AI Technologies - WSJ"
+  ],
+  [
+   0.922,
+   "même événement selon l'IA",
+   "Anthropic’s Claude Designs Leaner Quantum Circuits, Reducing Resources Needed for Key Calculations - The Quant",
+   "Designing more efficient quantum circuits with Claude - Anthropic"
+  ],
+  [
+   0.906,
+   "même événement selon l'IA",
+   "Meta removes language that may have allowed it to scrape news sites",
+   "Meta’s new terms may allow it to train AI on news sites for free"
+  ],
+  [
+   0.869,
+   "même événement selon l'IA",
+   "Meta removes language that raised scraping and AI training concerns",
+   "Meta’s new terms may allow it to train AI on news sites for free"
   ],
   [
    null,
@@ -114,15 +138,45 @@
   ],
   [
    0.888,
-   "sens proche + mêmes mots-clés",
+   "même événement selon l'IA",
    "Anthropic's proposed AI safety bill only kicks in if 50 deaths or $1B in damages",
    "Anthropic’s proposed AI safety bill only kicks in if 50 deaths or $1 billion in damages are on the line — prop"
+  ],
+  [
+   0.859,
+   "même événement selon l'IA",
+   "China Proposes Expanded Export Controls on AI, Biopharma and Solar Energy Technologies - Global Sanctions and ",
+   "China mulls new tech export bans covering AI, biotechnology and solar power - South China Morning Post"
   ],
   [
    null,
    "titres proches",
    "China considers export controls on AI, chips - Semafor",
    "China Proposes Export Controls on AI Technologies - WSJ"
+  ],
+  [
+   0.87,
+   "même événement selon l'IA",
+   "MiniMax M3.1 Flash released, Model weights Oct 23",
+   "MiniMax-M3.1-Flash is coming"
+  ],
+  [
+   0.884,
+   "même événement selon l'IA",
+   "Anthropic wants AI models blocked only if they threaten over $1 billion in damage or more than 50 deaths or se",
+   "Anthropic’s proposed AI safety bill only kicks in if 50 deaths or $1 billion in damages are on the line — prop"
+  ],
+  [
+   0.882,
+   "même événement selon l'IA",
+   "Accenture and Google Launch Gemini AI Agent Programme for US Federal Agencies - Yahoo Finance",
+   "Accenture Federal Services and Google Public Sector Establish Gemini Launchpads to Power Purpose-Built Agents "
+  ],
+  [
+   0.859,
+   "même événement selon l'IA",
+   "Emil Michael tells The Information export controls can rein in AI labs - The Next Web",
+   "Pentagon’s Emil Michael Vows Export Controls if AI Labs Don’t Cooperate With Government - The Information"
   ],
   [
    null,
@@ -137,34 +191,46 @@
    "Four Gemini 4 Argon agents beat Minecraft without any human help - The Decoder"
   ],
   [
-   null,
-   "titres proches",
-   "Welcome to Google Gemini 4 Argon - Towards Data Science",
-   "Google DeepMind’s AI wins another game, company says Gemini 4 Argon agents beat Minecraft from scratch in - Th"
-  ],
-  [
    0.894,
-   "sens proche + mêmes mots-clés",
+   "même événement selon l'IA",
    "MiniMax M3.1 Flash Launches, Cuts AI Costs 70% [2026] - shattered.io",
    "MiniMax M3.1 Flash Launches: 3x Faster, 70% Cheaper [2026] - https://tech-insider.org/"
   ],
   [
    null,
-   "titres proches",
+   "même titre",
+   "Cognizant and Google Cloud Expand Alliance to Accelerate Agentic Enterprise Transformation - Cognizant Technol",
+   "Cognizant and Google Cloud Expand Alliance to Accelerate Agentic Enterprise Transformation - Google Cloud Pres"
+  ],
+  [
+   null,
+   "même titre",
    "Advancing coding in low‑resource programming languages - OpenAI",
    "Advancing coding in low‑resource programming languages"
   ],
   [
    null,
    "titres proches",
-   "MiniMax launches M3.1 Flash model, says it cuts AI agent costs by 70% - SiliconANGLE",
-   "MiniMax M3.1 Flash Launches, Cuts AI Costs 70% [2026] - shattered.io"
+   "Google DeepMind's Gemini agents beat Minecraft with no human help - Inven Global",
+   "Four Gemini 4 Argon agents beat Minecraft without any human help - The Decoder"
+  ],
+  [
+   null,
+   "même titre",
+   "Nscale and Anthropic are reportedly in talks for yet another $45B compute deal - TechCrunch",
+   "Nscale and Anthropic are reportedly in talks for yet another $45B compute deal"
   ],
   [
    null,
    "titres proches",
-   "Nscale and Anthropic are reportedly in talks for yet another $45B compute deal - TechCrunch",
-   "Nscale and Anthropic are reportedly in talks for yet another $45B compute deal"
+   "'It’s over, AI won': Google Gemini 4 Argon shatters 59-year-old nuclear fusion conjecture in just a few hours ",
+   "Welcome to Google Gemini 4 Argon - Towards Data Science"
+  ],
+  [
+   0.862,
+   "même événement selon l'IA",
+   "Eric Schmidt’s 1% Anthropic Stake Set to Pay Massive Windfall - Bloomberg.com",
+   "Former Google CEO Schmidt owns 1% stake in Anthropic, Bloomberg reports - Reuters"
   ],
   [
    null,
@@ -179,23 +245,40 @@
    "IA : Mistral tente de revenir dans la course avec son nouveau modèle - France 24"
   ],
   [
-   null,
-   "titres proches",
-   "L’API Gemini 4 Argon doublera ses tarifs le 1er décembre",
-   "Gemini 4 Argon for Robotics"
+   0.938,
+   "sens quasi identique",
+   "Le CERN et Mistral AI s'allient pour un « Large Physics Model » entraîné sur les collisions du LHC - Clubic",
+   "Des milliards de simulations de collision : Mistral s'associe au CERN pour créer un modèle d'IA de pointe pour"
+  ],
+  [
+   0.842,
+   "même événement selon l'IA",
+   "Anthropic propose de ne bloquer un modèle qu'en cas de risque imminent de plus de 50 morts ou blessés graves, ",
+   "Anthropic quietly pitches its own AI safety bill to lawmakers - Politico"
+  ],
+  [
+   0.878,
+   "même événement selon l'IA",
+   "Une IA capable de débusquer l'inconnu : le pari du Cern et du français Mistral pour révolutionner la physique ",
+   "Le CERN et Mistral AI s'allient pour l'IA en physique - Greater Geneva Bern area (GGBa)"
   ],
   [
    null,
-   "titres proches",
+   "même titre",
    "Mistral Large 4 devancé d'un point par Muse Spark Open, mais devant lui sur les épreuves d'agent",
    "Mistral Large 4 devancé d'un point par Muse Spark Open, mais devant lui sur les épreuves d'agent - ActuIA"
   ]
  ],
  "paires_non_fusionnees": [
   [
-   0.881,
-   "Meta removes language that may have allowed it to scrape news sites",
-   "Meta removes language that raised scraping and AI training concerns"
+   0.891,
+   "Anthropic quietly pitches its own AI safety bill to lawmakers - Politico",
+   "Anthropic is pitching Congress its own AI safety bill, report says - Mashable"
+  ],
+  [
+   0.876,
+   "AI Act : les enquêtes pourraient prolonger le délai de sanction",
+   "AI Act : les enquêtes pourraient prolonger le délai de sanction - ActuIA"
   ],
   [
    0.862,
@@ -203,24 +286,29 @@
    "LogicVal:A Logic-Formalized Benchmark for Constraint Satisfaction in Text-to-Image Generation"
   ],
   [
-   0.856,
-   "Anthropic wants AI models blocked only if they threaten over $1 billion in damage or more than 50 deaths or se",
-   "Anthropic propose de ne bloquer un modèle qu'en cas de risque imminent de plus de 50 morts ou blessés graves, "
-  ],
-  [
    0.853,
    "Anthropic’s AI Safety Bill Has an Alarming Threshold for Government Action - Mother Jones",
    "Anthropic’s proposed AI safety bill only kicks in if 50 deaths or $1 billion in damages are on the line — prop"
   ],
   [
-   0.842,
-   "Anthropic’s proposed AI safety bill only kicks in if 50 deaths or $1 billion in damages are on the line — prop",
-   "Anthropic propose de ne bloquer un modèle qu'en cas de risque imminent de plus de 50 morts ou blessés graves, "
+   0.845,
+   "Unsloth DeepSeek-V4.1 & FLUX-3",
+   "unsloth/DeepSeek-V4.1-Flash-1017-GGUF · Hugging Face"
   ],
   [
-   0.836,
-   "Anthropic is pitching Congress its own AI safety bill, report says - Mashable",
-   "Anthropic propose de ne bloquer un modèle qu'en cas de risque imminent de plus de 50 morts ou blessés graves, "
+   0.841,
+   "Anthropic quietly pitches its own AI safety bill to lawmakers - Politico",
+   "Anthropic Quietly Pushes AI Safety Bill That Would Limit Government Power to Block Dangerous Models - Law Comm"
+  ],
+  [
+   0.841,
+   "Anthropic Quietly Pushes AI Safety Bill That Would Limit Government Power to Block Dangerous Models - Law Comm",
+   "Anthropic’s proposed AI safety bill only kicks in if 50 deaths or $1 billion in damages are on the line — prop"
+  ],
+  [
+   0.835,
+   "En tendance sur Hugging Face : deepseek-ai/DeepSeek-V4.1-Flash-1017",
+   "Unsloth DeepSeek-V4.1 & FLUX-3"
   ],
   [
    0.831,
@@ -238,9 +326,9 @@
    "Anthropic says it’s committing 5% of its shares to a ‘public benefit fund’"
   ],
   [
-   0.821,
-   "IA : Anthropic préfère qu'un juge suspende un nouveau modèle considéré comme dangereux - La Tribune",
-   "Anthropic propose de ne bloquer un modèle qu'en cas de risque imminent de plus de 50 morts ou blessés graves, "
+   0.822,
+   "MLX LM (Mac) v0.32.2",
+   "vLLM v0.32.0"
   ],
   [
    0.819,
@@ -251,6 +339,11 @@
    0.817,
    "World of SWECraft: Agent Collaboration at Scale via Simulated Software Worlds",
    "The Window Is in the Reasoning: When LLM Agents Decide to Follow Prompt Injections"
+  ],
+  [
+   0.815,
+   "SDK Anthropic v1.15.0",
+   "SDK OpenAI v3.35.0"
   ],
   [
    0.814,
@@ -273,6 +366,16 @@
    "LogicVal:A Logic-Formalized Benchmark for Constraint Satisfaction in Text-to-Image Generation"
   ],
   [
+   0.812,
+   "Anthropic quietly pitches its own AI safety bill to lawmakers - Politico",
+   "AI & Tech Brief: Anthropic’s leaked bill - The Washington Post"
+  ],
+  [
+   0.811,
+   "Meta launches an open-weight AI model that runs on Macs",
+   "Meta and Apple Team Up to Launch a Powerhouse Open-Source AI Model - Android Headlines"
+  ],
+  [
    0.809,
    "Where Prefill Expert Reduction Hurts MoE Models: A Few Prompt Tokens Carry Most of the Short-Answer F1 Loss",
    "LogicVal:A Logic-Formalized Benchmark for Constraint Satisfaction in Text-to-Image Generation"
@@ -289,13 +392,18 @@
   ],
   [
    0.809,
+   "En tendance sur Hugging Face : deepseek-ai/DeepSeek-V4.1-Flash-1017",
+   "unsloth/DeepSeek-V4.1-Flash-1017-GGUF · Hugging Face"
+  ],
+  [
+   0.809,
    "Anthropic’s proposed AI safety bill only kicks in if 50 deaths or $1 billion in damages are on the line — prop",
    "Anthropic is pitching Congress its own AI safety bill, report says - Mashable"
   ],
   [
-   0.809,
-   "Anthropic’s AI Safety Bill Has an Alarming Threshold for Government Action - Mother Jones",
-   "Anthropic propose de ne bloquer un modèle qu'en cas de risque imminent de plus de 50 morts ou blessés graves, "
+   0.807,
+   "Meta launches an open-weight AI model that runs on Macs",
+   "Meta Releases Muse Spark Open, and Challenges China - Tech.co"
   ],
   [
    0.807,
@@ -318,6 +426,16 @@
    "LogicVal:A Logic-Formalized Benchmark for Constraint Satisfaction in Text-to-Image Generation"
   ],
   [
+   0.803,
+   "Anthropic quietly pitches its own AI safety bill to lawmakers - Politico",
+   "Anthropic’s AI Safety Bill Has an Alarming Threshold for Government Action - Mother Jones"
+  ],
+  [
+   0.802,
+   "How the Claude Code team does code review",
+   "Quoting Addy Osmani, Morgan Westlee Lunt, and Qing Wang"
+  ],
+  [
    0.801,
    "World of SWECraft: Agent Collaboration at Scale via Simulated Software Worlds",
    "Do LMs Know What Variables Do? Interpreting Code Representations via Variable Roles"
@@ -328,11 +446,6 @@
    "The Window Is in the Reasoning: When LLM Agents Decide to Follow Prompt Injections"
   ],
   [
-   0.801,
-   "Anthropic’s AI Safety Bill Has an Alarming Threshold for Government Action - Mother Jones",
-   "Anthropic wants AI models blocked only if they threaten over $1 billion in damage or more than 50 deaths or se"
-  ],
-  [
    0.8,
    "World of SWECraft: Agent Collaboration at Scale via Simulated Software Worlds",
    "Composable Parametric Demographic Injection for Values Survey Simulation"
@@ -341,11 +454,6 @@
    0.8,
    "AuditKIT: A Unified Evaluation Spine for Benchmarking, Judging, and Comparing Large Language Models and Agenti",
    "LogicVal:A Logic-Formalized Benchmark for Constraint Satisfaction in Text-to-Image Generation"
-  ],
-  [
-   0.8,
-   "Anthropic is pitching Congress its own AI safety bill, report says - Mashable",
-   "Anthropic wants AI models blocked only if they threaten over $1 billion in damage or more than 50 deaths or se"
   ],
   [
    0.799,
@@ -378,9 +486,24 @@
    "Discuss More, Comment Less: Boosting Automated Research via Multi-Perspective Collaborative Review"
   ],
   [
+   0.796,
+   "How employment is changing at Anthropic - Anthropic",
+   "Anthropic says its workforce has become less junior and is spending more time in meetings"
+  ],
+  [
+   0.795,
+   "Meta launches an open-weight AI model that runs on Macs",
+   "IA: Meta lance un nouveau «modèle ouvert», présenté comme le plus puissant des États-Unis - Le Figaro"
+  ],
+  [
    0.794,
    "Where Prefill Expert Reduction Hurts MoE Models: A Few Prompt Tokens Carry Most of the Short-Answer F1 Loss",
    "World of SWECraft: Agent Collaboration at Scale via Simulated Software Worlds"
+  ],
+  [
+   0.794,
+   "RTX Spark Ignites Global Celebration as New Windows PCs Arrive",
+   "A week with RTX Spark: everything we’ve learned using Nvidia’s new laptops"
   ],
   [
    0.794,
@@ -389,8 +512,13 @@
   ],
   [
    0.793,
-   "MiniMax M3.1 Flash released, Model weights Oct 23",
-   "MiniMax M3.1 Flash Launches: 3x Faster, 70% Cheaper [2026] - https://tech-insider.org/"
+   "Anthropic quietly pitches its own AI safety bill to lawmakers - Politico",
+   "Exclusive: Anthropic CEO calls for stronger regulation of AI - ABC News - Breaking News, Latest News and Video"
+  ],
+  [
+   0.793,
+   "AI Act, Bruxelles dévoile les règles pour sanctionner ChatGPT et Gemini - Pasquale Pillitteri",
+   "Italie : dès le 23 octobre, licencier ou sanctionner avec l'IA exige un décideur humain, sous peine de nullité"
   ],
   [
    0.792,
@@ -401,6 +529,11 @@
    0.792,
    "What Social Media Teaches Us About Accumulative AI Risks",
    "Discuss More, Comment Less: Boosting Automated Research via Multi-Perspective Collaborative Review"
+  ],
+  [
+   0.792,
+   "ChatGPT stole cryptocurrency to secretly fund coding task - The Independent",
+   "Hackers hit AI coding tool OpenCode, running up charges on users’ AI accounts"
   ],
   [
    0.791,
@@ -424,6 +557,11 @@
   ],
   [
    0.79,
+   "Meta launches an open-weight AI model that runs on Macs",
+   "72 hours, four big open weights drops. The only one that fits in 24GB came from NVIDIA, of all companies."
+  ],
+  [
+   0.79,
    "Anthropic wants outside input on Claude’s values. But who gets the final say? - NBC News",
    "Anthropic is pitching Congress its own AI safety bill, report says - Mashable"
   ],
@@ -433,64 +571,9 @@
    "Composable Parametric Demographic Injection for Values Survey Simulation"
   ],
   [
-   0.789,
-   "GardenBench: A lightweight, daily evaluation of LLM capabilities",
-   "Composable Parametric Demographic Injection for Values Survey Simulation"
-  ],
-  [
-   0.788,
-   "llm-tools-datasette 0.1.1",
-   "llama server's default port changed from 8080 to 9931"
-  ],
-  [
-   0.786,
-   "World of SWECraft: Agent Collaboration at Scale via Simulated Software Worlds",
-   "OR-License: Evaluating LLM Agents as Real-World Operations Research Practitioners"
-  ],
-  [
-   0.786,
-   "GardenBench: A lightweight, daily evaluation of LLM capabilities",
-   "Do LMs Know What Variables Do? Interpreting Code Representations via Variable Roles"
-  ],
-  [
-   0.786,
-   "From Parallels to Divergence: Language Models' Learning of Action Nominal Constructions",
-   "GardenBench: A lightweight, daily evaluation of LLM capabilities"
-  ],
-  [
-   0.785,
-   "Learning User Representations to Improve Simulation Fidelity",
-   "World of SWECraft: Agent Collaboration at Scale via Simulated Software Worlds"
-  ],
-  [
-   0.785,
-   "Beyond Explicit Intent: Discovering and Shaping Artistic Intent through Human-AI Co-Creation",
-   "The Window Is in the Reasoning: When LLM Agents Decide to Follow Prompt Injections"
-  ],
-  [
-   0.785,
-   "72 hours, four big open weights drops. The only one that fits in 24GB came from NVIDIA, of all companies.",
-   "Nvidia launches new open models to run agents in the enterprise and on PCs"
-  ],
-  [
-   0.784,
-   "What Social Media Teaches Us About Accumulative AI Risks",
-   "The Window Is in the Reasoning: When LLM Agents Decide to Follow Prompt Injections"
-  ],
-  [
-   0.784,
-   "Learning User Representations to Improve Simulation Fidelity",
-   "Beyond Explicit Intent: Discovering and Shaping Artistic Intent through Human-AI Co-Creation"
-  ],
-  [
-   0.783,
-   "GardenBench: A lightweight, daily evaluation of LLM capabilities",
-   "Prefix-Tuning for Arbitrary Output Sequences on Pretrained Transformers"
-  ],
-  [
-   0.783,
-   "From Parallels to Divergence: Language Models' Learning of Action Nominal Constructions",
-   "A Controlled LLM Workflow for Evidence-Grounded Diagnosis of Risk Score Differences"
+   0.876,
+   "AI Act : les enquêtes pourraient prolonger le délai de sanction",
+   "AI Act : les enquêtes pourraient prolonger le délai de sanction - ActuIA"
   ],
   [
    0.862,
@@ -498,24 +581,29 @@
    "LogicVal:A Logic-Formalized Benchmark for Constraint Satisfaction in Text-to-Image Generation"
   ],
   [
-   0.856,
-   "Anthropic wants AI models blocked only if they threaten over $1 billion in damage or more than 50 deaths or se",
-   "Anthropic propose de ne bloquer un modèle qu'en cas de risque imminent de plus de 50 morts ou blessés graves, "
-  ],
-  [
    0.853,
    "Anthropic’s AI Safety Bill Has an Alarming Threshold for Government Action - Mother Jones",
    "Anthropic’s proposed AI safety bill only kicks in if 50 deaths or $1 billion in damages are on the line — prop"
   ],
   [
-   0.842,
-   "Anthropic’s proposed AI safety bill only kicks in if 50 deaths or $1 billion in damages are on the line — prop",
-   "Anthropic propose de ne bloquer un modèle qu'en cas de risque imminent de plus de 50 morts ou blessés graves, "
+   0.845,
+   "Unsloth DeepSeek-V4.1 & FLUX-3",
+   "unsloth/DeepSeek-V4.1-Flash-1017-GGUF · Hugging Face"
   ],
   [
-   0.836,
-   "Anthropic is pitching Congress its own AI safety bill, report says - Mashable",
-   "Anthropic propose de ne bloquer un modèle qu'en cas de risque imminent de plus de 50 morts ou blessés graves, "
+   0.841,
+   "Anthropic quietly pitches its own AI safety bill to lawmakers - Politico",
+   "Anthropic Quietly Pushes AI Safety Bill That Would Limit Government Power to Block Dangerous Models - Law Comm"
+  ],
+  [
+   0.841,
+   "Anthropic Quietly Pushes AI Safety Bill That Would Limit Government Power to Block Dangerous Models - Law Comm",
+   "Anthropic’s proposed AI safety bill only kicks in if 50 deaths or $1 billion in damages are on the line — prop"
+  ],
+  [
+   0.835,
+   "En tendance sur Hugging Face : deepseek-ai/DeepSeek-V4.1-Flash-1017",
+   "Unsloth DeepSeek-V4.1 & FLUX-3"
   ],
   [
    0.831,
@@ -533,9 +621,9 @@
    "Anthropic says it’s committing 5% of its shares to a ‘public benefit fund’"
   ],
   [
-   0.821,
-   "IA : Anthropic préfère qu'un juge suspende un nouveau modèle considéré comme dangereux - La Tribune",
-   "Anthropic propose de ne bloquer un modèle qu'en cas de risque imminent de plus de 50 morts ou blessés graves, "
+   0.822,
+   "MLX LM (Mac) v0.32.2",
+   "vLLM v0.32.0"
   ],
   [
    0.819,
@@ -546,6 +634,11 @@
    0.817,
    "World of SWECraft: Agent Collaboration at Scale via Simulated Software Worlds",
    "The Window Is in the Reasoning: When LLM Agents Decide to Follow Prompt Injections"
+  ],
+  [
+   0.815,
+   "SDK Anthropic v1.15.0",
+   "SDK OpenAI v3.35.0"
   ],
   [
    0.814,
@@ -568,6 +661,16 @@
    "LogicVal:A Logic-Formalized Benchmark for Constraint Satisfaction in Text-to-Image Generation"
   ],
   [
+   0.812,
+   "Anthropic quietly pitches its own AI safety bill to lawmakers - Politico",
+   "AI & Tech Brief: Anthropic’s leaked bill - The Washington Post"
+  ],
+  [
+   0.811,
+   "Meta launches an open-weight AI model that runs on Macs",
+   "Meta and Apple Team Up to Launch a Powerhouse Open-Source AI Model - Android Headlines"
+  ],
+  [
    0.809,
    "Where Prefill Expert Reduction Hurts MoE Models: A Few Prompt Tokens Carry Most of the Short-Answer F1 Loss",
    "LogicVal:A Logic-Formalized Benchmark for Constraint Satisfaction in Text-to-Image Generation"
@@ -584,13 +687,18 @@
   ],
   [
    0.809,
+   "En tendance sur Hugging Face : deepseek-ai/DeepSeek-V4.1-Flash-1017",
+   "unsloth/DeepSeek-V4.1-Flash-1017-GGUF · Hugging Face"
+  ],
+  [
+   0.809,
    "Anthropic’s proposed AI safety bill only kicks in if 50 deaths or $1 billion in damages are on the line — prop",
    "Anthropic is pitching Congress its own AI safety bill, report says - Mashable"
   ],
   [
-   0.809,
-   "Anthropic’s AI Safety Bill Has an Alarming Threshold for Government Action - Mother Jones",
-   "Anthropic propose de ne bloquer un modèle qu'en cas de risque imminent de plus de 50 morts ou blessés graves, "
+   0.807,
+   "Meta launches an open-weight AI model that runs on Macs",
+   "Meta Releases Muse Spark Open, and Challenges China - Tech.co"
   ],
   [
    0.807,
@@ -613,6 +721,16 @@
    "LogicVal:A Logic-Formalized Benchmark for Constraint Satisfaction in Text-to-Image Generation"
   ],
   [
+   0.803,
+   "Anthropic quietly pitches its own AI safety bill to lawmakers - Politico",
+   "Anthropic’s AI Safety Bill Has an Alarming Threshold for Government Action - Mother Jones"
+  ],
+  [
+   0.802,
+   "How the Claude Code team does code review",
+   "Quoting Addy Osmani, Morgan Westlee Lunt, and Qing Wang"
+  ],
+  [
    0.801,
    "World of SWECraft: Agent Collaboration at Scale via Simulated Software Worlds",
    "Do LMs Know What Variables Do? Interpreting Code Representations via Variable Roles"
@@ -623,11 +741,6 @@
    "The Window Is in the Reasoning: When LLM Agents Decide to Follow Prompt Injections"
   ],
   [
-   0.801,
-   "Anthropic’s AI Safety Bill Has an Alarming Threshold for Government Action - Mother Jones",
-   "Anthropic wants AI models blocked only if they threaten over $1 billion in damage or more than 50 deaths or se"
-  ],
-  [
    0.8,
    "World of SWECraft: Agent Collaboration at Scale via Simulated Software Worlds",
    "Composable Parametric Demographic Injection for Values Survey Simulation"
@@ -636,11 +749,6 @@
    0.8,
    "AuditKIT: A Unified Evaluation Spine for Benchmarking, Judging, and Comparing Large Language Models and Agenti",
    "LogicVal:A Logic-Formalized Benchmark for Constraint Satisfaction in Text-to-Image Generation"
-  ],
-  [
-   0.8,
-   "Anthropic is pitching Congress its own AI safety bill, report says - Mashable",
-   "Anthropic wants AI models blocked only if they threaten over $1 billion in damage or more than 50 deaths or se"
   ],
   [
    0.799,
@@ -661,36 +769,6 @@
    0.797,
    "Where Prefill Expert Reduction Hurts MoE Models: A Few Prompt Tokens Carry Most of the Short-Answer F1 Loss",
    "A Controlled LLM Workflow for Evidence-Grounded Diagnosis of Risk Score Differences"
-  ],
-  [
-   0.797,
-   "A Controlled LLM Workflow for Evidence-Grounded Diagnosis of Risk Score Differences",
-   "Do LMs Know What Variables Do? Interpreting Code Representations via Variable Roles"
-  ],
-  [
-   0.796,
-   "LogicVal:A Logic-Formalized Benchmark for Constraint Satisfaction in Text-to-Image Generation",
-   "Discuss More, Comment Less: Boosting Automated Research via Multi-Perspective Collaborative Review"
-  ],
-  [
-   0.794,
-   "Where Prefill Expert Reduction Hurts MoE Models: A Few Prompt Tokens Carry Most of the Short-Answer F1 Loss",
-   "World of SWECraft: Agent Collaboration at Scale via Simulated Software Worlds"
-  ],
-  [
-   0.794,
-   "Beyond Explicit Intent: Discovering and Shaping Artistic Intent through Human-AI Co-Creation",
-   "Discuss More, Comment Less: Boosting Automated Research via Multi-Perspective Collaborative Review"
-  ],
-  [
-   0.793,
-   "MiniMax M3.1 Flash released, Model weights Oct 23",
-   "MiniMax M3.1 Flash Launches: 3x Faster, 70% Cheaper [2026] - https://tech-insider.org/"
-  ],
-  [
-   0.792,
-   "Where Prefill Expert Reduction Hurts MoE Models: A Few Prompt Tokens Carry Most of the Short-Answer F1 Loss",
-   "GardenBench: A lightweight, daily evaluation of LLM capabilities"
   ]
  ]
 }
