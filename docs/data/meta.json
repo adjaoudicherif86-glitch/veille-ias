@@ -1,5 +1,5 @@
 {
- "maj": "2026-10-20T16:42:57.385318+00:00",
+ "maj": "2026-10-20T20:45:07.920237+00:00",
  "sources_ok": [
   "Notes de version Claude (API)",
   "Notes de version OpenAI (API)",
@@ -57,15 +57,15 @@
    "erreur": "429 Client Error: Too Many Requests for url: https://venturebeat.com/category/ai/feed/"
   }
  ],
- "total": 478,
- "analyses": 373,
+ "total": 505,
+ "analyses": 393,
  "brief": {
-  "titre": "L'open source et les agents IA dominent l'actualité",
-  "texte": "L'écosystème open source accélère fortement cette semaine avec le lancement de DeepInfer par DeepSeek et l'arrivée de nouveaux modèles ouverts par Nvidia et Unsloth. Du côté des infrastructures, Tenstorrent consolide sa valorisation pour ses puces ouvertes tandis qu'Anthropic discute d'un contrat massif. Les agents autonomes progressent également, illustrés par les performances de Google DeepMind sur Minecraft et les nouveaux cadres réglementaires européens. Enfin, l'optimisation locale s'améliore avec le support renforcé de PyTorch sur Mac et les nouveautés d'AnyLanguageModel.",
+  "titre": "Inférence open source, rachats majeurs et nouveaux modèles",
+  "texte": "L'actualité de l'IA est marquée par une accélération de l'open source et des investissements massifs dans les infrastructures. DeepSeek bouscule le marché avec le lancement de DeepInfer, un framework d'inférence haute performance, tandis qu'OpenAI renforce ses capacités en sciences de la vie via le rachat d'Orchestra Bio. Du côté des outils, NVIDIA et Google diversifient leurs offres avec des modèles pour agents et des solutions de simulation chirurgicale. Enfin, les API évoluent avec l'arrivée de nouveaux modes d'inférence et d'environnements hébergés plus performants.",
   "a_tester": [
-   "Tester le framework DeepInfer pour optimiser l'inférence locale de vos modèles",
-   "Explorer l'intégration de DeepSeek-V4.1-Flash via Unsloth pour vos projets",
-   "Évaluer les nouveaux modèles ouverts de Nvidia pour vos cas d'usage d'agents sur PC"
+   "Tester le framework d'inférence open source DeepInfer pour vos déploiements locaux",
+   "Explorer les nouvelles options de cache étendu et de mode ultrafast sur l'API OpenAI",
+   "Examiner les intégrations Unsloth avec les derniers modèles Flash et Image Klein"
   ]
  },
  "top5": {
