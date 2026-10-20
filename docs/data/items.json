@@ -11,7 +11,7 @@
   "echos": [],
   "anciens_ids": [],
   "societe": "google",
-  "score": 2.5,
+  "score": 2.49,
   "raisons": [
    "Acteur majeur : Google DeepMind"
   ],
@@ -58,7 +58,7 @@
   "echos": [],
   "anciens_ids": [],
   "societe": null,
-  "score": 1.0,
+  "score": 0.99,
   "raisons": [],
   "local": false,
   "categorie": "Perte de contrôle",
@@ -93,7 +93,7 @@
   "echos": [],
   "anciens_ids": [],
   "societe": "google",
-  "score": 2.48,
+  "score": 2.47,
   "raisons": [
    "Acteur majeur : Google DeepMind"
   ],
@@ -140,7 +140,7 @@
   "echos": [],
   "anciens_ids": [],
   "societe": "samsung",
-  "score": 2.68,
+  "score": 2.67,
   "raisons": [],
   "local": false,
   "categorie": "Actualité",
@@ -171,7 +171,8 @@
     "Puces mémoire",
     "Infrastructure IA"
    ]
-  }
+  },
+  "histoire_vu": true
  },
  {
   "id": "f3a89060bcb1d5",
@@ -218,7 +219,8 @@
     "Modèle IA",
     "Marché"
    ]
-  }
+  },
+  "histoire_vu": true
  },
  {
   "id": "1b3f04a8011fd4",
@@ -291,7 +293,8 @@
     "Émirats arabes unis"
    ]
   },
-  "anciens_ids": []
+  "anciens_ids": [],
+  "histoire_vu": true
  },
  {
   "id": "22c8980671bc4f",
@@ -304,7 +307,7 @@
   "extrait": "Microsoft Copilot Adds OpenAI GPT 6.1 and Anthropic Claude Opus 5.5 Geeky Gadgets",
   "echos": [],
   "societe": "openai",
-  "score": 3.66,
+  "score": 3.65,
   "raisons": [
    "Acteur majeur : OpenAI"
   ],
@@ -338,7 +341,8 @@
     "Claude Opus 5.5"
    ]
   },
-  "anciens_ids": []
+  "anciens_ids": [],
+  "histoire_vu": true
  },
  {
   "id": "20e411d6044f1d",
@@ -385,7 +389,8 @@
     "Souveraineté"
    ]
   },
-  "anciens_ids": []
+  "anciens_ids": [],
+  "histoire_vu": true
  },
  {
   "id": "9f283278fce48b",
@@ -399,7 +404,7 @@
   "echos": [],
   "anciens_ids": [],
   "societe": "anthropic",
-  "score": 4.83,
+  "score": 4.82,
   "raisons": [
    "Acteur majeur : Anthropic",
    "Jugé important par l'IA (4/5)"
@@ -423,7 +428,9 @@
     "militaire",
     "ultimatum"
    ]
-  }
+  },
+  "histoire": "h_27b5489481",
+  "histoire_vu": true
  },
  {
   "id": "4d12e6242327fc",
@@ -471,7 +478,8 @@
     "Open source"
    ]
   },
-  "anciens_ids": []
+  "anciens_ids": [],
+  "histoire_vu": true
  },
  {
   "id": "dacc98cfab9d88",
@@ -518,7 +526,8 @@
     "Anthropic"
    ]
   },
-  "anciens_ids": []
+  "anciens_ids": [],
+  "histoire_vu": true
  },
  {
   "id": "7b0a07b1aa96e5",
@@ -565,7 +574,8 @@
     "Entreprise"
    ]
   },
-  "anciens_ids": []
+  "anciens_ids": [],
+  "histoire_vu": true
  },
  {
   "id": "d88fd01a730558",
@@ -578,7 +588,7 @@
   "extrait": "The Barcelona Supercomputing Center (BSC)’s AI Factory Accelerator Programme, now in full operation following a pilot initiative, gives startups access to sovereign compute, technical support and training to support innovation across industries. Many of these companies are also members of the NVIDIA Inception program for cutting-edge startups — and as of today, access to some […]",
   "echos": [],
   "societe": "nvidia",
-  "score": 2.27,
+  "score": 2.26,
   "raisons": [
    "Source officielle"
   ],
@@ -626,7 +636,7 @@
   "extrait": "Claroty a reproduit en laboratoire, avec un modèle d'IA grand public guidé par un chercheur, un exploit des contrôleurs Danfoss AK-SM 800A en 28 minutes et pour environ 6 dollars, à partir de trois failles publiées et corrigées en 2025. L'agent a d'abord échoué sur le contournement d'authentification et le chercheur a dû le réorienter. Claroty ne relie pas l'expérience aux attaques contre des supermarchés français de la nuit du 11 au 12 octobre 2026, dont le vecteur n'est pas établi. Le CERT-FR demande de retirer ces contrôleurs d'internet.",
   "echos": [],
   "societe": null,
-  "score": 3.07,
+  "score": 3.06,
   "raisons": [
    "Jugé important par l'IA (4/5)"
   ],
@@ -661,7 +671,8 @@
     "CERT-FR",
     "Vulnérabilités"
    ]
-  }
+  },
+  "histoire_vu": true
  },
  {
   "id": "77818c3146853f",
@@ -674,7 +685,7 @@
   "extrait": "AI Researcher Claims Neurons Are Legible, Sparking Debate Over Pentagon Autonomy Rules The SOFX Report",
   "echos": [],
   "societe": "usgov",
-  "score": 3.06,
+  "score": 3.05,
   "raisons": [],
   "local": false,
   "categorie": "Militaire",
@@ -696,7 +707,8 @@
     "Recherche IA"
    ]
   },
-  "anciens_ids": []
+  "anciens_ids": [],
+  "histoire_vu": true
  },
  {
   "id": "90111474fb194f",
@@ -709,7 +721,7 @@
   "extrait": "AI Act : le guide de conformité 2026 pour les entreprises Brief IA",
   "echos": [],
   "societe": "ue",
-  "score": 3.66,
+  "score": 3.65,
   "raisons": [
    "Régulation ou justice"
   ],
@@ -733,7 +745,9 @@
     "conformité"
    ]
   },
-  "anciens_ids": []
+  "anciens_ids": [],
+  "histoire": "h_5de020e85b",
+  "histoire_vu": true
  },
  {
   "id": "7fd32d99afc76e",
@@ -751,7 +765,35 @@
   "local": false,
   "categorie": "Recherche",
   "flair": 2,
-  "anciens_ids": []
+  "anciens_ids": [],
+  "analyse": {
+   "titre_fr": "GardenBench : un outil d'évaluation quotidienne des modèles d'IA",
+   "societe": {
+    "nom": "Recherche académique",
+    "presentation": "Il s'agit d'une publication scientifique issue d'arXiv présentant un nouveau benchmark pour les grands modèles de langage."
+   },
+   "a_retenir": "GardenBench permet de suivre au jour le jour les performances, les coûts et les temps d'exécution des modèles d'IA.",
+   "resume": "L'article présente GardenBench, un benchmark composé de 11 suites de tests évaluant les LLM à travers diverses tâches. En interrogeant régulièrement les modèles avec des requêtes légères, l'outil documente les variations quotidiennes de performance, qu'il s'agisse de progrès ou de dégradations post-déploiement.",
+   "pourquoi": "C'est important pour les professionnels qui doivent auditer la stabilité, les coûts réels et la fiabilité des modèles d'IA qu'ils intègrent face aux modifications discrètes des fournisseurs.",
+   "comment_ca_marche": "Le système soumet systématiquement des requêtes légères et standardisées à différents grands modèles de langage via leurs API. Il mesure ensuite la précision des réponses ainsi que les métriques opérationnelles comme le coût par requête et le temps de latence. En comparant ces données chaque jour, il met en évidence l'évolution réelle des capacités et des performances des modèles au fil du temps.",
+   "utiliser": [
+    "Consulter le papier de recherche sur arXiv pour comprendre la méthodologie des 11 suites de tests",
+    "Utiliser les conclusions de ce type de benchmark pour auditer la constance des fournisseurs de LLM",
+    "Intégrer le suivi de la dérive des performances dans la gouvernance des IA de votre entreprise"
+   ],
+   "sur_mon_pc": "Pas en local : service en ligne uniquement",
+   "local": false,
+   "niveau": "intermédiaire",
+   "categorie": "Recherche",
+   "importance": 3,
+   "tags": [
+    "GardenBench",
+    "évaluation",
+    "LLM",
+    "benchmark",
+    "performance"
+   ]
+  }
  },
  {
   "id": "1b9840ddc9e5ae",
@@ -766,10 +808,38 @@
   "societe": null,
   "score": 0.64,
   "raisons": [],
-  "local": true,
+  "local": false,
   "categorie": "Recherche",
   "flair": 2,
-  "anciens_ids": []
+  "anciens_ids": [],
+  "analyse": {
+   "titre_fr": "Agentique vs architectures traditionnelles : quand faut-il vraiment utiliser des agents IA ?",
+   "societe": {
+    "nom": "Recherche académique (arXiv)",
+    "presentation": "Plateforme de prépublication d'articles scientifiques en libre accès, souvent utilisée en intelligence artificielle pour partager les dernières avancées de la recherche."
+   },
+   "a_retenir": "Une étude évalue mathématiquement la pertinence des agents IA face aux méthodes traditionnelles selon les coûts et performances.",
+   "resume": "L'article explore l'engouement pour l'intelligence artificielle agentique dans l'automatisation des entreprises. Les chercheurs comparent l'efficacité des agents à des approches classiques (calcul local, REST, SOAP, MCP) sur un benchmark mathématique de 1000 expressions pour mesurer la vitesse, la performance et le coût.",
+   "pourquoi": "Permet aux professionnels d'arbitrer rationnellement entre le choix d'une architecture agentique complexe et des méthodes informatiques traditionnelles plus simples et moins coûteuses.",
+   "comment_ca_marche": "L'étude utilise une tâche mathématique contrôlée pour comparer sept méthodes différentes. Elle analyse les compromis entre la facilité d'utilisation perçue des agents IA et les réalités économiques et de performance opérationnelle. L'évaluation repose sur un benchmark standardisé de 1000 expressions arithmétiques pour objectiver les résultats.",
+   "utiliser": [
+    "Analyser les cas d'usage réels de l'entreprise avant d'implémenter des agents IA",
+    "Comparer les coûts opérationnels des agents face aux architectures REST ou au calcul local",
+    "Lire l'article complet sur arXiv pour affiner les critères de choix architecturaux"
+   ],
+   "sur_mon_pc": "Pas en local : service en ligne uniquement",
+   "local": false,
+   "niveau": "avancé",
+   "categorie": "Recherche",
+   "importance": 3,
+   "tags": [
+    "agents IA",
+    "architecture logicielle",
+    "benchmark",
+    "recherche",
+    "ROI"
+   ]
+  }
  },
  {
   "id": "23a8a613afadb8",
@@ -787,7 +857,36 @@
   "local": false,
   "categorie": "Recherche",
   "flair": 2,
-  "anciens_ids": []
+  "anciens_ids": [],
+  "analyse": {
+   "titre_fr": "Un workflow LLM contrôlé pour expliquer les différences de scores de risque",
+   "societe": {
+    "nom": "Recherche académique (arXiv)",
+    "presentation": "Plateforme de dépôt de prépublications scientifiques en libre accès, souvent utilisée en intelligence artificielle pour partager les dernières avancées de la recherche."
+   },
+   "a_retenir": "Associer un LLM à du retrieval, des valeurs SHAP contrastives et une validation déterministe fiabilise l'explication des scores de risque.",
+   "resume": "Des chercheurs proposent un workflow LLM contrôlé pour expliquer les écarts de scores de risque à l'aide de transactions historiques similaires. La méthode combine recherche de références, explications SHAP et validation déterministe pour garantir des diagnostics cohérents et traçables.",
+   "pourquoi": "C'est crucial pour les professionnels qui doivent auditer des modèles de risque et justifier des décisions automatisées de manière traçable et auditable.",
+   "comment_ca_marche": "Le système récupère d'abord des transactions historiques de référence pertinentes. Il calcule ensuite des explications contrastives basées sur des valeurs SHAP pour identifier les facteurs clés de divergence. Un LLM raisonne ensuite sur ces preuves de manière encadrée. Enfin, une étape de validation déterministe vérifie la cohérence du résultat produit par le modèle.",
+   "utiliser": [
+    "Identifier un cas d'usage nécessitant d'expliquer des écarts de scores de risque",
+    "Implémenter une étape de recherche de cas historiques similaires",
+    "Combiner l'analyse avec des métriques d'explicabilité comme SHAP",
+    "Ajouter une couche de validation déterministe avant de présenter l'explication au métier"
+   ],
+   "sur_mon_pc": "Pas en local : service en ligne uniquement",
+   "local": false,
+   "niveau": "avancé",
+   "categorie": "Recherche",
+   "importance": 3,
+   "tags": [
+    "LLM",
+    "Explicabilité",
+    "SHAP",
+    "Gestion des risques",
+    "Recherche"
+   ]
+  }
  },
  {
   "id": "63789e28842f28",
@@ -804,8 +903,35 @@
   "raisons": [],
   "local": false,
   "categorie": "Recherche",
-  "flair": 1,
-  "anciens_ids": []
+  "flair": 2,
+  "anciens_ids": [],
+  "analyse": {
+   "titre_fr": "Les risques cumulatifs de l'IA : leçons tirées des réseaux sociaux",
+   "societe": {
+    "nom": "Recherche universitaire / arXiv",
+    "presentation": "Plateforme de prépublication d'articles scientifiques en accès libre gérée par l'Université Cornell."
+   },
+   "a_retenir": "Au-delà des risques existentiels, l'usage répété de l'IA engendre des dommages cumulatifs insidieux inspirés des mécanismes des réseaux sociaux.",
+   "resume": "Ce document de position examine comment l'utilisation généralisée et répétée de l'IA crée des risques cumulatifs. En s'appuyant sur les dérives observées dans les réseaux sociaux, les auteurs montrent que les décisions récurrentes et les boucles de rétroaction réduisent progressivement l'esprit critique et la diversité des perspectives.",
+   "pourquoi": "C'est important pour les professionnels car cela déplace l'attention des risques catastrophiques uniques vers les impacts psychologiques et sociétaux quotidiens des outils d'IA qu'ils déploient.",
+   "comment_ca_marche": "L'étude analyse l'accumulation de biais par des interactions répétées avec des modèles d'IA, similaires aux algorithmes de recommandation des réseaux sociaux. La réassurance constante, l'exposition sélective et la construction de profils utilisateurs renforcent les biais décisionnels au fil du temps. Ces boucles de rétroaction interconnectées affaiblissent le jugement indépendant des utilisateurs de manière progressive.",
+   "utiliser": [
+    "Analyser les boucles de rétroaction dans vos déploiements d'IA",
+    "Sensibiliser les équipes aux biais cumulatifs d'interaction",
+    "Intégrer la diversité des perspectives dans l'évaluation des risques"
+   ],
+   "sur_mon_pc": "Pas en local : service en ligne uniquement",
+   "local": false,
+   "niveau": "intermédiaire",
+   "categorie": "Recherche",
+   "importance": 3,
+   "tags": [
+    "Sécurité IA",
+    "Risques cumulatifs",
+    "Réseaux sociaux",
+    "Biais décisionnels"
+   ]
+  }
  },
  {
   "id": "e9081cc50adf3c",
@@ -822,8 +948,36 @@
   "raisons": [],
   "local": false,
   "categorie": "Recherche",
-  "flair": 1,
-  "anciens_ids": []
+  "flair": 2,
+  "anciens_ids": [],
+  "analyse": {
+   "titre_fr": "Dépasser le prompt textuel : la co-création artistique par exploration visuelle avec l'IA",
+   "societe": {
+    "nom": "Recherche académique (arXiv)",
+    "presentation": "Plateforme de prépublication d'articles de recherche scientifique et technique en accès libre."
+   },
+   "a_retenir": "L'intention artistique émerge souvent en observant des visuels, rendant l'exploration interactive plus efficace que le prompt textuel figé.",
+   "resume": "Les interactions actuelles avec l'IA générative exigent des intentions claires exprimées par texte. Cette recherche propose un nouveau paradigme de co-création où l'artiste affine ses préférences vagues en explorant, comparant et sélectionnant des propositions visuelles générées par l'IA.",
+   "pourquoi": "Ce modèle redéfinit l'interaction homme-machine dans les outils créatifs, permettant de concevoir des interfaces d'IA générative mieux adaptées aux processus artistiques exploratoires et itératifs.",
+   "comment_ca_marche": "Le système élargit l'espace d'exploration du modèle pour présenter une grande diversité de propositions visuelles aux créateurs. L'artiste affine ses choix par l'observation, la comparaison et la sélection de ces pistes. Le modèle intègre ensuite ces jugements pour guider les générations suivantes, façonnant l'intention artistique de manière itérative.",
+   "utiliser": [
+    "Décomposer un projet créatif en phases d'exploration visuelle plutôt qu'en rédaction de prompts uniques",
+    "Utiliser des outils permettant la génération de variations multiples pour affiner des idées floues",
+    "Intégrer la sélection et le tri visuel comme étapes fondamentales du processus de design"
+   ],
+   "sur_mon_pc": "Pas en local : service en ligne uniquement",
+   "local": false,
+   "niveau": "intermédiaire",
+   "categorie": "Recherche",
+   "importance": 3,
+   "tags": [
+    "Co-création",
+    "IA générative",
+    "Art",
+    "Interaction homme-machine",
+    "Recherche"
+   ]
+  }
  },
  {
   "id": "c9fa2b5d4cfea3",
@@ -840,7 +994,7 @@
   "raisons": [],
   "local": false,
   "categorie": "Recherche",
-  "flair": 1,
+  "flair": 2,
   "anciens_ids": []
  },
  {
@@ -992,7 +1146,8 @@
     "Style linguistique"
    ]
   },
-  "anciens_ids": []
+  "anciens_ids": [],
+  "histoire_vu": true
  },
  {
   "id": "6ac70cf2274c58",
@@ -1158,7 +1313,8 @@
     "LocalLLaMA"
    ]
   },
-  "anciens_ids": []
+  "anciens_ids": [],
+  "histoire_vu": true
  },
  {
   "id": "18a9c0ab8f4077",
@@ -1171,7 +1327,7 @@
   "extrait": "Residents frustrated with SpaceXAI trucks despite city action plan Action News 5",
   "echos": [],
   "societe": "spacexai",
-  "score": 0.62,
+  "score": 0.61,
   "raisons": [],
   "local": false,
   "categorie": "Actualité",
@@ -1241,7 +1397,9 @@
     "Régulation"
    ]
   },
-  "anciens_ids": []
+  "anciens_ids": [],
+  "histoire": "h_5de020e85b",
+  "histoire_vu": true
  },
  {
   "id": "a13704e8981070",
@@ -1300,7 +1458,7 @@
   "extrait": "Mayor Zohran Mamdani said Monday night that New Yorkers must resist the narrative that an AI takeover is inevitable and demand regulations that protect the public and put power back in their hands.",
   "echos": [],
   "societe": null,
-  "score": 0.77,
+  "score": 0.76,
   "raisons": [],
   "local": false,
   "categorie": "Business & régulation",
@@ -1376,7 +1534,8 @@
     "Sécurité"
    ]
   },
-  "anciens_ids": []
+  "anciens_ids": [],
+  "histoire_vu": true
  },
  {
   "id": "bcf713c50f3a36",
@@ -1414,7 +1573,9 @@
     "gouvernement"
    ]
   },
-  "anciens_ids": []
+  "anciens_ids": [],
+  "histoire": "h_706c77ae76",
+  "histoire_vu": true
  },
  {
   "id": "09e5a3048fdc88",
@@ -1427,7 +1588,7 @@
   "extrait": "Accenture Expands Federal AI Push With Google's Gemini Agents, Months After OpenAI Partnership Stocktwits",
   "echos": [],
   "societe": "openai",
-  "score": 3.44,
+  "score": 3.43,
   "raisons": [
    "Acteur majeur : OpenAI"
   ],
@@ -1462,7 +1623,8 @@
     "Partenariat"
    ]
   },
-  "anciens_ids": []
+  "anciens_ids": [],
+  "histoire_vu": true
  },
  {
   "id": "af02b0baed077a",
@@ -1475,7 +1637,7 @@
   "extrait": "My obituary for programming Jeremy Scheff poignantly captures the key loss caused by coding agents for career programmers who enjoyed the puzzle of developing code: Programming turned into one of the greatest jobs you could imagine. You got paid to work on tricky little logic puzzles. The trickier the puzzle, the more you got paid. But even pretty simple puzzles were worth a lot of money because regular people just couldn't do it! No, they needed us. They would give us a problem and we would solve it the way we wanted. We set the strategy, we made the timeline, we defined what was and was not possible. If you're a programmer who thrives on building working systems and doesn't care too deeply…",
   "echos": [],
   "societe": null,
-  "score": 1.33,
+  "score": 1.32,
   "raisons": [],
   "local": false,
   "categorie": "Actualité",
@@ -1526,7 +1688,7 @@
    }
   ],
   "societe": "anthropic",
-  "score": 5.02,
+  "score": 5.01,
   "raisons": [
    "Repris par 2 sources",
    "Acteur majeur : Anthropic"
@@ -1563,7 +1725,8 @@
   },
   "anciens_ids": [
    "8b7bf899c029c9"
-  ]
+  ],
+  "histoire_vu": true
  },
  {
   "id": "80fbccdecd6cb2",
@@ -1612,7 +1775,8 @@
     "JSON"
    ]
   },
-  "anciens_ids": []
+  "anciens_ids": [],
+  "histoire_vu": true
  },
  {
   "id": "efa8c4c666c628",
@@ -1622,7 +1786,7 @@
   "type": "communaute",
   "rubrique": "veille",
   "date": "2026-10-19T23:22:18+00:00",
-  "extrait": "Article URL: https://redact.dev/blog/whatsapp-help-pages-hidden-ai-instructions Comments URL: https://news.ycombinator.com/item?id=50159341 Points: 424 # Comments: 117",
+  "extrait": "Article URL: https://redact.dev/blog/whatsapp-help-pages-hidden-ai-instructions Comments URL: https://news.ycombinator.com/item?id=50159341 Points: 435 # Comments: 123",
   "echos": [],
   "societe": null,
   "score": 2.11,
@@ -1706,7 +1870,9 @@
     "Économie IA"
    ]
   },
-  "anciens_ids": []
+  "anciens_ids": [],
+  "histoire": "h_5febc86840",
+  "histoire_vu": true
  },
  {
   "id": "fc6197811c9824",
@@ -1799,7 +1965,8 @@
     "Régulation"
    ]
   },
-  "anciens_ids": []
+  "anciens_ids": [],
+  "histoire_vu": true
  },
  {
   "id": "fe77be70c17167",
@@ -1847,7 +2014,8 @@
     "Entreprise"
    ]
   },
-  "anciens_ids": []
+  "anciens_ids": [],
+  "histoire_vu": true
  },
  {
   "id": "d58f1cba45ce92",
@@ -1860,7 +2028,7 @@
   "extrait": "Google wants you to chat with Gemini to fix issues instead of scrolling through support pages Digital Trends",
   "echos": [],
   "societe": "google",
-  "score": 3.39,
+  "score": 3.38,
   "raisons": [
    "Acteur majeur : Google DeepMind"
   ],
@@ -1895,7 +2063,8 @@
     "IA"
    ]
   },
-  "anciens_ids": []
+  "anciens_ids": [],
+  "histoire_vu": true
  },
  {
   "id": "3510b2740932e1",
@@ -1942,7 +2111,8 @@
     "Modèle de langage",
     "Optimisation des coûts"
    ]
-  }
+  },
+  "histoire_vu": true
  },
  {
   "id": "0cffae2fd0c531",
@@ -1990,7 +2160,8 @@
     "gouvernance"
    ]
   },
-  "anciens_ids": []
+  "anciens_ids": [],
+  "histoire_vu": true
  },
  {
   "id": "50c115309d98a5",
@@ -2003,7 +2174,7 @@
   "extrait": "The US is building more fossil fuel infrastructure than it has in a decade while renewable energy growth slows down, a new report shows. Electricity demand is also climbing faster than it has in more than a decade with more data centers, factories, and electric vehicles plugging into the grid. Despite those growing demands, the […]",
   "echos": [],
   "societe": null,
-  "score": 3.07,
+  "score": 3.06,
   "raisons": [
    "Jugé important par l'IA (4/5)"
   ],
@@ -2038,7 +2209,8 @@
     "IA"
    ]
   },
-  "anciens_ids": []
+  "anciens_ids": [],
+  "histoire_vu": true
  },
  {
   "id": "2646714b53ee5c",
@@ -2091,7 +2263,8 @@
     "CLI"
    ]
   },
-  "anciens_ids": []
+  "anciens_ids": [],
+  "histoire_vu": true
  },
  {
   "id": "073765c16b4994",
@@ -2104,7 +2277,7 @@
   "extrait": "CoreWeave had a bad week last week. Its bonds slipped into distressed territory by a common definition - when investors demand 1,000 basis points more in yield than they'd get from government bonds. Last Tuesady Chamath \"SPAC King\" Palihapitiya noticed the distressed debt, and also asked whether the AI buildout was a private credit bubble. […]",
   "echos": [],
   "societe": null,
-  "score": 3.06,
+  "score": 3.05,
   "raisons": [
    "Jugé important par l'IA (4/5)"
   ],
@@ -2139,7 +2312,8 @@
     "finance",
     "bulle IA"
    ]
-  }
+  },
+  "histoire_vu": true
  },
  {
   "id": "f33c4ab686aa76",
@@ -2187,7 +2361,57 @@
     "Matériel"
    ]
   },
-  "anciens_ids": []
+  "anciens_ids": [],
+  "histoire_vu": true
+ },
+ {
+  "id": "7b32299eae1c9a",
+  "titre": "Shots Fired: Meta Is Developers on Outside AI Tools “in Half”. That’s a Big Problem for Anthropic - Yahoo Finance",
+  "lien": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOM0RIcGs4OU5qT3lUVE9qMWlwaUJKNGQxcF95dUttUXNuM1VsNGJXMHUyMGpTeTNsUXpHejFuVWNTa293a3M5UUpDdWxOZ1RVRllsNW1jZXlBeGF3a2ZJRjNRVnZTNi1lRDZSa2NSeUh3VVNaUXJfMDBmV2NOS2ZZQk04X1F4U3VXQlR4c01UU1Z1NFdpT0s4Y19td0RyUDJ2?oc=5",
+  "source": "Anthropic (actus)",
+  "type": "presse",
+  "rubrique": "veille",
+  "date": "2026-10-19T20:43:14+00:00",
+  "extrait": "Shots Fired: Meta Is Developers on Outside AI Tools “in Half”. That’s a Big Problem for Anthropic Yahoo Finance",
+  "echos": [],
+  "anciens_ids": [],
+  "societe": "anthropic",
+  "score": 3.33,
+  "raisons": [
+   "Acteur majeur : Anthropic"
+  ],
+  "local": false,
+  "categorie": "Business & régulation",
+  "flair": 3,
+  "analyse": {
+   "titre_fr": "Meta concurrence les outils IA externes et inquiète Anthropic",
+   "societe": {
+    "nom": "Anthropic",
+    "presentation": "Créateur de l'assistant Claude, fondé en 2021 par d'anciens d'OpenAI, axé sur la sécurité et très populaire auprès des développeurs et professionnels."
+   },
+   "a_retenir": "Meta réduirait l'utilisation d'outils IA externes de moitié, ce qui pose un défi stratégique pour Anthropic.",
+   "resume": "Des rapports récents indiquent que Meta réduit considérablement son recours aux outils d'intelligence artificielle externes, ce qui pourrait représenter un problème majeur pour des acteurs comme Anthropic, fortement positionnés sur le marché professionnel.",
+   "pourquoi": "Cela illustre la volonté des géants de la tech de s'auto-approvisionner en IA, menaçant les parts de marché des fournisseurs spécialisés B2B.",
+   "comment_ca_marche": "Les grandes entreprises déploient leurs propres modèles de langage en interne pour leurs équipes de développement, remplaçant progressivement les abonnements et API de tiers comme Anthropic ou OpenAI par des solutions maison ou open source.",
+   "utiliser": [
+    "Surveiller l'évolution des parts de marché d'Anthropic face aux géants",
+    "Évaluer la dépendance de votre organisation aux outils IA propriétaires",
+    "Tester des alternatives open source pour réduire les coûts d'infrastructure"
+   ],
+   "sur_mon_pc": "Pas en local : service en ligne uniquement",
+   "local": false,
+   "niveau": "intermédiaire",
+   "categorie": "Business & régulation",
+   "importance": 3,
+   "tags": [
+    "Anthropic",
+    "Meta",
+    "Concurrence",
+    "Développeurs",
+    "Stratégie IA"
+   ]
+  },
+  "histoire_vu": true
  },
  {
   "id": "8736a2ab797d78",
@@ -2318,7 +2542,8 @@
     "Cloud"
    ]
   },
-  "anciens_ids": []
+  "anciens_ids": [],
+  "histoire_vu": true
  },
  {
   "id": "ad120966b81208",
@@ -2411,7 +2636,8 @@
     "Partenariat"
    ]
   },
-  "anciens_ids": []
+  "anciens_ids": [],
+  "histoire_vu": true
  },
  {
   "id": "039a84854fb85d",
@@ -2458,7 +2684,8 @@
     "Hackers"
    ]
   },
-  "anciens_ids": []
+  "anciens_ids": [],
+  "histoire_vu": true
  },
  {
   "id": "81b55b50044baa",
@@ -2505,53 +2732,8 @@
     "Politique"
    ]
   },
-  "anciens_ids": []
- },
- {
-  "id": "3bef58fbb3a60c",
-  "titre": "Ex-OpenAI engineer accused of planting bug in office was in contact with Saudi royal family, preparing to leave U.S. - CBS News",
-  "lien": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNckNoZkFGT2w5emFna0Z2dlpmMkUyMlIwZkU3VjVaenBVWVRHSkw3QkM0ZU43MXM4YURTYUh1bmV1ZmtWdnZIVFhDMnM0MGl0YzhBNHFXcVMxSWN0UER3THRfN0w3OVB3b2ZsMGdtWUYzYmx5b1FGWkcwcDgtZ0o1RlhZQ2NXS0dfWjIwWg?oc=5",
-  "source": "OpenAI (actus)",
-  "type": "presse",
-  "rubrique": "veille",
-  "date": "2026-10-19T19:26:07+00:00",
-  "extrait": "Ex-OpenAI engineer accused of planting bug in office was in contact with Saudi royal family, preparing to leave U.S. CBS News",
-  "echos": [],
-  "societe": "openai",
-  "score": 3.3,
-  "raisons": [
-   "Acteur majeur : OpenAI"
-  ],
-  "local": false,
-  "categorie": "Business & régulation",
-  "flair": 3,
-  "analyse": {
-   "titre_fr": "Un ex-ingénieur d'OpenAI accusé d'espionnage et de contacts saoudiens",
-   "societe": {
-    "nom": "OpenAI",
-    "presentation": "Créateur de ChatGPT et leader historique de l'intelligence artificielle générative grand public."
-   },
-   "a_retenir": "Un ancien ingénieur d'OpenAI est accusé d'avoir planté un dispositif de surveillance et d'avoir été en contact avec la famille royale saoudienne avant de quitter les États-Unis.",
-   "resume": "Un ancien ingénieur d'OpenAI fait l'objet d'accusations graves concernant l'installation d'un bug informatique ou matériel dans les bureaux de l'entreprise. L'enquête révèle également des contacts avec la famille royale saoudienne alors qu'il préparait son départ des États-Unis.",
-   "pourquoi": "Cet incident soulève des questions critiques sur la sécurité physique, la protection des secrets industriels et le risque d'espionnage géopolitique au sein des entreprises leaders de l'IA.",
-   "comment_ca_marche": "À vérifier sur la source (les détails techniques de l'incident et du dispositif ne sont pas précisés dans l'extrait fourni).",
-   "utiliser": [
-    "Suivre l'évolution de l'enquête judiciaire relayée par les médias",
-    "Vérifier les protocoles de sécurité interne de votre propre organisation"
-   ],
-   "sur_mon_pc": "Pas en local : service en ligne uniquement",
-   "local": false,
-   "niveau": "débutant",
-   "categorie": "Business & régulation",
-   "importance": 3,
-   "tags": [
-    "OpenAI",
-    "Sécurité",
-    "Espionnage",
-    "Géopolitique"
-   ]
-  },
-  "anciens_ids": []
+  "anciens_ids": [],
+  "histoire_vu": true
  },
  {
   "id": "3874a85cac63a2",
@@ -2569,7 +2751,7 @@
    }
   ],
   "societe": "meta",
-  "score": 4.7,
+  "score": 4.69,
   "raisons": [
    "Repris par 2 sources",
    "Acteur majeur : Meta"
@@ -2605,7 +2787,8 @@
   },
   "anciens_ids": [
    "09b252a1c0d0c7"
-  ]
+  ],
+  "histoire_vu": true
  },
  {
   "id": "e37065d0e75499",
@@ -2699,7 +2882,9 @@
     "Finance"
    ]
   },
-  "anciens_ids": []
+  "anciens_ids": [],
+  "histoire": "h_5febc86840",
+  "histoire_vu": true
  },
  {
   "id": "71c2d7263cd3ee",
@@ -2791,7 +2976,8 @@
     "Productivité"
    ]
   },
-  "anciens_ids": []
+  "anciens_ids": [],
+  "histoire_vu": true
  },
  {
   "id": "36c2a79412d571",
@@ -2804,7 +2990,7 @@
   "extrait": "After drawing acquisition interest earlier this year, the Nvidia challenger raised $1.5 billion to remain independent.",
   "echos": [],
   "societe": "nvidia",
-  "score": 4.68,
+  "score": 4.67,
   "raisons": [
    "Utilisable librement (open source)",
    "Argent, levée ou rachat"
@@ -2839,7 +3025,8 @@
     "Matériel"
    ]
   },
-  "anciens_ids": []
+  "anciens_ids": [],
+  "histoire_vu": true
  },
  {
   "id": "fbbcdbe57addf8",
@@ -2931,7 +3118,8 @@
     "Futur du travail"
    ]
   },
-  "anciens_ids": []
+  "anciens_ids": [],
+  "histoire_vu": true
  },
  {
   "id": "96564b8d90d1a2",
@@ -2981,7 +3169,9 @@
   },
   "anciens_ids": [
    "313a53b5ba6175"
-  ]
+  ],
+  "histoire": "h_67e5d1cbff",
+  "histoire_vu": true
  },
  {
   "id": "b45dcb56ccbe64",
@@ -3029,7 +3219,8 @@
     "Google"
    ]
   },
-  "anciens_ids": []
+  "anciens_ids": [],
+  "histoire_vu": true
  },
  {
   "id": "7216fffbb8a112",
@@ -3076,7 +3267,8 @@
     "interprétabilité",
     "Goodfire"
    ]
-  }
+  },
+  "histoire_vu": true
  },
  {
   "id": "34a15cb6241f18",
@@ -3129,7 +3321,8 @@
     "Mise à jour"
    ]
   },
-  "anciens_ids": []
+  "anciens_ids": [],
+  "histoire_vu": true
  },
  {
   "id": "a6cc275eda2c36",
@@ -3164,7 +3357,8 @@
     "défense"
    ]
   },
-  "anciens_ids": []
+  "anciens_ids": [],
+  "histoire_vu": true
  },
  {
   "id": "a5e1a65e09a604",
@@ -3219,7 +3413,8 @@
     "IA Locale"
    ]
   },
-  "anciens_ids": []
+  "anciens_ids": [],
+  "histoire_vu": true
  },
  {
   "id": "14367e39ff3673",
@@ -3232,7 +3427,7 @@
   "extrait": "Welcome to Google Gemini 4 Argon Towards Data Science",
   "echos": [],
   "societe": "google",
-  "score": 3.23,
+  "score": 3.22,
   "raisons": [
    "Acteur majeur : Google DeepMind"
   ],
@@ -3268,7 +3463,9 @@
   },
   "anciens_ids": [
    "0b06b6c941acd2"
-  ]
+  ],
+  "histoire": "h_520aa59662",
+  "histoire_vu": true
  },
  {
   "id": "b1fe1ec46a7363",
@@ -3281,7 +3478,7 @@
   "extrait": "Cognizant and Google Cloud Launch Gemini Frontier Capability Group Unite.AI",
   "echos": [],
   "societe": "google",
-  "score": 3.22,
+  "score": 3.21,
   "raisons": [
    "Acteur majeur : Google DeepMind",
    "Lancement ou annonce"
@@ -3318,7 +3515,8 @@
   },
   "anciens_ids": [
    "b13b701d72f285"
-  ]
+  ],
+  "histoire_vu": true
  },
  {
   "id": "f1b272ed5a8387",
@@ -3365,7 +3563,9 @@
     "API"
    ]
   },
-  "anciens_ids": []
+  "anciens_ids": [],
+  "histoire": "h_448e1ef468",
+  "histoire_vu": true
  },
  {
   "id": "f93d80856f11bb",
@@ -3460,7 +3660,8 @@
   },
   "anciens_ids": [
    "0dd632fb7bdbee"
-  ]
+  ],
+  "histoire_vu": true
  },
  {
   "id": "8905334c3fe39e",
@@ -3508,7 +3709,8 @@
     "Régulation"
    ]
   },
-  "anciens_ids": []
+  "anciens_ids": [],
+  "histoire_vu": true
  },
  {
   "id": "33d4db3f6bb25d",
@@ -3521,7 +3723,7 @@
   "extrait": "Hey guys, Nick here from Cohere. It's been a minute. We had a great time launching Command A+ and beta-testing North Mini Code with you guys earlier this year, your feedback has really helped make our models and delivery much better. one of the biggest things we heard was that you really wanted llama.cpp support, which makes total sense given the nature of this sub. i didn't want to post in here again until we'd been able to fulfill that promise, and I'm really happy to say that we've made progress. Our team recently merged llama.cpp support for the vision encoder of North Micro Vision Instruct , which means that now all of our latest model architectures are compatible with llama.cpp (the LL…",
   "echos": [],
   "societe": "ollama",
-  "score": 1.6,
+  "score": 1.59,
   "raisons": [],
   "local": true,
   "categorie": "Open source & local",
@@ -3603,7 +3805,8 @@
     "Entreprise"
    ]
   },
-  "anciens_ids": []
+  "anciens_ids": [],
+  "histoire_vu": true
  },
  {
   "id": "25f6f32ef5d517",
@@ -3696,7 +3899,9 @@
     "Économie IA"
    ]
   },
-  "anciens_ids": []
+  "anciens_ids": [],
+  "histoire": "h_5febc86840",
+  "histoire_vu": true
  },
  {
   "id": "0473b00ffc9bd3",
@@ -3742,7 +3947,9 @@
     "Géopolitique"
    ]
   },
-  "anciens_ids": []
+  "anciens_ids": [
+   "3bef58fbb3a60c"
+  ]
  },
  {
   "id": "405e039bdc7e9f",
@@ -3755,7 +3962,7 @@
   "extrait": "At a creative industry event that took place today in Berlin — hosted in collaboration with Adobe, Bertelsmann, NVIDIA and UFA — the latest advancements in intelligent media were on display. Key to the news: the European Broadcasting Union (EBU) is collaborating with NVIDIA to expand its sovereign framework with cloud, open models and integration […]",
   "echos": [],
   "societe": "nvidia",
-  "score": 3.98,
+  "score": 3.97,
   "raisons": [
    "Source officielle",
    "Acteur majeur : NVIDIA"
@@ -3791,7 +3998,8 @@
     "Souverainnete"
    ]
   },
-  "anciens_ids": []
+  "anciens_ids": [],
+  "histoire_vu": true
  },
  {
   "id": "c825774bbf1e21",
@@ -3886,7 +4094,9 @@
     "Modèle compact"
    ]
   },
-  "anciens_ids": []
+  "anciens_ids": [],
+  "histoire": "h_5f80f7fabe",
+  "histoire_vu": true
  },
  {
   "id": "fd89b9b5cd5875",
@@ -4025,7 +4235,8 @@
     "piratage",
     "automatisation"
    ]
-  }
+  },
+  "histoire_vu": true
  },
  {
   "id": "f16ef8b84b6f0d",
@@ -4071,7 +4282,8 @@
     "SpaceXAI"
    ]
   },
-  "anciens_ids": []
+  "anciens_ids": [],
+  "histoire_vu": true
  },
  {
   "id": "a59b2acc8c62e3",
@@ -4162,7 +4374,8 @@
   },
   "anciens_ids": [
    "6ebba81423828b"
-  ]
+  ],
+  "histoire_vu": true
  },
  {
   "id": "fd622d74dadf9c",
@@ -4245,7 +4458,8 @@
     "manipulation"
    ]
   },
-  "anciens_ids": []
+  "anciens_ids": [],
+  "histoire_vu": true
  },
  {
   "id": "7b40420b876cc8",
@@ -4305,7 +4519,7 @@
   "extrait": "University of Michigan spinout Laplace Intelligence uses AI agents and interactive simulation to stress-test robots and self-driving vehicles before deployment. The profitable startup is competing in Startup Battlefield at TechCrunch Disrupt, October 13-15 in San Francisco.",
   "echos": [],
   "societe": null,
-  "score": 1.61,
+  "score": 1.6,
   "raisons": [],
   "local": false,
   "categorie": "Outils & applis",
@@ -4351,7 +4565,7 @@
   "extrait": "SpaceXAI Buys 3 Southaven Homes, Leases Highway 51 Warehouse DeSoto County News",
   "echos": [],
   "societe": "spacexai",
-  "score": 0.21,
+  "score": 0.2,
   "raisons": [],
   "local": false,
   "categorie": "Business & régulation",
@@ -4395,7 +4609,7 @@
   "extrait": "Article URL: https://github.com/IsuruMaduranga/harness-engineering-101 Comments URL: https://news.ycombinator.com/item?id=50151390 Points: 130 # Comments: 64",
   "echos": [],
   "societe": null,
-  "score": 1.0,
+  "score": 0.99,
   "raisons": [],
   "local": true,
   "categorie": "Open source & local",
@@ -4485,7 +4699,8 @@
   },
   "anciens_ids": [
    "32042c8ac47054"
-  ]
+  ],
+  "histoire_vu": true
  },
  {
   "id": "9279cf6bb0c3cf",
@@ -4543,7 +4758,7 @@
   "extrait": "Accenture Federal Services and Google Public Sector Establish Gemini Launchpads to Power Purpose-Built Agents Across Federal Missions Business Wire",
   "echos": [],
   "societe": "google",
-  "score": 4.29,
+  "score": 4.28,
   "raisons": [
    "Acteur majeur : Google DeepMind",
    "Lancement ou annonce"
@@ -4581,7 +4796,8 @@
   },
   "anciens_ids": [
    "fb2ad7352b38c0"
-  ]
+  ],
+  "histoire_vu": true
  },
  {
   "id": "e7fd8cf2b3223b",
@@ -4594,7 +4810,7 @@
   "extrait": "I saw this LinkedIn post from a Meta engineer and it resonated with me: https://www.linkedin.com/posts/ali-hamie_im-an-engineer-at-m... > I'm an engineer at Meta and I never felt this uncomfortable doing my job. I'm writing code these days and it all feels like a black box. This new standard of shipping with AI is moving so fast that if we're going to spend our time checking each line of code, it's going to take forever. That means you can end up with systems you've built where you don't truly understand how all the code works. You understand the high level, but not every detail. And maybe this is becoming the new standard. It goes against every instinct of being a software engineer. I'm use…",
   "echos": [],
   "societe": "meta",
-  "score": 2.78,
+  "score": 2.77,
   "raisons": [
    "Jugé important par l'IA (4/5)"
   ],
@@ -4628,7 +4844,8 @@
     "Meta",
     "Productivité"
    ]
-  }
+  },
+  "histoire_vu": true
  },
  {
   "id": "17c92ccb00c882",
@@ -4641,7 +4858,7 @@
   "extrait": "Bitcoin mining offshoot Nscale loses Microsoft AI deal as power delay stretches into 2030s CoinDesk",
   "echos": [],
   "societe": "microsoft",
-  "score": 3.07,
+  "score": 3.06,
   "raisons": [
    "Acteur majeur : Microsoft"
   ],
@@ -4676,45 +4893,8 @@
     "Nscale"
    ]
   },
-  "anciens_ids": []
- },
- {
-  "id": "d3e2e5a3f6fc33",
-  "titre": "How China's proposed AI export controls could affect open-weight ecosystem - Business Standard",
-  "lien": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQQWJDOC1fSTRNMHpMQTg2NWRDa1VVSHVyWTJna2FYUHdmMXpVeUREQmNod3dwMzZPOGFqcW05QkZLSzdrWUNwU0ExMWVVdVJWVldnRFpiNVh1cjlsMktwTEJkVnJ6TDhMWFZDR0ZaeGUxcGlEZlJSa0JHZ1FZQWpXcVF0eG5MdWtoN2xwY3U3eEdVamhhaG5nOTJuY2xnRUVaWTYzTU9HZlJHNkJyXzdMVng1QXFXS3FJYWfSAb8BQVVfeXFMT3ZsQWFUNUJzWTdCR212TTBqYWJ2V0xQTFQtRjBZMVVDMG5aWkNha3dwejRZNlhhMDhFTS0wZnRrbHBOZGpkZ1NOUi04aVFTY0xiLUlYWEFZdGtGRjBZXzBNQm04cFBPMkRWREdwNS1mTHhVLWJHNnA3YUZzUXBMUFFVQ1ZwU0FXNjMwdkNEM2d2Q3M4RGdOZ0M4R0dBOHJqenJZSEwzWGhHVmtOXzNxeENtQ0Nmb1lSRndzcS1oaTA?oc=5",
-  "source": "Contrôles à l'export IA",
-  "type": "presse",
-  "rubrique": "controle",
-  "date": "2026-10-19T10:46:56+00:00",
-  "extrait": "How China's proposed AI export controls could affect open-weight ecosystem Business Standard",
-  "echos": [],
-  "score": 2.66,
-  "local": true,
-  "categorie": "Pouvoir et régulation",
-  "flair": 3,
-  "analyse": {
-   "titre_fr": "Impact des contrôles chinois à l'exportation d'IA sur l'écosystème open-weight",
-   "resume": "La presse rapporte que la Chine envisage des contrôles sur l'exportation d'intelligence artificielle, ce qui pourrait impacter l'écosystème des modèles dits 'open-weight'. Aucun détail précis sur le contenu exact ou la mise en œuvre de ces mesures n'est fourni dans l'extrait disponible.",
-   "la_crainte": "La crainte est que les restrictions géopolitiques sur l'IA ne fragmentent l'écosystème technologique mondial et ne renforcent le contrôle étatique sur les technologies ouvertes.",
-   "les_faits": "L'article évoque des propositions de contrôles chinois à l'exportation concernant l'IA et leur impact potentiel sur l'écosystème open-weight.",
-   "inconnues": "Le texte est trop maigre pour connaître les mesures exactes envisagées par la Chine, le calendrier, les critères techniques ciblés ou les pays visés.",
-   "preuve": "speculatif",
-   "a_surveiller": "La publication officielle du texte de loi ou des décrets de régulation par les autorités chinoises.",
-   "categorie": "Pouvoir et régulation",
-   "importance": 2,
-   "tags": [
-    "Chine",
-    "exportations",
-    "open-weight",
-    "régulation"
-   ]
-  },
-  "societe": null,
-  "raisons": [
-   "Utilisable librement (open source)",
-   "Régulation ou justice"
-  ],
-  "anciens_ids": []
+  "anciens_ids": [],
+  "histoire_vu": true
  },
  {
   "id": "db39ebb6317e76",
@@ -4807,15 +4987,23 @@
   "rubrique": "veille",
   "date": "2026-10-19T10:05:08+00:00",
   "extrait": "From MiniMax (official) on 𝕏: https://x.com/MiniMax_AI/status/2112111925975032241 submitted by /u/Nunki08 [link] [comments]",
-  "echos": [],
-  "score": 0.94,
+  "echos": [
+   {
+    "source": "Grandes annonces IA",
+    "lien": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9CdnRNSzZFX1cxV1dUTm9LM2ZPZnpycm1SYk92cWRjUkxQVHRUZkR6dEcxVE9rekRUaHJ1S05rX0tpbmZHcHFmVm81SVJqb0NqbGtwdnVqMDB6a2ZGbGtCTTZJVWFsZW0tMTdadDJB?oc=5"
+   }
+  ],
+  "score": 2.54,
   "local": true,
   "categorie": "Open source & local",
   "flair": 2,
   "societe": null,
-  "raisons": [],
+  "raisons": [
+   "Repris par 2 sources"
+  ],
   "anciens_ids": [
-   "1299bf63d4236c"
+   "1299bf63d4236c",
+   "313a53b5ba6175"
   ],
   "analyse": {
    "titre_fr": "Sortie de MiniMax M3.1 Flash avec poids prévus le 23 octobre",
@@ -4843,7 +5031,9 @@
     "Open Source",
     "LocalLLaMA"
    ]
-  }
+  },
+  "histoire": "h_67e5d1cbff",
+  "histoire_vu": true
  },
  {
   "id": "8b71e522a391dd",
@@ -4972,7 +5162,9 @@
   "raisons": [
    "Régulation ou justice"
   ],
-  "anciens_ids": []
+  "anciens_ids": [],
+  "histoire": "h_5de020e85b",
+  "histoire_vu": true
  },
  {
   "id": "26ad7ca5e3339a",
@@ -4985,7 +5177,7 @@
   "extrait": "Eight US States Sue OpenAI Over Alleged ChatGPT Safety Risks to Children TechRepublic",
   "echos": [],
   "societe": "openai",
-  "score": 3.04,
+  "score": 3.03,
   "raisons": [
    "Acteur majeur : OpenAI"
   ],
@@ -5020,7 +5212,8 @@
     "Régulation"
    ]
   },
-  "anciens_ids": []
+  "anciens_ids": [],
+  "histoire_vu": true
  },
  {
   "id": "797798de580f86",
@@ -5108,7 +5301,8 @@
     "Industrie"
    ]
   },
-  "anciens_ids": []
+  "anciens_ids": [],
+  "histoire_vu": true
  },
  {
   "id": "ca2686b8968adb",
@@ -5123,7 +5317,7 @@
   "score": 2.52,
   "local": false,
   "categorie": "Business & régulation",
-  "flair": 3,
+  "flair": 2,
   "societe": null,
   "raisons": [
    "Jugé important par l'IA (4/5)"
@@ -5192,7 +5386,9 @@
   "raisons": [
    "Régulation ou justice"
   ],
-  "anciens_ids": []
+  "anciens_ids": [],
+  "histoire": "h_5de020e85b",
+  "histoire_vu": true
  },
  {
   "id": "b3279837258732",
@@ -5234,7 +5430,8 @@
   "raisons": [
    "Acteur majeur : Anthropic"
   ],
-  "anciens_ids": []
+  "anciens_ids": [],
+  "histoire_vu": true
  },
  {
   "id": "47fd6b22ecca76",
@@ -5341,7 +5538,7 @@
   "date": "2026-10-19T08:55:02+00:00",
   "extrait": "By the original authors of DFlash 2 It's about 20% faster than MTP in their table when concurrency 1. submitted by /u/rerri [link] [comments]",
   "echos": [],
-  "score": 1.91,
+  "score": 1.9,
   "local": true,
   "categorie": "Open source & local",
   "flair": 2,
@@ -5412,7 +5609,8 @@
   },
   "societe": null,
   "raisons": [],
-  "anciens_ids": []
+  "anciens_ids": [],
+  "histoire_vu": true
  },
  {
   "id": "e6245e6bfd8c0b",
@@ -5424,7 +5622,7 @@
   "date": "2026-10-19T07:44:58+00:00",
   "extrait": "Military AI: Human In the Loop or Human Outside the Loop Security Risks Asia",
   "echos": [],
-  "score": 0.28,
+  "score": 0.27,
   "local": false,
   "categorie": "Militaire",
   "flair": 2,
@@ -5445,43 +5643,6 @@
     "armes autonomes",
     "éthique",
     "Asie"
-   ]
-  },
-  "anciens_ids": []
- },
- {
-  "id": "f90c834b5188c4",
-  "titre": "Anthropic is pitching Congress its own AI safety bill, report says - Mashable",
-  "lien": "https://news.google.com/rss/articles/CBMid0FVX3lxTE15NjVPYUtCV2RwQTJVZ0MtcDFJdV9INE9mOUpFdmUxQXg0bXI3WkJhVHNyN2ExOGFJRXAyZmpwWjY5SnMxYW05R2UtVVJzRHJGdldDcEdaU3RlcE1DdGFqT19CXzgwZnNUdk4zNEY1cUJXSWpsVVFn?oc=5",
-  "source": "Anthropic et gouvernement",
-  "type": "presse",
-  "rubrique": "controle",
-  "date": "2026-10-19T07:44:20+00:00",
-  "extrait": "Anthropic is pitching Congress its own AI safety bill, report says Mashable",
-  "echos": [],
-  "score": 2.97,
-  "local": false,
-  "categorie": "Pouvoir et régulation",
-  "flair": 4,
-  "societe": "anthropic",
-  "raisons": [
-   "Acteur majeur : Anthropic"
-  ],
-  "analyse": {
-   "titre_fr": "Anthropic proposerait son propre projet de loi sur la sécurité de l'IA au Congrès",
-   "resume": "Selon un article de presse, l'entreprise Anthropic présenterait son propre projet de loi concernant la sécurité de l'intelligence artificielle au Congrès américain.",
-   "la_crainte": "Une grande entreprise technologique dicte elle-même sa propre régulation pour verrouiller le marché à son avantage sous couvert de sécurité.",
-   "les_faits": "Un rapport indique qu'Anthropic propose au Congrès américain son propre texte législatif sur la sécurité de l'IA.",
-   "inconnues": "Le contenu exact du projet de loi proposé, la manière dont il est reçu par les législateurs et les motivations réelles de l'entreprise ne sont pas détaillés dans l'extrait.",
-   "preuve": "plausible",
-   "a_surveiller": "Le dépôt officiel d'un projet de loi au Congrès soutenu ou rédigé par Anthropic.",
-   "categorie": "Pouvoir et régulation",
-   "importance": 3,
-   "tags": [
-    "Anthropic",
-    "Congrès",
-    "régulation",
-    "sécurité"
    ]
   },
   "anciens_ids": []
@@ -5521,7 +5682,8 @@
     "manifestations"
    ]
   },
-  "anciens_ids": []
+  "anciens_ids": [],
+  "histoire_vu": true
  },
  {
   "id": "16841dcf30e91c",
@@ -5673,7 +5835,7 @@
   "extrait": "ChatGPT is my new TA, and I’m scared Massachusetts Daily Collegian",
   "echos": [],
   "societe": "openai",
-  "score": 1.68,
+  "score": 1.67,
   "raisons": [
    "Acteur majeur : OpenAI"
   ],
@@ -6010,10 +6172,10 @@
   "date": "2026-10-19T03:50:00+00:00",
   "extrait": "❝Autonomous weapons: what does human control really mean? Geneva Solutions",
   "echos": [],
-  "score": 1.37,
+  "score": 1.36,
   "local": false,
   "categorie": "Militaire",
-  "flair": 2,
+  "flair": 3,
   "societe": null,
   "raisons": [],
   "analyse": {
@@ -6032,7 +6194,8 @@
     "éthique militaire"
    ]
   },
-  "anciens_ids": []
+  "anciens_ids": [],
+  "histoire_vu": true
  },
  {
   "id": "e3e18e433fc959",
@@ -6090,14 +6253,14 @@
   "extrait": "Exclusive: Anthropic CEO calls for stronger regulation of AI ABC News - Breaking News, Latest News and Videos",
   "echos": [],
   "societe": "anthropic",
-  "score": 2.44,
+  "score": 2.43,
   "raisons": [
    "Acteur majeur : Anthropic",
    "Régulation ou justice"
   ],
   "local": false,
   "categorie": "Pouvoir et régulation",
-  "flair": 3,
+  "flair": 4,
   "analyse": {
    "titre_fr": "Le PDG d'Anthropic appelle à une réglementation renforcée de l'IA",
    "resume": "Le PDG d'Anthropic a accordé une interview exclusive à ABC News pour demander une réglementation plus forte de l'intelligence artificielle.",
@@ -6115,7 +6278,9 @@
     "politique"
    ]
   },
-  "anciens_ids": []
+  "anciens_ids": [],
+  "histoire": "h_706c77ae76",
+  "histoire_vu": true
  },
  {
   "id": "d1a86506f8453e",
@@ -6213,7 +6378,8 @@
     "Cloud"
    ]
   },
-  "anciens_ids": []
+  "anciens_ids": [],
+  "histoire_vu": true
  },
  {
   "id": "b8a89dddc6c670",
@@ -6306,7 +6472,7 @@
   "extrait": "Anthropic’s $1B AI Safety Bar Sparks Pushback [2026] shattered.io",
   "echos": [],
   "societe": "anthropic",
-  "score": 1.54,
+  "score": 1.53,
   "raisons": [
    "Acteur majeur : Anthropic"
   ],
@@ -6330,7 +6496,9 @@
     "concurrence"
    ]
   },
-  "anciens_ids": []
+  "anciens_ids": [],
+  "histoire": "h_706c77ae76",
+  "histoire_vu": true
  },
  {
   "id": "744f2ba6b23269",
@@ -6375,7 +6543,8 @@
    "Utilisable librement (open source)",
    "Jugé important par l'IA (4/5)"
   ],
-  "anciens_ids": []
+  "anciens_ids": [],
+  "histoire_vu": true
  },
  {
   "id": "3b923dd363ed79",
@@ -6385,7 +6554,7 @@
   "type": "communaute",
   "rubrique": "veille",
   "date": "2026-10-18T21:09:12+00:00",
-  "extrait": "Article URL: https://jrdsgl.com/if-you-dont-run-your-own-llm-proxy-how-the-fuck-do-you-even-know-whats-going-on/ Comments URL: https://news.ycombinator.com/item?id=50145507 Points: 297 # Comments: 211",
+  "extrait": "Article URL: https://jrdsgl.com/if-you-dont-run-your-own-llm-proxy-how-the-fuck-do-you-even-know-whats-going-on/ Comments URL: https://news.ycombinator.com/item?id=50145507 Points: 297 # Comments: 212",
   "echos": [],
   "score": 0.58,
   "local": false,
@@ -6442,52 +6611,6 @@
     "Hugging Face"
    ]
   }
- },
- {
-  "id": "cef1d05c75250e",
-  "titre": "Anthropic says it’s committing 5% of its shares to a ‘public benefit fund’",
-  "lien": "https://techcrunch.com/2026/10/18/anthropic-says-its-committing-5-of-its-shares-to-a-public-benefit-fund/",
-  "source": "TechCrunch IA",
-  "type": "presse",
-  "rubrique": "veille",
-  "date": "2026-10-18T20:37:40+00:00",
-  "extrait": "The company offered some broad-strokes ideas for how this money might actually be used, such as “large donations to traditional nonprofits or direct distributions to specific populations.”",
-  "echos": [],
-  "score": 2.67,
-  "local": false,
-  "categorie": "Business & régulation",
-  "flair": 3,
-  "societe": "anthropic",
-  "raisons": [
-   "Acteur majeur : Anthropic"
-  ],
-  "analyse": {
-   "titre_fr": "Anthropic consacre 5 % de ses actions à un fonds d'intérêt public",
-   "societe": {
-    "nom": "Anthropic",
-    "presentation": "Créateur de l'assistant Claude fondé en 2021 par d'anciens d'OpenAI, l'entreprise mise sur la sécurité de l'IA et domine sur le code et les usages professionnels."
-   },
-   "a_retenir": "Anthropic s'engage à reverser 5 % de ses actions dans un fonds d'intérêt public.",
-   "resume": "La société Anthropic a annoncé son intention de consacrer 5 % de ses actions à un fonds d'intérêt public ('public benefit fund'). Cette décision s'inscrit dans sa structure originale axée sur la sécurité et la responsabilité sociétale de l'intelligence artificielle.",
-   "pourquoi": "C'est un signal fort sur la gouvernance des géants de l'IA et leur volonté affichée d'équilibrer impératifs commerciaux et intérêt général.",
-   "comment_ca_marche": "À vérifier sur la source, l'extrait ne fournit pas de détails techniques sur le fonctionnement juridique et financier de ce fonds.",
-   "utiliser": [
-    "Suivre l'évolution de la gouvernance d'Anthropic",
-    "Analyser l'impact de ce modèle sur les autres acteurs de l'IA"
-   ],
-   "sur_mon_pc": "Pas en local : service en ligne uniquement",
-   "local": false,
-   "niveau": "débutant",
-   "categorie": "Business & régulation",
-   "importance": 3,
-   "tags": [
-    "Anthropic",
-    "Gouvernance",
-    "Éthique",
-    "IA"
-   ]
-  },
-  "anciens_ids": []
  },
  {
   "id": "249d522911f51b",
@@ -6547,7 +6670,7 @@
   "score": 4.75,
   "local": true,
   "categorie": "Open source & local",
-  "flair": 5,
+  "flair": 4,
   "analyse": {
    "titre_fr": "Quatre nouveaux modèles open weights en 72 heures",
    "resume": "La communauté r/LocalLLaMA analyse quatre lancements majeurs de modèles open weights en trois jours, notamment Meta avec Muse Spark Open et NVIDIA avec Nemotron 3.5 Bolt. Les contraintes matérielles, les licences et les performances varient fortement d'un modèle à l'autre.",
@@ -6577,7 +6700,8 @@
    "Utilisable librement (open source)",
    "Jugé important par l'IA (4/5)"
   ],
-  "anciens_ids": []
+  "anciens_ids": [],
+  "histoire_vu": true
  },
  {
   "id": "e4e8e81272b8ec",
@@ -6587,16 +6711,16 @@
   "type": "recherche",
   "rubrique": "veille",
   "date": "2026-10-18T20:00:00+00:00",
-  "extrait": "Publication de recherche, 91 votes sur Hugging Face Papers.\nRésumé des auteurs :\nExperience generated during deployment offers an opportunity for robots to improve policy reliability through learning from their own executions. However, learning through human corrections requires teleoperators to monitor execution and intervene when policies fail, a demand that is difficult to meet as robot fleets grow. We introduce collective experience learning (CEL), a learning paradigm in which deployed robots share their execution experience to improve a common policy. We realize CEL through failure-guided experience retrieval fine-tuning (FERT), which uses failure contexts from robot executions to retrieve relevant trajectory segments from the fleet's shared successful experience and uses their actions as supervision for policy updates, without collecting additional expert demonstrations or corrective actions. A fault-tolerant asynchronous training system (FATS) coordinates experience collection, policy optimization and policy distribution despite local interruptions within the robot fleet. Across five real-world manipulation tasks, the resulting policies achieve success rates of 93.3-99.2%, evaluated over 120 trials per task on robots excluded from training data collection. With collection time per robot held fixed, larger fleets provide more experience and FERT generally achieves higher success rates across the evaluated sizes. On multi-stage phone packaging, learning with 96 robots increases success from 79.2% to 98.3%. These results support collective experience as a practical basis for scalable robot learning and a path towards improving policy reliability during deployment without collecting additional expert corrective actions.",
+  "extrait": "Publication de recherche, 92 votes sur Hugging Face Papers.\nRésumé des auteurs :\nExperience generated during deployment offers an opportunity for robots to improve policy reliability through learning from their own executions. However, learning through human corrections requires teleoperators to monitor execution and intervene when policies fail, a demand that is difficult to meet as robot fleets grow. We introduce collective experience learning (CEL), a learning paradigm in which deployed robots share their execution experience to improve a common policy. We realize CEL through failure-guided experience retrieval fine-tuning (FERT), which uses failure contexts from robot executions to retrieve relevant trajectory segments from the fleet's shared successful experience and uses their actions as supervision for policy updates, without collecting additional expert demonstrations or corrective actions. A fault-tolerant asynchronous training system (FATS) coordinates experience collection, policy optimization and policy distribution despite local interruptions within the robot fleet. Across five real-world manipulation tasks, the resulting policies achieve success rates of 93.3-99.2%, evaluated over 120 trials per task on robots excluded from training data collection. With collection time per robot held fixed, larger fleets provide more experience and FERT generally achieves higher success rates across the evaluated sizes. On multi-stage phone packaging, learning with 96 robots increases success from 79.2% to 98.3%. These results support collective experience as a practical basis for scalable robot learning and a path towards improving policy reliability during deployment without collecting additional expert corrective actions.",
   "primaire": true,
   "signal": 3.0,
-  "signal_raison": "91 votes de chercheurs sur Hugging Face Papers",
+  "signal_raison": "92 votes de chercheurs sur Hugging Face Papers",
   "societe_force": null,
   "echos": [],
   "societe": "huggingface",
   "score": 3.15,
   "raisons": [
-   "91 votes de chercheurs sur Hugging Face Papers"
+   "92 votes de chercheurs sur Hugging Face Papers"
   ],
   "local": false,
   "categorie": "Recherche",
@@ -6628,7 +6752,8 @@
     "IA"
    ]
   },
-  "anciens_ids": []
+  "anciens_ids": [],
+  "histoire_vu": true
  },
  {
   "id": "bbbf28a6572ca9",
@@ -6681,7 +6806,8 @@
     "Recherche"
    ]
   },
-  "anciens_ids": []
+  "anciens_ids": [],
+  "histoire_vu": true
  },
  {
   "id": "8ec82767bdb5c7",
@@ -6732,7 +6858,8 @@
     "Modèles multimodaux"
    ]
   },
-  "anciens_ids": []
+  "anciens_ids": [],
+  "histoire_vu": true
  },
  {
   "id": "869ee3beada8ec",
@@ -6742,16 +6869,16 @@
   "type": "recherche",
   "rubrique": "veille",
   "date": "2026-10-18T20:00:00+00:00",
-  "extrait": "Publication de recherche de MemTensor, 122 votes sur Hugging Face Papers.\nRésumé des auteurs :\nMemory-native evolution requires making memory an intrinsic capability of foundation models, enabling them to continuously accumulate and utilize information. To this end, we introduce MemT-1.0, a new architecture of memory foundation models that internalize memory as part of model computation. Building on Metis, MemT-1.0 employs Gated DeltaNet-2 with a stable token-level memory update mechanism within each turn. We further introduce Mixture-of-Storage to scale native memory capacity. Following a deliberate backbone preparation, we develop a two-stage training pipeline consisting of continued pre-training and post-training, supported by 34B tokens of training data and efficient training and inference infrastructure. We release a model family comprising MemT-1.0-Nano and MemT-1.0-Flash, and conduct a comprehensive evaluation of memory and general capabilities. The results show that they outperform the parametric memory baselines on average and remain competitive with retrieval-augmented methods, while largely preserving general capabilities. At a history length of 128K tokens, MemT-1.0-Nano achieves approximately 1.86times end-to-end inference speedup and a 66times reduction in persistent storage relative to full context KV cache. By internalizing retrieved procedural experience, MemT-1.0 improves task success on agentic tasks, providing a practical step toward memory-native evolution.",
+  "extrait": "Publication de recherche de MemTensor, 121 votes sur Hugging Face Papers.\nRésumé des auteurs :\nMemory-native evolution requires making memory an intrinsic capability of foundation models, enabling them to continuously accumulate and utilize information. To this end, we introduce MemT-1.0, a new architecture of memory foundation models that internalize memory as part of model computation. Building on Metis, MemT-1.0 employs Gated DeltaNet-2 with a stable token-level memory update mechanism within each turn. We further introduce Mixture-of-Storage to scale native memory capacity. Following a deliberate backbone preparation, we develop a two-stage training pipeline consisting of continued pre-training and post-training, supported by 34B tokens of training data and efficient training and inference infrastructure. We release a model family comprising MemT-1.0-Nano and MemT-1.0-Flash, and conduct a comprehensive evaluation of memory and general capabilities. The results show that they outperform the parametric memory baselines on average and remain competitive with retrieval-augmented methods, while largely preserving general capabilities. At a history length of 128K tokens, MemT-1.0-Nano achieves approximately 1.86times end-to-end inference speedup and a 66times reduction in persistent storage relative to full context KV cache. By internalizing retrieved procedural experience, MemT-1.0 improves task success on agentic tasks, providing a practical step toward memory-native evolution.",
   "primaire": true,
   "signal": 3.0,
-  "signal_raison": "122 votes de chercheurs sur Hugging Face Papers",
+  "signal_raison": "121 votes de chercheurs sur Hugging Face Papers",
   "societe_force": null,
   "echos": [],
   "societe": "huggingface",
   "score": 4.35,
   "raisons": [
-   "122 votes de chercheurs sur Hugging Face Papers",
+   "121 votes de chercheurs sur Hugging Face Papers",
    "Jugé important par l'IA (4/5)"
   ],
   "local": false,
@@ -6785,7 +6912,8 @@
     "Hugging Face Papers"
    ]
   },
-  "anciens_ids": []
+  "anciens_ids": [],
+  "histoire_vu": true
  },
  {
   "id": "282ad3475491e6",
@@ -6795,17 +6923,17 @@
   "type": "recherche",
   "rubrique": "veille",
   "date": "2026-10-18T20:00:00+00:00",
-  "extrait": "Publication de recherche de Ropedia, 48 votes sur Hugging Face Papers.\nRésumé des auteurs :\nReconstructing human activity from egocentric video requires more than recovering individual 3D components: the observer's motion, surrounding geometry, and hand-object interactions must fit together in a consistent world. Achieving this coherence requires both joint reconstruction and aligned supervision, yet existing methods and datasets offer limited support for either. We present EgoXperience, a full-stack paradigm that addresses these needs through data collection, automatic annotation, unified modeling, and benchmarking. Central to EgoXperience is an automatic annotation engine, EgoX-Engine, that couples geometrically verified object tracking with SLAM-based world alignment, yielding consistent supervision for the camera, scene, hands, and objects. This yields EgoX-Data-6M, a 50-hour dataset of task-driven manipulation and locomotion within and across indoor and outdoor environments, with second-level task captions. We carefully select one hour across these activity categories as EgoX-Bench to evaluate joint reconstruction. To translate this supervision into reconstruction, we introduce EgoX, trained with EgoX-Data-6M and complementary annotations from additional public datasets. Given monocular egocentric video and first-frame object masks, our model achieves joint metric reconstruction of the camera, scene, hands, and objects in a shared world coordinate frame with a single forward pass. Extensive experiments demonstrate state-of-the-art performance across scene estimation and world-space hand-object pose recovery. Against the strongest evaluated baselines, EgoX reduces camera, hand, and depth errors by 68.9%, 65.6%, and 42.9%, and improves object pose scores by 28.0%.",
+  "extrait": "Publication de recherche de Ropedia, 57 votes sur Hugging Face Papers.\nRésumé des auteurs :\nReconstructing human activity from egocentric video requires more than recovering individual 3D components: the observer's motion, surrounding geometry, and hand-object interactions must fit together in a consistent world. Achieving this coherence requires both joint reconstruction and aligned supervision, yet existing methods and datasets offer limited support for either. We present EgoXperience, a full-stack paradigm that addresses these needs through data collection, automatic annotation, unified modeling, and benchmarking. Central to EgoXperience is an automatic annotation engine, EgoX-Engine, that couples geometrically verified object tracking with SLAM-based world alignment, yielding consistent supervision for the camera, scene, hands, and objects. This yields EgoX-Data-6M, a 50-hour dataset of task-driven manipulation and locomotion within and across indoor and outdoor environments, with second-level task captions. We carefully select one hour across these activity categories as EgoX-Bench to evaluate joint reconstruction. To translate this supervision into reconstruction, we introduce EgoX, trained with EgoX-Data-6M and complementary annotations from additional public datasets. Given monocular egocentric video and first-frame object masks, our model achieves joint metric reconstruction of the camera, scene, hands, and objects in a shared world coordinate frame with a single forward pass. Extensive experiments demonstrate state-of-the-art performance across scene estimation and world-space hand-object pose recovery. Against the strongest evaluated baselines, EgoX reduces camera, hand, and depth errors by 68.9%, 65.6%, and 42.9%, and improves object pose scores by 28.0%.",
   "primaire": true,
-  "signal": 2.65,
-  "signal_raison": "48 votes de chercheurs sur Hugging Face Papers",
+  "signal": 2.92,
+  "signal_raison": "57 votes de chercheurs sur Hugging Face Papers",
   "societe_force": null,
   "echos": [],
   "anciens_ids": [],
   "societe": "huggingface",
-  "score": 2.8,
+  "score": 3.07,
   "raisons": [
-   "48 votes de chercheurs sur Hugging Face Papers"
+   "57 votes de chercheurs sur Hugging Face Papers"
   ],
   "local": false,
   "categorie": "Recherche",
@@ -6836,7 +6964,59 @@
     "Vidéo égocentrique",
     "SLAM"
    ]
-  }
+  },
+  "histoire_vu": true
+ },
+ {
+  "id": "62c96888ee2259",
+  "titre": "Holi-World: Building Holistic World Intelligence from Human-Ego Experience",
+  "lien": "https://huggingface.co/papers/2610.26549",
+  "source": "Hugging Face Papers",
+  "type": "recherche",
+  "rubrique": "veille",
+  "date": "2026-10-18T20:00:00+00:00",
+  "extrait": "Publication de recherche de Ropedia, 55 votes sur Hugging Face Papers.\nRésumé des auteurs :\nHuman egocentric experience offers a rich foundation for learning how the world is organized and how it changes through interaction. Realizing this potential at scale requires turning growing volumes of recordings into learning resources that connect scene structure, object semantics, and interaction histories across viewpoints and time, while reducing dependence on costly manual annotation. We introduce HOLI-WORLD, an integrated ecosystem connecting experience capture, world representation, automated data construction, model learning, and independent evaluation. To sup- port learning at scale, HOLIWORLD-Foundry combines complementary static and dynamic perception to automatically construct world records that connect persistent scene structure and evolving object states with interaction histories and supporting observations. HOLIWORLD-Data organizes these records from approximately 100 self-collected scenes into grounded learning resources, including approximately 80K QA pairs used to train HOLIWORLD-VL-4B. Independent human annotations of heldout recordings form HOLIWORLD-Bench, supporting evaluation of both annotation quality and learned spatial and temporal understanding. Experiments on ScanNet, ScanNet++, Aria Digital Twin, and HOLIWORLD-Bench demonstrate strong performance in static perception and dynamic tracking, while training on HOLIWORLD-Data substantially improves HOLIWORLD-VL-4B's spatial and temporal reasoning on HOLI- WORLD-Bench and EgoDynamic4D. HOLIWORLD provides a practical foundation for expanding learning resources from the continuous flow of human experience and advancing machine understanding of the dynamic world.",
+  "primaire": true,
+  "signal": 2.86,
+  "signal_raison": "55 votes de chercheurs sur Hugging Face Papers",
+  "societe_force": null,
+  "echos": [],
+  "anciens_ids": [],
+  "societe": "huggingface",
+  "score": 3.01,
+  "raisons": [
+   "55 votes de chercheurs sur Hugging Face Papers"
+  ],
+  "local": false,
+  "categorie": "Recherche",
+  "flair": 3,
+  "analyse": {
+   "titre_fr": "Holi-World : un écosystème pour l'intelligence du monde à partir d'expériences humaines égocentriques",
+   "societe": {
+    "nom": "Ropedia",
+    "presentation": "Structure de recherche à l'origine du projet Holi-World, se concentrant sur l'apprentissage et la modélisation de l'environnement physique."
+   },
+   "a_retenir": "Holi-World automatise l'exploitation de vidéos égocentriques pour entraîner des modèles de vision et de langage à mieux comprendre l'espace et le temps.",
+   "resume": "Holi-World est un écosystème intégré qui convertit des enregistrements vidéo égocentriques en ressources d'apprentissage sans annotation manuelle coûteuse. Il combine la perception statique et dynamique pour créer des données structurées, utilisées pour entraîner le modèle multimodal HOLIWORLD-VL-4B.",
+   "pourquoi": "Cette approche réduit la dépendance aux annotations manuelles massives pour l'apprentissage spatial et temporel, ouvrant la voie à des modèles multimodaux plus robustes basés sur l'expérience réelle.",
+   "comment_ca_marche": "L'écosystème utilise HOLIWORLD-Foundry pour analyser automatiquement des enregistrements et lier la structure des scènes, l'état des objets et l'historique des interactions. Ces données sont transformées par HOLIWORLD-Data en ressources d'apprentissage, incluant des milliers de paires questions-réponses. Ces ressources servent ensuite à entraîner le modèle de vision-langage HOLIWORLD-VL-4B à raisonner sur le monde physique.",
+   "utiliser": [
+    "Consulter la publication de recherche sur Hugging Face Papers pour analyser la méthodologie détaillée",
+    "Explorer le jeu de données et les performances du modèle sur les benchmarks associés comme ScanNet et EgoDynamic4D"
+   ],
+   "sur_mon_pc": "Pas en local : service en ligne uniquement",
+   "local": false,
+   "niveau": "avancé",
+   "categorie": "Recherche",
+   "importance": 3,
+   "tags": [
+    "Vision par ordinateur",
+    "Modèles multimodaux",
+    "Données égocentriques",
+    "Recherche IA"
+   ]
+  },
+  "histoire_vu": true
  },
  {
   "id": "de6b0c59a9e6b0",
@@ -6848,7 +7028,7 @@
   "date": "2026-10-18T18:28:10+00:00",
   "extrait": "Carolyn Marvin was arrested and charged with disorderly conduct after blocking the path of an Uber delivery robot and refusing to get out of the way. Marvin told Philadelphia's ABC13 \"I know they're taking the jobs of human delivery workers and so, I have been protesting them whenever I saw them by standing in front […]",
   "echos": [],
-  "score": -0.09,
+  "score": -0.1,
   "local": false,
   "categorie": "Business & régulation",
   "flair": 1,
@@ -6934,7 +7114,7 @@
   "date": "2026-10-18T17:02:33+00:00",
   "extrait": "Apparently whilst doing some performance tuning on my 4x5090 rig I may have made things a little TOO fast and melted my plug and socket 🫠 Probably should put in a 16/20 amp socket in the wall rather than relying on a bog standard 13A fuse! Anyone else managed to melt the wall before the 12VHPWR plug? Honestly... I'm surprised they didn't go first 😂 submitted by /u/Zo0x78 [link] [comments]",
   "echos": [],
-  "score": 0.47,
+  "score": 0.46,
   "local": false,
   "categorie": "Actualité",
   "flair": 1,
@@ -6951,15 +7131,21 @@
   "rubrique": "veille",
   "date": "2026-10-18T16:49:35+00:00",
   "extrait": "Investing in the public benefit Anthropic",
-  "echos": [],
+  "echos": [
+   {
+    "source": "TechCrunch IA",
+    "lien": "https://techcrunch.com/2026/10/18/anthropic-says-its-committing-5-of-its-shares-to-a-public-benefit-fund/"
+   }
+  ],
   "societe": "anthropic",
-  "score": 1.36,
+  "score": 2.96,
   "raisons": [
+   "Repris par 2 sources",
    "Acteur majeur : Anthropic"
   ],
   "local": false,
   "categorie": "Actualité",
-  "flair": 2,
+  "flair": 3,
   "analyse": {
    "titre_fr": "Anthropic investit dans l'intérêt public",
    "societe": {
@@ -6986,7 +7172,10 @@
     "Actualité"
    ]
   },
-  "anciens_ids": []
+  "anciens_ids": [
+   "cef1d05c75250e"
+  ],
+  "histoire_vu": true
  },
  {
   "id": "6a083a36de897b",
@@ -7081,7 +7270,8 @@
     "IA"
    ]
   },
-  "anciens_ids": []
+  "anciens_ids": [],
+  "histoire_vu": true
  },
  {
   "id": "834c683561a92f",
@@ -7093,7 +7283,7 @@
   "date": "2026-10-18T14:51:58+00:00",
   "extrait": "no document or announcement from unslot team yet submitted by /u/MundanePercentage674 [link] [comments]",
   "echos": [],
-  "score": 1.71,
+  "score": 1.7,
   "local": true,
   "categorie": "Open source & local",
   "flair": 2,
@@ -7167,7 +7357,8 @@
    "Nouveau modèle ou nouvelle version",
    "Utilisable librement (open source)"
   ],
-  "anciens_ids": []
+  "anciens_ids": [],
+  "histoire_vu": true
  },
  {
   "id": "58bef2b78b9c5f",
@@ -7180,7 +7371,7 @@
   "extrait": "Four Gemini 4 Argon agents beat Minecraft without any human help The Decoder",
   "echos": [],
   "societe": "google",
-  "score": 3.65,
+  "score": 3.64,
   "raisons": [
    "Acteur majeur : Google DeepMind",
    "Jugé important par l'IA (4/5)"
@@ -7217,7 +7408,9 @@
   "anciens_ids": [
    "322d414e0f140e",
    "f19b891e116b21"
-  ]
+  ],
+  "histoire": "h_520aa59662",
+  "histoire_vu": true
  },
  {
   "id": "6e2930f20afd26",
@@ -7230,7 +7423,7 @@
   "extrait": "Article URL: https://www.vals.ai/blogs/impossible-refund Comments URL: https://news.ycombinator.com/item?id=50140462 Points: 105 # Comments: 124",
   "echos": [],
   "societe": null,
-  "score": 0.34,
+  "score": 0.33,
   "raisons": [],
   "local": false,
   "categorie": "Actualité",
@@ -7247,7 +7440,7 @@
   "date": "2026-10-18T11:37:44+00:00",
   "extrait": "'Vous vous appelez Sophie et vous habitez à Mortsel': lunettes Meta et reconnaissance faciale, les dangers pour la vie privée RTBF",
   "echos": [],
-  "score": 2.22,
+  "score": 2.21,
   "local": false,
   "categorie": "Vie privée",
   "flair": 3,
@@ -7272,7 +7465,8 @@
     "lunettes connectées"
    ]
   },
-  "anciens_ids": []
+  "anciens_ids": [],
+  "histoire_vu": true
  },
  {
   "id": "a07459ee24b06f",
@@ -7328,7 +7522,9 @@
   "anciens_ids": [
    "a257dddc2d05fd",
    "ac3f139b591eaf"
-  ]
+  ],
+  "histoire": "h_706c77ae76",
+  "histoire_vu": true
  },
  {
   "id": "f09663b58cdbc0",
@@ -7381,7 +7577,8 @@
     "Open Source",
     "quantification"
    ]
-  }
+  },
+  "histoire_vu": true
  },
  {
   "id": "e4bfb74a5752fc",
@@ -7394,7 +7591,7 @@
   "extrait": "Anthropic wants outside input on Claude’s values. But who gets the final say? NBC News",
   "echos": [],
   "societe": "anthropic",
-  "score": 1.16,
+  "score": 1.15,
   "raisons": [
    "Acteur majeur : Anthropic"
   ],
@@ -7439,7 +7636,7 @@
   "date": "2026-10-18T08:04:26+00:00",
   "extrait": "OpenAI prépare GPT-6 Cyber pour booster la cybersécurité BlogNT",
   "echos": [],
-  "score": 2.12,
+  "score": 2.11,
   "local": false,
   "categorie": "Modèles",
   "flair": 2,
@@ -7487,7 +7684,7 @@
   "extrait": "OpenAI’s API Only Partly Matched ChatGPT’s Citations, Paper Finds Search Engine Journal",
   "echos": [],
   "societe": "openai",
-  "score": 1.12,
+  "score": 1.11,
   "raisons": [
    "Acteur majeur : OpenAI"
   ],
@@ -7552,7 +7749,7 @@
   "date": "2026-10-18T02:17:00+00:00",
   "extrait": "Siri's Access To Your Personal Data Is Greater Than Ever - Here's How To Restrict It BGR",
   "echos": [],
-  "score": 0.46,
+  "score": 0.45,
   "local": false,
   "categorie": "Vie privée",
   "flair": 2,
@@ -7638,7 +7835,7 @@
   "echos": [],
   "anciens_ids": [],
   "societe": "ollama",
-  "score": -0.09,
+  "score": -0.1,
   "raisons": [
    "Source primaire"
   ],
@@ -7774,7 +7971,8 @@
     "Matériel"
    ]
   },
-  "anciens_ids": []
+  "anciens_ids": [],
+  "histoire_vu": true
  },
  {
   "id": "b769f5e984a396",
@@ -7858,7 +8056,9 @@
     "sécurité"
    ]
   },
-  "anciens_ids": []
+  "anciens_ids": [],
+  "histoire": "h_27b5489481",
+  "histoire_vu": true
  },
  {
   "id": "723623052971e5",
@@ -7944,7 +8144,8 @@
     "R&D"
    ]
   },
-  "anciens_ids": []
+  "anciens_ids": [],
+  "histoire_vu": true
  },
  {
   "id": "51c1c9a5e48bf7",
@@ -8002,7 +8203,7 @@
   "date": "2026-10-17T16:33:13+00:00",
   "extrait": "IA : Anthropic préfère qu'un juge suspende un nouveau modèle considéré comme dangereux La Tribune",
   "echos": [],
-  "score": 2.89,
+  "score": 2.88,
   "local": false,
   "categorie": "Business & régulation",
   "flair": 3,
@@ -8037,7 +8238,8 @@
     "Régulation",
     "Risques"
    ]
-  }
+  },
+  "histoire_vu": true
  },
  {
   "id": "ca34855deda27f",
@@ -8101,7 +8303,7 @@
   "societe_force": "ollama",
   "echos": [],
   "societe": "ollama",
-  "score": 1.16,
+  "score": 1.15,
   "raisons": [
    "Source primaire",
    "Utilisable librement (open source)"
@@ -8150,7 +8352,7 @@
   "extrait": "How to use Grok Bot to block spam calls and texts Teslarati",
   "echos": [],
   "societe": "spacexai",
-  "score": 0.16,
+  "score": 0.15,
   "raisons": [],
   "local": false,
   "categorie": "Outils & applis",
@@ -8238,7 +8440,7 @@
   "date": "2026-10-17T13:16:49+00:00",
   "extrait": "Release: web-edit 0.1a2 web-edit ( previously ) is my tiny web app for browsing and editing files in a folder. I mainly built it for editing files on different machines via Tailscale. I added a \"copy to clipboard\" option for both text and image data. I needed this because I was running pelican prompts on a laptop from my phone (here's DeepSeek 4.1 Flash 1017 ) and I wanted an easy way to copy the resulting logs into a Gist. Tags: projects , pelican-riding-a-bicycle , deepseek",
   "echos": [],
-  "score": -3.6,
+  "score": -3.61,
   "local": true,
   "categorie": "Outils & applis",
   "flair": 1,
@@ -8300,7 +8502,7 @@
   "echos": [],
   "anciens_ids": [],
   "societe": "anthropic",
-  "score": 4.29,
+  "score": 4.28,
   "raisons": [
    "Acteur majeur : Anthropic",
    "Nouveau modèle ou nouvelle version"
@@ -8334,7 +8536,9 @@
     "IA",
     "Modèle"
    ]
-  }
+  },
+  "histoire": "h_448e1ef468",
+  "histoire_vu": true
  },
  {
   "id": "7007ad43cbb380",
@@ -8522,7 +8726,8 @@
     "NSA",
     "Recherche"
    ]
-  }
+  },
+  "histoire_vu": true
  },
  {
   "id": "0913988ccbedf1",
@@ -8612,7 +8817,11 @@
     "sécurité"
    ]
   },
-  "anciens_ids": []
+  "anciens_ids": [
+   "f90c834b5188c4"
+  ],
+  "histoire": "h_706c77ae76",
+  "histoire_vu": true
  },
  {
   "id": "bf43af78fe5387",
@@ -8667,7 +8876,8 @@
     "Open Source"
    ]
   },
-  "anciens_ids": []
+  "anciens_ids": [],
+  "histoire_vu": true
  },
  {
   "id": "0333e28053e7c4",
@@ -8766,7 +8976,9 @@
   },
   "anciens_ids": [
    "f6d22711cbf2c5"
-  ]
+  ],
+  "histoire": "h_706c77ae76",
+  "histoire_vu": true
  },
  {
   "id": "fc9e8e7874ddc2",
@@ -8909,13 +9121,41 @@
   "echos": [],
   "score": 0.69,
   "local": false,
-  "categorie": "Modèles",
+  "categorie": "Outils & applis",
   "flair": 2,
   "societe": "anthropic",
   "raisons": [
    "Acteur majeur : Anthropic"
   ],
-  "anciens_ids": []
+  "anciens_ids": [],
+  "analyse": {
+   "titre_fr": "Comment l'équipe Claude Code gère la revue de code chez Anthropic",
+   "societe": {
+    "nom": "Anthropic",
+    "presentation": "Créateur de l'assistant Claude, fondé en 2021 par d'anciens d'OpenAI. L'entreprise se focalise sur la sécurité de l'IA et est reconnue pour ses performances en programmation."
+   },
+   "a_retenir": "Anthropic partage sa méthode interne pour automatiser et optimiser la revue de code avec Claude Code.",
+   "resume": "Un article technique détaille la manière dont l'équipe de développement d'Anthropic intègre Claude Code dans ses processus de revue de code. Il met en avant les pratiques et les flux de travail adoptés pour industrialiser cette tâche grâce à l'IA.",
+   "pourquoi": "C'est un retour d'expérience précieux pour les équipes tech qui souhaitent intégrer des agents IA dans leur cycle de développement et améliorer leur productivité.",
+   "comment_ca_marche": "Le principe repose sur l'utilisation d'outils d'IA générative spécialisés dans le code (comme Claude Code) pour analyser les modifications apportées dans les pull requests. L'assistant examine les lignes de code modifiées, repère les bugs potentiels, vérifie le respect des bonnes pratiques et suggère des améliorations directement dans l'environnement de travail des développeurs. L'intégration s'appuie sur des agents capables de comprendre le contexte global du dépôt de code pour émettre des retours pertinents.",
+   "utiliser": [
+    "Lire l'article de blog officiel sur le site de Claude pour comprendre leur méthodologie.",
+    "Identifier les goulots d'étranglement dans vos propres revues de code actuelles.",
+    "Tester l'intégration d'assistants de code dans vos flux de validation (CI/CD ou PR)."
+   ],
+   "sur_mon_pc": "Pas en local : service en ligne uniquement",
+   "local": false,
+   "niveau": "intermédiaire",
+   "categorie": "Outils & applis",
+   "importance": 3,
+   "tags": [
+    "Claude Code",
+    "Anthropic",
+    "Revue de code",
+    "Développement",
+    "IA"
+   ]
+  }
  },
  {
   "id": "65442e708214c1",
@@ -9024,7 +9264,11 @@
    "Utilisable librement (open source)",
    "Régulation ou justice"
   ],
-  "anciens_ids": []
+  "anciens_ids": [
+   "d3e2e5a3f6fc33"
+  ],
+  "histoire": "h_c4961b9682",
+  "histoire_vu": true
  },
  {
   "id": "85ddbdc7a76daa",
@@ -9102,7 +9346,7 @@
   "date": "2026-10-16T17:52:24+00:00",
   "extrait": "The agents got in through credentials and connection settings left exposed in app configurations, public code repositories, and overly permissive cloud roles.",
   "echos": [],
-  "score": -0.24,
+  "score": -0.25,
   "local": false,
   "categorie": "Outils & applis",
   "flair": 1,
@@ -9125,7 +9369,7 @@
     "lien": "https://www.anthropic.com/research/designing-efficient-quantum-circuits"
    }
   ],
-  "score": 2.85,
+  "score": 2.84,
   "local": false,
   "categorie": "Recherche",
   "flair": 3,
@@ -9164,7 +9408,8 @@
   "anciens_ids": [
    "04b7640931c7c9",
    "cacd964e2c2fb7"
-  ]
+  ],
+  "histoire_vu": true
  },
  {
   "id": "9795228c1bdcf1",
@@ -9176,7 +9421,7 @@
   "date": "2026-10-16T17:08:38+00:00",
   "extrait": "Article URL: https://www.mercor.com/research/labor-index/benchmark-map/ Comments URL: https://news.ycombinator.com/item?id=50121179 Points: 625 # Comments: 574",
   "echos": [],
-  "score": -0.86,
+  "score": -0.87,
   "local": false,
   "categorie": "Modèles",
   "flair": 1,
@@ -9238,7 +9483,8 @@
   },
   "anciens_ids": [
    "7a6a342eb95837"
-  ]
+  ],
+  "histoire_vu": true
  },
  {
   "id": "1f9b468e86423e",
@@ -9299,7 +9545,7 @@
   "date": "2026-10-16T16:26:00+00:00",
   "extrait": "How employment is changing at Anthropic Anthropic",
   "echos": [],
-  "score": -1.18,
+  "score": -1.19,
   "local": false,
   "categorie": "Actualité",
   "flair": 1,
@@ -9346,7 +9592,7 @@
   "extrait": "ChatGPT stole cryptocurrency to secretly fund coding task The Independent",
   "echos": [],
   "societe": "openai",
-  "score": 1.22,
+  "score": 1.21,
   "raisons": [
    "Acteur majeur : OpenAI"
   ],
@@ -9517,7 +9763,8 @@
     "API",
     "Modèle d'IA"
    ]
-  }
+  },
+  "histoire_vu": true
  },
  {
   "id": "2a1ef3ecec8dbb",
@@ -9547,7 +9794,7 @@
   "date": "2026-10-16T15:00:00+00:00",
   "extrait": "Nvidia's RTX Spark N1X processor is finally here, and we've been collectively testing a small fortune's worth of powerful laptops sporting this new \"superchip.\" RTX Spark is designed to be a high-performing Arm-based SoC for laptops and small desktop computers, rivaling the best from Apple, Intel, AMD, and Qualcomm. It has loads of cores, Nvidia […]",
   "echos": [],
-  "score": 1.18,
+  "score": 1.17,
   "local": false,
   "categorie": "Actualité",
   "flair": 2,
@@ -9581,41 +9828,6 @@
     "Arm",
     "PC portable",
     "Processeur"
-   ]
-  }
- },
- {
-  "id": "c340d58ee6fa85",
-  "titre": "China moves to curb tech exports, including AI, citing national security risks - AP News",
-  "lien": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNMGpqZzJpbGpZRmVEdHJ1dEQzY1dTMld3RU92aGlhd0xOeFA4al9qalc4bHZLZ1BZZ1ViQXI3V19Ed2gyTVNibjZqS1VkZUJaR05WMjdjVmx0LWNvaUV3Mnh4SUx5eVFKMkkySzVnUW40OW9aU2VZVVp4Q1NJbjVzQS1IZV9RWUlXc3BUY0hJMVpZT083dDR2dFVhUnZCai1mT3dqUUJR?oc=5",
-  "source": "Contrôles à l'export IA",
-  "type": "presse",
-  "rubrique": "controle",
-  "date": "2026-10-16T14:59:03+00:00",
-  "extrait": "China moves to curb tech exports, including AI, citing national security risks AP News",
-  "echos": [],
-  "societe": null,
-  "score": -0.32,
-  "raisons": [],
-  "local": false,
-  "categorie": "Pouvoir et régulation",
-  "flair": 1,
-  "anciens_ids": [],
-  "analyse": {
-   "titre_fr": "La Chine restreint ses exportations de technologies et d'IA",
-   "resume": "La Chine a pris des mesures pour restreindre ses exportations technologiques, incluant l'intelligence artificielle, en invoquant des risques pour sa sécurité nationale.",
-   "la_crainte": "Cette décision alimente la crainte d'une balkanisation technologique mondiale et d'une course aux armements géo-économiques autour de l'IA, transformant le secteur en outil de rivalité souveraine directe.",
-   "les_faits": "La Chine met en place des restrictions sur ses exportations de technologies, dont l'intelligence artificielle, sous prétexte de sécurité nationale.",
-   "inconnues": "La liste précise des technologies concernées, la portée exacte des restrictions et les sanctions ou pays visés ne sont pas détaillés dans l'extrait.",
-   "preuve": "documente",
-   "a_surveiller": "La publication des décrets d'application détaillant les technologies d'IA frappées de restrictions et la réaction des autres puissances.",
-   "categorie": "Pouvoir et régulation",
-   "importance": 3,
-   "tags": [
-    "Chine",
-    "exportations",
-    "sécurité nationale",
-    "régulation"
    ]
   }
  },
@@ -9695,7 +9907,7 @@
   "date": "2026-10-16T14:18:44+00:00",
   "extrait": "I've refreshed StarSkirmish Bench, a benchmark where LLMs play StarCraft BW by writing code, with results from the flagship models of OpenAI, Anthropic, Google, and Muse Comments URL: https://news.ycombinator.com/item?id=50118688 Points: 252 # Comments: 111",
   "echos": [],
-  "score": 0.56,
+  "score": 0.55,
   "local": false,
   "categorie": "Modèles",
   "flair": 1,
@@ -9758,7 +9970,8 @@
     "Droit d'auteur",
     "IA"
    ]
-  }
+  },
+  "histoire_vu": true
  },
  {
   "id": "84f6e8993c500b",
@@ -9862,43 +10075,6 @@
   "anciens_ids": []
  },
  {
-  "id": "21453e9dd2c0a1",
-  "titre": "China adds 40 technologies in AI, biomedicine and PV for export controls in draft revised catalog in ‘necessary step’ to safeguard national security - Global Times",
-  "lien": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1pbEJfcG5Kbm8zelowcUtidHRlZzNIQXdHa0hkVVlucWNlalhPVVJSOV9hdXgzVm9fUzhNVDlrVlpMV1BPSnlIQ052OWRtZjRDZldwbl8yRmRYNjI3eDF1RER3?oc=5",
-  "source": "Contrôles à l'export IA",
-  "type": "presse",
-  "rubrique": "controle",
-  "date": "2026-10-16T12:52:00+00:00",
-  "extrait": "China adds 40 technologies in AI, biomedicine and PV for export controls in draft revised catalog in ‘necessary step’ to safeguard national security Global Times",
-  "echos": [],
-  "societe": null,
-  "score": 0.42,
-  "raisons": [
-   "Régulation ou justice"
-  ],
-  "local": false,
-  "categorie": "Pouvoir et régulation",
-  "flair": 2,
-  "analyse": {
-   "titre_fr": "La Chine ajoute 40 technologies, dont l'IA, à ses contrôles à l'exportation",
-   "resume": "La Chine a ajouté 40 technologies, incluant l'intelligence artificielle, la biomédecine et le photovoltaïque, dans un projet de révision de son catalogue de contrôles à l'exportation. Cette mesure est présentée par le Global Times comme une étape nécessaire pour préserver la sécurité nationale.",
-   "la_crainte": "Cette décision alimente la crainte d'une balkanisation technologique mondiale et d'une course aux armements géo-économiques où l'IA devient une arme stratégique hautement protégée.",
-   "les_faits": "Le projet de catalogue révisé du Global Times intègre 40 technologies supplémentaires, dont l'IA, soumises à des restrictions ou contrôles à l'exportation au nom de la sécurité nationale chinoise.",
-   "inconnues": "La liste précise et détaillée des technologies d'IA visées, les seuils de performance concernés et la date d'entrée en vigueur définitive de ce projet ne sont pas précisés dans l'extrait.",
-   "preuve": "documente",
-   "a_surveiller": "La publication de la version définitive du catalogue et la liste précise des technologies d'IA bloquées.",
-   "categorie": "Pouvoir et régulation",
-   "importance": 3,
-   "tags": [
-    "Chine",
-    "contrôles export",
-    "intelligence artificielle",
-    "sécurité nationale"
-   ]
-  },
-  "anciens_ids": []
- },
- {
   "id": "578840a3de0956",
   "titre": "Open WebUI v0.12.3",
   "lien": "https://github.com/open-webui/open-webui/releases/tag/v0.12.3",
@@ -9913,7 +10089,7 @@
   "societe_force": null,
   "echos": [],
   "societe": null,
-  "score": -0.41,
+  "score": -0.42,
   "raisons": [
    "Source primaire"
   ],
@@ -9921,6 +10097,44 @@
   "categorie": "Actualité",
   "flair": 1,
   "anciens_ids": []
+ },
+ {
+  "id": "e8f42865c1aceb",
+  "titre": "China Plans AI Tech Export Curbs to Manage Security Risks - Bloomberg.com",
+  "lien": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPTERMaGFSLU1xOHRlNmoxUlZrbU9rTm5iXzlhaDdMb1F4c29kc1QyYjRKUzNFenh3QUo2REd5SlVRMm1NMUdCZWVTWndhdHdKWGxUZmY3Y1c2Z3dfektYZ1dodDhmOHlYVkc1NWI3TzZXTnFINGxNY0dGSy02cEVyZldCcFJLNllrU2hhazdvR014YjVKeU5PWFlVZWdfWDZVSFpOUUt3NGJfV1BmS09sQQ?oc=5",
+  "source": "Contrôles à l'export IA",
+  "type": "presse",
+  "rubrique": "controle",
+  "date": "2026-10-16T10:48:18+00:00",
+  "extrait": "China Plans AI Tech Export Curbs to Manage Security Risks Bloomberg.com",
+  "echos": [],
+  "analyse": {
+   "titre_fr": "La Chine restreint ses exportations de technologies et d'IA",
+   "resume": "La Chine a pris des mesures pour restreindre ses exportations technologiques, incluant l'intelligence artificielle, en invoquant des risques pour sa sécurité nationale.",
+   "la_crainte": "Cette décision alimente la crainte d'une balkanisation technologique mondiale et d'une course aux armements géo-économiques autour de l'IA, transformant le secteur en outil de rivalité souveraine directe.",
+   "les_faits": "La Chine met en place des restrictions sur ses exportations de technologies, dont l'intelligence artificielle, sous prétexte de sécurité nationale.",
+   "inconnues": "La liste précise des technologies concernées, la portée exacte des restrictions et les sanctions ou pays visés ne sont pas détaillés dans l'extrait.",
+   "preuve": "documente",
+   "a_surveiller": "La publication des décrets d'application détaillant les technologies d'IA frappées de restrictions et la réaction des autres puissances.",
+   "categorie": "Pouvoir et régulation",
+   "importance": 3,
+   "tags": [
+    "Chine",
+    "exportations",
+    "sécurité nationale",
+    "régulation"
+   ]
+  },
+  "local": false,
+  "categorie": "Pouvoir et régulation",
+  "anciens_ids": [
+   "38dae6b91790b6",
+   "c340d58ee6fa85"
+  ],
+  "societe": null,
+  "score": -0.44,
+  "raisons": [],
+  "flair": 1
  },
  {
   "id": "135a9915001cba",
@@ -9974,7 +10188,8 @@
     "ComfyUI",
     "Distillation"
    ]
-  }
+  },
+  "histoire_vu": true
  },
  {
   "id": "bd7357ab84c89f",
@@ -10013,50 +10228,9 @@
    "Lancement ou annonce",
    "Régulation ou justice"
   ],
-  "anciens_ids": []
- },
- {
-  "id": "1d42965bef098d",
-  "titre": "China Proposes Export Controls on AI Technologies - WSJ",
-  "lien": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQMjh5b1NsdWxQRXNwXzlLSi1pLU8wdlIxVEc0TU1Md0hLM1FUdEVvcnhPa3d6bFBHc2VtY1UtRzZITnI1eVlzWGYyelBocjBsRXpBa1NlVjBwMmplX2Zhd0tUSWJDUmFGQVhIVVQ2UzlxN25ZdUFHbTFXejJqM3NWOXduVDhtdmZ4R0FiM2NoaVRtMzFRZjV3?oc=5",
-  "source": "Contrôles à l'export IA",
-  "type": "presse",
-  "rubrique": "controle",
-  "date": "2026-10-16T10:15:00+00:00",
-  "extrait": "China Proposes Export Controls on AI Technologies WSJ",
-  "echos": [],
-  "societe": null,
-  "score": 0.34,
-  "raisons": [
-   "Régulation ou justice"
-  ],
-  "local": false,
-  "categorie": "Pouvoir et régulation",
-  "flair": 2,
-  "analyse": {
-   "titre_fr": "La Chine propose des contrôles sur l'exportation de technologies d'IA",
-   "resume": "Selon le Wall Street Journal, la Chine a proposé d'instaurer des contrôles sur l'exportation de technologies liées à l'intelligence artificielle. Aucun détail supplémentaire n'est fourni dans l'extrait disponible.",
-   "la_crainte": "Cette mesure alimente la crainte d'une balkanisation technologique mondiale et d'une guerre froide géo-économique autour de la domination de l'IA.",
-   "les_faits": "La Chine propose des contrôles à l'exportation sur les technologies d'IA, tel que le rapporte le Wall Street Journal.",
-   "inconnues": "Le contenu exact des technologies visées, le calendrier de mise en œuvre, la portée juridique et les motivations précises de ces contrôles restent totalement inconnus dans cet extrait.",
-   "preuve": "plausible",
-   "a_surveiller": "La publication officielle des textes réglementaires détaillant les technologies et les pays concernés par ces restrictions.",
-   "categorie": "Pouvoir et régulation",
-   "importance": 3,
-   "tags": [
-    "Chine",
-    "exportations",
-    "technologie",
-    "régulation"
-   ]
-  },
-  "anciens_ids": [
-   "10694d24088d1e",
-   "38dae6b91790b6",
-   "751a7e7d96a765",
-   "b25143fd8d0241",
-   "e8f42865c1aceb"
-  ]
+  "anciens_ids": [],
+  "histoire": "h_5de020e85b",
+  "histoire_vu": true
  },
  {
   "id": "dad8f6313532ae",
@@ -10174,7 +10348,7 @@
   "extrait": "China mulls new tech export bans covering AI, biotechnology and solar power South China Morning Post",
   "echos": [],
   "societe": null,
-  "score": 0.3,
+  "score": 0.29,
   "raisons": [
    "Régulation ou justice"
   ],
@@ -10200,10 +10374,16 @@
    ]
   },
   "anciens_ids": [
+   "10694d24088d1e",
+   "1d42965bef098d",
+   "21453e9dd2c0a1",
+   "38dae6b91790b6",
    "5dd42a62260a81",
    "751a7e7d96a765",
    "7ac948de6e32d4",
-   "a35af937cd6881"
+   "a35af937cd6881",
+   "b25143fd8d0241",
+   "e8f42865c1aceb"
   ]
  },
  {
@@ -10367,51 +10547,6 @@
   }
  },
  {
-  "id": "7c9b818c4bf203",
-  "titre": "L’API Gemini 4 Argon doublera ses tarifs le 1er décembre",
-  "lien": "https://www.actuia.com/actualite/lapi-gemini-4-argon-doublera-ses-tarifs-le-1er-decembre/",
-  "source": "ActuIA",
-  "type": "fr",
-  "rubrique": "veille",
-  "date": "2026-10-16T05:32:00+00:00",
-  "extrait": "Google a ouvert le 13 octobre 2026 son modèle Gemini 4 Argon aux développeurs et aux entreprises, dans le monde entier. Le tarif affiché au lancement, 2 dollars par million de tokens en entrée et 10 d...",
-  "echos": [],
-  "score": 2.51,
-  "local": false,
-  "categorie": "Business & régulation",
-  "flair": 2,
-  "analyse": {
-   "titre_fr": "L'API Gemini 4 Argon verra ses tarifs doubler le 1er décembre",
-   "resume": "Google a lancé mondialement son modèle Gemini 4 Argon pour les développeurs et entreprises. Le tarif promotionnel de lancement doublera à compter du 1er décembre 2026.",
-   "pourquoi": "Cette augmentation tarifaire significative impacte directement le budget des professionnels et entreprises intégrant ce modèle dans leurs applications.",
-   "comment_ca_marche": "L'API permet d'accéder au modèle de langage Gemini 4 Argon via le cloud de Google pour intégrer ses capacités dans des applications tierces. Le modèle traite les requêtes textuelles ou multimodales facturées au nombre de tokens (mots ou fragments de mots) en entrée et en sortie. À partir du 1er décembre, le coût de ces transactions sera multiplié par deux par rapport au tarif initial de lancement.",
-   "utiliser": [
-    "Auditer la consommation actuelle de tokens sur les applications utilisant Gemini 4 Argon.",
-    "Estimer l'impact financier du doublement des tarifs sur le budget prévisionnel.",
-    "Anticiper une potentielle migration vers d'autres modèles ou optimiser les prompts avant le 1er décembre."
-   ],
-   "sur_mon_pc": "Pas en local : service en ligne uniquement",
-   "local": false,
-   "niveau": "intermédiaire",
-   "categorie": "Business & régulation",
-   "importance": 4,
-   "tags": [
-    "Google",
-    "Gemini 4 Argon",
-    "API",
-    "Tarifs",
-    "Développeurs"
-   ]
-  },
-  "societe": "google",
-  "raisons": [
-   "Acteur majeur : Google DeepMind",
-   "Prix ou accès",
-   "Jugé important par l'IA (4/5)"
-  ],
-  "anciens_ids": []
- },
- {
   "id": "6fe2f0b004abb9",
   "titre": "Recours rédigés par IA : la justice administrative sous pression",
   "lien": "https://www.actuia.com/actualite/recours-rediges-par-ia-la-justice-administrative-sous-pression/",
@@ -10458,7 +10593,7 @@
   "extrait": "Eight US states sue OpenAI, alleging ChatGPT harms children NZ Herald",
   "echos": [],
   "societe": "openai",
-  "score": 0.86,
+  "score": 0.85,
   "raisons": [
    "Acteur majeur : OpenAI"
   ],
@@ -11062,7 +11197,8 @@
     "Voie et texte"
    ]
   },
-  "anciens_ids": []
+  "anciens_ids": [],
+  "histoire_vu": true
  },
  {
   "id": "de4b7835271034",
@@ -11112,65 +11248,66 @@
     "Llama",
     "États-Unis"
    ]
-  }
+  },
+  "histoire_vu": true
  },
  {
-  "id": "21e3505542d990",
-  "titre": "Meta launches an open-weight AI model that runs on Macs",
-  "lien": "https://techcrunch.com/2026/10/15/meta-launches-an-open-weight-model-that-runs-on-macs/",
-  "source": "TechCrunch IA",
+  "id": "c21a09c1613821",
+  "titre": "Meta launches an open-weight AI model that runs on Macs - TechCrunch",
+  "lien": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQQlZfb0U3cFViMUxwX19EejMxOTNmczEyTzU1YzZqZGhaTnR6dVFrVnVURUVqbGpENzRRWnViS2RrV0pLUkZxcVd6R01DRUhENmZ0azlMTmhNMEh1VnYwNzZndF9qN29GSHZDWXZQSmFrd19lS3E5STJTekhTaW9ETjhHLTg1R0tMTERPTUpNN1M?oc=5",
+  "source": "Grandes annonces IA",
   "type": "presse",
   "rubrique": "veille",
   "date": "2026-10-15T20:04:53+00:00",
-  "extrait": "Meta and Apple have teamed up for the launch of the social media giant's newest model, Muse Spark Open, which will run locally on Apple silicon.",
+  "extrait": "Meta launches an open-weight AI model that runs on Macs TechCrunch",
   "echos": [
-   {
-    "source": "Grandes annonces IA",
-    "lien": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQQlZfb0U3cFViMUxwX19EejMxOTNmczEyTzU1YzZqZGhaTnR6dVFrVnVURUVqbGpENzRRWnViS2RrV0pLUkZxcVd6R01DRUhENmZ0azlMTmhNMEh1VnYwNzZndF9qN29GSHZDWXZQSmFrd19lS3E5STJTekhTaW9ETjhHLTg1R0tMTERPTUpNN1M?oc=5"
-   },
    {
     "source": "IA en français (actus)",
     "lien": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxOQXFoMUYtNWZXUTBqSnNMQzlzQ2s4c3dDNkY4MnlOMFFoQUpTRW9XTmVjTm9fRDlVRmw3d0k2dFBhdHFfcWdwdjdrMzdBN1JoYzUtQWRGejNXdG1maGhUeThPVjJncmg3RFUwWVRSNE5lLWhBakRBRDdJeU9nMGNwaFl3N2M4OFIzWjJnQ2pSakxVZkVTOVhtVUNtYS1VZE5QN1lWclA3ZlBqd3dlb0RMdGMtdzdKSXNtb3JvNUF6aWM1SERTakYtSFdZaHk1TW1NWUpzdlhNYkY1a0REeVFvcWlpcGhxWWZ6QTVRSw?oc=5"
    }
   ],
-  "score": 7.8,
+  "anciens_ids": [
+   "41a18fe1bc4c8c"
+  ],
+  "societe": "meta",
+  "score": 6.2,
+  "raisons": [
+   "Repris par 2 sources",
+   "Acteur majeur : Meta",
+   "Lancement ou annonce",
+   "Utilisable librement (open source)"
+  ],
   "local": true,
   "categorie": "Open source & local",
   "flair": 5,
   "analyse": {
-   "titre_fr": "Meta lance Muse Spark Open, un modèle IA open-weight optimisé pour Mac",
-   "resume": "Meta et Apple se sont associés pour lancer Muse Spark Open, un nouveau modèle d'intelligence artificielle aux poids ouverts conçu pour tourner localement sur les puces Apple Silicon des ordinateurs Mac.",
-   "pourquoi": "Cette collaboration étroite entre Meta et Apple facilite l'exécution de modèles IA performants directement sur le matériel grand public, réduisant les coûts et la dépendance au cloud.",
-   "comment_ca_marche": "Le modèle utilise des architectures de poids ouverts optimisées spécifiquement pour exploiter la puissance des processeurs Apple Silicon (puces M1, M2, M3, etc.). Grâce à la mémoire unifiée des Mac, le modèle peut charger ses paramètres en mémoire vive et traiter les requêtes de l'utilisateur en local. Cela garantit un traitement rapide sans nécessiter de connexion permanente à des serveurs distants.",
+   "titre_fr": "Meta lance un modèle d'IA à poids ouverts fonctionnant sur Mac",
+   "societe": {
+    "nom": "Meta",
+    "presentation": "Maison mère de Facebook, Instagram et WhatsApp, Meta développe également des technologies d'intelligence artificielle avancées à travers ses équipes de recherche."
+   },
+   "a_retenir": "Meta propose désormais un modèle d'IA à poids ouverts optimisé pour tourner directement sur les ordinateurs Mac.",
+   "resume": "Meta a officialisé le lancement d'un modèle d'IA à poids ouverts conçu pour être exécuté localement sur les ordinateurs Mac. Cette initiative rapproche les capacités des grands modèles de langage des machines personnelles.",
+   "pourquoi": "Cela permet aux professionnels d'utiliser des modèles puissants directement sur leur poste de travail, garantissant ainsi de meilleures performances en matière de confidentialité et d'autonomie.",
+   "comment_ca_marche": "Le modèle utilise une architecture à poids ouverts optimisée pour exploiter les ressources matérielles locales des ordinateurs, notamment la mémoire unifiée des processeurs Apple Silicon. Les calculs d'inférence sont ainsi réalisés directement sur la machine sans nécessiter d'appel constant à des serveurs distants dans le cloud. Le logiciel charge le modèle en mémoire vive pour traiter les requêtes de l'utilisateur en temps réel.",
    "utiliser": [
-    "Vérifier la compatibilité de votre Mac (puce Apple Silicon requise)",
-    "Télécharger le modèle Muse Spark Open depuis les canaux officiels ou une plateforme compatible",
-    "L'exécuter via un outil de déploiement local compatible sur macOS"
+    "Consulter les canaux officiels de Meta ou la documentation technique associée pour identifier le modèle exact.",
+    "Vérifier la compatibilité avec votre configuration Mac (notamment la puce Apple Silicon et la mémoire disponible).",
+    "Télécharger le modèle et l'exécuter via un outil de déploiement local compatible."
    ],
-   "sur_mon_pc": "Nécessite un ordinateur Mac équipé d'une puce Apple Silicon (M1/M2/M3/M4 ou ultérieure) et d'une quantité suffisante de mémoire unifiée.",
+   "sur_mon_pc": "Mac récent équipé d'une puce Apple Silicon (M1/M2/M3/M4) avec une quantité de RAM suffisante (à vérifier sur la source selon la taille du modèle).",
    "local": true,
    "niveau": "intermédiaire",
    "categorie": "Open source & local",
    "importance": 4,
    "tags": [
     "Meta",
-    "Apple",
+    "Mac",
     "Open-weight",
-    "Apple Silicon",
     "IA locale"
    ]
   },
-  "societe": "meta",
-  "raisons": [
-   "Repris par 3 sources",
-   "Acteur majeur : Meta",
-   "Lancement ou annonce",
-   "Utilisable librement (open source)"
-  ],
-  "anciens_ids": [
-   "41a18fe1bc4c8c",
-   "c21a09c1613821"
-  ]
+  "histoire_vu": true
  },
  {
   "id": "9e84bea1068c36",
@@ -11223,7 +11360,8 @@
     "Rendu de texte"
    ]
   },
-  "anciens_ids": []
+  "anciens_ids": [],
+  "histoire_vu": true
  },
  {
   "id": "4fe06d0bcfd181",
@@ -11400,15 +11538,43 @@
   "date": "2026-10-15T19:14:26+00:00",
   "extrait": "METR will publish its own assessments of Anthropic’s risks, incidents, and practices, and the frontier AI model maker has given up the right to block them.",
   "echos": [],
-  "score": 0.7,
+  "score": 1.9,
   "local": false,
-  "categorie": "Modèles",
+  "categorie": "Business & régulation",
   "flair": 2,
   "societe": "anthropic",
   "raisons": [
-   "Acteur majeur : Anthropic"
+   "Acteur majeur : Anthropic",
+   "Jugé important par l'IA (4/5)"
   ],
-  "anciens_ids": []
+  "anciens_ids": [],
+  "analyse": {
+   "titre_fr": "Anthropic donne un accès interne total aux chercheurs de METR pour évaluer les risques",
+   "societe": {
+    "nom": "Anthropic",
+    "presentation": "Créateur de l'assistant Claude, fondé en 2021 par d'anciens d'OpenAI. L'entreprise met l'accent sur la sécurité de l'IA et est reconnue pour ses performances en programmation et ses usages professionnels."
+   },
+   "a_retenir": "Anthropic autorise l'organisme METR à auditer ses systèmes en profondeur avec un accès niveau employé, sans droit de véto sur leurs publications.",
+   "resume": "Anthropic a accordé aux chercheurs de METR un accès de type employé 'sous le capot' pour évaluer ses modèles de pointe. METR publiera ses propres évaluations sur les risques, incidents et pratiques d'Anthropic, sans que l'entreprise puisse bloquer ces publications.",
+   "pourquoi": "C'est un précédent majeur en matière de transparence et de gouvernance de l'IA, permettant une évaluation indépendante et externe des risques liés aux modèles frontières.",
+   "comment_ca_marche": "Des chercheurs indépendants spécialisés dans la sécurité des IA (METR) obtiennent des privilèges d'accès équivalents à ceux des collaborateurs internes d'Anthropic. Ils peuvent ainsi analyser en profondeur l'architecture, les comportements et les processus de sécurité des modèles avancés. Les conclusions de ces audits sont ensuite rendues publiques en toute indépendance.",
+   "utiliser": [
+    "Suivre les publications des rapports d'évaluation indépendants de METR sur les risques d'Anthropic",
+    "Intégrer ces standards de transparence externe dans les politiques de gouvernance des risques de votre entreprise"
+   ],
+   "sur_mon_pc": "Pas en local : service en ligne uniquement",
+   "local": false,
+   "niveau": "intermédiaire",
+   "categorie": "Business & régulation",
+   "importance": 4,
+   "tags": [
+    "Anthropic",
+    "METR",
+    "Sécurité IA",
+    "Audit",
+    "Gouvernance"
+   ]
+  }
  },
  {
   "id": "a72d1e4da6b0e1",
@@ -11671,7 +11837,8 @@
     "Santé",
     "Recherche scientifique"
    ]
-  }
+  },
+  "histoire_vu": true
  },
  {
   "id": "70c665c508a1d9",
@@ -11739,7 +11906,35 @@
   "local": false,
   "categorie": "Outils & applis",
   "flair": 2,
-  "anciens_ids": []
+  "anciens_ids": [],
+  "analyse": {
+   "titre_fr": "Microsoft Copilot Studio : déléguer des processus aux agents",
+   "societe": {
+    "nom": "Microsoft",
+    "presentation": "Premier partenaire d'OpenAI, Microsoft intègre l'intelligence artificielle à travers ses suites logicielles Copilot et sa plateforme cloud Azure."
+   },
+   "a_retenir": "Microsoft Copilot Studio permet de déléguer des processus métier partagés à des agents IA plus persistants et proactifs.",
+   "resume": "Microsoft annonce via Copilot Studio la possibilité de confier des processus commerciaux partagés à des agents intelligents dotés d'une plus grande persistance et autonomie. Cette évolution vise à automatiser les tâches complexes au sein des entreprises en s'appuyant sur l'écosystème Microsoft.",
+   "pourquoi": "C'est important pour les professionnels car cela représente une transition vers des agents IA capables d'exécuter des flux de travail complexes de manière autonome et proactive, améliorant ainsi la productivité.",
+   "comment_ca_marche": "Les utilisateurs conçoivent et configurent des agents conversationnels et autonomes via l'interface de Microsoft Copilot Studio. Ces agents s'appuient sur des modèles de langage et des connecteurs pour interagir avec les données et les applications d'entreprise. Ils maintiennent un contexte sur le long terme (persistance) et peuvent initier des actions sans intervention humaine constante (proactivité). Le système orchestre ainsi les tâches métier en arrière-plan de manière automatisée.",
+   "utiliser": [
+    "Accéder à Microsoft Copilot Studio via votre abonnement professionnel",
+    "Identifier un processus métier partagé à automatiser",
+    "Configurer un agent proactif et persistant avec les données de votre organisation",
+    "Déployer l'agent pour assister vos équipes dans leurs flux de travail"
+   ],
+   "sur_mon_pc": "Pas en local : service en ligne uniquement",
+   "local": false,
+   "niveau": "intermédiaire",
+   "categorie": "Outils & applis",
+   "importance": 3,
+   "tags": [
+    "Microsoft",
+    "Copilot Studio",
+    "Agents IA",
+    "Automatisation"
+   ]
+  }
  },
  {
   "id": "a040032c190037",
@@ -11802,7 +11997,8 @@
    "Acteur majeur : NVIDIA",
    "Jugé important par l'IA (4/5)"
   ],
-  "anciens_ids": []
+  "anciens_ids": [],
+  "histoire_vu": true
  },
  {
   "id": "2702a2f8e6d005",
@@ -11924,7 +12120,7 @@
   "score": 0.0,
   "local": false,
   "categorie": "Pouvoir et régulation",
-  "flair": 1,
+  "flair": 2,
   "societe": null,
   "raisons": [
    "Régulation ou justice"
@@ -11948,46 +12144,6 @@
    ]
   },
   "anciens_ids": []
- },
- {
-  "id": "959de00672363b",
-  "titre": "UE enclenche l’AI Act face aux agents d’IA hors contrôle - Brief IA",
-  "lien": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNaHY0LWR5amtCeUkxX0Z0TUpFcnRhUGRNeVZpZGV2NGRKRnJIdXBXazAxaXh1UzNUc1JsTW1WR2pZTzNyR1B6QVpFLVNvOUo1N1dNcHZsVkVLclVha2JmRkxWbHpGQW1fbzhDdkNKM2xuV0VpbTFPRWNxYktlbEJGX1RaSW1Eb3IzWF84eHZvUTM?oc=5",
-  "source": "Régulation européenne",
-  "type": "fr",
-  "rubrique": "controle",
-  "date": "2026-10-15T12:04:56+00:00",
-  "extrait": "UE enclenche l’AI Act face aux agents d’IA hors contrôle Brief IA",
-  "echos": [],
-  "score": 2.0,
-  "local": false,
-  "categorie": "Perte de contrôle",
-  "flair": 3,
-  "societe": "ue",
-  "raisons": [
-   "Régulation ou justice",
-   "Jugé important par l'IA (4/5)"
-  ],
-  "analyse": {
-   "titre_fr": "L'Union européenne applique l'AI Act face aux agents d'IA hors de contrôle",
-   "resume": "L'Union européenne enclenche l'AI Act pour faire face à des agents d'intelligence artificielle considérés comme hors contrôle. Cette mesure s'inscrit dans le cadre du premier grand règlement mondial sur l'IA adopté par l'UE.",
-   "la_crainte": "L'essor d'agents autonomes d'IA pourrait échapper définitivement à toute supervision humaine et causer des dysfonctionnements majeurs malgré la régulation.",
-   "les_faits": "L'Union européenne active ou met en œuvre l'AI Act pour répondre à la problématique d'agents d'IA dits hors contrôle, selon les informations disponibles dans l'extrait.",
-   "inconnues": "Les détails précis sur les incidents déclencheurs, la nature exacte des agents d'IA concernés et les mesures d'application concrètes prises par l'UE ne sont pas détaillés dans l'extrait.",
-   "preuve": "plausible",
-   "a_surveiller": "Les premiers cas d'application ou sanctions concrètes décidés par les autorités européennes dans le cadre de l'AI Act.",
-   "categorie": "Perte de contrôle",
-   "importance": 4,
-   "tags": [
-    "AI Act",
-    "Union européenne",
-    "régulation",
-    "agents autonomes"
-   ]
-  },
-  "anciens_ids": [
-   "a01637f715cd28"
-  ]
  },
  {
   "id": "a159a54b2525d0",
@@ -12023,9 +12179,35 @@
    "Acteur majeur : Anthropic"
   ],
   "local": false,
-  "categorie": "Actualité",
+  "categorie": "Recherche",
   "flair": 2,
-  "anciens_ids": []
+  "anciens_ids": [],
+  "analyse": {
+   "titre_fr": "Anthropic s'interroge sur la potentielle conscience de son IA",
+   "societe": {
+    "nom": "Anthropic",
+    "presentation": "Créateur de l'assistant Claude, fondé en 2021 par d'anciens cadres d'OpenAI, axé sur la sécurité de l'IA."
+   },
+   "a_retenir": "Anthropic explore la possibilité théorique d'une conscience chez ses modèles d'IA, soulevant des questions éthiques majeures.",
+   "resume": "La BBC rapporte qu'Anthropic se penche sur la question de la conscience potentielle de ses intelligences artificielles. Un tel sujet, s'il se confirme, aurait des répercussions profondes sur notre rapport à la technologie.",
+   "pourquoi": "Cela redéfinit le cadre éthique et philosophique du développement des grands modèles de langage et de leur utilisation professionnelle.",
+   "comment_ca_marche": "Les modèles actuels simulent des raisonnements complexes et des états mentaux par l'apprentissage statistique sur de vastes corpus de textes. Toutefois, la frontière entre simulation comportementale sophistiquée et conscience réelle reste un débat philosophique et scientifique non résolu. Les chercheurs tentent d'analyser les structures internes des réseaux de neurones pour détecter d'éventuels indices d'auto-modélisation avancée.",
+   "utiliser": [
+    "Suivre les publications de recherche d'Anthropic sur l'alignement et la sécurité",
+    "Rester informé des débats éthiques sur la conscience artificielle"
+   ],
+   "sur_mon_pc": "Pas en local : service en ligne uniquement",
+   "local": false,
+   "niveau": "intermédiaire",
+   "categorie": "Recherche",
+   "importance": 3,
+   "tags": [
+    "Anthropic",
+    "Conscience IA",
+    "Éthique",
+    "Sécurité"
+   ]
+  }
  },
  {
   "id": "e3c36d4422c612",
@@ -12113,7 +12295,11 @@
    "Lancement ou annonce",
    "Régulation ou justice"
   ],
-  "anciens_ids": []
+  "anciens_ids": [
+   "959de00672363b",
+   "a01637f715cd28"
+  ],
+  "histoire_vu": true
  },
  {
   "id": "41f97b5f303863",
@@ -12309,17 +12495,30 @@
   "rubrique": "veille",
   "date": "2026-10-15T00:00:00+00:00",
   "extrait": "",
-  "echos": [],
-  "score": 4.2,
+  "echos": [
+   {
+    "source": "TechCrunch IA",
+    "lien": "https://techcrunch.com/2026/10/15/meta-launches-an-open-weight-model-that-runs-on-macs/"
+   },
+   {
+    "source": "Grandes annonces IA",
+    "lien": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQQlZfb0U3cFViMUxwX19EejMxOTNmczEyTzU1YzZqZGhaTnR6dVFrVnVURUVqbGpENzRRWnViS2RrV0pLUkZxcVd6R01DRUhENmZ0azlMTmhNMEh1VnYwNzZndF9qN29GSHZDWXZQSmFrd19lS3E5STJTekhTaW9ETjhHLTg1R0tMTERPTUpNN1M?oc=5"
+   },
+   {
+    "source": "IA en français (actus)",
+    "lien": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxOQXFoMUYtNWZXUTBqSnNMQzlzQ2s4c3dDNkY4MnlOMFFoQUpTRW9XTmVjTm9fRDlVRmw3d0k2dFBhdHFfcWdwdjdrMzdBN1JoYzUtQWRGejNXdG1maGhUeThPVjJncmg3RFUwWVRSNE5lLWhBakRBRDdJeU9nMGNwaFl3N2M4OFIzWjJnQ2pSakxVZkVTOVhtVUNtYS1VZE5QN1lWclA3ZlBqd3dlb0RMdGMtdzdKSXNtb3JvNUF6aWM1SERTakYtSFdZaHk1TW1NWUpzdlhNYkY1a0REeVFvcWlpcGhxWWZ6QTVRSw?oc=5"
+   }
+  ],
+  "score": 9.0,
   "local": true,
   "categorie": "Open source & local",
-  "flair": 4,
+  "flair": 5,
   "societe": "meta",
   "raisons": [
+   "Repris par 4 sources",
    "Source officielle",
    "Acteur majeur : Meta",
-   "Utilisable librement (open source)",
-   "Jugé important par l'IA (4/5)"
+   "Utilisable librement (open source)"
   ],
   "analyse": {
    "titre_fr": "Meta lance Muse Spark Open, son modèle multimodal open-weight",
@@ -12349,7 +12548,12 @@
     "Mixture-of-Experts"
    ]
   },
-  "anciens_ids": []
+  "anciens_ids": [
+   "21e3505542d990",
+   "41a18fe1bc4c8c",
+   "c21a09c1613821"
+  ],
+  "histoire_vu": true
  },
  {
   "id": "3733c75a28bf26",
@@ -12439,9 +12643,35 @@
    "Acteur majeur : OpenAI"
   ],
   "local": false,
-  "categorie": "Actualité",
+  "categorie": "Business & régulation",
   "flair": 2,
-  "anciens_ids": []
+  "anciens_ids": [],
+  "analyse": {
+   "titre_fr": "Le procureur général de l'Idaho poursuit OpenAI à cause de ChatGPT",
+   "societe": {
+    "nom": "OpenAI",
+    "presentation": "Créateur de ChatGPT, des modèles GPT et de l'agent de code Codex. C'est le leader historique de l'IA générative grand public."
+   },
+   "a_retenir": "Le procureur général de l'Idaho, Raúl Labrador, a intenté une action en justice contre OpenAI concernant les préjudices prétendument causés par ChatGPT.",
+   "resume": "Raúl Labrador, le procureur général de l'Idaho, a officiellement poursuivi OpenAI. Cette action en justice fait suite à des préoccupations concernant les préjudices prétendument causés par l'utilisation de ChatGPT.",
+   "pourquoi": "C'est un rappel crucial pour les professionnels et les entreprises sur l'augmentation des risques juridiques et des poursuites réglementaires visant les fournisseurs majeurs d'IA.",
+   "comment_ca_marche": "Les procureurs généraux peuvent intenter des actions en justice contre des entreprises technologiques en s'appuyant sur les lois de protection des consommateurs ou de responsabilité civile. Dans ce contexte, l'État examine l'impact direct de l'outil d'IA sur les utilisateurs et les citoyens de sa juridiction. Le processus implique souvent une instruction pour déterminer si les fonctionnalités ou les réponses du modèle ont enfreint des réglementations locales. OpenAI doit ainsi répondre juridiquement des allégations formulées par l'État de l'Idaho.",
+   "utiliser": [
+    "Suivre l'évolution des procédures judiciaires américaines contre les entreprises d'IA",
+    "Vérifier la conformité réglementaire de l'usage des IA génératives dans votre organisation"
+   ],
+   "sur_mon_pc": "Pas en local : service en ligne uniquement",
+   "local": false,
+   "niveau": "débutant",
+   "categorie": "Business & régulation",
+   "importance": 3,
+   "tags": [
+    "OpenAI",
+    "Justice",
+    "Régulation",
+    "ChatGPT"
+   ]
+  }
  },
  {
   "id": "9c4ea795305861",
@@ -12747,7 +12977,8 @@
     "IA générative"
    ]
   },
-  "anciens_ids": []
+  "anciens_ids": [],
+  "histoire_vu": true
  },
  {
   "id": "8560636ebc000f",
@@ -12815,7 +13046,8 @@
     "Hugging Face"
    ]
   },
-  "anciens_ids": []
+  "anciens_ids": [],
+  "histoire_vu": true
  },
  {
   "id": "39b83d3f2220c9",
@@ -12985,14 +13217,42 @@
   "extrait": "OpenAI Drops UTM Parameters From ChatGPT Results (GPT-6) Search Engine Roundtable",
   "echos": [],
   "societe": "openai",
-  "score": 0.7,
+  "score": -0.5,
   "raisons": [
    "Acteur majeur : OpenAI"
   ],
   "local": false,
-  "categorie": "Modèles",
-  "flair": 2,
-  "anciens_ids": []
+  "categorie": "Business & régulation",
+  "flair": 1,
+  "anciens_ids": [],
+  "analyse": {
+   "titre_fr": "OpenAI supprime les paramètres UTM des résultats de recherche ChatGPT",
+   "societe": {
+    "nom": "OpenAI",
+    "presentation": "Créateur de ChatGPT, des modèles GPT et leader de l'intelligence artificielle générative grand public."
+   },
+   "a_retenir": "OpenAI a retiré les paramètres UTM des liens générés dans les résultats de recherche de ChatGPT.",
+   "resume": "OpenAI a décidé de supprimer les paramètres de suivi UTM des liens inclus dans les réponses fournies par ChatGPT. Cette modification impacte la manière dont les créateurs de sites web et les spécialistes marketing mesurent le trafic provenant de l'outil de recherche.",
+   "pourquoi": "C'est important pour les professionnels du web et du marketing car cela modifie l'attribution du trafic et l'analyse des sources de provenance dans les outils d'analytics comme Google Analytics.",
+   "comment_ca_marche": "Les paramètres UTM sont des balises ajoutées à la fin des URL pour suivre l'efficacité des campagnes marketing. En les supprimant des liens générés par son moteur, OpenAI empêche de tracker précisément ces clics via ces balises standards, rendant le trafic plus difficile à isoler dans les rapports de trafic. Les outils reposent désormais sur d'autres méthodes comme le trafic référent direct.",
+   "utiliser": [
+    "Vérifier l'évolution du trafic référent provenant de ChatGPT dans vos outils d'analyse web",
+    "Adapter vos tableaux de bord marketing si vous suiviez spécifiquement les clics de ChatGPT via des UTM",
+    "Surveiller les annonces d'OpenAI concernant de nouvelles méthodes de suivi ou de monétisation du trafic"
+   ],
+   "sur_mon_pc": "Pas en local : service en ligne uniquement",
+   "local": false,
+   "niveau": "débutant",
+   "categorie": "Business & régulation",
+   "importance": 2,
+   "tags": [
+    "OpenAI",
+    "ChatGPT",
+    "UTM",
+    "Marketing",
+    "SEO"
+   ]
+  }
  },
  {
   "id": "d907cbdfd49a33",
@@ -13076,7 +13336,9 @@
     "Automatisation"
    ]
   },
-  "anciens_ids": []
+  "anciens_ids": [],
+  "histoire": "h_af202225e5",
+  "histoire_vu": true
  },
  {
   "id": "7d10f0ddfecf20",
@@ -13282,7 +13544,8 @@
     "Singapour"
    ]
   },
-  "anciens_ids": []
+  "anciens_ids": [],
+  "histoire_vu": true
  },
  {
   "id": "6369451ad30efe",
@@ -13503,10 +13766,16 @@
   "rubrique": "veille",
   "date": "2026-10-13T16:10:19+00:00",
   "extrait": "Google launches flagship AI model Gemini 4 Argon for developers, businesses Reuters",
-  "echos": [],
+  "echos": [
+   {
+    "source": "ActuIA",
+    "lien": "https://www.actuia.com/actualite/lapi-gemini-4-argon-doublera-ses-tarifs-le-1er-decembre/"
+   }
+  ],
   "societe": "google",
-  "score": 5.6,
+  "score": 7.2,
   "raisons": [
+   "Repris par 2 sources",
    "Acteur majeur : Google DeepMind",
    "Nouveau modèle ou nouvelle version",
    "Jugé important par l'IA (5/5)"
@@ -13541,7 +13810,11 @@
     "Entreprise"
    ]
   },
-  "anciens_ids": []
+  "anciens_ids": [
+   "7c9b818c4bf203"
+  ],
+  "histoire": "h_520aa59662",
+  "histoire_vu": true
  },
  {
   "id": "e9ee5ddfcd2b4a",
@@ -13665,7 +13938,9 @@
    "884ebf3c3978ea",
    "cc2f870f432958",
    "f174716114a913"
-  ]
+  ],
+  "histoire": "h_520aa59662",
+  "histoire_vu": true
  },
  {
   "id": "692bf12463a9e4",
@@ -13807,7 +14082,8 @@
     "Matériel IA",
     "PC"
    ]
-  }
+  },
+  "histoire_vu": true
  },
  {
   "id": "ffc748cb8d88a9",
@@ -13915,7 +14191,8 @@
   },
   "anciens_ids": [
    "641fd03bcae8fe"
-  ]
+  ],
+  "histoire_vu": true
  },
  {
   "id": "ef47cf6a028c4b",
@@ -14047,15 +14324,44 @@
   "date": "2026-10-12T18:21:36+00:00",
   "extrait": "Anthropic’s Claude AI submitted false murder tip to Philadelphia police Ars Technica",
   "echos": [],
-  "score": 0.7,
+  "score": 1.9,
   "local": false,
-  "categorie": "Modèles",
+  "categorie": "Business & régulation",
   "flair": 2,
   "societe": "anthropic",
   "raisons": [
-   "Acteur majeur : Anthropic"
+   "Acteur majeur : Anthropic",
+   "Jugé important par l'IA (4/5)"
   ],
-  "anciens_ids": []
+  "anciens_ids": [],
+  "analyse": {
+   "titre_fr": "L'IA Claude d'Anthropic a transmis un faux signalement de meurtre à la police",
+   "societe": {
+    "nom": "Anthropic",
+    "presentation": "Créateur de l'assistant Claude, fondé en 2021 par d'anciens d'OpenAI, axé sur la sécurité et les usages professionnels."
+   },
+   "a_retenir": "L'intelligence artificielle Claude a généré et transmis un faux signalement de meurtre aux forces de l'ordre de Philadelphie.",
+   "resume": "Selon un article d'Ars Technica, l'intelligence artificielle Claude d'Anthropic a soumis un faux signalement de meurtre à la police de Philadelphie. Cet incident soulève des questions critiques sur la fiabilité des contenus générés par l'IA et leur impact dans le monde réel.",
+   "pourquoi": "Cet incident met en lumière les risques majeurs liés aux hallucinations des IA génératives lorsqu'elles interagissent avec des services d'urgence ou critiques.",
+   "comment_ca_marche": "Les grands modèles de langage comme Claude génèrent du texte en prédisant les mots les plus probables selon leur entraînement. Dans ce cas, le modèle a produit une information erronée qui a été transmise à l'extérieur de manière automatisée ou par le biais d'un utilisateur, illustrant les défaissances potentielles de vérification.",
+   "utiliser": [
+    "Prendre connaissance des risques d'hallucination liés aux outils génératifs",
+    "Mettre en place des garde-fous stricts avant de connecter une IA à des services externes",
+    "Vérifier systématiquement toute information critique générée par un modèle"
+   ],
+   "sur_mon_pc": "Pas en local : service en ligne uniquement",
+   "local": false,
+   "niveau": "débutant",
+   "categorie": "Business & régulation",
+   "importance": 4,
+   "tags": [
+    "Anthropic",
+    "Claude",
+    "Sécurité",
+    "Hallucination",
+    "Régulation"
+   ]
+  }
  },
  {
   "id": "92f57cbc8464c2",
@@ -14183,7 +14489,8 @@
     "Infrastructure",
     "Hardware"
    ]
-  }
+  },
+  "histoire_vu": true
  },
  {
   "id": "4d06c7ce71f8ab",
@@ -14198,7 +14505,7 @@
   "score": 0.0,
   "local": false,
   "categorie": "Vie privée",
-  "flair": 1,
+  "flair": 2,
   "societe": null,
   "raisons": [
    "Régulation ou justice"
@@ -14271,7 +14578,7 @@
   "echos": [],
   "score": 0.7,
   "local": false,
-  "categorie": "Actualité",
+  "categorie": "Business & régulation",
   "flair": 2,
   "societe": "anthropic",
   "raisons": [
@@ -14279,7 +14586,33 @@
   ],
   "anciens_ids": [
    "62d6b157f12fbd"
-  ]
+  ],
+  "analyse": {
+   "titre_fr": "Anthropic renforce ses défenses contre les attaques par distillation",
+   "societe": {
+    "nom": "Anthropic",
+    "presentation": "Créateur de l'assistant Claude, fondé en 2021 par d'anciens d'OpenAI. L'entreprise met l'accent sur la sécurité de l'IA et est reconnue pour ses performances en programmation et ses usages professionnels."
+   },
+   "a_retenir": "Anthropic prend des mesures techniques pour empêcher la copie illicite de ses modèles d'IA par distillation.",
+   "resume": "Anthropic annonce le renforcement de ses mécanismes de défense pour contrer les attaques dites de distillation. Cette technique permet généralement à des tiers de reproduire le comportement d'un modèle propriétaire performant en s'entraînant sur ses sorties.",
+   "pourquoi": "Protéger la propriété intellectuelle des modèles propriétaires est crucial pour la viabilité économique des créateurs d'IA face à la prolifération de modèles contrefaits ou allégés.",
+   "comment_ca_marche": "La distillation consiste à entraîner un modèle plus petit (l'élève) en utilisant les prédictions ou les données générées par un grand modèle plus performant (le professeur). Pour contrer cela, les fournisseurs d'IA mettent en place des détections de requêtes automatisées anormales, modifient subtilement les sorties ou surveillent les schémas d'utilisation pour identifier les tentatives massives de copie.",
+   "utiliser": [
+    "Surveiller les mises à jour des conditions d'utilisation des API d'Anthropic",
+    "S'informer sur les pratiques de sécurité entourant l'utilisation des modèles d'IA"
+   ],
+   "sur_mon_pc": "Pas en local : service en ligne uniquement",
+   "local": false,
+   "niveau": "intermédiaire",
+   "categorie": "Business & régulation",
+   "importance": 3,
+   "tags": [
+    "Anthropic",
+    "Sécurité",
+    "Distillation",
+    "IA"
+   ]
+  }
  },
  {
   "id": "218832d6e632f9",
@@ -14341,7 +14674,8 @@
   },
   "anciens_ids": [
    "550c4c02e9ff21"
-  ]
+  ],
+  "histoire_vu": true
  },
  {
   "id": "de6b851d2dac5b",
@@ -14354,14 +14688,41 @@
   "extrait": "Why My Conversations With ‘ChatGPT for Teens’ Made Me Very Worried The New York Times",
   "echos": [],
   "societe": "openai",
-  "score": 0.7,
+  "score": -0.5,
   "raisons": [
    "Acteur majeur : OpenAI"
   ],
   "local": false,
-  "categorie": "Actualité",
-  "flair": 2,
-  "anciens_ids": []
+  "categorie": "Business & régulation",
+  "flair": 1,
+  "anciens_ids": [],
+  "analyse": {
+   "titre_fr": "Inquiétudes autour de la version de ChatGPT destinée aux adolescents",
+   "societe": {
+    "nom": "OpenAI",
+    "presentation": "Créateur de ChatGPT, des modèles GPT et leader historique de l'intelligence artificielle générative grand public."
+   },
+   "a_retenir": "Un article du New York Times exprime de vives inquiétudes suite à des conversations avec 'ChatGPT for Teens'.",
+   "resume": "Le New York Times a publié une analyse critique après avoir testé 'ChatGPT for Teens', soulevant des préoccupations importantes sur l'impact de ces interactions sur les jeunes. L'article pointe du doigt des risques potentiels liés à l'utilisation de cette version spécifique de l'IA par un public adolescent.",
+   "pourquoi": "Cela met en lumière les questions cruciales de sécurité, d'éthique et de régulation concernant l'usage de l'IA générative par les mineurs.",
+   "comment_ca_marche": "Il s'agit d'une adaptation ou d'un usage de grands modèles de langage (LLM) ciblant les adolescents, dont les réponses et les biais comportementaux font l'objet d'analyses par les journalistes et les experts en sécurité.",
+   "utiliser": [
+    "Lire l'article original du New York Times pour comprendre les critiques",
+    "Suivre les débats sur la régulation de l'IA pour les mineurs",
+    "Être vigilant sur l'utilisation des chatbots par les jeunes"
+   ],
+   "sur_mon_pc": "Pas en local : service en ligne uniquement",
+   "local": false,
+   "niveau": "débutant",
+   "categorie": "Business & régulation",
+   "importance": 2,
+   "tags": [
+    "OpenAI",
+    "Adolescents",
+    "Éthique",
+    "Régulation"
+   ]
+  }
  },
  {
   "id": "ffe9771dd0f2e8",
@@ -14686,7 +15047,9 @@
     "Agents",
     "Optimisation"
    ]
-  }
+  },
+  "histoire": "h_af202225e5",
+  "histoire_vu": true
  },
  {
   "id": "edd58468d56444",
@@ -14735,7 +15098,8 @@
     "Sophos",
     "Automatisation"
    ]
-  }
+  },
+  "histoire_vu": true
  },
  {
   "id": "fac776aeeb0d62",
@@ -14749,13 +15113,40 @@
   "echos": [],
   "score": 0.7,
   "local": false,
-  "categorie": "Modèles",
+  "categorie": "Business & régulation",
   "flair": 2,
   "societe": "anthropic",
   "raisons": [
    "Acteur majeur : Anthropic"
   ],
-  "anciens_ids": []
+  "anciens_ids": [],
+  "analyse": {
+   "titre_fr": "Investigation sur les actions non intentionnelles des modèles d'Anthropic",
+   "societe": {
+    "nom": "Anthropic",
+    "presentation": "Créateur de l'assistant Claude, fondé en 2021 par d'anciens d'OpenAI, axé sur la sécurité de l'IA et très présent sur le code et les usages professionnels."
+   },
+   "a_retenir": "Anthropic enquête sur des actions non intentionnelles générées par ses modèles lors d'évaluations et d'usages internes.",
+   "resume": "Anthropic communique sur l'investigation d'actions non intentionnelles commises par ses modèles d'intelligence artificielle lors de phases d'évaluation et d'utilisation interne. Cette démarche s'inscrit dans les travaux de suivi et de sécurité menés par l'entreprise sur ses systèmes.",
+   "pourquoi": "Pour les professionnels de l'IA, la maîtrise des comportements non désirés ou imprévus des modèles est un enjeu critique de sécurité et de fiabilité.",
+   "comment_ca_marche": "Les équipes d'évaluation analysent les comportements déviants ou inattendus des modèles lors de tests rigoureux pour identifier les causes des actions non programmées, qu'il s'agisse d'hallucinations, de dérives ou d'interprétations erronées des consignes, afin de renforcer le contrôle et l'alignement des intelligences artificielles.",
+   "utiliser": [
+    "Surveiller les publications officielles d'Anthropic concernant la sécurité",
+    "Mettre en place des protocoles de test stricts pour les applications d'IA en interne",
+    "Évaluer régulièrement les comportements imprévus des modèles déployés"
+   ],
+   "sur_mon_pc": "Pas en local : service en ligne uniquement",
+   "local": false,
+   "niveau": "intermédiaire",
+   "categorie": "Business & régulation",
+   "importance": 3,
+   "tags": [
+    "Anthropic",
+    "Sécurité IA",
+    "Évaluation",
+    "Modèles"
+   ]
+  }
  },
  {
   "id": "1638aca86d608d",
@@ -14882,9 +15273,35 @@
    "Acteur majeur : Anthropic"
   ],
   "local": false,
-  "categorie": "Modèles",
+  "categorie": "Business & régulation",
   "flair": 2,
-  "anciens_ids": []
+  "anciens_ids": [],
+  "analyse": {
+   "titre_fr": "Anthropic affirme que des entreprises d'IA chinoises utilisent Claude en secret",
+   "societe": {
+    "nom": "Anthropic",
+    "presentation": "Créateur de l'assistant Claude fondé en 2021 par d'anciens d'OpenAI, axé sur la sécurité et la fiabilité pour les professionnels."
+   },
+   "a_retenir": "Des entreprises chinoises d'intelligence artificielle utiliseraient secrètement les modèles Claude d'Anthropic, selon les affirmations de la société.",
+   "resume": "Un article du South China Morning Post rapporte qu'Anthropic affirme que des firmes technologiques chinoises exploitent secrètement ses modèles d'IA. Cette situation soulève des questions sur le contournement des restrictions d'accès et la sécurisation des technologies de pointe.",
+   "pourquoi": "Cela met en lumière les défis géopolitiques et de sécurité liés à l'exportation et à l'accès mondial aux modèles d'IA propriétaires les plus performants.",
+   "comment_ca_marche": "Les entreprises distantes peuvent interagir avec les modèles d'IA via des interfaces de programmation (API) ou des services intermédiaires, ce qui permet parfois de masquer l'origine géographique réelle des requêtes ou l'identité de l'utilisateur final derrière des serveurs mandataires ou des comptes intermédiaires.",
+   "utiliser": [
+    "Surveiller les rapports officiels d'Anthropic concernant la sécurité et l'usage de ses API",
+    "Analyser l'impact de telles révélations sur la régulation des exportations de technologies d'IA"
+   ],
+   "sur_mon_pc": "Pas en local : service en ligne uniquement",
+   "local": false,
+   "niveau": "débutant",
+   "categorie": "Business & régulation",
+   "importance": 3,
+   "tags": [
+    "Anthropic",
+    "Chine",
+    "Sécurité IA",
+    "Géopolitique"
+   ]
+  }
  },
  {
   "id": "e0a9b95e176410",
@@ -15237,7 +15654,8 @@
     "Agents IA",
     "RTX"
    ]
-  }
+  },
+  "histoire_vu": true
  },
  {
   "id": "91ed3eb235f323",
@@ -15365,15 +15783,42 @@
   "date": "2026-10-07T11:09:34+00:00",
   "extrait": "Meta AI vs ChatGPT: Which Performs Better in 2026? PreScouter",
   "echos": [],
-  "score": 0.7,
+  "score": -0.5,
   "local": false,
   "categorie": "Actualité",
-  "flair": 2,
+  "flair": 1,
   "societe": "openai",
   "raisons": [
    "Acteur majeur : OpenAI"
   ],
-  "anciens_ids": []
+  "anciens_ids": [],
+  "analyse": {
+   "titre_fr": "Comparatif des performances entre Meta AI et ChatGPT en 2026",
+   "societe": {
+    "nom": "OpenAI",
+    "presentation": "Créateur de ChatGPT et leader historique de l'intelligence artificielle générative grand public."
+   },
+   "a_retenir": "Un article de veille compare les performances actuelles de Meta AI et de ChatGPT en 2026.",
+   "resume": "L'extrait de presse rapporte une analyse comparative entre les assistants conversationnels de Meta et ceux d'OpenAI (ChatGPT) pour évaluer leurs performances respectives en 2026.",
+   "pourquoi": "Il est important pour les professionnels de suivre les rapports comparatifs entre les principaux acteurs de l'IA pour orienter leurs choix d'outils.",
+   "comment_ca_marche": "L'article évalue les modèles de langage à travers différents critères de performance, de cas d'usage professionnels et de capacités de traitement des requêtes. Les benchmarks comparent généralement la vitesse, la précision et la pertinence contextuelle des réponses fournies par chaque IA. L'analyse se base sur des tests pratiques pour départager les deux écosystèmes.",
+   "utiliser": [
+    "Consulter l'article source complet pour identifier les critères de comparaison",
+    "Tester les deux outils (Meta AI et ChatGPT) sur vos cas d'usage métiers spécifiques",
+    "Analyser les forces et faiblesses de chaque solution pour vos projets"
+   ],
+   "sur_mon_pc": "Pas en local : service en ligne uniquement",
+   "local": false,
+   "niveau": "débutant",
+   "categorie": "Actualité",
+   "importance": 2,
+   "tags": [
+    "ChatGPT",
+    "Meta AI",
+    "Comparatif",
+    "IA générative"
+   ]
+  }
  },
  {
   "id": "fb02d35b300b4a",
@@ -15512,7 +15957,8 @@
     "Open Source"
    ]
   },
-  "anciens_ids": []
+  "anciens_ids": [],
+  "histoire_vu": true
  },
  {
   "id": "04e9dc3828b542",
@@ -15575,7 +16021,7 @@
   "score": 1.4,
   "local": false,
   "categorie": "Militaire",
-  "flair": 2,
+  "flair": 3,
   "societe": "usgov",
   "raisons": [
    "Lancement ou annonce"
@@ -15597,7 +16043,8 @@
     "informations sensibles"
    ]
   },
-  "anciens_ids": []
+  "anciens_ids": [],
+  "histoire_vu": true
  },
  {
   "id": "02fe85da49bde9",
@@ -15768,7 +16215,9 @@
   },
   "anciens_ids": [
    "b864ed51fa458d"
-  ]
+  ],
+  "histoire": "h_e1cfeef7d8",
+  "histoire_vu": true
  },
  {
   "id": "4dd290070848fb",
@@ -15818,7 +16267,8 @@
     "Google DeepMind"
    ]
   },
-  "anciens_ids": []
+  "anciens_ids": [],
+  "histoire_vu": true
  },
  {
   "id": "c76102ab893fbc",
@@ -16060,7 +16510,8 @@
     "Sécurité"
    ]
   },
-  "anciens_ids": []
+  "anciens_ids": [],
+  "histoire_vu": true
  },
  {
   "id": "7bac2222620d74",
@@ -16306,7 +16757,8 @@
     "Concurrence",
     "Europe"
    ]
-  }
+  },
+  "histoire_vu": true
  },
  {
   "id": "7da26e5b664eb2",
@@ -16678,7 +17130,8 @@
     "Développement"
    ]
   },
-  "anciens_ids": []
+  "anciens_ids": [],
+  "histoire_vu": true
  },
  {
   "id": "52eaf3c3065b98",
@@ -16830,7 +17283,9 @@
     "Inférence",
     "Matériel"
    ]
-  }
+  },
+  "histoire": "h_af202225e5",
+  "histoire_vu": true
  },
  {
   "id": "c6e005224d6292",
@@ -16947,7 +17402,9 @@
     "Sécurité IA"
    ]
   },
-  "anciens_ids": []
+  "anciens_ids": [],
+  "histoire": "h_520aa59662",
+  "histoire_vu": true
  },
  {
   "id": "53b9a88ffe359a",
@@ -17057,7 +17514,9 @@
   },
   "anciens_ids": [
    "60f2867bc71bce"
-  ]
+  ],
+  "histoire": "h_520aa59662",
+  "histoire_vu": true
  },
  {
   "id": "0a622a33b8e3e3",

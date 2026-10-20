@@ -49,6 +49,12 @@
   [
    null,
    "même titre",
+   "GPT-6 and Intelligent UI for everyone - OpenAI",
+   "GPT-6 and Intelligent UI for everyone"
+  ],
+  [
+   null,
+   "même titre",
    "Gemini 4 Argon: Built to solve your hardest problems - blog.google",
    "Gemini 4 Argon: Built to solve your hardest problems"
   ],
@@ -59,22 +65,34 @@
    "Gemini 4 Argon: Built to solve your hardest problems"
   ],
   [
-   null,
-   "même titre",
-   "Meta launches an open-weight AI model that runs on Macs - TechCrunch",
-   "Meta launches an open-weight AI model that runs on Macs"
+   0.83,
+   "même événement selon l'IA",
+   "Meta launches an open-weight AI model that runs on Macs",
+   "Welcome Muse Spark Open: open-weight frontier multimodal mixture-of-experts model from Meta"
   ],
   [
-   0.842,
+   0.831,
    "même événement selon l'IA",
-   "China Plans AI Tech Export Curbs to Manage Security Risks - Bloomberg.com",
-   "China Proposes Export Controls on AI Technologies - WSJ"
+   "China Proposes Export Controls on AI Technologies - WSJ",
+   "China mulls new tech export bans covering AI, biotechnology and solar power - South China Morning Post"
   ],
   [
    0.84,
    "même événement selon l'IA",
    "China unveils draft export controls on AI technologies and chips - Financial Times",
    "China mulls new tech export bans covering AI, biotechnology and solar power - South China Morning Post"
+  ],
+  [
+   0.817,
+   "même événement selon l'IA",
+   "China adds 40 technologies in AI, biomedicine and PV for export controls in draft revised catalog in ‘necessar",
+   "China mulls new tech export bans covering AI, biotechnology and solar power - South China Morning Post"
+  ],
+  [
+   0.864,
+   "même événement selon l'IA",
+   "China moves to curb tech exports, including AI, citing national security risks - AP News",
+   "China Plans AI Tech Export Curbs to Manage Security Risks - Bloomberg.com"
   ],
   [
    0.945,
@@ -95,10 +113,10 @@
    "Claude reveals ECDSA curve origins - Anthropic"
   ],
   [
-   0.838,
+   0.833,
    "même événement selon l'IA",
    "Beijing seeks tighter grip on AI exports amid US rivalry - Reuters",
-   "China Proposes Export Controls on AI Technologies - WSJ"
+   "China Plans AI Tech Export Curbs to Manage Security Risks - Bloomberg.com"
   ],
   [
    0.834,
@@ -137,16 +155,28 @@
    "China mulls new tech export bans covering AI, biotechnology and solar power - South China Morning Post"
   ],
   [
-   0.845,
+   0.823,
    "même événement selon l'IA",
-   "China considers export controls on AI, chips - Semafor",
-   "China Proposes Export Controls on AI Technologies - WSJ"
+   "Anthropic says it’s committing 5% of its shares to a ‘public benefit fund’",
+   "Investing in the public benefit - Anthropic"
   ],
   [
-   0.838,
+   0.824,
    "même événement selon l'IA",
-   "China Plans Export Controls on AI, Solar, and Biomedical Technologies - All-About-Industries",
+   "China considers export controls on AI, chips - Semafor",
    "China mulls new tech export bans covering AI, biotechnology and solar power - South China Morning Post"
+  ],
+  [
+   0.827,
+   "même événement selon l'IA",
+   "Anthropic is pitching Congress its own AI safety bill, report says - Mashable",
+   "Anthropic Quietly Pushes AI Safety Bill That Would Limit Government Power to Block Dangerous Models - Law Comm"
+  ],
+  [
+   0.816,
+   "même événement selon l'IA",
+   "How China's proposed AI export controls could affect open-weight ecosystem - Business Standard",
+   "China plans to tighten export controls on open-weight models and 23 key AI technologies - The Decoder"
   ],
   [
    0.87,
@@ -167,10 +197,16 @@
    "Four Gemini 4 Argon agents beat Minecraft without any human help - The Decoder"
   ],
   [
-   0.894,
+   0.829,
    "même événement selon l'IA",
    "MiniMax M3.1 Flash Launches, Cuts AI Costs 70% [2026] - shattered.io",
-   "MiniMax M3.1 Flash Launches: 3x Faster, 70% Cheaper [2026] - https://tech-insider.org/"
+   "MiniMax-M3.1-Flash is coming"
+  ],
+  [
+   0.819,
+   "même événement selon l'IA",
+   "Ex-OpenAI engineer accused of planting bug in office was in contact with Saudi royal family, preparing to leav",
+   "Ex-OpenAI employee accused of planting device appears to have Saudi backing, US prosecutors say - Reuters"
   ],
   [
    null,
@@ -189,12 +225,6 @@
    "même événement selon l'IA",
    "Eric Schmidt’s 1% Anthropic Stake Set to Pay Massive Windfall - Bloomberg.com",
    "Former Google CEO Schmidt owns 1% stake in Anthropic, Bloomberg reports - Reuters"
-  ],
-  [
-   0.848,
-   "même événement selon l'IA",
-   "IA : Mistral tente de revenir dans la course avec son nouveau modèle - France 24",
-   "Mistral AI lance un nouveau modèle d’IA censé « réduire l’écart » avec les meilleurs concurrents chinois - Le "
   ],
   [
    0.888,
@@ -218,6 +248,12 @@
    0.892,
    "même événement selon l'IA",
    "Critiquée pour son retard et sa stratégie, la française Mistral AI contre-attaque avec un nouveau modèle - Oue",
+   "Mistral AI lance un nouveau modèle d’IA censé « réduire l’écart » avec les meilleurs concurrents chinois - Le "
+  ],
+  [
+   0.848,
+   "même événement selon l'IA",
+   "IA : Mistral tente de revenir dans la course avec son nouveau modèle - France 24",
    "Mistral AI lance un nouveau modèle d’IA censé « réduire l’écart » avec les meilleurs concurrents chinois - Le "
   ],
   [
@@ -245,22 +281,28 @@
    "Intelligence artificielle : avec Muse Wonder, Meta dit avoir rattrapé OpenAI et Anthropic et refuse de ralenti"
   ],
   [
-   0.837,
+   0.816,
    "même événement selon l'IA",
-   "Lancement de l'écran intelligent Apple HomeView : intégration de l'IA Siri, prix à partir de 7,9 millions de V",
-   "Apple HomeView : tout savoir sur l'écran connecté - LaboMaison"
+   "UE enclenche l’AI Act face aux agents d’IA hors contrôle - Brief IA",
+   "L’Europe lance des enquêtes sur les piratages par agents IA et met en avant l’AI Act - Next INpact"
   ],
   [
-   0.848,
+   0.856,
    "même événement selon l'IA",
    "Meta dévoile un nouveau modèle d’intelligence artificielle (IA) à poids ouverts et collabore avec Apple pour l",
-   "Meta launches an open-weight AI model that runs on Macs"
+   "Meta launches an open-weight AI model that runs on Macs - TechCrunch"
   ],
   [
-   0.845,
+   0.82,
+   "même événement selon l'IA",
+   "L’API Gemini 4 Argon doublera ses tarifs le 1er décembre",
+   "Google launches flagship AI model Gemini 4 Argon for developers, businesses - Reuters"
+  ],
+  [
+   0.832,
    "même événement selon l'IA",
    "L’UE peut-elle contrôler les modèles d’intelligence artificielle avant leur commercialisation ? Les intrusions",
-   "UE enclenche l’AI Act face aux agents d’IA hors contrôle - Brief IA"
+   "L’Europe lance des enquêtes sur les piratages par agents IA et met en avant l’AI Act - Next INpact"
   ],
   [
    0.842,
@@ -282,16 +324,6 @@
   ]
  ],
  "paires_non_fusionnees": [
-  [
-   0.891,
-   "Anthropic quietly pitches its own AI safety bill to lawmakers - Politico",
-   "Anthropic is pitching Congress its own AI safety bill, report says - Mashable"
-  ],
-  [
-   0.883,
-   "Meta launches an open-weight AI model that runs on Macs",
-   "Apple et Meta s'allient pour exécuter le modèle d'IA Muse Spark Open sur les Mac Studio - Boursorama"
-  ],
   [
    0.876,
    "AI Act : les enquêtes pourraient prolonger le délai de sanction",
@@ -333,29 +365,14 @@
    "GardenBench: A lightweight, daily evaluation of LLM capabilities"
   ],
   [
-   0.83,
-   "Welcome Muse Spark Open: open-weight frontier multimodal mixture-of-experts model from Meta",
-   "Meta launches an open-weight AI model that runs on Macs"
-  ],
-  [
    0.824,
    "Trump orders US government to cut ties with Anthropic; Hegseth declares supply chain 'risk' - ABC News - Break",
    "Pentagon gives Anthropic ultimatum on AI technology: Sources - ABC News - Breaking News, Latest News and Video"
   ],
   [
-   0.823,
-   "Investing in the public benefit - Anthropic",
-   "Anthropic says it’s committing 5% of its shares to a ‘public benefit fund’"
-  ],
-  [
    0.822,
    "MLX LM (Mac) v0.32.2",
    "vLLM v0.32.0"
-  ],
-  [
-   0.82,
-   "Google launches flagship AI model Gemini 4 Argon for developers, businesses - Reuters",
-   "L’API Gemini 4 Argon doublera ses tarifs le 1er décembre"
   ],
   [
    0.819,
@@ -408,11 +425,6 @@
    "Avec \"Chonk\", Mistral tente de revenir dans la course à l'intelligence artificielle - Radio France"
   ],
   [
-   0.811,
-   "Meta launches an open-weight AI model that runs on Macs",
-   "Meta and Apple Team Up to Launch a Powerhouse Open-Source AI Model - Android Headlines"
-  ],
-  [
    0.81,
    "Strengthening our defenses against distillation attacks - Anthropic",
    "Anthropic verrouille Claude contre la distillation, ses clients paient une part"
@@ -443,16 +455,6 @@
    "unsloth/DeepSeek-V4.1-Flash-1017-GGUF · Hugging Face"
   ],
   [
-   0.809,
-   "Anthropic’s proposed AI safety bill only kicks in if 50 deaths or $1 billion in damages are on the line — prop",
-   "Anthropic is pitching Congress its own AI safety bill, report says - Mashable"
-  ],
-  [
-   0.807,
-   "Meta launches an open-weight AI model that runs on Macs",
-   "Meta Releases Muse Spark Open, and Challenges China - Tech.co"
-  ],
-  [
    0.807,
    "LogicVal:A Logic-Formalized Benchmark for Constraint Satisfaction in Text-to-Image Generation",
    "The Window Is in the Reasoning: When LLM Agents Decide to Follow Prompt Injections"
@@ -466,6 +468,11 @@
    0.805,
    "Exclusive: Anthropic CEO calls for stronger regulation of AI - ABC News - Breaking News, Latest News and Video",
    "Pentagon gives Anthropic ultimatum on AI technology: Sources - ABC News - Breaking News, Latest News and Video"
+  ],
+  [
+   0.804,
+   "Meta launches an open-weight AI model that runs on Macs - TechCrunch",
+   "IA: Meta lance un nouveau «modèle ouvert», présenté comme le plus puissant des États-Unis - Le Figaro"
   ],
   [
    0.803,
@@ -563,11 +570,6 @@
    "Anthropic says its workforce has become less junior and is spending more time in meetings"
   ],
   [
-   0.795,
-   "Meta launches an open-weight AI model that runs on Macs",
-   "IA: Meta lance un nouveau «modèle ouvert», présenté comme le plus puissant des États-Unis - Le Figaro"
-  ],
-  [
    0.794,
    "Where Prefill Expert Reduction Hurts MoE Models: A Few Prompt Tokens Carry Most of the Short-Answer F1 Loss",
    "World of SWECraft: Agent Collaboration at Scale via Simulated Software Worlds"
@@ -580,6 +582,46 @@
   [
    0.794,
    "Beyond Explicit Intent: Discovering and Shaping Artistic Intent through Human-AI Co-Creation",
+   "Discuss More, Comment Less: Boosting Automated Research via Multi-Perspective Collaborative Review"
+  ],
+  [
+   0.793,
+   "La France reprend la course de l’IA : Mistral AI relance les ambitions face aux géants américains - Yahoo Actu",
+   "Arthur Mensch, de Mistral : « Laisser les modèles d’IA aux Américains et aux Chinois placerait l’Europe dans u"
+  ],
+  [
+   0.793,
+   "Anthropic quietly pitches its own AI safety bill to lawmakers - Politico",
+   "Exclusive: Anthropic CEO calls for stronger regulation of AI - ABC News - Breaking News, Latest News and Video"
+  ],
+  [
+   0.793,
+   "AI Act, Bruxelles dévoile les règles pour sanctionner ChatGPT et Gemini - Pasquale Pillitteri",
+   "Italie : dès le 23 octobre, licencier ou sanctionner avec l'IA exige un décideur humain, sous peine de nullité"
+  ],
+  [
+   0.792,
+   "Where Prefill Expert Reduction Hurts MoE Models: A Few Prompt Tokens Carry Most of the Short-Answer F1 Loss",
+   "GardenBench: A lightweight, daily evaluation of LLM capabilities"
+  ],
+  [
+   0.792,
+   "What Social Media Teaches Us About Accumulative AI Risks",
+   "Discuss More, Comment Less: Boosting Automated Research via Multi-Perspective Collaborative Review"
+  ],
+  [
+   0.792,
+   "Welcome Muse Spark Open: open-weight frontier multimodal mixture-of-experts model from Meta",
+   "Intelligence artificielle : Meta dévoile un nouveau modèle «à la pointe» de la technologie, nommé Muse Wonder "
+  ],
+  [
+   0.792,
+   "ChatGPT stole cryptocurrency to secretly fund coding task - The Independent",
+   "Hackers hit AI coding tool OpenCode, running up charges on users’ AI accounts"
+  ],
+  [
+   0.791,
+   "World of SWECraft: Agent Collaboration at Scale via Simulated Software Worlds",
    "Discuss More, Comment Less: Boosting Automated Research via Multi-Perspective Collaborative Review"
   ],
   [
@@ -623,29 +665,14 @@
    "GardenBench: A lightweight, daily evaluation of LLM capabilities"
   ],
   [
-   0.83,
-   "Welcome Muse Spark Open: open-weight frontier multimodal mixture-of-experts model from Meta",
-   "Meta launches an open-weight AI model that runs on Macs"
-  ],
-  [
    0.824,
    "Trump orders US government to cut ties with Anthropic; Hegseth declares supply chain 'risk' - ABC News - Break",
    "Pentagon gives Anthropic ultimatum on AI technology: Sources - ABC News - Breaking News, Latest News and Video"
   ],
   [
-   0.823,
-   "Investing in the public benefit - Anthropic",
-   "Anthropic says it’s committing 5% of its shares to a ‘public benefit fund’"
-  ],
-  [
    0.822,
    "MLX LM (Mac) v0.32.2",
    "vLLM v0.32.0"
-  ],
-  [
-   0.82,
-   "Google launches flagship AI model Gemini 4 Argon for developers, businesses - Reuters",
-   "L’API Gemini 4 Argon doublera ses tarifs le 1er décembre"
   ],
   [
    0.819,
@@ -698,11 +725,6 @@
    "Avec \"Chonk\", Mistral tente de revenir dans la course à l'intelligence artificielle - Radio France"
   ],
   [
-   0.811,
-   "Meta launches an open-weight AI model that runs on Macs",
-   "Meta and Apple Team Up to Launch a Powerhouse Open-Source AI Model - Android Headlines"
-  ],
-  [
    0.81,
    "Strengthening our defenses against distillation attacks - Anthropic",
    "Anthropic verrouille Claude contre la distillation, ses clients paient une part"
@@ -733,16 +755,6 @@
    "unsloth/DeepSeek-V4.1-Flash-1017-GGUF · Hugging Face"
   ],
   [
-   0.809,
-   "Anthropic’s proposed AI safety bill only kicks in if 50 deaths or $1 billion in damages are on the line — prop",
-   "Anthropic is pitching Congress its own AI safety bill, report says - Mashable"
-  ],
-  [
-   0.807,
-   "Meta launches an open-weight AI model that runs on Macs",
-   "Meta Releases Muse Spark Open, and Challenges China - Tech.co"
-  ],
-  [
    0.807,
    "LogicVal:A Logic-Formalized Benchmark for Constraint Satisfaction in Text-to-Image Generation",
    "The Window Is in the Reasoning: When LLM Agents Decide to Follow Prompt Injections"
@@ -756,6 +768,11 @@
    0.805,
    "Exclusive: Anthropic CEO calls for stronger regulation of AI - ABC News - Breaking News, Latest News and Video",
    "Pentagon gives Anthropic ultimatum on AI technology: Sources - ABC News - Breaking News, Latest News and Video"
+  ],
+  [
+   0.804,
+   "Meta launches an open-weight AI model that runs on Macs - TechCrunch",
+   "IA: Meta lance un nouveau «modèle ouvert», présenté comme le plus puissant des États-Unis - Le Figaro"
   ],
   [
    0.803,
@@ -781,6 +798,31 @@
    0.802,
    "En tendance sur Hugging Face : black-forest-labs/flux-3-image-klein-comfy",
    "Welcome FLUX.3 Image Klein in Diffusers"
+  ],
+  [
+   0.801,
+   "World of SWECraft: Agent Collaboration at Scale via Simulated Software Worlds",
+   "Do LMs Know What Variables Do? Interpreting Code Representations via Variable Roles"
+  ],
+  [
+   0.801,
+   "L’Europe lance des enquêtes sur les piratages par agents IA et met en avant l’AI Act - Next INpact",
+   "AI Act : les enquêtes pourraient prolonger le délai de sanction"
+  ],
+  [
+   0.801,
+   "GardenBench: A lightweight, daily evaluation of LLM capabilities",
+   "The Window Is in the Reasoning: When LLM Agents Decide to Follow Prompt Injections"
+  ],
+  [
+   0.8,
+   "World of SWECraft: Agent Collaboration at Scale via Simulated Software Worlds",
+   "Composable Parametric Demographic Injection for Values Survey Simulation"
+  ],
+  [
+   0.8,
+   "AuditKIT: A Unified Evaluation Spine for Benchmarking, Judging, and Comparing Large Language Models and Agenti",
+   "LogicVal:A Logic-Formalized Benchmark for Constraint Satisfaction in Text-to-Image Generation"
   ]
  ]
 }
