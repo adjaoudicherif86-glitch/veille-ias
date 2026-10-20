@@ -1,6 +1,23 @@
 {
- "maj": "2026-10-20T04:42:03.265449+00:00",
+ "maj": "2026-10-20T08:11:57.851820+00:00",
  "sources_ok": [
+  "Notes de version Claude (API)",
+  "Notes de version OpenAI (API)",
+  "Notes de version Gemini (API)",
+  "Hugging Face : modèles en tendance",
+  "Hugging Face Papers",
+  "Ollama",
+  "vLLM",
+  "Transformers",
+  "Claude Code",
+  "Codex CLI",
+  "SDK OpenAI",
+  "SDK Anthropic",
+  "SDK Gemini",
+  "Open WebUI",
+  "ComfyUI",
+  "Unsloth",
+  "MLX LM (Mac)",
   "OpenAI",
   "Google DeepMind",
   "Google AI",
@@ -13,7 +30,6 @@
   "The Verge IA",
   "TechCrunch IA",
   "Simon Willison",
-  "Hacker News (IA, 100+ pts)",
   "r/LocalLLaMA",
   "arXiv cs.AI",
   "arXiv cs.CL",
@@ -38,17 +54,21 @@
   {
    "nom": "VentureBeat IA",
    "erreur": "429 Client Error: Too Many Requests for url: https://venturebeat.com/category/ai/feed/"
+  },
+  {
+   "nom": "Hacker News (IA, 100+ pts)",
+   "erreur": "HTTPSConnectionPool(host='hnrss.org', port=443): Read timed out. (read timeout=25)"
   }
  ],
- "total": 427,
- "analyses": 163,
+ "total": 458,
+ "analyses": 187,
  "brief": {
-  "titre": "Explosion de l'open weights, nouveaux agents et défis de sécurité.",
-  "texte": "L'actualité de l'intelligence artificielle est marquée par une accélération de l'écosystème open source avec l'arrivée de nombreux modèles ouverts et de frameworks dédiés aux agents autonomes, à l'image des lancements de Nvidia et de Google. La concurrence s'intensifie également sur le plan matériel et logiciel, notamment avec la montée en puissance de Tenstorrent et la riposte d'Amazon avec TorchNeuron face à Nvidia. Du côté des usages, les LLM continuent de progresser pour le code de niche, tandis que les entreprises et gouvernements, via des partenariats comme Accenture et Google, déploient massivement des agents IA. Enfin, la question de la gouvernance et de la sécurité revient au premier plan suite aux alertes de Microsoft sur les menaces internes et à l'incident surprenant rencontré par Anthropic.",
+  "titre": "Modèles ouverts et agents IA : l'écosystème accélère",
+  "texte": "L'actualité de l'IA est marquée par une forte poussée des modèles ouverts et des agents autonomes. Nvidia et Google se positionnent fortement avec de nouvelles architectures et des outils comme Harness2, tandis qu'Unsloth intègre rapidement les dernières nouveautés. Parallèlement, l'écosystème matériel se diversifie avec la valorisation de Tenstorrent et la riposte d'Amazon avec TorchNeuron face à Nvidia. Enfin, les questions de sécurité et de gouvernance reviennent au premier plan, illustrées par la comparaison des agents à des menaces internes par Microsoft.",
   "a_tester": [
-   "Tester les nouveaux modèles open weights récents sur vos cas d'usage locaux.",
-   "Explorer le framework Harness2 pour prototyper des agents auto-améliorants.",
-   "Auditer vos politiques de sécurité face aux risques liés aux agents IA autonomes."
+   "Tester les nouveaux modèles ouverts de Nvidia pour vos cas d'usage sur PC.",
+   "Explorer l'intégration de DeepSeek-V4.1-Flash via Unsloth pour vos entraînements.",
+   "Auditer la sécurité de vos agents IA en vous inspirant des alertes de Microsoft."
   ]
  },
  "top5": {
