@@ -421,6 +421,13 @@ async function charger(){
     TOUS = await a.json(); META = await b.json();
   }catch(e){ TOUS = []; META = {}; }
   ITEMS = TOUS.filter(i => i.rubrique !== "controle");
+  // un sujet fusionné garde l'état « lu » et « favori » des articles qu'il a absorbés
+  let change = false;
+  TOUS.forEach(it => (it.anciens_ids||[]).forEach(a => {
+    if (lus.has(a) && !lus.has(it.id)) { lus.add(it.id); change = true; }
+    if (favs.has(a) && !favs.has(it.id)) { favs.add(it.id); change = true; }
+  }));
+  if (change){ store.set("lus",[...lus].slice(-3000)); store.set("favs",[...favs]); }
   try{ const d = await (await fetch("data/societes.json",{cache:"no-store"})).json(); d.societes.forEach(x => SOCS[x.id] = x); }catch{ SOCS = {}; }
   try{ ANNUAIRE = await (await fetch("data/annuaire.json",{cache:"no-store"})).json(); }catch{ ANNUAIRE = null; }
   try{ CONTROLE = await (await fetch("data/controle.json",{cache:"no-store"})).json(); }catch{ CONTROLE = null; }

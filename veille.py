@@ -29,6 +29,7 @@ import feedparser
 import requests
 
 import primaires
+import semantique
 
 RACINE = Path(__file__).parent
 DATA = RACINE / "docs" / "data"
@@ -208,20 +209,33 @@ def ids_modeles(titre, debut=False):
     return {re.sub(r"[- ]", "", m.lower()) for m in RE_MODELE.findall(t)
             if re.split(r"[- ]?v?\d", m.lower())[0] not in PAS_MODELE and not re.search(r"(19|20)\d\d$", m)}
 
-def meme_sujet(a, b):
-    if SequenceMatcher(None, a["_tn"], b["_tn"]).ratio() > 0.72:
-        return True
+def meme_sujet(a, b, vecteurs=None):
+    """Même événement ? Par le sens si les empreintes existent, sinon (et en complément) par le titre."""
+    ratio = SequenceMatcher(None, a["_tn"], b["_tn"]).ratio()
     ja, jb = a["_tok"], b["_tok"]
-    if not ja or not jb:
-        return False
-    jac = len(ja & jb) / len(ja | jb)
-    return jac >= 0.5 or (bool(a["_mod"] & b["_mod"]) and jac >= 0.2)
+    jac = len(ja & jb) / len(ja | jb) if ja and jb else 0
+    if ratio > 0.72 or jac >= 0.5 or (bool(a["_mod"] & b["_mod"]) and jac >= 0.2):
+        return True
+    if vecteurs and a["id"] in vecteurs and b["id"] in vecteurs:
+        c = semantique.cosinus(vecteurs[a["id"]], vecteurs[b["id"]])
+        if c >= semantique.SEUIL_FORT:
+            return True
+        if c >= semantique.SEUIL_MOYEN:
+            # zone grise : il faut un indice concret en plus du sens
+            meme_soc = a["_soc"] and a["_soc"] == b["_soc"]
+            # (des mots banals comme « open » ou « agents » ne suffisent pas)
+            if a["_soc"] and b["_soc"] and a["_soc"] != b["_soc"]:
+                return False
+            return bool(meme_soc or (a["_mod"] & b["_mod"]) or jac >= 0.3)
+    return False
 
-def regrouper(items):
+def regrouper(items, vecteurs=None):
     """Regroupe les articles qui parlent du même sujet (sources différentes) et garde l'historique des échos."""
     items.sort(key=lambda a: (-POIDS_TYPE.get(a["type"], 1), a["date"]))
     for it in items:
         it["_tn"], it["_tok"], it["_mod"] = titre_normalise(it["titre"]), jetons(it["titre"]), ids_modeles(it["titre"])
+        soc, _ = detecter_societe(it)
+        it["_soc"] = soc["id"] if soc else None
     groupes = []
     for it in items:
         d = datetime.fromisoformat(it["date"])
@@ -233,7 +247,7 @@ def regrouper(items):
                 continue  # deux annonces officielles distinctes ne se fusionnent jamais
             if abs((datetime.fromisoformat(chef["date"]) - d).days) > 3:
                 continue
-            if meme_sujet(it, chef):
+            if any(meme_sujet(it, membre, vecteurs) for membre in g):
                 g.append(it)
                 break
         else:
@@ -247,9 +261,15 @@ def regrouper(items):
                 if e["source"] != chef["source"]:
                     echos.setdefault(e["lien"], e)
         chef["echos"] = list(echos.values())
+        if not chef.get("analyse"):  # on ne perd pas une explication déjà faite sur un autre article du groupe
+            deja = next((x for x in g[1:] if x.get("analyse")), None)
+            if deja:
+                chef["analyse"] = deja["analyse"]
+                chef["local"], chef["categorie"] = deja.get("local"), deja.get("categorie")
+        chef["anciens_ids"] = sorted({i for x in g for i in [x["id"]] + x.get("anciens_ids", [])} - {chef["id"]})[-20:]
         sortie.append(chef)
     for it in items:
-        for k in ("_tn", "_tok", "_mod"):
+        for k in ("_tn", "_tok", "_mod", "_soc"):
             it.pop(k, None)
     return sortie
 
@@ -532,7 +552,15 @@ def main():
     nouveaux, ok, ko = chasser(sources)
     anciens = charger_json(FICHIER_ITEMS, [])
     SOCIETES[:] = charger_societes()
-    items = flairer(regrouper(fusionner(anciens, nouveaux)))
+    items = fusionner(anciens, nouveaux)
+    vecteurs = semantique.empreintes(items, LLM_API_KEY, LLM_API_URL)
+    avant = len(items)
+    items = flairer(regrouper(items, vecteurs))
+    print(f"🧩 Regroupement : {avant} articles → {len(items)} sujets distincts")
+    try:
+        semantique.releve_similarites(items, vecteurs)
+    except Exception as e:
+        print(f"  (relevé des similarités impossible : {e})", file=sys.stderr)
     llm = analyser(items)
     items = flairer(items)  # re-score avec l'importance donnée par l'IA
     items.sort(key=lambda i: i["date"], reverse=True)

@@ -48,6 +48,10 @@ En plus de la presse, le chien lit l'info à la source (marquée « Source prima
 
 Dans `sources.json`, ces sources ont un champ `kind` (`page`, `github`, `hf_modeles`, `hf_papiers`). Pour suivre un autre projet GitHub, copie un bloc `github` et change `repo`. Le dossier `etat/` garde la mémoire des pages et des modèles déjà vus : ne le supprime pas.
 
+## Le regroupement par le sens
+
+Chaque article reçoit une empreinte numérique (embedding) calculée gratuitement par l'API Gemini. Deux articles sur le même événement ont des empreintes proches, même si leurs titres n'ont presque aucun mot en commun : ils deviennent un seul sujet, avec la liste des sources qui en parlent. Au-dessus du seuil fort (`SEUIL_FORT`, 0,90 par défaut), la fusion est automatique ; entre les deux seuils (`SEUIL_MOYEN`, 0,82), il faut en plus un indice concret (même société, même nom de modèle). Deux sociétés différentes ne sont jamais fusionnées dans cette zone grise. Les empreintes sont gardées dans `etat/embeddings.json`, et `etat/similarites.json` liste les paires les plus proches pour régler les seuils.
+
 ## Les sociétés reconnues
 
 La liste est dans `docs/data/societes.json` : nom, pays, présentation en une phrase, poids (3 = acteur majeur) et les mots qui permettent de la reconnaître. Pour en ajouter une, copie un bloc existant. Pour une société absente de la liste, l'IA rédige elle-même une présentation dans la fiche de l'article.
