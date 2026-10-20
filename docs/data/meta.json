@@ -1,5 +1,5 @@
 {
- "maj": "2026-10-20T09:56:16.458014+00:00",
+ "maj": "2026-10-20T12:54:40.957370+00:00",
  "sources_ok": [
   "Notes de version Claude (API)",
   "Notes de version OpenAI (API)",
@@ -57,15 +57,15 @@
    "erreur": "429 Client Error: Too Many Requests for url: https://venturebeat.com/category/ai/feed/"
   }
  ],
- "total": 445,
- "analyses": 336,
+ "total": 456,
+ "analyses": 353,
  "brief": {
-  "titre": "Modèles ouverts, puces et agents : l'écosystème IA s'accélère",
-  "texte": "L'actualité de l'IA est marquée par une forte dynamique autour des modèles ouverts et des agents autonomes. Nvidia et Google renforcent l'écosystème open-weights avec de nouvelles solutions pour PC et des architectures auto-améliorantes. Parallèlement, la course aux infrastructures s'intensifie avec les levées de fonds massives d'Anthropic et de Tenstorrent, ainsi que l'offensive d'Amazon sur PyTorch. Enfin, l'intégration de DeepSeek et de nouveaux outils de programmation diversifient les choix pour les développeurs, tandis que les enjeux de sécurité et de gouvernance se précisent.",
+  "titre": "Accélération majeure des modèles ouverts et des agents IA",
+  "texte": "L'écosystème open source franchit un cap avec DeepSeek et ses nouveaux frameworks, tandis que Nvidia et Unsloth renforcent les options pour les agents sur PC. Côté matériel, Tenstorrent confirme l'essor des puces ouvertes et Anthropic négocie un contrat record de 45 milliards. Enfin, l'Europe durcit la régulation sur la responsabilité des vendeurs d'agents, alors que Google DeepMind illustre leur puissance en battant Minecraft.",
   "a_tester": [
-   "Tester les derniers modèles ouverts de Nvidia pour vos agents sur PC",
-   "Explorer l'intégration de DeepSeek-V4.1-Flash via Unsloth pour vos projets",
-   "Utiliser les améliorations de ChatGPT pour coder dans des langages rares"
+   "Tester le nouveau framework d'inférence DeepInfer de DeepSeek",
+   "Explorer les nouveaux modèles ouverts de Nvidia pour vos agents sur PC",
+   "Vérifier la conformité de vos intégrations d'agents face aux nouvelles règles européennes"
   ]
  },
  "top5": {
