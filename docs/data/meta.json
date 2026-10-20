@@ -1,5 +1,5 @@
 {
- "maj": "2026-10-20T12:54:40.957370+00:00",
+ "maj": "2026-10-20T16:42:57.385318+00:00",
  "sources_ok": [
   "Notes de version Claude (API)",
   "Notes de version OpenAI (API)",
@@ -57,15 +57,15 @@
    "erreur": "429 Client Error: Too Many Requests for url: https://venturebeat.com/category/ai/feed/"
   }
  ],
- "total": 456,
- "analyses": 353,
+ "total": 478,
+ "analyses": 373,
  "brief": {
-  "titre": "Accélération majeure des modèles ouverts et des agents IA",
-  "texte": "L'écosystème open source franchit un cap avec DeepSeek et ses nouveaux frameworks, tandis que Nvidia et Unsloth renforcent les options pour les agents sur PC. Côté matériel, Tenstorrent confirme l'essor des puces ouvertes et Anthropic négocie un contrat record de 45 milliards. Enfin, l'Europe durcit la régulation sur la responsabilité des vendeurs d'agents, alors que Google DeepMind illustre leur puissance en battant Minecraft.",
+  "titre": "L'open source et les agents IA dominent l'actualité",
+  "texte": "L'écosystème open source accélère fortement cette semaine avec le lancement de DeepInfer par DeepSeek et l'arrivée de nouveaux modèles ouverts par Nvidia et Unsloth. Du côté des infrastructures, Tenstorrent consolide sa valorisation pour ses puces ouvertes tandis qu'Anthropic discute d'un contrat massif. Les agents autonomes progressent également, illustrés par les performances de Google DeepMind sur Minecraft et les nouveaux cadres réglementaires européens. Enfin, l'optimisation locale s'améliore avec le support renforcé de PyTorch sur Mac et les nouveautés d'AnyLanguageModel.",
   "a_tester": [
-   "Tester le nouveau framework d'inférence DeepInfer de DeepSeek",
-   "Explorer les nouveaux modèles ouverts de Nvidia pour vos agents sur PC",
-   "Vérifier la conformité de vos intégrations d'agents face aux nouvelles règles européennes"
+   "Tester le framework DeepInfer pour optimiser l'inférence locale de vos modèles",
+   "Explorer l'intégration de DeepSeek-V4.1-Flash via Unsloth pour vos projets",
+   "Évaluer les nouveaux modèles ouverts de Nvidia pour vos cas d'usage d'agents sur PC"
   ]
  },
  "top5": {
