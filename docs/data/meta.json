@@ -1,5 +1,5 @@
 {
- "maj": "2026-10-20T08:11:57.851820+00:00",
+ "maj": "2026-10-20T08:46:14.258404+00:00",
  "sources_ok": [
   "Notes de version Claude (API)",
   "Notes de version OpenAI (API)",
@@ -30,6 +30,7 @@
   "The Verge IA",
   "TechCrunch IA",
   "Simon Willison",
+  "Hacker News (IA, 100+ pts)",
   "r/LocalLLaMA",
   "arXiv cs.AI",
   "arXiv cs.CL",
@@ -54,21 +55,17 @@
   {
    "nom": "VentureBeat IA",
    "erreur": "429 Client Error: Too Many Requests for url: https://venturebeat.com/category/ai/feed/"
-  },
-  {
-   "nom": "Hacker News (IA, 100+ pts)",
-   "erreur": "HTTPSConnectionPool(host='hnrss.org', port=443): Read timed out. (read timeout=25)"
   }
  ],
- "total": 458,
- "analyses": 187,
+ "total": 469,
+ "analyses": 215,
  "brief": {
-  "titre": "Modèles ouverts et agents IA : l'écosystème accélère",
-  "texte": "L'actualité de l'IA est marquée par une forte poussée des modèles ouverts et des agents autonomes. Nvidia et Google se positionnent fortement avec de nouvelles architectures et des outils comme Harness2, tandis qu'Unsloth intègre rapidement les dernières nouveautés. Parallèlement, l'écosystème matériel se diversifie avec la valorisation de Tenstorrent et la riposte d'Amazon avec TorchNeuron face à Nvidia. Enfin, les questions de sécurité et de gouvernance reviennent au premier plan, illustrées par la comparaison des agents à des menaces internes par Microsoft.",
+  "titre": "Modèles ouverts et agents autonomes bousculent l'écosystème IA",
+  "texte": "L'écosystème de l'intelligence artificielle est marqué par une accélération des modèles ouverts et des agents autonomes. Nvidia et Unsloth renforcent l'offre pour PC et entreprises, tandis que Google libère Harness2 pour des agents auto-améliorants. Face à cette décentralisation matérielle et logicielle, des alternatives matérielles comme Tenstorrent émergent, et Amazon lance TorchNeuron pour concurrencer Nvidia sur PyTorch. Enfin, l'essor des agents s'accompagne de nouveaux défis, illustrés par les comparaisons de Microsoft avec des menaces internes et les incidents de sécurité chez Anthropic.",
   "a_tester": [
-   "Tester les nouveaux modèles ouverts de Nvidia pour vos cas d'usage sur PC.",
-   "Explorer l'intégration de DeepSeek-V4.1-Flash via Unsloth pour vos entraînements.",
-   "Auditer la sécurité de vos agents IA en vous inspirant des alertes de Microsoft."
+   "Explorer les nouveaux modèles ouverts de Nvidia pour vos agents sur PC",
+   "Tester l'intégration de DeepSeek-V4.1-Flash et FLUX.3 Image Klein avec Unsloth",
+   "Évaluer Harness2 de Google pour concevoir des agents IA auto-améliorants"
   ]
  },
  "top5": {
