@@ -214,20 +214,23 @@ def meme_sujet(a, b, vecteurs=None):
     ratio = SequenceMatcher(None, a["_tn"], b["_tn"]).ratio()
     ja, jb = a["_tok"], b["_tok"]
     jac = len(ja & jb) / len(ja | jb) if ja and jb else 0
+    c = semantique.cosinus(vecteurs[a["id"]], vecteurs[b["id"]]) if vecteurs and a["id"] in vecteurs and b["id"] in vecteurs else None
+    raison = None
     if ratio > 0.72 or jac >= 0.5 or (bool(a["_mod"] & b["_mod"]) and jac >= 0.2):
-        return True
-    if vecteurs and a["id"] in vecteurs and b["id"] in vecteurs:
-        c = semantique.cosinus(vecteurs[a["id"]], vecteurs[b["id"]])
-        if c >= semantique.SEUIL_FORT:
-            return True
-        if c >= semantique.SEUIL_MOYEN:
-            # zone grise : il faut un indice concret en plus du sens
-            meme_soc = a["_soc"] and a["_soc"] == b["_soc"]
-            # (des mots banals comme « open » ou « agents » ne suffisent pas)
-            if a["_soc"] and b["_soc"] and a["_soc"] != b["_soc"]:
-                return False
-            return bool(meme_soc or (a["_mod"] & b["_mod"]) or jac >= 0.3)
-    return False
+        raison = "titres proches"
+    elif c is not None and c >= semantique.SEUIL_FORT:
+        raison = "sens très proche"
+    elif c is not None and c >= semantique.SEUIL_MOYEN:
+        # zone grise : il faut un indice concret en plus du sens. Ni la même société
+        # (elle a plusieurs actus), ni des mots banals comme « open » ou « agents » ne suffisent.
+        if not (a["_soc"] and b["_soc"] and a["_soc"] != b["_soc"]):
+            if a["_mod"] & b["_mod"]:
+                raison = "sens proche + même modèle cité"
+            elif jac >= 0.3:
+                raison = "sens proche + mêmes mots-clés"
+    if raison:
+        semantique.FUSIONS.append((round(c, 3) if c is not None else None, raison, a["titre"][:110], b["titre"][:110]))
+    return bool(raison)
 
 def regrouper(items, vecteurs=None):
     """Regroupe les articles qui parlent du même sujet (sources différentes) et garde l'historique des échos."""

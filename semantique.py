@@ -24,7 +24,9 @@ LOT = 50            # articles envoyés par requête
 
 # Seuils de similarité (cosinus entre -1 et 1)
 SEUIL_FORT = float(os.getenv("SEUIL_FORT", "0.90"))   # même sujet sans autre condition
-SEUIL_MOYEN = float(os.getenv("SEUIL_MOYEN", "0.82"))  # même sujet si un indice concret le confirme
+SEUIL_MOYEN = float(os.getenv("SEUIL_MOYEN", "0.84"))
+
+FUSIONS = []  # (cosinus, raison, titre A, titre B), pour vérifier les fusions faites  # même sujet si un indice concret le confirme
 
 
 def texte_de(it):
@@ -107,5 +109,5 @@ def releve_similarites(items, vecteurs, n=60):
     paires.sort(reverse=True)
     choix = paires[:n] + [p for p in paires if 0.78 <= p[0] < 0.88][:40]
     (ETAT / "similarites.json").write_text(
-        json.dumps({"seuils": [SEUIL_FORT, SEUIL_MOYEN], "paires": choix}, ensure_ascii=False, indent=1),
+        json.dumps({"seuils": [SEUIL_FORT, SEUIL_MOYEN], "fusions_du_passage": FUSIONS, "paires_non_fusionnees": choix}, ensure_ascii=False, indent=1),
         encoding="utf-8")
