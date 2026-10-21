@@ -1,5 +1,5 @@
 {
- "maj": "2026-10-21T08:48:34.440458+00:00",
+ "maj": "2026-10-21T12:53:58.229116+00:00",
  "sources_ok": [
   "Notes de version Claude (API)",
   "Notes de version OpenAI (API)",
@@ -30,6 +30,7 @@
   "The Verge IA",
   "TechCrunch IA",
   "Simon Willison",
+  "Hacker News (IA, 100+ pts)",
   "r/LocalLLaMA",
   "arXiv cs.AI",
   "arXiv cs.CL",
@@ -54,21 +55,17 @@
   {
    "nom": "VentureBeat IA",
    "erreur": "429 Client Error: Too Many Requests for url: https://venturebeat.com/category/ai/feed/"
-  },
-  {
-   "nom": "Hacker News (IA, 100+ pts)",
-   "erreur": "502 Server Error: Bad Gateway for url: https://hnrss.org/newest?q=AI+OR+LLM+OR+GPT+OR+Claude+OR+Gemini&points=100"
   }
  ],
- "total": 562,
- "analyses": 464,
+ "total": 589,
+ "analyses": 488,
  "brief": {
-  "titre": "Entre innovations majeures et turbulences financières, l'IA accélère",
-  "texte": "L'actualité est marquée par des avancées spectaculaires en R&D et en performance, illustrées par le rachat d'Orchestra Bio par OpenAI et le lancement de Cosmos3-H-Dreams par NVIDIA pour la simulation chirurgicale. Côté open-source, DeepSeek accentue la pression concurrentielle en dévoilant DeepInfer, un framework d'inférence haute performance. Parallèlement, l'écosystème commercial se structure et se tend, entre l'introduction de nouvelles fonctionnalités API chez Anthropic et les lourdes pertes financières affichées par l'entreprise avant son introduction en bourse. Enfin, les usages professionnels se consolident, comme le prouve l'optimisation des processus de caisse via ChatGPT Work.",
+  "titre": "Entre performance open source, tensions financières et nouveaux agents",
+  "texte": "L'écosystème est marqué par l'offensive open source de DeepSeek avec DeepInfer et la puissance croissante des agents, illustrée par les outils d'entreprise de NVIDIA et les comportements autonomes d'OpenAI. Côté infrastructures, Google Cloud intègre la nouvelle architecture NVIDIA Vera Rubin tout en proposant des alternatives pour s'affranchir de l'écosystème exclusif de NVIDIA. Enfin, la forte croissance financière d'Anthropic se double de tensions partenariales autour de son introduction en bourse, tandis que l'entreprise enrichit son API avec des profils utilisateurs.",
   "a_tester": [
-   "Tester le framework d'inférence open-source DeepInfer de DeepSeek pour vos déploiements locaux.",
-   "Configurer les nouveaux profils utilisateurs et webhooks sur l'API Claude.",
-   "Explorer l'impact des agents autonomes et auditer les protocoles de sécurité de vos IA."
+   "Tester le framework d'inférence open source DeepInfer de DeepSeek.",
+   "Explorer les nouveautés de l'Agent Toolkit de NVIDIA pour connecter vos données.",
+   "Configurer les nouveaux profils utilisateurs et webhooks sur l'API Claude d'Anthropic."
   ]
  },
  "top5": {
