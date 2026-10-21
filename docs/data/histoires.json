@@ -1,6 +1,76 @@
 {
- "maj": "2026-10-21T12:53:58.229069+00:00",
+ "maj": "2026-10-21T16:44:31.523944+00:00",
  "histoires": [
+  {
+   "id": "h_018106ad87",
+   "titre": "Expansion géographique mondiale de la publicité sur ChatGPT",
+   "resume": "OpenAI accélère la diversification de ses sources de revenus en déployant son offre publicitaire ChatGPT Ads dans 26 pays supplémentaires, ciblant plus de 100 000 annonceurs à travers le monde.",
+   "creee": "2026-10-21T16:44:31.523944+00:00",
+   "maj": "2026-10-21T13:00:01+00:00",
+   "episodes": [
+    {
+     "id": "74fcf21eca7add",
+     "date": "2026-10-21T13:00:00+00:00",
+     "titre": "Expansion mondiale de la publicité sur ChatGPT dans 26 nouveaux pays",
+     "neuf": "OpenAI déploie sa publicité dans 26 nouveaux pays pour atteindre 100 000 annonceurs.",
+     "fil": "expansion géographique de la publicité sur ChatGPT",
+     "source": "OpenAI",
+     "lien": "https://openai.com/index/chatgpt-ads-expands-26-new-countries",
+     "nb_sources": 2,
+     "primaire": false
+    },
+    {
+     "id": "21d59ac6a92fb2",
+     "date": "2026-10-21T13:00:01+00:00",
+     "titre": "OpenAI étend les publicités sur ChatGPT à 26 nouveaux pays",
+     "neuf": "Confirmation de l'extension de l'offre publicitaire d'OpenAI à 26 pays pour accélérer sa diversification.",
+     "fil": "expansion de la publicité sur ChatGPT à 26 pays supplémentaires",
+     "source": "OpenAI (actus)",
+     "lien": "https://news.google.com/rss/articles/CBMid0FVX3lxTE8zT2hqbHpJQWlRY2M5SElrcVpHc3BHM3dWdks0R0hhbWM4NFlmQkItUFhPUW9zSXhyaG1NWjNjV3U1eERDOGE2WVI0eF8zX0JjeURXR0NBTGlLbm1YZERsVkhsLWUtRm4xSl8tcHQ4NkFGWDZxN1hV0gF8QVVfeXFMTndoM0pabVhEX0Z2Xzc0aWI2QVZINmpJdEs3RjdqemVxUlNfVFJLczRhN0d1RTJZd19zTUN3dEc0R25OZXZvZmVnWDB5dkxtRHZhUVpyNEpfUVpNUUp5S0NCcGQ0MU9FQW1fTzJWYkdFZ3Z5VENGMXZtOVJfbQ?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    }
+   ],
+   "statut": "active",
+   "societes": [
+    "openai"
+   ]
+  },
+  {
+   "id": "h_a616bbaec5",
+   "titre": "Développement et monétisation de la régie publicitaire de ChatGPT",
+   "resume": "OpenAI conçoit et déploie une architecture publicitaire basée sur les LLM au sein de ChatGPT pour cibler l'intention des utilisateurs. Toutefois, malgré l'afflux d'annonceurs, la régie peine encore à générer des revenus significatifs.",
+   "creee": "2026-10-21T16:44:31.523944+00:00",
+   "maj": "2026-10-21T12:29:37+00:00",
+   "episodes": [
+    {
+     "id": "edef63b51aedc0",
+     "date": "2026-10-21T07:00:00+00:00",
+     "titre": "Comment OpenAI a conçu sa régie publicitaire pour ChatGPT",
+     "neuf": "OpenAI détaille l'architecture technique de sa régie publicitaire basée sur l'intention conversationnelle des LLM.",
+     "fil": "conception de la régie publicitaire de ChatGPT par OpenAI",
+     "source": "OpenAI",
+     "lien": "https://openai.com/index/building-chatgpt-ad-stack",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "ffc50094f35451",
+     "date": "2026-10-21T12:29:37+00:00",
+     "titre": "Les annonceurs affluent sur ChatGPT mais les revenus déçoivent",
+     "neuf": "Malgré un afflux d'annonceurs, ChatGPT peine à monétiser efficacement sa nouvelle régie.",
+     "fil": "revenus et performances de la régie publicitaire de ChatGPT",
+     "source": "OpenAI (actus)",
+     "lien": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOYV9GQVIxS2lfWEFGSEZpVTdoVGo5SlYxU1ZUWTZJdjh1ck05TkJnNXotdVVoVlo4WXhNcUZLUHY4Mmlnd0lfOXl1Tm1fN0FZX1hHWkV4WGhjVERtQ09rb3JUZnlSV05SOG9OaUljV01SdnpQYXB6VTdPNVNOcFhZdA?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    }
+   ],
+   "statut": "active",
+   "societes": [
+    "openai"
+   ]
+  },
   {
    "id": "h_a4c112d8fd",
    "titre": "GPT-6.1 Sol : performances sur la migration COBOL",
@@ -50,9 +120,9 @@
   {
    "id": "h_706c77ae76",
    "titre": "Le projet de loi d'Anthropic sur la sécurité de l'IA",
-   "resume": "Anthropic a soumis sa propre proposition de loi sur la sécurité de l'IA, tandis que son PDG appelle à une réglementation renforcée. De nouvelles fuites révèlent que le texte rédigé par l'entreprise fixe notamment un seuil de risque à un milliard de dollars.",
+   "resume": "Anthropic a soumis sa propre proposition de loi sur la sécurité de l'IA, fixant notamment un seuil de risque à un milliard de dollars. De nouvelles précisions indiquent que le texte pourrait donner le pouvoir à un juge de bloquer le lancement d'un modèle d'IA jugé risqué.",
    "creee": "2026-10-20T09:56:16.457937+00:00",
-   "maj": "2026-10-21T09:00:00+00:00",
+   "maj": "2026-10-21T09:58:26+00:00",
    "episodes": [
     {
      "id": "4a721a6610aa2c",
@@ -130,11 +200,57 @@
      "lien": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNWWhaN0lXMkdTcldqYTBoVktsbUx1QzI3emNYTmZ2Q2ZENEp0NFh2My1VeGZLbnlYbS1SMFNkak1FLXk1eGtaMUMtME9EOFpCV3N4TG45ZEUyNHRiVFNZcHFSTURZel9kSzNKRU8ySHBNZmtrcEg0VkNrdHhjUF8yWFVjMEFlYzhpcVE?oc=5",
      "nb_sources": 1,
      "primaire": false
+    },
+    {
+     "id": "f34bda1d353d9b",
+     "date": "2026-10-21T09:58:26+00:00",
+     "titre": "Un projet de loi d'Anthropic permettrait à un juge de bloquer le lancement d'un modèle d'IA",
+     "neuf": "Le projet de loi soutenu par Anthropic prévoirait spécifiquement la possibilité pour un juge d'interdire la sortie d'un modèle jugé risqué.",
+     "fil": "même projet de loi d'Anthropic sur la sécurité",
+     "source": "Grandes annonces IA",
+     "lien": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBVSGJfdmJHZU05d0ZGQWFTbzhRZlFhMDV5S2xSNWV6OXo2VmZFRTRRcE0xLWd4RkVacXNiYWRvVkE3OVBqbEVqcXFkbnpScHl4ZVJuLVg1V3YtWmc?oc=5",
+     "nb_sources": 1,
+     "primaire": false
     }
    ],
    "statut": "active",
    "societes": [
     "anthropic"
+   ]
+  },
+  {
+   "id": "h_f5d527a7f4",
+   "titre": "Suspension du partage de conversations Muse de Meta",
+   "resume": "Meta a suspendu une fonctionnalité de partage de discussions de son assistant Muse après la découverte de liens publics indexés. Les déboires de l'agent se poursuivent avec un incident où il a divulgué une adresse personnelle lors d'une vente.",
+   "creee": "2026-10-20T20:45:07.920169+00:00",
+   "maj": "2026-10-21T08:00:00+00:00",
+   "episodes": [
+    {
+     "id": "f52190a49967b6",
+     "date": "2026-10-20T18:07:34+00:00",
+     "titre": "Meta suspend le partage de conversations Muse après une fuite de liens",
+     "neuf": "Suspension de la fonctionnalité après une fuite de liens indexés sur le web.",
+     "fil": "partage de conversations Muse",
+     "source": "The Verge IA",
+     "lien": "https://www.theverge.com/tech/1014627/meta-muse-ai-sharing-ai-chats",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "bc64ee5c5ed48d",
+     "date": "2026-10-21T08:00:00+00:00",
+     "titre": "L'agent IA de Meta conclut une vente sur Marketplace et divulgue une adresse",
+     "neuf": "L'agent Muse de Meta commet une nouvelle bévue en divulguant une adresse personnelle lors d'une vente sur Marketplace.",
+     "fil": "même assistant Muse de Meta et incidents liés à sa gestion de données privées",
+     "source": "Vie privée et assistants IA",
+     "lien": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBBZ0ozS2k0VFljMURVQjNMRXF4ZHVyQThJVEMwNUhmcTR4eWQ5WDQ5SEpWckFVOEtKNlZGMzdpWnVOQjE4bjN2cTZkdlJTUGRBS2JoWGxvNllnSVJtWUU2bGoyYi1fdDF4YnQwMVh4RkdnZVp6ZUlNd3NqNlFudG8?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    }
+   ],
+   "statut": "active",
+   "societes": [
+    "meta"
    ]
   },
   {
@@ -313,7 +429,7 @@
   {
    "id": "h_5e0762833f",
    "titre": "Action en justice contre SpaceXAI",
-   "resume": "Un juge a autorisé la poursuite d'une action en justice visant la société d'IA SpaceXAI.",
+   "resume": "SpaceXAI fait face à des procédures judiciaires et à des contestations locales. Une plainte initiale a été autorisée à se poursuivre, tandis qu'une action collective cible désormais la difficulté de résilier les abonnements à Grok.",
    "creee": "2026-10-20T20:45:07.920169+00:00",
    "maj": "2026-10-20T19:51:00+00:00",
    "episodes": [
@@ -428,30 +544,6 @@
    "statut": "active",
    "societes": [
     "openai"
-   ]
-  },
-  {
-   "id": "h_f5d527a7f4",
-   "titre": "Suspension du partage de conversations Muse de Meta",
-   "resume": "Meta a suspendu une fonctionnalité de partage de discussions de son assistant Muse après la découverte de milliers de liens publics indexés sur le web.",
-   "creee": "2026-10-20T20:45:07.920169+00:00",
-   "maj": "2026-10-20T18:07:34+00:00",
-   "episodes": [
-    {
-     "id": "f52190a49967b6",
-     "date": "2026-10-20T18:07:34+00:00",
-     "titre": "Meta suspend le partage de conversations Muse après une fuite de liens",
-     "neuf": "Suspension de la fonctionnalité après une fuite de liens indexés sur le web.",
-     "fil": "partage de conversations Muse",
-     "source": "The Verge IA",
-     "lien": "https://www.theverge.com/tech/1014627/meta-muse-ai-sharing-ai-chats",
-     "nb_sources": 1,
-     "primaire": false
-    }
-   ],
-   "statut": "active",
-   "societes": [
-    "meta"
    ]
   },
   {
@@ -765,7 +857,7 @@
   {
    "id": "h_af202225e5",
    "titre": "Lancement et adoption de GPT-6 Astra",
-   "resume": "OpenAI a introduit GPT-6 Astra, dont les performances permettent à des structures comme Third Moment Research de déployer massivement des milliers d'agents IA en s'appuyant sur l'infrastructure de NVIDIA.",
+   "resume": "OpenAI a introduit GPT-6 Astra, permettant des déploiements massifs d'agents IA via l'infrastructure de NVIDIA. Cette dynamique se poursuit avec l'utilisation de milliers d'agents pour analyser des données biologiques complexes.",
    "creee": "2026-10-20T09:56:16.457937+00:00",
    "maj": "2026-10-14T07:00:00+00:00",
    "episodes": [
