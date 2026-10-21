@@ -1,5 +1,5 @@
 {
- "maj": "2026-10-21T16:44:31.524081+00:00",
+ "maj": "2026-10-21T20:44:46.798415+00:00",
  "sources_ok": [
   "Notes de version Claude (API)",
   "Notes de version OpenAI (API)",
@@ -57,15 +57,15 @@
    "erreur": "429 Client Error: Too Many Requests for url: https://venturebeat.com/category/ai/feed/"
   }
  ],
- "total": 629,
- "analyses": 513,
+ "total": 648,
+ "analyses": 531,
  "brief": {
-  "titre": "IA : OpenAI, Anthropic et NVIDIA accélèrent l'innovation",
-  "texte": "L'actualité de l'intelligence artificielle est marquée par des avancées majeures en matière d'infrastructure et d'outils pour développeurs. OpenAI démontre des performances de pointe avec GPT-6.1, tandis qu'Anthropic structure son développement avec une introduction en bourse imminente, de nouvelles fonctionnalités API et le SDK v2.0.0. Du côté du matériel et de l'open source, NVIDIA déploie l'infrastructure Vera Rubin avec Google Cloud et enrichit son Agent Toolkit, complété par l'arrivée du framework DeepInfer de DeepSeek. Enfin, l'écosystème s'élargit avec l'expansion publicitaire d'OpenAI et l'arrivée de modèles spécialisés comme Cosmos3-H-Dreams et Granite Speech 5.0.",
+  "titre": "Agents autonomes, nouvelles API et infrastructures cloud IA",
+  "texte": "L'actualité de l'IA est marquée par une expansion majeure des écosystèmes cloud et des capacités d'agents. OpenAI déploie ses modèles sur Google Cloud tout en élargissant la monétisation publicitaire de ChatGPT, malgré des interrogations sur la sécurité de ses agents. De son côté, Anthropic frappe fort avec une refonte majeure de son API (version 2026-10-21, SDK v2.0.0, profils utilisateurs) et l'introduction de Claude Duet. Enfin, le matériel et l'open source progressent rapidement avec les infrastructures NVIDIA Vera Rubin, l'Agent Toolkit et le lancement du framework DeepInfer par DeepSeek.",
   "a_tester": [
-   "Mettre à jour vos intégrations avec le nouveau SDK Anthropic v2.0.0 et configurer les webhooks",
-   "Explorer le framework d'inférence open source DeepInfer de DeepSeek pour vos déploiements locaux",
-   "Tester l'Agent Toolkit de NVIDIA pour connecter vos agents aux données d'entreprise"
+   "Mettre à jour le SDK Anthropic vers la v2.0.0 pour tester les nouveautés de l'API",
+   "Explorer le framework DeepInfer de DeepSeek pour l'inférence open source",
+   "Tester l'Agent Toolkit de NVIDIA pour connecter vos agents aux données internes"
   ]
  },
  "top5": {

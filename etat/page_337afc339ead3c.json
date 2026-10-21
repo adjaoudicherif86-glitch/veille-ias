@@ -1,9 +1,10 @@
 {
  "url": "https://developers.openai.com/api/docs/changelog",
- "maj": "2026-10-21T16:44:31.516941+00:00",
+ "maj": "2026-10-21T20:44:46.793969+00:00",
  "lignes": [
   "Changelog",
   "October, 2026",
+  "You can now choose which service tiers projects can use in Platform settings. Organization settings can restrict service tiers for all projects. See service tier errors.",
   "You can now choose 12-hour prompt caching in the API. 12-hour prompt caching keeps shared instructions, tools, and context cached longer to benefit from lower cached-input pricing, even when requests are hours apart. 12-hour cache writes cost 2.5x the input token price. Read more here.",
   "Released prompt-to-voice for all API customers. Create a custom voice from a text description through the API or voice Playground, then reuse it in GPT-Live sessions. Creating a prompt-generated voice is free; speech generation uses regular GPT-Live session billing.",
   "Added nine natural voices for GPT-Live: Nuri, Juni, and Flitz (German); Brise and Sillage (French); Nira (Hindi); Harema and Shida (Japanese); and Noeul (Korean).",

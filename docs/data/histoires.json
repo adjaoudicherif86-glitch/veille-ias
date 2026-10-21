@@ -1,6 +1,112 @@
 {
- "maj": "2026-10-21T16:44:31.523944+00:00",
+ "maj": "2026-10-21T20:44:46.798337+00:00",
  "histoires": [
+  {
+   "id": "h_61682af51c",
+   "titre": "Lancement de l'agent IA Claude Duet d'Anthropic",
+   "resume": "Anthropic entre sur le marché des agents IA avec le lancement de Claude Duet. Ce nouvel assistant personnel et professionnel vient concurrencer les offres similaires d'OpenAI et de Meta.",
+   "creee": "2026-10-21T20:44:46.798337+00:00",
+   "maj": "2026-10-21T20:29:00+00:00",
+   "episodes": [
+    {
+     "id": "5dbb54a005401f",
+     "date": "2026-10-21T19:14:01+00:00",
+     "titre": "Lancement de Claude Duet par Anthropic",
+     "neuf": "Anthropic officialise l'introduction de Claude Duet sur le marché.",
+     "fil": "lancement de l'agent Claude Duet",
+     "source": "Hacker News (IA, 100+ pts)",
+     "lien": "https://claude.com/product/claude-duet",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "705d3445b65a91",
+     "date": "2026-10-21T19:53:20+00:00",
+     "titre": "Anthropic lance Claude Duet, son nouvel agent IA",
+     "neuf": "Anthropic positionne Claude Duet pour concurrencer les autres agents du marché.",
+     "fil": "lancement de Claude Duet",
+     "source": "Anthropic (actus)",
+     "lien": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQMm0xalYzS19NOGxhQ0ZpanpWeFpjN3g0VzZfVjROQ3RUemxqZmc3STZhdHlRUTlvZEJOaW52dzdVTUxOc09MMzlVeFlJSmc5V2p4WDdwWjRRaDZKMU5QbldoWHBIaTh0Qi1yc1JFaVNHM1BkQ25ucFZfbVJtWGNYMS1jRWlocDk5NUVheDVpclZEUTJw?oc=5",
+     "nb_sources": 2,
+     "primaire": false
+    },
+    {
+     "id": "05e2774a24a1f6",
+     "date": "2026-10-21T20:29:00+00:00",
+     "titre": "Anthropic lance Claude Duet, son nouvel agent personnel",
+     "neuf": "Claude Duet est présenté comme un nouvel agent personnel pour répliquer à la concurrence.",
+     "fil": "lancement de Claude Duet",
+     "source": "Anthropic (actus)",
+     "lien": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPQkZFNGVZc2Q2Q3VJYWVFNjFlOUh1NE1aNWFrZHlzOFlEMVpQU0xFQkFDSW4ydXljV1gtRnBBVzZjWi11Z3dMQ0sxdl9EdXdJOWl0TWlYMnl1M1o5S3d4LXRuOW9lLUd3bS1lYkloUnFGVnhqbFNJSGtVRUt4ZnlWSVg1Q01YOHlrWF9tZ0RsQXptUjljR0MxVFVaWW0xTXMweUE?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    }
+   ],
+   "statut": "active",
+   "societes": [
+    "anthropic",
+    "openai"
+   ]
+  },
+  {
+   "id": "h_8dad32ff1f",
+   "titre": "Fuite du modèle Claude Mythos d'Anthropic",
+   "resume": "Une fuite d'information a révélé l'existence de Claude Mythos, un nouveau modèle d'Anthropic. Cette fuite soulève des préoccupations notables en matière de cybersécurité.",
+   "creee": "2026-10-21T20:44:46.798337+00:00",
+   "maj": "2026-10-21T17:34:53+00:00",
+   "episodes": [
+    {
+     "id": "71b782b54b558c",
+     "date": "2026-10-21T17:34:53+00:00",
+     "titre": "Claude Mythos d'Anthropic : une fuite inquiète la cybersécurité",
+     "neuf": "Une fuite d'un nouveau modèle baptisé Claude Mythos suscite des inquiétudes en cybersécurité.",
+     "fil": "fuite du modèle Claude Mythos",
+     "source": "IA en français (actus)",
+     "lien": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxQNzdJSG80eDBya2c4aHVFWjBtd0ZQODFpTHlIUk1sejVMQVhMZXk3YzNMYkhkQWlhQWZ4ek1ublc3WWlJVXVGVHNFYnN5VTZsQWQ0alNZaXRDN3F4MXByeGZJczJfamVlSmdwbk5kZzRxdmRBYkFuV1JuNUlCZTdiUjl1eHEzTzl6eUktY1FSdk1PWmszaWRWbUFNSF91eDhjYjRQZ0ZxSTZoX29QcnYyQUFNMS01MzI5OVUxcmpBQzNkUDIyeERSY0Vrd2hEY2tldzBFSTctWmFFQjRwQnA4?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    }
+   ],
+   "statut": "active",
+   "societes": [
+    "anthropic"
+   ]
+  },
+  {
+   "id": "h_c9b36608a2",
+   "titre": "Lancement mondial de l'assistant IA dark.ai",
+   "resume": "Dark.ai prépare son lancement mondial en tant qu'assistant axé sur la vie privée. Le projet trouve en partie son origine dans une interaction troublante avec l'assistant Claude d'Anthropic.",
+   "creee": "2026-10-21T12:53:58.229069+00:00",
+   "maj": "2026-10-21T16:47:52+00:00",
+   "episodes": [
+    {
+     "id": "e22f6b6086f92b",
+     "date": "2026-10-21T10:47:24+00:00",
+     "titre": "Lancement mondial prévu pour l'assistant IA axé sur la vie privée dark.ai",
+     "neuf": "L'entreprise Eternal annonce le lancement mondial de dark.ai, un assistant IA centré sur la vie privée.",
+     "fil": "lancement de l'assistant dark.ai",
+     "source": "Vie privée et assistants IA",
+     "lien": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxQYi0xcVNSVWdsWEJGWGdoNjAxdW44U1YtWThFVGxaUXpsU2Q1bWJ5ZVlCUzU5YWFZTlZsT0ZiY1pLRWZFWFlMTzVQWjFZMGtCNmRIWEtpdEEyaXFTU0ZGa3hYQlJreC1MeWwyWXlkQlFRaHFiQnVsdWFZWDh2S29mUGQtWEhtdFVBM3Z0MTRaU2FRekJPUjVDV24wUGlTOVljRk9EY1l5Qk5DeUp0WUFqS0h2cGdFdXU4RUg0QkhfTGI2Nm8tLW80ckRZUVFkd0hqeTA1emNoRk91dzNGVms4NUIwT2dLRmfSAewBQVVfeXFMTXNMN2ZiQjFJSko3bGo0Y2tjVXA3ZjNFc0pkUVJMSVh6bU1kYmdtN0phWnU5MWhIY3hvbFdLdGpnTm1SeE9JM0JhaGdpeWZzeHFsM0x3bTFNZEJBV0VjdDNNNVJjMXVqR2M4RXk5TmFPVExXWl8tcXU2blF5TndaNVBjTXNCUHJ4TVptX3dKRDZBR1dzem13UGFNYllMTC1FeTFIQTRFWl9kUUtsVl9VSU1UVnpPaUIwaG4wbVg5REhOQzg0N3p5OG1SNDJpa0hNbkRlQWEtdkE5Z3Z6Z3JEdjNGNF9iYUU2UUcxeXU?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "2d9682b1a850b7",
+     "date": "2026-10-21T16:47:52+00:00",
+     "titre": "Une interaction troublante avec Claude inspire le lancement de Dark.ai",
+     "neuf": "Deepinder Goyal révèle qu'une interaction troublante avec Claude d'Anthropic a motivé la création de dark.ai.",
+     "fil": "origine du projet dark.ai suite à une interaction avec Claude",
+     "source": "Vie privée et assistants IA",
+     "lien": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNb1hpd1M5XzBjSkc4YTZhdDR3ZlB2T2h2VUpWVS1TUUlLVWRWZTZzTHV3VzVXb2xoRTZvUlh0Mzk1T1VMUjBuemlyTTMwbFg4U3gzclByZzBNTlA5SDNwbzdQLVhZUFR2VExmUnZKYXNDTldTcHRGbFhWTjVDN2tBMm1ITFNYaTBkYTE1Z1dBYURiN1p1Tl9iOHp4RTU4Q3dndTBqcHZlRGNtOG9uWlpmbXRzaVAwQmgycDVrbEZIckU1MDB3RFYtOVFFTXJJRGpGUnpPSnRPODB6Z9IB4gFBVV95cUxOTWZQVURfaWhNVUVPTHNvZzdWajNTNkdlbjFoQVhzQnNMeEF1MnFEcEMyRUNaUV9mRVRsYThjVzJTeEdQNVV0SUZLWnNMTXg0NjBQc01TS29XNWVqdU1zRjlCU3kxQ0ZfRGNzTllHRG9Pc21tQmVNWTVmMV9CdER0NkRYSWluM2dsbDZXTTJod3RubktNY3lya21mMEt1Wnl3aW5zMFhpMjJEbTJWSUYzcXdMSVpSZ0xpNzM1dnVKb0o4QWl2VktOZ2hEczhKR1VlRWRWYXN4NTVQTEhUVWtCM3Bn?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    }
+   ],
+   "statut": "active",
+   "societes": [
+    "anthropic"
+   ]
+  },
   {
    "id": "h_018106ad87",
    "titre": "Expansion géographique mondiale de la publicité sur ChatGPT",
@@ -94,28 +200,6 @@
    "societes": [
     "openai"
    ]
-  },
-  {
-   "id": "h_c9b36608a2",
-   "titre": "Lancement mondial de l'assistant IA dark.ai",
-   "resume": "",
-   "creee": "2026-10-21T12:53:58.229069+00:00",
-   "maj": "2026-10-21T10:47:24+00:00",
-   "episodes": [
-    {
-     "id": "e22f6b6086f92b",
-     "date": "2026-10-21T10:47:24+00:00",
-     "titre": "Lancement mondial prévu pour l'assistant IA axé sur la vie privée dark.ai",
-     "neuf": "L'entreprise Eternal annonce le lancement mondial de dark.ai, un assistant IA centré sur la vie privée.",
-     "fil": "lancement de l'assistant dark.ai",
-     "source": "Vie privée et assistants IA",
-     "lien": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxQYi0xcVNSVWdsWEJGWGdoNjAxdW44U1YtWThFVGxaUXpsU2Q1bWJ5ZVlCUzU5YWFZTlZsT0ZiY1pLRWZFWFlMTzVQWjFZMGtCNmRIWEtpdEEyaXFTU0ZGa3hYQlJreC1MeWwyWXlkQlFRaHFiQnVsdWFZWDh2S29mUGQtWEhtdFVBM3Z0MTRaU2FRekJPUjVDV24wUGlTOVljRk9EY1l5Qk5DeUp0WUFqS0h2cGdFdXU4RUg0QkhfTGI2Nm8tLW80ckRZUVFkd0hqeTA1emNoRk91dzNGVms4NUIwT2dLRmfSAewBQVVfeXFMTXNMN2ZiQjFJSko3bGo0Y2tjVXA3ZjNFc0pkUVJMSVh6bU1kYmdtN0phWnU5MWhIY3hvbFdLdGpnTm1SeE9JM0JhaGdpeWZzeHFsM0x3bTFNZEJBV0VjdDNNNVJjMXVqR2M4RXk5TmFPVExXWl8tcXU2blF5TndaNVBjTXNCUHJ4TVptX3dKRDZBR1dzem13UGFNYllMTC1FeTFIQTRFWl9kUUtsVl9VSU1UVnpPaUIwaG4wbVg5REhOQzg0N3p5OG1SNDJpa0hNbkRlQWEtdkE5Z3Z6Z3JEdjNGNF9iYUU2UUcxeXU?oc=5",
-     "nb_sources": 1,
-     "primaire": false
-    }
-   ],
-   "statut": "active",
-   "societes": []
   },
   {
    "id": "h_706c77ae76",
