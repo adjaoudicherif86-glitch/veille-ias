@@ -1,5 +1,5 @@
 {
- "maj": "2026-10-21T04:43:08.978342+00:00",
+ "maj": "2026-10-21T08:48:34.440458+00:00",
  "sources_ok": [
   "Notes de version Claude (API)",
   "Notes de version OpenAI (API)",
@@ -30,7 +30,6 @@
   "The Verge IA",
   "TechCrunch IA",
   "Simon Willison",
-  "Hacker News (IA, 100+ pts)",
   "r/LocalLLaMA",
   "arXiv cs.AI",
   "arXiv cs.CL",
@@ -55,17 +54,21 @@
   {
    "nom": "VentureBeat IA",
    "erreur": "429 Client Error: Too Many Requests for url: https://venturebeat.com/category/ai/feed/"
+  },
+  {
+   "nom": "Hacker News (IA, 100+ pts)",
+   "erreur": "502 Server Error: Bad Gateway for url: https://hnrss.org/newest?q=AI+OR+LLM+OR+GPT+OR+Claude+OR+Gemini&points=100"
   }
  ],
- "total": 550,
- "analyses": 443,
+ "total": 562,
+ "analyses": 464,
  "brief": {
-  "titre": "Accélération de l'inférence open-source et des intégrations API",
-  "texte": "Le paysage de l'IA est marqué aujourd'hui par une forte poussée de l'open-source et des outils d'inférence haute performance, illustrée notamment par le lancement de DeepInfer par DeepSeek et l'accélération du modèle Qwen avec Eagle-4. Du côté des acteurs majeurs, OpenAI consolide ses offres professionnelles avec des gains de productivité spectaculaires en entreprise et de nouvelles options d'API, tandis qu'Anthropic enrichit son écosystème avec des profils utilisateurs et des webhooks. Enfin, la recherche appliquée progresse rapidement, entre les ambitions d'OpenAI dans les sciences de la vie et l'arrivée de la simulation chirurgicale générative par NVIDIA.",
+  "titre": "Entre innovations majeures et turbulences financières, l'IA accélère",
+  "texte": "L'actualité est marquée par des avancées spectaculaires en R&D et en performance, illustrées par le rachat d'Orchestra Bio par OpenAI et le lancement de Cosmos3-H-Dreams par NVIDIA pour la simulation chirurgicale. Côté open-source, DeepSeek accentue la pression concurrentielle en dévoilant DeepInfer, un framework d'inférence haute performance. Parallèlement, l'écosystème commercial se structure et se tend, entre l'introduction de nouvelles fonctionnalités API chez Anthropic et les lourdes pertes financières affichées par l'entreprise avant son introduction en bourse. Enfin, les usages professionnels se consolident, comme le prouve l'optimisation des processus de caisse via ChatGPT Work.",
   "a_tester": [
-   "Tester le nouveau framework d'inférence open-source DeepInfer pour optimiser vos déploiements locaux.",
-   "Explorer les nouvelles options d'API d'OpenAI (cache étendu et mode ultrafast) pour vos flux de travail.",
-   "Configurer les profils utilisateurs et webhooks sur l'API Claude pour affiner vos intégrations."
+   "Tester le framework d'inférence open-source DeepInfer de DeepSeek pour vos déploiements locaux.",
+   "Configurer les nouveaux profils utilisateurs et webhooks sur l'API Claude.",
+   "Explorer l'impact des agents autonomes et auditer les protocoles de sécurité de vos IA."
   ]
  },
  "top5": {
