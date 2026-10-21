@@ -1,5 +1,5 @@
 {
- "maj": "2026-10-21T00:55:23.963143+00:00",
+ "maj": "2026-10-21T04:43:08.978342+00:00",
  "sources_ok": [
   "Notes de version Claude (API)",
   "Notes de version OpenAI (API)",
@@ -57,15 +57,15 @@
    "erreur": "429 Client Error: Too Many Requests for url: https://venturebeat.com/category/ai/feed/"
   }
  ],
- "total": 522,
- "analyses": 417,
+ "total": 550,
+ "analyses": 443,
  "brief": {
-  "titre": "Inférence open source, agents et nouveaux modèles accélèrent le marché",
-  "texte": "Le secteur de l'IA est marqué aujourd'hui par une forte accélération de l'open source et des performances d'inférence. DeepSeek bouscule la concurrence avec le lancement de DeepInfer, un framework haute performance relayé par la communauté. Côté matériel et simulation, NVIDIA déploie de nouveaux modèles ouverts pour agents et la simulation chirurgicale, tandis qu'OpenAI et Anthropic font évoluer leurs offres API et R&D. Enfin, l'IA s'implante toujours plus concrètement dans le quotidien, que ce soit dans l'automobile avec Google ou dans la gestion d'entreprise.",
+  "titre": "Accélération de l'inférence open-source et des intégrations API",
+  "texte": "Le paysage de l'IA est marqué aujourd'hui par une forte poussée de l'open-source et des outils d'inférence haute performance, illustrée notamment par le lancement de DeepInfer par DeepSeek et l'accélération du modèle Qwen avec Eagle-4. Du côté des acteurs majeurs, OpenAI consolide ses offres professionnelles avec des gains de productivité spectaculaires en entreprise et de nouvelles options d'API, tandis qu'Anthropic enrichit son écosystème avec des profils utilisateurs et des webhooks. Enfin, la recherche appliquée progresse rapidement, entre les ambitions d'OpenAI dans les sciences de la vie et l'arrivée de la simulation chirurgicale générative par NVIDIA.",
   "a_tester": [
-   "Tester le nouveau framework d'inférence open-source DeepInfer pour vos déploiements locaux.",
-   "Explorer les optimisations d'API OpenAI (cache étendu et mode ultrafast) sur vos flux de travail.",
-   "Évaluer les nouveaux modèles ouverts de NVIDIA pour vos cas d'usage d'agents sur PC."
+   "Tester le nouveau framework d'inférence open-source DeepInfer pour optimiser vos déploiements locaux.",
+   "Explorer les nouvelles options d'API d'OpenAI (cache étendu et mode ultrafast) pour vos flux de travail.",
+   "Configurer les profils utilisateurs et webhooks sur l'API Claude pour affiner vos intégrations."
   ]
  },
  "top5": {

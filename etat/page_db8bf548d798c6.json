@@ -1,6 +1,6 @@
 {
  "url": "https://platform.claude.com/docs/en/release-notes/overview",
- "maj": "2026-10-21T00:55:23.957550+00:00",
+ "maj": "2026-10-21T04:43:08.974464+00:00",
  "lignes": [
   "Release notes",
   "Claude Platform release notes",
@@ -8,6 +8,8 @@
   "The Claude Platform release notes list changes to the Claude API, the client SDKs, and the Claude Console, newest first.",
   "October 20, 2026",
   "- Inference hooks are out of beta for Claude Enterprise organizations.",
+  "- We've launched user profiles, so you can tell Anthropic which of your end customers each API request is for. If you operate a platform or gateway, or resell API access, a safety enforcement action can then apply to one end customer instead of your whole organization. The SDK and the ant CLI support the new /v1/user_profiles endpoints.",
+  "- We've added organization webhooks to the Admin API, in beta with the webhooks-2026-10-07 beta header. Its /v1/organizations/webhooks endpoints register webhook endpoints for two event types: one for when Anthropic restricts or bans one of your organization's user profiles, and one for when the restriction or ban ends. To request access, contact your Anthropic account team.",
   "October 15, 2026",
   "- We've added capabilities.thinking.types.between_tools to the Models API. GET /v1/models and GET /v1/models/{model_id} now report whether each model accepts thinking: {type: \"between_tools\"}, which turns off up-front thinking. See Using the Models API.",
   "- The Compliance API now returns the text each organization member saved as Instructions for Claude in claude.ai and as Global instructions in Cowork, in beta for Claude Enterprise organizations. Call GET /v1/compliance/organizations/{org_uuid}/user_preferences with your existing Compliance Access Key and the read:compliance_user_data scope. See List user preferences.",
