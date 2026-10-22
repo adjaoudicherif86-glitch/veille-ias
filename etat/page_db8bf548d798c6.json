@@ -1,6 +1,6 @@
 {
  "url": "https://platform.claude.com/docs/en/release-notes/overview",
- "maj": "2026-10-21T20:44:46.793969+00:00",
+ "maj": "2026-10-22T00:54:57.744468+00:00",
  "lignes": [
   "Release notes",
   "Claude Platform release notes",
@@ -15,6 +15,9 @@
   "- Inference hooks are out of beta for Claude Enterprise organizations.",
   "- We've launched user profiles, so you can tell Anthropic which of your end customers each API request is for. If you operate a platform or gateway, or resell API access, a safety enforcement action can then apply to one end customer instead of your whole organization. The SDK and the ant CLI support the new /v1/user_profiles endpoints.",
   "- We've added organization webhooks to the Admin API, in beta with the webhooks-2026-10-07 beta header. Its /v1/organizations/webhooks endpoints register webhook endpoints for two event types: one for when Anthropic restricts or bans one of your organization's user profiles, and one for when the restriction or ban ends. To request access, contact your Anthropic account team.",
+  "- Organization admins can now turn off web fetch for their organization on the Capabilities page of the Claude Console. With web fetch off, a Messages API request that includes the web fetch tool fails with a 400 error. In a Claude Managed Agents session, web_fetch calls return an error result to the agent instead. With web fetch on, admins can also set allowed or blocked domains for web fetch on the same page. See Web fetch tool and Domain filtering.",
+  "- In Claude Managed Agents, the web_fetch tool now follows your organization's web fetch domain restrictions set on the Capabilities page of the Claude Console. A URL, including one reached by a redirect, must pass both the organization's list and the allowed_domains or blocked_domains list on the agent's web_fetch tool. See Restrict web search and web fetch domains.",
+  "- In Claude Managed Agents, sessions follow your organization's web search settings on the Capabilities page of the Claude Console: the Allow web search setting since October 6, and its web search domain restrictions since October 14. The agent receives only the search results that both the organization's domain restrictions and the allowed_domains or blocked_domains list on the agent's web_search tool allow. See Restrict web search and web fetch domains.",
   "October 15, 2026",
   "- We've added capabilities.thinking.types.between_tools to the Models API. GET /v1/models and GET /v1/models/{model_id} now report whether each model accepts thinking: {type: \"between_tools\"}, which turns off up-front thinking. See Using the Models API.",
   "- The Compliance API now returns the text each organization member saved as Instructions for Claude in claude.ai and as Global instructions in Cowork, in beta for Claude Enterprise organizations. Call GET /v1/compliance/organizations/{org_uuid}/user_preferences with your existing Compliance Access Key and the read:compliance_user_data scope. See List user preferences.",
@@ -23,7 +26,6 @@
   "October 14, 2026",
   "- We've launched OpenTelemetry export in beta, so you can trace Messages API requests and Claude Managed Agents sessions in your observability platform. The Claude SDK emits spans in Python, TypeScript, C#, Go, Java, PHP, and Ruby. To get spans from the API, add an OpenTelemetry destination in the Claude Console.",
   "- Claude Managed Agents scheduled deployments are now available on Claude Platform on AWS.",
-  "- In Claude Managed Agents, the web_search tool now follows your organization's web search domain restrictions set in the Claude Console. The agent receives only the search results that both the organization's domain restrictions and the allowed_domains or blocked_domains list on the agent's web_search tool allow. Sessions have followed the organization's Allow web search setting since October 6. See Restrict web search and web fetch domains.",
   "October 9, 2026",
   "- You can now let a Claude Managed Agents agent use dynamic workflows, in beta with the managed-agents-2026-04-01 beta header. For work with many pieces, such as reviewing hundreds of documents, the agent can write a workflow. A workflow is a program that runs many agents in phases and combines their results. The server runs it in the background as a workflow run. To turn dynamic workflows on, set the agent's multiagent field to {\"type\": \"multiagent_20261001\", \"workflows\": {\"type\": \"enabled\"}}. To guide the agent, tell it in its system prompt when to start a run. Follow each run through workflow_run.* events on the session's event stream. See Workflow runs.",
   "October 8, 2026",
