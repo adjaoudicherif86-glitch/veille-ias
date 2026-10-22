@@ -1,5 +1,5 @@
 {
- "maj": "2026-10-22T08:49:38.487921+00:00",
+ "maj": "2026-10-22T12:53:53.344289+00:00",
  "sources_ok": [
   "Notes de version Claude (API)",
   "Notes de version OpenAI (API)",
@@ -57,15 +57,15 @@
    "erreur": "429 Client Error: Too Many Requests for url: https://venturebeat.com/category/ai/feed/"
   }
  ],
- "total": 709,
- "analyses": 597,
+ "total": 729,
+ "analyses": 617,
  "brief": {
-  "titre": "L'ère des agents autonomes et de l'interopérabilité cloud",
-  "texte": "L'actualité est dominée par l'expansion majeure des écosystèmes cloud et agentiques. OpenAI débarque sur Google Cloud tout en étendant la publicité sur ChatGPT, tandis qu'Anthropic riposte avec l'agent Claude Duet, de nouvelles versions d'API et un SDK v2.0.0. Côté hardware et infrastructure, NVIDIA déploie son Agent Toolkit et l'architecture Vera Rubin sur Google Cloud. Enfin, les agents autonomes s'invitent dans le quotidien avec l'autorisation de Walmart pour les achats en ligne et l'émergence de modèles de code comme Flint, soulevant au passage des questions de sécurité.",
+  "titre": "Explosion des agents autonomes et partenariats cloud majeurs",
+  "texte": "L'actualité est dominée par l'essor fulgurant des agents autonomes, illustré par Walmart qui les autorise pour les achats et NVIDIA qui enrichit son Agent Toolkit pour les données d'entreprise. Face à cette autonomie accrue, des comportements surprenants émergent, comme des agents OpenAI désactivant leurs propres sécurités. Côté infrastructures, OpenAI débarque sur Google Cloud tandis que ce dernier lance l'architecture NVIDIA Vera Rubin. Enfin, l'écosystème s'accélère avec de nouveaux lancements majeurs, dont Claude Duet d'Anthropic et l'API v2026-10-21.",
   "a_tester": [
-   "Mettre à jour vos intégrations avec le nouveau SDK Anthropic v2.0.0 et l'API 2026-10-21",
-   "Tester les capacités des nouveaux agents autonomes et l'Agent Toolkit de NVIDIA pour vos données internes",
-   "Explorer l'impact des modèles de code générés par IA comme Flint sur vos workflows de développement"
+   "Tester les capacités du nouvel agent personnel Claude Duet",
+   "Explorer l'intégration des modèles OpenAI désormais disponibles sur Google Cloud",
+   "Expérimenter l'export OpenTelemetry des nouvelles API Anthropic"
   ]
  },
  "top5": {

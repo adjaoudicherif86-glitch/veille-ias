@@ -1,36 +1,12 @@
 {
- "maj": "2026-10-22T08:49:38.487850+00:00",
+ "maj": "2026-10-22T12:53:53.344243+00:00",
  "histoires": [
-  {
-   "id": "h_6738b35483",
-   "titre": "Jev : évaluation rapide de l'IA clinique",
-   "resume": "",
-   "creee": "2026-10-22T04:43:13.586054+00:00",
-   "maj": "2026-10-22T04:00:00+00:00",
-   "episodes": [
-    {
-     "id": "ce5948eae0bf42",
-     "date": "2026-10-22T04:00:00+00:00",
-     "titre": "Jev : un modèle de décision rapide pour évaluer l'IA clinique",
-     "neuf": "Publication de Jev, un modèle structuré pour évaluer l'IA clinique à moindre coût.",
-     "fil": "Jev : modèle de décision pour évaluer l'IA clinique",
-     "source": "arXiv cs.AI",
-     "lien": "https://arxiv.org/abs/2610.28826",
-     "nb_sources": 1,
-     "primaire": false
-    }
-   ],
-   "statut": "active",
-   "societes": [
-    "openai"
-   ]
-  },
   {
    "id": "h_61682af51c",
    "titre": "Lancement de l'agent IA Claude Duet d'Anthropic",
-   "resume": "Anthropic déploie et enrichit son agent Claude Duet, en l'intégrant avec plus de 6 000 outils et des fonctionnalités d'achat professionnel. Cet assistant positionne l'entreprise sur le marché concurrentiel des agents personnels et professionnels.",
+   "resume": "Anthropic déploie et enrichit son agent Claude Duet, en l'intégrant avec plus de 6 000 outils et des fonctionnalités d'achat professionnel. L'entreprise poursuit cette dynamique en dévoilant un nouvel agent IA professionnel pour le lieu de travail face à ses rivaux.",
    "creee": "2026-10-21T20:44:46.798337+00:00",
-   "maj": "2026-10-22T03:19:00+00:00",
+   "maj": "2026-10-22T12:16:35+00:00",
    "episodes": [
     {
      "id": "5dbb54a005401f",
@@ -97,11 +73,231 @@
      "lien": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPOHZGSWdQNmhaM1AwX2tMNFl0TGo3by1jaG9ESnI3cm1za2ZIbnF3TUJtUVZlOXJLZW9KYlJXWkdmLXRqejFOM2VPNlduTEV1bEx1U0VvQ0c1WDZ6S0YwdnFWNElWTVgway1yTFc5WE84ZFZ1VEo0M3NBbkVQLURuRUgtN3E2cXBsN0lPcFo3aTc?oc=5",
      "nb_sources": 1,
      "primaire": false
+    },
+    {
+     "id": "819de26796b063",
+     "date": "2026-10-22T12:16:35+00:00",
+     "titre": "Anthropic lance un agent IA professionnel face à Meta et OpenAI",
+     "neuf": "Anthropic dévoile son agent IA professionnel pour concurrencer Meta Muse et OpenAI Dots.",
+     "fil": "nouvel agent IA professionnel d'Anthropic",
+     "source": "Anthropic et gouvernement",
+     "lien": "https://news.google.com/rss/articles/CBMif0FVX3lxTE4weXI0QVdqNEdJSmR3Z2RvUl9feHFyMzdkSV90S2hhNlFadVd1TjZiUmpURVJtei00QnJQajBCaFJ1LXN2YktJN3o1S3hhNC1SV3RJNlA3RVhCeHNHZFFuMW5rc2x2WjY5VDZLaVZ0dkFqMmx0alJIcUliZEE1LVU?oc=5",
+     "nb_sources": 1,
+     "primaire": false
     }
    ],
    "statut": "active",
    "societes": [
     "anthropic",
+    "openai"
+   ]
+  },
+  {
+   "id": "h_5de020e85b",
+   "titre": "Application et sanctions de l'AI Act européen",
+   "resume": "L'Union européenne concrétise l'application de l'AI Act avec son entrée en vigueur effective, marquée par la publication de la première norme harmonisée sur le système qualité des fournisseurs à haut risque (EN 18286). Parallèlement, de nouvelles directives assimilent les logiciels et SaaS d'IA à des produits, engageant la responsabilité directe des vendeurs.",
+   "creee": "2026-10-20T09:56:16.457937+00:00",
+   "maj": "2026-10-22T12:16:00+00:00",
+   "episodes": [
+    {
+     "id": "bd7357ab84c89f",
+     "date": "2026-10-16T10:25:18+00:00",
+     "titre": "L'Union européenne dévoile les règles de sanction pour l'AI Act",
+     "neuf": "La Commission européenne détaille l'application concrète des sanctions pour les modèles d'IA générative.",
+     "fil": "Règles de sanction de l'AI Act",
+     "source": "Régulation européenne",
+     "lien": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNVkZKdkNmWm1tQ0FEMWJCMDdnMlh6OUhDWk1ub3ByOHY2WDZxaHhTbl9PTEszODg4VVJUNVNsQnQ0MGdyUWVBd1Z2alVTQ1g1RXVIOFVwanVmQ0d5YTZlOFhFaWhnX1F5dF9QSlQ5RTlyMS04YVRETWNob0ktcTMwU0RYVnBqRTBfeWc?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "3115f2832e6b35",
+     "date": "2026-10-19T00:00:00+00:00",
+     "titre": "Entrée en vigueur de l'AI Act et fin du shadow IA",
+     "neuf": "L'AI Act entre officiellement en vigueur, marquant la fin de la tolérance pour le « shadow IA » au sein des entreprises en Europe.",
+     "fil": "même application et entrée en vigueur de l'AI Act européen",
+     "source": "Régulation européenne",
+     "lien": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPendzelR2MFhHU21YSTE2dlBHQjlxbkhsMDlQSjlfUlVyYi1XdWVPZVpweHM0ZGx1LVJuazFzMGJiQ3hQdVJ4VjFiMXNDUHdyLXZ0YU5nZ0JJSV9RSTJ5d3N1cF9RWF80ZTlNUHBLajU2cDRGZ1JLS19QOTVLZ21kTURuaEI0QldxV2p6N3NUNmUzM21HVk1yaGNHbUNQZjNwWkRKUTR6XzFnT01CTllnMw?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "cdfb1ae21529bf",
+     "date": "2026-10-19T09:17:11+00:00",
+     "titre": "AI Act : la gouvernance des agents IA pose question pour les entreprises",
+     "neuf": "Les entreprises s'interrogent sur le temps restant pour préparer la gouvernance de leurs agents face aux exigences de l'AI Act.",
+     "fil": "même application de l'AI Act",
+     "source": "Régulation européenne",
+     "lien": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxQMEhMWTVTUHZXR1NKS3AzX3dYaGI0MnFBME1pTG1aS21HajdiTFRIMzhxbjNtcm44NFE2UmFXXzZ4R1h6VW14YW4wOGd2ZzAyMk1sekZUVF9mVG41cm0yTkRKZXRKZi1rcU1ENFJyaWs5ZmZLdkFyVzczbWFudG13SERvRUxhTExoNjVlcUwwREV0OTlQRmdVZXdha2JfNFBtZkhXcWtfUGZqUjFZb1NDZkRyU0dYTU9nUlI5TkRQYzZCbnpGNWN0XzhWQWVfR2x2U0haZzN4UG0zZnN4bm9QYlhEVUZVanZBbFZPYzQ1QQ?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "662ebe66cb5c1b",
+     "date": "2026-10-19T10:00:00+00:00",
+     "titre": "L'AI Act européen privilégie l'IA d'aide à la décision",
+     "neuf": "L'Union européenne oriente l'AI Act vers le développement de systèmes d'aide à la décision plutôt que de contrôle.",
+     "fil": "même application de l'AI Act",
+     "source": "Régulation européenne",
+     "lien": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxQN1llSF9JNFd3TjZEekdYWG5KYzVqM05FdjMzbzAzSkpRc3o5QlVOd1hURlMtY0RQeXBPeEluZ2dxaUxiaUNMcXA4WHVkQ1lGWGpHVkNEcElkN0FDd1FwdEl1WGRQMWluRDJaVm9zdnhjdmFISjdVNC0xVzJVQzRpYWk3cEQxVlM0SWwzenV1RUhIZGZOVy0xS0lZdE5wS2hVay1JcG94RWNhaERoUkc5MEc4YklxVUkwN2s0RDhUSUVCdURsNXprZXN5dGZRajVpOGtoTVFCd1FYWGM?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "7fd6735c2ab1df",
+     "date": "2026-10-20T03:06:52+00:00",
+     "titre": "L'Union européenne sonde OpenAI et Anthropic dans le cadre de l'AI Act",
+     "neuf": "L'Union européenne cible OpenAI et Anthropic dans le cadre de sondages liés à l'AI Act, avec un risque d'amende.",
+     "fil": "même application de l'AI Act",
+     "source": "Régulation européenne",
+     "lien": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1LZU9MZ2xjbXhrNkxZSkFRd0E0QU1KMEtwalFMNWxPaWluSmZPRjNqM09rVGNzWF9yZ1ctV1ZHbk53cWdDVm4xQU5iUFNxTW0zN2k1TW1RWXdFcHVGSWxSRTBlWjlEMUNwazVXd0hyYUc0NzBP?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "90111474fb194f",
+     "date": "2026-10-20T04:40:30+00:00",
+     "titre": "Entrée en vigueur et conformité des entreprises à l'AI Act européen en 2026",
+     "neuf": "L'Union européenne officialise l'entrée en vigueur de l'AI Act et publie des guides de conformité pour l'année 2026.",
+     "fil": "même application de l'AI Act européen",
+     "source": "Régulation européenne",
+     "lien": "https://news.google.com/rss/articles/CBMia0FVX3lxTE96eVYyVkJQQ3JDRTdudXJtbmNvaW53T2VoT3Zid0tFWFVXWG50TGJSVVZhbE1VVl81d19sZGRzaml3Y21HbzBUb3pFRy1FNF9JcEpMMGlKSDNQcU5rdG5vU29ETjk4UGxQVld3?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "e412135ad51278",
+     "date": "2026-10-20T12:30:00+00:00",
+     "titre": "Agents IA : la nouvelle responsabilité des vendeurs face à l'UE",
+     "neuf": "La directive européenne assimile les logiciels et SaaS d'IA à des produits, engageant la responsabilité stricte de leurs vendeurs.",
+     "fil": "même cadre réglementaire européen sur l'IA",
+     "source": "ActuIA",
+     "lien": "https://www.actuia.com/actualite/agents-ia-ce-que-la-directive-europeenne-fera-payer-aux-entreprises-qui-les-vendent/",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "eba26d23de0f62",
+     "date": "2026-10-22T12:16:00+00:00",
+     "titre": "AI Act : publication de la première norme harmonisée sur le système qualité",
+     "neuf": "Publication de la première norme harmonisée (EN 18286) couvrant le système qualité des fournisseurs à haut risque.",
+     "fil": "application de l'AI Act",
+     "source": "ActuIA",
+     "lien": "https://www.actuia.com/actualite/ai-act-la-premiere-norme-harmonisee-ne-couvre-que-le-systeme-qualite/",
+     "nb_sources": 1,
+     "primaire": false
+    }
+   ],
+   "statut": "active",
+   "societes": [
+    "openai",
+    "ue"
+   ]
+  },
+  {
+   "id": "h_4d7382a399",
+   "titre": "Le Crédit Agricole choisit Mistral AI pour sa plateforme IA",
+   "resume": "",
+   "creee": "2026-10-22T12:53:53.344243+00:00",
+   "maj": "2026-10-22T11:15:17+00:00",
+   "episodes": [
+    {
+     "id": "e67f4c95c0ebc4",
+     "date": "2026-10-22T11:15:17+00:00",
+     "titre": "Le Crédit Agricole choisit Mistral AI pour sa plateforme d'IA",
+     "neuf": "Le Crédit Agricole choisit Mistral AI pour concevoir sa plateforme d'intelligence artificielle.",
+     "fil": "partenariat entre le Crédit Agricole et Mistral AI",
+     "source": "Mistral AI (actus)",
+     "lien": "https://news.google.com/rss/articles/CBMingFBVV95cUxPU2VVYS1Ya0RGeVVuazd4ODRtNm12QmxDWDY2LUJWRDhGR05aV3hBalVvdHhkaENVRGlDSnZNdlNub3AwQ3NsX3dCMnAzUHV0bHUxSmNBM2FwVVRja2FXREJnTnhPSkNuNlB6ZHhqMGdfSnNXZzNhNXk1SGJnRHhUUFlzLTlCcEhDLVFiZV9SdzM1THdzcGlIQmwwX1Q1QQ?oc=5",
+     "nb_sources": 2,
+     "primaire": false
+    }
+   ],
+   "statut": "active",
+   "societes": [
+    "mistral"
+   ]
+  },
+  {
+   "id": "h_b728b5a1b2",
+   "titre": "ChatGPT Sol et l'exploitation de failles PHP critiques",
+   "resume": "",
+   "creee": "2026-10-22T12:53:53.344243+00:00",
+   "maj": "2026-10-22T10:30:00+00:00",
+   "episodes": [
+    {
+     "id": "011ef73b82d03f",
+     "date": "2026-10-22T09:07:18+00:00",
+     "titre": "Des failles critiques dans PHP exploitées grâce à l'IA",
+     "neuf": "Des failles critiques dans PHP sont exploitées grâce à l'IA, entraînant des mesures de sécurité.",
+     "fil": "exploitation de failles PHP via l'IA",
+     "source": "ActuIA",
+     "lien": "https://www.actuia.com/actualite/failles-php-repere-en-2024-le-defaut-revele-critique-avec-laide-de-lia/",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "23e223ce378adb",
+     "date": "2026-10-22T10:30:00+00:00",
+     "titre": "ChatGPT Sol aide à découvrir des failles PHP critiques",
+     "neuf": "ChatGPT Sol transforme un bug PHP bloquant en exploits fonctionnels en deux semaines.",
+     "fil": "exploitation et découverte de failles PHP par ChatGPT Sol",
+     "source": "OpenAI (actus)",
+     "lien": "https://news.google.com/rss/articles/CBMigwNBVV95cUxQbnQxa0JIbmEwejlMbmREUDMzeGF6WWJUX1M4U3VsZlRzaHBVeUhoT3piQl81UDVUUXJDaUhQSURZc3RDSnpXQTZvWFVXTlhIdE9hSGpJVFZIZWxiN3BBOE9WUUVpajVXMG1JbnY5Q2VlZE9icmRnVHNlRWFaSGlYOUE0SzNiVDZERHJQQU5VeVpxSG5hZ1hiMnNzZ0lfQnJ1czR2X2MwdzF2VVdWeFJXYnZDTVhOVTcycDFYNWxRR3B2ZVkxSXZhN1NqX0pIcjQ3UzhzRDZEZXlGYjBZdDhPblJZMTlzMkk4VVB3a3g2d1VKNjRtS2QwODJUUzFLcF9xcEMtbEZDSmd2VXdmLWdULWZtcVVVY3laRDM3RzFBMURhM0otZV9MZzIzdWY5ak9zMXNZbUxCcGR1dGFpWmc0YVV5UjE2VjZNTzExYkdCSjBkWE0tRmE1SEVCRUotWVZaQWJTTVYwMTgweWRZYVJ5SFYxOUZCUUliVzBObXl3NlVuM28?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    }
+   ],
+   "statut": "active",
+   "societes": [
+    "openai"
+   ]
+  },
+  {
+   "id": "h_3e467f2cc7",
+   "titre": "Microsoft lance le modèle Decision-1 basé sur Qwen",
+   "resume": "",
+   "creee": "2026-10-22T12:53:53.344243+00:00",
+   "maj": "2026-10-22T08:41:14+00:00",
+   "episodes": [
+    {
+     "id": "2836fd6c136a1b",
+     "date": "2026-10-22T08:41:14+00:00",
+     "titre": "Microsoft lance Decision-1, un modèle de 9 milliards de paramètres basé sur Qwen",
+     "neuf": "Microsoft lance Decision-1, un modèle de 9 milliards de paramètres basé sur l'architecture Qwen.",
+     "fil": "lancement de Decision-1 par Microsoft",
+     "source": "Grandes annonces IA",
+     "lien": "https://news.google.com/rss/articles/CBMickFVX3lxTFBJWVVOOHQ2RU1aenVfeHYxZ05LcVVMM0Q4dTA1OW51dkRjajJrTzdmNllEMHVxNFdNOGdaZ193T2hxZmJURUNSZWtsZHFoc3NTc1JTMTNIcF9uemlEQk85M3JyaEEwUW8zQnBLRmJOVS1SZw?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    }
+   ],
+   "statut": "active",
+   "societes": [
+    "microsoft"
+   ]
+  },
+  {
+   "id": "h_6738b35483",
+   "titre": "Jev : évaluation rapide de l'IA clinique",
+   "resume": "",
+   "creee": "2026-10-22T04:43:13.586054+00:00",
+   "maj": "2026-10-22T04:00:00+00:00",
+   "episodes": [
+    {
+     "id": "ce5948eae0bf42",
+     "date": "2026-10-22T04:00:00+00:00",
+     "titre": "Jev : un modèle de décision rapide pour évaluer l'IA clinique",
+     "neuf": "Publication de Jev, un modèle structuré pour évaluer l'IA clinique à moindre coût.",
+     "fil": "Jev : modèle de décision pour évaluer l'IA clinique",
+     "source": "arXiv cs.AI",
+     "lien": "https://arxiv.org/abs/2610.28826",
+     "nb_sources": 1,
+     "primaire": false
+    }
+   ],
+   "statut": "active",
+   "societes": [
     "openai"
    ]
   },
@@ -301,7 +497,7 @@
   {
    "id": "h_27b5489481",
    "titre": "Rupture entre le gouvernement américain et Anthropic",
-   "resume": "Suite aux ordres de Donald Trump de rompre les liens entre le gouvernement et Anthropic, le Pentagone a adressé un ultimatum à l'entreprise, tandis que d'anciens responsables demandent à la cour d'appel fédérale de réexaminer la décision. Paradoxalement, le département de la Santé (HHS) s'apprête à attribuer un contrat direct de gré à gré à Anthropic.",
+   "resume": "Suite aux ordres de Donald Trump de rompre les liens entre le gouvernement et Anthropic, le Pentagone a adressé un ultimatum à l'entreprise, tandis que d'anciens responsables demandent à la cour d'appel fédérale de réexaminer la décision, soutenus par des théologiens catholiques plaidant pour des limites claires de l'IA militaire. Paradoxalement, le département de la Santé (HHS) s'apprête à attribuer un contrat direct de gré à gré à Anthropic.",
    "creee": "2026-10-20T09:56:16.457937+00:00",
    "maj": "2026-10-21T22:28:48+00:00",
    "episodes": [
@@ -335,6 +531,17 @@
      "fil": "même relation gouvernement américain et Anthropic",
      "source": "Anthropic et gouvernement",
      "lien": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9sUW41dkF1aFFTbHotcmJualhBVnlNWmhfY2oxMnpVNFYwTFlXa2MtWmp5N3BydWVDb2owRmliTVpSU3hiYVhVdF96TWtZSm1KQkUtWnlhRUVPWnhmWUlUSlpKYUtsUy1TZ3JHYXF3czc?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "5c2c0b89c39484",
+     "date": "2026-10-21T18:22:00+00:00",
+     "titre": "Des théologiens catholiques demandent des limites claires pour l'IA militaire",
+     "neuf": "Des théologiens catholiques interviennent auprès de la cour fédérale pour demander des limites à l'IA militaire.",
+     "fil": "même litige juridique concernant l'utilisation militaire d'Anthropic",
+     "source": "IA militaire",
+     "lien": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQa1ppWmFoMWlMVTZHd3hHTjZfMXdlcV83SmxERDg1VVBqOVVnNlZ1SHczSUc1bXA2R2NFRldhbV9ibEE1Rm9Wam4yQnpXRkQ3VTNZNlRuUHAzRWZvR2JDR28wNFlOcFZLUDB4WmdjVVZhODJfaUhpVzdoQ0llRV9QS2NPWmJnOWhVMW1XUlFBR0tham1xVlU4UDJYNkFEaE5mRmx2Vnd0aVB6OXM2RlVsZTIwdFJfTWJpSFdVYWt4dWV4cXFy?oc=5",
      "nb_sources": 1,
      "primaire": false
     },
@@ -856,97 +1063,6 @@
    "statut": "active",
    "societes": [
     "openai"
-   ]
-  },
-  {
-   "id": "h_5de020e85b",
-   "titre": "Application et sanctions de l'AI Act européen",
-   "resume": "L'Union européenne concrétise l'application de l'AI Act avec son entrée en vigueur effective, marquant la fin du « shadow IA ». Parallèlement, de nouvelles directives assimilent les logiciels et SaaS d'IA à des produits, engageant la responsabilité directe des vendeurs en cas de dommages.",
-   "creee": "2026-10-20T09:56:16.457937+00:00",
-   "maj": "2026-10-20T12:30:00+00:00",
-   "episodes": [
-    {
-     "id": "bd7357ab84c89f",
-     "date": "2026-10-16T10:25:18+00:00",
-     "titre": "L'Union européenne dévoile les règles de sanction pour l'AI Act",
-     "neuf": "La Commission européenne détaille l'application concrète des sanctions pour les modèles d'IA générative.",
-     "fil": "Règles de sanction de l'AI Act",
-     "source": "Régulation européenne",
-     "lien": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNVkZKdkNmWm1tQ0FEMWJCMDdnMlh6OUhDWk1ub3ByOHY2WDZxaHhTbl9PTEszODg4VVJUNVNsQnQ0MGdyUWVBd1Z2alVTQ1g1RXVIOFVwanVmQ0d5YTZlOFhFaWhnX1F5dF9QSlQ5RTlyMS04YVRETWNob0ktcTMwU0RYVnBqRTBfeWc?oc=5",
-     "nb_sources": 1,
-     "primaire": false
-    },
-    {
-     "id": "3115f2832e6b35",
-     "date": "2026-10-19T00:00:00+00:00",
-     "titre": "Entrée en vigueur de l'AI Act et fin du shadow IA",
-     "neuf": "L'AI Act entre officiellement en vigueur, marquant la fin de la tolérance pour le « shadow IA » au sein des entreprises en Europe.",
-     "fil": "même application et entrée en vigueur de l'AI Act européen",
-     "source": "Régulation européenne",
-     "lien": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPendzelR2MFhHU21YSTE2dlBHQjlxbkhsMDlQSjlfUlVyYi1XdWVPZVpweHM0ZGx1LVJuazFzMGJiQ3hQdVJ4VjFiMXNDUHdyLXZ0YU5nZ0JJSV9RSTJ5d3N1cF9RWF80ZTlNUHBLajU2cDRGZ1JLS19QOTVLZ21kTURuaEI0QldxV2p6N3NUNmUzM21HVk1yaGNHbUNQZjNwWkRKUTR6XzFnT01CTllnMw?oc=5",
-     "nb_sources": 1,
-     "primaire": false
-    },
-    {
-     "id": "cdfb1ae21529bf",
-     "date": "2026-10-19T09:17:11+00:00",
-     "titre": "AI Act : la gouvernance des agents IA pose question pour les entreprises",
-     "neuf": "Les entreprises s'interrogent sur le temps restant pour préparer la gouvernance de leurs agents face aux exigences de l'AI Act.",
-     "fil": "même application de l'AI Act",
-     "source": "Régulation européenne",
-     "lien": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxQMEhMWTVTUHZXR1NKS3AzX3dYaGI0MnFBME1pTG1aS21HajdiTFRIMzhxbjNtcm44NFE2UmFXXzZ4R1h6VW14YW4wOGd2ZzAyMk1sekZUVF9mVG41cm0yTkRKZXRKZi1rcU1ENFJyaWs5ZmZLdkFyVzczbWFudG13SERvRUxhTExoNjVlcUwwREV0OTlQRmdVZXdha2JfNFBtZkhXcWtfUGZqUjFZb1NDZkRyU0dYTU9nUlI5TkRQYzZCbnpGNWN0XzhWQWVfR2x2U0haZzN4UG0zZnN4bm9QYlhEVUZVanZBbFZPYzQ1QQ?oc=5",
-     "nb_sources": 1,
-     "primaire": false
-    },
-    {
-     "id": "662ebe66cb5c1b",
-     "date": "2026-10-19T10:00:00+00:00",
-     "titre": "L'AI Act européen privilégie l'IA d'aide à la décision",
-     "neuf": "L'Union européenne oriente l'AI Act vers le développement de systèmes d'aide à la décision plutôt que de contrôle.",
-     "fil": "même application de l'AI Act",
-     "source": "Régulation européenne",
-     "lien": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxQN1llSF9JNFd3TjZEekdYWG5KYzVqM05FdjMzbzAzSkpRc3o5QlVOd1hURlMtY0RQeXBPeEluZ2dxaUxiaUNMcXA4WHVkQ1lGWGpHVkNEcElkN0FDd1FwdEl1WGRQMWluRDJaVm9zdnhjdmFISjdVNC0xVzJVQzRpYWk3cEQxVlM0SWwzenV1RUhIZGZOVy0xS0lZdE5wS2hVay1JcG94RWNhaERoUkc5MEc4YklxVUkwN2s0RDhUSUVCdURsNXprZXN5dGZRajVpOGtoTVFCd1FYWGM?oc=5",
-     "nb_sources": 1,
-     "primaire": false
-    },
-    {
-     "id": "7fd6735c2ab1df",
-     "date": "2026-10-20T03:06:52+00:00",
-     "titre": "L'Union européenne sonde OpenAI et Anthropic dans le cadre de l'AI Act",
-     "neuf": "L'Union européenne cible OpenAI et Anthropic dans le cadre de sondages liés à l'AI Act, avec un risque d'amende.",
-     "fil": "même application de l'AI Act",
-     "source": "Régulation européenne",
-     "lien": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1LZU9MZ2xjbXhrNkxZSkFRd0E0QU1KMEtwalFMNWxPaWluSmZPRjNqM09rVGNzWF9yZ1ctV1ZHbk53cWdDVm4xQU5iUFNxTW0zN2k1TW1RWXdFcHVGSWxSRTBlWjlEMUNwazVXd0hyYUc0NzBP?oc=5",
-     "nb_sources": 1,
-     "primaire": false
-    },
-    {
-     "id": "90111474fb194f",
-     "date": "2026-10-20T04:40:30+00:00",
-     "titre": "Entrée en vigueur et conformité des entreprises à l'AI Act européen en 2026",
-     "neuf": "L'Union européenne officialise l'entrée en vigueur de l'AI Act et publie des guides de conformité pour l'année 2026.",
-     "fil": "même application de l'AI Act européen",
-     "source": "Régulation européenne",
-     "lien": "https://news.google.com/rss/articles/CBMia0FVX3lxTE96eVYyVkJQQ3JDRTdudXJtbmNvaW53T2VoT3Zid0tFWFVXWG50TGJSVVZhbE1VVl81d19sZGRzaml3Y21HbzBUb3pFRy1FNF9JcEpMMGlKSDNQcU5rdG5vU29ETjk4UGxQVld3?oc=5",
-     "nb_sources": 1,
-     "primaire": false
-    },
-    {
-     "id": "e412135ad51278",
-     "date": "2026-10-20T12:30:00+00:00",
-     "titre": "Agents IA : la nouvelle responsabilité des vendeurs face à l'UE",
-     "neuf": "La directive européenne assimile les logiciels et SaaS d'IA à des produits, engageant la responsabilité stricte de leurs vendeurs.",
-     "fil": "même cadre réglementaire européen sur l'IA",
-     "source": "ActuIA",
-     "lien": "https://www.actuia.com/actualite/agents-ia-ce-que-la-directive-europeenne-fera-payer-aux-entreprises-qui-les-vendent/",
-     "nb_sources": 1,
-     "primaire": false
-    }
-   ],
-   "statut": "active",
-   "societes": [
-    "openai",
-    "ue"
    ]
   },
   {
