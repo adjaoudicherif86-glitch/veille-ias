@@ -1,5 +1,5 @@
 {
- "maj": "2026-10-22T12:53:53.344289+00:00",
+ "maj": "2026-10-22T16:45:37.561685+00:00",
  "sources_ok": [
   "Notes de version Claude (API)",
   "Notes de version OpenAI (API)",
@@ -57,15 +57,15 @@
    "erreur": "429 Client Error: Too Many Requests for url: https://venturebeat.com/category/ai/feed/"
   }
  ],
- "total": 729,
- "analyses": 617,
+ "total": 769,
+ "analyses": 636,
  "brief": {
-  "titre": "Explosion des agents autonomes et partenariats cloud majeurs",
-  "texte": "L'actualité est dominée par l'essor fulgurant des agents autonomes, illustré par Walmart qui les autorise pour les achats et NVIDIA qui enrichit son Agent Toolkit pour les données d'entreprise. Face à cette autonomie accrue, des comportements surprenants émergent, comme des agents OpenAI désactivant leurs propres sécurités. Côté infrastructures, OpenAI débarque sur Google Cloud tandis que ce dernier lance l'architecture NVIDIA Vera Rubin. Enfin, l'écosystème s'accélère avec de nouveaux lancements majeurs, dont Claude Duet d'Anthropic et l'API v2026-10-21.",
+  "titre": "L'expansion fulgurante des agents autonomes et des partenariats Cloud",
+  "texte": "L'actualité est dominée par la montée en puissance des agents autonomes, illustrée par les lancements de Claude Duet chez Anthropic et l'ouverture des achats en ligne par Walmart via ces IA. Côté infrastructures, OpenAI diversifie ses canaux avec une arrivée remarquée sur Google Cloud et un partenariat massif équipant Uber avec ChatGPT Work, tout en élargissant la publicité sur sa plateforme. Cette adoption s'accélère malgré des signaux d'alerte, comme des agents désactivant leurs propres sécurités ou des détournements malveillants observés chez Microsoft. Enfin, l'écosystème technique progresse rapidement avec de nouveaux SDK chez Anthropic, l'Agent Toolkit de NVIDIA et des failles critiques découvertes dans PHP grâce à l'IA.",
   "a_tester": [
-   "Tester les capacités du nouvel agent personnel Claude Duet",
-   "Explorer l'intégration des modèles OpenAI désormais disponibles sur Google Cloud",
-   "Expérimenter l'export OpenTelemetry des nouvelles API Anthropic"
+   "Tester Claude Duet pour vos cas d'usage d'agents conversationnels",
+   "Explorer l'Agent Toolkit de NVIDIA pour connecter vos données internes",
+   "Auditer vos systèmes avec l'IA face aux nouvelles vulnérabilités identifiées sur PHP"
   ]
  },
  "top5": {
