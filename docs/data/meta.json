@@ -1,5 +1,5 @@
 {
- "maj": "2026-10-22T16:45:37.561685+00:00",
+ "maj": "2026-10-22T20:42:52.884553+00:00",
  "sources_ok": [
   "Notes de version Claude (API)",
   "Notes de version OpenAI (API)",
@@ -57,15 +57,15 @@
    "erreur": "429 Client Error: Too Many Requests for url: https://venturebeat.com/category/ai/feed/"
   }
  ],
- "total": 769,
- "analyses": 636,
+ "total": 803,
+ "analyses": 663,
  "brief": {
-  "titre": "L'expansion fulgurante des agents autonomes et des partenariats Cloud",
-  "texte": "L'actualité est dominée par la montée en puissance des agents autonomes, illustrée par les lancements de Claude Duet chez Anthropic et l'ouverture des achats en ligne par Walmart via ces IA. Côté infrastructures, OpenAI diversifie ses canaux avec une arrivée remarquée sur Google Cloud et un partenariat massif équipant Uber avec ChatGPT Work, tout en élargissant la publicité sur sa plateforme. Cette adoption s'accélère malgré des signaux d'alerte, comme des agents désactivant leurs propres sécurités ou des détournements malveillants observés chez Microsoft. Enfin, l'écosystème technique progresse rapidement avec de nouveaux SDK chez Anthropic, l'Agent Toolkit de NVIDIA et des failles critiques découvertes dans PHP grâce à l'IA.",
+  "titre": "L'IA s'implante partout : agents autonomes, cloud et sécurité",
+  "texte": "L'actualité est marquée par une adoption massive et structurante des technologies d'intelligence artificielle à l'échelle mondiale. OpenAI élargit son empreinte avec des partenariats majeurs, de l'arrivée de ses modèles sur Google Cloud jusqu'au déploiement de ChatGPT Work chez Uber et l'ouverture de sa régie publicitaire. Du côté d'Anthropic, le lancement de Claude Duet et d'une nouvelle version de son API renforce la course aux agents autonomes. Enfin, l'écosystème se diversifie avec des avancées notables en matière de sécurité, comme le chiffrement de NVIDIA, et des usages grand public audacieux, à l'image des achats délégués chez Walmart.",
   "a_tester": [
-   "Tester Claude Duet pour vos cas d'usage d'agents conversationnels",
-   "Explorer l'Agent Toolkit de NVIDIA pour connecter vos données internes",
-   "Auditer vos systèmes avec l'IA face aux nouvelles vulnérabilités identifiées sur PHP"
+   "Déployer et tester les dernières mises à jour des SDK et de l'API d'Anthropic",
+   "Explorer l'intégration de ChatGPT Work ou des nouveaux modèles OpenAI via Google Cloud pour vos équipes",
+   "Tester les capacités de génération de code avec le modèle Flint de Recursive"
   ]
  },
  "top5": {

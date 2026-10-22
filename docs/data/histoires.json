@@ -1,12 +1,113 @@
 {
- "maj": "2026-10-22T16:45:37.561613+00:00",
+ "maj": "2026-10-22T20:42:52.884435+00:00",
  "histoires": [
+  {
+   "id": "h_520aa59662",
+   "titre": "Déploiement et disponibilité de Gemini 4 Argon",
+   "resume": "Google DeepMind a lancé Gemini 4 Argon, un modèle de pointe initialement réservé à la cybersécurité avant d'être ouvert aux développeurs. Ses capacités ont été illustrées par la réussite d'agents sur Minecraft en 27 heures, puis par son utilisation pour enseigner de nouvelles compétences aux robots humanoïdes Apptronik à partir de vidéos.",
+   "creee": "2026-10-20T09:56:16.457937+00:00",
+   "maj": "2026-10-22T19:34:44+00:00",
+   "episodes": [
+    {
+     "id": "15e70ee5e4a75a",
+     "date": "2026-09-30T20:01:45+00:00",
+     "titre": "Google DeepMind annonce Gemini 4 Argon",
+     "neuf": "Google DeepMind annonce l'arrivée de son modèle d'IA frontière Gemini 4 Argon.",
+     "fil": "Annonce initiale du modèle Gemini 4 Argon par Google DeepMind",
+     "source": "Google DeepMind",
+     "lien": "https://deepmind.google/blog/gemini-4-argon-our-next-era-of-frontier-intelligence/",
+     "nb_sources": 2,
+     "primaire": false
+    },
+    {
+     "id": "16c1598a645116",
+     "date": "2026-10-01T07:00:00+00:00",
+     "titre": "Google lance Gemini 4 Argon, un modèle ultra-puissant réservé aux experts",
+     "neuf": "Le modèle Gemini 4 Argon est initialement réservé à un cercle restreint d'experts en cybersécurité.",
+     "fil": "Suite sur Gemini 4 Argon",
+     "source": "IA en français (actus)",
+     "lien": "https://news.google.com/rss/articles/CBMiwAJBVV95cUxPbm9zS21iUDk5OTBSU1ExUnMxRTBsbzBIdWJOMTloa0toNnp2cnN5a01oSlduSlpsUEhKbWQyUnJsU3FlVmJjVnRFZzJLRnNTRzJOZjFPcG82TF9LUzV6UU03UWFSblJSZzgwMTRIX1Z6YU50dkRFYjZzM29BVWFDVnR4LWdBN1pzOVlZS3pzWVJMRWhJQWJxbllsbGVXd0VwWDI2bFZJbm9udVR1UDhqRkJKdEVXOTU1cHVFZHFId1VTWXBzLTR4WTdPZjF4QTc4VEJkUUtpZTE0Y0dwNmdSSlNuSmVHQUtCM1R3LWY0QU1LcWQxSjc5d3VYdldSMkZMSDVCRG1raXl5QzlDcjg2WWhxUTUySlowMkRURnJCa3RvUmZKNV9INkNJSm91elVxZXc4bzNuZnJneFdFRUhROQ?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "c1e94fc831365c",
+     "date": "2026-10-13T16:00:00+00:00",
+     "titre": "Google DeepMind lance Gemini 4 Argon",
+     "neuf": "Google présente de nouveau Gemini 4 Argon comme un modèle conçu pour résoudre des problèmes complexes.",
+     "fil": "Extension du déploiement de Gemini 4 Argon",
+     "source": "Google AI",
+     "lien": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-argon/",
+     "nb_sources": 3,
+     "primaire": false
+    },
+    {
+     "id": "f9eb89f74ed89d",
+     "date": "2026-10-13T16:10:19+00:00",
+     "titre": "Google lance Gemini 4 Argon, son nouveau modèle phare pour développeurs et entreprises",
+     "neuf": "Google officialise le déploiement à large échelle de Gemini 4 Argon pour les développeurs et entreprises.",
+     "fil": "Disponibilité élargie de Gemini 4 Argon",
+     "source": "Grandes annonces IA",
+     "lien": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQclhsaXp4NUtqeVJDQTNIUjVXQVdJcnNXYnpYZUFTZm4wY3UxcTM1SzJvdzRBNE9HaURlNG1obzFGQ0o3R0pWNVJfNGFDOUdFZnhfdEJxSkszQ2hZQlowMjdCbVliRE9uX3A5ak1CYkJHOEV1elBYRWgtUHBwdF9lcWEyUGdjbmhQb2JONkpNeWhLTHgzQzRhRFRnZTEwcDRCa3k3RkpxY0c5Z1RsSlFCSmQwNmRmQQ?oc=5",
+     "nb_sources": 2,
+     "primaire": false
+    },
+    {
+     "id": "58bef2b78b9c5f",
+     "date": "2026-10-18T12:43:42+00:00",
+     "titre": "Quatre agents Gemini 4 Argon terminent Minecraft sans aide humaine",
+     "neuf": "Quatre agents propulsés par Gemini 4 Argon parviennent à terminer le jeu Minecraft de manière autonome.",
+     "fil": "même modèle Gemini 4 Argon",
+     "source": "Google Gemini (actus)",
+     "lien": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNdVViZFVsamhYNzZfb2xUN3ZkdHlDcVRNWWktdmRjZ3gxUHJwc3F5MnBibHpCVVo2LWRtM0lLM1MxSG82ampTWF9IcGUtUnAyMUtCWmw5X0pReDViVXBTeFh5dXY2SkVFcWlueFBvdGZ2Z19OdWgzc3NOY3kyaDd2SDBDWnhsb0xvNEFVWWo2UXRoaTA?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "14367e39ff3673",
+     "date": "2026-10-19T16:45:48+00:00",
+     "titre": "Google Gemini 4 Argon : Annonce et perspectives",
+     "neuf": "Nouvelles annonces autour du positionnement et des perspectives de Gemini 4 Argon.",
+     "fil": "Même modèle Gemini 4 Argon",
+     "source": "Google Gemini (actus)",
+     "lien": "https://news.google.com/rss/articles/CBMickFVX3lxTE1uZTJkalB3aTJDdmZFOFhaOHJDZG43YTdOOGRoQkZGeEgyTVp1ak5QcDNvbXN2aXZUWWJLZE5VeXo3d0dXc0NuMGw2bFJfd2hPTUktZnVXcHM1ZnBIWW5RX2F2NGZKbS13UnFmTm5vSEd2dw?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "c4ea13b1040293",
+     "date": "2026-10-20T10:25:00+00:00",
+     "titre": "Quatre agents IA de Google DeepMind battent Minecraft en 27 heures",
+     "neuf": "Quatre agents IA de Google DeepMind ont réussi à finir le jeu Minecraft en 27 heures en écrivant des milliers de programmes, au prix d'un coût important en jetons.",
+     "fil": "mêmes agents IA de Google DeepMind sur Minecraft",
+     "source": "Google Gemini (actus)",
+     "lien": "https://news.google.com/rss/articles/CBMi-wJBVV95cUxPTXUtclRkR2lEMFJ6ZnY1X0NlVmNjSWpUY01hbTFMYnVLTm9VSjE4ZUIyakZNTGRlZFM1cHVYbURjTU0xZjVlb2JkTWdjRlVNS2VrRU9PeHdyZU8zczJEYVJUWDJlTUJxeHIwVHN0WjgxV19pUHRqeEF2U2RaU3RkVnpta1lVZjk0NGVITEJXbVFnajdyNkxXLUk3MzFIM2hRWjRjYXNGME1ZeUJ1TDY4dTNucE9SZzBTbHdXS3JsYlZqNzgybnVvU0J3dllKem1wRlJkaHNwbC1hRE1ZZXNzZ216MUdfU01vdS1YY2dxNU0tNTZpWTVIb2FjWnNNYkI4bk1uNzh4bThEX1M5Y2h4S2Zsc1BDVV9LSlExdzF6d3VZRzh5NzFBcXdTNWNINlRBUVdfRmZ5UzZ5bU93YlNhZmxqVGdodGxBZU1ycGtTNEszTzh6dDlWZm1VRmk4S0x4TmlZZDJzWDl4NHBYazFGV185YjZ4c1MwQ1lB?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "5d569a00a1354c",
+     "date": "2026-10-22T19:34:44+00:00",
+     "titre": "Google DeepMind utilise Gemini 4 Argon pour apprendre de nouvelles compétences aux robots",
+     "neuf": "Gemini 4 Argon est désormais appliqué à l'apprentissage de nouvelles compétences pour les robots humanoïdes Apptronik à partir de simples vidéos.",
+     "fil": "même modèle Gemini 4 Argon",
+     "source": "Google Gemini (actus)",
+     "lien": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxPSVEwaG5UMVNDWVduOE9scVhpVUw5azY3T1VERHVvbGJIbHFTR0t4bzNtNWd4alk0T3BoajlLSnlfVWhlcEFMNkdnVUNsLWQwVm5TU1FZeE81bFpHZkR4QjcwMjNxekRYZTN4aU1wZHhFYW9YWU1wNVlMSDJMS2NpX1ZfLTBWb24yWnNxaGx3bWo2MnVoWFVNZjhzSDBqb0NaMVR6bEZBZ0NoUnVTWjBzaHhzb0YyVWJVWkhBM3pSUnNGWWh5ZnhwOGlGdWZyZzRDcVliUmVJRVJKZnNxVUdxZnRXMTU?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    }
+   ],
+   "statut": "active",
+   "societes": [
+    "google"
+   ]
+  },
   {
    "id": "h_61682af51c",
    "titre": "Lancement de l'agent IA Claude Duet d'Anthropic",
-   "resume": "Anthropic déploie et enrichit son agent Claude Duet, en l'intégrant avec plus de 6 000 outils et des fonctionnalités d'achat professionnel. L'entreprise poursuit cette dynamique en dévoilant un nouvel agent IA professionnel pour le lieu de travail face à ses rivaux.",
+   "resume": "Anthropic déploie son agent professionnel Claude Duet, enrichi de plus de 6 000 outils et de capacités d'achat. Malgré ces lancements, les retours soulignent des hésitations initiales de la part des entreprises quant à son adoption concrète.",
    "creee": "2026-10-21T20:44:46.798337+00:00",
-   "maj": "2026-10-22T12:16:35+00:00",
+   "maj": "2026-10-22T17:38:48+00:00",
    "episodes": [
     {
      "id": "5dbb54a005401f",
@@ -82,6 +183,222 @@
      "fil": "nouvel agent IA professionnel d'Anthropic",
      "source": "Anthropic et gouvernement",
      "lien": "https://news.google.com/rss/articles/CBMif0FVX3lxTE4weXI0QVdqNEdJSmR3Z2RvUl9feHFyMzdkSV90S2hhNlFadVd1TjZiUmpURVJtei00QnJQajBCaFJ1LXN2YktJN3o1S3hhNC1SV3RJNlA3RVhCeHNHZFFuMW5rc2x2WjY5VDZLaVZ0dkFqMmx0alJIcUliZEE1LVU?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "d24c772af64832",
+     "date": "2026-10-22T17:38:48+00:00",
+     "titre": "Lancement de Claude Duet par Anthropic : les entreprises hésitent",
+     "neuf": "Un article relève que les entreprises font face à des hésitations quant à l'adoption de Claude Duet.",
+     "fil": "même agent IA professionnel Claude Duet d'Anthropic",
+     "source": "Anthropic et gouvernement",
+     "lien": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNR05JZHN0U2d5RHE1MWUyUXVaeGhoX3E1dTRyNzNLd3JndmVGa0U2RGE2bFIzZ1ZHUUhTMVZ4Nzg3QmFTb2FMUENXSDR2a0Z5c3h3amx2YXFMY3E3SkFlN09PT1hLS1RjUHQzeGhuVm10TnBlMjlIcVpfdm1aSW95T2V1eFJpeWwwMDJmcnJmUWhxYVdvb2hYQUpUcjFld2VqM3YzcjFaYw?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    }
+   ],
+   "statut": "active",
+   "societes": [
+    "anthropic",
+    "openai"
+   ]
+  },
+  {
+   "id": "h_c4961b9682",
+   "titre": "Contrôles de la Chine sur l'export d'IA",
+   "resume": "La Chine formalise ses contrôles à l'exportation d'IA via le MOFCOM tout en autorisant officiellement des acteurs comme DeepSeek et MiniMax à exporter leurs modèles open source, marquant la mise en application des nouvelles règles.",
+   "creee": "2026-10-20T09:56:16.457937+00:00",
+   "maj": "2026-10-22T17:07:31+00:00",
+   "episodes": [
+    {
+     "id": "312d9d2bf59580",
+     "date": "2026-10-16T18:18:10+00:00",
+     "titre": "La Chine prévoit de durcir ses contrôles sur l'exportation d'IA",
+     "neuf": "La Chine planifie un renforcement de ses restrictions visant les modèles open-weight et des technologies clés.",
+     "fil": "Contrôles à l'export de l'IA par la Chine",
+     "source": "Contrôles à l'export IA",
+     "lien": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPdU1Eb2ZqTHBnQlJISXdubUVnNHZLTXJOLXlpdDI3cFlRWjZLOUpWRGpCTTgwTmZZZk1ydlRSQnVnV29sZTJwSF9LOWxnbktBejZYeGhpN1lINUxEVlRDb2xON2JJekdvdXo1dzB2VzBjOV9TR3NzSF85Z0dYc0N1NzVhWU5OU3kyZTNHSEE2ZFljX1RJdFFyWXBHdmExekZ2X0tPTUI5U1AzRUxWWkl6MENR?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "f16f6a62981a38",
+     "date": "2026-10-20T10:30:00+00:00",
+     "titre": "Pékin restreint l'export de technologies d'IA sans toucher aux API de DeepSeek",
+     "neuf": "Pékin officialise ses restrictions sur l'exportation de technologies d'IA tout en préservant l'accès international aux API et modèles open source de DeepSeek.",
+     "fil": "mêmes restrictions de l'exportation de technologies d'IA par la Chine",
+     "source": "ActuIA",
+     "lien": "https://www.actuia.com/actualite/pekin-veut-restreindre-lexport-de-23-technologies-dia-sans-toucher-a-lapi-de-deepseek-et-qwen/",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "5bd5883a528400",
+     "date": "2026-10-21T13:43:39+00:00",
+     "titre": "MOFCOM's New Rules and the Future of Chinese AI - ChinaTalk",
+     "neuf": "Nouvelles analyses sur l'impact à long terme des règles du MOFCOM concernant les contrôles à l'exportation d'IA en Chine.",
+     "fil": "MOFCOM's New Rules and the Future of Chinese AI",
+     "source": "Contrôles à l'export IA",
+     "lien": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBOREZsUnBob1FqbWpTTW1EMUE3TkN2Zmg4VUJrbE9KbDN5MUdWWFltczkwQWVpT3JlTlFtY1RqRFNtQkR2SDR4RkhiaHFmUVpabnJURS1kVVVxSUhpNll3?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "75f0d8b919659a",
+     "date": "2026-10-22T17:07:31+00:00",
+     "titre": "DeepSeek et MiniMax valident les règles chinoises d'exportation d'IA",
+     "neuf": "DeepSeek et MiniMax obtiennent l'autorisation officielle pour exporter leurs modèles.",
+     "fil": "même application des contrôles chinois sur l'exportation d'IA",
+     "source": "r/LocalLLaMA",
+     "lien": "https://www.reddit.com/r/LocalLLaMA/comments/1xcoelw/deepseek_and_minimax_clear_chinas_ai_export_rules/",
+     "nb_sources": 1,
+     "primaire": false
+    }
+   ],
+   "statut": "active",
+   "societes": [
+    "deepseek"
+   ]
+  },
+  {
+   "id": "h_5e0762833f",
+   "titre": "Action en justice contre SpaceXAI",
+   "resume": "SpaceXAI fait face à des procédures judiciaires et à des contestations locales à Southaven et Memphis concernant son supercalculateur, tout en s'associant à Apollo et Nvidia pour Grok. L'entreprise subit de surcroît de nouvelles pressions juridiques suite à une plainte visant la génération d'images illicites par Grok.",
+   "creee": "2026-10-20T20:45:07.920169+00:00",
+   "maj": "2026-10-22T16:39:00+00:00",
+   "episodes": [
+    {
+     "id": "54794aade42fd8",
+     "date": "2026-10-20T19:51:00+00:00",
+     "titre": "Une plainte en justice contre SpaceXAI autorisée à se poursuivre",
+     "neuf": "Un juge autorise la poursuite de la plainte visant l'entreprise.",
+     "fil": "action en justice contre SpaceXAI",
+     "source": "Grok et SpaceXAI (actus)",
+     "lien": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOUVI0SUp1dnBQTWNyRkZnSTJWdUx3Y05pM2ozaHJXMVFVZnpPUTNhYWVldGlaR3pEN21yQWdRdTgweWlmaDA0WlU1dllGRWRZVDZKMXZLdXNJNDV4dnNkdFNtcV9OaU1EU3ozdkR5SW50QmhKRWJIUmxCdHp5cjdiSldfTldEUi1zTE5nazhVTQ?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "f33d215c710570",
+     "date": "2026-10-21T21:33:47+00:00",
+     "titre": "Refus d'intervention du DOJ dans le procès SpaceXAI à Southaven",
+     "neuf": "Un tribunal bloque l'intervention du ministère de la Justice dans l'affaire SpaceXAI à Southaven.",
+     "fil": "le procès SpaceXAI",
+     "source": "Grok et SpaceXAI (actus)",
+     "lien": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQY3RCWlc5ZHUxWTM1V1JjTkhEWlN2Ny14eGZOaVhnSHRuTDR4OTlSQVdWbDBhbGtQdjBKSXhUOWd2dzEwblJqakNpaWd6OHN0VjdsdGFMSTVibUJHMXY3N25QTGhwMmk5Snh5LXg1R2FQS20wTUVLQzgtdWZmNlJTUkxFeDdScjBfaU5VYzljTGFKRkE?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "c3e2edb0d5b6e5",
+     "date": "2026-10-22T16:39:00+00:00",
+     "titre": "City of Memphis moves to ease truck traffic concerns near SpaceXAI supercomputer - FOX13 Memphis",
+     "neuf": "La ville de Memphis prend des mesures pour fluidifier le trafic des camions autour du supercalculateur SpaceXAI.",
+     "fil": "même projet et supercalculateur SpaceXAI à Memphis",
+     "source": "Grok et SpaceXAI (actus)",
+     "lien": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxPc1RNVTdqU2Fzc3dMUXlaUDJFTklDOGpKZVdrWFJJRkJWMVBzdTU1Ym9GTUFoYUFuTEJRZ1FuTldjWmNLeUVtUjlKSEVjc0Y5Sm45Y1JaTEQyWmlyTWNEc09OTnJUR2U0enpYTGFzX3hZcUdnUWFocW85MnNJbnQ2QTM2QWd3TmNOcW40QzREQzhLYXF1dkpXamhld3g1WEVsclZvLTJQNkpVR05kTmJ3bkdHWEIxenB2V2RFRzFJakNZODVkR1VDdHQ3UmFQSjk5WkFZa0UzWV9xdDlHVnRuME0yZXE0OUxqbUFPa2ZHdzRsaEtic0Vj?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    }
+   ],
+   "statut": "active",
+   "societes": [
+    "spacexai"
+   ]
+  },
+  {
+   "id": "h_5febc86840",
+   "titre": "L'introduction en Bourse d'Anthropic",
+   "resume": "Anthropic se prépare à une introduction en Bourse majeure valorisée à 1 500 milliards de dollars, malgré une perte nette de plus de 80 milliards de dollars au premier semestre 2026 qui souligne des coûts de calcul massifs et suscite des interrogations sur sa situation financière et ses tensions avec les partenaires cloud.",
+   "creee": "2026-10-20T09:56:16.457937+00:00",
+   "maj": "2026-10-22T12:40:14+00:00",
+   "episodes": [
+    {
+     "id": "17abfc10dfed9c",
+     "date": "2026-10-19T15:25:27+00:00",
+     "titre": "Anthropic considéré comme le dernier espoir d'IPO majeure dans l'IA cette année",
+     "neuf": "Anthropic est perçu comme le dernier espoir d'introduction en bourse majeure dans l'IA pour l'année en cours.",
+     "fil": "IPO d'Anthropic",
+     "source": "Anthropic (actus)",
+     "lien": "https://news.google.com/rss/articles/CBMia0FVX3lxTE81Rkp2RnpSZVNGbTEyaU9jeFkxdUJfZ1E5VGg4YUZmSklueTJPd0I5aElKMV9taERnOVNJUkJiZzhkbTVtNVFXajI4dHdoYWNJVnFHcGtPdnFtSWhKZUNsajU0YXA4bEM5M3ln0gFwQVVfeXFMUHhPRjNFT0tZOUVGcWRXXzN2ckRjcGpGb2J3TVlFRzAxelI5cmxEdGIwQm05eElzcWFQSmdQRVZJSHdSZEVnMkNad2dubW9WblV0X2t5UGxkdVBlUkF0aDRXUHNjbGZYMEp0YWJBZWlWUA?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "5c5b356b08d7ec",
+     "date": "2026-10-19T18:54:08+00:00",
+     "titre": "Une introduction en bourse d'Anthropic valorisée à 1 500 milliards",
+     "neuf": "La valorisation envisagée pour l'introduction en bourse d'Anthropic atteint désormais 1 500 milliards de dollars, profitant notamment à Google.",
+     "fil": "même introduction en Bourse d'Anthropic",
+     "source": "Anthropic (actus)",
+     "lien": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPdkJ1QnRrd0x5VkNHTzZ3Tkw1QW02c28xYWhSOERtQ2pnR00wM0dhWEFYYjVSS3hUVmJUbnVPRzloUTQxZkRxal9qczRxRzB5SVgtOXgwQW5PUXVqWUxVcU91cERUUVhwRW5qMGZJazNXTm81Y0hnVGs0NDFIdHdXaTJBSGNDMWVuaThUT0doYTFxeUN1NUE?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "fc6197811c9824",
+     "date": "2026-10-19T22:58:19+00:00",
+     "titre": "L'ancien PDG de Google Eric Schmidt détiendrait 1 % d'Anthropic",
+     "neuf": "Révélation de la participation de 1 % détenue par l'ancien PDG de Google Eric Schmidt dans Anthropic.",
+     "fil": "participation au capital et valorisation d'Anthropic",
+     "source": "Anthropic (actus)",
+     "lien": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPX21NdVRPSTJNSUZiZ201OEo3U1Q0Rk9XVFJGaHVEWG1pczBSZzNpZVI2UXEwdEljb0F1UjJTUFRQOXBSTF9zQTNtRnhUcjBKRG9pVktwU1JXeWNiS0ZSZjBZaUhhakJEaU5YbEpBWG14MkUwTjhLX1RzU2NnY2ZvRER6VkVvNUVzemcwU0JzSWE4SmMzM3loLUdFR2JsMG9BbE9hS0ZrZFRGRVUtQ3BYYw?oc=5",
+     "nb_sources": 2,
+     "primaire": false
+    },
+    {
+     "id": "7e3d575b53c4a2",
+     "date": "2026-10-19T23:22:17+00:00",
+     "titre": "OpenAI accélère sa levée de fonds avant l'IPO d'Anthropic",
+     "neuf": "OpenAI accélère son financement pour devancer l'introduction en bourse imminente d'Anthropic.",
+     "fil": "même introduction en Bourse d'Anthropic",
+     "source": "OpenAI (actus)",
+     "lien": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPZHQyOU05TVZ4RVNpTGdJX18zeHlMZ1pGOGdNeGFmRnFMNERObThVUTl2Ny1CVGU1Vm5IMF9aSS1qaWpOTWlFdDBLeHZIa1lkYnltX1pnU1BLbGdGM3duM1FJZDhocndUWGlUZ0pSaEV6U2RUdzgwX1FaY2s2YllieUo3cTBSWVUtRzJEczR3YXliUzB0d0dRQkRsWjlaQ0FCeXBKM1A2MjlaYzdZa0E?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "7f15869bad49e6",
+     "date": "2026-10-20T19:30:00+00:00",
+     "titre": "Le document d'introduction en bourse d'Anthropic révèle une croissance fulgurante",
+     "neuf": "Le dossier d'introduction en bourse officiel (S-1) confirme une croissance fulgurante mais met en lumière des coûts de calcul massifs.",
+     "fil": "la publication du dossier d'introduction en bourse (S-1) d'Anthropic",
+     "source": "Anthropic (actus)",
+     "lien": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5zTlFXZm1uRTJYSXlPWi1OWmJCSkdBcmg2dkRDc2ZiNmNNaFQtYmg5WFBiWUFQRFVUTms0T3hweW9ycWZ1SlljdlNFUTZuOGliSUpVNkpybnJaQ0p2bzBYWmgydU9MVVBQQlJKMGFRdEpCaWM?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "32cb40a8951331",
+     "date": "2026-10-20T19:41:00+00:00",
+     "titre": "Anthropic enregistre une perte nette de plus de 80 milliards de dollars au premier semestre 2026",
+     "neuf": "Les documents financiers montrent qu'Anthropic a enregistré une perte nette de plus de 80 milliards de dollars au premier semestre 2026.",
+     "fil": "les données financières et les pertes révélées dans le cadre de l'introduction en bourse d'Anthropic",
+     "source": "Anthropic (actus)",
+     "lien": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOWDd1N2Q1aDhCMXdIcnhsNC1meEdkVGlZdGJBR1dabnotaThiMGF5R2NvTVluM3NTY2dFMEJfT21EeF9OR3d6cFE1eVpsZnVZeU82aVlOUVQ0ZElXVlVGMTJ0NzM0a2R0Z2hrQk1RRGJlWFB1VmMzS1djQ3ZpVkc2SmR3MlRBQXRGN1E1aXlJX1pOOEc0bFF6OFhBYTRSamFtR1pmNGhMbFpzS25keENuR1IyMkljTG1lUHE2TVh3?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "9ea810a533713a",
+     "date": "2026-10-20T21:25:22+00:00",
+     "titre": "Anthropic : tensions avec ses partenaires cloud avant son introduction en bourse",
+     "neuf": "Anthropic fait face à des tensions avec ses partenaires cloud qui freinent ses capacités de calcul en vue de son introduction en bourse.",
+     "fil": "même IPO d'Anthropic",
+     "source": "TechCrunch IA",
+     "lien": "https://techcrunch.com/2026/10/20/anthropics-cloud-partnerships-are-getting-messy/",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "7d7e14b4b3f251",
+     "date": "2026-10-22T12:40:14+00:00",
+     "titre": "Situation financière d'Anthropic : entre inquiétudes et survie de l'IA",
+     "neuf": "La situation financière d'Anthropic est mise en avant pour expliquer la posture de son PDG en lien avec ses choix stratégiques et réglementaires.",
+     "fil": "même situation financière d'Anthropic",
+     "source": "Anthropic et gouvernement",
+     "lien": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPWmlBSHFBQ3FGc21mSHVLUTNsWVlkbnlMSnZIM0xFNzhld29udzdHa0dkLTJvakY3T3dnZ081QTItV0RCM0c1YXpfY293Q2tCQU5TMkhvMHA1N215U0hlWWhJWjhOamRPNzNfMk80Vnp2MEtEbENnQWhNa1BpLVJKTlJIMkxQeHdIVnI0REs1RjZwQQ?oc=5",
      "nb_sources": 1,
      "primaire": false
     }
@@ -350,7 +667,7 @@
   {
    "id": "h_706c77ae76",
    "titre": "Le projet de loi d'Anthropic sur la sécurité de l'IA",
-   "resume": "Anthropic structure sa proposition de régulation en définissant des critères stricts d'arrêt d'urgence et en soutenant un projet de loi permettant de suspendre les modèles présentant des risques mortels de masse ou dépassant le seuil d'un milliard de dollars.",
+   "resume": "Anthropic structure sa proposition de régulation en définissant des critères stricts d'arrêt d'urgence via un projet de loi prévoyant de suspendre les modèles présentant des risques mortels de masse (à partir de 50 décès) ou dépassant le seuil d'un milliard de dollars.",
    "creee": "2026-10-20T09:56:16.457937+00:00",
    "maj": "2026-10-21T23:53:38+00:00",
    "episodes": [
@@ -563,44 +880,9 @@
    ]
   },
   {
-   "id": "h_5e0762833f",
-   "titre": "Action en justice contre SpaceXAI",
-   "resume": "SpaceXAI fait face à des procédures judiciaires et à des contestations locales. Une plainte initiale a été autorisée à se poursuivre et un tribunal a bloqué l'intervention du ministère de la Justice dans le litige à Southaven, tandis qu'une action collective cible la difficulté de résilier les abonnements à Grok.",
-   "creee": "2026-10-20T20:45:07.920169+00:00",
-   "maj": "2026-10-21T21:33:47+00:00",
-   "episodes": [
-    {
-     "id": "54794aade42fd8",
-     "date": "2026-10-20T19:51:00+00:00",
-     "titre": "Une plainte en justice contre SpaceXAI autorisée à se poursuivre",
-     "neuf": "Un juge autorise la poursuite de la plainte visant l'entreprise.",
-     "fil": "action en justice contre SpaceXAI",
-     "source": "Grok et SpaceXAI (actus)",
-     "lien": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOUVI0SUp1dnBQTWNyRkZnSTJWdUx3Y05pM2ozaHJXMVFVZnpPUTNhYWVldGlaR3pEN21yQWdRdTgweWlmaDA0WlU1dllGRWRZVDZKMXZLdXNJNDV4dnNkdFNtcV9OaU1EU3ozdkR5SW50QmhKRWJIUmxCdHp5cjdiSldfTldEUi1zTE5nazhVTQ?oc=5",
-     "nb_sources": 1,
-     "primaire": false
-    },
-    {
-     "id": "f33d215c710570",
-     "date": "2026-10-21T21:33:47+00:00",
-     "titre": "Refus d'intervention du DOJ dans le procès SpaceXAI à Southaven",
-     "neuf": "Un tribunal bloque l'intervention du ministère de la Justice dans l'affaire SpaceXAI à Southaven.",
-     "fil": "le procès SpaceXAI",
-     "source": "Grok et SpaceXAI (actus)",
-     "lien": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQY3RCWlc5ZHUxWTM1V1JjTkhEWlN2Ny14eGZOaVhnSHRuTDR4OTlSQVdWbDBhbGtQdjBKSXhUOWd2dzEwblJqakNpaWd6OHN0VjdsdGFMSTVibUJHMXY3N25QTGhwMmk5Snh5LXg1R2FQS20wTUVLQzgtdWZmNlJTUkxFeDdScjBfaU5VYzljTGFKRkE?oc=5",
-     "nb_sources": 1,
-     "primaire": false
-    }
-   ],
-   "statut": "active",
-   "societes": [
-    "spacexai"
-   ]
-  },
-  {
    "id": "h_f5d527a7f4",
    "titre": "Suspension du partage de conversations Muse de Meta",
-   "resume": "Meta a suspendu une fonctionnalité de partage de discussions de son assistant Muse après la découverte de liens publics indexés, malgré un incident où l'agent avait divulgué une adresse personnelle lors d'une vente. L'application Muse dépasse désormais les 10 millions d'utilisateurs, portée notamment par le shopping.",
+   "resume": "Meta a suspendu une fonctionnalité de partage de discussions de son assistant Muse après la découverte de liens publics indexés, tandis que l'application dépasse les 10 millions d'utilisateurs. Un nouvel incident a révélé que l'agent pouvait conclure de façon autonome une vente sur Marketplace tout en divulguant une adresse personnelle.",
    "creee": "2026-10-20T20:45:07.920169+00:00",
    "maj": "2026-10-21T21:14:19+00:00",
    "episodes": [
@@ -700,52 +982,6 @@
    "statut": "active",
    "societes": [
     "anthropic"
-   ]
-  },
-  {
-   "id": "h_c4961b9682",
-   "titre": "Contrôles de la Chine sur l'export d'IA",
-   "resume": "La Chine formalise ses contrôles à l'exportation d'IA via le MOFCOM tout en maintenant l'accès international à ses API et modèles open source.",
-   "creee": "2026-10-20T09:56:16.457937+00:00",
-   "maj": "2026-10-21T13:43:39+00:00",
-   "episodes": [
-    {
-     "id": "312d9d2bf59580",
-     "date": "2026-10-16T18:18:10+00:00",
-     "titre": "La Chine prévoit de durcir ses contrôles sur l'exportation d'IA",
-     "neuf": "La Chine planifie un renforcement de ses restrictions visant les modèles open-weight et des technologies clés.",
-     "fil": "Contrôles à l'export de l'IA par la Chine",
-     "source": "Contrôles à l'export IA",
-     "lien": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPdU1Eb2ZqTHBnQlJISXdubUVnNHZLTXJOLXlpdDI3cFlRWjZLOUpWRGpCTTgwTmZZZk1ydlRSQnVnV29sZTJwSF9LOWxnbktBejZYeGhpN1lINUxEVlRDb2xON2JJekdvdXo1dzB2VzBjOV9TR3NzSF85Z0dYc0N1NzVhWU5OU3kyZTNHSEE2ZFljX1RJdFFyWXBHdmExekZ2X0tPTUI5U1AzRUxWWkl6MENR?oc=5",
-     "nb_sources": 1,
-     "primaire": false
-    },
-    {
-     "id": "f16f6a62981a38",
-     "date": "2026-10-20T10:30:00+00:00",
-     "titre": "Pékin restreint l'export de technologies d'IA sans toucher aux API de DeepSeek",
-     "neuf": "Pékin officialise ses restrictions sur l'exportation de technologies d'IA tout en préservant l'accès international aux API et modèles open source de DeepSeek.",
-     "fil": "mêmes restrictions de l'exportation de technologies d'IA par la Chine",
-     "source": "ActuIA",
-     "lien": "https://www.actuia.com/actualite/pekin-veut-restreindre-lexport-de-23-technologies-dia-sans-toucher-a-lapi-de-deepseek-et-qwen/",
-     "nb_sources": 1,
-     "primaire": false
-    },
-    {
-     "id": "5bd5883a528400",
-     "date": "2026-10-21T13:43:39+00:00",
-     "titre": "MOFCOM's New Rules and the Future of Chinese AI - ChinaTalk",
-     "neuf": "Nouvelles analyses sur l'impact à long terme des règles du MOFCOM concernant les contrôles à l'exportation d'IA en Chine.",
-     "fil": "MOFCOM's New Rules and the Future of Chinese AI",
-     "source": "Contrôles à l'export IA",
-     "lien": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBOREZsUnBob1FqbWpTTW1EMUE3TkN2Zmg4VUJrbE9KbDN5MUdWWFltczkwQWVpT3JlTlFtY1RqRFNtQkR2SDR4RkhiaHFmUVpabnJURS1kVVVxSUhpNll3?oc=5",
-     "nb_sources": 1,
-     "primaire": false
-    }
-   ],
-   "statut": "active",
-   "societes": [
-    "deepseek"
    ]
   },
   {
@@ -879,97 +1115,6 @@
    ]
   },
   {
-   "id": "h_5febc86840",
-   "titre": "L'introduction en Bourse d'Anthropic",
-   "resume": "Anthropic s'apprête à réaliser une introduction en bourse majeure valorisée à 1 500 milliards de dollars. Le dépôt de son dossier S-1 et la révélation d'une perte nette de plus de 80 milliards de dollars au premier semestre 2026 confirment sa croissance explosive mais soulignent des coûts de calcul et des risques massifs. Cette dynamique s'accompagne de tensions avec ses fournisseurs cloud.",
-   "creee": "2026-10-20T09:56:16.457937+00:00",
-   "maj": "2026-10-20T21:25:22+00:00",
-   "episodes": [
-    {
-     "id": "17abfc10dfed9c",
-     "date": "2026-10-19T15:25:27+00:00",
-     "titre": "Anthropic considéré comme le dernier espoir d'IPO majeure dans l'IA cette année",
-     "neuf": "Anthropic est perçu comme le dernier espoir d'introduction en bourse majeure dans l'IA pour l'année en cours.",
-     "fil": "IPO d'Anthropic",
-     "source": "Anthropic (actus)",
-     "lien": "https://news.google.com/rss/articles/CBMia0FVX3lxTE81Rkp2RnpSZVNGbTEyaU9jeFkxdUJfZ1E5VGg4YUZmSklueTJPd0I5aElKMV9taERnOVNJUkJiZzhkbTVtNVFXajI4dHdoYWNJVnFHcGtPdnFtSWhKZUNsajU0YXA4bEM5M3ln0gFwQVVfeXFMUHhPRjNFT0tZOUVGcWRXXzN2ckRjcGpGb2J3TVlFRzAxelI5cmxEdGIwQm05eElzcWFQSmdQRVZJSHdSZEVnMkNad2dubW9WblV0X2t5UGxkdVBlUkF0aDRXUHNjbGZYMEp0YWJBZWlWUA?oc=5",
-     "nb_sources": 1,
-     "primaire": false
-    },
-    {
-     "id": "5c5b356b08d7ec",
-     "date": "2026-10-19T18:54:08+00:00",
-     "titre": "Une introduction en bourse d'Anthropic valorisée à 1 500 milliards",
-     "neuf": "La valorisation envisagée pour l'introduction en bourse d'Anthropic atteint désormais 1 500 milliards de dollars, profitant notamment à Google.",
-     "fil": "même introduction en Bourse d'Anthropic",
-     "source": "Anthropic (actus)",
-     "lien": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPdkJ1QnRrd0x5VkNHTzZ3Tkw1QW02c28xYWhSOERtQ2pnR00wM0dhWEFYYjVSS3hUVmJUbnVPRzloUTQxZkRxal9qczRxRzB5SVgtOXgwQW5PUXVqWUxVcU91cERUUVhwRW5qMGZJazNXTm81Y0hnVGs0NDFIdHdXaTJBSGNDMWVuaThUT0doYTFxeUN1NUE?oc=5",
-     "nb_sources": 1,
-     "primaire": false
-    },
-    {
-     "id": "fc6197811c9824",
-     "date": "2026-10-19T22:58:19+00:00",
-     "titre": "L'ancien PDG de Google Eric Schmidt détiendrait 1 % d'Anthropic",
-     "neuf": "Révélation de la participation de 1 % détenue par l'ancien PDG de Google Eric Schmidt dans Anthropic.",
-     "fil": "participation au capital et valorisation d'Anthropic",
-     "source": "Anthropic (actus)",
-     "lien": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPX21NdVRPSTJNSUZiZ201OEo3U1Q0Rk9XVFJGaHVEWG1pczBSZzNpZVI2UXEwdEljb0F1UjJTUFRQOXBSTF9zQTNtRnhUcjBKRG9pVktwU1JXeWNiS0ZSZjBZaUhhakJEaU5YbEpBWG14MkUwTjhLX1RzU2NnY2ZvRER6VkVvNUVzemcwU0JzSWE4SmMzM3loLUdFR2JsMG9BbE9hS0ZrZFRGRVUtQ3BYYw?oc=5",
-     "nb_sources": 2,
-     "primaire": false
-    },
-    {
-     "id": "7e3d575b53c4a2",
-     "date": "2026-10-19T23:22:17+00:00",
-     "titre": "OpenAI accélère sa levée de fonds avant l'IPO d'Anthropic",
-     "neuf": "OpenAI accélère son financement pour devancer l'introduction en bourse imminente d'Anthropic.",
-     "fil": "même introduction en Bourse d'Anthropic",
-     "source": "OpenAI (actus)",
-     "lien": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPZHQyOU05TVZ4RVNpTGdJX18zeHlMZ1pGOGdNeGFmRnFMNERObThVUTl2Ny1CVGU1Vm5IMF9aSS1qaWpOTWlFdDBLeHZIa1lkYnltX1pnU1BLbGdGM3duM1FJZDhocndUWGlUZ0pSaEV6U2RUdzgwX1FaY2s2YllieUo3cTBSWVUtRzJEczR3YXliUzB0d0dRQkRsWjlaQ0FCeXBKM1A2MjlaYzdZa0E?oc=5",
-     "nb_sources": 1,
-     "primaire": false
-    },
-    {
-     "id": "7f15869bad49e6",
-     "date": "2026-10-20T19:30:00+00:00",
-     "titre": "Le document d'introduction en bourse d'Anthropic révèle une croissance fulgurante",
-     "neuf": "Le dossier d'introduction en bourse officiel (S-1) confirme une croissance fulgurante mais met en lumière des coûts de calcul massifs.",
-     "fil": "la publication du dossier d'introduction en bourse (S-1) d'Anthropic",
-     "source": "Anthropic (actus)",
-     "lien": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5zTlFXZm1uRTJYSXlPWi1OWmJCSkdBcmg2dkRDc2ZiNmNNaFQtYmg5WFBiWUFQRFVUTms0T3hweW9ycWZ1SlljdlNFUTZuOGliSUpVNkpybnJaQ0p2bzBYWmgydU9MVVBQQlJKMGFRdEpCaWM?oc=5",
-     "nb_sources": 1,
-     "primaire": false
-    },
-    {
-     "id": "32cb40a8951331",
-     "date": "2026-10-20T19:41:00+00:00",
-     "titre": "Anthropic enregistre une perte nette de plus de 80 milliards de dollars au premier semestre 2026",
-     "neuf": "Les documents financiers montrent qu'Anthropic a enregistré une perte nette de plus de 80 milliards de dollars au premier semestre 2026.",
-     "fil": "les données financières et les pertes révélées dans le cadre de l'introduction en bourse d'Anthropic",
-     "source": "Anthropic (actus)",
-     "lien": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOWDd1N2Q1aDhCMXdIcnhsNC1meEdkVGlZdGJBR1dabnotaThiMGF5R2NvTVluM3NTY2dFMEJfT21EeF9OR3d6cFE1eVpsZnVZeU82aVlOUVQ0ZElXVlVGMTJ0NzM0a2R0Z2hrQk1RRGJlWFB1VmMzS1djQ3ZpVkc2SmR3MlRBQXRGN1E1aXlJX1pOOEc0bFF6OFhBYTRSamFtR1pmNGhMbFpzS25keENuR1IyMkljTG1lUHE2TVh3?oc=5",
-     "nb_sources": 1,
-     "primaire": false
-    },
-    {
-     "id": "9ea810a533713a",
-     "date": "2026-10-20T21:25:22+00:00",
-     "titre": "Anthropic : tensions avec ses partenaires cloud avant son introduction en bourse",
-     "neuf": "Anthropic fait face à des tensions avec ses partenaires cloud qui freinent ses capacités de calcul en vue de son introduction en bourse.",
-     "fil": "même IPO d'Anthropic",
-     "source": "TechCrunch IA",
-     "lien": "https://techcrunch.com/2026/10/20/anthropics-cloud-partnerships-are-getting-messy/",
-     "nb_sources": 1,
-     "primaire": false
-    }
-   ],
-   "statut": "active",
-   "societes": [
-    "anthropic",
-    "openai"
-   ]
-  },
-  {
    "id": "h_811aafc3cc",
    "titre": "Outil Google pour migrer les applications hors de Nvidia",
    "resume": "Google propose un nouvel outil pour les développeurs PyTorch afin de migrer facilement leurs applications IA hors des GPU Nvidia.",
@@ -1063,96 +1208,6 @@
    "statut": "active",
    "societes": [
     "openai"
-   ]
-  },
-  {
-   "id": "h_520aa59662",
-   "titre": "Déploiement et disponibilité de Gemini 4 Argon",
-   "resume": "Google DeepMind a lancé Gemini 4 Argon, un modèle de pointe initialement réservé à la cybersécurité avant d'être ouvert aux développeurs. Les capacités de ses agents IA ont notamment été démontrées par leur réussite autonome sur des environnements complexes comme Minecraft en 27 heures.",
-   "creee": "2026-10-20T09:56:16.457937+00:00",
-   "maj": "2026-10-20T10:25:00+00:00",
-   "episodes": [
-    {
-     "id": "15e70ee5e4a75a",
-     "date": "2026-09-30T20:01:45+00:00",
-     "titre": "Google DeepMind annonce Gemini 4 Argon",
-     "neuf": "Google DeepMind annonce l'arrivée de son modèle d'IA frontière Gemini 4 Argon.",
-     "fil": "Annonce initiale du modèle Gemini 4 Argon par Google DeepMind",
-     "source": "Google DeepMind",
-     "lien": "https://deepmind.google/blog/gemini-4-argon-our-next-era-of-frontier-intelligence/",
-     "nb_sources": 2,
-     "primaire": false
-    },
-    {
-     "id": "16c1598a645116",
-     "date": "2026-10-01T07:00:00+00:00",
-     "titre": "Google lance Gemini 4 Argon, un modèle ultra-puissant réservé aux experts",
-     "neuf": "Le modèle Gemini 4 Argon est initialement réservé à un cercle restreint d'experts en cybersécurité.",
-     "fil": "Suite sur Gemini 4 Argon",
-     "source": "IA en français (actus)",
-     "lien": "https://news.google.com/rss/articles/CBMiwAJBVV95cUxPbm9zS21iUDk5OTBSU1ExUnMxRTBsbzBIdWJOMTloa0toNnp2cnN5a01oSlduSlpsUEhKbWQyUnJsU3FlVmJjVnRFZzJLRnNTRzJOZjFPcG82TF9LUzV6UU03UWFSblJSZzgwMTRIX1Z6YU50dkRFYjZzM29BVWFDVnR4LWdBN1pzOVlZS3pzWVJMRWhJQWJxbllsbGVXd0VwWDI2bFZJbm9udVR1UDhqRkJKdEVXOTU1cHVFZHFId1VTWXBzLTR4WTdPZjF4QTc4VEJkUUtpZTE0Y0dwNmdSSlNuSmVHQUtCM1R3LWY0QU1LcWQxSjc5d3VYdldSMkZMSDVCRG1raXl5QzlDcjg2WWhxUTUySlowMkRURnJCa3RvUmZKNV9INkNJSm91elVxZXc4bzNuZnJneFdFRUhROQ?oc=5",
-     "nb_sources": 1,
-     "primaire": false
-    },
-    {
-     "id": "c1e94fc831365c",
-     "date": "2026-10-13T16:00:00+00:00",
-     "titre": "Google DeepMind lance Gemini 4 Argon",
-     "neuf": "Google présente de nouveau Gemini 4 Argon comme un modèle conçu pour résoudre des problèmes complexes.",
-     "fil": "Extension du déploiement de Gemini 4 Argon",
-     "source": "Google AI",
-     "lien": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-argon/",
-     "nb_sources": 3,
-     "primaire": false
-    },
-    {
-     "id": "f9eb89f74ed89d",
-     "date": "2026-10-13T16:10:19+00:00",
-     "titre": "Google lance Gemini 4 Argon, son nouveau modèle phare pour développeurs et entreprises",
-     "neuf": "Google officialise le déploiement à large échelle de Gemini 4 Argon pour les développeurs et entreprises.",
-     "fil": "Disponibilité élargie de Gemini 4 Argon",
-     "source": "Grandes annonces IA",
-     "lien": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQclhsaXp4NUtqeVJDQTNIUjVXQVdJcnNXYnpYZUFTZm4wY3UxcTM1SzJvdzRBNE9HaURlNG1obzFGQ0o3R0pWNVJfNGFDOUdFZnhfdEJxSkszQ2hZQlowMjdCbVliRE9uX3A5ak1CYkJHOEV1elBYRWgtUHBwdF9lcWEyUGdjbmhQb2JONkpNeWhLTHgzQzRhRFRnZTEwcDRCa3k3RkpxY0c5Z1RsSlFCSmQwNmRmQQ?oc=5",
-     "nb_sources": 2,
-     "primaire": false
-    },
-    {
-     "id": "58bef2b78b9c5f",
-     "date": "2026-10-18T12:43:42+00:00",
-     "titre": "Quatre agents Gemini 4 Argon terminent Minecraft sans aide humaine",
-     "neuf": "Quatre agents propulsés par Gemini 4 Argon parviennent à terminer le jeu Minecraft de manière autonome.",
-     "fil": "même modèle Gemini 4 Argon",
-     "source": "Google Gemini (actus)",
-     "lien": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNdVViZFVsamhYNzZfb2xUN3ZkdHlDcVRNWWktdmRjZ3gxUHJwc3F5MnBibHpCVVo2LWRtM0lLM1MxSG82ampTWF9IcGUtUnAyMUtCWmw5X0pReDViVXBTeFh5dXY2SkVFcWlueFBvdGZ2Z19OdWgzc3NOY3kyaDd2SDBDWnhsb0xvNEFVWWo2UXRoaTA?oc=5",
-     "nb_sources": 1,
-     "primaire": false
-    },
-    {
-     "id": "14367e39ff3673",
-     "date": "2026-10-19T16:45:48+00:00",
-     "titre": "Google Gemini 4 Argon : Annonce et perspectives",
-     "neuf": "Nouvelles annonces autour du positionnement et des perspectives de Gemini 4 Argon.",
-     "fil": "Même modèle Gemini 4 Argon",
-     "source": "Google Gemini (actus)",
-     "lien": "https://news.google.com/rss/articles/CBMickFVX3lxTE1uZTJkalB3aTJDdmZFOFhaOHJDZG43YTdOOGRoQkZGeEgyTVp1ak5QcDNvbXN2aXZUWWJLZE5VeXo3d0dXc0NuMGw2bFJfd2hPTUktZnVXcHM1ZnBIWW5RX2F2NGZKbS13UnFmTm5vSEd2dw?oc=5",
-     "nb_sources": 1,
-     "primaire": false
-    },
-    {
-     "id": "c4ea13b1040293",
-     "date": "2026-10-20T10:25:00+00:00",
-     "titre": "Quatre agents IA de Google DeepMind battent Minecraft en 27 heures",
-     "neuf": "Quatre agents IA de Google DeepMind ont réussi à finir le jeu Minecraft en 27 heures en écrivant des milliers de programmes, au prix d'un coût important en jetons.",
-     "fil": "mêmes agents IA de Google DeepMind sur Minecraft",
-     "source": "Google Gemini (actus)",
-     "lien": "https://news.google.com/rss/articles/CBMi-wJBVV95cUxPTXUtclRkR2lEMFJ6ZnY1X0NlVmNjSWpUY01hbTFMYnVLTm9VSjE4ZUIyakZNTGRlZFM1cHVYbURjTU0xZjVlb2JkTWdjRlVNS2VrRU9PeHdyZU8zczJEYVJUWDJlTUJxeHIwVHN0WjgxV19pUHRqeEF2U2RaU3RkVnpta1lVZjk0NGVITEJXbVFnajdyNkxXLUk3MzFIM2hRWjRjYXNGME1ZeUJ1TDY4dTNucE9SZzBTbHdXS3JsYlZqNzgybnVvU0J3dllKem1wRlJkaHNwbC1hRE1ZZXNzZ216MUdfU01vdS1YY2dxNU0tNTZpWTVIb2FjWnNNYkI4bk1uNzh4bThEX1M5Y2h4S2Zsc1BDVV9LSlExdzF6d3VZRzh5NzFBcXdTNWNINlRBUVdfRmZ5UzZ5bU93YlNhZmxqVGdodGxBZU1ycGtTNEszTzh6dDlWZm1VRmk4S0x4TmlZZDJzWDl4NHBYazFGV185YjZ4c1MwQ1lB?oc=5",
-     "nb_sources": 1,
-     "primaire": false
-    }
-   ],
-   "statut": "active",
-   "societes": [
-    "google"
    ]
   },
   {
@@ -1371,7 +1426,7 @@
      "primaire": false
     }
    ],
-   "statut": "active",
+   "statut": "en sommeil",
    "societes": [
     "meta"
    ]
