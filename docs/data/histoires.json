@@ -1,6 +1,303 @@
 {
- "maj": "2026-10-22T00:54:57.749939+00:00",
+ "maj": "2026-10-22T04:43:13.586054+00:00",
  "histoires": [
+  {
+   "id": "h_6738b35483",
+   "titre": "Jev : évaluation rapide de l'IA clinique",
+   "resume": "",
+   "creee": "2026-10-22T04:43:13.586054+00:00",
+   "maj": "2026-10-22T04:00:00+00:00",
+   "episodes": [
+    {
+     "id": "ce5948eae0bf42",
+     "date": "2026-10-22T04:00:00+00:00",
+     "titre": "Jev : un modèle de décision rapide pour évaluer l'IA clinique",
+     "neuf": "Publication de Jev, un modèle structuré pour évaluer l'IA clinique à moindre coût.",
+     "fil": "Jev : modèle de décision pour évaluer l'IA clinique",
+     "source": "arXiv cs.AI",
+     "lien": "https://arxiv.org/abs/2610.28826",
+     "nb_sources": 1,
+     "primaire": false
+    }
+   ],
+   "statut": "active",
+   "societes": [
+    "openai"
+   ]
+  },
+  {
+   "id": "h_61682af51c",
+   "titre": "Lancement de l'agent IA Claude Duet d'Anthropic",
+   "resume": "Anthropic déploie et enrichit son agent Claude Duet, en l'intégrant avec plus de 6 000 outils et des fonctionnalités d'achat professionnel. Cet assistant positionne l'entreprise sur le marché concurrentiel des agents personnels et professionnels.",
+   "creee": "2026-10-21T20:44:46.798337+00:00",
+   "maj": "2026-10-22T03:19:00+00:00",
+   "episodes": [
+    {
+     "id": "5dbb54a005401f",
+     "date": "2026-10-21T19:14:01+00:00",
+     "titre": "Lancement de Claude Duet par Anthropic",
+     "neuf": "Anthropic officialise l'introduction de Claude Duet sur le marché.",
+     "fil": "lancement de l'agent Claude Duet",
+     "source": "Hacker News (IA, 100+ pts)",
+     "lien": "https://claude.com/product/claude-duet",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "705d3445b65a91",
+     "date": "2026-10-21T19:53:20+00:00",
+     "titre": "Anthropic lance Claude Duet, son nouvel agent IA",
+     "neuf": "Anthropic positionne Claude Duet pour concurrencer les autres agents du marché.",
+     "fil": "lancement de Claude Duet",
+     "source": "Anthropic (actus)",
+     "lien": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQMm0xalYzS19NOGxhQ0ZpanpWeFpjN3g0VzZfVjROQ3RUemxqZmc3STZhdHlRUTlvZEJOaW52dzdVTUxOc09MMzlVeFlJSmc5V2p4WDdwWjRRaDZKMU5QbldoWHBIaTh0Qi1yc1JFaVNHM1BkQ25ucFZfbVJtWGNYMS1jRWlocDk5NUVheDVpclZEUTJw?oc=5",
+     "nb_sources": 2,
+     "primaire": false
+    },
+    {
+     "id": "05e2774a24a1f6",
+     "date": "2026-10-21T20:29:00+00:00",
+     "titre": "Anthropic lance Claude Duet, son nouvel agent personnel",
+     "neuf": "Claude Duet est présenté comme un nouvel agent personnel pour répliquer à la concurrence.",
+     "fil": "lancement de Claude Duet",
+     "source": "Anthropic (actus)",
+     "lien": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPQkZFNGVZc2Q2Q3VJYWVFNjFlOUh1NE1aNWFrZHlzOFlEMVpQU0xFQkFDSW4ydXljV1gtRnBBVzZjWi11Z3dMQ0sxdl9EdXdJOWl0TWlYMnl1M1o5S3d4LXRuOW9lLUd3bS1lYkloUnFGVnhqbFNJSGtVRUt4ZnlWSVg1Q01YOHlrWF9tZ0RsQXptUjljR0MxVFVaWW0xTXMweUE?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "29513dd2417946",
+     "date": "2026-10-21T20:41:02+00:00",
+     "titre": "Anthropic entre dans la course aux agents IA avec Claude Duet",
+     "neuf": "Anthropic officialise son entrée sur le marché des agents avec Claude Duet.",
+     "fil": "Lancement de l'agent IA Claude Duet d'Anthropic",
+     "source": "Anthropic et gouvernement",
+     "lien": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNblFra1FIR1VRWmpPaW80WGJSZGNtVG02LUMzU0pvR0NQbkJ3R1N1eGxTS0ZhblV6ZDV1VUNiMVVKVHRCNVI5aHZaZjBGREZUSDg3ekExUnFFWjF2QUs4Qk9ZREN6cUt4QVNZTnlwLThQMmt0Wmp3QWh1QkF3TDFuY1hNOGRnU2Ew?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "7abf36518713c4",
+     "date": "2026-10-22T01:05:09+00:00",
+     "titre": "Nouvel agent IA d'Anthropic pour l'achat de fournitures professionnelles",
+     "neuf": "L'agent d'Anthropic se dote de capacités d'achat autonome de fournitures professionnelles.",
+     "fil": "Nouvel agent IA d'Anthropic pour les achats professionnels",
+     "source": "Anthropic (actus)",
+     "lien": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQWjdMOWV2Z1JpdUNIN05TWE53U2JJRW1obFBKT05xQVQtc05ZUm9iM3JSaWxsdFpFSTB5UldmbnZqVlZ0bHZhaHZiNkFUMFp3NlpxTUZYOTBWc3RhZWZjSjhseGhOVlBVbE9scnRTLWhZS0lEU2JNTmc2UUwxSHI3ZS1lWXMyc3hFUkk4N2dvZGp2Q2w3amxVUHRiVkRHeHNGT2RrbF9mWHRfa3hrMmc?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "31cb9fa2449425",
+     "date": "2026-10-22T03:19:00+00:00",
+     "titre": "Claude Duet intègre plus de 6 000 outils pour automatiser les tâches",
+     "neuf": "Claude Duet se connecte à plus de 6 000 intégrations pour automatiser les flux de travail en entreprise.",
+     "fil": "Intégrations de Claude Duet",
+     "source": "Anthropic (actus)",
+     "lien": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPOHZGSWdQNmhaM1AwX2tMNFl0TGo3by1jaG9ESnI3cm1za2ZIbnF3TUJtUVZlOXJLZW9KYlJXWkdmLXRqejFOM2VPNlduTEV1bEx1U0VvQ0c1WDZ6S0YwdnFWNElWTVgway1yTFc5WE84ZFZ1VEo0M3NBbkVQLURuRUgtN3E2cXBsN0lPcFo3aTc?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    }
+   ],
+   "statut": "active",
+   "societes": [
+    "anthropic",
+    "openai"
+   ]
+  },
+  {
+   "id": "h_91634de536",
+   "titre": "Riemann Computing : réduction des coûts d'entraînement",
+   "resume": "",
+   "creee": "2026-10-22T04:43:13.586054+00:00",
+   "maj": "2026-10-22T03:05:58+00:00",
+   "episodes": [
+    {
+     "id": "39ca5b4e3ca4ca",
+     "date": "2026-10-22T03:05:58+00:00",
+     "titre": "Riemann Computing lance une démo de modèle IA de 13 milliards de paramètres pour réduire les coûts",
+     "neuf": "Riemann Computing présente une démo de modèle pour réduire les coûts d'entraînement.",
+     "fil": "Riemann Computing et réduction des coûts d'entraînement",
+     "source": "Grandes annonces IA",
+     "lien": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxPd2NONXZsaWZOOTBSZHlhQTZlVDNjZEllY3pFaGVxX2NNd3VxenYxeXpubTNLRDVXRTlWRm5mSXFMRDc5b2w1TDVLWGxWWlNTNUpjSUl0MFRYZFU4d3FhU1drbUJjUVRkT1BrSkJFbEZMYzlYWF91bzBHODZGcFdZWTNDLVhYMFV6Mnc1M3lMeWhsbHduY2xtUGdqUkxlLURvTGYxMW5pTGg3bXI2akQtWWZmZmwxaTgyVkVVYmZxWWpSaGVnYy1Kc1RWTmhMNzl2VGw5UHAxbk80ZVBCLUJNcnBTaUFEelRobUtSYUNJSQ?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    }
+   ],
+   "statut": "active",
+   "societes": []
+  },
+  {
+   "id": "h_9c6730df93",
+   "titre": "Kitten-TTS 2 : modèle de synthèse vocale 1.58-bit",
+   "resume": "",
+   "creee": "2026-10-22T04:43:13.586054+00:00",
+   "maj": "2026-10-22T00:33:11+00:00",
+   "episodes": [
+    {
+     "id": "6149c70af94258",
+     "date": "2026-10-22T00:33:11+00:00",
+     "titre": "Kitten-TTS 2 : premier modèle de synthèse vocale 1.58-bit open source",
+     "neuf": "Sortie de Kitten-TTS 2, le premier modèle de synthèse vocale quantifié à 1.58-bit tournant sur CPU.",
+     "fil": "Kitten-TTS 2 : premier modèle de synthèse vocale 1.58-bit",
+     "source": "r/LocalLLaMA",
+     "lien": "https://www.reddit.com/r/LocalLLaMA/comments/1xc48or/kittentts_2_new_opensource_sota_158_bit_tts/",
+     "nb_sources": 1,
+     "primaire": false
+    }
+   ],
+   "statut": "active",
+   "societes": [
+    "huggingface"
+   ]
+  },
+  {
+   "id": "h_706c77ae76",
+   "titre": "Le projet de loi d'Anthropic sur la sécurité de l'IA",
+   "resume": "Anthropic structure sa proposition de régulation en définissant des critères stricts d'arrêt d'urgence et en soutenant un projet de loi permettant de suspendre les modèles présentant des risques mortels de masse ou dépassant le seuil d'un milliard de dollars.",
+   "creee": "2026-10-20T09:56:16.457937+00:00",
+   "maj": "2026-10-21T23:53:38+00:00",
+   "episodes": [
+    {
+     "id": "4a721a6610aa2c",
+     "date": "2026-10-16T21:45:00+00:00",
+     "titre": "Anthropic propose discrètement son propre projet de loi sur la sécurité de l'IA",
+     "neuf": "Anthropic soumet discrètement son propre texte législatif sur la sécurité aux législateurs.",
+     "fil": "Projet de loi d'Anthropic sur la sécurité de l'IA",
+     "source": "Grandes annonces IA",
+     "lien": "https://news.google.com/rss/articles/CBMieEFVX3lxTE0ydWVrbHdHeGNraEdTSHQ5eExwZ2lLRUU1U1BoVFJUTWNLenpWTXJOMHNnWnhaa0thQXlRbk1KdEliVVVGUEJXZWwtcWtUZE9Ielo2X05DaHJKSmJpd05rRl9vMWdQQUE4ZnVRRFBLQ3hlcm9FNG12bg?oc=5",
+     "nb_sources": 2,
+     "primaire": false
+    },
+    {
+     "id": "c9634539a3ae68",
+     "date": "2026-10-17T02:44:47+00:00",
+     "titre": "Anthropic pousserait un projet de loi limitant le pouvoir de l'État",
+     "neuf": "Des analyses juridiques révèlent que le texte d'Anthropic viserait aussi à restreindre les blocages gouvernementaux de modèles.",
+     "fil": "Projet de loi d'Anthropic sur la sécurité de l'IA",
+     "source": "Anthropic et gouvernement",
+     "lien": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPUUpETGxDdXo5QzRMMEdKUko5cWxsQzJSeDhRUUVZYV94Q2RKc1FjV2JaT1hmTUxBanF2WGN5bGFObkdXVTExVV80WFVpY2NfenEzOWFOUnFGbDRkbHBPcjRvcmJkbk5TYVRTV1U5NXNZajRlYVE5TTRKak1zYXNQNjlIUzNmVEw3?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "a07459ee24b06f",
+     "date": "2026-10-18T11:25:00+00:00",
+     "titre": "Le projet de loi sur la sécurité de l'IA d'Anthropic",
+     "neuf": "Précisions sur le périmètre du texte d'Anthropic, qui ne s'appliquerait qu'en présence de dommages massifs.",
+     "fil": "Projet de loi d'Anthropic sur la sécurité de l'IA",
+     "source": "Grandes annonces IA",
+     "lien": "https://news.google.com/rss/articles/CBMiiwNBVV95cUxOZzBaVmx3ZGk3YlBaUW1pR0FwLVdwWFlwaVlUeVFVdHY4dVhqRExLeV91blg0ZmNyRERfMFpQNmY5NlZtaW8xUDVwbEVlVWFMLUNkUnFiRk9KMEtsNThBR2loVXRxWkZiekxNYllWaEZpTzZBNUMtNndZUnVvTzQzZFJWS2d4NTE2eldDUzR0R2RDNHhuZ3p0cW9ib2puME5nQ2xpR2RRQkRkMmxjTmw2NV9Jck1tZjVCUDZwYjlYb0NyMS1MbWV0cE00SzlBbzZWcFB6M1FnRkFveFQxV0o2QS11MWtzOEUtQkx2NG40S3RJM0lOMUNBZjkzelBLdk94QzA3LUl6cDlPMFF3ZUM2MDYzSDRtQVlWR0pEeTVoY0JDdEN0WUxiUDl1eFpGTDBObUtZRHVlb0pyYzdMOFdTVUIxTXRQNnV5eGFlMWJIbEJhQWpKUDZEX1psZWxNakkzdWp2ekE3V3VFNWNXT21oYnA4c0w5bHZCTHNVUGNkLXRJU3pwMlV6V1p2aw?oc=5",
+     "nb_sources": 2,
+     "primaire": false
+    },
+    {
+     "id": "764ec59d5ad90e",
+     "date": "2026-10-18T23:10:26+00:00",
+     "titre": "Controverse autour d'une mesure de sécurité à un milliard de dollars d'Anthropic",
+     "neuf": "Des résistances et critiques émergent autour des initiatives et seuils de sécurité d'Anthropic.",
+     "fil": "même projet de loi / mesures de sécurité d'Anthropic",
+     "source": "Anthropic et gouvernement",
+     "lien": "https://news.google.com/rss/articles/CBMidEFVX3lxTE93SF8yZ0JVZjB5UWlKSklpRTRrVU5TaWlqTC1Mb2duVWlMQVVtRTJuZ1V2cnlsek5mTUxtVHdJQTR3RmZpRzViQTBkUTRyallVY3YzRjdqYlE4S2NCNnk3Z2JUcFhnM0xaOVdMNEpUMHppeFQ5?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "caf615d2c5f937",
+     "date": "2026-10-19T02:46:30+00:00",
+     "titre": "Le PDG d'Anthropic appelle à une réglementation renforcée de l'IA",
+     "neuf": "Le PDG d'Anthropic plaide publiquement sur ABC News pour une réglementation renforcée.",
+     "fil": "même initiative réglementaire d'Anthropic",
+     "source": "Anthropic et gouvernement",
+     "lien": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNTnFDeXdUaGRRY3FzRWFMbVpRbFBrVXVhOHNDWDRMaFQ1T1kzclBENEtWa3R5UDBDQktzb3Z3N0FYUjJsejBwZUY5eURuejdvaFg4eXJrSndRLWdvTGtDcVdwOFdXeHZlVWo4eXJDc3ZGWlg0aTZwak1ySWwtS3hkSzNmdVR3MEhGXzdGRDRjV3dpMzVTOFhDX0o1Z3FBSDBqamfSAacBQVVfeXFMTzVVZEpXZk9NbHhzV241am1weGozclJlMUV6WFd1VFFQSnhoLXhibFlnVnNQaGRsUm5QNjFtT2F4ZXdQUk9BN0VCbHgweEUySVhkMjRHZDROSmRoem1FUGwzTXVVd2wxZWkycDdWZld1RW5JaFJJd0tQMkx2VlkwNG9wS3Z6blByVkFpLV9lbEhjMjNSTDdoQzROTDhPbnlGbTdlRHJIUE0?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "bcf713c50f3a36",
+     "date": "2026-10-20T00:29:45+00:00",
+     "titre": "Fuite d'un projet de loi lié à Anthropic dans The Washington Post",
+     "neuf": "Un projet de loi lié à Anthropic fait l'objet d'une fuite médiatique rapportée par le Washington Post.",
+     "fil": "même projet de loi ou texte législatif concernant Anthropic",
+     "source": "Anthropic et gouvernement",
+     "lien": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOV3ZSeFlQcXJNaWYwT0RBeGN4WVhTWjRma2FRdHhzSlFRNmFZRnNOYzBSbDd3eE95ZFNqTkx1OEV0dkFXTXJCWFZsSEV4NHlLTjE4eU5rVDdzN0pfMnNWcFNmWk5jb0xnWHFyRUFZc1lsUFVUa2x6LVFjb214Ul9zU0dvQkh5emJZRWozVVFqNXU5SWN4dzBuZWc5Rm9JYURtMEV2ZE5qTzhDQ1Jlemc?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "c21f3eee513ab7",
+     "date": "2026-10-21T09:00:00+00:00",
+     "titre": "Pourquoi le projet de loi d'Anthropic fixe un seuil de risque à un milliard de dollars",
+     "neuf": "Des détails émergent sur le projet de loi d'Anthropic, révélant qu'il fixe un seuil de risque spécifique fixé à un milliard de dollars.",
+     "fil": "même projet de loi sur la sécurité de l'IA rédigé par Anthropic",
+     "source": "Anthropic et gouvernement",
+     "lien": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNWWhaN0lXMkdTcldqYTBoVktsbUx1QzI3emNYTmZ2Q2ZENEp0NFh2My1VeGZLbnlYbS1SMFNkak1FLXk1eGtaMUMtME9EOFpCV3N4TG45ZEUyNHRiVFNZcHFSTURZel9kSzNKRU8ySHBNZmtrcEg0VkNrdHhjUF8yWFVjMEFlYzhpcVE?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "f34bda1d353d9b",
+     "date": "2026-10-21T09:58:26+00:00",
+     "titre": "Un projet de loi d'Anthropic permettrait à un juge de bloquer le lancement d'un modèle d'IA",
+     "neuf": "Le projet de loi soutenu par Anthropic prévoirait spécifiquement la possibilité pour un juge d'interdire la sortie d'un modèle jugé risqué.",
+     "fil": "même projet de loi d'Anthropic sur la sécurité",
+     "source": "Grandes annonces IA",
+     "lien": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBVSGJfdmJHZU05d0ZGQWFTbzhRZlFhMDV5S2xSNWV6OXo2VmZFRTRRcE0xLWd4RkVacXNiYWRvVkE3OVBqbEVqcXFkbnpScHl4ZVJuLVg1V3YtWmc?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "30e3476c5a4f82",
+     "date": "2026-10-21T17:45:08+00:00",
+     "titre": "Anthropic définit ses propres règles pour l'arrêt de l'IA",
+     "neuf": "Anthropic formalise ses propres critères et protocoles pour l'arrêt d'urgence de ses systèmes d'intelligence artificielle.",
+     "fil": "Règles et protocoles d'arrêt de l'IA définis par Anthropic",
+     "source": "Anthropic et gouvernement",
+     "lien": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNNklqRkxuZlc0bjBpTFdqTzlnaTlJcmY1aHN6MEc4aVRHSkJOYUxic0Z6cEdxbmZmZl9yNFNCZTJqZm1KRHdMTzZDSHBtVHYyNGxhelgzSXY3bWlqOXZOaVdOc0xRRzc1ZE5FV2c0aUljLXBXRlh3SUhucXFZdXc4ZFZzNl9hQnN0ZXNIUEhKVE9NOFNXRTM0TlRsOXdxUzBLM2pDZXBJMTlHNzBDdXc?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "6e6bacec45099e",
+     "date": "2026-10-21T23:53:38+00:00",
+     "titre": "Un projet de loi d'Anthropic viserait à suspendre les IA en cas de risque mortel",
+     "neuf": "Le projet de loi d'Anthropic prévoit d'interrompre les modèles d'IA si leur utilisation présente un risque mortel de masse.",
+     "fil": "Projet de loi d'Anthropic sur la sécurité et la suspension des IA",
+     "source": "Anthropic et gouvernement",
+     "lien": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQXzBNYzBOY3ZQNHFJU2xxWkxDeEVzTVhIZU9vMWlFWUZYd0FVQUQzbDBZSHd4c0Y2WXZiVG9Ib1lNbVRUOC11aXBKYU1ONVladDF4Y2JySG9WZ0w1b1dPbmM4b2tyR3c3T3ZUOVZ1UFZSZ1Vva3hVbVBNcldKRzlPaVc2aE14RjhDRGc?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    }
+   ],
+   "statut": "active",
+   "societes": [
+    "anthropic"
+   ]
+  },
+  {
+   "id": "h_3a8b40c862",
+   "titre": "Recursive Flint : modèle open source pour le code",
+   "resume": "",
+   "creee": "2026-10-22T04:43:13.586054+00:00",
+   "maj": "2026-10-21T22:55:43+00:00",
+   "episodes": [
+    {
+     "id": "4c02cdadd54d93",
+     "date": "2026-10-21T22:55:43+00:00",
+     "titre": "Recursive Flint : le nouveau modèle agentique open source pour le code",
+     "neuf": "Sortie de Recursive Flint, un modèle open source de 40 milliards de paramètres taillé pour le code.",
+     "fil": "Recursive Flint : nouveau modèle open source pour le code",
+     "source": "r/LocalLLaMA",
+     "lien": "https://www.reddit.com/r/LocalLLaMA/comments/1xc23iq/recursive_flint_the_qwen38_35b_weve_all_been/",
+     "nb_sources": 1,
+     "primaire": false
+    }
+   ],
+   "statut": "active",
+   "societes": [
+    "alibaba"
+   ]
+  },
   {
    "id": "h_27b5489481",
    "titre": "Rupture entre le gouvernement américain et Anthropic",
@@ -140,53 +437,6 @@
    ]
   },
   {
-   "id": "h_61682af51c",
-   "titre": "Lancement de l'agent IA Claude Duet d'Anthropic",
-   "resume": "Anthropic entre sur le marché des agents IA avec le lancement de Claude Duet. Ce nouvel assistant personnel et professionnel vient concurrencer les offres similaires d'OpenAI et de Meta.",
-   "creee": "2026-10-21T20:44:46.798337+00:00",
-   "maj": "2026-10-21T20:29:00+00:00",
-   "episodes": [
-    {
-     "id": "5dbb54a005401f",
-     "date": "2026-10-21T19:14:01+00:00",
-     "titre": "Lancement de Claude Duet par Anthropic",
-     "neuf": "Anthropic officialise l'introduction de Claude Duet sur le marché.",
-     "fil": "lancement de l'agent Claude Duet",
-     "source": "Hacker News (IA, 100+ pts)",
-     "lien": "https://claude.com/product/claude-duet",
-     "nb_sources": 1,
-     "primaire": false
-    },
-    {
-     "id": "705d3445b65a91",
-     "date": "2026-10-21T19:53:20+00:00",
-     "titre": "Anthropic lance Claude Duet, son nouvel agent IA",
-     "neuf": "Anthropic positionne Claude Duet pour concurrencer les autres agents du marché.",
-     "fil": "lancement de Claude Duet",
-     "source": "Anthropic (actus)",
-     "lien": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQMm0xalYzS19NOGxhQ0ZpanpWeFpjN3g0VzZfVjROQ3RUemxqZmc3STZhdHlRUTlvZEJOaW52dzdVTUxOc09MMzlVeFlJSmc5V2p4WDdwWjRRaDZKMU5QbldoWHBIaTh0Qi1yc1JFaVNHM1BkQ25ucFZfbVJtWGNYMS1jRWlocDk5NUVheDVpclZEUTJw?oc=5",
-     "nb_sources": 2,
-     "primaire": false
-    },
-    {
-     "id": "05e2774a24a1f6",
-     "date": "2026-10-21T20:29:00+00:00",
-     "titre": "Anthropic lance Claude Duet, son nouvel agent personnel",
-     "neuf": "Claude Duet est présenté comme un nouvel agent personnel pour répliquer à la concurrence.",
-     "fil": "lancement de Claude Duet",
-     "source": "Anthropic (actus)",
-     "lien": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPQkZFNGVZc2Q2Q3VJYWVFNjFlOUh1NE1aNWFrZHlzOFlEMVpQU0xFQkFDSW4ydXljV1gtRnBBVzZjWi11Z3dMQ0sxdl9EdXdJOWl0TWlYMnl1M1o5S3d4LXRuOW9lLUd3bS1lYkloUnFGVnhqbFNJSGtVRUt4ZnlWSVg1Q01YOHlrWF9tZ0RsQXptUjljR0MxVFVaWW0xTXMweUE?oc=5",
-     "nb_sources": 1,
-     "primaire": false
-    }
-   ],
-   "statut": "active",
-   "societes": [
-    "anthropic",
-    "openai"
-   ]
-  },
-  {
    "id": "h_8dad32ff1f",
    "titre": "Fuite du modèle Claude Mythos d'Anthropic",
    "resume": "Une fuite d'information a révélé l'existence de Claude Mythos, un nouveau modèle d'Anthropic. Cette fuite soulève des préoccupations notables en matière de cybersécurité.",
@@ -243,6 +493,52 @@
    "statut": "active",
    "societes": [
     "anthropic"
+   ]
+  },
+  {
+   "id": "h_c4961b9682",
+   "titre": "Contrôles de la Chine sur l'export d'IA",
+   "resume": "La Chine formalise ses contrôles à l'exportation d'IA via le MOFCOM tout en maintenant l'accès international à ses API et modèles open source.",
+   "creee": "2026-10-20T09:56:16.457937+00:00",
+   "maj": "2026-10-21T13:43:39+00:00",
+   "episodes": [
+    {
+     "id": "312d9d2bf59580",
+     "date": "2026-10-16T18:18:10+00:00",
+     "titre": "La Chine prévoit de durcir ses contrôles sur l'exportation d'IA",
+     "neuf": "La Chine planifie un renforcement de ses restrictions visant les modèles open-weight et des technologies clés.",
+     "fil": "Contrôles à l'export de l'IA par la Chine",
+     "source": "Contrôles à l'export IA",
+     "lien": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPdU1Eb2ZqTHBnQlJISXdubUVnNHZLTXJOLXlpdDI3cFlRWjZLOUpWRGpCTTgwTmZZZk1ydlRSQnVnV29sZTJwSF9LOWxnbktBejZYeGhpN1lINUxEVlRDb2xON2JJekdvdXo1dzB2VzBjOV9TR3NzSF85Z0dYc0N1NzVhWU5OU3kyZTNHSEE2ZFljX1RJdFFyWXBHdmExekZ2X0tPTUI5U1AzRUxWWkl6MENR?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "f16f6a62981a38",
+     "date": "2026-10-20T10:30:00+00:00",
+     "titre": "Pékin restreint l'export de technologies d'IA sans toucher aux API de DeepSeek",
+     "neuf": "Pékin officialise ses restrictions sur l'exportation de technologies d'IA tout en préservant l'accès international aux API et modèles open source de DeepSeek.",
+     "fil": "mêmes restrictions de l'exportation de technologies d'IA par la Chine",
+     "source": "ActuIA",
+     "lien": "https://www.actuia.com/actualite/pekin-veut-restreindre-lexport-de-23-technologies-dia-sans-toucher-a-lapi-de-deepseek-et-qwen/",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "5bd5883a528400",
+     "date": "2026-10-21T13:43:39+00:00",
+     "titre": "MOFCOM's New Rules and the Future of Chinese AI - ChinaTalk",
+     "neuf": "Nouvelles analyses sur l'impact à long terme des règles du MOFCOM concernant les contrôles à l'exportation d'IA en Chine.",
+     "fil": "MOFCOM's New Rules and the Future of Chinese AI",
+     "source": "Contrôles à l'export IA",
+     "lien": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBOREZsUnBob1FqbWpTTW1EMUE3TkN2Zmg4VUJrbE9KbDN5MUdWWFltczkwQWVpT3JlTlFtY1RqRFNtQkR2SDR4RkhiaHFmUVpabnJURS1kVVVxSUhpNll3?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    }
+   ],
+   "statut": "active",
+   "societes": [
+    "deepseek"
    ]
   },
   {
@@ -337,107 +633,6 @@
    "statut": "active",
    "societes": [
     "openai"
-   ]
-  },
-  {
-   "id": "h_706c77ae76",
-   "titre": "Le projet de loi d'Anthropic sur la sécurité de l'IA",
-   "resume": "Anthropic a soumis sa propre proposition de loi sur la sécurité de l'IA, fixant notamment un seuil de risque à un milliard de dollars. De nouvelles précisions indiquent que le texte pourrait donner le pouvoir à un juge de bloquer le lancement d'un modèle d'IA jugé risqué.",
-   "creee": "2026-10-20T09:56:16.457937+00:00",
-   "maj": "2026-10-21T09:58:26+00:00",
-   "episodes": [
-    {
-     "id": "4a721a6610aa2c",
-     "date": "2026-10-16T21:45:00+00:00",
-     "titre": "Anthropic propose discrètement son propre projet de loi sur la sécurité de l'IA",
-     "neuf": "Anthropic soumet discrètement son propre texte législatif sur la sécurité aux législateurs.",
-     "fil": "Projet de loi d'Anthropic sur la sécurité de l'IA",
-     "source": "Grandes annonces IA",
-     "lien": "https://news.google.com/rss/articles/CBMieEFVX3lxTE0ydWVrbHdHeGNraEdTSHQ5eExwZ2lLRUU1U1BoVFJUTWNLenpWTXJOMHNnWnhaa0thQXlRbk1KdEliVVVGUEJXZWwtcWtUZE9Ielo2X05DaHJKSmJpd05rRl9vMWdQQUE4ZnVRRFBLQ3hlcm9FNG12bg?oc=5",
-     "nb_sources": 2,
-     "primaire": false
-    },
-    {
-     "id": "c9634539a3ae68",
-     "date": "2026-10-17T02:44:47+00:00",
-     "titre": "Anthropic pousserait un projet de loi limitant le pouvoir de l'État",
-     "neuf": "Des analyses juridiques révèlent que le texte d'Anthropic viserait aussi à restreindre les blocages gouvernementaux de modèles.",
-     "fil": "Projet de loi d'Anthropic sur la sécurité de l'IA",
-     "source": "Anthropic et gouvernement",
-     "lien": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPUUpETGxDdXo5QzRMMEdKUko5cWxsQzJSeDhRUUVZYV94Q2RKc1FjV2JaT1hmTUxBanF2WGN5bGFObkdXVTExVV80WFVpY2NfenEzOWFOUnFGbDRkbHBPcjRvcmJkbk5TYVRTV1U5NXNZajRlYVE5TTRKak1zYXNQNjlIUzNmVEw3?oc=5",
-     "nb_sources": 1,
-     "primaire": false
-    },
-    {
-     "id": "a07459ee24b06f",
-     "date": "2026-10-18T11:25:00+00:00",
-     "titre": "Le projet de loi sur la sécurité de l'IA d'Anthropic",
-     "neuf": "Précisions sur le périmètre du texte d'Anthropic, qui ne s'appliquerait qu'en présence de dommages massifs.",
-     "fil": "Projet de loi d'Anthropic sur la sécurité de l'IA",
-     "source": "Grandes annonces IA",
-     "lien": "https://news.google.com/rss/articles/CBMiiwNBVV95cUxOZzBaVmx3ZGk3YlBaUW1pR0FwLVdwWFlwaVlUeVFVdHY4dVhqRExLeV91blg0ZmNyRERfMFpQNmY5NlZtaW8xUDVwbEVlVWFMLUNkUnFiRk9KMEtsNThBR2loVXRxWkZiekxNYllWaEZpTzZBNUMtNndZUnVvTzQzZFJWS2d4NTE2eldDUzR0R2RDNHhuZ3p0cW9ib2puME5nQ2xpR2RRQkRkMmxjTmw2NV9Jck1tZjVCUDZwYjlYb0NyMS1MbWV0cE00SzlBbzZWcFB6M1FnRkFveFQxV0o2QS11MWtzOEUtQkx2NG40S3RJM0lOMUNBZjkzelBLdk94QzA3LUl6cDlPMFF3ZUM2MDYzSDRtQVlWR0pEeTVoY0JDdEN0WUxiUDl1eFpGTDBObUtZRHVlb0pyYzdMOFdTVUIxTXRQNnV5eGFlMWJIbEJhQWpKUDZEX1psZWxNakkzdWp2ekE3V3VFNWNXT21oYnA4c0w5bHZCTHNVUGNkLXRJU3pwMlV6V1p2aw?oc=5",
-     "nb_sources": 2,
-     "primaire": false
-    },
-    {
-     "id": "764ec59d5ad90e",
-     "date": "2026-10-18T23:10:26+00:00",
-     "titre": "Controverse autour d'une mesure de sécurité à un milliard de dollars d'Anthropic",
-     "neuf": "Des résistances et critiques émergent autour des initiatives et seuils de sécurité d'Anthropic.",
-     "fil": "même projet de loi / mesures de sécurité d'Anthropic",
-     "source": "Anthropic et gouvernement",
-     "lien": "https://news.google.com/rss/articles/CBMidEFVX3lxTE93SF8yZ0JVZjB5UWlKSklpRTRrVU5TaWlqTC1Mb2duVWlMQVVtRTJuZ1V2cnlsek5mTUxtVHdJQTR3RmZpRzViQTBkUTRyallVY3YzRjdqYlE4S2NCNnk3Z2JUcFhnM0xaOVdMNEpUMHppeFQ5?oc=5",
-     "nb_sources": 1,
-     "primaire": false
-    },
-    {
-     "id": "caf615d2c5f937",
-     "date": "2026-10-19T02:46:30+00:00",
-     "titre": "Le PDG d'Anthropic appelle à une réglementation renforcée de l'IA",
-     "neuf": "Le PDG d'Anthropic plaide publiquement sur ABC News pour une réglementation renforcée.",
-     "fil": "même initiative réglementaire d'Anthropic",
-     "source": "Anthropic et gouvernement",
-     "lien": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNTnFDeXdUaGRRY3FzRWFMbVpRbFBrVXVhOHNDWDRMaFQ1T1kzclBENEtWa3R5UDBDQktzb3Z3N0FYUjJsejBwZUY5eURuejdvaFg4eXJrSndRLWdvTGtDcVdwOFdXeHZlVWo4eXJDc3ZGWlg0aTZwak1ySWwtS3hkSzNmdVR3MEhGXzdGRDRjV3dpMzVTOFhDX0o1Z3FBSDBqamfSAacBQVVfeXFMTzVVZEpXZk9NbHhzV241am1weGozclJlMUV6WFd1VFFQSnhoLXhibFlnVnNQaGRsUm5QNjFtT2F4ZXdQUk9BN0VCbHgweEUySVhkMjRHZDROSmRoem1FUGwzTXVVd2wxZWkycDdWZld1RW5JaFJJd0tQMkx2VlkwNG9wS3Z6blByVkFpLV9lbEhjMjNSTDdoQzROTDhPbnlGbTdlRHJIUE0?oc=5",
-     "nb_sources": 1,
-     "primaire": false
-    },
-    {
-     "id": "bcf713c50f3a36",
-     "date": "2026-10-20T00:29:45+00:00",
-     "titre": "Fuite d'un projet de loi lié à Anthropic dans The Washington Post",
-     "neuf": "Un projet de loi lié à Anthropic fait l'objet d'une fuite médiatique rapportée par le Washington Post.",
-     "fil": "même projet de loi ou texte législatif concernant Anthropic",
-     "source": "Anthropic et gouvernement",
-     "lien": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOV3ZSeFlQcXJNaWYwT0RBeGN4WVhTWjRma2FRdHhzSlFRNmFZRnNOYzBSbDd3eE95ZFNqTkx1OEV0dkFXTXJCWFZsSEV4NHlLTjE4eU5rVDdzN0pfMnNWcFNmWk5jb0xnWHFyRUFZc1lsUFVUa2x6LVFjb214Ul9zU0dvQkh5emJZRWozVVFqNXU5SWN4dzBuZWc5Rm9JYURtMEV2ZE5qTzhDQ1Jlemc?oc=5",
-     "nb_sources": 1,
-     "primaire": false
-    },
-    {
-     "id": "c21f3eee513ab7",
-     "date": "2026-10-21T09:00:00+00:00",
-     "titre": "Pourquoi le projet de loi d'Anthropic fixe un seuil de risque à un milliard de dollars",
-     "neuf": "Des détails émergent sur le projet de loi d'Anthropic, révélant qu'il fixe un seuil de risque spécifique fixé à un milliard de dollars.",
-     "fil": "même projet de loi sur la sécurité de l'IA rédigé par Anthropic",
-     "source": "Anthropic et gouvernement",
-     "lien": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNWWhaN0lXMkdTcldqYTBoVktsbUx1QzI3emNYTmZ2Q2ZENEp0NFh2My1VeGZLbnlYbS1SMFNkak1FLXk1eGtaMUMtME9EOFpCV3N4TG45ZEUyNHRiVFNZcHFSTURZel9kSzNKRU8ySHBNZmtrcEg0VkNrdHhjUF8yWFVjMEFlYzhpcVE?oc=5",
-     "nb_sources": 1,
-     "primaire": false
-    },
-    {
-     "id": "f34bda1d353d9b",
-     "date": "2026-10-21T09:58:26+00:00",
-     "titre": "Un projet de loi d'Anthropic permettrait à un juge de bloquer le lancement d'un modèle d'IA",
-     "neuf": "Le projet de loi soutenu par Anthropic prévoirait spécifiquement la possibilité pour un juge d'interdire la sortie d'un modèle jugé risqué.",
-     "fil": "même projet de loi d'Anthropic sur la sécurité",
-     "source": "Grandes annonces IA",
-     "lien": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBVSGJfdmJHZU05d0ZGQWFTbzhRZlFhMDV5S2xSNWV6OXo2VmZFRTRRcE0xLWd4RkVacXNiYWRvVkE3OVBqbEVqcXFkbnpScHl4ZVJuLVg1V3YtWmc?oc=5",
-     "nb_sources": 1,
-     "primaire": false
-    }
-   ],
-   "statut": "active",
-   "societes": [
-    "anthropic"
    ]
   },
   {
@@ -744,41 +939,6 @@
    ]
   },
   {
-   "id": "h_c4961b9682",
-   "titre": "Contrôles de la Chine sur l'export d'IA",
-   "resume": "La Chine officialise sa législation renforcée sur les contrôles à l'exportation d'IA, tout en choisissant de préserver l'accès international aux API et aux modèles open source comme ceux de DeepSeek.",
-   "creee": "2026-10-20T09:56:16.457937+00:00",
-   "maj": "2026-10-20T10:30:00+00:00",
-   "episodes": [
-    {
-     "id": "312d9d2bf59580",
-     "date": "2026-10-16T18:18:10+00:00",
-     "titre": "La Chine prévoit de durcir ses contrôles sur l'exportation d'IA",
-     "neuf": "La Chine planifie un renforcement de ses restrictions visant les modèles open-weight et des technologies clés.",
-     "fil": "Contrôles à l'export de l'IA par la Chine",
-     "source": "Contrôles à l'export IA",
-     "lien": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPdU1Eb2ZqTHBnQlJISXdubUVnNHZLTXJOLXlpdDI3cFlRWjZLOUpWRGpCTTgwTmZZZk1ydlRSQnVnV29sZTJwSF9LOWxnbktBejZYeGhpN1lINUxEVlRDb2xON2JJekdvdXo1dzB2VzBjOV9TR3NzSF85Z0dYc0N1NzVhWU5OU3kyZTNHSEE2ZFljX1RJdFFyWXBHdmExekZ2X0tPTUI5U1AzRUxWWkl6MENR?oc=5",
-     "nb_sources": 1,
-     "primaire": false
-    },
-    {
-     "id": "f16f6a62981a38",
-     "date": "2026-10-20T10:30:00+00:00",
-     "titre": "Pékin restreint l'export de technologies d'IA sans toucher aux API de DeepSeek",
-     "neuf": "Pékin officialise ses restrictions sur l'exportation de technologies d'IA tout en préservant l'accès international aux API et modèles open source de DeepSeek.",
-     "fil": "mêmes restrictions de l'exportation de technologies d'IA par la Chine",
-     "source": "ActuIA",
-     "lien": "https://www.actuia.com/actualite/pekin-veut-restreindre-lexport-de-23-technologies-dia-sans-toucher-a-lapi-de-deepseek-et-qwen/",
-     "nb_sources": 1,
-     "primaire": false
-    }
-   ],
-   "statut": "active",
-   "societes": [
-    "deepseek"
-   ]
-  },
-  {
    "id": "h_520aa59662",
    "titre": "Déploiement et disponibilité de Gemini 4 Argon",
    "resume": "Google DeepMind a lancé Gemini 4 Argon, un modèle de pointe initialement réservé à la cybersécurité avant d'être ouvert aux développeurs. Les capacités de ses agents IA ont notamment été démontrées par leur réussite autonome sur des environnements complexes comme Minecraft en 27 heures.",
@@ -969,6 +1129,54 @@
    "statut": "active",
    "societes": [
     "mistral"
+   ]
+  },
+  {
+   "id": "h_65b9300d67",
+   "titre": "Spark-X2.6-4B : modèle compact pour agents",
+   "resume": "",
+   "creee": "2026-10-22T04:43:13.586054+00:00",
+   "maj": "2026-10-19T03:19:51+00:00",
+   "episodes": [
+    {
+     "id": "30716574fe7d73",
+     "date": "2026-10-19T03:19:51+00:00",
+     "titre": "Sortie du modèle compact Spark-X2.6-4B sur Hugging Face",
+     "neuf": "Lancement du modèle compact Spark-X2.6-4B optimisé pour les agents conversationnels et le edge.",
+     "fil": "Spark-X2.6-4B : un nouveau modèle compact",
+     "source": "Hugging Face : modèles en tendance",
+     "lien": "https://huggingface.co/XHToken/Spark-X2.6-4B",
+     "nb_sources": 2,
+     "primaire": true
+    }
+   ],
+   "statut": "active",
+   "societes": [
+    "huggingface"
+   ]
+  },
+  {
+   "id": "h_62fdd0a17b",
+   "titre": "Ropedia W0 : modèle de loco-manipulation unifié",
+   "resume": "",
+   "creee": "2026-10-22T04:43:13.586054+00:00",
+   "maj": "2026-10-18T20:00:00+00:00",
+   "episodes": [
+    {
+     "id": "236e9cce6140d5",
+     "date": "2026-10-18T20:00:00+00:00",
+     "titre": "Ropedia W0 : un modèle mondial de loco-manipulation pour humains et robots",
+     "neuf": "Sortie de Ropedia W0, un modèle unifié combinant données humaines et robotiques pour la loco-manipulation.",
+     "fil": "Ropedia W0 : un modèle mondial de loco-manipulation",
+     "source": "Hugging Face Papers",
+     "lien": "https://huggingface.co/papers/2610.26855",
+     "nb_sources": 1,
+     "primaire": true
+    }
+   ],
+   "statut": "active",
+   "societes": [
+    "huggingface"
    ]
   },
   {

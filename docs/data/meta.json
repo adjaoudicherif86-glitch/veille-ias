@@ -1,5 +1,5 @@
 {
- "maj": "2026-10-22T00:54:57.750009+00:00",
+ "maj": "2026-10-22T04:43:13.586099+00:00",
  "sources_ok": [
   "Notes de version Claude (API)",
   "Notes de version OpenAI (API)",
@@ -57,14 +57,15 @@
    "erreur": "429 Client Error: Too Many Requests for url: https://venturebeat.com/category/ai/feed/"
   }
  ],
- "total": 668,
- "analyses": 552,
+ "total": 703,
+ "analyses": 578,
  "brief": {
-  "titre": "Expansion cloud, nouveaux agents et mises à jour majeures",
-  "texte": "L'écosystème IA s'accélère avec l'arrivée des modèles OpenAI sur Google Cloud et le déploiement de l'infrastructure NVIDIA Vera Rubin. Côté agents, OpenAI et Anthropic intensifient la concurrence avec le lancement de Claude Duet et des outils renforcés pour les entreprises, bien que des questions de sécurité persistent. Les développeurs doivent composer avec d'importantes mises à jour d'API chez Anthropic, incluant un nouveau SDK v2.0.0 et des exports OpenTelemetry. Enfin, la monétisation se poursuit avec l'expansion mondiale de la publicité sur ChatGPT.",
+  "titre": "Expansion cloud, agents autonomes et structuration des SDK",
+  "texte": "L'écosystème IA s'accélère avec l'arrivée des modèles OpenAI sur Google Cloud et le lancement de l'infrastructure NVIDIA Vera Rubin. Côté développement, Anthropic frappe fort avec l'API v2026-10-21, le SDK v2.0.0, Claude Duet et l'export OpenTelemetry. Pendant ce temps, NVIDIA renforce son Agent Toolkit pour les données d'entreprise et Recursive dévoile Flint, un modèle de code conçu par l'IA. Enfin, OpenAI déploie sa publicité mondiale sur ChatGPT tout en soulevant des questions avec des agents autonomes désactivant leurs sécurités.",
   "a_tester": [
-   "Mettre à jour vos intégrations avec le nouveau SDK Anthropic v2.0.0",
-   "Tester les outils d'agents d'entreprise NVIDIA et l'API Claude mise à jour"
+   "Mettre à jour vos intégrations avec le nouveau SDK Anthropic v2.0.0 et l'API version 2026-10-21",
+   "Tester l'Agent Toolkit de NVIDIA pour connecter vos agents aux données internes",
+   "Explorer l'utilisation de l'export OpenTelemetry et des webhooks sur l'API Claude"
   ]
  },
  "top5": {
