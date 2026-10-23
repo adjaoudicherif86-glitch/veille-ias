@@ -1,11 +1,14 @@
 {
  "url": "https://platform.claude.com/docs/en/release-notes/overview",
- "maj": "2026-10-22T20:42:52.879140+00:00",
+ "maj": "2026-10-23T00:57:49.750056+00:00",
  "lignes": [
   "Release notes",
   "Claude Platform release notes",
   "Updates to the Claude Platform, including the Claude API, client SDKs, and the Claude Console.",
   "The Claude Platform release notes list changes to the Claude API, the client SDKs, and the Claude Console, newest first.",
+  "October 22, 2026",
+  "- We've launched Claude Models on Google Cloud (Anthropic managed), the Claude API operated by Anthropic and reached through your Google Cloud project. Google Cloud IAM controls access. Google Cloud Marketplace handles billing.",
+  "- Fast mode is available for Claude Opus 5.5 on Claude Models on Google Cloud (Anthropic managed).",
   "October 21, 2026",
   "- We've released API version 2026-10-21. Migrating to API version 2026-10-21 shows how to upgrade.",
   "- We've released new versions of the client SDKs and the ant CLI that send API version 2026-10-21 by default: Python SDK 2.0.0, TypeScript SDK 1.0.0, C# SDK 13.0.0, Go SDK 2.0.0, Java SDK 3.0.0, PHP SDK 1.0.0, Ruby SDK 2.0.0, and ant CLI 2.0.0. See Switch to 2026-10-21.",
