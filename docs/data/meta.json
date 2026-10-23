@@ -1,5 +1,5 @@
 {
- "maj": "2026-10-23T16:46:23.381022+00:00",
+ "maj": "2026-10-23T20:44:31.752638+00:00",
  "sources_ok": [
   "Notes de version Claude (API)",
   "Notes de version OpenAI (API)",
@@ -57,15 +57,15 @@
    "erreur": "429 Client Error: Too Many Requests for url: https://venturebeat.com/category/ai/feed/"
   }
  ],
- "total": 901,
- "analyses": 764,
+ "total": 924,
+ "analyses": 783,
  "brief": {
-  "titre": "Multiplication des partenariats stratégiques et avancées des modèles IA",
-  "texte": "Le secteur de l'intelligence artificielle est marqué par de nombreuses annonces structurantes aujourd'hui, allant des infrastructures cloud aux déploiements bancaires. Anthropic déploie ses modèles sur Google Cloud, tandis que le Crédit Agricole officialise son choix de Mistral AI pour sa plateforme. Côté produits, OpenAI lance l'API Decisions avec gpt-6-luna, Microsoft dévoile Decision-1 et Canva entre dans la course à la génération d'images avec son propre modèle. Enfin, la sécurité et l'observabilité progressent avec la plateforme Minerva de NVIDIA, bien que des menaces persistent, illustrées par le détournement d'agents d'IA par un groupe lié à Pékin.",
+  "titre": "Anthropic s'associe à Google Cloud et Canva lance sa propre IA",
+  "texte": "L'écosystème IA s'accélère avec l'arrivée des modèles Claude sur Google Cloud et le lancement du tout premier modèle de génération d'images de Canva. Anthropic complète ces annonces en déployant l'API Claude Tag pour les entreprises et sa mise à jour SDK v2.2.0. Du côté de la recherche et de l'open source, Nvidia dévoile un modèle de design de protéines tandis que Moonshot AI introduit Kimi K3.1 Pro. Enfin, OpenAI poursuit sa croissance avec une levée de fonds record en préparation et l'optimisation de son infrastructure.",
   "a_tester": [
-   "Explorer le déploiement des modèles Claude sur Google Cloud pour vos projets cloud",
-   "Tester les nouvelles capacités de l'API Decisions d'OpenAI avec gpt-6-luna",
-   "Découvrir le nouveau modèle de génération d'images de Canva pour vos visuels"
+   "Tester les modèles Claude directement depuis l'infrastructure Google Cloud",
+   "Explorer les capacités du nouveau modèle de génération d'images de Canva",
+   "Mettre à jour le SDK Anthropic vers la version v2.2.0 pour vos intégrations"
   ]
  },
  "top5": {
