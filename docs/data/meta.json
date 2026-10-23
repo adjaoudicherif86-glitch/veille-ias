@@ -1,5 +1,5 @@
 {
- "maj": "2026-10-23T08:46:20.501892+00:00",
+ "maj": "2026-10-23T12:52:47.045505+00:00",
  "sources_ok": [
   "Notes de version Claude (API)",
   "Notes de version OpenAI (API)",
@@ -57,15 +57,15 @@
    "erreur": "429 Client Error: Too Many Requests for url: https://venturebeat.com/category/ai/feed/"
   }
  ],
- "total": 872,
- "analyses": 721,
+ "total": 883,
+ "analyses": 743,
  "brief": {
-  "titre": "Entre déploiements massifs et nouveaux modèles, l'IA accélère",
-  "texte": "L'écosystème IA franchit une nouvelle étape avec l'adoption massive des outils professionnels par des géants comme Uber et le Crédit Agricole, qui s'associe à Mistral AI. Côté technique, les lancements s'enchaînent avec l'API Decisions d'OpenAI, l'arrivée de Claude sur Google Cloud et la mise en orbite du modèle Decision-1 par Microsoft. Pendant ce temps, les investissements continuent de flamber, illustrés par la future levée de fonds géante d'OpenAI et la nouvelle structure financière de Meta. Enfin, la sécurité et la conformité restent au premier plan, entre la plateforme d'observabilité Minerva de NVIDIA et la validation des régulations chinoises par DeepSeek et MiniMax.",
+  "titre": "Multiplication des partenariats stratégiques et avancées des modèles IA",
+  "texte": "Le secteur de l'intelligence artificielle est marqué par de nombreuses annonces structurantes aujourd'hui, allant des infrastructures cloud aux déploiements bancaires. Anthropic déploie ses modèles sur Google Cloud, tandis que le Crédit Agricole officialise son choix de Mistral AI pour sa plateforme. Côté produits, OpenAI lance l'API Decisions avec gpt-6-luna, Microsoft dévoile Decision-1 et Canva entre dans la course à la génération d'images avec son propre modèle. Enfin, la sécurité et l'observabilité progressent avec la plateforme Minerva de NVIDIA, bien que des menaces persistent, illustrées par le détournement d'agents d'IA par un groupe lié à Pékin.",
   "a_tester": [
-   "Déployer et tester l'API Decisions d'OpenAI avec gpt-6-luna pour vos flux décisionnels",
-   "Explorer les nouveaux modèles Claude désormais disponibles sur Google Cloud",
-   "Tester le nouveau modèle de génération d'images intégré à Canva pour vos créations visuelles"
+   "Explorer le déploiement des modèles Claude sur Google Cloud pour vos projets cloud",
+   "Tester les nouvelles capacités de l'API Decisions d'OpenAI avec gpt-6-luna",
+   "Découvrir le nouveau modèle de génération d'images de Canva pour vos visuels"
   ]
  },
  "top5": {
