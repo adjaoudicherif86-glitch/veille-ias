@@ -61,20 +61,14 @@
   [
    null,
    "même titre",
-   "Meta's AI assistant raises privacy concerns over personal data and profiles of friends and - WGME",
-   "Meta's AI assistant raises privacy concerns over personal data and profiles of friends and - KEYE"
-  ],
-  [
-   null,
-   "même titre",
    "Meta's AI assistant raises privacy concerns over personal data and profiles of friends and - WPEC",
    "Meta's AI assistant raises privacy concerns over personal data and profiles of friends and - KEYE"
   ],
   [
-   0.858,
+   0.831,
    "même événement selon l'IA",
-   "China Plans AI Export Curbs to Exert Control Over Key Tech - Bloomberg.com",
-   "China Proposes Export Controls on AI Technologies - WSJ"
+   "China Proposes Export Controls on AI Technologies - WSJ",
+   "China mulls new tech export bans covering AI, biotechnology and solar power - South China Morning Post"
   ],
   [
    0.84,
@@ -87,6 +81,12 @@
    "même événement selon l'IA",
    "China adds 40 technologies in AI, biomedicine and PV for export controls in draft revised catalog in ‘necessar",
    "China mulls new tech export bans covering AI, biotechnology and solar power - South China Morning Post"
+  ],
+  [
+   0.828,
+   "même événement selon l'IA",
+   "China says it will curb tech exports, including AI, citing national security risks - PBS",
+   "Beijing seeks tighter grip on AI exports amid US rivalry - Reuters"
   ],
   [
    0.802,
@@ -111,6 +111,12 @@
    "même événement selon l'IA",
    "Making the internet better for AI agents might make it worse for everyone else",
    "Websites are closing their doors to AI agents"
+  ],
+  [
+   0.834,
+   "même événement selon l'IA",
+   "Google DeepMind's Gemini agents beat Minecraft with no human help - Inven Global",
+   "Four Gemini 4 Argon agents beat Minecraft without any human help - The Decoder"
   ],
   [
    0.886,
@@ -152,6 +158,12 @@
    0.881,
    "même événement selon l'IA",
    "OpenAI Expands ChatGPT Ads to 26 More Countries, Says It Has More Than 100,000 Advertisers - The Information",
+   "ChatGPT Ads expands to 26 new countries as over 100,000 advertisers have used the platform"
+  ],
+  [
+   0.833,
+   "même événement selon l'IA",
+   "OpenAI expands ChatGPT ads to 26 more countries in bid to boost revenue - Reuters",
    "ChatGPT Ads expands to 26 new countries as over 100,000 advertisers have used the platform"
   ],
   [
@@ -227,12 +239,6 @@
    "Meta to create a new class of shares to fund AI push"
   ],
   [
-   0.841,
-   "même événement selon l'IA",
-   "Meet Claude Duet, the latest AI agent intended to lighten your workload - Mashable",
-   "Anthropic takes on Muse with Claude Duet, its new AI agent - The Verge"
-  ],
-  [
    0.895,
    "même événement selon l'IA",
    "Claude Duet app is Anthropic’s bet on agents - TechCrunch",
@@ -305,10 +311,22 @@
    "Anthropic pitches AI safety bill that may block a model if 50+ people could be killed - TechCrunch"
   ],
   [
-   0.917,
+   0.839,
    "même événement selon l'IA",
-   "SpaceXAI may owe Mississippi $6.1 million for environmental violations - The Commercial Appeal",
-   "SpaceXAI facing $6.1 million in fines over alleged violations at Mississippi sites - localmemphis.com"
+   "Canva’s first AI image model plans designs before generating them",
+   "Canva releases its first image generation model"
+  ],
+  [
+   0.875,
+   "même événement selon l'IA",
+   "Anthropic's proposed AI safety bill only allows government to block models under extreme conditions - Yahoo",
+   "Anthropic pitches AI safety bill that may block a model if 50+ people could be killed - TechCrunch"
+  ],
+  [
+   0.904,
+   "même événement selon l'IA",
+   "Google Maps Is Getting Gemini AI In CarPlay - InsideEVs",
+   "Conversational Gemini navigation comes to Apple CarPlay"
   ],
   [
    0.888,
@@ -323,15 +341,15 @@
    "Mistral AI lance un nouveau modèle d’IA censé « réduire l’écart » avec les meilleurs concurrents chinois - Le "
   ],
   [
-   0.891,
-   "même événement selon l'IA",
-   "Avec son nouveau modèle, l’entreprise française Mistral veut revenir dans la course mondiale à l’intelligence ",
-   "Mistral AI lance un nouveau modèle d’IA censé « réduire l’écart » avec les meilleurs concurrents chinois - Le "
-  ],
-  [
    0.892,
    "même événement selon l'IA",
    "Critiquée pour son retard et sa stratégie, la française Mistral AI contre-attaque avec un nouveau modèle - Oue",
+   "Mistral AI lance un nouveau modèle d’IA censé « réduire l’écart » avec les meilleurs concurrents chinois - Le "
+  ],
+  [
+   0.891,
+   "même événement selon l'IA",
+   "Avec son nouveau modèle, l’entreprise française Mistral veut revenir dans la course mondiale à l’intelligence ",
    "Mistral AI lance un nouveau modèle d’IA censé « réduire l’écart » avec les meilleurs concurrents chinois - Le "
   ],
   [
@@ -347,28 +365,16 @@
    "Mistral AI lance un nouveau modèle d’IA censé « réduire l’écart » avec les meilleurs concurrents chinois - Le "
   ],
   [
+   0.823,
+   "même événement selon l'IA",
+   "Intelligence artificielle : avec Muse Wonder, Meta dit avoir rattrapé OpenAI et Anthropic et refuse de ralenti",
+   "IA : Meta dévoile un nouveau modèle qu’il dit au niveau d’OpenAI et d’Anthropic - La Croix"
+  ],
+  [
    0.949,
    "sens quasi identique",
    "Intelligence artificielle | Meta dévoile un nouveau modèle qu’il dit au niveau d’OpenAI et d’Anthropic - La Pr",
    "IA : Meta dévoile un nouveau modèle qu’il dit au niveau d’OpenAI et d’Anthropic - La Croix"
-  ],
-  [
-   0.855,
-   "même événement selon l'IA",
-   "Meta dévoile Muse Wonder, sa nouvelle IA qui veut faire de l’ombre à ChatGPT - Siècle Digital",
-   "Intelligence artificielle : avec Muse Wonder, Meta dit avoir rattrapé OpenAI et Anthropic et refuse de ralenti"
-  ],
-  [
-   0.832,
-   "même événement selon l'IA",
-   "L’UE peut-elle contrôler les modèles d’intelligence artificielle avant leur commercialisation ? Les intrusions",
-   "L’Europe lance des enquêtes sur les piratages par agents IA et met en avant l’AI Act - Next INpact"
-  ],
-  [
-   0.878,
-   "même événement selon l'IA",
-   "Une IA capable de débusquer l'inconnu : le pari du Cern et du français Mistral pour révolutionner la physique ",
-   "Le CERN et Mistral AI s'allient pour l'IA en physique - Greater Geneva Bern area (GGBa)"
   ],
   [
    0.862,
@@ -381,12 +387,6 @@
    "même événement selon l'IA",
    "Face à ElevenLabs et ses 90 langues, Mistral dégaine Voxtral 3 - Frandroid",
    "Voxtral 3 : SDK vocal et modèles pour la voix en 50+ langues - mistral.ai"
-  ],
-  [
-   0.834,
-   "même événement selon l'IA",
-   "Code PyTorch écrit pour Nvidia : ce qu'Amazon et Google font tourner sur leurs puces",
-   "Google has joined Amazon in attacking Nvidia’s stronghold with AI app developers"
   ],
   [
    0.806,
@@ -539,11 +539,6 @@
    "Consistency Is Not Validity: Self-Rewarded Moral Argumentation Makes Language Models Decisive but Pliable"
   ],
   [
-   0.839,
-   "Canva releases its first image generation model",
-   "Canva’s first AI image model plans designs before generating them"
-  ],
-  [
    0.838,
    "Gemini 4 Argon: Built to solve your hardest problems",
    "Developing Gemini 4 Argon responsibly and safely - blog.google"
@@ -592,11 +587,6 @@
    0.833,
    "En tendance sur Hugging Face : RecursiveSI/flint",
    "Recursive Flint - the \"Qwen3.8 35B\" we've all been waiting for?"
-  ],
-  [
-   0.833,
-   "ChatGPT Ads expands to 26 new countries as over 100,000 advertisers have used the platform",
-   "OpenAI expands ChatGPT ads to 26 more countries in bid to boost revenue - Reuters"
   ],
   [
    0.831,
@@ -739,6 +729,16 @@
    "World of SWECraft: Agent Collaboration at Scale via Simulated Software Worlds"
   ],
   [
+   0.819,
+   "RealCLI: Toward a Unified Evaluation of Human-Agent Collaboration for CLI Agents",
+   "MAMath-Bench: Process-Aware and Robust Evaluation of Multimodal Multi-Agent Mathematical Reasoning"
+  ],
+  [
+   0.819,
+   "Navalia: Advancing Cowork Agents through Verifiable Task Synthesis and Long-Horizon Post-Training",
+   "TauIndianBankBench: Procedure-Aware, Action-Oriented Evaluation of Tool-Using Conversational Agents"
+  ],
+  [
    0.876,
    "AI Act : les enquêtes pourraient prolonger le délai de sanction",
    "AI Act : les enquêtes pourraient prolonger le délai de sanction - ActuIA"
@@ -809,11 +809,6 @@
    "Consistency Is Not Validity: Self-Rewarded Moral Argumentation Makes Language Models Decisive but Pliable"
   ],
   [
-   0.839,
-   "Canva releases its first image generation model",
-   "Canva’s first AI image model plans designs before generating them"
-  ],
-  [
    0.838,
    "Gemini 4 Argon: Built to solve your hardest problems",
    "Developing Gemini 4 Argon responsibly and safely - blog.google"
@@ -862,11 +857,6 @@
    0.833,
    "En tendance sur Hugging Face : RecursiveSI/flint",
    "Recursive Flint - the \"Qwen3.8 35B\" we've all been waiting for?"
-  ],
-  [
-   0.833,
-   "ChatGPT Ads expands to 26 new countries as over 100,000 advertisers have used the platform",
-   "OpenAI expands ChatGPT ads to 26 more countries in bid to boost revenue - Reuters"
   ],
   [
    0.831,
@@ -937,6 +927,16 @@
    0.826,
    "En tendance sur Hugging Face : RecursiveSI/flint",
    "Ollama v0.40.8"
+  ],
+  [
+   0.826,
+   "China plans to tighten export controls on open-weight models and 23 key AI technologies - The Decoder",
+   "Pékin veut restreindre l'export de 23 technologies d'IA, sans toucher à l'API de DeepSeek et Qwen"
+  ],
+  [
+   0.826,
+   "Anthropic takes on Muse with Claude Duet, its new AI agent - The Verge",
+   "Anthropic is unveiling a workplace AI agent to rival Meta Muse and OpenAI Dots - Quartz"
   ]
  ]
 }

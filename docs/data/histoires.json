@@ -1,6 +1,41 @@
 {
- "maj": "2026-10-23T04:42:51.023197+00:00",
+ "maj": "2026-10-23T08:46:20.501823+00:00",
  "histoires": [
+  {
+   "id": "h_8dad32ff1f",
+   "titre": "Fuite du modèle Claude Mythos d'Anthropic",
+   "resume": "Une fuite d'information a révélé l'existence de Claude Mythos, un modèle d'Anthropic soulevant de fortes inquiétudes en cybersécurité. Dans le même sillage, un responsable de la sécurité de l'entreprise met en garde contre l'aggravation des menaces et les risques pesant sur les infrastructures critiques.",
+   "creee": "2026-10-21T20:44:46.798337+00:00",
+   "maj": "2026-10-23T02:44:17+00:00",
+   "episodes": [
+    {
+     "id": "71b782b54b558c",
+     "date": "2026-10-21T17:34:53+00:00",
+     "titre": "Claude Mythos d'Anthropic : une fuite inquiète la cybersécurité",
+     "neuf": "Une fuite d'un nouveau modèle baptisé Claude Mythos suscite des inquiétudes en cybersécurité.",
+     "fil": "fuite du modèle Claude Mythos",
+     "source": "IA en français (actus)",
+     "lien": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxQNzdJSG80eDBya2c4aHVFWjBtd0ZQODFpTHlIUk1sejVMQVhMZXk3YzNMYkhkQWlhQWZ4ek1ublc3WWlJVXVGVHNFYnN5VTZsQWQ0alNZaXRDN3F4MXByeGZJczJfamVlSmdwbk5kZzRxdmRBYkFuV1JuNUlCZTdiUjl1eHEzTzl6eUktY1FSdk1PWmszaWRWbUFNSF91eDhjYjRQZ0ZxSTZoX29QcnYyQUFNMS01MzI5OVUxcmpBQzNkUDIyeERSY0Vrd2hEY2tldzBFSTctWmFFQjRwQnA4?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "412fca56d8851a",
+     "date": "2026-10-23T02:44:17+00:00",
+     "titre": "Anthropic security official warns of worsening cyber threats, risks to critical infrastructure - Anadolu Ajansı",
+     "neuf": "Un responsable de la sécurité d'Anthropic met en garde contre l'aggravation des menaces cyber et les risques accrus pour les infrastructures critiques.",
+     "fil": "risques de cybersécurité liés aux modèles avancés d'Anthropic",
+     "source": "Anthropic (actus)",
+     "lien": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPZEpidTlJWm1sN1E4X3dnMnZUS2VPcGVYRG00c3R2ZnVuZ2w5eml6RDZUczZzN0d2Ykp1NDUzY0hTZHAyN1JjQlZxLUpmcGw0WGdJVWdyLWRINlVzcnNfWW00VnQ3dWFjZkVCT1l2c3VuQXFNWlU0VWY2TE5WeElmWXphYlE2R0R3LVdTTU1ZcWRkWmRTYThKWm42b1piQUJMX08tZmFYc3g0bWlSellvSkZBQjQ0TlI4M2FibGlfNVRyZjdlRXZ6RGxVdw?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    }
+   ],
+   "statut": "active",
+   "societes": [
+    "anthropic"
+   ]
+  },
   {
    "id": "h_5e0762833f",
    "titre": "Action en justice contre SpaceXAI",
@@ -827,7 +862,7 @@
   {
    "id": "h_706c77ae76",
    "titre": "Le projet de loi d'Anthropic sur la sécurité de l'IA",
-   "resume": "Anthropic structure sa proposition de régulation en définissant des critères stricts d'arrêt d'urgence via un projet de loi prévoyant de suspendre les modèles présentant des risques mortels de masse (à partir de 50 décès) ou dépassant le seuil d'un milliard de dollars.",
+   "resume": "Anthropic structure sa proposition de régulation en définissant des critères stricts d'arrêt d'urgence via un projet de loi prévoyant de suspendre les modèles présentant des risques mortels de masse. Ce positionnement axé sur la sécurité est toutefois critiqué en raison d'une cadence de lancements commerciaux jugée très rapide.",
    "creee": "2026-10-20T09:56:16.457937+00:00",
    "maj": "2026-10-21T23:53:38+00:00",
    "episodes": [
@@ -1042,30 +1077,6 @@
      "fil": "le litige entre Anthropic et le Pentagone",
      "source": "Anthropic et gouvernement",
      "lien": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPazV1Y2dCb0s2SlJQSnh2TUdlcE1NQ01hSXVqWTVuSVNxc2lSY1c0eW1fSmZpYXM0MjNZWEFFZUUtYW4tSUNSLU8xOGxNbUNwcnVZOXl5bWc1VjlHeFFOX05aLVdZQTBwSGR6MjZSdU4zUVEzWU45YmhKQ3FOclNNRGt1VUpCc2s0?oc=5",
-     "nb_sources": 1,
-     "primaire": false
-    }
-   ],
-   "statut": "active",
-   "societes": [
-    "anthropic"
-   ]
-  },
-  {
-   "id": "h_8dad32ff1f",
-   "titre": "Fuite du modèle Claude Mythos d'Anthropic",
-   "resume": "Une fuite d'information a révélé l'existence de Claude Mythos, un nouveau modèle d'Anthropic. Cette fuite soulève des préoccupations notables en matière de cybersécurité.",
-   "creee": "2026-10-21T20:44:46.798337+00:00",
-   "maj": "2026-10-21T17:34:53+00:00",
-   "episodes": [
-    {
-     "id": "71b782b54b558c",
-     "date": "2026-10-21T17:34:53+00:00",
-     "titre": "Claude Mythos d'Anthropic : une fuite inquiète la cybersécurité",
-     "neuf": "Une fuite d'un nouveau modèle baptisé Claude Mythos suscite des inquiétudes en cybersécurité.",
-     "fil": "fuite du modèle Claude Mythos",
-     "source": "IA en français (actus)",
-     "lien": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxQNzdJSG80eDBya2c4aHVFWjBtd0ZQODFpTHlIUk1sejVMQVhMZXk3YzNMYkhkQWlhQWZ4ek1ublc3WWlJVXVGVHNFYnN5VTZsQWQ0alNZaXRDN3F4MXByeGZJczJfamVlSmdwbk5kZzRxdmRBYkFuV1JuNUlCZTdiUjl1eHEzTzl6eUktY1FSdk1PWmszaWRWbUFNSF91eDhjYjRQZ0ZxSTZoX29QcnYyQUFNMS01MzI5OVUxcmpBQzNkUDIyeERSY0Vrd2hEY2tldzBFSTctWmFFQjRwQnA4?oc=5",
      "nb_sources": 1,
      "primaire": false
     }
@@ -1499,6 +1510,41 @@
    ]
   },
   {
+   "id": "h_da06066ad1",
+   "titre": "Meta dévoile son nouveau modèle Muse Wonder",
+   "resume": "Meta a introduit Muse Wonder, son nouveau modèle d'intelligence artificielle, et poursuit le développement de sa gamme avec la sortie du modèle aux poids ouverts Muse Spark Open.",
+   "creee": "2026-10-21T08:48:34.440401+00:00",
+   "maj": "2026-10-16T00:34:00+00:00",
+   "episodes": [
+    {
+     "id": "7f9781199dee27",
+     "date": "2026-10-12T17:00:25+00:00",
+     "titre": "Meta dévoile Muse Wonder, son nouveau modèle d'intelligence artificielle",
+     "neuf": "",
+     "fil": "l'introduction du nouveau modèle Muse Wonder de Meta",
+     "source": "Grandes annonces IA",
+     "lien": "https://news.google.com/rss/articles/CBMid0FVX3lxTE11QldFTGNiMGg4N0FwZHE0OGl5ZTBoZkZGdnBjZ1ZyOURmb1lxUHZScVViOXQzMzNmZnJBdlNPbE1xdkVTWEpLSXVPR1R1ajRmTElvSi1JNG5YbHk0SnlnUUhVZzR5SG16YXZyMWFQQWQ2YzRUUmpZ0gF8QVVfeXFMUFVKWjBUSUhEcDFKSk1lQ2M0dVNWMHYtZVVlbkRfS0ZTVnZIQ0E2elc1UEdSbkFKcXRncjhOVjAteDJ0Y0R2YzVhRGlOY0tOWnpuUjN0dmxHSy0zUVk3bW5RWFBlUTJ5LWd0WWMxaEpqVkoxY05pdzY4a3JzSA?oc=5",
+     "nb_sources": 2,
+     "primaire": false
+    },
+    {
+     "id": "d35200a99fdda4",
+     "date": "2026-10-16T00:34:00+00:00",
+     "titre": "Meta lance Muse Spark Open, un nouveau modèle d'IA aux poids ouverts",
+     "neuf": "Meta étend sa gamme avec la sortie de Muse Spark Open, un modèle d'IA aux poids ouverts.",
+     "fil": "même famille de modèles Muse de Meta",
+     "source": "Grandes annonces IA",
+     "lien": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPT0RHc3czZERxSklFc0VnWGlpTDV4VUpjVDJONmd2Mm9XYlRKUE5TUWUyNG1BVFJ0c044WGtINDBuR3VnUEdXV1puNkhveWx6QXdWT2tyc2RpUm9qS2M5eFI4ZVlnM3VaRE9mdVgtZDVOS1NwdGJMVTVJWkNVWHFiaHVfVnZQLVRQaU5JcF9nVi1aT0loWUltUnRKaThnVmdqaVV5UjdVMkxoR1E?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    }
+   ],
+   "statut": "active",
+   "societes": [
+    "meta"
+   ]
+  },
+  {
    "id": "h_af202225e5",
    "titre": "Lancement et adoption de GPT-6 Astra",
    "resume": "OpenAI a introduit GPT-6 Astra, permettant des déploiements massifs d'agents IA via l'infrastructure de NVIDIA. Cette dynamique se poursuit avec l'utilisation de milliers d'agents pour analyser des données biologiques complexes.",
@@ -1542,30 +1588,6 @@
    "statut": "active",
    "societes": [
     "openai"
-   ]
-  },
-  {
-   "id": "h_da06066ad1",
-   "titre": "Meta dévoile son nouveau modèle Muse Wonder",
-   "resume": "",
-   "creee": "2026-10-21T08:48:34.440401+00:00",
-   "maj": "2026-10-12T17:00:25+00:00",
-   "episodes": [
-    {
-     "id": "7f9781199dee27",
-     "date": "2026-10-12T17:00:25+00:00",
-     "titre": "Meta dévoile Muse Wonder, son nouveau modèle d'intelligence artificielle",
-     "neuf": "",
-     "fil": "l'introduction du nouveau modèle Muse Wonder de Meta",
-     "source": "Grandes annonces IA",
-     "lien": "https://news.google.com/rss/articles/CBMid0FVX3lxTE11QldFTGNiMGg4N0FwZHE0OGl5ZTBoZkZGdnBjZ1ZyOURmb1lxUHZScVViOXQzMzNmZnJBdlNPbE1xdkVTWEpLSXVPR1R1ajRmTElvSi1JNG5YbHk0SnlnUUhVZzR5SG16YXZyMWFQQWQ2YzRUUmpZ0gF8QVVfeXFMUFVKWjBUSUhEcDFKSk1lQ2M0dVNWMHYtZVVlbkRfS0ZTVnZIQ0E2elc1UEdSbkFKcXRncjhOVjAteDJ0Y0R2YzVhRGlOY0tOWnpuUjN0dmxHSy0zUVk3bW5RWFBlUTJ5LWd0WWMxaEpqVkoxY05pdzY4a3JzSA?oc=5",
-     "nb_sources": 2,
-     "primaire": false
-    }
-   ],
-   "statut": "en sommeil",
-   "societes": [
-    "meta"
    ]
   },
   {

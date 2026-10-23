@@ -1,5 +1,5 @@
 {
- "maj": "2026-10-23T04:42:51.023268+00:00",
+ "maj": "2026-10-23T08:46:20.501892+00:00",
  "sources_ok": [
   "Notes de version Claude (API)",
   "Notes de version OpenAI (API)",
@@ -57,15 +57,15 @@
    "erreur": "429 Client Error: Too Many Requests for url: https://venturebeat.com/category/ai/feed/"
   }
  ],
- "total": 865,
- "analyses": 706,
+ "total": 872,
+ "analyses": 721,
  "brief": {
-  "titre": "Agents autonomes, nouveaux modèles et partenariats industriels majeurs",
-  "texte": "L'actualité de l'IA est marquée par une accélération des lancements d'agents autonomes, à l'image de Claude Duet et de Walmart qui autorise les agents à faire des achats. Côté infrastructures et API, OpenAI déploie l'API Decisions avec gpt-6-luna tandis qu'Anthropic met à jour ses SDK et intègre ses modèles sur Google Cloud. Les annonces se multiplient également en entreprise, avec l'équipement de 30 000 employés d'Uber sur ChatGPT Work et l'émergence de nouveaux modèles comme Decision-1 chez Microsoft. Enfin, la sécurité et la conformité s'intensifient, illustrées par la découverte de failles critiques dans PHP par OpenAI et Wiz, et la validation des règles d'exportation chinoises par DeepSeek et MiniMax.",
+  "titre": "Entre déploiements massifs et nouveaux modèles, l'IA accélère",
+  "texte": "L'écosystème IA franchit une nouvelle étape avec l'adoption massive des outils professionnels par des géants comme Uber et le Crédit Agricole, qui s'associe à Mistral AI. Côté technique, les lancements s'enchaînent avec l'API Decisions d'OpenAI, l'arrivée de Claude sur Google Cloud et la mise en orbite du modèle Decision-1 par Microsoft. Pendant ce temps, les investissements continuent de flamber, illustrés par la future levée de fonds géante d'OpenAI et la nouvelle structure financière de Meta. Enfin, la sécurité et la conformité restent au premier plan, entre la plateforme d'observabilité Minerva de NVIDIA et la validation des régulations chinoises par DeepSeek et MiniMax.",
   "a_tester": [
-   "Tester la nouvelle version de l'API Claude et explorer ses fonctionnalités de recherche web sécurisée",
-   "Évaluer les possibilités d'intégration de l'API Decisions d'OpenAI pour vos flux de travail",
-   "Analyser les cas d'usage potentiels des agents d'achat autonomes pour votre activité"
+   "Déployer et tester l'API Decisions d'OpenAI avec gpt-6-luna pour vos flux décisionnels",
+   "Explorer les nouveaux modèles Claude désormais disponibles sur Google Cloud",
+   "Tester le nouveau modèle de génération d'images intégré à Canva pour vos créations visuelles"
   ]
  },
  "top5": {
