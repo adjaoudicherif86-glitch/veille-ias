@@ -1,5 +1,5 @@
 {
- "maj": "2026-10-23T00:57:49.757092+00:00",
+ "maj": "2026-10-23T04:42:51.023268+00:00",
  "sources_ok": [
   "Notes de version Claude (API)",
   "Notes de version OpenAI (API)",
@@ -57,15 +57,15 @@
    "erreur": "429 Client Error: Too Many Requests for url: https://venturebeat.com/category/ai/feed/"
   }
  ],
- "total": 831,
- "analyses": 684,
+ "total": 865,
+ "analyses": 706,
  "brief": {
-  "titre": "Agents IA et partenariats majeurs : le grand bond en avant",
-  "texte": "L'actualité de l'IA est marquée par une adoption massive et le lancement de nouveaux agents autonomes. Uber équipe ainsi 30 000 salariés avec ChatGPT Work, tandis que Walmart autorise désormais les agents IA à effectuer des achats en ligne. Côté technique, Anthropic muscle son jeu avec l'API version 2026-10-21, Claude Duet et l'arrivée de ses modèles sur Google Cloud. Enfin, OpenAI innove avec l'API Decisions et gpt-6-luna, tout en étendant la publicité sur ChatGPT dans 26 nouveaux pays.",
+  "titre": "Agents autonomes, nouveaux modèles et partenariats industriels majeurs",
+  "texte": "L'actualité de l'IA est marquée par une accélération des lancements d'agents autonomes, à l'image de Claude Duet et de Walmart qui autorise les agents à faire des achats. Côté infrastructures et API, OpenAI déploie l'API Decisions avec gpt-6-luna tandis qu'Anthropic met à jour ses SDK et intègre ses modèles sur Google Cloud. Les annonces se multiplient également en entreprise, avec l'équipement de 30 000 employés d'Uber sur ChatGPT Work et l'émergence de nouveaux modèles comme Decision-1 chez Microsoft. Enfin, la sécurité et la conformité s'intensifient, illustrées par la découverte de failles critiques dans PHP par OpenAI et Wiz, et la validation des règles d'exportation chinoises par DeepSeek et MiniMax.",
   "a_tester": [
-   "Explorer les possibilités de Claude Duet pour automatiser des tâches complexes",
-   "Tester l'intégration des nouvelles API OpenAI et Anthropic pour vos développements",
-   "Évaluer l'impact des agents d'achat autonome comme celui adopté par Walmart sur votre secteur"
+   "Tester la nouvelle version de l'API Claude et explorer ses fonctionnalités de recherche web sécurisée",
+   "Évaluer les possibilités d'intégration de l'API Decisions d'OpenAI pour vos flux de travail",
+   "Analyser les cas d'usage potentiels des agents d'achat autonomes pour votre activité"
   ]
  },
  "top5": {
