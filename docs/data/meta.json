@@ -1,5 +1,5 @@
 {
- "maj": "2026-10-24T08:43:37.731852+00:00",
+ "maj": "2026-10-24T12:49:47.752132+00:00",
  "sources_ok": [
   "Notes de version Claude (API)",
   "Notes de version OpenAI (API)",
@@ -57,15 +57,15 @@
    "erreur": "429 Client Error: Too Many Requests for url: https://venturebeat.com/category/ai/feed/"
   }
  ],
- "total": 955,
- "analyses": 842,
+ "total": 966,
+ "analyses": 864,
  "brief": {
-  "titre": "Anthropic et OpenAI dominent l'actualité avec de nouveaux déploiements.",
-  "texte": "Anthropic élargit son écosystème en lançant ses modèles sur Google Cloud et en introduisant l'API Claude Tag en bêta, tandis que son SDK passe en version 2.2.0. De son côté, OpenAI renforce la sécurité de ses environnements d'entraînement tout en cessant d'entraîner ses IA sur le Web en direct, et prépare une levée de fonds massive de 30 milliards de dollars. L'actualité open-source et internationale est également marquée par les intégrations d'Unsloth, l'arrivée de Kimi K3.1 Pro par Moonshot AI et les tensions sur les serveurs de Google pour l'entraînement de Gemini 4 Argon. Enfin, la question de la confidentialité refait surface avec les projets publicitaires de Google autour de Gmail et Photos.",
+  "titre": "Anthropic s'associe à Google et OpenAI sécurise ses modèles",
+  "texte": "L'actualité de l'IA est marquée par l'arrivée des modèles Claude sur Google Cloud et le lancement de l'API Claude Tag pour les entreprises. OpenAI ajuste sa stratégie en mettant fin à l'entraînement sur le Web en direct tout en renforçant la sécurité de ses environnements d'apprentissage. De son côté, Google fait face à des tensions sur ses serveurs avec l'entraînement massif de Gemini 4 Argon et suscite des inquiétudes sur l'utilisation des données personnelles. Enfin, l'écosystème open source et asiatique bouge avec l'arrivée de nouveaux modèles comme Kimi K3.1 Pro de Moonshot AI.",
   "a_tester": [
-   "Mettre à jour vos intégrations avec le nouveau SDK Anthropic v2.2.0.",
-   "Tester l'API Claude Tag en version bêta pour vos environnements Enterprise.",
-   "Examiner l'impact de l'arrêt de l'entraînement web d'OpenAI sur vos stratégies de données."
+   "Explorer l'intégration des modèles Claude via Google Cloud pour vos projets d'entreprise.",
+   "Tester la nouvelle version du SDK Anthropic v2.2.0 et l'API Claude Tag.",
+   "Examiner les alternatives open source et les derniers modèles intégrés par Unsloth."
   ]
  },
  "top5": {

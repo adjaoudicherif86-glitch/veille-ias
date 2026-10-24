@@ -1,6 +1,42 @@
 {
- "maj": "2026-10-24T08:43:37.731777+00:00",
+ "maj": "2026-10-24T12:49:47.752074+00:00",
  "histoires": [
+  {
+   "id": "h_112a00ae9b",
+   "titre": "Moonshot AI lance Kimi K3.1 Pro",
+   "resume": "Moonshot AI officialise le lancement de Kimi K3.1 Pro via son API, s'imposant comme un concurrent direct de ChatGPT grâce à ses performances de pointe. La publication de ses poids ouverts reste prévue pour novembre 2026.",
+   "creee": "2026-10-23T20:44:31.752569+00:00",
+   "maj": "2026-10-24T09:28:14+00:00",
+   "episodes": [
+    {
+     "id": "2e71264ea893e4",
+     "date": "2026-10-23T19:40:54+00:00",
+     "titre": "Moonshot AI lance Kimi K3.1 Pro avec une version API et des poids ouverts prévus",
+     "neuf": "Moonshot AI lance Kimi K3.1 Pro via API avec des poids ouverts prévus pour novembre 2026.",
+     "fil": "Lancement de Kimi K3.1 Pro",
+     "source": "Simon Willison",
+     "lien": "https://simonwillison.net/2026/Oct/23/kimi-k31-pro/",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "b8abb325b1175d",
+     "date": "2026-10-24T09:28:14+00:00",
+     "titre": "Kimi K3.1 Pro : la startup chinoise qui concurrence ChatGPT",
+     "neuf": "Le modèle Kimi K3.1 Pro est mis en avant pour sa capacité à concurrencer directement ChatGPT sur le plan des performances.",
+     "fil": "même modèle Kimi K3.1 Pro de Moonshot AI",
+     "source": "IA en français (actus)",
+     "lien": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNTzY5Qi1kRGlQeENlUllGU3J1aWVoc2kyRXdieGcwamtaVVIzY2xmdWJwQU5ETkVwb0cybE40VklvNjVDNEl2bDBHY0ZhVTVBY1I4TlNYbEJvMTBRSlA0d3FMZ21zWnlBMUtVWkVWVmZpbVFRQXpHQUJDT0RhUnJzeFlQM1B1eWlubVY1Qlk1NA?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    }
+   ],
+   "statut": "active",
+   "societes": [
+    "moonshot",
+    "openai"
+   ]
+  },
   {
    "id": "h_8dad32ff1f",
    "titre": "Fuite du modèle Claude Mythos d'Anthropic",
@@ -385,30 +421,6 @@
    ]
   },
   {
-   "id": "h_112a00ae9b",
-   "titre": "Moonshot AI lance Kimi K3.1 Pro",
-   "resume": "Moonshot AI officialise le lancement de Kimi K3.1 Pro via son API, offrant des performances de pointe en attendant la publication de ses poids ouverts prévue pour novembre 2026.",
-   "creee": "2026-10-23T20:44:31.752569+00:00",
-   "maj": "2026-10-23T19:40:54+00:00",
-   "episodes": [
-    {
-     "id": "2e71264ea893e4",
-     "date": "2026-10-23T19:40:54+00:00",
-     "titre": "Moonshot AI lance Kimi K3.1 Pro avec une version API et des poids ouverts prévus",
-     "neuf": "Moonshot AI lance Kimi K3.1 Pro via API avec des poids ouverts prévus pour novembre 2026.",
-     "fil": "Lancement de Kimi K3.1 Pro",
-     "source": "Simon Willison",
-     "lien": "https://simonwillison.net/2026/Oct/23/kimi-k31-pro/",
-     "nb_sources": 1,
-     "primaire": false
-    }
-   ],
-   "statut": "active",
-   "societes": [
-    "moonshot"
-   ]
-  },
-  {
    "id": "h_27b5489481",
    "titre": "Rupture entre le gouvernement américain et Anthropic",
    "resume": "Suite aux ordres de Donald Trump de rompre les liens entre le gouvernement et Anthropic, le Pentagone a adressé un ultimatum à l'entreprise tout en émettant de nouvelles directives d'acquisition d'IA alignées sur la politique de la Maison-Blanche. En parallèle, d'anciens responsables demandent à la cour d'appel de réexaminer le litige, tandis que le département de la Santé (HHS) s'apprête à attribuer un contrat direct à Anthropic.",
@@ -709,7 +721,7 @@
   {
    "id": "h_c4961b9682",
    "titre": "Contrôles de la Chine sur l'export d'IA",
-   "resume": "La Chine formalise et renforce ses contrôles à l'exportation d'IA via le MOFCOM et de nouveaux projets réglementaires, tout en validant et approuvant l'utilisation mondiale des modèles open source de laboratoires comme DeepSeek et MiniMax.",
+   "resume": "La Chine formalise et renforce ses contrôles à l'exportation d'IA via le MOFCOM et de nouveaux projets réglementaires, tout en évaluant l'impact de ces interdictions sur l'avenir des modèles à poids ouverts. Parallèlement, le pays valide et approuve l'utilisation mondiale des modèles open source de laboratoires comme DeepSeek et MiniMax.",
    "creee": "2026-10-20T09:56:16.457937+00:00",
    "maj": "2026-10-23T10:22:30+00:00",
    "episodes": [
@@ -721,6 +733,17 @@
      "fil": "Contrôles à l'export de l'IA par la Chine",
      "source": "Contrôles à l'export IA",
      "lien": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPdU1Eb2ZqTHBnQlJISXdubUVnNHZLTXJOLXlpdDI3cFlRWjZLOUpWRGpCTTgwTmZZZk1ydlRSQnVnV29sZTJwSF9LOWxnbktBejZYeGhpN1lINUxEVlRDb2xON2JJekdvdXo1dzB2VzBjOV9TR3NzSF85Z0dYc0N1NzVhWU5OU3kyZTNHSEE2ZFljX1RJdFFyWXBHdmExekZ2X0tPTUI5U1AzRUxWWkl6MENR?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "4c1e5451ed96c6",
+     "date": "2026-10-17T12:00:11+00:00",
+     "titre": "Impact des interdictions d'exportation d'IA chinoises sur les technologies à poids ouverts",
+     "neuf": "L'examen s'élargit à l'impact potentiel de ces interdictions sur l'avenir des modèles à poids ouverts.",
+     "fil": "mêmes projets de contrôles à l'exportation de l'IA en Chine",
+     "source": "Contrôles à l'export IA",
+     "lien": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNbXBIUWJVblVDTjRuV2xFYlJPd3E1bE5jdlVENVd1ek9CQjBleGJCTkItcERIT296NDNkcjQzMmJneU9RbDB3WWZrM3FBSHJvV0FjTmRWVUhHaXBQdHB6UDJuUTV1LXNwSnlqeW1hODZaclliY2pkN2FNcVA1R0RVNlNBMjRxWEQ4N3ZKNVhETGhpNHE2NUxVcnlicUtnNmpEVFdTMFNwbENtYUZkMThLX1h0czNNSDRoYlVyLVNXa2xoVVNDZFZOT1FuWTFhQmpuSVBEWjBn0gHWAUFVX3lxTE9kTHd4Z0laNEp1endfeXl3Tnlad1N4TGpDWWRCVHBRVGU5SWp6RS1EaWtOSHZxczdzeE5nSzhJNmhtbjVCWW9pOHBINHQzR2R6STBOTG1DalFtcWktSjEtbG9yTmFFY1liZnR6Y1FGZTFvcURSY1lKeFdJdk9OUmRldENHeUhBZXN4S2Vra0VPdG50VUg0cmtxTm51R1BJUlQtWXZaemtnWndzY19EWk9WczU2b2RiME1UNWFIdDZKeWtnSmlnSWJONkEwbUx0dVNzdUI2OGc?oc=5",
      "nb_sources": 1,
      "primaire": false
     },
