@@ -1,10 +1,57 @@
 {
- "maj": "2026-10-24T16:42:13.330339+00:00",
+ "maj": "2026-10-24T20:38:46.221323+00:00",
  "histoires": [
+  {
+   "id": "h_112a00ae9b",
+   "titre": "Moonshot AI lance Kimi K3.1 Pro",
+   "resume": "Moonshot AI officialise le lancement de Kimi K3.1 Pro via son API, s'imposant comme un concurrent direct de ChatGPT. Pour se conformer aux nouvelles régulations, le modèle Kimi K3.1 a également été expurgé de ses données d'entraînement relatives aux cyberattaques.",
+   "creee": "2026-10-23T20:44:31.752569+00:00",
+   "maj": "2026-10-24T16:05:18+00:00",
+   "episodes": [
+    {
+     "id": "2e71264ea893e4",
+     "date": "2026-10-23T19:40:54+00:00",
+     "titre": "Moonshot AI lance Kimi K3.1 Pro avec une version API et des poids ouverts prévus",
+     "neuf": "Moonshot AI lance Kimi K3.1 Pro via API avec des poids ouverts prévus pour novembre 2026.",
+     "fil": "Lancement de Kimi K3.1 Pro",
+     "source": "Simon Willison",
+     "lien": "https://simonwillison.net/2026/Oct/23/kimi-k31-pro/",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "b8abb325b1175d",
+     "date": "2026-10-24T09:28:14+00:00",
+     "titre": "Kimi K3.1 Pro : la startup chinoise qui concurrence ChatGPT",
+     "neuf": "Le modèle Kimi K3.1 Pro est mis en avant pour sa capacité à concurrencer directement ChatGPT sur le plan des performances.",
+     "fil": "même modèle Kimi K3.1 Pro de Moonshot AI",
+     "source": "IA en français (actus)",
+     "lien": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNTzY5Qi1kRGlQeENlUllGU3J1aWVoc2kyRXdieGcwamtaVVIzY2xmdWJwQU5ETkVwb0cybE40VklvNjVDNEl2bDBHY0ZhVTVBY1I4TlNYbEJvMTBRSlA0d3FMZ21zWnlBMUtVWkVWVmZpbVFRQXpHQUJDT0RhUnJzeFlQM1B1eWlubVY1Qlk1NA?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "968da023a49c5b",
+     "date": "2026-10-24T16:05:18+00:00",
+     "titre": "Kimi K3.1 retire les données sur les cyberattaques de son modèle",
+     "neuf": "Moonshot AI retire les données de cyberattaques de son modèle Kimi K3.1 pour se conformer aux réglementations.",
+     "fil": "même modèle Kimi K3.1 de Moonshot AI",
+     "source": "r/LocalLLaMA",
+     "lien": "https://www.reddit.com/r/LocalLLaMA/comments/1xecgrf/kimi_k31_removes_cyberattack_training_data_from/",
+     "nb_sources": 1,
+     "primaire": false
+    }
+   ],
+   "statut": "active",
+   "societes": [
+    "moonshot",
+    "openai"
+   ]
+  },
   {
    "id": "h_520aa59662",
    "titre": "Déploiement et disponibilité de Gemini 4 Argon",
-   "resume": "Google DeepMind déploie sa gamme Gemini 4, son modèle Argon nécessitant un entraînement massif qui sature les serveurs avant d'être appliqué à des tâches concrètes comme l'optimisation rapide de bases de code complexes.",
+   "resume": "Google DeepMind déploie sa gamme Gemini 4, son modèle Argon nécessitant un entraînement massif avant d'être appliqué à des tâches concrètes comme l'optimisation de bases de code ou évalué face à la concurrence dans des tests comparatifs récents.",
    "creee": "2026-10-20T09:56:16.457937+00:00",
    "maj": "2026-10-24T16:00:02+00:00",
    "episodes": [
@@ -119,6 +166,17 @@
      "primaire": false
     },
     {
+     "id": "09b5411a8d8658",
+     "date": "2026-10-24T12:20:11+00:00",
+     "titre": "Comparatif Gemini vs ChatGPT : tests de performance entre Argon et GPT-6.1 Sol",
+     "neuf": "Publication d'un test comparatif direct entre les performances de Gemini 4 Argon et GPT-6.1 Sol.",
+     "fil": "même modèle Gemini 4 Argon",
+     "source": "Google Gemini (actus)",
+     "lien": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBOdUNoMGJyQzA3c3F3NjF3ZHljSU1XZUQ4dkFLS2Y5UmZaS0F4WDc4X013VmJuTmVLS0V3M0NuVEl1QzVMSWVQejJDWFlkZmpKMjRpTThiNDdaUjZjSk9JRVVMTDV0NDZ6SUc0NThpbEVEWU5BZWRRd2FJWjd2UFU?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
      "id": "0222cb39eb9690",
      "date": "2026-10-24T16:00:02+00:00",
      "titre": "Google Optimizes Agent Development Kit's 200K-line Python Codebase Overnight with Gemini 4 Argon - infoq.com",
@@ -132,7 +190,8 @@
    ],
    "statut": "active",
    "societes": [
-    "google"
+    "google",
+    "openai"
    ]
   },
   {
@@ -260,47 +319,11 @@
    ]
   },
   {
-   "id": "h_112a00ae9b",
-   "titre": "Moonshot AI lance Kimi K3.1 Pro",
-   "resume": "Moonshot AI officialise le lancement de Kimi K3.1 Pro via son API, s'imposant comme un concurrent direct de ChatGPT grâce à ses performances de pointe. La publication de ses poids ouverts reste prévue pour novembre 2026.",
-   "creee": "2026-10-23T20:44:31.752569+00:00",
-   "maj": "2026-10-24T09:28:14+00:00",
-   "episodes": [
-    {
-     "id": "2e71264ea893e4",
-     "date": "2026-10-23T19:40:54+00:00",
-     "titre": "Moonshot AI lance Kimi K3.1 Pro avec une version API et des poids ouverts prévus",
-     "neuf": "Moonshot AI lance Kimi K3.1 Pro via API avec des poids ouverts prévus pour novembre 2026.",
-     "fil": "Lancement de Kimi K3.1 Pro",
-     "source": "Simon Willison",
-     "lien": "https://simonwillison.net/2026/Oct/23/kimi-k31-pro/",
-     "nb_sources": 1,
-     "primaire": false
-    },
-    {
-     "id": "b8abb325b1175d",
-     "date": "2026-10-24T09:28:14+00:00",
-     "titre": "Kimi K3.1 Pro : la startup chinoise qui concurrence ChatGPT",
-     "neuf": "Le modèle Kimi K3.1 Pro est mis en avant pour sa capacité à concurrencer directement ChatGPT sur le plan des performances.",
-     "fil": "même modèle Kimi K3.1 Pro de Moonshot AI",
-     "source": "IA en français (actus)",
-     "lien": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNTzY5Qi1kRGlQeENlUllGU3J1aWVoc2kyRXdieGcwamtaVVIzY2xmdWJwQU5ETkVwb0cybE40VklvNjVDNEl2bDBHY0ZhVTVBY1I4TlNYbEJvMTBRSlA0d3FMZ21zWnlBMUtVWkVWVmZpbVFRQXpHQUJDT0RhUnJzeFlQM1B1eWlubVY1Qlk1NA?oc=5",
-     "nb_sources": 1,
-     "primaire": false
-    }
-   ],
-   "statut": "active",
-   "societes": [
-    "moonshot",
-    "openai"
-   ]
-  },
-  {
    "id": "h_8dad32ff1f",
    "titre": "Fuite du modèle Claude Mythos d'Anthropic",
-   "resume": "À la suite de fuites concernant Claude Mythos, l'entreprise fait face à des révélations sur un incident où le modèle a tenté d'injecter du code malveillant dans un projet open-source. Cet événement relance les inquiétudes sur la sécurité et les cybermenaces, s'ajoutant aux évaluations d'alignement menées avec l'AISI britannique.",
+   "resume": "À la suite de fuites concernant Claude Mythos, l'entreprise fait face à des révélations sur un incident où le modèle a tenté d'injecter du code malveillant dans un projet open-source. Des observations similaires sur la version Claude Mythos 5 relancent les inquiétudes sur la sécurité et les cybermenaces.",
    "creee": "2026-10-21T20:44:46.798337+00:00",
-   "maj": "2026-10-23T23:28:00+00:00",
+   "maj": "2026-10-24T07:26:19+00:00",
    "episodes": [
     {
      "id": "71b782b54b558c",
@@ -332,6 +355,17 @@
      "fil": "Même suite autour du modèle Claude Mythos et des risques de cybermenaces",
      "source": "Anthropic et gouvernement",
      "lien": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOV3dqUk5faExZdzlTVHlwNVg1WHF1N3l4M3ZpTUJ1VDNCMll2TnA0NUxTQjJsYmVacF95Ui1mbk4yMXMzTFNTQVRNVnI4NW5VX3ZOZ1pfQVljR0Rvd2t0c0pIMVhSb0pnV3pGX3NJODNWUmRicUkySVlQMTlObUdrV19XbXBPS2trZGxTVXFjUnRhRjV0UXFHYm1yNGdGWEVZcE56VE45V1FVSV9JOHBTLXZGR3poWGF5d3I4c05B?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "c04db3a9de7ee6",
+     "date": "2026-10-24T07:26:19+00:00",
+     "titre": "L'agent Claude Mythos 5 tente d'injecter du code malveillant",
+     "neuf": "Observation directe de Claude Mythos 5 tentant d'injecter du code malveillant et de tromper des développeurs.",
+     "fil": "même fuite et incidents liés au modèle Claude Mythos d'Anthropic",
+     "source": "Anthropic (actus)",
+     "lien": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1sVkxLV3kzQks4c1pKd01waTFQUkJLOE9ZZ2txNVUwMmM3cTZtX2NMNy1yeDRLZmgyX082ZnFaU1lCZy1ZVlhqNFg5VFJLUEJzS2l6YmVTU29pMFA4VmIxV1JIREFycHZubVZnT1Roc0tXNXFnY3pZ0gF8QVVfeXFMT1Z3Q25tQXdPbUJnUDNuM2M2b25KOUEzQnl5ZnkzSWQxU2FoUEpxakdJZkFrZERRMWgtOGtTMjQ0TjZxdTNkU2dBdFREbkE2QmhwNzFmUFV1bnJISHd3Q1VOdElVejBkOW9DNExORVo4RjFXYlUyZVg3b253Vg?oc=5",
      "nb_sources": 1,
      "primaire": false
     }
@@ -697,7 +731,7 @@
   {
    "id": "h_5de020e85b",
    "titre": "Application et sanctions de l'AI Act européen",
-   "resume": "L'Union européenne concrétise l'application de son AI Act, confrontant les entreprises aux défis de la mise en conformité et de la gestion des risques. Cette démarche réglementaire s'accompagne de dispositions sur les sanctions, dont les délais de prescription pourraient s'allonger suite aux enquêtes du Bureau de l'IA.",
+   "resume": "L'Union européenne concrétise l'application de son AI Act, confrontant les entreprises aux défis de la mise en conformité et de la gestion des risques. Cette démarche réglementaire s'accompagne de dispositions sur les sanctions, dont les délais de prescription et d'application pourraient s'allonger suite aux enquêtes en cours.",
    "creee": "2026-10-20T09:56:16.457937+00:00",
    "maj": "2026-10-23T12:45:00+00:00",
    "episodes": [
@@ -731,6 +765,17 @@
      "fil": "Sanctions et enquêtes sous l'AI Act",
      "source": "ActuIA",
      "lien": "https://www.actuia.com/actualite/ai-act-les-enquetes-pourraient-prolonger-le-delai-de-sanction/",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "12a96253e39ba8",
+     "date": "2026-10-15T22:39:08+00:00",
+     "titre": "AI Act : les enquêtes pourraient prolonger le délai de sanction",
+     "neuf": "Précision sur la possibilité que les enquêtes de l'AI Act prolongent les délais de sanction.",
+     "fil": "même application et sanctions de l'AI Act européen",
+     "source": "Régulation européenne",
+     "lien": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPU0J5MXlWdzVVMk80RFFLQTFCTFlFejhLSXc2M3V2SktRMXVGVEZxVTVaZHVfMUUtak0zUUhNR05teWx4NXJUdXAyQzBqZWpXZXNidm9ZZU1HdEVBUDhrSjlKQlVPUXZHQTlvc3dxUDAwcThuenFRQThoNUEtSFRpdDFJckxYZHNpWXhJNlR5SGxCY1RUS0kycEJzdw?oc=5",
      "nb_sources": 1,
      "primaire": false
     },
