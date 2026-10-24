@@ -1,5 +1,5 @@
 {
- "maj": "2026-10-23T20:44:31.752638+00:00",
+ "maj": "2026-10-24T01:00:04.975394+00:00",
  "sources_ok": [
   "Notes de version Claude (API)",
   "Notes de version OpenAI (API)",
@@ -57,15 +57,15 @@
    "erreur": "429 Client Error: Too Many Requests for url: https://venturebeat.com/category/ai/feed/"
   }
  ],
- "total": 924,
- "analyses": 783,
+ "total": 941,
+ "analyses": 804,
  "brief": {
-  "titre": "Anthropic s'associe à Google Cloud et Canva lance sa propre IA",
-  "texte": "L'écosystème IA s'accélère avec l'arrivée des modèles Claude sur Google Cloud et le lancement du tout premier modèle de génération d'images de Canva. Anthropic complète ces annonces en déployant l'API Claude Tag pour les entreprises et sa mise à jour SDK v2.2.0. Du côté de la recherche et de l'open source, Nvidia dévoile un modèle de design de protéines tandis que Moonshot AI introduit Kimi K3.1 Pro. Enfin, OpenAI poursuit sa croissance avec une levée de fonds record en préparation et l'optimisation de son infrastructure.",
+  "titre": "Anthropic s'associe à Google Cloud, OpenAI prépare sa méga-levée",
+  "texte": "L'actualité de l'IA est marquée par une expansion majeure des infrastructures, soulignée par le lancement des modèles Claude sur Google Cloud et la préparation d'une levée de fonds massive de 30 milliards par OpenAI. Du côté des outils, Canva entre dans la danse de la génération d'images avec son propre modèle, tandis que Moonshot AI dévoile Kimi K3.1 Pro. Les avancées scientifiques ne sont pas en reste, avec un modèle open source de design de protéines signé Nvidia et l'UW. Enfin, l'écosystème open source continue d'évoluer avec les intégrations d'Unsloth et les nouveautés d'API chez Anthropic et OpenAI.",
   "a_tester": [
-   "Tester les modèles Claude directement depuis l'infrastructure Google Cloud",
+   "Tester les modèles Claude désormais disponibles sur l'infrastructure Google Cloud",
    "Explorer les capacités du nouveau modèle de génération d'images de Canva",
-   "Mettre à jour le SDK Anthropic vers la version v2.2.0 pour vos intégrations"
+   "Expérimenter l'API Claude Tag en version bêta pour les environnements d'entreprise"
   ]
  },
  "top5": {
