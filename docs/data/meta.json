@@ -1,5 +1,5 @@
 {
- "maj": "2026-10-24T01:00:04.975394+00:00",
+ "maj": "2026-10-24T04:41:50.840799+00:00",
  "sources_ok": [
   "Notes de version Claude (API)",
   "Notes de version OpenAI (API)",
@@ -57,15 +57,15 @@
    "erreur": "429 Client Error: Too Many Requests for url: https://venturebeat.com/category/ai/feed/"
   }
  ],
- "total": 941,
- "analyses": 804,
+ "total": 947,
+ "analyses": 825,
  "brief": {
-  "titre": "Anthropic s'associe à Google Cloud, OpenAI prépare sa méga-levée",
-  "texte": "L'actualité de l'IA est marquée par une expansion majeure des infrastructures, soulignée par le lancement des modèles Claude sur Google Cloud et la préparation d'une levée de fonds massive de 30 milliards par OpenAI. Du côté des outils, Canva entre dans la danse de la génération d'images avec son propre modèle, tandis que Moonshot AI dévoile Kimi K3.1 Pro. Les avancées scientifiques ne sont pas en reste, avec un modèle open source de design de protéines signé Nvidia et l'UW. Enfin, l'écosystème open source continue d'évoluer avec les intégrations d'Unsloth et les nouveautés d'API chez Anthropic et OpenAI.",
+  "titre": "Expansion cloud, nouveaux modèles et course aux fonds géants",
+  "texte": "L'écosystème s'accélère avec l'arrivée des modèles Claude sur Google Cloud et le lancement par Moonshot AI de Kimi K3.1 Pro. OpenAI fait parler d'elle en préparant une levée de fonds massive de 30 milliards de dollars et en lançant l'API Decisions. Côté open source, Nvidia et l'UW dévoilent un modèle de design de protéines, tandis qu'Unsloth intègre de nouvelles architectures. Enfin, Canva entre dans la danse de la génération d'images avec son propre modèle.",
   "a_tester": [
-   "Tester les modèles Claude désormais disponibles sur l'infrastructure Google Cloud",
-   "Explorer les capacités du nouveau modèle de génération d'images de Canva",
-   "Expérimenter l'API Claude Tag en version bêta pour les environnements d'entreprise"
+   "Tester l'intégration des modèles Claude via Google Cloud",
+   "Explorer les capacités du nouveau modèle d'image de Canva",
+   "Expérimenter avec l'API Decisions d'OpenAI"
   ]
  },
  "top5": {
