@@ -1,6 +1,264 @@
 {
- "maj": "2026-10-24T12:49:47.752074+00:00",
+ "maj": "2026-10-24T16:42:13.330339+00:00",
  "histoires": [
+  {
+   "id": "h_520aa59662",
+   "titre": "Déploiement et disponibilité de Gemini 4 Argon",
+   "resume": "Google DeepMind déploie sa gamme Gemini 4, son modèle Argon nécessitant un entraînement massif qui sature les serveurs avant d'être appliqué à des tâches concrètes comme l'optimisation rapide de bases de code complexes.",
+   "creee": "2026-10-20T09:56:16.457937+00:00",
+   "maj": "2026-10-24T16:00:02+00:00",
+   "episodes": [
+    {
+     "id": "15e70ee5e4a75a",
+     "date": "2026-09-30T20:01:45+00:00",
+     "titre": "Google DeepMind annonce Gemini 4 Argon",
+     "neuf": "Google DeepMind annonce l'arrivée de son modèle d'IA frontière Gemini 4 Argon.",
+     "fil": "Annonce initiale du modèle Gemini 4 Argon par Google DeepMind",
+     "source": "Google DeepMind",
+     "lien": "https://deepmind.google/blog/gemini-4-argon-our-next-era-of-frontier-intelligence/",
+     "nb_sources": 2,
+     "primaire": false
+    },
+    {
+     "id": "16c1598a645116",
+     "date": "2026-10-01T07:00:00+00:00",
+     "titre": "Google lance Gemini 4 Argon, un modèle ultra-puissant réservé aux experts",
+     "neuf": "Le modèle Gemini 4 Argon est initialement réservé à un cercle restreint d'experts en cybersécurité.",
+     "fil": "Suite sur Gemini 4 Argon",
+     "source": "IA en français (actus)",
+     "lien": "https://news.google.com/rss/articles/CBMiwAJBVV95cUxPbm9zS21iUDk5OTBSU1ExUnMxRTBsbzBIdWJOMTloa0toNnp2cnN5a01oSlduSlpsUEhKbWQyUnJsU3FlVmJjVnRFZzJLRnNTRzJOZjFPcG82TF9LUzV6UU03UWFSblJSZzgwMTRIX1Z6YU50dkRFYjZzM29BVWFDVnR4LWdBN1pzOVlZS3pzWVJMRWhJQWJxbllsbGVXd0VwWDI2bFZJbm9udVR1UDhqRkJKdEVXOTU1cHVFZHFId1VTWXBzLTR4WTdPZjF4QTc4VEJkUUtpZTE0Y0dwNmdSSlNuSmVHQUtCM1R3LWY0QU1LcWQxSjc5d3VYdldSMkZMSDVCRG1raXl5QzlDcjg2WWhxUTUySlowMkRURnJCa3RvUmZKNV9INkNJSm91elVxZXc4bzNuZnJneFdFRUhROQ?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "c1e94fc831365c",
+     "date": "2026-10-13T16:00:00+00:00",
+     "titre": "Google DeepMind lance Gemini 4 Argon",
+     "neuf": "Google présente de nouveau Gemini 4 Argon comme un modèle conçu pour résoudre des problèmes complexes.",
+     "fil": "Extension du déploiement de Gemini 4 Argon",
+     "source": "Google AI",
+     "lien": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-argon/",
+     "nb_sources": 3,
+     "primaire": false
+    },
+    {
+     "id": "f9eb89f74ed89d",
+     "date": "2026-10-13T16:10:19+00:00",
+     "titre": "Google lance Gemini 4 Argon, son nouveau modèle phare pour développeurs et entreprises",
+     "neuf": "Google officialise le déploiement à large échelle de Gemini 4 Argon pour les développeurs et entreprises.",
+     "fil": "Disponibilité élargie de Gemini 4 Argon",
+     "source": "Grandes annonces IA",
+     "lien": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQclhsaXp4NUtqeVJDQTNIUjVXQVdJcnNXYnpYZUFTZm4wY3UxcTM1SzJvdzRBNE9HaURlNG1obzFGQ0o3R0pWNVJfNGFDOUdFZnhfdEJxSkszQ2hZQlowMjdCbVliRE9uX3A5ak1CYkJHOEV1elBYRWgtUHBwdF9lcWEyUGdjbmhQb2JONkpNeWhLTHgzQzRhRFRnZTEwcDRCa3k3RkpxY0c5Z1RsSlFCSmQwNmRmQQ?oc=5",
+     "nb_sources": 2,
+     "primaire": false
+    },
+    {
+     "id": "58bef2b78b9c5f",
+     "date": "2026-10-18T12:43:42+00:00",
+     "titre": "Quatre agents Gemini 4 Argon terminent Minecraft sans aide humaine",
+     "neuf": "Quatre agents propulsés par Gemini 4 Argon parviennent à terminer le jeu Minecraft de manière autonome.",
+     "fil": "même modèle Gemini 4 Argon",
+     "source": "Google Gemini (actus)",
+     "lien": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNdVViZFVsamhYNzZfb2xUN3ZkdHlDcVRNWWktdmRjZ3gxUHJwc3F5MnBibHpCVVo2LWRtM0lLM1MxSG82ampTWF9IcGUtUnAyMUtCWmw5X0pReDViVXBTeFh5dXY2SkVFcWlueFBvdGZ2Z19OdWgzc3NOY3kyaDd2SDBDWnhsb0xvNEFVWWo2UXRoaTA?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "14367e39ff3673",
+     "date": "2026-10-19T16:45:48+00:00",
+     "titre": "Google Gemini 4 Argon : Annonce et perspectives",
+     "neuf": "Nouvelles annonces autour du positionnement et des perspectives de Gemini 4 Argon.",
+     "fil": "Même modèle Gemini 4 Argon",
+     "source": "Google Gemini (actus)",
+     "lien": "https://news.google.com/rss/articles/CBMickFVX3lxTE1uZTJkalB3aTJDdmZFOFhaOHJDZG43YTdOOGRoQkZGeEgyTVp1ak5QcDNvbXN2aXZUWWJLZE5VeXo3d0dXc0NuMGw2bFJfd2hPTUktZnVXcHM1ZnBIWW5RX2F2NGZKbS13UnFmTm5vSEd2dw?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "c4ea13b1040293",
+     "date": "2026-10-20T10:25:00+00:00",
+     "titre": "Quatre agents IA de Google DeepMind battent Minecraft en 27 heures",
+     "neuf": "Quatre agents IA de Google DeepMind ont réussi à finir le jeu Minecraft en 27 heures en écrivant des milliers de programmes, au prix d'un coût important en jetons.",
+     "fil": "mêmes agents IA de Google DeepMind sur Minecraft",
+     "source": "Google Gemini (actus)",
+     "lien": "https://news.google.com/rss/articles/CBMi-wJBVV95cUxPTXUtclRkR2lEMFJ6ZnY1X0NlVmNjSWpUY01hbTFMYnVLTm9VSjE4ZUIyakZNTGRlZFM1cHVYbURjTU0xZjVlb2JkTWdjRlVNS2VrRU9PeHdyZU8zczJEYVJUWDJlTUJxeHIwVHN0WjgxV19pUHRqeEF2U2RaU3RkVnpta1lVZjk0NGVITEJXbVFnajdyNkxXLUk3MzFIM2hRWjRjYXNGME1ZeUJ1TDY4dTNucE9SZzBTbHdXS3JsYlZqNzgybnVvU0J3dllKem1wRlJkaHNwbC1hRE1ZZXNzZ216MUdfU01vdS1YY2dxNU0tNTZpWTVIb2FjWnNNYkI4bk1uNzh4bThEX1M5Y2h4S2Zsc1BDVV9LSlExdzF6d3VZRzh5NzFBcXdTNWNINlRBUVdfRmZ5UzZ5bU93YlNhZmxqVGdodGxBZU1ycGtTNEszTzh6dDlWZm1VRmk4S0x4TmlZZDJzWDl4NHBYazFGV185YjZ4c1MwQ1lB?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "641825df9197d5",
+     "date": "2026-10-21T13:02:42+00:00",
+     "titre": "Gemini 4 Carbon : vers une baisse massive des coûts d'IA",
+     "neuf": "Le futur modèle Gemini 4 Carbon est annoncé avec des coûts prétendument inférieurs de 400 % à ceux de son concurrent GPT Astra.",
+     "fil": "même famille de modèles Google Gemini 4",
+     "source": "Google Gemini (actus)",
+     "lien": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBMRXhuRUFOOGQzdjh6R3hkY2xIbHpJMk9WY1E3R0Iwc0kwTG1UUlhKMW91bF9aY21RT2E0NXEzRHlKVkdoWDl0d2FqWHVyVHZlOHlraFhlTWRsNWJBbkdRUVNUa2xfSE1iSEFpcWVB?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "5d569a00a1354c",
+     "date": "2026-10-22T19:34:44+00:00",
+     "titre": "Google DeepMind utilise Gemini 4 Argon pour apprendre de nouvelles compétences aux robots",
+     "neuf": "Gemini 4 Argon est désormais appliqué à l'apprentissage de nouvelles compétences pour les robots humanoïdes Apptronik à partir de simples vidéos.",
+     "fil": "même modèle Gemini 4 Argon",
+     "source": "Google Gemini (actus)",
+     "lien": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxPSVEwaG5UMVNDWVduOE9scVhpVUw5azY3T1VERHVvbGJIbHFTR0t4bzNtNWd4alk0T3BoajlLSnlfVWhlcEFMNkdnVUNsLWQwVm5TU1FZeE81bFpHZkR4QjcwMjNxekRYZTN4aU1wZHhFYW9YWU1wNVlMSDJMS2NpX1ZfLTBWb24yWnNxaGx3bWo2MnVoWFVNZjhzSDBqb0NaMVR6bEZBZ0NoUnVTWjBzaHhzb0YyVWJVWkhBM3pSUnNGWWh5ZnhwOGlGdWZyZzRDcVliUmVJRVJKZnNxVUdxZnRXMTU?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "6017f42bfa9cb6",
+     "date": "2026-10-23T20:13:43+00:00",
+     "titre": "Gemini 4 Argon : l'entraînement massif sature les serveurs de Google",
+     "neuf": "L'entraînement massif du modèle Gemini 4 Argon monopolise 25 billions de tokens et sature les serveurs de Google.",
+     "fil": "Même modèle Gemini 4 Argon",
+     "source": "Google Gemini (actus)",
+     "lien": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOXzlmX0VtN1B5UVhicDZLVWhLTU93cnZRaE8tVFZMUVNCYzFEc2FFbG1QRFpkaFdPNG41YTZWQ3N1Q05KNGhEU3V1WndBbWNHZTUyMTd4anQ3aVc3NVhmV2FveGRQWDdCR04xOEd4LVJfbFFrMzBpU2FSSG9xN3dJcUtNSVU5cDU0RWxsLXozVHdnNE4yaGxwc3pR?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "0222cb39eb9690",
+     "date": "2026-10-24T16:00:02+00:00",
+     "titre": "Google Optimizes Agent Development Kit's 200K-line Python Codebase Overnight with Gemini 4 Argon - infoq.com",
+     "neuf": "Google utilise Gemini 4 Argon pour optimiser en une nuit une base de code Python de 200 000 lignes.",
+     "fil": "Applications pratiques du modèle Gemini 4 Argon",
+     "source": "Google Gemini (actus)",
+     "lien": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1qcUw2RWl0OHUtRUJLOXA2Y0VYX214QVZqZnFvOW1HYlhsSEthUUdBY1JVSzlWakIzUFhxNzl1ZDVOVDdZc3dSbHlETzV1eGtzT0lkT3lRdVFyY1NteEZIZWFNdDVUbXJ0R1ZqdE1naw?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    }
+   ],
+   "statut": "active",
+   "societes": [
+    "google"
+   ]
+  },
+  {
+   "id": "h_61682af51c",
+   "titre": "Lancement de l'agent IA Claude Duet d'Anthropic",
+   "resume": "Anthropic déploie son agent professionnel Claude Duet et restreint l'accès à ses offres via des minima de sièges par entreprise, générant des hésitations et des exclusions parmi les petits cabinets.",
+   "creee": "2026-10-21T20:44:46.798337+00:00",
+   "maj": "2026-10-24T13:07:30+00:00",
+   "episodes": [
+    {
+     "id": "5dbb54a005401f",
+     "date": "2026-10-21T19:14:01+00:00",
+     "titre": "Lancement de Claude Duet par Anthropic",
+     "neuf": "Anthropic officialise l'introduction de Claude Duet sur le marché.",
+     "fil": "lancement de l'agent Claude Duet",
+     "source": "Hacker News (IA, 100+ pts)",
+     "lien": "https://claude.com/product/claude-duet",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "705d3445b65a91",
+     "date": "2026-10-21T19:53:20+00:00",
+     "titre": "Anthropic lance Claude Duet, son nouvel agent IA",
+     "neuf": "Anthropic positionne Claude Duet pour concurrencer les autres agents du marché.",
+     "fil": "lancement de Claude Duet",
+     "source": "Anthropic (actus)",
+     "lien": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQMm0xalYzS19NOGxhQ0ZpanpWeFpjN3g0VzZfVjROQ3RUemxqZmc3STZhdHlRUTlvZEJOaW52dzdVTUxOc09MMzlVeFlJSmc5V2p4WDdwWjRRaDZKMU5QbldoWHBIaTh0Qi1yc1JFaVNHM1BkQ25ucFZfbVJtWGNYMS1jRWlocDk5NUVheDVpclZEUTJw?oc=5",
+     "nb_sources": 2,
+     "primaire": false
+    },
+    {
+     "id": "05e2774a24a1f6",
+     "date": "2026-10-21T20:29:00+00:00",
+     "titre": "Anthropic lance Claude Duet, son nouvel agent personnel",
+     "neuf": "Claude Duet est présenté comme un nouvel agent personnel pour répliquer à la concurrence.",
+     "fil": "lancement de Claude Duet",
+     "source": "Anthropic (actus)",
+     "lien": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPQkZFNGVZc2Q2Q3VJYWVFNjFlOUh1NE1aNWFrZHlzOFlEMVpQU0xFQkFDSW4ydXljV1gtRnBBVzZjWi11Z3dMQ0sxdl9EdXdJOWl0TWlYMnl1M1o5S3d4LXRuOW9lLUd3bS1lYkloUnFGVnhqbFNJSGtVRUt4ZnlWSVg1Q01YOHlrWF9tZ0RsQXptUjljR0MxVFVaWW0xTXMweUE?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "29513dd2417946",
+     "date": "2026-10-21T20:41:02+00:00",
+     "titre": "Anthropic entre dans la course aux agents IA avec Claude Duet",
+     "neuf": "Anthropic officialise son entrée sur le marché des agents avec Claude Duet.",
+     "fil": "Lancement de l'agent IA Claude Duet d'Anthropic",
+     "source": "Anthropic et gouvernement",
+     "lien": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNblFra1FIR1VRWmpPaW80WGJSZGNtVG02LUMzU0pvR0NQbkJ3R1N1eGxTS0ZhblV6ZDV1VUNiMVVKVHRCNVI5aHZaZjBGREZUSDg3ekExUnFFWjF2QUs4Qk9ZREN6cUt4QVNZTnlwLThQMmt0Wmp3QWh1QkF3TDFuY1hNOGRnU2Ew?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "7abf36518713c4",
+     "date": "2026-10-22T01:05:09+00:00",
+     "titre": "Nouvel agent IA d'Anthropic pour l'achat de fournitures professionnelles",
+     "neuf": "L'agent d'Anthropic se dote de capacités d'achat autonome de fournitures professionnelles.",
+     "fil": "Nouvel agent IA d'Anthropic pour les achats professionnels",
+     "source": "Anthropic (actus)",
+     "lien": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQWjdMOWV2Z1JpdUNIN05TWE53U2JJRW1obFBKT05xQVQtc05ZUm9iM3JSaWxsdFpFSTB5UldmbnZqVlZ0bHZhaHZiNkFUMFp3NlpxTUZYOTBWc3RhZWZjSjhseGhOVlBVbE9scnRTLWhZS0lEU2JNTmc2UUwxSHI3ZS1lWXMyc3hFUkk4N2dvZGp2Q2w3amxVUHRiVkRHeHNGT2RrbF9mWHRfa3hrMmc?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "31cb9fa2449425",
+     "date": "2026-10-22T03:19:00+00:00",
+     "titre": "Claude Duet intègre plus de 6 000 outils pour automatiser les tâches",
+     "neuf": "Claude Duet se connecte à plus de 6 000 intégrations pour automatiser les flux de travail en entreprise.",
+     "fil": "Intégrations de Claude Duet",
+     "source": "Anthropic (actus)",
+     "lien": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPOHZGSWdQNmhaM1AwX2tMNFl0TGo3by1jaG9ESnI3cm1za2ZIbnF3TUJtUVZlOXJLZW9KYlJXWkdmLXRqejFOM2VPNlduTEV1bEx1U0VvQ0c1WDZ6S0YwdnFWNElWTVgway1yTFc5WE84ZFZ1VEo0M3NBbkVQLURuRUgtN3E2cXBsN0lPcFo3aTc?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "3dec6b4cf94367",
+     "date": "2026-10-22T11:11:31+00:00",
+     "titre": "Découvrez Claude Duet, le nouvel agent IA d'Anthropic",
+     "neuf": "Confirmation du lancement de l'agent pour alléger la charge de travail.",
+     "fil": "Même lancement officiel de l'agent Claude Duet",
+     "source": "Anthropic (actus)",
+     "lien": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBsa3ZVM2JtaGdBajhfZEFDWVJaVHlvbkxYcGR5ODFBdjlEeFNON3FfcG0tYzR0aHIyazRjanhUTWRyX1phZ3JLQTNVTmZTMXlBajQ5SmxUZUFVZms5eGxRbVJrZ04xZDYw?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "819de26796b063",
+     "date": "2026-10-22T12:16:35+00:00",
+     "titre": "Anthropic lance un agent IA professionnel face à Meta et OpenAI",
+     "neuf": "Anthropic dévoile son agent IA professionnel pour concurrencer Meta Muse et OpenAI Dots.",
+     "fil": "nouvel agent IA professionnel d'Anthropic",
+     "source": "Anthropic et gouvernement",
+     "lien": "https://news.google.com/rss/articles/CBMif0FVX3lxTE4weXI0QVdqNEdJSmR3Z2RvUl9feHFyMzdkSV90S2hhNlFadVd1TjZiUmpURVJtei00QnJQajBCaFJ1LXN2YktJN3o1S3hhNC1SV3RJNlA3RVhCeHNHZFFuMW5rc2x2WjY5VDZLaVZ0dkFqMmx0alJIcUliZEE1LVU?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "d24c772af64832",
+     "date": "2026-10-22T17:38:48+00:00",
+     "titre": "Lancement de Claude Duet par Anthropic : les entreprises hésitent",
+     "neuf": "Un article relève que les entreprises font face à des hésitations quant à l'adoption de Claude Duet.",
+     "fil": "même agent IA professionnel Claude Duet d'Anthropic",
+     "source": "Anthropic et gouvernement",
+     "lien": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNR05JZHN0U2d5RHE1MWUyUXVaeGhoX3E1dTRyNzNLd3JndmVGa0U2RGE2bFIzZ1ZHUUhTMVZ4Nzg3QmFTb2FMUENXSDR2a0Z5c3h3amx2YXFMY3E3SkFlN09PT1hLS1RjUHQzeGhuVm10TnBlMjlIcVpfdm1aSW95T2V1eFJpeWwwMDJmcnJmUWhxYVdvb2hYQUpUcjFld2VqM3YzcjFaYw?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "139e807626ba1a",
+     "date": "2026-10-24T13:07:30+00:00",
+     "titre": "Anthropic : un minimum de 20 sièges exclut les petits cabinets",
+     "neuf": "Anthropic impose un minimum de 20 sièges entreprise, excluant de fait les petits cabinets.",
+     "fil": "Conditions d'accès et abonnements aux services d'Anthropic",
+     "source": "Anthropic (actus)",
+     "lien": "https://news.google.com/rss/articles/CBMinAJBVV95cUxPT0R4ZTBtQWtQMTBJWGx2NGV2TVNxRl9aa2liNDQ2SGJFVFEta0I2M2lhaEkwR2hWMmxDMlZXamdQYkpFRkU1Wl9PN3JOLXljb3JuTFJ1Z0wwTFp6ZVlqQkRnVHpZOW1uMkpnR0hUYzkzZm9BXzNXSEQ1cnBic2M2cHpqM0FSempQUGNoQzVhWmdyQksxcVN4QVJGZ2NSaEZ3N0pZMno3SFFIQm9ORVBaWWhkM25DQm1pRkIzd1dyOEZvSmxtMnRBTkxYSXp5dW1IZmhNTC1CczY2T0ZDVlBPT1NvZnZ2YXRxLXZxbklsVnQtSVoxQWlsd0hlbVBEUkxpbTNlNUlBRUJmUXdpQ3BCaUVEQTR0SjRVQTdxQw?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    }
+   ],
+   "statut": "active",
+   "societes": [
+    "anthropic",
+    "openai"
+   ]
+  },
   {
    "id": "h_112a00ae9b",
    "titre": "Moonshot AI lance Kimi K3.1 Pro",
@@ -298,129 +556,6 @@
    ]
   },
   {
-   "id": "h_520aa59662",
-   "titre": "Déploiement et disponibilité de Gemini 4 Argon",
-   "resume": "Google DeepMind développe activement sa gamme Gemini 4, son modèle Argon nécessitant un entraînement massif de 25 billions de tokens qui sature les infrastructures de l'entreprise. Ce modèle est initialement appliqué à la cybersécurité et à la robotique, tandis que la version Gemini 4 Carbon est attendue pour réduire les coûts.",
-   "creee": "2026-10-20T09:56:16.457937+00:00",
-   "maj": "2026-10-23T20:13:43+00:00",
-   "episodes": [
-    {
-     "id": "15e70ee5e4a75a",
-     "date": "2026-09-30T20:01:45+00:00",
-     "titre": "Google DeepMind annonce Gemini 4 Argon",
-     "neuf": "Google DeepMind annonce l'arrivée de son modèle d'IA frontière Gemini 4 Argon.",
-     "fil": "Annonce initiale du modèle Gemini 4 Argon par Google DeepMind",
-     "source": "Google DeepMind",
-     "lien": "https://deepmind.google/blog/gemini-4-argon-our-next-era-of-frontier-intelligence/",
-     "nb_sources": 2,
-     "primaire": false
-    },
-    {
-     "id": "16c1598a645116",
-     "date": "2026-10-01T07:00:00+00:00",
-     "titre": "Google lance Gemini 4 Argon, un modèle ultra-puissant réservé aux experts",
-     "neuf": "Le modèle Gemini 4 Argon est initialement réservé à un cercle restreint d'experts en cybersécurité.",
-     "fil": "Suite sur Gemini 4 Argon",
-     "source": "IA en français (actus)",
-     "lien": "https://news.google.com/rss/articles/CBMiwAJBVV95cUxPbm9zS21iUDk5OTBSU1ExUnMxRTBsbzBIdWJOMTloa0toNnp2cnN5a01oSlduSlpsUEhKbWQyUnJsU3FlVmJjVnRFZzJLRnNTRzJOZjFPcG82TF9LUzV6UU03UWFSblJSZzgwMTRIX1Z6YU50dkRFYjZzM29BVWFDVnR4LWdBN1pzOVlZS3pzWVJMRWhJQWJxbllsbGVXd0VwWDI2bFZJbm9udVR1UDhqRkJKdEVXOTU1cHVFZHFId1VTWXBzLTR4WTdPZjF4QTc4VEJkUUtpZTE0Y0dwNmdSSlNuSmVHQUtCM1R3LWY0QU1LcWQxSjc5d3VYdldSMkZMSDVCRG1raXl5QzlDcjg2WWhxUTUySlowMkRURnJCa3RvUmZKNV9INkNJSm91elVxZXc4bzNuZnJneFdFRUhROQ?oc=5",
-     "nb_sources": 1,
-     "primaire": false
-    },
-    {
-     "id": "c1e94fc831365c",
-     "date": "2026-10-13T16:00:00+00:00",
-     "titre": "Google DeepMind lance Gemini 4 Argon",
-     "neuf": "Google présente de nouveau Gemini 4 Argon comme un modèle conçu pour résoudre des problèmes complexes.",
-     "fil": "Extension du déploiement de Gemini 4 Argon",
-     "source": "Google AI",
-     "lien": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-argon/",
-     "nb_sources": 3,
-     "primaire": false
-    },
-    {
-     "id": "f9eb89f74ed89d",
-     "date": "2026-10-13T16:10:19+00:00",
-     "titre": "Google lance Gemini 4 Argon, son nouveau modèle phare pour développeurs et entreprises",
-     "neuf": "Google officialise le déploiement à large échelle de Gemini 4 Argon pour les développeurs et entreprises.",
-     "fil": "Disponibilité élargie de Gemini 4 Argon",
-     "source": "Grandes annonces IA",
-     "lien": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQclhsaXp4NUtqeVJDQTNIUjVXQVdJcnNXYnpYZUFTZm4wY3UxcTM1SzJvdzRBNE9HaURlNG1obzFGQ0o3R0pWNVJfNGFDOUdFZnhfdEJxSkszQ2hZQlowMjdCbVliRE9uX3A5ak1CYkJHOEV1elBYRWgtUHBwdF9lcWEyUGdjbmhQb2JONkpNeWhLTHgzQzRhRFRnZTEwcDRCa3k3RkpxY0c5Z1RsSlFCSmQwNmRmQQ?oc=5",
-     "nb_sources": 2,
-     "primaire": false
-    },
-    {
-     "id": "58bef2b78b9c5f",
-     "date": "2026-10-18T12:43:42+00:00",
-     "titre": "Quatre agents Gemini 4 Argon terminent Minecraft sans aide humaine",
-     "neuf": "Quatre agents propulsés par Gemini 4 Argon parviennent à terminer le jeu Minecraft de manière autonome.",
-     "fil": "même modèle Gemini 4 Argon",
-     "source": "Google Gemini (actus)",
-     "lien": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNdVViZFVsamhYNzZfb2xUN3ZkdHlDcVRNWWktdmRjZ3gxUHJwc3F5MnBibHpCVVo2LWRtM0lLM1MxSG82ampTWF9IcGUtUnAyMUtCWmw5X0pReDViVXBTeFh5dXY2SkVFcWlueFBvdGZ2Z19OdWgzc3NOY3kyaDd2SDBDWnhsb0xvNEFVWWo2UXRoaTA?oc=5",
-     "nb_sources": 1,
-     "primaire": false
-    },
-    {
-     "id": "14367e39ff3673",
-     "date": "2026-10-19T16:45:48+00:00",
-     "titre": "Google Gemini 4 Argon : Annonce et perspectives",
-     "neuf": "Nouvelles annonces autour du positionnement et des perspectives de Gemini 4 Argon.",
-     "fil": "Même modèle Gemini 4 Argon",
-     "source": "Google Gemini (actus)",
-     "lien": "https://news.google.com/rss/articles/CBMickFVX3lxTE1uZTJkalB3aTJDdmZFOFhaOHJDZG43YTdOOGRoQkZGeEgyTVp1ak5QcDNvbXN2aXZUWWJLZE5VeXo3d0dXc0NuMGw2bFJfd2hPTUktZnVXcHM1ZnBIWW5RX2F2NGZKbS13UnFmTm5vSEd2dw?oc=5",
-     "nb_sources": 1,
-     "primaire": false
-    },
-    {
-     "id": "c4ea13b1040293",
-     "date": "2026-10-20T10:25:00+00:00",
-     "titre": "Quatre agents IA de Google DeepMind battent Minecraft en 27 heures",
-     "neuf": "Quatre agents IA de Google DeepMind ont réussi à finir le jeu Minecraft en 27 heures en écrivant des milliers de programmes, au prix d'un coût important en jetons.",
-     "fil": "mêmes agents IA de Google DeepMind sur Minecraft",
-     "source": "Google Gemini (actus)",
-     "lien": "https://news.google.com/rss/articles/CBMi-wJBVV95cUxPTXUtclRkR2lEMFJ6ZnY1X0NlVmNjSWpUY01hbTFMYnVLTm9VSjE4ZUIyakZNTGRlZFM1cHVYbURjTU0xZjVlb2JkTWdjRlVNS2VrRU9PeHdyZU8zczJEYVJUWDJlTUJxeHIwVHN0WjgxV19pUHRqeEF2U2RaU3RkVnpta1lVZjk0NGVITEJXbVFnajdyNkxXLUk3MzFIM2hRWjRjYXNGME1ZeUJ1TDY4dTNucE9SZzBTbHdXS3JsYlZqNzgybnVvU0J3dllKem1wRlJkaHNwbC1hRE1ZZXNzZ216MUdfU01vdS1YY2dxNU0tNTZpWTVIb2FjWnNNYkI4bk1uNzh4bThEX1M5Y2h4S2Zsc1BDVV9LSlExdzF6d3VZRzh5NzFBcXdTNWNINlRBUVdfRmZ5UzZ5bU93YlNhZmxqVGdodGxBZU1ycGtTNEszTzh6dDlWZm1VRmk4S0x4TmlZZDJzWDl4NHBYazFGV185YjZ4c1MwQ1lB?oc=5",
-     "nb_sources": 1,
-     "primaire": false
-    },
-    {
-     "id": "641825df9197d5",
-     "date": "2026-10-21T13:02:42+00:00",
-     "titre": "Gemini 4 Carbon : vers une baisse massive des coûts d'IA",
-     "neuf": "Le futur modèle Gemini 4 Carbon est annoncé avec des coûts prétendument inférieurs de 400 % à ceux de son concurrent GPT Astra.",
-     "fil": "même famille de modèles Google Gemini 4",
-     "source": "Google Gemini (actus)",
-     "lien": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBMRXhuRUFOOGQzdjh6R3hkY2xIbHpJMk9WY1E3R0Iwc0kwTG1UUlhKMW91bF9aY21RT2E0NXEzRHlKVkdoWDl0d2FqWHVyVHZlOHlraFhlTWRsNWJBbkdRUVNUa2xfSE1iSEFpcWVB?oc=5",
-     "nb_sources": 1,
-     "primaire": false
-    },
-    {
-     "id": "5d569a00a1354c",
-     "date": "2026-10-22T19:34:44+00:00",
-     "titre": "Google DeepMind utilise Gemini 4 Argon pour apprendre de nouvelles compétences aux robots",
-     "neuf": "Gemini 4 Argon est désormais appliqué à l'apprentissage de nouvelles compétences pour les robots humanoïdes Apptronik à partir de simples vidéos.",
-     "fil": "même modèle Gemini 4 Argon",
-     "source": "Google Gemini (actus)",
-     "lien": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxPSVEwaG5UMVNDWVduOE9scVhpVUw5azY3T1VERHVvbGJIbHFTR0t4bzNtNWd4alk0T3BoajlLSnlfVWhlcEFMNkdnVUNsLWQwVm5TU1FZeE81bFpHZkR4QjcwMjNxekRYZTN4aU1wZHhFYW9YWU1wNVlMSDJMS2NpX1ZfLTBWb24yWnNxaGx3bWo2MnVoWFVNZjhzSDBqb0NaMVR6bEZBZ0NoUnVTWjBzaHhzb0YyVWJVWkhBM3pSUnNGWWh5ZnhwOGlGdWZyZzRDcVliUmVJRVJKZnNxVUdxZnRXMTU?oc=5",
-     "nb_sources": 1,
-     "primaire": false
-    },
-    {
-     "id": "6017f42bfa9cb6",
-     "date": "2026-10-23T20:13:43+00:00",
-     "titre": "Gemini 4 Argon : l'entraînement massif sature les serveurs de Google",
-     "neuf": "L'entraînement massif du modèle Gemini 4 Argon monopolise 25 billions de tokens et sature les serveurs de Google.",
-     "fil": "Même modèle Gemini 4 Argon",
-     "source": "Google Gemini (actus)",
-     "lien": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOXzlmX0VtN1B5UVhicDZLVWhLTU93cnZRaE8tVFZMUVNCYzFEc2FFbG1QRFpkaFdPNG41YTZWQ3N1Q05KNGhEU3V1WndBbWNHZTUyMTd4anQ3aVc3NVhmV2FveGRQWDdCR04xOEd4LVJfbFFrMzBpU2FSSG9xN3dJcUtNSVU5cDU0RWxsLXozVHdnNE4yaGxwc3pR?oc=5",
-     "nb_sources": 1,
-     "primaire": false
-    }
-   ],
-   "statut": "active",
-   "societes": [
-    "google"
-   ]
-  },
-  {
    "id": "h_27b5489481",
    "titre": "Rupture entre le gouvernement américain et Anthropic",
    "resume": "Suite aux ordres de Donald Trump de rompre les liens entre le gouvernement et Anthropic, le Pentagone a adressé un ultimatum à l'entreprise tout en émettant de nouvelles directives d'acquisition d'IA alignées sur la politique de la Maison-Blanche. En parallèle, d'anciens responsables demandent à la cour d'appel de réexaminer le litige, tandis que le département de la Santé (HHS) s'apprête à attribuer un contrat direct à Anthropic.",
@@ -562,10 +697,43 @@
   {
    "id": "h_5de020e85b",
    "titre": "Application et sanctions de l'AI Act européen",
-   "resume": "L'Union européenne concrétise l'application de son AI Act, présenté comme le premier grand cadre réglementaire mondial pour l'IA. Cette démarche s'accompagne de la publication de la première norme harmonisée sur le système qualité à haut risque (EN 18286) et d'un soutien pratique aux entreprises sur le terrain.",
+   "resume": "L'Union européenne concrétise l'application de son AI Act, confrontant les entreprises aux défis de la mise en conformité et de la gestion des risques. Cette démarche réglementaire s'accompagne de dispositions sur les sanctions, dont les délais de prescription pourraient s'allonger suite aux enquêtes du Bureau de l'IA.",
    "creee": "2026-10-20T09:56:16.457937+00:00",
    "maj": "2026-10-23T12:45:00+00:00",
    "episodes": [
+    {
+     "id": "634535b9265419",
+     "date": "2026-10-09T14:00:41+00:00",
+     "titre": "L'AI Act de l'Union européenne face au défi de la conformité des entreprises",
+     "neuf": "L'Union européenne met en œuvre l'AI Act face au défi de la mise en conformité des entreprises.",
+     "fil": "Application et conformité sous l'AI Act",
+     "source": "Régulation européenne",
+     "lien": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNaW9pV3NTMEs3QllXanlWNGc5TE5MM3BhSEZBSGh4VEcxRl9INENtM01pNWcxYWhWSXMzNnd1RlBKbWc1NFAteUN5N192TklMZGxvMWUzNEhsRGVSTkcyWUhWZzNjZHVGOWpJSC1wSkVZXzIzQWRHYmR3aTJyeGppampUT0JhdGpKS2lGT3Q1TUVfbVJJWmtiVkZwcmZSMzZzTTZPR0hCWWladjc5eDY2STkyd0FoZzU0c0E?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "5dbd7821822f22",
+     "date": "2026-10-10T22:05:13+00:00",
+     "titre": "L'Union européenne se prépare à réguler l'IA avec l'AI Act",
+     "neuf": "Rappel de la mise en place imminente de l'AI Act comme premier grand règlement mondial.",
+     "fil": "Mise en œuvre et application de l'AI Act",
+     "source": "Régulation européenne",
+     "lien": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxNd1lVYkpES2RkbTVDUlJORTY0MG9tRy1sVVFpYUpoN2VxcXd4clQxNmFVVFF1STFJN1BmV091bURqT21CTllVOURuVUpZeGQtcENSUm9iUW9XdDJjN2dRZk1aTVFNUWl3VDRValZXTkh1N0dyNkI4Tl9xT2hDeVM5MjE5alJiMkJNSHBXRkp5RUhPejlRc09vTy1SMmZaQnpPRV83alczano0LTdZTkRGdkFuRFZZSEtTMGstQ2lyUS03a2tCTTBhVzMwMkRFQ05mRmx3Y1dfUVVUN2x3TmJLZk9jRTJzYTNSSGtSLXpLVDI2dw?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "7b53088c1ad47d",
+     "date": "2026-10-15T22:39:08+00:00",
+     "titre": "AI Act : les enquêtes pourraient prolonger les délais de sanction",
+     "neuf": "Les enquêtes du Bureau de l'IA pourraient prolonger le délai de prescription des sanctions de 5 à 10 ans.",
+     "fil": "Sanctions et enquêtes sous l'AI Act",
+     "source": "ActuIA",
+     "lien": "https://www.actuia.com/actualite/ai-act-les-enquetes-pourraient-prolonger-le-delai-de-sanction/",
+     "nb_sources": 1,
+     "primaire": false
+    },
     {
      "id": "bd7357ab84c89f",
      "date": "2026-10-16T10:25:18+00:00",
@@ -908,119 +1076,6 @@
    ],
    "statut": "active",
    "societes": [
-    "openai"
-   ]
-  },
-  {
-   "id": "h_61682af51c",
-   "titre": "Lancement de l'agent IA Claude Duet d'Anthropic",
-   "resume": "Anthropic déploie son agent professionnel Claude Duet, enrichi de plus de 6 000 outils et de capacités d'achat. Malgré ces lancements, les retours soulignent des hésitations initiales de la part des entreprises quant à son adoption concrète.",
-   "creee": "2026-10-21T20:44:46.798337+00:00",
-   "maj": "2026-10-22T17:38:48+00:00",
-   "episodes": [
-    {
-     "id": "5dbb54a005401f",
-     "date": "2026-10-21T19:14:01+00:00",
-     "titre": "Lancement de Claude Duet par Anthropic",
-     "neuf": "Anthropic officialise l'introduction de Claude Duet sur le marché.",
-     "fil": "lancement de l'agent Claude Duet",
-     "source": "Hacker News (IA, 100+ pts)",
-     "lien": "https://claude.com/product/claude-duet",
-     "nb_sources": 1,
-     "primaire": false
-    },
-    {
-     "id": "705d3445b65a91",
-     "date": "2026-10-21T19:53:20+00:00",
-     "titre": "Anthropic lance Claude Duet, son nouvel agent IA",
-     "neuf": "Anthropic positionne Claude Duet pour concurrencer les autres agents du marché.",
-     "fil": "lancement de Claude Duet",
-     "source": "Anthropic (actus)",
-     "lien": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQMm0xalYzS19NOGxhQ0ZpanpWeFpjN3g0VzZfVjROQ3RUemxqZmc3STZhdHlRUTlvZEJOaW52dzdVTUxOc09MMzlVeFlJSmc5V2p4WDdwWjRRaDZKMU5QbldoWHBIaTh0Qi1yc1JFaVNHM1BkQ25ucFZfbVJtWGNYMS1jRWlocDk5NUVheDVpclZEUTJw?oc=5",
-     "nb_sources": 2,
-     "primaire": false
-    },
-    {
-     "id": "05e2774a24a1f6",
-     "date": "2026-10-21T20:29:00+00:00",
-     "titre": "Anthropic lance Claude Duet, son nouvel agent personnel",
-     "neuf": "Claude Duet est présenté comme un nouvel agent personnel pour répliquer à la concurrence.",
-     "fil": "lancement de Claude Duet",
-     "source": "Anthropic (actus)",
-     "lien": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPQkZFNGVZc2Q2Q3VJYWVFNjFlOUh1NE1aNWFrZHlzOFlEMVpQU0xFQkFDSW4ydXljV1gtRnBBVzZjWi11Z3dMQ0sxdl9EdXdJOWl0TWlYMnl1M1o5S3d4LXRuOW9lLUd3bS1lYkloUnFGVnhqbFNJSGtVRUt4ZnlWSVg1Q01YOHlrWF9tZ0RsQXptUjljR0MxVFVaWW0xTXMweUE?oc=5",
-     "nb_sources": 1,
-     "primaire": false
-    },
-    {
-     "id": "29513dd2417946",
-     "date": "2026-10-21T20:41:02+00:00",
-     "titre": "Anthropic entre dans la course aux agents IA avec Claude Duet",
-     "neuf": "Anthropic officialise son entrée sur le marché des agents avec Claude Duet.",
-     "fil": "Lancement de l'agent IA Claude Duet d'Anthropic",
-     "source": "Anthropic et gouvernement",
-     "lien": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNblFra1FIR1VRWmpPaW80WGJSZGNtVG02LUMzU0pvR0NQbkJ3R1N1eGxTS0ZhblV6ZDV1VUNiMVVKVHRCNVI5aHZaZjBGREZUSDg3ekExUnFFWjF2QUs4Qk9ZREN6cUt4QVNZTnlwLThQMmt0Wmp3QWh1QkF3TDFuY1hNOGRnU2Ew?oc=5",
-     "nb_sources": 1,
-     "primaire": false
-    },
-    {
-     "id": "7abf36518713c4",
-     "date": "2026-10-22T01:05:09+00:00",
-     "titre": "Nouvel agent IA d'Anthropic pour l'achat de fournitures professionnelles",
-     "neuf": "L'agent d'Anthropic se dote de capacités d'achat autonome de fournitures professionnelles.",
-     "fil": "Nouvel agent IA d'Anthropic pour les achats professionnels",
-     "source": "Anthropic (actus)",
-     "lien": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQWjdMOWV2Z1JpdUNIN05TWE53U2JJRW1obFBKT05xQVQtc05ZUm9iM3JSaWxsdFpFSTB5UldmbnZqVlZ0bHZhaHZiNkFUMFp3NlpxTUZYOTBWc3RhZWZjSjhseGhOVlBVbE9scnRTLWhZS0lEU2JNTmc2UUwxSHI3ZS1lWXMyc3hFUkk4N2dvZGp2Q2w3amxVUHRiVkRHeHNGT2RrbF9mWHRfa3hrMmc?oc=5",
-     "nb_sources": 1,
-     "primaire": false
-    },
-    {
-     "id": "31cb9fa2449425",
-     "date": "2026-10-22T03:19:00+00:00",
-     "titre": "Claude Duet intègre plus de 6 000 outils pour automatiser les tâches",
-     "neuf": "Claude Duet se connecte à plus de 6 000 intégrations pour automatiser les flux de travail en entreprise.",
-     "fil": "Intégrations de Claude Duet",
-     "source": "Anthropic (actus)",
-     "lien": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPOHZGSWdQNmhaM1AwX2tMNFl0TGo3by1jaG9ESnI3cm1za2ZIbnF3TUJtUVZlOXJLZW9KYlJXWkdmLXRqejFOM2VPNlduTEV1bEx1U0VvQ0c1WDZ6S0YwdnFWNElWTVgway1yTFc5WE84ZFZ1VEo0M3NBbkVQLURuRUgtN3E2cXBsN0lPcFo3aTc?oc=5",
-     "nb_sources": 1,
-     "primaire": false
-    },
-    {
-     "id": "3dec6b4cf94367",
-     "date": "2026-10-22T11:11:31+00:00",
-     "titre": "Découvrez Claude Duet, le nouvel agent IA d'Anthropic",
-     "neuf": "Confirmation du lancement de l'agent pour alléger la charge de travail.",
-     "fil": "Même lancement officiel de l'agent Claude Duet",
-     "source": "Anthropic (actus)",
-     "lien": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBsa3ZVM2JtaGdBajhfZEFDWVJaVHlvbkxYcGR5ODFBdjlEeFNON3FfcG0tYzR0aHIyazRjanhUTWRyX1phZ3JLQTNVTmZTMXlBajQ5SmxUZUFVZms5eGxRbVJrZ04xZDYw?oc=5",
-     "nb_sources": 1,
-     "primaire": false
-    },
-    {
-     "id": "819de26796b063",
-     "date": "2026-10-22T12:16:35+00:00",
-     "titre": "Anthropic lance un agent IA professionnel face à Meta et OpenAI",
-     "neuf": "Anthropic dévoile son agent IA professionnel pour concurrencer Meta Muse et OpenAI Dots.",
-     "fil": "nouvel agent IA professionnel d'Anthropic",
-     "source": "Anthropic et gouvernement",
-     "lien": "https://news.google.com/rss/articles/CBMif0FVX3lxTE4weXI0QVdqNEdJSmR3Z2RvUl9feHFyMzdkSV90S2hhNlFadVd1TjZiUmpURVJtei00QnJQajBCaFJ1LXN2YktJN3o1S3hhNC1SV3RJNlA3RVhCeHNHZFFuMW5rc2x2WjY5VDZLaVZ0dkFqMmx0alJIcUliZEE1LVU?oc=5",
-     "nb_sources": 1,
-     "primaire": false
-    },
-    {
-     "id": "d24c772af64832",
-     "date": "2026-10-22T17:38:48+00:00",
-     "titre": "Lancement de Claude Duet par Anthropic : les entreprises hésitent",
-     "neuf": "Un article relève que les entreprises font face à des hésitations quant à l'adoption de Claude Duet.",
-     "fil": "même agent IA professionnel Claude Duet d'Anthropic",
-     "source": "Anthropic et gouvernement",
-     "lien": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNR05JZHN0U2d5RHE1MWUyUXVaeGhoX3E1dTRyNzNLd3JndmVGa0U2RGE2bFIzZ1ZHUUhTMVZ4Nzg3QmFTb2FMUENXSDR2a0Z5c3h3amx2YXFMY3E3SkFlN09PT1hLS1RjUHQzeGhuVm10TnBlMjlIcVpfdm1aSW95T2V1eFJpeWwwMDJmcnJmUWhxYVdvb2hYQUpUcjFld2VqM3YzcjFaYw?oc=5",
-     "nb_sources": 1,
-     "primaire": false
-    }
-   ],
-   "statut": "active",
-   "societes": [
-    "anthropic",
     "openai"
    ]
   },
@@ -1828,9 +1883,33 @@
    ]
   },
   {
+   "id": "h_220bb78bfd",
+   "titre": "Ornith-1.5-122B : modèle MoE d'auto-amélioration",
+   "resume": "Sortie d'Ornith-1.5-122B, un modèle de langage à mélange d'experts (MoE) de 122 milliards de paramètres qui intègre une boucle d'auto-amélioration continue.",
+   "creee": "2026-10-24T16:42:13.330339+00:00",
+   "maj": "2026-10-16T07:14:27+00:00",
+   "episodes": [
+    {
+     "id": "018ed548f52856",
+     "date": "2026-10-16T07:14:27+00:00",
+     "titre": "Ornith-1.5-122B : un modèle MoE orienté auto-amélioration",
+     "neuf": "Sortie d'Ornith-1.5-122B, un modèle MoE de 122 milliards de paramètres axé sur l'auto-amélioration.",
+     "fil": "Ornith-1.5-122B : modèle MoE d'auto-amélioration",
+     "source": "Hugging Face : modèles en tendance",
+     "lien": "https://huggingface.co/ornith-ai/Ornith-1.5-122B",
+     "nb_sources": 1,
+     "primaire": true
+    }
+   ],
+   "statut": "active",
+   "societes": [
+    "huggingface"
+   ]
+  },
+  {
    "id": "h_da06066ad1",
    "titre": "Meta dévoile son nouveau modèle Muse Wonder",
-   "resume": "Meta a introduit Muse Wonder, son nouveau modèle d'intelligence artificielle, et poursuit le développement de sa gamme avec la sortie du modèle aux poids ouverts Muse Spark Open.",
+   "resume": "Meta continue d'enrichir sa gamme de modèles avec Muse Wonder, suivi de la sortie du modèle aux poids ouverts Muse Spark Open et de nouvelles variantes optimisées pour fonctionner localement sur Mac.",
    "creee": "2026-10-21T08:48:34.440401+00:00",
    "maj": "2026-10-16T00:34:00+00:00",
    "episodes": [
@@ -1930,6 +2009,30 @@
    "statut": "en sommeil",
    "societes": [
     "openai"
+   ]
+  },
+  {
+   "id": "h_3b8cbe0227",
+   "titre": "Levée de fonds et introduction en Bourse de DeepSeek",
+   "resume": "DeepSeek s'apprête à boucler une levée de fonds massive de plus de 10 milliards d'euros auprès de partenaires industriels majeurs, avec en perspective une introduction en Bourse.",
+   "creee": "2026-10-24T16:42:13.330339+00:00",
+   "maj": "2026-10-06T17:04:53+00:00",
+   "episodes": [
+    {
+     "id": "c76102ab893fbc",
+     "date": "2026-10-06T17:04:53+00:00",
+     "titre": "DeepSeek lève 10,6 milliards d'euros et prépare son entrée en Bourse",
+     "neuf": "DeepSeek s'apprête à boucler une levée de fonds de plus de 10 milliards d'euros en vue de son introduction en Bourse.",
+     "fil": "Levée de fonds et introduction en Bourse de DeepSeek",
+     "source": "ActuIA",
+     "lien": "https://www.actuia.com/actualite/deepseek-trie-ses-investisseurs-pour-un-tour-de-80-milliards-de-yuans/",
+     "nb_sources": 1,
+     "primaire": false
+    }
+   ],
+   "statut": "en sommeil",
+   "societes": [
+    "deepseek"
    ]
   }
  ]

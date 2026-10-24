@@ -1,5 +1,5 @@
 {
- "maj": "2026-10-24T12:49:47.752132+00:00",
+ "maj": "2026-10-24T16:42:13.330393+00:00",
  "sources_ok": [
   "Notes de version Claude (API)",
   "Notes de version OpenAI (API)",
@@ -57,15 +57,15 @@
    "erreur": "429 Client Error: Too Many Requests for url: https://venturebeat.com/category/ai/feed/"
   }
  ],
- "total": 966,
- "analyses": 864,
+ "total": 978,
+ "analyses": 882,
  "brief": {
-  "titre": "Anthropic s'associe à Google et OpenAI sécurise ses modèles",
-  "texte": "L'actualité de l'IA est marquée par l'arrivée des modèles Claude sur Google Cloud et le lancement de l'API Claude Tag pour les entreprises. OpenAI ajuste sa stratégie en mettant fin à l'entraînement sur le Web en direct tout en renforçant la sécurité de ses environnements d'apprentissage. De son côté, Google fait face à des tensions sur ses serveurs avec l'entraînement massif de Gemini 4 Argon et suscite des inquiétudes sur l'utilisation des données personnelles. Enfin, l'écosystème open source et asiatique bouge avec l'arrivée de nouveaux modèles comme Kimi K3.1 Pro de Moonshot AI.",
+  "titre": "Entre sécurité renforcée, nouveaux modèles et tensions géopolitiques",
+  "texte": "L'écosystème de l'intelligence artificielle est marqué par des ajustements majeurs en matière de sécurité et de gouvernance. OpenAI et Anthropic font évoluer leurs infrastructures et leurs API, tandis que de nouveaux modèles comme DeepSeek-V4.1-Flash et Kimi K3.1 Pro élargissent l'offre open weights. En parallèle, la Suède interdit l'usage de ChatGPT et Claude, illustrant la pression réglementaire croissante. Enfin, des études soulignent des orientations politiques divergentes et les limites de l'open-sourcing pour les modèles les plus avancés.",
   "a_tester": [
-   "Explorer l'intégration des modèles Claude via Google Cloud pour vos projets d'entreprise.",
-   "Tester la nouvelle version du SDK Anthropic v2.2.0 et l'API Claude Tag.",
-   "Examiner les alternatives open source et les derniers modèles intégrés par Unsloth."
+   "Tester l'API Claude Tag en version bêta pour Claude Enterprise",
+   "Explorer le modèle quantifié DeepSeek-V4.1-Flash sur Hugging Face",
+   "Examiner les nouveautés du SDK Anthropic v2.2.0"
   ]
  },
  "top5": {
