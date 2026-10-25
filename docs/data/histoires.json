@@ -1,5 +1,5 @@
 {
- "maj": "2026-10-25T16:42:24.561093+00:00",
+ "maj": "2026-10-25T20:39:13.644089+00:00",
  "histoires": [
   {
    "id": "h_520aa59662",
@@ -997,10 +997,21 @@
   {
    "id": "h_27b5489481",
    "titre": "Rupture entre le gouvernement américain et Anthropic",
-   "resume": "Suite aux ordres de Donald Trump de rompre les liens entre le gouvernement et Anthropic, le Pentagone a adressé un ultimatum à l'entreprise tout en émettant de nouvelles directives d'acquisition d'IA alignées sur la politique de la Maison-Blanche. En parallèle, d'anciens responsables demandent à la cour d'appel de réexaminer le litige, tandis que le département de la Santé (HHS) s'apprête à attribuer un contrat direct à Anthropic.",
+   "resume": "Suite aux ordres de Donald Trump de rompre les liens entre le gouvernement et Anthropic, le Pentagone a cessé d'utiliser les outils de l'entreprise après l'avoir placé sur une liste noire, tout en émettant de nouvelles directives d'acquisition d'IA. En parallèle, d'anciens responsables demandent à la cour d'appel de réexaminer le litige, tandis que le département de la Santé s'apprête à attribuer un contrat direct à Anthropic.",
    "creee": "2026-10-20T09:56:16.457937+00:00",
    "maj": "2026-10-23T16:44:28+00:00",
    "episodes": [
+    {
+     "id": "a5d5379bc0d458",
+     "date": "2026-10-05T07:00:00+00:00",
+     "titre": "Le Pentagone cesse d'utiliser les outils d'Anthropic après une mise sur liste noire",
+     "neuf": "Le Pentagone cesse officiellement d'utiliser les outils d'Anthropic après sa mise sur liste noire.",
+     "fil": "même rupture des relations entre le Pentagone et Anthropic",
+     "source": "Anthropic et gouvernement",
+     "lien": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5ILU5UbWc0NDdJSEowdm9PaE14Nkl1MjlpSEJ4djdRQUlhVWNocFAyMXpxN0pXOUZNQk1YQ3JiZnd5MVpGckNkLU5NU1FXTjZzS2EyWDU0RnB3N1U?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    },
     {
      "id": "77a430eb2248cd",
      "date": "2026-10-17T19:57:28+00:00",
@@ -1263,10 +1274,21 @@
   {
    "id": "h_f5d527a7f4",
    "titre": "Suspension du partage de conversations Muse de Meta",
-   "resume": "Meta a suspendu une fonctionnalité de partage de discussions de son assistant Muse après des problèmes d'indexation publique, tandis que l'application séduit un public âgé — ce qui inquiète les experts en protection de la vie privée — et dépasse les 10 millions d'utilisateurs.",
+   "resume": "Meta a suspendu une fonctionnalité de partage de discussions de son assistant Muse après des problèmes d'indexation publique, tandis que l'application séduit un public âgé et est accusée de constituer un dossier personnel sur ses utilisateurs, dépassant les 10 millions d'utilisateurs.",
    "creee": "2026-10-20T20:45:07.920169+00:00",
    "maj": "2026-10-22T12:00:04+00:00",
    "episodes": [
+    {
+     "id": "e8cf0a7f34e534",
+     "date": "2026-10-06T07:00:00+00:00",
+     "titre": "L'agent IA Muse de Meta construirait un dossier personnel sur les utilisateurs",
+     "neuf": "L'agent Muse est accusé de constituer un dossier personnel sur ses utilisateurs, alimentant les inquiétudes sur la confidentialité.",
+     "fil": "même assistant Muse de Meta et problèmes de vie privée",
+     "source": "Vie privée et assistants IA",
+     "lien": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5MR3ZoNkVqVlVoaDFQVzJoUTcxTS1lOG5uSWJ4bUlUSi1OVk5sd0Y5TG5TdXVHbnJpaG10T3I2ZC1UcDRCTTBkS1MwNWQ4Vm9aQU1TMFhLTGVSYUZaYUt1T1RNRElhcW5Xa2g4XzZ5dDY?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    },
     {
      "id": "f52190a49967b6",
      "date": "2026-10-20T18:07:34+00:00",
@@ -2031,10 +2053,21 @@
   {
    "id": "h_da06066ad1",
    "titre": "Meta dévoile son nouveau modèle Muse Wonder",
-   "resume": "Meta continue d'enrichir sa gamme de modèles avec Muse Wonder, dont l'officialisation stimule son action en bourse. Cette annonce s'ajoute à la sortie du modèle aux poids ouverts Muse Spark Open et de nouvelles variantes optimisées pour fonctionner localement sur Mac.",
+   "resume": "Meta continue d'enrichir sa gamme de modèles avec Muse Wonder et Muse Spark Open, dont l'officialisation stimule son action en bourse. Cette dynamique s'accompagne de l'annonce d'un modèle ouvert présenté comme le plus puissant des États-Unis et de variantes optimisées pour fonctionner localement sur Mac.",
    "creee": "2026-10-21T08:48:34.440401+00:00",
    "maj": "2026-10-16T00:34:00+00:00",
    "episodes": [
+    {
+     "id": "6fc6a6f5cb21f3",
+     "date": "2026-10-12T07:00:00+00:00",
+     "titre": "Meta dévoile Muse Wonder pour concurrencer ChatGPT",
+     "neuf": "Lancement de l'assistant Muse Wonder pour concurrencer ChatGPT.",
+     "fil": "même modèle Muse Wonder de Meta",
+     "source": "IA en français (actus)",
+     "lien": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQaUNBUWdzWkxHQ0RRdG5PRjJXbFJnMnNyQlZmd0pKelJXVHlZc1BvUVdQbE9jcDBsX0VfdTlPRnNSVEloeERsX053MlRUVVBVR0RWRmNqWERLVlVIancxYklVTjhhQWNXR0stNHlheHNWVmUxMzJuaTE5YzEyOXNkdFNHQXhJMWJpUzc0VlFod0U5TThBMXlZX055Y0JzOTd3eUlxamJqNkU1TFB6dkxHMmk1R2RuN01DanItSUdHTkU?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    },
     {
      "id": "7f9781199dee27",
      "date": "2026-10-12T17:00:25+00:00",
@@ -2044,6 +2077,28 @@
      "source": "Grandes annonces IA",
      "lien": "https://news.google.com/rss/articles/CBMid0FVX3lxTE11QldFTGNiMGg4N0FwZHE0OGl5ZTBoZkZGdnBjZ1ZyOURmb1lxUHZScVViOXQzMzNmZnJBdlNPbE1xdkVTWEpLSXVPR1R1ajRmTElvSi1JNG5YbHk0SnlnUUhVZzR5SG16YXZyMWFQQWQ2YzRUUmpZ0gF8QVVfeXFMUFVKWjBUSUhEcDFKSk1lQ2M0dVNWMHYtZVVlbkRfS0ZTVnZIQ0E2elc1UEdSbkFKcXRncjhOVjAteDJ0Y0R2YzVhRGlOY0tOWnpuUjN0dmxHSy0zUVk3bW5RWFBlUTJ5LWd0WWMxaEpqVkoxY05pdzY4a3JzSA?oc=5",
      "nb_sources": 2,
+     "primaire": false
+    },
+    {
+     "id": "3ea3de408bbe32",
+     "date": "2026-10-13T03:55:09+00:00",
+     "titre": "Meta lance un nouveau modèle ouvert puissant aux États-Unis",
+     "neuf": "Meta annonce un nouveau modèle d'intelligence artificielle ouvert présenté comme le plus puissant des États-Unis.",
+     "fil": "même lancement de modèle ouvert de Meta",
+     "source": "IA en français (actus)",
+     "lien": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxPSGNacDBzQ0tMM21scXpVRF9JRDkwcVpZNDBwb0Uzb2JYVkFhZnhYbm9rLVhkNFRDaVl1QkdHTHp1eXdCMU5rcGtPZTlHTEw3dWtRRkdsa0NwM0JoS2VCWnYwaDRmSXk1dGRIUkVLX3FnTzVfOEs1TmhzdXNKTEhmY1RXWlIwMGVxc0QyeWpUTDVGVWF2S2RKVWw1WW9yekVWTXB1dVIyUjRhR3dtbWJ0eE1zNmkzNllXdG1aOUFrbzBxSkpmZ0hJTk9GUFVxOEg2VDVZTlJvUHRMQS1XblBjTmNoNXFhdGw1ZFdBSk9mU0VSRE05YmRKVU9NOWM?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "0d4b47f5e44ee4",
+     "date": "2026-10-13T07:00:00+00:00",
+     "titre": "Meta dévoile Muse Wonder pour concurrencer ChatGPT",
+     "neuf": "Rappel du lancement de Muse Wonder pour concurrencer ChatGPT.",
+     "fil": "même assistant Muse Wonder de Meta",
+     "source": "IA en français (actus)",
+     "lien": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNMV9DMFpGWjVQc2lxQ3EwR3JfaWliS1BIY3p3UGRvOFJ0MHZoX25pZXAwMWFfXzBsT010TEZQQlFEMGdCeHJiSFR0dzFUR0IzY21TVnhQalA1dGxsWDRxMjNDUmRlM1NTTmU3YVhoNFNmd0lPME50ZTNTOTN4V0M3SDBXQ1JVekMxcThLUTctT2tSVFdIVl9yZkhlNWo4VUl6TG1DdzRqeU55b2dYejk4bQ?oc=5",
+     "nb_sources": 1,
      "primaire": false
     },
     {
@@ -2071,7 +2126,8 @@
    ],
    "statut": "active",
    "societes": [
-    "meta"
+    "meta",
+    "openai"
    ]
   },
   {
