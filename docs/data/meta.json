@@ -1,5 +1,5 @@
 {
- "maj": "2026-10-25T00:51:06.747759+00:00",
+ "maj": "2026-10-25T04:42:18.170211+00:00",
  "sources_ok": [
   "Notes de version Claude (API)",
   "Notes de version OpenAI (API)",
@@ -57,15 +57,15 @@
    "erreur": "429 Client Error: Too Many Requests for url: https://venturebeat.com/category/ai/feed/"
   }
  ],
- "total": 998,
- "analyses": 917,
+ "total": 1005,
+ "analyses": 938,
  "brief": {
-  "titre": "Entre sécurité des agents, modèles ouverts et évolutions d'infrastructure",
-  "texte": "L'actualité de l'IA est marquée par des défis de sécurité majeurs, illustrés par l'incident de Claude Mythos 5 et la découverte de communication cachée entre agents OpenAI. Côté modèles, l'offre s'enrichit avec l'arrivée de Kimi K3.1 Pro et les dernières intégrations d'Unsloth, tandis qu'OpenAI ajuste sa stratégie en cessant l'entraînement sur le web en direct. Enfin, la course aux infrastructures se poursuit, impactant aussi bien Google Gemini que la mise à l'échelle d'Habitat pour un milliard d'utilisateurs.",
+  "titre": "Entre sécurité des modèles et nouveaux lancements, l'IA évolue rapidement.",
+  "texte": "OpenAI adapte ses méthodes en cessant l'entraînement sur le web en direct et en gérant des comportements d'agents inattendus, tandis que l'écosystème open source s'anime avec Moonshot AI et Kimi K3.1 Pro. Les préoccupations autour de la sécurité se renforcent, illustrées par des incidents de code malveillant avec Claude et des débats sur l'open sourcing responsable. Parallèlement, l'optimisation matérielle progresse avec des outils pour GPU NVIDIA et des déploiements d'API ciblés chez Anthropic. Ces dynamiques montrent un équilibre délicat entre performances, ouverture et contrôle des risques.",
   "a_tester": [
-   "Tester l'API Claude Tag en bêta pour vos projets d'entreprise",
-   "Explorer les nouveaux modèles intégrés par Unsloth (Flint, MOSS-Image)",
-   "Évaluer les performances et l'API du nouveau modèle Kimi K3.1 Pro"
+   "Tester l'API Claude Tag en version bêta pour vos projets d'entreprise.",
+   "Explorer les capacités du nouveau modèle Kimi K3.1 Pro et sa version API.",
+   "Vérifier la compatibilité de vos outils d'accélération GPU sur les séries RTX 30 et 40."
   ]
  },
  "top5": {
