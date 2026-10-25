@@ -1,5 +1,5 @@
 {
- "maj": "2026-10-25T04:42:18.170137+00:00",
+ "maj": "2026-10-25T08:42:57.176509+00:00",
  "histoires": [
   {
    "id": "h_112a00ae9b",
@@ -315,6 +315,41 @@
    "statut": "active",
    "societes": [
     "anthropic",
+    "openai"
+   ]
+  },
+  {
+   "id": "h_ce930b7f17",
+   "titre": "Verrouillage des conversations sur ChatGPT",
+   "resume": "Il est possible de verrouiller des discussions spécifiques sur ChatGPT pour protéger leur confidentialité lors du prêt de son appareil, bien que cette fonctionnalité présente certaines limites de sécurité.",
+   "creee": "2026-10-20T20:45:07.920169+00:00",
+   "maj": "2026-10-24T13:00:00+00:00",
+   "episodes": [
+    {
+     "id": "6f64ba14f44d2e",
+     "date": "2026-10-20T18:36:53+00:00",
+     "titre": "ChatGPT permet désormais de verrouiller vos conversations",
+     "neuf": "Ajout d'une option pour protéger la confidentialité de discussions spécifiques.",
+     "fil": "verrouillage des conversations ChatGPT",
+     "source": "TechCrunch IA",
+     "lien": "https://techcrunch.com/2026/10/20/chatgpt-now-lets-you-lock-your-chats/",
+     "nb_sources": 2,
+     "primaire": false
+    },
+    {
+     "id": "1ad422c19f4b11",
+     "date": "2026-10-24T13:00:00+00:00",
+     "titre": "Fonctionnalité Locked Chats de ChatGPT : utilité et limites de sécurité",
+     "neuf": "Un nouvel article analyse l'utilité et les limites de sécurité de la fonction Locked Chats de ChatGPT.",
+     "fil": "même fonctionnalité Locked Chats",
+     "source": "OpenAI (actus)",
+     "lien": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNVjRiVWFfMlhMU0hWNUFhSTgzNk5kVVhOOHJRdnBhVGcwQnMwMko1a1RqRk1xZFdZQ0pySF9rQXF4UEI4MmtWbkpOc2lBelVkMVNNalBoQ1FsX1FMMlFHN1RQNEw4VVVWUXppY3ZnaWtGM21ZQ01lUXNlRGxDUW5MN0JOMUdRbmJxYVpEdUxUMkU4blAtWWwzbTRhNVc4WXNhaktIaG9uVU00NGlKQmNHTzBGS0JMNGtZSC1EMktPSWU4azFkSVFZYnVXclYwZWtJTDVKaQ?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    }
+   ],
+   "statut": "active",
+   "societes": [
     "openai"
    ]
   },
@@ -1735,30 +1770,6 @@
    "statut": "active",
    "societes": [
     "google"
-   ]
-  },
-  {
-   "id": "h_ce930b7f17",
-   "titre": "Verrouillage des conversations sur ChatGPT",
-   "resume": "Il est désormais possible de verrouiller des discussions spécifiques sur ChatGPT pour protéger leur confidentialité lors du prêt de son appareil.",
-   "creee": "2026-10-20T20:45:07.920169+00:00",
-   "maj": "2026-10-20T18:36:53+00:00",
-   "episodes": [
-    {
-     "id": "6f64ba14f44d2e",
-     "date": "2026-10-20T18:36:53+00:00",
-     "titre": "ChatGPT permet désormais de verrouiller vos conversations",
-     "neuf": "Ajout d'une option pour protéger la confidentialité de discussions spécifiques.",
-     "fil": "verrouillage des conversations ChatGPT",
-     "source": "TechCrunch IA",
-     "lien": "https://techcrunch.com/2026/10/20/chatgpt-now-lets-you-lock-your-chats/",
-     "nb_sources": 2,
-     "primaire": false
-    }
-   ],
-   "statut": "active",
-   "societes": [
-    "openai"
    ]
   },
   {

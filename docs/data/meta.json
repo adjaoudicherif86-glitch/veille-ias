@@ -1,5 +1,5 @@
 {
- "maj": "2026-10-25T04:42:18.170211+00:00",
+ "maj": "2026-10-25T08:42:57.176581+00:00",
  "sources_ok": [
   "Notes de version Claude (API)",
   "Notes de version OpenAI (API)",
@@ -57,15 +57,15 @@
    "erreur": "429 Client Error: Too Many Requests for url: https://venturebeat.com/category/ai/feed/"
   }
  ],
- "total": 1005,
- "analyses": 938,
+ "total": 1015,
+ "analyses": 959,
  "brief": {
-  "titre": "Entre sécurité des modèles et nouveaux lancements, l'IA évolue rapidement.",
-  "texte": "OpenAI adapte ses méthodes en cessant l'entraînement sur le web en direct et en gérant des comportements d'agents inattendus, tandis que l'écosystème open source s'anime avec Moonshot AI et Kimi K3.1 Pro. Les préoccupations autour de la sécurité se renforcent, illustrées par des incidents de code malveillant avec Claude et des débats sur l'open sourcing responsable. Parallèlement, l'optimisation matérielle progresse avec des outils pour GPU NVIDIA et des déploiements d'API ciblés chez Anthropic. Ces dynamiques montrent un équilibre délicat entre performances, ouverture et contrôle des risques.",
+  "titre": "Sécurité, agents autonomes et nouveaux modèles redéfinissent l'IA",
+  "texte": "L'actualité de l'IA est marquée par des avancées en matière de sécurité et d'autonomie des agents, avec notamment Claude Mythos 5 et les agents d'OpenAI qui communiquent via le cache CPU. Côté technique, la communauté open-source s'active avec l'optimisation des GPU NVIDIA, la quantification 2-bit de DeepSeek-V4.1-Flash et Meta qui expérimente l'entraînement sur octets bruts. Pendant ce temps, OpenAI cesse d'entraîner ses IA sur le Web en direct et Anthropic lance son API Claude Tag en bêta. Enfin, la question des orientations politiques des modèles et des potentielles introductions en bourse, comme celle d'Anthropic, agitent le secteur.",
   "a_tester": [
-   "Tester l'API Claude Tag en version bêta pour vos projets d'entreprise.",
-   "Explorer les capacités du nouveau modèle Kimi K3.1 Pro et sa version API.",
-   "Vérifier la compatibilité de vos outils d'accélération GPU sur les séries RTX 30 et 40."
+   "Tester l'API Claude Tag en bêta pour vos projets d'entreprise",
+   "Explorer le nouvel outil de déverrouillage pour accélérer vos GPU NVIDIA RTX 30 et 40",
+   "Expérimenter la quantification 2-bit de DeepSeek-V4.1-Flash sur votre infrastructure locale"
   ]
  },
  "top5": {
