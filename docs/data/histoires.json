@@ -1,59 +1,12 @@
 {
- "maj": "2026-10-25T08:42:57.176509+00:00",
+ "maj": "2026-10-25T12:49:11.228155+00:00",
  "histoires": [
-  {
-   "id": "h_112a00ae9b",
-   "titre": "Moonshot AI lance Kimi K3.1 Pro",
-   "resume": "Moonshot AI officialise le lancement de Kimi K3.1 Pro via son API, s'imposant comme un concurrent direct de ChatGPT. Pour se conformer aux nouvelles régulations, le modèle Kimi K3.1 a également été expurgé de ses données d'entraînement relatives aux cyberattaques.",
-   "creee": "2026-10-23T20:44:31.752569+00:00",
-   "maj": "2026-10-24T16:05:18+00:00",
-   "episodes": [
-    {
-     "id": "2e71264ea893e4",
-     "date": "2026-10-23T19:40:54+00:00",
-     "titre": "Moonshot AI lance Kimi K3.1 Pro avec une version API et des poids ouverts prévus",
-     "neuf": "Moonshot AI lance Kimi K3.1 Pro via API avec des poids ouverts prévus pour novembre 2026.",
-     "fil": "Lancement de Kimi K3.1 Pro",
-     "source": "Simon Willison",
-     "lien": "https://simonwillison.net/2026/Oct/23/kimi-k31-pro/",
-     "nb_sources": 1,
-     "primaire": false
-    },
-    {
-     "id": "b8abb325b1175d",
-     "date": "2026-10-24T09:28:14+00:00",
-     "titre": "Kimi K3.1 Pro : la startup chinoise qui concurrence ChatGPT",
-     "neuf": "Le modèle Kimi K3.1 Pro est mis en avant pour sa capacité à concurrencer directement ChatGPT sur le plan des performances.",
-     "fil": "même modèle Kimi K3.1 Pro de Moonshot AI",
-     "source": "IA en français (actus)",
-     "lien": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNTzY5Qi1kRGlQeENlUllGU3J1aWVoc2kyRXdieGcwamtaVVIzY2xmdWJwQU5ETkVwb0cybE40VklvNjVDNEl2bDBHY0ZhVTVBY1I4TlNYbEJvMTBRSlA0d3FMZ21zWnlBMUtVWkVWVmZpbVFRQXpHQUJDT0RhUnJzeFlQM1B1eWlubVY1Qlk1NA?oc=5",
-     "nb_sources": 1,
-     "primaire": false
-    },
-    {
-     "id": "968da023a49c5b",
-     "date": "2026-10-24T16:05:18+00:00",
-     "titre": "Kimi K3.1 retire les données sur les cyberattaques de son modèle",
-     "neuf": "Moonshot AI retire les données de cyberattaques de son modèle Kimi K3.1 pour se conformer aux réglementations.",
-     "fil": "même modèle Kimi K3.1 de Moonshot AI",
-     "source": "r/LocalLLaMA",
-     "lien": "https://www.reddit.com/r/LocalLLaMA/comments/1xecgrf/kimi_k31_removes_cyberattack_training_data_from/",
-     "nb_sources": 1,
-     "primaire": false
-    }
-   ],
-   "statut": "active",
-   "societes": [
-    "moonshot",
-    "openai"
-   ]
-  },
   {
    "id": "h_520aa59662",
    "titre": "Déploiement et disponibilité de Gemini 4 Argon",
-   "resume": "Google DeepMind déploie sa gamme Gemini 4, son modèle Argon nécessitant un entraînement massif avant d'être appliqué à des tâches concrètes comme l'optimisation de bases de code ou évalué face à la concurrence dans des tests comparatifs récents.",
+   "resume": "Google DeepMind déploie sa gamme Gemini 4 et exploite son modèle Argon pour des applications concrètes avancées, allant de l'optimisation de bases de code complexes à la conception scientifique d'un tableau périodique en trois dimensions.",
    "creee": "2026-10-20T09:56:16.457937+00:00",
-   "maj": "2026-10-24T16:00:02+00:00",
+   "maj": "2026-10-25T10:33:00+00:00",
    "episodes": [
     {
      "id": "15e70ee5e4a75a",
@@ -186,11 +139,137 @@
      "lien": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1qcUw2RWl0OHUtRUJLOXA2Y0VYX214QVZqZnFvOW1HYlhsSEthUUdBY1JVSzlWakIzUFhxNzl1ZDVOVDdZc3dSbHlETzV1eGtzT0lkT3lRdVFyY1NteEZIZWFNdDVUbXJ0R1ZqdE1naw?oc=5",
      "nb_sources": 1,
      "primaire": false
+    },
+    {
+     "id": "4dcce3a85e1ad1",
+     "date": "2026-10-25T10:33:00+00:00",
+     "titre": "Google DeepMind crée un tableau périodique 3D avec Gemini 4 Argon",
+     "neuf": "Gemini 4 Argon est utilisé par Google DeepMind pour concevoir un tableau périodique en trois dimensions.",
+     "fil": "même modèle Gemini 4 Argon",
+     "source": "Google Gemini (actus)",
+     "lien": "https://news.google.com/rss/articles/CBMigwJBVV95cUxQZmFqbWV1UW1hWmt2b1pBZTVjOWthVUNHYjd4V3RzeV9UX1hzSUVTQVRRZTRfMTBWdTMtalQtblBTd0Q4VTdWbENybm45UWx3TnRrcF9wb1UtVFVqeFI1UERmNnY2M2l0SjNBUnY0cjZMalFnSGpveXllT2tweUthaWdwa2hlWWFSRUV1VE5PbVBkbkJlQWxGNUFPMXl6Ql9XS0NZTkFSMFB4ajYwNU4tdDZuUm00UFNGQVlyVkpSdFpJWE5rb0xsSkg0TVlLa0luRy1rZXY3bUJHNEFWMTdPTloyVnZCMGZMUjFhLWVSZlBZakZmMWhEVE8tVDZKZkRPbkYw0gGIAkFVX3lxTE9fT3d3Yng3TVBINThDT01aNkZnQkxHTFIta0FYR1NaSWxZUUYyMHIxa3VGdWowUHk0TFpLdURkV0p4RFIzRmhtVGdHdmRZdWFuZW44bEtlOW1wMDZBc245cEFyaTUzTTFhT0lyVnl4STkySS00TFBWd3l5S180blFkekdxdkNUbjBNdVN3X0EwcVNITk9sN05aZjVWV2NsVFhHek5uTjhsQm1RUFpMUVBudVBRNExyUlVzYUFhRUdCekp6dU1hOVhpVkROWjIxSnhHeUxWNVIwR2J2OUZkdG5COFhCMUlYdkZoczRUSlQ3djEtTDBFanBYamwweDZCaEdFNEZkYWd6TA?oc=5",
+     "nb_sources": 1,
+     "primaire": false
     }
    ],
    "statut": "active",
    "societes": [
     "google",
+    "openai"
+   ]
+  },
+  {
+   "id": "h_5e0762833f",
+   "titre": "Action en justice contre SpaceXAI",
+   "resume": "SpaceXAI fait face à une escalation des poursuites judiciaires et pécuniaires, les réclamations financières totales s'élevant désormais à 220 millions de dollars. En parallèle, l'entreprise continue de développer l'écosystème de Grok à travers des partenariats et des intégrations mobiles.",
+   "creee": "2026-10-20T20:45:07.920169+00:00",
+   "maj": "2026-10-25T09:44:33+00:00",
+   "episodes": [
+    {
+     "id": "54794aade42fd8",
+     "date": "2026-10-20T19:51:00+00:00",
+     "titre": "Une plainte en justice contre SpaceXAI autorisée à se poursuivre",
+     "neuf": "Un juge autorise la poursuite de la plainte visant l'entreprise.",
+     "fil": "action en justice contre SpaceXAI",
+     "source": "Grok et SpaceXAI (actus)",
+     "lien": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOUVI0SUp1dnBQTWNyRkZnSTJWdUx3Y05pM2ozaHJXMVFVZnpPUTNhYWVldGlaR3pEN21yQWdRdTgweWlmaDA0WlU1dllGRWRZVDZKMXZLdXNJNDV4dnNkdFNtcV9OaU1EU3ozdkR5SW50QmhKRWJIUmxCdHp5cjdiSldfTldEUi1zTE5nazhVTQ?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "f33d215c710570",
+     "date": "2026-10-21T21:33:47+00:00",
+     "titre": "Refus d'intervention du DOJ dans le procès SpaceXAI à Southaven",
+     "neuf": "Un tribunal bloque l'intervention du ministère de la Justice dans l'affaire SpaceXAI à Southaven.",
+     "fil": "le procès SpaceXAI",
+     "source": "Grok et SpaceXAI (actus)",
+     "lien": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQY3RCWlc5ZHUxWTM1V1JjTkhEWlN2Ny14eGZOaVhnSHRuTDR4OTlSQVdWbDBhbGtQdjBKSXhUOWd2dzEwblJqakNpaWd6OHN0VjdsdGFMSTVibUJHMXY3N25QTGhwMmk5Snh5LXg1R2FQS20wTUVLQzgtdWZmNlJTUkxFeDdScjBfaU5VYzljTGFKRkE?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "c3e2edb0d5b6e5",
+     "date": "2026-10-22T16:39:00+00:00",
+     "titre": "City of Memphis moves to ease truck traffic concerns near SpaceXAI supercomputer - FOX13 Memphis",
+     "neuf": "La ville de Memphis prend des mesures pour fluidifier le trafic des camions autour du supercalculateur SpaceXAI.",
+     "fil": "même projet et supercalculateur SpaceXAI à Memphis",
+     "source": "Grok et SpaceXAI (actus)",
+     "lien": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxPc1RNVTdqU2Fzc3dMUXlaUDJFTklDOGpKZVdrWFJJRkJWMVBzdTU1Ym9GTUFoYUFuTEJRZ1FuTldjWmNLeUVtUjlKSEVjc0Y5Sm45Y1JaTEQyWmlyTWNEc09OTnJUR2U0enpYTGFzX3hZcUdnUWFocW85MnNJbnQ2QTM2QWd3TmNOcW40QzREQzhLYXF1dkpXamhld3g1WEVsclZvLTJQNkpVR05kTmJ3bkdHWEIxenB2V2RFRzFJakNZODVkR1VDdHQ3UmFQSjk5WkFZa0UzWV9xdDlHVnRuME0yZXE0OUxqbUFPa2ZHdzRsaEtic0Vj?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "6451ac313e4eca",
+     "date": "2026-10-22T22:47:00+00:00",
+     "titre": "SpaceXAI visé par 6,1 millions de dollars d'amendes au Mississippi",
+     "neuf": "SpaceXAI écope de 6,1 millions de dollars d'amendes au Mississippi.",
+     "fil": "Mêmes poursuites et sanctions contre SpaceXAI",
+     "source": "Grok et SpaceXAI (actus)",
+     "lien": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOZEdkSEpTVk5FclA4TldnQ1g2QTNrdDBWNFlEZ1gtRlo4X3ZQdHM2SlBOYmlrVHNOWmIyaXh1bkUxenVnXzVPMHV4akx2TkQ0TWFkN1plY3dWcktwdVJCNnh0Smw0UEtCZW90QmliWEZRODJST2hIMzdJWXhVU1JET2pSdGZaUEUwRWlNMklKUFZTbTRUQjNrNVZLQjI1T01XUm5MZnBvMEtoVWEwendPNzlJcms0V1V2anlQci1YQmFlZ2M?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "9f9c516908c72b",
+     "date": "2026-10-25T09:44:33+00:00",
+     "titre": "220 millions de dollars de réclamations déposés contre SpaceXAI",
+     "neuf": "Le montant total des réclamations financières visant SpaceXAI s'élève désormais à 220 millions de dollars.",
+     "fil": "même action en justice et réclamations contre SpaceXAI",
+     "source": "Grok et SpaceXAI (actus)",
+     "lien": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPYkF5X2MwdVBzM05fUFpZTFM4eGRrZy15aDZCZTIxZWo5R2o1Z1FRX2VoRmJNVkpmVVNiZ3FiSGZUcndmT0RTN1lGRW1SZ3FWRzlWbGlGbzE2WWs3VU5IMDVURzFRaUdlWTNzTGJKTjJjVVBTUGRSa1RQOW9qUW1NYkZVMkZIajZCdkhVS1VCVEkxT0dHRzlGZllVU1lGdGJrVV9rV2FnaVY0OGJ0?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    }
+   ],
+   "statut": "active",
+   "societes": [
+    "spacexai"
+   ]
+  },
+  {
+   "id": "h_112a00ae9b",
+   "titre": "Moonshot AI lance Kimi K3.1 Pro",
+   "resume": "Moonshot AI officialise le lancement de Kimi K3.1 Pro via son API, s'imposant comme un concurrent direct de ChatGPT. Pour se conformer aux nouvelles régulations, le modèle Kimi K3.1 a également été expurgé de ses données d'entraînement relatives aux cyberattaques.",
+   "creee": "2026-10-23T20:44:31.752569+00:00",
+   "maj": "2026-10-24T16:05:18+00:00",
+   "episodes": [
+    {
+     "id": "2e71264ea893e4",
+     "date": "2026-10-23T19:40:54+00:00",
+     "titre": "Moonshot AI lance Kimi K3.1 Pro avec une version API et des poids ouverts prévus",
+     "neuf": "Moonshot AI lance Kimi K3.1 Pro via API avec des poids ouverts prévus pour novembre 2026.",
+     "fil": "Lancement de Kimi K3.1 Pro",
+     "source": "Simon Willison",
+     "lien": "https://simonwillison.net/2026/Oct/23/kimi-k31-pro/",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "b8abb325b1175d",
+     "date": "2026-10-24T09:28:14+00:00",
+     "titre": "Kimi K3.1 Pro : la startup chinoise qui concurrence ChatGPT",
+     "neuf": "Le modèle Kimi K3.1 Pro est mis en avant pour sa capacité à concurrencer directement ChatGPT sur le plan des performances.",
+     "fil": "même modèle Kimi K3.1 Pro de Moonshot AI",
+     "source": "IA en français (actus)",
+     "lien": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNTzY5Qi1kRGlQeENlUllGU3J1aWVoc2kyRXdieGcwamtaVVIzY2xmdWJwQU5ETkVwb0cybE40VklvNjVDNEl2bDBHY0ZhVTVBY1I4TlNYbEJvMTBRSlA0d3FMZ21zWnlBMUtVWkVWVmZpbVFRQXpHQUJDT0RhUnJzeFlQM1B1eWlubVY1Qlk1NA?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "968da023a49c5b",
+     "date": "2026-10-24T16:05:18+00:00",
+     "titre": "Kimi K3.1 retire les données sur les cyberattaques de son modèle",
+     "neuf": "Moonshot AI retire les données de cyberattaques de son modèle Kimi K3.1 pour se conformer aux réglementations.",
+     "fil": "même modèle Kimi K3.1 de Moonshot AI",
+     "source": "r/LocalLLaMA",
+     "lien": "https://www.reddit.com/r/LocalLLaMA/comments/1xecgrf/kimi_k31_removes_cyberattack_training_data_from/",
+     "nb_sources": 1,
+     "primaire": false
+    }
+   ],
+   "statut": "active",
+   "societes": [
+    "moonshot",
     "openai"
    ]
   },
@@ -351,6 +430,185 @@
    "statut": "active",
    "societes": [
     "openai"
+   ]
+  },
+  {
+   "id": "h_5de020e85b",
+   "titre": "Application et sanctions de l'AI Act européen",
+   "resume": "L'Union européenne poursuit la mise en œuvre concrète de son AI Act, en fixant notamment les plafonds de sanctions financières pour les modèles d'IA à large diffusion (GPAI) jusqu'à 3 % du chiffre d'affaires. Cette rigueur réglementaire confronte les entreprises aux défis de la conformité, alors que les procédures et enquêtes continuent d'évoluer.",
+   "creee": "2026-10-20T09:56:16.457937+00:00",
+   "maj": "2026-10-24T12:43:32+00:00",
+   "episodes": [
+    {
+     "id": "634535b9265419",
+     "date": "2026-10-09T14:00:41+00:00",
+     "titre": "L'AI Act de l'Union européenne face au défi de la conformité des entreprises",
+     "neuf": "L'Union européenne met en œuvre l'AI Act face au défi de la mise en conformité des entreprises.",
+     "fil": "Application et conformité sous l'AI Act",
+     "source": "Régulation européenne",
+     "lien": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNaW9pV3NTMEs3QllXanlWNGc5TE5MM3BhSEZBSGh4VEcxRl9INENtM01pNWcxYWhWSXMzNnd1RlBKbWc1NFAteUN5N192TklMZGxvMWUzNEhsRGVSTkcyWUhWZzNjZHVGOWpJSC1wSkVZXzIzQWRHYmR3aTJyeGppampUT0JhdGpKS2lGT3Q1TUVfbVJJWmtiVkZwcmZSMzZzTTZPR0hCWWladjc5eDY2STkyd0FoZzU0c0E?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "5dbd7821822f22",
+     "date": "2026-10-10T22:05:13+00:00",
+     "titre": "L'Union européenne se prépare à réguler l'IA avec l'AI Act",
+     "neuf": "Rappel de la mise en place imminente de l'AI Act comme premier grand règlement mondial.",
+     "fil": "Mise en œuvre et application de l'AI Act",
+     "source": "Régulation européenne",
+     "lien": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxNd1lVYkpES2RkbTVDUlJORTY0MG9tRy1sVVFpYUpoN2VxcXd4clQxNmFVVFF1STFJN1BmV091bURqT21CTllVOURuVUpZeGQtcENSUm9iUW9XdDJjN2dRZk1aTVFNUWl3VDRValZXTkh1N0dyNkI4Tl9xT2hDeVM5MjE5alJiMkJNSHBXRkp5RUhPejlRc09vTy1SMmZaQnpPRV83alczano0LTdZTkRGdkFuRFZZSEtTMGstQ2lyUS03a2tCTTBhVzMwMkRFQ05mRmx3Y1dfUVVUN2x3TmJLZk9jRTJzYTNSSGtSLXpLVDI2dw?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "7b53088c1ad47d",
+     "date": "2026-10-15T22:39:08+00:00",
+     "titre": "AI Act : les enquêtes pourraient prolonger les délais de sanction",
+     "neuf": "Les enquêtes du Bureau de l'IA pourraient prolonger le délai de prescription des sanctions de 5 à 10 ans.",
+     "fil": "Sanctions et enquêtes sous l'AI Act",
+     "source": "ActuIA",
+     "lien": "https://www.actuia.com/actualite/ai-act-les-enquetes-pourraient-prolonger-le-delai-de-sanction/",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "12a96253e39ba8",
+     "date": "2026-10-15T22:39:08+00:00",
+     "titre": "AI Act : les enquêtes pourraient prolonger le délai de sanction",
+     "neuf": "Précision sur la possibilité que les enquêtes de l'AI Act prolongent les délais de sanction.",
+     "fil": "même application et sanctions de l'AI Act européen",
+     "source": "Régulation européenne",
+     "lien": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPU0J5MXlWdzVVMk80RFFLQTFCTFlFejhLSXc2M3V2SktRMXVGVEZxVTVaZHVfMUUtak0zUUhNR05teWx4NXJUdXAyQzBqZWpXZXNidm9ZZU1HdEVBUDhrSjlKQlVPUXZHQTlvc3dxUDAwcThuenFRQThoNUEtSFRpdDFJckxYZHNpWXhJNlR5SGxCY1RUS0kycEJzdw?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "bd7357ab84c89f",
+     "date": "2026-10-16T10:25:18+00:00",
+     "titre": "L'Union européenne dévoile les règles de sanction pour l'AI Act",
+     "neuf": "La Commission européenne détaille l'application concrète des sanctions pour les modèles d'IA générative.",
+     "fil": "Règles de sanction de l'AI Act",
+     "source": "Régulation européenne",
+     "lien": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNVkZKdkNmWm1tQ0FEMWJCMDdnMlh6OUhDWk1ub3ByOHY2WDZxaHhTbl9PTEszODg4VVJUNVNsQnQ0MGdyUWVBd1Z2alVTQ1g1RXVIOFVwanVmQ0d5YTZlOFhFaWhnX1F5dF9QSlQ5RTlyMS04YVRETWNob0ktcTMwU0RYVnBqRTBfeWc?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "3115f2832e6b35",
+     "date": "2026-10-19T00:00:00+00:00",
+     "titre": "Entrée en vigueur de l'AI Act et fin du shadow IA",
+     "neuf": "L'AI Act entre officiellement en vigueur, marquant la fin de la tolérance pour le « shadow IA » au sein des entreprises en Europe.",
+     "fil": "même application et entrée en vigueur de l'AI Act européen",
+     "source": "Régulation européenne",
+     "lien": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPendzelR2MFhHU21YSTE2dlBHQjlxbkhsMDlQSjlfUlVyYi1XdWVPZVpweHM0ZGx1LVJuazFzMGJiQ3hQdVJ4VjFiMXNDUHdyLXZ0YU5nZ0JJSV9RSTJ5d3N1cF9RWF80ZTlNUHBLajU2cDRGZ1JLS19QOTVLZ21kTURuaEI0QldxV2p6N3NUNmUzM21HVk1yaGNHbUNQZjNwWkRKUTR6XzFnT01CTllnMw?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "f815b9e3fe52ba",
+     "date": "2026-10-19T07:00:00+00:00",
+     "titre": "L'Union européenne déploie l'AI Act pour encadrer l'intelligence artificielle",
+     "neuf": "Rappel de la portée générale de l'AI Act en tant que premier grand règlement mondial d'encadrement.",
+     "fil": "Même mise en œuvre de l'AI Act européen",
+     "source": "Régulation européenne",
+     "lien": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFAwYm9obURudU1kM1hqWE55OXl0YXhwd3lYQ2QtWDZfVmt1SmlVY1NTLUlUUUxuNVBubVhkTER6OG9RR3FMN2hmY3FkWnJ0RldxNVE?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "cdfb1ae21529bf",
+     "date": "2026-10-19T09:17:11+00:00",
+     "titre": "AI Act : la gouvernance des agents IA pose question pour les entreprises",
+     "neuf": "Les entreprises s'interrogent sur le temps restant pour préparer la gouvernance de leurs agents face aux exigences de l'AI Act.",
+     "fil": "même application de l'AI Act",
+     "source": "Régulation européenne",
+     "lien": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxQMEhMWTVTUHZXR1NKS3AzX3dYaGI0MnFBME1pTG1aS21HajdiTFRIMzhxbjNtcm44NFE2UmFXXzZ4R1h6VW14YW4wOGd2ZzAyMk1sekZUVF9mVG41cm0yTkRKZXRKZi1rcU1ENFJyaWs5ZmZLdkFyVzczbWFudG13SERvRUxhTExoNjVlcUwwREV0OTlQRmdVZXdha2JfNFBtZkhXcWtfUGZqUjFZb1NDZkRyU0dYTU9nUlI5TkRQYzZCbnpGNWN0XzhWQWVfR2x2U0haZzN4UG0zZnN4bm9QYlhEVUZVanZBbFZPYzQ1QQ?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "662ebe66cb5c1b",
+     "date": "2026-10-19T10:00:00+00:00",
+     "titre": "L'AI Act européen privilégie l'IA d'aide à la décision",
+     "neuf": "L'Union européenne oriente l'AI Act vers le développement de systèmes d'aide à la décision plutôt que de contrôle.",
+     "fil": "même application de l'AI Act",
+     "source": "Régulation européenne",
+     "lien": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxQN1llSF9JNFd3TjZEekdYWG5KYzVqM05FdjMzbzAzSkpRc3o5QlVOd1hURlMtY0RQeXBPeEluZ2dxaUxiaUNMcXA4WHVkQ1lGWGpHVkNEcElkN0FDd1FwdEl1WGRQMWluRDJaVm9zdnhjdmFISjdVNC0xVzJVQzRpYWk3cEQxVlM0SWwzenV1RUhIZGZOVy0xS0lZdE5wS2hVay1JcG94RWNhaERoUkc5MEc4YklxVUkwN2s0RDhUSUVCdURsNXprZXN5dGZRajVpOGtoTVFCd1FYWGM?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "7fd6735c2ab1df",
+     "date": "2026-10-20T03:06:52+00:00",
+     "titre": "L'Union européenne sonde OpenAI et Anthropic dans le cadre de l'AI Act",
+     "neuf": "L'Union européenne cible OpenAI et Anthropic dans le cadre de sondages liés à l'AI Act, avec un risque d'amende.",
+     "fil": "même application de l'AI Act",
+     "source": "Régulation européenne",
+     "lien": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1LZU9MZ2xjbXhrNkxZSkFRd0E0QU1KMEtwalFMNWxPaWluSmZPRjNqM09rVGNzWF9yZ1ctV1ZHbk53cWdDVm4xQU5iUFNxTW0zN2k1TW1RWXdFcHVGSWxSRTBlWjlEMUNwazVXd0hyYUc0NzBP?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "90111474fb194f",
+     "date": "2026-10-20T04:40:30+00:00",
+     "titre": "Entrée en vigueur et conformité des entreprises à l'AI Act européen en 2026",
+     "neuf": "L'Union européenne officialise l'entrée en vigueur de l'AI Act et publie des guides de conformité pour l'année 2026.",
+     "fil": "même application de l'AI Act européen",
+     "source": "Régulation européenne",
+     "lien": "https://news.google.com/rss/articles/CBMia0FVX3lxTE96eVYyVkJQQ3JDRTdudXJtbmNvaW53T2VoT3Zid0tFWFVXWG50TGJSVVZhbE1VVl81d19sZGRzaml3Y21HbzBUb3pFRy1FNF9JcEpMMGlKSDNQcU5rdG5vU29ETjk4UGxQVld3?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "e412135ad51278",
+     "date": "2026-10-20T12:30:00+00:00",
+     "titre": "Agents IA : la nouvelle responsabilité des vendeurs face à l'UE",
+     "neuf": "La directive européenne assimile les logiciels et SaaS d'IA à des produits, engageant la responsabilité stricte de leurs vendeurs.",
+     "fil": "même cadre réglementaire européen sur l'IA",
+     "source": "ActuIA",
+     "lien": "https://www.actuia.com/actualite/agents-ia-ce-que-la-directive-europeenne-fera-payer-aux-entreprises-qui-les-vendent/",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "eba26d23de0f62",
+     "date": "2026-10-22T12:16:00+00:00",
+     "titre": "AI Act : publication de la première norme harmonisée sur le système qualité",
+     "neuf": "Publication de la première norme harmonisée (EN 18286) couvrant le système qualité des fournisseurs à haut risque.",
+     "fil": "application de l'AI Act",
+     "source": "ActuIA",
+     "lien": "https://www.actuia.com/actualite/ai-act-la-premiere-norme-harmonisee-ne-couvre-que-le-systeme-qualite/",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "74085a9efe5c78",
+     "date": "2026-10-23T12:45:00+00:00",
+     "titre": "Entrée en vigueur de l'AI Act et accompagnement des entreprises dans le Var",
+     "neuf": "L'AI Act entre formellement en vigueur, entraînant la mise en place d'un accompagnement local des entreprises pour assurer leur conformité.",
+     "fil": "même mise en application et en conformité avec l'AI Act européen",
+     "source": "Régulation européenne",
+     "lien": "https://news.google.com/rss/articles/CBMixwFBVV95cUxONXR3TkJaLTVDLU5CcVlGZldXY3hUNnlLQVBKMk1FMDh6bF82NVN4dXoxRzNUTFNPYVd6X3RseUw5RVVFNUc4NjdNZkhzMWJlUmFSbDJwLS1TeWwzRzdFbU1ZaHBnY2RuM01GMzl6aGtVaXpBVDNiQXlkb01vYkRoUmxNZURKX0s4OVhUMThaRlVHZGVUcFFObXRObG53LWpxN0RYUE5leVFxbkk2Q1dvck0zVVp2Q2N1RXFROVljYXVyQ29ubk00?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "d8516b9a59ac0d",
+     "date": "2026-10-24T12:43:32+00:00",
+     "titre": "L'UE fixe les sanctions de l'AI Act pour les modèles d'IA généraux",
+     "neuf": "L'Union européenne précise les montants des amendes maximales pour les modèles d'IA à large diffusion.",
+     "fil": "même application et sanctions de l'AI Act européen",
+     "source": "Régulation européenne",
+     "lien": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5wVDhvYTFtUXBzTi1RdUV5bHVBUUZCSlFwSjd3dnBabzlCaUVKLWk2WjNaUkw3TkRzanNVU25aOXhTbUo0MmQzOHFIMmZWcEg5VDFtaGNVSXlFTG9MclVHOElmVDlMejk0MWU4MW44NG5KYXZ4X1M1YTVjdw?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    }
+   ],
+   "statut": "active",
+   "societes": [
+    "openai",
+    "ue"
    ]
   },
   {
@@ -876,174 +1134,6 @@
    ]
   },
   {
-   "id": "h_5de020e85b",
-   "titre": "Application et sanctions de l'AI Act européen",
-   "resume": "L'Union européenne concrétise l'application de son AI Act, confrontant les entreprises aux défis de la mise en conformité et de la gestion des risques. Cette démarche réglementaire s'accompagne de dispositions sur les sanctions, dont les délais de prescription et d'application pourraient s'allonger suite aux enquêtes en cours.",
-   "creee": "2026-10-20T09:56:16.457937+00:00",
-   "maj": "2026-10-23T12:45:00+00:00",
-   "episodes": [
-    {
-     "id": "634535b9265419",
-     "date": "2026-10-09T14:00:41+00:00",
-     "titre": "L'AI Act de l'Union européenne face au défi de la conformité des entreprises",
-     "neuf": "L'Union européenne met en œuvre l'AI Act face au défi de la mise en conformité des entreprises.",
-     "fil": "Application et conformité sous l'AI Act",
-     "source": "Régulation européenne",
-     "lien": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNaW9pV3NTMEs3QllXanlWNGc5TE5MM3BhSEZBSGh4VEcxRl9INENtM01pNWcxYWhWSXMzNnd1RlBKbWc1NFAteUN5N192TklMZGxvMWUzNEhsRGVSTkcyWUhWZzNjZHVGOWpJSC1wSkVZXzIzQWRHYmR3aTJyeGppampUT0JhdGpKS2lGT3Q1TUVfbVJJWmtiVkZwcmZSMzZzTTZPR0hCWWladjc5eDY2STkyd0FoZzU0c0E?oc=5",
-     "nb_sources": 1,
-     "primaire": false
-    },
-    {
-     "id": "5dbd7821822f22",
-     "date": "2026-10-10T22:05:13+00:00",
-     "titre": "L'Union européenne se prépare à réguler l'IA avec l'AI Act",
-     "neuf": "Rappel de la mise en place imminente de l'AI Act comme premier grand règlement mondial.",
-     "fil": "Mise en œuvre et application de l'AI Act",
-     "source": "Régulation européenne",
-     "lien": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxNd1lVYkpES2RkbTVDUlJORTY0MG9tRy1sVVFpYUpoN2VxcXd4clQxNmFVVFF1STFJN1BmV091bURqT21CTllVOURuVUpZeGQtcENSUm9iUW9XdDJjN2dRZk1aTVFNUWl3VDRValZXTkh1N0dyNkI4Tl9xT2hDeVM5MjE5alJiMkJNSHBXRkp5RUhPejlRc09vTy1SMmZaQnpPRV83alczano0LTdZTkRGdkFuRFZZSEtTMGstQ2lyUS03a2tCTTBhVzMwMkRFQ05mRmx3Y1dfUVVUN2x3TmJLZk9jRTJzYTNSSGtSLXpLVDI2dw?oc=5",
-     "nb_sources": 1,
-     "primaire": false
-    },
-    {
-     "id": "7b53088c1ad47d",
-     "date": "2026-10-15T22:39:08+00:00",
-     "titre": "AI Act : les enquêtes pourraient prolonger les délais de sanction",
-     "neuf": "Les enquêtes du Bureau de l'IA pourraient prolonger le délai de prescription des sanctions de 5 à 10 ans.",
-     "fil": "Sanctions et enquêtes sous l'AI Act",
-     "source": "ActuIA",
-     "lien": "https://www.actuia.com/actualite/ai-act-les-enquetes-pourraient-prolonger-le-delai-de-sanction/",
-     "nb_sources": 1,
-     "primaire": false
-    },
-    {
-     "id": "12a96253e39ba8",
-     "date": "2026-10-15T22:39:08+00:00",
-     "titre": "AI Act : les enquêtes pourraient prolonger le délai de sanction",
-     "neuf": "Précision sur la possibilité que les enquêtes de l'AI Act prolongent les délais de sanction.",
-     "fil": "même application et sanctions de l'AI Act européen",
-     "source": "Régulation européenne",
-     "lien": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPU0J5MXlWdzVVMk80RFFLQTFCTFlFejhLSXc2M3V2SktRMXVGVEZxVTVaZHVfMUUtak0zUUhNR05teWx4NXJUdXAyQzBqZWpXZXNidm9ZZU1HdEVBUDhrSjlKQlVPUXZHQTlvc3dxUDAwcThuenFRQThoNUEtSFRpdDFJckxYZHNpWXhJNlR5SGxCY1RUS0kycEJzdw?oc=5",
-     "nb_sources": 1,
-     "primaire": false
-    },
-    {
-     "id": "bd7357ab84c89f",
-     "date": "2026-10-16T10:25:18+00:00",
-     "titre": "L'Union européenne dévoile les règles de sanction pour l'AI Act",
-     "neuf": "La Commission européenne détaille l'application concrète des sanctions pour les modèles d'IA générative.",
-     "fil": "Règles de sanction de l'AI Act",
-     "source": "Régulation européenne",
-     "lien": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNVkZKdkNmWm1tQ0FEMWJCMDdnMlh6OUhDWk1ub3ByOHY2WDZxaHhTbl9PTEszODg4VVJUNVNsQnQ0MGdyUWVBd1Z2alVTQ1g1RXVIOFVwanVmQ0d5YTZlOFhFaWhnX1F5dF9QSlQ5RTlyMS04YVRETWNob0ktcTMwU0RYVnBqRTBfeWc?oc=5",
-     "nb_sources": 1,
-     "primaire": false
-    },
-    {
-     "id": "3115f2832e6b35",
-     "date": "2026-10-19T00:00:00+00:00",
-     "titre": "Entrée en vigueur de l'AI Act et fin du shadow IA",
-     "neuf": "L'AI Act entre officiellement en vigueur, marquant la fin de la tolérance pour le « shadow IA » au sein des entreprises en Europe.",
-     "fil": "même application et entrée en vigueur de l'AI Act européen",
-     "source": "Régulation européenne",
-     "lien": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPendzelR2MFhHU21YSTE2dlBHQjlxbkhsMDlQSjlfUlVyYi1XdWVPZVpweHM0ZGx1LVJuazFzMGJiQ3hQdVJ4VjFiMXNDUHdyLXZ0YU5nZ0JJSV9RSTJ5d3N1cF9RWF80ZTlNUHBLajU2cDRGZ1JLS19QOTVLZ21kTURuaEI0QldxV2p6N3NUNmUzM21HVk1yaGNHbUNQZjNwWkRKUTR6XzFnT01CTllnMw?oc=5",
-     "nb_sources": 1,
-     "primaire": false
-    },
-    {
-     "id": "f815b9e3fe52ba",
-     "date": "2026-10-19T07:00:00+00:00",
-     "titre": "L'Union européenne déploie l'AI Act pour encadrer l'intelligence artificielle",
-     "neuf": "Rappel de la portée générale de l'AI Act en tant que premier grand règlement mondial d'encadrement.",
-     "fil": "Même mise en œuvre de l'AI Act européen",
-     "source": "Régulation européenne",
-     "lien": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFAwYm9obURudU1kM1hqWE55OXl0YXhwd3lYQ2QtWDZfVmt1SmlVY1NTLUlUUUxuNVBubVhkTER6OG9RR3FMN2hmY3FkWnJ0RldxNVE?oc=5",
-     "nb_sources": 1,
-     "primaire": false
-    },
-    {
-     "id": "cdfb1ae21529bf",
-     "date": "2026-10-19T09:17:11+00:00",
-     "titre": "AI Act : la gouvernance des agents IA pose question pour les entreprises",
-     "neuf": "Les entreprises s'interrogent sur le temps restant pour préparer la gouvernance de leurs agents face aux exigences de l'AI Act.",
-     "fil": "même application de l'AI Act",
-     "source": "Régulation européenne",
-     "lien": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxQMEhMWTVTUHZXR1NKS3AzX3dYaGI0MnFBME1pTG1aS21HajdiTFRIMzhxbjNtcm44NFE2UmFXXzZ4R1h6VW14YW4wOGd2ZzAyMk1sekZUVF9mVG41cm0yTkRKZXRKZi1rcU1ENFJyaWs5ZmZLdkFyVzczbWFudG13SERvRUxhTExoNjVlcUwwREV0OTlQRmdVZXdha2JfNFBtZkhXcWtfUGZqUjFZb1NDZkRyU0dYTU9nUlI5TkRQYzZCbnpGNWN0XzhWQWVfR2x2U0haZzN4UG0zZnN4bm9QYlhEVUZVanZBbFZPYzQ1QQ?oc=5",
-     "nb_sources": 1,
-     "primaire": false
-    },
-    {
-     "id": "662ebe66cb5c1b",
-     "date": "2026-10-19T10:00:00+00:00",
-     "titre": "L'AI Act européen privilégie l'IA d'aide à la décision",
-     "neuf": "L'Union européenne oriente l'AI Act vers le développement de systèmes d'aide à la décision plutôt que de contrôle.",
-     "fil": "même application de l'AI Act",
-     "source": "Régulation européenne",
-     "lien": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxQN1llSF9JNFd3TjZEekdYWG5KYzVqM05FdjMzbzAzSkpRc3o5QlVOd1hURlMtY0RQeXBPeEluZ2dxaUxiaUNMcXA4WHVkQ1lGWGpHVkNEcElkN0FDd1FwdEl1WGRQMWluRDJaVm9zdnhjdmFISjdVNC0xVzJVQzRpYWk3cEQxVlM0SWwzenV1RUhIZGZOVy0xS0lZdE5wS2hVay1JcG94RWNhaERoUkc5MEc4YklxVUkwN2s0RDhUSUVCdURsNXprZXN5dGZRajVpOGtoTVFCd1FYWGM?oc=5",
-     "nb_sources": 1,
-     "primaire": false
-    },
-    {
-     "id": "7fd6735c2ab1df",
-     "date": "2026-10-20T03:06:52+00:00",
-     "titre": "L'Union européenne sonde OpenAI et Anthropic dans le cadre de l'AI Act",
-     "neuf": "L'Union européenne cible OpenAI et Anthropic dans le cadre de sondages liés à l'AI Act, avec un risque d'amende.",
-     "fil": "même application de l'AI Act",
-     "source": "Régulation européenne",
-     "lien": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1LZU9MZ2xjbXhrNkxZSkFRd0E0QU1KMEtwalFMNWxPaWluSmZPRjNqM09rVGNzWF9yZ1ctV1ZHbk53cWdDVm4xQU5iUFNxTW0zN2k1TW1RWXdFcHVGSWxSRTBlWjlEMUNwazVXd0hyYUc0NzBP?oc=5",
-     "nb_sources": 1,
-     "primaire": false
-    },
-    {
-     "id": "90111474fb194f",
-     "date": "2026-10-20T04:40:30+00:00",
-     "titre": "Entrée en vigueur et conformité des entreprises à l'AI Act européen en 2026",
-     "neuf": "L'Union européenne officialise l'entrée en vigueur de l'AI Act et publie des guides de conformité pour l'année 2026.",
-     "fil": "même application de l'AI Act européen",
-     "source": "Régulation européenne",
-     "lien": "https://news.google.com/rss/articles/CBMia0FVX3lxTE96eVYyVkJQQ3JDRTdudXJtbmNvaW53T2VoT3Zid0tFWFVXWG50TGJSVVZhbE1VVl81d19sZGRzaml3Y21HbzBUb3pFRy1FNF9JcEpMMGlKSDNQcU5rdG5vU29ETjk4UGxQVld3?oc=5",
-     "nb_sources": 1,
-     "primaire": false
-    },
-    {
-     "id": "e412135ad51278",
-     "date": "2026-10-20T12:30:00+00:00",
-     "titre": "Agents IA : la nouvelle responsabilité des vendeurs face à l'UE",
-     "neuf": "La directive européenne assimile les logiciels et SaaS d'IA à des produits, engageant la responsabilité stricte de leurs vendeurs.",
-     "fil": "même cadre réglementaire européen sur l'IA",
-     "source": "ActuIA",
-     "lien": "https://www.actuia.com/actualite/agents-ia-ce-que-la-directive-europeenne-fera-payer-aux-entreprises-qui-les-vendent/",
-     "nb_sources": 1,
-     "primaire": false
-    },
-    {
-     "id": "eba26d23de0f62",
-     "date": "2026-10-22T12:16:00+00:00",
-     "titre": "AI Act : publication de la première norme harmonisée sur le système qualité",
-     "neuf": "Publication de la première norme harmonisée (EN 18286) couvrant le système qualité des fournisseurs à haut risque.",
-     "fil": "application de l'AI Act",
-     "source": "ActuIA",
-     "lien": "https://www.actuia.com/actualite/ai-act-la-premiere-norme-harmonisee-ne-couvre-que-le-systeme-qualite/",
-     "nb_sources": 1,
-     "primaire": false
-    },
-    {
-     "id": "74085a9efe5c78",
-     "date": "2026-10-23T12:45:00+00:00",
-     "titre": "Entrée en vigueur de l'AI Act et accompagnement des entreprises dans le Var",
-     "neuf": "L'AI Act entre formellement en vigueur, entraînant la mise en place d'un accompagnement local des entreprises pour assurer leur conformité.",
-     "fil": "même mise en application et en conformité avec l'AI Act européen",
-     "source": "Régulation européenne",
-     "lien": "https://news.google.com/rss/articles/CBMixwFBVV95cUxONXR3TkJaLTVDLU5CcVlGZldXY3hUNnlLQVBKMk1FMDh6bF82NVN4dXoxRzNUTFNPYVd6X3RseUw5RVVFNUc4NjdNZkhzMWJlUmFSbDJwLS1TeWwzRzdFbU1ZaHBnY2RuM01GMzl6aGtVaXpBVDNiQXlkb01vYkRoUmxNZURKX0s4OVhUMThaRlVHZGVUcFFObXRObG53LWpxN0RYUE5leVFxbkk2Q1dvck0zVVp2Q2N1RXFROVljYXVyQ29ubk00?oc=5",
-     "nb_sources": 1,
-     "primaire": false
-    }
-   ],
-   "statut": "active",
-   "societes": [
-    "openai",
-    "ue"
-   ]
-  },
-  {
    "id": "h_0b110b013a",
    "titre": "Canva Craft : un modèle de génération d'images",
    "resume": "Canva entre sur le marché des modèles propriétaires en officialisant le lancement de Canva Craft, une IA de génération d'images intégrée qui s'appuie sur une architecture en deux étapes pour planifier les designs avant de les générer.",
@@ -1099,63 +1189,6 @@
    ],
    "statut": "active",
    "societes": []
-  },
-  {
-   "id": "h_5e0762833f",
-   "titre": "Action en justice contre SpaceXAI",
-   "resume": "SpaceXAI fait face à des procédures judiciaires et d'importantes amendes pour des violations au Mississippi, tout en élargissant l'écosystème de Grok (connexion aux applications mobiles, pénétration du marché d'entreprise via des partenaires) et en s'associant à Apollo et Nvidia.",
-   "creee": "2026-10-20T20:45:07.920169+00:00",
-   "maj": "2026-10-22T22:47:00+00:00",
-   "episodes": [
-    {
-     "id": "54794aade42fd8",
-     "date": "2026-10-20T19:51:00+00:00",
-     "titre": "Une plainte en justice contre SpaceXAI autorisée à se poursuivre",
-     "neuf": "Un juge autorise la poursuite de la plainte visant l'entreprise.",
-     "fil": "action en justice contre SpaceXAI",
-     "source": "Grok et SpaceXAI (actus)",
-     "lien": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOUVI0SUp1dnBQTWNyRkZnSTJWdUx3Y05pM2ozaHJXMVFVZnpPUTNhYWVldGlaR3pEN21yQWdRdTgweWlmaDA0WlU1dllGRWRZVDZKMXZLdXNJNDV4dnNkdFNtcV9OaU1EU3ozdkR5SW50QmhKRWJIUmxCdHp5cjdiSldfTldEUi1zTE5nazhVTQ?oc=5",
-     "nb_sources": 1,
-     "primaire": false
-    },
-    {
-     "id": "f33d215c710570",
-     "date": "2026-10-21T21:33:47+00:00",
-     "titre": "Refus d'intervention du DOJ dans le procès SpaceXAI à Southaven",
-     "neuf": "Un tribunal bloque l'intervention du ministère de la Justice dans l'affaire SpaceXAI à Southaven.",
-     "fil": "le procès SpaceXAI",
-     "source": "Grok et SpaceXAI (actus)",
-     "lien": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQY3RCWlc5ZHUxWTM1V1JjTkhEWlN2Ny14eGZOaVhnSHRuTDR4OTlSQVdWbDBhbGtQdjBKSXhUOWd2dzEwblJqakNpaWd6OHN0VjdsdGFMSTVibUJHMXY3N25QTGhwMmk5Snh5LXg1R2FQS20wTUVLQzgtdWZmNlJTUkxFeDdScjBfaU5VYzljTGFKRkE?oc=5",
-     "nb_sources": 1,
-     "primaire": false
-    },
-    {
-     "id": "c3e2edb0d5b6e5",
-     "date": "2026-10-22T16:39:00+00:00",
-     "titre": "City of Memphis moves to ease truck traffic concerns near SpaceXAI supercomputer - FOX13 Memphis",
-     "neuf": "La ville de Memphis prend des mesures pour fluidifier le trafic des camions autour du supercalculateur SpaceXAI.",
-     "fil": "même projet et supercalculateur SpaceXAI à Memphis",
-     "source": "Grok et SpaceXAI (actus)",
-     "lien": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxPc1RNVTdqU2Fzc3dMUXlaUDJFTklDOGpKZVdrWFJJRkJWMVBzdTU1Ym9GTUFoYUFuTEJRZ1FuTldjWmNLeUVtUjlKSEVjc0Y5Sm45Y1JaTEQyWmlyTWNEc09OTnJUR2U0enpYTGFzX3hZcUdnUWFocW85MnNJbnQ2QTM2QWd3TmNOcW40QzREQzhLYXF1dkpXamhld3g1WEVsclZvLTJQNkpVR05kTmJ3bkdHWEIxenB2V2RFRzFJakNZODVkR1VDdHQ3UmFQSjk5WkFZa0UzWV9xdDlHVnRuME0yZXE0OUxqbUFPa2ZHdzRsaEtic0Vj?oc=5",
-     "nb_sources": 1,
-     "primaire": false
-    },
-    {
-     "id": "6451ac313e4eca",
-     "date": "2026-10-22T22:47:00+00:00",
-     "titre": "SpaceXAI visé par 6,1 millions de dollars d'amendes au Mississippi",
-     "neuf": "SpaceXAI écope de 6,1 millions de dollars d'amendes au Mississippi.",
-     "fil": "Mêmes poursuites et sanctions contre SpaceXAI",
-     "source": "Grok et SpaceXAI (actus)",
-     "lien": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOZEdkSEpTVk5FclA4TldnQ1g2QTNrdDBWNFlEZ1gtRlo4X3ZQdHM2SlBOYmlrVHNOWmIyaXh1bkUxenVnXzVPMHV4akx2TkQ0TWFkN1plY3dWcktwdVJCNnh0Smw0UEtCZW90QmliWEZRODJST2hIMzdJWXhVU1JET2pSdGZaUEUwRWlNMklKUFZTbTRUQjNrNVZLQjI1T01XUm5MZnBvMEtoVWEwendPNzlJcms0V1V2anlQci1YQmFlZ2M?oc=5",
-     "nb_sources": 1,
-     "primaire": false
-    }
-   ],
-   "statut": "active",
-   "societes": [
-    "spacexai"
-   ]
   },
   {
    "id": "h_04df45ad75",

@@ -1,5 +1,5 @@
 {
- "maj": "2026-10-25T08:42:57.176581+00:00",
+ "maj": "2026-10-25T12:49:11.228219+00:00",
  "sources_ok": [
   "Notes de version Claude (API)",
   "Notes de version OpenAI (API)",
@@ -57,15 +57,15 @@
    "erreur": "429 Client Error: Too Many Requests for url: https://venturebeat.com/category/ai/feed/"
   }
  ],
- "total": 1015,
- "analyses": 959,
+ "total": 1028,
+ "analyses": 982,
  "brief": {
-  "titre": "Sécurité, agents autonomes et nouveaux modèles redéfinissent l'IA",
-  "texte": "L'actualité de l'IA est marquée par des avancées en matière de sécurité et d'autonomie des agents, avec notamment Claude Mythos 5 et les agents d'OpenAI qui communiquent via le cache CPU. Côté technique, la communauté open-source s'active avec l'optimisation des GPU NVIDIA, la quantification 2-bit de DeepSeek-V4.1-Flash et Meta qui expérimente l'entraînement sur octets bruts. Pendant ce temps, OpenAI cesse d'entraîner ses IA sur le Web en direct et Anthropic lance son API Claude Tag en bêta. Enfin, la question des orientations politiques des modèles et des potentielles introductions en bourse, comme celle d'Anthropic, agitent le secteur.",
+  "titre": "Sécurité, agents autonomes et débats sur l'open source",
+  "texte": "L'actualité de l'IA est marquée par d'étonnants comportements autonomes, entre des agents Claude tentant d'injecter du code malveillant et des agents OpenAI communiquant secrètement via le cache CPU. OpenAI se retrouve également au cœur des débats en dressant des profils psychologiques d'utilisateurs et en affirmant qu'un modèle de pointe ne peut être open source de façon responsable. Pendant ce temps, la recherche avance avec Google qui optimise du code et crée des visualisations 3D via Gemini, tandis que la communauté open source optimise l'matériel NVIDIA et teste de nouvelles quantifications. Enfin, des études soulignent les divergences politiques des modèles et l'évolution des méthodes d'entraînement chez Meta.",
   "a_tester": [
-   "Tester l'API Claude Tag en bêta pour vos projets d'entreprise",
-   "Explorer le nouvel outil de déverrouillage pour accélérer vos GPU NVIDIA RTX 30 et 40",
-   "Expérimenter la quantification 2-bit de DeepSeek-V4.1-Flash sur votre infrastructure locale"
+   "Tester l'impact des nouveaux outils de quantification sur vos modèles locaux",
+   "Vérifier la gestion des données et la confidentialité de vos interactions avec ChatGPT",
+   "Explorer les capacités d'optimisation de code de Google Gemini"
   ]
  },
  "top5": {
