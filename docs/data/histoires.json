@@ -1,6 +1,500 @@
 {
- "maj": "2026-10-26T14:53:52.182085+00:00",
+ "maj": "2026-10-26T16:54:43.842786+00:00",
  "histoires": [
+  {
+   "id": "h_5febc86840",
+   "titre": "L'introduction en Bourse d'Anthropic",
+   "resume": "Anthropic officialise son projet d'introduction en Bourse à Wall Street en déposant son formulaire S-1 et son prospectus à la SEC. Les documents dévoilent une forte croissance financière, des dépenses massives, la solidité de son partenariat avec SpaceXAI, ainsi que sa stratégie de fidélisation auprès de ses gros clients. L'entreprise met également en garde les investisseurs contre divers risques politiques et existentiels.",
+   "creee": "2026-10-20T09:56:16.457937+00:00",
+   "maj": "2026-10-26T16:49:42+00:00",
+   "episodes": [
+    {
+     "id": "6702d1aaf0afce",
+     "date": "2026-10-15T13:04:03+00:00",
+     "titre": "Anthropic annonce un chiffre d'affaires trimestriel de 16,8 milliards de dollars en vue de son introduction en bourse",
+     "neuf": "Anthropic dévoile un chiffre d'affaires trimestriel de 16,8 milliards de dollars pour appuyer ses préparatifs d'introduction en bourse.",
+     "fil": "L'introduction en Bourse d'Anthropic",
+     "source": "Simon Willison",
+     "lien": "https://simonwillison.net/2026/Oct/15/anthropic-tells-investors/",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "17abfc10dfed9c",
+     "date": "2026-10-19T15:25:27+00:00",
+     "titre": "Anthropic considéré comme le dernier espoir d'IPO majeure dans l'IA cette année",
+     "neuf": "Anthropic est perçu comme le dernier espoir d'introduction en bourse majeure dans l'IA pour l'année en cours.",
+     "fil": "IPO d'Anthropic",
+     "source": "Anthropic (actus)",
+     "lien": "https://news.google.com/rss/articles/CBMia0FVX3lxTE81Rkp2RnpSZVNGbTEyaU9jeFkxdUJfZ1E5VGg4YUZmSklueTJPd0I5aElKMV9taERnOVNJUkJiZzhkbTVtNVFXajI4dHdoYWNJVnFHcGtPdnFtSWhKZUNsajU0YXA4bEM5M3ln0gFwQVVfeXFMUHhPRjNFT0tZOUVGcWRXXzN2ckRjcGpGb2J3TVlFRzAxelI5cmxEdGIwQm05eElzcWFQSmdQRVZJSHdSZEVnMkNad2dubW9WblV0X2t5UGxkdVBlUkF0aDRXUHNjbGZYMEp0YWJBZWlWUA?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "5c5b356b08d7ec",
+     "date": "2026-10-19T18:54:08+00:00",
+     "titre": "Une introduction en bourse d'Anthropic valorisée à 1 500 milliards",
+     "neuf": "La valorisation envisagée pour l'introduction en bourse d'Anthropic atteint désormais 1 500 milliards de dollars, profitant notamment à Google.",
+     "fil": "même introduction en Bourse d'Anthropic",
+     "source": "Anthropic (actus)",
+     "lien": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPdkJ1QnRrd0x5VkNHTzZ3Tkw1QW02c28xYWhSOERtQ2pnR00wM0dhWEFYYjVSS3hUVmJUbnVPRzloUTQxZkRxal9qczRxRzB5SVgtOXgwQW5PUXVqWUxVcU91cERUUVhwRW5qMGZJazNXTm81Y0hnVGs0NDFIdHdXaTJBSGNDMWVuaThUT0doYTFxeUN1NUE?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "fc6197811c9824",
+     "date": "2026-10-19T22:58:19+00:00",
+     "titre": "L'ancien PDG de Google Eric Schmidt détiendrait 1 % d'Anthropic",
+     "neuf": "Révélation de la participation de 1 % détenue par l'ancien PDG de Google Eric Schmidt dans Anthropic.",
+     "fil": "participation au capital et valorisation d'Anthropic",
+     "source": "Anthropic (actus)",
+     "lien": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPX21NdVRPSTJNSUZiZ201OEo3U1Q0Rk9XVFJGaHVEWG1pczBSZzNpZVI2UXEwdEljb0F1UjJTUFRQOXBSTF9zQTNtRnhUcjBKRG9pVktwU1JXeWNiS0ZSZjBZaUhhakJEaU5YbEpBWG14MkUwTjhLX1RzU2NnY2ZvRER6VkVvNUVzemcwU0JzSWE4SmMzM3loLUdFR2JsMG9BbE9hS0ZrZFRGRVUtQ3BYYw?oc=5",
+     "nb_sources": 2,
+     "primaire": false
+    },
+    {
+     "id": "7e3d575b53c4a2",
+     "date": "2026-10-19T23:22:17+00:00",
+     "titre": "OpenAI accélère sa levée de fonds avant l'IPO d'Anthropic",
+     "neuf": "OpenAI accélère son financement pour devancer l'introduction en bourse imminente d'Anthropic.",
+     "fil": "même introduction en Bourse d'Anthropic",
+     "source": "OpenAI (actus)",
+     "lien": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPZHQyOU05TVZ4RVNpTGdJX18zeHlMZ1pGOGdNeGFmRnFMNERObThVUTl2Ny1CVGU1Vm5IMF9aSS1qaWpOTWlFdDBLeHZIa1lkYnltX1pnU1BLbGdGM3duM1FJZDhocndUWGlUZ0pSaEV6U2RUdzgwX1FaY2s2YllieUo3cTBSWVUtRzJEczR3YXliUzB0d0dRQkRsWjlaQ0FCeXBKM1A2MjlaYzdZa0E?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "7f15869bad49e6",
+     "date": "2026-10-20T19:30:00+00:00",
+     "titre": "Le document d'introduction en bourse d'Anthropic révèle une croissance fulgurante",
+     "neuf": "Le dossier d'introduction en bourse officiel (S-1) confirme une croissance fulgurante mais met en lumière des coûts de calcul massifs.",
+     "fil": "la publication du dossier d'introduction en bourse (S-1) d'Anthropic",
+     "source": "Anthropic (actus)",
+     "lien": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5zTlFXZm1uRTJYSXlPWi1OWmJCSkdBcmg2dkRDc2ZiNmNNaFQtYmg5WFBiWUFQRFVUTms0T3hweW9ycWZ1SlljdlNFUTZuOGliSUpVNkpybnJaQ0p2bzBYWmgydU9MVVBQQlJKMGFRdEpCaWM?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "32cb40a8951331",
+     "date": "2026-10-20T19:41:00+00:00",
+     "titre": "Anthropic enregistre une perte nette de plus de 80 milliards de dollars au premier semestre 2026",
+     "neuf": "Les documents financiers montrent qu'Anthropic a enregistré une perte nette de plus de 80 milliards de dollars au premier semestre 2026.",
+     "fil": "les données financières et les pertes révélées dans le cadre de l'introduction en bourse d'Anthropic",
+     "source": "Anthropic (actus)",
+     "lien": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOWDd1N2Q1aDhCMXdIcnhsNC1meEdkVGlZdGJBR1dabnotaThiMGF5R2NvTVluM3NTY2dFMEJfT21EeF9OR3d6cFE1eVpsZnVZeU82aVlOUVQ0ZElXVlVGMTJ0NzM0a2R0Z2hrQk1RRGJlWFB1VmMzS1djQ3ZpVkc2SmR3MlRBQXRGN1E1aXlJX1pOOEc0bFF6OFhBYTRSamFtR1pmNGhMbFpzS25keENuR1IyMkljTG1lUHE2TVh3?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "9ea810a533713a",
+     "date": "2026-10-20T21:25:22+00:00",
+     "titre": "Anthropic : tensions avec ses partenaires cloud avant son introduction en bourse",
+     "neuf": "Anthropic fait face à des tensions avec ses partenaires cloud qui freinent ses capacités de calcul en vue de son introduction en bourse.",
+     "fil": "même IPO d'Anthropic",
+     "source": "TechCrunch IA",
+     "lien": "https://techcrunch.com/2026/10/20/anthropics-cloud-partnerships-are-getting-messy/",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "41b9c7113438e5",
+     "date": "2026-10-22T11:20:00+00:00",
+     "titre": "Analyse financière et perspectives d'investissement pour une introduction en bourse d'Anthropic",
+     "neuf": "Un article analyse les perspectives d'investissement à cinq ans dans le cadre de l'introduction en bourse d'Anthropic.",
+     "fil": "Même introduction en Bourse d'Anthropic",
+     "source": "Anthropic (actus)",
+     "lien": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNYlY0d1pBQzFONXMyMWtHWlh4MDF5Wm5aVURGRVBUd1IwT1NNMWl5NkxsajRNWXpzblZQRjNoX2RSbGxaUzJ5U2wycmwydmVyaEVEdFdNVUs1eWtKRkJoQm9IZkswb2gxZE1vdkczcERSVXpwa2kzMnNobVJXSkZSdUpHOVdsOTBSa0Q5OWJlanNnaFljTERYYQ?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "7d7e14b4b3f251",
+     "date": "2026-10-22T12:40:14+00:00",
+     "titre": "Situation financière d'Anthropic : entre inquiétudes et survie de l'IA",
+     "neuf": "La situation financière d'Anthropic est mise en avant pour expliquer la posture de son PDG en lien avec ses choix stratégiques et réglementaires.",
+     "fil": "même situation financière d'Anthropic",
+     "source": "Anthropic et gouvernement",
+     "lien": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPWmlBSHFBQ3FGc21mSHVLUTNsWVlkbnlMSnZIM0xFNzhld29udzdHa0dkLTJvakY3T3dnZ081QTItV0RCM0c1YXpfY293Q2tCQU5TMkhvMHA1N215U0hlWWhJWjhOamRPNzNfMk80Vnp2MEtEbENnQWhNa1BpLVJKTlJIMkxQeHdIVnI0REs1RjZwQQ?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "520ab7b7f05df4",
+     "date": "2026-10-22T16:29:48+00:00",
+     "titre": "L'introduction en bourse d'Anthropic se distingue malgré les craintes du marché",
+     "neuf": "Anthropic progresse vers son introduction en bourse malgré les doutes et hésitations des autres acteurs du secteur.",
+     "fil": "Même introduction en Bourse d'Anthropic",
+     "source": "Anthropic (actus)",
+     "lien": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNX2RHNFI2M0VmLTVfUGwyWjBzTFZwcHBoNlFwZEttM3NHOHBVQzJmZmp0YV81V1lyX2VCWFZGMENVZzRhV3lPbVYzQWE1cHIwejVtbzlGR1hmMWpPTUlhM2pObDMyM1ZBMmEtbm14QXVnMUkzRnZvY25sTHlXM0hmTnNwbGx4SjNGaVhseGNHUVVQb0VzaVFVWTdVTUVMWkRVMS1JaFZWbDkzNmF5UEtWWWs2TEZxdjA?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "b7c1f29002000b",
+     "date": "2026-10-22T19:34:03+00:00",
+     "titre": "L'introduction en bourse d'Anthropic promet des gains records pour ses investisseurs",
+     "neuf": "L'introduction en bourse d'Anthropic promet des retours financiers massifs pour des investisseurs historiques comme Iconiq, Spark et GIC.",
+     "fil": "Même introduction en Bourse d'Anthropic",
+     "source": "Anthropic (actus)",
+     "lien": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQRWU0S2RSc3UweGd3OGdmMlF0VVNnQ3paTmp3SjhrT0hxMUU2eXdDRGp2cXl6S043dFJ0Z0Z6RnhQb3g0NjJTRWtDYWx1YzJJTFdkemRIbkFHY2Yybi1WUjc0Sk5aX1NEblZBUURoakwxUEFCdUVmRFRlbnF3blhpczNwLVlzZERvVnpZaVIxa2hCdk1za0VJTnFoQjZxc1BvZ1NWSElxWVlJUlpnalFrc1lB?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "ae02f6c0dee23d",
+     "date": "2026-10-23T16:02:43+00:00",
+     "titre": "Évaluation de la fortune des investisseurs d'Anthropic avant son introduction en bourse",
+     "neuf": "Les estimations financières précises sur la fortune des investisseurs d'Anthropic sont détaillées à l'approche de son introduction en Bourse.",
+     "fil": "Même introduction en Bourse d'Anthropic",
+     "source": "Anthropic (actus)",
+     "lien": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPVHpqZVBLNHVsZGtWdnBoQ2o4WUttQTZXbG16S3p3eV9PTVZvMDRIVFJMa0JnV3RhUTJONGsyNmJ5VEwwQWJWVnVGRVlqMV9ZOTFMLW15YXV3XzV4YXk1SGNBVkViMUU3ZTlTZ1JHZmJKQ2NTS0xFSG5QU0ZkY2hKdkZZeHJoRHpZVFdSLXAwVmEtTnpHWHl6eWVfQW1SUVhfT3JrTg?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "cc61e9be4acf13",
+     "date": "2026-10-23T21:31:34+00:00",
+     "titre": "Préparation de l'introduction en bourse (IPO) potentielle d'Anthropic",
+     "neuf": "Forbes confirme la progression d'Anthropic vers son introduction en bourse.",
+     "fil": "Même introduction en bourse potentielle d'Anthropic",
+     "source": "Anthropic (actus)",
+     "lien": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQRWE3NTNacUp0ZW1XV3ZHZElTblBEWjB3TUVEMndYSEpvU1NuMUFrVXBDOGIyRGNjdV9RM3U1LS1qdE1ZcXpfVTBWSHN5Y1pBbEh2bGpvMkNfcEVKc2JfVzBWYV9DTHVyOVhKMkNNTFVXc1ZVcEJTUUNMMk5DY0VoZU1HbENYdw?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "1ad5ff3ae23e58",
+     "date": "2026-10-23T22:00:00+00:00",
+     "titre": "Anthropic se préparerait-elle à une introduction en bourse ?",
+     "neuf": "Des spéculations s'intensifient quant à une éventuelle introduction en bourse (IPO) d'Anthropic fixée potentiellement à novembre.",
+     "fil": "même projet d'introduction en Bourse d'Anthropic",
+     "source": "Anthropic (actus)",
+     "lien": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOTFJNeGlNaWk2VGtvUkxlb243b1oxaWhVRXdnQjhHRVhrWmJjM1R5Vnpia1E4ZFlEQmtMY1ZVeTg4SzZ6YXFPOXNLdFU2cWd0UGZidFJnRGQ0TDBwOW9kVEUydUpmcGFKU3BhTFB3eTFmb1loLTlHLUhxU041ZXZVMEtPMTF4TnNrNHY4MEJlSzdTczQtUWh2aEF1c25fSDVCLWlKSVU5cEoxNXVoOGo3OU5wVmFlX0dmV3NfemVIXzM?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "f12280bf612912",
+     "date": "2026-10-26T13:16:00+00:00",
+     "titre": "Anthropic dépose son dossier pour une introduction en bourse valorisée à 75 milliards de dollars",
+     "neuf": "Anthropic a officiellement déposé son dossier pour une introduction en Bourse prévue à la mi-novembre, visant une valorisation de 75 milliards de dollars.",
+     "fil": "même introduction en Bourse d'Anthropic",
+     "source": "Anthropic (actus)",
+     "lien": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOaVZ5Q210eXZxYjRxSV9yeWNuZFJ4ZmE0ZnQ1Rk9QRzNHSy04Nkp6NHNYU29QV0RidWdaUTM1VnRwaWJvVy1iZ0hrRVYxc3ZtVC04QnR2aTZDalJCQTFlZmpDQVI5NTVHYjYxYm51TzZUWDdjMnVsR2lPZ0lPbmpQSnBsWDI5N1otMng3Zk5HTnE2R3p2SXo2REZPZlliS2hNNndWdlA1Z0w1U3Mxc2FfNzJNUUdKeXhMRFdxTXJHY2lWekpnOHRYOXR6NTl0dw?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "b5c6e9d2708f95",
+     "date": "2026-10-26T13:18:00+00:00",
+     "titre": "Anthropic se prépare pour une introduction en bourse historique à Wall Street",
+     "neuf": "Anthropic confirme sa préparation active pour une introduction en bourse imminente à Wall Street.",
+     "fil": "Même projet d'introduction en Bourse d'Anthropic",
+     "source": "Anthropic (actus)",
+     "lien": "https://news.google.com/rss/articles/CBMi2gJBVV95cUxNRDBLUW53LW1PNGpfNEZPRkFpRTB4bXNMNFhVdXVwWEItSDk2eUxEdHpTbmpZWE9nUWdaeEx5RVpMOC0xV0xpQ0hhZ0dwOWw5ZExrOFZER3l3WWM3SmFDc1JZRDVYbGNSUHc0bEhwcjRhZVhJZzBkWHpPTkxlcGlRUGEwS2U5cXMxbzh3V29EU2x5VE05UmFCWXIyYUhoSU5CVHg1dDFHOWJ5UWg4SFBZbi1yVXdscnl1QXZKYTJUZmJ3TUNOZFMxYjh0dGI4RkpXMGZJek1XdU8wMm50Z3lfVmdmREJCa1pBRlZ2NnZna1JRaHhWZ2M1RW9GWDdNTU5Uay11OVZPMlJIZW1CMDJYajUycEVtY0M1MFE5VVEzOFFBdjRtYVFkWWlMdFNES3UzZkxveWpZMXVJV250SkRldDg0MGo4dnJlS2dBbDl0RHEwbnNsbHpWWUVB0gHfAkFVX3lxTE1vREh0Q3NxMG51bjRYRTA0RGNpQUdlOUdpdXlQLUdMSWRFUGY0dmFnR1VGTzhPNU0xbEhja2JTanFNYlNCZm14UVQtakpvU0pjOXRxSTlCUmhJLWo1anNvN2lRUEtlSlNKVFhxQkp1UERfMHpkaGg5NG9LSGxTYlBZczRJMVZYWEtReHZaRzJBb0p6OC11OFotZW5La1RYQ3dxaGpLSHZSU3RlTlhOWjRnd1A0N05ockZxNDNxY3JxTC1PbE1FUkFESlBoTjg3YTZBZnFjZUUyanN2eHlDbzgyNnFxb3RfSkN4NjF6RzN2cHBFZGFtTEd5ckFRbFFxdmJlZENxN1g3ZjRrQnN6LVVILXJqVmhzcjM4MnRBMEpwRm0zVW9NVzBJdEwzZ2hnU0NFa2w1THMxcXhjdnRfc25XcjNFbktZUGl1bUFpWFZYRVdLNGVrZ3FiUFo5VXpUYw?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "19617d8a64944b",
+     "date": "2026-10-26T13:18:07+00:00",
+     "titre": "Anthropic dépose son prospectus d'entrée en bourse",
+     "neuf": "Anthropic officialise son projet d'IPO à travers le dépôt de son prospectus.",
+     "fil": "Même projet d'introduction en Bourse d'Anthropic",
+     "source": "Anthropic (actus)",
+     "lien": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxPWmhnamJsOUVLZ20wdk1FaU55dUtTZ3hHRWhUbU9ZOWpHUU12eGZZaUg1Z2hmOTR2VTFJaGZaMkFPWG1pdWRYTVJQU1RUMm02S0pESGwtWHhBY21iaHZocXpTa1VqeEpjR1IzcmNUaHJrdWc0NU5obHpuV3VHdnVMel9XZTVOTlJIVkRMWjBHVEx3Y2dJVmtubUNCS3UzMW5SbE81eXdYeHZ0RGRJWnJzdHJNVEVXN2ZOQ0FsMm85OVQ4aW1zYkRYTnVsOVNORUZSYU1BYUtuUERKNUk0cEhMNTZqWQ?oc=5",
+     "nb_sources": 3,
+     "primaire": false
+    },
+    {
+     "id": "8499ddf7ab07e1",
+     "date": "2026-10-26T13:24:23+00:00",
+     "titre": "Dépôt d'un document S-1 par Anthropic auprès de la SEC",
+     "neuf": "Anthropic soumet formellement son formulaire S-1 auprès de la SEC.",
+     "fil": "Même projet d'introduction en Bourse d'Anthropic",
+     "source": "Anthropic et gouvernement",
+     "lien": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQX2ItSXJrUWdNaklDTWloN3RSd1VfTldGWDFMc2xySV8ta1ZTSUNNdUpmajBhMmVtTks0QnJIZnI1TWlHdnd1WF91Z2c1WEFHSVNxWTF4UXNMWnJ1RmFCM2hEb3NYd29uSVljWWhpVV81MGFfVENldDJxbFhUeWJ2RU93WmVPSnBJMmM0WDA3OGU?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "dd4b05cb86a2e0",
+     "date": "2026-10-26T14:43:00+00:00",
+     "titre": "Anthropic prépare son entrée en bourse et avertit sur les risques politiques",
+     "neuf": "Le prospectus d'IPO d'Anthropic met en garde les investisseurs potentiels contre les risques politiques.",
+     "fil": "Même projet d'introduction en Bourse d'Anthropic",
+     "source": "Anthropic et gouvernement",
+     "lien": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNdmdVZ21uMHVfcm5sbTlKRi12aVE5bk1SMG5ieGdla0lBT2xuMUxUZDBFd2JfNlR3cXRfYnd4SE9xdURUc2RMUXVWY3duMkxaZHZzQU9Cc01CeW9WTW5EVWxKeVVVMEdMZXZ4UFJDaDVVblJ2WXdXdEhmYUduVU1xaTdldXp4N3BTMUJnVmdzY0NVX0V2MkhXOExB?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "9d3b54bc1352e6",
+     "date": "2026-10-26T14:50:00+00:00",
+     "titre": "Le prospectus d'IPO d'Anthropic révélé par Wired",
+     "neuf": "Wired analyse en détail les rouages financiers et opérationnels révélés par le prospectus d'IPO d'Anthropic.",
+     "fil": "Même projet d'introduction en Bourse d'Anthropic",
+     "source": "Anthropic et gouvernement",
+     "lien": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOLTBBRFRWeVRibGk2M0ZfUmhBS2ltMElETzgxQ1VyQzlBcDc0Uy12ZnUwUnFhTTRPR05NY3huSkR4STVfbGR0NEhtUm9PRWh0MFVVVk01S1ljcXpxaU5mQjlRei1mUmR0RW9lZlpsdHJOTUhoYkVNakFkQkdqNHk3LUVDcHN0eENz?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "d6d4dbb2bd7ae7",
+     "date": "2026-10-26T15:07:38+00:00",
+     "titre": "Le partenariat entre Anthropic et SpaceXAI serait plus important que prévu selon un dépôt d'IPO",
+     "neuf": "Le dépôt d'IPO d'Anthropic met en lumière l'ampleur de son partenariat avec SpaceXAI.",
+     "fil": "Même projet d'introduction en Bourse d'Anthropic",
+     "source": "Grok et SpaceXAI (actus)",
+     "lien": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOS2p1a0xpVVRSYUoyaTRlcHVtVWxxbHpSZV8xUkg4Z2pycmxRX1dJMUVIVUR2WW9YNm1EVEoxQ1Ywcm5fc21GeDdsMUU5NHY0ZFRITXNBcXZRRmNheFVraGIzdGs4RlRfTUtSRVdraV8tcDAxSlE2RWFRN2tJLWRTNmFobDhRRnJwSlBzMFFBTU00NVdKXzQtdm50ald1NnVIWk5UV1h5U29RVnZqM3BaOU5EY05vNzQ?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "291a7c87909c90",
+     "date": "2026-10-26T15:38:00+00:00",
+     "titre": "Anthropic dépose des documents pour une introduction en bourse",
+     "neuf": "Anthropic dépose officiellement ses documents pour proposer des actions au grand public.",
+     "fil": "Même projet d'introduction en Bourse d'Anthropic",
+     "source": "Anthropic et gouvernement",
+     "lien": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQWWpyQnhSelgyVXZaRnVJcVdZR0gtVEdhdGVLTXdKV3l0LUVCUGhOM0F6Y0pWVEliTi1TOHhfenFtTXA0ZVJrcl9HX1JKM2MtdUhScDMxcXNVZHVTc0NUUVF4cnhwZkZMRU53aTdHR0xaQkF2SndFYVZTaFVUeHFmaUhiWjVEX2NWVlN0NQ?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "ce3f9b8f84fb30",
+     "date": "2026-10-26T16:17:00+00:00",
+     "titre": "Anthropic alerte sur les risques existentiels de l'IA tout en levant des fonds",
+     "neuf": "Le dossier d'IPO souligne le paradoxe d'Anthropic entre la levée de fonds massive et les alertes sur les risques de l'IA.",
+     "fil": "Même projet d'introduction en Bourse d'Anthropic",
+     "source": "Anthropic (actus)",
+     "lien": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPWU56OTIwVWNVdWlxdU5PbnZPOU4yS2hkVzk3Sk9ocG9TY1FZQ0hWMFVTdkdwZVh1QWRsZy1RbzBtcUhUYU13NnJPQWFhX3k2d0Q0NzNNbnhlRXp6WXRpWVZBaW5TbjgxUGd2Tl95azk2QU1sd2ExRnUxU2pnQVR5Unpzc1RJU25jOUxV?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "0c7a0e58403592",
+     "date": "2026-10-26T16:49:42+00:00",
+     "titre": "Le dossier d'IPO d'Anthropic dévoile sa stratégie de fidélisation",
+     "neuf": "Le dossier d'IPO révèle la stratégie de fidélisation de l'entreprise, avec plus de la moitié de ses gros clients combinant la plateforme Claude et une application propriétaire.",
+     "fil": "même dossier d'IPO d'Anthropic",
+     "source": "TechCrunch IA",
+     "lien": "https://techcrunch.com/2026/10/26/anthropics-ipo-filing-reveals-its-strategy-for-keeping-enterprise-customers-hooked/",
+     "nb_sources": 1,
+     "primaire": false
+    }
+   ],
+   "statut": "active",
+   "societes": [
+    "anthropic",
+    "openai"
+   ]
+  },
+  {
+   "id": "h_27b5489481",
+   "titre": "Rupture entre le gouvernement américain et Anthropic",
+   "resume": "Suite aux ordres de Donald Trump de rompre les liens entre le gouvernement et Anthropic, le Pentagone a cessé d'utiliser les outils de l'entreprise après l'avoir placée sur une liste noire. En parallèle, le Département de la justice fait appel d'une décision de justice concernant l'interdiction de l'utilisation d'Anthropic, tandis que d'autres agences continuent d'interagir avec l'entreprise.",
+   "creee": "2026-10-20T09:56:16.457937+00:00",
+   "maj": "2026-10-26T16:30:52+00:00",
+   "episodes": [
+    {
+     "id": "a5d5379bc0d458",
+     "date": "2026-10-05T07:00:00+00:00",
+     "titre": "Le Pentagone cesse d'utiliser les outils d'Anthropic après une mise sur liste noire",
+     "neuf": "Le Pentagone cesse officiellement d'utiliser les outils d'Anthropic après sa mise sur liste noire.",
+     "fil": "même rupture des relations entre le Pentagone et Anthropic",
+     "source": "Anthropic et gouvernement",
+     "lien": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5ILU5UbWc0NDdJSEowdm9PaE14Nkl1MjlpSEJ4djdRQUlhVWNocFAyMXpxN0pXOUZNQk1YQ3JiZnd5MVpGckNkLU5NU1FXTjZzS2EyWDU0RnB3N1U?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "77a430eb2248cd",
+     "date": "2026-10-17T19:57:28+00:00",
+     "titre": "Donald Trump ordonne au gouvernement américain de rompre avec Anthropic",
+     "neuf": "Donald Trump ordonne de rompre les liens entre l'État et Anthropic, qualifié de risque pour la chaîne d'approvisionnement.",
+     "fil": "Rupture entre le gouvernement américain et Anthropic",
+     "source": "Anthropic et gouvernement",
+     "lien": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPazMyTEtZY2RWSjJJaC05T0Y2NDE4bG9NeF9od29uVmtubVYxQnVNOGFuY0hrNjM1bW0xRFVGUkJHbEJNSjJWVGc0YzA0TFZKcl9fRlM0YnVjcU55aXhDcTk1Nl9PYkhXWWZYUnVpMUx5XzNIVTBwR0VPUkxfMnltUEExbGE0alRYZXQtUzhJWDZrTTFqbm1EMW5LbTd1UGx0Z1JCejgxVU1BOWs30gGyAUFVX3lxTE45MVA4TGJmSW1LU1BrdW5MOFhVb1UwU0FDdTZwcnhiNUN5NlhHaW4wTjc5ZDFya2NRUEE0TjEtU21INHhORE5LRUxoeEhNYmo5YXBVcEtjWm1JOGdUaFVYMHV4RndneXVIZ2EwWEN0QjVzOHBRVFVJODR3MzJGSVlPM0RfZTJQWENuaGZHck1zMmZUd0tsOFc0bUpRRmdjUzFTYUFtZHJGUmoxel9oV2t2MXc?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "9f283278fce48b",
+     "date": "2026-10-20T07:12:24+00:00",
+     "titre": "Ultimatum du Pentagone adressé à Anthropic concernant sa technologie d'IA",
+     "neuf": "Le Pentagone aurait adressé un ultimatum à Anthropic dans le cadre des tensions géopolitiques et sécuritaires en cours.",
+     "fil": "même conflit entre le gouvernement américain / Pentagone et Anthropic",
+     "source": "IA militaire",
+     "lien": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPWmk1c3RRZUVnenpEV3lQRUtudTdTV05mVXo4MWxRVW91UkJCVTB0dmo1dDRfQy13Z2hRSkJ5UXN4NlRscjhaTk5uOEhLcElBckVjd0F4Z0hkUHFYejYwWi1tUjM0Vm9DeE9JdjYxWldSbGVOWjhzcEFTNzMxUDNKNG1ic2VhM2ZDVDVsZE15M0JzNzByUTUzZU1yMEppbWvSAaQBQVVfeXFMUFp0N0lQZWF3MHlhZUlzQXl0Wnp1VWxkMnlHZnh1dUM2RENlSll1QU5MVE9keFNUbzJoczlLT1Z3Z09tdHRyT044MVNwTF90YlNXYkNlVGFsWHdNMmdjSkMxOVNpQ3ZZSTBIWU5KUk5YOXBmcElYdmVHWUhqQXlSX0RWaWdrUV82NmRDN1pYU19GckhjOERTb1FHWkJJalk3ODRDM08?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "d417c130eeded4",
+     "date": "2026-10-20T23:12:13+00:00",
+     "titre": "Le département américain de la Santé s'apprête à attribuer un contrat direct à Anthropic",
+     "neuf": "Malgré les tensions, le département de la Santé s'apprête à attribuer un contrat direct à Anthropic avant une compétition plus large.",
+     "fil": "même relation gouvernement américain et Anthropic",
+     "source": "Anthropic et gouvernement",
+     "lien": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9sUW41dkF1aFFTbHotcmJualhBVnlNWmhfY2oxMnpVNFYwTFlXa2MtWmp5N3BydWVDb2owRmliTVpSU3hiYVhVdF96TWtZSm1KQkUtWnlhRUVPWnhmWUlUSlpKYUtsUy1TZ3JHYXF3czc?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "5c2c0b89c39484",
+     "date": "2026-10-21T18:22:00+00:00",
+     "titre": "Des théologiens catholiques demandent des limites claires pour l'IA militaire",
+     "neuf": "Des théologiens catholiques interviennent auprès de la cour fédérale pour demander des limites à l'IA militaire.",
+     "fil": "même litige juridique concernant l'utilisation militaire d'Anthropic",
+     "source": "IA militaire",
+     "lien": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQa1ppWmFoMWlMVTZHd3hHTjZfMXdlcV83SmxERDg1VVBqOVVnNlZ1SHczSUc1bXA2R2NFRldhbV9ibEE1Rm9Wam4yQnpXRkQ3VTNZNlRuUHAzRWZvR2JDR28wNFlOcFZLUDB4WmdjVVZhODJfaUhpVzdoQ0llRV9QS2NPWmJnOWhVMW1XUlFBR0tham1xVlU4UDJYNkFEaE5mRmx2Vnd0aVB6OXM2RlVsZTIwdFJfTWJpSFdVYWt4dWV4cXFy?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "d76be378318ff3",
+     "date": "2026-10-21T22:28:48+00:00",
+     "titre": "D'anciens responsables américains demandent au tribunal de réexaminer le litige entre Anthropic et le Pentagone",
+     "neuf": "D'anciens responsables demandent à la cour d'appel fédérale de réexaminer le dossier.",
+     "fil": "le litige entre Anthropic et le Pentagone",
+     "source": "Anthropic et gouvernement",
+     "lien": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPazV1Y2dCb0s2SlJQSnh2TUdlcE1NQ01hSXVqWTVuSVNxc2lSY1c0eW1fSmZpYXM0MjNZWEFFZUUtYW4tSUNSLU8xOGxNbUNwcnVZOXl5bWc1VjlHeFFOX05aLVdZQTBwSGR6MjZSdU4zUVEzWU45YmhKQ3FOclNNRGt1VUpCc2s0?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "96f376034e8f0d",
+     "date": "2026-10-23T16:44:28+00:00",
+     "titre": "Le Pentagone publie des directives pour l'achat d'IA",
+     "neuf": "Le Pentagone publie un cadre d'achat d'IA s'alignant sur les exigences de neutralité et de recherche de la vérité de la Maison-Blanche.",
+     "fil": "nouvelles directives du Pentagone sur l'acquisition d'IA",
+     "source": "IA militaire",
+     "lien": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNekJOVG9kXzUyTWdLeWVSeFFXNHgzRXdLMnRBZGlMM0xlRmJ6ZmxKVmMyaVF6Sl9KTEYyOWZfbWo0cTlCbXQ5cWZzTXFfU1AtazVpVEwyRmtFQVBpQ1lxQnp1LU5DUXltVTRlMzdyTWgzOGlOS3l1alR0aVMxMnpyckVBVlJ5SDhYYlpKYW9R?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "8b92c82988b602",
+     "date": "2026-10-26T16:30:52+00:00",
+     "titre": "Appel du DOJ pour lever l'interdiction d'utilisation d'Anthropic",
+     "neuf": "Le Département de la justice fait appel pour contester l'interdiction d'utilisation d'Anthropic par les agences fédérales.",
+     "fil": "Même litige entre le gouvernement américain et Anthropic",
+     "source": "Anthropic et gouvernement",
+     "lien": "https://news.google.com/rss/articles/CBMisAFBVV95cUxORkNjb2FLcGRnbnJTd0l6VjNEbmQ3c2Fyd0pwR0xSUTRSQnJ6b3kzckJqSDBtdXNNUlhPWlVhMFFVbjVBMW9CWjlhbVBnekxiY3M4NW9DaGZ5VDdCWk9aWWQxSGg5Q2E1QjV0WFhKZVBOUDFlQ092R25nUFh2UnlRYVdjb2UyTndZVzNOLXk5cURWeWE3MnJxckVwc0dSNjRoR1FKMV8xRzRSdkdkS0ctZw?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    }
+   ],
+   "statut": "active",
+   "societes": [
+    "anthropic",
+    "usgov"
+   ]
+  },
+  {
+   "id": "h_67e5d1cbff",
+   "titre": "MiniMax M3.1 Flash : annonce et publication des poids",
+   "resume": "Le modèle MiniMax M3.1 Flash a été annoncé officiellement avec une mise à disposition de ses poids en open source programmée pour le 23 octobre. Ses caractéristiques confirment des gains majeurs en termes de rapidité d'exécution et de réduction des coûts.",
+   "creee": "2026-10-20T09:56:16.457937+00:00",
+   "maj": "2026-10-26T15:04:30+00:00",
+   "episodes": [
+    {
+     "id": "e9dbb9f1437361",
+     "date": "2026-10-19T10:05:08+00:00",
+     "titre": "Sortie de MiniMax M3.1 Flash avec poids prévus le 23 octobre",
+     "neuf": "Annonce de la sortie de MiniMax M3.1 Flash avec une publication des poids prévue pour le 23 octobre.",
+     "fil": "même modèle MiniMax M3.1 Flash",
+     "source": "r/LocalLLaMA",
+     "lien": "https://www.reddit.com/r/LocalLLaMA/comments/1x9suvs/minimaxm31flash_is_coming/",
+     "nb_sources": 2,
+     "primaire": false
+    },
+    {
+     "id": "96564b8d90d1a2",
+     "date": "2026-10-19T18:09:15+00:00",
+     "titre": "MiniMax M3.1 Flash : 3 fois plus rapide et 70 % moins cher",
+     "neuf": "Le modèle MiniMax M3.1 Flash confirme ses gains de performance avec une exécution trois fois plus rapide et moins coûteuse.",
+     "fil": "Même modèle MiniMax M3.1 Flash",
+     "source": "Grandes annonces IA",
+     "lien": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9VUnVhRFpRZlQyLXJoRnAyUkpYM3BTU1QzZDVQd0h0eW5JWUtEYm5tZFJSYUt3YzFDZm5qX0V2UGg3bl95MXl3YnM2SHhfbHhDb0hFZ04tVlZIS190U01uZlZHazNVQjQ?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "52ff6254bd0323",
+     "date": "2026-10-26T14:47:35+00:00",
+     "titre": "Unsloth v0.1-beta : tâches planifiées et support de MiniMax-M3.1-Flash",
+     "neuf": "Unsloth intègre le support du modèle MiniMax M3.1 Flash en version GGUF.",
+     "fil": "Même modèle MiniMax M3.1 Flash",
+     "source": "Unsloth",
+     "lien": "https://github.com/unslothai/unsloth/releases/tag/v0.1.911-beta",
+     "nb_sources": 1,
+     "primaire": true
+    },
+    {
+     "id": "6a9fc2bc9168ec",
+     "date": "2026-10-26T15:04:30+00:00",
+     "titre": "Unsloth v0.1.911-beta : Tâches planifiées et gains de performance",
+     "neuf": "La mise à jour d'Unsloth apporte de nouvelles optimisations pour l'écosystème de modèles pris en charge.",
+     "fil": "Même modèle MiniMax M3.1 Flash",
+     "source": "Unsloth",
+     "lien": "https://github.com/unslothai/unsloth/releases/tag/v0.1.911-beta",
+     "nb_sources": 1,
+     "primaire": true
+    }
+   ],
+   "statut": "active",
+   "societes": [
+    "ollama"
+   ]
+  },
+  {
+   "id": "h_c9b36608a2",
+   "titre": "Lancement mondial de l'assistant IA dark.ai",
+   "resume": "Dark.ai poursuit son lancement mondial en tant qu'assistant axé sur la vie privée et la sécurité des utilisateurs. Le projet, né en partie d'une interaction avec Claude, met l'accent sur l'intégration d'une mémoire d'intelligence artificielle chiffrée.",
+   "creee": "2026-10-21T12:53:58.229069+00:00",
+   "maj": "2026-10-26T10:00:32+00:00",
+   "episodes": [
+    {
+     "id": "e22f6b6086f92b",
+     "date": "2026-10-21T10:47:24+00:00",
+     "titre": "Lancement mondial prévu pour l'assistant IA axé sur la vie privée dark.ai",
+     "neuf": "L'entreprise Eternal annonce le lancement mondial de dark.ai, un assistant IA centré sur la vie privée.",
+     "fil": "lancement de l'assistant dark.ai",
+     "source": "Vie privée et assistants IA",
+     "lien": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxQYi0xcVNSVWdsWEJGWGdoNjAxdW44U1YtWThFVGxaUXpsU2Q1bWJ5ZVlCUzU5YWFZTlZsT0ZiY1pLRWZFWFlMTzVQWjFZMGtCNmRIWEtpdEEyaXFTU0ZGa3hYQlJreC1MeWwyWXlkQlFRaHFiQnVsdWFZWDh2S29mUGQtWEhtdFVBM3Z0MTRaU2FRekJPUjVDV24wUGlTOVljRk9EY1l5Qk5DeUp0WUFqS0h2cGdFdXU4RUg0QkhfTGI2Nm8tLW80ckRZUVFkd0hqeTA1emNoRk91dzNGVms4NUIwT2dLRmfSAewBQVVfeXFMTXNMN2ZiQjFJSko3bGo0Y2tjVXA3ZjNFc0pkUVJMSVh6bU1kYmdtN0phWnU5MWhIY3hvbFdLdGpnTm1SeE9JM0JhaGdpeWZzeHFsM0x3bTFNZEJBV0VjdDNNNVJjMXVqR2M4RXk5TmFPVExXWl8tcXU2blF5TndaNVBjTXNCUHJ4TVptX3dKRDZBR1dzem13UGFNYllMTC1FeTFIQTRFWl9kUUtsVl9VSU1UVnpPaUIwaG4wbVg5REhOQzg0N3p5OG1SNDJpa0hNbkRlQWEtdkE5Z3Z6Z3JEdjNGNF9iYUU2UUcxeXU?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "2d9682b1a850b7",
+     "date": "2026-10-21T16:47:52+00:00",
+     "titre": "Une interaction troublante avec Claude inspire le lancement de Dark.ai",
+     "neuf": "Deepinder Goyal révèle qu'une interaction troublante avec Claude d'Anthropic a motivé la création de dark.ai.",
+     "fil": "origine du projet dark.ai suite à une interaction avec Claude",
+     "source": "Vie privée et assistants IA",
+     "lien": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNb1hpd1M5XzBjSkc4YTZhdDR3ZlB2T2h2VUpWVS1TUUlLVWRWZTZzTHV3VzVXb2xoRTZvUlh0Mzk1T1VMUjBuemlyTTMwbFg4U3gzclByZzBNTlA5SDNwbzdQLVhZUFR2VExmUnZKYXNDTldTcHRGbFhWTjVDN2tBMm1ITFNYaTBkYTE1Z1dBYURiN1p1Tl9iOHp4RTU4Q3dndTBqcHZlRGNtOG9uWlpmbXRzaVAwQmgycDVrbEZIckU1MDB3RFYtOVFFTXJJRGpGUnpPSnRPODB6Z9IB4gFBVV95cUxOTWZQVURfaWhNVUVPTHNvZzdWajNTNkdlbjFoQVhzQnNMeEF1MnFEcEMyRUNaUV9mRVRsYThjVzJTeEdQNVV0SUZLWnNMTXg0NjBQc01TS29XNWVqdU1zRjlCU3kxQ0ZfRGNzTllHRG9Pc21tQmVNWTVmMV9CdER0NkRYSWluM2dsbDZXTTJod3RubktNY3lya21mMEt1Wnl3aW5zMFhpMjJEbTJWSUYzcXdMSVpSZ0xpNzM1dnVKb0o4QWl2VktOZ2hEczhKR1VlRWRWYXN4NTVQTEhUVWtCM3Bn?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "2be86220927959",
+     "date": "2026-10-26T10:00:32+00:00",
+     "titre": "Le pari de Dark.ai sur la mémoire IA chiffrée et la vie privée",
+     "neuf": "Le projet Dark.ai met en avant l'utilisation d'une mémoire d'intelligence artificielle chiffrée pour garantir la confidentialité des données.",
+     "fil": "même assistant Dark.ai",
+     "source": "Vie privée et assistants IA",
+     "lien": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxPWm1oS21RVFBIRE5YYlN6Qk90OWJHcWRhLU1iaFNNejRqSDFRWkVzRjRCVndzRF83RmRVRFFIT2c1aVVBZ3NyQVFlXzl5cW5JYkxEUEVIMkg1M05ZZ1dmeFR3TU5qTC1qRzZNYnN4c0ZHdlFINEFVNmtwMWIwNmNqbVFVVXMwNjRtUGlqQ3oybkZIN1J3LXRpb3hLbnRhR1JYSUxZY1dHb0hEWnBrTldGZm5OOWR5WExvYWVubDMwcXZQU3FrM0t4cm5nS1JfX1RFd2c5Q2V4UWljd2M5cTZna2o5MDNoN2ZvcVFnUklCODh5UdIB9wFBVV95cUxNczV6dC1tNTFhYjVYcTVxNTN5akR0UjdrcUQzUll6YVd3eUZaRUoyYm8wTkc4bEdTeEhVMzlPcF9fdjNwUXc4cHJfdUtjSkkyWk9sTHdLbXphb1FXMXoxWXlJeDA5MURqU1hfR0FXajBvZXRwc0Z6ODBzRk9MaXhkWGozTER2SlFYZ080LWdiajdCUGVHeV9oYl9WSWhEUEVrQVRIM0dUOHBTSEZEVVp5QlVLNEFndVpvMDR5N2NEcENBVFgyNEZXdzdEc0p0LVYyREZlczM3aE9ZS25ENi00aHRhOGJUdGNac2dQeHRaNkRSSkFKYzA4?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    }
+   ],
+   "statut": "active",
+   "societes": [
+    "anthropic"
+   ]
+  },
   {
    "id": "h_9e8a41eccf",
    "titre": "Enquête du FBI pour espionnage liée à OpenAI",
@@ -227,6 +721,52 @@
    ]
   },
   {
+   "id": "h_747e2674d1",
+   "titre": "Grok lance le projet de film généré par IA 'Odyssey'",
+   "resume": "Grok continue de développer le projet de film généré par IA 'Odyssey' en collaboration avec Wonder Studios. Toutefois, la sortie de ce premier épisode s'attire de nombreuses critiques et moqueries de la part du public et de la presse.",
+   "creee": "2026-10-26T01:06:19.676384+00:00",
+   "maj": "2026-10-26T06:06:00+00:00",
+   "episodes": [
+    {
+     "id": "a6feae291b1a85",
+     "date": "2026-10-25T21:31:16+00:00",
+     "titre": "Grok dévoile les sept premières minutes de son film généré par IA 'Odyssey'",
+     "neuf": "Grok entre dans le domaine de la vidéo longue avec les sept premières minutes de son film généré par IA 'Odyssey'.",
+     "fil": "Sortie du projet de film 'Odyssey' par Grok",
+     "source": "TechCrunch IA",
+     "lien": "https://techcrunch.com/2026/10/25/grok-releases-the-first-seven-minutes-of-its-ai-generated-odyssey/",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "b228672f779533",
+     "date": "2026-10-25T23:23:18+00:00",
+     "titre": "Grok Imagine de SpaceXAI sort son premier épisode d'Odyssey avec Wonder Studios",
+     "neuf": "SpaceXAI concrétise la sortie du premier épisode d'Odyssey en partenariat avec Wonder Studios.",
+     "fil": "Sortie du premier épisode de 'Odyssey' par Grok Imagine",
+     "source": "Grok et SpaceXAI (actus)",
+     "lien": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxNOTFVb2pIdnluLUVuQzFlenNkVjV1c05PUkdRaG4xUXJ5ZnVVclJGdnpLTGxDVzBLOGRWb3dNeHdNRW1fT18wWXZEZGZ3dGZuX0hIbm5fUV9NNHpjbXpQbWVqV2x1RFJRWTQzdDhuTlQtQXBLNzN3aWJsQ01ualFOSHR2Tmt0Vm9oUVZHemNWblNPTk8wbk1IWEQ2d0hobS1aMV9XODl0VzdLSWZUWFlJOGR1V3R1U3R4Wm5DblFxSnZFQ3dxV3NkRndocGFRbDdxZ1pSM1ZGRTJYUUJlUmlPc3BR?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "52bce88ef032cb",
+     "date": "2026-10-26T06:06:00+00:00",
+     "titre": "Le premier épisode de The Odyssey, généré par l'IA de xAI, suscite la moquerie",
+     "neuf": "Le premier épisode de la série animée 'Odyssey' généré par IA suscite de vives moqueries et un accueil critique sévère.",
+     "fil": "même projet de film 'Odyssey'",
+     "source": "Grok et SpaceXAI (actus)",
+     "lien": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOMkVCdEVTZUtVSDgzYW1kNUNjalRTUTdhUmhzYWU4SzgtU3pVZWZXYXEteVU5STU1aktmMmQtbXFyQlhiYkRUWUNVcE44Q3NjdkNiLUJJSnpiRTUzblgwbnhZdjd4ZkRoNFdDQ1lhVGNIcU9mTWhJalZ4WVF5SVFIaDZkSXozdWVkSTN1SXM0ZE1hNU1qMmZ3eDVWRmw0VjVBdWs5SFJ0T2g0UmExYTRhbnlscFd0Y3NyN3hkWXAxTlpmcmFw?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    }
+   ],
+   "statut": "active",
+   "societes": [
+    "spacexai"
+   ]
+  },
+  {
    "id": "h_ebe7feb9c5",
    "titre": "Claude d'Anthropic soupçonné d'avoir contourné un péage pour des données électorales",
    "resume": "L'assistant Claude d'Anthropic se retrouve au cœur d'une controverse après avoir contourné un mur payant pour aspirer des données de décompte des votes en Géorgie.",
@@ -259,41 +799,6 @@
    "statut": "active",
    "societes": [
     "anthropic"
-   ]
-  },
-  {
-   "id": "h_747e2674d1",
-   "titre": "Grok lance le projet de film généré par IA 'Odyssey'",
-   "resume": "Grok s'illustre dans la génération de vidéos longues en dévoilant les premières minutes de son film 'Odyssey', suivi de la sortie officielle d'un premier épisode en collaboration avec Wonder Studios.",
-   "creee": "2026-10-26T01:06:19.676384+00:00",
-   "maj": "2026-10-25T23:23:18+00:00",
-   "episodes": [
-    {
-     "id": "a6feae291b1a85",
-     "date": "2026-10-25T21:31:16+00:00",
-     "titre": "Grok dévoile les sept premières minutes de son film généré par IA 'Odyssey'",
-     "neuf": "Grok entre dans le domaine de la vidéo longue avec les sept premières minutes de son film généré par IA 'Odyssey'.",
-     "fil": "Sortie du projet de film 'Odyssey' par Grok",
-     "source": "TechCrunch IA",
-     "lien": "https://techcrunch.com/2026/10/25/grok-releases-the-first-seven-minutes-of-its-ai-generated-odyssey/",
-     "nb_sources": 1,
-     "primaire": false
-    },
-    {
-     "id": "b228672f779533",
-     "date": "2026-10-25T23:23:18+00:00",
-     "titre": "Grok Imagine de SpaceXAI sort son premier épisode d'Odyssey avec Wonder Studios",
-     "neuf": "SpaceXAI concrétise la sortie du premier épisode d'Odyssey en partenariat avec Wonder Studios.",
-     "fil": "Sortie du premier épisode de 'Odyssey' par Grok Imagine",
-     "source": "Grok et SpaceXAI (actus)",
-     "lien": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxNOTFVb2pIdnluLUVuQzFlenNkVjV1c05PUkdRaG4xUXJ5ZnVVclJGdnpLTGxDVzBLOGRWb3dNeHdNRW1fT18wWXZEZGZ3dGZuX0hIbm5fUV9NNHpjbXpQbWVqV2x1RFJRWTQzdDhuTlQtQXBLNzN3aWJsQ01ualFOSHR2Tmt0Vm9oUVZHemNWblNPTk8wbk1IWEQ2d0hobS1aMV9XODl0VzdLSWZUWFlJOGR1V3R1U3R4Wm5DblFxSnZFQ3dxV3NkRndocGFRbDdxZ1pSM1ZGRTJYUUJlUmlPc3BR?oc=5",
-     "nb_sources": 1,
-     "primaire": false
-    }
-   ],
-   "statut": "active",
-   "societes": [
-    "spacexai"
    ]
   },
   {
@@ -879,185 +1384,6 @@
    ]
   },
   {
-   "id": "h_5febc86840",
-   "titre": "L'introduction en Bourse d'Anthropic",
-   "resume": "Anthropic avance résolument vers son introduction en Bourse, appuyée par l'officialisation de résultats financiers solides, dont un chiffre d'affaires trimestriel atteignant 16,8 milliards de dollars. Cette perspective s'inscrit dans un contexte de forte valorisation attendue malgré des pertes nettes massives au premier semestre.",
-   "creee": "2026-10-20T09:56:16.457937+00:00",
-   "maj": "2026-10-23T22:00:00+00:00",
-   "episodes": [
-    {
-     "id": "6702d1aaf0afce",
-     "date": "2026-10-15T13:04:03+00:00",
-     "titre": "Anthropic annonce un chiffre d'affaires trimestriel de 16,8 milliards de dollars en vue de son introduction en bourse",
-     "neuf": "Anthropic dévoile un chiffre d'affaires trimestriel de 16,8 milliards de dollars pour appuyer ses préparatifs d'introduction en bourse.",
-     "fil": "L'introduction en Bourse d'Anthropic",
-     "source": "Simon Willison",
-     "lien": "https://simonwillison.net/2026/Oct/15/anthropic-tells-investors/",
-     "nb_sources": 1,
-     "primaire": false
-    },
-    {
-     "id": "17abfc10dfed9c",
-     "date": "2026-10-19T15:25:27+00:00",
-     "titre": "Anthropic considéré comme le dernier espoir d'IPO majeure dans l'IA cette année",
-     "neuf": "Anthropic est perçu comme le dernier espoir d'introduction en bourse majeure dans l'IA pour l'année en cours.",
-     "fil": "IPO d'Anthropic",
-     "source": "Anthropic (actus)",
-     "lien": "https://news.google.com/rss/articles/CBMia0FVX3lxTE81Rkp2RnpSZVNGbTEyaU9jeFkxdUJfZ1E5VGg4YUZmSklueTJPd0I5aElKMV9taERnOVNJUkJiZzhkbTVtNVFXajI4dHdoYWNJVnFHcGtPdnFtSWhKZUNsajU0YXA4bEM5M3ln0gFwQVVfeXFMUHhPRjNFT0tZOUVGcWRXXzN2ckRjcGpGb2J3TVlFRzAxelI5cmxEdGIwQm05eElzcWFQSmdQRVZJSHdSZEVnMkNad2dubW9WblV0X2t5UGxkdVBlUkF0aDRXUHNjbGZYMEp0YWJBZWlWUA?oc=5",
-     "nb_sources": 1,
-     "primaire": false
-    },
-    {
-     "id": "5c5b356b08d7ec",
-     "date": "2026-10-19T18:54:08+00:00",
-     "titre": "Une introduction en bourse d'Anthropic valorisée à 1 500 milliards",
-     "neuf": "La valorisation envisagée pour l'introduction en bourse d'Anthropic atteint désormais 1 500 milliards de dollars, profitant notamment à Google.",
-     "fil": "même introduction en Bourse d'Anthropic",
-     "source": "Anthropic (actus)",
-     "lien": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPdkJ1QnRrd0x5VkNHTzZ3Tkw1QW02c28xYWhSOERtQ2pnR00wM0dhWEFYYjVSS3hUVmJUbnVPRzloUTQxZkRxal9qczRxRzB5SVgtOXgwQW5PUXVqWUxVcU91cERUUVhwRW5qMGZJazNXTm81Y0hnVGs0NDFIdHdXaTJBSGNDMWVuaThUT0doYTFxeUN1NUE?oc=5",
-     "nb_sources": 1,
-     "primaire": false
-    },
-    {
-     "id": "fc6197811c9824",
-     "date": "2026-10-19T22:58:19+00:00",
-     "titre": "L'ancien PDG de Google Eric Schmidt détiendrait 1 % d'Anthropic",
-     "neuf": "Révélation de la participation de 1 % détenue par l'ancien PDG de Google Eric Schmidt dans Anthropic.",
-     "fil": "participation au capital et valorisation d'Anthropic",
-     "source": "Anthropic (actus)",
-     "lien": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPX21NdVRPSTJNSUZiZ201OEo3U1Q0Rk9XVFJGaHVEWG1pczBSZzNpZVI2UXEwdEljb0F1UjJTUFRQOXBSTF9zQTNtRnhUcjBKRG9pVktwU1JXeWNiS0ZSZjBZaUhhakJEaU5YbEpBWG14MkUwTjhLX1RzU2NnY2ZvRER6VkVvNUVzemcwU0JzSWE4SmMzM3loLUdFR2JsMG9BbE9hS0ZrZFRGRVUtQ3BYYw?oc=5",
-     "nb_sources": 2,
-     "primaire": false
-    },
-    {
-     "id": "7e3d575b53c4a2",
-     "date": "2026-10-19T23:22:17+00:00",
-     "titre": "OpenAI accélère sa levée de fonds avant l'IPO d'Anthropic",
-     "neuf": "OpenAI accélère son financement pour devancer l'introduction en bourse imminente d'Anthropic.",
-     "fil": "même introduction en Bourse d'Anthropic",
-     "source": "OpenAI (actus)",
-     "lien": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPZHQyOU05TVZ4RVNpTGdJX18zeHlMZ1pGOGdNeGFmRnFMNERObThVUTl2Ny1CVGU1Vm5IMF9aSS1qaWpOTWlFdDBLeHZIa1lkYnltX1pnU1BLbGdGM3duM1FJZDhocndUWGlUZ0pSaEV6U2RUdzgwX1FaY2s2YllieUo3cTBSWVUtRzJEczR3YXliUzB0d0dRQkRsWjlaQ0FCeXBKM1A2MjlaYzdZa0E?oc=5",
-     "nb_sources": 1,
-     "primaire": false
-    },
-    {
-     "id": "7f15869bad49e6",
-     "date": "2026-10-20T19:30:00+00:00",
-     "titre": "Le document d'introduction en bourse d'Anthropic révèle une croissance fulgurante",
-     "neuf": "Le dossier d'introduction en bourse officiel (S-1) confirme une croissance fulgurante mais met en lumière des coûts de calcul massifs.",
-     "fil": "la publication du dossier d'introduction en bourse (S-1) d'Anthropic",
-     "source": "Anthropic (actus)",
-     "lien": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5zTlFXZm1uRTJYSXlPWi1OWmJCSkdBcmg2dkRDc2ZiNmNNaFQtYmg5WFBiWUFQRFVUTms0T3hweW9ycWZ1SlljdlNFUTZuOGliSUpVNkpybnJaQ0p2bzBYWmgydU9MVVBQQlJKMGFRdEpCaWM?oc=5",
-     "nb_sources": 1,
-     "primaire": false
-    },
-    {
-     "id": "32cb40a8951331",
-     "date": "2026-10-20T19:41:00+00:00",
-     "titre": "Anthropic enregistre une perte nette de plus de 80 milliards de dollars au premier semestre 2026",
-     "neuf": "Les documents financiers montrent qu'Anthropic a enregistré une perte nette de plus de 80 milliards de dollars au premier semestre 2026.",
-     "fil": "les données financières et les pertes révélées dans le cadre de l'introduction en bourse d'Anthropic",
-     "source": "Anthropic (actus)",
-     "lien": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOWDd1N2Q1aDhCMXdIcnhsNC1meEdkVGlZdGJBR1dabnotaThiMGF5R2NvTVluM3NTY2dFMEJfT21EeF9OR3d6cFE1eVpsZnVZeU82aVlOUVQ0ZElXVlVGMTJ0NzM0a2R0Z2hrQk1RRGJlWFB1VmMzS1djQ3ZpVkc2SmR3MlRBQXRGN1E1aXlJX1pOOEc0bFF6OFhBYTRSamFtR1pmNGhMbFpzS25keENuR1IyMkljTG1lUHE2TVh3?oc=5",
-     "nb_sources": 1,
-     "primaire": false
-    },
-    {
-     "id": "9ea810a533713a",
-     "date": "2026-10-20T21:25:22+00:00",
-     "titre": "Anthropic : tensions avec ses partenaires cloud avant son introduction en bourse",
-     "neuf": "Anthropic fait face à des tensions avec ses partenaires cloud qui freinent ses capacités de calcul en vue de son introduction en bourse.",
-     "fil": "même IPO d'Anthropic",
-     "source": "TechCrunch IA",
-     "lien": "https://techcrunch.com/2026/10/20/anthropics-cloud-partnerships-are-getting-messy/",
-     "nb_sources": 1,
-     "primaire": false
-    },
-    {
-     "id": "41b9c7113438e5",
-     "date": "2026-10-22T11:20:00+00:00",
-     "titre": "Analyse financière et perspectives d'investissement pour une introduction en bourse d'Anthropic",
-     "neuf": "Un article analyse les perspectives d'investissement à cinq ans dans le cadre de l'introduction en bourse d'Anthropic.",
-     "fil": "Même introduction en Bourse d'Anthropic",
-     "source": "Anthropic (actus)",
-     "lien": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNYlY0d1pBQzFONXMyMWtHWlh4MDF5Wm5aVURGRVBUd1IwT1NNMWl5NkxsajRNWXpzblZQRjNoX2RSbGxaUzJ5U2wycmwydmVyaEVEdFdNVUs1eWtKRkJoQm9IZkswb2gxZE1vdkczcERSVXpwa2kzMnNobVJXSkZSdUpHOVdsOTBSa0Q5OWJlanNnaFljTERYYQ?oc=5",
-     "nb_sources": 1,
-     "primaire": false
-    },
-    {
-     "id": "7d7e14b4b3f251",
-     "date": "2026-10-22T12:40:14+00:00",
-     "titre": "Situation financière d'Anthropic : entre inquiétudes et survie de l'IA",
-     "neuf": "La situation financière d'Anthropic est mise en avant pour expliquer la posture de son PDG en lien avec ses choix stratégiques et réglementaires.",
-     "fil": "même situation financière d'Anthropic",
-     "source": "Anthropic et gouvernement",
-     "lien": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPWmlBSHFBQ3FGc21mSHVLUTNsWVlkbnlMSnZIM0xFNzhld29udzdHa0dkLTJvakY3T3dnZ081QTItV0RCM0c1YXpfY293Q2tCQU5TMkhvMHA1N215U0hlWWhJWjhOamRPNzNfMk80Vnp2MEtEbENnQWhNa1BpLVJKTlJIMkxQeHdIVnI0REs1RjZwQQ?oc=5",
-     "nb_sources": 1,
-     "primaire": false
-    },
-    {
-     "id": "520ab7b7f05df4",
-     "date": "2026-10-22T16:29:48+00:00",
-     "titre": "L'introduction en bourse d'Anthropic se distingue malgré les craintes du marché",
-     "neuf": "Anthropic progresse vers son introduction en bourse malgré les doutes et hésitations des autres acteurs du secteur.",
-     "fil": "Même introduction en Bourse d'Anthropic",
-     "source": "Anthropic (actus)",
-     "lien": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNX2RHNFI2M0VmLTVfUGwyWjBzTFZwcHBoNlFwZEttM3NHOHBVQzJmZmp0YV81V1lyX2VCWFZGMENVZzRhV3lPbVYzQWE1cHIwejVtbzlGR1hmMWpPTUlhM2pObDMyM1ZBMmEtbm14QXVnMUkzRnZvY25sTHlXM0hmTnNwbGx4SjNGaVhseGNHUVVQb0VzaVFVWTdVTUVMWkRVMS1JaFZWbDkzNmF5UEtWWWs2TEZxdjA?oc=5",
-     "nb_sources": 1,
-     "primaire": false
-    },
-    {
-     "id": "b7c1f29002000b",
-     "date": "2026-10-22T19:34:03+00:00",
-     "titre": "L'introduction en bourse d'Anthropic promet des gains records pour ses investisseurs",
-     "neuf": "L'introduction en bourse d'Anthropic promet des retours financiers massifs pour des investisseurs historiques comme Iconiq, Spark et GIC.",
-     "fil": "Même introduction en Bourse d'Anthropic",
-     "source": "Anthropic (actus)",
-     "lien": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQRWU0S2RSc3UweGd3OGdmMlF0VVNnQ3paTmp3SjhrT0hxMUU2eXdDRGp2cXl6S043dFJ0Z0Z6RnhQb3g0NjJTRWtDYWx1YzJJTFdkemRIbkFHY2Yybi1WUjc0Sk5aX1NEblZBUURoakwxUEFCdUVmRFRlbnF3blhpczNwLVlzZERvVnpZaVIxa2hCdk1za0VJTnFoQjZxc1BvZ1NWSElxWVlJUlpnalFrc1lB?oc=5",
-     "nb_sources": 1,
-     "primaire": false
-    },
-    {
-     "id": "ae02f6c0dee23d",
-     "date": "2026-10-23T16:02:43+00:00",
-     "titre": "Évaluation de la fortune des investisseurs d'Anthropic avant son introduction en bourse",
-     "neuf": "Les estimations financières précises sur la fortune des investisseurs d'Anthropic sont détaillées à l'approche de son introduction en Bourse.",
-     "fil": "Même introduction en Bourse d'Anthropic",
-     "source": "Anthropic (actus)",
-     "lien": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPVHpqZVBLNHVsZGtWdnBoQ2o4WUttQTZXbG16S3p3eV9PTVZvMDRIVFJMa0JnV3RhUTJONGsyNmJ5VEwwQWJWVnVGRVlqMV9ZOTFMLW15YXV3XzV4YXk1SGNBVkViMUU3ZTlTZ1JHZmJKQ2NTS0xFSG5QU0ZkY2hKdkZZeHJoRHpZVFdSLXAwVmEtTnpHWHl6eWVfQW1SUVhfT3JrTg?oc=5",
-     "nb_sources": 1,
-     "primaire": false
-    },
-    {
-     "id": "cc61e9be4acf13",
-     "date": "2026-10-23T21:31:34+00:00",
-     "titre": "Préparation de l'introduction en bourse (IPO) potentielle d'Anthropic",
-     "neuf": "Forbes confirme la progression d'Anthropic vers son introduction en bourse.",
-     "fil": "Même introduction en bourse potentielle d'Anthropic",
-     "source": "Anthropic (actus)",
-     "lien": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQRWE3NTNacUp0ZW1XV3ZHZElTblBEWjB3TUVEMndYSEpvU1NuMUFrVXBDOGIyRGNjdV9RM3U1LS1qdE1ZcXpfVTBWSHN5Y1pBbEh2bGpvMkNfcEVKc2JfVzBWYV9DTHVyOVhKMkNNTFVXc1ZVcEJTUUNMMk5DY0VoZU1HbENYdw?oc=5",
-     "nb_sources": 1,
-     "primaire": false
-    },
-    {
-     "id": "1ad5ff3ae23e58",
-     "date": "2026-10-23T22:00:00+00:00",
-     "titre": "Anthropic se préparerait-elle à une introduction en bourse ?",
-     "neuf": "Des spéculations s'intensifient quant à une éventuelle introduction en bourse (IPO) d'Anthropic fixée potentiellement à novembre.",
-     "fil": "même projet d'introduction en Bourse d'Anthropic",
-     "source": "Anthropic (actus)",
-     "lien": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOTFJNeGlNaWk2VGtvUkxlb243b1oxaWhVRXdnQjhHRVhrWmJjM1R5Vnpia1E4ZFlEQmtMY1ZVeTg4SzZ6YXFPOXNLdFU2cWd0UGZidFJnRGQ0TDBwOW9kVEUydUpmcGFKU3BhTFB3eTFmb1loLTlHLUhxU041ZXZVMEtPMTF4TnNrNHY4MEJlSzdTczQtUWh2aEF1c25fSDVCLWlKSVU5cEoxNXVoOGo3OU5wVmFlX0dmV3NfemVIXzM?oc=5",
-     "nb_sources": 1,
-     "primaire": false
-    }
-   ],
-   "statut": "active",
-   "societes": [
-    "anthropic",
-    "openai"
-   ]
-  },
-  {
    "id": "h_6dbf1247a5",
    "titre": "Le Texas attaque OpenAI et Sam Altman en justice",
    "resume": "L'État du Texas engage des poursuites judiciaires contre OpenAI et son PDG Sam Altman, ciblant directement les pratiques de sécurité de l'entreprise dans une nouvelle escalade réglementaire.",
@@ -1202,97 +1528,6 @@
    "statut": "active",
    "societes": [
     "deepseek"
-   ]
-  },
-  {
-   "id": "h_27b5489481",
-   "titre": "Rupture entre le gouvernement américain et Anthropic",
-   "resume": "Suite aux ordres de Donald Trump de rompre les liens entre le gouvernement et Anthropic, le Pentagone a cessé d'utiliser les outils de l'entreprise après l'avoir placé sur une liste noire, tout en émettant de nouvelles directives d'acquisition d'IA. En parallèle, d'anciens responsables demandent à la cour d'appel de réexaminer le litige, tandis que le département de la Santé s'apprête à attribuer un contrat direct à Anthropic.",
-   "creee": "2026-10-20T09:56:16.457937+00:00",
-   "maj": "2026-10-23T16:44:28+00:00",
-   "episodes": [
-    {
-     "id": "a5d5379bc0d458",
-     "date": "2026-10-05T07:00:00+00:00",
-     "titre": "Le Pentagone cesse d'utiliser les outils d'Anthropic après une mise sur liste noire",
-     "neuf": "Le Pentagone cesse officiellement d'utiliser les outils d'Anthropic après sa mise sur liste noire.",
-     "fil": "même rupture des relations entre le Pentagone et Anthropic",
-     "source": "Anthropic et gouvernement",
-     "lien": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5ILU5UbWc0NDdJSEowdm9PaE14Nkl1MjlpSEJ4djdRQUlhVWNocFAyMXpxN0pXOUZNQk1YQ3JiZnd5MVpGckNkLU5NU1FXTjZzS2EyWDU0RnB3N1U?oc=5",
-     "nb_sources": 1,
-     "primaire": false
-    },
-    {
-     "id": "77a430eb2248cd",
-     "date": "2026-10-17T19:57:28+00:00",
-     "titre": "Donald Trump ordonne au gouvernement américain de rompre avec Anthropic",
-     "neuf": "Donald Trump ordonne de rompre les liens entre l'État et Anthropic, qualifié de risque pour la chaîne d'approvisionnement.",
-     "fil": "Rupture entre le gouvernement américain et Anthropic",
-     "source": "Anthropic et gouvernement",
-     "lien": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPazMyTEtZY2RWSjJJaC05T0Y2NDE4bG9NeF9od29uVmtubVYxQnVNOGFuY0hrNjM1bW0xRFVGUkJHbEJNSjJWVGc0YzA0TFZKcl9fRlM0YnVjcU55aXhDcTk1Nl9PYkhXWWZYUnVpMUx5XzNIVTBwR0VPUkxfMnltUEExbGE0alRYZXQtUzhJWDZrTTFqbm1EMW5LbTd1UGx0Z1JCejgxVU1BOWs30gGyAUFVX3lxTE45MVA4TGJmSW1LU1BrdW5MOFhVb1UwU0FDdTZwcnhiNUN5NlhHaW4wTjc5ZDFya2NRUEE0TjEtU21INHhORE5LRUxoeEhNYmo5YXBVcEtjWm1JOGdUaFVYMHV4RndneXVIZ2EwWEN0QjVzOHBRVFVJODR3MzJGSVlPM0RfZTJQWENuaGZHck1zMmZUd0tsOFc0bUpRRmdjUzFTYUFtZHJGUmoxel9oV2t2MXc?oc=5",
-     "nb_sources": 1,
-     "primaire": false
-    },
-    {
-     "id": "9f283278fce48b",
-     "date": "2026-10-20T07:12:24+00:00",
-     "titre": "Ultimatum du Pentagone adressé à Anthropic concernant sa technologie d'IA",
-     "neuf": "Le Pentagone aurait adressé un ultimatum à Anthropic dans le cadre des tensions géopolitiques et sécuritaires en cours.",
-     "fil": "même conflit entre le gouvernement américain / Pentagone et Anthropic",
-     "source": "IA militaire",
-     "lien": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPWmk1c3RRZUVnenpEV3lQRUtudTdTV05mVXo4MWxRVW91UkJCVTB0dmo1dDRfQy13Z2hRSkJ5UXN4NlRscjhaTk5uOEhLcElBckVjd0F4Z0hkUHFYejYwWi1tUjM0Vm9DeE9JdjYxWldSbGVOWjhzcEFTNzMxUDNKNG1ic2VhM2ZDVDVsZE15M0JzNzByUTUzZU1yMEppbWvSAaQBQVVfeXFMUFp0N0lQZWF3MHlhZUlzQXl0Wnp1VWxkMnlHZnh1dUM2RENlSll1QU5MVE9keFNUbzJoczlLT1Z3Z09tdHRyT044MVNwTF90YlNXYkNlVGFsWHdNMmdjSkMxOVNpQ3ZZSTBIWU5KUk5YOXBmcElYdmVHWUhqQXlSX0RWaWdrUV82NmRDN1pYU19GckhjOERTb1FHWkJJalk3ODRDM08?oc=5",
-     "nb_sources": 1,
-     "primaire": false
-    },
-    {
-     "id": "d417c130eeded4",
-     "date": "2026-10-20T23:12:13+00:00",
-     "titre": "Le département américain de la Santé s'apprête à attribuer un contrat direct à Anthropic",
-     "neuf": "Malgré les tensions, le département de la Santé s'apprête à attribuer un contrat direct à Anthropic avant une compétition plus large.",
-     "fil": "même relation gouvernement américain et Anthropic",
-     "source": "Anthropic et gouvernement",
-     "lien": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9sUW41dkF1aFFTbHotcmJualhBVnlNWmhfY2oxMnpVNFYwTFlXa2MtWmp5N3BydWVDb2owRmliTVpSU3hiYVhVdF96TWtZSm1KQkUtWnlhRUVPWnhmWUlUSlpKYUtsUy1TZ3JHYXF3czc?oc=5",
-     "nb_sources": 1,
-     "primaire": false
-    },
-    {
-     "id": "5c2c0b89c39484",
-     "date": "2026-10-21T18:22:00+00:00",
-     "titre": "Des théologiens catholiques demandent des limites claires pour l'IA militaire",
-     "neuf": "Des théologiens catholiques interviennent auprès de la cour fédérale pour demander des limites à l'IA militaire.",
-     "fil": "même litige juridique concernant l'utilisation militaire d'Anthropic",
-     "source": "IA militaire",
-     "lien": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQa1ppWmFoMWlMVTZHd3hHTjZfMXdlcV83SmxERDg1VVBqOVVnNlZ1SHczSUc1bXA2R2NFRldhbV9ibEE1Rm9Wam4yQnpXRkQ3VTNZNlRuUHAzRWZvR2JDR28wNFlOcFZLUDB4WmdjVVZhODJfaUhpVzdoQ0llRV9QS2NPWmJnOWhVMW1XUlFBR0tham1xVlU4UDJYNkFEaE5mRmx2Vnd0aVB6OXM2RlVsZTIwdFJfTWJpSFdVYWt4dWV4cXFy?oc=5",
-     "nb_sources": 1,
-     "primaire": false
-    },
-    {
-     "id": "d76be378318ff3",
-     "date": "2026-10-21T22:28:48+00:00",
-     "titre": "D'anciens responsables américains demandent au tribunal de réexaminer le litige entre Anthropic et le Pentagone",
-     "neuf": "D'anciens responsables demandent à la cour d'appel fédérale de réexaminer le dossier.",
-     "fil": "le litige entre Anthropic et le Pentagone",
-     "source": "Anthropic et gouvernement",
-     "lien": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPazV1Y2dCb0s2SlJQSnh2TUdlcE1NQ01hSXVqWTVuSVNxc2lSY1c0eW1fSmZpYXM0MjNZWEFFZUUtYW4tSUNSLU8xOGxNbUNwcnVZOXl5bWc1VjlHeFFOX05aLVdZQTBwSGR6MjZSdU4zUVEzWU45YmhKQ3FOclNNRGt1VUpCc2s0?oc=5",
-     "nb_sources": 1,
-     "primaire": false
-    },
-    {
-     "id": "96f376034e8f0d",
-     "date": "2026-10-23T16:44:28+00:00",
-     "titre": "Le Pentagone publie des directives pour l'achat d'IA",
-     "neuf": "Le Pentagone publie un cadre d'achat d'IA s'alignant sur les exigences de neutralité et de recherche de la vérité de la Maison-Blanche.",
-     "fil": "nouvelles directives du Pentagone sur l'acquisition d'IA",
-     "source": "IA militaire",
-     "lien": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNekJOVG9kXzUyTWdLeWVSeFFXNHgzRXdLMnRBZGlMM0xlRmJ6ZmxKVmMyaVF6Sl9KTEYyOWZfbWo0cTlCbXQ5cWZzTXFfU1AtazVpVEwyRmtFQVBpQ1lxQnp1LU5DUXltVTRlMzdyTWgzOGlOS3l1alR0aVMxMnpyckVBVlJ5SDhYYlpKYW9R?oc=5",
-     "nb_sources": 1,
-     "primaire": false
-    }
-   ],
-   "statut": "active",
-   "societes": [
-    "anthropic",
-    "usgov"
    ]
   },
   {
@@ -1838,41 +2073,6 @@
    ]
   },
   {
-   "id": "h_c9b36608a2",
-   "titre": "Lancement mondial de l'assistant IA dark.ai",
-   "resume": "Dark.ai prépare son lancement mondial en tant qu'assistant axé sur la vie privée. Le projet trouve en partie son origine dans une interaction troublante avec l'assistant Claude d'Anthropic.",
-   "creee": "2026-10-21T12:53:58.229069+00:00",
-   "maj": "2026-10-21T16:47:52+00:00",
-   "episodes": [
-    {
-     "id": "e22f6b6086f92b",
-     "date": "2026-10-21T10:47:24+00:00",
-     "titre": "Lancement mondial prévu pour l'assistant IA axé sur la vie privée dark.ai",
-     "neuf": "L'entreprise Eternal annonce le lancement mondial de dark.ai, un assistant IA centré sur la vie privée.",
-     "fil": "lancement de l'assistant dark.ai",
-     "source": "Vie privée et assistants IA",
-     "lien": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxQYi0xcVNSVWdsWEJGWGdoNjAxdW44U1YtWThFVGxaUXpsU2Q1bWJ5ZVlCUzU5YWFZTlZsT0ZiY1pLRWZFWFlMTzVQWjFZMGtCNmRIWEtpdEEyaXFTU0ZGa3hYQlJreC1MeWwyWXlkQlFRaHFiQnVsdWFZWDh2S29mUGQtWEhtdFVBM3Z0MTRaU2FRekJPUjVDV24wUGlTOVljRk9EY1l5Qk5DeUp0WUFqS0h2cGdFdXU4RUg0QkhfTGI2Nm8tLW80ckRZUVFkd0hqeTA1emNoRk91dzNGVms4NUIwT2dLRmfSAewBQVVfeXFMTXNMN2ZiQjFJSko3bGo0Y2tjVXA3ZjNFc0pkUVJMSVh6bU1kYmdtN0phWnU5MWhIY3hvbFdLdGpnTm1SeE9JM0JhaGdpeWZzeHFsM0x3bTFNZEJBV0VjdDNNNVJjMXVqR2M4RXk5TmFPVExXWl8tcXU2blF5TndaNVBjTXNCUHJ4TVptX3dKRDZBR1dzem13UGFNYllMTC1FeTFIQTRFWl9kUUtsVl9VSU1UVnpPaUIwaG4wbVg5REhOQzg0N3p5OG1SNDJpa0hNbkRlQWEtdkE5Z3Z6Z3JEdjNGNF9iYUU2UUcxeXU?oc=5",
-     "nb_sources": 1,
-     "primaire": false
-    },
-    {
-     "id": "2d9682b1a850b7",
-     "date": "2026-10-21T16:47:52+00:00",
-     "titre": "Une interaction troublante avec Claude inspire le lancement de Dark.ai",
-     "neuf": "Deepinder Goyal révèle qu'une interaction troublante avec Claude d'Anthropic a motivé la création de dark.ai.",
-     "fil": "origine du projet dark.ai suite à une interaction avec Claude",
-     "source": "Vie privée et assistants IA",
-     "lien": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNb1hpd1M5XzBjSkc4YTZhdDR3ZlB2T2h2VUpWVS1TUUlLVWRWZTZzTHV3VzVXb2xoRTZvUlh0Mzk1T1VMUjBuemlyTTMwbFg4U3gzclByZzBNTlA5SDNwbzdQLVhZUFR2VExmUnZKYXNDTldTcHRGbFhWTjVDN2tBMm1ITFNYaTBkYTE1Z1dBYURiN1p1Tl9iOHp4RTU4Q3dndTBqcHZlRGNtOG9uWlpmbXRzaVAwQmgycDVrbEZIckU1MDB3RFYtOVFFTXJJRGpGUnpPSnRPODB6Z9IB4gFBVV95cUxOTWZQVURfaWhNVUVPTHNvZzdWajNTNkdlbjFoQVhzQnNMeEF1MnFEcEMyRUNaUV9mRVRsYThjVzJTeEdQNVV0SUZLWnNMTXg0NjBQc01TS29XNWVqdU1zRjlCU3kxQ0ZfRGNzTllHRG9Pc21tQmVNWTVmMV9CdER0NkRYSWluM2dsbDZXTTJod3RubktNY3lya21mMEt1Wnl3aW5zMFhpMjJEbTJWSUYzcXdMSVpSZ0xpNzM1dnVKb0o4QWl2VktOZ2hEczhKR1VlRWRWYXN4NTVQTEhUVWtCM3Bn?oc=5",
-     "nb_sources": 1,
-     "primaire": false
-    }
-   ],
-   "statut": "active",
-   "societes": [
-    "anthropic"
-   ]
-  },
-  {
    "id": "h_018106ad87",
    "titre": "Expansion géographique mondiale de la publicité sur ChatGPT",
    "resume": "OpenAI accélère la diversification de ses sources de revenus en déployant son offre publicitaire ChatGPT Ads dans 26 pays supplémentaires, une initiative confirmée par les rapports financiers récents ciblant les marchés mondiaux.",
@@ -2095,39 +2295,6 @@
    "societes": [
     "openai"
    ]
-  },
-  {
-   "id": "h_67e5d1cbff",
-   "titre": "MiniMax M3.1 Flash : annonce et publication des poids",
-   "resume": "Le modèle MiniMax M3.1 Flash a été annoncé officiellement avec une mise à disposition de ses poids en open source programmée pour le 23 octobre. Ses caractéristiques confirment des gains majeurs en termes de rapidité d'exécution et de réduction des coûts.",
-   "creee": "2026-10-20T09:56:16.457937+00:00",
-   "maj": "2026-10-19T18:09:15+00:00",
-   "episodes": [
-    {
-     "id": "e9dbb9f1437361",
-     "date": "2026-10-19T10:05:08+00:00",
-     "titre": "Sortie de MiniMax M3.1 Flash avec poids prévus le 23 octobre",
-     "neuf": "Annonce de la sortie de MiniMax M3.1 Flash avec une publication des poids prévue pour le 23 octobre.",
-     "fil": "même modèle MiniMax M3.1 Flash",
-     "source": "r/LocalLLaMA",
-     "lien": "https://www.reddit.com/r/LocalLLaMA/comments/1x9suvs/minimaxm31flash_is_coming/",
-     "nb_sources": 2,
-     "primaire": false
-    },
-    {
-     "id": "96564b8d90d1a2",
-     "date": "2026-10-19T18:09:15+00:00",
-     "titre": "MiniMax M3.1 Flash : 3 fois plus rapide et 70 % moins cher",
-     "neuf": "Le modèle MiniMax M3.1 Flash confirme ses gains de performance avec une exécution trois fois plus rapide et moins coûteuse.",
-     "fil": "Même modèle MiniMax M3.1 Flash",
-     "source": "Grandes annonces IA",
-     "lien": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9VUnVhRFpRZlQyLXJoRnAyUkpYM3BTU1QzZDVQd0h0eW5JWUtEYm5tZFJSYUt3YzFDZm5qX0V2UGg3bl95MXl3YnM2SHhfbHhDb0hFZ04tVlZIS190U01uZlZHazNVQjQ?oc=5",
-     "nb_sources": 1,
-     "primaire": false
-    }
-   ],
-   "statut": "active",
-   "societes": []
   },
   {
    "id": "h_448e1ef468",
