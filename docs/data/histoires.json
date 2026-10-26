@@ -1,12 +1,36 @@
 {
- "maj": "2026-10-26T04:45:56.962874+00:00",
+ "maj": "2026-10-26T08:54:40.732011+00:00",
  "histoires": [
+  {
+   "id": "h_9e8a41eccf",
+   "titre": "Enquête du FBI pour espionnage liée à OpenAI",
+   "resume": "Le FBI mène une enquête pour espionnage impliquant un ressortissant saoudien en lien avec OpenAI.",
+   "creee": "2026-10-26T08:54:40.732011+00:00",
+   "maj": "2026-10-26T08:46:59+00:00",
+   "episodes": [
+    {
+     "id": "644a60824c9db6",
+     "date": "2026-10-26T08:46:59+00:00",
+     "titre": "Le FBI enquête pour espionnage contre un suspect saoudien lié à OpenAI",
+     "neuf": "Première occurrence d'une enquête du FBI pour espionnage liée à OpenAI.",
+     "fil": "enquête du FBI pour espionnage impliquant OpenAI",
+     "source": "OpenAI (actus)",
+     "lien": "https://news.google.com/rss/articles/CBMingFBVV95cUxQRTA2OWU1VV9mbXhWWWMxTVZ4QVA2UXEtamNNOFN0NmZpQXZSVUk1OHBGSXpBbkE2Vmo3Q1RDS3hMUWpFbm13VmF3SkplYWxqcnVrU3ZmV2xONWs4OGdKVjZSMnJUTjBfeWxmOUJkZDkzZ2NxQmZEZFpDZktuZEFxdEkzODFfdmlPaldWYzZXenFqTFhsUUw3OXBVTzNHZw?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    }
+   ],
+   "statut": "active",
+   "societes": [
+    "openai"
+   ]
+  },
   {
    "id": "h_5de020e85b",
    "titre": "Application et sanctions de l'AI Act européen",
-   "resume": "L'Union européenne poursuit la mise en œuvre de son AI Act en fixant les plafonds de sanctions financières pour les modèles GPAI jusqu'à 3 % du chiffre d'affaires et en précisant les seuils de calcul pour le fine-tuning. Cette rigueur réglementaire confronte les entreprises aux défis croissants de la conformité.",
+   "resume": "L'Union européenne poursuit la mise en œuvre de son AI Act en tant que premier grand règlement mondial, fixant les plafonds de sanctions financières pour les modèles GPAI jusqu'à 3 % du chiffre d'affaires et précisant les seuils de calcul pour le fine-tuning.",
    "creee": "2026-10-20T09:56:16.457937+00:00",
-   "maj": "2026-10-26T03:08:22+00:00",
+   "maj": "2026-10-26T08:01:00+00:00",
    "episodes": [
     {
      "id": "634535b9265419",
@@ -183,6 +207,17 @@
      "lien": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQTmlZdDRQdmVybVQwN3d4X0JNbkRWblQ3azEwN05ZNGJFaG11MzhNekk0aW5OSThLY1ZuTEVSU2dETE54dzJULUZBZ0xfb1pNcDgweTlkamcwVS0zdEd3RVBISFVJU0xRclVJaFdUa2NBXzFCbmJwd2hma2pjZUpQWHFpWFA2a29lcElF?oc=5",
      "nb_sources": 1,
      "primaire": false
+    },
+    {
+     "id": "2f8775bad8c5bd",
+     "date": "2026-10-26T08:01:00+00:00",
+     "titre": "L'UE renforce son contrôle de l'intelligence artificielle avec l'AI Act",
+     "neuf": "L'UE rappelle et formalise la mise en œuvre de l'AI Act comme premier grand règlement mondial de contrôle.",
+     "fil": "même règlement européen AI Act",
+     "source": "Régulation européenne",
+     "lien": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOWlltZ1dTQko5SmY2eW1WRWplM2pEMEpuOXBCVDlPUmg4TEpBemVCTnBfZ19oV3VIamtvU25Dc2dnM0FwOVlrMjgxcUZJekxmV1lDMjNBVmpCU2hOaWV5M1IyWjJIRUFoYlphbjdtZjQ5NnJ0TFozOU9XV2k1ekhTeC1IZlMzd3M3ZGs0dmpmSzRvd1l4NXlEdDNNMC1aeDl3YlktQXBtbV9ObHJRdHQ4?oc=5",
+     "nb_sources": 1,
+     "primaire": false
     }
    ],
    "statut": "active",
@@ -282,6 +317,30 @@
    ],
    "statut": "active",
    "societes": []
+  },
+  {
+   "id": "h_ed5dd77b6f",
+   "titre": "Nanbeige4.3-33B : quantifications GGUF",
+   "resume": "Le modèle Nanbeige4.3-33B est désormais disponible en versions quantifiées GGUF de tailles variables pour s'adapter à différentes configurations matérielles.",
+   "creee": "2026-10-26T08:54:40.732011+00:00",
+   "maj": "2026-10-25T21:33:29+00:00",
+   "episodes": [
+    {
+     "id": "4f92f621d5c09e",
+     "date": "2026-10-25T21:33:29+00:00",
+     "titre": "Disponibilité des quantifications GGUF pour le modèle Nanbeige4.3-33B",
+     "neuf": "Première occurrence du modèle Nanbeige4.3-33B avec l'arrivée de ses versions quantifiées GGUF.",
+     "fil": "disponibilité des quantifications GGUF pour le modèle Nanbeige4.3-33B",
+     "source": "r/LocalLLaMA",
+     "lien": "https://www.reddit.com/r/LocalLLaMA/comments/1xfeho8/nanbeige4333b_quantised_gguf/",
+     "nb_sources": 1,
+     "primaire": false
+    }
+   ],
+   "statut": "active",
+   "societes": [
+    "ollama"
+   ]
   },
   {
    "id": "h_580b53331a",
@@ -1425,7 +1484,7 @@
   {
    "id": "h_f5d527a7f4",
    "titre": "Suspension du partage de conversations Muse de Meta",
-   "resume": "Meta a suspendu une fonctionnalité de partage de discussions de son assistant Muse après des problèmes d'indexation publique, tandis que l'application séduit un public âgé et est accusée de constituer un dossier personnel sur ses utilisateurs, dépassant les 10 millions d'utilisateurs.",
+   "resume": "Meta a suspendu une fonctionnalité de partage de discussions de son assistant Muse après des problèmes d'indexation publique, alors que l'application séduit un public âgé, dépasse les 10 millions d'utilisateurs et fait l'objet de critiques sur la constitution de dossiers personnels.",
    "creee": "2026-10-20T20:45:07.920169+00:00",
    "maj": "2026-10-22T12:00:04+00:00",
    "episodes": [
@@ -1437,6 +1496,17 @@
      "fil": "même assistant Muse de Meta et problèmes de vie privée",
      "source": "Vie privée et assistants IA",
      "lien": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5MR3ZoNkVqVlVoaDFQVzJoUTcxTS1lOG5uSWJ4bUlUSi1OVk5sd0Y5TG5TdXVHbnJpaG10T3I2ZC1UcDRCTTBkS1MwNWQ4Vm9aQU1TMFhLTGVSYUZaYUt1T1RNRElhcW5Xa2g4XzZ5dDY?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "9a5e7abe2fcb3f",
+     "date": "2026-10-12T07:00:00+00:00",
+     "titre": "L'IA Muse de Meta et la constitution de dossiers utilisateurs",
+     "neuf": "L'article met en lumière la constitution potentielle de dossiers utilisateurs par l'IA Muse de Meta.",
+     "fil": "même assistant Muse de Meta et gestion des données personnelles",
+     "source": "Vie privée et assistants IA",
+     "lien": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPNEFod1lRQ0F2cW1BaERBVFZiVUloaXRHLXVRVW55SjNVWUp4dXVrMmdVT2tWS0Q0Y3dEbkN1djVhUnJ1UTJ4TS1PaW9jeHpGUTNwZDlUVjV2VUI0SW9oaGNRcFdaQmZDMDRQV2RsbEkwX3VfQkc5SkhmTnkyN044ek5QTTVnUkNZLTlKckMzRUhEaWhOVkx5X3VaS2FwSEhaSmU5ZE53?oc=5",
      "nb_sources": 1,
      "primaire": false
     },
@@ -2196,7 +2266,7 @@
      "primaire": true
     }
    ],
-   "statut": "active",
+   "statut": "en sommeil",
    "societes": [
     "huggingface"
    ]

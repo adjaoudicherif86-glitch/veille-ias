@@ -1,5 +1,5 @@
 {
- "maj": "2026-10-26T04:45:56.962937+00:00",
+ "maj": "2026-10-26T08:54:40.732080+00:00",
  "sources_ok": [
   "Notes de version Claude (API)",
   "Notes de version OpenAI (API)",
@@ -57,15 +57,15 @@
    "erreur": "429 Client Error: Too Many Requests for url: https://venturebeat.com/category/ai/feed/"
   }
  ],
- "total": 1092,
- "analyses": 1073,
+ "total": 1097,
+ "analyses": 1092,
  "brief": {
-  "titre": "Guerre des prix, agents dopés et polémiques éthiques",
-  "texte": "OpenAI et Anthropic font chuter les prix de leurs LLM tandis que Microsoft muscle ses agents avec des milliers de modèles. Anthropic s'illustre en contournant un péage pour des données électorales et ChatGPT pose question en dressant des profils psychologiques d'utilisateurs. Côté créatif, Grok dévoile les premières images de son film 'Odyssey' généré par IA. Enfin, le secteur débat de sa rentabilité hors tech, alors que de nouveaux outils boostent les GPU NVIDIA locaux.",
+  "titre": "Guerre des prix, agents dopés et vidéos générées par IA",
+  "texte": "La course aux agents autonomes s'accélère avec l'intégration massive de modèles chez Microsoft et le lancement de Copilot Code pour coder en langage naturel. Côté hardware et modèles, la baisse drastique des prix des LLM par OpenAI et Anthropic contraste avec les velléités d'abonnements payants de NVIDIA pour ses GPU. La génération multimédia franchit un cap avec le premier épisode d'Odyssey produit par Grok, tandis que les usages dérapent entre profils psychologiques non désirés et contournements de paywalls. Enfin, la sécurité et la gouvernance s'invitent au débat avec une enquête du FBI visant un proche d'OpenAI et l'interdiction de l'IA sur certains sous-reddits open source.",
   "a_tester": [
-   "Tester les modèles d'OpenAI et Anthropic à prix réduits pour vos workflows",
-   "Explorer la nouvelle création de carnets et l'ajout de sources sur Gemini",
-   "Optimiser vos calculs locaux avec le nouvel outil de déverrouillage GPU RTX"
+   "Tester Copilot Code pour générer une application simple en langage naturel.",
+   "Comparer les coûts des LLM d'OpenAI et Anthropic suite à leurs baisses de prix.",
+   "Expérimenter les dernières fonctionnalités de génération vidéo avec Grok Odyssey."
   ]
  },
  "top5": {
