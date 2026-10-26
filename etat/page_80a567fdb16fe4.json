@@ -1,8 +1,17 @@
 {
  "url": "https://ai.google.dev/gemini-api/docs/changelog",
- "maj": "2026-10-26T08:54:40.726685+00:00",
+ "maj": "2026-10-26T14:53:52.177823+00:00",
  "lignes": [
   "This page documents updates to the Gemini API.",
+  "October 26, 2026",
+  "- Generate Content API storage on by default: New projects using the",
+  "Generate Content API (generateContent, streamGenerateContent, and batchGenerateContent) on the paid tier now store requests by default",
+  "(store=true), matching the Interactions API. Existing projects",
+  "keep their current setting. To opt out, set store=false on individual",
+  "requests or turn off Generate Content API logging in the Settings panel",
+  "of the Logs and Datasets dashboard. See",
+  "Logs and datasets for",
+  "details.",
   "October 13, 2026",
   "- Gemini 4 Argon (gemini-4-argon) generally available (GA): Released",
   "Gemini 4 Argon (gemini-4-argon),",
