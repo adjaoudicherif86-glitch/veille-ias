@@ -1,12 +1,58 @@
 {
- "maj": "2026-10-26T16:54:43.842786+00:00",
+ "maj": "2026-10-26T20:45:55.071109+00:00",
  "histoires": [
+  {
+   "id": "h_1e008c8568",
+   "titre": "Lancement et déploiement de GPT-6.1 Terra",
+   "resume": "OpenAI présente, déploie et intègre dans son SDK Python la version GPT-6.1 Terra, un nouveau modèle rapide et performant optimisé pour le raisonnement visuel, l'utilisation d'ordinateurs et le grand public.",
+   "creee": "2026-10-26T20:45:55.071109+00:00",
+   "maj": "2026-10-26T20:45:55.065937+00:00",
+   "episodes": [
+    {
+     "id": "1758535ac6be3e",
+     "date": "2026-10-26T00:00:00+00:00",
+     "titre": "OpenAI lance GPT-6.1 Terra avec des capacités d'utilisation d'ordinateur",
+     "neuf": "OpenAI lance GPT-6.1 Terra avec des capacités d'utilisation d'ordinateur.",
+     "fil": "Lancement de GPT-6.1 Terra par OpenAI",
+     "source": "OpenAI",
+     "lien": "https://openai.com/index/introducing-gpt-6-1-terra",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "f108b5ceacfa1c",
+     "date": "2026-10-26T18:01:17+00:00",
+     "titre": "GPT-6.1 Terra",
+     "neuf": "Discussion de la communauté sur le lancement de GPT-6.1 Terra par OpenAI.",
+     "fil": "Lancement de GPT-6.1 Terra par OpenAI",
+     "source": "Hacker News (IA, 100+ pts)",
+     "lien": "https://openai.com/index/introducing-gpt-6-1-terra/",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "61c5c57ddc1e28",
+     "date": "2026-10-26T20:45:55.065937+00:00",
+     "titre": "Sortie de GPT-6.1 Terra par OpenAI",
+     "neuf": "OpenAI officialise la sortie de GPT-6.1 Terra, présenté comme rapide et optimisé pour le raisonnement visuel, l'utilisation d'ordinateurs et l'écriture.",
+     "fil": "même modèle GPT-6.1 Terra",
+     "source": "Notes de version OpenAI (API)",
+     "lien": "https://developers.openai.com/api/docs/changelog",
+     "nb_sources": 2,
+     "primaire": true
+    }
+   ],
+   "statut": "active",
+   "societes": [
+    "openai"
+   ]
+  },
   {
    "id": "h_5febc86840",
    "titre": "L'introduction en Bourse d'Anthropic",
-   "resume": "Anthropic officialise son projet d'introduction en Bourse à Wall Street en déposant son formulaire S-1 et son prospectus à la SEC. Les documents dévoilent une forte croissance financière, des dépenses massives, la solidité de son partenariat avec SpaceXAI, ainsi que sa stratégie de fidélisation auprès de ses gros clients. L'entreprise met également en garde les investisseurs contre divers risques politiques et existentiels.",
+   "resume": "Anthropic officialise son introduction en Bourse à Wall Street en déposant son formulaire S-1 et son prospectus à la SEC. Le dossier détaille la croissance, les dépenses et le partenariat avec SpaceXAI, tout en intégrant des cabinets pour parer aux risques juridiques et en listant l'extinction humaine ou les tensions avec le Pentagone parmi les facteurs de risque.",
    "creee": "2026-10-20T09:56:16.457937+00:00",
-   "maj": "2026-10-26T16:49:42+00:00",
+   "maj": "2026-10-26T19:40:51+00:00",
    "episodes": [
     {
      "id": "6702d1aaf0afce",
@@ -282,6 +328,50 @@
      "lien": "https://techcrunch.com/2026/10/26/anthropics-ipo-filing-reveals-its-strategy-for-keeping-enterprise-customers-hooked/",
      "nb_sources": 1,
      "primaire": false
+    },
+    {
+     "id": "0c4ac335d53223",
+     "date": "2026-10-26T16:57:00+00:00",
+     "titre": "Le dossier d'IPO d'Anthropic évoque des usages allant de la surveillance à la santé",
+     "neuf": "Le dossier d'IPO détaille des usages potentiels allant de la surveillance de masse à la santé.",
+     "fil": "même dossier d'IPO d'Anthropic",
+     "source": "Surveillance et IA",
+     "lien": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1EXzhRMEtpLTFETVFoM3pPQlVQckROcmZyX1lnXy1yX0Vjd0hVeFBSRVJBbHh2ck12bTIzNWRZNE81cF9EMXNTMVFtZ1FfZFRETFNEWlNkeXotV2tsRkdoaGExakMzNmVOcERXb2FhdEprUlU?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "c6549f35a055aa",
+     "date": "2026-10-26T17:45:43+00:00",
+     "titre": "Anthropic dépose son dossier d'introduction en bourse (IPO)",
+     "neuf": "Anthropic officialise le dépôt de son prospectus d'introduction en bourse.",
+     "fil": "même dépôt de dossier d'IPO d'Anthropic",
+     "source": "MIT Technology Review",
+     "lien": "https://www.technologyreview.com/2026/10/26/1147672/will-the-real-anthropic-please-stand-up/",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "6b2f898f16d91d",
+     "date": "2026-10-26T18:58:50+00:00",
+     "titre": "Anthropic associe des cabinets à son introduction en bourse pour parer aux risques juridiques",
+     "neuf": "Anthropic associe des cabinets à son introduction en bourse pour faire face à de potentiels risques juridiques.",
+     "fil": "même projet d'introduction en Bourse d'Anthropic",
+     "source": "Anthropic et gouvernement",
+     "lien": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOR0prMTRuX0dwVkpUd0p3ek5YNmFNMGRucG12LXJwNjdrVU52YkJWNUtsZHFyV0NiREdpdXQyR0ZyNzRoSHoyQjFnLTVhWDRJcVplOGtaenBnejgwWExRaUdyTXk0SXNKdjB5OGFpbWFvUVF2Q1FWTGlBcUhfZ1I3VU84Qml0NDM2bGpEcUF1U2pZY1N2QXpGZTl0YnFuUklkeGE3clZPcG1Edl9XWlZqWWhKM1IxalpwbUE?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "d477ce2a9e21d2",
+     "date": "2026-10-26T19:40:51+00:00",
+     "titre": "Les facteurs de risque d'Anthropic incluent l'extinction humaine et les tensions avec le Pentagone",
+     "neuf": "Les documents d'introduction en bourse d'Anthropic pointent explicitement l'extinction humaine, les tensions avec le Pentagone et la réputation du PDG parmi les risques.",
+     "fil": "même dossier d'introduction en Bourse et prospectus d'Anthropic",
+     "source": "Anthropic et gouvernement",
+     "lien": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQNWdjMWdoM3RJUUpMMTgtZDFaRVFSYkpYY1o4NmR3WU1QLTZXMzI1eG5jNklsWGRHdi1UMjFpTFFpS0pPdjl1V0NNQUJnb0FCNjJrQjZrM3NoSm5Oa0lDbWlhMTN6cWVSd2U3MmNpQ1JyMmhDbnVnNS12bFF4N1VEMXEwbGJPTnZRVWxwZi1yMklWYkF0WFFxNjVmekY?oc=5",
+     "nb_sources": 1,
+     "primaire": false
     }
    ],
    "statut": "active",
@@ -293,9 +383,9 @@
   {
    "id": "h_27b5489481",
    "titre": "Rupture entre le gouvernement américain et Anthropic",
-   "resume": "Suite aux ordres de Donald Trump de rompre les liens entre le gouvernement et Anthropic, le Pentagone a cessé d'utiliser les outils de l'entreprise après l'avoir placée sur une liste noire. En parallèle, le Département de la justice fait appel d'une décision de justice concernant l'interdiction de l'utilisation d'Anthropic, tandis que d'autres agences continuent d'interagir avec l'entreprise.",
+   "resume": "Suite aux ordres de Donald Trump de rompre les liens avec Anthropic et à son placement sur liste noire, le Pentagone a cessé d'utiliser ses outils, tandis que le DOJ fait appel de la décision. Les tensions s'illustrent aussi par des passes d'armes publiques entre dirigeants d'Anthropic et d'OpenAI au sujet des contrats avec le Pentagone.",
    "creee": "2026-10-20T09:56:16.457937+00:00",
-   "maj": "2026-10-26T16:30:52+00:00",
+   "maj": "2026-10-26T18:29:00+00:00",
    "episodes": [
     {
      "id": "a5d5379bc0d458",
@@ -384,12 +474,24 @@
      "lien": "https://news.google.com/rss/articles/CBMisAFBVV95cUxORkNjb2FLcGRnbnJTd0l6VjNEbmQ3c2Fyd0pwR0xSUTRSQnJ6b3kzckJqSDBtdXNNUlhPWlVhMFFVbjVBMW9CWjlhbVBnekxiY3M4NW9DaGZ5VDdCWk9aWWQxSGg5Q2E1QjV0WFhKZVBOUDFlQ092R25nUFh2UnlRYVdjb2UyTndZVzNOLXk5cURWeWE3MnJxckVwc0dSNjRoR1FKMV8xRzRSdkdkS0ctZw?oc=5",
      "nb_sources": 1,
      "primaire": false
+    },
+    {
+     "id": "38e964bc11962b",
+     "date": "2026-10-26T18:29:00+00:00",
+     "titre": "Tensions entre Anthropic et OpenAI au sujet d'un contrat avec le Pentagone",
+     "neuf": "Le président d'Anthropic critique publiquement OpenAI au sujet d'un accord conclu avec le Pentagone.",
+     "fil": "les tensions et contrats avec le Pentagone",
+     "source": "IA militaire",
+     "lien": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPQklsVWxQV2xBRXFpb084NFJZZTJHNkM1cjhPSGJSZlV5Y2dJcDRFQ1Vob3kzLXJIMGMxaFd4WHF3UEMxR1pZY05lc0F5UDZpZ0VIeUpvS1FGR0VNcGpCVkhDVTVhMFduWnViZVYwN2sxU08wYnNuMWdIVlRlci10amtwR0VPaEZIbUxLSnlPb2kwRWtMLWZBV1NLY2hWSGR1MXRXVVMtb1lGRkkxR1otVWJacUxtUFN4dXdfdjgycUo?oc=5",
+     "nb_sources": 1,
+     "primaire": false
     }
    ],
    "statut": "active",
    "societes": [
     "anthropic",
-    "usgov"
+    "usgov",
+    "openai"
    ]
   },
   {
@@ -1916,7 +2018,7 @@
   {
    "id": "h_706c77ae76",
    "titre": "Le projet de loi d'Anthropic sur la sécurité de l'IA",
-   "resume": "Anthropic structure sa proposition de régulation en définissant des critères stricts d'arrêt d'urgence via un projet de loi prévoyant de suspendre les modèles présentant des risques mortels de masse. Ce positionnement axé sur la sécurité est toutefois critiqué en raison d'une cadence de lancements commerciaux jugée très rapide.",
+   "resume": "Anthropic structure sa proposition de régulation en définissant des critères stricts via un projet de loi prévoyant de permettre à un juge de suspendre un modèle d'IA présentant des risques mortels de masse. Ce positionnement axé sur la sécurité reste toutefois accompagné de critiques sur la cadence de ses lancements.",
    "creee": "2026-10-20T09:56:16.457937+00:00",
    "maj": "2026-10-21T23:53:38+00:00",
    "episodes": [

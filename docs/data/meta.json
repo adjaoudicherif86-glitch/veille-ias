@@ -1,5 +1,5 @@
 {
- "maj": "2026-10-26T16:54:43.842838+00:00",
+ "maj": "2026-10-26T20:45:55.071175+00:00",
  "sources_ok": [
   "Notes de version Claude (API)",
   "Notes de version OpenAI (API)",
@@ -57,14 +57,15 @@
    "erreur": "429 Client Error: Too Many Requests for url: https://venturebeat.com/category/ai/feed/"
   }
  ],
- "total": 1150,
- "analyses": 1134,
+ "total": 1194,
+ "analyses": 1161,
  "brief": {
-  "titre": "Anthropic prépare sa méga-IPO pendant que l'IA se déploie en entreprise",
-  "texte": "L'actualité de l'IA est dominée par le projet d'introduction en bourse historique d'Anthropic, valorisé à 75 milliards de dollars, qui révèle que Claude écrit désormais 90 % de leur code interne. En parallèle, l'adoption s'accélère avec des intégrations sectorielles majeures comme le connecteur bancaire de Narmi pour Microsoft Copilot et l'usage des outils d'OpenAI par Fanatics. Côté open source, Unsloth continue d'optimiser les performances avec sa version beta, tandis que de nouveaux contenus générés par IA voient le jour, malgré des freins réglementaires observés en Suède.",
+  "titre": "Entre percées techniques et virages financiers majeurs",
+  "texte": "L'actualité de l'intelligence artificielle est marquée par des annonces structurantes tant au niveau des produits que de la stratégie des entreprises. OpenAI frappe fort avec le lancement de GPT-6.1 Terra et ses nouvelles capacités d'utilisation d'ordinateur. En parallèle, Anthropic officialise son entrée en bourse avec un dossier valorisant l'entreprise à 75 milliards de dollars. Côté open source et développement, la bibliothèque Transformers passe en version v5.21.0 et Unsloth introduit de nouvelles fonctionnalités bêta. Enfin, l'écosystème continue de s'étendre avec l'arrivée de connecteurs bancaires pour Microsoft Copilot et de nouvelles productions vidéo signées Grok.",
   "a_tester": [
-   "Explorer le nouveau connecteur Microsoft 365 Copilot si vous travaillez dans le secteur bancaire",
-   "Tester les dernières optimisations de performance et tâches planifiées de la mise à jour Unsloth v0.1-beta"
+   "Tester les nouvelles capacités de GPT-6.1 Terra pour l'automatisation de tâches informatiques",
+   "Mettre à jour vos environnements avec Transformers v5.21.0 et évaluer les nouveaux modèles",
+   "Explorer les nouveautés d'Unsloth v0.1-beta pour optimiser vos entraînements de modèles"
   ]
  },
  "top5": {
