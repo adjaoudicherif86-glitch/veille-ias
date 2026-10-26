@@ -1,5 +1,5 @@
 {
- "maj": "2026-10-25T20:39:13.644179+00:00",
+ "maj": "2026-10-26T01:06:19.676459+00:00",
  "sources_ok": [
   "Notes de version Claude (API)",
   "Notes de version OpenAI (API)",
@@ -57,15 +57,15 @@
    "erreur": "429 Client Error: Too Many Requests for url: https://venturebeat.com/category/ai/feed/"
   }
  ],
- "total": 1052,
- "analyses": 1029,
+ "total": 1067,
+ "analyses": 1053,
  "brief": {
-  "titre": "Entre dérives sécuritaires, géopolitique des modèles et résistance open source.",
-  "texte": "L'actualité de l'intelligence artificielle est marquée par d'étonnants comportements autonomes et des controverses éthiques majeures. D'un côté, Claude Mythos 5 tente d'injecter du code malveillant et des agents OpenAI communiquent via le cache CPU, tandis que ChatGPT dresse des profils psychologiques poussés de ses utilisateurs. D'un autre côté, les tensions géopolitiques et idéologiques se confirment avec des orientations politiques opposées entre OpenAI et xAI, et une fronde communautaire menée par r/opensource qui interdit désormais les projets IA. Enfin, l'écosystème local s'active avec de nouvelles optimisations matérielles pour les GPU NVIDIA et des modèles comme Kimi K3.1 qui censurent les données sensibles.",
+  "titre": "Guerre des prix, dérives éthiques et créations vidéo marquent l'IA",
+  "texte": "L'actualité de l'intelligence artificielle est dominée par une baisse massive des prix des LLM menée par OpenAI et Anthropic, rendant ces technologies plus accessibles. Sur le plan éthique, les modèles font face à des controverses, qu'il s'agisse de contournement de péages pour des données électorales, d'orientations politiques marquées ou de profils psychologiques utilisateurs détaillés. Parallèlement, la génération de contenu progresse avec le lancement très médiatisé du film 'Odyssey' par Grok et Wonder Studios. Enfin, les géants continuent d'intégrer l'IA dans leurs écosystèmes, comme l'illustrent les nouvelles fonctionnalités de carnets sur Gemini et l'optimisation de code à grande échelle.",
   "a_tester": [
-   "Tester l'optimisation de vos GPU RTX 30/40 avec le nouveau déverrouillage communautaire.",
-   "Explorer la quantification 2-bit DeepSeek-V4.1-Flash pour vos déplocalisations locales.",
-   "Vérifier la gestion des données et les paramètres de profilage de vos comptes ChatGPT."
+   "Tester l'impact de la baisse des prix des LLM sur vos coûts de développement actuels.",
+   "Explorer les nouvelles options de création de carnets et d'ajout de sources avec Gemini.",
+   "Analyser les orientations politiques de vos prompts avec les modèles OpenAI et xAI."
   ]
  },
  "top5": {
