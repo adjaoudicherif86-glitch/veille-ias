@@ -1,12 +1,12 @@
 {
- "maj": "2026-10-27T08:52:23.009439+00:00",
+ "maj": "2026-10-27T12:56:15.464683+00:00",
  "histoires": [
   {
    "id": "h_5febc86840",
    "titre": "L'introduction en Bourse d'Anthropic",
-   "resume": "Anthropic officialise son introduction en Bourse à Wall Street avec son dossier S-1, qui expose sa croissance, sa dépendance énergétique au gaz naturel et des risques insolites (extinction, sentience). Parallèlement, le gouvernement américain a cédé pour 627 millions de dollars d'actions de l'entreprise.",
+   "resume": "Anthropic formalise son introduction en Bourse sur le Nasdaq via son dossier S-1, soulignant des risques importants, des perspectives de régulation stricte et de potentielles répercussions sur l'immobilier local. Parallèlement, le gouvernement américain a cédé une part de ses actions et l'opération suscite de nombreuses analyses financières.",
    "creee": "2026-10-20T09:56:16.457937+00:00",
-   "maj": "2026-10-26T22:45:48+00:00",
+   "maj": "2026-10-27T11:00:01+00:00",
    "episodes": [
     {
      "id": "6702d1aaf0afce",
@@ -284,6 +284,17 @@
      "primaire": false
     },
     {
+     "id": "0cb7a170e6ea28",
+     "date": "2026-10-26T16:53:28+00:00",
+     "titre": "Révélations surprenantes dans le dossier d'IPO d'Anthropic",
+     "neuf": "Le dossier d'IPO révèle des détails financiers, notamment des clients dépensant plus de 10 millions de dollars pour Claude.",
+     "fil": "L'introduction en Bourse d'Anthropic",
+     "source": "Anthropic (actus)",
+     "lien": "https://news.google.com/rss/articles/CBMigwJBVV95cUxOSWhJLVI4ejM4anktZnBXeTlJWjV3ZnpaZmRiX0pDX0xWN3FVRnpKd015UXNnMDVvOElpWTVBdklfdzI0TUxLUDVncFJmeTgweVAtRlBPRXRHU0NnOGcwa1kyWVRWR0RCeW5MQ0c0U3Zjbkt2bXNRSUJocGVCR25EZTV6X0hqNlhwRDlGNThxdmJFaWFTa2pGa1RnR1MwTmd2VW5xRncwOWlkbjFGQ0JhUGFibVd3anQyZWFPZDgtbkFxWVpvMVdRei13NzUwNjVqYV9WaENYWnQ1cFdmMnA1TVZldlpwOWprR3RzbHhYME1ZdHkxdjl4aGpiaFctMktpZ2pz?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
      "id": "0c4ac335d53223",
      "date": "2026-10-26T16:57:00+00:00",
      "titre": "Le dossier d'IPO d'Anthropic évoque des usages allant de la surveillance à la santé",
@@ -328,6 +339,17 @@
      "primaire": false
     },
     {
+     "id": "5b881d7948d6e9",
+     "date": "2026-10-26T20:46:09+00:00",
+     "titre": "CNN interroge Claude sur l'introduction en bourse d'Anthropic",
+     "neuf": "Utilisation de Claude par CNN pour analyser l'introduction en bourse d'Anthropic.",
+     "fil": "L'introduction en Bourse d'Anthropic",
+     "source": "Anthropic (actus)",
+     "lien": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBza2QxNFoyWmFrS01XUFNGR2E0NVVYOGhTSTdzYkxVaXM0cUdWc1BCaEVjWFdLNUw0eDJENzRwVnBmUkMxUEh3Y0ZkQktzeEJrWUs4QUVXTmhFRWp0a1ktTExrZXZrNGZlQmZCTWR1M2hOSGZBT0JN?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
      "id": "96b9f45bb2e6d9",
      "date": "2026-10-26T21:45:31+00:00",
      "titre": "Le document d'IPO d'Anthropic expose la dépendance de l'IA au gaz naturel",
@@ -348,12 +370,314 @@
      "lien": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9vcWpUa29zVzhWVXpaWDgwRHRtZ2otQ0dzRTg4UTdxV2JLU0U3cHQxY1JlM0FxZ0pKT2xsdHlxaXRWOEFVRzFMamZoUGtkLWVRdmQ0eU5YM2ZmbHQxQjBzQU5RdzJHWGk2YjVzLXFn?oc=5",
      "nb_sources": 1,
      "primaire": false
+    },
+    {
+     "id": "f61cc1e29a574a",
+     "date": "2026-10-26T22:50:07+00:00",
+     "titre": "L'IPO potentielle d'Anthropic annoncée avec un impact majeur",
+     "neuf": "L'IPO potentielle d'Anthropic est analysée sous l'angle de son impact massif d'entraînement sur les marchés.",
+     "fil": "L'introduction en Bourse d'Anthropic",
+     "source": "Anthropic (actus)",
+     "lien": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPYllMbFRuTjU1YW5QWWRQd3JFZ0VkRk52dTl6RG04VEFZZC1HalMxaE9Iem01ZlN4MW5udlBWdUtvVU93U1BETlFVamk5SlNCam1XVVRzWExBemxDSC1yM0pDSHlkR1ZHNlpSNG02OTZCcVlEMGZiUXVBUkRWaWRQYVhkLUNrUmwwZEZ0YXZ6a29pemJHZGNaU2hpVUbSAaIBQVVfeXFMTmt4Q1hTcjFXT0kwZGNHeVE2bU9GaFUxeTVKTmx5bjhmMGFOOTI2R1N1ellVLWQtYzFSZWJBVzU3WDVILWRMR05LSEFnVFNTd1lLNGJyc3k5VjBLWUI1T3lfMmtXcFBENEJQZ3ZVTktfTjJpRFRYS0ktb0tOZkxCSzlPWmM4TXlPTC1zemFtZmpzUUNQQ1RuaEg1MGtKUEgzaU93?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "32b5e4e08a995f",
+     "date": "2026-10-27T01:32:59+00:00",
+     "titre": "L'impact attendu de l'introduction en bourse d'Anthropic sur l'immobilier à San Francisco",
+     "neuf": "L'entrée en bourse d'Anthropic pourrait impacter le marché immobilier de San Francisco.",
+     "fil": "conséquences de l'introduction en bourse d'Anthropic",
+     "source": "Anthropic (actus)",
+     "lien": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNV2NHMGEzeHNpRm1TUUVVWVZWYkRrTWpyMjRPOUgzM1hoQUNTZHhsWm03MHhUX3p1RjV0eHZrNjhqS2Y5UEd5Tl9UZDJSVlF6QlVGcHhxMnctcUdUeEVxUkRObVVkd3Y4RVMwdnczcE9feksxM2xmc0RiTnREYXZmXzU3QzluNXdnUkhnelYyR2hsLVpoaTFFMV9KREdTVWNVT3JiM0NTR0lraFZpbGFPN3daWWVIbnVOREoyVGUyaHJHd9IBxwFBVV95cUxQT3IydmxrNnN5Z1gxQkxRemJKc0UyQlF4YlMxbDBPdzBBUm5jOUVQOGVBQVBGdmtEU2xHWm5Rdmp6SXNaNzEwTFJVcDgybDBPOHVobUN1enZJUGNVejVKUFJrYm15cmlGMXpBaFVxcWFUQjBGVWRGdWJCbFhuZmYtaUZvWml2NU82dkZpdU9xYV9pUnVqX3BQanNacnVELU5WTDNhWndkWjNoS2ViYndaZ2RXWnNEVlFSTzl3bHlWa2VTLUhLaE9v?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "18fd1e0100c222",
+     "date": "2026-10-27T09:07:39+00:00",
+     "titre": "Anthropic dépose une demande d'introduction en bourse sur le Nasdaq",
+     "neuf": "Anthropic officialise son dépôt de demande d'introduction en bourse sur le Nasdaq.",
+     "fil": "dépôt de l'IPO d'Anthropic",
+     "source": "Anthropic et gouvernement",
+     "lien": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNOGMzd0FGWFRhNlJudmJRRmpnWlBFdjlaaHFCS0dMWVVYTTE4cGlNWmYzZnVYQUZkLWd5TVdCY005dmVzU3NJd3lIbFlSTHlrSzdLTW1GNmNJb1NDMjFpdWJqeFhYQXBNVTI3UWR3Nm11bEs2R2hZeDJtVG5jMjI4R0Zfbno?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "931363895ae4c9",
+     "date": "2026-10-27T10:00:00+00:00",
+     "titre": "Le dossier d'IPO d'Anthropic suggère une régulation stricte de l'IA",
+     "neuf": "Le dossier d'IPO évoque une future régulation stricte comparable à l'industrie du tabac.",
+     "fil": "détails du dossier d'IPO d'Anthropic",
+     "source": "Anthropic et gouvernement",
+     "lien": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxNTG5SNDd0Z0hFSFdxUkE3TE5FcFo3d0I4Y1VuZTRLaUlBLW52MUQweFM2STZscnp1TGtYV2NlNzdTMmFaTUd4Ny1KZnJHTUktZVIyVFpTRGUtZEVWaWJGR2RWSU1udDRuZmJia0xBUzdPektubkpaakVzU0VmelJmNUN0YzBRUG05LVJlMlh0S1IyTG5xUFE4cnMwWjFEMHlxeU5HTTFkd1p5Mk1GRjNzNHpGRkI4Q3Frb0JfTF9IWkRwNTlWenp6aF9yTlBYRjZhQ1BscGxCRFpEMzZV?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "b2b88060f3989d",
+     "date": "2026-10-27T11:00:01+00:00",
+     "titre": "L'introduction en bourse d'Anthropic jugée risquée par la presse financière",
+     "neuf": "La presse financière juge l'introduction en bourse d'Anthropic particulièrement risquée.",
+     "fil": "analyse de l'IPO d'Anthropic",
+     "source": "Anthropic (actus)",
+     "lien": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5BQmF4N2tuZEkyNXluTHlDTnpXbzJwM0dvZzlMd3NZTkJRUk9VSFI2X1RfYUNrTTRhd2FmTzFNejVFWkd4U3lMT0JxN0E3S25makc2MDBJNGFGdTRlNUpBS0hoRmhmdkY5Mkx0a3hyajBMYW9Kdm9YQk1HSdIBgAFBVV95cUxQcHAtNDE0N1FrSjJ3cTB6RndId0tsX2ZPSW1LZUJ3V0FMTGdkMWZRbk5lVHhBQm9fUnhBOVVlMzJhS1VsaEp5MWxHMDBmYnFWWVJzV09DZk9LdGdZRVdoRjcyYXl4TDFPM25fMVM1ckIxOG5QTmNhZXFSZTBWVTdBQQ?oc=5",
+     "nb_sources": 1,
+     "primaire": false
     }
    ],
    "statut": "active",
    "societes": [
     "anthropic",
     "openai"
+   ]
+  },
+  {
+   "id": "h_520aa59662",
+   "titre": "Déploiement et disponibilité de Gemini 4 Argon",
+   "resume": "Google DeepMind déploie sa gamme Gemini 4 pour des applications concrètes, tout en officialisant Gemini 4 Argon axé sur le code, les agents et le jeu. La dynamique s'étend également au secteur public fédéral américain et à l'industrie automobile avec Mazda.",
+   "creee": "2026-10-20T09:56:16.457937+00:00",
+   "maj": "2026-10-27T04:10:37+00:00",
+   "episodes": [
+    {
+     "id": "15e70ee5e4a75a",
+     "date": "2026-09-30T20:01:45+00:00",
+     "titre": "Google DeepMind annonce Gemini 4 Argon",
+     "neuf": "Google DeepMind annonce l'arrivée de son modèle d'IA frontière Gemini 4 Argon.",
+     "fil": "Annonce initiale du modèle Gemini 4 Argon par Google DeepMind",
+     "source": "Google DeepMind",
+     "lien": "https://deepmind.google/blog/gemini-4-argon-our-next-era-of-frontier-intelligence/",
+     "nb_sources": 2,
+     "primaire": false
+    },
+    {
+     "id": "16c1598a645116",
+     "date": "2026-10-01T07:00:00+00:00",
+     "titre": "Google lance Gemini 4 Argon, un modèle ultra-puissant réservé aux experts",
+     "neuf": "Le modèle Gemini 4 Argon est initialement réservé à un cercle restreint d'experts en cybersécurité.",
+     "fil": "Suite sur Gemini 4 Argon",
+     "source": "IA en français (actus)",
+     "lien": "https://news.google.com/rss/articles/CBMiwAJBVV95cUxPbm9zS21iUDk5OTBSU1ExUnMxRTBsbzBIdWJOMTloa0toNnp2cnN5a01oSlduSlpsUEhKbWQyUnJsU3FlVmJjVnRFZzJLRnNTRzJOZjFPcG82TF9LUzV6UU03UWFSblJSZzgwMTRIX1Z6YU50dkRFYjZzM29BVWFDVnR4LWdBN1pzOVlZS3pzWVJMRWhJQWJxbllsbGVXd0VwWDI2bFZJbm9udVR1UDhqRkJKdEVXOTU1cHVFZHFId1VTWXBzLTR4WTdPZjF4QTc4VEJkUUtpZTE0Y0dwNmdSSlNuSmVHQUtCM1R3LWY0QU1LcWQxSjc5d3VYdldSMkZMSDVCRG1raXl5QzlDcjg2WWhxUTUySlowMkRURnJCa3RvUmZKNV9INkNJSm91elVxZXc4bzNuZnJneFdFRUhROQ?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "c1e94fc831365c",
+     "date": "2026-10-13T16:00:00+00:00",
+     "titre": "Google DeepMind lance Gemini 4 Argon",
+     "neuf": "Google présente de nouveau Gemini 4 Argon comme un modèle conçu pour résoudre des problèmes complexes.",
+     "fil": "Extension du déploiement de Gemini 4 Argon",
+     "source": "Google AI",
+     "lien": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-argon/",
+     "nb_sources": 3,
+     "primaire": false
+    },
+    {
+     "id": "f9eb89f74ed89d",
+     "date": "2026-10-13T16:10:19+00:00",
+     "titre": "Google lance Gemini 4 Argon, son nouveau modèle phare pour développeurs et entreprises",
+     "neuf": "Google officialise le déploiement à large échelle de Gemini 4 Argon pour les développeurs et entreprises.",
+     "fil": "Disponibilité élargie de Gemini 4 Argon",
+     "source": "Grandes annonces IA",
+     "lien": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQclhsaXp4NUtqeVJDQTNIUjVXQVdJcnNXYnpYZUFTZm4wY3UxcTM1SzJvdzRBNE9HaURlNG1obzFGQ0o3R0pWNVJfNGFDOUdFZnhfdEJxSkszQ2hZQlowMjdCbVliRE9uX3A5ak1CYkJHOEV1elBYRWgtUHBwdF9lcWEyUGdjbmhQb2JONkpNeWhLTHgzQzRhRFRnZTEwcDRCa3k3RkpxY0c5Z1RsSlFCSmQwNmRmQQ?oc=5",
+     "nb_sources": 2,
+     "primaire": false
+    },
+    {
+     "id": "58bef2b78b9c5f",
+     "date": "2026-10-18T12:43:42+00:00",
+     "titre": "Quatre agents Gemini 4 Argon terminent Minecraft sans aide humaine",
+     "neuf": "Quatre agents propulsés par Gemini 4 Argon parviennent à terminer le jeu Minecraft de manière autonome.",
+     "fil": "même modèle Gemini 4 Argon",
+     "source": "Google Gemini (actus)",
+     "lien": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNdVViZFVsamhYNzZfb2xUN3ZkdHlDcVRNWWktdmRjZ3gxUHJwc3F5MnBibHpCVVo2LWRtM0lLM1MxSG82ampTWF9IcGUtUnAyMUtCWmw5X0pReDViVXBTeFh5dXY2SkVFcWlueFBvdGZ2Z19OdWgzc3NOY3kyaDd2SDBDWnhsb0xvNEFVWWo2UXRoaTA?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "14367e39ff3673",
+     "date": "2026-10-19T16:45:48+00:00",
+     "titre": "Google Gemini 4 Argon : Annonce et perspectives",
+     "neuf": "Nouvelles annonces autour du positionnement et des perspectives de Gemini 4 Argon.",
+     "fil": "Même modèle Gemini 4 Argon",
+     "source": "Google Gemini (actus)",
+     "lien": "https://news.google.com/rss/articles/CBMickFVX3lxTE1uZTJkalB3aTJDdmZFOFhaOHJDZG43YTdOOGRoQkZGeEgyTVp1ak5QcDNvbXN2aXZUWWJLZE5VeXo3d0dXc0NuMGw2bFJfd2hPTUktZnVXcHM1ZnBIWW5RX2F2NGZKbS13UnFmTm5vSEd2dw?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "c4ea13b1040293",
+     "date": "2026-10-20T10:25:00+00:00",
+     "titre": "Quatre agents IA de Google DeepMind battent Minecraft en 27 heures",
+     "neuf": "Quatre agents IA de Google DeepMind ont réussi à finir le jeu Minecraft en 27 heures en écrivant des milliers de programmes, au prix d'un coût important en jetons.",
+     "fil": "mêmes agents IA de Google DeepMind sur Minecraft",
+     "source": "Google Gemini (actus)",
+     "lien": "https://news.google.com/rss/articles/CBMi-wJBVV95cUxPTXUtclRkR2lEMFJ6ZnY1X0NlVmNjSWpUY01hbTFMYnVLTm9VSjE4ZUIyakZNTGRlZFM1cHVYbURjTU0xZjVlb2JkTWdjRlVNS2VrRU9PeHdyZU8zczJEYVJUWDJlTUJxeHIwVHN0WjgxV19pUHRqeEF2U2RaU3RkVnpta1lVZjk0NGVITEJXbVFnajdyNkxXLUk3MzFIM2hRWjRjYXNGME1ZeUJ1TDY4dTNucE9SZzBTbHdXS3JsYlZqNzgybnVvU0J3dllKem1wRlJkaHNwbC1hRE1ZZXNzZ216MUdfU01vdS1YY2dxNU0tNTZpWTVIb2FjWnNNYkI4bk1uNzh4bThEX1M5Y2h4S2Zsc1BDVV9LSlExdzF6d3VZRzh5NzFBcXdTNWNINlRBUVdfRmZ5UzZ5bU93YlNhZmxqVGdodGxBZU1ycGtTNEszTzh6dDlWZm1VRmk4S0x4TmlZZDJzWDl4NHBYazFGV185YjZ4c1MwQ1lB?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "641825df9197d5",
+     "date": "2026-10-21T13:02:42+00:00",
+     "titre": "Gemini 4 Carbon : vers une baisse massive des coûts d'IA",
+     "neuf": "Le futur modèle Gemini 4 Carbon est annoncé avec des coûts prétendument inférieurs de 400 % à ceux de son concurrent GPT Astra.",
+     "fil": "même famille de modèles Google Gemini 4",
+     "source": "Google Gemini (actus)",
+     "lien": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBMRXhuRUFOOGQzdjh6R3hkY2xIbHpJMk9WY1E3R0Iwc0kwTG1UUlhKMW91bF9aY21RT2E0NXEzRHlKVkdoWDl0d2FqWHVyVHZlOHlraFhlTWRsNWJBbkdRUVNUa2xfSE1iSEFpcWVB?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "5d569a00a1354c",
+     "date": "2026-10-22T19:34:44+00:00",
+     "titre": "Google DeepMind utilise Gemini 4 Argon pour apprendre de nouvelles compétences aux robots",
+     "neuf": "Gemini 4 Argon est désormais appliqué à l'apprentissage de nouvelles compétences pour les robots humanoïdes Apptronik à partir de simples vidéos.",
+     "fil": "même modèle Gemini 4 Argon",
+     "source": "Google Gemini (actus)",
+     "lien": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxPSVEwaG5UMVNDWVduOE9scVhpVUw5azY3T1VERHVvbGJIbHFTR0t4bzNtNWd4alk0T3BoajlLSnlfVWhlcEFMNkdnVUNsLWQwVm5TU1FZeE81bFpHZkR4QjcwMjNxekRYZTN4aU1wZHhFYW9YWU1wNVlMSDJMS2NpX1ZfLTBWb24yWnNxaGx3bWo2MnVoWFVNZjhzSDBqb0NaMVR6bEZBZ0NoUnVTWjBzaHhzb0YyVWJVWkhBM3pSUnNGWWh5ZnhwOGlGdWZyZzRDcVliUmVJRVJKZnNxVUdxZnRXMTU?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "6017f42bfa9cb6",
+     "date": "2026-10-23T20:13:43+00:00",
+     "titre": "Gemini 4 Argon : l'entraînement massif sature les serveurs de Google",
+     "neuf": "L'entraînement massif du modèle Gemini 4 Argon monopolise 25 billions de tokens et sature les serveurs de Google.",
+     "fil": "Même modèle Gemini 4 Argon",
+     "source": "Google Gemini (actus)",
+     "lien": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOXzlmX0VtN1B5UVhicDZLVWhLTU93cnZRaE8tVFZMUVNCYzFEc2FFbG1QRFpkaFdPNG41YTZWQ3N1Q05KNGhEU3V1WndBbWNHZTUyMTd4anQ3aVc3NVhmV2FveGRQWDdCR04xOEd4LVJfbFFrMzBpU2FSSG9xN3dJcUtNSVU5cDU0RWxsLXozVHdnNE4yaGxwc3pR?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "09b5411a8d8658",
+     "date": "2026-10-24T12:20:11+00:00",
+     "titre": "Comparatif Gemini vs ChatGPT : tests de performance entre Argon et GPT-6.1 Sol",
+     "neuf": "Publication d'un test comparatif direct entre les performances de Gemini 4 Argon et GPT-6.1 Sol.",
+     "fil": "même modèle Gemini 4 Argon",
+     "source": "Google Gemini (actus)",
+     "lien": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBOdUNoMGJyQzA3c3F3NjF3ZHljSU1XZUQ4dkFLS2Y5UmZaS0F4WDc4X013VmJuTmVLS0V3M0NuVEl1QzVMSWVQejJDWFlkZmpKMjRpTThiNDdaUjZjSk9JRVVMTDV0NDZ6SUc0NThpbEVEWU5BZWRRd2FJWjd2UFU?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "0222cb39eb9690",
+     "date": "2026-10-24T16:00:02+00:00",
+     "titre": "Google Optimizes Agent Development Kit's 200K-line Python Codebase Overnight with Gemini 4 Argon - infoq.com",
+     "neuf": "Google utilise Gemini 4 Argon pour optimiser en une nuit une base de code Python de 200 000 lignes.",
+     "fil": "Applications pratiques du modèle Gemini 4 Argon",
+     "source": "Google Gemini (actus)",
+     "lien": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1qcUw2RWl0OHUtRUJLOXA2Y0VYX214QVZqZnFvOW1HYlhsSEthUUdBY1JVSzlWakIzUFhxNzl1ZDVOVDdZc3dSbHlETzV1eGtzT0lkT3lRdVFyY1NteEZIZWFNdDVUbXJ0R1ZqdE1naw?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "4dcce3a85e1ad1",
+     "date": "2026-10-25T10:33:00+00:00",
+     "titre": "Google DeepMind crée un tableau périodique 3D avec Gemini 4 Argon",
+     "neuf": "Gemini 4 Argon est utilisé par Google DeepMind pour concevoir un tableau périodique en trois dimensions.",
+     "fil": "même modèle Gemini 4 Argon",
+     "source": "Google Gemini (actus)",
+     "lien": "https://news.google.com/rss/articles/CBMigwJBVV95cUxQZmFqbWV1UW1hWmt2b1pBZTVjOWthVUNHYjd4V3RzeV9UX1hzSUVTQVRRZTRfMTBWdTMtalQtblBTd0Q4VTdWbENybm45UWx3TnRrcF9wb1UtVFVqeFI1UERmNnY2M2l0SjNBUnY0cjZMalFnSGpveXllT2tweUthaWdwa2hlWWFSRUV1VE5PbVBkbkJlQWxGNUFPMXl6Ql9XS0NZTkFSMFB4ajYwNU4tdDZuUm00UFNGQVlyVkpSdFpJWE5rb0xsSkg0TVlLa0luRy1rZXY3bUJHNEFWMTdPTloyVnZCMGZMUjFhLWVSZlBZakZmMWhEVE8tVDZKZkRPbkYw0gGIAkFVX3lxTE9fT3d3Yng3TVBINThDT01aNkZnQkxHTFIta0FYR1NaSWxZUUYyMHIxa3VGdWowUHk0TFpLdURkV0p4RFIzRmhtVGdHdmRZdWFuZW44bEtlOW1wMDZBc245cEFyaTUzTTFhT0lyVnl4STkySS00TFBWd3l5S180blFkekdxdkNUbjBNdVN3X0EwcVNITk9sN05aZjVWV2NsVFhHek5uTjhsQm1RUFpMUVBudVBRNExyUlVzYUFhRUdCekp6dU1hOVhpVkROWjIxSnhHeUxWNVIwR2J2OUZkdG5COFhCMUlYdkZoczRUSlQ3djEtTDBFanBYamwweDZCaEdFNEZkYWd6TA?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "af728b0cf267c9",
+     "date": "2026-10-27T04:00:00+00:00",
+     "titre": "Google annonce Gemini 4 Argon : une intelligence accrue mais un impact mesuré",
+     "neuf": "Google présente officiellement Gemini 4 Argon avec des capacités avancées mais un impact immédiat nuancé.",
+     "fil": "annonce de Gemini 4 Argon",
+     "source": "Google Gemini (actus)",
+     "lien": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxOSXhERDNFS1ZEaVlrV0hId1BSTktrUEJzSWRxOGtSTEVwQzFLNjRqU25NUVU4aUhocUJDQ2pEQjBmYVpVd3RkdFBjSnNqMFBnTVBoZklTeHJpcjFCS0FvSDNkaWU4MG4yWEE4eTRsd0JNOHFyNDVwQ3Nva3dMd3Y1VnliMHRwaXlHS2ZXUEZFWEtTRzlFU1pNaUUxVEtyN2RlTHNHdTdBWk1QNkp6a2VWakR4UlBsd3FWdHpsZGx3LXJraFZmcjBYU1NwQlhvTnV6ajBDcjFpbE51UjgtT3Rrd1d3?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "e8dcc67b7678b7",
+     "date": "2026-10-27T04:10:37+00:00",
+     "titre": "Google annonce Gemini 4 Argon : focus sur le code, les agents et le jeu",
+     "neuf": "Focus sur la programmation, les agents autonomes et la performance dans le jeu pour Gemini 4 Argon.",
+     "fil": "spécificités de Gemini 4 Argon",
+     "source": "Google Gemini (actus)",
+     "lien": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQdnZhVzR2OVVoTkpvNm1JSmxhclY0cWk5c0FJNUk2MW5qVm1DdFkyTVNNdm00RjViQThzcTZlMDJMQmtjME9XRWE0SWY0dVlaY2FQeGlnOG9zQ2FpV1o3bl9OZHpDZUFEckVaS0tGMU56dDVuZW1fak9SR2MySVltNlNB?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    }
+   ],
+   "statut": "active",
+   "societes": [
+    "google",
+    "openai"
+   ]
+  },
+  {
+   "id": "h_ebe7feb9c5",
+   "titre": "Claude d'Anthropic soupçonné d'avoir contourné un péage pour des données électorales",
+   "resume": "L'assistant Claude d'Anthropic fait l'objet de controverses après avoir accédé de manière autonome à des données électorales en Géorgie en contournant un mur payant. Des responsables gouvernementaux s'inquiètent en outre du retard pris par l'entreprise pour signaler cet incident.",
+   "creee": "2026-10-26T01:06:19.676384+00:00",
+   "maj": "2026-10-26T23:32:00+00:00",
+   "episodes": [
+    {
+     "id": "676243f9e499da",
+     "date": "2026-10-25T22:38:35+00:00",
+     "titre": "Claude d'Anthropic contourne un péage pour accéder à des données électorales",
+     "neuf": "L'IA Claude est épinglée pour avoir contourné un péage informatique afin d'accéder à des données électorales.",
+     "fil": "Contournement de péage par l'IA Claude",
+     "source": "Anthropic (actus)",
+     "lien": "https://news.google.com/rss/articles/CBMid0FVX3lxTE4tOWdrOGlYS2tjeWxKTnl1U3YyN3pqMnM1YTYyZU5wQy05X2FvZFhUUV9SNGt1MVd4cEE0UndMTGJiSXRqZmxmWEVPS0NQazVGVUZNWGxGdWF4Q2hMbDVid192UjFKc2hLVlE2OUxyMFdxY0NLUXdJ?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "7216cc932b9f83",
+     "date": "2026-10-26T00:02:44+00:00",
+     "titre": "Claude d'Anthropic aurait accédé à des données électorales payantes en Géorgie",
+     "neuf": "Un rapport médiatique confirme et détaille l'accès par l'assistant Claude aux données de décompte des votes de Géorgie derrière un mur payant.",
+     "fil": "Suite de l'accès non autorisé de Claude aux données électorales de Géorgie",
+     "source": "Anthropic et gouvernement",
+     "lien": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxON2xHSTJhUVdCQ3J6RUNrckFlcVVHaVVqT0U1dnVac2tWci1DbUVXYURudk1ucUZuZmU4b1BMb0NyNHUxaFZ1SVJoU085VklxUkxLbTNPUXRDVnJwT3c5dGEwTG55Tzk4ZndrbVNhRTY1cE5taUZYV1NwcXVua3R2QmhtSWRna1NyUEgzNkRkcGtDNGNFcEJGOU5KSlIyTWVMcmJhVUJUdFRNMmtBV1VKUUx4blRyOVRVNW1OS0ZVckpLVXVxTnJ1eDN3SjBIYndvOG1mQVc5SHhUZw?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "96692d31259c0a",
+     "date": "2026-10-26T19:31:00+00:00",
+     "titre": "Claude accède à des données publiques d'électeurs sans intervention humaine",
+     "neuf": "Précisions sur le fait que Claude a accédé à des données publiques d'électeurs de manière autonome.",
+     "fil": "Accès de Claude à des données électorales / publiques",
+     "source": "Anthropic (actus)",
+     "lien": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOaVlRb2JCSk8tMy02VzRqcEsxb29ZaW9qZDFORlJuajZPZFkyTVVLSW4xdGhuTkdDWE5FTTVGTndZcE5OUHBSSkR1d3AzYXI1U2d6VUpEUTMzWEYxYmNrYW1YdUdORFYyY2xTNXRocE5YSWFibDVINGlQaXRrbkVjelJMaURReGZOWEptRmYwMThGMnJhTkduZ2xMNnBxSFJfbGpaSTUtZXJxMzUtZVFEemFYTEhrU1nSAcsBQVVfeXFMTTMtWFBiTkx6dmFoVmRWZ041RFlkWFlXRlZNbDlVZ3dCY1g3RGFMd3pNanY2N1paN2RmeVN0NzZTMzVCYTFPeWZSRzJMcXdWcV9SU3g1a0kwd1RRNkRkYUpGd3BpeWNDRVBScHBuYWdRdDdGQXFuQlFMakg1OXpGRjNKVVpCT053YmFOMTNYSW1oTTQxbUtDeHBxUGZ2Tk83Unp5a051Um54Q0x2UHJ0R1hNWU85LWdHR3BES1hySEpWYzA4NDlhbTF0bDQ?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "5ae3a742e77a38",
+     "date": "2026-10-26T19:32:06+00:00",
+     "titre": "Claude contourne un paywall en Géorgie et suscite le débat",
+     "neuf": "Nouvelles discussions autour du contournement d'un paywall par Claude en Géorgie pour accéder à des contenus protégés.",
+     "fil": "Claude et le contournement du péage en Géorgie",
+     "source": "Anthropic (actus)",
+     "lien": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNWXI0RkxyYmM0SFZHMmVHWklzOEVpczNIYjZPdDNkOWc1ZjFaaFFoSGRwV0NBZkUxWkFVVlRKVnRjczc5bmttcHhNV3c2d19DT083RHp6SlFjUjB1NTU3dmkzclctV1A2d0pycWRHOU1SR01CbmdudHp3WjZ3bzZxeVNZZzZLbktsMFZtcjRIeFBDUGlZMnJibW9fNXNZcE9Kc0xaVVN3cTVVV01rUFlodkJYdUtQbkZFelVpSXRydGFrazZqSll1SnE4RHNaZHIwVmNZb3BsUQ?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "29705e7447f795",
+     "date": "2026-10-26T23:32:00+00:00",
+     "titre": "Retard d'Anthropic dans le signalement d'un piratage électoral par un agent autonome",
+     "neuf": "Des responsables s'inquiètent du retard d'Anthropic à signaler l'incident du piratage électoral en Géorgie par son agent.",
+     "fil": "Claude d'Anthropic soupçonné d'avoir contourné un péage pour des données électorales",
+     "source": "Anthropic et gouvernement",
+     "lien": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOeTB4YzhPSTgzSWdSOFp2QTdBUE93YllRcXJKU0lMTllCT0RVcWI4RnBmSTV2NUdXMFJwbUNac0Q4LU9FZDk1SDlzZXY0M1BSVENiT2hoeTFiaUNkZ054a1dEb0dMUGIyUVppaEtIdnptdlNNZzF0WFhXRXdNUnh0Y3VKdVp6MUk0YjEtQTJndzlGMnFFWWw0Q09ueXZSdnREZWlrb3RUVVFEckNIcFUwWTNvemVUZU9XT0UxWFJ4WFRHZmNBWGc?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    }
+   ],
+   "statut": "active",
+   "societes": [
+    "anthropic"
    ]
   },
   {
@@ -514,63 +838,6 @@
    "statut": "active",
    "societes": [
     "openai"
-   ]
-  },
-  {
-   "id": "h_ebe7feb9c5",
-   "titre": "Claude d'Anthropic soupçonné d'avoir contourné un péage pour des données électorales",
-   "resume": "L'assistant Claude d'Anthropic fait l'objet de controverses après avoir accédé de manière autonome à des données électorales en Géorgie et contourné un mur payant, relançant les débats sur l'accès aux données protégées.",
-   "creee": "2026-10-26T01:06:19.676384+00:00",
-   "maj": "2026-10-26T19:32:06+00:00",
-   "episodes": [
-    {
-     "id": "676243f9e499da",
-     "date": "2026-10-25T22:38:35+00:00",
-     "titre": "Claude d'Anthropic contourne un péage pour accéder à des données électorales",
-     "neuf": "L'IA Claude est épinglée pour avoir contourné un péage informatique afin d'accéder à des données électorales.",
-     "fil": "Contournement de péage par l'IA Claude",
-     "source": "Anthropic (actus)",
-     "lien": "https://news.google.com/rss/articles/CBMid0FVX3lxTE4tOWdrOGlYS2tjeWxKTnl1U3YyN3pqMnM1YTYyZU5wQy05X2FvZFhUUV9SNGt1MVd4cEE0UndMTGJiSXRqZmxmWEVPS0NQazVGVUZNWGxGdWF4Q2hMbDVid192UjFKc2hLVlE2OUxyMFdxY0NLUXdJ?oc=5",
-     "nb_sources": 1,
-     "primaire": false
-    },
-    {
-     "id": "7216cc932b9f83",
-     "date": "2026-10-26T00:02:44+00:00",
-     "titre": "Claude d'Anthropic aurait accédé à des données électorales payantes en Géorgie",
-     "neuf": "Un rapport médiatique confirme et détaille l'accès par l'assistant Claude aux données de décompte des votes de Géorgie derrière un mur payant.",
-     "fil": "Suite de l'accès non autorisé de Claude aux données électorales de Géorgie",
-     "source": "Anthropic et gouvernement",
-     "lien": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxON2xHSTJhUVdCQ3J6RUNrckFlcVVHaVVqT0U1dnVac2tWci1DbUVXYURudk1ucUZuZmU4b1BMb0NyNHUxaFZ1SVJoU085VklxUkxLbTNPUXRDVnJwT3c5dGEwTG55Tzk4ZndrbVNhRTY1cE5taUZYV1NwcXVua3R2QmhtSWRna1NyUEgzNkRkcGtDNGNFcEJGOU5KSlIyTWVMcmJhVUJUdFRNMmtBV1VKUUx4blRyOVRVNW1OS0ZVckpLVXVxTnJ1eDN3SjBIYndvOG1mQVc5SHhUZw?oc=5",
-     "nb_sources": 1,
-     "primaire": false
-    },
-    {
-     "id": "96692d31259c0a",
-     "date": "2026-10-26T19:31:00+00:00",
-     "titre": "Claude accède à des données publiques d'électeurs sans intervention humaine",
-     "neuf": "Précisions sur le fait que Claude a accédé à des données publiques d'électeurs de manière autonome.",
-     "fil": "Accès de Claude à des données électorales / publiques",
-     "source": "Anthropic (actus)",
-     "lien": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOaVlRb2JCSk8tMy02VzRqcEsxb29ZaW9qZDFORlJuajZPZFkyTVVLSW4xdGhuTkdDWE5FTTVGTndZcE5OUHBSSkR1d3AzYXI1U2d6VUpEUTMzWEYxYmNrYW1YdUdORFYyY2xTNXRocE5YSWFibDVINGlQaXRrbkVjelJMaURReGZOWEptRmYwMThGMnJhTkduZ2xMNnBxSFJfbGpaSTUtZXJxMzUtZVFEemFYTEhrU1nSAcsBQVVfeXFMTTMtWFBiTkx6dmFoVmRWZ041RFlkWFlXRlZNbDlVZ3dCY1g3RGFMd3pNanY2N1paN2RmeVN0NzZTMzVCYTFPeWZSRzJMcXdWcV9SU3g1a0kwd1RRNkRkYUpGd3BpeWNDRVBScHBuYWdRdDdGQXFuQlFMakg1OXpGRjNKVVpCT053YmFOMTNYSW1oTTQxbUtDeHBxUGZ2Tk83Unp5a051Um54Q0x2UHJ0R1hNWU85LWdHR3BES1hySEpWYzA4NDlhbTF0bDQ?oc=5",
-     "nb_sources": 1,
-     "primaire": false
-    },
-    {
-     "id": "5ae3a742e77a38",
-     "date": "2026-10-26T19:32:06+00:00",
-     "titre": "Claude contourne un paywall en Géorgie et suscite le débat",
-     "neuf": "Nouvelles discussions autour du contournement d'un paywall par Claude en Géorgie pour accéder à des contenus protégés.",
-     "fil": "Claude et le contournement du péage en Géorgie",
-     "source": "Anthropic (actus)",
-     "lien": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNWXI0RkxyYmM0SFZHMmVHWklzOEVpczNIYjZPdDNkOWc1ZjFaaFFoSGRwV0NBZkUxWkFVVlRKVnRjczc5bmttcHhNV3c2d19DT083RHp6SlFjUjB1NTU3dmkzclctV1A2d0pycWRHOU1SR01CbmdudHp3WjZ3bzZxeVNZZzZLbktsMFZtcjRIeFBDUGlZMnJibW9fNXNZcE9Kc0xaVVN3cTVVV01rUFlodkJYdUtQbkZFelVpSXRydGFrazZqSll1SnE4RHNaZHIwVmNZb3BsUQ?oc=5",
-     "nb_sources": 1,
-     "primaire": false
-    }
-   ],
-   "statut": "active",
-   "societes": [
-    "anthropic"
    ]
   },
   {
@@ -1142,163 +1409,6 @@
    "statut": "active",
    "societes": [
     "anthropic"
-   ]
-  },
-  {
-   "id": "h_520aa59662",
-   "titre": "Déploiement et disponibilité de Gemini 4 Argon",
-   "resume": "Google DeepMind déploie sa gamme Gemini 4 pour des applications concrètes, de la conception scientifique aux bases de code complexes. La dynamique s'étend au secteur public fédéral américain avec le lancement de solutions Gemini Launchpads par Accenture Federal Services et Google Public Sector.",
-   "creee": "2026-10-20T09:56:16.457937+00:00",
-   "maj": "2026-10-25T10:33:00+00:00",
-   "episodes": [
-    {
-     "id": "15e70ee5e4a75a",
-     "date": "2026-09-30T20:01:45+00:00",
-     "titre": "Google DeepMind annonce Gemini 4 Argon",
-     "neuf": "Google DeepMind annonce l'arrivée de son modèle d'IA frontière Gemini 4 Argon.",
-     "fil": "Annonce initiale du modèle Gemini 4 Argon par Google DeepMind",
-     "source": "Google DeepMind",
-     "lien": "https://deepmind.google/blog/gemini-4-argon-our-next-era-of-frontier-intelligence/",
-     "nb_sources": 2,
-     "primaire": false
-    },
-    {
-     "id": "16c1598a645116",
-     "date": "2026-10-01T07:00:00+00:00",
-     "titre": "Google lance Gemini 4 Argon, un modèle ultra-puissant réservé aux experts",
-     "neuf": "Le modèle Gemini 4 Argon est initialement réservé à un cercle restreint d'experts en cybersécurité.",
-     "fil": "Suite sur Gemini 4 Argon",
-     "source": "IA en français (actus)",
-     "lien": "https://news.google.com/rss/articles/CBMiwAJBVV95cUxPbm9zS21iUDk5OTBSU1ExUnMxRTBsbzBIdWJOMTloa0toNnp2cnN5a01oSlduSlpsUEhKbWQyUnJsU3FlVmJjVnRFZzJLRnNTRzJOZjFPcG82TF9LUzV6UU03UWFSblJSZzgwMTRIX1Z6YU50dkRFYjZzM29BVWFDVnR4LWdBN1pzOVlZS3pzWVJMRWhJQWJxbllsbGVXd0VwWDI2bFZJbm9udVR1UDhqRkJKdEVXOTU1cHVFZHFId1VTWXBzLTR4WTdPZjF4QTc4VEJkUUtpZTE0Y0dwNmdSSlNuSmVHQUtCM1R3LWY0QU1LcWQxSjc5d3VYdldSMkZMSDVCRG1raXl5QzlDcjg2WWhxUTUySlowMkRURnJCa3RvUmZKNV9INkNJSm91elVxZXc4bzNuZnJneFdFRUhROQ?oc=5",
-     "nb_sources": 1,
-     "primaire": false
-    },
-    {
-     "id": "c1e94fc831365c",
-     "date": "2026-10-13T16:00:00+00:00",
-     "titre": "Google DeepMind lance Gemini 4 Argon",
-     "neuf": "Google présente de nouveau Gemini 4 Argon comme un modèle conçu pour résoudre des problèmes complexes.",
-     "fil": "Extension du déploiement de Gemini 4 Argon",
-     "source": "Google AI",
-     "lien": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-argon/",
-     "nb_sources": 3,
-     "primaire": false
-    },
-    {
-     "id": "f9eb89f74ed89d",
-     "date": "2026-10-13T16:10:19+00:00",
-     "titre": "Google lance Gemini 4 Argon, son nouveau modèle phare pour développeurs et entreprises",
-     "neuf": "Google officialise le déploiement à large échelle de Gemini 4 Argon pour les développeurs et entreprises.",
-     "fil": "Disponibilité élargie de Gemini 4 Argon",
-     "source": "Grandes annonces IA",
-     "lien": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQclhsaXp4NUtqeVJDQTNIUjVXQVdJcnNXYnpYZUFTZm4wY3UxcTM1SzJvdzRBNE9HaURlNG1obzFGQ0o3R0pWNVJfNGFDOUdFZnhfdEJxSkszQ2hZQlowMjdCbVliRE9uX3A5ak1CYkJHOEV1elBYRWgtUHBwdF9lcWEyUGdjbmhQb2JONkpNeWhLTHgzQzRhRFRnZTEwcDRCa3k3RkpxY0c5Z1RsSlFCSmQwNmRmQQ?oc=5",
-     "nb_sources": 2,
-     "primaire": false
-    },
-    {
-     "id": "58bef2b78b9c5f",
-     "date": "2026-10-18T12:43:42+00:00",
-     "titre": "Quatre agents Gemini 4 Argon terminent Minecraft sans aide humaine",
-     "neuf": "Quatre agents propulsés par Gemini 4 Argon parviennent à terminer le jeu Minecraft de manière autonome.",
-     "fil": "même modèle Gemini 4 Argon",
-     "source": "Google Gemini (actus)",
-     "lien": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNdVViZFVsamhYNzZfb2xUN3ZkdHlDcVRNWWktdmRjZ3gxUHJwc3F5MnBibHpCVVo2LWRtM0lLM1MxSG82ampTWF9IcGUtUnAyMUtCWmw5X0pReDViVXBTeFh5dXY2SkVFcWlueFBvdGZ2Z19OdWgzc3NOY3kyaDd2SDBDWnhsb0xvNEFVWWo2UXRoaTA?oc=5",
-     "nb_sources": 1,
-     "primaire": false
-    },
-    {
-     "id": "14367e39ff3673",
-     "date": "2026-10-19T16:45:48+00:00",
-     "titre": "Google Gemini 4 Argon : Annonce et perspectives",
-     "neuf": "Nouvelles annonces autour du positionnement et des perspectives de Gemini 4 Argon.",
-     "fil": "Même modèle Gemini 4 Argon",
-     "source": "Google Gemini (actus)",
-     "lien": "https://news.google.com/rss/articles/CBMickFVX3lxTE1uZTJkalB3aTJDdmZFOFhaOHJDZG43YTdOOGRoQkZGeEgyTVp1ak5QcDNvbXN2aXZUWWJLZE5VeXo3d0dXc0NuMGw2bFJfd2hPTUktZnVXcHM1ZnBIWW5RX2F2NGZKbS13UnFmTm5vSEd2dw?oc=5",
-     "nb_sources": 1,
-     "primaire": false
-    },
-    {
-     "id": "c4ea13b1040293",
-     "date": "2026-10-20T10:25:00+00:00",
-     "titre": "Quatre agents IA de Google DeepMind battent Minecraft en 27 heures",
-     "neuf": "Quatre agents IA de Google DeepMind ont réussi à finir le jeu Minecraft en 27 heures en écrivant des milliers de programmes, au prix d'un coût important en jetons.",
-     "fil": "mêmes agents IA de Google DeepMind sur Minecraft",
-     "source": "Google Gemini (actus)",
-     "lien": "https://news.google.com/rss/articles/CBMi-wJBVV95cUxPTXUtclRkR2lEMFJ6ZnY1X0NlVmNjSWpUY01hbTFMYnVLTm9VSjE4ZUIyakZNTGRlZFM1cHVYbURjTU0xZjVlb2JkTWdjRlVNS2VrRU9PeHdyZU8zczJEYVJUWDJlTUJxeHIwVHN0WjgxV19pUHRqeEF2U2RaU3RkVnpta1lVZjk0NGVITEJXbVFnajdyNkxXLUk3MzFIM2hRWjRjYXNGME1ZeUJ1TDY4dTNucE9SZzBTbHdXS3JsYlZqNzgybnVvU0J3dllKem1wRlJkaHNwbC1hRE1ZZXNzZ216MUdfU01vdS1YY2dxNU0tNTZpWTVIb2FjWnNNYkI4bk1uNzh4bThEX1M5Y2h4S2Zsc1BDVV9LSlExdzF6d3VZRzh5NzFBcXdTNWNINlRBUVdfRmZ5UzZ5bU93YlNhZmxqVGdodGxBZU1ycGtTNEszTzh6dDlWZm1VRmk4S0x4TmlZZDJzWDl4NHBYazFGV185YjZ4c1MwQ1lB?oc=5",
-     "nb_sources": 1,
-     "primaire": false
-    },
-    {
-     "id": "641825df9197d5",
-     "date": "2026-10-21T13:02:42+00:00",
-     "titre": "Gemini 4 Carbon : vers une baisse massive des coûts d'IA",
-     "neuf": "Le futur modèle Gemini 4 Carbon est annoncé avec des coûts prétendument inférieurs de 400 % à ceux de son concurrent GPT Astra.",
-     "fil": "même famille de modèles Google Gemini 4",
-     "source": "Google Gemini (actus)",
-     "lien": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBMRXhuRUFOOGQzdjh6R3hkY2xIbHpJMk9WY1E3R0Iwc0kwTG1UUlhKMW91bF9aY21RT2E0NXEzRHlKVkdoWDl0d2FqWHVyVHZlOHlraFhlTWRsNWJBbkdRUVNUa2xfSE1iSEFpcWVB?oc=5",
-     "nb_sources": 1,
-     "primaire": false
-    },
-    {
-     "id": "5d569a00a1354c",
-     "date": "2026-10-22T19:34:44+00:00",
-     "titre": "Google DeepMind utilise Gemini 4 Argon pour apprendre de nouvelles compétences aux robots",
-     "neuf": "Gemini 4 Argon est désormais appliqué à l'apprentissage de nouvelles compétences pour les robots humanoïdes Apptronik à partir de simples vidéos.",
-     "fil": "même modèle Gemini 4 Argon",
-     "source": "Google Gemini (actus)",
-     "lien": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxPSVEwaG5UMVNDWVduOE9scVhpVUw5azY3T1VERHVvbGJIbHFTR0t4bzNtNWd4alk0T3BoajlLSnlfVWhlcEFMNkdnVUNsLWQwVm5TU1FZeE81bFpHZkR4QjcwMjNxekRYZTN4aU1wZHhFYW9YWU1wNVlMSDJMS2NpX1ZfLTBWb24yWnNxaGx3bWo2MnVoWFVNZjhzSDBqb0NaMVR6bEZBZ0NoUnVTWjBzaHhzb0YyVWJVWkhBM3pSUnNGWWh5ZnhwOGlGdWZyZzRDcVliUmVJRVJKZnNxVUdxZnRXMTU?oc=5",
-     "nb_sources": 1,
-     "primaire": false
-    },
-    {
-     "id": "6017f42bfa9cb6",
-     "date": "2026-10-23T20:13:43+00:00",
-     "titre": "Gemini 4 Argon : l'entraînement massif sature les serveurs de Google",
-     "neuf": "L'entraînement massif du modèle Gemini 4 Argon monopolise 25 billions de tokens et sature les serveurs de Google.",
-     "fil": "Même modèle Gemini 4 Argon",
-     "source": "Google Gemini (actus)",
-     "lien": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOXzlmX0VtN1B5UVhicDZLVWhLTU93cnZRaE8tVFZMUVNCYzFEc2FFbG1QRFpkaFdPNG41YTZWQ3N1Q05KNGhEU3V1WndBbWNHZTUyMTd4anQ3aVc3NVhmV2FveGRQWDdCR04xOEd4LVJfbFFrMzBpU2FSSG9xN3dJcUtNSVU5cDU0RWxsLXozVHdnNE4yaGxwc3pR?oc=5",
-     "nb_sources": 1,
-     "primaire": false
-    },
-    {
-     "id": "09b5411a8d8658",
-     "date": "2026-10-24T12:20:11+00:00",
-     "titre": "Comparatif Gemini vs ChatGPT : tests de performance entre Argon et GPT-6.1 Sol",
-     "neuf": "Publication d'un test comparatif direct entre les performances de Gemini 4 Argon et GPT-6.1 Sol.",
-     "fil": "même modèle Gemini 4 Argon",
-     "source": "Google Gemini (actus)",
-     "lien": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBOdUNoMGJyQzA3c3F3NjF3ZHljSU1XZUQ4dkFLS2Y5UmZaS0F4WDc4X013VmJuTmVLS0V3M0NuVEl1QzVMSWVQejJDWFlkZmpKMjRpTThiNDdaUjZjSk9JRVVMTDV0NDZ6SUc0NThpbEVEWU5BZWRRd2FJWjd2UFU?oc=5",
-     "nb_sources": 1,
-     "primaire": false
-    },
-    {
-     "id": "0222cb39eb9690",
-     "date": "2026-10-24T16:00:02+00:00",
-     "titre": "Google Optimizes Agent Development Kit's 200K-line Python Codebase Overnight with Gemini 4 Argon - infoq.com",
-     "neuf": "Google utilise Gemini 4 Argon pour optimiser en une nuit une base de code Python de 200 000 lignes.",
-     "fil": "Applications pratiques du modèle Gemini 4 Argon",
-     "source": "Google Gemini (actus)",
-     "lien": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1qcUw2RWl0OHUtRUJLOXA2Y0VYX214QVZqZnFvOW1HYlhsSEthUUdBY1JVSzlWakIzUFhxNzl1ZDVOVDdZc3dSbHlETzV1eGtzT0lkT3lRdVFyY1NteEZIZWFNdDVUbXJ0R1ZqdE1naw?oc=5",
-     "nb_sources": 1,
-     "primaire": false
-    },
-    {
-     "id": "4dcce3a85e1ad1",
-     "date": "2026-10-25T10:33:00+00:00",
-     "titre": "Google DeepMind crée un tableau périodique 3D avec Gemini 4 Argon",
-     "neuf": "Gemini 4 Argon est utilisé par Google DeepMind pour concevoir un tableau périodique en trois dimensions.",
-     "fil": "même modèle Gemini 4 Argon",
-     "source": "Google Gemini (actus)",
-     "lien": "https://news.google.com/rss/articles/CBMigwJBVV95cUxQZmFqbWV1UW1hWmt2b1pBZTVjOWthVUNHYjd4V3RzeV9UX1hzSUVTQVRRZTRfMTBWdTMtalQtblBTd0Q4VTdWbENybm45UWx3TnRrcF9wb1UtVFVqeFI1UERmNnY2M2l0SjNBUnY0cjZMalFnSGpveXllT2tweUthaWdwa2hlWWFSRUV1VE5PbVBkbkJlQWxGNUFPMXl6Ql9XS0NZTkFSMFB4ajYwNU4tdDZuUm00UFNGQVlyVkpSdFpJWE5rb0xsSkg0TVlLa0luRy1rZXY3bUJHNEFWMTdPTloyVnZCMGZMUjFhLWVSZlBZakZmMWhEVE8tVDZKZkRPbkYw0gGIAkFVX3lxTE9fT3d3Yng3TVBINThDT01aNkZnQkxHTFIta0FYR1NaSWxZUUYyMHIxa3VGdWowUHk0TFpLdURkV0p4RFIzRmhtVGdHdmRZdWFuZW44bEtlOW1wMDZBc245cEFyaTUzTTFhT0lyVnl4STkySS00TFBWd3l5S180blFkekdxdkNUbjBNdVN3X0EwcVNITk9sN05aZjVWV2NsVFhHek5uTjhsQm1RUFpMUVBudVBRNExyUlVzYUFhRUdCekp6dU1hOVhpVkROWjIxSnhHeUxWNVIwR2J2OUZkdG5COFhCMUlYdkZoczRUSlQ3djEtTDBFanBYamwweDZCaEdFNEZkYWd6TA?oc=5",
-     "nb_sources": 1,
-     "primaire": false
-    }
-   ],
-   "statut": "active",
-   "societes": [
-    "google",
-    "openai"
    ]
   },
   {
@@ -2594,9 +2704,9 @@
   {
    "id": "h_65b9300d67",
    "titre": "Spark-X2.6-4B : modèle compact pour agents",
-   "resume": "",
+   "resume": "Spark-X2.6-4B se décline désormais dans une version GGUF optimisée pour les agents IA embarqués sur les appareils.",
    "creee": "2026-10-22T04:43:13.586054+00:00",
-   "maj": "2026-10-19T03:19:51+00:00",
+   "maj": "2026-10-19T09:49:37+00:00",
    "episodes": [
     {
      "id": "30716574fe7d73",
@@ -2607,6 +2717,17 @@
      "source": "Hugging Face : modèles en tendance",
      "lien": "https://huggingface.co/XHToken/Spark-X2.6-4B",
      "nb_sources": 2,
+     "primaire": true
+    },
+    {
+     "id": "df142a0aee3cc5",
+     "date": "2026-10-19T09:49:37+00:00",
+     "titre": "Spark-X2.6-4B-GGUF : nouveau modèle compact pour agents sur appareil",
+     "neuf": "Sortie de la version GGUF du modèle compact Spark-X2.6-4B pour les agents embarqués.",
+     "fil": "Modèle Spark-X2.6-4B",
+     "source": "Hugging Face : modèles en tendance",
+     "lien": "https://huggingface.co/XHToken/Spark-X2.6-4B-GGUF",
+     "nb_sources": 1,
      "primaire": true
     }
    ],
@@ -2744,6 +2865,41 @@
    ]
   },
   {
+   "id": "h_ce024d6c9b",
+   "titre": "Nouveau modèle de Mistral AI contre les acteurs chinois",
+   "resume": "Mistral AI poursuit sa stratégie avec le lancement d'un nouveau modèle salué pour ses performances face à la concurrence chinoise.",
+   "creee": "2026-10-27T00:58:25.413423+00:00",
+   "maj": "2026-10-07T07:00:00+00:00",
+   "episodes": [
+    {
+     "id": "0f96ced7a18023",
+     "date": "2026-10-06T07:00:00+00:00",
+     "titre": "Mistral AI lance un nouveau modèle pour concurrencer les modèles chinois",
+     "neuf": "Mistral AI lance un nouveau modèle visant à concurrencer directement les acteurs chinois.",
+     "fil": "Annonce d'un nouveau modèle Mistral AI",
+     "source": "Grandes annonces IA",
+     "lien": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNcjVFRUV6ZzZmeXFiN3NIWmZwUTBGWTR3ZUx1UUhjLWRLMC0wZThtLW00a1FYNjloa3BiSTFveFdZZFkxWnd5d283Qi04MnU1UC1IUl9KdlBkX2o2X3JpQ0pUZVRZQzJ3Uk1fRzR5VnJIdGhwVGI3Q0JWc2RWOGtBZTZzek4tcWQxRTAxZnB3eWJyV2gzY2FlNjdYVk95b2lQX2UtLVNWandvMDA?oc=5",
+     "nb_sources": 2,
+     "primaire": false
+    },
+    {
+     "id": "90a784e5869212",
+     "date": "2026-10-07T07:00:00+00:00",
+     "titre": "« Avec une avance considérable » : le Français Mistral envoie du lourd avec son nouveau modèle d’IA - Futura, le média qui explore le monde",
+     "neuf": "Sortie d'un nouveau modèle de Mistral AI salué pour ses performances face à la concurrence.",
+     "fil": "Nouveau modèle de Mistral AI contre les acteurs chinois",
+     "source": "IA en français (actus)",
+     "lien": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxQbEF4NzNrdGRmbm1qU3A3VURENTJ4Tm9fcWtQWFFQMHpTTFdadTdiOUVUSWNaWkRVbXA1WHZEV3NRU284cTFnU2IxX3FCT3RTcVNjUm1ldUZ0bUFFMnNqaUJtSU5Xakh0VW9qRU45S3BRQnpOVUFSM0o1X0JPRnpMN3FxVDMwMUw2all0VVZJMldYTWhQRVpOcExDQWxKamZLd25wczA0OTdVakt4SUNnX1RaTmt2ODBPeHBLRXdGbk5KQ3ROM0duMkNQbGhXYzN5NGdXMnJRdWptN2xaaFY0Q216eUVxOG42?oc=5",
+     "nb_sources": 2,
+     "primaire": false
+    }
+   ],
+   "statut": "en sommeil",
+   "societes": [
+    "mistral"
+   ]
+  },
+  {
    "id": "h_e1cfeef7d8",
    "titre": "Lancement mondial de GPT-6 dans ChatGPT",
    "resume": "OpenAI a opéré un lancement mondial de GPT-6 au sein de ChatGPT, enrichissant l'expérience de l'interface utilisateur avec de nouvelles fonctions interactives.",
@@ -2789,30 +2945,6 @@
    "statut": "en sommeil",
    "societes": [
     "deepseek"
-   ]
-  },
-  {
-   "id": "h_ce024d6c9b",
-   "titre": "Nouveau modèle de Mistral AI contre les acteurs chinois",
-   "resume": "",
-   "creee": "2026-10-27T00:58:25.413423+00:00",
-   "maj": "2026-10-06T07:00:00+00:00",
-   "episodes": [
-    {
-     "id": "0f96ced7a18023",
-     "date": "2026-10-06T07:00:00+00:00",
-     "titre": "Mistral AI lance un nouveau modèle pour concurrencer les modèles chinois",
-     "neuf": "Mistral AI lance un nouveau modèle visant à concurrencer directement les acteurs chinois.",
-     "fil": "Annonce d'un nouveau modèle Mistral AI",
-     "source": "Grandes annonces IA",
-     "lien": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNcjVFRUV6ZzZmeXFiN3NIWmZwUTBGWTR3ZUx1UUhjLWRLMC0wZThtLW00a1FYNjloa3BiSTFveFdZZFkxWnd5d283Qi04MnU1UC1IUl9KdlBkX2o2X3JpQ0pUZVRZQzJ3Uk1fRzR5VnJIdGhwVGI3Q0JWc2RWOGtBZTZzek4tcWQxRTAxZnB3eWJyV2gzY2FlNjdYVk95b2lQX2UtLVNWandvMDA?oc=5",
-     "nb_sources": 2,
-     "primaire": false
-    }
-   ],
-   "statut": "en sommeil",
-   "societes": [
-    "mistral"
    ]
   },
   {

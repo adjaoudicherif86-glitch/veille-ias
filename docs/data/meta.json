@@ -1,5 +1,5 @@
 {
- "maj": "2026-10-27T08:52:23.009541+00:00",
+ "maj": "2026-10-27T12:56:15.464739+00:00",
  "sources_ok": [
   "Notes de version Claude (API)",
   "Notes de version OpenAI (API)",
@@ -30,7 +30,6 @@
   "The Verge IA",
   "TechCrunch IA",
   "Simon Willison",
-  "Hacker News (IA, 100+ pts)",
   "r/LocalLLaMA",
   "arXiv cs.AI",
   "arXiv cs.CL",
@@ -55,17 +54,21 @@
   {
    "nom": "VentureBeat IA",
    "erreur": "429 Client Error: Too Many Requests for url: https://venturebeat.com/category/ai/feed/"
+  },
+  {
+   "nom": "Hacker News (IA, 100+ pts)",
+   "erreur": "502 Server Error: Bad Gateway for url: https://hnrss.org/newest?q=AI+OR+LLM+OR+GPT+OR+Claude+OR+Gemini&points=100"
   }
  ],
- "total": 1242,
- "analyses": 1211,
+ "total": 1265,
+ "analyses": 1232,
  "brief": {
-  "titre": "GPT-6.1 Terra arrive, Anthropic prépare son entrée en bourse",
-  "texte": "OpenAI marque l'actualité avec le lancement de GPT-6.1 Terra et ses nouvelles capacités d'utilisation d'ordinateur, complété par des partenariats axés sur la sécurité et la recherche. En parallèle, Anthropic franchit une étape majeure en déposant son prospectus pour une introduction en bourse historique valorisée à 75 milliards de dollars. L'écosystème open source progresse également avec la sortie de Transformers v5.21.0 et l'émergence d'alternatives locales comme Hob. Enfin, l'adoption sectorielle s'accélère avec des solutions d'automatisation à bas coût et des intégrations bancaires pour Copilot.",
+  "titre": "GPT-6.1 Terra, IPO d'Anthropic et vagues d'innovations open source",
+  "texte": "OpenAI frappe fort aujourd'hui avec la sortie de GPT-6.1 Terra et l'arrivée du modèle spécialisé GPT-6.1 Sol conçu avec CodeRabbit pour sécuriser le code. Parallèlement, l'écosystème open source progresse rapidement avec la mise à jour de Transformers v5.21.0, Unsloth v0.1-beta et l'alternative locale Hob. Côté marché, Anthropic fait sensation en déposant son dossier d'introduction en bourse pour une valorisation estimée à 75 milliards de dollars. Enfin, l'automatisation d'entreprise s'accélère avec un nouveau modèle OpenAI à prix réduit et l'outil Unlimited-OCR-2 de Baidu pour les documents longs.",
   "a_tester": [
-   "Tester les capacités d'automatisation et d'utilisation d'ordinateur de GPT-6.1 Terra",
-   "Expérimenter l'alternative open source locale Hob pour vos flux de travail",
-   "Mettre à jour vos bibliothèques avec la version Transformers v5.21.0"
+   "Tester l'alternative locale Hob pour vos usages de chat sécurisés",
+   "Explorer les nouveautés de Transformers v5.21.0 et Unsloth v0.1-beta",
+   "Évaluer le nouveau modèle OpenAI à bas coût pour vos automatisations d'entreprise"
   ]
  },
  "top5": {
