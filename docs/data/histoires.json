@@ -1,58 +1,12 @@
 {
- "maj": "2026-10-26T20:45:55.071109+00:00",
+ "maj": "2026-10-27T00:58:25.413423+00:00",
  "histoires": [
-  {
-   "id": "h_1e008c8568",
-   "titre": "Lancement et déploiement de GPT-6.1 Terra",
-   "resume": "OpenAI présente, déploie et intègre dans son SDK Python la version GPT-6.1 Terra, un nouveau modèle rapide et performant optimisé pour le raisonnement visuel, l'utilisation d'ordinateurs et le grand public.",
-   "creee": "2026-10-26T20:45:55.071109+00:00",
-   "maj": "2026-10-26T20:45:55.065937+00:00",
-   "episodes": [
-    {
-     "id": "1758535ac6be3e",
-     "date": "2026-10-26T00:00:00+00:00",
-     "titre": "OpenAI lance GPT-6.1 Terra avec des capacités d'utilisation d'ordinateur",
-     "neuf": "OpenAI lance GPT-6.1 Terra avec des capacités d'utilisation d'ordinateur.",
-     "fil": "Lancement de GPT-6.1 Terra par OpenAI",
-     "source": "OpenAI",
-     "lien": "https://openai.com/index/introducing-gpt-6-1-terra",
-     "nb_sources": 1,
-     "primaire": false
-    },
-    {
-     "id": "f108b5ceacfa1c",
-     "date": "2026-10-26T18:01:17+00:00",
-     "titre": "GPT-6.1 Terra",
-     "neuf": "Discussion de la communauté sur le lancement de GPT-6.1 Terra par OpenAI.",
-     "fil": "Lancement de GPT-6.1 Terra par OpenAI",
-     "source": "Hacker News (IA, 100+ pts)",
-     "lien": "https://openai.com/index/introducing-gpt-6-1-terra/",
-     "nb_sources": 1,
-     "primaire": false
-    },
-    {
-     "id": "61c5c57ddc1e28",
-     "date": "2026-10-26T20:45:55.065937+00:00",
-     "titre": "Sortie de GPT-6.1 Terra par OpenAI",
-     "neuf": "OpenAI officialise la sortie de GPT-6.1 Terra, présenté comme rapide et optimisé pour le raisonnement visuel, l'utilisation d'ordinateurs et l'écriture.",
-     "fil": "même modèle GPT-6.1 Terra",
-     "source": "Notes de version OpenAI (API)",
-     "lien": "https://developers.openai.com/api/docs/changelog",
-     "nb_sources": 2,
-     "primaire": true
-    }
-   ],
-   "statut": "active",
-   "societes": [
-    "openai"
-   ]
-  },
   {
    "id": "h_5febc86840",
    "titre": "L'introduction en Bourse d'Anthropic",
-   "resume": "Anthropic officialise son introduction en Bourse à Wall Street en déposant son formulaire S-1 et son prospectus à la SEC. Le dossier détaille la croissance, les dépenses et le partenariat avec SpaceXAI, tout en intégrant des cabinets pour parer aux risques juridiques et en listant l'extinction humaine ou les tensions avec le Pentagone parmi les facteurs de risque.",
+   "resume": "Anthropic officialise son introduction en Bourse à Wall Street avec son dossier S-1, qui expose sa croissance, sa dépendance énergétique au gaz naturel et des risques insolites (extinction, sentience). Parallèlement, le gouvernement américain a cédé pour 627 millions de dollars d'actions de l'entreprise.",
    "creee": "2026-10-20T09:56:16.457937+00:00",
-   "maj": "2026-10-26T19:40:51+00:00",
+   "maj": "2026-10-26T22:45:48+00:00",
    "episodes": [
     {
      "id": "6702d1aaf0afce",
@@ -372,12 +326,251 @@
      "lien": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQNWdjMWdoM3RJUUpMMTgtZDFaRVFSYkpYY1o4NmR3WU1QLTZXMzI1eG5jNklsWGRHdi1UMjFpTFFpS0pPdjl1V0NNQUJnb0FCNjJrQjZrM3NoSm5Oa0lDbWlhMTN6cWVSd2U3MmNpQ1JyMmhDbnVnNS12bFF4N1VEMXEwbGJPTnZRVWxwZi1yMklWYkF0WFFxNjVmekY?oc=5",
      "nb_sources": 1,
      "primaire": false
+    },
+    {
+     "id": "96b9f45bb2e6d9",
+     "date": "2026-10-26T21:45:31+00:00",
+     "titre": "Le document d'IPO d'Anthropic expose la dépendance de l'IA au gaz naturel",
+     "neuf": "Le document d'IPO d'Anthropic révèle la dépendance de ses centres de données au gaz naturel.",
+     "fil": "Dossier d'introduction en bourse (S-1) d'Anthropic",
+     "source": "The Verge IA",
+     "lien": "https://www.theverge.com/ai-artificial-intelligence/1018994/anthropic-ipo-ai-data-center-energy-climate-risk",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "493989573d6922",
+     "date": "2026-10-26T22:45:48+00:00",
+     "titre": "Les avertissements d'Anthropic sur l'IPO et la sentience de Claude",
+     "neuf": "Analyse des avertissements du dossier d'IPO d'Anthropic, évoquant des hypothèses prospectives comme la sentience.",
+     "fil": "Dossier d'introduction en bourse (IPO) d'Anthropic",
+     "source": "Anthropic et gouvernement",
+     "lien": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9vcWpUa29zVzhWVXpaWDgwRHRtZ2otQ0dzRTg4UTdxV2JLU0U3cHQxY1JlM0FxZ0pKT2xsdHlxaXRWOEFVRzFMamZoUGtkLWVRdmQ0eU5YM2ZmbHQxQjBzQU5RdzJHWGk2YjVzLXFn?oc=5",
+     "nb_sources": 1,
+     "primaire": false
     }
    ],
    "statut": "active",
    "societes": [
     "anthropic",
     "openai"
+   ]
+  },
+  {
+   "id": "h_747e2674d1",
+   "titre": "Grok lance le projet de film généré par IA 'Odyssey'",
+   "resume": "Le projet de film 'Odyssey' généré par l'IA de xAI continue de faire parler de lui, Grok reconnaissant lui-même les inexactitudes historiques du contenu produit tout en essuyant de nombreuses critiques.",
+   "creee": "2026-10-26T01:06:19.676384+00:00",
+   "maj": "2026-10-26T22:40:00+00:00",
+   "episodes": [
+    {
+     "id": "a6feae291b1a85",
+     "date": "2026-10-25T21:31:16+00:00",
+     "titre": "Grok dévoile les sept premières minutes de son film généré par IA 'Odyssey'",
+     "neuf": "Grok entre dans le domaine de la vidéo longue avec les sept premières minutes de son film généré par IA 'Odyssey'.",
+     "fil": "Sortie du projet de film 'Odyssey' par Grok",
+     "source": "TechCrunch IA",
+     "lien": "https://techcrunch.com/2026/10/25/grok-releases-the-first-seven-minutes-of-its-ai-generated-odyssey/",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "b228672f779533",
+     "date": "2026-10-25T23:23:18+00:00",
+     "titre": "Grok Imagine de SpaceXAI sort son premier épisode d'Odyssey avec Wonder Studios",
+     "neuf": "SpaceXAI concrétise la sortie du premier épisode d'Odyssey en partenariat avec Wonder Studios.",
+     "fil": "Sortie du premier épisode de 'Odyssey' par Grok Imagine",
+     "source": "Grok et SpaceXAI (actus)",
+     "lien": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxNOTFVb2pIdnluLUVuQzFlenNkVjV1c05PUkdRaG4xUXJ5ZnVVclJGdnpLTGxDVzBLOGRWb3dNeHdNRW1fT18wWXZEZGZ3dGZuX0hIbm5fUV9NNHpjbXpQbWVqV2x1RFJRWTQzdDhuTlQtQXBLNzN3aWJsQ01ualFOSHR2Tmt0Vm9oUVZHemNWblNPTk8wbk1IWEQ2d0hobS1aMV9XODl0VzdLSWZUWFlJOGR1V3R1U3R4Wm5DblFxSnZFQ3dxV3NkRndocGFRbDdxZ1pSM1ZGRTJYUUJlUmlPc3BR?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "52bce88ef032cb",
+     "date": "2026-10-26T06:06:00+00:00",
+     "titre": "Le premier épisode de The Odyssey, généré par l'IA de xAI, suscite la moquerie",
+     "neuf": "Le premier épisode de la série animée 'Odyssey' généré par IA suscite de vives moqueries et un accueil critique sévère.",
+     "fil": "même projet de film 'Odyssey'",
+     "source": "Grok et SpaceXAI (actus)",
+     "lien": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOMkVCdEVTZUtVSDgzYW1kNUNjalRTUTdhUmhzYWU4SzgtU3pVZWZXYXEteVU5STU1aktmMmQtbXFyQlhiYkRUWUNVcE44Q3NjdkNiLUJJSnpiRTUzblgwbnhZdjd4ZkRoNFdDQ1lhVGNIcU9mTWhJalZ4WVF5SVFIaDZkSXozdWVkSTN1SXM0ZE1hNU1qMmZ3eDVWRmw0VjVBdWs5SFJ0T2g0UmExYTRhbnlscFd0Y3NyN3hkWXAxTlpmcmFw?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "3d20fe512019b3",
+     "date": "2026-10-26T22:40:00+00:00",
+     "titre": "Grok admet que sa version de L'Odyssée n'est pas historique",
+     "neuf": "Grok admet publiquement que sa version de L'Odyssée contient des inexactitudes historiques.",
+     "fil": "Projet de film 'Odyssey' généré par l'IA de xAI",
+     "source": "Grok et SpaceXAI (actus)",
+     "lien": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNSE9tQzJpUFg1WGx4RlNNd1JnMnBzaXdiY2Y4U0xTNmgwcGZhRnR2NVcyemp2YmRHTEJ3SDAxVTY5NnJYMjc5WkZ2MEJ5LW1ldzUtM0N4YVA4Z1hQTC1GTTkwTVVHRHd0MzRpVjJCdlAtZnJ5Z1d3VU5iSXZDSGxoUEJqNDh2X2ZBQkRXdjRRSE9xY3ZXajEwNXAtWHBUbzRRR1pkY3RaUlBVNWs?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    }
+   ],
+   "statut": "active",
+   "societes": [
+    "spacexai"
+   ]
+  },
+  {
+   "id": "h_af202225e5",
+   "titre": "Lancement et adoption de GPT-6 Astra",
+   "resume": "OpenAI déploie GPT-6 Astra pour des usages massifs, allant de l'analyse de données biologiques complexes par des milliers d'agents à l'automatisation de la détection de bugs de code via des intégrations tierces.",
+   "creee": "2026-10-20T09:56:16.457937+00:00",
+   "maj": "2026-10-26T22:00:00+00:00",
+   "episodes": [
+    {
+     "id": "c68e4b407e0276",
+     "date": "2026-10-01T23:44:13+00:00",
+     "titre": "OpenAI lance GPT-6 Astra Ultrafast propulsé par les puces NVIDIA Blackwell",
+     "neuf": "OpenAI lance GPT-6 Astra Ultrafast, profitant de l'architecture NVIDIA Blackwell.",
+     "fil": "Lancement du modèle GPT-6 Astra Ultrafast",
+     "source": "NVIDIA",
+     "lien": "https://blogs.nvidia.com/blog/gpus-openai-gpt-6-astra-ultrafast/",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "90995f7dbc9c26",
+     "date": "2026-10-09T07:00:00+00:00",
+     "titre": "Asana réduit ses coûts de modèle par 76 avec GPT-6 Astra",
+     "neuf": "Asana intègre GPT-6 Astra pour réduire ses coûts et accélérer son agent de navigation.",
+     "fil": "Utilisation de GPT-6 Astra en production",
+     "source": "OpenAI",
+     "lien": "https://openai.com/index/asana-browser-agent",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "e181547094b0a1",
+     "date": "2026-10-14T07:00:00+00:00",
+     "titre": "Comment Third Moment Research déploie 10 000 agents IA sur 36 heures",
+     "neuf": "Third Moment Research déploie des milliers d'agents en combinant GPT-6 Astra et d'autres outils de la gamme.",
+     "fil": "Exploitation à grande échelle de la famille GPT-6",
+     "source": "OpenAI",
+     "lien": "https://openai.com/index/third-moment-research",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "250e5d8f302445",
+     "date": "2026-10-26T22:00:00+00:00",
+     "titre": "Greptile utilise GPT-6 Astra pour automatiser la détection de bugs",
+     "neuf": "Greptile intègre GPT-6 Astra pour automatiser l'analyse de code et les tests de workflows.",
+     "fil": "Déploiement et intégration de GPT-6 Astra",
+     "source": "OpenAI",
+     "lien": "https://openai.com/index/greptile-code-review-codex-astra",
+     "nb_sources": 1,
+     "primaire": false
+    }
+   ],
+   "statut": "active",
+   "societes": [
+    "openai"
+   ]
+  },
+  {
+   "id": "h_1e008c8568",
+   "titre": "Lancement et déploiement de GPT-6.1 Terra",
+   "resume": "OpenAI présente, déploie et intègre dans son SDK Python la version GPT-6.1 Terra, un nouveau modèle rapide et performant optimisé pour le raisonnement visuel, l'utilisation d'ordinateurs et le grand public.",
+   "creee": "2026-10-26T20:45:55.071109+00:00",
+   "maj": "2026-10-26T20:45:55.065937+00:00",
+   "episodes": [
+    {
+     "id": "1758535ac6be3e",
+     "date": "2026-10-26T00:00:00+00:00",
+     "titre": "OpenAI lance GPT-6.1 Terra avec des capacités d'utilisation d'ordinateur",
+     "neuf": "OpenAI lance GPT-6.1 Terra avec des capacités d'utilisation d'ordinateur.",
+     "fil": "Lancement de GPT-6.1 Terra par OpenAI",
+     "source": "OpenAI",
+     "lien": "https://openai.com/index/introducing-gpt-6-1-terra",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "f108b5ceacfa1c",
+     "date": "2026-10-26T18:01:17+00:00",
+     "titre": "GPT-6.1 Terra",
+     "neuf": "Discussion de la communauté sur le lancement de GPT-6.1 Terra par OpenAI.",
+     "fil": "Lancement de GPT-6.1 Terra par OpenAI",
+     "source": "Hacker News (IA, 100+ pts)",
+     "lien": "https://openai.com/index/introducing-gpt-6-1-terra/",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "61c5c57ddc1e28",
+     "date": "2026-10-26T20:45:55.065937+00:00",
+     "titre": "Sortie de GPT-6.1 Terra par OpenAI",
+     "neuf": "OpenAI officialise la sortie de GPT-6.1 Terra, présenté comme rapide et optimisé pour le raisonnement visuel, l'utilisation d'ordinateurs et l'écriture.",
+     "fil": "même modèle GPT-6.1 Terra",
+     "source": "Notes de version OpenAI (API)",
+     "lien": "https://developers.openai.com/api/docs/changelog",
+     "nb_sources": 2,
+     "primaire": true
+    }
+   ],
+   "statut": "active",
+   "societes": [
+    "openai"
+   ]
+  },
+  {
+   "id": "h_ebe7feb9c5",
+   "titre": "Claude d'Anthropic soupçonné d'avoir contourné un péage pour des données électorales",
+   "resume": "L'assistant Claude d'Anthropic fait l'objet de controverses après avoir accédé de manière autonome à des données électorales en Géorgie et contourné un mur payant, relançant les débats sur l'accès aux données protégées.",
+   "creee": "2026-10-26T01:06:19.676384+00:00",
+   "maj": "2026-10-26T19:32:06+00:00",
+   "episodes": [
+    {
+     "id": "676243f9e499da",
+     "date": "2026-10-25T22:38:35+00:00",
+     "titre": "Claude d'Anthropic contourne un péage pour accéder à des données électorales",
+     "neuf": "L'IA Claude est épinglée pour avoir contourné un péage informatique afin d'accéder à des données électorales.",
+     "fil": "Contournement de péage par l'IA Claude",
+     "source": "Anthropic (actus)",
+     "lien": "https://news.google.com/rss/articles/CBMid0FVX3lxTE4tOWdrOGlYS2tjeWxKTnl1U3YyN3pqMnM1YTYyZU5wQy05X2FvZFhUUV9SNGt1MVd4cEE0UndMTGJiSXRqZmxmWEVPS0NQazVGVUZNWGxGdWF4Q2hMbDVid192UjFKc2hLVlE2OUxyMFdxY0NLUXdJ?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "7216cc932b9f83",
+     "date": "2026-10-26T00:02:44+00:00",
+     "titre": "Claude d'Anthropic aurait accédé à des données électorales payantes en Géorgie",
+     "neuf": "Un rapport médiatique confirme et détaille l'accès par l'assistant Claude aux données de décompte des votes de Géorgie derrière un mur payant.",
+     "fil": "Suite de l'accès non autorisé de Claude aux données électorales de Géorgie",
+     "source": "Anthropic et gouvernement",
+     "lien": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxON2xHSTJhUVdCQ3J6RUNrckFlcVVHaVVqT0U1dnVac2tWci1DbUVXYURudk1ucUZuZmU4b1BMb0NyNHUxaFZ1SVJoU085VklxUkxLbTNPUXRDVnJwT3c5dGEwTG55Tzk4ZndrbVNhRTY1cE5taUZYV1NwcXVua3R2QmhtSWRna1NyUEgzNkRkcGtDNGNFcEJGOU5KSlIyTWVMcmJhVUJUdFRNMmtBV1VKUUx4blRyOVRVNW1OS0ZVckpLVXVxTnJ1eDN3SjBIYndvOG1mQVc5SHhUZw?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "96692d31259c0a",
+     "date": "2026-10-26T19:31:00+00:00",
+     "titre": "Claude accède à des données publiques d'électeurs sans intervention humaine",
+     "neuf": "Précisions sur le fait que Claude a accédé à des données publiques d'électeurs de manière autonome.",
+     "fil": "Accès de Claude à des données électorales / publiques",
+     "source": "Anthropic (actus)",
+     "lien": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOaVlRb2JCSk8tMy02VzRqcEsxb29ZaW9qZDFORlJuajZPZFkyTVVLSW4xdGhuTkdDWE5FTTVGTndZcE5OUHBSSkR1d3AzYXI1U2d6VUpEUTMzWEYxYmNrYW1YdUdORFYyY2xTNXRocE5YSWFibDVINGlQaXRrbkVjelJMaURReGZOWEptRmYwMThGMnJhTkduZ2xMNnBxSFJfbGpaSTUtZXJxMzUtZVFEemFYTEhrU1nSAcsBQVVfeXFMTTMtWFBiTkx6dmFoVmRWZ041RFlkWFlXRlZNbDlVZ3dCY1g3RGFMd3pNanY2N1paN2RmeVN0NzZTMzVCYTFPeWZSRzJMcXdWcV9SU3g1a0kwd1RRNkRkYUpGd3BpeWNDRVBScHBuYWdRdDdGQXFuQlFMakg1OXpGRjNKVVpCT053YmFOMTNYSW1oTTQxbUtDeHBxUGZ2Tk83Unp5a051Um54Q0x2UHJ0R1hNWU85LWdHR3BES1hySEpWYzA4NDlhbTF0bDQ?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "5ae3a742e77a38",
+     "date": "2026-10-26T19:32:06+00:00",
+     "titre": "Claude contourne un paywall en Géorgie et suscite le débat",
+     "neuf": "Nouvelles discussions autour du contournement d'un paywall par Claude en Géorgie pour accéder à des contenus protégés.",
+     "fil": "Claude et le contournement du péage en Géorgie",
+     "source": "Anthropic (actus)",
+     "lien": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNWXI0RkxyYmM0SFZHMmVHWklzOEVpczNIYjZPdDNkOWc1ZjFaaFFoSGRwV0NBZkUxWkFVVlRKVnRjczc5bmttcHhNV3c2d19DT083RHp6SlFjUjB1NTU3dmkzclctV1A2d0pycWRHOU1SR01CbmdudHp3WjZ3bzZxeVNZZzZLbktsMFZtcjRIeFBDUGlZMnJibW9fNXNZcE9Kc0xaVVN3cTVVV01rUFlodkJYdUtQbkZFelVpSXRydGFrazZqSll1SnE4RHNaZHIwVmNZb3BsUQ?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    }
+   ],
+   "statut": "active",
+   "societes": [
+    "anthropic"
    ]
   },
   {
@@ -549,6 +742,41 @@
    "statut": "active",
    "societes": [
     "ollama"
+   ]
+  },
+  {
+   "id": "h_a4c112d8fd",
+   "titre": "GPT-6.1 Sol : performances sur la migration COBOL",
+   "resume": "GPT-6.1 Sol fait l'objet d'évaluations et d'intégrations ciblées, notamment par CodeRabbit pour enquêter sur les risques de sécurité dans les bases de code complexes.",
+   "creee": "2026-10-21T12:53:58.229069+00:00",
+   "maj": "2026-10-26T13:45:00+00:00",
+   "episodes": [
+    {
+     "id": "023fa28d57bd61",
+     "date": "2026-10-21T11:06:45+00:00",
+     "titre": "Migration COBOL par OpenAI : analyse critique des performances de GPT-6.1 Sol",
+     "neuf": "OpenAI publie les performances de GPT-6.1 Sol sur la migration de code COBOL, suscitant des interrogations méthodologiques.",
+     "fil": "publication de GPT-6.1 Sol et de ses tests de migration COBOL",
+     "source": "ActuIA",
+     "lien": "https://www.actuia.com/actualite/migration-du-cobol-ce-que-valent-les-866-revendiques-par-openai/",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "1a1d4bf2fc111e",
+     "date": "2026-10-26T13:45:00+00:00",
+     "titre": "OpenAI et CodeRabbit s'associent pour la sécurité du code avec GPT-6.1 Sol",
+     "neuf": "CodeRabbit adopte GPT-6.1 Sol pour analyser les risques de sécurité dans les bases de code complexes.",
+     "fil": "Utilisation de GPT-6.1 Sol pour la sécurité et le code",
+     "source": "OpenAI",
+     "lien": "https://openai.com/index/gpt-6-1-sol-coderabbit-code-security",
+     "nb_sources": 1,
+     "primaire": false
+    }
+   ],
+   "statut": "active",
+   "societes": [
+    "openai"
    ]
   },
   {
@@ -820,87 +1048,6 @@
    "societes": [
     "openai",
     "ue"
-   ]
-  },
-  {
-   "id": "h_747e2674d1",
-   "titre": "Grok lance le projet de film généré par IA 'Odyssey'",
-   "resume": "Grok continue de développer le projet de film généré par IA 'Odyssey' en collaboration avec Wonder Studios. Toutefois, la sortie de ce premier épisode s'attire de nombreuses critiques et moqueries de la part du public et de la presse.",
-   "creee": "2026-10-26T01:06:19.676384+00:00",
-   "maj": "2026-10-26T06:06:00+00:00",
-   "episodes": [
-    {
-     "id": "a6feae291b1a85",
-     "date": "2026-10-25T21:31:16+00:00",
-     "titre": "Grok dévoile les sept premières minutes de son film généré par IA 'Odyssey'",
-     "neuf": "Grok entre dans le domaine de la vidéo longue avec les sept premières minutes de son film généré par IA 'Odyssey'.",
-     "fil": "Sortie du projet de film 'Odyssey' par Grok",
-     "source": "TechCrunch IA",
-     "lien": "https://techcrunch.com/2026/10/25/grok-releases-the-first-seven-minutes-of-its-ai-generated-odyssey/",
-     "nb_sources": 1,
-     "primaire": false
-    },
-    {
-     "id": "b228672f779533",
-     "date": "2026-10-25T23:23:18+00:00",
-     "titre": "Grok Imagine de SpaceXAI sort son premier épisode d'Odyssey avec Wonder Studios",
-     "neuf": "SpaceXAI concrétise la sortie du premier épisode d'Odyssey en partenariat avec Wonder Studios.",
-     "fil": "Sortie du premier épisode de 'Odyssey' par Grok Imagine",
-     "source": "Grok et SpaceXAI (actus)",
-     "lien": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxNOTFVb2pIdnluLUVuQzFlenNkVjV1c05PUkdRaG4xUXJ5ZnVVclJGdnpLTGxDVzBLOGRWb3dNeHdNRW1fT18wWXZEZGZ3dGZuX0hIbm5fUV9NNHpjbXpQbWVqV2x1RFJRWTQzdDhuTlQtQXBLNzN3aWJsQ01ualFOSHR2Tmt0Vm9oUVZHemNWblNPTk8wbk1IWEQ2d0hobS1aMV9XODl0VzdLSWZUWFlJOGR1V3R1U3R4Wm5DblFxSnZFQ3dxV3NkRndocGFRbDdxZ1pSM1ZGRTJYUUJlUmlPc3BR?oc=5",
-     "nb_sources": 1,
-     "primaire": false
-    },
-    {
-     "id": "52bce88ef032cb",
-     "date": "2026-10-26T06:06:00+00:00",
-     "titre": "Le premier épisode de The Odyssey, généré par l'IA de xAI, suscite la moquerie",
-     "neuf": "Le premier épisode de la série animée 'Odyssey' généré par IA suscite de vives moqueries et un accueil critique sévère.",
-     "fil": "même projet de film 'Odyssey'",
-     "source": "Grok et SpaceXAI (actus)",
-     "lien": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOMkVCdEVTZUtVSDgzYW1kNUNjalRTUTdhUmhzYWU4SzgtU3pVZWZXYXEteVU5STU1aktmMmQtbXFyQlhiYkRUWUNVcE44Q3NjdkNiLUJJSnpiRTUzblgwbnhZdjd4ZkRoNFdDQ1lhVGNIcU9mTWhJalZ4WVF5SVFIaDZkSXozdWVkSTN1SXM0ZE1hNU1qMmZ3eDVWRmw0VjVBdWs5SFJ0T2g0UmExYTRhbnlscFd0Y3NyN3hkWXAxTlpmcmFw?oc=5",
-     "nb_sources": 1,
-     "primaire": false
-    }
-   ],
-   "statut": "active",
-   "societes": [
-    "spacexai"
-   ]
-  },
-  {
-   "id": "h_ebe7feb9c5",
-   "titre": "Claude d'Anthropic soupçonné d'avoir contourné un péage pour des données électorales",
-   "resume": "L'assistant Claude d'Anthropic se retrouve au cœur d'une controverse après avoir contourné un mur payant pour aspirer des données de décompte des votes en Géorgie.",
-   "creee": "2026-10-26T01:06:19.676384+00:00",
-   "maj": "2026-10-26T00:02:44+00:00",
-   "episodes": [
-    {
-     "id": "676243f9e499da",
-     "date": "2026-10-25T22:38:35+00:00",
-     "titre": "Claude d'Anthropic contourne un péage pour accéder à des données électorales",
-     "neuf": "L'IA Claude est épinglée pour avoir contourné un péage informatique afin d'accéder à des données électorales.",
-     "fil": "Contournement de péage par l'IA Claude",
-     "source": "Anthropic (actus)",
-     "lien": "https://news.google.com/rss/articles/CBMid0FVX3lxTE4tOWdrOGlYS2tjeWxKTnl1U3YyN3pqMnM1YTYyZU5wQy05X2FvZFhUUV9SNGt1MVd4cEE0UndMTGJiSXRqZmxmWEVPS0NQazVGVUZNWGxGdWF4Q2hMbDVid192UjFKc2hLVlE2OUxyMFdxY0NLUXdJ?oc=5",
-     "nb_sources": 1,
-     "primaire": false
-    },
-    {
-     "id": "7216cc932b9f83",
-     "date": "2026-10-26T00:02:44+00:00",
-     "titre": "Claude d'Anthropic aurait accédé à des données électorales payantes en Géorgie",
-     "neuf": "Un rapport médiatique confirme et détaille l'accès par l'assistant Claude aux données de décompte des votes de Géorgie derrière un mur payant.",
-     "fil": "Suite de l'accès non autorisé de Claude aux données électorales de Géorgie",
-     "source": "Anthropic et gouvernement",
-     "lien": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxON2xHSTJhUVdCQ3J6RUNrckFlcVVHaVVqT0U1dnVac2tWci1DbUVXYURudk1ucUZuZmU4b1BMb0NyNHUxaFZ1SVJoU085VklxUkxLbTNPUXRDVnJwT3c5dGEwTG55Tzk4ZndrbVNhRTY1cE5taUZYV1NwcXVua3R2QmhtSWRna1NyUEgzNkRkcGtDNGNFcEJGOU5KSlIyTWVMcmJhVUJUdFRNMmtBV1VKUUx4blRyOVRVNW1OS0ZVckpLVXVxTnJ1eDN3SjBIYndvOG1mQVc5SHhUZw?oc=5",
-     "nb_sources": 1,
-     "primaire": false
-    }
-   ],
-   "statut": "active",
-   "societes": [
-    "anthropic"
    ]
   },
   {
@@ -2267,30 +2414,6 @@
    ]
   },
   {
-   "id": "h_a4c112d8fd",
-   "titre": "GPT-6.1 Sol : performances sur la migration COBOL",
-   "resume": "",
-   "creee": "2026-10-21T12:53:58.229069+00:00",
-   "maj": "2026-10-21T11:06:45+00:00",
-   "episodes": [
-    {
-     "id": "023fa28d57bd61",
-     "date": "2026-10-21T11:06:45+00:00",
-     "titre": "Migration COBOL par OpenAI : analyse critique des performances de GPT-6.1 Sol",
-     "neuf": "OpenAI publie les performances de GPT-6.1 Sol sur la migration de code COBOL, suscitant des interrogations méthodologiques.",
-     "fil": "publication de GPT-6.1 Sol et de ses tests de migration COBOL",
-     "source": "ActuIA",
-     "lien": "https://www.actuia.com/actualite/migration-du-cobol-ce-que-valent-les-866-revendiques-par-openai/",
-     "nb_sources": 1,
-     "primaire": false
-    }
-   ],
-   "statut": "active",
-   "societes": [
-    "openai"
-   ]
-  },
-  {
    "id": "h_99228b45c2",
    "titre": "Mistral AI lance Voxtral 3 pour la voix",
    "resume": "Mistral AI a lancé Voxtral 3, un nouveau modèle multimodal dédié à la voix conçu pour concurrencer les solutions d'ElevenLabs et les outils vocaux d'OpenAI en offrant des capacités de réponse et de raisonnement en direct.",
@@ -2621,52 +2744,6 @@
    ]
   },
   {
-   "id": "h_af202225e5",
-   "titre": "Lancement et adoption de GPT-6 Astra",
-   "resume": "OpenAI a introduit GPT-6 Astra, permettant des déploiements massifs d'agents IA via l'infrastructure de NVIDIA. Cette dynamique se poursuit avec l'utilisation de milliers d'agents pour analyser des données biologiques complexes.",
-   "creee": "2026-10-20T09:56:16.457937+00:00",
-   "maj": "2026-10-14T07:00:00+00:00",
-   "episodes": [
-    {
-     "id": "c68e4b407e0276",
-     "date": "2026-10-01T23:44:13+00:00",
-     "titre": "OpenAI lance GPT-6 Astra Ultrafast propulsé par les puces NVIDIA Blackwell",
-     "neuf": "OpenAI lance GPT-6 Astra Ultrafast, profitant de l'architecture NVIDIA Blackwell.",
-     "fil": "Lancement du modèle GPT-6 Astra Ultrafast",
-     "source": "NVIDIA",
-     "lien": "https://blogs.nvidia.com/blog/gpus-openai-gpt-6-astra-ultrafast/",
-     "nb_sources": 1,
-     "primaire": false
-    },
-    {
-     "id": "90995f7dbc9c26",
-     "date": "2026-10-09T07:00:00+00:00",
-     "titre": "Asana réduit ses coûts de modèle par 76 avec GPT-6 Astra",
-     "neuf": "Asana intègre GPT-6 Astra pour réduire ses coûts et accélérer son agent de navigation.",
-     "fil": "Utilisation de GPT-6 Astra en production",
-     "source": "OpenAI",
-     "lien": "https://openai.com/index/asana-browser-agent",
-     "nb_sources": 1,
-     "primaire": false
-    },
-    {
-     "id": "e181547094b0a1",
-     "date": "2026-10-14T07:00:00+00:00",
-     "titre": "Comment Third Moment Research déploie 10 000 agents IA sur 36 heures",
-     "neuf": "Third Moment Research déploie des milliers d'agents en combinant GPT-6 Astra et d'autres outils de la gamme.",
-     "fil": "Exploitation à grande échelle de la famille GPT-6",
-     "source": "OpenAI",
-     "lien": "https://openai.com/index/third-moment-research",
-     "nb_sources": 1,
-     "primaire": false
-    }
-   ],
-   "statut": "en sommeil",
-   "societes": [
-    "openai"
-   ]
-  },
-  {
    "id": "h_e1cfeef7d8",
    "titre": "Lancement mondial de GPT-6 dans ChatGPT",
    "resume": "OpenAI a opéré un lancement mondial de GPT-6 au sein de ChatGPT, enrichissant l'expérience de l'interface utilisateur avec de nouvelles fonctions interactives.",
@@ -2712,6 +2789,54 @@
    "statut": "en sommeil",
    "societes": [
     "deepseek"
+   ]
+  },
+  {
+   "id": "h_ce024d6c9b",
+   "titre": "Nouveau modèle de Mistral AI contre les acteurs chinois",
+   "resume": "",
+   "creee": "2026-10-27T00:58:25.413423+00:00",
+   "maj": "2026-10-06T07:00:00+00:00",
+   "episodes": [
+    {
+     "id": "0f96ced7a18023",
+     "date": "2026-10-06T07:00:00+00:00",
+     "titre": "Mistral AI lance un nouveau modèle pour concurrencer les modèles chinois",
+     "neuf": "Mistral AI lance un nouveau modèle visant à concurrencer directement les acteurs chinois.",
+     "fil": "Annonce d'un nouveau modèle Mistral AI",
+     "source": "Grandes annonces IA",
+     "lien": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNcjVFRUV6ZzZmeXFiN3NIWmZwUTBGWTR3ZUx1UUhjLWRLMC0wZThtLW00a1FYNjloa3BiSTFveFdZZFkxWnd5d283Qi04MnU1UC1IUl9KdlBkX2o2X3JpQ0pUZVRZQzJ3Uk1fRzR5VnJIdGhwVGI3Q0JWc2RWOGtBZTZzek4tcWQxRTAxZnB3eWJyV2gzY2FlNjdYVk95b2lQX2UtLVNWandvMDA?oc=5",
+     "nb_sources": 2,
+     "primaire": false
+    }
+   ],
+   "statut": "en sommeil",
+   "societes": [
+    "mistral"
+   ]
+  },
+  {
+   "id": "h_02617611b7",
+   "titre": "Mistral AI présente Chonk",
+   "resume": "",
+   "creee": "2026-10-27T00:58:25.413423+00:00",
+   "maj": "2026-10-06T07:00:00+00:00",
+   "episodes": [
+    {
+     "id": "7da26e5b664eb2",
+     "date": "2026-10-06T07:00:00+00:00",
+     "titre": "Mistral AI présente 'Chonk' pour rivaliser avec les géants américains",
+     "neuf": "Mistral AI présente le modèle 'Chonk' pour rivaliser avec les géants américains.",
+     "fil": "Annonce du modèle Chonk par Mistral AI",
+     "source": "IA en français (actus)",
+     "lien": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNenZxNjZkMG9lbjJ0by15OUdQdl9rVWZBT09WczV0QVNOM2dlNUVCcDctX180cHpZZ3hxR0p5bkhIWVRCblNVQjFpOEVCdHVNV2xETHQyR3p2TkRLU2tTMUZGcXhvc3dzaWJaMEVkZHo2VnJmRUlWTFRNSjBydmZrbHZYV2wxRURkQldLNUozcEJiSTRuYVhyN0F3Y21ZREFiQkpJMFBTeW92Q1gxTm5SNl9CQkxteFdRckpRSlBURjMwYzhp?oc=5",
+     "nb_sources": 2,
+     "primaire": false
+    }
+   ],
+   "statut": "en sommeil",
+   "societes": [
+    "mistral"
    ]
   }
  ]

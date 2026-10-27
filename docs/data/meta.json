@@ -1,5 +1,5 @@
 {
- "maj": "2026-10-26T20:45:55.071175+00:00",
+ "maj": "2026-10-27T00:58:25.413482+00:00",
  "sources_ok": [
   "Notes de version Claude (API)",
   "Notes de version OpenAI (API)",
@@ -57,15 +57,15 @@
    "erreur": "429 Client Error: Too Many Requests for url: https://venturebeat.com/category/ai/feed/"
   }
  ],
- "total": 1194,
- "analyses": 1161,
+ "total": 1216,
+ "analyses": 1186,
  "brief": {
-  "titre": "Entre percées techniques et virages financiers majeurs",
-  "texte": "L'actualité de l'intelligence artificielle est marquée par des annonces structurantes tant au niveau des produits que de la stratégie des entreprises. OpenAI frappe fort avec le lancement de GPT-6.1 Terra et ses nouvelles capacités d'utilisation d'ordinateur. En parallèle, Anthropic officialise son entrée en bourse avec un dossier valorisant l'entreprise à 75 milliards de dollars. Côté open source et développement, la bibliothèque Transformers passe en version v5.21.0 et Unsloth introduit de nouvelles fonctionnalités bêta. Enfin, l'écosystème continue de s'étendre avec l'arrivée de connecteurs bancaires pour Microsoft Copilot et de nouvelles productions vidéo signées Grok.",
+  "titre": "GPT-6.1 Terra arrive, Anthropic vise Wall Street",
+  "texte": "OpenAI frappe fort aujourd'hui avec le lancement de GPT-6.1 Terra et ses nouvelles capacités d'utilisation d'ordinateur, complété par un partenariat axé sur la sécurité du code avec CodeRabbit. Dans le même temps, l'écosystème open source progresse rapidement avec la sortie de Transformers v5.21.0 et la nouvelle version d'Unsloth. Du côté de la concurrence, Anthropic fait une actualité majeure en déposant son dossier pour une introduction en bourse historique valorisée à 75 milliards de dollars. Enfin, l'adoption des outils continue de s'élargir, comme le montre le connecteur Microsoft Copilot destiné au secteur bancaire.",
   "a_tester": [
-   "Tester les nouvelles capacités de GPT-6.1 Terra pour l'automatisation de tâches informatiques",
-   "Mettre à jour vos environnements avec Transformers v5.21.0 et évaluer les nouveaux modèles",
-   "Explorer les nouveautés d'Unsloth v0.1-beta pour optimiser vos entraînements de modèles"
+   "Tester les nouvelles capacités d'utilisation d'ordinateur de GPT-6.1 Terra",
+   "Explorer les nouveautés de la mise à jour Transformers v5.21.0",
+   "Essayer l'alternative open source Hob pour vos usages locaux"
   ]
  },
  "top5": {
