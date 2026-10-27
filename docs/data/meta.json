@@ -1,5 +1,5 @@
 {
- "maj": "2026-10-27T12:56:15.464739+00:00",
+ "maj": "2026-10-27T16:56:08.000895+00:00",
  "sources_ok": [
   "Notes de version Claude (API)",
   "Notes de version OpenAI (API)",
@@ -30,6 +30,7 @@
   "The Verge IA",
   "TechCrunch IA",
   "Simon Willison",
+  "Hacker News (IA, 100+ pts)",
   "r/LocalLLaMA",
   "arXiv cs.AI",
   "arXiv cs.CL",
@@ -54,21 +55,17 @@
   {
    "nom": "VentureBeat IA",
    "erreur": "429 Client Error: Too Many Requests for url: https://venturebeat.com/category/ai/feed/"
-  },
-  {
-   "nom": "Hacker News (IA, 100+ pts)",
-   "erreur": "502 Server Error: Bad Gateway for url: https://hnrss.org/newest?q=AI+OR+LLM+OR+GPT+OR+Claude+OR+Gemini&points=100"
   }
  ],
- "total": 1265,
- "analyses": 1232,
+ "total": 1304,
+ "analyses": 1254,
  "brief": {
-  "titre": "GPT-6.1 Terra, IPO d'Anthropic et vagues d'innovations open source",
-  "texte": "OpenAI frappe fort aujourd'hui avec la sortie de GPT-6.1 Terra et l'arrivée du modèle spécialisé GPT-6.1 Sol conçu avec CodeRabbit pour sécuriser le code. Parallèlement, l'écosystème open source progresse rapidement avec la mise à jour de Transformers v5.21.0, Unsloth v0.1-beta et l'alternative locale Hob. Côté marché, Anthropic fait sensation en déposant son dossier d'introduction en bourse pour une valorisation estimée à 75 milliards de dollars. Enfin, l'automatisation d'entreprise s'accélère avec un nouveau modèle OpenAI à prix réduit et l'outil Unlimited-OCR-2 de Baidu pour les documents longs.",
+  "titre": "GPT-6.1, Genie 4 et l'offensive boursière d'Anthropic",
+  "texte": "L'écosystème IA s'accélère avec des annonces structurantes tant sur le plan technique que financier. OpenAI déploie sa nouvelle génération avec GPT-6.1 Terra et un modèle économique cassant les prix pour l'automatisation d'entreprise, tout en s'associant à CodeRabbit. De son côté, Google DeepMind impressionne avec Genie 4, une avancée majeure dans la génération de mondes interactifs et de simulations réalistes. Enfin, Anthropic officialise son entrée en bourse historique avec un dossier valorisant l'entreprise à 75 milliards de dollars. Les écosystèmes open-source ne sont pas en reste avec les mises à jour de Transformers v5.21.0 et Unsloth.",
   "a_tester": [
-   "Tester l'alternative locale Hob pour vos usages de chat sécurisés",
-   "Explorer les nouveautés de Transformers v5.21.0 et Unsloth v0.1-beta",
-   "Évaluer le nouveau modèle OpenAI à bas coût pour vos automatisations d'entreprise"
+   "Tester le nouveau modèle OpenAI à prix réduit pour vos automatisations d'entreprise.",
+   "Explorer les capacités de simulation interactive de Google Genie 4.",
+   "Mettre à jour vos bibliothèques avec la dernière version de Transformers v5.21.0."
   ]
  },
  "top5": {
