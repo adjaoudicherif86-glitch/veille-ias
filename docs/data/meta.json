@@ -1,5 +1,5 @@
 {
- "maj": "2026-10-28T16:59:03.629105+00:00",
+ "maj": "2026-10-28T20:52:53.965469+00:00",
  "sources_ok": [
   "Notes de version Claude (API)",
   "Notes de version OpenAI (API)",
@@ -57,15 +57,15 @@
    "erreur": "429 Client Error: Too Many Requests for url: https://venturebeat.com/category/ai/feed/"
   }
  ],
- "total": 1427,
- "analyses": 1363,
+ "total": 1461,
+ "analyses": 1384,
  "brief": {
-  "titre": "Avancées des agents, nouveaux modèles et actualités des géants",
-  "texte": "L'actualité de l'IA est marquée par de solides progrès en matière de simulation et de transcription, avec l'annonce de Genie 4 par Google DeepMind pour les expériences interactives, et le lancement de Nemotron 3.5 Transcribe par NVIDIA. Du côté des outils pour développeurs, Anthropic enrichit son API Claude (Google Cloud, SDK 2.0) tandis que Google introduit un client en ligne de commande pour les agents Gemini. Les partenariats stratégiques s'accélèrent également, à l'image d'OpenAI et Oracle, au moment où se profilent des mouvements financiers majeurs pour Anthropic et des défis juridiques pour OpenAI.",
+  "titre": "Google frappe fort avec Gemini 4 Carbon et Genie 4",
+  "texte": "Google domine l'actualité avec le lancement de Gemini 4 Carbon, axé notamment sur la cybersécurité, et l'arrivée de Genie 4 pour la simulation de mondes interactifs. Côté infrastructures, Anthropic et NVIDIA font évoluer leurs outils avec de nouvelles options d'audit des dépenses et des modèles de transcription avancés. Pendant ce temps, OpenAI fait face à des défis juridiques suite à des conseils médicaux inadaptés fournis par ChatGPT. Enfin, l'écosystème se structure avec de nouvelles intégrations tierces et des outils en ligne de commande pour les agents IA.",
   "a_tester": [
-   "Tester le nouveau client Gemini API CLI pour vos agents en ligne de commande",
-   "Explorer les nouveautés de l'API Claude (SDK 2.0 et intégrations Google Cloud)",
-   "Évaluer les capacités de transcription multilingue avec les nouveaux outils NVIDIA"
+   "Explorer les nouveautés de l'API Claude (Google Cloud et SDK 2.0)",
+   "Tester le nouveau client en ligne de commande Gemini API CLI",
+   "Mettre en place des audits de dépenses IA avec les outils d'Anthropic"
   ]
  },
  "top5": {
