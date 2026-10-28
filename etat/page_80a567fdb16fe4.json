@@ -1,8 +1,15 @@
 {
  "url": "https://ai.google.dev/gemini-api/docs/changelog",
- "maj": "2026-10-28T01:08:58.687663+00:00",
+ "maj": "2026-10-28T04:54:43.219646+00:00",
  "lignes": [
   "This page documents updates to the Gemini API.",
+  "October 27, 2026",
+  "- Gemini API CLI (gemini-api) beta: Released the Gemini API",
+  "CLI (gemini-api), a stateless, zero-dependency",
+  "command-line client for AI coding agents, scripts, and CI pipelines. Use gemini-api on the Interactions API to",
+  "generate text and media, analyze files, and run Gemini managed",
+  "agents. See the Gemini API CLI",
+  "guide to get started.",
   "October 26, 2026",
   "- Generate Content API storage on by default: New projects using the",
   "Generate Content API (generateContent, streamGenerateContent, and batchGenerateContent) on the paid tier now store requests by default",

@@ -1,5 +1,5 @@
 {
- "maj": "2026-10-28T01:08:58.693127+00:00",
+ "maj": "2026-10-28T04:54:43.225092+00:00",
  "sources_ok": [
   "Notes de version Claude (API)",
   "Notes de version OpenAI (API)",
@@ -57,15 +57,15 @@
    "erreur": "429 Client Error: Too Many Requests for url: https://venturebeat.com/category/ai/feed/"
   }
  ],
- "total": 1363,
- "analyses": 1295,
+ "total": 1390,
+ "analyses": 1313,
  "brief": {
-  "titre": "Actualités IA : IPO d'Anthropic, nouveaux modèles et innovations",
-  "texte": "L'actualité de l'intelligence artificielle est marquée par d'importants mouvements industriels et techniques. Anthropic fait sensation en déposant son dossier pour une introduction en bourse historique valorisée à 75 milliards de dollars. Sur le plan des produits, OpenAI déploie GPT-6.1 Terra et des solutions d'automatisation plus abordables, tandis que Google DeepMind dévoile Genie 4 pour la simulation de mondes. Enfin, l'écosystème évolue avec la mise à jour des API Claude et la sortie de Transformers v5.21.0.",
+  "titre": "Actualités IA : GPT-6.1, Genie 4 et nouvelles APIs",
+  "texte": "OpenAI et Google marquent l'actualité avec le lancement respectif de GPT-6.1 Terra et de Genie 4 pour la simulation de mondes. Côté infrastructures, l'écosystème se structure avec la sortie de l'API Gemini CLI et les nouveautés de l'API Claude sur Google Cloud. Pendant ce temps, Anthropic prépare activement son introduction en bourse avec JPMorgan. Enfin, la vigilance reste de mise suite aux plaintes concernant les conseils médicaux de ChatGPT.",
   "a_tester": [
-   "Explorer les nouveautés de l'API Claude et son SDK 2.0",
-   "Tester les performances de GPT-6.1 Terra pour vos cas d'usage",
-   "Examiner les possibilités offertes par Genie 4 pour la simulation"
+   "Tester l'API Gemini CLI pour automatiser des flux de travail en ligne de commande",
+   "Explorer les capacités de simulation interactive de Google Genie 4",
+   "Intégrer les nouveautés du SDK 2.0 et des profils de l'API Claude"
   ]
  },
  "top5": {
