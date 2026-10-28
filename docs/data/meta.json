@@ -1,5 +1,5 @@
 {
- "maj": "2026-10-28T04:54:43.225092+00:00",
+ "maj": "2026-10-28T08:59:14.445398+00:00",
  "sources_ok": [
   "Notes de version Claude (API)",
   "Notes de version OpenAI (API)",
@@ -58,14 +58,14 @@
   }
  ],
  "total": 1390,
- "analyses": 1313,
+ "analyses": 1324,
  "brief": {
-  "titre": "Actualités IA : GPT-6.1, Genie 4 et nouvelles APIs",
-  "texte": "OpenAI et Google marquent l'actualité avec le lancement respectif de GPT-6.1 Terra et de Genie 4 pour la simulation de mondes. Côté infrastructures, l'écosystème se structure avec la sortie de l'API Gemini CLI et les nouveautés de l'API Claude sur Google Cloud. Pendant ce temps, Anthropic prépare activement son introduction en bourse avec JPMorgan. Enfin, la vigilance reste de mise suite aux plaintes concernant les conseils médicaux de ChatGPT.",
+  "titre": "Entre l'essor des agents, Genie 4 et les IPOs, l'IA accélère",
+  "texte": "L'actualité de l'IA est marquée par des avancées majeures en simulation et en outillage pour développeurs. Google DeepMind a dévoilé Genie 4 pour générer des expériences interactives réalistes, tandis que Google lance une CLI pour ses API Gemini et qu'Anthropic structure son API et prépare activetément son introduction en bourse. Côté OpenAI, les partenariats stratégiques s'accélèrent avec Oracle et de nouveaux modèles économiques plus abordables pour l'automatisation d'entreprise. Ces dynamiques rappellent toutefois la nécessité d'une stricte vigilance sur les usages, alors qu'OpenAI fait face à des poursuites liées à des conseils médicaux.",
   "a_tester": [
-   "Tester l'API Gemini CLI pour automatiser des flux de travail en ligne de commande",
-   "Explorer les capacités de simulation interactive de Google Genie 4",
-   "Intégrer les nouveautés du SDK 2.0 et des profils de l'API Claude"
+   "Tester la nouvelle API Claude 2.0 et l'intégration Google Cloud",
+   "Expérimenter la Gemini API CLI pour vos workflows d'agents",
+   "Évaluer le modèle OpenAI à moitié prix pour vos automatisations d'entreprise"
   ]
  },
  "top5": {
