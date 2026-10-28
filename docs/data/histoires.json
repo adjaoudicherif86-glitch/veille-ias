@@ -1,12 +1,271 @@
 {
- "maj": "2026-10-27T20:45:47.337253+00:00",
+ "maj": "2026-10-28T01:08:58.693059+00:00",
  "histoires": [
+  {
+   "id": "h_bb04558a25",
+   "titre": "Plainte contre OpenAI suite à des conseils médicaux mortels de ChatGPT",
+   "resume": "OpenAI fait face à des actions en justice intentées par des parents et des proches après que ChatGPT/GPT-4o a fourni des conseils médicaux erronés liés à l'épilepsie, ayant entraîné de graves conséquences et un décès.",
+   "creee": "2026-10-28T01:08:58.693059+00:00",
+   "maj": "2026-10-27T23:34:27+00:00",
+   "episodes": [
+    {
+     "id": "d06768fd7f2b33",
+     "date": "2026-10-27T17:01:00+00:00",
+     "titre": "OpenAI visé par une plainte suite à des conseils médicaux mortels de ChatGPT",
+     "neuf": "Une nouvelle action en justice cible OpenAI pour un décès causé par des conseils médicaux erronés sur l'épilepsie.",
+     "fil": "Plainte en justice contre OpenAI suite à des conseils médicaux mortels de ChatGPT",
+     "source": "OpenAI (actus)",
+     "lien": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOUDdFLUZyZzNudHpoM2FCMXBzZVVHWXNEeU8xZlBKUDRXQnhuRWFGb1JmT2ZMYTJpV0RHalhQNzhQRDU2ZXQ0bFU4cGNCV0NxRnVVekkxTmtFOHRfNTlWLUhJUnZRV2RyQjltY3ZpRFlvcjlCMTg3M3Zhd25yQXVfNlQ1ZU1hS2dBV3BZZHI3LVVTbC1DQ3pN?oc=5",
+     "nb_sources": 2,
+     "primaire": false
+    },
+    {
+     "id": "a0e7e57c22a99a",
+     "date": "2026-10-27T19:38:47+00:00",
+     "titre": "Les conseils médicaux erronés de ChatGPT aux conséquences graves",
+     "neuf": "Le New York Times documente le cas critique des conseils erronés de ChatGPT sur l'épilepsie.",
+     "fil": "Conséquences graves des conseils médicaux de ChatGPT",
+     "source": "OpenAI (actus)",
+     "lien": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQZ0NqMW1MSnJGeVB2WHVWdWR4V0wySkRhVUpXTG1hQk1iZU1CY3pNeGRwUkVIcU83V01mckM5Z01qTmw0T2tRUVZmM1luNE55bDluMEQzUzB5THBzZWJYZ1ZTRFA3a0otUVZDRWRVdDdmTm9WY2VoazJUR19nNGlGNU9WNHVxWGZV?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "4ee3fcb6ac1d9b",
+     "date": "2026-10-27T23:34:27+00:00",
+     "titre": "Des parents poursuivent OpenAI suite aux conseils de GPT-4o à leur fille",
+     "neuf": "Une plainte de parents accuse GPT-4o d'avoir incité leur fille à arrêter son traitement médical.",
+     "fil": "Plainte de parents contre OpenAI pour les conseils de ChatGPT sur l'épilepsie",
+     "source": "OpenAI (actus)",
+     "lien": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPQ3JtRzlfcnp1ZXJ4ZFFyZ2dSSUROTkNzY3FnY3l0SEJpRngzcDJNQzc3LUZpblVFc0dPWXF6eVNEbENSVU1ycjI0ZjJrbWEtcjhaR1B4XzlEWnVBRFQyaGZhc2ZocU9wTHJLcVgwOUc1djNNb2VWRVBUdjNVTGo2YXVpRlJTOEFnMmtPUkwxNUlEbVd6M3JyWUMwVlhyM1dLZmRYMXYtTmVoR0s0VmN0QXM0RnJUQQ?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    }
+   ],
+   "statut": "active",
+   "societes": [
+    "openai"
+   ]
+  },
+  {
+   "id": "h_706c77ae76",
+   "titre": "Le projet de loi d'Anthropic sur la sécurité de l'IA",
+   "resume": "Anthropic structure sa proposition de régulation en demandant formellement au gouverneur de Californie Gavin Newsom d'accorder aux tribunaux un pouvoir de blocage pour les modèles d'IA présentant des risques mortels de masse. Ce positionnement axé sur la sécurité s'accompagne de débats continus sur la cadence de ses lancements.",
+   "creee": "2026-10-20T09:56:16.457937+00:00",
+   "maj": "2026-10-27T23:27:13+00:00",
+   "episodes": [
+    {
+     "id": "4a721a6610aa2c",
+     "date": "2026-10-16T21:45:00+00:00",
+     "titre": "Anthropic propose discrètement son propre projet de loi sur la sécurité de l'IA",
+     "neuf": "Anthropic soumet discrètement son propre texte législatif sur la sécurité aux législateurs.",
+     "fil": "Projet de loi d'Anthropic sur la sécurité de l'IA",
+     "source": "Grandes annonces IA",
+     "lien": "https://news.google.com/rss/articles/CBMieEFVX3lxTE0ydWVrbHdHeGNraEdTSHQ5eExwZ2lLRUU1U1BoVFJUTWNLenpWTXJOMHNnWnhaa0thQXlRbk1KdEliVVVGUEJXZWwtcWtUZE9Ielo2X05DaHJKSmJpd05rRl9vMWdQQUE4ZnVRRFBLQ3hlcm9FNG12bg?oc=5",
+     "nb_sources": 2,
+     "primaire": false
+    },
+    {
+     "id": "c9634539a3ae68",
+     "date": "2026-10-17T02:44:47+00:00",
+     "titre": "Anthropic pousserait un projet de loi limitant le pouvoir de l'État",
+     "neuf": "Des analyses juridiques révèlent que le texte d'Anthropic viserait aussi à restreindre les blocages gouvernementaux de modèles.",
+     "fil": "Projet de loi d'Anthropic sur la sécurité de l'IA",
+     "source": "Anthropic et gouvernement",
+     "lien": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPUUpETGxDdXo5QzRMMEdKUko5cWxsQzJSeDhRUUVZYV94Q2RKc1FjV2JaT1hmTUxBanF2WGN5bGFObkdXVTExVV80WFVpY2NfenEzOWFOUnFGbDRkbHBPcjRvcmJkbk5TYVRTV1U5NXNZajRlYVE5TTRKak1zYXNQNjlIUzNmVEw3?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "a07459ee24b06f",
+     "date": "2026-10-18T11:25:00+00:00",
+     "titre": "Le projet de loi sur la sécurité de l'IA d'Anthropic",
+     "neuf": "Précisions sur le périmètre du texte d'Anthropic, qui ne s'appliquerait qu'en présence de dommages massifs.",
+     "fil": "Projet de loi d'Anthropic sur la sécurité de l'IA",
+     "source": "Grandes annonces IA",
+     "lien": "https://news.google.com/rss/articles/CBMiiwNBVV95cUxOZzBaVmx3ZGk3YlBaUW1pR0FwLVdwWFlwaVlUeVFVdHY4dVhqRExLeV91blg0ZmNyRERfMFpQNmY5NlZtaW8xUDVwbEVlVWFMLUNkUnFiRk9KMEtsNThBR2loVXRxWkZiekxNYllWaEZpTzZBNUMtNndZUnVvTzQzZFJWS2d4NTE2eldDUzR0R2RDNHhuZ3p0cW9ib2puME5nQ2xpR2RRQkRkMmxjTmw2NV9Jck1tZjVCUDZwYjlYb0NyMS1MbWV0cE00SzlBbzZWcFB6M1FnRkFveFQxV0o2QS11MWtzOEUtQkx2NG40S3RJM0lOMUNBZjkzelBLdk94QzA3LUl6cDlPMFF3ZUM2MDYzSDRtQVlWR0pEeTVoY0JDdEN0WUxiUDl1eFpGTDBObUtZRHVlb0pyYzdMOFdTVUIxTXRQNnV5eGFlMWJIbEJhQWpKUDZEX1psZWxNakkzdWp2ekE3V3VFNWNXT21oYnA4c0w5bHZCTHNVUGNkLXRJU3pwMlV6V1p2aw?oc=5",
+     "nb_sources": 2,
+     "primaire": false
+    },
+    {
+     "id": "764ec59d5ad90e",
+     "date": "2026-10-18T23:10:26+00:00",
+     "titre": "Controverse autour d'une mesure de sécurité à un milliard de dollars d'Anthropic",
+     "neuf": "Des résistances et critiques émergent autour des initiatives et seuils de sécurité d'Anthropic.",
+     "fil": "même projet de loi / mesures de sécurité d'Anthropic",
+     "source": "Anthropic et gouvernement",
+     "lien": "https://news.google.com/rss/articles/CBMidEFVX3lxTE93SF8yZ0JVZjB5UWlKSklpRTRrVU5TaWlqTC1Mb2duVWlMQVVtRTJuZ1V2cnlsek5mTUxtVHdJQTR3RmZpRzViQTBkUTRyallVY3YzRjdqYlE4S2NCNnk3Z2JUcFhnM0xaOVdMNEpUMHppeFQ5?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "caf615d2c5f937",
+     "date": "2026-10-19T02:46:30+00:00",
+     "titre": "Le PDG d'Anthropic appelle à une réglementation renforcée de l'IA",
+     "neuf": "Le PDG d'Anthropic plaide publiquement sur ABC News pour une réglementation renforcée.",
+     "fil": "même initiative réglementaire d'Anthropic",
+     "source": "Anthropic et gouvernement",
+     "lien": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNTnFDeXdUaGRRY3FzRWFMbVpRbFBrVXVhOHNDWDRMaFQ1T1kzclBENEtWa3R5UDBDQktzb3Z3N0FYUjJsejBwZUY5eURuejdvaFg4eXJrSndRLWdvTGtDcVdwOFdXeHZlVWo4eXJDc3ZGWlg0aTZwak1ySWwtS3hkSzNmdVR3MEhGXzdGRDRjV3dpMzVTOFhDX0o1Z3FBSDBqamfSAacBQVVfeXFMTzVVZEpXZk9NbHhzV241am1weGozclJlMUV6WFd1VFFQSnhoLXhibFlnVnNQaGRsUm5QNjFtT2F4ZXdQUk9BN0VCbHgweEUySVhkMjRHZDROSmRoem1FUGwzTXVVd2wxZWkycDdWZld1RW5JaFJJd0tQMkx2VlkwNG9wS3Z6blByVkFpLV9lbEhjMjNSTDdoQzROTDhPbnlGbTdlRHJIUE0?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "bcf713c50f3a36",
+     "date": "2026-10-20T00:29:45+00:00",
+     "titre": "Fuite d'un projet de loi lié à Anthropic dans The Washington Post",
+     "neuf": "Un projet de loi lié à Anthropic fait l'objet d'une fuite médiatique rapportée par le Washington Post.",
+     "fil": "même projet de loi ou texte législatif concernant Anthropic",
+     "source": "Anthropic et gouvernement",
+     "lien": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOV3ZSeFlQcXJNaWYwT0RBeGN4WVhTWjRma2FRdHhzSlFRNmFZRnNOYzBSbDd3eE95ZFNqTkx1OEV0dkFXTXJCWFZsSEV4NHlLTjE4eU5rVDdzN0pfMnNWcFNmWk5jb0xnWHFyRUFZc1lsUFVUa2x6LVFjb214Ul9zU0dvQkh5emJZRWozVVFqNXU5SWN4dzBuZWc5Rm9JYURtMEV2ZE5qTzhDQ1Jlemc?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "c21f3eee513ab7",
+     "date": "2026-10-21T09:00:00+00:00",
+     "titre": "Pourquoi le projet de loi d'Anthropic fixe un seuil de risque à un milliard de dollars",
+     "neuf": "Des détails émergent sur le projet de loi d'Anthropic, révélant qu'il fixe un seuil de risque spécifique fixé à un milliard de dollars.",
+     "fil": "même projet de loi sur la sécurité de l'IA rédigé par Anthropic",
+     "source": "Anthropic et gouvernement",
+     "lien": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNWWhaN0lXMkdTcldqYTBoVktsbUx1QzI3emNYTmZ2Q2ZENEp0NFh2My1VeGZLbnlYbS1SMFNkak1FLXk1eGtaMUMtME9EOFpCV3N4TG45ZEUyNHRiVFNZcHFSTURZel9kSzNKRU8ySHBNZmtrcEg0VkNrdHhjUF8yWFVjMEFlYzhpcVE?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "f34bda1d353d9b",
+     "date": "2026-10-21T09:58:26+00:00",
+     "titre": "Un projet de loi d'Anthropic permettrait à un juge de bloquer le lancement d'un modèle d'IA",
+     "neuf": "Le projet de loi soutenu par Anthropic prévoirait spécifiquement la possibilité pour un juge d'interdire la sortie d'un modèle jugé risqué.",
+     "fil": "même projet de loi d'Anthropic sur la sécurité",
+     "source": "Grandes annonces IA",
+     "lien": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBVSGJfdmJHZU05d0ZGQWFTbzhRZlFhMDV5S2xSNWV6OXo2VmZFRTRRcE0xLWd4RkVacXNiYWRvVkE3OVBqbEVqcXFkbnpScHl4ZVJuLVg1V3YtWmc?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "30e3476c5a4f82",
+     "date": "2026-10-21T17:45:08+00:00",
+     "titre": "Anthropic définit ses propres règles pour l'arrêt de l'IA",
+     "neuf": "Anthropic formalise ses propres critères et protocoles pour l'arrêt d'urgence de ses systèmes d'intelligence artificielle.",
+     "fil": "Règles et protocoles d'arrêt de l'IA définis par Anthropic",
+     "source": "Anthropic et gouvernement",
+     "lien": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNNklqRkxuZlc0bjBpTFdqTzlnaTlJcmY1aHN6MEc4aVRHSkJOYUxic0Z6cEdxbmZmZl9yNFNCZTJqZm1KRHdMTzZDSHBtVHYyNGxhelgzSXY3bWlqOXZOaVdOc0xRRzc1ZE5FV2c0aUljLXBXRlh3SUhucXFZdXc4ZFZzNl9hQnN0ZXNIUEhKVE9NOFNXRTM0TlRsOXdxUzBLM2pDZXBJMTlHNzBDdXc?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "6e6bacec45099e",
+     "date": "2026-10-21T23:53:38+00:00",
+     "titre": "Un projet de loi d'Anthropic viserait à suspendre les IA en cas de risque mortel",
+     "neuf": "Le projet de loi d'Anthropic prévoit d'interrompre les modèles d'IA si leur utilisation présente un risque mortel de masse.",
+     "fil": "Projet de loi d'Anthropic sur la sécurité et la suspension des IA",
+     "source": "Anthropic et gouvernement",
+     "lien": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQXzBNYzBOY3ZQNHFJU2xxWkxDeEVzTVhIZU9vMWlFWUZYd0FVQUQzbDBZSHd4c0Y2WXZiVG9Ib1lNbVRUOC11aXBKYU1ONVladDF4Y2JySG9WZ0w1b1dPbmM4b2tyR3c3T3ZUOVZ1UFZSZ1Vva3hVbVBNcldKRzlPaVc2aE14RjhDRGc?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "fae5020dcddb5e",
+     "date": "2026-10-27T23:27:13+00:00",
+     "titre": "Anthropic demande à Gavin Newsom un pouvoir judiciaire de blocage pour l'IA risquée",
+     "neuf": "Anthropic demande formellement au gouverneur californien Gavin Newsom d'accorder aux tribunaux le pouvoir de bloquer les IA risquées.",
+     "fil": "Même projet de loi et pouvoirs judiciaires de blocage pour l'IA d'Anthropic",
+     "source": "Anthropic et gouvernement",
+     "lien": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOa2xTVFlZTlJXd0o3TldUMTlEbnF2VFhPOXdNaGprUFBYM1lUTnNSZ0ZvY0ZxbWJ0dlBLRFBGQkVWVUJYU1VIRDdpdHBxanNpYUxrQTFyYVBEeHYzYnFhc29Od2RNakpDTGtKOHBBZk1nRmZHTFpsMVdKNGtTYy1mbTJROFJ5cS1ZTF9GT1lLMmwwcEJSQXE2RkNjWQ?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    }
+   ],
+   "statut": "active",
+   "societes": [
+    "anthropic"
+   ]
+  },
+  {
+   "id": "h_5e0762833f",
+   "titre": "Action en justice contre SpaceXAI",
+   "resume": "SpaceXAI fait face à une escalation des réclamations financières s'élevant à 220 millions de dollars et à des contestations d'utilisateurs sur l'arbitrage des poursuites, tout en déployant des programmes de parrainage pour son offre Grok.",
+   "creee": "2026-10-20T20:45:07.920169+00:00",
+   "maj": "2026-10-27T23:22:02+00:00",
+   "episodes": [
+    {
+     "id": "54794aade42fd8",
+     "date": "2026-10-20T19:51:00+00:00",
+     "titre": "Une plainte en justice contre SpaceXAI autorisée à se poursuivre",
+     "neuf": "Un juge autorise la poursuite de la plainte visant l'entreprise.",
+     "fil": "action en justice contre SpaceXAI",
+     "source": "Grok et SpaceXAI (actus)",
+     "lien": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOUVI0SUp1dnBQTWNyRkZnSTJWdUx3Y05pM2ozaHJXMVFVZnpPUTNhYWVldGlaR3pEN21yQWdRdTgweWlmaDA0WlU1dllGRWRZVDZKMXZLdXNJNDV4dnNkdFNtcV9OaU1EU3ozdkR5SW50QmhKRWJIUmxCdHp5cjdiSldfTldEUi1zTE5nazhVTQ?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "f33d215c710570",
+     "date": "2026-10-21T21:33:47+00:00",
+     "titre": "Refus d'intervention du DOJ dans le procès SpaceXAI à Southaven",
+     "neuf": "Un tribunal bloque l'intervention du ministère de la Justice dans l'affaire SpaceXAI à Southaven.",
+     "fil": "le procès SpaceXAI",
+     "source": "Grok et SpaceXAI (actus)",
+     "lien": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQY3RCWlc5ZHUxWTM1V1JjTkhEWlN2Ny14eGZOaVhnSHRuTDR4OTlSQVdWbDBhbGtQdjBKSXhUOWd2dzEwblJqakNpaWd6OHN0VjdsdGFMSTVibUJHMXY3N25QTGhwMmk5Snh5LXg1R2FQS20wTUVLQzgtdWZmNlJTUkxFeDdScjBfaU5VYzljTGFKRkE?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "c3e2edb0d5b6e5",
+     "date": "2026-10-22T16:39:00+00:00",
+     "titre": "City of Memphis moves to ease truck traffic concerns near SpaceXAI supercomputer - FOX13 Memphis",
+     "neuf": "La ville de Memphis prend des mesures pour fluidifier le trafic des camions autour du supercalculateur SpaceXAI.",
+     "fil": "même projet et supercalculateur SpaceXAI à Memphis",
+     "source": "Grok et SpaceXAI (actus)",
+     "lien": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxPc1RNVTdqU2Fzc3dMUXlaUDJFTklDOGpKZVdrWFJJRkJWMVBzdTU1Ym9GTUFoYUFuTEJRZ1FuTldjWmNLeUVtUjlKSEVjc0Y5Sm45Y1JaTEQyWmlyTWNEc09OTnJUR2U0enpYTGFzX3hZcUdnUWFocW85MnNJbnQ2QTM2QWd3TmNOcW40QzREQzhLYXF1dkpXamhld3g1WEVsclZvLTJQNkpVR05kTmJ3bkdHWEIxenB2V2RFRzFJakNZODVkR1VDdHQ3UmFQSjk5WkFZa0UzWV9xdDlHVnRuME0yZXE0OUxqbUFPa2ZHdzRsaEtic0Vj?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "6451ac313e4eca",
+     "date": "2026-10-22T22:47:00+00:00",
+     "titre": "SpaceXAI visé par 6,1 millions de dollars d'amendes au Mississippi",
+     "neuf": "SpaceXAI écope de 6,1 millions de dollars d'amendes au Mississippi.",
+     "fil": "Mêmes poursuites et sanctions contre SpaceXAI",
+     "source": "Grok et SpaceXAI (actus)",
+     "lien": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOZEdkSEpTVk5FclA4TldnQ1g2QTNrdDBWNFlEZ1gtRlo4X3ZQdHM2SlBOYmlrVHNOWmIyaXh1bkUxenVnXzVPMHV4akx2TkQ0TWFkN1plY3dWcktwdVJCNnh0Smw0UEtCZW90QmliWEZRODJST2hIMzdJWXhVU1JET2pSdGZaUEUwRWlNMklKUFZTbTRUQjNrNVZLQjI1T01XUm5MZnBvMEtoVWEwendPNzlJcms0V1V2anlQci1YQmFlZ2M?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "9f9c516908c72b",
+     "date": "2026-10-25T09:44:33+00:00",
+     "titre": "220 millions de dollars de réclamations déposés contre SpaceXAI",
+     "neuf": "Le montant total des réclamations financières visant SpaceXAI s'élève désormais à 220 millions de dollars.",
+     "fil": "même action en justice et réclamations contre SpaceXAI",
+     "source": "Grok et SpaceXAI (actus)",
+     "lien": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPYkF5X2MwdVBzM05fUFpZTFM4eGRrZy15aDZCZTIxZWo5R2o1Z1FRX2VoRmJNVkpmVVNiZ3FiSGZUcndmT0RTN1lGRW1SZ3FWRzlWbGlGbzE2WWs3VU5IMDVURzFRaUdlWTNzTGJKTjJjVVBTUGRSa1RQOW9qUW1NYkZVMkZIajZCdkhVS1VCVEkxT0dHRzlGZllVU1lGdGJrVV9rV2FnaVY0OGJ0?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "6086659eeb90dd",
+     "date": "2026-10-27T23:22:02+00:00",
+     "titre": "AI Users Say SpaceXAI Can't Split, Arbitrate Slowdown Suit - Law360",
+     "neuf": "Les utilisateurs d'IA contestent la possibilité pour SpaceXAI d'imposer un arbitrage ou de diviser l'action en justice sur le ralentissement.",
+     "fil": "Mêmes poursuites judiciaires contre SpaceXAI",
+     "source": "Grok et SpaceXAI (actus)",
+     "lien": "https://news.google.com/rss/articles/CBMingFBVV95cUxOU2pSMWxJcHpmYUJpcGw5ZGVtbTdoY1o0Mk8tN0xTQTA2OXNwMkRteklTdE92ZGZCNkZ4TUhaYjItbUZiSVNUeUNxeWFTUjNyaVAxakNCT3UxQVVPU05KWnhxdHRVaS1wLVdRc0dNMnM0RzFLZDVXUGVTbUlsSVlIbXpYME9OcmxwdloxbjNSYnFmZFljdVk4dnh3SHI2Z9IBVkFVX3lxTE12a0RaaWFnTEE4WUtUWllzamEwVVNVV3phYThXaTg0LVNIenVKVHZxSjI3MjVXY1NBempuaFY4VDczLVpDTDRCYnMtazdUWEo0NkcwcEJn?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    }
+   ],
+   "statut": "active",
+   "societes": [
+    "spacexai"
+   ]
+  },
   {
    "id": "h_5febc86840",
    "titre": "L'introduction en Bourse d'Anthropic",
-   "resume": "Anthropic précise son projet d'introduction en Bourse sur le Nasdaq prévu pour novembre 2026, au milieu de débats financiers et d'analyses de CyberScoop sur les risques de sécurité anticipés par l'entreprise. Cette démarche s'accompagne de divisions entre investisseurs et de discussions autour de ses agents.",
+   "resume": "Anthropic précise son projet d'introduction en Bourse sur le Nasdaq prévu pour novembre 2026, avec une valorisation estimée à 2 billions de dollars et un accord de dette de 63 milliards. Le dossier officiel détaille 93 pages de risques de sécurité et de gouvernance, tandis que la presse financière analyse les défis de cette IPO.",
    "creee": "2026-10-20T09:56:16.457937+00:00",
-   "maj": "2026-10-27T20:43:50+00:00",
+   "maj": "2026-10-27T21:38:28+00:00",
    "episodes": [
     {
      "id": "6702d1aaf0afce",
@@ -273,6 +532,17 @@
      "primaire": false
     },
     {
+     "id": "b82544da0ec963",
+     "date": "2026-10-26T16:48:41+00:00",
+     "titre": "Anthropic, the AI Company Behind Popular Chatbot Claude, Could Soon Be Worth $2 Trillion - Yahoo Finance Singapore",
+     "neuf": "La valorisation d'Anthropic est estimée à 2 billions de dollars en vue de son introduction en bourse.",
+     "fil": "Même introduction en bourse (IPO) d'Anthropic et valorisation sur le marché",
+     "source": "Anthropic (actus)",
+     "lien": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOei1Nd0FLYWk3Z1E4dkxlT2ZjU2cwRHdPQmV2d2RnWHl3Q3ZubEItR2g1RkFYMjFySVp4NlY4Wm1Nc2Y5M3FsUk1iZHVqT3p4VDRJbVdtX1h0U1hpZ09hQnR1b29VYmtPbTRvbUZER0ZDenVUYm1FNTlRSjFNaW9LZ1NjUVhiek9WR1JWRg?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
      "id": "0c7a0e58403592",
      "date": "2026-10-26T16:49:42+00:00",
      "titre": "Le dossier d'IPO d'Anthropic dévoile sa stratégie de fidélisation",
@@ -493,6 +763,28 @@
      "primaire": false
     },
     {
+     "id": "802081ed73119f",
+     "date": "2026-10-27T19:17:28+00:00",
+     "titre": "Spéculations autour d'une éventuelle introduction en bourse d'Anthropic",
+     "neuf": "La presse financière analyse les potentiels bénéficiaires de l'entrée en bourse d'Anthropic.",
+     "fil": "Même introduction en bourse d'Anthropic et spéculations financières",
+     "source": "Anthropic (actus)",
+     "lien": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNQTJqNWFTVDd0dGZUZEZKRDdFMm9ZTzhhODBZMXQzbGUwRHVjMkJjNlJ1ejcxMjlOMUNDcFNJNDVJYWZMOTVZNXR0M1UyS0V5U0cyOUNfUjFNZ0VTUFprd3BuSXZCM1ZYMnMyMTQ5T21iVkplaFBaMUZkWTJLWHktcEFGRnlFWWh5MTg2UXNZRVNiQlk?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "9ca19d0dc977ed",
+     "date": "2026-10-27T19:28:00+00:00",
+     "titre": "Le dossier d'IPO d'Anthropic détaille 93 pages de risques",
+     "neuf": "Le dossier officiel d'introduction en bourse d'Anthropic détaille 93 pages de risques spécifiques.",
+     "fil": "Même dossier d'IPO d'Anthropic et détails des risques",
+     "source": "Anthropic (actus)",
+     "lien": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9Yb0oxZW82VTM4UDliRHJ4eHpZQ0RqQmhRWXdjTnBvNVhLXzlFZmxkN2ZFdUJZYk4zT3dOUnJxQVVvcG9MZkZfX2YxUjlpZ2E4NzdFcG11dmU5dlpldWtnTGc0QTZDX2FxZGww?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
      "id": "a410998e736fc8",
      "date": "2026-10-27T20:43:50+00:00",
      "titre": "Les risques de sécurité qu'Anthropic anticipe avant son introduction en bourse",
@@ -502,11 +794,147 @@
      "lien": "https://news.google.com/rss/articles/CBMickFVX3lxTE1wLWI4bU9zTEQxN2FVUFY2eFBlUG91Z01rWTBIQjl1bWRkT09tSWgydnh3Sl9naC1SdHdZcVh1QXhvUDUzQVQ2eU54QXJOOURMZ0JlTlJtOGRPZzllSUJKcG5DZGNkak92cERuV3dhb3p1Zw?oc=5",
      "nb_sources": 1,
      "primaire": false
+    },
+    {
+     "id": "a9a2cf8c96fedf",
+     "date": "2026-10-27T21:38:28+00:00",
+     "titre": "La gouvernance complexe d'Anthropic après son introduction en bourse",
+     "neuf": "La structure de gouvernance d'Anthropic est jugée particulièrement complexe suite à son IPO.",
+     "fil": "Même gouvernance et introduction en bourse d'Anthropic",
+     "source": "TechCrunch IA",
+     "lien": "https://techcrunch.com/2026/10/27/whos-really-in-charge-at-anthropic-after-the-ipo/",
+     "nb_sources": 1,
+     "primaire": false
     }
    ],
    "statut": "active",
    "societes": [
     "anthropic",
+    "openai"
+   ]
+  },
+  {
+   "id": "h_27b5489481",
+   "titre": "Rupture entre le gouvernement américain et Anthropic",
+   "resume": "Malgré les ordres de rupture de l'administration Trump et son placement sur liste noire, des accords comme OneGov avec la GSA sont étendus tandis que le Pentagone lie ses achats d'IA aux directives de neutralité. Les tensions se poursuivent également sur le plan juridique et public avec OpenAI.",
+   "creee": "2026-10-20T09:56:16.457937+00:00",
+   "maj": "2026-10-27T21:28:48+00:00",
+   "episodes": [
+    {
+     "id": "a5d5379bc0d458",
+     "date": "2026-10-05T07:00:00+00:00",
+     "titre": "Le Pentagone cesse d'utiliser les outils d'Anthropic après une mise sur liste noire",
+     "neuf": "Le Pentagone cesse officiellement d'utiliser les outils d'Anthropic après sa mise sur liste noire.",
+     "fil": "même rupture des relations entre le Pentagone et Anthropic",
+     "source": "Anthropic et gouvernement",
+     "lien": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5ILU5UbWc0NDdJSEowdm9PaE14Nkl1MjlpSEJ4djdRQUlhVWNocFAyMXpxN0pXOUZNQk1YQ3JiZnd5MVpGckNkLU5NU1FXTjZzS2EyWDU0RnB3N1U?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "77a430eb2248cd",
+     "date": "2026-10-17T19:57:28+00:00",
+     "titre": "Donald Trump ordonne au gouvernement américain de rompre avec Anthropic",
+     "neuf": "Donald Trump ordonne de rompre les liens entre l'État et Anthropic, qualifié de risque pour la chaîne d'approvisionnement.",
+     "fil": "Rupture entre le gouvernement américain et Anthropic",
+     "source": "Anthropic et gouvernement",
+     "lien": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPazMyTEtZY2RWSjJJaC05T0Y2NDE4bG9NeF9od29uVmtubVYxQnVNOGFuY0hrNjM1bW0xRFVGUkJHbEJNSjJWVGc0YzA0TFZKcl9fRlM0YnVjcU55aXhDcTk1Nl9PYkhXWWZYUnVpMUx5XzNIVTBwR0VPUkxfMnltUEExbGE0alRYZXQtUzhJWDZrTTFqbm1EMW5LbTd1UGx0Z1JCejgxVU1BOWs30gGyAUFVX3lxTE45MVA4TGJmSW1LU1BrdW5MOFhVb1UwU0FDdTZwcnhiNUN5NlhHaW4wTjc5ZDFya2NRUEE0TjEtU21INHhORE5LRUxoeEhNYmo5YXBVcEtjWm1JOGdUaFVYMHV4RndneXVIZ2EwWEN0QjVzOHBRVFVJODR3MzJGSVlPM0RfZTJQWENuaGZHck1zMmZUd0tsOFc0bUpRRmdjUzFTYUFtZHJGUmoxel9oV2t2MXc?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "9f283278fce48b",
+     "date": "2026-10-20T07:12:24+00:00",
+     "titre": "Ultimatum du Pentagone adressé à Anthropic concernant sa technologie d'IA",
+     "neuf": "Le Pentagone aurait adressé un ultimatum à Anthropic dans le cadre des tensions géopolitiques et sécuritaires en cours.",
+     "fil": "même conflit entre le gouvernement américain / Pentagone et Anthropic",
+     "source": "IA militaire",
+     "lien": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPWmk1c3RRZUVnenpEV3lQRUtudTdTV05mVXo4MWxRVW91UkJCVTB0dmo1dDRfQy13Z2hRSkJ5UXN4NlRscjhaTk5uOEhLcElBckVjd0F4Z0hkUHFYejYwWi1tUjM0Vm9DeE9JdjYxWldSbGVOWjhzcEFTNzMxUDNKNG1ic2VhM2ZDVDVsZE15M0JzNzByUTUzZU1yMEppbWvSAaQBQVVfeXFMUFp0N0lQZWF3MHlhZUlzQXl0Wnp1VWxkMnlHZnh1dUM2RENlSll1QU5MVE9keFNUbzJoczlLT1Z3Z09tdHRyT044MVNwTF90YlNXYkNlVGFsWHdNMmdjSkMxOVNpQ3ZZSTBIWU5KUk5YOXBmcElYdmVHWUhqQXlSX0RWaWdrUV82NmRDN1pYU19GckhjOERTb1FHWkJJalk3ODRDM08?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "d417c130eeded4",
+     "date": "2026-10-20T23:12:13+00:00",
+     "titre": "Le département américain de la Santé s'apprête à attribuer un contrat direct à Anthropic",
+     "neuf": "Malgré les tensions, le département de la Santé s'apprête à attribuer un contrat direct à Anthropic avant une compétition plus large.",
+     "fil": "même relation gouvernement américain et Anthropic",
+     "source": "Anthropic et gouvernement",
+     "lien": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9sUW41dkF1aFFTbHotcmJualhBVnlNWmhfY2oxMnpVNFYwTFlXa2MtWmp5N3BydWVDb2owRmliTVpSU3hiYVhVdF96TWtZSm1KQkUtWnlhRUVPWnhmWUlUSlpKYUtsUy1TZ3JHYXF3czc?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "5c2c0b89c39484",
+     "date": "2026-10-21T18:22:00+00:00",
+     "titre": "Des théologiens catholiques demandent des limites claires pour l'IA militaire",
+     "neuf": "Des théologiens catholiques interviennent auprès de la cour fédérale pour demander des limites à l'IA militaire.",
+     "fil": "même litige juridique concernant l'utilisation militaire d'Anthropic",
+     "source": "IA militaire",
+     "lien": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQa1ppWmFoMWlMVTZHd3hHTjZfMXdlcV83SmxERDg1VVBqOVVnNlZ1SHczSUc1bXA2R2NFRldhbV9ibEE1Rm9Wam4yQnpXRkQ3VTNZNlRuUHAzRWZvR2JDR28wNFlOcFZLUDB4WmdjVVZhODJfaUhpVzdoQ0llRV9QS2NPWmJnOWhVMW1XUlFBR0tham1xVlU4UDJYNkFEaE5mRmx2Vnd0aVB6OXM2RlVsZTIwdFJfTWJpSFdVYWt4dWV4cXFy?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "d76be378318ff3",
+     "date": "2026-10-21T22:28:48+00:00",
+     "titre": "D'anciens responsables américains demandent au tribunal de réexaminer le litige entre Anthropic et le Pentagone",
+     "neuf": "D'anciens responsables demandent à la cour d'appel fédérale de réexaminer le dossier.",
+     "fil": "le litige entre Anthropic et le Pentagone",
+     "source": "Anthropic et gouvernement",
+     "lien": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPazV1Y2dCb0s2SlJQSnh2TUdlcE1NQ01hSXVqWTVuSVNxc2lSY1c0eW1fSmZpYXM0MjNZWEFFZUUtYW4tSUNSLU8xOGxNbUNwcnVZOXl5bWc1VjlHeFFOX05aLVdZQTBwSGR6MjZSdU4zUVEzWU45YmhKQ3FOclNNRGt1VUpCc2s0?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "96f376034e8f0d",
+     "date": "2026-10-23T16:44:28+00:00",
+     "titre": "Le Pentagone publie des directives pour l'achat d'IA",
+     "neuf": "Le Pentagone publie un cadre d'achat d'IA s'alignant sur les exigences de neutralité et de recherche de la vérité de la Maison-Blanche.",
+     "fil": "nouvelles directives du Pentagone sur l'acquisition d'IA",
+     "source": "IA militaire",
+     "lien": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNekJOVG9kXzUyTWdLeWVSeFFXNHgzRXdLMnRBZGlMM0xlRmJ6ZmxKVmMyaVF6Sl9KTEYyOWZfbWo0cTlCbXQ5cWZzTXFfU1AtazVpVEwyRmtFQVBpQ1lxQnp1LU5DUXltVTRlMzdyTWgzOGlOS3l1alR0aVMxMnpyckVBVlJ5SDhYYlpKYW9R?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "8b92c82988b602",
+     "date": "2026-10-26T16:30:52+00:00",
+     "titre": "Appel du DOJ pour lever l'interdiction d'utilisation d'Anthropic",
+     "neuf": "Le Département de la justice fait appel pour contester l'interdiction d'utilisation d'Anthropic par les agences fédérales.",
+     "fil": "Même litige entre le gouvernement américain et Anthropic",
+     "source": "Anthropic et gouvernement",
+     "lien": "https://news.google.com/rss/articles/CBMisAFBVV95cUxORkNjb2FLcGRnbnJTd0l6VjNEbmQ3c2Fyd0pwR0xSUTRSQnJ6b3kzckJqSDBtdXNNUlhPWlVhMFFVbjVBMW9CWjlhbVBnekxiY3M4NW9DaGZ5VDdCWk9aWWQxSGg5Q2E1QjV0WFhKZVBOUDFlQ092R25nUFh2UnlRYVdjb2UyTndZVzNOLXk5cURWeWE3MnJxckVwc0dSNjRoR1FKMV8xRzRSdkdkS0ctZw?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "38e964bc11962b",
+     "date": "2026-10-26T18:29:00+00:00",
+     "titre": "Tensions entre Anthropic et OpenAI au sujet d'un contrat avec le Pentagone",
+     "neuf": "Le président d'Anthropic critique publiquement OpenAI au sujet d'un accord conclu avec le Pentagone.",
+     "fil": "les tensions et contrats avec le Pentagone",
+     "source": "IA militaire",
+     "lien": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPQklsVWxQV2xBRXFpb084NFJZZTJHNkM1cjhPSGJSZlV5Y2dJcDRFQ1Vob3kzLXJIMGMxaFd4WHF3UEMxR1pZY05lc0F5UDZpZ0VIeUpvS1FGR0VNcGpCVkhDVTVhMFduWnViZVYwN2sxU08wYnNuMWdIVlRlci10amtwR0VPaEZIbUxLSnlPb2kwRWtMLWZBV1NLY2hWSGR1MXRXVVMtb1lGRkkxR1otVWJacUxtUFN4dXdfdjgycUo?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "7fd7ff3b9ec4c5",
+     "date": "2026-10-27T21:28:48+00:00",
+     "titre": "Le Pentagone lie ses achats d'IA aux directives politiques de Trump",
+     "neuf": "Le Pentagone subordonne ses acquisitions d'IA aux directives idéologiques et de neutralité de l'administration Trump.",
+     "fil": "Mêmes directives politiques et achats d'IA du Pentagone",
+     "source": "IA militaire",
+     "lien": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPQlFEY3lWXzdBdmJqMUVXTlJXTUs5aXgxMUpfSXFRY0c0aUxJc0YxaVJ3blljczVGc3M5YUxlbnVmcjZTRzY5Yjh1QUU4Y0xKNjRLeWNrWXJrWDJxWmQ3dkR1SkpyQ0pTbkNpU3c4VU1KT3FwcTdhcktMWDB6UlpKM3FzSGdtbUpsRnd3MFF4ekJFanU5Y0NPa3BrRXR1TGM5NlJVOURsWS1kTWtT?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    }
+   ],
+   "statut": "active",
+   "societes": [
+    "anthropic",
+    "usgov",
     "openai"
    ]
   },
@@ -587,6 +1015,30 @@
    "statut": "active",
    "societes": [
     "anthropic"
+   ]
+  },
+  {
+   "id": "h_71d93fee85",
+   "titre": "Quantifications GGUF pour le modèle Qwen3.8 27B",
+   "resume": "Le modèle Qwen3.8 27B est rendu disponible sous forme de quantifications GGUF pour s'adapter à différentes configurations matérielles locales.",
+   "creee": "2026-10-28T01:08:58.693059+00:00",
+   "maj": "2026-10-27T18:52:27+00:00",
+   "episodes": [
+    {
+     "id": "a08630aa7a33a1",
+     "date": "2026-10-27T18:52:27+00:00",
+     "titre": "Statistically Lossless Qwen3.8 27B GGUFs",
+     "neuf": "Mise à disposition des versions GGUF pour le modèle Qwen3.8 27B.",
+     "fil": "Publication des quantifications GGUF pour Qwen3.8 27B",
+     "source": "r/LocalLLaMA",
+     "lien": "https://www.reddit.com/r/LocalLLaMA/comments/1xh17tk/statistically_lossless_qwen38_27b_ggufs/",
+     "nb_sources": 1,
+     "primaire": false
+    }
+   ],
+   "statut": "active",
+   "societes": [
+    "alibaba"
    ]
   },
   {
@@ -1043,9 +1495,9 @@
   {
    "id": "h_af202225e5",
    "titre": "Lancement et adoption de GPT-6 Astra",
-   "resume": "OpenAI déploie GPT-6 Astra pour des usages massifs, allant de l'analyse de données biologiques complexes par des milliers d'agents à l'automatisation de la détection de bugs de code via des intégrations tierces.",
+   "resume": "OpenAI déploie GPT-6 Astra pour des usages massifs, allant de l'analyse de données complexes à l'automatisation de la détection de bugs et aux agents vocaux de Retell gérant 100 millions d'appels mensuels.",
    "creee": "2026-10-20T09:56:16.457937+00:00",
-   "maj": "2026-10-26T22:00:00+00:00",
+   "maj": "2026-10-27T15:00:00+00:00",
    "episodes": [
     {
      "id": "c68e4b407e0276",
@@ -1088,6 +1540,17 @@
      "fil": "Déploiement et intégration de GPT-6 Astra",
      "source": "OpenAI",
      "lien": "https://openai.com/index/greptile-code-review-codex-astra",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "d42fb1eb336241",
+     "date": "2026-10-27T15:00:00+00:00",
+     "titre": "Retell utilise les modèles OpenAI pour propulser 100 millions d'appels mensuels",
+     "neuf": "Retell utilise les modèles OpenAI pour propulser 100 millions d'appels mensuels grâce à la domination de GPT-6 Astra.",
+     "fil": "Même adoption et performances de GPT-6 Astra",
+     "source": "OpenAI",
+     "lien": "https://openai.com/index/retell-ai",
      "nb_sources": 1,
      "primaire": false
     }
@@ -1140,120 +1603,6 @@
    ],
    "statut": "active",
    "societes": [
-    "openai"
-   ]
-  },
-  {
-   "id": "h_27b5489481",
-   "titre": "Rupture entre le gouvernement américain et Anthropic",
-   "resume": "Suite aux ordres de Donald Trump de rompre les liens avec Anthropic et à son placement sur liste noire, le Pentagone a cessé d'utiliser ses outils, tandis que le DOJ fait appel de la décision. Les tensions s'illustrent aussi par des passes d'armes publiques entre dirigeants d'Anthropic et d'OpenAI au sujet des contrats avec le Pentagone.",
-   "creee": "2026-10-20T09:56:16.457937+00:00",
-   "maj": "2026-10-26T18:29:00+00:00",
-   "episodes": [
-    {
-     "id": "a5d5379bc0d458",
-     "date": "2026-10-05T07:00:00+00:00",
-     "titre": "Le Pentagone cesse d'utiliser les outils d'Anthropic après une mise sur liste noire",
-     "neuf": "Le Pentagone cesse officiellement d'utiliser les outils d'Anthropic après sa mise sur liste noire.",
-     "fil": "même rupture des relations entre le Pentagone et Anthropic",
-     "source": "Anthropic et gouvernement",
-     "lien": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5ILU5UbWc0NDdJSEowdm9PaE14Nkl1MjlpSEJ4djdRQUlhVWNocFAyMXpxN0pXOUZNQk1YQ3JiZnd5MVpGckNkLU5NU1FXTjZzS2EyWDU0RnB3N1U?oc=5",
-     "nb_sources": 1,
-     "primaire": false
-    },
-    {
-     "id": "77a430eb2248cd",
-     "date": "2026-10-17T19:57:28+00:00",
-     "titre": "Donald Trump ordonne au gouvernement américain de rompre avec Anthropic",
-     "neuf": "Donald Trump ordonne de rompre les liens entre l'État et Anthropic, qualifié de risque pour la chaîne d'approvisionnement.",
-     "fil": "Rupture entre le gouvernement américain et Anthropic",
-     "source": "Anthropic et gouvernement",
-     "lien": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPazMyTEtZY2RWSjJJaC05T0Y2NDE4bG9NeF9od29uVmtubVYxQnVNOGFuY0hrNjM1bW0xRFVGUkJHbEJNSjJWVGc0YzA0TFZKcl9fRlM0YnVjcU55aXhDcTk1Nl9PYkhXWWZYUnVpMUx5XzNIVTBwR0VPUkxfMnltUEExbGE0alRYZXQtUzhJWDZrTTFqbm1EMW5LbTd1UGx0Z1JCejgxVU1BOWs30gGyAUFVX3lxTE45MVA4TGJmSW1LU1BrdW5MOFhVb1UwU0FDdTZwcnhiNUN5NlhHaW4wTjc5ZDFya2NRUEE0TjEtU21INHhORE5LRUxoeEhNYmo5YXBVcEtjWm1JOGdUaFVYMHV4RndneXVIZ2EwWEN0QjVzOHBRVFVJODR3MzJGSVlPM0RfZTJQWENuaGZHck1zMmZUd0tsOFc0bUpRRmdjUzFTYUFtZHJGUmoxel9oV2t2MXc?oc=5",
-     "nb_sources": 1,
-     "primaire": false
-    },
-    {
-     "id": "9f283278fce48b",
-     "date": "2026-10-20T07:12:24+00:00",
-     "titre": "Ultimatum du Pentagone adressé à Anthropic concernant sa technologie d'IA",
-     "neuf": "Le Pentagone aurait adressé un ultimatum à Anthropic dans le cadre des tensions géopolitiques et sécuritaires en cours.",
-     "fil": "même conflit entre le gouvernement américain / Pentagone et Anthropic",
-     "source": "IA militaire",
-     "lien": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPWmk1c3RRZUVnenpEV3lQRUtudTdTV05mVXo4MWxRVW91UkJCVTB0dmo1dDRfQy13Z2hRSkJ5UXN4NlRscjhaTk5uOEhLcElBckVjd0F4Z0hkUHFYejYwWi1tUjM0Vm9DeE9JdjYxWldSbGVOWjhzcEFTNzMxUDNKNG1ic2VhM2ZDVDVsZE15M0JzNzByUTUzZU1yMEppbWvSAaQBQVVfeXFMUFp0N0lQZWF3MHlhZUlzQXl0Wnp1VWxkMnlHZnh1dUM2RENlSll1QU5MVE9keFNUbzJoczlLT1Z3Z09tdHRyT044MVNwTF90YlNXYkNlVGFsWHdNMmdjSkMxOVNpQ3ZZSTBIWU5KUk5YOXBmcElYdmVHWUhqQXlSX0RWaWdrUV82NmRDN1pYU19GckhjOERTb1FHWkJJalk3ODRDM08?oc=5",
-     "nb_sources": 1,
-     "primaire": false
-    },
-    {
-     "id": "d417c130eeded4",
-     "date": "2026-10-20T23:12:13+00:00",
-     "titre": "Le département américain de la Santé s'apprête à attribuer un contrat direct à Anthropic",
-     "neuf": "Malgré les tensions, le département de la Santé s'apprête à attribuer un contrat direct à Anthropic avant une compétition plus large.",
-     "fil": "même relation gouvernement américain et Anthropic",
-     "source": "Anthropic et gouvernement",
-     "lien": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9sUW41dkF1aFFTbHotcmJualhBVnlNWmhfY2oxMnpVNFYwTFlXa2MtWmp5N3BydWVDb2owRmliTVpSU3hiYVhVdF96TWtZSm1KQkUtWnlhRUVPWnhmWUlUSlpKYUtsUy1TZ3JHYXF3czc?oc=5",
-     "nb_sources": 1,
-     "primaire": false
-    },
-    {
-     "id": "5c2c0b89c39484",
-     "date": "2026-10-21T18:22:00+00:00",
-     "titre": "Des théologiens catholiques demandent des limites claires pour l'IA militaire",
-     "neuf": "Des théologiens catholiques interviennent auprès de la cour fédérale pour demander des limites à l'IA militaire.",
-     "fil": "même litige juridique concernant l'utilisation militaire d'Anthropic",
-     "source": "IA militaire",
-     "lien": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQa1ppWmFoMWlMVTZHd3hHTjZfMXdlcV83SmxERDg1VVBqOVVnNlZ1SHczSUc1bXA2R2NFRldhbV9ibEE1Rm9Wam4yQnpXRkQ3VTNZNlRuUHAzRWZvR2JDR28wNFlOcFZLUDB4WmdjVVZhODJfaUhpVzdoQ0llRV9QS2NPWmJnOWhVMW1XUlFBR0tham1xVlU4UDJYNkFEaE5mRmx2Vnd0aVB6OXM2RlVsZTIwdFJfTWJpSFdVYWt4dWV4cXFy?oc=5",
-     "nb_sources": 1,
-     "primaire": false
-    },
-    {
-     "id": "d76be378318ff3",
-     "date": "2026-10-21T22:28:48+00:00",
-     "titre": "D'anciens responsables américains demandent au tribunal de réexaminer le litige entre Anthropic et le Pentagone",
-     "neuf": "D'anciens responsables demandent à la cour d'appel fédérale de réexaminer le dossier.",
-     "fil": "le litige entre Anthropic et le Pentagone",
-     "source": "Anthropic et gouvernement",
-     "lien": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPazV1Y2dCb0s2SlJQSnh2TUdlcE1NQ01hSXVqWTVuSVNxc2lSY1c0eW1fSmZpYXM0MjNZWEFFZUUtYW4tSUNSLU8xOGxNbUNwcnVZOXl5bWc1VjlHeFFOX05aLVdZQTBwSGR6MjZSdU4zUVEzWU45YmhKQ3FOclNNRGt1VUpCc2s0?oc=5",
-     "nb_sources": 1,
-     "primaire": false
-    },
-    {
-     "id": "96f376034e8f0d",
-     "date": "2026-10-23T16:44:28+00:00",
-     "titre": "Le Pentagone publie des directives pour l'achat d'IA",
-     "neuf": "Le Pentagone publie un cadre d'achat d'IA s'alignant sur les exigences de neutralité et de recherche de la vérité de la Maison-Blanche.",
-     "fil": "nouvelles directives du Pentagone sur l'acquisition d'IA",
-     "source": "IA militaire",
-     "lien": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNekJOVG9kXzUyTWdLeWVSeFFXNHgzRXdLMnRBZGlMM0xlRmJ6ZmxKVmMyaVF6Sl9KTEYyOWZfbWo0cTlCbXQ5cWZzTXFfU1AtazVpVEwyRmtFQVBpQ1lxQnp1LU5DUXltVTRlMzdyTWgzOGlOS3l1alR0aVMxMnpyckVBVlJ5SDhYYlpKYW9R?oc=5",
-     "nb_sources": 1,
-     "primaire": false
-    },
-    {
-     "id": "8b92c82988b602",
-     "date": "2026-10-26T16:30:52+00:00",
-     "titre": "Appel du DOJ pour lever l'interdiction d'utilisation d'Anthropic",
-     "neuf": "Le Département de la justice fait appel pour contester l'interdiction d'utilisation d'Anthropic par les agences fédérales.",
-     "fil": "Même litige entre le gouvernement américain et Anthropic",
-     "source": "Anthropic et gouvernement",
-     "lien": "https://news.google.com/rss/articles/CBMisAFBVV95cUxORkNjb2FLcGRnbnJTd0l6VjNEbmQ3c2Fyd0pwR0xSUTRSQnJ6b3kzckJqSDBtdXNNUlhPWlVhMFFVbjVBMW9CWjlhbVBnekxiY3M4NW9DaGZ5VDdCWk9aWWQxSGg5Q2E1QjV0WFhKZVBOUDFlQ092R25nUFh2UnlRYVdjb2UyTndZVzNOLXk5cURWeWE3MnJxckVwc0dSNjRoR1FKMV8xRzRSdkdkS0ctZw?oc=5",
-     "nb_sources": 1,
-     "primaire": false
-    },
-    {
-     "id": "38e964bc11962b",
-     "date": "2026-10-26T18:29:00+00:00",
-     "titre": "Tensions entre Anthropic et OpenAI au sujet d'un contrat avec le Pentagone",
-     "neuf": "Le président d'Anthropic critique publiquement OpenAI au sujet d'un accord conclu avec le Pentagone.",
-     "fil": "les tensions et contrats avec le Pentagone",
-     "source": "IA militaire",
-     "lien": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPQklsVWxQV2xBRXFpb084NFJZZTJHNkM1cjhPSGJSZlV5Y2dJcDRFQ1Vob3kzLXJIMGMxaFd4WHF3UEMxR1pZY05lc0F5UDZpZ0VIeUpvS1FGR0VNcGpCVkhDVTVhMFduWnViZVYwN2sxU08wYnNuMWdIVlRlci10amtwR0VPaEZIbUxLSnlPb2kwRWtMLWZBV1NLY2hWSGR1MXRXVVMtb1lGRkkxR1otVWJacUxtUFN4dXdfdjgycUo?oc=5",
-     "nb_sources": 1,
-     "primaire": false
-    }
-   ],
-   "statut": "active",
-   "societes": [
-    "anthropic",
-    "usgov",
     "openai"
    ]
   },
@@ -1835,74 +2184,6 @@
    "statut": "active",
    "societes": [
     "anthropic"
-   ]
-  },
-  {
-   "id": "h_5e0762833f",
-   "titre": "Action en justice contre SpaceXAI",
-   "resume": "SpaceXAI fait face à une escalation des poursuites judiciaires et pécuniaires, les réclamations financières totales s'élevant désormais à 220 millions de dollars. En parallèle, l'entreprise continue de développer l'écosystème de Grok à travers des partenariats et des intégrations mobiles.",
-   "creee": "2026-10-20T20:45:07.920169+00:00",
-   "maj": "2026-10-25T09:44:33+00:00",
-   "episodes": [
-    {
-     "id": "54794aade42fd8",
-     "date": "2026-10-20T19:51:00+00:00",
-     "titre": "Une plainte en justice contre SpaceXAI autorisée à se poursuivre",
-     "neuf": "Un juge autorise la poursuite de la plainte visant l'entreprise.",
-     "fil": "action en justice contre SpaceXAI",
-     "source": "Grok et SpaceXAI (actus)",
-     "lien": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOUVI0SUp1dnBQTWNyRkZnSTJWdUx3Y05pM2ozaHJXMVFVZnpPUTNhYWVldGlaR3pEN21yQWdRdTgweWlmaDA0WlU1dllGRWRZVDZKMXZLdXNJNDV4dnNkdFNtcV9OaU1EU3ozdkR5SW50QmhKRWJIUmxCdHp5cjdiSldfTldEUi1zTE5nazhVTQ?oc=5",
-     "nb_sources": 1,
-     "primaire": false
-    },
-    {
-     "id": "f33d215c710570",
-     "date": "2026-10-21T21:33:47+00:00",
-     "titre": "Refus d'intervention du DOJ dans le procès SpaceXAI à Southaven",
-     "neuf": "Un tribunal bloque l'intervention du ministère de la Justice dans l'affaire SpaceXAI à Southaven.",
-     "fil": "le procès SpaceXAI",
-     "source": "Grok et SpaceXAI (actus)",
-     "lien": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQY3RCWlc5ZHUxWTM1V1JjTkhEWlN2Ny14eGZOaVhnSHRuTDR4OTlSQVdWbDBhbGtQdjBKSXhUOWd2dzEwblJqakNpaWd6OHN0VjdsdGFMSTVibUJHMXY3N25QTGhwMmk5Snh5LXg1R2FQS20wTUVLQzgtdWZmNlJTUkxFeDdScjBfaU5VYzljTGFKRkE?oc=5",
-     "nb_sources": 1,
-     "primaire": false
-    },
-    {
-     "id": "c3e2edb0d5b6e5",
-     "date": "2026-10-22T16:39:00+00:00",
-     "titre": "City of Memphis moves to ease truck traffic concerns near SpaceXAI supercomputer - FOX13 Memphis",
-     "neuf": "La ville de Memphis prend des mesures pour fluidifier le trafic des camions autour du supercalculateur SpaceXAI.",
-     "fil": "même projet et supercalculateur SpaceXAI à Memphis",
-     "source": "Grok et SpaceXAI (actus)",
-     "lien": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxPc1RNVTdqU2Fzc3dMUXlaUDJFTklDOGpKZVdrWFJJRkJWMVBzdTU1Ym9GTUFoYUFuTEJRZ1FuTldjWmNLeUVtUjlKSEVjc0Y5Sm45Y1JaTEQyWmlyTWNEc09OTnJUR2U0enpYTGFzX3hZcUdnUWFocW85MnNJbnQ2QTM2QWd3TmNOcW40QzREQzhLYXF1dkpXamhld3g1WEVsclZvLTJQNkpVR05kTmJ3bkdHWEIxenB2V2RFRzFJakNZODVkR1VDdHQ3UmFQSjk5WkFZa0UzWV9xdDlHVnRuME0yZXE0OUxqbUFPa2ZHdzRsaEtic0Vj?oc=5",
-     "nb_sources": 1,
-     "primaire": false
-    },
-    {
-     "id": "6451ac313e4eca",
-     "date": "2026-10-22T22:47:00+00:00",
-     "titre": "SpaceXAI visé par 6,1 millions de dollars d'amendes au Mississippi",
-     "neuf": "SpaceXAI écope de 6,1 millions de dollars d'amendes au Mississippi.",
-     "fil": "Mêmes poursuites et sanctions contre SpaceXAI",
-     "source": "Grok et SpaceXAI (actus)",
-     "lien": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOZEdkSEpTVk5FclA4TldnQ1g2QTNrdDBWNFlEZ1gtRlo4X3ZQdHM2SlBOYmlrVHNOWmIyaXh1bkUxenVnXzVPMHV4akx2TkQ0TWFkN1plY3dWcktwdVJCNnh0Smw0UEtCZW90QmliWEZRODJST2hIMzdJWXhVU1JET2pSdGZaUEUwRWlNMklKUFZTbTRUQjNrNVZLQjI1T01XUm5MZnBvMEtoVWEwendPNzlJcms0V1V2anlQci1YQmFlZ2M?oc=5",
-     "nb_sources": 1,
-     "primaire": false
-    },
-    {
-     "id": "9f9c516908c72b",
-     "date": "2026-10-25T09:44:33+00:00",
-     "titre": "220 millions de dollars de réclamations déposés contre SpaceXAI",
-     "neuf": "Le montant total des réclamations financières visant SpaceXAI s'élève désormais à 220 millions de dollars.",
-     "fil": "même action en justice et réclamations contre SpaceXAI",
-     "source": "Grok et SpaceXAI (actus)",
-     "lien": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPYkF5X2MwdVBzM05fUFpZTFM4eGRrZy15aDZCZTIxZWo5R2o1Z1FRX2VoRmJNVkpmVVNiZ3FiSGZUcndmT0RTN1lGRW1SZ3FWRzlWbGlGbzE2WWs3VU5IMDVURzFRaUdlWTNzTGJKTjJjVVBTUGRSa1RQOW9qUW1NYkZVMkZIajZCdkhVS1VCVEkxT0dHRzlGZllVU1lGdGJrVV9rV2FnaVY0OGJ0?oc=5",
-     "nb_sources": 1,
-     "primaire": false
-    }
-   ],
-   "statut": "active",
-   "societes": [
-    "spacexai"
    ]
   },
   {
@@ -2505,129 +2786,6 @@
    "statut": "active",
    "societes": [
     "huggingface"
-   ]
-  },
-  {
-   "id": "h_706c77ae76",
-   "titre": "Le projet de loi d'Anthropic sur la sécurité de l'IA",
-   "resume": "Anthropic structure sa proposition de régulation en définissant des critères stricts via un projet de loi prévoyant de permettre à un juge de suspendre un modèle d'IA présentant des risques mortels de masse. Ce positionnement axé sur la sécurité reste toutefois accompagné de critiques sur la cadence de ses lancements.",
-   "creee": "2026-10-20T09:56:16.457937+00:00",
-   "maj": "2026-10-21T23:53:38+00:00",
-   "episodes": [
-    {
-     "id": "4a721a6610aa2c",
-     "date": "2026-10-16T21:45:00+00:00",
-     "titre": "Anthropic propose discrètement son propre projet de loi sur la sécurité de l'IA",
-     "neuf": "Anthropic soumet discrètement son propre texte législatif sur la sécurité aux législateurs.",
-     "fil": "Projet de loi d'Anthropic sur la sécurité de l'IA",
-     "source": "Grandes annonces IA",
-     "lien": "https://news.google.com/rss/articles/CBMieEFVX3lxTE0ydWVrbHdHeGNraEdTSHQ5eExwZ2lLRUU1U1BoVFJUTWNLenpWTXJOMHNnWnhaa0thQXlRbk1KdEliVVVGUEJXZWwtcWtUZE9Ielo2X05DaHJKSmJpd05rRl9vMWdQQUE4ZnVRRFBLQ3hlcm9FNG12bg?oc=5",
-     "nb_sources": 2,
-     "primaire": false
-    },
-    {
-     "id": "c9634539a3ae68",
-     "date": "2026-10-17T02:44:47+00:00",
-     "titre": "Anthropic pousserait un projet de loi limitant le pouvoir de l'État",
-     "neuf": "Des analyses juridiques révèlent que le texte d'Anthropic viserait aussi à restreindre les blocages gouvernementaux de modèles.",
-     "fil": "Projet de loi d'Anthropic sur la sécurité de l'IA",
-     "source": "Anthropic et gouvernement",
-     "lien": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPUUpETGxDdXo5QzRMMEdKUko5cWxsQzJSeDhRUUVZYV94Q2RKc1FjV2JaT1hmTUxBanF2WGN5bGFObkdXVTExVV80WFVpY2NfenEzOWFOUnFGbDRkbHBPcjRvcmJkbk5TYVRTV1U5NXNZajRlYVE5TTRKak1zYXNQNjlIUzNmVEw3?oc=5",
-     "nb_sources": 1,
-     "primaire": false
-    },
-    {
-     "id": "a07459ee24b06f",
-     "date": "2026-10-18T11:25:00+00:00",
-     "titre": "Le projet de loi sur la sécurité de l'IA d'Anthropic",
-     "neuf": "Précisions sur le périmètre du texte d'Anthropic, qui ne s'appliquerait qu'en présence de dommages massifs.",
-     "fil": "Projet de loi d'Anthropic sur la sécurité de l'IA",
-     "source": "Grandes annonces IA",
-     "lien": "https://news.google.com/rss/articles/CBMiiwNBVV95cUxOZzBaVmx3ZGk3YlBaUW1pR0FwLVdwWFlwaVlUeVFVdHY4dVhqRExLeV91blg0ZmNyRERfMFpQNmY5NlZtaW8xUDVwbEVlVWFMLUNkUnFiRk9KMEtsNThBR2loVXRxWkZiekxNYllWaEZpTzZBNUMtNndZUnVvTzQzZFJWS2d4NTE2eldDUzR0R2RDNHhuZ3p0cW9ib2puME5nQ2xpR2RRQkRkMmxjTmw2NV9Jck1tZjVCUDZwYjlYb0NyMS1MbWV0cE00SzlBbzZWcFB6M1FnRkFveFQxV0o2QS11MWtzOEUtQkx2NG40S3RJM0lOMUNBZjkzelBLdk94QzA3LUl6cDlPMFF3ZUM2MDYzSDRtQVlWR0pEeTVoY0JDdEN0WUxiUDl1eFpGTDBObUtZRHVlb0pyYzdMOFdTVUIxTXRQNnV5eGFlMWJIbEJhQWpKUDZEX1psZWxNakkzdWp2ekE3V3VFNWNXT21oYnA4c0w5bHZCTHNVUGNkLXRJU3pwMlV6V1p2aw?oc=5",
-     "nb_sources": 2,
-     "primaire": false
-    },
-    {
-     "id": "764ec59d5ad90e",
-     "date": "2026-10-18T23:10:26+00:00",
-     "titre": "Controverse autour d'une mesure de sécurité à un milliard de dollars d'Anthropic",
-     "neuf": "Des résistances et critiques émergent autour des initiatives et seuils de sécurité d'Anthropic.",
-     "fil": "même projet de loi / mesures de sécurité d'Anthropic",
-     "source": "Anthropic et gouvernement",
-     "lien": "https://news.google.com/rss/articles/CBMidEFVX3lxTE93SF8yZ0JVZjB5UWlKSklpRTRrVU5TaWlqTC1Mb2duVWlMQVVtRTJuZ1V2cnlsek5mTUxtVHdJQTR3RmZpRzViQTBkUTRyallVY3YzRjdqYlE4S2NCNnk3Z2JUcFhnM0xaOVdMNEpUMHppeFQ5?oc=5",
-     "nb_sources": 1,
-     "primaire": false
-    },
-    {
-     "id": "caf615d2c5f937",
-     "date": "2026-10-19T02:46:30+00:00",
-     "titre": "Le PDG d'Anthropic appelle à une réglementation renforcée de l'IA",
-     "neuf": "Le PDG d'Anthropic plaide publiquement sur ABC News pour une réglementation renforcée.",
-     "fil": "même initiative réglementaire d'Anthropic",
-     "source": "Anthropic et gouvernement",
-     "lien": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNTnFDeXdUaGRRY3FzRWFMbVpRbFBrVXVhOHNDWDRMaFQ1T1kzclBENEtWa3R5UDBDQktzb3Z3N0FYUjJsejBwZUY5eURuejdvaFg4eXJrSndRLWdvTGtDcVdwOFdXeHZlVWo4eXJDc3ZGWlg0aTZwak1ySWwtS3hkSzNmdVR3MEhGXzdGRDRjV3dpMzVTOFhDX0o1Z3FBSDBqamfSAacBQVVfeXFMTzVVZEpXZk9NbHhzV241am1weGozclJlMUV6WFd1VFFQSnhoLXhibFlnVnNQaGRsUm5QNjFtT2F4ZXdQUk9BN0VCbHgweEUySVhkMjRHZDROSmRoem1FUGwzTXVVd2wxZWkycDdWZld1RW5JaFJJd0tQMkx2VlkwNG9wS3Z6blByVkFpLV9lbEhjMjNSTDdoQzROTDhPbnlGbTdlRHJIUE0?oc=5",
-     "nb_sources": 1,
-     "primaire": false
-    },
-    {
-     "id": "bcf713c50f3a36",
-     "date": "2026-10-20T00:29:45+00:00",
-     "titre": "Fuite d'un projet de loi lié à Anthropic dans The Washington Post",
-     "neuf": "Un projet de loi lié à Anthropic fait l'objet d'une fuite médiatique rapportée par le Washington Post.",
-     "fil": "même projet de loi ou texte législatif concernant Anthropic",
-     "source": "Anthropic et gouvernement",
-     "lien": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOV3ZSeFlQcXJNaWYwT0RBeGN4WVhTWjRma2FRdHhzSlFRNmFZRnNOYzBSbDd3eE95ZFNqTkx1OEV0dkFXTXJCWFZsSEV4NHlLTjE4eU5rVDdzN0pfMnNWcFNmWk5jb0xnWHFyRUFZc1lsUFVUa2x6LVFjb214Ul9zU0dvQkh5emJZRWozVVFqNXU5SWN4dzBuZWc5Rm9JYURtMEV2ZE5qTzhDQ1Jlemc?oc=5",
-     "nb_sources": 1,
-     "primaire": false
-    },
-    {
-     "id": "c21f3eee513ab7",
-     "date": "2026-10-21T09:00:00+00:00",
-     "titre": "Pourquoi le projet de loi d'Anthropic fixe un seuil de risque à un milliard de dollars",
-     "neuf": "Des détails émergent sur le projet de loi d'Anthropic, révélant qu'il fixe un seuil de risque spécifique fixé à un milliard de dollars.",
-     "fil": "même projet de loi sur la sécurité de l'IA rédigé par Anthropic",
-     "source": "Anthropic et gouvernement",
-     "lien": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNWWhaN0lXMkdTcldqYTBoVktsbUx1QzI3emNYTmZ2Q2ZENEp0NFh2My1VeGZLbnlYbS1SMFNkak1FLXk1eGtaMUMtME9EOFpCV3N4TG45ZEUyNHRiVFNZcHFSTURZel9kSzNKRU8ySHBNZmtrcEg0VkNrdHhjUF8yWFVjMEFlYzhpcVE?oc=5",
-     "nb_sources": 1,
-     "primaire": false
-    },
-    {
-     "id": "f34bda1d353d9b",
-     "date": "2026-10-21T09:58:26+00:00",
-     "titre": "Un projet de loi d'Anthropic permettrait à un juge de bloquer le lancement d'un modèle d'IA",
-     "neuf": "Le projet de loi soutenu par Anthropic prévoirait spécifiquement la possibilité pour un juge d'interdire la sortie d'un modèle jugé risqué.",
-     "fil": "même projet de loi d'Anthropic sur la sécurité",
-     "source": "Grandes annonces IA",
-     "lien": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBVSGJfdmJHZU05d0ZGQWFTbzhRZlFhMDV5S2xSNWV6OXo2VmZFRTRRcE0xLWd4RkVacXNiYWRvVkE3OVBqbEVqcXFkbnpScHl4ZVJuLVg1V3YtWmc?oc=5",
-     "nb_sources": 1,
-     "primaire": false
-    },
-    {
-     "id": "30e3476c5a4f82",
-     "date": "2026-10-21T17:45:08+00:00",
-     "titre": "Anthropic définit ses propres règles pour l'arrêt de l'IA",
-     "neuf": "Anthropic formalise ses propres critères et protocoles pour l'arrêt d'urgence de ses systèmes d'intelligence artificielle.",
-     "fil": "Règles et protocoles d'arrêt de l'IA définis par Anthropic",
-     "source": "Anthropic et gouvernement",
-     "lien": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNNklqRkxuZlc0bjBpTFdqTzlnaTlJcmY1aHN6MEc4aVRHSkJOYUxic0Z6cEdxbmZmZl9yNFNCZTJqZm1KRHdMTzZDSHBtVHYyNGxhelgzSXY3bWlqOXZOaVdOc0xRRzc1ZE5FV2c0aUljLXBXRlh3SUhucXFZdXc4ZFZzNl9hQnN0ZXNIUEhKVE9NOFNXRTM0TlRsOXdxUzBLM2pDZXBJMTlHNzBDdXc?oc=5",
-     "nb_sources": 1,
-     "primaire": false
-    },
-    {
-     "id": "6e6bacec45099e",
-     "date": "2026-10-21T23:53:38+00:00",
-     "titre": "Un projet de loi d'Anthropic viserait à suspendre les IA en cas de risque mortel",
-     "neuf": "Le projet de loi d'Anthropic prévoit d'interrompre les modèles d'IA si leur utilisation présente un risque mortel de masse.",
-     "fil": "Projet de loi d'Anthropic sur la sécurité et la suspension des IA",
-     "source": "Anthropic et gouvernement",
-     "lien": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQXzBNYzBOY3ZQNHFJU2xxWkxDeEVzTVhIZU9vMWlFWUZYd0FVQUQzbDBZSHd4c0Y2WXZiVG9Ib1lNbVRUOC11aXBKYU1ONVladDF4Y2JySG9WZ0w1b1dPbmM4b2tyR3c3T3ZUOVZ1UFZSZ1Vva3hVbVBNcldKRzlPaVc2aE14RjhDRGc?oc=5",
-     "nb_sources": 1,
-     "primaire": false
-    }
-   ],
-   "statut": "active",
-   "societes": [
-    "anthropic"
    ]
   },
   {
