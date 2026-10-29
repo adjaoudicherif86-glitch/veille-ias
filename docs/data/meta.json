@@ -1,5 +1,5 @@
 {
- "maj": "2026-10-29T09:01:34.544933+00:00",
+ "maj": "2026-10-29T13:07:25.562610+00:00",
  "sources_ok": [
   "Notes de version Claude (API)",
   "Notes de version OpenAI (API)",
@@ -30,6 +30,7 @@
   "The Verge IA",
   "TechCrunch IA",
   "Simon Willison",
+  "Hacker News (IA, 100+ pts)",
   "r/LocalLLaMA",
   "arXiv cs.AI",
   "arXiv cs.CL",
@@ -54,51 +55,47 @@
   {
    "nom": "VentureBeat IA",
    "erreur": "429 Client Error: Too Many Requests for url: https://venturebeat.com/category/ai/feed/"
-  },
-  {
-   "nom": "Hacker News (IA, 100+ pts)",
-   "erreur": "HTTPSConnectionPool(host='hnrss.org', port=443): Max retries exceeded with url: /newest?q=AI+OR+LLM+OR+GPT+OR+Claude+OR+Gemini&points=100 (Caused by ConnectTime"
   }
  ],
- "total": 1494,
- "analyses": 1434,
+ "total": 1512,
+ "analyses": 1454,
  "brief": {
-  "titre": "Gemini 4 Carbon propulse Google en tête des modèles",
-  "texte": "Google marque les esprits en dévoilant Gemini 4 Carbon, un modèle majeur qui lui permet de reprendre la première place du secteur. L'écosystème s'accélère avec l'ouverture de l'API Gemini pour des applications tierces et le lancement d'un client CLI dédié aux agents. Parallèlement, NVIDIA renforce la transcription multilingue avec Nemotron 3.5 et Granary v2. Enfin, les entreprises consolident leurs outils avec de nouveaux audits de dépenses chez Anthropic et l'extension du partenariat entre OpenAI et ServiceNow.",
+  "titre": "Gemini 4 Carbon : Google bouscule le marché de l'IA",
+  "texte": "Google DeepMind frappe fort en dévoilant Gemini 4 Carbon, un modèle taillé pour la cyberdéfense et le code qui replace le géant en tête. Parallèlement, l'écosystème s'accélère avec l'arrivée de la CLI pour l'API Gemini et l'ouverture de ses services aux applications tierces. Du côté de la concurrence, Anthropic propose de nouveaux outils d'audit des dépenses en IA tandis que Microsoft affiche 10 milliards de revenus liés à OpenAI. Enfin, la transcription multilingue progresse grâce aux nouveaux modèles de NVIDIA et Apple sur Hugging Face.",
   "a_tester": [
-   "Tester l'API Gemini et le nouveau client CLI pour vos agents",
-   "Explorer Nemotron 3.5 pour vos besoins de transcription multilingue",
-   "Auditer vos dépenses en IA avec les nouveaux outils d'Anthropic"
+   "Tester la nouvelle Gemini API CLI pour vos agents IA",
+   "Explorer les capacités de code et cyberdéfense de Gemini 4 Carbon",
+   "Auditer vos coûts d'infrastructure IA avec les nouveaux outils d'Anthropic"
   ]
  },
  "top5": {
-  "maj": "2026-10-29T09:01:34.544933+00:00",
+  "maj": "2026-10-29T13:07:25.562610+00:00",
   "par_ia": true,
   "items": [
    {
-    "id": "61c5c57ddc1e28",
-    "pourquoi": "L'arrivée de GPT-6.1 Terra marque une étape clé avec l'intégration native des capacités de 'computer use' et de raisonnement visuel directement accessibles via l'API.",
-    "a_faire": "Tester l'API pour évaluer les performances sur les tâches d'automatisation d'interface."
-   },
-   {
-    "id": "d25a50bee6b7f3",
-    "pourquoi": "L'intégration des modèles Claude sur Google Cloud avec IAM et facturation unifiée facilite leur déploiement en entreprise, couplé à une mise à jour majeure du SDK sous licence Apache 2.0.",
-    "a_faire": "Mettre à jour les SDK et examiner l'intégration de Claude via l'infrastructure Google Cloud."
-   },
-   {
     "id": "2c43c284058f61",
-    "pourquoi": "L'entrée en bourse d'Anthropic et la publication de son dossier offrent un éclairage financier et stratégique inédit, notamment sur l'analyse des risques liés à la technologie.",
-    "a_faire": "Lire la section du document d'enregistrement relative aux risques technologiques et réglementaires."
+    "pourquoi": "Anthropic franchit une étape financière majeure avec son dossier d'IPO, révélant des informations stratégiques et une analyse détaillée des risques liés à l'IA.",
+    "a_faire": "Lire le dossier d'introduction en bourse pour analyser les risques liés à l'IA soulignés par l'entreprise."
+   },
+   {
+    "id": "61c5c57ddc1e28",
+    "pourquoi": "OpenAI lance GPT-6.1 Terra via son API, axé sur le raisonnement visuel, la rédaction et les capacités de computer use.",
+    "a_faire": "Tester GPT-6.1 Terra via l'API pour évaluer ses performances sur les tâches de computer use."
+   },
+   {
+    "id": "185e559c77b9fc",
+    "pourquoi": "Google officialise Gemini 4 Carbon, apportant des gains majeurs notamment pour la génération de code informatique.",
+    "a_faire": "Surveiller les benchmarks et tester les capacités de génération de code de ce nouveau modèle."
    },
    {
     "id": "d17d13a0006a77",
-    "pourquoi": "Genie 4 de Google DeepMind repousse les standards de la simulation interactive en temps réel, ouvrant de nouvelles perspectives pour les environnements virtuels.",
-    "a_faire": "Surveiller les cas d'usage industriels et les retours sur les capacités interactives du modèle de monde."
+    "pourquoi": "Google DeepMind dévoile Genie 4, une avancée importante pour la génération de simulations interactives en temps réel.",
+    "a_faire": "Explorer la documentation technique sur Genie 4 pour comprendre les cas d'usage des modèles de mondes."
    },
    {
-    "id": "5a342024f39507",
-    "pourquoi": "L'officialisation du nouveau modèle frontalier Gemini 4 Carbon par Google annonce une évolution notable des performances de leur écosystème d'IA.",
-    "a_faire": "Surveiller la publication des benchmarks techniques pour comparer ses performances face à la concurrence."
+    "id": "d25a50bee6b7f3",
+    "pourquoi": "L'API Claude intègre Google Cloud avec facturation et IAM, accompagnée d'un SDK mis à jour sous licence Apache 2.0.",
+    "a_faire": "Mettre à jour le SDK Claude et configurer l'intégration Google Cloud si votre stack technique l'utilise."
    }
   ]
  }
