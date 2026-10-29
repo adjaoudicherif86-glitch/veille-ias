@@ -1,5 +1,5 @@
 {
- "maj": "2026-10-29T17:01:32.352601+00:00",
+ "maj": "2026-10-29T20:53:55.410073+00:00",
  "sources_ok": [
   "Notes de version Claude (API)",
   "Notes de version OpenAI (API)",
@@ -57,15 +57,15 @@
    "erreur": "429 Client Error: Too Many Requests for url: https://venturebeat.com/category/ai/feed/"
   }
  ],
- "total": 1544,
- "analyses": 1476,
+ "total": 1574,
+ "analyses": 1497,
  "brief": {
-  "titre": "Gemini 4 Carbon et Mistral Large 4 marquent l'actualité",
-  "texte": "Google DeepMind frappe fort avec le lancement de Gemini 4 Carbon, un modèle taillé pour la cyberdéfense et le code qui permet à Google de reprendre le领先 sur le marché. En parallèle, l'écosystème open source s'enrichit considérablement avec la sortie de Mistral Large 4, surnommé 'Le Chonk', désormais disponible sur Hugging Face et intégré dans Transformers v5.22.0. NVIDIA et IBM complètent ce panorama avec de nouveaux modèles spécialisés en transcription et en open source. Enfin, l'industrie bouge côté business avec l'arrivée d'outils d'audit des dépenses par Anthropic et l'annonce de leur future introduction en bourse.",
+  "titre": "Gemini 4 Carbon et Mistral Large 4 marquent le jour",
+  "texte": "Google DeepMind redéfinit le marché en lançant Gemini 4 Carbon, un modèle axé sur la cyberdéfense et le code qui permet à Google de reprendre la tête. En parallèle, Mistral AI frappe fort avec la sortie en poids ouverts de Mistral Large 4, surnommé 'Le Chonk', immédiatement intégré dans la dernière version de Transformers v5.22.0. Du côté d'Anthropic, l'actualité est financière et opérationnelle avec le dépôt de leur dossier d'IPO et l'arrivée de nouvelles API dédiées à l'analyse des coûts et des usages. Enfin, NVIDIA complète ce panorama technologique en introduisant Nemotron 3.5 Transcribe pour la transcription multilingue.",
   "a_tester": [
-   "Tester Mistral Large 4 via Hugging Face pour vos cas d'usage locaux",
-   "Explorer les nouveautés de code et cyberdéfense de Gemini 4 Carbon",
-   "Évaluer les outils d'Anthropic pour auditer vos dépenses en IA"
+   "Tester l'intégration de Mistral Large 4 via Transformers v5.22.0",
+   "Explorer les capacités de code et cyberdéfense de Gemini 4 Carbon",
+   "Auditer vos dépenses en IA avec les nouveaux outils d'Anthropic"
   ]
  },
  "top5": {
