@@ -67,7 +67,7 @@
   [
    0.855,
    "même événement selon l'IA",
-   "China Plans AI Export Curbs to Exert Control Over Key Tech - Bloomberg.com",
+   "China Plans AI Export Curbs to Exert Control Over Key Tech - Bloomberg",
    "China says it will curb tech exports, including AI, citing national security risks - PBS"
   ],
   [
@@ -81,6 +81,12 @@
    "même événement selon l'IA",
    "China Proposes Expanded Export Controls on AI, Biopharma and Solar Energy Technologies - Global Sanctions and ",
    "China adds 40 technologies in AI, biomedicine and PV for export controls in draft revised catalog - Global Tim"
+  ],
+  [
+   null,
+   "même titre",
+   "ChatGPT Ads expands to 26 new countries as over 100,000 advertisers have used the platform - OpenAI",
+   "ChatGPT Ads expands to 26 new countries as over 100,000 advertisers have used the platform"
   ],
   [
    0.915,
@@ -143,12 +149,6 @@
    "Introducing GPT-6.1 Terra"
   ],
   [
-   0.837,
-   "même événement selon l'IA",
-   "OpenAI upgrades ChatGPT and Codex with new GPT-6.1 Terra model - 9to5Mac",
-   "Notes de version OpenAI (API) : Released GPT-6.1 Terra, a fast, efficient model for visual reasoning, precise "
-  ],
-  [
    0.835,
    "même événement selon l'IA",
    "Grok Says Its AI-Generated Version of ‘The Odyssey’ Is ‘Not Historically Accurate’ - WIRED",
@@ -167,16 +167,16 @@
    "Selecting from 500 AI models… KT to launch 'Token Factory' on the 30th - 머니투데이"
   ],
   [
-   0.874,
-   "même événement selon l'IA",
-   "DeepSeek AI disables shutdown software in 39% of safety tests - Anadolu Ajansı",
-   "DeepSeek AI model shows safety gaps in independent tests - Reuters"
-  ],
-  [
    0.865,
    "même événement selon l'IA",
    "Anthropic trained Claude on illegally obtained Stanford professors' books",
    "Anthropic illegally trained Claude with Stanford professors’ books - The Stanford Daily"
+  ],
+  [
+   null,
+   "même titre",
+   "OpenAI expands partnership with Oracle to bring its apps to ChatGPT - OpenAI",
+   "OpenAI expands partnership with Oracle to bring its apps to ChatGPT"
   ],
   [
    null,
@@ -209,28 +209,22 @@
    "GSA expands OneGov agreement with Anthropic, touting steep discounts - FedScoop"
   ],
   [
-   null,
-   "même titre",
-   "Legora is building the agentic operating system for legal work - OpenAI",
-   "Legora is building the agentic operating system for legal work"
-  ],
-  [
-   0.918,
+   0.825,
    "même événement selon l'IA",
-   "Malaysia seizes servers with advanced AI chips suspected of violating export controls | National News | 2news.",
-   "Malaysia seizes servers with advanced AI chips suspected of violating export controls - AP News"
+   "Meet Google DeepMind’s Genie 4: Real-Time World Model With Native Audio - MarkTechPost",
+   "Google’s next Genie AI model generates more realistic experiences"
   ],
   [
-   null,
-   "même titre",
-   "Malaysia seizes servers with advanced AI chips suspected of violating export controls - Corsicana Daily Sun",
-   "Malaysia seizes servers with advanced AI chips suspected of violating export controls - AP News"
+   0.83,
+   "même événement selon l'IA",
+   "Malaysia seizes servers with advanced AI chips suspected of violating export controls - AP News",
+   "AI Chips Emerge as High-Value Contraband in Malaysia Seizure - StratNews Global"
   ],
   [
-   null,
-   "même titre",
-   "Malaysia seizes servers with advanced AI chips suspected of violating export controls - The Spec",
-   "Malaysia seizes servers with advanced AI chips suspected of violating export controls - AP News"
+   0.846,
+   "même événement selon l'IA",
+   "Malaysia seizes servers with advanced AI chips suspected of violating export controls - KSAT",
+   "AI Chips Emerge as High-Value Contraband in Malaysia Seizure - StratNews Global"
   ],
   [
    0.814,
@@ -245,16 +239,22 @@
    "Anthropic Releases Claude for Legal Artifacts, a Set of New Interactive Tools for Legal Users - Law.com"
   ],
   [
+   0.833,
+   "même événement selon l'IA",
+   "Elon Musk’s SpaceXAI Is Reportedly Seeking To Buy 418 Mississippi Homes Near Its Power Plant. There’s One Catc",
+   "xAI is buying out homeowners who promise not to sue over data center noise"
+  ],
+  [
    0.874,
    "même événement selon l'IA",
    "Anthropic unveils additional Claude tools for lawyers - Reuters",
    "Anthropic Releases Claude for Legal Artifacts, a Set of New Interactive Tools for Legal Users - Law.com"
   ],
   [
-   null,
-   "même titre",
-   "Elon Musk's SpaceXAI Is Reportedly Seeking To Buy 418 Mississippi Homes Near Its Power Plant. There's One Catc",
-   "Elon Musk’s SpaceXAI Is Reportedly Seeking To Buy 418 Mississippi Homes Near Its Power Plant. There’s One Catc"
+   0.824,
+   "même événement selon l'IA",
+   "Anthropic Is Spending Millions to Protect Dario Amodei and Employees - Bloomberg.com",
+   "10 Surprises Revealed In Anthropic’s IPO Filing—CEO’s Personal Security Costs, Firms Spending $10 Million On C"
   ],
   [
    0.876,
@@ -287,10 +287,16 @@
    "Social Media Victims Law Center and The Schenk Law Firm File Wrongful Death Lawsuit Against OpenAI Alleging Ch"
   ],
   [
-   0.844,
+   0.826,
    "même événement selon l'IA",
-   "Google launches Gemini 4 Carbon AI model with cybersecurity focus - Reuters",
-   "Google announces Gemini 4 Carbon with ‘significant gains across coding and agentic tasks’ - 9to5Google"
+   "Google announces Gemini 4 Carbon with ‘significant gains across coding and agentic tasks’ - 9to5Google",
+   "Gemini 4 Carbon"
+  ],
+  [
+   0.828,
+   "même événement selon l'IA",
+   "Anthropic manager drops coding interviews because Claude is better at them - The Next Web",
+   "Anthropic manager says the 'coding interview is dead' — here's his advice for junior developers - Business Ins"
   ],
   [
    0.921,
@@ -299,10 +305,16 @@
    "Microsoft to end Copilot support on smart TVs by end of year - Windows Central"
   ],
   [
-   0.847,
+   0.939,
+   "sens quasi identique",
+   "Microsoft is ending Copilot support on smart TVs - The Verge",
+   "Microsoft to end Copilot support on smart TVs by end of year - Windows Central"
+  ],
+  [
+   0.836,
    "même événement selon l'IA",
    "Google announces Gemini 4 Carbon, its latest frontier AI model that you can’t use - Ars Technica",
-   "Google announces Gemini 4 Carbon with ‘significant gains across coding and agentic tasks’ - 9to5Google"
+   "Google launches Gemini 4 Carbon AI model with cybersecurity focus - Reuters"
   ],
   [
    0.918,
@@ -323,16 +335,34 @@
    "Threat of AI Bubble Looms Over Anthropic’s Big IPO Moment - CNET"
   ],
   [
+   null,
+   "même titre",
+   "Anthropic just launched tools to show companies what their AI spending is buying - TechCrunch",
+   "Anthropic just launched tools to show companies what their AI spending is buying"
+  ],
+  [
+   0.821,
+   "même événement selon l'IA",
+   "Prediction market bets set the tone for Anthropic's much-awaited IPO - Reuters",
+   "ANT IPO News - AI model developer Anthropic PBC files for an estimated $75 billion IPO, teeing up one of the l"
+  ],
+  [
+   0.86,
+   "même événement selon l'IA",
+   "US tech giant Google unveils Gemini 4 Carbon AI model - The Express Tribune",
+   "Google launches Gemini 4 Carbon AI model with cybersecurity focus - Reuters"
+  ],
+  [
    0.89,
    "même événement selon l'IA",
    "Google launches Gemini 4 Carbon with a ‘significant leap’ in cybersecurity",
-   "Google announces Gemini 4 Carbon with ‘significant gains across coding and agentic tasks’ - 9to5Google"
+   "Google launches Gemini 4 Carbon AI model with cybersecurity focus - Reuters"
   ],
   [
-   0.852,
+   0.879,
    "même événement selon l'IA",
    "Google launches Gemini 4 Carbon with a ‘significant leap’ in cybersecurity - The Verge",
-   "Google announces Gemini 4 Carbon with ‘significant gains across coding and agentic tasks’ - 9to5Google"
+   "Google launches Gemini 4 Carbon AI model with cybersecurity focus - Reuters"
   ],
   [
    0.836,
@@ -341,10 +371,16 @@
    "Gemini 4 Carbon: Our next frontier model"
   ],
   [
-   0.847,
+   null,
+   "même titre",
+   "More political deepfakes 'muddying the waters' this election; Trump most frequent target - KABB",
+   "More political deepfakes 'muddying the waters' this election; Trump most frequent target - The National Desk"
+  ],
+  [
+   0.824,
    "même événement selon l'IA",
-   "Google rolls out Gemini 4 Carbon - Constellation Research",
-   "Google announces Gemini 4 Carbon with ‘significant gains across coding and agentic tasks’ - 9to5Google"
+   "Gemini 4 Carbon: Google’s new frontier AI model tops a ranking, but cyber defenders get it first - Nacionale",
+   "Google launches Gemini 4 Carbon AI model with cybersecurity focus - Reuters"
   ],
   [
    0.925,
@@ -353,22 +389,40 @@
    "GSA expands OneGov agreement with Anthropic, touting steep discounts - FedScoop"
   ],
   [
+   null,
+   "même titre",
+   "Microsoft recorded $10 billion in revenue from OpenAI - TechCrunch",
+   "Microsoft recorded $10 billion in revenue from OpenAI"
+  ],
+  [
+   null,
+   "même titre",
+   "More political deepfakes 'muddying the waters' this election; Trump most frequent target - KEYE",
+   "More political deepfakes 'muddying the waters' this election; Trump most frequent target - The National Desk"
+  ],
+  [
    0.836,
    "même événement selon l'IA",
    "Expert Judgement Can Be Easily Hacked by AI, Anthropic Study Finds - Gizmodo",
    "How AI agents shape experts’ judgment calls - Anthropic"
   ],
   [
-   0.848,
-   "même événement selon l'IA",
-   "Google announces Gemini 4 Carbon, its new frontier AI model - Mashable",
-   "Google announces Gemini 4 Carbon with ‘significant gains across coding and agentic tasks’ - 9to5Google"
-  ],
-  [
-   0.844,
+   0.913,
    "même événement selon l'IA",
    "Google debuts flagship Gemini 4 Carbon model with cybersecurity upgrades - SiliconANGLE",
-   "Google announces Gemini 4 Carbon with ‘significant gains across coding and agentic tasks’ - 9to5Google"
+   "Google launches Gemini 4 Carbon AI model with cybersecurity focus - Reuters"
+  ],
+  [
+   0.841,
+   "même événement selon l'IA",
+   "Anthropic Newsom Letter: 3 Ways Courts Block AI [2026] - shattered.io",
+   "Anthropic to Newsom: Courts should have power to block risky AI - Politico"
+  ],
+  [
+   0.861,
+   "même événement selon l'IA",
+   "Google announces Gemini 4 Carbon, its new frontier AI model - Mashable",
+   "Google launches Gemini 4 Carbon AI model with cybersecurity focus - Reuters"
   ],
   [
    0.845,
@@ -377,9 +431,9 @@
    "Social Media Victims Law Center and The Schenk Law Firm File Wrongful Death Lawsuit Against OpenAI Alleging Ch"
   ],
   [
-   0.869,
+   0.823,
    "même événement selon l'IA",
-   "Avec son nouveau modèle d’IA, Muse Wonder, le groupe Meta affirme rivaliser avec OpenAI et Anthropic - Le Mond",
+   "Intelligence artificielle : avec Muse Wonder, Meta dit avoir rattrapé OpenAI et Anthropic et refuse de ralenti",
    "IA : Meta dévoile un nouveau modèle qu’il dit au niveau d’OpenAI et d’Anthropic - La Croix"
   ],
   [
@@ -441,12 +495,6 @@
    "même titre",
    "Mistral Large 4 passe de 38 à 25 points sur le nouvel indice d'Artificial Analysis",
    "Mistral Large 4 passe de 38 à 25 points sur le nouvel indice d'Artificial Analysis - ActuIA"
-  ],
-  [
-   null,
-   "même titre",
-   "The Trinity:Capability-Driven Recursive Self-Improvement for Multimodal Agents",
-   "The Trinity:Capability-Driven Recursive Self-Improvement for Multimodal Agents"
   ]
  ],
  "paires_non_fusionnees": [
@@ -469,6 +517,11 @@
    0.904,
    "Conversational Gemini navigation comes to Apple CarPlay",
    "Google Maps Is Getting Gemini AI In CarPlay - InsideEVs"
+  ],
+  [
+   0.903,
+   "The Trinity:Capability-Driven Recursive Self-Improvement for Multimodal Agents",
+   "The Trinity:Capability-Driven Recursive Self-Improvement for Multimodal Agents"
   ],
   [
    0.891,
@@ -536,6 +589,11 @@
    "Georgia says Anthropic AI agent accessed public election data, not its voter registration system - StateScoop"
   ],
   [
+   0.863,
+   "En tendance sur Hugging Face : unsloth/NVIDIA-Nemotron-3.5-Bolt-E4B-GGUF",
+   "nvidia/NVIDIA-Nemotron-3.5-Bolt-E4B-4GB · Hugging Face"
+  ],
+  [
    0.862,
    "alkhder at ImageEval 2026 Shared Tasks: Constrained Selection and Rotation-Averaged Logit Scoring for Multimod",
    "LogicVal:A Logic-Formalized Benchmark for Constraint Satisfaction in Text-to-Image Generation"
@@ -594,6 +652,11 @@
    0.85,
    "Most AI chatbots stay in the political middle ground, with Grok being an exception - Phys.org",
    "Forced to pick, Grok’s AI model chooses Republicans. OpenAI’s picks Democrats."
+  ],
+  [
+   0.85,
+   "Grok releases the first seven minutes of its AI-generated ‘Odyssey’",
+   "Grok can launch a thousand ships – but this AI remake of the Odyssey can’t make us feel - The Conversation"
   ],
   [
    0.85,
@@ -659,6 +722,11 @@
    0.839,
    "SDK Gemini v2.33.0",
    "Notes de version Gemini (API) : - Generate Content API storage on by default: New projects using the"
+  ],
+  [
+   0.839,
+   "En tendance sur Hugging Face : unsloth/NVIDIA-Nemotron-3.5-Bolt-E4B-GGUF",
+   "Unsloth MOSS-Image, Flint & NVIDIA Bolt E4B"
   ],
   [
    0.838,
@@ -702,6 +770,11 @@
   ],
   [
    0.836,
+   "OmniBrain-0: A Unified Agentic Model for Embodied Intelligence",
+   "The Trinity:Capability-Driven Recursive Self-Improvement for Multimodal Agents"
+  ],
+  [
+   0.836,
    "Claude Code v2.1.307",
    "Notes de version Claude (API) : - We've released API version 2026-10-21. Migrating to API version 2026-10-21 s"
   ],
@@ -724,31 +797,6 @@
    0.834,
    "Anthropic’s proposed AI safety bill only kicks in if 50 deaths or $1 billion in damages are on the line — prop",
    "Rogue AI Must Threaten 50 Lives Before Being Shut Down, Anthropic Suggests - Novara Media"
-  ],
-  [
-   0.833,
-   "xAI is buying out homeowners who promise not to sue over data center noise",
-   "Elon Musk’s SpaceXAI Is Reportedly Seeking To Buy 418 Mississippi Homes Near Its Power Plant. There’s One Catc"
-  ],
-  [
-   0.833,
-   "Welcome Muse Spark Open: open-weight frontier multimodal mixture-of-experts model from Meta",
-   "Meta releases its first frontier model, Muse Wonder - TechCrunch"
-  ],
-  [
-   0.833,
-   "En tendance sur Hugging Face : RecursiveSI/flint",
-   "Recursive Flint - the \"Qwen3.8 35B\" we've all been waiting for?"
-  ],
-  [
-   0.832,
-   "The risk that AI wakes up and other warnings in Anthropic’s unusual IPO filing - The Washington Post",
-   "Anthropic says risks for investors include blowback from runaway AI - PBS"
-  ],
-  [
-   0.832,
-   "Meta Muse closes dangerous privacy loophole after researchers exploit it - Yahoo Finance",
-   "Meta turns Muse sharing back on"
   ],
   [
    0.876,
@@ -789,6 +837,11 @@
    0.864,
    "Anthropic's Claude bypassed a paywall to access Georgia voter data without authorization - Axios",
    "Georgia says Anthropic AI agent accessed public election data, not its voter registration system - StateScoop"
+  ],
+  [
+   0.863,
+   "En tendance sur Hugging Face : unsloth/NVIDIA-Nemotron-3.5-Bolt-E4B-GGUF",
+   "nvidia/NVIDIA-Nemotron-3.5-Bolt-E4B-4GB · Hugging Face"
   ],
   [
    0.862,
@@ -849,6 +902,11 @@
    0.85,
    "Most AI chatbots stay in the political middle ground, with Grok being an exception - Phys.org",
    "Forced to pick, Grok’s AI model chooses Republicans. OpenAI’s picks Democrats."
+  ],
+  [
+   0.85,
+   "Grok releases the first seven minutes of its AI-generated ‘Odyssey’",
+   "Grok can launch a thousand ships – but this AI remake of the Odyssey can’t make us feel - The Conversation"
   ],
   [
    0.85,
@@ -916,6 +974,11 @@
    "Notes de version Gemini (API) : - Generate Content API storage on by default: New projects using the"
   ],
   [
+   0.839,
+   "En tendance sur Hugging Face : unsloth/NVIDIA-Nemotron-3.5-Bolt-E4B-GGUF",
+   "Unsloth MOSS-Image, Flint & NVIDIA Bolt E4B"
+  ],
+  [
    0.838,
    "Meta pauses Muse sharing after researchers find AI chats on the web",
    "Meta Muse closes dangerous privacy loophole after researchers exploit it - Yahoo Finance"
@@ -934,21 +997,6 @@
    0.837,
    "RealCLI: Toward a Unified Evaluation of Human-Agent Collaboration for CLI Agents",
    "Navalia: Advancing Cowork Agents through Verifiable Task Synthesis and Long-Horizon Post-Training"
-  ],
-  [
-   0.837,
-   "PHP Armageddon: OpenAI, Google’s Wiz find ancient holes, panicking the internet",
-   "OpenAI says ChatGPT Sol helped uncover critical PHP flaws that could affect 70% of websites — AI-assisted rese"
-  ],
-  [
-   0.837,
-   "Claude says Anthropic's IPO is a buy. ChatGPT disagrees - Axios",
-   "Anthropic's IPO could be 'speculative fiction' or a 'generational moment' — investors are split - CNBC"
-  ],
-  [
-   0.837,
-   "Anthropic says its workforce has become less junior and is spending more time in meetings",
-   "‘From actually doing work’ to ‘babysitting Claudes’: Anthropic employees on how their jobs have changed in the"
   ]
  ]
 }

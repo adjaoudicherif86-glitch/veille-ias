@@ -1,5 +1,5 @@
 {
- "maj": "2026-10-29T01:06:51.822475+00:00",
+ "maj": "2026-10-29T04:56:04.658868+00:00",
  "sources_ok": [
   "Notes de version Claude (API)",
   "Notes de version OpenAI (API)",
@@ -57,15 +57,15 @@
    "erreur": "429 Client Error: Too Many Requests for url: https://venturebeat.com/category/ai/feed/"
   }
  ],
- "total": 1483,
- "analyses": 1400,
+ "total": 1490,
+ "analyses": 1417,
  "brief": {
-  "titre": "Google frappe fort avec Gemini 4 Carbon et Genie 4",
-  "texte": "Google domine l'actualité avec le lancement de Gemini 4 Carbon et la simulation de mondes Genie 4, marquant une avancée majeure pour ses modèles et ses capacités interactives. L'écosystème se structure aussi côté API, avec l'arrivée de la ligne de commande pour les agents Gemini et les nouveautés de l'API Claude sur Google Cloud. Pendant ce temps, NVIDIA renouvelle ses outils de transcription avec Nemotron 3.5 Transcribe. Enfin, la vigilance reste de mise avec une plainte visant OpenAI suite à des conseils médicaux erronés de ChatGPT.",
+  "titre": "Gemini 4 Carbon propulse Google au sommet de l'IA",
+  "texte": "Google marque les esprits en dévoilant Gemini 4 Carbon, un modèle puissant qui repositionne l'entreprise en tête de la course. Côté écosystème, Google muscle son offre pour les développeurs avec une API CLI et l'ouverture de Search aux apps tierces. Pendant ce temps, Anthropic simplifie l'audit des dépenses et NVIDIA enrichit ses outils de transcription avec Nemotron 3.5. Ces avancées s'accompagnent d'une structuration des usages en entreprise, soulignée par les partenariats d'OpenAI et ses récents défis éthiques.",
   "a_tester": [
-   "Tester l'API Gemini 4 Carbon et le nouveau client en ligne de commande pour vos agents IA",
-   "Explorer les capacités de simulation interactive de Genie 4",
-   "Auditer vos dépenses en IA avec les nouveaux outils d'Anthropic"
+   "Tester la nouvelle Gemini API CLI pour vos agents IA",
+   "Explorer les outils d'audit des dépenses en IA d'Anthropic",
+   "Évaluer les performances multilingues de NVIDIA Nemotron 3.5 Transcribe"
   ]
  },
  "top5": {
