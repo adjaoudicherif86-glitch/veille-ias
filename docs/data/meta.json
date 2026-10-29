@@ -1,5 +1,5 @@
 {
- "maj": "2026-10-28T20:52:53.965469+00:00",
+ "maj": "2026-10-29T01:06:51.822475+00:00",
  "sources_ok": [
   "Notes de version Claude (API)",
   "Notes de version OpenAI (API)",
@@ -57,15 +57,15 @@
    "erreur": "429 Client Error: Too Many Requests for url: https://venturebeat.com/category/ai/feed/"
   }
  ],
- "total": 1461,
- "analyses": 1384,
+ "total": 1483,
+ "analyses": 1400,
  "brief": {
   "titre": "Google frappe fort avec Gemini 4 Carbon et Genie 4",
-  "texte": "Google domine l'actualité avec le lancement de Gemini 4 Carbon, axé notamment sur la cybersécurité, et l'arrivée de Genie 4 pour la simulation de mondes interactifs. Côté infrastructures, Anthropic et NVIDIA font évoluer leurs outils avec de nouvelles options d'audit des dépenses et des modèles de transcription avancés. Pendant ce temps, OpenAI fait face à des défis juridiques suite à des conseils médicaux inadaptés fournis par ChatGPT. Enfin, l'écosystème se structure avec de nouvelles intégrations tierces et des outils en ligne de commande pour les agents IA.",
+  "texte": "Google domine l'actualité avec le lancement de Gemini 4 Carbon et la simulation de mondes Genie 4, marquant une avancée majeure pour ses modèles et ses capacités interactives. L'écosystème se structure aussi côté API, avec l'arrivée de la ligne de commande pour les agents Gemini et les nouveautés de l'API Claude sur Google Cloud. Pendant ce temps, NVIDIA renouvelle ses outils de transcription avec Nemotron 3.5 Transcribe. Enfin, la vigilance reste de mise avec une plainte visant OpenAI suite à des conseils médicaux erronés de ChatGPT.",
   "a_tester": [
-   "Explorer les nouveautés de l'API Claude (Google Cloud et SDK 2.0)",
-   "Tester le nouveau client en ligne de commande Gemini API CLI",
-   "Mettre en place des audits de dépenses IA avec les outils d'Anthropic"
+   "Tester l'API Gemini 4 Carbon et le nouveau client en ligne de commande pour vos agents IA",
+   "Explorer les capacités de simulation interactive de Genie 4",
+   "Auditer vos dépenses en IA avec les nouveaux outils d'Anthropic"
   ]
  },
  "top5": {
