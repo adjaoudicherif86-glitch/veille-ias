@@ -1,5 +1,5 @@
 {
- "maj": "2026-10-29T13:07:25.562610+00:00",
+ "maj": "2026-10-29T17:01:32.352601+00:00",
  "sources_ok": [
   "Notes de version Claude (API)",
   "Notes de version OpenAI (API)",
@@ -57,15 +57,15 @@
    "erreur": "429 Client Error: Too Many Requests for url: https://venturebeat.com/category/ai/feed/"
   }
  ],
- "total": 1512,
- "analyses": 1454,
+ "total": 1544,
+ "analyses": 1476,
  "brief": {
-  "titre": "Gemini 4 Carbon : Google bouscule le marché de l'IA",
-  "texte": "Google DeepMind frappe fort en dévoilant Gemini 4 Carbon, un modèle taillé pour la cyberdéfense et le code qui replace le géant en tête. Parallèlement, l'écosystème s'accélère avec l'arrivée de la CLI pour l'API Gemini et l'ouverture de ses services aux applications tierces. Du côté de la concurrence, Anthropic propose de nouveaux outils d'audit des dépenses en IA tandis que Microsoft affiche 10 milliards de revenus liés à OpenAI. Enfin, la transcription multilingue progresse grâce aux nouveaux modèles de NVIDIA et Apple sur Hugging Face.",
+  "titre": "Gemini 4 Carbon et Mistral Large 4 marquent l'actualité",
+  "texte": "Google DeepMind frappe fort avec le lancement de Gemini 4 Carbon, un modèle taillé pour la cyberdéfense et le code qui permet à Google de reprendre le领先 sur le marché. En parallèle, l'écosystème open source s'enrichit considérablement avec la sortie de Mistral Large 4, surnommé 'Le Chonk', désormais disponible sur Hugging Face et intégré dans Transformers v5.22.0. NVIDIA et IBM complètent ce panorama avec de nouveaux modèles spécialisés en transcription et en open source. Enfin, l'industrie bouge côté business avec l'arrivée d'outils d'audit des dépenses par Anthropic et l'annonce de leur future introduction en bourse.",
   "a_tester": [
-   "Tester la nouvelle Gemini API CLI pour vos agents IA",
-   "Explorer les capacités de code et cyberdéfense de Gemini 4 Carbon",
-   "Auditer vos coûts d'infrastructure IA avec les nouveaux outils d'Anthropic"
+   "Tester Mistral Large 4 via Hugging Face pour vos cas d'usage locaux",
+   "Explorer les nouveautés de code et cyberdéfense de Gemini 4 Carbon",
+   "Évaluer les outils d'Anthropic pour auditer vos dépenses en IA"
   ]
  },
  "top5": {
