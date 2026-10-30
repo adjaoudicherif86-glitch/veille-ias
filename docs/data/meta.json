@@ -1,5 +1,5 @@
 {
- "maj": "2026-10-30T01:09:42.604276+00:00",
+ "maj": "2026-10-30T04:56:41.923241+00:00",
  "sources_ok": [
   "Notes de version Claude (API)",
   "Notes de version OpenAI (API)",
@@ -57,15 +57,15 @@
    "erreur": "429 Client Error: Too Many Requests for url: https://venturebeat.com/category/ai/feed/"
   }
  ],
- "total": 1593,
- "analyses": 1517,
+ "total": 1604,
+ "analyses": 1537,
  "brief": {
-  "titre": "Gemini 4 Carbon et Mistral Large 4 débarquent",
-  "texte": "Google DeepMind frappe fort avec le lancement de Gemini 4 Carbon, un modèle axé sur la cyberdéfense et le code qui permet à Google de reprendre la première place. En parallèle, Mistral AI réplique en publiant Mistral Large 4 'Le Chonk' en poids ouverts, immédiatement intégré dans la v5.22.0 de Transformers et disponible sur Hugging Face. Côté écosystème, Anthropic se structure en lançant des outils d'audit des dépenses en IA via son API tout en préparant son entrée en bourse, tandis que NVIDIA complète le panorama avec Nemotron 3.5 pour la transcription.",
+  "titre": "Gemini 4 Carbon et Mistral Large 4 redéfinissent le marché",
+  "texte": "Google DeepMind frappe fort en reprenant la tête avec Gemini 4 Carbon, un modèle axé sur le code et la cyberdéfense. En parallèle, Mistral AI réplique avec la sortie en poids ouverts de Mistral Large 4, surnommé 'Le Chonk', immédiatement intégré dans Transformers v5.22.0 et disponible sur Hugging Face. Côté gouvernance, Anthropic se structure en lançant des outils d'audit des coûts et des usages tout en préparant son entrée en bourse. Enfin, OpenAI publie ses recherches sur la détection du mésalignement de ses modèles de pointe. Cette journée illustre l'accélération conjointe des performances matérielles, des options open-weight et de la maturité financière du secteur.",
   "a_tester": [
-   "Tester les performances de codage et de cyberdéfense de Gemini 4 Carbon.",
-   "Télécharger et évaluer Mistral Large 4 ('Le Chonk') en local via Transformers v5.22.0.",
-   "Implémenter les nouveaux outils d'Anthropic pour auditer vos coûts et usages d'API IA."
+   "Tester Mistral Large 4 ('Le Chonk') via Hugging Face pour vos tâches de code et de cybersécurité.",
+   "Mettre à jour votre bibliothèque avec Transformers v5.22.0 pour intégrer le nouveau modèle Mistral.",
+   "Explorer les nouveaux outils d'Anthropic pour auditer vos dépenses et usages d'API IA."
   ]
  },
  "top5": {
