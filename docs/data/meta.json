@@ -1,5 +1,5 @@
 {
- "maj": "2026-10-30T04:56:41.923241+00:00",
+ "maj": "2026-10-30T09:01:42.218473+00:00",
  "sources_ok": [
   "Notes de version Claude (API)",
   "Notes de version OpenAI (API)",
@@ -57,15 +57,15 @@
    "erreur": "429 Client Error: Too Many Requests for url: https://venturebeat.com/category/ai/feed/"
   }
  ],
- "total": 1604,
- "analyses": 1537,
+ "total": 1618,
+ "analyses": 1546,
  "brief": {
-  "titre": "Gemini 4 Carbon et Mistral Large 4 redéfinissent le marché",
-  "texte": "Google DeepMind frappe fort en reprenant la tête avec Gemini 4 Carbon, un modèle axé sur le code et la cyberdéfense. En parallèle, Mistral AI réplique avec la sortie en poids ouverts de Mistral Large 4, surnommé 'Le Chonk', immédiatement intégré dans Transformers v5.22.0 et disponible sur Hugging Face. Côté gouvernance, Anthropic se structure en lançant des outils d'audit des coûts et des usages tout en préparant son entrée en bourse. Enfin, OpenAI publie ses recherches sur la détection du mésalignement de ses modèles de pointe. Cette journée illustre l'accélération conjointe des performances matérielles, des options open-weight et de la maturité financière du secteur.",
+  "titre": "Mistral Large 4 et actualités d'Anthropic marquent la semaine",
+  "texte": "Mistral AI fait sensation avec le lancement et la disponibilité en poids ouverts de Mistral Large 4, également intégré dans la dernière version de Transformers. En parallèle, l'écosystème open source s'enrichit avec de nouveaux modèles signés Apple et IBM sur Hugging Face. Du côté d'Anthropic, l'actualité est dense avec le dépôt de son dossier d'IPO, un soutien massif de Nvidia et le lancement de nouvelles API de suivi des coûts. Enfin, Microsoft annonce des revenus records liés à OpenAI tandis que les questions de sécurité et de mésalignement des modèles restent au cœur des préoccupations.",
   "a_tester": [
-   "Tester Mistral Large 4 ('Le Chonk') via Hugging Face pour vos tâches de code et de cybersécurité.",
-   "Mettre à jour votre bibliothèque avec Transformers v5.22.0 pour intégrer le nouveau modèle Mistral.",
-   "Explorer les nouveaux outils d'Anthropic pour auditer vos dépenses et usages d'API IA."
+   "Tester Mistral Large 4 sur Hugging Face pour vos cas d'usage",
+   "Explorer la nouvelle API d'analyse des coûts et des usages d'Anthropic",
+   "Examiner le modèle de cybersécurité open source de Mistral AI"
   ]
  },
  "top5": {
