@@ -1,5 +1,5 @@
 {
- "maj": "2026-10-30T09:01:42.218473+00:00",
+ "maj": "2026-10-30T13:05:12.663988+00:00",
  "sources_ok": [
   "Notes de version Claude (API)",
   "Notes de version OpenAI (API)",
@@ -57,15 +57,15 @@
    "erreur": "429 Client Error: Too Many Requests for url: https://venturebeat.com/category/ai/feed/"
   }
  ],
- "total": 1618,
- "analyses": 1546,
+ "total": 1642,
+ "analyses": 1562,
  "brief": {
-  "titre": "Mistral Large 4 et actualités d'Anthropic marquent la semaine",
-  "texte": "Mistral AI fait sensation avec le lancement et la disponibilité en poids ouverts de Mistral Large 4, également intégré dans la dernière version de Transformers. En parallèle, l'écosystème open source s'enrichit avec de nouveaux modèles signés Apple et IBM sur Hugging Face. Du côté d'Anthropic, l'actualité est dense avec le dépôt de son dossier d'IPO, un soutien massif de Nvidia et le lancement de nouvelles API de suivi des coûts. Enfin, Microsoft annonce des revenus records liés à OpenAI tandis que les questions de sécurité et de mésalignement des modèles restent au cœur des préoccupations.",
+  "titre": "Mistral Large 4 et Computer Use Gemini bouleversent la veille",
+  "texte": "L'écosystème open source s'anime fortement aujourd'hui avec l'arrivée de Mistral Large 4, surnommé 'Le Chonk', désormais disponible en poids ouverts et intégré à Transformers v5.22.0. Parallèlement, Google officialise la disponibilité générale de son outil Computer Use pour l'API Gemini, ouvrant de nouvelles perspectives d'automatisation. Du côté des infrastructures, Anthropic fait parler d'elle entre son projet cloud titanesque soutenu par Nvidia, son dossier d'IPO et de nouvelles fonctionnalités de suivi des coûts. Enfin, la vigilance reste de mise avec la découverte de failles de sécurité dans certaines extensions officielles de Claude Code.",
   "a_tester": [
-   "Tester Mistral Large 4 sur Hugging Face pour vos cas d'usage",
-   "Explorer la nouvelle API d'analyse des coûts et des usages d'Anthropic",
-   "Examiner le modèle de cybersécurité open source de Mistral AI"
+   "Tester l'intégration de Mistral Large 4 via Transformers v5.22.0",
+   "Explorer les capacités de l'outil Computer Use sur l'API Gemini",
+   "Configurer l'API d'analyse des coûts et des usages chez Anthropic"
   ]
  },
  "top5": {
