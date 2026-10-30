@@ -1,5 +1,5 @@
 {
- "maj": "2026-10-29T20:53:55.410073+00:00",
+ "maj": "2026-10-30T01:09:42.604276+00:00",
  "sources_ok": [
   "Notes de version Claude (API)",
   "Notes de version OpenAI (API)",
@@ -57,45 +57,45 @@
    "erreur": "429 Client Error: Too Many Requests for url: https://venturebeat.com/category/ai/feed/"
   }
  ],
- "total": 1574,
- "analyses": 1497,
+ "total": 1593,
+ "analyses": 1517,
  "brief": {
-  "titre": "Gemini 4 Carbon et Mistral Large 4 marquent le jour",
-  "texte": "Google DeepMind redéfinit le marché en lançant Gemini 4 Carbon, un modèle axé sur la cyberdéfense et le code qui permet à Google de reprendre la tête. En parallèle, Mistral AI frappe fort avec la sortie en poids ouverts de Mistral Large 4, surnommé 'Le Chonk', immédiatement intégré dans la dernière version de Transformers v5.22.0. Du côté d'Anthropic, l'actualité est financière et opérationnelle avec le dépôt de leur dossier d'IPO et l'arrivée de nouvelles API dédiées à l'analyse des coûts et des usages. Enfin, NVIDIA complète ce panorama technologique en introduisant Nemotron 3.5 Transcribe pour la transcription multilingue.",
+  "titre": "Gemini 4 Carbon et Mistral Large 4 débarquent",
+  "texte": "Google DeepMind frappe fort avec le lancement de Gemini 4 Carbon, un modèle axé sur la cyberdéfense et le code qui permet à Google de reprendre la première place. En parallèle, Mistral AI réplique en publiant Mistral Large 4 'Le Chonk' en poids ouverts, immédiatement intégré dans la v5.22.0 de Transformers et disponible sur Hugging Face. Côté écosystème, Anthropic se structure en lançant des outils d'audit des dépenses en IA via son API tout en préparant son entrée en bourse, tandis que NVIDIA complète le panorama avec Nemotron 3.5 pour la transcription.",
   "a_tester": [
-   "Tester l'intégration de Mistral Large 4 via Transformers v5.22.0",
-   "Explorer les capacités de code et cyberdéfense de Gemini 4 Carbon",
-   "Auditer vos dépenses en IA avec les nouveaux outils d'Anthropic"
+   "Tester les performances de codage et de cyberdéfense de Gemini 4 Carbon.",
+   "Télécharger et évaluer Mistral Large 4 ('Le Chonk') en local via Transformers v5.22.0.",
+   "Implémenter les nouveaux outils d'Anthropic pour auditer vos coûts et usages d'API IA."
   ]
  },
  "top5": {
-  "maj": "2026-10-29T13:07:25.562610+00:00",
+  "maj": "2026-10-30T01:09:42.604276+00:00",
   "par_ia": true,
   "items": [
    {
-    "id": "2c43c284058f61",
-    "pourquoi": "Anthropic franchit une étape financière majeure avec son dossier d'IPO, révélant des informations stratégiques et une analyse détaillée des risques liés à l'IA.",
-    "a_faire": "Lire le dossier d'introduction en bourse pour analyser les risques liés à l'IA soulignés par l'entreprise."
-   },
-   {
-    "id": "61c5c57ddc1e28",
-    "pourquoi": "OpenAI lance GPT-6.1 Terra via son API, axé sur le raisonnement visuel, la rédaction et les capacités de computer use.",
-    "a_faire": "Tester GPT-6.1 Terra via l'API pour évaluer ses performances sur les tâches de computer use."
+    "id": "1758535ac6be3e",
+    "pourquoi": "OpenAI lance GPT-6.1 Terra avec des capacités majeures d'utilisation d'ordinateur (computer use) et de raisonnement visuel, marquant une évolution concrète pour l'automatisation des flux de travail.",
+    "a_faire": "Tester les nouvelles capacités de computer use de l'API GPT-6.1 Terra sur vos cas d'usage d'automatisation."
    },
    {
     "id": "185e559c77b9fc",
-    "pourquoi": "Google officialise Gemini 4 Carbon, apportant des gains majeurs notamment pour la génération de code informatique.",
-    "a_faire": "Surveiller les benchmarks et tester les capacités de génération de code de ce nouveau modèle."
+    "pourquoi": "Google officialise Gemini 4 Carbon, un modèle frontalier apportant des gains majeurs pour la génération de code et l'efficacité globale.",
+    "a_faire": "Surveiller les benchmarks de performance et tester l'intégration de Gemini 4 Carbon sur vos tâches de développement."
+   },
+   {
+    "id": "a1765f446c5b64",
+    "pourquoi": "Mistral AI déploie son nouveau modèle de pointe Mistral Large 4 ('Le Chonk') sur Hugging Face avec un contexte d'un million de jetons, directement exploitable par les développeurs.",
+    "a_faire": "Mettre à jour la bibliothèque Transformers (v5.22.0) pour intégrer et tester Mistral Large 4."
+   },
+   {
+    "id": "2c43c284058f61",
+    "pourquoi": "Anthropic a déposé son dossier d'introduction en bourse (IPO), offrant un éclairage stratégique et financier inédit sur l'économie et les risques de l'IA générative.",
+    "a_faire": "Lire les sections clés du document d'enregistrement d'Anthropic relatives aux risques technologiques et au marché."
    },
    {
     "id": "d17d13a0006a77",
-    "pourquoi": "Google DeepMind dévoile Genie 4, une avancée importante pour la génération de simulations interactives en temps réel.",
-    "a_faire": "Explorer la documentation technique sur Genie 4 pour comprendre les cas d'usage des modèles de mondes."
-   },
-   {
-    "id": "d25a50bee6b7f3",
-    "pourquoi": "L'API Claude intègre Google Cloud avec facturation et IAM, accompagnée d'un SDK mis à jour sous licence Apache 2.0.",
-    "a_faire": "Mettre à jour le SDK Claude et configurer l'intégration Google Cloud si votre stack technique l'utilise."
+    "pourquoi": "Google DeepMind dévoile Genie 4, une nouvelle génération de modèle de monde générant des simulations interactives en temps réel au réalisme poussé.",
+    "a_faire": "Examiner les applications potentielles des simulations de mondes en temps réel pour vos projets de R&D ou de formation."
    }
   ]
  }

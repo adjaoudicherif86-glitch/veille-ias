@@ -1,12 +1,36 @@
 {
- "maj": "2026-10-29T20:53:55.410001+00:00",
+ "maj": "2026-10-30T01:09:42.604214+00:00",
  "histoires": [
+  {
+   "id": "h_97c425e6a7",
+   "titre": "Mise à jour v2.1.314 de Claude Code",
+   "resume": "",
+   "creee": "2026-10-30T01:09:42.604214+00:00",
+   "maj": "2026-10-30T01:06:26+00:00",
+   "episodes": [
+    {
+     "id": "fd961a2239120b",
+     "date": "2026-10-30T01:06:26+00:00",
+     "titre": "Mise à jour Claude Code v2.1.314 : sécurité et résilience",
+     "neuf": "Publication de la version v2.1.314 apportant des correctifs de sécurité et de résilience.",
+     "fil": "Mises à jour de Claude Code",
+     "source": "Claude Code",
+     "lien": "https://github.com/anthropics/claude-code/releases/tag/v2.1.314",
+     "nb_sources": 1,
+     "primaire": true
+    }
+   ],
+   "statut": "active",
+   "societes": [
+    "anthropic"
+   ]
+  },
   {
    "id": "h_5febc86840",
    "titre": "L'introduction en Bourse d'Anthropic",
-   "resume": "Anthropic a officialisé son introduction en bourse sur le Nasdaq en déposant son formulaire S-1 sous le symbole ANT. Les analyses financières de son prospectus révèlent une solidité financière surprenante et des justifications de dépenses massives en calcul pour viser l'AGI, tout en suscitant des questions sur sa valorisation future.",
+   "resume": "Anthropic a officialisé son introduction en bourse sur le Nasdaq sous le symbole ANT. Les analyses de son prospectus mettent en lumière une situation financière surprenante et des perspectives de marché évaluées à des dizaines de billions de dollars, tout en suscitant de vifs débats sur les risques et la viabilité à long terme de sa stratégie.",
    "creee": "2026-10-20T09:56:16.457937+00:00",
-   "maj": "2026-10-29T19:10:41+00:00",
+   "maj": "2026-10-30T00:14:12+00:00",
    "episodes": [
     {
      "id": "6702d1aaf0afce",
@@ -669,6 +693,17 @@
      "primaire": false
     },
     {
+     "id": "7849b91e20a5f1",
+     "date": "2026-10-29T09:00:00+00:00",
+     "titre": "Le dossier d'IPO d'Anthropic laisse des questions clés sans réponse",
+     "neuf": "Le dossier d'IPO fait surface avec de nouvelles interrogations persistantes sur la stratégie financière et l'avenir de l'entreprise.",
+     "fil": "Suivi du dossier d'introduction en Bourse d'Anthropic",
+     "source": "Anthropic (actus)",
+     "lien": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOVWNBR3Z3UEw4RzQxYW5fZHJDYUxpeXNHTEpTbW1zbC1HU2dIWFF1YS1ERm1qbTF5RENJUkpCd1hlSTA4bnMxVE4yTlRnNnQzakpZdEdIdkpLZE1oR0ZQNEp1SjF3Y0hoYjN0OS1lVGRzUmp0X05JSkVoLWV5MERiTGUtdUxZWVdURktmZTd2dGgta3hGbDd3R09Pd0xpdDkxemNzLVNjTWlQbV8tSkVDNW40ZGk?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
      "id": "90aa0da6570854",
      "date": "2026-10-29T10:07:06+00:00",
      "titre": "Questions sans réponse dans le dossier d'IPO d'Anthropic",
@@ -744,6 +779,17 @@
      "lien": "https://news.google.com/rss/articles/CBMifEFVX3lxTFByaHZWbjdzYUFQeU9KTkpiaFdCV1lOdUN2Z2ZZaUFfNDRpVHU0MW5uWlNNdk1XeGhlcUhNMEVTLWg2T1hCazNaQkhrUFNOZldWQmM2cDRCOThiai0yNFEwSFdXZzA1dnZKeWF3cmxrVW1XbVRLUGtQeW5HNFg?oc=5",
      "nb_sources": 1,
      "primaire": false
+    },
+    {
+     "id": "4d04c52f8520de",
+     "date": "2026-10-30T00:14:12+00:00",
+     "titre": "Anthropic évalue son marché potentiel à 40 milliards de milliards",
+     "neuf": "Anthropic communique publiquement sur une estimation gigantesque de son marché potentiel à 40 billions de dollars.",
+     "fil": "Évaluations financières de l'introduction en Bourse d'Anthropic",
+     "source": "Anthropic (actus)",
+     "lien": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOdVY4eEJBN1VUcXlIeVVvSWNKWTZLTFE5dFQxX0ZpMEVnMG41ZTN1YklfNDdjRVBScEZUZHJod0d3VkR2OGFjbmlqZnVINVJwRGpwUFg1aHd6V3JrY1Z0eEFvV2Q2N0NIdVkyWDVCajBXdHZ1SGUyY0VRT0pmZkFhNWhVTmhILXdwZ29aZ3dINmU4ZWxCQmNzZ3BpbFZaajlyUkZIbFpidkwxbVJxd2ZPMmxGd1o?oc=5",
+     "nb_sources": 1,
+     "primaire": false
     }
    ],
    "statut": "active",
@@ -753,68 +799,135 @@
    ]
   },
   {
-   "id": "h_6dbf1247a5",
-   "titre": "Le Texas attaque OpenAI et Sam Altman en justice",
-   "resume": "L'État du Texas, de nouveaux plaignants et une famille endeuillée engagent des poursuites judiciaires contre OpenAI et son PDG Sam Altman, ciblant directement les pratiques de sécurité de l'entreprise suite à des incidents graves impliquant ChatGPT.",
-   "creee": "2026-10-23T20:44:31.752569+00:00",
-   "maj": "2026-10-29T16:17:41+00:00",
+   "id": "h_ce024d6c9b",
+   "titre": "Nouveau modèle de Mistral AI contre les acteurs chinois",
+   "resume": "Mistral AI officialise et déploie publiquement Mistral Large 4 ('Le Chonk'), un modèle MoE massif orienté code et cybersécurité. Cette démarche s'accompagne d'un partenariat stratégique avec Orange Cyberdéfense pour concevoir des agents spécialisés dans la détection de failles.",
+   "creee": "2026-10-27T00:58:25.413423+00:00",
+   "maj": "2026-10-29T21:09:58+00:00",
    "episodes": [
     {
-     "id": "4ac8501b384460",
-     "date": "2026-10-23T19:44:30+00:00",
-     "titre": "Le procureur général du Texas attaque OpenAI en justice",
-     "neuf": "Le Texas attaque OpenAI en justice.",
-     "fil": "Action en justice du Texas contre OpenAI",
-     "source": "OpenAI (actus)",
-     "lien": "https://news.google.com/rss/articles/CBMingFBVV95cUxPcEs5ME1zUXpNMy1lcW9Td1FrVlZxT0xjRFNXSDBEU1Z5UWFLeG82bGVJT0J4bzR5ZVBZV2ptcHQ4OV9LZWlRSS10TkV6Y01KSVJRNkZIelU3MlpLNkdzX2FTamc4bDJTWEs2NGpYMnNyY0gtY1IxYm85Nmg4NFFzVlZzS0l5ck1qU2pES1RUaEd5TEhzaVA4VC1tY2lmZw?oc=5",
+     "id": "0f96ced7a18023",
+     "date": "2026-10-06T07:00:00+00:00",
+     "titre": "Mistral AI lance un nouveau modèle pour concurrencer les modèles chinois",
+     "neuf": "Mistral AI lance un nouveau modèle visant à concurrencer directement les acteurs chinois.",
+     "fil": "Annonce d'un nouveau modèle Mistral AI",
+     "source": "Grandes annonces IA",
+     "lien": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNcjVFRUV6ZzZmeXFiN3NIWmZwUTBGWTR3ZUx1UUhjLWRLMC0wZThtLW00a1FYNjloa3BiSTFveFdZZFkxWnd5d283Qi04MnU1UC1IUl9KdlBkX2o2X3JpQ0pUZVRZQzJ3Uk1fRzR5VnJIdGhwVGI3Q0JWc2RWOGtBZTZzek4tcWQxRTAxZnB3eWJyV2gzY2FlNjdYVk95b2lQX2UtLVNWandvMDA?oc=5",
+     "nb_sources": 2,
+     "primaire": false
+    },
+    {
+     "id": "90a784e5869212",
+     "date": "2026-10-07T07:00:00+00:00",
+     "titre": "« Avec une avance considérable » : le Français Mistral envoie du lourd avec son nouveau modèle d’IA - Futura, le média qui explore le monde",
+     "neuf": "Sortie d'un nouveau modèle de Mistral AI salué pour ses performances face à la concurrence.",
+     "fil": "Nouveau modèle de Mistral AI contre les acteurs chinois",
+     "source": "IA en français (actus)",
+     "lien": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxQbEF4NzNrdGRmbm1qU3A3VURENTJ4Tm9fcWtQWFFQMHpTTFdadTdiOUVUSWNaWkRVbXA1WHZEV3NRU284cTFnU2IxX3FCT3RTcVNjUm1ldUZ0bUFFMnNqaUJtSU5Xakh0VW9qRU45S3BRQnpOVUFSM0o1X0JPRnpMN3FxVDMwMUw2all0VVZJMldYTWhQRVpOcExDQWxKamZLd25wczA0OTdVakt4SUNnX1RaTmt2ODBPeHBLRXdGbk5KQ3ROM0duMkNQbGhXYzN5NGdXMnJRdWptN2xaaFY0Q216eUVxOG42?oc=5",
+     "nb_sources": 2,
+     "primaire": false
+    },
+    {
+     "id": "a1765f446c5b64",
+     "date": "2026-10-29T00:00:00+00:00",
+     "titre": "Mistral Large 4 disponible sur Hugging Face",
+     "neuf": "Mistral Large 4 est désormais accessible sur la plateforme Hugging Face.",
+     "fil": "même modèle Mistral Large 4",
+     "source": "Hugging Face",
+     "lien": "https://huggingface.co/blog/mistral-large4",
+     "nb_sources": 3,
+     "primaire": false
+    },
+    {
+     "id": "df6933ff3f4e15",
+     "date": "2026-10-29T10:44:05+00:00",
+     "titre": "Sortie de Mistral Large 4 : le nouveau modèle ouvert de Mistral AI",
+     "neuf": "Mistral AI officialise la sortie de son nouveau modèle ouvert Mistral Large 4.",
+     "fil": "Même stratégie de nouveaux modèles de Mistral AI",
+     "source": "Mistral AI (actus)",
+     "lien": "https://news.google.com/rss/articles/CBMioAJBVV95cUxOQkZudHktZm14SEVHaFppU1VxaWdJVjBqS2JSYnpDdHlreTZUWjduUnhqdTZJQkV5MTRWMUNWQldDSUpPWURnVTZhRXZaekpjam5zMmxoMnBuWEhJc0lMcVBFUnhYZE4yTlh4ZU5xQkJHdlM3aS0ydnMtOEhKQThnaEhZUWxmUmFyTVhTdHV6UVYyYVA3bS02ODdkSkhPQjVpTkgxU29pWVFMVUFMSkNrWXhubWloV29QdEtucTZKeTZNUjIwU3FzY0VNaC1xS2tEbnFuOFdjdFlOMHE3dWdOWU5hYUlnbm9WbXFpTmY5d3RZU05lbm05TXBOR1ZEWWljbGxOenZpQ0ZUbms0RzdzMEY1S05BWjMxLUlwUFk5SUc?oc=5",
      "nb_sources": 1,
      "primaire": false
     },
     {
-     "id": "69a81bfc9e716e",
-     "date": "2026-10-23T20:39:00+00:00",
-     "titre": "Le Texas attaque OpenAI et Sam Altman en justice pour des questions de sécurité",
-     "neuf": "L'action en justice du Texas vise spécifiquement OpenAI et Sam Altman pour des questions de sécurité.",
-     "fil": "Poursuites judiciaires du Texas contre OpenAI et Sam Altman",
-     "source": "OpenAI (actus)",
-     "lien": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPcm00d0JOd3dfc2ROWW5vaklsUk9MWDZXN1hLNWNwMWllNmZ1N2p5WGQ2VVUtOTlzQUdlUDZOcFB1WUpVcWE3WVcxZk16b09BNHZlcHJjWkVYZVNIdE1lbWFJWHRNOGIxbWR2cHFUazdsakh4NnBMcmhyUVdGbzVKNk1Mc001NjhzT09pNFdGanA?oc=5",
+     "id": "1ee7ff6ad9c98e",
+     "date": "2026-10-29T14:10:54+00:00",
+     "titre": "Code, cybersécurité : les nouvelles priorités de Mistral AI pour griffer ses concurrents chinois - Les Echos",
+     "neuf": "La presse souligne l'orientation de Mistral AI vers le code et la cybersécurité pour concurrencer ses rivaux.",
+     "fil": "même stratégie de Mistral AI",
+     "source": "Mistral AI (actus)",
+     "lien": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxPWnZNU0d1VERmVG1SOGI3UWp4TkdzRnRkU0M3WXMyNkMxeEpVcGd0blhmS2QtSEtObWlkX080UXE0dHBnNUk3Z1o3bk12TlNGNk9sc3ZJTlUxTkItZEw0UngxVXVwdlBCVnYzX3lPZmpMX3ZQYVVaREdteVh6OEpQLXFwd0xVUk1LTE1VNXhDajNtYzJiYlh5ZDVEU1p1NFRxdzNBYlNZcGRCVkx2RXpabW9rMzJhY3kyMEg3aVA1Q0QxVTdJUTg4M0xaMmN0QTNhRFdiWmhld3VETkJkVHhfSEV0UTU1cG4xOVB4ZmdOVjdqSTJuSVE?oc=5",
      "nb_sources": 1,
      "primaire": false
     },
     {
-     "id": "d01e21c19d1fed",
-     "date": "2026-10-28T09:15:43+00:00",
-     "titre": "Une action en justice au Texas attaque OpenAI sur la sécurité de ChatGPT",
-     "neuf": "Une nouvelle plainte au Texas vient contester les déclarations de sécurité d'OpenAI concernant ChatGPT.",
-     "fil": "Action en justice au Texas contre OpenAI",
-     "source": "OpenAI (actus)",
-     "lien": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5jd0dwRkRCUXh6SUx1U1U1bTQ4TF9OaHR2WldOSV9kMDJKblR0TWNpUnhkN2Q5aHoyclVKVF93NEhwQ3hQc1ZIT293Nl8zUVU2dVFpbGU3XzlrX0Q3dHk3amNXWVhZQllLLW52NXRRcnhyLUJpU1o0NmVaU21jdw?oc=5",
+     "id": "163733f8c8122a",
+     "date": "2026-10-29T14:11:42+00:00",
+     "titre": "Mistral Large 4 'Le Chonk' disponible en poids ouverts",
+     "neuf": "Mistral Large 4 (surnommé 'Le Chonk') est mis à disposition avec des poids ouverts.",
+     "fil": "même modèle Mistral Large 4",
+     "source": "r/LocalLLaMA",
+     "lien": "https://www.reddit.com/r/LocalLLaMA/comments/1xil3qy/mistral_large_4_le_chonk_is_now_open_weight/",
      "nb_sources": 1,
      "primaire": false
     },
     {
-     "id": "59fbb37c9c7358",
-     "date": "2026-10-29T16:17:41+00:00",
-     "titre": "Une famille poursuit OpenAI et Sam Altman en justice après un décès",
-     "neuf": "Une nouvelle action en justice est intentée par une famille contre OpenAI et Sam Altman suite au décès d'une femme.",
-     "fil": "même contentieux judiciaire contre OpenAI et Sam Altman",
-     "source": "OpenAI (actus)",
-     "lien": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNdEhlNmxhZDZMU1NxTlhhVWtHTnpEODN3LXRpbXR6Rk9OeDd5RUlIOThWcW90Y1RmaUh0MVgwLWxwMmVDVzBuUEhUcm9MOFVMNWQtejFmRlB4cmpmMUE2Uy1pWE9UUE1palE3VG5wZlJJSDJBZmE2UDJmYVA0eU9ab0VsNkFDWms3NTh4ci03WVpwU3VxMWk2SDhOcUctb2xiMUoyX2F2YjR4czNwX0hNTEdqMXnSAcgBQVVfeXFMT0dudDJsTkVVcTB0eEdWOUt2c1E0bXUzY1lyUEhfdEg0M09PU3lfQlljQTlzWDFtZHVOeEV6S3Awd0RjaHR5dHlyajJHeUgwX19STUxjbmZSdW9LVEVYODZ6MUJQcFdXQ01JR1Y0SVlqVENLQ09fbERKWk10VXRDS2puZ0R0VGxDYk5ZU0JyX1pVOEc2T2I5Vmt5QTFoTEVwM1VBb015Ym9CM2o0eUt0aGZHczZidC1wRko3U0lVd1RzOVlFRWk1RDM?oc=5",
+     "id": "46c2109033cade",
+     "date": "2026-10-29T14:16:58+00:00",
+     "titre": "Transformers v5.22.0 intègre Mistral Large 4",
+     "neuf": "La bibliothèque Transformers intègre Mistral Large 4, modèle MoE d'environ 1 000 milliards de paramètres.",
+     "fil": "même modèle Mistral Large 4",
+     "source": "Transformers",
+     "lien": "https://github.com/huggingface/transformers/releases/tag/v5.22.0",
+     "nb_sources": 1,
+     "primaire": true
+    },
+    {
+     "id": "aa833204da72d6",
+     "date": "2026-10-29T14:45:06+00:00",
+     "titre": "Mistral AI lance un nouveau modèle téléchargeable axé sur la cybersécurité",
+     "neuf": "Mistral AI propose un nouveau modèle téléchargeable axé sur la cybersécurité.",
+     "fil": "même modèle Mistral Large 4",
+     "source": "Grandes annonces IA",
+     "lien": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPOWlfcWswLUlERGllQ3RvSmx1M2JWeUlBXzJSRDNmay1NOFpVU3d2X2JGSFFtd0xaRFA5ZGFkSjE0Rl9RRWVLYlEyVUkxOTVSSmVyb3Joekt2WXNmNE0yV0MyaHZRNmpZcnBiNTU1OXZabGNWT2I0WkE2WUFvQVZKRXZKWmlTOHlhU0V2dV9INGxpbUxueDYxNnVLQjMtWjlRdTFnWUdtc3BpUlN2eFVQZE43MUdkMGR1TGdFczJQTlJGcE9K?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "c59c3778d59beb",
+     "date": "2026-10-29T14:46:43+00:00",
+     "titre": "Orange Cyberdéfense et Mistral AI unissent leurs forces pour créer des agents IA capable de déceler les failles de cybersécurité - La Tribune",
+     "neuf": "Partenariat entre Orange Cyberdéfense et Mistral AI pour développer des agents de détection de failles.",
+     "fil": "même orientation cybersécurité pour Mistral AI",
+     "source": "Mistral AI (actus)",
+     "lien": "https://news.google.com/rss/articles/CBMinwJBVV95cUxNSTRmMmhPWjJUY2dIdU1hZDVjUFF4VW5IT09kSWQySWtfRFhTYTY3VG9ueU05cnM3SXctNFNMcWNjbWo4bE5sdXBRQmxZRF80VUFUcktTZ2pOanZoNEhDVmxWT05KQnV2ZWtadHFRNmFHN05xNjY0ZGVJSVhsSUItRm5OcldNRjVITUpDdi1XQjRqT2JfM1NPa2dfdWZZZGlEZlN6aHVoWDR4YUNoNTA5SFk4bE1nb1BHR1kzWE9MY0xiQzRkbkt2QjNNdGJHcnNBYlJoT1hnMHVWS1ZKRkkwSkVLcUZiRVlNQV9COXVpZ3JyX2N3NHdOaEFNa1NJN3RneDljRUc5REM1MXJCZ2FPVzFUSWJQd1plZWp1Znh5cw?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "5f62453a07556a",
+     "date": "2026-10-29T21:09:58+00:00",
+     "titre": "Mistral AI lance publiquement Large 4 avec un accent sur la cybersécurité",
+     "neuf": "Mistral AI officialise la mise à disposition publique de son modèle Large 4 orienté cybersécurité.",
+     "fil": "Disponibilité publique de Mistral Large 4",
+     "source": "Mistral AI (actus)",
+     "lien": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxOakNoX210Zmt3WXFkVkxzZ0lZbTI0Zk5pUHJ5aVowRFVqOVJ0Vm4xamlsUGpmdnFZRnB2NTRnTXp6emFqX1JQeWZBSGUwemdWWE1zajFNeFlxd2dTbmpMdi1JUWp1bDJkVHRzdXBBZV8ydUhFdmp6d0U0Ymw3N2dvbkN1YXBlVE0tY1VlZlo3SU4ySm5KdDd1am5jZFktT3RvanhObklEVXlhSldfRUp2azhINmJKN3hKU3UwanJfZmdUSTFlcS13d050QndRWkV4RjVDU3k4SndZa1VQOGJsNTFsZ0ZVZHlGYXc?oc=5",
      "nb_sources": 1,
      "primaire": false
     }
    ],
    "statut": "active",
    "societes": [
-    "openai"
+    "mistral",
+    "huggingface"
    ]
   },
   {
    "id": "h_c4961b9682",
    "titre": "Contrôles de la Chine sur l'export d'IA",
-   "resume": "La Chine renforce ses contrôles à l'exportation via le MOFCOM en ciblant l'intelligence artificielle et d'autres technologies sensibles, dressant une liste de 40 technologies réglementées. Ces mesures et les sanctions associées pèsent désormais sur les discussions diplomatiques et économiques en cours avec l'Union européenne.",
+   "resume": "La Chine durcit ses restrictions réglementaires à l'exportation via le MOFCOM en ciblant l'intelligence artificielle et le secteur biopharmaceutique, avec de nouvelles obligations d'enregistrement préalable. Ces barrières technologiques pèsent lourdement sur les relations diplomatiques et économiques, notamment avec l'Union européenne.",
    "creee": "2026-10-20T09:56:16.457937+00:00",
-   "maj": "2026-10-29T15:38:41+00:00",
+   "maj": "2026-10-29T19:24:00+00:00",
    "episodes": [
     {
      "id": "312d9d2bf59580",
@@ -958,6 +1071,17 @@
      "lien": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOVmdiNkZjcnFIOE5OUDN1SXBPSk1TY3JxQVNfZWpxdUh6WUJURHlPOXdSUldDUXRZYjU5VVFHNzdBOUFkVl9TcEQ2SUkwTmVCSDQ1b0N6cDNGZFhZdzhxeDBKOVQ0ckJaZG9welpMdU55OU1QM3J6WWlOOV9XSnhWXzNKMXNNYkpzakRCVWtUd3ZjY2stYUxodjJYd2VsdFk?oc=5",
      "nb_sources": 1,
      "primaire": false
+    },
+    {
+     "id": "0a373e5a677d47",
+     "date": "2026-10-29T19:24:00+00:00",
+     "titre": "Contrôles chinois à l'exportation sur la biopharmacie et l'IA",
+     "neuf": "La Chine étend ses restrictions à l'exportation à la biopharmacie et formalise de nouvelles obligations d'enregistrement.",
+     "fil": "Renforcement des contrôles chinois à l'exportation sur l'IA et la haute technologie",
+     "source": "Contrôles à l'export IA",
+     "lien": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPSUo4UFR4b0ZicWJVclJDRkJERElfaUw3aGlJdkpzZUNKLW8yal9lYzBCRzVZQWlJbzZKVHB0ZnRZekU5dFVlbXNIazl4UWFzSjc4LTF5V1R3NVJUaTY4V1IxUmFFSWdtdDJTX3hDMDBqYWhYOEt3aXlDWVhQeWlzOVo5aFFTRjJHSVZ2WF9IM2pHa2hMeGdCaVVRMVpjT0ZoX003Sk1WM0lya2F3NGNYSzB1VGROYW_SAbwBQVVfeXFMT1ZocURFS1JoTlJTZjlVS2lUZnA1S2F0LTBId2NYc0Q2RGVDMzNmb0p4ZGlBUk0zU0wwajBONzkwYlB2ZFpKY0VBQmNGME1JZVhvcDl1RkIyeHdKbjhGY3Q0UW01c1M1aFZsNDYyQVNRVVhmRTlxcllMbm1wVnVHZVZNQjJGVGQ1S3dEakdnYzFqZmtPMTZEeGFpdHFFU3BMZVp6ZTlVcmtMM09QQTFfcVEyOWJKWkNDTmoxbGc?oc=5",
+     "nb_sources": 1,
+     "primaire": false
     }
    ],
    "statut": "active",
@@ -967,116 +1091,82 @@
    ]
   },
   {
-   "id": "h_ce024d6c9b",
-   "titre": "Nouveau modèle de Mistral AI contre les acteurs chinois",
-   "resume": "Mistral AI officialise Mistral Large 4 ('Le Chonk'), un modèle multimodal Mixture-of-Experts d'environ 1 000 milliards de paramètres axé sur le code et la cybersécurité. Cette orientation se poursuit avec un partenariat stratégique conclu avec Orange Cyberdéfense pour concevoir des agents spécialisés dans la détection de failles.",
-   "creee": "2026-10-27T00:58:25.413423+00:00",
-   "maj": "2026-10-29T14:46:43+00:00",
+   "id": "h_6f2d0cebc4",
+   "titre": "Les élections de mi-mandat testent l'application des lois sur l'IA",
+   "resume": "",
+   "creee": "2026-10-30T01:09:42.604214+00:00",
+   "maj": "2026-10-29T16:43:51+00:00",
    "episodes": [
     {
-     "id": "0f96ced7a18023",
-     "date": "2026-10-06T07:00:00+00:00",
-     "titre": "Mistral AI lance un nouveau modèle pour concurrencer les modèles chinois",
-     "neuf": "Mistral AI lance un nouveau modèle visant à concurrencer directement les acteurs chinois.",
-     "fil": "Annonce d'un nouveau modèle Mistral AI",
-     "source": "Grandes annonces IA",
-     "lien": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNcjVFRUV6ZzZmeXFiN3NIWmZwUTBGWTR3ZUx1UUhjLWRLMC0wZThtLW00a1FYNjloa3BiSTFveFdZZFkxWnd5d283Qi04MnU1UC1IUl9KdlBkX2o2X3JpQ0pUZVRZQzJ3Uk1fRzR5VnJIdGhwVGI3Q0JWc2RWOGtBZTZzek4tcWQxRTAxZnB3eWJyV2gzY2FlNjdYVk95b2lQX2UtLVNWandvMDA?oc=5",
-     "nb_sources": 2,
+     "id": "a388198d7fc9e5",
+     "date": "2026-10-29T16:43:51+00:00",
+     "titre": "Les élections de mi-mandat testent les nouvelles lois sur l'IA",
+     "neuf": "Première mise à l'épreuve concrète des nouvelles réglementations sur l'IA lors des élections de mi-mandat.",
+     "fil": "Test des lois sur l'IA lors des élections",
+     "source": "Désinformation et deepfakes",
+     "lien": "https://news.google.com/rss/articles/CBMickFVX3lxTE5lYTN0N19oeUlvbEdXUktCTWNkUlNReUszdjJSbnRnenpGWHVnTVdhYmhJejM3a3VudEszTVhXRnNyYWpzdG8wc2t0aW9PMndtaHVKeWNQcEQ1V19SbzA3d3gwc0hYYjhIblRWTFBrR0wwQQ?oc=5",
+     "nb_sources": 1,
      "primaire": false
-    },
+    }
+   ],
+   "statut": "active",
+   "societes": []
+  },
+  {
+   "id": "h_6dbf1247a5",
+   "titre": "Le Texas attaque OpenAI et Sam Altman en justice",
+   "resume": "L'État du Texas, de nouveaux plaignants et une famille endeuillée engagent des poursuites judiciaires contre OpenAI et son PDG Sam Altman, ciblant directement les pratiques de sécurité de l'entreprise suite à des incidents graves impliquant ChatGPT.",
+   "creee": "2026-10-23T20:44:31.752569+00:00",
+   "maj": "2026-10-29T16:17:41+00:00",
+   "episodes": [
     {
-     "id": "90a784e5869212",
-     "date": "2026-10-07T07:00:00+00:00",
-     "titre": "« Avec une avance considérable » : le Français Mistral envoie du lourd avec son nouveau modèle d’IA - Futura, le média qui explore le monde",
-     "neuf": "Sortie d'un nouveau modèle de Mistral AI salué pour ses performances face à la concurrence.",
-     "fil": "Nouveau modèle de Mistral AI contre les acteurs chinois",
-     "source": "IA en français (actus)",
-     "lien": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxQbEF4NzNrdGRmbm1qU3A3VURENTJ4Tm9fcWtQWFFQMHpTTFdadTdiOUVUSWNaWkRVbXA1WHZEV3NRU284cTFnU2IxX3FCT3RTcVNjUm1ldUZ0bUFFMnNqaUJtSU5Xakh0VW9qRU45S3BRQnpOVUFSM0o1X0JPRnpMN3FxVDMwMUw2all0VVZJMldYTWhQRVpOcExDQWxKamZLd25wczA0OTdVakt4SUNnX1RaTmt2ODBPeHBLRXdGbk5KQ3ROM0duMkNQbGhXYzN5NGdXMnJRdWptN2xaaFY0Q216eUVxOG42?oc=5",
-     "nb_sources": 2,
-     "primaire": false
-    },
-    {
-     "id": "a1765f446c5b64",
-     "date": "2026-10-29T00:00:00+00:00",
-     "titre": "Mistral Large 4 disponible sur Hugging Face",
-     "neuf": "Mistral Large 4 est désormais accessible sur la plateforme Hugging Face.",
-     "fil": "même modèle Mistral Large 4",
-     "source": "Hugging Face",
-     "lien": "https://huggingface.co/blog/mistral-large4",
-     "nb_sources": 3,
-     "primaire": false
-    },
-    {
-     "id": "df6933ff3f4e15",
-     "date": "2026-10-29T10:44:05+00:00",
-     "titre": "Sortie de Mistral Large 4 : le nouveau modèle ouvert de Mistral AI",
-     "neuf": "Mistral AI officialise la sortie de son nouveau modèle ouvert Mistral Large 4.",
-     "fil": "Même stratégie de nouveaux modèles de Mistral AI",
-     "source": "Mistral AI (actus)",
-     "lien": "https://news.google.com/rss/articles/CBMioAJBVV95cUxOQkZudHktZm14SEVHaFppU1VxaWdJVjBqS2JSYnpDdHlreTZUWjduUnhqdTZJQkV5MTRWMUNWQldDSUpPWURnVTZhRXZaekpjam5zMmxoMnBuWEhJc0lMcVBFUnhYZE4yTlh4ZU5xQkJHdlM3aS0ydnMtOEhKQThnaEhZUWxmUmFyTVhTdHV6UVYyYVA3bS02ODdkSkhPQjVpTkgxU29pWVFMVUFMSkNrWXhubWloV29QdEtucTZKeTZNUjIwU3FzY0VNaC1xS2tEbnFuOFdjdFlOMHE3dWdOWU5hYUlnbm9WbXFpTmY5d3RZU05lbm05TXBOR1ZEWWljbGxOenZpQ0ZUbms0RzdzMEY1S05BWjMxLUlwUFk5SUc?oc=5",
+     "id": "4ac8501b384460",
+     "date": "2026-10-23T19:44:30+00:00",
+     "titre": "Le procureur général du Texas attaque OpenAI en justice",
+     "neuf": "Le Texas attaque OpenAI en justice.",
+     "fil": "Action en justice du Texas contre OpenAI",
+     "source": "OpenAI (actus)",
+     "lien": "https://news.google.com/rss/articles/CBMingFBVV95cUxPcEs5ME1zUXpNMy1lcW9Td1FrVlZxT0xjRFNXSDBEU1Z5UWFLeG82bGVJT0J4bzR5ZVBZV2ptcHQ4OV9LZWlRSS10TkV6Y01KSVJRNkZIelU3MlpLNkdzX2FTamc4bDJTWEs2NGpYMnNyY0gtY1IxYm85Nmg4NFFzVlZzS0l5ck1qU2pES1RUaEd5TEhzaVA4VC1tY2lmZw?oc=5",
      "nb_sources": 1,
      "primaire": false
     },
     {
-     "id": "1ee7ff6ad9c98e",
-     "date": "2026-10-29T14:10:54+00:00",
-     "titre": "Code, cybersécurité : les nouvelles priorités de Mistral AI pour griffer ses concurrents chinois - Les Echos",
-     "neuf": "La presse souligne l'orientation de Mistral AI vers le code et la cybersécurité pour concurrencer ses rivaux.",
-     "fil": "même stratégie de Mistral AI",
-     "source": "Mistral AI (actus)",
-     "lien": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxPWnZNU0d1VERmVG1SOGI3UWp4TkdzRnRkU0M3WXMyNkMxeEpVcGd0blhmS2QtSEtObWlkX080UXE0dHBnNUk3Z1o3bk12TlNGNk9sc3ZJTlUxTkItZEw0UngxVXVwdlBCVnYzX3lPZmpMX3ZQYVVaREdteVh6OEpQLXFwd0xVUk1LTE1VNXhDajNtYzJiYlh5ZDVEU1p1NFRxdzNBYlNZcGRCVkx2RXpabW9rMzJhY3kyMEg3aVA1Q0QxVTdJUTg4M0xaMmN0QTNhRFdiWmhld3VETkJkVHhfSEV0UTU1cG4xOVB4ZmdOVjdqSTJuSVE?oc=5",
+     "id": "69a81bfc9e716e",
+     "date": "2026-10-23T20:39:00+00:00",
+     "titre": "Le Texas attaque OpenAI et Sam Altman en justice pour des questions de sécurité",
+     "neuf": "L'action en justice du Texas vise spécifiquement OpenAI et Sam Altman pour des questions de sécurité.",
+     "fil": "Poursuites judiciaires du Texas contre OpenAI et Sam Altman",
+     "source": "OpenAI (actus)",
+     "lien": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPcm00d0JOd3dfc2ROWW5vaklsUk9MWDZXN1hLNWNwMWllNmZ1N2p5WGQ2VVUtOTlzQUdlUDZOcFB1WUpVcWE3WVcxZk16b09BNHZlcHJjWkVYZVNIdE1lbWFJWHRNOGIxbWR2cHFUazdsakh4NnBMcmhyUVdGbzVKNk1Mc001NjhzT09pNFdGanA?oc=5",
      "nb_sources": 1,
      "primaire": false
     },
     {
-     "id": "163733f8c8122a",
-     "date": "2026-10-29T14:11:42+00:00",
-     "titre": "Mistral Large 4 'Le Chonk' disponible en poids ouverts",
-     "neuf": "Mistral Large 4 (surnommé 'Le Chonk') est mis à disposition avec des poids ouverts.",
-     "fil": "même modèle Mistral Large 4",
-     "source": "r/LocalLLaMA",
-     "lien": "https://www.reddit.com/r/LocalLLaMA/comments/1xil3qy/mistral_large_4_le_chonk_is_now_open_weight/",
+     "id": "d01e21c19d1fed",
+     "date": "2026-10-28T09:15:43+00:00",
+     "titre": "Une action en justice au Texas attaque OpenAI sur la sécurité de ChatGPT",
+     "neuf": "Une nouvelle plainte au Texas vient contester les déclarations de sécurité d'OpenAI concernant ChatGPT.",
+     "fil": "Action en justice au Texas contre OpenAI",
+     "source": "OpenAI (actus)",
+     "lien": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5jd0dwRkRCUXh6SUx1U1U1bTQ4TF9OaHR2WldOSV9kMDJKblR0TWNpUnhkN2Q5aHoyclVKVF93NEhwQ3hQc1ZIT293Nl8zUVU2dVFpbGU3XzlrX0Q3dHk3amNXWVhZQllLLW52NXRRcnhyLUJpU1o0NmVaU21jdw?oc=5",
      "nb_sources": 1,
      "primaire": false
     },
     {
-     "id": "46c2109033cade",
-     "date": "2026-10-29T14:16:58+00:00",
-     "titre": "Transformers v5.22.0 intègre Mistral Large 4",
-     "neuf": "La bibliothèque Transformers intègre Mistral Large 4, modèle MoE d'environ 1 000 milliards de paramètres.",
-     "fil": "même modèle Mistral Large 4",
-     "source": "Transformers",
-     "lien": "https://github.com/huggingface/transformers/releases/tag/v5.22.0",
-     "nb_sources": 1,
-     "primaire": true
-    },
-    {
-     "id": "aa833204da72d6",
-     "date": "2026-10-29T14:45:06+00:00",
-     "titre": "Mistral AI lance un nouveau modèle téléchargeable axé sur la cybersécurité",
-     "neuf": "Mistral AI propose un nouveau modèle téléchargeable axé sur la cybersécurité.",
-     "fil": "même modèle Mistral Large 4",
-     "source": "Grandes annonces IA",
-     "lien": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPOWlfcWswLUlERGllQ3RvSmx1M2JWeUlBXzJSRDNmay1NOFpVU3d2X2JGSFFtd0xaRFA5ZGFkSjE0Rl9RRWVLYlEyVUkxOTVSSmVyb3Joekt2WXNmNE0yV0MyaHZRNmpZcnBiNTU1OXZabGNWT2I0WkE2WUFvQVZKRXZKWmlTOHlhU0V2dV9INGxpbUxueDYxNnVLQjMtWjlRdTFnWUdtc3BpUlN2eFVQZE43MUdkMGR1TGdFczJQTlJGcE9K?oc=5",
-     "nb_sources": 1,
-     "primaire": false
-    },
-    {
-     "id": "c59c3778d59beb",
-     "date": "2026-10-29T14:46:43+00:00",
-     "titre": "Orange Cyberdéfense et Mistral AI unissent leurs forces pour créer des agents IA capable de déceler les failles de cybersécurité - La Tribune",
-     "neuf": "Partenariat entre Orange Cyberdéfense et Mistral AI pour développer des agents de détection de failles.",
-     "fil": "même orientation cybersécurité pour Mistral AI",
-     "source": "Mistral AI (actus)",
-     "lien": "https://news.google.com/rss/articles/CBMinwJBVV95cUxNSTRmMmhPWjJUY2dIdU1hZDVjUFF4VW5IT09kSWQySWtfRFhTYTY3VG9ueU05cnM3SXctNFNMcWNjbWo4bE5sdXBRQmxZRF80VUFUcktTZ2pOanZoNEhDVmxWT05KQnV2ZWtadHFRNmFHN05xNjY0ZGVJSVhsSUItRm5OcldNRjVITUpDdi1XQjRqT2JfM1NPa2dfdWZZZGlEZlN6aHVoWDR4YUNoNTA5SFk4bE1nb1BHR1kzWE9MY0xiQzRkbkt2QjNNdGJHcnNBYlJoT1hnMHVWS1ZKRkkwSkVLcUZiRVlNQV9COXVpZ3JyX2N3NHdOaEFNa1NJN3RneDljRUc5REM1MXJCZ2FPVzFUSWJQd1plZWp1Znh5cw?oc=5",
+     "id": "59fbb37c9c7358",
+     "date": "2026-10-29T16:17:41+00:00",
+     "titre": "Une famille poursuit OpenAI et Sam Altman en justice après un décès",
+     "neuf": "Une nouvelle action en justice est intentée par une famille contre OpenAI et Sam Altman suite au décès d'une femme.",
+     "fil": "même contentieux judiciaire contre OpenAI et Sam Altman",
+     "source": "OpenAI (actus)",
+     "lien": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNdEhlNmxhZDZMU1NxTlhhVWtHTnpEODN3LXRpbXR6Rk9OeDd5RUlIOThWcW90Y1RmaUh0MVgwLWxwMmVDVzBuUEhUcm9MOFVMNWQtejFmRlB4cmpmMUE2Uy1pWE9UUE1palE3VG5wZlJJSDJBZmE2UDJmYVA0eU9ab0VsNkFDWms3NTh4ci03WVpwU3VxMWk2SDhOcUctb2xiMUoyX2F2YjR4czNwX0hNTEdqMXnSAcgBQVVfeXFMT0dudDJsTkVVcTB0eEdWOUt2c1E0bXUzY1lyUEhfdEg0M09PU3lfQlljQTlzWDFtZHVOeEV6S3Awd0RjaHR5dHlyajJHeUgwX19STUxjbmZSdW9LVEVYODZ6MUJQcFdXQ01JR1Y0SVlqVENLQ09fbERKWk10VXRDS2puZ0R0VGxDYk5ZU0JyX1pVOEc2T2I5Vmt5QTFoTEVwM1VBb015Ym9CM2o0eUt0aGZHczZidC1wRko3U0lVd1RzOVlFRWk1RDM?oc=5",
      "nb_sources": 1,
      "primaire": false
     }
    ],
    "statut": "active",
    "societes": [
-    "mistral",
-    "huggingface"
+    "openai"
    ]
   },
   {
@@ -2023,7 +2113,7 @@
   {
    "id": "h_27b5489481",
    "titre": "Rupture entre le gouvernement américain et Anthropic",
-   "resume": "Malgré la signature d'un accord pour étendre l'utilisation de Claude au sein du gouvernement américain, les relations restent complexes, l'entreprise ayant averti son personnel des risques pesant sur leurs visas.",
+   "resume": "Malgré la signature d'un accord pour étendre l'utilisation de Claude au sein du gouvernement américain, les relations restent hautement sensibles. Un incident récent de fuite de données au Pentagone, lié à l'utilisation non autorisée d'un agent Claude personnel par un prestataire, vient relancer les tensions sécuritaires.",
    "creee": "2026-10-20T09:56:16.457937+00:00",
    "maj": "2026-10-28T11:24:41+00:00",
    "episodes": [
@@ -3424,7 +3514,7 @@
   {
    "id": "h_61682af51c",
    "titre": "Lancement de l'agent IA Claude Duet d'Anthropic",
-   "resume": "Anthropic déploie son agent professionnel Claude Duet tout en restreignant l'accès à ses offres via des minima de sièges. L'entreprise enrichit également Claude de fonctionnalités de rapports managériaux pour surveiller l'activité des salariés.",
+   "resume": "Anthropic déploie son agent professionnel Claude Duet, qui reçoit ses premiers retours élogieux d'utilisateurs saluant son utilité pratique. L'accès reste toutefois encadré par des minima de sièges et enrichi de fonctions de surveillance managériale.",
    "creee": "2026-10-21T20:44:46.798337+00:00",
    "maj": "2026-10-24T13:07:30+00:00",
    "episodes": [
@@ -3578,6 +3668,30 @@
    "statut": "active",
    "societes": [
     "openai"
+   ]
+  },
+  {
+   "id": "h_283746cef0",
+   "titre": "Clover-35B-A3B-Preview : premier modèle open source à diffusion textuelle",
+   "resume": "",
+   "creee": "2026-10-30T01:09:42.604214+00:00",
+   "maj": "2026-10-24T03:46:30+00:00",
+   "episodes": [
+    {
+     "id": "d60999fa86d7a1",
+     "date": "2026-10-24T03:46:30+00:00",
+     "titre": "Clover-35B-A3B-Preview : premier modèle de langage à diffusion open source",
+     "neuf": "Sortie d'un nouveau modèle de langage à diffusion open source de 35 milliards de paramètres.",
+     "fil": "Lancement du modèle Clover-35B-A3B-Preview",
+     "source": "Hugging Face : modèles en tendance",
+     "lien": "https://huggingface.co/Diffuspace/Clover-35B-A3B-Preview",
+     "nb_sources": 1,
+     "primaire": true
+    }
+   ],
+   "statut": "active",
+   "societes": [
+    "huggingface"
    ]
   },
   {
