@@ -1,5 +1,5 @@
 {
- "maj": "2026-10-30T20:48:26.671253+00:00",
+ "maj": "2026-10-31T05:40:34.097950+00:00",
  "sources_ok": [
   "Notes de version Claude (API)",
   "Notes de version OpenAI (API)",
@@ -31,7 +31,6 @@
   "TechCrunch IA",
   "Simon Willison",
   "Hacker News (IA, 100+ pts)",
-  "r/LocalLLaMA",
   "arXiv cs.AI",
   "arXiv cs.CL",
   "ActuIA",
@@ -55,17 +54,21 @@
   {
    "nom": "VentureBeat IA",
    "erreur": "429 Client Error: Too Many Requests for url: https://venturebeat.com/category/ai/feed/"
+  },
+  {
+   "nom": "r/LocalLLaMA",
+   "erreur": "429 Client Error: Too Many Requests for url: https://www.reddit.com/r/LocalLLaMA/top/.rss?t=day"
   }
  ],
- "total": 1684,
- "analyses": 1581,
+ "total": 1707,
+ "analyses": 1601,
  "brief": {
-  "titre": "Cybersécurité et nouveaux modèles au cœur de l'IA",
-  "texte": "L'actualité de l'IA est marquée par d'importantes sorties de modèles et des enjeux accrus de sécurité. Mistral AI dévoile Mistral Large 4 en poids ouverts et un modèle axé sur la cybersécurité, tandis qu'OpenAI lance GPT-6 Rosalind pour les sciences de la vie. En parallèle, des incidents et failles de sécurité impliquant Claude rappellent la criticité du sujet. Enfin, Google généralise son outil Computer Use et Anthropic optimise la gestion des coûts de son API.",
+  "titre": "Sécurité, API et nouveaux modèles : l'actualité IA s'accélère",
+  "texte": "L'écosystème IA est marqué par d'importantes évolutions d'API et des enjeux de sécurité majeurs. OpenAI lance GPT-6 Rosalind pour les sciences de la vie, tandis que Gemini généralise son outil Computer Use. Anthropic fait face à des failles de sécurité sur Claude Code et introduit une API d'analyse des coûts, tout en intégrant des crédits API à ses abonnements. Enfin, les marchés s'agitent autour d'éventuelles introductions en bourse pour OpenAI et Anthropic.",
   "a_tester": [
-   "Tester Mistral Large 4 'Le Chonk' en local",
-   "Explorer l'API Computer Use de Gemini",
-   "Auditer vos usages via la nouvelle API de coûts d'Anthropic"
+   "Explorer l'API d'analyse des coûts d'Anthropic pour optimiser vos dépenses",
+   "Tester la mise à jour Claude Code v2.1.316 et ses budgets partagés",
+   "Vérifier la sécurité de vos extensions Claude Code suite aux récentes failles"
   ]
  },
  "top5": {

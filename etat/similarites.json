@@ -65,9 +65,9 @@
    "China says it will curb tech exports, including AI, citing national security risks - PBS"
   ],
   [
-   0.855,
+   0.835,
    "même événement selon l'IA",
-   "China Plans AI Export Curbs to Exert Control Over Key Tech - Bloomberg.com",
+   "China Proposes Export Controls on AI Technologies - WSJ",
    "China says it will curb tech exports, including AI, citing national security risks - PBS"
   ],
   [
@@ -86,12 +86,6 @@
    0.837,
    "même événement selon l'IA",
    "Elon Musk's Grok Releases First AI-Generated \"Odyssey\" Episode - Variety",
-   "Elon Musk actually follows through on Grok AI adaptation of 'The Odyssey' - Mashable SEA"
-  ],
-  [
-   0.82,
-   "même événement selon l'IA",
-   "Grok releases the first seven minutes of its AI-generated ‘Odyssey’ - TechCrunch",
    "Elon Musk actually follows through on Grok AI adaptation of 'The Odyssey' - Mashable SEA"
   ],
   [
@@ -127,8 +121,14 @@
   [
    null,
    "même titre",
-   "Early progress on accelerating drug development with Claude",
-   "Early progress on accelerating drug development with Claude - Anthropic"
+   "Genie 4: A new generation of world simulation - Google DeepMind",
+   "Genie 4: A new generation of world simulation"
+  ],
+  [
+   0.84,
+   "même événement selon l'IA",
+   "Anthropic's SEC filing devotes 90 pages to risk as it prepares for IPO - ABC News - Breaking News, Latest News",
+   "Anthropic warns investors of political risks as it prepares to go public - Politico"
   ],
   [
    0.839,
@@ -179,6 +179,18 @@
    "Anthropic to Newsom: Courts should have power to block risky AI - Politico"
   ],
   [
+   0.852,
+   "même événement selon l'IA",
+   "Google Deepmind releases Gemini 4 Carbon just two weeks after Argon with gains across the board - The Decoder",
+   "Google DeepMind Introduces Gemini 4 Carbon, Its Top Model for Cyber Defense and Coding - MarkTechPost"
+  ],
+  [
+   0.829,
+   "même événement selon l'IA",
+   "Google announces Gemini 4 Carbon, its new frontier AI model - Mashable",
+   "Gemini 4 Carbon: Google’s new frontier AI model tops a ranking, but cyber defenders get it first - Nacionale"
+  ],
+  [
    0.858,
    "même événement selon l'IA",
    "ServiceNow and OpenAI accelerate enterprise AI, from models and operations to cybersecurity and agentic develo",
@@ -197,22 +209,22 @@
    "More political deepfakes 'muddying the waters' this election; Trump most frequent target - The National Desk"
   ],
   [
+   0.85,
+   "même événement selon l'IA",
+   "Google's Gemini 4 Carbon looks like a diamond in the rough - The Register",
+   "Google unveils Gemini 4 Carbon, retaking the world's no. 1 spot on updated, harder benchmarks — but access is "
+  ],
+  [
    0.835,
    "même événement selon l'IA",
    "New report confirms Anthropic’s Claude bypassed a paywall to access Georgia vote counts - Yahoo",
    "Claude accessed public voter data without human prompting, raising security concerns - WSFA"
   ],
   [
-   0.828,
+   0.861,
    "même événement selon l'IA",
-   "Microsoft’s AI future has fewer jobs",
-   "Microsoft offers voluntary exit packages to roughly 60,000 employees as AI spending reshapes its workforce - L"
-  ],
-  [
-   0.875,
-   "même événement selon l'IA",
-   "Mistral releases weights for its trillion-parameter AI model, targeting cybersecurity",
-   "Mistral releases latest AI model for download, giving companies more control over their cybersecurity - Eurone"
+   "Family sues OpenAI, CEO Sam Altman over woman’s death - WSB-TV",
+   "Family sues OpenAI, claiming ChatGPT is partly responsible for daughter’s death - KOMO"
   ],
   [
    0.867,
@@ -231,12 +243,6 @@
    "sens quasi identique",
    "Defense Contractor Gave Personal AI Agent Access to Pentagon System - CDO Magazine",
    "A Defense Contractor Gave Their Personal AI Agent Access to a Secure Pentagon System - WIRED"
-  ],
-  [
-   0.864,
-   "même événement selon l'IA",
-   "Reddit will force everyone to log in",
-   "As search traffic dries up, Reddit announces it’s shifting to a logged-in experience"
   ],
   [
    0.933,
@@ -293,28 +299,52 @@
    "More political deepfakes 'muddying the waters' this election; Trump most frequent target - The National Desk"
   ],
   [
-   0.885,
-   "même événement selon l'IA",
-   "Pope Leo XIV Calls for Human Oversight and Steps Toward Autonomous Weapons Ban - TOKENPOST",
-   "Pope Leo XIV Calls to “Disarm” AI, Urges Ban on Lethal Autonomous Weapons - Unite.AI"
-  ],
-  [
    0.888,
    "même événement selon l'IA",
    "SpaceX launches Grok AI partner network for enterprise expansion - MSSP Alert",
    "SpaceX Launches Grok AI Partner Program: Here’s What To Know - CRN"
   ],
   [
-   0.84,
+   0.863,
    "même événement selon l'IA",
-   "OpenAI to limit weapons information for teens on ChatGPT in violence-prevention push - Yahoo",
+   "'It’s 100 percent a national security threat': Accenture contractor connected an AI agent to the Pentagon’s se",
+   "A Defense Contractor Gave Their Personal AI Agent Access to a Secure Pentagon System - WIRED"
+  ],
+  [
+   0.835,
+   "même événement selon l'IA",
+   "OpenAI to limit weapons information for teens on ChatGPT in violence-prevention push - Reuters",
    "Community safety report and new protections for teens"
   ],
   [
-   null,
-   "même titre",
-   "The future of the firm - OpenAI",
-   "The future of the firm"
+   0.886,
+   "même événement selon l'IA",
+   "OpenAI caves to backlash and reverses course on reducing ChatGPT usage limits - Android Authority",
+   "OpenAI doubles ChatGPT Pro usage limits after backlash over planned 50% cut - BleepingComputer"
+  ],
+  [
+   0.851,
+   "même événement selon l'IA",
+   "Sam Altman says it’s better for RAM to be in a data center than on your desk",
+   "Sam Altman: “Local inference is a terrible allocation of scarce resources”"
+  ],
+  [
+   0.872,
+   "même événement selon l'IA",
+   "House Democrats Demand Trump Preserve Grok AI Chats After TIME Report - Time Magazine",
+   "Top House Democrats demand Trump preserve conversations with Grok - Politico"
+  ],
+  [
+   0.875,
+   "même événement selon l'IA",
+   "Anthropic expected to receive high 'junk' rating from credit agencies following IPO, FT report says - TechCrun",
+   "Anthropic may not secure investment-grade rating after IPO, Blackstone tells investors - Financial Times"
+  ],
+  [
+   0.899,
+   "même événement selon l'IA",
+   "Anthropic expected to receive high ‘junk’ rating from credit agencies following IPO, FT report says",
+   "Anthropic may not secure investment-grade rating after IPO, Blackstone tells investors - Financial Times"
   ],
   [
    0.823,
@@ -347,28 +377,22 @@
    "Mistral Large 4 passe de 38 à 25 points sur le nouvel indice d'Artificial Analysis - ActuIA"
   ],
   [
-   null,
-   "même titre",
-   "Désormais ouvert, Mistral Large 4 peut-il rivaliser avec les modèles chinois les plus performants ? - L'Usine ",
-   "Désormais ouvert, Mistral Large 4 peut-il rivaliser avec les modèles chinois les plus performants ? - L'Usine "
-  ],
-  [
-   0.88,
-   "même événement selon l'IA",
-   "Orange Cyberdefense s'allie à Mistral AI pour prendre les pirates de vitesse - Zonebourse",
-   "Orange Cyberdéfense et Mistral AI unissent leurs forces pour créer des agents IA capable de déceler les faille"
-  ],
-  [
    0.884,
    "même événement selon l'IA",
    "Orange Cyberdefense s’allie à Mistral AI pour renforcer ses services de cybersécurité - ChannelNews",
    "Orange Cyberdéfense et Mistral AI unissent leurs forces pour créer des agents IA capable de déceler les faille"
   ],
   [
-   0.855,
+   0.853,
    "même événement selon l'IA",
-   "Mistral Large 4 ouvre ses poids, mais encadre sa commercialisation - InformatiqueNews",
+   "Mistral ouvre les poids de Large 4 et fait de l’hébergement chez le client son argument de souveraineté - it s",
    "Désormais ouvert, Mistral Large 4 peut-il rivaliser avec les modèles chinois les plus performants ? - L'Usine "
+  ],
+  [
+   0.932,
+   "sens quasi identique",
+   "Mistral AI va donner à Orange Cyberdefense un accès anticipé à une variante de Mistral Large 4 optimisée pour ",
+   "Orange Cyberdéfense et Mistral AI unissent leurs forces pour créer des agents IA capable de déceler les faille"
   ],
   [
    0.847,
@@ -662,7 +686,7 @@
   [
    0.839,
    "Anthropic's Deal With Elon Musk's SpaceXAI Is Even Bigger Than We Knew, IPO Filing Shows - Gizmodo",
-   "SpaceX’s Largest Revenue Source Is a Finite Deal With Anthropic - Bloomberg.com"
+   "SpaceX’s Largest Revenue Source Is a Finite Deal With Anthropic - Bloomberg"
   ],
   [
    0.838,

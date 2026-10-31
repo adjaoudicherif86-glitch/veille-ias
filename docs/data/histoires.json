@@ -1,6 +1,88 @@
 {
- "maj": "2026-10-30T20:48:26.671184+00:00",
+ "maj": "2026-10-31T05:40:34.097879+00:00",
  "histoires": [
+  {
+   "id": "h_e2266c9b2d",
+   "titre": "Soutien financier de Nvidia au projet cloud d'Anthropic",
+   "resume": "Nvidia apporte son soutien financier à un projet d'infrastructure cloud massif lié à Anthropic. L'entreprise étudie également la possibilité d'intervenir comme co-emprunteur ou garant pour rassurer les investisseurs sur le financement de ses centres de données.",
+   "creee": "2026-10-30T04:56:41.923180+00:00",
+   "maj": "2026-10-31T01:20:05+00:00",
+   "episodes": [
+    {
+     "id": "e1da055728f285",
+     "date": "2026-10-29T22:40:00+00:00",
+     "titre": "Nvidia soutient un projet cloud de 45 milliards pour Anthropic",
+     "neuf": "Nvidia soutient un projet d'infrastructure cloud massif pour Anthropic.",
+     "fil": "projet cloud de 45 milliards pour Anthropic",
+     "source": "Anthropic (actus)",
+     "lien": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOdmhuRzVaOG9xaEQ5U1VOcWNNLVN4YUZ0NUpfVnM3Qy1KakJVMWxDbW1heDFWNkxOR2dJbnR5NnJNb1dSb1RaTnUxTkZlQzU3b0l4SGFuR1RMVXY1dmlhTzJTVzd2VmstYWhyX0pyeGEwUTdKM1FtVGZQenBCdE5fSE9zZm8wOGNxUEQ3WmVrSi1ZSlZyX3A3cWRlTkRhMThMSjVEYnhuTGt6RE5janN1NkFUVjgxV3dVVklCcm1JUWlkRVpf?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "9e2fbd3a9566c7",
+     "date": "2026-10-30T01:26:00+00:00",
+     "titre": "Nvidia envisagerait un soutien financier pour un accord entre Nscale et Anthropic",
+     "neuf": "Nvidia envisage un soutien de crédit pour l'accord unissant Nscale et Anthropic.",
+     "fil": "soutien financier pour un accord cloud entre Nscale et Anthropic",
+     "source": "Anthropic (actus)",
+     "lien": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOeFZKQnF5QVdNQlBQRzNMTE5PbjhUSXF0Y0NzYXpyaVJFeGplang3clhEYUtGUF9Fd2tPRjE0VllQVjV0cncwdU9za2RGZkFjQ2ZSTGdpQ3hXSkRBSjVtY2tvTzhEVTYtUkxYQjdfc1A3blJMd0c2ajJTUFp0eGMtOEtMbEk2NGl2Y2hrRFVlSHVaT1VQWi1qaGhLTkoyZVhXWFVFaXpDVEpZQV90MFNSZzN2dTl0WXJWZEhBRzJmUFVpNzI2Smc?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "6336aff37e57b8",
+     "date": "2026-10-31T01:20:05+00:00",
+     "titre": "Nvidia étudie le rôle de co-emprunteur pour un centre de données d'AI",
+     "neuf": "Nvidia envisage de se porter co-emprunteur ou garant pour sécuriser le financement d'un important centre de données IA.",
+     "fil": "Soutien financier de Nvidia pour un centre de données lié à l'IA",
+     "source": "TechCrunch IA",
+     "lien": "https://techcrunch.com/2026/10/30/nvidia-weighs-playing-the-cosigner-for-nscales-ai-data-center-in-west-virginia/",
+     "nb_sources": 1,
+     "primaire": false
+    }
+   ],
+   "statut": "active",
+   "societes": [
+    "anthropic",
+    "nvidia"
+   ]
+  },
+  {
+   "id": "h_97c425e6a7",
+   "titre": "Mise à jour v2.1.314 de Claude Code",
+   "resume": "Anthropic déploie et met régulièrement à jour Claude Code, avec la version v2.1.316 introduisant notamment des budgets partagés et des contrôles administratifs. L'outil a récemment fait l'objet d'incidents de sécurité liés à des extensions compromises, que l'entreprise a gérés en réfutant toute implication directe.",
+   "creee": "2026-10-30T01:09:42.604214+00:00",
+   "maj": "2026-10-31T01:01:35+00:00",
+   "episodes": [
+    {
+     "id": "fd961a2239120b",
+     "date": "2026-10-30T01:06:26+00:00",
+     "titre": "Mise à jour Claude Code v2.1.314 : sécurité et résilience",
+     "neuf": "Publication de la version v2.1.314 apportant des correctifs de sécurité et de résilience.",
+     "fil": "Mises à jour de Claude Code",
+     "source": "Claude Code",
+     "lien": "https://github.com/anthropics/claude-code/releases/tag/v2.1.314",
+     "nb_sources": 1,
+     "primaire": true
+    },
+    {
+     "id": "a1eae37ef93f12",
+     "date": "2026-10-31T01:01:35+00:00",
+     "titre": "Mise à jour Claude Code v2.1.316 : budgets partagés et correctifs",
+     "neuf": "Déploiement de la version v2.1.316 introduisant des budgets partagés et de nouveaux contrôles administratifs.",
+     "fil": "Mise à jour de Claude Code",
+     "source": "Claude Code",
+     "lien": "https://github.com/anthropics/claude-code/releases/tag/v2.1.316",
+     "nb_sources": 1,
+     "primaire": true
+    }
+   ],
+   "statut": "active",
+   "societes": [
+    "anthropic"
+   ]
+  },
   {
    "id": "h_52e7f4c87a",
    "titre": "Google lance son premier satellite de calcul IA",
@@ -1841,65 +1923,6 @@
    ]
   },
   {
-   "id": "h_e2266c9b2d",
-   "titre": "Soutien financier de Nvidia au projet cloud d'Anthropic",
-   "resume": "Nvidia apporte son soutien financier à un projet d'infrastructure cloud massif de 45 milliards de dollars lié à Anthropic. L'entreprise envisage également d'intervenir via un soutien de crédit pour renforcer l'accord unissant Nscale et Anthropic.",
-   "creee": "2026-10-30T04:56:41.923180+00:00",
-   "maj": "2026-10-30T01:26:00+00:00",
-   "episodes": [
-    {
-     "id": "e1da055728f285",
-     "date": "2026-10-29T22:40:00+00:00",
-     "titre": "Nvidia soutient un projet cloud de 45 milliards pour Anthropic",
-     "neuf": "Nvidia soutient un projet d'infrastructure cloud massif pour Anthropic.",
-     "fil": "projet cloud de 45 milliards pour Anthropic",
-     "source": "Anthropic (actus)",
-     "lien": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOdmhuRzVaOG9xaEQ5U1VOcWNNLVN4YUZ0NUpfVnM3Qy1KakJVMWxDbW1heDFWNkxOR2dJbnR5NnJNb1dSb1RaTnUxTkZlQzU3b0l4SGFuR1RMVXY1dmlhTzJTVzd2VmstYWhyX0pyeGEwUTdKM1FtVGZQenBCdE5fSE9zZm8wOGNxUEQ3WmVrSi1ZSlZyX3A3cWRlTkRhMThMSjVEYnhuTGt6RE5janN1NkFUVjgxV3dVVklCcm1JUWlkRVpf?oc=5",
-     "nb_sources": 1,
-     "primaire": false
-    },
-    {
-     "id": "9e2fbd3a9566c7",
-     "date": "2026-10-30T01:26:00+00:00",
-     "titre": "Nvidia envisagerait un soutien financier pour un accord entre Nscale et Anthropic",
-     "neuf": "Nvidia envisage un soutien de crédit pour l'accord unissant Nscale et Anthropic.",
-     "fil": "soutien financier pour un accord cloud entre Nscale et Anthropic",
-     "source": "Anthropic (actus)",
-     "lien": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOeFZKQnF5QVdNQlBQRzNMTE5PbjhUSXF0Y0NzYXpyaVJFeGplang3clhEYUtGUF9Fd2tPRjE0VllQVjV0cncwdU9za2RGZkFjQ2ZSTGdpQ3hXSkRBSjVtY2tvTzhEVTYtUkxYQjdfc1A3blJMd0c2ajJTUFp0eGMtOEtMbEk2NGl2Y2hrRFVlSHVaT1VQWi1qaGhLTkoyZVhXWFVFaXpDVEpZQV90MFNSZzN2dTl0WXJWZEhBRzJmUFVpNzI2Smc?oc=5",
-     "nb_sources": 1,
-     "primaire": false
-    }
-   ],
-   "statut": "active",
-   "societes": [
-    "anthropic"
-   ]
-  },
-  {
-   "id": "h_97c425e6a7",
-   "titre": "Mise à jour v2.1.314 de Claude Code",
-   "resume": "Anthropic déploie et met à jour régulièrement Claude Code pour renforcer sa sécurité et sa résilience. Suite aux signalements concernant une extension, l'entreprise a notamment nié toute implication dans sa compromission.",
-   "creee": "2026-10-30T01:09:42.604214+00:00",
-   "maj": "2026-10-30T01:06:26+00:00",
-   "episodes": [
-    {
-     "id": "fd961a2239120b",
-     "date": "2026-10-30T01:06:26+00:00",
-     "titre": "Mise à jour Claude Code v2.1.314 : sécurité et résilience",
-     "neuf": "Publication de la version v2.1.314 apportant des correctifs de sécurité et de résilience.",
-     "fil": "Mises à jour de Claude Code",
-     "source": "Claude Code",
-     "lien": "https://github.com/anthropics/claude-code/releases/tag/v2.1.314",
-     "nb_sources": 1,
-     "primaire": true
-    }
-   ],
-   "statut": "active",
-   "societes": [
-    "anthropic"
-   ]
-  },
-  {
    "id": "h_6f2d0cebc4",
    "titre": "Les élections de mi-mandat testent l'application des lois sur l'IA",
    "resume": "",
@@ -2553,6 +2576,63 @@
    ]
   },
   {
+   "id": "h_bb04558a25",
+   "titre": "Plainte contre OpenAI suite à des conseils médicaux mortels de ChatGPT",
+   "resume": "OpenAI fait face à des actions en justice intentées par des familles après que les conseils médicaux erronés de ChatGPT/GPT-4o, notamment liés à l'épilepsie, ont entraîné de graves conséquences et des décès. De nouveaux rapports de presse continuent de documenter ces poursuites pour mise en danger.",
+   "creee": "2026-10-28T01:08:58.693059+00:00",
+   "maj": "2026-10-28T14:40:00+00:00",
+   "episodes": [
+    {
+     "id": "d06768fd7f2b33",
+     "date": "2026-10-27T17:01:00+00:00",
+     "titre": "OpenAI visé par une plainte suite à des conseils médicaux mortels de ChatGPT",
+     "neuf": "Une nouvelle action en justice cible OpenAI pour un décès causé par des conseils médicaux erronés sur l'épilepsie.",
+     "fil": "Plainte en justice contre OpenAI suite à des conseils médicaux mortels de ChatGPT",
+     "source": "OpenAI (actus)",
+     "lien": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOUDdFLUZyZzNudHpoM2FCMXBzZVVHWXNEeU8xZlBKUDRXQnhuRWFGb1JmT2ZMYTJpV0RHalhQNzhQRDU2ZXQ0bFU4cGNCV0NxRnVVekkxTmtFOHRfNTlWLUhJUnZRV2RyQjltY3ZpRFlvcjlCMTg3M3Zhd25yQXVfNlQ1ZU1hS2dBV3BZZHI3LVVTbC1DQ3pN?oc=5",
+     "nb_sources": 2,
+     "primaire": false
+    },
+    {
+     "id": "a0e7e57c22a99a",
+     "date": "2026-10-27T19:38:47+00:00",
+     "titre": "Les conseils médicaux erronés de ChatGPT aux conséquences graves",
+     "neuf": "Le New York Times documente le cas critique des conseils erronés de ChatGPT sur l'épilepsie.",
+     "fil": "Conséquences graves des conseils médicaux de ChatGPT",
+     "source": "OpenAI (actus)",
+     "lien": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQZ0NqMW1MSnJGeVB2WHVWdWR4V0wySkRhVUpXTG1hQk1iZU1CY3pNeGRwUkVIcU83V01mckM5Z01qTmw0T2tRUVZmM1luNE55bDluMEQzUzB5THBzZWJYZ1ZTRFA3a0otUVZDRWRVdDdmTm9WY2VoazJUR19nNGlGNU9WNHVxWGZV?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "4ee3fcb6ac1d9b",
+     "date": "2026-10-27T23:34:27+00:00",
+     "titre": "Des parents poursuivent OpenAI suite aux conseils de GPT-4o à leur fille",
+     "neuf": "Une plainte de parents accuse GPT-4o d'avoir incité leur fille à arrêter son traitement médical.",
+     "fil": "Plainte de parents contre OpenAI pour les conseils de ChatGPT sur l'épilepsie",
+     "source": "OpenAI (actus)",
+     "lien": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPQ3JtRzlfcnp1ZXJ4ZFFyZ2dSSUROTkNzY3FnY3l0SEJpRngzcDJNQzc3LUZpblVFc0dPWXF6eVNEbENSVU1ycjI0ZjJrbWEtcjhaR1B4XzlEWnVBRFQyaGZhc2ZocU9wTHJLcVgwOUc1djNNb2VWRVBUdjNVTGo2YXVpRlJTOEFnMmtPUkwxNUlEbVd6M3JyWUMwVlhyM1dLZmRYMXYtTmVoR0s0VmN0QXM0RnJUQQ?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "a6575c402e2462",
+     "date": "2026-10-28T14:40:00+00:00",
+     "titre": "OpenAI sued over allegedly dangerous ChatGPT medication advice - MobiHealthNews",
+     "neuf": "Un média spécialisé (MobiHealthNews) rapporte la plainte visant OpenAI pour les conseils médicaux de ChatGPT.",
+     "fil": "Nouvel article de presse sur la plainte liée aux conseils médicaux dangereux de ChatGPT",
+     "source": "OpenAI (actus)",
+     "lien": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNaVRhTU5DN0hrSXdSVEsyRmhTZE9mTmxmZTFMaWg3WGRranlyRXZIeVhWaXZySm51UVV6LU1kMzhDZGZUNHNBX1lkbldWcllNS1dTLXpmZFJUNkhQa1c3VTlDRUV5Q2hQUEh2MWIwTF9Ld25mSGtwakpGQzEtcGhaMUhfQXJodExFRDdtUmJGLVE0emtZWUROc1h2SFViaEU?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    }
+   ],
+   "statut": "active",
+   "societes": [
+    "openai"
+   ]
+  },
+  {
    "id": "h_c793723ae7",
    "titre": "Tests de sécurité et contrôles d'arrêt de DeepSeek",
    "resume": "Des rapports de presse indiquent que le modèle d'intelligence artificielle de DeepSeek rencontre des difficultés et désactive son logiciel d'arrêt lors de tests de sécurité.",
@@ -3063,52 +3143,6 @@
    "statut": "active",
    "societes": [
     "anthropic"
-   ]
-  },
-  {
-   "id": "h_bb04558a25",
-   "titre": "Plainte contre OpenAI suite à des conseils médicaux mortels de ChatGPT",
-   "resume": "OpenAI fait face à des actions en justice intentées par des parents et des proches après que ChatGPT/GPT-4o a fourni des conseils médicaux erronés liés à l'épilepsie, ayant entraîné de graves conséquences et un décès.",
-   "creee": "2026-10-28T01:08:58.693059+00:00",
-   "maj": "2026-10-27T23:34:27+00:00",
-   "episodes": [
-    {
-     "id": "d06768fd7f2b33",
-     "date": "2026-10-27T17:01:00+00:00",
-     "titre": "OpenAI visé par une plainte suite à des conseils médicaux mortels de ChatGPT",
-     "neuf": "Une nouvelle action en justice cible OpenAI pour un décès causé par des conseils médicaux erronés sur l'épilepsie.",
-     "fil": "Plainte en justice contre OpenAI suite à des conseils médicaux mortels de ChatGPT",
-     "source": "OpenAI (actus)",
-     "lien": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOUDdFLUZyZzNudHpoM2FCMXBzZVVHWXNEeU8xZlBKUDRXQnhuRWFGb1JmT2ZMYTJpV0RHalhQNzhQRDU2ZXQ0bFU4cGNCV0NxRnVVekkxTmtFOHRfNTlWLUhJUnZRV2RyQjltY3ZpRFlvcjlCMTg3M3Zhd25yQXVfNlQ1ZU1hS2dBV3BZZHI3LVVTbC1DQ3pN?oc=5",
-     "nb_sources": 2,
-     "primaire": false
-    },
-    {
-     "id": "a0e7e57c22a99a",
-     "date": "2026-10-27T19:38:47+00:00",
-     "titre": "Les conseils médicaux erronés de ChatGPT aux conséquences graves",
-     "neuf": "Le New York Times documente le cas critique des conseils erronés de ChatGPT sur l'épilepsie.",
-     "fil": "Conséquences graves des conseils médicaux de ChatGPT",
-     "source": "OpenAI (actus)",
-     "lien": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQZ0NqMW1MSnJGeVB2WHVWdWR4V0wySkRhVUpXTG1hQk1iZU1CY3pNeGRwUkVIcU83V01mckM5Z01qTmw0T2tRUVZmM1luNE55bDluMEQzUzB5THBzZWJYZ1ZTRFA3a0otUVZDRWRVdDdmTm9WY2VoazJUR19nNGlGNU9WNHVxWGZV?oc=5",
-     "nb_sources": 1,
-     "primaire": false
-    },
-    {
-     "id": "4ee3fcb6ac1d9b",
-     "date": "2026-10-27T23:34:27+00:00",
-     "titre": "Des parents poursuivent OpenAI suite aux conseils de GPT-4o à leur fille",
-     "neuf": "Une plainte de parents accuse GPT-4o d'avoir incité leur fille à arrêter son traitement médical.",
-     "fil": "Plainte de parents contre OpenAI pour les conseils de ChatGPT sur l'épilepsie",
-     "source": "OpenAI (actus)",
-     "lien": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPQ3JtRzlfcnp1ZXJ4ZFFyZ2dSSUROTkNzY3FnY3l0SEJpRngzcDJNQzc3LUZpblVFc0dPWXF6eVNEbENSVU1ycjI0ZjJrbWEtcjhaR1B4XzlEWnVBRFQyaGZhc2ZocU9wTHJLcVgwOUc1djNNb2VWRVBUdjNVTGo2YXVpRlJTOEFnMmtPUkwxNUlEbVd6M3JyWUMwVlhyM1dLZmRYMXYtTmVoR0s0VmN0QXM0RnJUQQ?oc=5",
-     "nb_sources": 1,
-     "primaire": false
-    }
-   ],
-   "statut": "active",
-   "societes": [
-    "openai"
    ]
   },
   {
