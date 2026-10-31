@@ -1,5 +1,5 @@
 {
- "maj": "2026-10-31T05:40:34.097950+00:00",
+ "maj": "2026-10-31T14:32:10.371087+00:00",
  "sources_ok": [
   "Notes de version Claude (API)",
   "Notes de version OpenAI (API)",
@@ -31,6 +31,7 @@
   "TechCrunch IA",
   "Simon Willison",
   "Hacker News (IA, 100+ pts)",
+  "r/LocalLLaMA",
   "arXiv cs.AI",
   "arXiv cs.CL",
   "ActuIA",
@@ -54,51 +55,47 @@
   {
    "nom": "VentureBeat IA",
    "erreur": "429 Client Error: Too Many Requests for url: https://venturebeat.com/category/ai/feed/"
-  },
-  {
-   "nom": "r/LocalLLaMA",
-   "erreur": "429 Client Error: Too Many Requests for url: https://www.reddit.com/r/LocalLLaMA/top/.rss?t=day"
   }
  ],
- "total": 1707,
- "analyses": 1601,
+ "total": 1725,
+ "analyses": 1620,
  "brief": {
-  "titre": "Sécurité, API et nouveaux modèles : l'actualité IA s'accélère",
-  "texte": "L'écosystème IA est marqué par d'importantes évolutions d'API et des enjeux de sécurité majeurs. OpenAI lance GPT-6 Rosalind pour les sciences de la vie, tandis que Gemini généralise son outil Computer Use. Anthropic fait face à des failles de sécurité sur Claude Code et introduit une API d'analyse des coûts, tout en intégrant des crédits API à ses abonnements. Enfin, les marchés s'agitent autour d'éventuelles introductions en bourse pour OpenAI et Anthropic.",
+  "titre": "Entre avancées scientifiques, ouverture des modèles et enjeux de sécurité",
+  "texte": "L'actualité de l'IA est marquée par d'importantes sorties de modèles et de mises à jour d'API, illustrées par le lancement de GPT-6 Rosalind pour les sciences de la vie et la publication des poids ouverts de Mistral Large 4. Les géants technologiques consolident leurs offres avec l'arrivée générale du Computer Use chez Gemini et l'intégration de crédits API dans les abonnements Claude. Cependant, la sécurité reste au premier plan suite à la découverte de failles dans les extensions Claude Code et un incident cyber impliquant Anthropic. Enfin, les mouvements financiers et partenariats stratégiques, comme l'alliance d'Apple avec Alibaba en Chine, redessinent le paysage économique du secteur.",
   "a_tester": [
-   "Explorer l'API d'analyse des coûts d'Anthropic pour optimiser vos dépenses",
-   "Tester la mise à jour Claude Code v2.1.316 et ses budgets partagés",
-   "Vérifier la sécurité de vos extensions Claude Code suite aux récentes failles"
+   "Tester l'API Gemini avec la fonction Computer Use pour automatiser des tâches",
+   "Évaluer les performances du nouveau modèle Mistral Large 4 en open weights",
+   "Auditer vos environnements face aux failles de sécurité signalées sur les extensions Claude Code"
   ]
  },
  "top5": {
-  "maj": "2026-10-30T20:48:26.671253+00:00",
+  "maj": "2026-10-31T14:32:10.371087+00:00",
   "par_ia": true,
   "items": [
    {
     "id": "61c5c57ddc1e28",
-    "pourquoi": "L'arrivée de GPT-6.1 Terra via l'API introduit de nouvelles capacités majeures en matière de raisonnement visuel et de 'computer use' accessibles aux développeurs.",
-    "a_faire": "Tester l'API de GPT-6.1 Terra pour évaluer ses performances sur vos tâches de computer use."
+    "pourquoi": "OpenAI déploie GPT-6.1 Terra, un modèle axé sur le raisonnement visuel et l'utilisation directe d'ordinateurs (computer use), marquant une avancée concrète pour l'automatisation des tâches.",
+    "a_faire": "Tester les nouvelles capacités de computer use et de raisonnement visuel de GPT-6.1 Terra via l'API."
    },
    {
-    "id": "46c2109033cade",
-    "pourquoi": "Mistral Large 4 ('Le Chonk') arrive sur Hugging Face avec un contexte d'un million de jetons, constituant une avancée majeure pour les modèles open weights européens.",
-    "a_faire": "Mettre à jour Transformers en v5.22.0 pour intégrer et tester Mistral Large 4 dans vos pipelines."
+    "id": "bb2562f671cf45",
+    "pourquoi": "Mistral AI publie les poids ouverts de Mistral Large 4 (1 000 milliards de paramètres), offrant une alternative européenne de pointe aux modèles propriétaires.",
+    "a_faire": "Mettre à jour la bibliothèque Transformers (v5.22.0) pour intégrer et tester localement Mistral Large 4."
    },
    {
     "id": "740cdb4d44c20b",
-    "pourquoi": "Google redéfinit le sommet des benchmarks avec Gemini 4 Carbon, bousculant la hiérarchie des modèles frontaliers.",
-    "a_faire": "Surveiller l'ouverture des accès publics et documentations techniques pour évaluer l'impact sur vos cas d'usage."
+    "pourquoi": "Google officialise Gemini 4 Carbon, un nouveau modèle frontalier qui s'empare de la tête des benchmarks et redéfinit le standard de performance.",
+    "a_faire": "Surveiller les modalités d'accès et la documentation technique pour évaluer l'impact sur vos workflows actuels."
    },
    {
-    "id": "2c43c284058f61",
-    "pourquoi": "Le dépôt de l'IPO d'Anthropic offre un aperçu financier et stratégique rare, incluant une analyse détaillée des risques liés à l'IA.",
-    "a_faire": "Lire le dossier d'introduction en bourse d'Anthropic pour analyser les risques réglementaires et technologiques soulignés."
+    "id": "f12280bf612912",
+    "pourquoi": "Le dépôt du dossier d'IPO d'Anthropic pour une valorisation de 75 milliards de dollars structure durablement le marché et apporte un éclairage inédit sur les risques industriels de l'IA.",
+    "a_faire": "Lire le document d'enregistrement d'Anthropic pour analyser les risques liés à la technologie identifiés par l'entreprise."
    },
    {
-    "id": "d25a50bee6b7f3",
-    "pourquoi": "Les nouveautés de l'API Claude facilitent l'intégration cloud (Google Cloud, IAM) et modernisent le SDK sous licence Apache 2.0.",
-    "a_faire": "Migrer vers les nouveaux SDK Claude et examiner l'intégration Google Cloud pour vos environnements d'entreprise."
+    "id": "d17d13a0006a77",
+    "pourquoi": "Google DeepMind présente Genie 4, un modèle de simulation de mondes en temps réel qui repousse les frontières de la génération interactive.",
+    "a_faire": "Suivre les publications et cas d'usage potentiels de Genie 4 pour la simulation et la formation d'agents."
    }
   ]
  }

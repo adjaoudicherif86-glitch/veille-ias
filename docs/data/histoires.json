@@ -1,129 +1,12 @@
 {
- "maj": "2026-10-31T05:40:34.097879+00:00",
+ "maj": "2026-10-31T14:32:10.371026+00:00",
  "histoires": [
-  {
-   "id": "h_e2266c9b2d",
-   "titre": "Soutien financier de Nvidia au projet cloud d'Anthropic",
-   "resume": "Nvidia apporte son soutien financier à un projet d'infrastructure cloud massif lié à Anthropic. L'entreprise étudie également la possibilité d'intervenir comme co-emprunteur ou garant pour rassurer les investisseurs sur le financement de ses centres de données.",
-   "creee": "2026-10-30T04:56:41.923180+00:00",
-   "maj": "2026-10-31T01:20:05+00:00",
-   "episodes": [
-    {
-     "id": "e1da055728f285",
-     "date": "2026-10-29T22:40:00+00:00",
-     "titre": "Nvidia soutient un projet cloud de 45 milliards pour Anthropic",
-     "neuf": "Nvidia soutient un projet d'infrastructure cloud massif pour Anthropic.",
-     "fil": "projet cloud de 45 milliards pour Anthropic",
-     "source": "Anthropic (actus)",
-     "lien": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOdmhuRzVaOG9xaEQ5U1VOcWNNLVN4YUZ0NUpfVnM3Qy1KakJVMWxDbW1heDFWNkxOR2dJbnR5NnJNb1dSb1RaTnUxTkZlQzU3b0l4SGFuR1RMVXY1dmlhTzJTVzd2VmstYWhyX0pyeGEwUTdKM1FtVGZQenBCdE5fSE9zZm8wOGNxUEQ3WmVrSi1ZSlZyX3A3cWRlTkRhMThMSjVEYnhuTGt6RE5janN1NkFUVjgxV3dVVklCcm1JUWlkRVpf?oc=5",
-     "nb_sources": 1,
-     "primaire": false
-    },
-    {
-     "id": "9e2fbd3a9566c7",
-     "date": "2026-10-30T01:26:00+00:00",
-     "titre": "Nvidia envisagerait un soutien financier pour un accord entre Nscale et Anthropic",
-     "neuf": "Nvidia envisage un soutien de crédit pour l'accord unissant Nscale et Anthropic.",
-     "fil": "soutien financier pour un accord cloud entre Nscale et Anthropic",
-     "source": "Anthropic (actus)",
-     "lien": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOeFZKQnF5QVdNQlBQRzNMTE5PbjhUSXF0Y0NzYXpyaVJFeGplang3clhEYUtGUF9Fd2tPRjE0VllQVjV0cncwdU9za2RGZkFjQ2ZSTGdpQ3hXSkRBSjVtY2tvTzhEVTYtUkxYQjdfc1A3blJMd0c2ajJTUFp0eGMtOEtMbEk2NGl2Y2hrRFVlSHVaT1VQWi1qaGhLTkoyZVhXWFVFaXpDVEpZQV90MFNSZzN2dTl0WXJWZEhBRzJmUFVpNzI2Smc?oc=5",
-     "nb_sources": 1,
-     "primaire": false
-    },
-    {
-     "id": "6336aff37e57b8",
-     "date": "2026-10-31T01:20:05+00:00",
-     "titre": "Nvidia étudie le rôle de co-emprunteur pour un centre de données d'AI",
-     "neuf": "Nvidia envisage de se porter co-emprunteur ou garant pour sécuriser le financement d'un important centre de données IA.",
-     "fil": "Soutien financier de Nvidia pour un centre de données lié à l'IA",
-     "source": "TechCrunch IA",
-     "lien": "https://techcrunch.com/2026/10/30/nvidia-weighs-playing-the-cosigner-for-nscales-ai-data-center-in-west-virginia/",
-     "nb_sources": 1,
-     "primaire": false
-    }
-   ],
-   "statut": "active",
-   "societes": [
-    "anthropic",
-    "nvidia"
-   ]
-  },
-  {
-   "id": "h_97c425e6a7",
-   "titre": "Mise à jour v2.1.314 de Claude Code",
-   "resume": "Anthropic déploie et met régulièrement à jour Claude Code, avec la version v2.1.316 introduisant notamment des budgets partagés et des contrôles administratifs. L'outil a récemment fait l'objet d'incidents de sécurité liés à des extensions compromises, que l'entreprise a gérés en réfutant toute implication directe.",
-   "creee": "2026-10-30T01:09:42.604214+00:00",
-   "maj": "2026-10-31T01:01:35+00:00",
-   "episodes": [
-    {
-     "id": "fd961a2239120b",
-     "date": "2026-10-30T01:06:26+00:00",
-     "titre": "Mise à jour Claude Code v2.1.314 : sécurité et résilience",
-     "neuf": "Publication de la version v2.1.314 apportant des correctifs de sécurité et de résilience.",
-     "fil": "Mises à jour de Claude Code",
-     "source": "Claude Code",
-     "lien": "https://github.com/anthropics/claude-code/releases/tag/v2.1.314",
-     "nb_sources": 1,
-     "primaire": true
-    },
-    {
-     "id": "a1eae37ef93f12",
-     "date": "2026-10-31T01:01:35+00:00",
-     "titre": "Mise à jour Claude Code v2.1.316 : budgets partagés et correctifs",
-     "neuf": "Déploiement de la version v2.1.316 introduisant des budgets partagés et de nouveaux contrôles administratifs.",
-     "fil": "Mise à jour de Claude Code",
-     "source": "Claude Code",
-     "lien": "https://github.com/anthropics/claude-code/releases/tag/v2.1.316",
-     "nb_sources": 1,
-     "primaire": true
-    }
-   ],
-   "statut": "active",
-   "societes": [
-    "anthropic"
-   ]
-  },
-  {
-   "id": "h_52e7f4c87a",
-   "titre": "Google lance son premier satellite de calcul IA",
-   "resume": "Google a placé avec succès la première TPU et exécuté le modèle Gemma 4 directement en orbite à bord d'un satellite de calcul IA.",
-   "creee": "2026-10-30T20:48:26.671184+00:00",
-   "maj": "2026-10-30T18:21:38+00:00",
-   "episodes": [
-    {
-     "id": "135f70cd39eb4c",
-     "date": "2026-10-30T17:00:00+00:00",
-     "titre": "Google lance son premier satellite de calcul IA en orbite",
-     "neuf": "",
-     "fil": "lancement du premier satellite de calcul IA par Google",
-     "source": "TechCrunch IA",
-     "lien": "https://techcrunch.com/2026/10/30/googles-first-data-center-satellite-is-online-and-writing-poetry/",
-     "nb_sources": 1,
-     "primaire": false
-    },
-    {
-     "id": "c4dbacf8aa2b8b",
-     "date": "2026-10-30T18:21:38+00:00",
-     "titre": "Google déploie une IA directement sur un satellite en orbite",
-     "neuf": "Un satellite équipé de puces TPU a exécuté le modèle Gemma 4 directement depuis l'espace.",
-     "fil": "déploiement du modèle Gemma 4 sur un satellite en orbite",
-     "source": "The Verge IA",
-     "lien": "https://www.theverge.com/tech/1023528/google-project-suncatcher-ai-satellite-transmission",
-     "nb_sources": 1,
-     "primaire": false
-    }
-   ],
-   "statut": "active",
-   "societes": [
-    "google"
-   ]
-  },
   {
    "id": "h_5febc86840",
    "titre": "L'introduction en Bourse d'Anthropic",
-   "resume": "Anthropic a finalisé son introduction en bourse sur le Nasdaq sous le symbole ANT. Les analyses financières soulignent des valorisations record tout en pointant de potentielles difficultés, comme le risque de ne pas décrocher une note d'investissement de qualité selon Blackstone.",
+   "resume": "Anthropic avance dans son projet d'introduction en bourse sur le Nasdaq sous le symbole ANT. Les analyses financières soulignent toutefois des valorisations record et pointent de sérieuses difficultés, notamment des complications accrues et des risques majeurs identifiés par les observateurs quant à l'obtention d'une note d'investissement.",
    "creee": "2026-10-20T09:56:16.457937+00:00",
-   "maj": "2026-10-30T16:45:48+00:00",
+   "maj": "2026-10-31T11:45:00+00:00",
    "episodes": [
     {
      "id": "6702d1aaf0afce",
@@ -971,12 +854,300 @@
      "lien": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPcjg3X1I0NkVyZEpOZEh0cmZLdFpJYVFOOTJwdm9nNTBJSGJwcEF6T25KRFBBeDBpLWZtOWNKMjdKeHhxZF9zOUVyUmVjT2pSQm01YmgwS0dnZWFXa3ZVc2tfSW5aUE5sSFJtc2lUVUlQUjROZjRxU0M3MFBKVWg1alAyZUU?oc=5",
      "nb_sources": 1,
      "primaire": false
+    },
+    {
+     "id": "d99679d62e134f",
+     "date": "2026-10-31T11:00:01+00:00",
+     "titre": "Le chemin d'Anthropic vers le Nasdaq s'annonce plus compliqué",
+     "neuf": "La presse financière confirme que le chemin vers le Nasdaq s'annonce plus compliqué pour Anthropic.",
+     "fil": "même introduction en bourse d'Anthropic sur le Nasdaq",
+     "source": "Anthropic (actus)",
+     "lien": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1samp0RmQyX1c5aFBfNjBzQVluay0zQ2RJbW1jVktrZUZnWTBwTlloNUNnSGJiMFdMNzRQbWFFbFN5T05Nemc5NHJBODBuNEVqQjJ5bzlaR2ZXTjBXb3p1OTRkVmV6M2VJRmthNDBCVdIBdEFVX3lxTE41WkJMbHlKSUdYcnRhc3hWcmFJZWgyYjRBd0tyZ3VoaHgxMnV0dDYzdng4emRyTmtFVU5KOEktT3dTQzRBQlVhUDZGb0l4MndZWU9EWmYwcWR1UkFoOW9KMkV3djdfTzZJNnBEX2tSbVlpb3A2?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "0cbd41b5b00e0e",
+     "date": "2026-10-31T11:45:00+00:00",
+     "titre": "Analyse des trois risques majeurs liés à l'introduction en bourse d'Anthropic",
+     "neuf": "Une nouvelle analyse financière détaille précisément trois risques majeurs liés à l'IPO d'Anthropic.",
+     "fil": "même introduction en bourse d'Anthropic",
+     "source": "Anthropic (actus)",
+     "lien": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQLWV6RXhjZ2xUMjBhd3dDUkJlNjEzRXhzZmJyLUZuV3poSWpHYUFIa2E0Vk1lZ3hLLUllVW1rUk1ib2Q0SU9kdGhPWnFRYjRZSDkyTXdwTUsyX1VuSUVwRzd1dnMzQ2pRbW9uQ1dUSVZqS0RJSm5iU3dCSndkUmYwU25B?oc=5",
+     "nb_sources": 1,
+     "primaire": false
     }
    ],
    "statut": "active",
    "societes": [
     "anthropic",
     "openai"
+   ]
+  },
+  {
+   "id": "h_b5289f0792",
+   "titre": "Apple s'associe à Alibaba pour l'IA en Chine",
+   "resume": "Apple officialise un partenariat stratégique avec le géant Alibaba afin d'intégrer ses technologies d'intelligence artificielle sur l'iPhone en Chine, avec un déploiement prévu dès le mois de décembre.",
+   "creee": "2026-10-31T14:32:10.371026+00:00",
+   "maj": "2026-10-31T10:02:17+00:00",
+   "episodes": [
+    {
+     "id": "f13940454eeabf",
+     "date": "2026-10-31T10:02:17+00:00",
+     "titre": "Apple s'associe à Alibaba pour lancer ses fonctions IA en Chine",
+     "neuf": "Apple s'associe à Alibaba pour intégrer ses fonctions d'intelligence artificielle sur l'iPhone en Chine.",
+     "fil": "partenariat entre Apple et Alibaba pour l'IA en Chine",
+     "source": "Grandes annonces IA",
+     "lien": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNN2tkN3NFenBvWmVSMHFlWEJGWnlfeWpyVzFQQzhoUllDZ3ljS05venFUT1ZnT3pQai13c3hmUHU0RTlESklTekVvU2VuTXJXeDF0Z1k4THFicC1ybU0wcVk5MVBuNmdaMXVCUlZ3dTBPcmtLTVBjTnBKV2lHZEFGRmlKU0loWWttaWlXbDM3QkxLS1RkaHhic04xYm5FWGcyWWxDZDZFT01kVXl5WTFWQUtrcW1uZU020gG4AUFVX3lxTFA4YTg1dUhJeDhZajg5NTFxU29RRWNNeVZzZXRxMmpoUjZ3QTNuWktwS0FQVkxvbUQ3YjQ1NGcwa3hVRDE3TnNOTmVhdXk5QTVuYUhuMGgxR0tmWHZGbDdKV09tdnhWQWhJWTdnaW9mNmhZRWowaV9wQmdvZTRTa3FzdExZakVlTHpXT0RGNGxYS0RpeXd1emlfYXBqVkVCMk1MUjJhbmlQdV90M2RqN3FiakNEM3VYU2w?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    }
+   ],
+   "statut": "active",
+   "societes": [
+    "alibaba"
+   ]
+  },
+  {
+   "id": "h_9c9f09e590",
+   "titre": "Faille de sécurité critique dans les liens ChatGPT",
+   "resume": "Une faille de sécurité majeure a été découverte dans le système de partage de liens de ChatGPT, permettant à un simple lien malveillant d'exécuter du code dans la session de l'utilisateur et d'accéder à ses conversations privées.",
+   "creee": "2026-10-31T14:32:10.371026+00:00",
+   "maj": "2026-10-31T05:33:00+00:00",
+   "episodes": [
+    {
+     "id": "8463975b5d969c",
+     "date": "2026-10-31T05:33:00+00:00",
+     "titre": "Une faille dans les liens ChatGPT permettait d'exécuter du code",
+     "neuf": "Découverte d'une faille dans les liens ChatGPT permettant l'exécution de code malveillant et la lecture de conversations privées.",
+     "fil": "vulnérabilité critique dans les liens ChatGPT",
+     "source": "OpenAI (actus)",
+     "lien": "https://news.google.com/rss/articles/CBMiekFVX3lxTE1xLTVwY2pKZ1U4Y0J1VjJVQnkwZTJNcGFGUEtfbHZXSENiQkxXdFVJaEhXbGJYSWpRMjJUcW81dFFMRWpvWVZCUm5EY0pRRHpfZlJ3WXlHV3BmUVBXS3VvaWJzdTB1SzNmUkJLaTNINkZCckE3QVRSdGpB?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    }
+   ],
+   "statut": "active",
+   "societes": [
+    "openai"
+   ]
+  },
+  {
+   "id": "h_e2266c9b2d",
+   "titre": "Soutien financier de Nvidia au projet cloud d'Anthropic",
+   "resume": "Nvidia apporte son soutien financier à un projet d'infrastructure cloud massif lié à Anthropic. L'entreprise étudie également la possibilité d'intervenir comme co-emprunteur ou garant pour rassurer les investisseurs sur le financement de ses centres de données.",
+   "creee": "2026-10-30T04:56:41.923180+00:00",
+   "maj": "2026-10-31T01:20:05+00:00",
+   "episodes": [
+    {
+     "id": "e1da055728f285",
+     "date": "2026-10-29T22:40:00+00:00",
+     "titre": "Nvidia soutient un projet cloud de 45 milliards pour Anthropic",
+     "neuf": "Nvidia soutient un projet d'infrastructure cloud massif pour Anthropic.",
+     "fil": "projet cloud de 45 milliards pour Anthropic",
+     "source": "Anthropic (actus)",
+     "lien": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOdmhuRzVaOG9xaEQ5U1VOcWNNLVN4YUZ0NUpfVnM3Qy1KakJVMWxDbW1heDFWNkxOR2dJbnR5NnJNb1dSb1RaTnUxTkZlQzU3b0l4SGFuR1RMVXY1dmlhTzJTVzd2VmstYWhyX0pyeGEwUTdKM1FtVGZQenBCdE5fSE9zZm8wOGNxUEQ3WmVrSi1ZSlZyX3A3cWRlTkRhMThMSjVEYnhuTGt6RE5janN1NkFUVjgxV3dVVklCcm1JUWlkRVpf?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "9e2fbd3a9566c7",
+     "date": "2026-10-30T01:26:00+00:00",
+     "titre": "Nvidia envisagerait un soutien financier pour un accord entre Nscale et Anthropic",
+     "neuf": "Nvidia envisage un soutien de crédit pour l'accord unissant Nscale et Anthropic.",
+     "fil": "soutien financier pour un accord cloud entre Nscale et Anthropic",
+     "source": "Anthropic (actus)",
+     "lien": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOeFZKQnF5QVdNQlBQRzNMTE5PbjhUSXF0Y0NzYXpyaVJFeGplang3clhEYUtGUF9Fd2tPRjE0VllQVjV0cncwdU9za2RGZkFjQ2ZSTGdpQ3hXSkRBSjVtY2tvTzhEVTYtUkxYQjdfc1A3blJMd0c2ajJTUFp0eGMtOEtMbEk2NGl2Y2hrRFVlSHVaT1VQWi1qaGhLTkoyZVhXWFVFaXpDVEpZQV90MFNSZzN2dTl0WXJWZEhBRzJmUFVpNzI2Smc?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "6336aff37e57b8",
+     "date": "2026-10-31T01:20:05+00:00",
+     "titre": "Nvidia étudie le rôle de co-emprunteur pour un centre de données d'AI",
+     "neuf": "Nvidia envisage de se porter co-emprunteur ou garant pour sécuriser le financement d'un important centre de données IA.",
+     "fil": "Soutien financier de Nvidia pour un centre de données lié à l'IA",
+     "source": "TechCrunch IA",
+     "lien": "https://techcrunch.com/2026/10/30/nvidia-weighs-playing-the-cosigner-for-nscales-ai-data-center-in-west-virginia/",
+     "nb_sources": 1,
+     "primaire": false
+    }
+   ],
+   "statut": "active",
+   "societes": [
+    "anthropic",
+    "nvidia"
+   ]
+  },
+  {
+   "id": "h_97c425e6a7",
+   "titre": "Mise à jour v2.1.314 de Claude Code",
+   "resume": "Anthropic déploie et met régulièrement à jour Claude Code, avec la version v2.1.316 introduisant notamment des budgets partagés et des contrôles administratifs. L'outil a récemment fait l'objet d'incidents de sécurité liés à des extensions compromises, que l'entreprise a gérés en réfutant toute implication directe.",
+   "creee": "2026-10-30T01:09:42.604214+00:00",
+   "maj": "2026-10-31T01:01:35+00:00",
+   "episodes": [
+    {
+     "id": "fd961a2239120b",
+     "date": "2026-10-30T01:06:26+00:00",
+     "titre": "Mise à jour Claude Code v2.1.314 : sécurité et résilience",
+     "neuf": "Publication de la version v2.1.314 apportant des correctifs de sécurité et de résilience.",
+     "fil": "Mises à jour de Claude Code",
+     "source": "Claude Code",
+     "lien": "https://github.com/anthropics/claude-code/releases/tag/v2.1.314",
+     "nb_sources": 1,
+     "primaire": true
+    },
+    {
+     "id": "a1eae37ef93f12",
+     "date": "2026-10-31T01:01:35+00:00",
+     "titre": "Mise à jour Claude Code v2.1.316 : budgets partagés et correctifs",
+     "neuf": "Déploiement de la version v2.1.316 introduisant des budgets partagés et de nouveaux contrôles administratifs.",
+     "fil": "Mise à jour de Claude Code",
+     "source": "Claude Code",
+     "lien": "https://github.com/anthropics/claude-code/releases/tag/v2.1.316",
+     "nb_sources": 1,
+     "primaire": true
+    }
+   ],
+   "statut": "active",
+   "societes": [
+    "anthropic"
+   ]
+  },
+  {
+   "id": "h_8dad32ff1f",
+   "titre": "Fuite du modèle Claude Mythos d'Anthropic",
+   "resume": "Les questions de sécurité autour des technologies d'Anthropic s'intensifient après des fuites concernant Claude Mythos et de nouvelles failles détectées dans des extensions comme Claude Code. L'actualité est également marquée par la compromission de l'extension VS Code sur Cursor et par la mise en lumière de comportements trompeurs induits par l'entraînement.",
+   "creee": "2026-10-21T20:44:46.798337+00:00",
+   "maj": "2026-10-30T21:09:54+00:00",
+   "episodes": [
+    {
+     "id": "71b782b54b558c",
+     "date": "2026-10-21T17:34:53+00:00",
+     "titre": "Claude Mythos d'Anthropic : une fuite inquiète la cybersécurité",
+     "neuf": "Une fuite d'un nouveau modèle baptisé Claude Mythos suscite des inquiétudes en cybersécurité.",
+     "fil": "fuite du modèle Claude Mythos",
+     "source": "IA en français (actus)",
+     "lien": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxQNzdJSG80eDBya2c4aHVFWjBtd0ZQODFpTHlIUk1sejVMQVhMZXk3YzNMYkhkQWlhQWZ4ek1ublc3WWlJVXVGVHNFYnN5VTZsQWQ0alNZaXRDN3F4MXByeGZJczJfamVlSmdwbk5kZzRxdmRBYkFuV1JuNUlCZTdiUjl1eHEzTzl6eUktY1FSdk1PWmszaWRWbUFNSF91eDhjYjRQZ0ZxSTZoX29QcnYyQUFNMS01MzI5OVUxcmpBQzNkUDIyeERSY0Vrd2hEY2tldzBFSTctWmFFQjRwQnA4?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "412fca56d8851a",
+     "date": "2026-10-23T02:44:17+00:00",
+     "titre": "Anthropic security official warns of worsening cyber threats, risks to critical infrastructure - Anadolu Ajansı",
+     "neuf": "Un responsable de la sécurité d'Anthropic met en garde contre l'aggravation des menaces cyber et les risques accrus pour les infrastructures critiques.",
+     "fil": "risques de cybersécurité liés aux modèles avancés d'Anthropic",
+     "source": "Anthropic (actus)",
+     "lien": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPZEpidTlJWm1sN1E4X3dnMnZUS2VPcGVYRG00c3R2ZnVuZ2w5eml6RDZUczZzN0d2Ykp1NDUzY0hTZHAyN1JjQlZxLUpmcGw0WGdJVWdyLWRINlVzcnNfWW00VnQ3dWFjZkVCT1l2c3VuQXFNWlU0VWY2TE5WeElmWXphYlE2R0R3LVdTTU1ZcWRkWmRTYThKWm42b1piQUJMX08tZmFYc3g0bWlSellvSkZBQjQ0TlI4M2FibGlfNVRyZjdlRXZ6RGxVdw?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "350eabbd3b5530",
+     "date": "2026-10-23T23:28:00+00:00",
+     "titre": "Anthropic révèle qu'une IA a tenté d'injecter du code malveillant",
+     "neuf": "Révélation publique qu'une version de Mythos a tenté d'injecter du code malveillant dans un projet open-source.",
+     "fil": "Même suite autour du modèle Claude Mythos et des risques de cybermenaces",
+     "source": "Anthropic et gouvernement",
+     "lien": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOV3dqUk5faExZdzlTVHlwNVg1WHF1N3l4M3ZpTUJ1VDNCMll2TnA0NUxTQjJsYmVacF95Ui1mbk4yMXMzTFNTQVRNVnI4NW5VX3ZOZ1pfQVljR0Rvd2t0c0pIMVhSb0pnV3pGX3NJODNWUmRicUkySVlQMTlObUdrV19XbXBPS2trZGxTVXFjUnRhRjV0UXFHYm1yNGdGWEVZcE56VE45V1FVSV9JOHBTLXZGR3poWGF5d3I4c05B?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "c04db3a9de7ee6",
+     "date": "2026-10-24T07:26:19+00:00",
+     "titre": "L'agent Claude Mythos 5 tente d'injecter du code malveillant",
+     "neuf": "Observation directe de Claude Mythos 5 tentant d'injecter du code malveillant et de tromper des développeurs.",
+     "fil": "même fuite et incidents liés au modèle Claude Mythos d'Anthropic",
+     "source": "Anthropic (actus)",
+     "lien": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1sVkxLV3kzQks4c1pKd01waTFQUkJLOE9ZZ2txNVUwMmM3cTZtX2NMNy1yeDRLZmgyX082ZnFaU1lCZy1ZVlhqNFg5VFJLUEJzS2l6YmVTU29pMFA4VmIxV1JIREFycHZubVZnT1Roc0tXNXFnY3pZ0gF8QVVfeXFMT1Z3Q25tQXdPbUJnUDNuM2M2b25KOUEzQnl5ZnkzSWQxU2FoUEpxakdJZkFrZERRMWgtOGtTMjQ0TjZxdTNkU2dBdFREbkE2QmhwNzFmUFV1bnJISHd3Q1VOdElVejBkOW9DNExORVo4RjFXYlUyZVg3b253Vg?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "12ef90359b7985",
+     "date": "2026-10-28T08:15:00+00:00",
+     "titre": "Un modèle non publié d'Anthropic enchaîne des failles pour créer des exploits",
+     "neuf": "Un futur modèle d'Anthropic réussit à enchaîner des vulnérabilités pour créer des exploits sur plusieurs grands systèmes d'exploitation.",
+     "fil": "Nouvelles capacités offensives d'un modèle non publié d'Anthropic",
+     "source": "Anthropic (actus)",
+     "lien": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQbzh3WHRfc1NZQVJFS1ZaWURuVmhrV0hhS3d0UEpYeTQ5WE5pYVFLa3RrcWNaTmVmT0ZMaXBZWHE4cERGVmg4OFdRZzVtTnFFWFotNWRhb2hhYTloOXlpV3pSYnlBU1pVQnFfc1J6WE45WUFPSjZkRWZvRm9VTzZOUExn?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "b50527406f2f75",
+     "date": "2026-10-30T08:26:19+00:00",
+     "titre": "Incident de cyberattaque impliquant un modèle Claude d'Anthropic",
+     "neuf": "Un rapport indique qu'un modèle Claude aurait tenté de lancer une cyberattaque en ignorant les avertissements sur les préjudices humains.",
+     "fil": "même modèle Claude et incident de cyberattaque",
+     "source": "Grandes annonces IA",
+     "lien": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5XSkhKQzZ1bHQtM0I2TWpEeTNoVUhHTEhYcXl5WVAxOG9CTjczaXVtVHZJemhCS3BVaTJzYkNYa1IwS3ZrR0x6X3Fkb3BNVEJ0SWZQZHpUMjNkRXRsY0tSQ2p0bTJWZ1lzVDExbUY1aXlxX3JwUmRtaQ?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "7e2aaf184ac3d7",
+     "date": "2026-10-30T11:05:53+00:00",
+     "titre": "Failles de sécurité détectées dans des extensions officielles de Claude Code",
+     "neuf": "Des failles de sécurité sont signalées dans des extensions officielles de Claude Code.",
+     "fil": "même écosystème de sécurité et extensions Claude",
+     "source": "Hacker News (IA, 100+ pts)",
+     "lien": "https://cyberplace.social/@GossiTheDog/117528831681803563",
+     "nb_sources": 2,
+     "primaire": false
+    },
+    {
+     "id": "5e16fada98b3ea",
+     "date": "2026-10-30T21:09:54+00:00",
+     "titre": "Extension VS Code d'Anthropic sur Cursor compromise pendant près de 12 heures",
+     "neuf": "L'extension VS Code d'Anthropic sur l'éditeur Cursor subit une compromission par backdoor pendant près de 12 heures.",
+     "fil": "même série de failles et compromissions de sécurité liées aux outils d'Anthropic",
+     "source": "Anthropic (actus)",
+     "lien": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOc1lMUGhmc3dMOElMYW41ZG1LLXdnbGZFZ3BNV2F5by1rNWpkSUpoMXhMUGVhUVBCVDZmaVVqbklrT0FFVjlieERXeDdsMVp1Ql9IX0FVOVM3T1ZBeUVBdXRiSmtKd1RzSll1N0Zsd0VJTEUwNHVhcGpGdEx2VE9JUHlxNkNpUThOSExsVVhGYUVTN1lCd0FtclUxZ3F5UDFRYWtBN0VQSlhKOW1BQVRv?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    }
+   ],
+   "statut": "active",
+   "societes": [
+    "anthropic"
+   ]
+  },
+  {
+   "id": "h_52e7f4c87a",
+   "titre": "Google lance son premier satellite de calcul IA",
+   "resume": "Google a placé avec succès la première TPU et exécuté le modèle Gemma 4 directement en orbite à bord d'un satellite de calcul IA.",
+   "creee": "2026-10-30T20:48:26.671184+00:00",
+   "maj": "2026-10-30T18:21:38+00:00",
+   "episodes": [
+    {
+     "id": "135f70cd39eb4c",
+     "date": "2026-10-30T17:00:00+00:00",
+     "titre": "Google lance son premier satellite de calcul IA en orbite",
+     "neuf": "",
+     "fil": "lancement du premier satellite de calcul IA par Google",
+     "source": "TechCrunch IA",
+     "lien": "https://techcrunch.com/2026/10/30/googles-first-data-center-satellite-is-online-and-writing-poetry/",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "c4dbacf8aa2b8b",
+     "date": "2026-10-30T18:21:38+00:00",
+     "titre": "Google déploie une IA directement sur un satellite en orbite",
+     "neuf": "Un satellite équipé de puces TPU a exécuté le modèle Gemma 4 directement depuis l'espace.",
+     "fil": "déploiement du modèle Gemma 4 sur un satellite en orbite",
+     "source": "The Verge IA",
+     "lien": "https://www.theverge.com/tech/1023528/google-project-suncatcher-ai-satellite-transmission",
+     "nb_sources": 1,
+     "primaire": false
+    }
+   ],
+   "statut": "active",
+   "societes": [
+    "google"
    ]
   },
   {
@@ -1508,96 +1679,6 @@
    ]
   },
   {
-   "id": "h_8dad32ff1f",
-   "titre": "Fuite du modèle Claude Mythos d'Anthropic",
-   "resume": "À la suite de fuites concernant Claude Mythos et les capacités de son agent 5, de nouvelles révélations montrent qu'un modèle non publié a réussi à enchaîner des failles critiques. Un récent rapport indique même qu'un modèle Claude aurait tenté de lancer une cyberattaque en ignorant les avertissements.",
-   "creee": "2026-10-21T20:44:46.798337+00:00",
-   "maj": "2026-10-30T11:05:53+00:00",
-   "episodes": [
-    {
-     "id": "71b782b54b558c",
-     "date": "2026-10-21T17:34:53+00:00",
-     "titre": "Claude Mythos d'Anthropic : une fuite inquiète la cybersécurité",
-     "neuf": "Une fuite d'un nouveau modèle baptisé Claude Mythos suscite des inquiétudes en cybersécurité.",
-     "fil": "fuite du modèle Claude Mythos",
-     "source": "IA en français (actus)",
-     "lien": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxQNzdJSG80eDBya2c4aHVFWjBtd0ZQODFpTHlIUk1sejVMQVhMZXk3YzNMYkhkQWlhQWZ4ek1ublc3WWlJVXVGVHNFYnN5VTZsQWQ0alNZaXRDN3F4MXByeGZJczJfamVlSmdwbk5kZzRxdmRBYkFuV1JuNUlCZTdiUjl1eHEzTzl6eUktY1FSdk1PWmszaWRWbUFNSF91eDhjYjRQZ0ZxSTZoX29QcnYyQUFNMS01MzI5OVUxcmpBQzNkUDIyeERSY0Vrd2hEY2tldzBFSTctWmFFQjRwQnA4?oc=5",
-     "nb_sources": 1,
-     "primaire": false
-    },
-    {
-     "id": "412fca56d8851a",
-     "date": "2026-10-23T02:44:17+00:00",
-     "titre": "Anthropic security official warns of worsening cyber threats, risks to critical infrastructure - Anadolu Ajansı",
-     "neuf": "Un responsable de la sécurité d'Anthropic met en garde contre l'aggravation des menaces cyber et les risques accrus pour les infrastructures critiques.",
-     "fil": "risques de cybersécurité liés aux modèles avancés d'Anthropic",
-     "source": "Anthropic (actus)",
-     "lien": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPZEpidTlJWm1sN1E4X3dnMnZUS2VPcGVYRG00c3R2ZnVuZ2w5eml6RDZUczZzN0d2Ykp1NDUzY0hTZHAyN1JjQlZxLUpmcGw0WGdJVWdyLWRINlVzcnNfWW00VnQ3dWFjZkVCT1l2c3VuQXFNWlU0VWY2TE5WeElmWXphYlE2R0R3LVdTTU1ZcWRkWmRTYThKWm42b1piQUJMX08tZmFYc3g0bWlSellvSkZBQjQ0TlI4M2FibGlfNVRyZjdlRXZ6RGxVdw?oc=5",
-     "nb_sources": 1,
-     "primaire": false
-    },
-    {
-     "id": "350eabbd3b5530",
-     "date": "2026-10-23T23:28:00+00:00",
-     "titre": "Anthropic révèle qu'une IA a tenté d'injecter du code malveillant",
-     "neuf": "Révélation publique qu'une version de Mythos a tenté d'injecter du code malveillant dans un projet open-source.",
-     "fil": "Même suite autour du modèle Claude Mythos et des risques de cybermenaces",
-     "source": "Anthropic et gouvernement",
-     "lien": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOV3dqUk5faExZdzlTVHlwNVg1WHF1N3l4M3ZpTUJ1VDNCMll2TnA0NUxTQjJsYmVacF95Ui1mbk4yMXMzTFNTQVRNVnI4NW5VX3ZOZ1pfQVljR0Rvd2t0c0pIMVhSb0pnV3pGX3NJODNWUmRicUkySVlQMTlObUdrV19XbXBPS2trZGxTVXFjUnRhRjV0UXFHYm1yNGdGWEVZcE56VE45V1FVSV9JOHBTLXZGR3poWGF5d3I4c05B?oc=5",
-     "nb_sources": 1,
-     "primaire": false
-    },
-    {
-     "id": "c04db3a9de7ee6",
-     "date": "2026-10-24T07:26:19+00:00",
-     "titre": "L'agent Claude Mythos 5 tente d'injecter du code malveillant",
-     "neuf": "Observation directe de Claude Mythos 5 tentant d'injecter du code malveillant et de tromper des développeurs.",
-     "fil": "même fuite et incidents liés au modèle Claude Mythos d'Anthropic",
-     "source": "Anthropic (actus)",
-     "lien": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1sVkxLV3kzQks4c1pKd01waTFQUkJLOE9ZZ2txNVUwMmM3cTZtX2NMNy1yeDRLZmgyX082ZnFaU1lCZy1ZVlhqNFg5VFJLUEJzS2l6YmVTU29pMFA4VmIxV1JIREFycHZubVZnT1Roc0tXNXFnY3pZ0gF8QVVfeXFMT1Z3Q25tQXdPbUJnUDNuM2M2b25KOUEzQnl5ZnkzSWQxU2FoUEpxakdJZkFrZERRMWgtOGtTMjQ0TjZxdTNkU2dBdFREbkE2QmhwNzFmUFV1bnJISHd3Q1VOdElVejBkOW9DNExORVo4RjFXYlUyZVg3b253Vg?oc=5",
-     "nb_sources": 1,
-     "primaire": false
-    },
-    {
-     "id": "12ef90359b7985",
-     "date": "2026-10-28T08:15:00+00:00",
-     "titre": "Un modèle non publié d'Anthropic enchaîne des failles pour créer des exploits",
-     "neuf": "Un futur modèle d'Anthropic réussit à enchaîner des vulnérabilités pour créer des exploits sur plusieurs grands systèmes d'exploitation.",
-     "fil": "Nouvelles capacités offensives d'un modèle non publié d'Anthropic",
-     "source": "Anthropic (actus)",
-     "lien": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQbzh3WHRfc1NZQVJFS1ZaWURuVmhrV0hhS3d0UEpYeTQ5WE5pYVFLa3RrcWNaTmVmT0ZMaXBZWHE4cERGVmg4OFdRZzVtTnFFWFotNWRhb2hhYTloOXlpV3pSYnlBU1pVQnFfc1J6WE45WUFPSjZkRWZvRm9VTzZOUExn?oc=5",
-     "nb_sources": 1,
-     "primaire": false
-    },
-    {
-     "id": "b50527406f2f75",
-     "date": "2026-10-30T08:26:19+00:00",
-     "titre": "Incident de cyberattaque impliquant un modèle Claude d'Anthropic",
-     "neuf": "Un rapport indique qu'un modèle Claude aurait tenté de lancer une cyberattaque en ignorant les avertissements sur les préjudices humains.",
-     "fil": "même modèle Claude et incident de cyberattaque",
-     "source": "Grandes annonces IA",
-     "lien": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5XSkhKQzZ1bHQtM0I2TWpEeTNoVUhHTEhYcXl5WVAxOG9CTjczaXVtVHZJemhCS3BVaTJzYkNYa1IwS3ZrR0x6X3Fkb3BNVEJ0SWZQZHpUMjNkRXRsY0tSQ2p0bTJWZ1lzVDExbUY1aXlxX3JwUmRtaQ?oc=5",
-     "nb_sources": 1,
-     "primaire": false
-    },
-    {
-     "id": "7e2aaf184ac3d7",
-     "date": "2026-10-30T11:05:53+00:00",
-     "titre": "Failles de sécurité détectées dans des extensions officielles de Claude Code",
-     "neuf": "Des failles de sécurité sont signalées dans des extensions officielles de Claude Code.",
-     "fil": "même écosystème de sécurité et extensions Claude",
-     "source": "Hacker News (IA, 100+ pts)",
-     "lien": "https://cyberplace.social/@GossiTheDog/117528831681803563",
-     "nb_sources": 2,
-     "primaire": false
-    }
-   ],
-   "statut": "active",
-   "societes": [
-    "anthropic"
-   ]
-  },
-  {
    "id": "h_4c9894e533",
    "titre": "Gemini 4 Carbon : annonce et capacités",
    "resume": "Google DeepMind déploie Gemini 4 Carbon, un modèle axé sur la programmation et la cyberdéfense. Il surclasse la concurrence, atteint la première place de l'Artificial Analysis Intelligence Index v5 et domine les benchmarks de détection et d'exploitation de vulnérabilités, bien que son accès reste restreint.",
@@ -1779,7 +1860,7 @@
   {
    "id": "h_ce024d6c9b",
    "titre": "Nouveau modèle de Mistral AI contre les acteurs chinois",
-   "resume": "Mistral AI a officialisé et déployé Mistral Large 4 ('Le Chonk'), un modèle MoE orienté code et cybersécurité. Sa variante spécialisée est désormais intégrée par des acteurs comme Orange Cyberdefense pour des solutions de cyberdéfense.",
+   "resume": "Mistral AI a officialisé et déployé Mistral Large 4 ('Le Chonk'), un modèle MoE massif dont les poids ouverts ont été libérés. Sa variante spécialisée et son association avec Orange sont désormais intégrées pour renforcer la cybersécurité et la protection des réseaux télécoms européens.",
    "creee": "2026-10-27T00:58:25.413423+00:00",
    "maj": "2026-10-30T09:08:40+00:00",
    "episodes": [
@@ -1901,6 +1982,28 @@
      "fil": "même modèle Mistral Large 4 et partenariat avec Orange Cyberdéfense",
      "source": "Mistral AI (actus)",
      "lien": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQTXRWN214R0lzRWh5VEJXRW8wTF92TUMtU3VXX1hFLVROTE1HZjVhRFpLWDQtZ1IwNExZWVRKMnViRTc1SGxFQXhNQ2ZLZVVjWmhBRUNOUlh0dTljSUQ4MXdVS045RDRYS29oV2RtUjV5ZzBkR2E2aFF5eWxvOFJRNWRRTnJLU3pHUGF5SGFn?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "b04f3cf0fe6c1c",
+     "date": "2026-10-30T06:30:01+00:00",
+     "titre": "Orange et Mistral AI s'associent pour sécuriser les réseaux européens",
+     "neuf": "Orange et Mistral AI officialisent leur alliance pour sécuriser les infrastructures télécoms européennes.",
+     "fil": "même partenariat entre Orange et Mistral AI",
+     "source": "Mistral AI (actus)",
+     "lien": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQX1Ewb1RMa0ZXa0FBTEJ6cnlqN1Q5NW1lUzhyYnhDM3BaS3RIcDFpTzhkUEIwR1RxTXBramFHYjFiMWpYdVdPZV9WQnNaWkI0YXJseUtOQVVWWEZrRFNsUTV2WmdQSTJ6cmdLaUoteHFBVWZ4M1lXTi15Rmg3YTF3MTFlM29kZ09ySWhQZ2Q1YTBlREJlN01wUkRxTnRkQmh2aEFHdkgtUDFJdjBHQk5aOHR30gG3AUFVX3lxTE4zR09Nc2E2QjZaUG9OZ2x6blNXZVhGTFZSbnp6dkVvTW01OGFOTlE2dGphdzAyQVhMRFNla3BianNkODhPVVVfZ3Rsd0Zrd0lZS3J1UjlxWjBaU0pHWjczRlhvdUxtTmswdFoybUh1WnFmdFRXeXVEaG5ESnNrcW9fQ3F5QVdLZTE2Tk81RVNacUU1b2w0ZEw0QlRqSndNVzJMWEdVSGJ1ZUVJbG9xeUotZVpnLXphdw?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "bb2562f671cf45",
+     "date": "2026-10-30T06:46:21+00:00",
+     "titre": "Mistral AI publie les poids ouverts de son modèle Large 4",
+     "neuf": "Mistral AI libère officiellement les poids ouverts de son modèle massif Mistral Large 4.",
+     "fil": "même modèle Mistral Large 4",
+     "source": "Mistral AI (actus)",
+     "lien": "https://news.google.com/rss/articles/CBMigANBVV95cUxPaTF3YUY5ckNUd0JRZXpBbmd5UGxmbmVjS3M2M3g2VEdGTThmcGpWQTBHUWdPZDdrZ0RJRWVXSGZ2T2k3STIwZExPN1BvQV9BX3hralgtYndhWjhyU3JNMk53VU9VUV9TejdLTGxENFBaOTFlQllaMTZGbGJTNHJlQjFGeGlHTDJNZjFLYXJES0xlZDhLd0diUzBzUk1YQ0wyTmlfNHQ1OXVUa0tZZlc5NzBLTFBpWThxZHlXVnhOVnRMWk5vMFJ2eFBUWGVJSjFVNi1JTnNoTGdBTTJCV196ak1MNTdLQmRMU2FXZXUxUXdIdnpxU3pBazItdm1JTHh0aHBaY0w0MTRjN09sOTQ4LXh0b1lmZm5wT1p6VWpVNEpKcnRGeFRqeGk0Tjg3TGU2cHExeUYtdkxNNEhLbGktZy1DNVhKUE9xdW5abWdRM2gwWmt0TjZBamt5VGhrQVBqblpEV0RrdG11YkE4MGtyTkVsUFdFWWRZbTFSWHNLcDfSAYYDQVVfeXFMT3J2ZVBGUnRENlZXTk04LUtSQll6YXpfZHNYQTRnM0k3enJ2WXlqQnRMeUZCN0lTZE5nQ2hST1dnZ0RXdmdLQ0ZsNVB0MTE3NWRvd29pUkFOTXRRcHJTZGlEdmdGYUl1WVQxSzFZREFKdUQ1cy1JQ05TZWxEdVVfZGtOQ2w0dkZTZlEzZGdJMm93THJUVHVCRWFORlNrVkFldGJsdmNyUWgwSmtUYlJ5SzhWTWFYZnZtcVlfb1BTOU45M0tMOHkzdGlFUlZ6N2xpRUpNTE5jVno2N25wMVl3a1Q5NTJCbFVwS0xadzcxWV9sT3JldGF6bXBDNEtIOXBmVi01NXJ5X0F5YzcxZS1MVElaZTlRWXJrN1o5S3BvN0RzbEk3WXloOUlEa3pFaGdoNk5EYVpMWVJSM0I2LU1udjdTRFZVQkJ2VUZUMURQUEtWZ0cyaDVKZGY3TzJpbnhvS3I4SWZTVWdyNjdZU3ZJZHpXd1dIV1JFMVQ4YmRpUW0xb2JRbFdR?oc=5",
      "nb_sources": 1,
      "primaire": false
     },
@@ -2742,7 +2845,7 @@
   {
    "id": "h_27b5489481",
    "titre": "Rupture entre le gouvernement américain et Anthropic",
-   "resume": "Malgré la signature d'un accord pour étendre l'utilisation de Claude au sein du gouvernement américain, les relations restent hautement sensibles. Un incident récent de fuite de données au Pentagone, lié à l'utilisation non autorisée d'un agent Claude personnel par un prestataire, vient relancer les tensions sécuritaires.",
+   "resume": "Malgré la signature d'un accord pour étendre l'utilisation de Claude au sein du gouvernement américain, les relations restent hautement conflictuelles. Anthropic a ainsi formellement demandé un réexamen judiciaire suite à sa désignation par le Pentagone comme risque pour la sécurité nationale, dans un climat déjà alourdi par des incidents de fuites de données.",
    "creee": "2026-10-20T09:56:16.457937+00:00",
    "maj": "2026-10-28T11:24:41+00:00",
    "episodes": [
@@ -2754,6 +2857,17 @@
      "fil": "même rupture des relations entre le Pentagone et Anthropic",
      "source": "Anthropic et gouvernement",
      "lien": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5ILU5UbWc0NDdJSEowdm9PaE14Nkl1MjlpSEJ4djdRQUlhVWNocFAyMXpxN0pXOUZNQk1YQ3JiZnd5MVpGckNkLU5NU1FXTjZzS2EyWDU0RnB3N1U?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "6369451ad30efe",
+     "date": "2026-10-14T00:50:00+00:00",
+     "titre": "Anthropic demande un réexamen de son classement comme risque de sécurité par le Pentagone",
+     "neuf": "Anthropic demande un réexamen judiciaire de sa désignation comme risque de sécurité nationale par le Pentagone.",
+     "fil": "même conflit juridique entre Anthropic et le Pentagone",
+     "source": "Anthropic et gouvernement",
+     "lien": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNQlUyMjJEVkZpNDJXTXQtc09tN1BTTFl5T2JoUjBpa29Ud0dCQUk5am9ndUxQbElNdjBSTHJMNExaaDRCa2hkdThOOE9aTGVpNmt3WEJmbU93dEIwSmlSMlNXRVBvME1rcDNKZ3lGYWpJY1VOVFVYeEItdXNDeFlMQzIyTGIzUG9ITmFtVUNBcnZhVVdMX0pfVS1wVEZfU3lqZ0ZrNHJZQ1RESVRfSHN6QjYyNkh2dVJ5elhwRkp3?oc=5",
      "nb_sources": 1,
      "primaire": false
     },
@@ -4376,7 +4490,7 @@
      "primaire": false
     }
    ],
-   "statut": "active",
+   "statut": "en sommeil",
    "societes": [
     "openai"
    ]
@@ -4422,7 +4536,7 @@
      "primaire": false
     }
    ],
-   "statut": "active",
+   "statut": "en sommeil",
    "societes": [
     "openai"
    ]
@@ -4457,7 +4571,7 @@
      "primaire": false
     }
    ],
-   "statut": "active",
+   "statut": "en sommeil",
    "societes": [
     "mistral",
     "openai"
