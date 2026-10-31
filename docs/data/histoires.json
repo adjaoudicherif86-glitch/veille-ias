@@ -1,6 +1,222 @@
 {
- "maj": "2026-10-31T14:32:10.371026+00:00",
+ "maj": "2026-10-31T19:59:10.605074+00:00",
  "histoires": [
+  {
+   "id": "h_61682af51c",
+   "titre": "Lancement de l'agent IA Claude Duet d'Anthropic",
+   "resume": "Anthropic déploie son agent professionnel Claude Duet, accompagné de guides d'utilisation et d'un accueil globalement positif. Son accès reste cependant structuré autour de minima de sièges rigides et de fonctionnalités de supervision managériale.",
+   "creee": "2026-10-21T20:44:46.798337+00:00",
+   "maj": "2026-10-31T18:30:00+00:00",
+   "episodes": [
+    {
+     "id": "5dbb54a005401f",
+     "date": "2026-10-21T19:14:01+00:00",
+     "titre": "Lancement de Claude Duet par Anthropic",
+     "neuf": "Anthropic officialise l'introduction de Claude Duet sur le marché.",
+     "fil": "lancement de l'agent Claude Duet",
+     "source": "Hacker News (IA, 100+ pts)",
+     "lien": "https://claude.com/product/claude-duet",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "705d3445b65a91",
+     "date": "2026-10-21T19:53:20+00:00",
+     "titre": "Anthropic lance Claude Duet, son nouvel agent IA",
+     "neuf": "Anthropic positionne Claude Duet pour concurrencer les autres agents du marché.",
+     "fil": "lancement de Claude Duet",
+     "source": "Anthropic (actus)",
+     "lien": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQMm0xalYzS19NOGxhQ0ZpanpWeFpjN3g0VzZfVjROQ3RUemxqZmc3STZhdHlRUTlvZEJOaW52dzdVTUxOc09MMzlVeFlJSmc5V2p4WDdwWjRRaDZKMU5QbldoWHBIaTh0Qi1yc1JFaVNHM1BkQ25ucFZfbVJtWGNYMS1jRWlocDk5NUVheDVpclZEUTJw?oc=5",
+     "nb_sources": 2,
+     "primaire": false
+    },
+    {
+     "id": "05e2774a24a1f6",
+     "date": "2026-10-21T20:29:00+00:00",
+     "titre": "Anthropic lance Claude Duet, son nouvel agent personnel",
+     "neuf": "Claude Duet est présenté comme un nouvel agent personnel pour répliquer à la concurrence.",
+     "fil": "lancement de Claude Duet",
+     "source": "Anthropic (actus)",
+     "lien": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPQkZFNGVZc2Q2Q3VJYWVFNjFlOUh1NE1aNWFrZHlzOFlEMVpQU0xFQkFDSW4ydXljV1gtRnBBVzZjWi11Z3dMQ0sxdl9EdXdJOWl0TWlYMnl1M1o5S3d4LXRuOW9lLUd3bS1lYkloUnFGVnhqbFNJSGtVRUt4ZnlWSVg1Q01YOHlrWF9tZ0RsQXptUjljR0MxVFVaWW0xTXMweUE?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "29513dd2417946",
+     "date": "2026-10-21T20:41:02+00:00",
+     "titre": "Anthropic entre dans la course aux agents IA avec Claude Duet",
+     "neuf": "Anthropic officialise son entrée sur le marché des agents avec Claude Duet.",
+     "fil": "Lancement de l'agent IA Claude Duet d'Anthropic",
+     "source": "Anthropic et gouvernement",
+     "lien": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNblFra1FIR1VRWmpPaW80WGJSZGNtVG02LUMzU0pvR0NQbkJ3R1N1eGxTS0ZhblV6ZDV1VUNiMVVKVHRCNVI5aHZaZjBGREZUSDg3ekExUnFFWjF2QUs4Qk9ZREN6cUt4QVNZTnlwLThQMmt0Wmp3QWh1QkF3TDFuY1hNOGRnU2Ew?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "7abf36518713c4",
+     "date": "2026-10-22T01:05:09+00:00",
+     "titre": "Nouvel agent IA d'Anthropic pour l'achat de fournitures professionnelles",
+     "neuf": "L'agent d'Anthropic se dote de capacités d'achat autonome de fournitures professionnelles.",
+     "fil": "Nouvel agent IA d'Anthropic pour les achats professionnels",
+     "source": "Anthropic (actus)",
+     "lien": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQWjdMOWV2Z1JpdUNIN05TWE53U2JJRW1obFBKT05xQVQtc05ZUm9iM3JSaWxsdFpFSTB5UldmbnZqVlZ0bHZhaHZiNkFUMFp3NlpxTUZYOTBWc3RhZWZjSjhseGhOVlBVbE9scnRTLWhZS0lEU2JNTmc2UUwxSHI3ZS1lWXMyc3hFUkk4N2dvZGp2Q2w3amxVUHRiVkRHeHNGT2RrbF9mWHRfa3hrMmc?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "31cb9fa2449425",
+     "date": "2026-10-22T03:19:00+00:00",
+     "titre": "Claude Duet intègre plus de 6 000 outils pour automatiser les tâches",
+     "neuf": "Claude Duet se connecte à plus de 6 000 intégrations pour automatiser les flux de travail en entreprise.",
+     "fil": "Intégrations de Claude Duet",
+     "source": "Anthropic (actus)",
+     "lien": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPOHZGSWdQNmhaM1AwX2tMNFl0TGo3by1jaG9ESnI3cm1za2ZIbnF3TUJtUVZlOXJLZW9KYlJXWkdmLXRqejFOM2VPNlduTEV1bEx1U0VvQ0c1WDZ6S0YwdnFWNElWTVgway1yTFc5WE84ZFZ1VEo0M3NBbkVQLURuRUgtN3E2cXBsN0lPcFo3aTc?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "3dec6b4cf94367",
+     "date": "2026-10-22T11:11:31+00:00",
+     "titre": "Découvrez Claude Duet, le nouvel agent IA d'Anthropic",
+     "neuf": "Confirmation du lancement de l'agent pour alléger la charge de travail.",
+     "fil": "Même lancement officiel de l'agent Claude Duet",
+     "source": "Anthropic (actus)",
+     "lien": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBsa3ZVM2JtaGdBajhfZEFDWVJaVHlvbkxYcGR5ODFBdjlEeFNON3FfcG0tYzR0aHIyazRjanhUTWRyX1phZ3JLQTNVTmZTMXlBajQ5SmxUZUFVZms5eGxRbVJrZ04xZDYw?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "819de26796b063",
+     "date": "2026-10-22T12:16:35+00:00",
+     "titre": "Anthropic lance un agent IA professionnel face à Meta et OpenAI",
+     "neuf": "Anthropic dévoile son agent IA professionnel pour concurrencer Meta Muse et OpenAI Dots.",
+     "fil": "nouvel agent IA professionnel d'Anthropic",
+     "source": "Anthropic et gouvernement",
+     "lien": "https://news.google.com/rss/articles/CBMif0FVX3lxTE4weXI0QVdqNEdJSmR3Z2RvUl9feHFyMzdkSV90S2hhNlFadVd1TjZiUmpURVJtei00QnJQajBCaFJ1LXN2YktJN3o1S3hhNC1SV3RJNlA3RVhCeHNHZFFuMW5rc2x2WjY5VDZLaVZ0dkFqMmx0alJIcUliZEE1LVU?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "d24c772af64832",
+     "date": "2026-10-22T17:38:48+00:00",
+     "titre": "Lancement de Claude Duet par Anthropic : les entreprises hésitent",
+     "neuf": "Un article relève que les entreprises font face à des hésitations quant à l'adoption de Claude Duet.",
+     "fil": "même agent IA professionnel Claude Duet d'Anthropic",
+     "source": "Anthropic et gouvernement",
+     "lien": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNR05JZHN0U2d5RHE1MWUyUXVaeGhoX3E1dTRyNzNLd3JndmVGa0U2RGE2bFIzZ1ZHUUhTMVZ4Nzg3QmFTb2FMUENXSDR2a0Z5c3h3amx2YXFMY3E3SkFlN09PT1hLS1RjUHQzeGhuVm10TnBlMjlIcVpfdm1aSW95T2V1eFJpeWwwMDJmcnJmUWhxYVdvb2hYQUpUcjFld2VqM3YzcjFaYw?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "139e807626ba1a",
+     "date": "2026-10-24T13:07:30+00:00",
+     "titre": "Anthropic : un minimum de 20 sièges exclut les petits cabinets",
+     "neuf": "Anthropic impose un minimum de 20 sièges entreprise, excluant de fait les petits cabinets.",
+     "fil": "Conditions d'accès et abonnements aux services d'Anthropic",
+     "source": "Anthropic (actus)",
+     "lien": "https://news.google.com/rss/articles/CBMinAJBVV95cUxPT0R4ZTBtQWtQMTBJWGx2NGV2TVNxRl9aa2liNDQ2SGJFVFEta0I2M2lhaEkwR2hWMmxDMlZXamdQYkpFRkU1Wl9PN3JOLXljb3JuTFJ1Z0wwTFp6ZVlqQkRnVHpZOW1uMkpnR0hUYzkzZm9BXzNXSEQ1cnBic2M2cHpqM0FSempQUGNoQzVhWmdyQksxcVN4QVJGZ2NSaEZ3N0pZMno3SFFIQm9ORVBaWWhkM25DQm1pRkIzd1dyOEZvSmxtMnRBTkxYSXp5dW1IZmhNTC1CczY2T0ZDVlBPT1NvZnZ2YXRxLXZxbklsVnQtSVoxQWlsd0hlbVBEUkxpbTNlNUlBRUJmUXdpQ3BCaUVEQTR0SjRVQTdxQw?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "9dee3fa62c05d0",
+     "date": "2026-10-31T18:30:00+00:00",
+     "titre": "Comment utiliser Claude Duet lors de son déploiement",
+     "neuf": "Un guide d'utilisation pratique est publié à l'approche du déploiement de Claude Duet.",
+     "fil": "même agent Claude Duet",
+     "source": "Anthropic (actus)",
+     "lien": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE84cHZlMURNNDdZcjg1STBlNU1WMHA4YmlWMFM4RzExMGx6aDYxeHR1T252MG1OVmdySXdGMERHTTAwejBrMzIycFJ4MzR2UGFFVTlRX2w3eFRBVWZNdE5BZVI0d1YxTWM?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    }
+   ],
+   "statut": "active",
+   "societes": [
+    "anthropic",
+    "openai"
+   ]
+  },
+  {
+   "id": "h_b5289f0792",
+   "titre": "Apple s'associe à Alibaba pour l'IA en Chine",
+   "resume": "Apple officialise son partenariat stratégique avec Alibaba afin d'intégrer les technologies d'intelligence artificielle Qwen sur l'iPhone en Chine. Ce mouvement clé permet d'alimenter les fonctionnalités d'Apple Intelligence pour les utilisateurs locaux dès le mois de décembre.",
+   "creee": "2026-10-31T14:32:10.371026+00:00",
+   "maj": "2026-10-31T17:38:16+00:00",
+   "episodes": [
+    {
+     "id": "f13940454eeabf",
+     "date": "2026-10-31T10:02:17+00:00",
+     "titre": "Apple s'associe à Alibaba pour lancer ses fonctions IA en Chine",
+     "neuf": "Apple s'associe à Alibaba pour intégrer ses fonctions d'intelligence artificielle sur l'iPhone en Chine.",
+     "fil": "partenariat entre Apple et Alibaba pour l'IA en Chine",
+     "source": "Grandes annonces IA",
+     "lien": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNN2tkN3NFenBvWmVSMHFlWEJGWnlfeWpyVzFQQzhoUllDZ3ljS05venFUT1ZnT3pQai13c3hmUHU0RTlESklTekVvU2VuTXJXeDF0Z1k4THFicC1ybU0wcVk5MVBuNmdaMXVCUlZ3dTBPcmtLTVBjTnBKV2lHZEFGRmlKU0loWWttaWlXbDM3QkxLS1RkaHhic04xYm5FWGcyWWxDZDZFT01kVXl5WTFWQUtrcW1uZU020gG4AUFVX3lxTFA4YTg1dUhJeDhZajg5NTFxU29RRWNNeVZzZXRxMmpoUjZ3QTNuWktwS0FQVkxvbUQ3YjQ1NGcwa3hVRDE3TnNOTmVhdXk5QTVuYUhuMGgxR0tmWHZGbDdKV09tdnhWQWhJWTdnaW9mNmhZRWowaV9wQmdvZTRTa3FzdExZakVlTHpXT0RGNGxYS0RpeXd1emlfYXBqVkVCMk1MUjJhbmlQdV90M2RqN3FiakNEM3VYU2w?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "6e945eaaaac7f3",
+     "date": "2026-10-31T17:38:16+00:00",
+     "titre": "Alibaba intègre son modèle Qwen dans Apple Intelligence en Chine",
+     "neuf": "Alibaba officialise l'intégration de son modèle Qwen au sein d'Apple Intelligence pour le marché chinois.",
+     "fil": "même partenariat Apple-Alibaba en Chine",
+     "source": "Grandes annonces IA",
+     "lien": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxOYWxtSWxQWFFKLVc1dUZCdGtGOElTdFlWeTJZV0FWZ0MzbXBzbkpNSzNmclhleVlWblpHeElhSHhNMDZtcHlKWjBZTVFEQk9MRDJlcWZDWFZQYzlUZDdGcVBDTVk0RndNdC1iVG9taW9vY0FCdTF6WWVzSjdhQVp1Yk1jUkQ4QU9jZjdCTlRCZmZmZTBranBrSzh0cDcydmVWVmpYQ21SOXFyYUkyTUZFU0VVZzdXUnY0S2Q0bzE5ZU1XcGRxVUh2bDdyNHM2RGV3MUlJUVVBS3g1S28?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    }
+   ],
+   "statut": "active",
+   "societes": [
+    "alibaba"
+   ]
+  },
+  {
+   "id": "h_52e7f4c87a",
+   "titre": "Google lance son premier satellite de calcul IA",
+   "resume": "Google a concrétisé son projet en plaçant avec succès un satellite de calcul IA en orbite équipé de TPUs. Cette infrastructure spatiale permet d'exécuter directement des charges de travail d'inférence et des modèles comme Gemma 4.",
+   "creee": "2026-10-30T20:48:26.671184+00:00",
+   "maj": "2026-10-31T15:22:08+00:00",
+   "episodes": [
+    {
+     "id": "135f70cd39eb4c",
+     "date": "2026-10-30T17:00:00+00:00",
+     "titre": "Google lance son premier satellite de calcul IA en orbite",
+     "neuf": "",
+     "fil": "lancement du premier satellite de calcul IA par Google",
+     "source": "TechCrunch IA",
+     "lien": "https://techcrunch.com/2026/10/30/googles-first-data-center-satellite-is-online-and-writing-poetry/",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "c4dbacf8aa2b8b",
+     "date": "2026-10-30T18:21:38+00:00",
+     "titre": "Google déploie une IA directement sur un satellite en orbite",
+     "neuf": "Un satellite équipé de puces TPU a exécuté le modèle Gemma 4 directement depuis l'espace.",
+     "fil": "déploiement du modèle Gemma 4 sur un satellite en orbite",
+     "source": "The Verge IA",
+     "lien": "https://www.theverge.com/tech/1023528/google-project-suncatcher-ai-satellite-transmission",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "1aa86a472170d2",
+     "date": "2026-10-31T15:22:08+00:00",
+     "titre": "Google lance son premier satellite de centre de données en orbite",
+     "neuf": "Google a placé en orbite un premier satellite équipé de TPUs pour tester l'exécution de charges de travail d'inférence d'IA dans l'espace.",
+     "fil": "même satellite de calcul IA de Google",
+     "source": "r/LocalLLaMA",
+     "lien": "https://www.reddit.com/r/LocalLLaMA/comments/1xkcyn6/spent_a_lot_on_my_rig_but_i_can_only_run_gemma_4/",
+     "nb_sources": 1,
+     "primaire": false
+    }
+   ],
+   "statut": "active",
+   "societes": [
+    "google"
+   ]
+  },
   {
    "id": "h_5febc86840",
    "titre": "L'introduction en Bourse d'Anthropic",
@@ -885,30 +1101,6 @@
    ]
   },
   {
-   "id": "h_b5289f0792",
-   "titre": "Apple s'associe à Alibaba pour l'IA en Chine",
-   "resume": "Apple officialise un partenariat stratégique avec le géant Alibaba afin d'intégrer ses technologies d'intelligence artificielle sur l'iPhone en Chine, avec un déploiement prévu dès le mois de décembre.",
-   "creee": "2026-10-31T14:32:10.371026+00:00",
-   "maj": "2026-10-31T10:02:17+00:00",
-   "episodes": [
-    {
-     "id": "f13940454eeabf",
-     "date": "2026-10-31T10:02:17+00:00",
-     "titre": "Apple s'associe à Alibaba pour lancer ses fonctions IA en Chine",
-     "neuf": "Apple s'associe à Alibaba pour intégrer ses fonctions d'intelligence artificielle sur l'iPhone en Chine.",
-     "fil": "partenariat entre Apple et Alibaba pour l'IA en Chine",
-     "source": "Grandes annonces IA",
-     "lien": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNN2tkN3NFenBvWmVSMHFlWEJGWnlfeWpyVzFQQzhoUllDZ3ljS05venFUT1ZnT3pQai13c3hmUHU0RTlESklTekVvU2VuTXJXeDF0Z1k4THFicC1ybU0wcVk5MVBuNmdaMXVCUlZ3dTBPcmtLTVBjTnBKV2lHZEFGRmlKU0loWWttaWlXbDM3QkxLS1RkaHhic04xYm5FWGcyWWxDZDZFT01kVXl5WTFWQUtrcW1uZU020gG4AUFVX3lxTFA4YTg1dUhJeDhZajg5NTFxU29RRWNNeVZzZXRxMmpoUjZ3QTNuWktwS0FQVkxvbUQ3YjQ1NGcwa3hVRDE3TnNOTmVhdXk5QTVuYUhuMGgxR0tmWHZGbDdKV09tdnhWQWhJWTdnaW9mNmhZRWowaV9wQmdvZTRTa3FzdExZakVlTHpXT0RGNGxYS0RpeXd1emlfYXBqVkVCMk1MUjJhbmlQdV90M2RqN3FiakNEM3VYU2w?oc=5",
-     "nb_sources": 1,
-     "primaire": false
-    }
-   ],
-   "statut": "active",
-   "societes": [
-    "alibaba"
-   ]
-  },
-  {
    "id": "h_9c9f09e590",
    "titre": "Faille de sécurité critique dans les liens ChatGPT",
    "resume": "Une faille de sécurité majeure a été découverte dans le système de partage de liens de ChatGPT, permettant à un simple lien malveillant d'exécuter du code dans la session de l'utilisateur et d'accéder à ses conversations privées.",
@@ -924,6 +1116,41 @@
      "source": "OpenAI (actus)",
      "lien": "https://news.google.com/rss/articles/CBMiekFVX3lxTE1xLTVwY2pKZ1U4Y0J1VjJVQnkwZTJNcGFGUEtfbHZXSENiQkxXdFVJaEhXbGJYSWpRMjJUcW81dFFMRWpvWVZCUm5EY0pRRHpfZlJ3WXlHV3BmUVBXS3VvaWJzdTB1SzNmUkJLaTNINkZCckE3QVRSdGpB?oc=5",
      "nb_sources": 1,
+     "primaire": false
+    }
+   ],
+   "statut": "active",
+   "societes": [
+    "openai"
+   ]
+  },
+  {
+   "id": "h_04df45ad75",
+   "titre": "Levée de fonds de 30 milliards de dollars pour OpenAI",
+   "resume": "OpenAI a ciblé une levée de fonds record de 30 milliards de dollars pour atteindre une valorisation colossale. Toutefois, les derniers tours de table indiquent que l'entreprise n'a pour l'instant atteint qu'une fraction de cet objectif initial.",
+   "creee": "2026-10-23T00:57:49.756986+00:00",
+   "maj": "2026-10-31T02:56:00+00:00",
+   "episodes": [
+    {
+     "id": "d73c3fbf5a8b67",
+     "date": "2026-10-22T22:08:24+00:00",
+     "titre": "OpenAI prépare une levée de fonds de 30 milliards de dollars",
+     "neuf": "OpenAI négocie une levée de fonds géante de 30 milliards de dollars.",
+     "fil": "Levée de fonds record d'OpenAI",
+     "source": "TechCrunch IA",
+     "lien": "https://techcrunch.com/2026/10/22/openai-working-on-new-30b-raise-at-1-25t-valuation-ahead-of-ipo/",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "64b1cfc1c15174",
+     "date": "2026-10-31T02:56:00+00:00",
+     "titre": "OpenAI lève moins de la moitié de son objectif de 30 milliards",
+     "neuf": "OpenAI n'a atteint qu'une fraction de son objectif de levée de fonds lors de son dernier tour de table.",
+     "fil": "même levée de fonds de 30 milliards de dollars pour OpenAI",
+     "source": "OpenAI (actus)",
+     "lien": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQTW9TMmVsZkc2b05TYkloVW41X050RjdtZ1F5U01TRnJOSEthYTJpcDdPWVhJb0FvRGEteHgtbVhSS0lOVEZ3T2N5MTNpSUNWNXpETThZR0RvcFQwY2Q5R3ctRUFvM1ZtdFdMaXhGSnpPM2FiLUhORXNrem84cUpfVGpuQ0VmaGNsZUlxUVQ0dk4zQUE2cWFzUk8yM1R3cjc3dEczVw?oc=5",
+     "nb_sources": 2,
      "primaire": false
     }
    ],
@@ -1113,41 +1340,6 @@
    "statut": "active",
    "societes": [
     "anthropic"
-   ]
-  },
-  {
-   "id": "h_52e7f4c87a",
-   "titre": "Google lance son premier satellite de calcul IA",
-   "resume": "Google a placé avec succès la première TPU et exécuté le modèle Gemma 4 directement en orbite à bord d'un satellite de calcul IA.",
-   "creee": "2026-10-30T20:48:26.671184+00:00",
-   "maj": "2026-10-30T18:21:38+00:00",
-   "episodes": [
-    {
-     "id": "135f70cd39eb4c",
-     "date": "2026-10-30T17:00:00+00:00",
-     "titre": "Google lance son premier satellite de calcul IA en orbite",
-     "neuf": "",
-     "fil": "lancement du premier satellite de calcul IA par Google",
-     "source": "TechCrunch IA",
-     "lien": "https://techcrunch.com/2026/10/30/googles-first-data-center-satellite-is-online-and-writing-poetry/",
-     "nb_sources": 1,
-     "primaire": false
-    },
-    {
-     "id": "c4dbacf8aa2b8b",
-     "date": "2026-10-30T18:21:38+00:00",
-     "titre": "Google déploie une IA directement sur un satellite en orbite",
-     "neuf": "Un satellite équipé de puces TPU a exécuté le modèle Gemma 4 directement depuis l'espace.",
-     "fil": "déploiement du modèle Gemma 4 sur un satellite en orbite",
-     "source": "The Verge IA",
-     "lien": "https://www.theverge.com/tech/1023528/google-project-suncatcher-ai-satellite-transmission",
-     "nb_sources": 1,
-     "primaire": false
-    }
-   ],
-   "statut": "active",
-   "societes": [
-    "google"
    ]
   },
   {
@@ -3962,130 +4154,6 @@
    ]
   },
   {
-   "id": "h_61682af51c",
-   "titre": "Lancement de l'agent IA Claude Duet d'Anthropic",
-   "resume": "Anthropic déploie son agent professionnel Claude Duet, qui reçoit ses premiers retours élogieux d'utilisateurs saluant son utilité pratique. L'accès reste toutefois encadré par des minima de sièges et enrichi de fonctions de surveillance managériale.",
-   "creee": "2026-10-21T20:44:46.798337+00:00",
-   "maj": "2026-10-24T13:07:30+00:00",
-   "episodes": [
-    {
-     "id": "5dbb54a005401f",
-     "date": "2026-10-21T19:14:01+00:00",
-     "titre": "Lancement de Claude Duet par Anthropic",
-     "neuf": "Anthropic officialise l'introduction de Claude Duet sur le marché.",
-     "fil": "lancement de l'agent Claude Duet",
-     "source": "Hacker News (IA, 100+ pts)",
-     "lien": "https://claude.com/product/claude-duet",
-     "nb_sources": 1,
-     "primaire": false
-    },
-    {
-     "id": "705d3445b65a91",
-     "date": "2026-10-21T19:53:20+00:00",
-     "titre": "Anthropic lance Claude Duet, son nouvel agent IA",
-     "neuf": "Anthropic positionne Claude Duet pour concurrencer les autres agents du marché.",
-     "fil": "lancement de Claude Duet",
-     "source": "Anthropic (actus)",
-     "lien": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQMm0xalYzS19NOGxhQ0ZpanpWeFpjN3g0VzZfVjROQ3RUemxqZmc3STZhdHlRUTlvZEJOaW52dzdVTUxOc09MMzlVeFlJSmc5V2p4WDdwWjRRaDZKMU5QbldoWHBIaTh0Qi1yc1JFaVNHM1BkQ25ucFZfbVJtWGNYMS1jRWlocDk5NUVheDVpclZEUTJw?oc=5",
-     "nb_sources": 2,
-     "primaire": false
-    },
-    {
-     "id": "05e2774a24a1f6",
-     "date": "2026-10-21T20:29:00+00:00",
-     "titre": "Anthropic lance Claude Duet, son nouvel agent personnel",
-     "neuf": "Claude Duet est présenté comme un nouvel agent personnel pour répliquer à la concurrence.",
-     "fil": "lancement de Claude Duet",
-     "source": "Anthropic (actus)",
-     "lien": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPQkZFNGVZc2Q2Q3VJYWVFNjFlOUh1NE1aNWFrZHlzOFlEMVpQU0xFQkFDSW4ydXljV1gtRnBBVzZjWi11Z3dMQ0sxdl9EdXdJOWl0TWlYMnl1M1o5S3d4LXRuOW9lLUd3bS1lYkloUnFGVnhqbFNJSGtVRUt4ZnlWSVg1Q01YOHlrWF9tZ0RsQXptUjljR0MxVFVaWW0xTXMweUE?oc=5",
-     "nb_sources": 1,
-     "primaire": false
-    },
-    {
-     "id": "29513dd2417946",
-     "date": "2026-10-21T20:41:02+00:00",
-     "titre": "Anthropic entre dans la course aux agents IA avec Claude Duet",
-     "neuf": "Anthropic officialise son entrée sur le marché des agents avec Claude Duet.",
-     "fil": "Lancement de l'agent IA Claude Duet d'Anthropic",
-     "source": "Anthropic et gouvernement",
-     "lien": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNblFra1FIR1VRWmpPaW80WGJSZGNtVG02LUMzU0pvR0NQbkJ3R1N1eGxTS0ZhblV6ZDV1VUNiMVVKVHRCNVI5aHZaZjBGREZUSDg3ekExUnFFWjF2QUs4Qk9ZREN6cUt4QVNZTnlwLThQMmt0Wmp3QWh1QkF3TDFuY1hNOGRnU2Ew?oc=5",
-     "nb_sources": 1,
-     "primaire": false
-    },
-    {
-     "id": "7abf36518713c4",
-     "date": "2026-10-22T01:05:09+00:00",
-     "titre": "Nouvel agent IA d'Anthropic pour l'achat de fournitures professionnelles",
-     "neuf": "L'agent d'Anthropic se dote de capacités d'achat autonome de fournitures professionnelles.",
-     "fil": "Nouvel agent IA d'Anthropic pour les achats professionnels",
-     "source": "Anthropic (actus)",
-     "lien": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQWjdMOWV2Z1JpdUNIN05TWE53U2JJRW1obFBKT05xQVQtc05ZUm9iM3JSaWxsdFpFSTB5UldmbnZqVlZ0bHZhaHZiNkFUMFp3NlpxTUZYOTBWc3RhZWZjSjhseGhOVlBVbE9scnRTLWhZS0lEU2JNTmc2UUwxSHI3ZS1lWXMyc3hFUkk4N2dvZGp2Q2w3amxVUHRiVkRHeHNGT2RrbF9mWHRfa3hrMmc?oc=5",
-     "nb_sources": 1,
-     "primaire": false
-    },
-    {
-     "id": "31cb9fa2449425",
-     "date": "2026-10-22T03:19:00+00:00",
-     "titre": "Claude Duet intègre plus de 6 000 outils pour automatiser les tâches",
-     "neuf": "Claude Duet se connecte à plus de 6 000 intégrations pour automatiser les flux de travail en entreprise.",
-     "fil": "Intégrations de Claude Duet",
-     "source": "Anthropic (actus)",
-     "lien": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPOHZGSWdQNmhaM1AwX2tMNFl0TGo3by1jaG9ESnI3cm1za2ZIbnF3TUJtUVZlOXJLZW9KYlJXWkdmLXRqejFOM2VPNlduTEV1bEx1U0VvQ0c1WDZ6S0YwdnFWNElWTVgway1yTFc5WE84ZFZ1VEo0M3NBbkVQLURuRUgtN3E2cXBsN0lPcFo3aTc?oc=5",
-     "nb_sources": 1,
-     "primaire": false
-    },
-    {
-     "id": "3dec6b4cf94367",
-     "date": "2026-10-22T11:11:31+00:00",
-     "titre": "Découvrez Claude Duet, le nouvel agent IA d'Anthropic",
-     "neuf": "Confirmation du lancement de l'agent pour alléger la charge de travail.",
-     "fil": "Même lancement officiel de l'agent Claude Duet",
-     "source": "Anthropic (actus)",
-     "lien": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBsa3ZVM2JtaGdBajhfZEFDWVJaVHlvbkxYcGR5ODFBdjlEeFNON3FfcG0tYzR0aHIyazRjanhUTWRyX1phZ3JLQTNVTmZTMXlBajQ5SmxUZUFVZms5eGxRbVJrZ04xZDYw?oc=5",
-     "nb_sources": 1,
-     "primaire": false
-    },
-    {
-     "id": "819de26796b063",
-     "date": "2026-10-22T12:16:35+00:00",
-     "titre": "Anthropic lance un agent IA professionnel face à Meta et OpenAI",
-     "neuf": "Anthropic dévoile son agent IA professionnel pour concurrencer Meta Muse et OpenAI Dots.",
-     "fil": "nouvel agent IA professionnel d'Anthropic",
-     "source": "Anthropic et gouvernement",
-     "lien": "https://news.google.com/rss/articles/CBMif0FVX3lxTE4weXI0QVdqNEdJSmR3Z2RvUl9feHFyMzdkSV90S2hhNlFadVd1TjZiUmpURVJtei00QnJQajBCaFJ1LXN2YktJN3o1S3hhNC1SV3RJNlA3RVhCeHNHZFFuMW5rc2x2WjY5VDZLaVZ0dkFqMmx0alJIcUliZEE1LVU?oc=5",
-     "nb_sources": 1,
-     "primaire": false
-    },
-    {
-     "id": "d24c772af64832",
-     "date": "2026-10-22T17:38:48+00:00",
-     "titre": "Lancement de Claude Duet par Anthropic : les entreprises hésitent",
-     "neuf": "Un article relève que les entreprises font face à des hésitations quant à l'adoption de Claude Duet.",
-     "fil": "même agent IA professionnel Claude Duet d'Anthropic",
-     "source": "Anthropic et gouvernement",
-     "lien": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNR05JZHN0U2d5RHE1MWUyUXVaeGhoX3E1dTRyNzNLd3JndmVGa0U2RGE2bFIzZ1ZHUUhTMVZ4Nzg3QmFTb2FMUENXSDR2a0Z5c3h3amx2YXFMY3E3SkFlN09PT1hLS1RjUHQzeGhuVm10TnBlMjlIcVpfdm1aSW95T2V1eFJpeWwwMDJmcnJmUWhxYVdvb2hYQUpUcjFld2VqM3YzcjFaYw?oc=5",
-     "nb_sources": 1,
-     "primaire": false
-    },
-    {
-     "id": "139e807626ba1a",
-     "date": "2026-10-24T13:07:30+00:00",
-     "titre": "Anthropic : un minimum de 20 sièges exclut les petits cabinets",
-     "neuf": "Anthropic impose un minimum de 20 sièges entreprise, excluant de fait les petits cabinets.",
-     "fil": "Conditions d'accès et abonnements aux services d'Anthropic",
-     "source": "Anthropic (actus)",
-     "lien": "https://news.google.com/rss/articles/CBMinAJBVV95cUxPT0R4ZTBtQWtQMTBJWGx2NGV2TVNxRl9aa2liNDQ2SGJFVFEta0I2M2lhaEkwR2hWMmxDMlZXamdQYkpFRkU1Wl9PN3JOLXljb3JuTFJ1Z0wwTFp6ZVlqQkRnVHpZOW1uMkpnR0hUYzkzZm9BXzNXSEQ1cnBic2M2cHpqM0FSempQUGNoQzVhWmdyQksxcVN4QVJGZ2NSaEZ3N0pZMno3SFFIQm9ORVBaWWhkM25DQm1pRkIzd1dyOEZvSmxtMnRBTkxYSXp5dW1IZmhNTC1CczY2T0ZDVlBPT1NvZnZ2YXRxLXZxbklsVnQtSVoxQWlsd0hlbVBEUkxpbTNlNUlBRUJmUXdpQ3BCaUVEQTR0SjRVQTdxQw?oc=5",
-     "nb_sources": 1,
-     "primaire": false
-    }
-   ],
-   "statut": "active",
-   "societes": [
-    "anthropic",
-    "openai"
-   ]
-  },
-  {
    "id": "h_ce930b7f17",
    "titre": "Verrouillage des conversations sur ChatGPT",
    "resume": "Il est possible de verrouiller des discussions spécifiques sur ChatGPT pour protéger leur confidentialité lors du prêt de son appareil, bien que cette fonctionnalité présente certaines limites de sécurité.",
@@ -4270,30 +4338,6 @@
    ],
    "statut": "active",
    "societes": []
-  },
-  {
-   "id": "h_04df45ad75",
-   "titre": "Levée de fonds de 30 milliards de dollars pour OpenAI",
-   "resume": "OpenAI négocie une levée de fonds record de 30 milliards de dollars, visant une valorisation globale de 1 250 milliards de dollars.",
-   "creee": "2026-10-23T00:57:49.756986+00:00",
-   "maj": "2026-10-22T22:08:24+00:00",
-   "episodes": [
-    {
-     "id": "d73c3fbf5a8b67",
-     "date": "2026-10-22T22:08:24+00:00",
-     "titre": "OpenAI prépare une levée de fonds de 30 milliards de dollars",
-     "neuf": "OpenAI négocie une levée de fonds géante de 30 milliards de dollars.",
-     "fil": "Levée de fonds record d'OpenAI",
-     "source": "TechCrunch IA",
-     "lien": "https://techcrunch.com/2026/10/22/openai-working-on-new-30b-raise-at-1-25t-valuation-ahead-of-ipo/",
-     "nb_sources": 1,
-     "primaire": false
-    }
-   ],
-   "statut": "active",
-   "societes": [
-    "openai"
-   ]
   },
   {
    "id": "h_4d7382a399",
@@ -4781,7 +4825,7 @@
   {
    "id": "h_da06066ad1",
    "titre": "Meta dévoile son nouveau modèle Muse Wonder",
-   "resume": "Meta officialise le lancement de son tout premier modèle de pointe, Muse Wonder, tout en continuant d'enrichir sa gamme avec des variantes ouvertes et locales dans le cadre d'une stratégie d'expansion de ses assistants.",
+   "resume": "Meta officialise le lancement de son modèle Muse Wonder tout en développant sa gamme avec des versions ouvertes. L'entreprise étend cette famille d'assistants en préparant la commercialisation du Muse Charm, un accessoire portable en forme de Tamagotchi pour les fêtes.",
    "creee": "2026-10-21T08:48:34.440401+00:00",
    "maj": "2026-10-16T00:34:00+00:00",
    "episodes": [
@@ -4848,6 +4892,17 @@
      "fil": "modèle Muse Wonder",
      "source": "Grandes annonces IA",
      "lien": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9yWGw1MVlfR3M5Um1mTWM4YXYtMno1WDJ4T1FJV1hpOW85S2VpYUJDTER6dlM4bk8tdG1zWUcxc2pYZmVPVDFrck5lTV8tbGFPLUQySU5IVkNrdWs5WEJybVBjUHhlN1JNWk5XaQ?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "de4b7835271034",
+     "date": "2026-10-15T07:00:00+00:00",
+     "titre": "Meta lance un nouveau modèle d'intelligence artificielle ouvert",
+     "neuf": "Meta positionne son nouveau modèle ouvert comme l'un des plus puissants des États-Unis.",
+     "fil": "même modèle Meta Muse Wonder",
+     "source": "IA en français (actus)",
+     "lien": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPWkZDVUh1dExYWmFNYTBrakk4UmxwOTkzYm5NNXA3REdSSmRrWmlGSkpZaWxPdENSQXhHS1VyeWN0ZldzRVFsbVFMMVRFblJYRXVUMWtSNmtvWTJpclRFa0dMaldxWWVaUWpabXp3ZEVueWE5UUJnRy15dEt5S0NhUzVkcGJMQ29VdDV3Mkt0Sk1Va1Ftdi1JR2ZOZEJqRnF5T3FsWjNhWjh3Smt1NTFYUXZMd0l6MUEyRUF1VkQ2V29pYXlLTE8wQk5NNHRJaFlxZFE?oc=5",
      "nb_sources": 1,
      "primaire": false
     },

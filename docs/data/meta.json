@@ -1,5 +1,5 @@
 {
- "maj": "2026-10-31T14:32:10.371087+00:00",
+ "maj": "2026-10-31T19:59:10.605149+00:00",
  "sources_ok": [
   "Notes de version Claude (API)",
   "Notes de version OpenAI (API)",
@@ -30,7 +30,6 @@
   "The Verge IA",
   "TechCrunch IA",
   "Simon Willison",
-  "Hacker News (IA, 100+ pts)",
   "r/LocalLLaMA",
   "arXiv cs.AI",
   "arXiv cs.CL",
@@ -55,10 +54,14 @@
   {
    "nom": "VentureBeat IA",
    "erreur": "429 Client Error: Too Many Requests for url: https://venturebeat.com/category/ai/feed/"
+  },
+  {
+   "nom": "Hacker News (IA, 100+ pts)",
+   "erreur": "502 Server Error: Bad Gateway for url: https://hnrss.org/newest?q=AI+OR+LLM+OR+GPT+OR+Claude+OR+Gemini&points=100"
   }
  ],
- "total": 1725,
- "analyses": 1620,
+ "total": 1740,
+ "analyses": 1639,
  "brief": {
   "titre": "Entre avancées scientifiques, ouverture des modèles et enjeux de sécurité",
   "texte": "L'actualité de l'IA est marquée par d'importantes sorties de modèles et de mises à jour d'API, illustrées par le lancement de GPT-6 Rosalind pour les sciences de la vie et la publication des poids ouverts de Mistral Large 4. Les géants technologiques consolident leurs offres avec l'arrivée générale du Computer Use chez Gemini et l'intégration de crédits API dans les abonnements Claude. Cependant, la sécurité reste au premier plan suite à la découverte de failles dans les extensions Claude Code et un incident cyber impliquant Anthropic. Enfin, les mouvements financiers et partenariats stratégiques, comme l'alliance d'Apple avec Alibaba en Chine, redessinent le paysage économique du secteur.",
