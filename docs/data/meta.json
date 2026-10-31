@@ -1,5 +1,5 @@
 {
- "maj": "2026-10-31T19:59:10.605149+00:00",
+ "maj": "2026-10-31T23:24:09.277506+00:00",
  "sources_ok": [
   "Notes de version Claude (API)",
   "Notes de version OpenAI (API)",
@@ -30,6 +30,7 @@
   "The Verge IA",
   "TechCrunch IA",
   "Simon Willison",
+  "Hacker News (IA, 100+ pts)",
   "r/LocalLLaMA",
   "arXiv cs.AI",
   "arXiv cs.CL",
@@ -54,21 +55,17 @@
   {
    "nom": "VentureBeat IA",
    "erreur": "429 Client Error: Too Many Requests for url: https://venturebeat.com/category/ai/feed/"
-  },
-  {
-   "nom": "Hacker News (IA, 100+ pts)",
-   "erreur": "502 Server Error: Bad Gateway for url: https://hnrss.org/newest?q=AI+OR+LLM+OR+GPT+OR+Claude+OR+Gemini&points=100"
   }
  ],
- "total": 1740,
- "analyses": 1639,
+ "total": 1759,
+ "analyses": 1656,
  "brief": {
-  "titre": "Entre avancées scientifiques, ouverture des modèles et enjeux de sécurité",
-  "texte": "L'actualité de l'IA est marquée par d'importantes sorties de modèles et de mises à jour d'API, illustrées par le lancement de GPT-6 Rosalind pour les sciences de la vie et la publication des poids ouverts de Mistral Large 4. Les géants technologiques consolident leurs offres avec l'arrivée générale du Computer Use chez Gemini et l'intégration de crédits API dans les abonnements Claude. Cependant, la sécurité reste au premier plan suite à la découverte de failles dans les extensions Claude Code et un incident cyber impliquant Anthropic. Enfin, les mouvements financiers et partenariats stratégiques, comme l'alliance d'Apple avec Alibaba en Chine, redessinent le paysage économique du secteur.",
+  "titre": "Entre innovations cloud et défis de financement, l'IA accélère",
+  "texte": "Le secteur de l'IA avance à marche forcée avec de nouvelles capacités de calcul en orbite pour Google et l'intégration du Computer Use pour l'API Gemini. OpenAI cible les sciences de la vie avec GPT-6 Rosalind et Anthropic ajuste ses offres en combinant abonnements et crédits API. Côté sécurité, une faille critique dans les aperçus HTML de ChatGPT a été corrigée, tandis que les tensions sur les levées de fonds et les introductions en bourse se confirment.",
   "a_tester": [
-   "Tester l'API Gemini avec la fonction Computer Use pour automatiser des tâches",
-   "Évaluer les performances du nouveau modèle Mistral Large 4 en open weights",
-   "Auditer vos environnements face aux failles de sécurité signalées sur les extensions Claude Code"
+   "Tester l'outil Computer Use de l'API Gemini pour vos automatisations",
+   "Mettre à jour vos environnements avec Claude Code v2.1.316 pour profiter des budgets partagés",
+   "Vérifier la sécurité de vos intégrations suite à la faille des aperçus HTML de ChatGPT"
   ]
  },
  "top5": {
