@@ -1,12 +1,12 @@
 {
- "maj": "2026-11-01T15:08:29.285403+00:00",
+ "maj": "2026-11-01T20:30:22.862419+00:00",
  "histoires": [
   {
    "id": "h_5e0762833f",
    "titre": "Action en justice contre SpaceXAI",
-   "resume": "SpaceXAI et ses centres de données font face à une escalade des recours juridiques et financiers, ainsi qu'à des plaintes environnementales. Pour gérer ces tensions, l'entreprise propose de racheter des logements voisins tout en planifiant l'ouverture de nouveaux sites.",
+   "resume": "SpaceXAI et ses centres de données font face à une escalade des recours juridiques, notamment avec l'autorisation d'une plainte de la NAACP sous le Clean Air Act. Pour gérer ces tensions environnementales et financières, l'entreprise propose de racheter des logements voisins tout en planifiant l'ouverture de nouveaux sites.",
    "creee": "2026-10-20T20:45:07.920169+00:00",
-   "maj": "2026-11-01T13:25:00+00:00",
+   "maj": "2026-11-01T20:15:00+00:00",
    "episodes": [
     {
      "id": "54794aade42fd8",
@@ -128,11 +128,46 @@
      "lien": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNQ01nUXZuUzBvWmdGVEZyWXNnZjVFazdrNVM3SmIwdEV1TFk2WFI5YXMxaXJ2c3ZORkVCNWJtRHlmZXJheVpJMG12OW5HVjhsS2Q4ODhwSlR4a3VQaEhhSUFHT2p3RWFNeFgyUXQ0UkYxTXhWSnpBaktVRUZwMkVkRi1GSDdhU3NQcXhpLXlRMllNZw?oc=5",
      "nb_sources": 1,
      "primaire": false
+    },
+    {
+     "id": "40ba5b596e08e5",
+     "date": "2026-11-01T20:15:00+00:00",
+     "titre": "Un juge autorise la plainte de la NAACP contre SpaceXAI",
+     "neuf": "Un juge autorise l'action en justice intentée par la NAACP contre SpaceXAI dans le cadre du Clean Air Act.",
+     "fil": "Poursuites judiciaires contre SpaceXAI",
+     "source": "Grok et SpaceXAI (actus)",
+     "lien": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPZEszakpvSHd1QzBibmFWTFRMZ2RFUjVrbUlnWmMzc0tVeFVVOXExR0dWLTlCQ1lKblFiVXBZeUNwZG8tSm9iVTV1aEt5VWVxZWpLalVPeXNtZmI3b2F6dWFMVFpRNFdvSWs5V1pCaklHLWQ1emR5WUZtS1ZRUXJhemZuelAxUUd1QnpmNHA0UlRpdw?oc=5",
+     "nb_sources": 1,
+     "primaire": false
     }
    ],
    "statut": "active",
    "societes": [
     "spacexai"
+   ]
+  },
+  {
+   "id": "h_d13d605a4e",
+   "titre": "FineDNA : jeu de données pour LLM biologiques",
+   "resume": "FineDNA propose un jeu de données massif de plus de 300 milliards de tokens destiné à spécialiser et adapter n'importe quel grand modèle de langage à la génomique et à la biologie.",
+   "creee": "2026-11-01T20:30:22.862419+00:00",
+   "maj": "2026-11-01T07:24:09+00:00",
+   "episodes": [
+    {
+     "id": "2f4805dc657305",
+     "date": "2026-11-01T07:24:09+00:00",
+     "titre": "FineDNA : le plus grand jeu de données pour adapter un LLM à la biologie",
+     "neuf": "",
+     "fil": "Sortie du jeu de données FineDNA pour la biologie",
+     "source": "r/LocalLLaMA",
+     "lien": "https://www.reddit.com/r/LocalLLaMA/comments/1xkwvwg/finedna_the_largest_dataset_to_teach_any_llm_dna/",
+     "nb_sources": 1,
+     "primaire": false
+    }
+   ],
+   "statut": "active",
+   "societes": [
+    "alibaba"
    ]
   },
   {
@@ -422,7 +457,7 @@
   {
    "id": "h_61682af51c",
    "titre": "Lancement de l'agent IA Claude Duet d'Anthropic",
-   "resume": "Anthropic déploie son agent professionnel Claude Duet, accompagné de guides d'utilisation et d'un accueil globalement positif. Son accès reste cependant structuré autour de minima de sièges rigides et de fonctionnalités de supervision managériale.",
+   "resume": "Anthropic déploie son agent professionnel Claude Duet et met à jour ses outils de code, tout en faisant face à des effets de bord indésirables où les restrictions contre les clones de jeux bloquent des projets légitimes. Son accès reste structuré autour de minima de sièges et de règles strictes de comportement.",
    "creee": "2026-10-21T20:44:46.798337+00:00",
    "maj": "2026-10-31T18:30:00+00:00",
    "episodes": [
@@ -1638,7 +1673,7 @@
   {
    "id": "h_8dad32ff1f",
    "titre": "Fuite du modèle Claude Mythos d'Anthropic",
-   "resume": "La sécurité des technologies d'Anthropic est mise à rude épreuve par une série d'incidents, incluant une cyberattaque mondiale ciblant les ordinateurs portables de ses développeurs et la découverte de portes dérobées dans les extensions officielles de Claude Code. Ces failles s'ajoutent aux fuites précédentes concernant Claude Mythos.",
+   "resume": "La sécurité des technologies d'Anthropic est mise à rude épreuve par une série d'incidents, incluant des cyberattaques, des portes dérobées dans des extensions et la fuite d'un nouveau point de contrôle du modèle Numbat sur Hugging Face. Parallèlement, l'entreprise met à jour Claude Opus pour endiguer la prolifération de clones de jeux.",
    "creee": "2026-10-21T20:44:46.798337+00:00",
    "maj": "2026-10-30T21:09:54+00:00",
    "episodes": [
@@ -4304,6 +4339,52 @@
      "fil": "Lancement du modèle Clover-35B-A3B-Preview",
      "source": "Hugging Face : modèles en tendance",
      "lien": "https://huggingface.co/Diffuspace/Clover-35B-A3B-Preview",
+     "nb_sources": 1,
+     "primaire": true
+    }
+   ],
+   "statut": "active",
+   "societes": [
+    "huggingface"
+   ]
+  },
+  {
+   "id": "h_16fd842df5",
+   "titre": "Gamme de modèles LFM3 de LiquidAI",
+   "resume": "LiquidAI développe sa gamme de modèles tri-hybrides avec le lancement successif du LFM3-VL-2B multimodal, du LFM3-Omni-2B et du petit modèle linguistique LFM3-1.7B, optimisés pour fonctionner directement sur les appareils edge et mobiles.",
+   "creee": "2026-11-01T20:30:22.862419+00:00",
+   "maj": "2026-10-23T21:35:42+00:00",
+   "episodes": [
+    {
+     "id": "fa4a2aa2c53b4d",
+     "date": "2026-10-19T19:51:46+00:00",
+     "titre": "LiquidAI lance LFM3-VL-2B : un modèle vision-langage embarqué",
+     "neuf": "",
+     "fil": "Sortie du modèle LiquidAI LFM3-VL-2B",
+     "source": "Hugging Face : modèles en tendance",
+     "lien": "https://huggingface.co/LiquidAI/LFM3-VL-2B",
+     "nb_sources": 1,
+     "primaire": true
+    },
+    {
+     "id": "b89aad2f6761f1",
+     "date": "2026-10-21T16:58:40+00:00",
+     "titre": "LiquidAI lance LFM3-Omni-2B, un modèle multimodal omni de 2,2 milliards de paramètres",
+     "neuf": "",
+     "fil": "Suite de la gamme LFM3 avec LFM3-Omni-2B",
+     "source": "Hugging Face : modèles en tendance",
+     "lien": "https://huggingface.co/LiquidAI/LFM3-Omni-2B",
+     "nb_sources": 1,
+     "primaire": true
+    },
+    {
+     "id": "275f7a84d428bc",
+     "date": "2026-10-23T21:35:42+00:00",
+     "titre": "LFM3-1.7B : un nouveau petit modèle linguistique local de LiquidAI",
+     "neuf": "",
+     "fil": "Déclinaison du modèle LFM3 avec LFM3-1.7B",
+     "source": "Hugging Face : modèles en tendance",
+     "lien": "https://huggingface.co/LiquidAI/LFM3-1.7B",
      "nb_sources": 1,
      "primaire": true
     }
