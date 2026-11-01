@@ -1,6 +1,212 @@
 {
- "maj": "2026-10-31T23:24:09.277436+00:00",
+ "maj": "2026-11-01T06:04:17.351231+00:00",
  "histoires": [
+  {
+   "id": "h_9c9f09e590",
+   "titre": "Faille de sécurité critique dans les liens ChatGPT",
+   "resume": "Une faille de sécurité majeure a été découverte dans le système de partage de liens et les aperçus HTML de ChatGPT, permettant à un lien malveillant d'exécuter du code dans la session de l'utilisateur, de compromettre son compte et d'accéder à ses conversations privées.",
+   "creee": "2026-10-31T14:32:10.371026+00:00",
+   "maj": "2026-10-31T23:15:22+00:00",
+   "episodes": [
+    {
+     "id": "8463975b5d969c",
+     "date": "2026-10-31T05:33:00+00:00",
+     "titre": "Une faille dans les liens ChatGPT permettait d'exécuter du code",
+     "neuf": "Découverte d'une faille dans les liens ChatGPT permettant l'exécution de code malveillant et la lecture de conversations privées.",
+     "fil": "vulnérabilité critique dans les liens ChatGPT",
+     "source": "OpenAI (actus)",
+     "lien": "https://news.google.com/rss/articles/CBMiekFVX3lxTE1xLTVwY2pKZ1U4Y0J1VjJVQnkwZTJNcGFGUEtfbHZXSENiQkxXdFVJaEhXbGJYSWpRMjJUcW81dFFMRWpvWVZCUm5EY0pRRHpfZlJ3WXlHV3BmUVBXS3VvaWJzdTB1SzNmUkJLaTNINkZCckE3QVRSdGpB?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "0def4a2fca6b3a",
+     "date": "2026-10-31T23:15:22+00:00",
+     "titre": "Faille de sécurité dans les aperçus HTML de ChatGPT découverte par Parameter Labs",
+     "neuf": "Nouvelle démonstration d'une chaîne d'attaques exploitant les aperçus HTML pour compromettre des comptes.",
+     "fil": "même faille de sécurité dans les liens et aperçus ChatGPT",
+     "source": "Simon Willison",
+     "lien": "https://simonwillison.net/2026/Oct/31/how-we-took-over-chatgpt-accounts/",
+     "nb_sources": 1,
+     "primaire": false
+    }
+   ],
+   "statut": "active",
+   "societes": [
+    "openai"
+   ]
+  },
+  {
+   "id": "h_ba6721b09c",
+   "titre": "Intégration d'un processeur RISC-V dans les poids de Qwen",
+   "resume": "Des développeurs poursuivent l'intégration de structures de calcul et de mini-modèles directement au cœur des poids neuronaux des modèles Qwen. Après un processeur RISC-V, c'est un NPU virtuel exécutant un petit LLM qui a été compilé au sein de Qwen 3.5-4B.",
+   "creee": "2026-10-28T16:59:03.629060+00:00",
+   "maj": "2026-10-31T19:18:53+00:00",
+   "episodes": [
+    {
+     "id": "3886c73b3296dd",
+     "date": "2026-10-28T12:26:44+00:00",
+     "titre": "Un processeur RISC-V intégré directement dans les poids du modèle Qwen",
+     "neuf": "Un développeur intègre directement un processeur RISC-V 32 bits dans les poids neuronaux d'un modèle Qwen.",
+     "fil": "Intégration d'un processeur RISC-V dans Qwen",
+     "source": "r/LocalLLaMA",
+     "lien": "https://www.reddit.com/r/LocalLLaMA/comments/1xhmo1q/someone_built_a_32bit_riscv_cpu_directly_inside/",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "d4ac3b28f3e76c",
+     "date": "2026-10-31T19:18:53+00:00",
+     "titre": "Exécuter un petit LLM directement à l'intérieur des poids de Qwen 3.5",
+     "neuf": "Un développeur étend l'approche en exécutant un mini LLM au sein même des poids de Qwen 3.5-4B grâce à l'implémentation d'un NPU virtuel.",
+     "fil": "Intégration d'un petit LLM/NPU virtuel directement dans les poids de Qwen 3.5",
+     "source": "r/LocalLLaMA",
+     "lien": "https://www.reddit.com/r/LocalLLaMA/comments/1xkiuut/an_llm_inside_an_llm_same_guy_who_put_a_riskv_cpu/",
+     "nb_sources": 1,
+     "primaire": false
+    }
+   ],
+   "statut": "active",
+   "societes": [
+    "alibaba"
+   ]
+  },
+  {
+   "id": "h_5e0762833f",
+   "titre": "Action en justice contre SpaceXAI",
+   "resume": "SpaceXAI et ses centres de données font face à une escalade des recours juridiques et financiers, s'élevant à 220 millions de dollars. En outre, une plainte de la NAACP pour violation de la loi sur la qualité de l'air a été autorisée à progresser par un juge.",
+   "creee": "2026-10-20T20:45:07.920169+00:00",
+   "maj": "2026-10-31T18:56:21+00:00",
+   "episodes": [
+    {
+     "id": "54794aade42fd8",
+     "date": "2026-10-20T19:51:00+00:00",
+     "titre": "Une plainte en justice contre SpaceXAI autorisée à se poursuivre",
+     "neuf": "Un juge autorise la poursuite de la plainte visant l'entreprise.",
+     "fil": "action en justice contre SpaceXAI",
+     "source": "Grok et SpaceXAI (actus)",
+     "lien": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOUVI0SUp1dnBQTWNyRkZnSTJWdUx3Y05pM2ozaHJXMVFVZnpPUTNhYWVldGlaR3pEN21yQWdRdTgweWlmaDA0WlU1dllGRWRZVDZKMXZLdXNJNDV4dnNkdFNtcV9OaU1EU3ozdkR5SW50QmhKRWJIUmxCdHp5cjdiSldfTldEUi1zTE5nazhVTQ?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "f33d215c710570",
+     "date": "2026-10-21T21:33:47+00:00",
+     "titre": "Refus d'intervention du DOJ dans le procès SpaceXAI à Southaven",
+     "neuf": "Un tribunal bloque l'intervention du ministère de la Justice dans l'affaire SpaceXAI à Southaven.",
+     "fil": "le procès SpaceXAI",
+     "source": "Grok et SpaceXAI (actus)",
+     "lien": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQY3RCWlc5ZHUxWTM1V1JjTkhEWlN2Ny14eGZOaVhnSHRuTDR4OTlSQVdWbDBhbGtQdjBKSXhUOWd2dzEwblJqakNpaWd6OHN0VjdsdGFMSTVibUJHMXY3N25QTGhwMmk5Snh5LXg1R2FQS20wTUVLQzgtdWZmNlJTUkxFeDdScjBfaU5VYzljTGFKRkE?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "c3e2edb0d5b6e5",
+     "date": "2026-10-22T16:39:00+00:00",
+     "titre": "City of Memphis moves to ease truck traffic concerns near SpaceXAI supercomputer - FOX13 Memphis",
+     "neuf": "La ville de Memphis prend des mesures pour fluidifier le trafic des camions autour du supercalculateur SpaceXAI.",
+     "fil": "même projet et supercalculateur SpaceXAI à Memphis",
+     "source": "Grok et SpaceXAI (actus)",
+     "lien": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxPc1RNVTdqU2Fzc3dMUXlaUDJFTklDOGpKZVdrWFJJRkJWMVBzdTU1Ym9GTUFoYUFuTEJRZ1FuTldjWmNLeUVtUjlKSEVjc0Y5Sm45Y1JaTEQyWmlyTWNEc09OTnJUR2U0enpYTGFzX3hZcUdnUWFocW85MnNJbnQ2QTM2QWd3TmNOcW40QzREQzhLYXF1dkpXamhld3g1WEVsclZvLTJQNkpVR05kTmJ3bkdHWEIxenB2V2RFRzFJakNZODVkR1VDdHQ3UmFQSjk5WkFZa0UzWV9xdDlHVnRuME0yZXE0OUxqbUFPa2ZHdzRsaEtic0Vj?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "6451ac313e4eca",
+     "date": "2026-10-22T22:47:00+00:00",
+     "titre": "SpaceXAI visé par 6,1 millions de dollars d'amendes au Mississippi",
+     "neuf": "SpaceXAI écope de 6,1 millions de dollars d'amendes au Mississippi.",
+     "fil": "Mêmes poursuites et sanctions contre SpaceXAI",
+     "source": "Grok et SpaceXAI (actus)",
+     "lien": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOZEdkSEpTVk5FclA4TldnQ1g2QTNrdDBWNFlEZ1gtRlo4X3ZQdHM2SlBOYmlrVHNOWmIyaXh1bkUxenVnXzVPMHV4akx2TkQ0TWFkN1plY3dWcktwdVJCNnh0Smw0UEtCZW90QmliWEZRODJST2hIMzdJWXhVU1JET2pSdGZaUEUwRWlNMklKUFZTbTRUQjNrNVZLQjI1T01XUm5MZnBvMEtoVWEwendPNzlJcms0V1V2anlQci1YQmFlZ2M?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "9f9c516908c72b",
+     "date": "2026-10-25T09:44:33+00:00",
+     "titre": "220 millions de dollars de réclamations déposés contre SpaceXAI",
+     "neuf": "Le montant total des réclamations financières visant SpaceXAI s'élève désormais à 220 millions de dollars.",
+     "fil": "même action en justice et réclamations contre SpaceXAI",
+     "source": "Grok et SpaceXAI (actus)",
+     "lien": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPYkF5X2MwdVBzM05fUFpZTFM4eGRrZy15aDZCZTIxZWo5R2o1Z1FRX2VoRmJNVkpmVVNiZ3FiSGZUcndmT0RTN1lGRW1SZ3FWRzlWbGlGbzE2WWs3VU5IMDVURzFRaUdlWTNzTGJKTjJjVVBTUGRSa1RQOW9qUW1NYkZVMkZIajZCdkhVS1VCVEkxT0dHRzlGZllVU1lGdGJrVV9rV2FnaVY0OGJ0?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "6086659eeb90dd",
+     "date": "2026-10-27T23:22:02+00:00",
+     "titre": "AI Users Say SpaceXAI Can't Split, Arbitrate Slowdown Suit - Law360",
+     "neuf": "Les utilisateurs d'IA contestent la possibilité pour SpaceXAI d'imposer un arbitrage ou de diviser l'action en justice sur le ralentissement.",
+     "fil": "Mêmes poursuites judiciaires contre SpaceXAI",
+     "source": "Grok et SpaceXAI (actus)",
+     "lien": "https://news.google.com/rss/articles/CBMingFBVV95cUxOU2pSMWxJcHpmYUJpcGw5ZGVtbTdoY1o0Mk8tN0xTQTA2OXNwMkRteklTdE92ZGZCNkZ4TUhaYjItbUZiSVNUeUNxeWFTUjNyaVAxakNCT3UxQVVPU05KWnhxdHRVaS1wLVdRc0dNMnM0RzFLZDVXUGVTbUlsSVlIbXpYME9OcmxwdloxbjNSYnFmZFljdVk4dnh3SHI2Z9IBVkFVX3lxTE12a0RaaWFnTEE4WUtUWllzamEwVVNVV3phYThXaTg0LVNIenVKVHZxSjI3MjVXY1NBempuaFY4VDczLVpDTDRCYnMtazdUWEo0NkcwcEJn?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "fcb2d83fec74b4",
+     "date": "2026-10-28T12:25:56+00:00",
+     "titre": "SpaceXAI fait face à un litige de 220 millions de dollars devant un tribunal",
+     "neuf": "Un entrepreneur dépose un nouveau recours en justice concernant des contrats massifs liés à SpaceXAI.",
+     "fil": "Recours en justice de 220 millions de dollars lié à SpaceXAI",
+     "source": "Grok et SpaceXAI (actus)",
+     "lien": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPZGZhZzBzUkludm1qZjh5alB3U3ZmMk11Vm5SSXE4czNtVzFScUtJeGloVTdsTEF0UEMybGpjaEk5SUloUlBmN0NGNU0xU0RTN2p1RGZaOXNmZ0laNjVsdTFYR255ZkQwQkJueDNKUUtyV0ZiOF9zTEUwbHNsMUNjTVJZQlQwa2c?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "5283652bd524be",
+     "date": "2026-10-28T14:44:00+00:00",
+     "titre": "xAI is buying out homeowners who promise not to sue over data center noise",
+     "neuf": "xAI achète des résidences pour éviter de nouveaux recours en justice de riverains mécontents.",
+     "fil": "Mêmes poursuites judiciaires et litiges liés à xAI",
+     "source": "The Verge IA",
+     "lien": "https://www.theverge.com/ai-artificial-intelligence/1020596/xai-mississippi-neighborhood-data-center-lawsuit",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "9d449d2dca1151",
+     "date": "2026-10-31T18:56:21+00:00",
+     "titre": "Une plainte contre la pollution d'un centre de données xAI autorisée à progresser",
+     "neuf": "Un juge a autorisé la progression de la plainte de la NAACP contre les violations de la loi sur la qualité de l'air par le centre de données de xAI.",
+     "fil": "Poursuite en justice concernant la pollution et le centre de données xAI",
+     "source": "Grok et SpaceXAI (actus)",
+     "lien": "https://news.google.com/rss/articles/CBMihAFBVV95cUxONWZobnlmVnlwbk9rMk1yeUVabnE1QUdtdTVEWGR6UUkwYXEzWk9weVpLMWFtRWF2Ykd6SmpNalgtelBCZ0lBdkd6Vm1xcWhNNkNVM0ZKTW43TmZyUUtMb1pYZVY2V2VuaFh5dHdBakhBYllrQjY5bUhrOHpteVNRUWNaZFrSAYoBQVVfeXFMUHFJcmV4YzZNcTZ4dk5RX2YyQm1TWDhpSS1OemxNdFRkUHhFTEFDNHpueE1QejEzMGVQYUFwQXpNV2JaVmJzdlQ2TWFJNlJOYjFkckE3TFpHVHpMSWt4YlBzMkZUX0hSa295M2tHSkx5aUFDbjMwbDkxQlNhdnp1NlhYd21VOER5ZHZn?oc=5",
+     "nb_sources": 2,
+     "primaire": false
+    }
+   ],
+   "statut": "active",
+   "societes": [
+    "spacexai"
+   ]
+  },
+  {
+   "id": "h_0fa323d3d9",
+   "titre": "GPT-5.6 Sol et ses capacités sur Factorio",
+   "resume": "Le modèle GPT-5.6 Sol démontre des aptitudes notables en matière de planification à long terme. Il s'est notamment illustré en parvenant à terminer le jeu Factorio en mode pacifique.",
+   "creee": "2026-11-01T06:04:17.351231+00:00",
+   "maj": "2026-10-31T18:50:34+00:00",
+   "episodes": [
+    {
+     "id": "b9de5465dae2a0",
+     "date": "2026-10-31T18:50:34+00:00",
+     "titre": "GPT-5.6 Sol capable de battre Factorio en mode pacifique",
+     "neuf": "Le modèle GPT-5.6 Sol démontre des compétences de planification en réussissant à terminer le jeu Factorio en mode pacifique.",
+     "fil": "Capacités de planification de GPT-5.6 Sol sur le jeu Factorio",
+     "source": "Hacker News (IA, 100+ pts)",
+     "lien": "https://ryanmadden.net/gpt-56-beats-factorio/",
+     "nb_sources": 1,
+     "primaire": false
+    }
+   ],
+   "statut": "active",
+   "societes": [
+    "openai"
+   ]
+  },
   {
    "id": "h_61682af51c",
    "titre": "Lancement de l'agent IA Claude Duet d'Anthropic",
@@ -1101,30 +1307,6 @@
    ]
   },
   {
-   "id": "h_9c9f09e590",
-   "titre": "Faille de sécurité critique dans les liens ChatGPT",
-   "resume": "Une faille de sécurité majeure a été découverte dans le système de partage de liens de ChatGPT, permettant à un simple lien malveillant d'exécuter du code dans la session de l'utilisateur et d'accéder à ses conversations privées.",
-   "creee": "2026-10-31T14:32:10.371026+00:00",
-   "maj": "2026-10-31T05:33:00+00:00",
-   "episodes": [
-    {
-     "id": "8463975b5d969c",
-     "date": "2026-10-31T05:33:00+00:00",
-     "titre": "Une faille dans les liens ChatGPT permettait d'exécuter du code",
-     "neuf": "Découverte d'une faille dans les liens ChatGPT permettant l'exécution de code malveillant et la lecture de conversations privées.",
-     "fil": "vulnérabilité critique dans les liens ChatGPT",
-     "source": "OpenAI (actus)",
-     "lien": "https://news.google.com/rss/articles/CBMiekFVX3lxTE1xLTVwY2pKZ1U4Y0J1VjJVQnkwZTJNcGFGUEtfbHZXSENiQkxXdFVJaEhXbGJYSWpRMjJUcW81dFFMRWpvWVZCUm5EY0pRRHpfZlJ3WXlHV3BmUVBXS3VvaWJzdTB1SzNmUkJLaTNINkZCckE3QVRSdGpB?oc=5",
-     "nb_sources": 1,
-     "primaire": false
-    }
-   ],
-   "statut": "active",
-   "societes": [
-    "openai"
-   ]
-  },
-  {
    "id": "h_04df45ad75",
    "titre": "Levée de fonds de 30 milliards de dollars pour OpenAI",
    "resume": "OpenAI a ciblé une levée de fonds record de 30 milliards de dollars pour atteindre une valorisation colossale. Toutefois, les derniers tours de table indiquent que l'entreprise n'a pour l'instant atteint qu'une fraction de cet objectif initial.",
@@ -1244,7 +1426,7 @@
   {
    "id": "h_8dad32ff1f",
    "titre": "Fuite du modèle Claude Mythos d'Anthropic",
-   "resume": "Les questions de sécurité autour des technologies d'Anthropic s'intensifient après des fuites concernant Claude Mythos et de nouvelles failles détectées dans des extensions comme Claude Code. L'actualité est également marquée par la compromission de l'extension VS Code sur Cursor et par la mise en lumière de comportements trompeurs induits par l'entraînement.",
+   "resume": "La sécurité des technologies d'Anthropic est mise à rude épreuve par une série d'incidents, incluant une cyberattaque mondiale ciblant les ordinateurs portables de ses développeurs et la découverte de portes dérobées dans les extensions officielles de Claude Code. Ces failles s'ajoutent aux fuites précédentes concernant Claude Mythos.",
    "creee": "2026-10-21T20:44:46.798337+00:00",
    "maj": "2026-10-30T21:09:54+00:00",
    "episodes": [
@@ -1311,6 +1493,17 @@
      "fil": "même modèle Claude et incident de cyberattaque",
      "source": "Grandes annonces IA",
      "lien": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5XSkhKQzZ1bHQtM0I2TWpEeTNoVUhHTEhYcXl5WVAxOG9CTjczaXVtVHZJemhCS3BVaTJzYkNYa1IwS3ZrR0x6X3Fkb3BNVEJ0SWZQZHpUMjNkRXRsY0tSQ2p0bTJWZ1lzVDExbUY1aXlxX3JwUmRtaQ?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "e120c9a62745d5",
+     "date": "2026-10-30T10:08:04+00:00",
+     "titre": "Cyberattaque mondiale contre les ordinateurs des développeurs d'Anthropic",
+     "neuf": "Une cyberattaque mondiale a ciblé les ordinateurs portables des développeurs d'Anthropic pour y installer un cheval de Troie.",
+     "fil": "cyberattaque mondiale visant les ordinateurs des développeurs d'Anthropic",
+     "source": "Anthropic (actus)",
+     "lien": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOYlhhemJJUy1zRzV1V3BYQnZVOEsxR3JDbzF5eUVTNzg3Q180OWxaTFV5alZVNUpHWGdvVWVabEE5OTVmV1dyTjJSTnI1cGctc2VCcldCYzRaMFhfMlpWSE1fTzN5WXh6STNaNDl0TXV1RS1KaW9LTDJaenNfSHo1WG1TLUY4WEJDUmhMRE5OTUR6Z2QwTmMtZTBvYkJHZkpkakRHQThIamxlcDRWQ0U1R3l3TnNvYlJlaktTeWRHVXYwUQ?oc=5",
      "nb_sources": 1,
      "primaire": false
     },
@@ -2770,107 +2963,6 @@
    ]
   },
   {
-   "id": "h_5e0762833f",
-   "titre": "Action en justice contre SpaceXAI",
-   "resume": "SpaceXAI fait face à une escalade des litiges financiers s'élevant à 220 millions de dollars. En parallèle, une filiale de xAI tente d'étouffer de potentiels recours de riverains concernant ses centres de données en leur proposant d'acheter leurs biens sous conditions.",
-   "creee": "2026-10-20T20:45:07.920169+00:00",
-   "maj": "2026-10-28T14:44:00+00:00",
-   "episodes": [
-    {
-     "id": "54794aade42fd8",
-     "date": "2026-10-20T19:51:00+00:00",
-     "titre": "Une plainte en justice contre SpaceXAI autorisée à se poursuivre",
-     "neuf": "Un juge autorise la poursuite de la plainte visant l'entreprise.",
-     "fil": "action en justice contre SpaceXAI",
-     "source": "Grok et SpaceXAI (actus)",
-     "lien": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOUVI0SUp1dnBQTWNyRkZnSTJWdUx3Y05pM2ozaHJXMVFVZnpPUTNhYWVldGlaR3pEN21yQWdRdTgweWlmaDA0WlU1dllGRWRZVDZKMXZLdXNJNDV4dnNkdFNtcV9OaU1EU3ozdkR5SW50QmhKRWJIUmxCdHp5cjdiSldfTldEUi1zTE5nazhVTQ?oc=5",
-     "nb_sources": 1,
-     "primaire": false
-    },
-    {
-     "id": "f33d215c710570",
-     "date": "2026-10-21T21:33:47+00:00",
-     "titre": "Refus d'intervention du DOJ dans le procès SpaceXAI à Southaven",
-     "neuf": "Un tribunal bloque l'intervention du ministère de la Justice dans l'affaire SpaceXAI à Southaven.",
-     "fil": "le procès SpaceXAI",
-     "source": "Grok et SpaceXAI (actus)",
-     "lien": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQY3RCWlc5ZHUxWTM1V1JjTkhEWlN2Ny14eGZOaVhnSHRuTDR4OTlSQVdWbDBhbGtQdjBKSXhUOWd2dzEwblJqakNpaWd6OHN0VjdsdGFMSTVibUJHMXY3N25QTGhwMmk5Snh5LXg1R2FQS20wTUVLQzgtdWZmNlJTUkxFeDdScjBfaU5VYzljTGFKRkE?oc=5",
-     "nb_sources": 1,
-     "primaire": false
-    },
-    {
-     "id": "c3e2edb0d5b6e5",
-     "date": "2026-10-22T16:39:00+00:00",
-     "titre": "City of Memphis moves to ease truck traffic concerns near SpaceXAI supercomputer - FOX13 Memphis",
-     "neuf": "La ville de Memphis prend des mesures pour fluidifier le trafic des camions autour du supercalculateur SpaceXAI.",
-     "fil": "même projet et supercalculateur SpaceXAI à Memphis",
-     "source": "Grok et SpaceXAI (actus)",
-     "lien": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxPc1RNVTdqU2Fzc3dMUXlaUDJFTklDOGpKZVdrWFJJRkJWMVBzdTU1Ym9GTUFoYUFuTEJRZ1FuTldjWmNLeUVtUjlKSEVjc0Y5Sm45Y1JaTEQyWmlyTWNEc09OTnJUR2U0enpYTGFzX3hZcUdnUWFocW85MnNJbnQ2QTM2QWd3TmNOcW40QzREQzhLYXF1dkpXamhld3g1WEVsclZvLTJQNkpVR05kTmJ3bkdHWEIxenB2V2RFRzFJakNZODVkR1VDdHQ3UmFQSjk5WkFZa0UzWV9xdDlHVnRuME0yZXE0OUxqbUFPa2ZHdzRsaEtic0Vj?oc=5",
-     "nb_sources": 1,
-     "primaire": false
-    },
-    {
-     "id": "6451ac313e4eca",
-     "date": "2026-10-22T22:47:00+00:00",
-     "titre": "SpaceXAI visé par 6,1 millions de dollars d'amendes au Mississippi",
-     "neuf": "SpaceXAI écope de 6,1 millions de dollars d'amendes au Mississippi.",
-     "fil": "Mêmes poursuites et sanctions contre SpaceXAI",
-     "source": "Grok et SpaceXAI (actus)",
-     "lien": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOZEdkSEpTVk5FclA4TldnQ1g2QTNrdDBWNFlEZ1gtRlo4X3ZQdHM2SlBOYmlrVHNOWmIyaXh1bkUxenVnXzVPMHV4akx2TkQ0TWFkN1plY3dWcktwdVJCNnh0Smw0UEtCZW90QmliWEZRODJST2hIMzdJWXhVU1JET2pSdGZaUEUwRWlNMklKUFZTbTRUQjNrNVZLQjI1T01XUm5MZnBvMEtoVWEwendPNzlJcms0V1V2anlQci1YQmFlZ2M?oc=5",
-     "nb_sources": 1,
-     "primaire": false
-    },
-    {
-     "id": "9f9c516908c72b",
-     "date": "2026-10-25T09:44:33+00:00",
-     "titre": "220 millions de dollars de réclamations déposés contre SpaceXAI",
-     "neuf": "Le montant total des réclamations financières visant SpaceXAI s'élève désormais à 220 millions de dollars.",
-     "fil": "même action en justice et réclamations contre SpaceXAI",
-     "source": "Grok et SpaceXAI (actus)",
-     "lien": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPYkF5X2MwdVBzM05fUFpZTFM4eGRrZy15aDZCZTIxZWo5R2o1Z1FRX2VoRmJNVkpmVVNiZ3FiSGZUcndmT0RTN1lGRW1SZ3FWRzlWbGlGbzE2WWs3VU5IMDVURzFRaUdlWTNzTGJKTjJjVVBTUGRSa1RQOW9qUW1NYkZVMkZIajZCdkhVS1VCVEkxT0dHRzlGZllVU1lGdGJrVV9rV2FnaVY0OGJ0?oc=5",
-     "nb_sources": 1,
-     "primaire": false
-    },
-    {
-     "id": "6086659eeb90dd",
-     "date": "2026-10-27T23:22:02+00:00",
-     "titre": "AI Users Say SpaceXAI Can't Split, Arbitrate Slowdown Suit - Law360",
-     "neuf": "Les utilisateurs d'IA contestent la possibilité pour SpaceXAI d'imposer un arbitrage ou de diviser l'action en justice sur le ralentissement.",
-     "fil": "Mêmes poursuites judiciaires contre SpaceXAI",
-     "source": "Grok et SpaceXAI (actus)",
-     "lien": "https://news.google.com/rss/articles/CBMingFBVV95cUxOU2pSMWxJcHpmYUJpcGw5ZGVtbTdoY1o0Mk8tN0xTQTA2OXNwMkRteklTdE92ZGZCNkZ4TUhaYjItbUZiSVNUeUNxeWFTUjNyaVAxakNCT3UxQVVPU05KWnhxdHRVaS1wLVdRc0dNMnM0RzFLZDVXUGVTbUlsSVlIbXpYME9OcmxwdloxbjNSYnFmZFljdVk4dnh3SHI2Z9IBVkFVX3lxTE12a0RaaWFnTEE4WUtUWllzamEwVVNVV3phYThXaTg0LVNIenVKVHZxSjI3MjVXY1NBempuaFY4VDczLVpDTDRCYnMtazdUWEo0NkcwcEJn?oc=5",
-     "nb_sources": 1,
-     "primaire": false
-    },
-    {
-     "id": "fcb2d83fec74b4",
-     "date": "2026-10-28T12:25:56+00:00",
-     "titre": "SpaceXAI fait face à un litige de 220 millions de dollars devant un tribunal",
-     "neuf": "Un entrepreneur dépose un nouveau recours en justice concernant des contrats massifs liés à SpaceXAI.",
-     "fil": "Recours en justice de 220 millions de dollars lié à SpaceXAI",
-     "source": "Grok et SpaceXAI (actus)",
-     "lien": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPZGZhZzBzUkludm1qZjh5alB3U3ZmMk11Vm5SSXE4czNtVzFScUtJeGloVTdsTEF0UEMybGpjaEk5SUloUlBmN0NGNU0xU0RTN2p1RGZaOXNmZ0laNjVsdTFYR255ZkQwQkJueDNKUUtyV0ZiOF9zTEUwbHNsMUNjTVJZQlQwa2c?oc=5",
-     "nb_sources": 1,
-     "primaire": false
-    },
-    {
-     "id": "5283652bd524be",
-     "date": "2026-10-28T14:44:00+00:00",
-     "titre": "xAI is buying out homeowners who promise not to sue over data center noise",
-     "neuf": "xAI achète des résidences pour éviter de nouveaux recours en justice de riverains mécontents.",
-     "fil": "Mêmes poursuites judiciaires et litiges liés à xAI",
-     "source": "The Verge IA",
-     "lien": "https://www.theverge.com/ai-artificial-intelligence/1020596/xai-mississippi-neighborhood-data-center-lawsuit",
-     "nb_sources": 1,
-     "primaire": false
-    }
-   ],
-   "statut": "active",
-   "societes": [
-    "spacexai"
-   ]
-  },
-  {
    "id": "h_bb04558a25",
    "titre": "Plainte contre OpenAI suite à des conseils médicaux mortels de ChatGPT",
    "resume": "OpenAI fait face à des actions en justice intentées par des familles après que les conseils médicaux erronés de ChatGPT/GPT-4o, notamment liés à l'épilepsie, ont entraîné de graves conséquences et des décès. De nouveaux rapports de presse continuent de documenter ces poursuites pour mise en danger.",
@@ -2984,30 +3076,6 @@
    "statut": "active",
    "societes": [
     "microsoft"
-   ]
-  },
-  {
-   "id": "h_ba6721b09c",
-   "titre": "Intégration d'un processeur RISC-V dans les poids de Qwen",
-   "resume": "Un développeur intègre avec succès un processeur RISC-V 32 bits directement au sein des poids neuronaux d'un modèle Qwen pour exécuter du code en interne.",
-   "creee": "2026-10-28T16:59:03.629060+00:00",
-   "maj": "2026-10-28T12:26:44+00:00",
-   "episodes": [
-    {
-     "id": "3886c73b3296dd",
-     "date": "2026-10-28T12:26:44+00:00",
-     "titre": "Un processeur RISC-V intégré directement dans les poids du modèle Qwen",
-     "neuf": "Un développeur intègre directement un processeur RISC-V 32 bits dans les poids neuronaux d'un modèle Qwen.",
-     "fil": "Intégration d'un processeur RISC-V dans Qwen",
-     "source": "r/LocalLLaMA",
-     "lien": "https://www.reddit.com/r/LocalLLaMA/comments/1xhmo1q/someone_built_a_32bit_riscv_cpu_directly_inside/",
-     "nb_sources": 1,
-     "primaire": false
-    }
-   ],
-   "statut": "active",
-   "societes": [
-    "alibaba"
    ]
   },
   {
@@ -4406,7 +4474,7 @@
      "primaire": false
     }
    ],
-   "statut": "active",
+   "statut": "en sommeil",
    "societes": [
     "openai"
    ]
@@ -4430,7 +4498,7 @@
      "primaire": false
     }
    ],
-   "statut": "active",
+   "statut": "en sommeil",
    "societes": []
   },
   {
@@ -4452,7 +4520,7 @@
      "primaire": false
     }
    ],
-   "statut": "active",
+   "statut": "en sommeil",
    "societes": [
     "huggingface"
    ]

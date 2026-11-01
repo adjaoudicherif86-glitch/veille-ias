@@ -1,5 +1,5 @@
 {
- "maj": "2026-10-31T23:24:09.277506+00:00",
+ "maj": "2026-11-01T06:04:17.351273+00:00",
  "sources_ok": [
   "Notes de version Claude (API)",
   "Notes de version OpenAI (API)",
@@ -57,45 +57,45 @@
    "erreur": "429 Client Error: Too Many Requests for url: https://venturebeat.com/category/ai/feed/"
   }
  ],
- "total": 1759,
- "analyses": 1656,
+ "total": 1771,
+ "analyses": 1677,
  "brief": {
-  "titre": "Entre innovations cloud et défis de financement, l'IA accélère",
-  "texte": "Le secteur de l'IA avance à marche forcée avec de nouvelles capacités de calcul en orbite pour Google et l'intégration du Computer Use pour l'API Gemini. OpenAI cible les sciences de la vie avec GPT-6 Rosalind et Anthropic ajuste ses offres en combinant abonnements et crédits API. Côté sécurité, une faille critique dans les aperçus HTML de ChatGPT a été corrigée, tandis que les tensions sur les levées de fonds et les introductions en bourse se confirment.",
+  "titre": "Actualités IA : Sécurité, partenariats en Chine et évolutions API",
+  "texte": "L'actualité IA est marquée par des annonces majeures en matière de partenariats et de sécurité. Apple s'associe ainsi à Alibaba pour intégrer le modèle Qwen dans Apple Intelligence en Chine, tandis qu'OpenAI et ChatGPT font face à des vulnérabilités de sécurité concernant l'exécution de code et les liens. Côté API, OpenAI lance GPT-6 Rosalind pour les sciences de la vie et Claude intègre désormais des crédits API mensuels dans ses offres payantes. Enfin, Microsoft alerte sur les problèmes d'accès aux données avant tout déploiement de Copilot.",
   "a_tester": [
-   "Tester l'outil Computer Use de l'API Gemini pour vos automatisations",
-   "Mettre à jour vos environnements avec Claude Code v2.1.316 pour profiter des budgets partagés",
-   "Vérifier la sécurité de vos intégrations suite à la faille des aperçus HTML de ChatGPT"
+   "Vérifier les accès et la sécurité des données avant de déployer Microsoft Copilot.",
+   "Explorer les crédits API mensuels inclus dans votre abonnement Claude payant.",
+   "Tester les nouveautés de mise à jour de Claude Code v2.1.316 pour vos budgets partagés."
   ]
  },
  "top5": {
-  "maj": "2026-10-31T14:32:10.371087+00:00",
+  "maj": "2026-11-01T06:04:17.351273+00:00",
   "par_ia": true,
   "items": [
    {
     "id": "61c5c57ddc1e28",
-    "pourquoi": "OpenAI déploie GPT-6.1 Terra, un modèle axé sur le raisonnement visuel et l'utilisation directe d'ordinateurs (computer use), marquant une avancée concrète pour l'automatisation des tâches.",
-    "a_faire": "Tester les nouvelles capacités de computer use et de raisonnement visuel de GPT-6.1 Terra via l'API."
+    "pourquoi": "OpenAI lance GPT-6.1 Terra via son API, intégrant des capacités avancées de raisonnement visuel et de computer use.",
+    "a_faire": "Tester l'API de GPT-6.1 Terra pour évaluer ses performances sur les tâches de computer use."
    },
    {
     "id": "bb2562f671cf45",
-    "pourquoi": "Mistral AI publie les poids ouverts de Mistral Large 4 (1 000 milliards de paramètres), offrant une alternative européenne de pointe aux modèles propriétaires.",
-    "a_faire": "Mettre à jour la bibliothèque Transformers (v5.22.0) pour intégrer et tester localement Mistral Large 4."
+    "pourquoi": "Mistral AI publie les poids ouverts de Mistral Large 4, un modèle majeur doté d'un million de jetons de contexte et disponible sur Hugging Face.",
+    "a_faire": "Intégrer et tester Mistral Large 4 via la bibliothèque Transformers v5.22.0."
    },
    {
     "id": "740cdb4d44c20b",
-    "pourquoi": "Google officialise Gemini 4 Carbon, un nouveau modèle frontalier qui s'empare de la tête des benchmarks et redéfinit le standard de performance.",
-    "a_faire": "Surveiller les modalités d'accès et la documentation technique pour évaluer l'impact sur vos workflows actuels."
+    "pourquoi": "Google officialise Gemini 4 Carbon, un nouveau modèle frontalier qui redéfinit le sommet des benchmarks de l'IA.",
+    "a_faire": "Surveiller les modalités d'accès et de déploiement de Gemini 4 Carbon pour les entreprises."
    },
    {
     "id": "f12280bf612912",
-    "pourquoi": "Le dépôt du dossier d'IPO d'Anthropic pour une valorisation de 75 milliards de dollars structure durablement le marché et apporte un éclairage inédit sur les risques industriels de l'IA.",
-    "a_faire": "Lire le document d'enregistrement d'Anthropic pour analyser les risques liés à la technologie identifiés par l'entreprise."
+    "pourquoi": "Anthropic franchit une étape financière majeure avec son dossier d'IPO valorisé à 75 milliards de dollars, documentant en détail les risques de l'IA.",
+    "a_faire": "Lire le dossier d'enregistrement d'Anthropic pour analyser les risques stratégiques identifiés."
    },
    {
-    "id": "d17d13a0006a77",
-    "pourquoi": "Google DeepMind présente Genie 4, un modèle de simulation de mondes en temps réel qui repousse les frontières de la génération interactive.",
-    "a_faire": "Suivre les publications et cas d'usage potentiels de Genie 4 pour la simulation et la formation d'agents."
+    "id": "253c53848ec401",
+    "pourquoi": "Ce rappel critique sur Microsoft Copilot souligne l'importance vitale du nettoyage des permissions de fichiers avant tout déploiement.",
+    "a_faire": "Auditer les accès et permissions de vos données avant de déployer un assistant IA."
    }
   ]
  }
