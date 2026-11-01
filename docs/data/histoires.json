@@ -1,82 +1,12 @@
 {
- "maj": "2026-11-01T06:04:17.351231+00:00",
+ "maj": "2026-11-01T15:08:29.285403+00:00",
  "histoires": [
-  {
-   "id": "h_9c9f09e590",
-   "titre": "Faille de sécurité critique dans les liens ChatGPT",
-   "resume": "Une faille de sécurité majeure a été découverte dans le système de partage de liens et les aperçus HTML de ChatGPT, permettant à un lien malveillant d'exécuter du code dans la session de l'utilisateur, de compromettre son compte et d'accéder à ses conversations privées.",
-   "creee": "2026-10-31T14:32:10.371026+00:00",
-   "maj": "2026-10-31T23:15:22+00:00",
-   "episodes": [
-    {
-     "id": "8463975b5d969c",
-     "date": "2026-10-31T05:33:00+00:00",
-     "titre": "Une faille dans les liens ChatGPT permettait d'exécuter du code",
-     "neuf": "Découverte d'une faille dans les liens ChatGPT permettant l'exécution de code malveillant et la lecture de conversations privées.",
-     "fil": "vulnérabilité critique dans les liens ChatGPT",
-     "source": "OpenAI (actus)",
-     "lien": "https://news.google.com/rss/articles/CBMiekFVX3lxTE1xLTVwY2pKZ1U4Y0J1VjJVQnkwZTJNcGFGUEtfbHZXSENiQkxXdFVJaEhXbGJYSWpRMjJUcW81dFFMRWpvWVZCUm5EY0pRRHpfZlJ3WXlHV3BmUVBXS3VvaWJzdTB1SzNmUkJLaTNINkZCckE3QVRSdGpB?oc=5",
-     "nb_sources": 1,
-     "primaire": false
-    },
-    {
-     "id": "0def4a2fca6b3a",
-     "date": "2026-10-31T23:15:22+00:00",
-     "titre": "Faille de sécurité dans les aperçus HTML de ChatGPT découverte par Parameter Labs",
-     "neuf": "Nouvelle démonstration d'une chaîne d'attaques exploitant les aperçus HTML pour compromettre des comptes.",
-     "fil": "même faille de sécurité dans les liens et aperçus ChatGPT",
-     "source": "Simon Willison",
-     "lien": "https://simonwillison.net/2026/Oct/31/how-we-took-over-chatgpt-accounts/",
-     "nb_sources": 1,
-     "primaire": false
-    }
-   ],
-   "statut": "active",
-   "societes": [
-    "openai"
-   ]
-  },
-  {
-   "id": "h_ba6721b09c",
-   "titre": "Intégration d'un processeur RISC-V dans les poids de Qwen",
-   "resume": "Des développeurs poursuivent l'intégration de structures de calcul et de mini-modèles directement au cœur des poids neuronaux des modèles Qwen. Après un processeur RISC-V, c'est un NPU virtuel exécutant un petit LLM qui a été compilé au sein de Qwen 3.5-4B.",
-   "creee": "2026-10-28T16:59:03.629060+00:00",
-   "maj": "2026-10-31T19:18:53+00:00",
-   "episodes": [
-    {
-     "id": "3886c73b3296dd",
-     "date": "2026-10-28T12:26:44+00:00",
-     "titre": "Un processeur RISC-V intégré directement dans les poids du modèle Qwen",
-     "neuf": "Un développeur intègre directement un processeur RISC-V 32 bits dans les poids neuronaux d'un modèle Qwen.",
-     "fil": "Intégration d'un processeur RISC-V dans Qwen",
-     "source": "r/LocalLLaMA",
-     "lien": "https://www.reddit.com/r/LocalLLaMA/comments/1xhmo1q/someone_built_a_32bit_riscv_cpu_directly_inside/",
-     "nb_sources": 1,
-     "primaire": false
-    },
-    {
-     "id": "d4ac3b28f3e76c",
-     "date": "2026-10-31T19:18:53+00:00",
-     "titre": "Exécuter un petit LLM directement à l'intérieur des poids de Qwen 3.5",
-     "neuf": "Un développeur étend l'approche en exécutant un mini LLM au sein même des poids de Qwen 3.5-4B grâce à l'implémentation d'un NPU virtuel.",
-     "fil": "Intégration d'un petit LLM/NPU virtuel directement dans les poids de Qwen 3.5",
-     "source": "r/LocalLLaMA",
-     "lien": "https://www.reddit.com/r/LocalLLaMA/comments/1xkiuut/an_llm_inside_an_llm_same_guy_who_put_a_riskv_cpu/",
-     "nb_sources": 1,
-     "primaire": false
-    }
-   ],
-   "statut": "active",
-   "societes": [
-    "alibaba"
-   ]
-  },
   {
    "id": "h_5e0762833f",
    "titre": "Action en justice contre SpaceXAI",
-   "resume": "SpaceXAI et ses centres de données font face à une escalade des recours juridiques et financiers, s'élevant à 220 millions de dollars. En outre, une plainte de la NAACP pour violation de la loi sur la qualité de l'air a été autorisée à progresser par un juge.",
+   "resume": "SpaceXAI et ses centres de données font face à une escalade des recours juridiques et financiers, ainsi qu'à des plaintes environnementales. Pour gérer ces tensions, l'entreprise propose de racheter des logements voisins tout en planifiant l'ouverture de nouveaux sites.",
    "creee": "2026-10-20T20:45:07.920169+00:00",
-   "maj": "2026-10-31T18:56:21+00:00",
+   "maj": "2026-11-01T13:25:00+00:00",
    "episodes": [
     {
      "id": "54794aade42fd8",
@@ -176,11 +106,293 @@
      "lien": "https://news.google.com/rss/articles/CBMihAFBVV95cUxONWZobnlmVnlwbk9rMk1yeUVabnE1QUdtdTVEWGR6UUkwYXEzWk9weVpLMWFtRWF2Ykd6SmpNalgtelBCZ0lBdkd6Vm1xcWhNNkNVM0ZKTW43TmZyUUtMb1pYZVY2V2VuaFh5dHdBakhBYllrQjY5bUhrOHpteVNRUWNaZFrSAYoBQVVfeXFMUHFJcmV4YzZNcTZ4dk5RX2YyQm1TWDhpSS1OemxNdFRkUHhFTEFDNHpueE1QejEzMGVQYUFwQXpNV2JaVmJzdlQ2TWFJNlJOYjFkckE3TFpHVHpMSWt4YlBzMkZUX0hSa295M2tHSkx5aUFDbjMwbDkxQlNhdnp1NlhYd21VOER5ZHZn?oc=5",
      "nb_sources": 2,
      "primaire": false
+    },
+    {
+     "id": "993a9a1a3b9941",
+     "date": "2026-11-01T10:30:00+00:00",
+     "titre": "SpaceXAI rachète des logements voisins de ses turbines au Mississippi",
+     "neuf": "SpaceXAI tente de racheter les maisons voisines de ses turbines au Mississippi pour éteindre des contentieux.",
+     "fil": "même expansion et contentieux liés aux centres de données SpaceXAI",
+     "source": "Grok et SpaceXAI (actus)",
+     "lien": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQcU8xaDdiMXVSZlQtc0F3TjJ4LWg4NklhT0IzZnhkeG9wUHI1SnVmc1Bra1pGMTZBV3U1bkR4QUNfeUMzQzRNRVhSYXdWSnlWOUR3ZnZtTDNRNVdVVWhrWHpSclpOWXhLWmZmRWNkdVV0d1NqV1Q4NU9yUW1YUDJJZnJ2b2w5c29WRHBCcjg0UjczUWs?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "71a4eb6e914067",
+     "date": "2026-11-01T13:25:00+00:00",
+     "titre": "SpaceXAI annonce deux nouveaux centres de données près de Southaven pour décembre",
+     "neuf": "SpaceXAI annonce deux nouveaux centres de données près de Southaven pour décembre.",
+     "fil": "même expansion et contentieux liés aux centres de données SpaceXAI",
+     "source": "Grok et SpaceXAI (actus)",
+     "lien": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNQ01nUXZuUzBvWmdGVEZyWXNnZjVFazdrNVM3SmIwdEV1TFk2WFI5YXMxaXJ2c3ZORkVCNWJtRHlmZXJheVpJMG12OW5HVjhsS2Q4ODhwSlR4a3VQaEhhSUFHT2p3RWFNeFgyUXQ0UkYxTXhWSnpBaktVRUZwMkVkRi1GSDdhU3NQcXhpLXlRMllNZw?oc=5",
+     "nb_sources": 1,
+     "primaire": false
     }
    ],
    "statut": "active",
    "societes": [
     "spacexai"
+   ]
+  },
+  {
+   "id": "h_4c9894e533",
+   "titre": "Gemini 4 Carbon : annonce et capacités",
+   "resume": "Google DeepMind annonce et déploie Gemini 4 Carbon, un modèle axé sur la programmation et la cyberdéfense. Il surclasse la concurrence, atteint la première place des benchmarks de détection de vulnérabilités, bien que son accès reste restreint.",
+   "creee": "2026-10-28T20:52:53.965414+00:00",
+   "maj": "2026-11-01T03:36:00+00:00",
+   "episodes": [
+    {
+     "id": "b0da25ea6c1a29",
+     "date": "2026-10-28T17:00:58+00:00",
+     "titre": "Annonce de Gemini 4 Carbon par Google DeepMind",
+     "neuf": "Google DeepMind annonce l'arrivée de Gemini 4 Carbon.",
+     "fil": "Annonce de Gemini 4 Carbon",
+     "source": "Google DeepMind",
+     "lien": "https://deepmind.google/blog/gemini-4-carbon-our-next-frontier-model/",
+     "nb_sources": 2,
+     "primaire": false
+    },
+    {
+     "id": "185e559c77b9fc",
+     "date": "2026-10-28T17:01:23+00:00",
+     "titre": "Gemini 4 Carbon",
+     "neuf": "Discussions techniques et communautaires autour de l'annonce de Gemini 4 Carbon.",
+     "fil": "Discussion sur Gemini 4 Carbon",
+     "source": "Hacker News (IA, 100+ pts)",
+     "lien": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-carbon/",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "beb8b19e9c57c1",
+     "date": "2026-10-28T17:48:38+00:00",
+     "titre": "Google DeepMind lance Gemini 4 Carbon pour la cyberdéfense et le code",
+     "neuf": "Google DeepMind présente officiellement Gemini 4 Carbon, ciblant spécifiquement la cyberdéfense et le développement logiciel.",
+     "fil": "Même modèle Gemini 4 Carbon",
+     "source": "Google Gemini (actus)",
+     "lien": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNY21KQXJSR1VScHZxM0FFQWdRYVRheFY2QkxWUGZaSXd5SVNEaDBfMEFaTGVCbWRjY1lxYUJGRkFGV1lFNUw4SjUzMUxoRkYtckg3QXk1TDRnVTJ3MEpsNVdxVHg4cTlleHBnSkRSYWd3VHFmTThyellEcnRGN0pvT0d3OEdISVoyRDU1Ti1BcmvSAZABQVVfeXFMTWNtSkFyUkdVUnB2cTNBRUFnUWFUYXhWNkJMVlBmWkl3eUlTRGgwXzBBWkxlQm1kY2NZcWFCRkZBRldZRTVMOEo1MzFMaEZGLXJIN0F5NUw0Z1UydzBKbDVXcVR4OHE5ZXhwZ0pEUmFnd1RxZk04cnpZRHJ0RjdKb09HdzhHSElaMkQ1NU4tQXJr?oc=5",
+     "nb_sources": 2,
+     "primaire": false
+    },
+    {
+     "id": "108e8db1031245",
+     "date": "2026-10-28T18:08:00+00:00",
+     "titre": "Google annonce Gemini 4 Carbon avec des gains majeurs",
+     "neuf": "Mise en avant des performances de Gemini 4 Carbon en programmation et tâches agentiques.",
+     "fil": "Détails sur Gemini 4 Carbon",
+     "source": "Google Gemini (actus)",
+     "lien": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5XaTVkbFZ1VUh4akhDTWtqY0RRUjZMZkx3WlN0UFVlYTVoa0N4QndiVkRkajJDUjF4Z1hjVGpNVFNzTWluMERLcWlodlVvWkFObnFiTEEwT2RBTmJ0N2FBeDlvRC1XNGJUQXc4ajE1bUo?oc=5",
+     "nb_sources": 2,
+     "primaire": false
+    },
+    {
+     "id": "5a342024f39507",
+     "date": "2026-10-28T18:12:49+00:00",
+     "titre": "Google lance Gemini 4 Carbon axé sur la cybersécurité",
+     "neuf": "Focus sur l'accent mis par Google sur la cybersécurité avec Gemini 4 Carbon.",
+     "fil": "Spécificités de Gemini 4 Carbon",
+     "source": "Grandes annonces IA",
+     "lien": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNLXQyWUp5N0QwdVRZWXFkd1M5b2RrcExtNVBJS0JKaDdhaG1DQThXeEVlUWVWQUNPTjNOak9ZSnZlQjhDUkNIT2oxSlJrSjlJSkVSMVZFMW5acXV1N0l5bWxKTU1CNmtzZVM3U2dZVE5RbHlrZ2k5LTljM2FnNDVLM3NFbGI4N1hSMVIyQ2FNZXZYY0ZuNV9KR0lQYzdxT2RGdzkxamkzLXloVUVmLUhmdUZ3?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "740cdb4d44c20b",
+     "date": "2026-10-28T18:25:49+00:00",
+     "titre": "Google dévoile Gemini 4 Carbon et reprend la première place",
+     "neuf": "Google reprend la tête des benchmarks grâce à ce modèle.",
+     "fil": "même modèle Gemini 4 Carbon",
+     "source": "Grandes annonces IA",
+     "lien": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxNS1BfSV9DNVl1aW5HV3A3SVc1bDFqZEhFT3VpekhjVDIwaVNKOTc2Z0c2WEJaaWtiNmFfc3BWWXBKWEtqUWpvaGRTOWMwNHBwYlRmbGIyX1FVN1M0Y0xWVGYzMnFWV2NYaFBlZ0JIZzlfR2p1Y2szTDIybXFTQ3FFOUtkazNVbzNoRUJQZV9GNXZLN3V1MWdOVmpCLS1IS2ZIQmRXbE01ZWNHVTNyLTZRWDV5YmFTbjJNZ1Y2VmoycFBnYlFpd1JuY3pRYUlWREMxSmE2b2FEYThGTVJhODA4?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "b655487b71d8b1",
+     "date": "2026-10-28T18:47:27+00:00",
+     "titre": "Google annonce Gemini 4 Carbon, un modèle d'IA non disponible",
+     "neuf": "Précision sur le fait que le nouveau modèle Gemini 4 Carbon n'est pas encore accessible au public.",
+     "fil": "Disponibilité de Gemini 4 Carbon",
+     "source": "Grandes annonces IA",
+     "lien": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPRW1ZYWNNNHRHU1pTM1FqNGIxajFURmFRZGlxM3BLaXNWWkl5Vl9lcUtMTmp3SEd4XzEyT1JUZHlzdjNvNWNDbE9NYk9VdUMzUkY2ZHVNalEtVWl4ckFwaTlsWFhjbTRDZURBdktRRGZpWGdheHVlZHlJYUNoS1YxcFphU2JVSFhBZkVZREo1R18yTWYwM0xnU1AzNllLYWZCLWZjNFMteDg2eEd2RXNTSVJ2ZmNsQQ?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "da5cf1cfcfca68",
+     "date": "2026-10-28T19:59:12+00:00",
+     "titre": "Google dévoile son nouveau modèle d'IA Gemini 4 Carbon",
+     "neuf": "Google annonce officiellement la sortie du modèle.",
+     "fil": "même modèle Gemini 4 Carbon",
+     "source": "Grandes annonces IA",
+     "lien": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOZ3ZsUjkyLTZtWHJBUmpUYzlmSVVsTTAwem1DWmxaaDlkTXhMTTJqNVhKTFlIMzdodkx5UDhFZzhjRk9iVk9ZMWU5Z2tWdkx6ZzZzVGVYTHFrZjF5dC1RZUZsODdpWUFyS1VHTzdaX2ZSMk80M24wZGZka1luREl5RWhKSDJ4NmxNUnhSOGVfdlQ4OUZ5?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "a07d372fa098b5",
+     "date": "2026-10-28T21:11:47+00:00",
+     "titre": "Google annonce Gemini 4 Carbon, réservé d'abord à la cybersécurité",
+     "neuf": "Le modèle est attribué en priorité aux défenseurs de la cybersécurité.",
+     "fil": "même modèle Gemini 4 Carbon",
+     "source": "Grandes annonces IA",
+     "lien": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNazNYS3d0ZlZXVWxwcVlPdUFMXzNvWVBSVXA2RUxQbVlyMFJybzRsdVNWc1RSR0taeXVsNDZJMHRoLThubms2WmNfMGRNTW1uYW9EVEVWRVpzSGJhak40eElyLXNYV2tTSFZPdDhsZXRNTG5SSGdBT2pld3I0V245YkFUQVhrbzRkSVNpOG9NazcwLWFsc1FOZ2NrREdWVnZYM25nMQ?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "2a9bdd78cd18dd",
+     "date": "2026-10-29T01:32:28+00:00",
+     "titre": "Gemini 4 Carbon : la nouvelle IA de Google interroge le secteur",
+     "neuf": "Les répercussions et interrogations sur les marchés adjacents commencent à émerger.",
+     "fil": "même modèle Gemini 4 Carbon",
+     "source": "IA en français (actus)",
+     "lien": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPSFd4YWhSMGVkb1BMTDFGTDhCek9VUDdvX0ZobDhoS0tpN2FnU1BaVjJ6OW5HRlJ6RXBoVkZEcnBIaFFackY2cHU4SGRxV1YwaElLZ051RE9yNUFfMC14aV9pY0Vtc1psdUZqSGItTXg3V1g2bEdwS3YtRkwyank5N01JR2dfOWRkVEc5c1FSckc?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "700d7790f59dd7",
+     "date": "2026-10-29T09:14:34+00:00",
+     "titre": "Gemini 4 Carbon dépasse Claude selon le Journal du Geek",
+     "neuf": "Les performances de Gemini 4 Carbon lui permettent de surpasser les modèles d'Anthropic selon de nouveaux comparatifs.",
+     "fil": "Même modèle Gemini 4 Carbon",
+     "source": "IA en français (actus)",
+     "lien": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPamFubFBwYkFpR3l4a2s0d0kzbEtBRXdab01qNXA2Mml6YUFGd0JSdlV4dzJmcHJZUTNyZVdYNlZJOXVtTGRZVjEzcjU4VzFGenI2bVV6OUVVSWJWNVZwd0tLdXRHcUkxcDZNdzd4dFFsUGpBZGt3QkV5bHdFVXpCd3doSWdiUW1RZEJNX09sQ3R3UnV3MHhTeXZmUFNsWnU4blNGZWtndVdnMUdhNTN5YWtMS2U0ck1zVnZXR3hnd3JzeDI2QjNOZQ?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "eebb63f2228b3e",
+     "date": "2026-10-29T12:41:56+00:00",
+     "titre": "Gemini 4 Carbon is the new #1 on the Artificial Analysis Intelligence Index v5",
+     "neuf": "Gemini 4 Carbon prend la première place de l'Artificial Analysis Intelligence Index v5.",
+     "fil": "même modèle Gemini 4 Carbon",
+     "source": "Hacker News (IA, 100+ pts)",
+     "lien": "https://artificialanalysis.ai/articles/gemini-4-carbon-new-number-1",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "bd0adf08863cf3",
+     "date": "2026-10-29T12:44:15+00:00",
+     "titre": "Google annonce que Gemini 4 Carbon surpasse ses prédécesseurs en cybersécurité",
+     "neuf": "Google annonce que Gemini 4 Carbon surpasse ses prédécesseurs en cybersécurité.",
+     "fil": "même modèle Gemini 4 Carbon",
+     "source": "Google Gemini (actus)",
+     "lien": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5idzhtY1Q0MmYzcHJidTEwV1dXc1FrT1FvaVYwQkM1emVXWTdLdE15NFJvU0xCTHJ6V01TMi1pRGVXaFlLcWc3RW5ZSVc0cEJlZTNiQ25rZzNVTjNCYjIyaHZyazZ4WU9DQXAyMm1kR1VXRDh3MGVoMEVQYXc?oc=5",
+     "nb_sources": 2,
+     "primaire": false
+    },
+    {
+     "id": "f8cf634dc4d336",
+     "date": "2026-10-29T13:42:00+00:00",
+     "titre": "Gemini 4 Carbon en tête des benchmarks de vulnérabilités informatiques",
+     "neuf": "Le modèle confirme sa domination sur les benchmarks de vulnérabilités informatiques.",
+     "fil": "même modèle Gemini 4 Carbon",
+     "source": "Google Gemini (actus)",
+     "lien": "https://news.google.com/rss/articles/CBMid0FVX3lxTE50ck5wcllHV21sMDZLVEJiWkp2OGlqbTVxcmRMRlJSRkFydUxodGlHalJDYl81WE00aUJsbnVRZFdQSmRrOUg4Rnh3NWdMNWowWGotNmZ2MzB6dm5tZzRYQnpqaFc4VG1oblhmSUVIYXRPR0hXUklz?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "31c22f696c1675",
+     "date": "2026-10-30T10:23:23+00:00",
+     "titre": "Gemini 4 Carbon prend la tête des benchmarks mais reste réservé",
+     "neuf": "Le modèle prend la tête des benchmarks tout en maintenant un accès strictement réservé.",
+     "fil": "même modèle Gemini 4 Carbon",
+     "source": "ActuIA",
+     "lien": "https://www.actuia.com/actualite/gemini-4-carbon-premier-de-lindice-dartificial-analysis-est-reserve-aux-cyberdefenseurs/",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "435be92947d461",
+     "date": "2026-11-01T03:36:00+00:00",
+     "titre": "Gemini 4 Carbon : le nouveau modèle de Google pour la cybersécurité",
+     "neuf": "Annonce officielle de Gemini 4 Carbon axé sur la cybersécurité.",
+     "fil": "même modèle Gemini 4 Carbon",
+     "source": "Grandes annonces IA",
+     "lien": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOZ1Ezd1B5OTJQb1AyR2JxcEJfcktPbTlMX29UeUdfTzJENzVGaC02MFI5YWYwNWY5cGxHVzRtN3A5REdzbUpzV3dUMHhfdXZndzRLN1RwdGhpenRYWEdaeWhQWE1iYV9aLWttNGpNT0hfb25Od0RreXJhR2U0bC1zeW9SenhlcDVpcTFZVm9QMlNkX0FPYVVObklsYUwwa2xVSnJyd1doVUY3aU1taGdITjVnMEY5WXBXM3Bnc29LMEthT0Z1eTBB0gHOAUFVX3lxTE0zV3EzUzhRY0syTFBPd0dpR1lNeTZyME5hYkpsUW1aenZpWjI2eFpzd0VWRDVCazBnZE95Ym1hR084OUlmbFAyTkNvR0YzV3FMNVdCU2ttQWdvQkRVc0NaNWc1cFYtR3BtTU01THc1dDgtSUxIcG1yVkFCRjlXVnlmbXpHSWJHRzlTblp3WDZqLXJtSXpPd2I2NGtURDJRdkxBWXBNRHh1R0MwNDl3NjV5NmtrZUR1aGZkbFhxbzVHSXpmMEJKMkJHT2N0QU5B?oc=5",
+     "nb_sources": 2,
+     "primaire": false
+    }
+   ],
+   "statut": "active",
+   "societes": [
+    "google",
+    "anthropic"
+   ]
+  },
+  {
+   "id": "h_9c9f09e590",
+   "titre": "Faille de sécurité critique dans les liens ChatGPT",
+   "resume": "Une faille de sécurité majeure a été découverte dans le système de partage de liens et les aperçus HTML de ChatGPT, permettant à un lien malveillant d'exécuter du code dans la session de l'utilisateur, de compromettre son compte et d'accéder à ses conversations privées.",
+   "creee": "2026-10-31T14:32:10.371026+00:00",
+   "maj": "2026-10-31T23:15:22+00:00",
+   "episodes": [
+    {
+     "id": "8463975b5d969c",
+     "date": "2026-10-31T05:33:00+00:00",
+     "titre": "Une faille dans les liens ChatGPT permettait d'exécuter du code",
+     "neuf": "Découverte d'une faille dans les liens ChatGPT permettant l'exécution de code malveillant et la lecture de conversations privées.",
+     "fil": "vulnérabilité critique dans les liens ChatGPT",
+     "source": "OpenAI (actus)",
+     "lien": "https://news.google.com/rss/articles/CBMiekFVX3lxTE1xLTVwY2pKZ1U4Y0J1VjJVQnkwZTJNcGFGUEtfbHZXSENiQkxXdFVJaEhXbGJYSWpRMjJUcW81dFFMRWpvWVZCUm5EY0pRRHpfZlJ3WXlHV3BmUVBXS3VvaWJzdTB1SzNmUkJLaTNINkZCckE3QVRSdGpB?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "0def4a2fca6b3a",
+     "date": "2026-10-31T23:15:22+00:00",
+     "titre": "Faille de sécurité dans les aperçus HTML de ChatGPT découverte par Parameter Labs",
+     "neuf": "Nouvelle démonstration d'une chaîne d'attaques exploitant les aperçus HTML pour compromettre des comptes.",
+     "fil": "même faille de sécurité dans les liens et aperçus ChatGPT",
+     "source": "Simon Willison",
+     "lien": "https://simonwillison.net/2026/Oct/31/how-we-took-over-chatgpt-accounts/",
+     "nb_sources": 1,
+     "primaire": false
+    }
+   ],
+   "statut": "active",
+   "societes": [
+    "openai"
+   ]
+  },
+  {
+   "id": "h_ba6721b09c",
+   "titre": "Intégration d'un processeur RISC-V dans les poids de Qwen",
+   "resume": "Des développeurs poursuivent l'intégration de structures de calcul et de mini-modèles directement au cœur des poids neuronaux des modèles Qwen. Après un processeur RISC-V, c'est un NPU virtuel exécutant un petit LLM qui a été compilé au sein de Qwen 3.5-4B.",
+   "creee": "2026-10-28T16:59:03.629060+00:00",
+   "maj": "2026-10-31T19:18:53+00:00",
+   "episodes": [
+    {
+     "id": "3886c73b3296dd",
+     "date": "2026-10-28T12:26:44+00:00",
+     "titre": "Un processeur RISC-V intégré directement dans les poids du modèle Qwen",
+     "neuf": "Un développeur intègre directement un processeur RISC-V 32 bits dans les poids neuronaux d'un modèle Qwen.",
+     "fil": "Intégration d'un processeur RISC-V dans Qwen",
+     "source": "r/LocalLLaMA",
+     "lien": "https://www.reddit.com/r/LocalLLaMA/comments/1xhmo1q/someone_built_a_32bit_riscv_cpu_directly_inside/",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "d4ac3b28f3e76c",
+     "date": "2026-10-31T19:18:53+00:00",
+     "titre": "Exécuter un petit LLM directement à l'intérieur des poids de Qwen 3.5",
+     "neuf": "Un développeur étend l'approche en exécutant un mini LLM au sein même des poids de Qwen 3.5-4B grâce à l'implémentation d'un NPU virtuel.",
+     "fil": "Intégration d'un petit LLM/NPU virtuel directement dans les poids de Qwen 3.5",
+     "source": "r/LocalLLaMA",
+     "lien": "https://www.reddit.com/r/LocalLLaMA/comments/1xkiuut/an_llm_inside_an_llm_same_guy_who_put_a_riskv_cpu/",
+     "nb_sources": 1,
+     "primaire": false
+    }
+   ],
+   "statut": "active",
+   "societes": [
+    "alibaba"
    ]
   },
   {
@@ -2061,185 +2273,6 @@
    "societes": [
     "deepseek",
     "ue"
-   ]
-  },
-  {
-   "id": "h_4c9894e533",
-   "titre": "Gemini 4 Carbon : annonce et capacités",
-   "resume": "Google DeepMind déploie Gemini 4 Carbon, un modèle axé sur la programmation et la cyberdéfense. Il surclasse la concurrence, atteint la première place de l'Artificial Analysis Intelligence Index v5 et domine les benchmarks de détection et d'exploitation de vulnérabilités, bien que son accès reste restreint.",
-   "creee": "2026-10-28T20:52:53.965414+00:00",
-   "maj": "2026-10-30T10:23:23+00:00",
-   "episodes": [
-    {
-     "id": "b0da25ea6c1a29",
-     "date": "2026-10-28T17:00:58+00:00",
-     "titre": "Annonce de Gemini 4 Carbon par Google DeepMind",
-     "neuf": "Google DeepMind annonce l'arrivée de Gemini 4 Carbon.",
-     "fil": "Annonce de Gemini 4 Carbon",
-     "source": "Google DeepMind",
-     "lien": "https://deepmind.google/blog/gemini-4-carbon-our-next-frontier-model/",
-     "nb_sources": 2,
-     "primaire": false
-    },
-    {
-     "id": "185e559c77b9fc",
-     "date": "2026-10-28T17:01:23+00:00",
-     "titre": "Gemini 4 Carbon",
-     "neuf": "Discussions techniques et communautaires autour de l'annonce de Gemini 4 Carbon.",
-     "fil": "Discussion sur Gemini 4 Carbon",
-     "source": "Hacker News (IA, 100+ pts)",
-     "lien": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-carbon/",
-     "nb_sources": 1,
-     "primaire": false
-    },
-    {
-     "id": "beb8b19e9c57c1",
-     "date": "2026-10-28T17:48:38+00:00",
-     "titre": "Google DeepMind lance Gemini 4 Carbon pour la cyberdéfense et le code",
-     "neuf": "Google DeepMind présente officiellement Gemini 4 Carbon, ciblant spécifiquement la cyberdéfense et le développement logiciel.",
-     "fil": "Même modèle Gemini 4 Carbon",
-     "source": "Google Gemini (actus)",
-     "lien": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNY21KQXJSR1VScHZxM0FFQWdRYVRheFY2QkxWUGZaSXd5SVNEaDBfMEFaTGVCbWRjY1lxYUJGRkFGV1lFNUw4SjUzMUxoRkYtckg3QXk1TDRnVTJ3MEpsNVdxVHg4cTlleHBnSkRSYWd3VHFmTThyellEcnRGN0pvT0d3OEdISVoyRDU1Ti1BcmvSAZABQVVfeXFMTWNtSkFyUkdVUnB2cTNBRUFnUWFUYXhWNkJMVlBmWkl3eUlTRGgwXzBBWkxlQm1kY2NZcWFCRkZBRldZRTVMOEo1MzFMaEZGLXJIN0F5NUw0Z1UydzBKbDVXcVR4OHE5ZXhwZ0pEUmFnd1RxZk04cnpZRHJ0RjdKb09HdzhHSElaMkQ1NU4tQXJr?oc=5",
-     "nb_sources": 2,
-     "primaire": false
-    },
-    {
-     "id": "108e8db1031245",
-     "date": "2026-10-28T18:08:00+00:00",
-     "titre": "Google annonce Gemini 4 Carbon avec des gains majeurs",
-     "neuf": "Mise en avant des performances de Gemini 4 Carbon en programmation et tâches agentiques.",
-     "fil": "Détails sur Gemini 4 Carbon",
-     "source": "Google Gemini (actus)",
-     "lien": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5XaTVkbFZ1VUh4akhDTWtqY0RRUjZMZkx3WlN0UFVlYTVoa0N4QndiVkRkajJDUjF4Z1hjVGpNVFNzTWluMERLcWlodlVvWkFObnFiTEEwT2RBTmJ0N2FBeDlvRC1XNGJUQXc4ajE1bUo?oc=5",
-     "nb_sources": 2,
-     "primaire": false
-    },
-    {
-     "id": "5a342024f39507",
-     "date": "2026-10-28T18:12:49+00:00",
-     "titre": "Google lance Gemini 4 Carbon axé sur la cybersécurité",
-     "neuf": "Focus sur l'accent mis par Google sur la cybersécurité avec Gemini 4 Carbon.",
-     "fil": "Spécificités de Gemini 4 Carbon",
-     "source": "Grandes annonces IA",
-     "lien": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNLXQyWUp5N0QwdVRZWXFkd1M5b2RrcExtNVBJS0JKaDdhaG1DQThXeEVlUWVWQUNPTjNOak9ZSnZlQjhDUkNIT2oxSlJrSjlJSkVSMVZFMW5acXV1N0l5bWxKTU1CNmtzZVM3U2dZVE5RbHlrZ2k5LTljM2FnNDVLM3NFbGI4N1hSMVIyQ2FNZXZYY0ZuNV9KR0lQYzdxT2RGdzkxamkzLXloVUVmLUhmdUZ3?oc=5",
-     "nb_sources": 1,
-     "primaire": false
-    },
-    {
-     "id": "740cdb4d44c20b",
-     "date": "2026-10-28T18:25:49+00:00",
-     "titre": "Google dévoile Gemini 4 Carbon et reprend la première place",
-     "neuf": "Google reprend la tête des benchmarks grâce à ce modèle.",
-     "fil": "même modèle Gemini 4 Carbon",
-     "source": "Grandes annonces IA",
-     "lien": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxNS1BfSV9DNVl1aW5HV3A3SVc1bDFqZEhFT3VpekhjVDIwaVNKOTc2Z0c2WEJaaWtiNmFfc3BWWXBKWEtqUWpvaGRTOWMwNHBwYlRmbGIyX1FVN1M0Y0xWVGYzMnFWV2NYaFBlZ0JIZzlfR2p1Y2szTDIybXFTQ3FFOUtkazNVbzNoRUJQZV9GNXZLN3V1MWdOVmpCLS1IS2ZIQmRXbE01ZWNHVTNyLTZRWDV5YmFTbjJNZ1Y2VmoycFBnYlFpd1JuY3pRYUlWREMxSmE2b2FEYThGTVJhODA4?oc=5",
-     "nb_sources": 1,
-     "primaire": false
-    },
-    {
-     "id": "b655487b71d8b1",
-     "date": "2026-10-28T18:47:27+00:00",
-     "titre": "Google annonce Gemini 4 Carbon, un modèle d'IA non disponible",
-     "neuf": "Précision sur le fait que le nouveau modèle Gemini 4 Carbon n'est pas encore accessible au public.",
-     "fil": "Disponibilité de Gemini 4 Carbon",
-     "source": "Grandes annonces IA",
-     "lien": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPRW1ZYWNNNHRHU1pTM1FqNGIxajFURmFRZGlxM3BLaXNWWkl5Vl9lcUtMTmp3SEd4XzEyT1JUZHlzdjNvNWNDbE9NYk9VdUMzUkY2ZHVNalEtVWl4ckFwaTlsWFhjbTRDZURBdktRRGZpWGdheHVlZHlJYUNoS1YxcFphU2JVSFhBZkVZREo1R18yTWYwM0xnU1AzNllLYWZCLWZjNFMteDg2eEd2RXNTSVJ2ZmNsQQ?oc=5",
-     "nb_sources": 1,
-     "primaire": false
-    },
-    {
-     "id": "da5cf1cfcfca68",
-     "date": "2026-10-28T19:59:12+00:00",
-     "titre": "Google dévoile son nouveau modèle d'IA Gemini 4 Carbon",
-     "neuf": "Google annonce officiellement la sortie du modèle.",
-     "fil": "même modèle Gemini 4 Carbon",
-     "source": "Grandes annonces IA",
-     "lien": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOZ3ZsUjkyLTZtWHJBUmpUYzlmSVVsTTAwem1DWmxaaDlkTXhMTTJqNVhKTFlIMzdodkx5UDhFZzhjRk9iVk9ZMWU5Z2tWdkx6ZzZzVGVYTHFrZjF5dC1RZUZsODdpWUFyS1VHTzdaX2ZSMk80M24wZGZka1luREl5RWhKSDJ4NmxNUnhSOGVfdlQ4OUZ5?oc=5",
-     "nb_sources": 1,
-     "primaire": false
-    },
-    {
-     "id": "a07d372fa098b5",
-     "date": "2026-10-28T21:11:47+00:00",
-     "titre": "Google annonce Gemini 4 Carbon, réservé d'abord à la cybersécurité",
-     "neuf": "Le modèle est attribué en priorité aux défenseurs de la cybersécurité.",
-     "fil": "même modèle Gemini 4 Carbon",
-     "source": "Grandes annonces IA",
-     "lien": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNazNYS3d0ZlZXVWxwcVlPdUFMXzNvWVBSVXA2RUxQbVlyMFJybzRsdVNWc1RSR0taeXVsNDZJMHRoLThubms2WmNfMGRNTW1uYW9EVEVWRVpzSGJhak40eElyLXNYV2tTSFZPdDhsZXRNTG5SSGdBT2pld3I0V245YkFUQVhrbzRkSVNpOG9NazcwLWFsc1FOZ2NrREdWVnZYM25nMQ?oc=5",
-     "nb_sources": 1,
-     "primaire": false
-    },
-    {
-     "id": "2a9bdd78cd18dd",
-     "date": "2026-10-29T01:32:28+00:00",
-     "titre": "Gemini 4 Carbon : la nouvelle IA de Google interroge le secteur",
-     "neuf": "Les répercussions et interrogations sur les marchés adjacents commencent à émerger.",
-     "fil": "même modèle Gemini 4 Carbon",
-     "source": "IA en français (actus)",
-     "lien": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPSFd4YWhSMGVkb1BMTDFGTDhCek9VUDdvX0ZobDhoS0tpN2FnU1BaVjJ6OW5HRlJ6RXBoVkZEcnBIaFFackY2cHU4SGRxV1YwaElLZ051RE9yNUFfMC14aV9pY0Vtc1psdUZqSGItTXg3V1g2bEdwS3YtRkwyank5N01JR2dfOWRkVEc5c1FSckc?oc=5",
-     "nb_sources": 1,
-     "primaire": false
-    },
-    {
-     "id": "700d7790f59dd7",
-     "date": "2026-10-29T09:14:34+00:00",
-     "titre": "Gemini 4 Carbon dépasse Claude selon le Journal du Geek",
-     "neuf": "Les performances de Gemini 4 Carbon lui permettent de surpasser les modèles d'Anthropic selon de nouveaux comparatifs.",
-     "fil": "Même modèle Gemini 4 Carbon",
-     "source": "IA en français (actus)",
-     "lien": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPamFubFBwYkFpR3l4a2s0d0kzbEtBRXdab01qNXA2Mml6YUFGd0JSdlV4dzJmcHJZUTNyZVdYNlZJOXVtTGRZVjEzcjU4VzFGenI2bVV6OUVVSWJWNVZwd0tLdXRHcUkxcDZNdzd4dFFsUGpBZGt3QkV5bHdFVXpCd3doSWdiUW1RZEJNX09sQ3R3UnV3MHhTeXZmUFNsWnU4blNGZWtndVdnMUdhNTN5YWtMS2U0ck1zVnZXR3hnd3JzeDI2QjNOZQ?oc=5",
-     "nb_sources": 1,
-     "primaire": false
-    },
-    {
-     "id": "eebb63f2228b3e",
-     "date": "2026-10-29T12:41:56+00:00",
-     "titre": "Gemini 4 Carbon is the new #1 on the Artificial Analysis Intelligence Index v5",
-     "neuf": "Gemini 4 Carbon prend la première place de l'Artificial Analysis Intelligence Index v5.",
-     "fil": "même modèle Gemini 4 Carbon",
-     "source": "Hacker News (IA, 100+ pts)",
-     "lien": "https://artificialanalysis.ai/articles/gemini-4-carbon-new-number-1",
-     "nb_sources": 1,
-     "primaire": false
-    },
-    {
-     "id": "bd0adf08863cf3",
-     "date": "2026-10-29T12:44:15+00:00",
-     "titre": "Google annonce que Gemini 4 Carbon surpasse ses prédécesseurs en cybersécurité",
-     "neuf": "Google annonce que Gemini 4 Carbon surpasse ses prédécesseurs en cybersécurité.",
-     "fil": "même modèle Gemini 4 Carbon",
-     "source": "Google Gemini (actus)",
-     "lien": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5idzhtY1Q0MmYzcHJidTEwV1dXc1FrT1FvaVYwQkM1emVXWTdLdE15NFJvU0xCTHJ6V01TMi1pRGVXaFlLcWc3RW5ZSVc0cEJlZTNiQ25rZzNVTjNCYjIyaHZyazZ4WU9DQXAyMm1kR1VXRDh3MGVoMEVQYXc?oc=5",
-     "nb_sources": 2,
-     "primaire": false
-    },
-    {
-     "id": "f8cf634dc4d336",
-     "date": "2026-10-29T13:42:00+00:00",
-     "titre": "Gemini 4 Carbon en tête des benchmarks de vulnérabilités informatiques",
-     "neuf": "Le modèle confirme sa domination sur les benchmarks de vulnérabilités informatiques.",
-     "fil": "même modèle Gemini 4 Carbon",
-     "source": "Google Gemini (actus)",
-     "lien": "https://news.google.com/rss/articles/CBMid0FVX3lxTE50ck5wcllHV21sMDZLVEJiWkp2OGlqbTVxcmRMRlJSRkFydUxodGlHalJDYl81WE00aUJsbnVRZFdQSmRrOUg4Rnh3NWdMNWowWGotNmZ2MzB6dm5tZzRYQnpqaFc4VG1oblhmSUVIYXRPR0hXUklz?oc=5",
-     "nb_sources": 1,
-     "primaire": false
-    },
-    {
-     "id": "31c22f696c1675",
-     "date": "2026-10-30T10:23:23+00:00",
-     "titre": "Gemini 4 Carbon prend la tête des benchmarks mais reste réservé",
-     "neuf": "Le modèle prend la tête des benchmarks tout en maintenant un accès strictement réservé.",
-     "fil": "même modèle Gemini 4 Carbon",
-     "source": "ActuIA",
-     "lien": "https://www.actuia.com/actualite/gemini-4-carbon-premier-de-lindice-dartificial-analysis-est-reserve-aux-cyberdefenseurs/",
-     "nb_sources": 1,
-     "primaire": false
-    }
-   ],
-   "statut": "active",
-   "societes": [
-    "google",
-    "anthropic"
    ]
   },
   {
@@ -4426,7 +4459,7 @@
      "primaire": false
     }
    ],
-   "statut": "active",
+   "statut": "en sommeil",
    "societes": [
     "mistral"
    ]
@@ -4450,7 +4483,7 @@
      "primaire": false
     }
    ],
-   "statut": "active",
+   "statut": "en sommeil",
    "societes": [
     "microsoft"
    ]
@@ -4893,7 +4926,7 @@
   {
    "id": "h_da06066ad1",
    "titre": "Meta dévoile son nouveau modèle Muse Wonder",
-   "resume": "Meta officialise le lancement de son modèle Muse Wonder tout en développant sa gamme avec des versions ouvertes. L'entreprise étend cette famille d'assistants en préparant la commercialisation du Muse Charm, un accessoire portable en forme de Tamagotchi pour les fêtes.",
+   "resume": "Meta officialise le lancement de son modèle Muse Wonder pour concurrencer ChatGPT, tout en développant sa gamme avec des versions ouvertes. L'entreprise étend cette famille d'assistants en préparant la commercialisation d'accessoires portables.",
    "creee": "2026-10-21T08:48:34.440401+00:00",
    "maj": "2026-10-16T00:34:00+00:00",
    "episodes": [

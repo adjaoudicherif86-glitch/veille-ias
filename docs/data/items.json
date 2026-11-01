@@ -1,5 +1,575 @@
 [
  {
+  "id": "425f40cb7368b3",
+  "titre": "While Altman complains about your audacity of having RAM in your PC, more than half of NVIDIA's GPUs are unproductive stocked in warehouses says author Ed Zitron",
+  "lien": "https://www.reddit.com/r/LocalLLaMA/comments/1xl4bjz/while_altman_complains_about_your_audacity_of/",
+  "source": "r/LocalLLaMA",
+  "type": "communaute",
+  "rubrique": "veille",
+  "date": "2026-11-01T14:23:38+00:00",
+  "extrait": "https://x.com/edzitron/status/2102425034241307030 submitted by /u/dreamyrhodes [link] [comments]",
+  "echos": [],
+  "anciens_ids": [],
+  "societe": "openai",
+  "score": 1.88,
+  "raisons": [
+   "Acteur majeur : OpenAI"
+  ],
+  "local": false,
+  "categorie": "Business & régulation",
+  "flair": 3,
+  "analyse": {
+   "titre_fr": "Plus de la moitié des GPU NVIDIA stockés en entrepôts selon Ed Zitron",
+   "societe": {
+    "nom": "OpenAI",
+    "presentation": "Créateur de ChatGPT et leader historique de l'intelligence artificielle générative grand public."
+   },
+   "a_retenir": "Une grande partie des puces NVIDIA destinées à l'IA resterait inutilisée dans des entrepôts selon des analyses récentes.",
+   "resume": "Un article relayé sur la communauté Reddit LocalLLaMA cite l'auteur Ed Zitron affirmant que plus de la moitié des GPU NVIDIA seraient stockés dans des entrepôts sans être productifs, contrastant avec les tensions d'approvisionnement souvent évoquées.",
+   "pourquoi": "Cela questionne la réalité de la pénurie de matériel et l'équilibre entre l'offre de puces haut de gamme et leur réelle utilisation industrielle.",
+   "comment_ca_marche": "Les GPU NVIDIA sont massivement achetés par les géants de la tech pour entraîner et faire tourner des modèles d'IA lourds. Le stockage en entrepôt suggère un décalage entre le rythme des achats spéculatifs ou préventifs et la mise en production réelle des infrastructures de calcul.",
+   "utiliser": [
+    "Analyser les rapports sur la chaîne d'approvisionnement des puces d'IA",
+    "Suivre les analyses économiques du marché des semi-conducteurs"
+   ],
+   "sur_mon_pc": "Pas en local : service en ligne uniquement",
+   "local": false,
+   "niveau": "intermédiaire",
+   "categorie": "Business & régulation",
+   "importance": 2,
+   "tags": [
+    "NVIDIA",
+    "GPU",
+    "Infrastructure",
+    "Marché IA"
+   ]
+  },
+  "histoire_vu": true
+ },
+ {
+  "id": "0229912e0d3dba",
+  "titre": "After testing it on 100 photos, Google Photos' new Gemini integration is both good and horrible - Android Police",
+  "lien": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPYlNLT1hEM1htRE1QbnVaNmF1QzVvN1NucWV3QlJvNkh5N0p3QUdkbEFLMkEwQXV4M1cwNk5zbTM2azNMUVViYW4xb0RDRFhxS0JtWnA4Qk1iZ3hpQ095Xy1wOUFxc3NPWTlNYVR2c1ZOWF96aDVwTW8waEgwRTVXQWVDWWU2eWJNaXhkdkdsb29YQnc1ZkZrbW9hOFhUZlQyZWJKVVFHN1lzNFdyOWRkY2Zibw?oc=5",
+  "source": "Google Gemini (actus)",
+  "type": "presse",
+  "rubrique": "veille",
+  "date": "2026-11-01T13:45:10+00:00",
+  "extrait": "After testing it on 100 photos, Google Photos' new Gemini integration is both good and horrible Android Police",
+  "echos": [],
+  "anciens_ids": [],
+  "societe": "google",
+  "score": 2.46,
+  "raisons": [
+   "Acteur majeur : Google DeepMind"
+  ],
+  "local": false,
+  "categorie": "Outils & applis",
+  "flair": 3,
+  "analyse": {
+   "titre_fr": "Google Photos intègre Gemini : entre avancées et résultats mitigés",
+   "societe": {
+    "nom": "Google DeepMind",
+    "presentation": "La branche IA de Google, connue pour ses modèles Gemini, NotebookLM et ses avancées scientifiques comme AlphaFold."
+   },
+   "a_retenir": "L'intégration de Gemini dans Google Photos montre un potentiel intéressant mais des résultats parfois décevants lors de tests pratiques.",
+   "resume": "Un test mené sur 100 photos avec la nouvelle intégration de Gemini dans Google Photos révèle un double visage, qualifié à la fois de bon et d'horrible par la presse spécialisée.",
+   "pourquoi": "Cela illustre les défis actuels de l'intégration des grands modèles de langage dans les applications grand public de gestion d'images.",
+   "comment_ca_marche": "Gemini analyse le contenu visuel des photos pour permettre des recherches en langage naturel et générer des descriptions ou interactions. Le modèle traite les pixels pour en extraire du sens, mais peut commettre des erreurs d'interprétation ou sur-interpréter certaines images. Cette mise en œuvre dépend de l'infrastructure cloud de Google et des capacités multimodales du modèle.",
+   "utiliser": [
+    "Tester la recherche en langage naturel dans Google Photos",
+    "Observer les suggestions et descriptions générées par Gemini",
+    "Rester critique face aux résultats automatisés"
+   ],
+   "sur_mon_pc": "Pas en local : service en ligne uniquement",
+   "local": false,
+   "niveau": "débutant",
+   "categorie": "Outils & applis",
+   "importance": 2,
+   "tags": [
+    "Google Photos",
+    "Gemini",
+    "Multimodal",
+    "IA grand public"
+   ]
+  },
+  "histoire_vu": true
+ },
+ {
+  "id": "71a4eb6e914067",
+  "titre": "Musk: 2 More SpaceXAI Data Centers Near Southaven by December - DeSoto County News",
+  "lien": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNQ01nUXZuUzBvWmdGVEZyWXNnZjVFazdrNVM3SmIwdEV1TFk2WFI5YXMxaXJ2c3ZORkVCNWJtRHlmZXJheVpJMG12OW5HVjhsS2Q4ODhwSlR4a3VQaEhhSUFHT2p3RWFNeFgyUXQ0UkYxTXhWSnpBaktVRUZwMkVkRi1GSDdhU3NQcXhpLXlRMllNZw?oc=5",
+  "source": "Grok et SpaceXAI (actus)",
+  "type": "presse",
+  "rubrique": "veille",
+  "date": "2026-11-01T13:25:00+00:00",
+  "extrait": "Musk: 2 More SpaceXAI Data Centers Near Southaven by December DeSoto County News",
+  "echos": [],
+  "anciens_ids": [],
+  "societe": "spacexai",
+  "score": 3.15,
+  "raisons": [],
+  "local": false,
+  "categorie": "Actualité",
+  "flair": 4,
+  "analyse": {
+   "titre_fr": "SpaceXAI annonce deux nouveaux centres de données près de Southaven pour décembre",
+   "societe": {
+    "nom": "SpaceXAI (ex-xAI)",
+    "presentation": "La société d'intelligence artificielle fondée par Elon Musk, intégrée à SpaceX en 2026, qui développe notamment le modèle Grok."
+   },
+   "a_retenir": "SpaceXAI poursuit l'expansion massive de ses infrastructures avec l'ouverture prévue de deux nouveaux centres de données d'ici décembre.",
+   "resume": "Elon Musk a annoncé l'implantation de deux nouveaux centres de données pour SpaceXAI près de Southaven, dans le comté de DeSoto, avec une mise en service prévue pour décembre 2026. Cette initiative vise à renforcer la puissance de calcul nécessaire aux ambitions de l'entreprise en matière d'IA.",
+   "pourquoi": "Cette expansion illustre la course effrénée aux infrastructures de calcul pour entraîner et faire tourner les modèles de pointe, impactant l'écosystème technologique et énergétique global.",
+   "comment_ca_marche": "Les centres de données regroupent des milliers de serveurs surpuissants équipés de processeurs spécialisés (GPU) pour traiter des volumes massifs de données. Ces infrastructures nécessitent des investissements colossaux en matière de refroidissement, de connectivité réseau et d'alimentation électrique pour alimenter l'entraînement et l'inférence des modèles de type Grok.",
+   "utiliser": [
+    "Suivre l'impact de ces ouvertures sur les capacités et les performances de Grok",
+    "Surveiller les besoins en énergie et en matériel de pointe (GPU) pour les infrastructures IA"
+   ],
+   "sur_mon_pc": "Pas en local : service en ligne uniquement",
+   "local": false,
+   "niveau": "débutant",
+   "categorie": "Actualité",
+   "importance": 3,
+   "tags": [
+    "SpaceXAI",
+    "Centres de données",
+    "Infrastructures",
+    "Grok",
+    "Elon Musk"
+   ]
+  },
+  "histoire": "h_5e0762833f",
+  "histoire_vu": true
+ },
+ {
+  "id": "e22fbd8f006da4",
+  "titre": "Heretic 2.0 released: Model modification for everyone",
+  "lien": "https://www.reddit.com/r/LocalLLaMA/comments/1xl2tcm/heretic_20_released_model_modification_for/",
+  "source": "r/LocalLLaMA",
+  "type": "communaute",
+  "rubrique": "veille",
+  "date": "2026-11-01T13:16:24+00:00",
+  "extrait": "Dear fellow Llamas, after almost 5 months of development, I finally have the pleasure of announcing to you the immediate availability of the biggest Heretic release ever, Heretic 2.0: https://github.com/p-e-w/heretic Heretic is the leading software for removing censorship from language models. It now boasts 37k GitHub stars and more than 8,500 models on Hugging Face, with 88 million(!!!) total model downloads. With Heretic 2.0, the project is entering a new era. Heretic is expanding from a purpose-built tool for censorship removal to a general-purpose model modification tool that can do amazing things. Besides removing censorship, it can suppress slop, reduce sycophancy, alter emotional alig…",
+  "echos": [],
+  "anciens_ids": [],
+  "societe": "huggingface",
+  "score": 5.65,
+  "raisons": [
+   "Nouveau modèle ou nouvelle version",
+   "Jugé important par l'IA (4/5)"
+  ],
+  "local": true,
+  "categorie": "Open source & local",
+  "flair": 5,
+  "analyse": {
+   "titre_fr": "Sortie de Heretic 2.0 : l'outil open source de modification de modèles",
+   "societe": {
+    "nom": "Hugging Face",
+    "presentation": "La plateforme de référence mondiale où la communauté publie et télécharge des modèles d'intelligence artificielle ouverts."
+   },
+   "a_retenir": "Heretic 2.0 étend la modification de modèles au-delà du 'uncensoring' vers le contrôle des comportements et des biais.",
+   "resume": "Heretic, le logiciel open source populaire pour modifier les grands modèles de langage, passe en version 2.0 après 5 mois de développement. Initialement centré sur le retrait de la censure, il devient un outil généraliste permettant de supprimer les réponses parasites, de réduire la complaisance et d'ajuster le ton émotionnel.",
+   "pourquoi": "Cet outil offre aux professionnels un contrôle fin sur le comportement des modèles ouverts, permettant d'adapter les IA à des cas d'usage précis sans réentraînement lourd.",
+   "comment_ca_marche": "Le logiciel agit directement sur les poids du modèle de langage pour modifier ses comportements internes. Heretic 2.0 permet d'appliquer des modifications ciblées sur l'architecture du modèle pour altérer des traits spécifiques comme la complaisance, les biais ou le style de réponse. Ces modifications s'appuient sur l'analyse des couches du réseau de neurones et se téléchargent ou s'appliquent via des scripts Python et des outils en ligne de commande.",
+   "utiliser": [
+    "Cloner le dépôt GitHub officiel du projet Heretic (p-e-w/heretic).",
+    "Installer les dépendances requises dans un environnement Python local.",
+    "Sélectionner un modèle compatible hébergé localement ou sur Hugging Face.",
+    "Appliquer les profils de modification souhaités (réduction de la complaisance, ajustement du ton)."
+   ],
+   "sur_mon_pc": "Disponible sur GitHub (p-e-w/heretic). Nécessite une configuration PC standard pour l'inférence locale et la manipulation de poids de modèles (GPU recommandé selon la taille du modèle cible).",
+   "local": true,
+   "niveau": "avancé",
+   "categorie": "Open source & local",
+   "importance": 4,
+   "tags": [
+    "Heretic",
+    "Open Source",
+    "Model Modification",
+    "Hugging Face",
+    "LocalLLaMA"
+   ]
+  },
+  "histoire_vu": true
+ },
+ {
+  "id": "537ed26c86f9a3",
+  "titre": "Loretta Thornton lives steps from sprawling AI facility Colossus 2 - The Tennessean",
+  "lien": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxOUTZzRlpKNF9WWDVidmtSX1JyLVZiNlk3Z2hKUFh6Q3VVX3dsb1Jsc3BxbVVwZ0V0c1VjU0pVN1pnQnlUTnpyMnl2RmpaZjZJRldPTkw4Y2NaYXV1aEx2d2hvU0VYSnEtcHdKT05JMWZlcGlhbjR5cWJxNlFyM1Z0WEFfd1FRTnhZdzRrTllOcDJiRF9RY2pQd2ZqVWJCaERHUUw2NmxKMzJVT0xhNEYtSTRNQkJxa1JmNndtZTVOUGtVSEpFR1R2M2Zub3Q3eFZRWmNQQm00bGdyQ0lvNlE?oc=5",
+  "source": "Grok et SpaceXAI (actus)",
+  "type": "presse",
+  "rubrique": "veille",
+  "date": "2026-11-01T11:00:00+00:00",
+  "extrait": "Loretta Thornton lives steps from sprawling AI facility Colossus 2 The Tennessean",
+  "echos": [],
+  "anciens_ids": [],
+  "societe": null,
+  "score": 0.88,
+  "raisons": [],
+  "local": false,
+  "categorie": "Business & régulation",
+  "flair": 2,
+  "analyse": {
+   "titre_fr": "Impact des infrastructures IA : le cas de l'installation Colossus 2",
+   "societe": {
+    "nom": "xAI",
+    "presentation": "Société d'intelligence artificielle fondée par Elon Musk, connue notamment pour le développement du modèle Grok."
+   },
+   "a_retenir": "Le développement rapide des supercalculateurs IA géants pose des défis concrets d'infrastructure et de voisinage.",
+   "resume": "L'article du Tennessean met en lumière la proximité immédiate d'une riveraine, Loretta Thornton, avec le vaste complexe d'intelligence artificielle Colossus 2, illustrant les frictions locales liées à ces centres de données géants.",
+   "pourquoi": "Cela souligne l'impact physique et environnemental croissant des investissements massifs en matière d'infrastructure IA sur les communautés locales.",
+   "comment_ca_marche": "Les centres de données comme Colossus 2 regroupent des milliers de processeurs graphiques (GPU) puissants nécessitant une alimentation électrique et un refroidissement colossaux, ce qui génère des nuisances sonores et des besoins massifs en ressources locales.",
+   "utiliser": [
+    "S'informer sur les projets d'implantation de data centers IA à proximité",
+    "Suivre les débats réglementaires sur l'impact environnemental des infrastructures de calcul"
+   ],
+   "sur_mon_pc": "Pas en local : service en ligne uniquement",
+   "local": false,
+   "niveau": "débutant",
+   "categorie": "Business & régulation",
+   "importance": 2,
+   "tags": [
+    "xAI",
+    "Colossus 2",
+    "Infrastructure IA",
+    "Data Center"
+   ]
+  }
+ },
+ {
+  "id": "993a9a1a3b9941",
+  "titre": "Elon Musk’s SpaceXAI will buy your home near its Mississippi gas turbines — if you never sue over ‘torturous’ noise - Yahoo Finance",
+  "lien": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQcU8xaDdiMXVSZlQtc0F3TjJ4LWg4NklhT0IzZnhkeG9wUHI1SnVmc1Bra1pGMTZBV3U1bkR4QUNfeUMzQzRNRVhSYXdWSnlWOUR3ZnZtTDNRNVdVVWhrWHpSclpOWXhLWmZmRWNkdVV0d1NqV1Q4NU9yUW1YUDJJZnJ2b2w5c29WRHBCcjg0UjczUWs?oc=5",
+  "source": "Grok et SpaceXAI (actus)",
+  "type": "presse",
+  "rubrique": "veille",
+  "date": "2026-11-01T10:30:00+00:00",
+  "extrait": "Elon Musk’s SpaceXAI will buy your home near its Mississippi gas turbines — if you never sue over ‘torturous’ noise Yahoo Finance",
+  "echos": [],
+  "anciens_ids": [],
+  "societe": "spacexai",
+  "score": 1.87,
+  "raisons": [],
+  "local": false,
+  "categorie": "Business & régulation",
+  "flair": 3,
+  "analyse": {
+   "titre_fr": "SpaceXAI rachète des logements voisins de ses turbines au Mississippi",
+   "societe": {
+    "nom": "SpaceXAI",
+    "presentation": "La société d'intelligence artificielle fondée par Elon Musk, développant notamment le modèle Grok."
+   },
+   "a_retenir": "SpaceXAI propose de racheter les maisons proches de ses turbines au Mississippi en échange d'une renonciation à toute poursuite judiciaire.",
+   "resume": "Face aux nuisances sonores qualifiées de torturantes par les riverains à cause de ses turbines à gaz au Mississippi, SpaceXAI propose de racheter les habitations concernées. Cette offre est conditionnée à l'abandon définitif de toute action en justice de la part des propriétaires.",
+   "pourquoi": "Cet événement illustre les frictions croissantes entre le déploiement d'infrastructures lourdes pour l'IA et les impacts environnementaux locaux, gérés ici par des accords financiers conditionnels.",
+   "comment_ca_marche": "Les turbines à gaz fournissent l'énergie nécessaire aux installations massives de calcul, mais génèrent des nuisances sonores continues. L'entreprise utilise un accord d'achat immobilier conditionné à une clause de non-poursuite pour éteindre les litiges juridiques.",
+   "utiliser": [
+    "Analyser les risques de voisinage liés aux infrastructures d'IA",
+    "Surveiller les contentieux juridiques entre géants de la tech et riverains"
+   ],
+   "sur_mon_pc": "Pas en local : service en ligne uniquement",
+   "local": false,
+   "niveau": "débutant",
+   "categorie": "Business & régulation",
+   "importance": 2,
+   "tags": [
+    "SpaceXAI",
+    "Elon Musk",
+    "Nuisances sonores",
+    "Régulation"
+   ]
+  },
+  "histoire": "h_5e0762833f",
+  "histoire_vu": true
+ },
+ {
+  "id": "3b242a1289c8e8",
+  "titre": "new research: A tiny 109M-parameter model outperforms models up to 72B parameters at image-text alignment, using 42× less training data",
+  "lien": "https://www.reddit.com/r/LocalLLaMA/comments/1xkzony/new_research_a_tiny_109mparameter_model/",
+  "source": "r/LocalLLaMA",
+  "type": "communaute",
+  "rubrique": "veille",
+  "date": "2026-11-01T10:24:21+00:00",
+  "extrait": "submitted by /u/Lazylion2 [link] [comments]",
+  "echos": [],
+  "anciens_ids": [],
+  "societe": null,
+  "score": 2.67,
+  "raisons": [
+   "Jugé important par l'IA (4/5)"
+  ],
+  "local": true,
+  "categorie": "Recherche",
+  "flair": 3,
+  "analyse": {
+   "titre_fr": "Un modèle de 109 millions de paramètres surpasse des modèles de 72 milliards en vision",
+   "societe": {
+    "nom": "Communauté de recherche (Reddit LocalLLaMA)",
+    "presentation": "Espaces de partage et de discussion autour des modèles de langage locaux et de la recherche open source en IA."
+   },
+   "a_retenir": "Un minuscule modèle de 109M de paramètres surpasse des modèles géants de 72B en alignement image-texte, avec 42 fois moins de données d'entraînement.",
+   "resume": "De nouvelles recherches partagées sur la communauté LocalLLaMA montrent qu'un modèle extrêmement léger de 109 millions de paramètres surpasse des modèles atteignant 72 milliards de paramètres pour l'alignement image-texte. Cette percée a été obtenue en utilisant 42 fois moins de données d'entraînement que les méthodes traditionnelles.",
+   "pourquoi": "Cette avancée démontre qu'il est possible d'obtenir des performances de pointe en vision par ordinateur avec des modèles infimes et peu gourmands en ressources, ce qui révolutionne le déploiement sur edge/PC.",
+   "comment_ca_marche": "Le principe repose sur une architecture optimisée pour l'alignement multimodal (image-texte) combinée à des techniques d'apprentissage hautement efficaces. Le modèle apprend à associer des concepts visuels et textuels avec un nombre de paramètres restreint et un jeu de données réduit, en se concentrant sur les caractéristiques essentielles plutôt que sur la force brute des grands modèles.",
+   "utiliser": [
+    "Consulter le lien de la recherche sur Reddit pour accéder au papier original",
+    "Analyser l'architecture du modèle de 109M de paramètres",
+    "Étudier la méthodologie d'entraînement avec peu de données"
+   ],
+   "sur_mon_pc": "À vérifier sur la source (code source ou dépôt GitHub lié au papier de recherche)",
+   "local": true,
+   "niveau": "avancé",
+   "categorie": "Recherche",
+   "importance": 4,
+   "tags": [
+    "multimodal",
+    "vision",
+    "open-source",
+    "recherche",
+    "modèle miniature"
+   ]
+  },
+  "histoire_vu": true
+ },
+ {
+  "id": "3af686d1fdfcba",
+  "titre": "SpaceXAI continues Southaven buying spree, but some homeowners feel 'lowballed' by offers - Daily Memphian",
+  "lien": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE9nUzBheWlVQ3hpbWlhSG96S3Zodndxc3J1MVVHRFNENHBSVl9FUm1VaG4xNzc2Q2lhTjBxdndINmR4NlZINnRhMjVRck4zSWdG?oc=5",
+  "source": "Grok et SpaceXAI (actus)",
+  "type": "presse",
+  "rubrique": "veille",
+  "date": "2026-11-01T10:00:00+00:00",
+  "extrait": "SpaceXAI continues Southaven buying spree, but some homeowners feel 'lowballed' by offers Daily Memphian",
+  "echos": [],
+  "anciens_ids": [],
+  "societe": "spacexai",
+  "score": 0.66,
+  "raisons": [],
+  "local": false,
+  "categorie": "Actualité",
+  "flair": 2,
+  "analyse": {
+   "titre_fr": "SpaceXAI poursuit ses acquisitions foncières à Southaven",
+   "societe": {
+    "nom": "SpaceXAI",
+    "presentation": "La société d'intelligence artificielle d'Elon Musk, absorbée par SpaceX en 2026, qui développe notamment l'assistant Grok."
+   },
+   "a_retenir": "SpaceXAI continue d'acheter des biens immobiliers à Southaven, mais des propriétaires estiment les offres trop basses.",
+   "resume": "L'entreprise SpaceXAI multiplie les achats immobiliers dans la ville de Southaven. Toutefois, certains propriétaires locaux expriment leur mécontentement, jugeant les propositions financières insuffisantes.",
+   "pourquoi": "Cet événement illustre l'expansion physique et l'emprise foncière des grandes entreprises technologiques, ce qui peut impacter les communautés locales et susciter des tensions.",
+   "comment_ca_marche": "Il s'agit d'une opération immobilière classique d'acquisition de terrains ou de biens par une grande structure, nécessitant des négociations directes ou par intermédiaires avec les propriétaires actuels. Les aspects techniques précis de ces achats ne sont pas détaillés dans la source.",
+   "utiliser": [
+    "Suivre l'évolution des acquisitions foncières de SpaceXAI",
+    "Observer l'impact local et les réactions des résidents"
+   ],
+   "sur_mon_pc": "Pas en local : service en ligne uniquement",
+   "local": false,
+   "niveau": "débutant",
+   "categorie": "Actualité",
+   "importance": 1,
+   "tags": [
+    "SpaceXAI",
+    "Immobilier",
+    "Southaven",
+    "Elon Musk"
+   ]
+  }
+ },
+ {
+  "id": "18e568e4ac3ce7",
+  "titre": "vLLM v0.33.0",
+  "lien": "https://github.com/vllm-project/vllm/releases/tag/v0.33.0",
+  "source": "vLLM",
+  "type": "primaire",
+  "rubrique": "veille",
+  "date": "2026-11-01T09:21:10+00:00",
+  "extrait": "Notes de version officielles de vLLM :\nvLLM v0.33.0",
+  "primaire": true,
+  "signal": 0.0,
+  "signal_raison": null,
+  "societe_force": null,
+  "echos": [],
+  "anciens_ids": [],
+  "societe": null,
+  "score": 2.04,
+  "raisons": [
+   "Source primaire"
+  ],
+  "local": true,
+  "categorie": "Open source & local",
+  "flair": 3,
+  "analyse": {
+   "titre_fr": "Sortie de la version v0.33.0 de vLLM",
+   "societe": {
+    "nom": "vLLM Project",
+    "presentation": "vLLM est un framework open source populaire conçu pour l'inférence et le service à haute vitesse des grands modèles de langage (LLM)."
+   },
+   "a_retenir": "La version 0.33.0 de vLLM est officiellement disponible sur GitHub.",
+   "resume": "Les notes de version officielles de vLLM v0.33.0 viennent d'être publiées sur le dépôt GitHub du projet. Cette mise à jour apporte son lot d'améliorations et de correctifs pour l'inférence de modèles de langage.",
+   "pourquoi": "C'est important pour les professionnels qui déploient des LLM en production et utilisent vLLM pour optimiser les performances et réduire les coûts d'infrastructure.",
+   "comment_ca_marche": "vLLM utilise une technique appelée PagedAttention pour gérer efficacement la mémoire KV (Key-Value) dans le GPU, ce qui permet d'augmenter considérablement le débit des requêtes. Les nouvelles versions apportent généralement des optimisations de kernels, le support de nouveaux modèles et des corrections de bugs. Pour l'utiliser, on installe le paquet Python mis à jour et on déploie le serveur d'inférence compatible OpenAI.",
+   "utiliser": [
+    "Consulter la page des notes de version sur GitHub pour voir les nouveautés spécifiques",
+    "Mettre à jour le paquet vLLM via pip dans votre environnement",
+    "Tester la version sur vos charges de travail d'inférence pour valider les gains"
+   ],
+   "sur_mon_pc": "pip install vllm (nécessite une carte graphique NVIDIA compatible CUDA ou un matériel supporté par le projet).",
+   "local": true,
+   "niveau": "intermédiaire",
+   "categorie": "Open source & local",
+   "importance": 3,
+   "tags": [
+    "vLLM",
+    "inférence",
+    "LLM",
+    "open source",
+    "GitHub"
+   ]
+  },
+  "histoire_vu": true
+ },
+ {
+  "id": "a6f876f3432762",
+  "titre": "‘If it wasn’t for ChatGPT my brother would still be alive’: inside OpenAI’s safety unit - The Observer",
+  "lien": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOUG10RTQ0U1NqUk5hQlJ6R3Rkbnl0V2YxamNUYm9hWE9DMmdGRk9LRG8zaFYwZExhWWpfc19pd25uMWkwNlc5QnVvNUZmQ0loN1c1QVp2OTBXMEd6ZFVNanMtVkZ1NGR5NWwwcW53bUVzSUc0OVlPdzI1MW9jRzBfakllS2lCX0xOTjdCamk0NE81NzhfY2NUTnVkSFJsOUhtQk03b0tVd0lNODdBczBkSmhtdnZzTmpwakx0QjY5MFF1Vm5GdUVLVg?oc=5",
+  "source": "OpenAI (actus)",
+  "type": "presse",
+  "rubrique": "veille",
+  "date": "2026-11-01T09:04:49+00:00",
+  "extrait": "‘If it wasn’t for ChatGPT my brother would still be alive’: inside OpenAI’s safety unit The Observer",
+  "echos": [],
+  "anciens_ids": [],
+  "societe": "openai",
+  "score": 3.53,
+  "raisons": [
+   "Acteur majeur : OpenAI"
+  ],
+  "local": false,
+  "categorie": "Business & régulation",
+  "flair": 4,
+  "analyse": {
+   "titre_fr": "Immersion au cœur de l'unité de sécurité d'OpenAI face aux risques de ChatGPT",
+   "societe": {
+    "nom": "OpenAI",
+    "presentation": "Créateur de ChatGPT et leader historique de l'intelligence artificielle générative grand public."
+   },
+   "a_retenir": "Un reportage lève le voile sur l'unité de sécurité d'OpenAI et les défis critiques liés à l'impact psychologique de ChatGPT.",
+   "resume": "Un article du Observer s'intéresse de près à l'unité de sécurité d'OpenAI, à travers les questions cruciales de prévention et de protection des utilisateurs face aux risques générés par les interactions avec ChatGPT.",
+   "pourquoi": "Cela met en lumière la responsabilité sociétale croissante des acteurs de l'IA et la nécessité urgente de renforcer les garde-fous psychologiques et éthiques.",
+   "comment_ca_marche": "Les équipes de sécurité d'OpenAI analysent les comportements à risque, affinent les filtres de modération et ajustent les réponses du modèle pour éviter des interactions potentiellement dangereuses ou nocives pour les utilisateurs vulnérables.",
+   "utiliser": [
+    "Suivre les évolutions des politiques de sécurité d'OpenAI",
+    "Intégrer des protocoles de modération renforcés dans les applications basées sur l'IA",
+    "Sensibiliser les équipes aux risques psychosociaux liés aux interactions homme-machine"
+   ],
+   "sur_mon_pc": "Pas en local : service en ligne uniquement",
+   "local": false,
+   "niveau": "débutant",
+   "categorie": "Business & régulation",
+   "importance": 3,
+   "tags": [
+    "OpenAI",
+    "ChatGPT",
+    "Sécurité",
+    "Éthique"
+   ]
+  },
+  "histoire_vu": true
+ },
+ {
+  "id": "6802838087b97f",
+  "titre": "Memdoor: A team of 5 Qwen3.8-27B models beats Fable 5 on LiveCodeBench Hard",
+  "lien": "https://www.reddit.com/r/LocalLLaMA/comments/1xkxt7a/memdoor_a_team_of_5_qwen3827b_models_beats_fable/",
+  "source": "r/LocalLLaMA",
+  "type": "communaute",
+  "rubrique": "veille",
+  "date": "2026-11-01T08:24:18+00:00",
+  "extrait": "submitted by /u/PferdOne [link] [comments]",
+  "echos": [],
+  "anciens_ids": [],
+  "societe": "alibaba",
+  "score": 2.41,
+  "raisons": [],
+  "local": true,
+  "categorie": "Open source & local",
+  "flair": 3,
+  "analyse": {
+   "titre_fr": "Memdoor : cinq modèles Qwen surpassent Fable 5 sur LiveCodeBench Hard",
+   "societe": {
+    "nom": "Alibaba (Qwen)",
+    "presentation": "Le géant chinois du commerce en ligne, éditeur de Qwen, l'une des plus grandes familles de modèles ouverts."
+   },
+   "a_retenir": "Une équipe de cinq modèles Qwen3.8-27B parvient à surpasser Fable 5 sur le benchmark de programmation LiveCodeBench Hard.",
+   "resume": "Un utilisateur de la communauté LocalLLaMA rapporte que l'approche Memdoor, utilisant une équipe de cinq modèles Qwen3.8-27B, surpasse les performances de Fable 5 sur le benchmark exigeant LiveCodeBench Hard.",
+   "pourquoi": "Cela démontre l'efficacité des approches multi-agents basées sur des modèles ouverts de taille intermédiaire pour résoudre des tâches de programmation complexes.",
+   "comment_ca_marche": "Plusieurs instances de modèles de langage (ici Qwen3.8-27B) collaborent en réseau ou en équipe pour générer, critiquer et affiner du code informatique. En combinant leurs expertises ou en votant sur les solutions, l'équipe réduit les erreurs de codage par rapport à un modèle unique. Ce principe multi-agents s'appuie sur la division des tâches complexes en sous-tâches gérables par chaque agent.",
+   "utiliser": [
+    "Consulter la discussion sur r/LocalLLaMA pour les détails de l'implémentation Memdoor.",
+    "Tester des architectures multi-agents similaires avec des modèles Qwen de taille intermédiaire.",
+    "Évaluer les performances sur vos propres benchmarks de code."
+   ],
+   "sur_mon_pc": "Nécessite une configuration matérielle importante pour faire tourner plusieurs instances simultanées de modèles de 27B paramètres (plusieurs cartes graphiques haut de gamme ou un service cloud).",
+   "local": true,
+   "niveau": "avancé",
+   "categorie": "Open source & local",
+   "importance": 3,
+   "tags": [
+    "Qwen",
+    "Multi-agents",
+    "LiveCodeBench",
+    "Open Source",
+    "Programmation"
+   ]
+  },
+  "histoire_vu": true
+ },
+ {
+  "id": "fe548f5497379f",
+  "titre": "The AI cost of JavaScript frameworks",
+  "lien": "https://nolanlawson.com/2026/10/28/the-ai-cost-of-javascript-frameworks/",
+  "source": "Hacker News (IA, 100+ pts)",
+  "type": "communaute",
+  "rubrique": "veille",
+  "date": "2026-11-01T06:06:19+00:00",
+  "extrait": "Article URL: https://nolanlawson.com/2026/10/28/the-ai-cost-of-javascript-frameworks/ Comments URL: https://news.ycombinator.com/item?id=50323088 Points: 170 # Comments: 117",
+  "echos": [],
+  "anciens_ids": [],
+  "societe": null,
+  "score": 1.35,
+  "raisons": [],
+  "local": false,
+  "categorie": "Actualité",
+  "flair": 2,
+  "analyse": {
+   "titre_fr": "Le coût caché des frameworks JavaScript pour les assistants IA",
+   "societe": {
+    "nom": "Nolan Lawson (blog personnel)",
+    "presentation": "Développeur web et blogueur reconnu, spécialisé dans les performances du web et les technologies JavaScript."
+   },
+   "a_retenir": "Les frameworks JavaScript lourds consomment inutilement plus de tokens et ralentissent l'interprétation du code par les assistants IA.",
+   "resume": "Cet article analyse l'impact des frameworks JavaScript modernes sur l'efficacité des outils de génération de code par IA. Il met en lumière le gaspillage de tokens et les difficultés de compréhension pour les modèles lorsque le code est noyé dans des abstractions complexes.",
+   "pourquoi": "Comprendre cet impact permet d'optimiser les prompts et l'architecture du code pour que les assistants IA soient plus précis et moins coûteux à l'usage.",
+   "comment_ca_marche": "Les grands modèles de langage lisent le code source sous forme de suites de tokens. Les frameworks JavaScript modernes génèrent souvent du code excessivement abstrait, des structures répétitives et du code boilerplate qui s'accumulent dans le contexte. Cela sature la fenêtre de contexte de l'IA, augmente le coût des requêtes API et dilue la pertinence des instructions, entraînant plus d'erreurs de génération.",
+   "utiliser": [
+    "Évaluer la complexité du code source fourni aux assistants IA",
+    "Nettoyer les structures superflues et le boilerplate avant de soumettre du code à une IA",
+    "Préférer du code plus direct et explicite pour guider efficacement les modèles"
+   ],
+   "sur_mon_pc": "Pas en local : service en ligne uniquement",
+   "local": false,
+   "niveau": "intermédiaire",
+   "categorie": "Actualité",
+   "importance": 3,
+   "tags": [
+    "JavaScript",
+    "optimisation",
+    "tokens",
+    "développement web",
+    "LLM"
+   ]
+  }
+ },
+ {
   "id": "253c53848ec401",
   "titre": "Before you roll out Copilot: The data access problem most companies miss - The Business Journals",
   "lien": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNQVRFU05sZ2FjQjc3T1FTY1o0czlxYzk2bFV2NGVsNXp0a1kyUlBZZVBvQ0NZWjVxWjhzc1BIVnVIckJSNmxtZW1vY1Yxcy1fRlI3UzNybjFrTjk4Smg1eERpOTNSTEhpeEk1S2RXaGRnRXMtSFlkNHh2UnBURFI1TGZUeFRHck5ORS1uc3Rucks3MUdkMDBISlNTa21qM3pMN204?oc=5",
@@ -11,7 +581,7 @@
   "echos": [],
   "anciens_ids": [],
   "societe": "microsoft",
-  "score": 6.07,
+  "score": 5.82,
   "raisons": [
    "Acteur majeur : Microsoft",
    "Lancement ou annonce",
@@ -61,7 +631,7 @@
   "echos": [],
   "anciens_ids": [],
   "societe": "anthropic",
-  "score": 3.64,
+  "score": 3.38,
   "raisons": [
    "Acteur majeur : Anthropic"
   ],
@@ -98,6 +668,155 @@
   "histoire_vu": true
  },
  {
+  "id": "435be92947d461",
+  "titre": "What is Gemini 4 Carbon, Google’s new AI model for finding, fixing security flaws? - The Indian Express",
+  "lien": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOZ1Ezd1B5OTJQb1AyR2JxcEJfcktPbTlMX29UeUdfTzJENzVGaC02MFI5YWYwNWY5cGxHVzRtN3A5REdzbUpzV3dUMHhfdXZndzRLN1RwdGhpenRYWEdaeWhQWE1iYV9aLWttNGpNT0hfb25Od0RreXJhR2U0bC1zeW9SenhlcDVpcTFZVm9QMlNkX0FPYVVObklsYUwwa2xVSnJyd1doVUY3aU1taGdITjVnMEY5WXBXM3Bnc29LMEthT0Z1eTBB0gHOAUFVX3lxTE0zV3EzUzhRY0syTFBPd0dpR1lNeTZyME5hYkpsUW1aenZpWjI2eFpzd0VWRDVCazBnZE95Ym1hR084OUlmbFAyTkNvR0YzV3FMNVdCU2ttQWdvQkRVc0NaNWc1cFYtR3BtTU01THc1dDgtSUxIcG1yVkFCRjlXVnlmbXpHSWJHRzlTblp3WDZqLXJtSXpPd2I2NGtURDJRdkxBWXBNRHh1R0MwNDl3NjV5NmtrZUR1aGZkbFhxbzVHSXpmMEJKMkJHT2N0QU5B?oc=5",
+  "source": "Grandes annonces IA",
+  "type": "presse",
+  "rubrique": "veille",
+  "date": "2026-11-01T03:36:00+00:00",
+  "extrait": "What is Gemini 4 Carbon, Google’s new AI model for finding, fixing security flaws? The Indian Express",
+  "echos": [
+   {
+    "source": "Google Gemini (actus)",
+    "lien": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNM3pDX0Q5T210LWlQT0xBcDFMRkpfWmJBZUtYdklVR1o0UnVaYWVpNVF4UWNsXzk1NTJRRmRFSUtwcENaenZfcVJFMnpCeFhGMy1fOGpLRTRwR1o5OU8xTTZtcjJ3RnVUU1JFdnZtamZJNWhnMHlBdHdxXzhUMlhIX2Z5c3lEdkR3VWRIQWVGZWUwSFnSAZMBQVVfeXFMTTN6Q19EOU9tdC1pUE9MQXAxTEZKX1piQWVLWHZJVUdaNFJ1WmFlaTVReFFjbF85NTUyUUZkRUlLcHBDWnp2X3FSRTJ6QnhYRjMtXzhqS0U0cEdaOTlPMU02bXIyd0Z1VFNSRXZ2bWpmSTVoZzB5QXR3cV84VDJYSF9meXN5RHZEd1VkSEFlRmVlMEhZ?oc=5"
+   }
+  ],
+  "anciens_ids": [
+   "2442ed8970ea19"
+  ],
+  "societe": "google",
+  "score": 6.18,
+  "raisons": [
+   "Repris par 2 sources",
+   "Acteur majeur : Google DeepMind",
+   "Jugé important par l'IA (4/5)"
+  ],
+  "local": false,
+  "categorie": "Modèles",
+  "flair": 5,
+  "analyse": {
+   "titre_fr": "Gemini 4 Carbon : le nouveau modèle de Google pour la cybersécurité",
+   "societe": {
+    "nom": "Google DeepMind",
+    "presentation": "La branche de recherche en intelligence artificielle de Google, créatrice des modèles Gemini, de NotebookLM et d'avancées scientifiques majeures comme AlphaFold."
+   },
+   "a_retenir": "Google annonce Gemini 4 Carbon, un modèle d'IA spécifiquement conçu pour identifier et corriger les failles de sécurité informatique.",
+   "resume": "Ce modèle s'attaque aux problématiques de cybersécurité en automatisant la détection et la correction des vulnérabilités logicielles. Il représente une évolution notable dans l'utilisation de l'IA pour renforcer la protection des systèmes informatiques.",
+   "pourquoi": "C'est un outil stratégique pour les professionnels de la sécurité informatique, permettant d'accélérer l'audit et la sécurisation du code à grande échelle.",
+   "comment_ca_marche": "Gemini 4 Carbon analyse de grandes quantités de code source pour repérer des schémas de vulnérabilités connus ou inédits. Une fois la faille identifiée, le modèle est capable de proposer et d'appliquer automatiquement des correctifs adaptés. Il s'appuie sur l'architecture avancée des modèles Gemini optimisée pour la logique et la programmation. Le fonctionnement exact et l'architecture fine restent à détailler par Google.",
+   "utiliser": [
+    "Suivre les annonces officielles de Google DeepMind sur les modalités d'accès",
+    "Évaluer l'intégration potentielle dans les pipelines de développement sécurisé (DevSecOps)",
+    "Tester le modèle sur des environnements de code contrôlés dès sa mise à disposition"
+   ],
+   "sur_mon_pc": "Pas en local : service en ligne uniquement",
+   "local": false,
+   "niveau": "intermédiaire",
+   "categorie": "Modèles",
+   "importance": 4,
+   "tags": [
+    "Gemini",
+    "cybersécurité",
+    "Google",
+    "vulnérabilités"
+   ]
+  },
+  "histoire": "h_4c9894e533",
+  "histoire_vu": true
+ },
+ {
+  "id": "1d2db31c5a9d43",
+  "titre": "64GB isn't the dead zone anymore if you run agents",
+  "lien": "https://www.reddit.com/r/LocalLLaMA/comments/1xksj75/64gb_isnt_the_dead_zone_anymore_if_you_run_agents/",
+  "source": "r/LocalLLaMA",
+  "type": "communaute",
+  "rubrique": "veille",
+  "date": "2026-11-01T03:02:34+00:00",
+  "extrait": "https://preview.redd.it/hboxdgjh2xyh1.png?width=1230&format=png&auto=webp&s=cca6b2b7b08807a334ff5280e19d96133667fbb0 The usual advice was that 64GB is a dead zone for local LLMs: too small for a 70B with real context, and more than a 30B needs. After running a 27B for agentic coding on a 64GB M4 Max for the last ten days, I think that has flipped. My memory usage is in the 50 GB as the context starts building up. Setup: Qwen3.8 27B (16 GB MLX quant) in LM Studio, 256k context, coding agent sessions that sit at 100-200k tokens. At 164k tokens, LM Studio's engine process is using 48 GB, 46 GB of it GPU memory. Roughly: - 16 GB weights - ~11 GB KV cache (~64 KB/token, only 16 of the 64 layers a…",
+  "echos": [],
+  "anciens_ids": [],
+  "societe": "alibaba",
+  "score": 1.66,
+  "raisons": [],
+  "local": true,
+  "categorie": "Open source & local",
+  "flair": 3,
+  "analyse": {
+   "titre_fr": "Pourquoi 64 Go de RAM redevient idéal pour les agents IA locaux",
+   "societe": {
+    "nom": "Alibaba (Qwen)",
+    "presentation": "Le géant chinois du commerce en ligne, éditeur de Qwen, l'une des plus grandes familles de modèles ouverts."
+   },
+   "a_retenir": "Avec des modèles comme Qwen de taille intermédiaire (27B) et de grands contextes, 64 Go de mémoire unifiée suffisent pour faire tourner des agents de code efficaces.",
+   "resume": "Un utilisateur témoigne de l'utilisation d'un modèle Qwen 3.8 27B quantifié sur un Mac M4 Max avec 64 Go de RAM pour des sessions de code agentique. Il montre que la mémoire est parfaitement consommée (autour de 50 Go) pour gérer des contextes longs de 100k à 200k tokens, balayant l'idée d'une zone morte pour cette configuration.",
+   "pourquoi": "Cela démontre aux professionnels que les configurations à 64 Go de RAM restent très pertinentes pour exécuter des agents IA locaux sur des contextes étendus.",
+   "comment_ca_marche": "Le système utilise un modèle de taille moyenne (27 milliards de paramètres) quantifié pour tenir sur environ 16 Go de mémoire. Le reste de la mémoire unifiée (jusqu'à 50 Go) est consommé dynamiquement par le cache KV (Key-Value), nécessaire pour retenir un contexte massif de plus de 100 000 tokens lors des sessions de travail d'un agent de code.",
+   "utiliser": [
+    "Télécharger un modèle Qwen de taille moyenne (ex: 27B) adapté au code",
+    "Configurer LM Studio avec un support de contexte étendu (164k tokens ou plus)",
+    "Lancer des sessions d'agents de code pour observer la consommation du cache KV"
+   ],
+   "sur_mon_pc": "PC ou Mac avec 64 Go de RAM unifiée (ex: Apple Silicon M4 Max), logiciel LM Studio",
+   "local": true,
+   "niveau": "intermédiaire",
+   "categorie": "Open source & local",
+   "importance": 3,
+   "tags": [
+    "Qwen",
+    "LLM local",
+    "Agents",
+    "Mémoire RAM",
+    "LM Studio"
+   ]
+  },
+  "histoire_vu": true
+ },
+ {
+  "id": "a376c8b4a56948",
+  "titre": "We’re Living in the Age of the Imperial CEO - WSJ",
+  "lien": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPY3N0ZlF1dzhaZkYzV0RpanUyVDczaDFGWWh2dDJFbldQclhJSmdWUFNYaThpLTdQUkc0UGluZVQ1aXJmZ1FYblBWNVgyd1BsY0dfVmVPa0drRGlaZzV6THVNX3NDWmozVWhqM0pVd3pyOHd4RFNNM3BFcjdyUWRXcXhwT1FzampSYkgw?oc=5",
+  "source": "Anthropic (actus)",
+  "type": "presse",
+  "rubrique": "veille",
+  "date": "2026-11-01T00:00:21+00:00",
+  "extrait": "We’re Living in the Age of the Imperial CEO WSJ",
+  "echos": [],
+  "anciens_ids": [],
+  "societe": null,
+  "score": -0.62,
+  "raisons": [],
+  "local": false,
+  "categorie": "Actualité",
+  "flair": 1,
+  "analyse": {
+   "titre_fr": "Article du WSJ sur l'ère des PDG impériaux",
+   "societe": {
+    "nom": "Anthropic",
+    "presentation": "Entreprise américaine de recherche et de développement en intelligence artificielle, créatrice de la famille de modèles Claude."
+   },
+   "a_retenir": "Un article du Wall Street Journal aborde la notion de l'ère des dirigeants puissants, partagé par l'actualité d'Anthropic.",
+   "resume": "La source redirige vers un article du Wall Street Journal intitulé 'We’re Living in the Age of the Imperial CEO' (Nous vivons à l'ère du PDG impérial), relayé via le flux d'actualités d'Anthropic.",
+   "pourquoi": "Il est utile de suivre la façon dont la presse économique perçoit le pouvoir des dirigeants des grandes entreprises technologiques de l'IA.",
+   "comment_ca_marche": "Il s'agit d'un article de presse externe au format textuel, sans mécanisme technique particulier décrit dans l'extrait fourni.",
+   "utiliser": [
+    "Lire l'article original sur le site du Wall Street Journal",
+    "Analyser l'impact de la gouvernance des entreprises technologiques"
+   ],
+   "sur_mon_pc": "Pas en local : service en ligne uniquement",
+   "local": false,
+   "niveau": "débutant",
+   "categorie": "Actualité",
+   "importance": 1,
+   "tags": [
+    "WSJ",
+    "Anthropic",
+    "Gouvernance",
+    "PDG"
+   ]
+  }
+ },
+ {
   "id": "0def4a2fca6b3a",
   "titre": "How We Took Over ChatGPT Accounts",
   "lien": "https://simonwillison.net/2026/Oct/31/how-we-took-over-chatgpt-accounts/",
@@ -109,7 +828,7 @@
   "echos": [],
   "anciens_ids": [],
   "societe": "openai",
-  "score": 4.11,
+  "score": 3.86,
   "raisons": [
    "Acteur majeur : OpenAI",
    "Jugé important par l'IA (4/5)"
@@ -159,11 +878,11 @@
   "echos": [],
   "anciens_ids": [],
   "societe": "spacexai",
-  "score": 3.01,
+  "score": 2.76,
   "raisons": [],
   "local": false,
   "categorie": "Modèles",
-  "flair": 4,
+  "flair": 3,
   "analyse": {
    "titre_fr": "Grok 4.8 : l'utilité réelle plutôt que les benchmarks",
    "societe": {
@@ -205,7 +924,7 @@
   "echos": [],
   "anciens_ids": [],
   "societe": "anthropic",
-  "score": 1.11,
+  "score": 0.85,
   "raisons": [
    "Acteur majeur : Anthropic"
   ],
@@ -243,7 +962,7 @@
   "echos": [],
   "anciens_ids": [],
   "societe": "openai",
-  "score": -0.52,
+  "score": -0.77,
   "raisons": [],
   "local": false,
   "categorie": "Modèles",
@@ -261,7 +980,7 @@
   "echos": [],
   "anciens_ids": [],
   "societe": "apple",
-  "score": 1.77,
+  "score": 1.52,
   "raisons": [],
   "local": false,
   "categorie": "Business & régulation",
@@ -307,14 +1026,14 @@
   "echos": [],
   "anciens_ids": [],
   "societe": "anthropic",
-  "score": 4.37,
+  "score": 4.11,
   "raisons": [
    "Acteur majeur : Anthropic",
    "Utilisable librement (open source)"
   ],
   "local": false,
   "categorie": "Business & régulation",
-  "flair": 5,
+  "flair": 4,
   "analyse": {
    "titre_fr": "Anthropic bloque des comptes pour entraînement présumé de concurrents",
    "societe": {
@@ -357,7 +1076,7 @@
   "echos": [],
   "anciens_ids": [],
   "societe": null,
-  "score": -0.44,
+  "score": -0.69,
   "raisons": [],
   "local": false,
   "categorie": "Actualité",
@@ -403,7 +1122,7 @@
   "echos": [],
   "anciens_ids": [],
   "societe": "nvidia",
-  "score": 0.76,
+  "score": 0.51,
   "raisons": [],
   "local": true,
   "categorie": "Open source & local",
@@ -445,11 +1164,11 @@
   "type": "communaute",
   "rubrique": "veille",
   "date": "2026-10-31T21:07:58+00:00",
-  "extrait": "Article URL: https://mashable.com/tech/anthropic-takes-steps-to-block-video-game-cloning-and-reverse-engineering Comments URL: https://news.ycombinator.com/item?id=50320255 Points: 126 # Comments: 78",
+  "extrait": "Article URL: https://mashable.com/tech/anthropic-takes-steps-to-block-video-game-cloning-and-reverse-engineering Comments URL: https://news.ycombinator.com/item?id=50320255 Points: 163 # Comments: 101",
   "echos": [],
   "anciens_ids": [],
   "societe": "anthropic",
-  "score": 2.85,
+  "score": 2.6,
   "raisons": [
    "Acteur majeur : Anthropic"
   ],
@@ -497,7 +1216,7 @@
   "echos": [],
   "anciens_ids": [],
   "societe": "alibaba",
-  "score": 1.12,
+  "score": 0.87,
   "raisons": [],
   "local": true,
   "categorie": "Open source & local",
@@ -531,6 +1250,53 @@
   }
  },
  {
+  "id": "b0ea1cf1f211e4",
+  "titre": "Anthropic's watermark rollout leaves a loophole on two older Claude models - The Decoder",
+  "lien": "https://news.google.com/rss/articles/CBMinwFBVV95cUxObWRRVDc2NW4xb3Vod21YR3hORTRGNjlONHFUc3ozSWx0SGZ2ZnpGd1NoUnRXSFlXcUoxOUZEcXJHVkhQVHc1ei01VHpaMWJXZUJZVEFjTXpoVm5oMnlaOW9KZ3BPQXBBMzVRaEVva3p3eFMteHFjdnltQmozZnZqNXFDTVVRME9ONXZ5YXdCRDV5U2FiTzFmRmtKa2c3ams?oc=5",
+  "source": "Anthropic (actus)",
+  "type": "presse",
+  "rubrique": "veille",
+  "date": "2026-10-31T19:24:37+00:00",
+  "extrait": "Anthropic's watermark rollout leaves a loophole on two older Claude models The Decoder",
+  "echos": [],
+  "anciens_ids": [],
+  "societe": "anthropic",
+  "score": 1.95,
+  "raisons": [
+   "Acteur majeur : Anthropic"
+  ],
+  "local": false,
+  "categorie": "Business & régulation",
+  "flair": 3,
+  "analyse": {
+   "titre_fr": "Le déploiement du filigrane d'Anthropic laisse une faille sur deux anciens modèles Claude",
+   "societe": {
+    "nom": "Anthropic",
+    "presentation": "Créateur de l'assistant Claude, fondé en 2021 par d'anciens d'OpenAI, misant sur la sécurité de l'IA."
+   },
+   "a_retenir": "Le nouveau système de filigrane d'Anthropic ne couvre pas encore tous ses anciens modèles, créant une faille potentielle.",
+   "resume": "Le déploiement récent des filigranes par Anthropic pour identifier les contenus générés par IA présente une exception notable, laissant deux anciens modèles Claude non concernés par cette mesure.",
+   "pourquoi": "C'est important pour la traçabilité des contenus et la conformité réglementaire, car cela montre les limites temporaires des politiques de marquage des LLM.",
+   "comment_ca_marche": "Le filigrane d'IA consiste à insérer des motifs statistiques invisibles dans le texte généré par un modèle pour permettre de l'identifier ultérieurement. Si certains modèles ne l'intègrent pas, ils peuvent générer du texte non traçable par les outils de détection de la marque. Le processus repose sur des modifications de la distribution des probabilités des mots choisis lors de la génération.",
+   "utiliser": [
+    "Vérifier la version des modèles Claude utilisés dans vos workflows",
+    "S'informer sur les capacités de traçabilité des différents LLM sur le marché"
+   ],
+   "sur_mon_pc": "Pas en local : service en ligne uniquement",
+   "local": false,
+   "niveau": "intermédiaire",
+   "categorie": "Business & régulation",
+   "importance": 2,
+   "tags": [
+    "Anthropic",
+    "Claude",
+    "filigrane",
+    "sécurité"
+   ]
+  },
+  "histoire_vu": true
+ },
+ {
   "id": "d4ac3b28f3e76c",
   "titre": "An LLM inside an LLM - Same guy who put a RISK-V CPU inside Qwen has now made Karpathy's stories260k run on an NPU compiled inside Qwen 3.5-4B's weights",
   "lien": "https://www.reddit.com/r/LocalLLaMA/comments/1xkiuut/an_llm_inside_an_llm_same_guy_who_put_a_riskv_cpu/",
@@ -542,7 +1308,7 @@
   "echos": [],
   "anciens_ids": [],
   "societe": "alibaba",
-  "score": 2.3,
+  "score": 2.05,
   "raisons": [],
   "local": true,
   "categorie": "Open source & local",
@@ -590,7 +1356,7 @@
   "echos": [],
   "anciens_ids": [],
   "societe": null,
-  "score": 1.29,
+  "score": 1.04,
   "raisons": [],
   "local": true,
   "categorie": "Open source & local",
@@ -669,10 +1435,11 @@
   "local": false,
   "categorie": "Business & régulation",
   "anciens_ids": [
+   "8736f318c30270",
    "bc398a80a0dffe"
   ],
   "societe": null,
-  "score": 4.29,
+  "score": 4.04,
   "raisons": [
    "Repris par 2 sources",
    "Régulation ou justice"
@@ -689,11 +1456,11 @@
   "type": "communaute",
   "rubrique": "veille",
   "date": "2026-10-31T18:50:34+00:00",
-  "extrait": "Article URL: https://ryanmadden.net/gpt-56-beats-factorio/ Comments URL: https://news.ycombinator.com/item?id=50318871 Points: 164 # Comments: 178",
+  "extrait": "Article URL: https://ryanmadden.net/gpt-56-beats-factorio/ Comments URL: https://news.ycombinator.com/item?id=50318871 Points: 174 # Comments: 186",
   "echos": [],
   "anciens_ids": [],
   "societe": "openai",
-  "score": 2.79,
+  "score": 2.54,
   "raisons": [
    "Acteur majeur : OpenAI"
   ],
@@ -743,7 +1510,7 @@
   "echos": [],
   "anciens_ids": [],
   "societe": "anthropic",
-  "score": 3.38,
+  "score": 3.13,
   "raisons": [
    "Acteur majeur : Anthropic",
    "Lancement ou annonce"
@@ -793,7 +1560,7 @@
   "echos": [],
   "anciens_ids": [],
   "societe": "openai",
-  "score": 2.17,
+  "score": 1.92,
   "raisons": [
    "Acteur majeur : OpenAI"
   ],
@@ -841,7 +1608,7 @@
   "echos": [],
   "anciens_ids": [],
   "societe": "nvidia",
-  "score": 2.77,
+  "score": 2.52,
   "raisons": [
    "Acteur majeur : NVIDIA"
   ],
@@ -891,11 +1658,11 @@
   "echos": [],
   "anciens_ids": [],
   "societe": "spacexai",
-  "score": 1.67,
+  "score": 1.42,
   "raisons": [],
   "local": false,
   "categorie": "Outils & applis",
-  "flair": 3,
+  "flair": 2,
   "analyse": {
    "titre_fr": "Tesla intègre les fichiers de Grok pour les voitures équipées de puces Intel",
    "societe": {
@@ -937,7 +1704,7 @@
   "echos": [],
   "anciens_ids": [],
   "societe": "alibaba",
-  "score": 4.05,
+  "score": 3.8,
   "raisons": [
    "Jugé important par l'IA (4/5)"
   ],
@@ -987,7 +1754,7 @@
   "echos": [],
   "anciens_ids": [],
   "societe": "google",
-  "score": 3.31,
+  "score": 3.06,
   "raisons": [
    "Acteur majeur : Google DeepMind"
   ],
@@ -1036,7 +1803,7 @@
   "echos": [],
   "anciens_ids": [],
   "societe": "meta",
-  "score": 2.11,
+  "score": 1.86,
   "raisons": [
    "Acteur majeur : Meta"
   ],
@@ -1085,7 +1852,7 @@
   "echos": [],
   "anciens_ids": [],
   "societe": "google",
-  "score": 2.69,
+  "score": 2.44,
   "raisons": [
    "Acteur majeur : Google DeepMind"
   ],
@@ -1134,7 +1901,7 @@
   "echos": [],
   "anciens_ids": [],
   "societe": "microsoft",
-  "score": 2.08,
+  "score": 1.83,
   "raisons": [
    "Acteur majeur : Microsoft"
   ],
@@ -1181,7 +1948,7 @@
   "echos": [],
   "anciens_ids": [],
   "societe": null,
-  "score": 1.78,
+  "score": 1.53,
   "raisons": [],
   "local": false,
   "categorie": "Business & régulation",
@@ -1227,7 +1994,7 @@
   "echos": [],
   "anciens_ids": [],
   "societe": null,
-  "score": 1.17,
+  "score": 0.91,
   "raisons": [],
   "local": false,
   "categorie": "Business & régulation",
@@ -1273,11 +2040,11 @@
   "echos": [],
   "anciens_ids": [],
   "societe": "alibaba",
-  "score": 1.56,
+  "score": 1.31,
   "raisons": [],
   "local": true,
   "categorie": "Open source & local",
-  "flair": 3,
+  "flair": 2,
   "analyse": {
    "titre_fr": "Impact des moteurs d'inférence sur les performances des LLM",
    "societe": {
@@ -1320,7 +2087,7 @@
   "echos": [],
   "anciens_ids": [],
   "societe": "google",
-  "score": 2.06,
+  "score": 1.81,
   "raisons": [
    "Acteur majeur : Google DeepMind"
   ],
@@ -1368,7 +2135,7 @@
   "echos": [],
   "anciens_ids": [],
   "societe": "alibaba",
-  "score": 0.35,
+  "score": 0.1,
   "raisons": [],
   "local": true,
   "categorie": "Open source & local",
@@ -1414,7 +2181,7 @@
   "echos": [],
   "anciens_ids": [],
   "societe": "microsoft",
-  "score": 3.24,
+  "score": 2.99,
   "raisons": [
    "Acteur majeur : Microsoft"
   ],
@@ -1461,7 +2228,7 @@
   "echos": [],
   "anciens_ids": [],
   "societe": "nvidia",
-  "score": 2.61,
+  "score": 2.36,
   "raisons": [
    "Acteur majeur : NVIDIA"
   ],
@@ -1510,7 +2277,7 @@
   "echos": [],
   "anciens_ids": [],
   "societe": "anthropic",
-  "score": 2.79,
+  "score": 2.54,
   "raisons": [
    "Acteur majeur : Anthropic",
    "Argent, levée ou rachat"
@@ -1559,7 +2326,7 @@
   "echos": [],
   "anciens_ids": [],
   "societe": "spacexai",
-  "score": 0.29,
+  "score": 0.04,
   "raisons": [],
   "local": false,
   "categorie": "Outils & applis",
@@ -1603,7 +2370,7 @@
   "echos": [],
   "anciens_ids": [],
   "societe": "anthropic",
-  "score": 1.97,
+  "score": 1.72,
   "raisons": [
    "Acteur majeur : Anthropic"
   ],
@@ -1651,7 +2418,7 @@
   "echos": [],
   "anciens_ids": [],
   "societe": "microsoft",
-  "score": 3.74,
+  "score": 3.49,
   "raisons": [
    "Acteur majeur : Microsoft",
    "Jugé important par l'IA (4/5)"
@@ -1701,7 +2468,7 @@
   "echos": [],
   "anciens_ids": [],
   "societe": "alibaba",
-  "score": 5.04,
+  "score": 4.79,
   "raisons": [
    "Lancement ou annonce",
    "Jugé important par l'IA (4/5)"
@@ -1753,7 +2520,7 @@
   "echos": [],
   "anciens_ids": [],
   "societe": "microsoft",
-  "score": 1.94,
+  "score": 1.69,
   "raisons": [
    "Acteur majeur : Microsoft"
   ],
@@ -1801,11 +2568,11 @@
   "echos": [],
   "anciens_ids": [],
   "societe": null,
-  "score": 0.16,
+  "score": -0.09,
   "raisons": [],
   "local": false,
   "categorie": "Business & régulation",
-  "flair": 2,
+  "flair": 1,
   "analyse": {
    "titre_fr": "Avis critique sur l'avenir de l'IA européenne et la stratégie franco-allemande",
    "societe": {
@@ -1849,7 +2616,7 @@
   "echos": [],
   "anciens_ids": [],
   "societe": "anthropic",
-  "score": 6.32,
+  "score": 6.07,
   "raisons": [
    "Source officielle",
    "Acteur majeur : Anthropic",
@@ -1900,7 +2667,7 @@
   "echos": [],
   "anciens_ids": [],
   "societe": "openai",
-  "score": 4.22,
+  "score": 3.97,
   "raisons": [
    "Acteur majeur : OpenAI",
    "Jugé important par l'IA (4/5)"
@@ -1950,7 +2717,7 @@
   "echos": [],
   "anciens_ids": [],
   "societe": null,
-  "score": 2.21,
+  "score": 1.96,
   "raisons": [
    "Nouveau modèle ou nouvelle version"
   ],
@@ -1999,7 +2766,7 @@
   "echos": [],
   "anciens_ids": [],
   "societe": null,
-  "score": 0.9,
+  "score": 0.64,
   "raisons": [],
   "local": false,
   "categorie": "Actualité",
@@ -2017,7 +2784,7 @@
   "echos": [],
   "anciens_ids": [],
   "societe": null,
-  "score": 2.67,
+  "score": 2.42,
   "raisons": [
    "Jugé important par l'IA (4/5)"
   ],
@@ -2073,7 +2840,7 @@
    "c2b46127a51c42"
   ],
   "societe": "openai",
-  "score": 6.55,
+  "score": 6.29,
   "raisons": [
    "Repris par 2 sources",
    "Acteur majeur : OpenAI",
@@ -2124,7 +2891,7 @@
   "echos": [],
   "anciens_ids": [],
   "societe": "nvidia",
-  "score": 2.9,
+  "score": 2.65,
   "raisons": [
    "Acteur majeur : NVIDIA"
   ],
@@ -2177,7 +2944,7 @@
   "echos": [],
   "anciens_ids": [],
   "societe": "anthropic",
-  "score": 4.39,
+  "score": 4.14,
   "raisons": [
    "Source primaire",
    "Acteur majeur : Anthropic",
@@ -2185,7 +2952,7 @@
   ],
   "local": true,
   "categorie": "Outils & applis",
-  "flair": 5,
+  "flair": 4,
   "analyse": {
    "titre_fr": "Mise à jour Claude Code v2.1.316 : budgets partagés et correctifs",
    "societe": {
@@ -2229,7 +2996,7 @@
   "echos": [],
   "anciens_ids": [],
   "societe": "ollama",
-  "score": 0.39,
+  "score": 0.14,
   "raisons": [
    "Utilisable librement (open source)"
   ],
@@ -2280,7 +3047,7 @@
   "echos": [],
   "anciens_ids": [],
   "societe": "openai",
-  "score": 2.88,
+  "score": 2.63,
   "raisons": [
    "Source primaire",
    "Acteur majeur : OpenAI"
@@ -2330,11 +3097,11 @@
   "echos": [],
   "anciens_ids": [],
   "societe": null,
-  "score": 0.14,
+  "score": -0.12,
   "raisons": [],
   "local": false,
   "categorie": "Actualité",
-  "flair": 2,
+  "flair": 1,
   "histoire_vu": true,
   "analyse": {
    "titre_fr": "Fermeture prochaine d'Ollie, un assistant IA axé sur la confidentialité",
@@ -2376,7 +3143,7 @@
   "echos": [],
   "anciens_ids": [],
   "societe": null,
-  "score": 0.14,
+  "score": -0.12,
   "raisons": [],
   "local": false,
   "categorie": "Vie privée",
@@ -2411,7 +3178,7 @@
   "echos": [],
   "anciens_ids": [],
   "societe": "apple",
-  "score": 2.32,
+  "score": 2.07,
   "raisons": [],
   "local": false,
   "categorie": "Business & régulation",
@@ -2457,7 +3224,7 @@
   "echos": [],
   "anciens_ids": [],
   "societe": "alibaba",
-  "score": 1.11,
+  "score": 0.86,
   "raisons": [],
   "local": true,
   "categorie": "Open source & local",
@@ -2503,7 +3270,7 @@
   "echos": [],
   "anciens_ids": [],
   "societe": "anthropic",
-  "score": 4.01,
+  "score": 3.76,
   "raisons": [
    "Acteur majeur : Anthropic",
    "Jugé important par l'IA (4/5)"
@@ -2552,7 +3319,7 @@
   "echos": [],
   "anciens_ids": [],
   "societe": null,
-  "score": 1.31,
+  "score": 1.05,
   "raisons": [],
   "local": false,
   "categorie": "Business & régulation",
@@ -2598,7 +3365,7 @@
   "echos": [],
   "anciens_ids": [],
   "societe": null,
-  "score": -1.11,
+  "score": -1.36,
   "raisons": [],
   "local": false,
   "categorie": "Actualité",
@@ -2642,7 +3409,7 @@
   "echos": [],
   "anciens_ids": [],
   "societe": null,
-  "score": 2.49,
+  "score": 2.24,
   "raisons": [
    "Jugé important par l'IA (4/5)"
   ],
@@ -2690,7 +3457,7 @@
   "echos": [],
   "anciens_ids": [],
   "societe": "anthropic",
-  "score": 3.99,
+  "score": 3.73,
   "raisons": [
    "Acteur majeur : Anthropic",
    "Jugé important par l'IA (4/5)"
@@ -2741,7 +3508,7 @@
   "echos": [],
   "anciens_ids": [],
   "societe": null,
-  "score": 0.08,
+  "score": -0.17,
   "raisons": [
    "Prix ou accès"
   ],
@@ -2793,7 +3560,7 @@
   "echos": [],
   "anciens_ids": [],
   "societe": "anthropic",
-  "score": 4.58,
+  "score": 4.32,
   "raisons": [
    "Source officielle",
    "Acteur majeur : Anthropic",
@@ -2848,7 +3615,7 @@
   "echos": [],
   "anciens_ids": [],
   "societe": "openai",
-  "score": 8.28,
+  "score": 8.02,
   "raisons": [
    "Source officielle",
    "Acteur majeur : OpenAI",
@@ -2900,7 +3667,7 @@
   "echos": [],
   "anciens_ids": [],
   "societe": "google",
-  "score": 3.97,
+  "score": 3.72,
   "raisons": [
    "Acteur majeur : Google DeepMind",
    "Jugé important par l'IA (4/5)"
@@ -2949,7 +3716,7 @@
   "echos": [],
   "anciens_ids": [],
   "societe": "anthropic",
-  "score": 3.97,
+  "score": 3.72,
   "raisons": [
    "Acteur majeur : Anthropic",
    "Jugé important par l'IA (4/5)"
@@ -2998,7 +3765,7 @@
   "echos": [],
   "anciens_ids": [],
   "societe": "openai",
-  "score": 1.87,
+  "score": 1.61,
   "raisons": [],
   "local": false,
   "categorie": "Business & régulation",
@@ -3044,7 +3811,7 @@
   "echos": [],
   "anciens_ids": [],
   "societe": "anthropic",
-  "score": 2.76,
+  "score": 2.51,
   "raisons": [
    "Acteur majeur : Anthropic"
   ],
@@ -3093,7 +3860,7 @@
   "echos": [],
   "anciens_ids": [],
   "societe": null,
-  "score": 0.65,
+  "score": 0.39,
   "raisons": [],
   "local": true,
   "categorie": "Actualité",
@@ -3111,7 +3878,7 @@
   "echos": [],
   "anciens_ids": [],
   "societe": null,
-  "score": 0.04,
+  "score": -0.21,
   "raisons": [],
   "local": false,
   "categorie": "Militaire",
@@ -3151,7 +3918,7 @@
    "a8558ab8e98160"
   ],
   "societe": "anthropic",
-  "score": 1.52,
+  "score": 1.27,
   "raisons": [
    "Acteur majeur : Anthropic"
   ],
@@ -3200,7 +3967,7 @@
   "echos": [],
   "anciens_ids": [],
   "societe": "anthropic",
-  "score": 3.92,
+  "score": 3.67,
   "raisons": [
    "Acteur majeur : Anthropic",
    "Jugé important par l'IA (4/5)"
@@ -3250,7 +4017,7 @@
   "echos": [],
   "anciens_ids": [],
   "societe": "anthropic",
-  "score": 1.52,
+  "score": 1.26,
   "raisons": [
    "Acteur majeur : Anthropic"
   ],
@@ -3298,7 +4065,7 @@
   "echos": [],
   "anciens_ids": [],
   "societe": "google",
-  "score": -1.19,
+  "score": -1.44,
   "raisons": [],
   "local": false,
   "categorie": "Open source & local",
@@ -3342,7 +4109,7 @@
   "echos": [],
   "anciens_ids": [],
   "societe": "google",
-  "score": 3.91,
+  "score": 3.66,
   "raisons": [
    "Acteur majeur : Google DeepMind",
    "Jugé important par l'IA (4/5)"
@@ -3392,7 +4159,7 @@
   "echos": [],
   "anciens_ids": [],
   "societe": "nvidia",
-  "score": 3.5,
+  "score": 3.24,
   "raisons": [
    "Source officielle",
    "Acteur majeur : NVIDIA"
@@ -3441,7 +4208,7 @@
   "echos": [],
   "anciens_ids": [],
   "societe": null,
-  "score": -0.01,
+  "score": -0.26,
   "raisons": [],
   "local": false,
   "categorie": "Outils & applis",
@@ -3487,7 +4254,7 @@
   "echos": [],
   "anciens_ids": [],
   "societe": null,
-  "score": -0.01,
+  "score": -0.26,
   "raisons": [],
   "local": false,
   "categorie": "Business & régulation",
@@ -3533,7 +4300,7 @@
   "echos": [],
   "anciens_ids": [],
   "societe": "google",
-  "score": 1.49,
+  "score": 1.23,
   "raisons": [
    "Utilisable librement (open source)"
   ],
@@ -3577,11 +4344,11 @@
   "type": "communaute",
   "rubrique": "veille",
   "date": "2026-10-30T17:24:45+00:00",
-  "extrait": "Article URL: https://www.404media.co/protons-ceo-cancels-ai-re-interviews/ Comments URL: https://news.ycombinator.com/item?id=50307183 Points: 291 # Comments: 249",
+  "extrait": "Article URL: https://www.404media.co/protons-ceo-cancels-ai-re-interviews/ Comments URL: https://news.ycombinator.com/item?id=50307183 Points: 291 # Comments: 253",
   "echos": [],
   "anciens_ids": [],
   "societe": null,
-  "score": 0.58,
+  "score": 0.33,
   "raisons": [],
   "local": false,
   "categorie": "Actualité",
@@ -3599,7 +4366,7 @@
   "echos": [],
   "anciens_ids": [],
   "societe": "alibaba",
-  "score": 0.98,
+  "score": 0.73,
   "raisons": [],
   "local": true,
   "categorie": "Open source & local",
@@ -3617,7 +4384,7 @@
   "echos": [],
   "anciens_ids": [],
   "societe": "anthropic",
-  "score": 1.47,
+  "score": 1.22,
   "raisons": [
    "Acteur majeur : Anthropic"
   ],
@@ -3672,7 +4439,7 @@
    "e2fd48e67c964d"
   ],
   "societe": "google",
-  "score": 5.47,
+  "score": 5.22,
   "raisons": [
    "Repris par 2 sources",
    "Acteur majeur : Google DeepMind",
@@ -3723,7 +4490,7 @@
   "echos": [],
   "anciens_ids": [],
   "societe": "deepseek",
-  "score": 0.36,
+  "score": 0.11,
   "raisons": [],
   "local": false,
   "categorie": "Open source & local",
@@ -3777,7 +4544,7 @@
    "60ba719a05749c"
   ],
   "societe": "anthropic",
-  "score": 5.06,
+  "score": 4.81,
   "raisons": [
    "Repris par 2 sources",
    "Acteur majeur : Anthropic",
@@ -3828,7 +4595,7 @@
   "echos": [],
   "anciens_ids": [],
   "societe": "anthropic",
-  "score": 2.65,
+  "score": 2.4,
   "raisons": [
    "Acteur majeur : Anthropic"
   ],
@@ -3872,11 +4639,11 @@
   "type": "communaute",
   "rubrique": "veille",
   "date": "2026-10-30T16:13:02+00:00",
-  "extrait": "Article URL: https://www.bbc.co.uk/news/articles/cvwy72e0n72yo Comments URL: https://news.ycombinator.com/item?id=50306008 Points: 267 # Comments: 295",
+  "extrait": "Article URL: https://www.bbc.co.uk/news/articles/cvwy72e0n72yo Comments URL: https://news.ycombinator.com/item?id=50306008 Points: 267 # Comments: 298",
   "echos": [],
   "anciens_ids": [],
   "societe": null,
-  "score": 0.55,
+  "score": 0.3,
   "raisons": [],
   "local": false,
   "categorie": "Actualité",
@@ -3894,7 +4661,7 @@
   "echos": [],
   "anciens_ids": [],
   "societe": null,
-  "score": 1.14,
+  "score": 0.89,
   "raisons": [],
   "local": false,
   "categorie": "Business & régulation",
@@ -3937,11 +4704,11 @@
   "type": "communaute",
   "rubrique": "veille",
   "date": "2026-10-30T15:52:18+00:00",
-  "extrait": "Article URL: https://newsletter.signoz.io/p/ai-isnt-replacing-sres-its-deskilling Comments URL: https://news.ycombinator.com/item?id=50305693 Points: 650 # Comments: 475",
+  "extrait": "Article URL: https://newsletter.signoz.io/p/ai-isnt-replacing-sres-its-deskilling Comments URL: https://news.ycombinator.com/item?id=50305693 Points: 656 # Comments: 477",
   "echos": [],
   "anciens_ids": [],
   "societe": null,
-  "score": 0.54,
+  "score": 0.29,
   "raisons": [],
   "local": false,
   "categorie": "Actualité",
@@ -3959,7 +4726,7 @@
   "echos": [],
   "anciens_ids": [],
   "societe": "google",
-  "score": -0.37,
+  "score": -0.62,
   "raisons": [
    "Acteur majeur : Google DeepMind"
   ],
@@ -4012,7 +4779,7 @@
    "c8c527ea5c0f9d"
   ],
   "societe": null,
-  "score": 1.92,
+  "score": 1.67,
   "raisons": [
    "Régulation ou justice"
   ],
@@ -4054,7 +4821,7 @@
   "echos": [],
   "anciens_ids": [],
   "societe": "ollama",
-  "score": 3.12,
+  "score": 2.87,
   "raisons": [
    "Source primaire",
    "Utilisable librement (open source)"
@@ -4105,13 +4872,13 @@
   "echos": [],
   "anciens_ids": [],
   "societe": "openai",
-  "score": 1.42,
+  "score": 1.17,
   "raisons": [
    "Acteur majeur : OpenAI"
   ],
   "local": false,
   "categorie": "Pouvoir et régulation",
-  "flair": 4,
+  "flair": 3,
   "analyse": {
    "titre_fr": "Le Japon demande à OpenAI et Anthropic un accès accru à leurs modèles avancés",
    "resume": "Le gouvernement japonais a formulé une demande auprès des entreprises OpenAI et Anthropic afin d'obtenir un accès plus important à leurs modèles d'intelligence artificielle avancés.",
@@ -4144,7 +4911,7 @@
   "echos": [],
   "anciens_ids": [],
   "societe": null,
-  "score": 0.52,
+  "score": 0.26,
   "raisons": [],
   "local": false,
   "categorie": "Modèles",
@@ -4162,7 +4929,7 @@
   "echos": [],
   "anciens_ids": [],
   "societe": null,
-  "score": 0.71,
+  "score": 0.46,
   "raisons": [
    "Source officielle"
   ],
@@ -4210,7 +4977,7 @@
   "echos": [],
   "anciens_ids": [],
   "societe": null,
-  "score": 1.11,
+  "score": 0.86,
   "raisons": [],
   "local": false,
   "categorie": "Business & régulation",
@@ -4256,7 +5023,7 @@
   "echos": [],
   "anciens_ids": [],
   "societe": null,
-  "score": 1.29,
+  "score": 1.04,
   "raisons": [
    "Régulation ou justice"
   ],
@@ -4302,11 +5069,11 @@
   "type": "communaute",
   "rubrique": "veille",
   "date": "2026-10-30T14:08:20+00:00",
-  "extrait": "Article URL: https://fortune.com/2026/10/30/cisco-president-jeetu-patel-gen-z-27-year-old-unlimited-ai-tokens-rewrite-legacy-code-entry-level-jobs/ Comments URL: https://news.ycombinator.com/item?id=50304122 Points: 303 # Comments: 378",
+  "extrait": "Article URL: https://fortune.com/2026/10/30/cisco-president-jeetu-patel-gen-z-27-year-old-unlimited-ai-tokens-rewrite-legacy-code-entry-level-jobs/ Comments URL: https://news.ycombinator.com/item?id=50304122 Points: 310 # Comments: 382",
   "echos": [],
   "anciens_ids": [],
   "societe": null,
-  "score": 0.49,
+  "score": 0.24,
   "raisons": [],
   "local": false,
   "categorie": "Actualité",
@@ -4324,7 +5091,7 @@
   "echos": [],
   "anciens_ids": [],
   "societe": null,
-  "score": -0.12,
+  "score": -0.37,
   "raisons": [],
   "local": false,
   "categorie": "Business & régulation",
@@ -4370,7 +5137,7 @@
   "echos": [],
   "anciens_ids": [],
   "societe": "deepseek",
-  "score": 3.98,
+  "score": 3.73,
   "raisons": [
    "Nouveau modèle ou nouvelle version"
   ],
@@ -4419,7 +5186,7 @@
   "echos": [],
   "anciens_ids": [],
   "societe": "anthropic",
-  "score": 2.58,
+  "score": 2.33,
   "raisons": [
    "Acteur majeur : Anthropic"
   ],
@@ -4468,7 +5235,7 @@
   "echos": [],
   "anciens_ids": [],
   "societe": "openai",
-  "score": 1.38,
+  "score": 1.12,
   "raisons": [
    "Acteur majeur : OpenAI"
   ],
@@ -4517,12 +5284,39 @@
   "echos": [],
   "anciens_ids": [],
   "societe": null,
-  "score": 1.06,
+  "score": -0.39,
   "raisons": [],
   "local": false,
-  "categorie": "Actualité",
-  "flair": 2,
-  "histoire_vu": true
+  "categorie": "Business & régulation",
+  "flair": 1,
+  "histoire_vu": true,
+  "analyse": {
+   "titre_fr": "Les investissements en IA oscillent entre risques existentiels et âges des miracles",
+   "societe": {
+    "nom": "Anthropic",
+    "presentation": "Anthropic est une entreprise de recherche et de développement en intelligence artificielle, créatrice de la famille de modèles d'IA Claude."
+   },
+   "a_retenir": "Investir dans l'IA revient à parier sur des technologies aux conséquences extrêmes, allant du risque existentiel au miracle technologique.",
+   "resume": "Les documents financiers et réglementaires de la Silicon Valley, notamment ceux liés à Anthropic, soulignent une dualité inédite : miser sur des technologies capables de bouleverser l'humanité dans un sens ou dans un autre.",
+   "pourquoi": "Cela met en lumière la perception financière et les risques démesurés associés aux investissements massifs dans les entreprises d'IA de pointe.",
+   "comment_ca_marche": "Les entreprises d'IA développent des systèmes de plus en plus puissants (comme les grands modèles de langage) en levant des fonds considérables auprès d'investisseurs. Ces investissements parient sur la rupture technologique que représenterait l'atteinte d'une IA générale (AGI). Les documents financiers doivent légalement lister ces scénarios extrêmes pour informer les actionnaires des risques encourus.",
+   "utiliser": [
+    "Analyser les facteurs de risque des entreprises d'IA avant d'investir",
+    "Évaluer l'impact des technologies de pointe sur votre propre stratégie sectorielle",
+    "Suivre l'évolution des réglementations financières liées aux start-ups d'IA"
+   ],
+   "sur_mon_pc": "Pas en local : service en ligne uniquement",
+   "local": false,
+   "niveau": "débutant",
+   "categorie": "Business & régulation",
+   "importance": 2,
+   "tags": [
+    "investissement",
+    "régulation",
+    "risques",
+    "Silicon Valley"
+   ]
+  }
  },
  {
   "id": "08415b6845ce9e",
@@ -4536,7 +5330,7 @@
   "echos": [],
   "anciens_ids": [],
   "societe": "microsoft",
-  "score": 2.56,
+  "score": 2.31,
   "raisons": [
    "Acteur majeur : Microsoft"
   ],
@@ -4589,7 +5383,7 @@
   "echos": [],
   "anciens_ids": [],
   "societe": "google",
-  "score": 6.76,
+  "score": 6.51,
   "raisons": [
    "Source officielle",
    "Acteur majeur : Google DeepMind",
@@ -4641,7 +5435,7 @@
   "echos": [],
   "anciens_ids": [],
   "societe": "openai",
-  "score": 2.56,
+  "score": 2.31,
   "raisons": [
    "Acteur majeur : OpenAI"
   ],
@@ -4691,7 +5485,7 @@
    "fa6e9be3b3b2e0"
   ],
   "societe": null,
-  "score": 0.66,
+  "score": 0.41,
   "raisons": [
    "Régulation ou justice"
   ],
@@ -4731,7 +5525,7 @@
   "echos": [],
   "anciens_ids": [],
   "societe": null,
-  "score": 1.06,
+  "score": 0.81,
   "raisons": [],
   "local": false,
   "categorie": "Business & régulation",
@@ -4777,7 +5571,7 @@
   "echos": [],
   "anciens_ids": [],
   "societe": "anthropic",
-  "score": 1.36,
+  "score": 1.11,
   "raisons": [
    "Acteur majeur : Anthropic"
   ],
@@ -4824,7 +5618,7 @@
   "echos": [],
   "anciens_ids": [],
   "societe": "google",
-  "score": 1.35,
+  "score": 1.1,
   "raisons": [
    "Acteur majeur : Google DeepMind"
   ],
@@ -4872,7 +5666,7 @@
   "echos": [],
   "anciens_ids": [],
   "societe": "google",
-  "score": 3.43,
+  "score": 3.18,
   "raisons": [
    "Acteur majeur : Google DeepMind",
    "Utilisable librement (open source)"
@@ -4922,7 +5716,7 @@
   "echos": [],
   "anciens_ids": [],
   "societe": "spacexai",
-  "score": 0.83,
+  "score": 0.58,
   "raisons": [],
   "local": false,
   "categorie": "Outils & applis",
@@ -4968,7 +5762,7 @@
   "echos": [],
   "anciens_ids": [],
   "societe": "anthropic",
-  "score": 2.12,
+  "score": 1.86,
   "raisons": [
    "Acteur majeur : Anthropic",
    "Argent, levée ou rachat"
@@ -5013,18 +5807,18 @@
   "type": "communaute",
   "rubrique": "veille",
   "date": "2026-10-30T11:05:53+00:00",
-  "extrait": "Article URL: https://cyberplace.social/@GossiTheDog/117528831681803563 Comments URL: https://news.ycombinator.com/item?id=50302334 Points: 656 # Comments: 17",
+  "extrait": "Article URL: https://cyberplace.social/@GossiTheDog/117528831681803563 Comments URL: https://news.ycombinator.com/item?id=50302334 Points: 659 # Comments: 17",
   "echos": [],
   "anciens_ids": [],
   "societe": "anthropic",
-  "score": 3.11,
+  "score": 2.85,
   "raisons": [
    "Acteur majeur : Anthropic",
    "Jugé important par l'IA (4/5)"
   ],
   "local": false,
   "categorie": "Business & régulation",
-  "flair": 4,
+  "flair": 3,
   "analyse": {
    "titre_fr": "Vulnérabilités et portes dérobées signalées dans les extensions officielles de Claude Code",
    "societe": {
@@ -5067,7 +5861,7 @@
   "echos": [],
   "anciens_ids": [],
   "societe": null,
-  "score": 1.81,
+  "score": 1.55,
   "raisons": [
    "Argent, levée ou rachat"
   ],
@@ -5105,7 +5899,7 @@
   "echos": [],
   "anciens_ids": [],
   "societe": "anthropic",
-  "score": 1.3,
+  "score": 1.05,
   "raisons": [
    "Acteur majeur : Anthropic"
   ],
@@ -5153,7 +5947,7 @@
   "echos": [],
   "anciens_ids": [],
   "societe": null,
-  "score": 1.0,
+  "score": 0.75,
   "raisons": [],
   "local": false,
   "categorie": "Actualité",
@@ -5172,7 +5966,7 @@
   "echos": [],
   "anciens_ids": [],
   "societe": "openai",
-  "score": 1.3,
+  "score": 1.05,
   "raisons": [
    "Acteur majeur : OpenAI"
   ],
@@ -5219,7 +6013,7 @@
   "echos": [],
   "anciens_ids": [],
   "societe": "openai",
-  "score": 4.5,
+  "score": 4.25,
   "raisons": [
    "Acteur majeur : OpenAI",
    "Lancement ou annonce",
@@ -5227,7 +6021,7 @@
   ],
   "local": false,
   "categorie": "Business & régulation",
-  "flair": 5,
+  "flair": 4,
   "analyse": {
    "titre_fr": "Spéculations sur la date de l'introduction en bourse d'OpenAI par Wall Street",
    "societe": {
@@ -5268,7 +6062,7 @@
   "echos": [],
   "anciens_ids": [],
   "societe": null,
-  "score": 0.79,
+  "score": 0.53,
   "raisons": [],
   "local": false,
   "categorie": "Actualité",
@@ -5287,7 +6081,7 @@
   "echos": [],
   "anciens_ids": [],
   "societe": null,
-  "score": 0.79,
+  "score": 0.53,
   "raisons": [],
   "local": false,
   "categorie": "Modèles",
@@ -5306,7 +6100,7 @@
   "echos": [],
   "anciens_ids": [],
   "societe": "microsoft",
-  "score": 3.49,
+  "score": 3.23,
   "raisons": [
    "Acteur majeur : Microsoft",
    "Jugé important par l'IA (4/5)"
@@ -5356,7 +6150,7 @@
   "echos": [],
   "anciens_ids": [],
   "societe": "google",
-  "score": 3.49,
+  "score": 3.23,
   "raisons": [
    "Acteur majeur : Google DeepMind",
    "Jugé important par l'IA (4/5)"
@@ -5406,7 +6200,7 @@
   "echos": [],
   "anciens_ids": [],
   "societe": "anthropic",
-  "score": 3.68,
+  "score": 3.43,
   "raisons": [
    "Acteur majeur : Anthropic",
    "Jugé important par l'IA (4/5)"
@@ -5456,7 +6250,7 @@
   "echos": [],
   "anciens_ids": [],
   "societe": "anthropic",
-  "score": 2.88,
+  "score": 2.62,
   "raisons": [
    "Acteur majeur : Anthropic",
    "Argent, levée ou rachat",
@@ -5497,7 +6291,7 @@
   "echos": [],
   "anciens_ids": [],
   "societe": "anthropic",
-  "score": 3.47,
+  "score": 3.22,
   "raisons": [
    "Acteur majeur : Anthropic",
    "Jugé important par l'IA (4/5)"
@@ -5551,7 +6345,7 @@
   "echos": [],
   "anciens_ids": [],
   "societe": "huggingface",
-  "score": 2.06,
+  "score": 1.81,
   "raisons": [
    "Source primaire",
    "Nouveau modèle ou nouvelle version"
@@ -5600,7 +6394,7 @@
   "echos": [],
   "anciens_ids": [],
   "societe": "openai",
-  "score": 2.36,
+  "score": 2.11,
   "raisons": [
    "Source officielle"
   ],
@@ -5649,7 +6443,7 @@
   "echos": [],
   "anciens_ids": [],
   "societe": null,
-  "score": 0.36,
+  "score": 0.1,
   "raisons": [],
   "local": false,
   "categorie": "Actualité",
@@ -5667,7 +6461,7 @@
   "echos": [],
   "anciens_ids": [],
   "societe": "anthropic",
-  "score": 1.26,
+  "score": 1.0,
   "raisons": [
    "Acteur majeur : Anthropic"
   ],
@@ -5714,7 +6508,7 @@
   "echos": [],
   "anciens_ids": [],
   "societe": "nvidia",
-  "score": 2.55,
+  "score": 2.3,
   "raisons": [
    "Jugé important par l'IA (4/5)"
   ],
@@ -5763,7 +6557,7 @@
   "echos": [],
   "anciens_ids": [],
   "societe": "openai",
-  "score": 2.25,
+  "score": 2.0,
   "raisons": [
    "Acteur majeur : OpenAI"
   ],
@@ -5811,7 +6605,7 @@
   "echos": [],
   "anciens_ids": [],
   "societe": "openai",
-  "score": 4.65,
+  "score": 4.4,
   "raisons": [
    "Acteur majeur : OpenAI",
    "Jugé important par l'IA (5/5)"
@@ -5861,11 +6655,11 @@
   "echos": [],
   "anciens_ids": [],
   "societe": null,
-  "score": 0.95,
+  "score": 0.7,
   "raisons": [],
   "local": false,
   "categorie": "Militaire",
-  "flair": 3,
+  "flair": 2,
   "analyse": {
    "titre_fr": "L'intégration de l'intelligence artificielle dans la guerre américaine",
    "resume": "Un article de commentaire de Reuters analyse la transformation en cours de la guerre américaine par l'intelligence artificielle, suggérant qu'il ne s'agit que d'un début.",
@@ -5897,11 +6691,11 @@
   "echos": [],
   "anciens_ids": [],
   "societe": "mistral",
-  "score": 1.75,
+  "score": 1.5,
   "raisons": [],
   "local": false,
   "categorie": "Outils & applis",
-  "flair": 3,
+  "flair": 2,
   "analyse": {
    "titre_fr": "Orange Cyberdefense obtient une variante cyber de Mistral Large 4",
    "societe": {
@@ -5943,7 +6737,7 @@
   "echos": [],
   "anciens_ids": [],
   "societe": "anthropic",
-  "score": 3.65,
+  "score": 3.4,
   "raisons": [
    "Acteur majeur : Anthropic",
    "Jugé important par l'IA (4/5)"
@@ -6010,7 +6804,7 @@
    "fd02732d597dff"
   ],
   "societe": "openai",
-  "score": 3.95,
+  "score": 3.7,
   "raisons": [
    "Repris par 2 sources",
    "Source officielle"
@@ -6059,7 +6853,7 @@
   "echos": [],
   "anciens_ids": [],
   "societe": null,
-  "score": 2.15,
+  "score": 1.9,
   "raisons": [
    "Jugé important par l'IA (4/5)"
   ],
@@ -6108,7 +6902,7 @@
   "echos": [],
   "anciens_ids": [],
   "societe": "nvidia",
-  "score": 1.84,
+  "score": 1.59,
   "raisons": [
    "Acteur majeur : NVIDIA"
   ],
@@ -6157,7 +6951,7 @@
   "echos": [],
   "anciens_ids": [],
   "societe": "anthropic",
-  "score": 4.83,
+  "score": 4.58,
   "raisons": [
    "Acteur majeur : Anthropic",
    "Lancement ou annonce",
@@ -6208,7 +7002,7 @@
   "echos": [],
   "anciens_ids": [],
   "societe": "anthropic",
-  "score": 2.02,
+  "score": 1.76,
   "raisons": [
    "Acteur majeur : Anthropic",
    "Argent, levée ou rachat"
@@ -6263,7 +7057,7 @@
   "echos": [],
   "anciens_ids": [],
   "societe": "huggingface",
-  "score": 0.7,
+  "score": 0.45,
   "raisons": [
    "Source primaire"
   ],
@@ -6308,7 +7102,7 @@
   "type": "communaute",
   "rubrique": "veille",
   "date": "2026-10-30T07:09:12+00:00",
-  "extrait": "https://cursor.com/blog/claude-code-extension-security-notic... Comments URL: https://news.ycombinator.com/item?id=50300683 Points: 972 # Comments: 547",
+  "extrait": "https://cursor.com/blog/claude-code-extension-security-notic... Comments URL: https://news.ycombinator.com/item?id=50300683 Points: 981 # Comments: 549",
   "echos": [
    {
     "source": "r/LocalLLaMA",
@@ -6356,7 +7150,7 @@
    "a510883f6a1bc8"
   ],
   "societe": "anthropic",
-  "score": 6.2,
+  "score": 5.94,
   "raisons": [
    "Repris par 3 sources",
    "Acteur majeur : Anthropic",
@@ -6378,7 +7172,7 @@
   "echos": [],
   "anciens_ids": [],
   "societe": "anthropic",
-  "score": 1.99,
+  "score": 1.74,
   "raisons": [
    "Acteur majeur : Anthropic",
    "Argent, levée ou rachat"
@@ -6425,9 +7219,11 @@
   "date": "2026-10-30T06:46:21+00:00",
   "extrait": "Mistral AI publie les poids ouverts de son modèle « Large 4 », comptant 1 000 milliards de paramètres, 3 semaines supplémentaires d'apprentissage ont permis au modèle de passer 41 % sur Terminal-Bench 4.0 Developpez.com",
   "echos": [],
-  "anciens_ids": [],
+  "anciens_ids": [
+   "0329c910f0dfb5"
+  ],
   "societe": "mistral",
-  "score": 6.39,
+  "score": 6.13,
   "raisons": [
    "Utilisable librement (open source)",
    "Argent, levée ou rachat",
@@ -6479,7 +7275,7 @@
   "echos": [],
   "anciens_ids": [],
   "societe": "openai",
-  "score": 2.37,
+  "score": 2.12,
   "raisons": [
    "Acteur majeur : OpenAI"
   ],
@@ -6528,7 +7324,7 @@
   "echos": [],
   "anciens_ids": [],
   "societe": null,
-  "score": 0.66,
+  "score": 0.41,
   "raisons": [],
   "local": false,
   "categorie": "Surveillance",
@@ -6564,7 +7360,7 @@
   "echos": [],
   "anciens_ids": [],
   "societe": null,
-  "score": -0.59,
+  "score": -0.84,
   "raisons": [],
   "local": false,
   "categorie": "Recherche",
@@ -6582,7 +7378,7 @@
   "echos": [],
   "anciens_ids": [],
   "societe": null,
-  "score": -0.59,
+  "score": -0.84,
   "raisons": [],
   "local": true,
   "categorie": "Recherche",
@@ -6600,7 +7396,7 @@
   "echos": [],
   "anciens_ids": [],
   "societe": null,
-  "score": -0.59,
+  "score": -0.84,
   "raisons": [],
   "local": false,
   "categorie": "Recherche",
@@ -6618,7 +7414,7 @@
   "echos": [],
   "anciens_ids": [],
   "societe": null,
-  "score": -0.59,
+  "score": -0.84,
   "raisons": [],
   "local": false,
   "categorie": "Recherche",
@@ -6636,7 +7432,7 @@
   "echos": [],
   "anciens_ids": [],
   "societe": null,
-  "score": -0.59,
+  "score": -0.84,
   "raisons": [],
   "local": false,
   "categorie": "Recherche",
@@ -6654,7 +7450,7 @@
   "echos": [],
   "anciens_ids": [],
   "societe": null,
-  "score": -0.59,
+  "score": -0.84,
   "raisons": [],
   "local": false,
   "categorie": "Recherche",
@@ -6672,7 +7468,7 @@
   "echos": [],
   "anciens_ids": [],
   "societe": null,
-  "score": -0.59,
+  "score": -0.84,
   "raisons": [],
   "local": false,
   "categorie": "Recherche",
@@ -6690,7 +7486,7 @@
   "echos": [],
   "anciens_ids": [],
   "societe": null,
-  "score": -0.59,
+  "score": -0.84,
   "raisons": [],
   "local": false,
   "categorie": "Recherche",
@@ -6708,7 +7504,7 @@
   "echos": [],
   "anciens_ids": [],
   "societe": null,
-  "score": -0.59,
+  "score": -0.84,
   "raisons": [],
   "local": false,
   "categorie": "Recherche",
@@ -6726,7 +7522,7 @@
   "echos": [],
   "anciens_ids": [],
   "societe": "openai",
-  "score": 0.01,
+  "score": -0.24,
   "raisons": [],
   "local": false,
   "categorie": "Recherche",
@@ -6771,7 +7567,7 @@
   "echos": [],
   "anciens_ids": [],
   "societe": null,
-  "score": -0.59,
+  "score": -0.84,
   "raisons": [],
   "local": false,
   "categorie": "Recherche",
@@ -6789,7 +7585,7 @@
   "echos": [],
   "anciens_ids": [],
   "societe": "alibaba",
-  "score": -0.19,
+  "score": -0.44,
   "raisons": [],
   "local": false,
   "categorie": "Recherche",
@@ -6807,7 +7603,7 @@
   "echos": [],
   "anciens_ids": [],
   "societe": "anthropic",
-  "score": 1.21,
+  "score": 0.96,
   "raisons": [
    "Jugé important par l'IA (4/5)"
   ],
@@ -6856,13 +7652,13 @@
   "echos": [],
   "anciens_ids": [],
   "societe": null,
-  "score": 0.21,
+  "score": -0.04,
   "raisons": [
    "Régulation ou justice"
   ],
   "local": false,
   "categorie": "Recherche",
-  "flair": 2,
+  "flair": 1,
   "analyse": {
    "titre_fr": "État de l'art du réglage fin supervisé pour les modèles de raisonnement",
    "societe": {
@@ -6904,7 +7700,7 @@
   "echos": [],
   "anciens_ids": [],
   "societe": null,
-  "score": -0.59,
+  "score": -0.84,
   "raisons": [
    "Lancement ou annonce"
   ],
@@ -6952,7 +7748,7 @@
   "echos": [],
   "anciens_ids": [],
   "societe": null,
-  "score": -0.59,
+  "score": -0.84,
   "raisons": [],
   "local": false,
   "categorie": "Recherche",
@@ -6970,7 +7766,7 @@
   "echos": [],
   "anciens_ids": [],
   "societe": "spacexai",
-  "score": -0.61,
+  "score": -0.86,
   "raisons": [],
   "local": false,
   "categorie": "Actualité",
@@ -7016,7 +7812,7 @@
   "echos": [],
   "anciens_ids": [],
   "societe": "nvidia",
-  "score": 1.86,
+  "score": 1.6,
   "raisons": [
    "Acteur majeur : NVIDIA",
    "Régulation ou justice"
@@ -7057,7 +7853,7 @@
    "b87d79849eebfd"
   ],
   "societe": "google",
-  "score": 1.05,
+  "score": 0.8,
   "raisons": [
    "Acteur majeur : Google DeepMind"
   ],
@@ -7109,7 +7905,7 @@
   "echos": [],
   "anciens_ids": [],
   "societe": null,
-  "score": -0.46,
+  "score": -0.71,
   "raisons": [
    "Source primaire"
   ],
@@ -7156,7 +7952,7 @@
   "echos": [],
   "anciens_ids": [],
   "societe": null,
-  "score": 0.74,
+  "score": 0.48,
   "raisons": [],
   "local": false,
   "categorie": "Business & régulation",
@@ -7206,7 +8002,7 @@
   "echos": [],
   "anciens_ids": [],
   "societe": "anthropic",
-  "score": 2.23,
+  "score": 1.98,
   "raisons": [
    "Source primaire",
    "Acteur majeur : Anthropic"
@@ -7257,7 +8053,7 @@
   "echos": [],
   "anciens_ids": [],
   "societe": "nvidia",
-  "score": 0.43,
+  "score": 0.17,
   "raisons": [
    "Acteur majeur : NVIDIA"
   ],
@@ -7308,7 +8104,7 @@
    "e15757e9710587"
   ],
   "societe": "anthropic",
-  "score": 3.41,
+  "score": 3.16,
   "raisons": [
    "Acteur majeur : Anthropic",
    "Jugé important par l'IA (4/5)"
@@ -7347,7 +8143,7 @@
   "echos": [],
   "anciens_ids": [],
   "societe": "anthropic",
-  "score": 2.2,
+  "score": 1.95,
   "raisons": [
    "Acteur majeur : Anthropic"
   ],
@@ -7396,7 +8192,7 @@
   "echos": [],
   "anciens_ids": [],
   "societe": "openai",
-  "score": 2.1,
+  "score": 1.85,
   "raisons": [
    "Source officielle"
   ],
@@ -7443,11 +8239,11 @@
   "echos": [],
   "anciens_ids": [],
   "societe": "amazon",
-  "score": 1.69,
+  "score": 1.44,
   "raisons": [],
   "local": false,
   "categorie": "Business & régulation",
-  "flair": 3,
+  "flair": 2,
   "analyse": {
    "titre_fr": "AWS vise les 1000 milliards de dollars grâce aux investissements massifs dans l'IA",
    "societe": {
@@ -7492,7 +8288,7 @@
    "28f04a37c82951"
   ],
   "societe": "openai",
-  "score": 2.19,
+  "score": 1.93,
   "raisons": [
    "Acteur majeur : OpenAI"
   ],
@@ -7546,7 +8342,7 @@
    "e6a83342c0c51d"
   ],
   "societe": "openai",
-  "score": 4.68,
+  "score": 4.42,
   "raisons": [
    "Repris par 2 sources",
    "Acteur majeur : OpenAI",
@@ -7595,13 +8391,13 @@
   "echos": [],
   "anciens_ids": [],
   "societe": "openai",
-  "score": 1.56,
+  "score": 1.31,
   "raisons": [
    "Acteur majeur : OpenAI"
   ],
   "local": false,
   "categorie": "Business & régulation",
-  "flair": 3,
+  "flair": 2,
   "analyse": {
    "titre_fr": "OpenAI offre des crédits API inclus avec ses abonnements ChatGPT",
    "societe": {
@@ -7646,7 +8442,7 @@
    "9e2fbd3a9566c7"
   ],
   "societe": "anthropic",
-  "score": 4.16,
+  "score": 3.91,
   "raisons": [
    "Acteur majeur : Anthropic",
    "Argent, levée ou rachat",
@@ -7698,7 +8494,7 @@
   "echos": [],
   "anciens_ids": [],
   "societe": "usgov",
-  "score": 0.46,
+  "score": 0.21,
   "raisons": [],
   "local": false,
   "categorie": "Militaire",
@@ -7734,7 +8530,7 @@
   "echos": [],
   "anciens_ids": [],
   "societe": "spacexai",
-  "score": -0.15,
+  "score": -0.41,
   "raisons": [
    "Prix ou accès"
   ],
@@ -7777,11 +8573,11 @@
   "type": "communaute",
   "rubrique": "veille",
   "date": "2026-10-29T21:58:34+00:00",
-  "extrait": "Article URL: https://twitter.com/sgondala2/status/2115832070274723875 Comments URL: https://news.ycombinator.com/item?id=50296730 Points: 185 # Comments: 196",
+  "extrait": "Article URL: https://twitter.com/sgondala2/status/2115832070274723875 Comments URL: https://news.ycombinator.com/item?id=50296730 Points: 188 # Comments: 197",
   "echos": [],
   "anciens_ids": [],
   "societe": null,
-  "score": 0.04,
+  "score": -0.21,
   "raisons": [],
   "local": false,
   "categorie": "Actualité",
@@ -7799,7 +8595,7 @@
   "echos": [],
   "anciens_ids": [],
   "societe": null,
-  "score": 0.04,
+  "score": -0.21,
   "raisons": [],
   "local": false,
   "categorie": "Actualité",
@@ -7817,7 +8613,7 @@
   "echos": [],
   "anciens_ids": [],
   "societe": "alibaba",
-  "score": -0.77,
+  "score": -1.02,
   "raisons": [],
   "local": false,
   "categorie": "Actualité",
@@ -7859,11 +8655,11 @@
   "type": "communaute",
   "rubrique": "veille",
   "date": "2026-10-29T21:40:28+00:00",
-  "extrait": "Article URL: https://labs.ycombinator.com/projects/games/index.html Comments URL: https://news.ycombinator.com/item?id=50296486 Points: 412 # Comments: 169",
+  "extrait": "Article URL: https://labs.ycombinator.com/projects/games/index.html Comments URL: https://news.ycombinator.com/item?id=50296486 Points: 413 # Comments: 169",
   "echos": [],
   "anciens_ids": [],
   "societe": null,
-  "score": 0.03,
+  "score": -0.22,
   "raisons": [],
   "local": false,
   "categorie": "Recherche",
@@ -7909,7 +8705,7 @@
   "echos": [],
   "anciens_ids": [],
   "societe": "huggingface",
-  "score": 3.23,
+  "score": 2.98,
   "raisons": [
    "Nouveau modèle ou nouvelle version",
    "Utilisable librement (open source)"
@@ -7958,11 +8754,11 @@
   "echos": [],
   "anciens_ids": [],
   "societe": "usgov",
-  "score": 1.63,
+  "score": 1.37,
   "raisons": [],
   "local": false,
   "categorie": "Business & régulation",
-  "flair": 3,
+  "flair": 2,
   "histoire_vu": true,
   "analyse": {
    "titre_fr": "Utilisation de l'IA par Trump pour les opérations militaires questionnée au Congrès",
@@ -8005,7 +8801,7 @@
    "a24f7196891023"
   ],
   "societe": null,
-  "score": 0.62,
+  "score": 0.37,
   "raisons": [],
   "local": false,
   "categorie": "Militaire",
@@ -8043,7 +8839,7 @@
    "7508be67ad3e12"
   ],
   "societe": "mistral",
-  "score": 2.62,
+  "score": 2.37,
   "raisons": [
    "Jugé important par l'IA (4/5)"
   ],
@@ -8096,7 +8892,7 @@
   "echos": [],
   "anciens_ids": [],
   "societe": "anthropic",
-  "score": 5.11,
+  "score": 4.86,
   "raisons": [
    "Source officielle",
    "Acteur majeur : Anthropic",
@@ -8155,7 +8951,7 @@
    "264d69283eaab4"
   ],
   "societe": null,
-  "score": 3.39,
+  "score": 3.14,
   "raisons": [
    "Repris par 2 sources",
    "Lancement ou annonce"
@@ -8204,7 +9000,7 @@
   "echos": [],
   "anciens_ids": [],
   "societe": null,
-  "score": 0.59,
+  "score": 0.34,
   "raisons": [],
   "local": false,
   "categorie": "Business & régulation",
@@ -8249,7 +9045,7 @@
   "echos": [],
   "anciens_ids": [],
   "societe": "spacexai",
-  "score": 0.39,
+  "score": 0.13,
   "raisons": [],
   "local": false,
   "categorie": "Business & régulation",
@@ -8295,7 +9091,7 @@
   "echos": [],
   "anciens_ids": [],
   "societe": "openai",
-  "score": 2.89,
+  "score": 2.63,
   "raisons": [
    "Acteur majeur : OpenAI",
    "Argent, levée ou rachat"
@@ -8349,7 +9145,7 @@
   "echos": [],
   "anciens_ids": [],
   "societe": "openai",
-  "score": 2.08,
+  "score": 1.83,
   "raisons": [
    "Source primaire",
    "Acteur majeur : OpenAI"
@@ -8399,7 +9195,7 @@
   "echos": [],
   "anciens_ids": [],
   "societe": null,
-  "score": 1.37,
+  "score": 1.12,
   "raisons": [
    "Régulation ou justice"
   ],
@@ -8441,13 +9237,13 @@
    "ea71775853e63e"
   ],
   "societe": "anthropic",
-  "score": 0.87,
+  "score": 0.62,
   "raisons": [
    "Acteur majeur : Anthropic"
   ],
   "local": false,
   "categorie": "Pouvoir et régulation",
-  "flair": 3,
+  "flair": 2,
   "analyse": {
    "titre_fr": "SpaceX et Anthropic liés par un contrat majeur selon Bloomberg",
    "resume": "Un article de Bloomberg rapporte que la source de revenus la plus importante de SpaceX proviendrait d'un contrat avec la société d'intelligence artificielle Anthropic. Le détail et la nature exacte de cet accord ne sont pas précisés dans l'extrait disponible.",
@@ -8479,7 +9275,7 @@
   "echos": [],
   "anciens_ids": [],
   "societe": "meta",
-  "score": 2.07,
+  "score": 1.81,
   "raisons": [
    "Acteur majeur : Meta",
    "Lancement ou annonce"
@@ -8529,7 +9325,7 @@
   "echos": [],
   "anciens_ids": [],
   "societe": "spacexai",
-  "score": -0.83,
+  "score": -1.09,
   "raisons": [],
   "local": false,
   "categorie": "Actualité",
@@ -8574,7 +9370,7 @@
   "echos": [],
   "anciens_ids": [],
   "societe": "anthropic",
-  "score": 0.86,
+  "score": 0.61,
   "raisons": [
    "Acteur majeur : Anthropic"
   ],
@@ -8624,7 +9420,7 @@
    "e22f6333fe462c"
   ],
   "societe": "spacexai",
-  "score": 2.76,
+  "score": 2.51,
   "raisons": [
    "Jugé important par l'IA (4/5)"
   ],
@@ -8685,7 +9481,7 @@
    "787b9e8cb2166d"
   ],
   "societe": "google",
-  "score": 3.65,
+  "score": 3.4,
   "raisons": [
    "Repris par 2 sources",
    "Acteur majeur : Google DeepMind"
@@ -8738,7 +9534,7 @@
    "e9a6ea4d8a5efb"
   ],
   "societe": "usgov",
-  "score": 2.75,
+  "score": 2.5,
   "raisons": [
    "Jugé important par l'IA (4/5)"
   ],
@@ -8778,7 +9574,7 @@
    "51f524b8826baf"
   ],
   "societe": "google",
-  "score": 0.85,
+  "score": 0.59,
   "raisons": [
    "Acteur majeur : Google DeepMind"
   ],
@@ -8826,7 +9622,7 @@
   "echos": [],
   "anciens_ids": [],
   "societe": null,
-  "score": -0.67,
+  "score": -0.92,
   "raisons": [],
   "local": false,
   "categorie": "Outils & applis",
@@ -8872,7 +9668,7 @@
   "echos": [],
   "anciens_ids": [],
   "societe": "deepseek",
-  "score": 0.92,
+  "score": 0.67,
   "raisons": [],
   "local": false,
   "categorie": "Business & régulation",
@@ -8915,11 +9711,11 @@
   "type": "communaute",
   "rubrique": "veille",
   "date": "2026-10-29T17:24:25+00:00",
-  "extrait": "Article URL: https://fig.blue/posts/duet-is-the-future/ Comments URL: https://news.ycombinator.com/item?id=50292727 Points: 125 # Comments: 140",
+  "extrait": "Article URL: https://fig.blue/posts/duet-is-the-future/ Comments URL: https://news.ycombinator.com/item?id=50292727 Points: 125 # Comments: 141",
   "echos": [],
   "anciens_ids": [],
   "societe": "anthropic",
-  "score": 1.41,
+  "score": 1.16,
   "raisons": [
    "Acteur majeur : Anthropic"
   ],
@@ -8971,7 +9767,7 @@
   "echos": [],
   "anciens_ids": [],
   "societe": "huggingface",
-  "score": 2.11,
+  "score": 1.86,
   "raisons": [
    "Source primaire",
    "N°26 des tendances Hugging Face"
@@ -9021,7 +9817,7 @@
   "echos": [],
   "anciens_ids": [],
   "societe": null,
-  "score": 1.1,
+  "score": 0.85,
   "raisons": [
    "Jugé important par l'IA (4/5)"
   ],
@@ -9076,7 +9872,7 @@
    "9557d7a7828a28"
   ],
   "societe": "openai",
-  "score": 3.5,
+  "score": 3.25,
   "raisons": [
    "Repris par 2 sources",
    "Source officielle"
@@ -9126,7 +9922,7 @@
   "echos": [],
   "anciens_ids": [],
   "societe": "nvidia",
-  "score": 0.5,
+  "score": 0.25,
   "raisons": [],
   "local": true,
   "categorie": "Open source & local",
@@ -9173,7 +9969,7 @@
   "echos": [],
   "anciens_ids": [],
   "societe": null,
-  "score": 0.5,
+  "score": 0.24,
   "raisons": [],
   "local": false,
   "categorie": "Manipulation",
@@ -9210,7 +10006,7 @@
   "echos": [],
   "anciens_ids": [],
   "societe": "nvidia",
-  "score": 2.0,
+  "score": 1.74,
   "raisons": [
    "Acteur majeur : NVIDIA"
   ],
@@ -9257,13 +10053,13 @@
   "echos": [],
   "anciens_ids": [],
   "societe": null,
-  "score": 1.69,
+  "score": 1.43,
   "raisons": [
    "Lancement ou annonce"
   ],
   "local": false,
   "categorie": "Business & régulation",
-  "flair": 3,
+  "flair": 2,
   "analyse": {
    "titre_fr": "Des ex-dirigeants de Palantir lancent Dream pour disrupter Autodesk avec l'IA",
    "societe": {
@@ -9305,7 +10101,7 @@
   "echos": [],
   "anciens_ids": [],
   "societe": "nvidia",
-  "score": 1.88,
+  "score": 1.62,
   "raisons": [
    "Source officielle"
   ],
@@ -9354,7 +10150,7 @@
   "echos": [],
   "anciens_ids": [],
   "societe": "ue",
-  "score": 2.27,
+  "score": 2.01,
   "raisons": [
    "Régulation ou justice"
   ],
@@ -9389,15 +10185,15 @@
   "type": "communaute",
   "rubrique": "veille",
   "date": "2026-10-29T15:29:48+00:00",
-  "extrait": "Article URL: https://thedataexchange.media/leo-de-moura-lean-aws/ Comments URL: https://news.ycombinator.com/item?id=50290652 Points: 196 # Comments: 47",
+  "extrait": "Article URL: https://thedataexchange.media/leo-de-moura-lean-aws/ Comments URL: https://news.ycombinator.com/item?id=50290652 Points: 208 # Comments: 50",
   "echos": [],
   "anciens_ids": [],
   "societe": "amazon",
-  "score": 0.26,
+  "score": 0.01,
   "raisons": [],
   "local": false,
   "categorie": "Actualité",
-  "flair": 2
+  "flair": 1
  },
  {
   "id": "881c5e79660752",
@@ -9411,7 +10207,7 @@
   "echos": [],
   "anciens_ids": [],
   "societe": "microsoft",
-  "score": 1.96,
+  "score": 1.71,
   "raisons": [
    "Acteur majeur : Microsoft"
   ],
@@ -9458,7 +10254,7 @@
   "echos": [],
   "anciens_ids": [],
   "societe": null,
-  "score": -0.15,
+  "score": -0.4,
   "raisons": [],
   "local": false,
   "categorie": "Recherche",
@@ -9505,7 +10301,7 @@
    "c1b2b8deb3fd9c"
   ],
   "societe": "microsoft",
-  "score": 1.95,
+  "score": 1.7,
   "raisons": [
    "Acteur majeur : Microsoft"
   ],
@@ -9553,7 +10349,7 @@
   "echos": [],
   "anciens_ids": [],
   "societe": null,
-  "score": -1.35,
+  "score": -1.6,
   "raisons": [],
   "local": false,
   "categorie": "Actualité",
@@ -9604,6 +10400,7 @@
    "46646db6705f7f",
    "6ca2a733e73303",
    "7ec9b26b4b94c0",
+   "97689fa2acc088",
    "a8ab277520e9f3",
    "ae66eb85df49c8",
    "b04f3cf0fe6c1c",
@@ -9612,7 +10409,7 @@
    "fc53d46602592a"
   ],
   "societe": "mistral",
-  "score": 2.44,
+  "score": 2.19,
   "raisons": [
    "Jugé important par l'IA (4/5)"
   ],
@@ -9670,7 +10467,7 @@
    "bcae5e5bffd4de"
   ],
   "societe": "mistral",
-  "score": 5.44,
+  "score": 5.19,
   "raisons": [
    "Repris par 2 sources",
    "Lancement ou annonce",
@@ -9721,7 +10518,7 @@
   "echos": [],
   "anciens_ids": [],
   "societe": "anthropic",
-  "score": 1.94,
+  "score": 1.69,
   "raisons": [
    "Acteur majeur : Anthropic"
   ],
@@ -9770,7 +10567,7 @@
   "echos": [],
   "anciens_ids": [],
   "societe": null,
-  "score": -0.76,
+  "score": -1.01,
   "raisons": [],
   "local": false,
   "categorie": "Outils & applis",
@@ -9816,7 +10613,7 @@
   "echos": [],
   "anciens_ids": [],
   "societe": "alibaba",
-  "score": -0.96,
+  "score": -1.21,
   "raisons": [],
   "local": false,
   "categorie": "Actualité",
@@ -9863,7 +10660,7 @@
   "echos": [],
   "anciens_ids": [],
   "societe": null,
-  "score": 0.44,
+  "score": 0.18,
   "raisons": [],
   "local": false,
   "categorie": "Business & régulation",
@@ -9905,11 +10702,11 @@
   "type": "communaute",
   "rubrique": "veille",
   "date": "2026-10-29T14:29:06+00:00",
-  "extrait": "Article URL: https://www.404media.co/manifestos-fear-and-loser-thinking-inside-protons-ai-reckoning/ Comments URL: https://news.ycombinator.com/item?id=50289692 Points: 232 # Comments: 89",
+  "extrait": "Article URL: https://www.404media.co/manifestos-fear-and-loser-thinking-inside-protons-ai-reckoning/ Comments URL: https://news.ycombinator.com/item?id=50289692 Points: 237 # Comments: 89",
   "echos": [],
   "anciens_ids": [],
   "societe": null,
-  "score": -0.17,
+  "score": -0.42,
   "raisons": [],
   "local": false,
   "categorie": "Actualité",
@@ -9931,7 +10728,7 @@
   "echos": [],
   "anciens_ids": [],
   "societe": "huggingface",
-  "score": 6.83,
+  "score": 6.58,
   "raisons": [
    "Source primaire",
    "Utilisable librement (open source)",
@@ -9983,7 +10780,7 @@
   "echos": [],
   "anciens_ids": [],
   "societe": "mistral",
-  "score": 4.73,
+  "score": 4.47,
   "raisons": [
    "Utilisable librement (open source)",
    "Jugé important par l'IA (5/5)"
@@ -10030,11 +10827,11 @@
   "type": "fr",
   "rubrique": "veille",
   "date": "2026-10-29T14:10:54+00:00",
-  "extrait": "Code, cybersécurité : les nouvelles priorités de Mistral AI pour griffer ses concurrents chinois Les Echos « Une amélioration significative » : comment la pépite Mistral a dopé son IA Large 4 pour distancer les géants chinois La Tribune Mistral AI va donner à Orange Cyberdefense un accès anticipé à une variante de Mistral Large 4 optimisée pour la cybersécurité L'Usine Digitale",
+  "extrait": "Code, cybersécurité : les nouvelles priorités de Mistral AI pour griffer ses concurrents chinois Les Echos",
   "echos": [],
   "anciens_ids": [],
   "societe": "mistral",
-  "score": 1.23,
+  "score": 0.97,
   "raisons": [],
   "local": false,
   "categorie": "Actualité",
@@ -10081,11 +10878,56 @@
   "echos": [],
   "anciens_ids": [],
   "societe": null,
-  "score": -0.18,
+  "score": -0.43,
   "raisons": [],
   "local": false,
   "categorie": "Modèles",
   "flair": 1
+ },
+ {
+  "id": "b3ee1e5b0af4b2",
+  "titre": "« Une amélioration significative » : comment la pépite Mistral a dopé son IA Large 4 pour distancer les géants chinois - La Tribune",
+  "lien": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNT2MyVFVfbTJLRG9Mb1lENGNRQ2thbFBHa25HVU9uLVphR3VpTWxSTDBfTVJmVWpBWFJTd1BkR1QwNld4ajhCaDlOUTNRRUs1WDJTczRWODZzTGQ1dFRSUm9fMjdIdEdYWG51UkNwRmw3dVBFN3pGUnZ6SjdKcndyNnk2WXBVZHJPRUdTQUV4aHhZQXhicEZkOUZ5dEE3MlAxS2VCcVhHYmlEVWVHRkUxc2dzN1htN29ZZUtPZ01BSnRXTDF5YXZDQWFta1VOVGk1dmhxeDlzaw?oc=5",
+  "source": "Mistral AI (actus)",
+  "type": "fr",
+  "rubrique": "veille",
+  "date": "2026-10-29T14:00:15+00:00",
+  "extrait": "« Une amélioration significative » : comment la pépite Mistral a dopé son IA Large 4 pour distancer les géants chinois La Tribune",
+  "echos": [],
+  "anciens_ids": [],
+  "societe": "mistral",
+  "score": 0.97,
+  "raisons": [],
+  "local": false,
+  "categorie": "Modèles",
+  "flair": 2,
+  "analyse": {
+   "titre_fr": "Mistral AI améliore son modèle Large 4",
+   "societe": {
+    "nom": "Mistral AI",
+    "presentation": "Une entreprise française fondée en 2023, spécialisée dans le développement de modèles d'intelligence artificielle ouverts et propriétaires, ainsi que d'assistants conversationnels hébergés en Europe."
+   },
+   "a_retenir": "Mistral AI a mis à jour son modèle Mistral Large 4 pour renforcer ses performances face à la concurrence internationale.",
+   "resume": "Mistral AI a introduit des améliorations significatives sur son modèle d'IA Mistral Large 4. Cette mise à jour vise à consolider sa position face aux géants chinois et internationaux du secteur.",
+   "pourquoi": "C'est important pour un professionnel car cela démontre la compétitivité continue des modèles européens face aux acteurs mondiaux dominants, offrant une alternative performante et souveraine.",
+   "comment_ca_marche": "Les grands modèles de langage (LLM) reposent sur l'architecture Transformer, entraînés sur d'immenses volumes de données textuelles. Les améliorations de versions s'appuient généralement sur un réentraînement avec des données de meilleure qualité, un affinement des mécanismes d'attention ou une optimisation de l'architecture pour affiner le raisonnement et réduire les erreurs.",
+   "utiliser": [
+    "Consulter la plateforme officielle de Mistral AI pour tester la nouvelle version.",
+    "Évaluer les performances du modèle sur vos cas d'usage métiers spécifiques par rapport aux versions précédentes.",
+    "Intégrer l'API mise à jour dans vos applications si les gains de performance sont avérés."
+   ],
+   "sur_mon_pc": "Pas en local : service en ligne uniquement",
+   "local": false,
+   "niveau": "intermédiaire",
+   "categorie": "Modèles",
+   "importance": 3,
+   "tags": [
+    "Mistral AI",
+    "Modèle de langage",
+    "IA européenne",
+    "Mistral Large"
+   ]
+  }
  },
  {
   "id": "05b217daa2ed9f",
@@ -10099,7 +10941,7 @@
   "echos": [],
   "anciens_ids": [],
   "societe": "openai",
-  "score": 1.92,
+  "score": 1.67,
   "raisons": [
    "Acteur majeur : OpenAI"
   ],
@@ -10147,7 +10989,7 @@
   "echos": [],
   "anciens_ids": [],
   "societe": "anthropic",
-  "score": 0.72,
+  "score": 0.47,
   "raisons": [
    "Acteur majeur : Anthropic"
   ],
@@ -10195,7 +11037,7 @@
   "echos": [],
   "anciens_ids": [],
   "societe": "anthropic",
-  "score": 4.32,
+  "score": 4.07,
   "raisons": [
    "Acteur majeur : Anthropic",
    "Jugé important par l'IA (5/5)"
@@ -10246,7 +11088,7 @@
   "echos": [],
   "anciens_ids": [],
   "societe": "anthropic",
-  "score": 2.72,
+  "score": 2.46,
   "raisons": [
    "Acteur majeur : Anthropic",
    "Régulation ou justice"
@@ -10297,7 +11139,7 @@
    "77a7aa286d45b7"
   ],
   "societe": "google",
-  "score": 3.11,
+  "score": 2.86,
   "raisons": [
    "Acteur majeur : Google DeepMind",
    "Jugé important par l'IA (4/5)"
@@ -10349,7 +11191,7 @@
    "c4680859c511c6"
   ],
   "societe": null,
-  "score": 0.41,
+  "score": 0.16,
   "raisons": [],
   "local": false,
   "categorie": "Manipulation",
@@ -10385,7 +11227,7 @@
   "echos": [],
   "anciens_ids": [],
   "societe": "ibm",
-  "score": 4.21,
+  "score": 3.96,
   "raisons": [
    "Source officielle",
    "Nouveau modèle ou nouvelle version"
@@ -10435,14 +11277,14 @@
   "echos": [],
   "anciens_ids": [],
   "societe": "anthropic",
-  "score": 3.11,
+  "score": 2.85,
   "raisons": [
    "Acteur majeur : Anthropic",
    "Jugé important par l'IA (4/5)"
   ],
   "local": false,
   "categorie": "Business & régulation",
-  "flair": 4,
+  "flair": 3,
   "analyse": {
    "titre_fr": "Le plan financier d'Anthropic révélé par son S-1",
    "societe": {
@@ -10486,7 +11328,7 @@
   "echos": [],
   "anciens_ids": [],
   "societe": null,
-  "score": 1.19,
+  "score": 0.94,
   "raisons": [
    "Argent, levée ou rachat"
   ],
@@ -10534,11 +11376,11 @@
   "echos": [],
   "anciens_ids": [],
   "societe": "amazon",
-  "score": 0.19,
+  "score": -0.06,
   "raisons": [],
   "local": false,
   "categorie": "Outils & applis",
-  "flair": 2,
+  "flair": 1,
   "analyse": {
    "titre_fr": "Amazon met à jour Alexa pour gérer listes et abonnements",
    "societe": {
@@ -10580,14 +11422,14 @@
   "echos": [],
   "anciens_ids": [],
   "societe": "microsoft",
-  "score": 3.09,
+  "score": 2.84,
   "raisons": [
    "Acteur majeur : Microsoft",
    "Lancement ou annonce"
   ],
   "local": false,
   "categorie": "Outils & applis",
-  "flair": 4,
+  "flair": 3,
   "analyse": {
    "titre_fr": "McGraw Hill lance un plugin d'IA agentique pour Microsoft Copilot",
    "societe": {
@@ -10629,7 +11471,7 @@
   "echos": [],
   "anciens_ids": [],
   "societe": "google",
-  "score": 2.48,
+  "score": 2.23,
   "raisons": [
    "Acteur majeur : Google DeepMind",
    "Jugé important par l'IA (4/5)"
@@ -10679,11 +11521,11 @@
   "echos": [],
   "anciens_ids": [],
   "societe": "usgov",
-  "score": 0.18,
+  "score": -0.07,
   "raisons": [],
   "local": false,
   "categorie": "Business & régulation",
-  "flair": 2,
+  "flair": 1,
   "analyse": {
    "titre_fr": "Exigences politiques autour des sessions secrètes de chatbots de Trump",
    "societe": {
@@ -10755,7 +11597,7 @@
    "f30182dcefb6f2"
   ],
   "societe": "microsoft",
-  "score": 1.84,
+  "score": 1.59,
   "raisons": [
    "Acteur majeur : Microsoft"
   ],
@@ -10774,13 +11616,13 @@
   "echos": [],
   "anciens_ids": [],
   "societe": null,
-  "score": 1.54,
+  "score": 1.29,
   "raisons": [
    "Lancement ou annonce"
   ],
   "local": false,
   "categorie": "Outils & applis",
-  "flair": 3,
+  "flair": 2,
   "analyse": {
    "titre_fr": "Tencent dévoile un nouveau modèle d'IA et son agent bureautique",
    "societe": {
@@ -10825,7 +11667,7 @@
    "a03a9f3b821aa8"
   ],
   "societe": "mistral",
-  "score": 2.33,
+  "score": 2.08,
   "raisons": [
    "Jugé important par l'IA (4/5)"
   ],
@@ -10874,7 +11716,7 @@
   "echos": [],
   "anciens_ids": [],
   "societe": null,
-  "score": 0.32,
+  "score": 0.07,
   "raisons": [],
   "local": false,
   "categorie": "Actualité",
@@ -10892,7 +11734,7 @@
   "echos": [],
   "anciens_ids": [],
   "societe": "openai",
-  "score": 3.31,
+  "score": 3.06,
   "raisons": [
    "Jugé important par l'IA (5/5)"
   ],
@@ -10940,10 +11782,11 @@
   "extrait": "Claude-maker Anthropic’s hiring manager has a message for young engineers scared of AI taking their jobs: The Times of India",
   "echos": [],
   "anciens_ids": [
+   "859f60dad15771",
    "ffa5bef05fdc83"
   ],
   "societe": "anthropic",
-  "score": 0.61,
+  "score": 0.36,
   "raisons": [
    "Acteur majeur : Anthropic"
   ],
@@ -10991,14 +11834,14 @@
   "echos": [],
   "anciens_ids": [],
   "societe": "openai",
-  "score": 3.01,
+  "score": 2.76,
   "raisons": [
    "Acteur majeur : OpenAI",
    "Jugé important par l'IA (4/5)"
   ],
   "local": false,
   "categorie": "Business & régulation",
-  "flair": 4,
+  "flair": 3,
   "analyse": {
    "titre_fr": "Une attaque par relais désactive les bacs à sable de Codex et Claude Code",
    "societe": {
@@ -11041,7 +11884,7 @@
   "echos": [],
   "anciens_ids": [],
   "societe": null,
-  "score": 0.31,
+  "score": 0.06,
   "raisons": [],
   "local": false,
   "categorie": "Business & régulation",
@@ -11087,7 +11930,7 @@
   "echos": [],
   "anciens_ids": [],
   "societe": "anthropic",
-  "score": 0.61,
+  "score": 0.36,
   "raisons": [
    "Acteur majeur : Anthropic"
   ],
@@ -11135,7 +11978,7 @@
   "echos": [],
   "anciens_ids": [],
   "societe": "mistral",
-  "score": 1.11,
+  "score": 0.85,
   "raisons": [],
   "local": false,
   "categorie": "Outils & applis",
@@ -11181,7 +12024,7 @@
   "echos": [],
   "anciens_ids": [],
   "societe": "alibaba",
-  "score": 1.9,
+  "score": 1.65,
   "raisons": [
    "Jugé important par l'IA (4/5)"
   ],
@@ -11231,7 +12074,7 @@
   "echos": [],
   "anciens_ids": [],
   "societe": "alibaba",
-  "score": 2.19,
+  "score": 1.94,
   "raisons": [
    "Utilisable librement (open source)"
   ],
@@ -11280,7 +12123,7 @@
   "echos": [],
   "anciens_ids": [],
   "societe": "alibaba",
-  "score": 1.89,
+  "score": 1.64,
   "raisons": [
    "Jugé important par l'IA (4/5)"
   ],
@@ -11329,7 +12172,7 @@
   "echos": [],
   "anciens_ids": [],
   "societe": "anthropic",
-  "score": 4.29,
+  "score": 4.04,
   "raisons": [
    "Acteur majeur : Anthropic",
    "Nouveau modèle ou nouvelle version"
@@ -11378,13 +12221,13 @@
   "echos": [],
   "anciens_ids": [],
   "societe": "anthropic",
-  "score": 1.59,
+  "score": 1.34,
   "raisons": [
    "Acteur majeur : Anthropic"
   ],
   "local": false,
   "categorie": "Actualité",
-  "flair": 3,
+  "flair": 2,
   "analyse": {
    "titre_fr": "Gemini 4 Carbon dépasse Claude selon le Journal du Geek",
    "societe": {
@@ -11432,7 +12275,7 @@
   "echos": [],
   "anciens_ids": [],
   "societe": null,
-  "score": 0.29,
+  "score": 0.03,
   "raisons": [
    "Source primaire"
   ],
@@ -11481,7 +12324,7 @@
   "echos": [],
   "anciens_ids": [],
   "societe": "ue",
-  "score": 1.88,
+  "score": 1.63,
   "raisons": [
    "Régulation ou justice"
   ],
@@ -11520,7 +12363,7 @@
   "echos": [],
   "anciens_ids": [],
   "societe": "google",
-  "score": 1.78,
+  "score": 1.53,
   "raisons": [
    "Acteur majeur : Google DeepMind"
   ],
@@ -11558,7 +12401,7 @@
   "echos": [],
   "anciens_ids": [],
   "societe": "microsoft",
-  "score": 0.58,
+  "score": 0.33,
   "raisons": [
    "Acteur majeur : Microsoft"
   ],
@@ -11612,7 +12455,7 @@
    "9528e7a4e91b99"
   ],
   "societe": "openai",
-  "score": 4.48,
+  "score": 4.23,
   "raisons": [
    "Repris par 2 sources",
    "Source officielle",
@@ -11620,7 +12463,7 @@
   ],
   "local": false,
   "categorie": "Business & régulation",
-  "flair": 5,
+  "flair": 4,
   "analyse": {
    "titre_fr": "Comment OpenAI détecte le mésalignement des modèles de pointe",
    "societe": {
@@ -11665,7 +12508,7 @@
    "f48c58628167b1"
   ],
   "societe": "anthropic",
-  "score": 2.58,
+  "score": 2.33,
   "raisons": [
    "Acteur majeur : Anthropic",
    "Argent, levée ou rachat"
@@ -11719,7 +12562,7 @@
    "ae8ee807e97398"
   ],
   "societe": "spacexai",
-  "score": 1.27,
+  "score": 1.02,
   "raisons": [],
   "local": false,
   "categorie": "Business & régulation",
@@ -11769,7 +12612,7 @@
   "echos": [],
   "anciens_ids": [],
   "societe": "huggingface",
-  "score": 3.77,
+  "score": 3.52,
   "raisons": [
    "Source primaire",
    "Nouveau modèle ou nouvelle version"
@@ -11819,7 +12662,7 @@
   "echos": [],
   "anciens_ids": [],
   "societe": "anthropic",
-  "score": -0.64,
+  "score": -0.9,
   "raisons": [
    "Acteur majeur : Anthropic"
   ],
@@ -11865,11 +12708,11 @@
   "echos": [],
   "anciens_ids": [],
   "societe": null,
-  "score": 0.25,
+  "score": -0.0,
   "raisons": [],
   "local": false,
   "categorie": "Business & régulation",
-  "flair": 2,
+  "flair": 1,
   "analyse": {
    "titre_fr": "New York adopte une loi limitant l'usage des chatbots IA pour les mineurs",
    "societe": {
@@ -11911,13 +12754,13 @@
   "echos": [],
   "anciens_ids": [],
   "societe": "openai",
-  "score": 1.63,
+  "score": 1.37,
   "raisons": [
    "Source officielle"
   ],
   "local": false,
   "categorie": "Business & régulation",
-  "flair": 3,
+  "flair": 2,
   "analyse": {
    "titre_fr": "Ropes & Gray développe une IA avec OpenAI pour la due diligence",
    "societe": {
@@ -11963,7 +12806,7 @@
   "echos": [],
   "anciens_ids": [],
   "societe": "google",
-  "score": 2.01,
+  "score": 1.76,
   "raisons": [
    "Source primaire",
    "Acteur majeur : Google DeepMind",
@@ -12014,7 +12857,7 @@
   "echos": [],
   "anciens_ids": [],
   "societe": null,
-  "score": -0.19,
+  "score": -0.44,
   "raisons": [
    "Régulation ou justice"
   ],
@@ -12051,7 +12894,7 @@
   "echos": [],
   "anciens_ids": [],
   "societe": null,
-  "score": -0.2,
+  "score": -0.45,
   "raisons": [
    "Régulation ou justice"
   ],
@@ -12089,7 +12932,7 @@
   "echos": [],
   "anciens_ids": [],
   "societe": "google",
-  "score": 1.68,
+  "score": 1.43,
   "raisons": [
    "Acteur majeur : Google DeepMind"
   ],
@@ -12127,7 +12970,7 @@
   "echos": [],
   "anciens_ids": [],
   "societe": null,
-  "score": -0.23,
+  "score": -0.49,
   "raisons": [
    "Régulation ou justice"
   ],
@@ -12168,7 +13011,7 @@
    "dd45fd42ac0fdc"
   ],
   "societe": "spacexai",
-  "score": 1.16,
+  "score": 0.9,
   "raisons": [
    "Lancement ou annonce"
   ],
@@ -12217,7 +13060,7 @@
   "echos": [],
   "anciens_ids": [],
   "societe": null,
-  "score": -1.05,
+  "score": -1.3,
   "raisons": [],
   "local": false,
   "categorie": "Militaire",
@@ -12253,7 +13096,7 @@
   "echos": [],
   "anciens_ids": [],
   "societe": null,
-  "score": -1.26,
+  "score": -1.51,
   "raisons": [],
   "local": false,
   "categorie": "Recherche",
@@ -12271,7 +13114,7 @@
   "echos": [],
   "anciens_ids": [],
   "societe": "anthropic",
-  "score": 1.03,
+  "score": 0.78,
   "raisons": [
    "Acteur majeur : Anthropic"
   ],
@@ -12319,13 +13162,13 @@
   "echos": [],
   "anciens_ids": [],
   "societe": "anthropic",
-  "score": 1.62,
+  "score": 1.37,
   "raisons": [
    "Acteur majeur : Anthropic"
   ],
   "local": false,
   "categorie": "Business & régulation",
-  "flair": 3,
+  "flair": 2,
   "analyse": {
    "titre_fr": "Claude intègre de nouveaux rapports pour surveiller l'activité des salariés",
    "societe": {
@@ -12368,7 +13211,7 @@
   "echos": [],
   "anciens_ids": [],
   "societe": "openai",
-  "score": 2.79,
+  "score": 2.54,
   "raisons": [
    "Acteur majeur : OpenAI",
    "Jugé important par l'IA (4/5)"
@@ -12419,7 +13262,7 @@
   "echos": [],
   "anciens_ids": [],
   "societe": "anthropic",
-  "score": 1.19,
+  "score": 0.94,
   "raisons": [
    "Acteur majeur : Anthropic",
    "Régulation ou justice"
@@ -12458,13 +13301,13 @@
   "echos": [],
   "anciens_ids": [],
   "societe": "alibaba",
-  "score": 1.68,
+  "score": 1.43,
   "raisons": [
    "Jugé important par l'IA (4/5)"
   ],
   "local": true,
   "categorie": "Modèles",
-  "flair": 3,
+  "flair": 2,
   "analyse": {
    "titre_fr": "Les futurs modèles Qwen4 d'Alibaba intègreront une fenêtre de contexte d'un million de tokens",
    "societe": {
@@ -12509,13 +13352,13 @@
   "echos": [],
   "anciens_ids": [],
   "societe": "google",
-  "score": 0.17,
+  "score": -0.08,
   "raisons": [
    "Acteur majeur : Google DeepMind"
   ],
   "local": false,
   "categorie": "Actualité",
-  "flair": 2,
+  "flair": 1,
   "analyse": {
    "titre_fr": "Gemini 4 Carbon : la nouvelle IA de Google interroge le secteur",
    "societe": {
@@ -12558,13 +13401,13 @@
   "echos": [],
   "anciens_ids": [],
   "societe": "microsoft",
-  "score": 1.57,
+  "score": 1.32,
   "raisons": [
    "Acteur majeur : Microsoft"
   ],
   "local": false,
   "categorie": "Business & régulation",
-  "flair": 3,
+  "flair": 2,
   "analyse": {
    "titre_fr": "Accélération de l'adoption de l'IA en entreprise avec Microsoft Copilot",
    "societe": {
@@ -12610,7 +13453,7 @@
   "echos": [],
   "anciens_ids": [],
   "societe": "openai",
-  "score": 3.36,
+  "score": 3.11,
   "raisons": [
    "Source officielle",
    "Acteur majeur : OpenAI",
@@ -12660,7 +13503,7 @@
   "echos": [],
   "anciens_ids": [],
   "societe": "spacexai",
-  "score": 1.03,
+  "score": 0.78,
   "raisons": [],
   "local": false,
   "categorie": "Outils & applis",
@@ -12707,7 +13550,7 @@
   "echos": [],
   "anciens_ids": [],
   "societe": "apple",
-  "score": 4.23,
+  "score": 3.98,
   "raisons": [
    "Source officielle",
    "Lancement ou annonce",
@@ -12757,7 +13600,7 @@
   "echos": [],
   "anciens_ids": [],
   "societe": null,
-  "score": 2.03,
+  "score": 1.78,
   "raisons": [
    "Source officielle",
    "Lancement ou annonce"
@@ -12823,7 +13666,7 @@
    "762699fbcee886"
   ],
   "societe": "mistral",
-  "score": 8.73,
+  "score": 8.48,
   "raisons": [
    "Repris par 3 sources",
    "Source officielle",
@@ -12875,7 +13718,7 @@
   "echos": [],
   "anciens_ids": [],
   "societe": "openai",
-  "score": 2.33,
+  "score": 2.08,
   "raisons": [
    "Source officielle",
    "Acteur majeur : OpenAI"
@@ -12925,7 +13768,7 @@
   "echos": [],
   "anciens_ids": [],
   "societe": null,
-  "score": -0.59,
+  "score": -0.84,
   "raisons": [],
   "local": false,
   "categorie": "Recherche",
@@ -12970,7 +13813,7 @@
   "echos": [],
   "anciens_ids": [],
   "societe": null,
-  "score": -1.79,
+  "score": -2.04,
   "raisons": [],
   "local": false,
   "categorie": "Open source & local",
@@ -13015,7 +13858,7 @@
   "echos": [],
   "anciens_ids": [],
   "societe": null,
-  "score": -1.19,
+  "score": -1.45,
   "raisons": [],
   "local": false,
   "categorie": "Business & régulation",
@@ -13061,7 +13904,7 @@
   "echos": [],
   "anciens_ids": [],
   "societe": "anthropic",
-  "score": 1.09,
+  "score": 0.84,
   "raisons": [
    "Acteur majeur : Anthropic",
    "Argent, levée ou rachat"
@@ -13110,7 +13953,7 @@
   "echos": [],
   "anciens_ids": [],
   "societe": "openai",
-  "score": 1.09,
+  "score": 0.84,
   "raisons": [
    "Acteur majeur : OpenAI",
    "Argent, levée ou rachat"
@@ -13165,7 +14008,7 @@
   "echos": [],
   "anciens_ids": [],
   "societe": "openai",
-  "score": 0.29,
+  "score": 0.04,
   "raisons": [
    "Source primaire",
    "Acteur majeur : OpenAI"
@@ -13215,7 +14058,7 @@
   "echos": [],
   "anciens_ids": [],
   "societe": null,
-  "score": -0.42,
+  "score": -0.67,
   "raisons": [
    "Régulation ou justice"
   ],
@@ -13261,7 +14104,7 @@
   "echos": [],
   "anciens_ids": [],
   "societe": "microsoft",
-  "score": 2.28,
+  "score": 2.02,
   "raisons": [
    "Acteur majeur : Microsoft",
    "Argent, levée ou rachat"
@@ -13309,7 +14152,7 @@
   "echos": [],
   "anciens_ids": [],
   "societe": "google",
-  "score": 2.67,
+  "score": 2.42,
   "raisons": [
    "Acteur majeur : Google DeepMind",
    "Jugé important par l'IA (4/5)"
@@ -13365,7 +14208,7 @@
    "c7dfcf08c5d00d"
   ],
   "societe": "openai",
-  "score": 3.86,
+  "score": 3.61,
   "raisons": [
    "Repris par 2 sources",
    "Acteur majeur : OpenAI",
@@ -13415,7 +14258,7 @@
   "echos": [],
   "anciens_ids": [],
   "societe": null,
-  "score": 1.46,
+  "score": 1.21,
   "raisons": [
    "Utilisable librement (open source)"
   ],
@@ -13465,13 +14308,13 @@
   "echos": [],
   "anciens_ids": [],
   "societe": "microsoft",
-  "score": 0.26,
+  "score": 0.01,
   "raisons": [
    "Acteur majeur : Microsoft"
   ],
   "local": false,
   "categorie": "Business & régulation",
-  "flair": 2,
+  "flair": 1,
   "analyse": {
    "titre_fr": "Microsoft enchaîne un dixième trimestre consécutif de revenus record",
    "societe": {
@@ -13512,7 +14355,7 @@
   "echos": [],
   "anciens_ids": [],
   "societe": "openai",
-  "score": 2.46,
+  "score": 2.21,
   "raisons": [
    "Acteur majeur : OpenAI",
    "Jugé important par l'IA (4/5)"
@@ -13564,7 +14407,7 @@
    "f48c58628167b1"
   ],
   "societe": "anthropic",
-  "score": 1.46,
+  "score": 1.2,
   "raisons": [
    "Acteur majeur : Anthropic"
   ],
@@ -13614,7 +14457,7 @@
   "echos": [],
   "anciens_ids": [],
   "societe": null,
-  "score": 1.15,
+  "score": 0.9,
   "raisons": [
    "Jugé important par l'IA (4/5)"
   ],
@@ -13656,7 +14499,7 @@
   "echos": [],
   "anciens_ids": [],
   "societe": "anthropic",
-  "score": 3.24,
+  "score": 2.99,
   "raisons": [
    "Source officielle",
    "Acteur majeur : Anthropic",
@@ -13713,11 +14556,11 @@
    "9635059aabb551"
   ],
   "societe": "usgov",
-  "score": 0.94,
+  "score": 0.69,
   "raisons": [],
   "local": false,
   "categorie": "Manipulation",
-  "flair": 3,
+  "flair": 2,
   "analyse": {
    "titre_fr": "Hausse des deepfakes politiques : Donald Trump cible fréquente",
    "resume": "Des deepfakes politiques sèment le trouble lors des élections, avec Donald Trump comme cible la plus fréquente, selon un reportage de The National Desk.",
@@ -13749,7 +14592,7 @@
   "echos": [],
   "anciens_ids": [],
   "societe": null,
-  "score": -0.06,
+  "score": -0.32,
   "raisons": [],
   "local": false,
   "categorie": "Business & régulation",
@@ -13795,13 +14638,13 @@
   "echos": [],
   "anciens_ids": [],
   "societe": "ue",
-  "score": 1.53,
+  "score": 1.28,
   "raisons": [
    "Régulation ou justice"
   ],
   "local": false,
   "categorie": "Pouvoir et régulation",
-  "flair": 4,
+  "flair": 3,
   "analyse": {
    "titre_fr": "Entrée en vigueur des obligations de l'AI Act pour les agents d'IA",
    "resume": "L'Union européenne met en œuvre l'AI Act, présenté comme le premier grand règlement mondial visant à encadrer l'intelligence artificielle, avec de nouvelles obligations applicables aux agents d'IA.",
@@ -13834,13 +14677,13 @@
   "echos": [],
   "anciens_ids": [],
   "societe": "microsoft",
-  "score": 0.23,
+  "score": -0.02,
   "raisons": [
    "Acteur majeur : Microsoft"
   ],
   "local": false,
   "categorie": "Outils & applis",
-  "flair": 2,
+  "flair": 1,
   "analyse": {
    "titre_fr": "LG retire l'application Copilot de ses téléviseurs après des plaintes",
    "societe": {
@@ -13881,7 +14724,7 @@
   "echos": [],
   "anciens_ids": [],
   "societe": "anthropic",
-  "score": 1.43,
+  "score": 1.17,
   "raisons": [
    "Acteur majeur : Anthropic"
   ],
@@ -13928,7 +14771,7 @@
   "echos": [],
   "anciens_ids": [],
   "societe": "google",
-  "score": -0.38,
+  "score": -0.63,
   "raisons": [
    "Acteur majeur : Google DeepMind"
   ],
@@ -13979,7 +14822,7 @@
   "echos": [],
   "anciens_ids": [],
   "societe": "alibaba",
-  "score": 1.92,
+  "score": 1.67,
   "raisons": [
    "243 votes de chercheurs sur Hugging Face Papers"
   ],
@@ -14031,7 +14874,7 @@
   "echos": [],
   "anciens_ids": [],
   "societe": "huggingface",
-  "score": 4.62,
+  "score": 4.37,
   "raisons": [
    "Utilisable librement (open source)",
    "71 votes de chercheurs sur Hugging Face Papers",
@@ -14078,17 +14921,17 @@
   "type": "recherche",
   "rubrique": "veille",
   "date": "2026-10-28T20:00:00+00:00",
-  "extrait": "Publication de recherche de galilai-group, 58 votes sur Hugging Face Papers.\nRésumé des auteurs :\nWhether models trained on different modalities converge to the same representation of the world is central to AI. The Platonic Representation Hypothesis (PRH) conjectures that they do as they scale, but without a proof it offers neither a guarantee nor a recipe. We turn the hypothesis into a theorem. First, we prove a Platonic Representation Theorem: Joint-Embedding Predictive Architectures (JEPAs) trained separately on any number of modalities learn the same representation up to one rotation whenever their positive pairs are two observations of one scene--good views--and their misalignment is bounded otherwise. Second, we show that next-token prediction is a JEPA with bad views, parts of a single document, which explains why language models align with vision only through scale. Third, we validate the theory from 145k captions to the texts of 940M web images, and uncover a scaling law of alignment that predicts unseen runs within seed noise. Good views need 42 times fewer training samples than next-token prediction on the same corpus to reach the same alignment, and a 109M-parameter text JEPA aligns with DINOv2 and CLIP's image encoders better than every language model we evaluated, up to 72B parameters, and than CLIP's text encoder: next-token prediction is a remarkably inefficient route to platonic representations. As a showcase, one rotation turns separately trained encoders into an image captioner (CIDEr .838 on COCO). Even that rotation needs no pair: on the latest pair-free benchmark, our text JEPA beats every zero-shot accuracy reported with language models up to 8B parameters, e.g., 64\\% against at most 56\\% top-5 on ImageNet-100. Positive views, and not scale alone, are thus the lever to build platonic representations.",
+  "extrait": "Publication de recherche de galilai-group, 60 votes sur Hugging Face Papers.\nRésumé des auteurs :\nWhether models trained on different modalities converge to the same representation of the world is central to AI. The Platonic Representation Hypothesis (PRH) conjectures that they do as they scale, but without a proof it offers neither a guarantee nor a recipe. We turn the hypothesis into a theorem. First, we prove a Platonic Representation Theorem: Joint-Embedding Predictive Architectures (JEPAs) trained separately on any number of modalities learn the same representation up to one rotation whenever their positive pairs are two observations of one scene--good views--and their misalignment is bounded otherwise. Second, we show that next-token prediction is a JEPA with bad views, parts of a single document, which explains why language models align with vision only through scale. Third, we validate the theory from 145k captions to the texts of 940M web images, and uncover a scaling law of alignment that predicts unseen runs within seed noise. Good views need 42 times fewer training samples than next-token prediction on the same corpus to reach the same alignment, and a 109M-parameter text JEPA aligns with DINOv2 and CLIP's image encoders better than every language model we evaluated, up to 72B parameters, and than CLIP's text encoder: next-token prediction is a remarkably inefficient route to platonic representations. As a showcase, one rotation turns separately trained encoders into an image captioner (CIDEr .838 on COCO). Even that rotation needs no pair: on the latest pair-free benchmark, our text JEPA beats every zero-shot accuracy reported with language models up to 8B parameters, e.g., 64\\% against at most 56\\% top-5 on ImageNet-100. Positive views, and not scale alone, are thus the lever to build platonic representations.",
   "primaire": true,
-  "signal": 2.95,
-  "signal_raison": "58 votes de chercheurs sur Hugging Face Papers",
+  "signal": 3.0,
+  "signal_raison": "60 votes de chercheurs sur Hugging Face Papers",
   "societe_force": null,
   "echos": [],
   "anciens_ids": [],
   "societe": "huggingface",
-  "score": 3.07,
+  "score": 2.87,
   "raisons": [
-   "58 votes de chercheurs sur Hugging Face Papers",
+   "60 votes de chercheurs sur Hugging Face Papers",
    "Jugé important par l'IA (4/5)"
   ],
   "local": false,
@@ -14130,17 +14973,17 @@
   "type": "recherche",
   "rubrique": "veille",
   "date": "2026-10-28T20:00:00+00:00",
-  "extrait": "Publication de recherche de KAIST AI, 38 votes sur Hugging Face Papers.\nRésumé des auteurs :\nInteractive world models generate visual content conditioned on user actions, yet maintaining spatial consistency over long-horizon exploration in real time remains challenging. Existing approaches rely on either temporal context or explicit 3D memory, both of which scale poorly because memory grows with the length of the generated stream. Moreover, explicit 3D memories condition latent video generators by re-encoding RGB renderings, which precludes real-time generation. In this paper, we introduce a Latent 3D Gaussian Memory (L3G) that combines the efficiency of feed-forward reconstruction with a compact, rapidly renderable scene representation. Building on this memory, we propose L3G-World, in which a memory updater and a video diffusion transformer (DiT) alternate autoregressively to generate spatially consistent worlds. The memory updater spawns Gaussians in newly observed regions and refines existing ones, so that the memory grows with scene extent rather than stream length. Each Gaussian further stores a VAE latent feature, allowing the memory to be rendered directly into the DiT's latent space without VAE re-encoding. Experiments show that L3G-World achieves state-of-the-art generation quality and long-horizon spatial consistency, with up to 38.6times fewer 3D primitives, 3.2times faster memory updates, and 359times faster memory rendering relative to the most efficient prior 3D-memory baseline for each metric, enabling real-time world generation at 9 FPS.",
+  "extrait": "Publication de recherche de KAIST AI, 39 votes sur Hugging Face Papers.\nRésumé des auteurs :\nInteractive world models generate visual content conditioned on user actions, yet maintaining spatial consistency over long-horizon exploration in real time remains challenging. Existing approaches rely on either temporal context or explicit 3D memory, both of which scale poorly because memory grows with the length of the generated stream. Moreover, explicit 3D memories condition latent video generators by re-encoding RGB renderings, which precludes real-time generation. In this paper, we introduce a Latent 3D Gaussian Memory (L3G) that combines the efficiency of feed-forward reconstruction with a compact, rapidly renderable scene representation. Building on this memory, we propose L3G-World, in which a memory updater and a video diffusion transformer (DiT) alternate autoregressively to generate spatially consistent worlds. The memory updater spawns Gaussians in newly observed regions and refines existing ones, so that the memory grows with scene extent rather than stream length. Each Gaussian further stores a VAE latent feature, allowing the memory to be rendered directly into the DiT's latent space without VAE re-encoding. Experiments show that L3G-World achieves state-of-the-art generation quality and long-horizon spatial consistency, with up to 38.6times fewer 3D primitives, 3.2times faster memory updates, and 359times faster memory rendering relative to the most efficient prior 3D-memory baseline for each metric, enabling real-time world generation at 9 FPS.",
   "primaire": true,
-  "signal": 2.3,
-  "signal_raison": "38 votes de chercheurs sur Hugging Face Papers",
+  "signal": 2.34,
+  "signal_raison": "39 votes de chercheurs sur Hugging Face Papers",
   "societe_force": null,
   "echos": [],
   "anciens_ids": [],
   "societe": "huggingface",
-  "score": 2.42,
+  "score": 2.21,
   "raisons": [
-   "38 votes de chercheurs sur Hugging Face Papers",
+   "39 votes de chercheurs sur Hugging Face Papers",
    "Jugé important par l'IA (4/5)"
   ],
   "local": false,
@@ -14183,17 +15026,17 @@
   "type": "recherche",
   "rubrique": "veille",
   "date": "2026-10-28T20:00:00+00:00",
-  "extrait": "Publication de recherche, 36 votes sur Hugging Face Papers.\nRésumé des auteurs :\nPixel-space generative Transformers typically use one token per image patch, so capturing finer detail requires more tokens and makes global attention increasingly expensive. We observe that finer detail does not necessarily require more global communication: low-frequency structure benefits from global exchange, while high-frequency detail can be modeled locally. Based on this insight, we introduce SpecSlot, a pixel-space rectified-flow Transformer that decouples output detail from the length of the global attention sequence. SpecSlot expands each spatial anchor into multiple slots, each assigned a disjoint band of DCT coefficients; this separates anchor density from spectral subdivision. Only the lowest-frequency slot from each anchor participates in global attention, while all slots interact locally. This allows the model to increase spectral detail without enlarging the global sequence. A spatial head further adds a local correction to the spectral prediction, while the generative state, target, and loss remain in pixel space. On ImageNet-256, SpecSlot achieves a comparable final FID to a FLOPs-matched JiT control while converging faster. On ImageNet-512, it improves FID by 2.84 over the control with 3.9% fewer FLOPs, and comes within only 0.69 FID of JiT-B/16 at 38.2% lower cost. On text-to-image generation, SpecSlot surpasses JiT-B/8 on DPG-Bench by 1.06 at 40.6% lower forward cost.",
+  "extrait": "Publication de recherche, 24 votes sur Hugging Face Papers.\nRésumé des auteurs :\nPixel-space generative Transformers typically use one token per image patch, so capturing finer detail requires more tokens and makes global attention increasingly expensive. We observe that finer detail does not necessarily require more global communication: low-frequency structure benefits from global exchange, while high-frequency detail can be modeled locally. Based on this insight, we introduce SpecSlot, a pixel-space rectified-flow Transformer that decouples output detail from the length of the global attention sequence. SpecSlot expands each spatial anchor into multiple slots, each assigned a disjoint band of DCT coefficients; this separates anchor density from spectral subdivision. Only the lowest-frequency slot from each anchor participates in global attention, while all slots interact locally. This allows the model to increase spectral detail without enlarging the global sequence. A spatial head further adds a local correction to the spectral prediction, while the generative state, target, and loss remain in pixel space. On ImageNet-256, SpecSlot achieves a comparable final FID to a FLOPs-matched JiT control while converging faster. On ImageNet-512, it improves FID by 2.84 over the control with 3.9% fewer FLOPs, and comes within only 0.69 FID of JiT-B/16 at 38.2% lower cost. On text-to-image generation, SpecSlot surpasses JiT-B/8 on DPG-Bench by 1.06 at 40.6% lower forward cost.",
   "primaire": true,
-  "signal": 2.23,
-  "signal_raison": "36 votes de chercheurs sur Hugging Face Papers",
+  "signal": 1.71,
+  "signal_raison": "24 votes de chercheurs sur Hugging Face Papers",
   "societe_force": null,
   "echos": [],
   "anciens_ids": [],
   "societe": "huggingface",
-  "score": 1.15,
+  "score": 0.38,
   "raisons": [
-   "36 votes de chercheurs sur Hugging Face Papers"
+   "24 votes de chercheurs sur Hugging Face Papers"
   ],
   "local": false,
   "categorie": "Recherche",
@@ -14234,17 +15077,17 @@
   "type": "recherche",
   "rubrique": "veille",
   "date": "2026-10-28T20:00:00+00:00",
-  "extrait": "Publication de recherche de Tsinghua University, 20 votes sur Hugging Face Papers.\nRésumé des auteurs :\nThe hair of stylized characters in games and avatars is built from hair cards: artist-placed ribbons whose geometry is the visible hair, animated by spring bones. Existing image-based methods produce realistic hair or a single fused mesh, while CHARM, the only generator of stylized hair cards, decodes a hairstyle autoregressively as a long sequence of control points. Observing that a card hairstyle is an unordered set of artist-defined primitives, we propose HairDeck, which generates it as one: each card is a single token, and a set diffusion transformer denoises all cards together. From a single image, HairDeck generates the cards and the spring-bone chains that drive them, yielding an animatable asset that exports to ready-to-use downstream formats. On CHARM's own test set, it lowers Chamfer distance by 44% and card-orientation error by more than half while running 33 times faster, and from single images it outperforms CHARM, image-to-3D pipelines and strand-based methods. Project page: https://hyzcluster.github.io/HairDeck",
+  "extrait": "Publication de recherche de Tsinghua University, 23 votes sur Hugging Face Papers.\nRésumé des auteurs :\nThe hair of stylized characters in games and avatars is built from hair cards: artist-placed ribbons whose geometry is the visible hair, animated by spring bones. Existing image-based methods produce realistic hair or a single fused mesh, while CHARM, the only generator of stylized hair cards, decodes a hairstyle autoregressively as a long sequence of control points. Observing that a card hairstyle is an unordered set of artist-defined primitives, we propose HairDeck, which generates it as one: each card is a single token, and a set diffusion transformer denoises all cards together. From a single image, HairDeck generates the cards and the spring-bone chains that drive them, yielding an animatable asset that exports to ready-to-use downstream formats. On CHARM's own test set, it lowers Chamfer distance by 44% and card-orientation error by more than half while running 33 times faster, and from single images it outperforms CHARM, image-to-3D pipelines and strand-based methods. Project page: https://hyzcluster.github.io/HairDeck",
   "primaire": true,
-  "signal": 1.5,
-  "signal_raison": "20 votes de chercheurs sur Hugging Face Papers",
+  "signal": 1.66,
+  "signal_raison": "23 votes de chercheurs sur Hugging Face Papers",
   "societe_force": null,
   "echos": [],
   "anciens_ids": [],
   "societe": "huggingface",
-  "score": 0.42,
+  "score": 0.33,
   "raisons": [
-   "20 votes de chercheurs sur Hugging Face Papers"
+   "23 votes de chercheurs sur Hugging Face Papers"
   ],
   "local": true,
   "categorie": "Recherche",
@@ -14264,7 +15107,7 @@
    "d13f51c11878f4"
   ],
   "societe": "google",
-  "score": 3.92,
+  "score": 3.67,
   "raisons": [
    "Acteur majeur : Google DeepMind",
    "Nouveau modèle ou nouvelle version"
@@ -14320,7 +15163,7 @@
    "db9454a4d973ac"
   ],
   "societe": "ollama",
-  "score": 0.72,
+  "score": 0.47,
   "raisons": [
    "Source primaire",
    "Utilisable librement (open source)"
@@ -14377,7 +15220,7 @@
    "9a8982d92d7a9a"
   ],
   "societe": "anthropic",
-  "score": 5.4,
+  "score": 5.15,
   "raisons": [
    "Repris par 2 sources",
    "Acteur majeur : Anthropic",
@@ -14428,7 +15271,7 @@
   "echos": [],
   "anciens_ids": [],
   "societe": "openai",
-  "score": 1.39,
+  "score": 1.14,
   "raisons": [
    "Acteur majeur : OpenAI"
   ],
@@ -14479,7 +15322,7 @@
    "66c9055b3cf214"
   ],
   "societe": null,
-  "score": 1.39,
+  "score": 1.14,
   "raisons": [
    "Utilisable librement (open source)"
   ],
@@ -14547,7 +15390,7 @@
    "f8cf634dc4d336"
   ],
   "societe": "google",
-  "score": 8.28,
+  "score": 8.02,
   "raisons": [
    "Repris par 3 sources",
    "Acteur majeur : Google DeepMind",
@@ -14599,7 +15442,7 @@
   "echos": [],
   "anciens_ids": [],
   "societe": null,
-  "score": -0.73,
+  "score": -0.98,
   "raisons": [],
   "local": true,
   "categorie": "Open source & local",
@@ -14645,7 +15488,7 @@
   "echos": [],
   "anciens_ids": [],
   "societe": "anthropic",
-  "score": 2.17,
+  "score": 1.92,
   "raisons": [
    "Acteur majeur : Anthropic",
    "Argent, levée ou rachat"
@@ -14695,7 +15538,7 @@
   "echos": [],
   "anciens_ids": [],
   "societe": "anthropic",
-  "score": 1.36,
+  "score": 1.11,
   "raisons": [
    "Acteur majeur : Anthropic"
   ],
@@ -14743,7 +15586,7 @@
   "echos": [],
   "anciens_ids": [],
   "societe": null,
-  "score": -0.74,
+  "score": -0.99,
   "raisons": [],
   "local": false,
   "categorie": "Business & régulation",
@@ -14802,7 +15645,7 @@
    "e29f298f84698a"
   ],
   "societe": "google",
-  "score": 6.66,
+  "score": 6.41,
   "raisons": [
    "Repris par 2 sources",
    "Acteur majeur : Google DeepMind",
@@ -14855,7 +15698,7 @@
   "echos": [],
   "anciens_ids": [],
   "societe": "ollama",
-  "score": -0.55,
+  "score": -0.81,
   "raisons": [],
   "local": true,
   "categorie": "Open source & local",
@@ -14901,7 +15744,7 @@
   "echos": [],
   "anciens_ids": [],
   "societe": null,
-  "score": -0.76,
+  "score": -1.01,
   "raisons": [],
   "local": true,
   "categorie": "Open source & local",
@@ -14980,7 +15823,7 @@
    "fd28bb87675475"
   ],
   "societe": "google",
-  "score": 6.74,
+  "score": 6.49,
   "raisons": [
    "Repris par 4 sources",
    "Acteur majeur : Google DeepMind",
@@ -15048,7 +15891,7 @@
    "a0648ff54b4d8d"
   ],
   "societe": "google",
-  "score": 9.04,
+  "score": 8.79,
   "raisons": [
    "Repris par 3 sources",
    "Source officielle",
@@ -15107,7 +15950,7 @@
    "765a5a74d2443b"
   ],
   "societe": "google",
-  "score": 2.04,
+  "score": 1.78,
   "raisons": [
    "Repris par 2 sources"
   ],
@@ -15163,7 +16006,7 @@
    "986ae8edb6ddf0"
   ],
   "societe": "google",
-  "score": 4.14,
+  "score": 3.88,
   "raisons": [
    "Repris par 2 sources",
    "Acteur majeur : Google DeepMind",
@@ -15213,13 +16056,13 @@
   "echos": [],
   "anciens_ids": [],
   "societe": "google",
-  "score": 0.14,
+  "score": -0.12,
   "raisons": [
    "Acteur majeur : Google DeepMind"
   ],
   "local": false,
   "categorie": "Outils & applis",
-  "flair": 2,
+  "flair": 1,
   "analyse": {
    "titre_fr": "Utiliser les journaux de flux VPC pour dépanner les charges de travail GKE",
    "societe": {
@@ -15262,7 +16105,7 @@
   "echos": [],
   "anciens_ids": [],
   "societe": "spacexai",
-  "score": -0.36,
+  "score": -0.62,
   "raisons": [],
   "local": false,
   "categorie": "Business & régulation",
@@ -15306,7 +16149,7 @@
   "echos": [],
   "anciens_ids": [],
   "societe": "google",
-  "score": -0.47,
+  "score": -0.72,
   "raisons": [
    "Acteur majeur : Google DeepMind"
   ],
@@ -15355,7 +16198,7 @@
   "echos": [],
   "anciens_ids": [],
   "societe": null,
-  "score": 0.43,
+  "score": 0.18,
   "raisons": [
    "Jugé important par l'IA (4/5)"
   ],
@@ -15404,7 +16247,7 @@
   "echos": [],
   "anciens_ids": [],
   "societe": "anthropic",
-  "score": 2.53,
+  "score": 2.28,
   "raisons": [
    "Acteur majeur : Anthropic",
    "Lancement ou annonce"
@@ -15453,7 +16296,7 @@
   "echos": [],
   "anciens_ids": [],
   "societe": "anthropic",
-  "score": 0.12,
+  "score": -0.13,
   "raisons": [
    "Acteur majeur : Anthropic"
   ],
@@ -15491,7 +16334,7 @@
   "echos": [],
   "anciens_ids": [],
   "societe": "nvidia",
-  "score": -0.48,
+  "score": -0.73,
   "raisons": [
    "Acteur majeur : NVIDIA"
   ],
@@ -15539,7 +16382,7 @@
   "echos": [],
   "anciens_ids": [],
   "societe": "meta",
-  "score": 1.32,
+  "score": 1.06,
   "raisons": [
    "Acteur majeur : Meta"
   ],
@@ -15589,7 +16432,7 @@
    "2596c02b90f168"
   ],
   "societe": "spacexai",
-  "score": 2.02,
+  "score": 1.76,
   "raisons": [
    "Lancement ou annonce"
   ],
@@ -15637,7 +16480,7 @@
   "echos": [],
   "anciens_ids": [],
   "societe": "spacexai",
-  "score": -0.39,
+  "score": -0.64,
   "raisons": [],
   "local": false,
   "categorie": "Actualité",
@@ -15688,7 +16531,7 @@
   "echos": [],
   "anciens_ids": [],
   "societe": "huggingface",
-  "score": 2.61,
+  "score": 2.35,
   "raisons": [
    "Source primaire",
    "N°25 des tendances Hugging Face",
@@ -15739,7 +16582,7 @@
   "echos": [],
   "anciens_ids": [],
   "societe": null,
-  "score": -1.39,
+  "score": -1.65,
   "raisons": [],
   "local": false,
   "categorie": "Business & régulation",
@@ -15783,7 +16626,7 @@
   "echos": [],
   "anciens_ids": [],
   "societe": null,
-  "score": -0.8,
+  "score": -1.05,
   "raisons": [],
   "local": false,
   "categorie": "Recherche",
@@ -15828,7 +16671,7 @@
   "echos": [],
   "anciens_ids": [],
   "societe": null,
-  "score": 1.0,
+  "score": 0.75,
   "raisons": [
    "Jugé important par l'IA (4/5)"
   ],
@@ -15877,7 +16720,7 @@
   "echos": [],
   "anciens_ids": [],
   "societe": "ue",
-  "score": 0.2,
+  "score": -0.06,
   "raisons": [
    "Régulation ou justice"
   ],
@@ -15946,7 +16789,7 @@
    "818dfb43c6c60d"
   ],
   "societe": "microsoft",
-  "score": 0.1,
+  "score": -0.16,
   "raisons": [
    "Acteur majeur : Microsoft"
   ],
@@ -15964,7 +16807,7 @@
   "echos": [],
   "anciens_ids": [],
   "societe": "spacexai",
-  "score": 1.09,
+  "score": 0.84,
   "raisons": [
    "Utilisable librement (open source)"
   ],
@@ -16013,7 +16856,7 @@
   "echos": [],
   "anciens_ids": [],
   "societe": "nvidia",
-  "score": 0.69,
+  "score": 0.44,
   "raisons": [
    "Acteur majeur : NVIDIA"
   ],
@@ -16096,7 +16939,7 @@
    "e8c61706efadbf"
   ],
   "societe": "anthropic",
-  "score": 2.49,
+  "score": 2.24,
   "raisons": [
    "Acteur majeur : Anthropic",
    "Lancement ou annonce"
@@ -16116,7 +16959,7 @@
   "echos": [],
   "anciens_ids": [],
   "societe": "nvidia",
-  "score": 3.28,
+  "score": 3.03,
   "raisons": [
    "Source officielle",
    "Acteur majeur : NVIDIA",
@@ -16167,7 +17010,7 @@
   "echos": [],
   "anciens_ids": [],
   "societe": "nvidia",
-  "score": 2.48,
+  "score": 2.23,
   "raisons": [
    "Acteur majeur : NVIDIA",
    "Lancement ou annonce"
@@ -16223,7 +17066,7 @@
    "058c6ca6c7a58e"
   ],
   "societe": "nvidia",
-  "score": 6.18,
+  "score": 5.93,
   "raisons": [
    "Repris par 2 sources",
    "Source officielle",
@@ -16279,7 +17122,7 @@
   "echos": [],
   "anciens_ids": [],
   "societe": "ollama",
-  "score": 1.48,
+  "score": 1.22,
   "raisons": [
    "Source primaire",
    "Jugé important par l'IA (4/5)"
@@ -16338,7 +17181,7 @@
    "ebd495c3678261"
   ],
   "societe": "spacexai",
-  "score": 1.17,
+  "score": 0.92,
   "raisons": [
    "Repris par 2 sources"
   ],
@@ -16386,7 +17229,7 @@
   "echos": [],
   "anciens_ids": [],
   "societe": "openai",
-  "score": 1.27,
+  "score": 1.02,
   "raisons": [
    "Acteur majeur : OpenAI"
   ],
@@ -16436,7 +17279,7 @@
   "echos": [],
   "anciens_ids": [],
   "societe": "spacexai",
-  "score": 0.76,
+  "score": 0.51,
   "raisons": [
    "Lancement ou annonce"
   ],
@@ -16485,7 +17328,7 @@
   "echos": [],
   "anciens_ids": [],
   "societe": "google",
-  "score": -1.14,
+  "score": -1.39,
   "raisons": [
    "Acteur majeur : Google DeepMind"
   ],
@@ -16531,7 +17374,7 @@
   "echos": [],
   "anciens_ids": [],
   "societe": "openai",
-  "score": -0.25,
+  "score": -0.5,
   "raisons": [],
   "local": false,
   "categorie": "Outils & applis",
@@ -16579,7 +17422,7 @@
   "echos": [],
   "anciens_ids": [],
   "societe": null,
-  "score": -0.85,
+  "score": -1.11,
   "raisons": [],
   "local": false,
   "categorie": "Business & régulation",
@@ -16636,7 +17479,7 @@
    "cd377efbfc6675"
   ],
   "societe": "openai",
-  "score": 3.63,
+  "score": 3.38,
   "raisons": [
    "Repris par 2 sources",
    "Source officielle",
@@ -16690,7 +17533,7 @@
    "5135d63cacdd43"
   ],
   "societe": null,
-  "score": -2.67,
+  "score": -2.93,
   "raisons": [],
   "local": false,
   "categorie": "Actualité",
@@ -16738,7 +17581,7 @@
    "611c3764f1d55b"
   ],
   "societe": "microsoft",
-  "score": 1.22,
+  "score": 0.97,
   "raisons": [
    "Acteur majeur : Microsoft"
   ],
@@ -16796,14 +17639,14 @@
    "d0753be868cc78"
   ],
   "societe": "microsoft",
-  "score": 1.61,
+  "score": 1.36,
   "raisons": [
    "Repris par 2 sources",
    "Acteur majeur : Microsoft"
   ],
   "local": false,
   "categorie": "Actualité",
-  "flair": 3,
+  "flair": 2,
   "analyse": {
    "titre_fr": "Microsoft met fin au support de Copilot sur les téléviseurs connectés",
    "societe": {
@@ -16845,7 +17688,7 @@
   "echos": [],
   "anciens_ids": [],
   "societe": "alibaba",
-  "score": 1.31,
+  "score": 1.06,
   "raisons": [
    "Jugé important par l'IA (4/5)"
   ],
@@ -16895,7 +17738,7 @@
   "echos": [],
   "anciens_ids": [],
   "societe": "spacexai",
-  "score": 0.31,
+  "score": 0.06,
   "raisons": [
    "Régulation ou justice"
   ],
@@ -16945,7 +17788,7 @@
   "echos": [],
   "anciens_ids": [],
   "societe": null,
-  "score": -1.5,
+  "score": -1.75,
   "raisons": [],
   "local": false,
   "categorie": "Recherche",
@@ -16989,7 +17832,7 @@
   "echos": [],
   "anciens_ids": [],
   "societe": null,
-  "score": -0.3,
+  "score": -0.55,
   "raisons": [],
   "local": false,
   "categorie": "Business & régulation",
@@ -17036,7 +17879,7 @@
   "echos": [],
   "anciens_ids": [],
   "societe": "meta",
-  "score": 1.18,
+  "score": 0.93,
   "raisons": [
    "Acteur majeur : Meta",
    "Lancement ou annonce"
@@ -17086,7 +17929,7 @@
   "echos": [],
   "anciens_ids": [],
   "societe": "anthropic",
-  "score": 1.18,
+  "score": 0.93,
   "raisons": [
    "Acteur majeur : Anthropic"
   ],
@@ -17127,7 +17970,7 @@
    "15198e7cf04ec2"
   ],
   "societe": "anthropic",
-  "score": 1.17,
+  "score": 0.92,
   "raisons": [
    "Acteur majeur : Anthropic"
   ],
@@ -17175,7 +18018,7 @@
   "echos": [],
   "anciens_ids": [],
   "societe": "usgov",
-  "score": 0.67,
+  "score": 0.41,
   "raisons": [],
   "local": true,
   "categorie": "Militaire",
@@ -17211,7 +18054,7 @@
   "echos": [],
   "anciens_ids": [],
   "societe": "deepseek",
-  "score": -0.25,
+  "score": -0.5,
   "raisons": [
    "Utilisable librement (open source)"
   ],
@@ -17281,7 +18124,7 @@
    "6dc152733a60f2"
   ],
   "societe": null,
-  "score": 0.45,
+  "score": 0.2,
   "raisons": [
    "Régulation ou justice"
   ],
@@ -17301,7 +18144,7 @@
   "echos": [],
   "anciens_ids": [],
   "societe": "amazon",
-  "score": -0.55,
+  "score": -0.81,
   "raisons": [],
   "local": false,
   "categorie": "Business & régulation",
@@ -17354,7 +18197,7 @@
    "ed56dd3cc154ae"
   ],
   "societe": null,
-  "score": 2.04,
+  "score": 1.79,
   "raisons": [
    "Repris par 2 sources",
    "Source officielle"
@@ -17404,7 +18247,7 @@
   "echos": [],
   "anciens_ids": [],
   "societe": "google",
-  "score": -0.66,
+  "score": -0.92,
   "raisons": [
    "Acteur majeur : Google DeepMind"
   ],
@@ -17450,7 +18293,7 @@
   "echos": [],
   "anciens_ids": [],
   "societe": null,
-  "score": -1.57,
+  "score": -1.82,
   "raisons": [],
   "local": false,
   "categorie": "Surveillance",
@@ -17493,7 +18336,7 @@
    "41c97fe8dc29ac"
   ],
   "societe": "openai",
-  "score": 1.43,
+  "score": 1.18,
   "raisons": [
    "Repris par 2 sources",
    "Source officielle"
@@ -17542,7 +18385,7 @@
   "echos": [],
   "anciens_ids": [],
   "societe": "openai",
-  "score": 1.92,
+  "score": 1.67,
   "raisons": [
    "Acteur majeur : OpenAI",
    "Régulation ou justice"
@@ -17592,7 +18435,7 @@
   "echos": [],
   "anciens_ids": [],
   "societe": "usgov",
-  "score": 0.62,
+  "score": 0.36,
   "raisons": [],
   "local": false,
   "categorie": "Militaire",
@@ -17628,7 +18471,7 @@
   "echos": [],
   "anciens_ids": [],
   "societe": "anthropic",
-  "score": 1.11,
+  "score": 0.86,
   "raisons": [
    "Acteur majeur : Anthropic"
   ],
@@ -17677,7 +18520,7 @@
   "echos": [],
   "anciens_ids": [],
   "societe": "google",
-  "score": 2.31,
+  "score": 2.06,
   "raisons": [
    "Acteur majeur : Google DeepMind",
    "Jugé important par l'IA (4/5)"
@@ -17727,7 +18570,7 @@
   "echos": [],
   "anciens_ids": [],
   "societe": null,
-  "score": -0.6,
+  "score": -0.85,
   "raisons": [],
   "local": false,
   "categorie": "Surveillance",
@@ -17763,7 +18606,7 @@
   "echos": [],
   "anciens_ids": [],
   "societe": "google",
-  "score": -0.1,
+  "score": -0.35,
   "raisons": [
    "Acteur majeur : Google DeepMind"
   ],
@@ -17811,7 +18654,7 @@
   "echos": [],
   "anciens_ids": [],
   "societe": "anthropic",
-  "score": 2.29,
+  "score": 2.04,
   "raisons": [
    "Acteur majeur : Anthropic",
    "Jugé important par l'IA (4/5)"
@@ -17864,7 +18707,7 @@
    "4532472bfe2226"
   ],
   "societe": "ue",
-  "score": 1.19,
+  "score": 0.94,
   "raisons": [
    "Régulation ou justice"
   ],
@@ -17903,7 +18746,7 @@
   "echos": [],
   "anciens_ids": [],
   "societe": "anthropic",
-  "score": 1.09,
+  "score": 0.84,
   "raisons": [
    "Acteur majeur : Anthropic"
   ],
@@ -17952,7 +18795,7 @@
   "echos": [],
   "anciens_ids": [],
   "societe": null,
-  "score": -1.63,
+  "score": -1.88,
   "raisons": [],
   "local": false,
   "categorie": "Pouvoir et régulation",
@@ -17989,7 +18832,7 @@
   "echos": [],
   "anciens_ids": [],
   "societe": "mistral",
-  "score": -0.86,
+  "score": -1.11,
   "raisons": [],
   "local": false,
   "categorie": "Business & régulation",
@@ -18033,7 +18876,7 @@
   "echos": [],
   "anciens_ids": [],
   "societe": "anthropic",
-  "score": -0.17,
+  "score": -0.42,
   "raisons": [
    "Acteur majeur : Anthropic"
   ],
@@ -18094,11 +18937,11 @@
    "d881671bd4e63b"
   ],
   "societe": null,
-  "score": -0.47,
+  "score": -0.72,
   "raisons": [],
   "local": false,
   "categorie": "Pouvoir et régulation",
-  "flair": 2,
+  "flair": 1,
   "analyse": {
    "titre_fr": "Saisie de puces IA de contrebande en Malaisie",
    "resume": "Des puces électroniques destinées à l'intelligence artificielle ont été saisies en Malaisie, apparaissant comme des produits de contrebande de haute valeur dans le contexte des contrôles à l'exportation.",
@@ -18131,7 +18974,7 @@
   "echos": [],
   "anciens_ids": [],
   "societe": "meta",
-  "score": -0.18,
+  "score": -0.43,
   "raisons": [
    "Acteur majeur : Meta"
   ],
@@ -18179,7 +19022,7 @@
   "echos": [],
   "anciens_ids": [],
   "societe": "mistral",
-  "score": -0.88,
+  "score": -1.13,
   "raisons": [],
   "local": false,
   "categorie": "Actualité",
@@ -18227,7 +19070,7 @@
   "echos": [],
   "anciens_ids": [],
   "societe": "google",
-  "score": 4.0,
+  "score": 3.75,
   "raisons": [
    "Source officielle",
    "Acteur majeur : Google DeepMind",
@@ -18279,7 +19122,7 @@
   "echos": [],
   "anciens_ids": [],
   "societe": "openai",
-  "score": -0.51,
+  "score": -0.76,
   "raisons": [],
   "local": false,
   "categorie": "Business & régulation",
@@ -18328,7 +19171,7 @@
   "echos": [],
   "anciens_ids": [],
   "societe": null,
-  "score": -1.71,
+  "score": -1.96,
   "raisons": [
    "Source primaire"
   ],
@@ -18376,7 +19219,7 @@
   "echos": [],
   "anciens_ids": [],
   "societe": null,
-  "score": -1.12,
+  "score": -1.38,
   "raisons": [
    "Régulation ou justice"
   ],
@@ -18396,7 +19239,7 @@
   "echos": [],
   "anciens_ids": [],
   "societe": null,
-  "score": -1.92,
+  "score": -2.18,
   "raisons": [],
   "local": false,
   "categorie": "Recherche",
@@ -18414,7 +19257,7 @@
   "echos": [],
   "anciens_ids": [],
   "societe": null,
-  "score": -1.92,
+  "score": -2.18,
   "raisons": [],
   "local": false,
   "categorie": "Recherche",
@@ -18432,7 +19275,7 @@
   "echos": [],
   "anciens_ids": [],
   "societe": null,
-  "score": -1.92,
+  "score": -2.18,
   "raisons": [],
   "local": false,
   "categorie": "Recherche",
@@ -18450,7 +19293,7 @@
   "echos": [],
   "anciens_ids": [],
   "societe": null,
-  "score": -1.92,
+  "score": -2.18,
   "raisons": [],
   "local": false,
   "categorie": "Recherche",
@@ -18468,7 +19311,7 @@
   "echos": [],
   "anciens_ids": [],
   "societe": null,
-  "score": -1.92,
+  "score": -2.18,
   "raisons": [],
   "local": false,
   "categorie": "Recherche",
@@ -18486,7 +19329,7 @@
   "echos": [],
   "anciens_ids": [],
   "societe": null,
-  "score": -1.92,
+  "score": -2.18,
   "raisons": [],
   "local": false,
   "categorie": "Recherche",
@@ -18504,7 +19347,7 @@
   "echos": [],
   "anciens_ids": [],
   "societe": null,
-  "score": -1.92,
+  "score": -2.18,
   "raisons": [],
   "local": false,
   "categorie": "Recherche",
@@ -18522,7 +19365,7 @@
   "echos": [],
   "anciens_ids": [],
   "societe": null,
-  "score": -1.92,
+  "score": -2.18,
   "raisons": [],
   "local": true,
   "categorie": "Recherche",
@@ -18540,7 +19383,7 @@
   "echos": [],
   "anciens_ids": [],
   "societe": null,
-  "score": -1.92,
+  "score": -2.18,
   "raisons": [],
   "local": false,
   "categorie": "Recherche",
@@ -18558,7 +19401,7 @@
   "echos": [],
   "anciens_ids": [],
   "societe": null,
-  "score": -1.92,
+  "score": -2.18,
   "raisons": [],
   "local": false,
   "categorie": "Recherche",
@@ -18576,7 +19419,7 @@
   "echos": [],
   "anciens_ids": [],
   "societe": null,
-  "score": -0.42,
+  "score": -0.68,
   "raisons": [
    "Utilisable librement (open source)"
   ],
@@ -18625,7 +19468,7 @@
   "echos": [],
   "anciens_ids": [],
   "societe": null,
-  "score": -1.92,
+  "score": -2.18,
   "raisons": [],
   "local": false,
   "categorie": "Recherche",
@@ -18643,7 +19486,7 @@
   "echos": [],
   "anciens_ids": [],
   "societe": "usgov",
-  "score": -2.12,
+  "score": -2.38,
   "raisons": [],
   "local": false,
   "categorie": "Recherche",
@@ -18688,7 +19531,7 @@
   "echos": [],
   "anciens_ids": [],
   "societe": null,
-  "score": -1.92,
+  "score": -2.18,
   "raisons": [],
   "local": false,
   "categorie": "Recherche",
@@ -18706,7 +19549,7 @@
   "echos": [],
   "anciens_ids": [],
   "societe": null,
-  "score": -0.52,
+  "score": -0.78,
   "raisons": [],
   "local": false,
   "categorie": "Business & régulation",
@@ -18753,7 +19596,7 @@
   "echos": [],
   "anciens_ids": [],
   "societe": "deepseek",
-  "score": 0.77,
+  "score": 0.51,
   "raisons": [
    "Utilisable librement (open source)"
   ],
@@ -18801,11 +19644,11 @@
   "echos": [],
   "anciens_ids": [],
   "societe": "mistral",
-  "score": 0.25,
+  "score": 0.0,
   "raisons": [],
   "local": false,
   "categorie": "Business & régulation",
-  "flair": 2,
+  "flair": 1,
   "analyse": {
    "titre_fr": "Ecosia s'éloigne de Mistral AI pour réduire ses coûts",
    "societe": {
@@ -18848,13 +19691,13 @@
   "echos": [],
   "anciens_ids": [],
   "societe": "anthropic",
-  "score": 0.93,
+  "score": 0.7,
   "raisons": [
    "Acteur majeur : Anthropic"
   ],
   "local": false,
   "categorie": "Militaire",
-  "flair": 3,
+  "flair": 2,
   "analyse": {
    "titre_fr": "Anthropic élargit son contrat gouvernemental américain malgré un différend avec le Pentagone",
    "resume": "Anthropic a étendu son accord d'intelligence artificielle avec le gouvernement américain en proposant une réduction de 40 %, et ce, en dépit d'un différend persistant avec le Pentagone.",
@@ -18894,7 +19737,7 @@
    "0a7119608b55c9"
   ],
   "societe": "anthropic",
-  "score": 3.3,
+  "score": 3.1,
   "raisons": [
    "Repris par 2 sources",
    "Acteur majeur : Anthropic",
@@ -18945,7 +19788,7 @@
   "echos": [],
   "anciens_ids": [],
   "societe": "deepseek",
-  "score": 2.48,
+  "score": 2.3,
   "raisons": [
    "Utilisable librement (open source)",
    "Jugé important par l'IA (4/5)"
@@ -18995,7 +19838,7 @@
   "echos": [],
   "anciens_ids": [],
   "societe": "anthropic",
-  "score": 2.88,
+  "score": 2.7,
   "raisons": [
    "Acteur majeur : Anthropic",
    "Argent, levée ou rachat",
@@ -19046,7 +19889,7 @@
   "echos": [],
   "anciens_ids": [],
   "societe": "anthropic",
-  "score": 2.06,
+  "score": 1.9,
   "raisons": [
    "Acteur majeur : Anthropic",
    "Jugé important par l'IA (4/5)"
@@ -19095,7 +19938,7 @@
   "echos": [],
   "anciens_ids": [],
   "societe": null,
-  "score": -0.65,
+  "score": -0.8,
   "raisons": [],
   "local": false,
   "categorie": "Surveillance",
@@ -19158,7 +20001,7 @@
    "fae5020dcddb5e"
   ],
   "societe": "anthropic",
-  "score": 0.85,
+  "score": 0.7,
   "raisons": [
    "Acteur majeur : Anthropic"
   ],
@@ -19178,7 +20021,7 @@
   "echos": [],
   "anciens_ids": [],
   "societe": "spacexai",
-  "score": -0.85,
+  "score": -1.0,
   "raisons": [],
   "local": false,
   "categorie": "Business & régulation",
@@ -19226,7 +20069,7 @@
   "echos": [],
   "anciens_ids": [],
   "societe": null,
-  "score": -0.66,
+  "score": -0.8,
   "raisons": [
    "Lancement ou annonce"
   ],
@@ -19267,14 +20110,14 @@
    "9172711be2adbd"
   ],
   "societe": "anthropic",
-  "score": 1.64,
+  "score": 1.5,
   "raisons": [
    "Acteur majeur : Anthropic",
    "Argent, levée ou rachat"
   ],
   "local": false,
   "categorie": "Business & régulation",
-  "flair": 3,
+  "flair": 2,
   "analyse": {
    "titre_fr": "Anthropic acquiert une biotech d'une seule personne utilisant Claude",
    "société": {
@@ -19317,7 +20160,7 @@
   "echos": [],
   "anciens_ids": [],
   "societe": null,
-  "score": -1.87,
+  "score": -2.0,
   "raisons": [],
   "local": false,
   "categorie": "Business & régulation",
@@ -19363,7 +20206,7 @@
   "echos": [],
   "anciens_ids": [],
   "societe": "spacexai",
-  "score": 0.33,
+  "score": 0.2,
   "raisons": [
    "Lancement ou annonce"
   ],
@@ -19411,7 +20254,7 @@
   "echos": [],
   "anciens_ids": [],
   "societe": "anthropic",
-  "score": 0.83,
+  "score": 0.7,
   "raisons": [
    "Acteur majeur : Anthropic"
   ],
@@ -19460,7 +20303,7 @@
   "echos": [],
   "anciens_ids": [],
   "societe": null,
-  "score": -1.89,
+  "score": -2.0,
   "raisons": [],
   "local": false,
   "categorie": "Surveillance",
@@ -19499,7 +20342,7 @@
    "f6092a50ebd98d"
   ],
   "societe": "anthropic",
-  "score": 0.81,
+  "score": 0.7,
   "raisons": [
    "Acteur majeur : Anthropic"
   ],
@@ -19537,7 +20380,7 @@
   "echos": [],
   "anciens_ids": [],
   "societe": "google",
-  "score": -0.39,
+  "score": -0.5,
   "raisons": [
    "Acteur majeur : Google DeepMind"
   ],
@@ -19585,7 +20428,7 @@
   "echos": [],
   "anciens_ids": [],
   "societe": null,
-  "score": 0.1,
+  "score": 0.0,
   "raisons": [
    "Régulation ou justice"
   ],
@@ -19634,7 +20477,7 @@
   "echos": [],
   "anciens_ids": [],
   "societe": "anthropic",
-  "score": 0.4,
+  "score": 0.3,
   "raisons": [
    "Acteur majeur : Anthropic",
    "Argent, levée ou rachat"
@@ -19683,7 +20526,7 @@
   "echos": [],
   "anciens_ids": [],
   "societe": "usgov",
-  "score": 0.29,
+  "score": 0.2,
   "raisons": [],
   "local": false,
   "categorie": "Militaire",
@@ -19720,7 +20563,7 @@
   "echos": [],
   "anciens_ids": [],
   "societe": null,
-  "score": -1.31,
+  "score": -1.4,
   "raisons": [],
   "local": true,
   "categorie": "Modèles",
@@ -19738,7 +20581,7 @@
   "echos": [],
   "anciens_ids": [],
   "societe": "anthropic",
-  "score": 0.79,
+  "score": 0.7,
   "raisons": [
    "Acteur majeur : Anthropic"
   ],
@@ -19786,7 +20629,7 @@
   "echos": [],
   "anciens_ids": [],
   "societe": null,
-  "score": -0.71,
+  "score": -0.8,
   "raisons": [],
   "local": false,
   "categorie": "Surveillance",
@@ -19822,7 +20665,7 @@
   "echos": [],
   "anciens_ids": [],
   "societe": "google",
-  "score": -0.42,
+  "score": -0.5,
   "raisons": [
    "Acteur majeur : Google DeepMind"
   ],
@@ -19870,7 +20713,7 @@
   "echos": [],
   "anciens_ids": [],
   "societe": "openai",
-  "score": -0.42,
+  "score": -0.5,
   "raisons": [
    "Acteur majeur : OpenAI"
   ],
@@ -19918,7 +20761,7 @@
   "echos": [],
   "anciens_ids": [],
   "societe": "microsoft",
-  "score": 0.77,
+  "score": 0.7,
   "raisons": [
    "Acteur majeur : Microsoft"
   ],
@@ -19970,7 +20813,7 @@
   "echos": [],
   "anciens_ids": [],
   "societe": "anthropic",
-  "score": 6.47,
+  "score": 6.4,
   "raisons": [
    "Source officielle",
    "Acteur majeur : Anthropic",
@@ -20023,7 +20866,7 @@
   "echos": [],
   "anciens_ids": [],
   "societe": "anthropic",
-  "score": 0.37,
+  "score": 0.3,
   "raisons": [
    "Acteur majeur : Anthropic",
    "Argent, levée ou rachat"
@@ -20067,7 +20910,7 @@
   "echos": [],
   "anciens_ids": [],
   "societe": "anthropic",
-  "score": -0.44,
+  "score": -0.5,
   "raisons": [
    "Source primaire",
    "Acteur majeur : Anthropic"
@@ -20126,7 +20969,7 @@
    "fdf27bf9960b11"
   ],
   "societe": "anthropic",
-  "score": 2.36,
+  "score": 2.3,
   "raisons": [
    "Repris par 2 sources",
    "Acteur majeur : Anthropic"
@@ -20176,7 +21019,7 @@
   "echos": [],
   "anciens_ids": [],
   "societe": null,
-  "score": -1.34,
+  "score": -1.4,
   "raisons": [],
   "local": false,
   "categorie": "Actualité",
@@ -20198,7 +21041,7 @@
   "echos": [],
   "anciens_ids": [],
   "societe": "openai",
-  "score": 2.26,
+  "score": 2.2,
   "raisons": [
    "Source primaire",
    "Acteur majeur : OpenAI",
@@ -20246,17 +21089,17 @@
   "type": "recherche",
   "rubrique": "veille",
   "date": "2026-10-27T20:00:00+00:00",
-  "extrait": "Publication de recherche de Xiaomi Research, 71 votes sur Hugging Face Papers.\nRésumé des auteurs :\nRecursive self-improvement requires models not only to acquire useful training experience, but also to decide when their current experience has ceased to be useful. Existing methods often focus on what experience to generate next, while paying less attention to when fresh experience should be introduced. Many also construct training targets through self-consistency or majority voting, making supervision depend on the model's own uncertain predictions. We address these two questions separately: training dynamics determine when to acquire new experience, while the answers to new tasks remain independently checkable. A-RSI monitors reward variation and accuracy in training logs to refresh a task pool when its learning signal declines, without consulting validation or test scores. A static library of model-authored programs produces multimodal questions and derives their reference answers; we specify the task-generation contract, automatically verify chosen properties of the reward and refresh rules, and separately audit the generated answers. The training loop uses no external training examples or human-written answer labels. On the primary eleven-benchmark suite, A-RSI raises the performance average from 57.77 to 61.05 with 800 fresh tasks.",
+  "extrait": "Publication de recherche de Xiaomi Research, 69 votes sur Hugging Face Papers.\nRésumé des auteurs :\nRecursive self-improvement requires models not only to acquire useful training experience, but also to decide when their current experience has ceased to be useful. Existing methods often focus on what experience to generate next, while paying less attention to when fresh experience should be introduced. Many also construct training targets through self-consistency or majority voting, making supervision depend on the model's own uncertain predictions. We address these two questions separately: training dynamics determine when to acquire new experience, while the answers to new tasks remain independently checkable. A-RSI monitors reward variation and accuracy in training logs to refresh a task pool when its learning signal declines, without consulting validation or test scores. A static library of model-authored programs produces multimodal questions and derives their reference answers; we specify the task-generation contract, automatically verify chosen properties of the reward and refresh rules, and separately audit the generated answers. The training loop uses no external training examples or human-written answer labels. On the primary eleven-benchmark suite, A-RSI raises the performance average from 57.77 to 61.05 with 800 fresh tasks.",
   "primaire": true,
   "signal": 3.0,
-  "signal_raison": "71 votes de chercheurs sur Hugging Face Papers",
+  "signal_raison": "69 votes de chercheurs sur Hugging Face Papers",
   "societe_force": null,
   "echos": [],
   "anciens_ids": [],
   "societe": "huggingface",
-  "score": 1.25,
+  "score": 1.2,
   "raisons": [
-   "71 votes de chercheurs sur Hugging Face Papers"
+   "69 votes de chercheurs sur Hugging Face Papers"
   ],
   "local": false,
   "categorie": "Recherche",
@@ -20303,7 +21146,7 @@
   "echos": [],
   "anciens_ids": [],
   "societe": null,
-  "score": -1.35,
+  "score": -1.4,
   "raisons": [],
   "local": false,
   "categorie": "Outils & applis",
@@ -20321,7 +21164,7 @@
   "echos": [],
   "anciens_ids": [],
   "societe": "google",
-  "score": -0.45,
+  "score": -0.5,
   "raisons": [
    "Acteur majeur : Google DeepMind"
   ],
@@ -20373,7 +21216,7 @@
    "e86177c5ad2bd6"
   ],
   "societe": "openai",
-  "score": 1.94,
+  "score": 1.9,
   "raisons": [
    "Acteur majeur : OpenAI",
    "Jugé important par l'IA (4/5)"
@@ -20424,7 +21267,7 @@
   "echos": [],
   "anciens_ids": [],
   "societe": "anthropic",
-  "score": 0.74,
+  "score": 0.7,
   "raisons": [
    "Acteur majeur : Anthropic"
   ],
@@ -20463,7 +21306,7 @@
   "echos": [],
   "anciens_ids": [],
   "societe": "google",
-  "score": -1.96,
+  "score": -2.0,
   "raisons": [],
   "local": false,
   "categorie": "Outils & applis",
@@ -20510,7 +21353,7 @@
   "echos": [],
   "anciens_ids": [],
   "societe": "anthropic",
-  "score": -1.66,
+  "score": -1.7,
   "raisons": [
    "Acteur majeur : Anthropic"
   ],
@@ -20559,14 +21402,14 @@
    "077dbdc75a7b2e"
   ],
   "societe": "anthropic",
-  "score": 1.54,
+  "score": 1.5,
   "raisons": [
    "Acteur majeur : Anthropic",
    "Argent, levée ou rachat"
   ],
   "local": false,
   "categorie": "Business & régulation",
-  "flair": 3,
+  "flair": 2,
   "analyse": {
    "titre_fr": "Le dossier d'IPO d'Anthropic détaille 93 pages de risques",
    "societe": {
@@ -20610,7 +21453,7 @@
   "echos": [],
   "anciens_ids": [],
   "societe": "anthropic",
-  "score": -0.47,
+  "score": -0.5,
   "raisons": [
    "Acteur majeur : Anthropic"
   ],
@@ -20659,7 +21502,7 @@
   "echos": [],
   "anciens_ids": [],
   "societe": null,
-  "score": -3.18,
+  "score": -3.2,
   "raisons": [],
   "local": false,
   "categorie": "Manipulation",
@@ -20694,7 +21537,7 @@
   "echos": [],
   "anciens_ids": [],
   "societe": null,
-  "score": 0.02,
+  "score": 0.0,
   "raisons": [
    "Argent, levée ou rachat"
   ],
@@ -20795,7 +21638,7 @@
    "fc7d1d71bde9a1"
   ],
   "societe": "google",
-  "score": 5.12,
+  "score": 5.1,
   "raisons": [
    "Repris par 3 sources",
    "Acteur majeur : Google DeepMind",
@@ -20817,7 +21660,7 @@
   "echos": [],
   "anciens_ids": [],
   "societe": "alibaba",
-  "score": -1.58,
+  "score": -1.6,
   "raisons": [],
   "local": true,
   "categorie": "Open source & local",
@@ -20866,7 +21709,7 @@
    "3e24159ae79feb"
   ],
   "societe": "anthropic",
-  "score": 0.72,
+  "score": 0.7,
   "raisons": [
    "Acteur majeur : Anthropic"
   ],
@@ -20918,7 +21761,7 @@
   "echos": [],
   "anciens_ids": [],
   "societe": "huggingface",
-  "score": 2.31,
+  "score": 2.3,
   "raisons": [
    "Source primaire",
    "Utilisable librement (open source)",
@@ -20969,7 +21812,7 @@
   "echos": [],
   "anciens_ids": [],
   "societe": "huggingface",
-  "score": -0.99,
+  "score": -1.0,
   "raisons": [],
   "local": false,
   "categorie": "Outils & applis",
@@ -21017,7 +21860,7 @@
    "4edec009a3779d"
   ],
   "societe": "anthropic",
-  "score": 0.71,
+  "score": 0.7,
   "raisons": [
    "Acteur majeur : Anthropic"
   ],
@@ -21065,7 +21908,7 @@
   "echos": [],
   "anciens_ids": [],
   "societe": "anthropic",
-  "score": 0.71,
+  "score": 0.7,
   "raisons": [
    "Acteur majeur : Anthropic"
   ],
@@ -21113,7 +21956,7 @@
   "echos": [],
   "anciens_ids": [],
   "societe": "openai",
-  "score": 0.71,
+  "score": 0.7,
   "raisons": [
    "Acteur majeur : OpenAI"
   ],
@@ -21793,7 +22636,7 @@
   ],
   "local": false,
   "categorie": "Vie privée",
-  "flair": 2,
+  "flair": 3,
   "analyse": {
    "titre_fr": "L'agent IA de Meta peut accéder aux messages privés même sans utilisation directe",
    "resume": "Un article de ZDNET explique comment l'agent IA de Meta, Muse, peut potentiellement accéder aux messages privés des utilisateurs sur ses plateformes, même si ces derniers n'utilisent pas activement l'outil.",
@@ -24038,7 +24881,7 @@
   "raisons": [
    "Jugé important par l'IA (4/5)"
   ],
-  "flair": 3,
+  "flair": 4,
   "histoire": "h_c793723ae7",
   "histoire_vu": true
  },
@@ -24471,7 +25314,7 @@
   "raisons": [
    "Acteur majeur : Anthropic"
   ],
-  "flair": 2,
+  "flair": 3,
   "histoire": "h_5febc86840",
   "histoire_vu": true
  },
@@ -24538,7 +25381,7 @@
   ],
   "local": false,
   "categorie": "Manipulation",
-  "flair": 2,
+  "flair": 3,
   "analyse": {
    "titre_fr": "Mesures anti-deepfake d'OpenAI pour les élections : intrigantes mais incomplètes",
    "resume": "Un article de Gizmodo analyse les mesures mises en place par ChatGPT pour lutter contre les deepfakes liés aux élections, les qualifiant d'intrigantes mais incomplètes.",
@@ -25135,7 +25978,7 @@
   ],
   "local": false,
   "categorie": "Vie privée",
-  "flair": 2,
+  "flair": 3,
   "analyse": {
    "titre_fr": "Utilisation des données personnelles pour la publicité par Google AI",
    "resume": "Un article de Frontline Magazine aborde la question de la vie privée face aux assistants IA de Google et l'utilisation des données personnelles pour alimenter le ciblage publicitaire.",
@@ -26549,7 +27392,7 @@
   ],
   "local": false,
   "categorie": "Open source & local",
-  "flair": 1,
+  "flair": 2,
   "analyse": {
    "titre_fr": "Limitations volontaires des cœurs Tensor NVIDIA et discussions sur les déblocages",
    "societe": {
@@ -27923,7 +28766,7 @@
   ],
   "local": false,
   "categorie": "Actualité",
-  "flair": 1,
+  "flair": 2,
   "analyse": {
    "titre_fr": "NVIDIA suspendrait les commandes de cartes RTX 5090 pour ses partenaires",
    "societe": {
@@ -28650,7 +29493,7 @@
   ],
   "local": false,
   "categorie": "Actualité",
-  "flair": 1,
+  "flair": 2,
   "histoire_vu": true,
   "analyse": {
    "titre_fr": "Comportement préoccupant observé chez un grand modèle d'IA open-weight",
@@ -29672,6 +30515,31 @@
     "Prédiction"
    ]
   }
+ },
+ {
+  "id": "7d57c281a1e963",
+  "titre": "En tendance sur Hugging Face : Efficient-Large-Model/Open-H3-Regenerate-2K",
+  "lien": "https://huggingface.co/Efficient-Large-Model/Open-H3-Regenerate-2K",
+  "source": "Hugging Face : modèles en tendance",
+  "type": "primaire",
+  "rubrique": "veille",
+  "date": "2026-10-26T14:55:57+00:00",
+  "extrait": "Modèle publié par Efficient-Large-Model sur Hugging Face. Type : video-to-video. 150 likes, 0 téléchargements. N°28 des tendances Hugging Face.\nExtrait de la fiche du modèle :\n# Open-H3-Regenerate-2K\nAn open replacement for the closed H3-Regenerate-2K API: a three-step MiniMax-H3 refinement pass that regenerates a\n768P H3 draft (1344×768, 121 frames) at **2560×1440**.\n[Project page](https://nvlabs.github.io/Sana/Open-H3-Regenerate-2K/) ·\n[Code](https://github.com/NVlabs/Sana/tree/sol-engine/models/Open-H3-Regenerate-2K)\n## Speed on one B200\nOne 5 s clip, 768P latent → 2560×1440 video: latent upscale + 3-step refine + VAE decode, warm, median of 3 runs:\n| Forward | VAE decoder | Total | Speedup |\n|---|---|---:|---:|\n| `standard_fwd` (dense attention, BF16) | released H3 VAE | 87.26 s | 1.00× |\n| `sol_engine_fwd` (Sol-Attn, MXFP8, CUDA graphs) | released H3 VAE | 37.39 s | 2.33× |\n| `sol_engine_fwd` (Sol-Attn, MXFP8, CUDA graphs) | fast H3 VAE decoder | 22.45 s | 3.89× |\nThe fast H3 VAE decoder is the non-causal 24-layer decoder of\n[StreamRender-H3](https://nvlabs.github.io/Sana/Sol-Engine/StreamRender-H3/), distilled from the released H3 VAE;\nit decodes the 2560×1440 clip in 1.6 s instead of 15 s. Latent upscale + refine alone go from 73.11 s to 20.46 s (3.57×).\nPer-module numbers are in the code README.\n## Files\n| Path | Content |\n|---|---|\n| `lora/open_h3_regenerate_2k_lora.safetensors` | One merged LoRA (FP32, rank 576 on 312 linears, scale 1) |\n| `lora/sharp_curve_branches.safetensors` | The 50 LMS Sharp curve AdaLN branches (FP32) |\n| `lora/lora_config.json`, `lora/module_ranks.json` | Sources, hashes, per-module ranks |\n| `lora/MERGE_VERIFY.json` | Merge check against the three separate adapters |\n| `latent_upsampler/` | Author 3D-conv latent upscaler, BF16 |\n| `vae_fast/fast_h3_vae_noncausal_24l.safetensors` | Fast H3 VAE decoder from StreamRender-…",
+  "primaire": true,
+  "signal": 0.6,
+  "signal_raison": "N°28 des tendances Hugging Face",
+  "societe_force": null,
+  "echos": [],
+  "anciens_ids": [],
+  "societe": "huggingface",
+  "score": 0.8,
+  "raisons": [
+   "Source primaire",
+   "N°28 des tendances Hugging Face"
+  ],
+  "local": true,
+  "categorie": "Open source & local",
+  "flair": 2
  },
  {
   "id": "0726a92f81fb59",
@@ -30950,7 +31818,7 @@
   ],
   "local": false,
   "categorie": "Outils & applis",
-  "flair": 1,
+  "flair": 2,
   "analyse": {
    "titre_fr": "La Mazda CX-5 2027 intègre l'assistant Google Gemini",
    "societe": {
@@ -48049,7 +48917,7 @@
   ],
   "local": false,
   "categorie": "Pouvoir et régulation",
-  "flair": 1,
+  "flair": 2,
   "analyse": {
    "titre_fr": "La question de la propriété et du contrôle d'Anthropic et de Claude AI",
    "resume": "Un article de HowStuffWorks examine la structure de propriété d'Anthropic, le créateur de l'assistant Claude, en s'intéressant au rôle des investisseurs et au contrôle de l'entreprise. L'information se limite à une interrogation générale sur l'actionnariat et la gouvernance de cette société d'intelligence artificielle.",
@@ -48378,7 +49246,7 @@
   ],
   "local": true,
   "categorie": "Recherche",
-  "flair": 1
+  "flair": 2
  },
  {
   "id": "779cc50e4b9b64",
@@ -57052,7 +57920,7 @@
   ],
   "local": false,
   "categorie": "Business & régulation",
-  "flair": 4,
+  "flair": 5,
   "analyse": {
    "titre_fr": "Comment OpenAI a conçu sa régie publicitaire pour ChatGPT",
    "societe": {
@@ -58509,7 +59377,7 @@
   ],
   "local": false,
   "categorie": "Outils & applis",
-  "flair": 2,
+  "flair": 3,
   "analyse": {
    "titre_fr": "Cloudflare utilise les outils d'OpenAI pour la cybersécurité",
    "societe": {
@@ -62726,7 +63594,7 @@
   ],
   "local": false,
   "categorie": "Actualité",
-  "flair": 2,
+  "flair": 3,
   "analyse": {
    "titre_fr": "NVIDIA déploie ses processeurs Vera pour l'infrastructure européenne",
    "societe": {
@@ -64841,7 +65709,7 @@
   ],
   "local": false,
   "categorie": "Pouvoir et régulation",
-  "flair": 3,
+  "flair": 4,
   "analyse": {
    "titre_fr": "L'Union européenne sonde OpenAI et Anthropic dans le cadre de l'AI Act",
    "resume": "L'Union européenne a lancé des sondages ou enquêtes visant les entreprises OpenAI et Anthropic. Cette procédure s'inscrit dans le cadre de l'AI Act et pourrait aboutir à une amende s'élevant jusqu'à 3%.",
@@ -66657,7 +67525,7 @@
   ],
   "local": false,
   "categorie": "Recherche",
-  "flair": 3,
+  "flair": 4,
   "analyse": {
    "titre_fr": "S-Agent 2.0 : le raisonnement spatial amélioré pour les agents de code",
    "societe": {
@@ -66995,7 +67863,7 @@
   ],
   "local": false,
   "categorie": "Business & régulation",
-  "flair": 2,
+  "flair": 3,
   "analyse": {
    "titre_fr": "L'Allemagne et NVIDIA s'associent pour dominer l'IA industrielle",
    "societe": {
@@ -67585,7 +68453,7 @@
   ],
   "local": true,
   "categorie": "Open source & local",
-  "flair": 2,
+  "flair": 3,
   "analyse": {
    "titre_fr": "Sortie de Transformers v5.20.2 : correctifs pour les modèles multimodaux",
    "societe": {
@@ -68250,7 +69118,7 @@
   ],
   "local": false,
   "categorie": "Business & régulation",
-  "flair": 2,
+  "flair": 3,
   "analyse": {
    "titre_fr": "NVIDIA renforce la sécurité des agents IA pour les médias européens",
    "societe": {
@@ -79256,7 +80124,7 @@
   ],
   "local": true,
   "categorie": "Modèles",
-  "flair": 3,
+  "flair": 4,
   "analyse": {
    "titre_fr": "Meta lance un nouveau modèle d'intelligence artificielle ouvert",
    "societe": {
@@ -80311,7 +81179,7 @@
   "score": 1.5,
   "local": false,
   "categorie": "Outils & applis",
-  "flair": 2,
+  "flair": 3,
   "societe": "openai",
   "raisons": [
    "Source officielle",
@@ -80343,7 +81211,8 @@
     "Amp",
     "GPT-6"
    ]
-  }
+  },
+  "histoire_vu": true
  },
  {
   "id": "24cc989c02dbc2",
@@ -80489,7 +81358,7 @@
   "score": 4.3,
   "local": false,
   "categorie": "Actualité",
-  "flair": 4,
+  "flair": 5,
   "societe": "openai",
   "raisons": [
    "Source officielle",
@@ -80674,7 +81543,7 @@
   ],
   "local": false,
   "categorie": "Business & régulation",
-  "flair": 2,
+  "flair": 3,
   "analyse": {
    "titre_fr": "Nvidia investit 250 millions de dollars dans l'écosystème tech britannique",
    "societe": {
@@ -80701,7 +81570,8 @@
     "Investissement",
     "Sécurité"
    ]
-  }
+  },
+  "histoire_vu": true
  },
  {
   "id": "5f7238246fc055",
@@ -80716,7 +81586,7 @@
   "score": 1.5,
   "local": false,
   "categorie": "Outils & applis",
-  "flair": 2,
+  "flair": 3,
   "societe": "nvidia",
   "raisons": [
    "Source officielle",
@@ -80749,7 +81619,8 @@
     "Agents IA",
     "Jumeaux numériques"
    ]
-  }
+  },
+  "histoire_vu": true
  },
  {
   "id": "4009f231836e5f",
@@ -80773,8 +81644,36 @@
    "N°27 des tendances Hugging Face"
   ],
   "local": true,
-  "categorie": "Open source & local",
-  "flair": 2
+  "categorie": "Modèles",
+  "flair": 2,
+  "analyse": {
+   "titre_fr": "Edge0 lance Audio8-TTS-Realistic-0.6b, un modèle de synthèse vocale ultra-réaliste",
+   "societe": {
+    "nom": "Hugging Face",
+    "presentation": "La plateforme de référence où la communauté publie et télécharge les modèles ouverts, fondée par des Français."
+   },
+   "a_retenir": "Audio8-TTS-Realistic-0.6b est un modèle open source compact de synthèse vocale et clonage de voix prenant en charge 23 langues.",
+   "resume": "Le modèle Audio8-TTS-Realistic-0.6b, développé par Edge0 et hébergé sur Hugging Face, améliore nettement le réalisme de la parole tout en conservant une architecture compacte de 0,6 milliard de paramètres. Il intègre des capacités de clonage de voix zero-shot et prend en charge 23 langues avec un codec audio neuronal à 44,1 kHz.",
+   "pourquoi": "Il offre aux professionnels une solution compacte, multilingue et performante pour la génération vocale et le clonage de voix directement intégrable via l'interface Transformers.",
+   "comment_ca_marche": "Le système s'appuie sur une architecture de type transformeur de 0,6 milliard de paramètres associée à un codec audio neuronal fonctionnant à 44,1 kHz pour traiter le texte et restituer un signal audio haute fidélité. Il utilise un tokenizer et un processeur dédiés pour transformer le texte en parole de manière fluide dans 23 langues différentes sans nécessiter d'entraînement spécifique préalable pour cloner une voix (zero-shot).",
+   "utiliser": [
+    "Consulter la page Hugging Face du modèle Edge0/Audio8-TTS-Realistic-0.6b",
+    "Tester les capacités de synthèse et de clonage vocal via le Playground interactif en ligne",
+    "Intégrer le modèle dans vos projets locaux ou serveurs en suivant la documentation du dépôt GitHub associé"
+   ],
+   "sur_mon_pc": "Config matérielle mini non spécifiée, mais le modèle utilise une architecture compacte de 0,6B de paramètres compatible avec l'inférence Transformers standard.",
+   "local": true,
+   "niveau": "intermédiaire",
+   "categorie": "Modèles",
+   "importance": 3,
+   "tags": [
+    "TTS",
+    "Clonage de voix",
+    "Audio",
+    "Open Source",
+    "Transformers"
+   ]
+  }
  },
  {
   "id": "58e4191fcfe4b8",
@@ -81682,6 +82581,55 @@
   }
  },
  {
+  "id": "0d4b47f5e44ee4",
+  "titre": "Meta dévoile Muse Wonder, sa nouvelle IA qui veut faire de l’ombre à ChatGPT - Siècle Digital",
+  "lien": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNMV9DMFpGWjVQc2lxQ3EwR3JfaWliS1BIY3p3UGRvOFJ0MHZoX25pZXAwMWFfXzBsT010TEZQQlFEMGdCeHJiSFR0dzFUR0IzY21TVnhQalA1dGxsWDRxMjNDUmRlM1NTTmU3YVhoNFNmd0lPME50ZTNTOTN4V0M3SDBXQ1JVekMxcThLUTctT2tSVFdIVl9yZkhlNWo4VUl6TG1DdzRqeU55b2dYejk4bQ?oc=5",
+  "source": "IA en français (actus)",
+  "type": "fr",
+  "rubrique": "veille",
+  "date": "2026-10-13T07:00:00+00:00",
+  "extrait": "Meta dévoile Muse Wonder, sa nouvelle IA qui veut faire de l’ombre à ChatGPT Siècle Digital",
+  "echos": [],
+  "anciens_ids": [],
+  "societe": "openai",
+  "score": 1.7,
+  "raisons": [
+   "Acteur majeur : OpenAI",
+   "Lancement ou annonce"
+  ],
+  "local": false,
+  "categorie": "Actualité",
+  "flair": 3,
+  "analyse": {
+   "titre_fr": "Meta dévoile Muse Wonder pour concurrencer ChatGPT",
+   "societe": {
+    "nom": "Meta",
+    "presentation": "Géant technologique américain propriétaire de Facebook, Instagram et WhatsApp, investissant massivement dans le développement d'intelligences artificielles."
+   },
+   "a_retenir": "Meta lance Muse Wonder, une nouvelle IA visant directement à concurrencer ChatGPT.",
+   "resume": "Meta a officialisé le lancement de Muse Wonder, un nouvel outil d'intelligence artificielle conçu pour rivaliser avec ChatGPT sur le marché grand public.",
+   "pourquoi": "L'arrivée d'un concurrent majeur par Meta bouscule la domination de ChatGPT et stimule l'innovation dans les assistants conversationnels.",
+   "comment_ca_marche": "Les détails techniques précis de Muse Wonder ne sont pas mentionnés dans l'extrait disponible, mais il s'agit vraisemblablement d'un grand modèle de langage multimodal capable de générer du texte et d'interagir avec les utilisateurs.",
+   "utiliser": [
+    "Consulter les annonces officielles de Meta pour connaître la disponibilité de Muse Wonder",
+    "Tester l'outil dès son accessibilité en ligne pour comparer ses performances avec ChatGPT"
+   ],
+   "sur_mon_pc": "Pas en local : service en ligne uniquement",
+   "local": false,
+   "niveau": "débutant",
+   "categorie": "Actualité",
+   "importance": 3,
+   "tags": [
+    "Meta",
+    "Muse Wonder",
+    "ChatGPT",
+    "Concurrence IA"
+   ]
+  },
+  "histoire_vu": true,
+  "histoire": "h_da06066ad1"
+ },
+ {
   "id": "3fa2d8668eaeef",
   "titre": "NVIDIA Announces New Investments in France’s Startups",
   "lien": "https://blogs.nvidia.com/blog/france-ecosystem-agentic-computing/",
@@ -82463,7 +83411,7 @@
    "Lancement ou annonce",
    "Jugé important par l'IA (4/5)"
   ],
-  "flair": 3,
+  "flair": 4,
   "histoire": "h_da06066ad1",
   "histoire_vu": true
  },
@@ -82529,52 +83477,5 @@
    "550c4c02e9ff21"
   ],
   "histoire_vu": true
- },
- {
-  "id": "de6b851d2dac5b",
-  "titre": "Why My Conversations With ‘ChatGPT for Teens’ Made Me Very Worried - The New York Times",
-  "lien": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNTWtwVUZ2WTRoazkxYTdQVmhIM2ZfM2RRVDhJQXI5NkhDbmxxUGdHSjA2T21kcThhTzQyemp5QUVSYVd6ak5nNzFVRFFTNGZWR2gtX3lpSGZYbG8wQ1R5VTNpeXk5blNzU0NrTTJJRTJiNHRhNzJLQVB3bEVzTC1xSDByT0w3X0s3Vk9vTA?oc=5",
-  "source": "OpenAI (actus)",
-  "type": "presse",
-  "rubrique": "veille",
-  "date": "2026-10-11T07:00:00+00:00",
-  "extrait": "Why My Conversations With ‘ChatGPT for Teens’ Made Me Very Worried The New York Times",
-  "echos": [],
-  "societe": "openai",
-  "score": -0.5,
-  "raisons": [
-   "Acteur majeur : OpenAI"
-  ],
-  "local": false,
-  "categorie": "Business & régulation",
-  "flair": 1,
-  "anciens_ids": [],
-  "analyse": {
-   "titre_fr": "Inquiétudes autour de la version de ChatGPT destinée aux adolescents",
-   "societe": {
-    "nom": "OpenAI",
-    "presentation": "Créateur de ChatGPT, des modèles GPT et leader historique de l'intelligence artificielle générative grand public."
-   },
-   "a_retenir": "Un article du New York Times exprime de vives inquiétudes suite à des conversations avec 'ChatGPT for Teens'.",
-   "resume": "Le New York Times a publié une analyse critique après avoir testé 'ChatGPT for Teens', soulevant des préoccupations importantes sur l'impact de ces interactions sur les jeunes. L'article pointe du doigt des risques potentiels liés à l'utilisation de cette version spécifique de l'IA par un public adolescent.",
-   "pourquoi": "Cela met en lumière les questions cruciales de sécurité, d'éthique et de régulation concernant l'usage de l'IA générative par les mineurs.",
-   "comment_ca_marche": "Il s'agit d'une adaptation ou d'un usage de grands modèles de langage (LLM) ciblant les adolescents, dont les réponses et les biais comportementaux font l'objet d'analyses par les journalistes et les experts en sécurité.",
-   "utiliser": [
-    "Lire l'article original du New York Times pour comprendre les critiques",
-    "Suivre les débats sur la régulation de l'IA pour les mineurs",
-    "Être vigilant sur l'utilisation des chatbots par les jeunes"
-   ],
-   "sur_mon_pc": "Pas en local : service en ligne uniquement",
-   "local": false,
-   "niveau": "débutant",
-   "categorie": "Business & régulation",
-   "importance": 2,
-   "tags": [
-    "OpenAI",
-    "Adolescents",
-    "Éthique",
-    "Régulation"
-   ]
-  }
  }
 ]
