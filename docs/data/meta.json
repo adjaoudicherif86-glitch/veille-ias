@@ -1,9 +1,8 @@
 {
- "maj": "2026-11-02T06:02:03.821813+00:00",
+ "maj": "2026-11-02T18:22:15.608015+00:00",
  "sources_ok": [
   "Notes de version Claude (API)",
   "Notes de version OpenAI (API)",
-  "Notes de version Gemini (API)",
   "Hugging Face : modèles en tendance",
   "Hugging Face Papers",
   "Ollama",
@@ -53,49 +52,53 @@
  ],
  "sources_ko": [
   {
+   "nom": "Notes de version Gemini (API)",
+   "erreur": "page vide ou générée en JavaScript"
+  },
+  {
    "nom": "VentureBeat IA",
    "erreur": "429 Client Error: Too Many Requests for url: https://venturebeat.com/category/ai/feed/"
   }
  ],
- "total": 1853,
- "analyses": 1739,
+ "total": 1896,
+ "analyses": 1749,
  "brief": {
-  "titre": "Cybersécurité, partenariats en Chine et tensions autour des données",
-  "texte": "L'actualité de l'IA est marquée aujourd'hui par d'importants mouvements stratégiques et sécuritaires. Google lance Gemini 4 Carbon dédié à la cybersécurité, tandis qu'Apple s'associe à Alibaba pour intégrer le modèle Qwen en Chine. Sur le plan des risques, Microsoft alerte sur les accès aux données avant de déployer Copilot, et une faille a été découverte dans les aperçus HTML de ChatGPT. Enfin, l'écosystème open source continue d'évoluer avec la sortie de Heretic 2.0 pour modifier les modèles.",
+  "titre": "Anthropic explose les compteurs, l'open source et les infrastructures avancent",
+  "texte": "L'actualité est dominée par Anthropic, qui affiche des revenus trimestriels massifs et prépare son introduction en bourse tout en teasant le modèle Claude Mythos 5.5. Côté open source, la communauté s'active avec la quantification à 1 bit de DeepSeek-V4.1-Flash, la sortie de Heretic 2.0 et la confirmation par Alibaba de la pérennité des modèles Qwen. Les besoins énergétiques et matériels explosent également, illustrés par le programme Grid Protectors d'OpenAI et l'expansion de Colossus 2 par SpaceXAI. Enfin, OpenAI renforce son offre professionnelle en doublant les limites d'utilisation de ses abonnés Pro.",
   "a_tester": [
-   "Auditer les permissions d'accès aux données de votre entreprise avant tout déploiement de Copilot.",
-   "Tester les capacités du nouveau modèle Qwen d'Alibaba si vous visez le marché chinois.",
-   "Vérifier la robustesse de vos applications face aux récents correctifs de sécurité sur les aperçus HTML de ChatGPT."
+   "Tester les limites doublées des comptes OpenAI Pro pour vos flux de travail",
+   "Explorer les nouveautés de l'outil open source Heretic 2.0 pour la modification de modèles",
+   "Évaluer le modèle quantifié DeepSeek-V4.1-Flash à 1 bit sur votre infrastructure locale"
   ]
  },
  "top5": {
-  "maj": "2026-11-01T20:30:22.862489+00:00",
+  "maj": "2026-11-02T18:22:15.608015+00:00",
   "par_ia": true,
   "items": [
    {
-    "id": "61c5c57ddc1e28",
-    "pourquoi": "OpenAI lance GPT-6.1 Terra, un nouveau modèle rapide axé sur le raisonnement visuel et les tâches de computer use, modifiant les standards d'interaction.",
-    "a_faire": "Tester l'API de GPT-6.1 Terra sur vos flux de travail impliquant du raisonnement visuel et du computer use."
-   },
-   {
     "id": "bb2562f671cf45",
-    "pourquoi": "Mistral AI frappe fort en publiant les poids ouverts de Mistral Large 4 (1 000 milliards de paramètres) et sa prise en charge immédiate dans les écosystèmes.",
-    "a_faire": "Déployer et évaluer Mistral Large 4 via Hugging Face ou la bibliothèque Transformers v5.22.0."
+    "pourquoi": "Mistral AI frappe fort avec la sortie des poids ouverts de Mistral Large 4 (1 000 milliards de paramètres), un jalon majeur pour l'écosystème open source francophone et européen.",
+    "a_faire": "Tester l'intégration du modèle via Hugging Face et évaluer ses performances sur vos cas d'usage."
    },
    {
-    "id": "740cdb4d44c20b",
-    "pourquoi": "Google officialise Gemini 4 Carbon, un modèle frontalier qui s'empare de la tête des benchmarks et redéfinit la concurrence sur les modèles de pointe.",
-    "a_faire": "Surveiller l'ouverture des accès à Gemini 4 Carbon pour tester ses performances sur vos cas d'usage."
+    "id": "61c5c57ddc1e28",
+    "pourquoi": "OpenAI déploie GPT-6.1 Terra, un modèle spécifiquement taillé pour le raisonnement visuel et le 'computer use', ouvrant de nouvelles perspectives d'automatisation.",
+    "a_faire": "Consulter les notes de version de l'API OpenAI pour identifier les cas d'usage potentiels en automatisation des tâches."
+   },
+   {
+    "id": "d17d13a0006a77",
+    "pourquoi": "Google DeepMind introduit Genie 4, marquant une avancée spectaculaire dans la génération de simulations interactives et de mondes en temps réel.",
+    "a_faire": "Surveiller les retours techniques et les cas d'application potentiels de cette nouvelle génération de modèles de monde."
    },
    {
     "id": "253c53848ec401",
-    "pourquoi": "Un rappel crucial pour les DSI : le mauvais nettoyage des permissions de fichiers avant de déployer Microsoft Copilot expose l'entreprise à des fuites de données internes.",
-    "a_faire": "Auditer et nettoyer les permissions d'accès aux données de votre organisation avant tout déploiement de Copilot."
+    "pourquoi": "Un rappel crucial sur la sécurité et la gouvernance des données avant tout déploiement de Microsoft Copilot en entreprise.",
+    "a_faire": "Auditer et nettoyer les permissions de fichiers de votre organisation avant d'activer les outils de copilote."
    },
    {
-    "id": "f12280bf612912",
-    "pourquoi": "Anthropic franchit une étape financière majeure avec le dépôt de son introduction en bourse (IPO) pour une valorisation estimée à 75 milliards de dollars.",
-    "a_faire": "Lire le dossier d'enregistrement d'Anthropic pour analyser leur vision des risques technologiques et économiques."
+    "id": "52a6c1f6726849",
+    "pourquoi": "La démocratisation des versions quantifiées à 1 bit (DeepSeek-V4.1-Flash) illustre la baisse continue des coûts et des ressources nécessaires pour faire tourner des LLM avancés.",
+    "a_faire": "Explorer les techniques de quantification 1 bit pour un déploiement local ou sur infrastructure contrainte."
    }
   ]
  }
