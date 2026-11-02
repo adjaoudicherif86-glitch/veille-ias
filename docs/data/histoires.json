@@ -1,6 +1,321 @@
 {
- "maj": "2026-11-01T20:30:22.862419+00:00",
+ "maj": "2026-11-02T06:02:03.821744+00:00",
  "histoires": [
+  {
+   "id": "h_5c1baf3986",
+   "titre": "DeepSeek-V4.1-Flash : variantes et optimisations locales",
+   "resume": "Le modèle DeepSeek-V4.1-Flash fait l'objet de publications de versions désinhibées (« obliterated ») sur Hugging Face et bénéficie d'optimisations d'exécutions majeures, telles que GSQ-RCO et des correctifs de l'outil Strata, permettant de le faire tourner sur du matériel grand public.",
+   "creee": "2026-11-02T06:02:03.821744+00:00",
+   "maj": "2026-11-02T00:44:53+00:00",
+   "episodes": [
+    {
+     "id": "ca594778808892",
+     "date": "2026-10-23T08:59:53+00:00",
+     "titre": "Modèle DeepSeek-V4.1-Flash-1017-obliterated en tendance sur Hugging Face",
+     "neuf": "Publication d'une variante désinhibée ('obliterated') réduisant drastiquement les refus.",
+     "fil": "versions désinhibées du modèle DeepSeek-V4.1-Flash",
+     "source": "Hugging Face : modèles en tendance",
+     "lien": "https://huggingface.co/OBLITERATUS/DeepSeek-V4.1-Flash-1017-obliterated",
+     "nb_sources": 1,
+     "primaire": true
+    },
+    {
+     "id": "52a2b32d19c6a5",
+     "date": "2026-10-28T04:48:45+00:00",
+     "titre": "DeepSeek-V4.1-Flash non censuré disponible avec quantification GSQ-RCO",
+     "neuf": "Le modèle massif de 763 milliards de paramètres devient exécutable sur un unique GPU de 12 Go grâce à GSQ-RCO.",
+     "fil": "optimisations d'exécution pour DeepSeek-V4.1-Flash",
+     "source": "Hugging Face : modèles en tendance",
+     "lien": "https://huggingface.co/AtomicChat/DeepSeek-V4.1-Flash-1017-Uncensored-GSQ-RCO-GGUF",
+     "nb_sources": 1,
+     "primaire": true
+    },
+    {
+     "id": "899f26e6ac1ca7",
+     "date": "2026-11-02T00:44:53+00:00",
+     "titre": "Exécuter DeepSeek V4.1 en local sur un PC de joueur grâce à une optimisation",
+     "neuf": "Un correctif de l'outil Strata permet d'accélérer significativement les sessions agent de DeepSeek V4.1 sur un PC de joueur.",
+     "fil": "optimisation et exécution locale de DeepSeek V4.1",
+     "source": "r/LocalLLaMA",
+     "lien": "https://www.reddit.com/r/LocalLLaMA/comments/1xljdnj/sorry_sam_my_quite_terrible_home_dram_is_at_100/",
+     "nb_sources": 1,
+     "primaire": false
+    }
+   ],
+   "statut": "active",
+   "societes": [
+    "deepseek"
+   ]
+  },
+  {
+   "id": "h_c4961b9682",
+   "titre": "Contrôles de la Chine sur l'export d'IA",
+   "resume": "La Chine durcit ses restrictions réglementaires à l'exportation via le MOFCOM sur l'IA et le secteur biopharmaceutique. En parallèle, les barrières technologiques américaines se retournent en partie contre les États-Unis en stimulant des centres de données en Asie.",
+   "creee": "2026-10-20T09:56:16.457937+00:00",
+   "maj": "2026-11-01T22:22:50+00:00",
+   "episodes": [
+    {
+     "id": "312d9d2bf59580",
+     "date": "2026-10-16T18:18:10+00:00",
+     "titre": "La Chine prévoit de durcir ses contrôles sur l'exportation d'IA",
+     "neuf": "La Chine planifie un renforcement de ses restrictions visant les modèles open-weight et des technologies clés.",
+     "fil": "Contrôles à l'export de l'IA par la Chine",
+     "source": "Contrôles à l'export IA",
+     "lien": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPdU1Eb2ZqTHBnQlJISXdubUVnNHZLTXJOLXlpdDI3cFlRWjZLOUpWRGpCTTgwTmZZZk1ydlRSQnVnV29sZTJwSF9LOWxnbktBejZYeGhpN1lINUxEVlRDb2xON2JJekdvdXo1dzB2VzBjOV9TR3NzSF85Z0dYc0N1NzVhWU5OU3kyZTNHSEE2ZFljX1RJdFFyWXBHdmExekZ2X0tPTUI5U1AzRUxWWkl6MENR?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "4c1e5451ed96c6",
+     "date": "2026-10-17T12:00:11+00:00",
+     "titre": "Impact des interdictions d'exportation d'IA chinoises sur les technologies à poids ouverts",
+     "neuf": "L'examen s'élargit à l'impact potentiel de ces interdictions sur l'avenir des modèles à poids ouverts.",
+     "fil": "mêmes projets de contrôles à l'exportation de l'IA en Chine",
+     "source": "Contrôles à l'export IA",
+     "lien": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNbXBIUWJVblVDTjRuV2xFYlJPd3E1bE5jdlVENVd1ek9CQjBleGJCTkItcERIT296NDNkcjQzMmJneU9RbDB3WWZrM3FBSHJvV0FjTmRWVUhHaXBQdHB6UDJuUTV1LXNwSnlqeW1hODZaclliY2pkN2FNcVA1R0RVNlNBMjRxWEQ4N3ZKNVhETGhpNHE2NUxVcnlicUtnNmpEVFdTMFNwbENtYUZkMThLX1h0czNNSDRoYlVyLVNXa2xoVVNDZFZOT1FuWTFhQmpuSVBEWjBn0gHWAUFVX3lxTE9kTHd4Z0laNEp1endfeXl3Tnlad1N4TGpDWWRCVHBRVGU5SWp6RS1EaWtOSHZxczdzeE5nSzhJNmhtbjVCWW9pOHBINHQzR2R6STBOTG1DalFtcWktSjEtbG9yTmFFY1liZnR6Y1FGZTFvcURSY1lKeFdJdk9OUmRldENHeUhBZXN4S2Vra0VPdG50VUg0cmtxTm51R1BJUlQtWXZaemtnWndzY19EWk9WczU2b2RiME1UNWFIdDZKeWtnSmlnSWJONkEwbUx0dVNzdUI2OGc?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "f16f6a62981a38",
+     "date": "2026-10-20T10:30:00+00:00",
+     "titre": "Pékin restreint l'export de technologies d'IA sans toucher aux API de DeepSeek",
+     "neuf": "Pékin officialise ses restrictions sur l'exportation de technologies d'IA tout en préservant l'accès international aux API et modèles open source de DeepSeek.",
+     "fil": "mêmes restrictions de l'exportation de technologies d'IA par la Chine",
+     "source": "ActuIA",
+     "lien": "https://www.actuia.com/actualite/pekin-veut-restreindre-lexport-de-23-technologies-dia-sans-toucher-a-lapi-de-deepseek-et-qwen/",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "5bd5883a528400",
+     "date": "2026-10-21T13:43:39+00:00",
+     "titre": "MOFCOM's New Rules and the Future of Chinese AI - ChinaTalk",
+     "neuf": "Nouvelles analyses sur l'impact à long terme des règles du MOFCOM concernant les contrôles à l'exportation d'IA en Chine.",
+     "fil": "MOFCOM's New Rules and the Future of Chinese AI",
+     "source": "Contrôles à l'export IA",
+     "lien": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBOREZsUnBob1FqbWpTTW1EMUE3TkN2Zmg4VUJrbE9KbDN5MUdWWFltczkwQWVpT3JlTlFtY1RqRFNtQkR2SDR4RkhiaHFmUVpabnJURS1kVVVxSUhpNll3?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "4be15d91491dd9",
+     "date": "2026-10-22T14:27:36+00:00",
+     "titre": "La Chine s'oppose à l'interdiction de DeepSeek par les États-Unis",
+     "neuf": "La Chine s'oppose publiquement à l'interdiction de DeepSeek par les États-Unis tout en préparant ses propres mesures réglementaires.",
+     "fil": "contrôles à l'exportation et position de la Chine",
+     "source": "Contrôles à l'export IA",
+     "lien": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPeXRNeUp2UzVnTlhiZXJNZENRTmREWWMxVFYyLS1IdndIX2pqU19PSW1SdDgtLXEtb2hVZ05BS1NlV3gxdlNZc1J3enBiY1ktZEZidmFsTVJfVXBpcU9kYTR1VUQxYVpWSm8xTHZCd09pMzRpWHdIcElkNHpBR2ZreWZldmZGNVpSd2FCTms5bGhtX0FDNURiWVRn?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "75f0d8b919659a",
+     "date": "2026-10-22T17:07:31+00:00",
+     "titre": "DeepSeek et MiniMax valident les règles chinoises d'exportation d'IA",
+     "neuf": "DeepSeek et MiniMax obtiennent l'autorisation officielle pour exporter leurs modèles.",
+     "fil": "même application des contrôles chinois sur l'exportation d'IA",
+     "source": "r/LocalLLaMA",
+     "lien": "https://www.reddit.com/r/LocalLLaMA/comments/1xcoelw/deepseek_and_minimax_clear_chinas_ai_export_rules/",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "8d092d29f2024b",
+     "date": "2026-10-23T07:10:34+00:00",
+     "titre": "DeepSeek et MiniMax obtiennent l'approbation pour un usage mondial",
+     "neuf": "DeepSeek et MiniMax reçoivent officiellement l'approbation pour l'utilisation mondiale de leur intelligence artificielle dans le cadre des contrôles à l'exportation.",
+     "fil": "même approbation pour l'utilisation mondiale et export des modèles DeepSeek et MiniMax",
+     "source": "Contrôles à l'export IA",
+     "lien": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPZUxoTk9BS0J1SUxMSzJCSGpQMl91ZTlfTzk0OE5EdFp4REZRV0EwRUk0ZlU2MVBzcmVuN0VlOWNpaXQxOFd4RWxVc0pKajdYUHNDT2JSRXlERmxDLUZucEtmNTVKNEo3Z09vdVN0U3VhLTNZck5uelFGOXVkZnd2bHFLN1VhaFZ1MFNxVGZFeXpCdV9SZk5Sa0N2NVlPWmsxSzlLTHF3U3I5TDhNcTRLWER4dmRkRjVXQXc?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "f3d45600f3b941",
+     "date": "2026-10-23T10:22:30+00:00",
+     "titre": "La Chine propose de nouveaux contrôles à l'exportation sur l'IA",
+     "neuf": "La Chine envisage d'instaurer de nouveaux contrôles formels ciblant l'intelligence artificielle, les sciences de la vie et les technologies photovoltaïques.",
+     "fil": "même politique de contrôles à l'exportation de la Chine sur l'IA",
+     "source": "Contrôles à l'export IA",
+     "lien": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNVWtCTld5UTJnajEycGpGcEF6NWFBNGhmNlowYkJNVXZEZDF0WG5zdG5FNVBXdXZ1NmppTnI5Vi0zSmVuTHFRSEN0Vk5kU2RnZFVjbFVnaWltZzFUb1hCQ0pLY1lBYnl2eDlJYlFkOU1QX3dmV1ZJMGwtcUtWeGNkVHRjU1dkLUFGVDB5RVc0OFktUnVOZlBudV8zOTJNNFRXYXpFMnhoTGNKSTFlQTRhWUVnbG1BX1I5Mm9Wcg?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "b410f5938b6955",
+     "date": "2026-10-23T19:18:13+00:00",
+     "titre": "Nouveaux contrôles à l'exportation de la Chine sur les drones, l'IA et les terres rares",
+     "neuf": "La Chine officialise et élargit ses restrictions à l'exportation en y incluant l'IA aux côtés des drones et des terres rares.",
+     "fil": "nouveaux contrôles à l'exportation de la Chine sur l'IA",
+     "source": "Contrôles à l'export IA",
+     "lien": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPbmk4QjFka2xrVXpDR3RpbkdSOXhZX0kwQXJEclNndGlxa29RVVNQOS1oQl9WcFdVWkdwd1VDd3ZPOXZKRXpXZ0NjRmRTZjdGYjJaZjc5TGhNQ2VIX2NJTGJlX2NjQVVFUFBLSzhWZGdhelFXT1U2c2stVnhfVnRhWjVTeTA?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "6c0cc7da9615ae",
+     "date": "2026-10-26T12:00:00+00:00",
+     "titre": "La Chine propose de nouveaux contrôles à l'exportation sur l'IA",
+     "neuf": "La Chine propose de nouveaux contrôles à l'exportation ciblant l'intelligence artificielle et les technologies biopharmaceutiques.",
+     "fil": "Contrôles de la Chine sur l'export d'IA",
+     "source": "Contrôles à l'export IA",
+     "lien": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQQUluM3JRMHRybHBfX0VRX2dPMTRaVEpldTJSMVo5RURBQkYyMzVZOFhTaDU2NmE2dEdEZmNsSzdLWmhQTHd0VnE3c1NEa3pfMTIyRnRCY0xIMk0zaVhNT3hzVkF0SWxqNzg0eklBTEFVZDE2NmhhVzhpemxndC1vN3V5Y1V2blFLM0t6c2h1bXRobUhPM1VDMWlxb0VTT0dBUnJrVWg3eTFGUTNRTlJRM0M4eWdrY2EtOVF3VWU3YkdrdUU?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "f1c6375f91964e",
+     "date": "2026-10-28T07:22:16+00:00",
+     "titre": "La Chine instaure de nouveaux contrôles sur ses technologies d'intelligence artificielle",
+     "neuf": "La Chine officialise de nouvelles restrictions concrètes sur l'exportation de ses technologies clés en intelligence artificielle.",
+     "fil": "Mêmes contrôles à l'exportation et restrictions technologiques de la Chine",
+     "source": "Contrôles à l'export IA",
+     "lien": "https://news.google.com/rss/articles/CBMingFBVV95cUxNd2xfamMxTE1YUUxMbmJpWG1teVNZRWFpRGktWngtOE1VMFJ3UmNYLW9jdHBSMUZ4c0FuMF9ZX3ZSa3NNU0lJMEZBbjgwR0ZPb004MmNiMUFfYV9FOEJWNlc1OWtXMGdMb1I0VGsyOXFNRHhYUE1WNUI0X085d0Jvbm40cTNLSWRkQWcyNzJ2Vy0zWHF3VU10QmxIN3Uydw?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "e2cd2186d6edbf",
+     "date": "2026-10-29T04:51:43+00:00",
+     "titre": "La Chine liste 40 technologies liées à l'IA pour ses contrôles à l'export",
+     "neuf": "La Chine formalise précisément une liste de 40 technologies liées à l'IA soumises à ses contrôles à l'export.",
+     "fil": "Contrôles de la Chine sur l'export d'IA",
+     "source": "Contrôles à l'export IA",
+     "lien": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNMmwtT0hEdmRudnBqV3Y3RTB2ZjcyZXVuWlFXTk1KUTBhc3htd0EzQXdObW01NE9iTGNBUnY5QWlmQjhzQlREWlh3SkdteDJ4WkVZbnVBbmJwY0ZKdkRnR2FmS2p2N1pmRl9RWmdGOVdxNk40Q2dNZWUweGJvd3JSNzRtOEN0RTQ?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "108d0302d46bee",
+     "date": "2026-10-29T15:38:41+00:00",
+     "titre": "Les discussions UE-Chine sur l'IA menacées par les sanctions et le contrôle des exportations",
+     "neuf": "Les discussions entre l'UE et la Chine sur l'IA sont menacées par les contrôles à l'export et les interdictions visant Huawei.",
+     "fil": "même politique de contrôles à l'export de l'IA par la Chine",
+     "source": "Contrôles à l'export IA",
+     "lien": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOVmdiNkZjcnFIOE5OUDN1SXBPSk1TY3JxQVNfZWpxdUh6WUJURHlPOXdSUldDUXRZYjU5VVFHNzdBOUFkVl9TcEQ2SUkwTmVCSDQ1b0N6cDNGZFhZdzhxeDBKOVQ0ckJaZG9welpMdU55OU1QM3J6WWlOOV9XSnhWXzNKMXNNYkpzakRCVWtUd3ZjY2stYUxodjJYd2VsdFk?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "0a373e5a677d47",
+     "date": "2026-10-29T19:24:00+00:00",
+     "titre": "Contrôles chinois à l'exportation sur la biopharmacie et l'IA",
+     "neuf": "La Chine étend ses restrictions à l'exportation à la biopharmacie et formalise de nouvelles obligations d'enregistrement.",
+     "fil": "Renforcement des contrôles chinois à l'exportation sur l'IA et la haute technologie",
+     "source": "Contrôles à l'export IA",
+     "lien": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPSUo4UFR4b0ZicWJVclJDRkJERElfaUw3aGlJdkpzZUNKLW8yal9lYzBCRzVZQWlJbzZKVHB0ZnRZekU5dFVlbXNIazl4UWFzSjc4LTF5V1R3NVJUaTY4V1IxUmFFSWdtdDJTX3hDMDBqYWhYOEt3aXlDWVhQeWlzOVo5aFFTRjJHSVZ2WF9IM2pHa2hMeGdCaVVRMVpjT0ZoX003Sk1WM0lya2F3NGNYSzB1VGROYW_SAbwBQVVfeXFMT1ZocURFS1JoTlJTZjlVS2lUZnA1S2F0LTBId2NYc0Q2RGVDMzNmb0p4ZGlBUk0zU0wwajBONzkwYlB2ZFpKY0VBQmNGME1JZVhvcDl1RkIyeHdKbjhGY3Q0UW01c1M1aFZsNDYyQVNRVVhmRTlxcllMbm1wVnVHZVZNQjJGVGQ1S3dEakdnYzFqZmtPMTZEeGFpdHFFU3BMZVp6ZTlVcmtMM09QQTFfcVEyOWJKWkNDTmoxbGc?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "26057c2cdf5d5b",
+     "date": "2026-10-30T13:00:30+00:00",
+     "titre": "Les contrôles à l'exportation de l'IA vers la Chine se retournent contre les États-Unis",
+     "neuf": "Un article de Forbes analyse comment les restrictions à l'exportation de technologies d'intelligence artificielle vers la Chine finissent par se retourner contre les États-Unis.",
+     "fil": "mêmes contrôles américains et chinois sur l'export d'IA",
+     "source": "Contrôles à l'export IA",
+     "lien": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPbmJXb3A1dC1LQ3hxU3FjdFR6SldXcDNhV240bVU0OGdIdC1YZGU1R3Z4YllXOHhSUG1zNW84T3lhYTZNYjBPTGYxM1JKSDhpbXBtazZqT25KWnZRbXdDenRiN1MwdWE0M1liUVRUelJSanBBVmt5aDB4QTJ3TE15cVpvR1J1Qmp1QTFnS3R2T0s3SW9zcmIzNk5uYnRFYU5qbUpRZ2xuSFlaQUlfOGlJamxhc2M0WlU?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "93944751f16433",
+     "date": "2026-11-01T22:22:50+00:00",
+     "titre": "Les contrôles américains à l'exportation favorisent les centres de données en Asie",
+     "neuf": "Mise en lumière de la manière dont les restrictions américaines stimulent paradoxalement le développement de centres de données en Asie soutenant l'IA chinoise.",
+     "fil": "effets des contrôles américains et restrictions à l'exportation",
+     "source": "Contrôles à l'export IA",
+     "lien": "https://news.google.com/rss/articles/CBMitgFBVV95cUxONTBYdUoxSTFKcTdFdDNMVnJiZ0ZKd3IyLTllNDFNWnN0SnA0OUVaTnpKVmpCNkNPRmh4bC1rVU5xTGNKRXBJMzI1eE1HRm5XSEhvbXVSbVhHa2QxdmNkU3RheENjc1A0QS1BOThKRHV3YVUzeFNhdHE0Q0lIQi1NcEdmZlF5V0Mtd2s2X0IybWZBUDZ0Qy1ReHh2NTdnYWVvR3I4T21yR0RNRXVXenp2djdSZGpZQQ?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    }
+   ],
+   "statut": "active",
+   "societes": [
+    "deepseek",
+    "ue"
+   ]
+  },
+  {
+   "id": "h_bb04558a25",
+   "titre": "Plainte contre OpenAI suite à des conseils médicaux mortels de ChatGPT",
+   "resume": "OpenAI fait face à une vague d'actions en justice intentées par des familles et des plaignants après que les conseils médicaux erronés de ChatGPT, notamment liés à l'épilepsie et à des crises de santé mentale, ont entraîné de graves conséquences et des décès.",
+   "creee": "2026-10-28T01:08:58.693059+00:00",
+   "maj": "2026-11-01T22:02:00+00:00",
+   "episodes": [
+    {
+     "id": "fc9e8e7874ddc2",
+     "date": "2026-10-16T21:22:00+00:00",
+     "titre": "Poursuite judiciaire contre OpenAI suite à un conseil médical de ChatGPT",
+     "neuf": "Une nouvelle plainte s'ajoute, alléguant qu'un conseil médical non autorisé a provoqué une crise de santé mentale.",
+     "fil": "nouvelle plainte contre OpenAI suite à des conseils médicaux dangereux",
+     "source": "OpenAI (actus)",
+     "lien": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9nc3o2SFJyOWRoNm9nSnRUT1ZQY3d3a2VUOEhBdlA3LTJqV0dndFZSWVphZVJXd1dSSmwxRWs4S3hUdURsME1McWdBZHdpR3JMLTYtSGlSVnBZbDZpVG9RV1FXODMtMjU0T0FQNw?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "d06768fd7f2b33",
+     "date": "2026-10-27T17:01:00+00:00",
+     "titre": "OpenAI visé par une plainte suite à des conseils médicaux mortels de ChatGPT",
+     "neuf": "Une nouvelle action en justice cible OpenAI pour un décès causé par des conseils médicaux erronés sur l'épilepsie.",
+     "fil": "Plainte en justice contre OpenAI suite à des conseils médicaux mortels de ChatGPT",
+     "source": "OpenAI (actus)",
+     "lien": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOUDdFLUZyZzNudHpoM2FCMXBzZVVHWXNEeU8xZlBKUDRXQnhuRWFGb1JmT2ZMYTJpV0RHalhQNzhQRDU2ZXQ0bFU4cGNCV0NxRnVVekkxTmtFOHRfNTlWLUhJUnZRV2RyQjltY3ZpRFlvcjlCMTg3M3Zhd25yQXVfNlQ1ZU1hS2dBV3BZZHI3LVVTbC1DQ3pN?oc=5",
+     "nb_sources": 2,
+     "primaire": false
+    },
+    {
+     "id": "a0e7e57c22a99a",
+     "date": "2026-10-27T19:38:47+00:00",
+     "titre": "Les conseils médicaux erronés de ChatGPT aux conséquences graves",
+     "neuf": "Le New York Times documente le cas critique des conseils erronés de ChatGPT sur l'épilepsie.",
+     "fil": "Conséquences graves des conseils médicaux de ChatGPT",
+     "source": "OpenAI (actus)",
+     "lien": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQZ0NqMW1MSnJGeVB2WHVWdWR4V0wySkRhVUpXTG1hQk1iZU1CY3pNeGRwUkVIcU83V01mckM5Z01qTmw0T2tRUVZmM1luNE55bDluMEQzUzB5THBzZWJYZ1ZTRFA3a0otUVZDRWRVdDdmTm9WY2VoazJUR19nNGlGNU9WNHVxWGZV?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "4ee3fcb6ac1d9b",
+     "date": "2026-10-27T23:34:27+00:00",
+     "titre": "Des parents poursuivent OpenAI suite aux conseils de GPT-4o à leur fille",
+     "neuf": "Une plainte de parents accuse GPT-4o d'avoir incité leur fille à arrêter son traitement médical.",
+     "fil": "Plainte de parents contre OpenAI pour les conseils de ChatGPT sur l'épilepsie",
+     "source": "OpenAI (actus)",
+     "lien": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPQ3JtRzlfcnp1ZXJ4ZFFyZ2dSSUROTkNzY3FnY3l0SEJpRngzcDJNQzc3LUZpblVFc0dPWXF6eVNEbENSVU1ycjI0ZjJrbWEtcjhaR1B4XzlEWnVBRFQyaGZhc2ZocU9wTHJLcVgwOUc1djNNb2VWRVBUdjNVTGo2YXVpRlJTOEFnMmtPUkwxNUlEbVd6M3JyWUMwVlhyM1dLZmRYMXYtTmVoR0s0VmN0QXM0RnJUQQ?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "a6575c402e2462",
+     "date": "2026-10-28T14:40:00+00:00",
+     "titre": "OpenAI sued over allegedly dangerous ChatGPT medication advice - MobiHealthNews",
+     "neuf": "Un média spécialisé (MobiHealthNews) rapporte la plainte visant OpenAI pour les conseils médicaux de ChatGPT.",
+     "fil": "Nouvel article de presse sur la plainte liée aux conseils médicaux dangereux de ChatGPT",
+     "source": "OpenAI (actus)",
+     "lien": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNaVRhTU5DN0hrSXdSVEsyRmhTZE9mTmxmZTFMaWg3WGRranlyRXZIeVhWaXZySm51UVV6LU1kMzhDZGZUNHNBX1lkbldWcllNS1dTLXpmZFJUNkhQa1c3VTlDRUV5Q2hQUEh2MWIwTF9Ld25mSGtwakpGQzEtcGhaMUhfQXJodExFRDdtUmJGLVE0emtZWUROc1h2SFViaEU?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "173ed906cc0348",
+     "date": "2026-11-01T22:02:00+00:00",
+     "titre": "Poursuite contre OpenAI suite au décès d'une femme après les conseils erronés de ChatGPT",
+     "neuf": "Nouvelle action en justice intentée par les parents d'une femme décédée d'une crise d'épilepsie suite aux conseils erronés de ChatGPT.",
+     "fil": "poursuite judiciaire contre OpenAI pour les conseils médicaux de ChatGPT",
+     "source": "OpenAI (actus)",
+     "lien": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPQ1BpVmV2di1BOHI2NHZrV3RFTWY3LUw1NG5VVklTNVd5WTdPUmp5djEyNHNqNTkyVHpqMHhiR3FsT1BwbjdzZ3hxMXM4VmpCTDNYY2x2cGhrcmlac2lyZXZ1WG1hYi13Y3R3NkpwV0l1RmNEQU1PcEtvZ0dXa3NzM0xHd3Q0cVdZNXpINg?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    }
+   ],
+   "statut": "active",
+   "societes": [
+    "openai"
+   ]
+  },
   {
    "id": "h_5e0762833f",
    "titre": "Action en justice contre SpaceXAI",
@@ -147,535 +462,11 @@
    ]
   },
   {
-   "id": "h_d13d605a4e",
-   "titre": "FineDNA : jeu de données pour LLM biologiques",
-   "resume": "FineDNA propose un jeu de données massif de plus de 300 milliards de tokens destiné à spécialiser et adapter n'importe quel grand modèle de langage à la génomique et à la biologie.",
-   "creee": "2026-11-01T20:30:22.862419+00:00",
-   "maj": "2026-11-01T07:24:09+00:00",
-   "episodes": [
-    {
-     "id": "2f4805dc657305",
-     "date": "2026-11-01T07:24:09+00:00",
-     "titre": "FineDNA : le plus grand jeu de données pour adapter un LLM à la biologie",
-     "neuf": "",
-     "fil": "Sortie du jeu de données FineDNA pour la biologie",
-     "source": "r/LocalLLaMA",
-     "lien": "https://www.reddit.com/r/LocalLLaMA/comments/1xkwvwg/finedna_the_largest_dataset_to_teach_any_llm_dna/",
-     "nb_sources": 1,
-     "primaire": false
-    }
-   ],
-   "statut": "active",
-   "societes": [
-    "alibaba"
-   ]
-  },
-  {
-   "id": "h_4c9894e533",
-   "titre": "Gemini 4 Carbon : annonce et capacités",
-   "resume": "Google DeepMind annonce et déploie Gemini 4 Carbon, un modèle axé sur la programmation et la cyberdéfense. Il surclasse la concurrence, atteint la première place des benchmarks de détection de vulnérabilités, bien que son accès reste restreint.",
-   "creee": "2026-10-28T20:52:53.965414+00:00",
-   "maj": "2026-11-01T03:36:00+00:00",
-   "episodes": [
-    {
-     "id": "b0da25ea6c1a29",
-     "date": "2026-10-28T17:00:58+00:00",
-     "titre": "Annonce de Gemini 4 Carbon par Google DeepMind",
-     "neuf": "Google DeepMind annonce l'arrivée de Gemini 4 Carbon.",
-     "fil": "Annonce de Gemini 4 Carbon",
-     "source": "Google DeepMind",
-     "lien": "https://deepmind.google/blog/gemini-4-carbon-our-next-frontier-model/",
-     "nb_sources": 2,
-     "primaire": false
-    },
-    {
-     "id": "185e559c77b9fc",
-     "date": "2026-10-28T17:01:23+00:00",
-     "titre": "Gemini 4 Carbon",
-     "neuf": "Discussions techniques et communautaires autour de l'annonce de Gemini 4 Carbon.",
-     "fil": "Discussion sur Gemini 4 Carbon",
-     "source": "Hacker News (IA, 100+ pts)",
-     "lien": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-carbon/",
-     "nb_sources": 1,
-     "primaire": false
-    },
-    {
-     "id": "beb8b19e9c57c1",
-     "date": "2026-10-28T17:48:38+00:00",
-     "titre": "Google DeepMind lance Gemini 4 Carbon pour la cyberdéfense et le code",
-     "neuf": "Google DeepMind présente officiellement Gemini 4 Carbon, ciblant spécifiquement la cyberdéfense et le développement logiciel.",
-     "fil": "Même modèle Gemini 4 Carbon",
-     "source": "Google Gemini (actus)",
-     "lien": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNY21KQXJSR1VScHZxM0FFQWdRYVRheFY2QkxWUGZaSXd5SVNEaDBfMEFaTGVCbWRjY1lxYUJGRkFGV1lFNUw4SjUzMUxoRkYtckg3QXk1TDRnVTJ3MEpsNVdxVHg4cTlleHBnSkRSYWd3VHFmTThyellEcnRGN0pvT0d3OEdISVoyRDU1Ti1BcmvSAZABQVVfeXFMTWNtSkFyUkdVUnB2cTNBRUFnUWFUYXhWNkJMVlBmWkl3eUlTRGgwXzBBWkxlQm1kY2NZcWFCRkZBRldZRTVMOEo1MzFMaEZGLXJIN0F5NUw0Z1UydzBKbDVXcVR4OHE5ZXhwZ0pEUmFnd1RxZk04cnpZRHJ0RjdKb09HdzhHSElaMkQ1NU4tQXJr?oc=5",
-     "nb_sources": 2,
-     "primaire": false
-    },
-    {
-     "id": "108e8db1031245",
-     "date": "2026-10-28T18:08:00+00:00",
-     "titre": "Google annonce Gemini 4 Carbon avec des gains majeurs",
-     "neuf": "Mise en avant des performances de Gemini 4 Carbon en programmation et tâches agentiques.",
-     "fil": "Détails sur Gemini 4 Carbon",
-     "source": "Google Gemini (actus)",
-     "lien": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5XaTVkbFZ1VUh4akhDTWtqY0RRUjZMZkx3WlN0UFVlYTVoa0N4QndiVkRkajJDUjF4Z1hjVGpNVFNzTWluMERLcWlodlVvWkFObnFiTEEwT2RBTmJ0N2FBeDlvRC1XNGJUQXc4ajE1bUo?oc=5",
-     "nb_sources": 2,
-     "primaire": false
-    },
-    {
-     "id": "5a342024f39507",
-     "date": "2026-10-28T18:12:49+00:00",
-     "titre": "Google lance Gemini 4 Carbon axé sur la cybersécurité",
-     "neuf": "Focus sur l'accent mis par Google sur la cybersécurité avec Gemini 4 Carbon.",
-     "fil": "Spécificités de Gemini 4 Carbon",
-     "source": "Grandes annonces IA",
-     "lien": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNLXQyWUp5N0QwdVRZWXFkd1M5b2RrcExtNVBJS0JKaDdhaG1DQThXeEVlUWVWQUNPTjNOak9ZSnZlQjhDUkNIT2oxSlJrSjlJSkVSMVZFMW5acXV1N0l5bWxKTU1CNmtzZVM3U2dZVE5RbHlrZ2k5LTljM2FnNDVLM3NFbGI4N1hSMVIyQ2FNZXZYY0ZuNV9KR0lQYzdxT2RGdzkxamkzLXloVUVmLUhmdUZ3?oc=5",
-     "nb_sources": 1,
-     "primaire": false
-    },
-    {
-     "id": "740cdb4d44c20b",
-     "date": "2026-10-28T18:25:49+00:00",
-     "titre": "Google dévoile Gemini 4 Carbon et reprend la première place",
-     "neuf": "Google reprend la tête des benchmarks grâce à ce modèle.",
-     "fil": "même modèle Gemini 4 Carbon",
-     "source": "Grandes annonces IA",
-     "lien": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxNS1BfSV9DNVl1aW5HV3A3SVc1bDFqZEhFT3VpekhjVDIwaVNKOTc2Z0c2WEJaaWtiNmFfc3BWWXBKWEtqUWpvaGRTOWMwNHBwYlRmbGIyX1FVN1M0Y0xWVGYzMnFWV2NYaFBlZ0JIZzlfR2p1Y2szTDIybXFTQ3FFOUtkazNVbzNoRUJQZV9GNXZLN3V1MWdOVmpCLS1IS2ZIQmRXbE01ZWNHVTNyLTZRWDV5YmFTbjJNZ1Y2VmoycFBnYlFpd1JuY3pRYUlWREMxSmE2b2FEYThGTVJhODA4?oc=5",
-     "nb_sources": 1,
-     "primaire": false
-    },
-    {
-     "id": "b655487b71d8b1",
-     "date": "2026-10-28T18:47:27+00:00",
-     "titre": "Google annonce Gemini 4 Carbon, un modèle d'IA non disponible",
-     "neuf": "Précision sur le fait que le nouveau modèle Gemini 4 Carbon n'est pas encore accessible au public.",
-     "fil": "Disponibilité de Gemini 4 Carbon",
-     "source": "Grandes annonces IA",
-     "lien": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPRW1ZYWNNNHRHU1pTM1FqNGIxajFURmFRZGlxM3BLaXNWWkl5Vl9lcUtMTmp3SEd4XzEyT1JUZHlzdjNvNWNDbE9NYk9VdUMzUkY2ZHVNalEtVWl4ckFwaTlsWFhjbTRDZURBdktRRGZpWGdheHVlZHlJYUNoS1YxcFphU2JVSFhBZkVZREo1R18yTWYwM0xnU1AzNllLYWZCLWZjNFMteDg2eEd2RXNTSVJ2ZmNsQQ?oc=5",
-     "nb_sources": 1,
-     "primaire": false
-    },
-    {
-     "id": "da5cf1cfcfca68",
-     "date": "2026-10-28T19:59:12+00:00",
-     "titre": "Google dévoile son nouveau modèle d'IA Gemini 4 Carbon",
-     "neuf": "Google annonce officiellement la sortie du modèle.",
-     "fil": "même modèle Gemini 4 Carbon",
-     "source": "Grandes annonces IA",
-     "lien": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOZ3ZsUjkyLTZtWHJBUmpUYzlmSVVsTTAwem1DWmxaaDlkTXhMTTJqNVhKTFlIMzdodkx5UDhFZzhjRk9iVk9ZMWU5Z2tWdkx6ZzZzVGVYTHFrZjF5dC1RZUZsODdpWUFyS1VHTzdaX2ZSMk80M24wZGZka1luREl5RWhKSDJ4NmxNUnhSOGVfdlQ4OUZ5?oc=5",
-     "nb_sources": 1,
-     "primaire": false
-    },
-    {
-     "id": "a07d372fa098b5",
-     "date": "2026-10-28T21:11:47+00:00",
-     "titre": "Google annonce Gemini 4 Carbon, réservé d'abord à la cybersécurité",
-     "neuf": "Le modèle est attribué en priorité aux défenseurs de la cybersécurité.",
-     "fil": "même modèle Gemini 4 Carbon",
-     "source": "Grandes annonces IA",
-     "lien": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNazNYS3d0ZlZXVWxwcVlPdUFMXzNvWVBSVXA2RUxQbVlyMFJybzRsdVNWc1RSR0taeXVsNDZJMHRoLThubms2WmNfMGRNTW1uYW9EVEVWRVpzSGJhak40eElyLXNYV2tTSFZPdDhsZXRNTG5SSGdBT2pld3I0V245YkFUQVhrbzRkSVNpOG9NazcwLWFsc1FOZ2NrREdWVnZYM25nMQ?oc=5",
-     "nb_sources": 1,
-     "primaire": false
-    },
-    {
-     "id": "2a9bdd78cd18dd",
-     "date": "2026-10-29T01:32:28+00:00",
-     "titre": "Gemini 4 Carbon : la nouvelle IA de Google interroge le secteur",
-     "neuf": "Les répercussions et interrogations sur les marchés adjacents commencent à émerger.",
-     "fil": "même modèle Gemini 4 Carbon",
-     "source": "IA en français (actus)",
-     "lien": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPSFd4YWhSMGVkb1BMTDFGTDhCek9VUDdvX0ZobDhoS0tpN2FnU1BaVjJ6OW5HRlJ6RXBoVkZEcnBIaFFackY2cHU4SGRxV1YwaElLZ051RE9yNUFfMC14aV9pY0Vtc1psdUZqSGItTXg3V1g2bEdwS3YtRkwyank5N01JR2dfOWRkVEc5c1FSckc?oc=5",
-     "nb_sources": 1,
-     "primaire": false
-    },
-    {
-     "id": "700d7790f59dd7",
-     "date": "2026-10-29T09:14:34+00:00",
-     "titre": "Gemini 4 Carbon dépasse Claude selon le Journal du Geek",
-     "neuf": "Les performances de Gemini 4 Carbon lui permettent de surpasser les modèles d'Anthropic selon de nouveaux comparatifs.",
-     "fil": "Même modèle Gemini 4 Carbon",
-     "source": "IA en français (actus)",
-     "lien": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPamFubFBwYkFpR3l4a2s0d0kzbEtBRXdab01qNXA2Mml6YUFGd0JSdlV4dzJmcHJZUTNyZVdYNlZJOXVtTGRZVjEzcjU4VzFGenI2bVV6OUVVSWJWNVZwd0tLdXRHcUkxcDZNdzd4dFFsUGpBZGt3QkV5bHdFVXpCd3doSWdiUW1RZEJNX09sQ3R3UnV3MHhTeXZmUFNsWnU4blNGZWtndVdnMUdhNTN5YWtMS2U0ck1zVnZXR3hnd3JzeDI2QjNOZQ?oc=5",
-     "nb_sources": 1,
-     "primaire": false
-    },
-    {
-     "id": "eebb63f2228b3e",
-     "date": "2026-10-29T12:41:56+00:00",
-     "titre": "Gemini 4 Carbon is the new #1 on the Artificial Analysis Intelligence Index v5",
-     "neuf": "Gemini 4 Carbon prend la première place de l'Artificial Analysis Intelligence Index v5.",
-     "fil": "même modèle Gemini 4 Carbon",
-     "source": "Hacker News (IA, 100+ pts)",
-     "lien": "https://artificialanalysis.ai/articles/gemini-4-carbon-new-number-1",
-     "nb_sources": 1,
-     "primaire": false
-    },
-    {
-     "id": "bd0adf08863cf3",
-     "date": "2026-10-29T12:44:15+00:00",
-     "titre": "Google annonce que Gemini 4 Carbon surpasse ses prédécesseurs en cybersécurité",
-     "neuf": "Google annonce que Gemini 4 Carbon surpasse ses prédécesseurs en cybersécurité.",
-     "fil": "même modèle Gemini 4 Carbon",
-     "source": "Google Gemini (actus)",
-     "lien": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5idzhtY1Q0MmYzcHJidTEwV1dXc1FrT1FvaVYwQkM1emVXWTdLdE15NFJvU0xCTHJ6V01TMi1pRGVXaFlLcWc3RW5ZSVc0cEJlZTNiQ25rZzNVTjNCYjIyaHZyazZ4WU9DQXAyMm1kR1VXRDh3MGVoMEVQYXc?oc=5",
-     "nb_sources": 2,
-     "primaire": false
-    },
-    {
-     "id": "f8cf634dc4d336",
-     "date": "2026-10-29T13:42:00+00:00",
-     "titre": "Gemini 4 Carbon en tête des benchmarks de vulnérabilités informatiques",
-     "neuf": "Le modèle confirme sa domination sur les benchmarks de vulnérabilités informatiques.",
-     "fil": "même modèle Gemini 4 Carbon",
-     "source": "Google Gemini (actus)",
-     "lien": "https://news.google.com/rss/articles/CBMid0FVX3lxTE50ck5wcllHV21sMDZLVEJiWkp2OGlqbTVxcmRMRlJSRkFydUxodGlHalJDYl81WE00aUJsbnVRZFdQSmRrOUg4Rnh3NWdMNWowWGotNmZ2MzB6dm5tZzRYQnpqaFc4VG1oblhmSUVIYXRPR0hXUklz?oc=5",
-     "nb_sources": 1,
-     "primaire": false
-    },
-    {
-     "id": "31c22f696c1675",
-     "date": "2026-10-30T10:23:23+00:00",
-     "titre": "Gemini 4 Carbon prend la tête des benchmarks mais reste réservé",
-     "neuf": "Le modèle prend la tête des benchmarks tout en maintenant un accès strictement réservé.",
-     "fil": "même modèle Gemini 4 Carbon",
-     "source": "ActuIA",
-     "lien": "https://www.actuia.com/actualite/gemini-4-carbon-premier-de-lindice-dartificial-analysis-est-reserve-aux-cyberdefenseurs/",
-     "nb_sources": 1,
-     "primaire": false
-    },
-    {
-     "id": "435be92947d461",
-     "date": "2026-11-01T03:36:00+00:00",
-     "titre": "Gemini 4 Carbon : le nouveau modèle de Google pour la cybersécurité",
-     "neuf": "Annonce officielle de Gemini 4 Carbon axé sur la cybersécurité.",
-     "fil": "même modèle Gemini 4 Carbon",
-     "source": "Grandes annonces IA",
-     "lien": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOZ1Ezd1B5OTJQb1AyR2JxcEJfcktPbTlMX29UeUdfTzJENzVGaC02MFI5YWYwNWY5cGxHVzRtN3A5REdzbUpzV3dUMHhfdXZndzRLN1RwdGhpenRYWEdaeWhQWE1iYV9aLWttNGpNT0hfb25Od0RreXJhR2U0bC1zeW9SenhlcDVpcTFZVm9QMlNkX0FPYVVObklsYUwwa2xVSnJyd1doVUY3aU1taGdITjVnMEY5WXBXM3Bnc29LMEthT0Z1eTBB0gHOAUFVX3lxTE0zV3EzUzhRY0syTFBPd0dpR1lNeTZyME5hYkpsUW1aenZpWjI2eFpzd0VWRDVCazBnZE95Ym1hR084OUlmbFAyTkNvR0YzV3FMNVdCU2ttQWdvQkRVc0NaNWc1cFYtR3BtTU01THc1dDgtSUxIcG1yVkFCRjlXVnlmbXpHSWJHRzlTblp3WDZqLXJtSXpPd2I2NGtURDJRdkxBWXBNRHh1R0MwNDl3NjV5NmtrZUR1aGZkbFhxbzVHSXpmMEJKMkJHT2N0QU5B?oc=5",
-     "nb_sources": 2,
-     "primaire": false
-    }
-   ],
-   "statut": "active",
-   "societes": [
-    "google",
-    "anthropic"
-   ]
-  },
-  {
-   "id": "h_9c9f09e590",
-   "titre": "Faille de sécurité critique dans les liens ChatGPT",
-   "resume": "Une faille de sécurité majeure a été découverte dans le système de partage de liens et les aperçus HTML de ChatGPT, permettant à un lien malveillant d'exécuter du code dans la session de l'utilisateur, de compromettre son compte et d'accéder à ses conversations privées.",
-   "creee": "2026-10-31T14:32:10.371026+00:00",
-   "maj": "2026-10-31T23:15:22+00:00",
-   "episodes": [
-    {
-     "id": "8463975b5d969c",
-     "date": "2026-10-31T05:33:00+00:00",
-     "titre": "Une faille dans les liens ChatGPT permettait d'exécuter du code",
-     "neuf": "Découverte d'une faille dans les liens ChatGPT permettant l'exécution de code malveillant et la lecture de conversations privées.",
-     "fil": "vulnérabilité critique dans les liens ChatGPT",
-     "source": "OpenAI (actus)",
-     "lien": "https://news.google.com/rss/articles/CBMiekFVX3lxTE1xLTVwY2pKZ1U4Y0J1VjJVQnkwZTJNcGFGUEtfbHZXSENiQkxXdFVJaEhXbGJYSWpRMjJUcW81dFFMRWpvWVZCUm5EY0pRRHpfZlJ3WXlHV3BmUVBXS3VvaWJzdTB1SzNmUkJLaTNINkZCckE3QVRSdGpB?oc=5",
-     "nb_sources": 1,
-     "primaire": false
-    },
-    {
-     "id": "0def4a2fca6b3a",
-     "date": "2026-10-31T23:15:22+00:00",
-     "titre": "Faille de sécurité dans les aperçus HTML de ChatGPT découverte par Parameter Labs",
-     "neuf": "Nouvelle démonstration d'une chaîne d'attaques exploitant les aperçus HTML pour compromettre des comptes.",
-     "fil": "même faille de sécurité dans les liens et aperçus ChatGPT",
-     "source": "Simon Willison",
-     "lien": "https://simonwillison.net/2026/Oct/31/how-we-took-over-chatgpt-accounts/",
-     "nb_sources": 1,
-     "primaire": false
-    }
-   ],
-   "statut": "active",
-   "societes": [
-    "openai"
-   ]
-  },
-  {
-   "id": "h_ba6721b09c",
-   "titre": "Intégration d'un processeur RISC-V dans les poids de Qwen",
-   "resume": "Des développeurs poursuivent l'intégration de structures de calcul et de mini-modèles directement au cœur des poids neuronaux des modèles Qwen. Après un processeur RISC-V, c'est un NPU virtuel exécutant un petit LLM qui a été compilé au sein de Qwen 3.5-4B.",
-   "creee": "2026-10-28T16:59:03.629060+00:00",
-   "maj": "2026-10-31T19:18:53+00:00",
-   "episodes": [
-    {
-     "id": "3886c73b3296dd",
-     "date": "2026-10-28T12:26:44+00:00",
-     "titre": "Un processeur RISC-V intégré directement dans les poids du modèle Qwen",
-     "neuf": "Un développeur intègre directement un processeur RISC-V 32 bits dans les poids neuronaux d'un modèle Qwen.",
-     "fil": "Intégration d'un processeur RISC-V dans Qwen",
-     "source": "r/LocalLLaMA",
-     "lien": "https://www.reddit.com/r/LocalLLaMA/comments/1xhmo1q/someone_built_a_32bit_riscv_cpu_directly_inside/",
-     "nb_sources": 1,
-     "primaire": false
-    },
-    {
-     "id": "d4ac3b28f3e76c",
-     "date": "2026-10-31T19:18:53+00:00",
-     "titre": "Exécuter un petit LLM directement à l'intérieur des poids de Qwen 3.5",
-     "neuf": "Un développeur étend l'approche en exécutant un mini LLM au sein même des poids de Qwen 3.5-4B grâce à l'implémentation d'un NPU virtuel.",
-     "fil": "Intégration d'un petit LLM/NPU virtuel directement dans les poids de Qwen 3.5",
-     "source": "r/LocalLLaMA",
-     "lien": "https://www.reddit.com/r/LocalLLaMA/comments/1xkiuut/an_llm_inside_an_llm_same_guy_who_put_a_riskv_cpu/",
-     "nb_sources": 1,
-     "primaire": false
-    }
-   ],
-   "statut": "active",
-   "societes": [
-    "alibaba"
-   ]
-  },
-  {
-   "id": "h_0fa323d3d9",
-   "titre": "GPT-5.6 Sol et ses capacités sur Factorio",
-   "resume": "Le modèle GPT-5.6 Sol démontre des aptitudes notables en matière de planification à long terme. Il s'est notamment illustré en parvenant à terminer le jeu Factorio en mode pacifique.",
-   "creee": "2026-11-01T06:04:17.351231+00:00",
-   "maj": "2026-10-31T18:50:34+00:00",
-   "episodes": [
-    {
-     "id": "b9de5465dae2a0",
-     "date": "2026-10-31T18:50:34+00:00",
-     "titre": "GPT-5.6 Sol capable de battre Factorio en mode pacifique",
-     "neuf": "Le modèle GPT-5.6 Sol démontre des compétences de planification en réussissant à terminer le jeu Factorio en mode pacifique.",
-     "fil": "Capacités de planification de GPT-5.6 Sol sur le jeu Factorio",
-     "source": "Hacker News (IA, 100+ pts)",
-     "lien": "https://ryanmadden.net/gpt-56-beats-factorio/",
-     "nb_sources": 1,
-     "primaire": false
-    }
-   ],
-   "statut": "active",
-   "societes": [
-    "openai"
-   ]
-  },
-  {
-   "id": "h_61682af51c",
-   "titre": "Lancement de l'agent IA Claude Duet d'Anthropic",
-   "resume": "Anthropic déploie son agent professionnel Claude Duet et met à jour ses outils de code, tout en faisant face à des effets de bord indésirables où les restrictions contre les clones de jeux bloquent des projets légitimes. Son accès reste structuré autour de minima de sièges et de règles strictes de comportement.",
-   "creee": "2026-10-21T20:44:46.798337+00:00",
-   "maj": "2026-10-31T18:30:00+00:00",
-   "episodes": [
-    {
-     "id": "5dbb54a005401f",
-     "date": "2026-10-21T19:14:01+00:00",
-     "titre": "Lancement de Claude Duet par Anthropic",
-     "neuf": "Anthropic officialise l'introduction de Claude Duet sur le marché.",
-     "fil": "lancement de l'agent Claude Duet",
-     "source": "Hacker News (IA, 100+ pts)",
-     "lien": "https://claude.com/product/claude-duet",
-     "nb_sources": 1,
-     "primaire": false
-    },
-    {
-     "id": "705d3445b65a91",
-     "date": "2026-10-21T19:53:20+00:00",
-     "titre": "Anthropic lance Claude Duet, son nouvel agent IA",
-     "neuf": "Anthropic positionne Claude Duet pour concurrencer les autres agents du marché.",
-     "fil": "lancement de Claude Duet",
-     "source": "Anthropic (actus)",
-     "lien": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQMm0xalYzS19NOGxhQ0ZpanpWeFpjN3g0VzZfVjROQ3RUemxqZmc3STZhdHlRUTlvZEJOaW52dzdVTUxOc09MMzlVeFlJSmc5V2p4WDdwWjRRaDZKMU5QbldoWHBIaTh0Qi1yc1JFaVNHM1BkQ25ucFZfbVJtWGNYMS1jRWlocDk5NUVheDVpclZEUTJw?oc=5",
-     "nb_sources": 2,
-     "primaire": false
-    },
-    {
-     "id": "05e2774a24a1f6",
-     "date": "2026-10-21T20:29:00+00:00",
-     "titre": "Anthropic lance Claude Duet, son nouvel agent personnel",
-     "neuf": "Claude Duet est présenté comme un nouvel agent personnel pour répliquer à la concurrence.",
-     "fil": "lancement de Claude Duet",
-     "source": "Anthropic (actus)",
-     "lien": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPQkZFNGVZc2Q2Q3VJYWVFNjFlOUh1NE1aNWFrZHlzOFlEMVpQU0xFQkFDSW4ydXljV1gtRnBBVzZjWi11Z3dMQ0sxdl9EdXdJOWl0TWlYMnl1M1o5S3d4LXRuOW9lLUd3bS1lYkloUnFGVnhqbFNJSGtVRUt4ZnlWSVg1Q01YOHlrWF9tZ0RsQXptUjljR0MxVFVaWW0xTXMweUE?oc=5",
-     "nb_sources": 1,
-     "primaire": false
-    },
-    {
-     "id": "29513dd2417946",
-     "date": "2026-10-21T20:41:02+00:00",
-     "titre": "Anthropic entre dans la course aux agents IA avec Claude Duet",
-     "neuf": "Anthropic officialise son entrée sur le marché des agents avec Claude Duet.",
-     "fil": "Lancement de l'agent IA Claude Duet d'Anthropic",
-     "source": "Anthropic et gouvernement",
-     "lien": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNblFra1FIR1VRWmpPaW80WGJSZGNtVG02LUMzU0pvR0NQbkJ3R1N1eGxTS0ZhblV6ZDV1VUNiMVVKVHRCNVI5aHZaZjBGREZUSDg3ekExUnFFWjF2QUs4Qk9ZREN6cUt4QVNZTnlwLThQMmt0Wmp3QWh1QkF3TDFuY1hNOGRnU2Ew?oc=5",
-     "nb_sources": 1,
-     "primaire": false
-    },
-    {
-     "id": "7abf36518713c4",
-     "date": "2026-10-22T01:05:09+00:00",
-     "titre": "Nouvel agent IA d'Anthropic pour l'achat de fournitures professionnelles",
-     "neuf": "L'agent d'Anthropic se dote de capacités d'achat autonome de fournitures professionnelles.",
-     "fil": "Nouvel agent IA d'Anthropic pour les achats professionnels",
-     "source": "Anthropic (actus)",
-     "lien": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQWjdMOWV2Z1JpdUNIN05TWE53U2JJRW1obFBKT05xQVQtc05ZUm9iM3JSaWxsdFpFSTB5UldmbnZqVlZ0bHZhaHZiNkFUMFp3NlpxTUZYOTBWc3RhZWZjSjhseGhOVlBVbE9scnRTLWhZS0lEU2JNTmc2UUwxSHI3ZS1lWXMyc3hFUkk4N2dvZGp2Q2w3amxVUHRiVkRHeHNGT2RrbF9mWHRfa3hrMmc?oc=5",
-     "nb_sources": 1,
-     "primaire": false
-    },
-    {
-     "id": "31cb9fa2449425",
-     "date": "2026-10-22T03:19:00+00:00",
-     "titre": "Claude Duet intègre plus de 6 000 outils pour automatiser les tâches",
-     "neuf": "Claude Duet se connecte à plus de 6 000 intégrations pour automatiser les flux de travail en entreprise.",
-     "fil": "Intégrations de Claude Duet",
-     "source": "Anthropic (actus)",
-     "lien": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPOHZGSWdQNmhaM1AwX2tMNFl0TGo3by1jaG9ESnI3cm1za2ZIbnF3TUJtUVZlOXJLZW9KYlJXWkdmLXRqejFOM2VPNlduTEV1bEx1U0VvQ0c1WDZ6S0YwdnFWNElWTVgway1yTFc5WE84ZFZ1VEo0M3NBbkVQLURuRUgtN3E2cXBsN0lPcFo3aTc?oc=5",
-     "nb_sources": 1,
-     "primaire": false
-    },
-    {
-     "id": "3dec6b4cf94367",
-     "date": "2026-10-22T11:11:31+00:00",
-     "titre": "Découvrez Claude Duet, le nouvel agent IA d'Anthropic",
-     "neuf": "Confirmation du lancement de l'agent pour alléger la charge de travail.",
-     "fil": "Même lancement officiel de l'agent Claude Duet",
-     "source": "Anthropic (actus)",
-     "lien": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBsa3ZVM2JtaGdBajhfZEFDWVJaVHlvbkxYcGR5ODFBdjlEeFNON3FfcG0tYzR0aHIyazRjanhUTWRyX1phZ3JLQTNVTmZTMXlBajQ5SmxUZUFVZms5eGxRbVJrZ04xZDYw?oc=5",
-     "nb_sources": 1,
-     "primaire": false
-    },
-    {
-     "id": "819de26796b063",
-     "date": "2026-10-22T12:16:35+00:00",
-     "titre": "Anthropic lance un agent IA professionnel face à Meta et OpenAI",
-     "neuf": "Anthropic dévoile son agent IA professionnel pour concurrencer Meta Muse et OpenAI Dots.",
-     "fil": "nouvel agent IA professionnel d'Anthropic",
-     "source": "Anthropic et gouvernement",
-     "lien": "https://news.google.com/rss/articles/CBMif0FVX3lxTE4weXI0QVdqNEdJSmR3Z2RvUl9feHFyMzdkSV90S2hhNlFadVd1TjZiUmpURVJtei00QnJQajBCaFJ1LXN2YktJN3o1S3hhNC1SV3RJNlA3RVhCeHNHZFFuMW5rc2x2WjY5VDZLaVZ0dkFqMmx0alJIcUliZEE1LVU?oc=5",
-     "nb_sources": 1,
-     "primaire": false
-    },
-    {
-     "id": "d24c772af64832",
-     "date": "2026-10-22T17:38:48+00:00",
-     "titre": "Lancement de Claude Duet par Anthropic : les entreprises hésitent",
-     "neuf": "Un article relève que les entreprises font face à des hésitations quant à l'adoption de Claude Duet.",
-     "fil": "même agent IA professionnel Claude Duet d'Anthropic",
-     "source": "Anthropic et gouvernement",
-     "lien": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNR05JZHN0U2d5RHE1MWUyUXVaeGhoX3E1dTRyNzNLd3JndmVGa0U2RGE2bFIzZ1ZHUUhTMVZ4Nzg3QmFTb2FMUENXSDR2a0Z5c3h3amx2YXFMY3E3SkFlN09PT1hLS1RjUHQzeGhuVm10TnBlMjlIcVpfdm1aSW95T2V1eFJpeWwwMDJmcnJmUWhxYVdvb2hYQUpUcjFld2VqM3YzcjFaYw?oc=5",
-     "nb_sources": 1,
-     "primaire": false
-    },
-    {
-     "id": "139e807626ba1a",
-     "date": "2026-10-24T13:07:30+00:00",
-     "titre": "Anthropic : un minimum de 20 sièges exclut les petits cabinets",
-     "neuf": "Anthropic impose un minimum de 20 sièges entreprise, excluant de fait les petits cabinets.",
-     "fil": "Conditions d'accès et abonnements aux services d'Anthropic",
-     "source": "Anthropic (actus)",
-     "lien": "https://news.google.com/rss/articles/CBMinAJBVV95cUxPT0R4ZTBtQWtQMTBJWGx2NGV2TVNxRl9aa2liNDQ2SGJFVFEta0I2M2lhaEkwR2hWMmxDMlZXamdQYkpFRkU1Wl9PN3JOLXljb3JuTFJ1Z0wwTFp6ZVlqQkRnVHpZOW1uMkpnR0hUYzkzZm9BXzNXSEQ1cnBic2M2cHpqM0FSempQUGNoQzVhWmdyQksxcVN4QVJGZ2NSaEZ3N0pZMno3SFFIQm9ORVBaWWhkM25DQm1pRkIzd1dyOEZvSmxtMnRBTkxYSXp5dW1IZmhNTC1CczY2T0ZDVlBPT1NvZnZ2YXRxLXZxbklsVnQtSVoxQWlsd0hlbVBEUkxpbTNlNUlBRUJmUXdpQ3BCaUVEQTR0SjRVQTdxQw?oc=5",
-     "nb_sources": 1,
-     "primaire": false
-    },
-    {
-     "id": "9dee3fa62c05d0",
-     "date": "2026-10-31T18:30:00+00:00",
-     "titre": "Comment utiliser Claude Duet lors de son déploiement",
-     "neuf": "Un guide d'utilisation pratique est publié à l'approche du déploiement de Claude Duet.",
-     "fil": "même agent Claude Duet",
-     "source": "Anthropic (actus)",
-     "lien": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE84cHZlMURNNDdZcjg1STBlNU1WMHA4YmlWMFM4RzExMGx6aDYxeHR1T252MG1OVmdySXdGMERHTTAwejBrMzIycFJ4MzR2UGFFVTlRX2w3eFRBVWZNdE5BZVI0d1YxTWM?oc=5",
-     "nb_sources": 1,
-     "primaire": false
-    }
-   ],
-   "statut": "active",
-   "societes": [
-    "anthropic",
-    "openai"
-   ]
-  },
-  {
-   "id": "h_b5289f0792",
-   "titre": "Apple s'associe à Alibaba pour l'IA en Chine",
-   "resume": "Apple officialise son partenariat stratégique avec Alibaba afin d'intégrer les technologies d'intelligence artificielle Qwen sur l'iPhone en Chine. Ce mouvement clé permet d'alimenter les fonctionnalités d'Apple Intelligence pour les utilisateurs locaux dès le mois de décembre.",
-   "creee": "2026-10-31T14:32:10.371026+00:00",
-   "maj": "2026-10-31T17:38:16+00:00",
-   "episodes": [
-    {
-     "id": "f13940454eeabf",
-     "date": "2026-10-31T10:02:17+00:00",
-     "titre": "Apple s'associe à Alibaba pour lancer ses fonctions IA en Chine",
-     "neuf": "Apple s'associe à Alibaba pour intégrer ses fonctions d'intelligence artificielle sur l'iPhone en Chine.",
-     "fil": "partenariat entre Apple et Alibaba pour l'IA en Chine",
-     "source": "Grandes annonces IA",
-     "lien": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNN2tkN3NFenBvWmVSMHFlWEJGWnlfeWpyVzFQQzhoUllDZ3ljS05venFUT1ZnT3pQai13c3hmUHU0RTlESklTekVvU2VuTXJXeDF0Z1k4THFicC1ybU0wcVk5MVBuNmdaMXVCUlZ3dTBPcmtLTVBjTnBKV2lHZEFGRmlKU0loWWttaWlXbDM3QkxLS1RkaHhic04xYm5FWGcyWWxDZDZFT01kVXl5WTFWQUtrcW1uZU020gG4AUFVX3lxTFA4YTg1dUhJeDhZajg5NTFxU29RRWNNeVZzZXRxMmpoUjZ3QTNuWktwS0FQVkxvbUQ3YjQ1NGcwa3hVRDE3TnNOTmVhdXk5QTVuYUhuMGgxR0tmWHZGbDdKV09tdnhWQWhJWTdnaW9mNmhZRWowaV9wQmdvZTRTa3FzdExZakVlTHpXT0RGNGxYS0RpeXd1emlfYXBqVkVCMk1MUjJhbmlQdV90M2RqN3FiakNEM3VYU2w?oc=5",
-     "nb_sources": 1,
-     "primaire": false
-    },
-    {
-     "id": "6e945eaaaac7f3",
-     "date": "2026-10-31T17:38:16+00:00",
-     "titre": "Alibaba intègre son modèle Qwen dans Apple Intelligence en Chine",
-     "neuf": "Alibaba officialise l'intégration de son modèle Qwen au sein d'Apple Intelligence pour le marché chinois.",
-     "fil": "même partenariat Apple-Alibaba en Chine",
-     "source": "Grandes annonces IA",
-     "lien": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxOYWxtSWxQWFFKLVc1dUZCdGtGOElTdFlWeTJZV0FWZ0MzbXBzbkpNSzNmclhleVlWblpHeElhSHhNMDZtcHlKWjBZTVFEQk9MRDJlcWZDWFZQYzlUZDdGcVBDTVk0RndNdC1iVG9taW9vY0FCdTF6WWVzSjdhQVp1Yk1jUkQ4QU9jZjdCTlRCZmZmZTBranBrSzh0cDcydmVWVmpYQ21SOXFyYUkyTUZFU0VVZzdXUnY0S2Q0bzE5ZU1XcGRxVUh2bDdyNHM2RGV3MUlJUVVBS3g1S28?oc=5",
-     "nb_sources": 1,
-     "primaire": false
-    }
-   ],
-   "statut": "active",
-   "societes": [
-    "alibaba"
-   ]
-  },
-  {
-   "id": "h_52e7f4c87a",
-   "titre": "Google lance son premier satellite de calcul IA",
-   "resume": "Google a concrétisé son projet en plaçant avec succès un satellite de calcul IA en orbite équipé de TPUs. Cette infrastructure spatiale permet d'exécuter directement des charges de travail d'inférence et des modèles comme Gemma 4.",
-   "creee": "2026-10-30T20:48:26.671184+00:00",
-   "maj": "2026-10-31T15:22:08+00:00",
-   "episodes": [
-    {
-     "id": "135f70cd39eb4c",
-     "date": "2026-10-30T17:00:00+00:00",
-     "titre": "Google lance son premier satellite de calcul IA en orbite",
-     "neuf": "",
-     "fil": "lancement du premier satellite de calcul IA par Google",
-     "source": "TechCrunch IA",
-     "lien": "https://techcrunch.com/2026/10/30/googles-first-data-center-satellite-is-online-and-writing-poetry/",
-     "nb_sources": 1,
-     "primaire": false
-    },
-    {
-     "id": "c4dbacf8aa2b8b",
-     "date": "2026-10-30T18:21:38+00:00",
-     "titre": "Google déploie une IA directement sur un satellite en orbite",
-     "neuf": "Un satellite équipé de puces TPU a exécuté le modèle Gemma 4 directement depuis l'espace.",
-     "fil": "déploiement du modèle Gemma 4 sur un satellite en orbite",
-     "source": "The Verge IA",
-     "lien": "https://www.theverge.com/tech/1023528/google-project-suncatcher-ai-satellite-transmission",
-     "nb_sources": 1,
-     "primaire": false
-    },
-    {
-     "id": "1aa86a472170d2",
-     "date": "2026-10-31T15:22:08+00:00",
-     "titre": "Google lance son premier satellite de centre de données en orbite",
-     "neuf": "Google a placé en orbite un premier satellite équipé de TPUs pour tester l'exécution de charges de travail d'inférence d'IA dans l'espace.",
-     "fil": "même satellite de calcul IA de Google",
-     "source": "r/LocalLLaMA",
-     "lien": "https://www.reddit.com/r/LocalLLaMA/comments/1xkcyn6/spent_a_lot_on_my_rig_but_i_can_only_run_gemma_4/",
-     "nb_sources": 1,
-     "primaire": false
-    }
-   ],
-   "statut": "active",
-   "societes": [
-    "google"
-   ]
-  },
-  {
    "id": "h_5febc86840",
    "titre": "L'introduction en Bourse d'Anthropic",
-   "resume": "Anthropic avance dans son projet d'introduction en bourse sur le Nasdaq sous le symbole ANT. Les analyses financières soulignent toutefois des valorisations record et pointent de sérieuses difficultés, notamment des complications accrues et des risques majeurs identifiés par les observateurs quant à l'obtention d'une note d'investissement.",
+   "resume": "Anthropic progresse dans son projet d'introduction en bourse sur le Nasdaq, visant désormais une valorisation spectaculaire de 2 000 milliards de dollars. Les analyses financières pointent toutefois des valorisations record et de sérieuses difficultés pour l'obtention d'une note d'investissement.",
    "creee": "2026-10-20T09:56:16.457937+00:00",
-   "maj": "2026-10-31T11:45:00+00:00",
+   "maj": "2026-11-01T14:15:00+00:00",
    "episodes": [
     {
      "id": "6702d1aaf0afce",
@@ -1545,12 +1336,547 @@
      "lien": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQLWV6RXhjZ2xUMjBhd3dDUkJlNjEzRXhzZmJyLUZuV3poSWpHYUFIa2E0Vk1lZ3hLLUllVW1rUk1ib2Q0SU9kdGhPWnFRYjRZSDkyTXdwTUsyX1VuSUVwRzd1dnMzQ2pRbW9uQ1dUSVZqS0RJSm5iU3dCSndkUmYwU25B?oc=5",
      "nb_sources": 1,
      "primaire": false
+    },
+    {
+     "id": "7ff6e33811101a",
+     "date": "2026-11-01T14:15:00+00:00",
+     "titre": "Anthropic vise une introduction en bourse à 2 000 milliards de dollars",
+     "neuf": "Anthropic vise une valorisation record de 2000 milliards de dollars pour son introduction en bourse.",
+     "fil": "projet d'introduction en bourse d'Anthropic",
+     "source": "Anthropic (actus)",
+     "lien": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxPSlBiVFRIMmt2WEVQTjRoQ21LTElPODlaUVNwWTJyUWxrNUw0amktMS12NDhEUGNYT2Q0bEE4S1lCd3ZNbFAzWEY1dDMyNjhObmJzRG51bndoNEt6ck80U1h5b0JHSF84MTAtMmJpR0dCSzRORWpLZU1EbUEyVzdiM2haTVFkelhTYXlKNU9ndEpmWXhkQS1kMXBRLUp6RDJ4LVpjVTJZYUdVY1NZd3NIYkFWN2M1RXZ5M09TY3JaRXlObURIY0VXV1lmNGJCWmFpeHdmOW52Y1d5c0ZIQ2VDY0l5Sng?oc=5",
+     "nb_sources": 1,
+     "primaire": false
     }
    ],
    "statut": "active",
    "societes": [
     "anthropic",
     "openai"
+   ]
+  },
+  {
+   "id": "h_d13d605a4e",
+   "titre": "FineDNA : jeu de données pour LLM biologiques",
+   "resume": "FineDNA propose un jeu de données massif de plus de 300 milliards de tokens destiné à spécialiser et adapter n'importe quel grand modèle de langage à la génomique et à la biologie.",
+   "creee": "2026-11-01T20:30:22.862419+00:00",
+   "maj": "2026-11-01T07:24:09+00:00",
+   "episodes": [
+    {
+     "id": "2f4805dc657305",
+     "date": "2026-11-01T07:24:09+00:00",
+     "titre": "FineDNA : le plus grand jeu de données pour adapter un LLM à la biologie",
+     "neuf": "",
+     "fil": "Sortie du jeu de données FineDNA pour la biologie",
+     "source": "r/LocalLLaMA",
+     "lien": "https://www.reddit.com/r/LocalLLaMA/comments/1xkwvwg/finedna_the_largest_dataset_to_teach_any_llm_dna/",
+     "nb_sources": 1,
+     "primaire": false
+    }
+   ],
+   "statut": "active",
+   "societes": [
+    "alibaba"
+   ]
+  },
+  {
+   "id": "h_4c9894e533",
+   "titre": "Gemini 4 Carbon : annonce et capacités",
+   "resume": "Google DeepMind annonce et déploie Gemini 4 Carbon, un modèle axé sur la programmation et la cyberdéfense. Il surclasse la concurrence, atteint la première place des benchmarks de détection de vulnérabilités, bien que son accès reste restreint.",
+   "creee": "2026-10-28T20:52:53.965414+00:00",
+   "maj": "2026-11-01T03:36:00+00:00",
+   "episodes": [
+    {
+     "id": "b0da25ea6c1a29",
+     "date": "2026-10-28T17:00:58+00:00",
+     "titre": "Annonce de Gemini 4 Carbon par Google DeepMind",
+     "neuf": "Google DeepMind annonce l'arrivée de Gemini 4 Carbon.",
+     "fil": "Annonce de Gemini 4 Carbon",
+     "source": "Google DeepMind",
+     "lien": "https://deepmind.google/blog/gemini-4-carbon-our-next-frontier-model/",
+     "nb_sources": 2,
+     "primaire": false
+    },
+    {
+     "id": "185e559c77b9fc",
+     "date": "2026-10-28T17:01:23+00:00",
+     "titre": "Gemini 4 Carbon",
+     "neuf": "Discussions techniques et communautaires autour de l'annonce de Gemini 4 Carbon.",
+     "fil": "Discussion sur Gemini 4 Carbon",
+     "source": "Hacker News (IA, 100+ pts)",
+     "lien": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-carbon/",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "beb8b19e9c57c1",
+     "date": "2026-10-28T17:48:38+00:00",
+     "titre": "Google DeepMind lance Gemini 4 Carbon pour la cyberdéfense et le code",
+     "neuf": "Google DeepMind présente officiellement Gemini 4 Carbon, ciblant spécifiquement la cyberdéfense et le développement logiciel.",
+     "fil": "Même modèle Gemini 4 Carbon",
+     "source": "Google Gemini (actus)",
+     "lien": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNY21KQXJSR1VScHZxM0FFQWdRYVRheFY2QkxWUGZaSXd5SVNEaDBfMEFaTGVCbWRjY1lxYUJGRkFGV1lFNUw4SjUzMUxoRkYtckg3QXk1TDRnVTJ3MEpsNVdxVHg4cTlleHBnSkRSYWd3VHFmTThyellEcnRGN0pvT0d3OEdISVoyRDU1Ti1BcmvSAZABQVVfeXFMTWNtSkFyUkdVUnB2cTNBRUFnUWFUYXhWNkJMVlBmWkl3eUlTRGgwXzBBWkxlQm1kY2NZcWFCRkZBRldZRTVMOEo1MzFMaEZGLXJIN0F5NUw0Z1UydzBKbDVXcVR4OHE5ZXhwZ0pEUmFnd1RxZk04cnpZRHJ0RjdKb09HdzhHSElaMkQ1NU4tQXJr?oc=5",
+     "nb_sources": 2,
+     "primaire": false
+    },
+    {
+     "id": "108e8db1031245",
+     "date": "2026-10-28T18:08:00+00:00",
+     "titre": "Google annonce Gemini 4 Carbon avec des gains majeurs",
+     "neuf": "Mise en avant des performances de Gemini 4 Carbon en programmation et tâches agentiques.",
+     "fil": "Détails sur Gemini 4 Carbon",
+     "source": "Google Gemini (actus)",
+     "lien": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5XaTVkbFZ1VUh4akhDTWtqY0RRUjZMZkx3WlN0UFVlYTVoa0N4QndiVkRkajJDUjF4Z1hjVGpNVFNzTWluMERLcWlodlVvWkFObnFiTEEwT2RBTmJ0N2FBeDlvRC1XNGJUQXc4ajE1bUo?oc=5",
+     "nb_sources": 2,
+     "primaire": false
+    },
+    {
+     "id": "5a342024f39507",
+     "date": "2026-10-28T18:12:49+00:00",
+     "titre": "Google lance Gemini 4 Carbon axé sur la cybersécurité",
+     "neuf": "Focus sur l'accent mis par Google sur la cybersécurité avec Gemini 4 Carbon.",
+     "fil": "Spécificités de Gemini 4 Carbon",
+     "source": "Grandes annonces IA",
+     "lien": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNLXQyWUp5N0QwdVRZWXFkd1M5b2RrcExtNVBJS0JKaDdhaG1DQThXeEVlUWVWQUNPTjNOak9ZSnZlQjhDUkNIT2oxSlJrSjlJSkVSMVZFMW5acXV1N0l5bWxKTU1CNmtzZVM3U2dZVE5RbHlrZ2k5LTljM2FnNDVLM3NFbGI4N1hSMVIyQ2FNZXZYY0ZuNV9KR0lQYzdxT2RGdzkxamkzLXloVUVmLUhmdUZ3?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "740cdb4d44c20b",
+     "date": "2026-10-28T18:25:49+00:00",
+     "titre": "Google dévoile Gemini 4 Carbon et reprend la première place",
+     "neuf": "Google reprend la tête des benchmarks grâce à ce modèle.",
+     "fil": "même modèle Gemini 4 Carbon",
+     "source": "Grandes annonces IA",
+     "lien": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxNS1BfSV9DNVl1aW5HV3A3SVc1bDFqZEhFT3VpekhjVDIwaVNKOTc2Z0c2WEJaaWtiNmFfc3BWWXBKWEtqUWpvaGRTOWMwNHBwYlRmbGIyX1FVN1M0Y0xWVGYzMnFWV2NYaFBlZ0JIZzlfR2p1Y2szTDIybXFTQ3FFOUtkazNVbzNoRUJQZV9GNXZLN3V1MWdOVmpCLS1IS2ZIQmRXbE01ZWNHVTNyLTZRWDV5YmFTbjJNZ1Y2VmoycFBnYlFpd1JuY3pRYUlWREMxSmE2b2FEYThGTVJhODA4?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "b655487b71d8b1",
+     "date": "2026-10-28T18:47:27+00:00",
+     "titre": "Google annonce Gemini 4 Carbon, un modèle d'IA non disponible",
+     "neuf": "Précision sur le fait que le nouveau modèle Gemini 4 Carbon n'est pas encore accessible au public.",
+     "fil": "Disponibilité de Gemini 4 Carbon",
+     "source": "Grandes annonces IA",
+     "lien": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPRW1ZYWNNNHRHU1pTM1FqNGIxajFURmFRZGlxM3BLaXNWWkl5Vl9lcUtMTmp3SEd4XzEyT1JUZHlzdjNvNWNDbE9NYk9VdUMzUkY2ZHVNalEtVWl4ckFwaTlsWFhjbTRDZURBdktRRGZpWGdheHVlZHlJYUNoS1YxcFphU2JVSFhBZkVZREo1R18yTWYwM0xnU1AzNllLYWZCLWZjNFMteDg2eEd2RXNTSVJ2ZmNsQQ?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "da5cf1cfcfca68",
+     "date": "2026-10-28T19:59:12+00:00",
+     "titre": "Google dévoile son nouveau modèle d'IA Gemini 4 Carbon",
+     "neuf": "Google annonce officiellement la sortie du modèle.",
+     "fil": "même modèle Gemini 4 Carbon",
+     "source": "Grandes annonces IA",
+     "lien": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOZ3ZsUjkyLTZtWHJBUmpUYzlmSVVsTTAwem1DWmxaaDlkTXhMTTJqNVhKTFlIMzdodkx5UDhFZzhjRk9iVk9ZMWU5Z2tWdkx6ZzZzVGVYTHFrZjF5dC1RZUZsODdpWUFyS1VHTzdaX2ZSMk80M24wZGZka1luREl5RWhKSDJ4NmxNUnhSOGVfdlQ4OUZ5?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "a07d372fa098b5",
+     "date": "2026-10-28T21:11:47+00:00",
+     "titre": "Google annonce Gemini 4 Carbon, réservé d'abord à la cybersécurité",
+     "neuf": "Le modèle est attribué en priorité aux défenseurs de la cybersécurité.",
+     "fil": "même modèle Gemini 4 Carbon",
+     "source": "Grandes annonces IA",
+     "lien": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNazNYS3d0ZlZXVWxwcVlPdUFMXzNvWVBSVXA2RUxQbVlyMFJybzRsdVNWc1RSR0taeXVsNDZJMHRoLThubms2WmNfMGRNTW1uYW9EVEVWRVpzSGJhak40eElyLXNYV2tTSFZPdDhsZXRNTG5SSGdBT2pld3I0V245YkFUQVhrbzRkSVNpOG9NazcwLWFsc1FOZ2NrREdWVnZYM25nMQ?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "2a9bdd78cd18dd",
+     "date": "2026-10-29T01:32:28+00:00",
+     "titre": "Gemini 4 Carbon : la nouvelle IA de Google interroge le secteur",
+     "neuf": "Les répercussions et interrogations sur les marchés adjacents commencent à émerger.",
+     "fil": "même modèle Gemini 4 Carbon",
+     "source": "IA en français (actus)",
+     "lien": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPSFd4YWhSMGVkb1BMTDFGTDhCek9VUDdvX0ZobDhoS0tpN2FnU1BaVjJ6OW5HRlJ6RXBoVkZEcnBIaFFackY2cHU4SGRxV1YwaElLZ051RE9yNUFfMC14aV9pY0Vtc1psdUZqSGItTXg3V1g2bEdwS3YtRkwyank5N01JR2dfOWRkVEc5c1FSckc?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "700d7790f59dd7",
+     "date": "2026-10-29T09:14:34+00:00",
+     "titre": "Gemini 4 Carbon dépasse Claude selon le Journal du Geek",
+     "neuf": "Les performances de Gemini 4 Carbon lui permettent de surpasser les modèles d'Anthropic selon de nouveaux comparatifs.",
+     "fil": "Même modèle Gemini 4 Carbon",
+     "source": "IA en français (actus)",
+     "lien": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPamFubFBwYkFpR3l4a2s0d0kzbEtBRXdab01qNXA2Mml6YUFGd0JSdlV4dzJmcHJZUTNyZVdYNlZJOXVtTGRZVjEzcjU4VzFGenI2bVV6OUVVSWJWNVZwd0tLdXRHcUkxcDZNdzd4dFFsUGpBZGt3QkV5bHdFVXpCd3doSWdiUW1RZEJNX09sQ3R3UnV3MHhTeXZmUFNsWnU4blNGZWtndVdnMUdhNTN5YWtMS2U0ck1zVnZXR3hnd3JzeDI2QjNOZQ?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "eebb63f2228b3e",
+     "date": "2026-10-29T12:41:56+00:00",
+     "titre": "Gemini 4 Carbon is the new #1 on the Artificial Analysis Intelligence Index v5",
+     "neuf": "Gemini 4 Carbon prend la première place de l'Artificial Analysis Intelligence Index v5.",
+     "fil": "même modèle Gemini 4 Carbon",
+     "source": "Hacker News (IA, 100+ pts)",
+     "lien": "https://artificialanalysis.ai/articles/gemini-4-carbon-new-number-1",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "bd0adf08863cf3",
+     "date": "2026-10-29T12:44:15+00:00",
+     "titre": "Google annonce que Gemini 4 Carbon surpasse ses prédécesseurs en cybersécurité",
+     "neuf": "Google annonce que Gemini 4 Carbon surpasse ses prédécesseurs en cybersécurité.",
+     "fil": "même modèle Gemini 4 Carbon",
+     "source": "Google Gemini (actus)",
+     "lien": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5idzhtY1Q0MmYzcHJidTEwV1dXc1FrT1FvaVYwQkM1emVXWTdLdE15NFJvU0xCTHJ6V01TMi1pRGVXaFlLcWc3RW5ZSVc0cEJlZTNiQ25rZzNVTjNCYjIyaHZyazZ4WU9DQXAyMm1kR1VXRDh3MGVoMEVQYXc?oc=5",
+     "nb_sources": 2,
+     "primaire": false
+    },
+    {
+     "id": "f8cf634dc4d336",
+     "date": "2026-10-29T13:42:00+00:00",
+     "titre": "Gemini 4 Carbon en tête des benchmarks de vulnérabilités informatiques",
+     "neuf": "Le modèle confirme sa domination sur les benchmarks de vulnérabilités informatiques.",
+     "fil": "même modèle Gemini 4 Carbon",
+     "source": "Google Gemini (actus)",
+     "lien": "https://news.google.com/rss/articles/CBMid0FVX3lxTE50ck5wcllHV21sMDZLVEJiWkp2OGlqbTVxcmRMRlJSRkFydUxodGlHalJDYl81WE00aUJsbnVRZFdQSmRrOUg4Rnh3NWdMNWowWGotNmZ2MzB6dm5tZzRYQnpqaFc4VG1oblhmSUVIYXRPR0hXUklz?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "31c22f696c1675",
+     "date": "2026-10-30T10:23:23+00:00",
+     "titre": "Gemini 4 Carbon prend la tête des benchmarks mais reste réservé",
+     "neuf": "Le modèle prend la tête des benchmarks tout en maintenant un accès strictement réservé.",
+     "fil": "même modèle Gemini 4 Carbon",
+     "source": "ActuIA",
+     "lien": "https://www.actuia.com/actualite/gemini-4-carbon-premier-de-lindice-dartificial-analysis-est-reserve-aux-cyberdefenseurs/",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "435be92947d461",
+     "date": "2026-11-01T03:36:00+00:00",
+     "titre": "Gemini 4 Carbon : le nouveau modèle de Google pour la cybersécurité",
+     "neuf": "Annonce officielle de Gemini 4 Carbon axé sur la cybersécurité.",
+     "fil": "même modèle Gemini 4 Carbon",
+     "source": "Grandes annonces IA",
+     "lien": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOZ1Ezd1B5OTJQb1AyR2JxcEJfcktPbTlMX29UeUdfTzJENzVGaC02MFI5YWYwNWY5cGxHVzRtN3A5REdzbUpzV3dUMHhfdXZndzRLN1RwdGhpenRYWEdaeWhQWE1iYV9aLWttNGpNT0hfb25Od0RreXJhR2U0bC1zeW9SenhlcDVpcTFZVm9QMlNkX0FPYVVObklsYUwwa2xVSnJyd1doVUY3aU1taGdITjVnMEY5WXBXM3Bnc29LMEthT0Z1eTBB0gHOAUFVX3lxTE0zV3EzUzhRY0syTFBPd0dpR1lNeTZyME5hYkpsUW1aenZpWjI2eFpzd0VWRDVCazBnZE95Ym1hR084OUlmbFAyTkNvR0YzV3FMNVdCU2ttQWdvQkRVc0NaNWc1cFYtR3BtTU01THc1dDgtSUxIcG1yVkFCRjlXVnlmbXpHSWJHRzlTblp3WDZqLXJtSXpPd2I2NGtURDJRdkxBWXBNRHh1R0MwNDl3NjV5NmtrZUR1aGZkbFhxbzVHSXpmMEJKMkJHT2N0QU5B?oc=5",
+     "nb_sources": 2,
+     "primaire": false
+    }
+   ],
+   "statut": "active",
+   "societes": [
+    "google",
+    "anthropic"
+   ]
+  },
+  {
+   "id": "h_9c9f09e590",
+   "titre": "Faille de sécurité critique dans les liens ChatGPT",
+   "resume": "Une faille de sécurité majeure a été découverte dans le système de partage de liens et les aperçus HTML de ChatGPT, permettant à un lien malveillant d'exécuter du code dans la session de l'utilisateur, de compromettre son compte et d'accéder à ses conversations privées.",
+   "creee": "2026-10-31T14:32:10.371026+00:00",
+   "maj": "2026-10-31T23:15:22+00:00",
+   "episodes": [
+    {
+     "id": "8463975b5d969c",
+     "date": "2026-10-31T05:33:00+00:00",
+     "titre": "Une faille dans les liens ChatGPT permettait d'exécuter du code",
+     "neuf": "Découverte d'une faille dans les liens ChatGPT permettant l'exécution de code malveillant et la lecture de conversations privées.",
+     "fil": "vulnérabilité critique dans les liens ChatGPT",
+     "source": "OpenAI (actus)",
+     "lien": "https://news.google.com/rss/articles/CBMiekFVX3lxTE1xLTVwY2pKZ1U4Y0J1VjJVQnkwZTJNcGFGUEtfbHZXSENiQkxXdFVJaEhXbGJYSWpRMjJUcW81dFFMRWpvWVZCUm5EY0pRRHpfZlJ3WXlHV3BmUVBXS3VvaWJzdTB1SzNmUkJLaTNINkZCckE3QVRSdGpB?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "0def4a2fca6b3a",
+     "date": "2026-10-31T23:15:22+00:00",
+     "titre": "Faille de sécurité dans les aperçus HTML de ChatGPT découverte par Parameter Labs",
+     "neuf": "Nouvelle démonstration d'une chaîne d'attaques exploitant les aperçus HTML pour compromettre des comptes.",
+     "fil": "même faille de sécurité dans les liens et aperçus ChatGPT",
+     "source": "Simon Willison",
+     "lien": "https://simonwillison.net/2026/Oct/31/how-we-took-over-chatgpt-accounts/",
+     "nb_sources": 1,
+     "primaire": false
+    }
+   ],
+   "statut": "active",
+   "societes": [
+    "openai"
+   ]
+  },
+  {
+   "id": "h_ba6721b09c",
+   "titre": "Intégration d'un processeur RISC-V dans les poids de Qwen",
+   "resume": "Des développeurs poursuivent l'intégration de structures de calcul et de mini-modèles directement au cœur des poids neuronaux des modèles Qwen. Après un processeur RISC-V, c'est un NPU virtuel exécutant un petit LLM qui a été compilé au sein de Qwen 3.5-4B.",
+   "creee": "2026-10-28T16:59:03.629060+00:00",
+   "maj": "2026-10-31T19:18:53+00:00",
+   "episodes": [
+    {
+     "id": "3886c73b3296dd",
+     "date": "2026-10-28T12:26:44+00:00",
+     "titre": "Un processeur RISC-V intégré directement dans les poids du modèle Qwen",
+     "neuf": "Un développeur intègre directement un processeur RISC-V 32 bits dans les poids neuronaux d'un modèle Qwen.",
+     "fil": "Intégration d'un processeur RISC-V dans Qwen",
+     "source": "r/LocalLLaMA",
+     "lien": "https://www.reddit.com/r/LocalLLaMA/comments/1xhmo1q/someone_built_a_32bit_riscv_cpu_directly_inside/",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "d4ac3b28f3e76c",
+     "date": "2026-10-31T19:18:53+00:00",
+     "titre": "Exécuter un petit LLM directement à l'intérieur des poids de Qwen 3.5",
+     "neuf": "Un développeur étend l'approche en exécutant un mini LLM au sein même des poids de Qwen 3.5-4B grâce à l'implémentation d'un NPU virtuel.",
+     "fil": "Intégration d'un petit LLM/NPU virtuel directement dans les poids de Qwen 3.5",
+     "source": "r/LocalLLaMA",
+     "lien": "https://www.reddit.com/r/LocalLLaMA/comments/1xkiuut/an_llm_inside_an_llm_same_guy_who_put_a_riskv_cpu/",
+     "nb_sources": 1,
+     "primaire": false
+    }
+   ],
+   "statut": "active",
+   "societes": [
+    "alibaba"
+   ]
+  },
+  {
+   "id": "h_0fa323d3d9",
+   "titre": "GPT-5.6 Sol et ses capacités sur Factorio",
+   "resume": "Le modèle GPT-5.6 Sol démontre des aptitudes notables en matière de planification à long terme. Il s'est notamment illustré en parvenant à terminer le jeu Factorio en mode pacifique.",
+   "creee": "2026-11-01T06:04:17.351231+00:00",
+   "maj": "2026-10-31T18:50:34+00:00",
+   "episodes": [
+    {
+     "id": "b9de5465dae2a0",
+     "date": "2026-10-31T18:50:34+00:00",
+     "titre": "GPT-5.6 Sol capable de battre Factorio en mode pacifique",
+     "neuf": "Le modèle GPT-5.6 Sol démontre des compétences de planification en réussissant à terminer le jeu Factorio en mode pacifique.",
+     "fil": "Capacités de planification de GPT-5.6 Sol sur le jeu Factorio",
+     "source": "Hacker News (IA, 100+ pts)",
+     "lien": "https://ryanmadden.net/gpt-56-beats-factorio/",
+     "nb_sources": 1,
+     "primaire": false
+    }
+   ],
+   "statut": "active",
+   "societes": [
+    "openai"
+   ]
+  },
+  {
+   "id": "h_61682af51c",
+   "titre": "Lancement de l'agent IA Claude Duet d'Anthropic",
+   "resume": "Anthropic déploie son agent professionnel Claude Duet et met à jour ses outils de code, tout en faisant face à des effets de bord indésirables où les restrictions contre les clones de jeux bloquent des projets légitimes. Son accès reste structuré autour de minima de sièges et de règles strictes de comportement.",
+   "creee": "2026-10-21T20:44:46.798337+00:00",
+   "maj": "2026-10-31T18:30:00+00:00",
+   "episodes": [
+    {
+     "id": "5dbb54a005401f",
+     "date": "2026-10-21T19:14:01+00:00",
+     "titre": "Lancement de Claude Duet par Anthropic",
+     "neuf": "Anthropic officialise l'introduction de Claude Duet sur le marché.",
+     "fil": "lancement de l'agent Claude Duet",
+     "source": "Hacker News (IA, 100+ pts)",
+     "lien": "https://claude.com/product/claude-duet",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "705d3445b65a91",
+     "date": "2026-10-21T19:53:20+00:00",
+     "titre": "Anthropic lance Claude Duet, son nouvel agent IA",
+     "neuf": "Anthropic positionne Claude Duet pour concurrencer les autres agents du marché.",
+     "fil": "lancement de Claude Duet",
+     "source": "Anthropic (actus)",
+     "lien": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQMm0xalYzS19NOGxhQ0ZpanpWeFpjN3g0VzZfVjROQ3RUemxqZmc3STZhdHlRUTlvZEJOaW52dzdVTUxOc09MMzlVeFlJSmc5V2p4WDdwWjRRaDZKMU5QbldoWHBIaTh0Qi1yc1JFaVNHM1BkQ25ucFZfbVJtWGNYMS1jRWlocDk5NUVheDVpclZEUTJw?oc=5",
+     "nb_sources": 2,
+     "primaire": false
+    },
+    {
+     "id": "05e2774a24a1f6",
+     "date": "2026-10-21T20:29:00+00:00",
+     "titre": "Anthropic lance Claude Duet, son nouvel agent personnel",
+     "neuf": "Claude Duet est présenté comme un nouvel agent personnel pour répliquer à la concurrence.",
+     "fil": "lancement de Claude Duet",
+     "source": "Anthropic (actus)",
+     "lien": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPQkZFNGVZc2Q2Q3VJYWVFNjFlOUh1NE1aNWFrZHlzOFlEMVpQU0xFQkFDSW4ydXljV1gtRnBBVzZjWi11Z3dMQ0sxdl9EdXdJOWl0TWlYMnl1M1o5S3d4LXRuOW9lLUd3bS1lYkloUnFGVnhqbFNJSGtVRUt4ZnlWSVg1Q01YOHlrWF9tZ0RsQXptUjljR0MxVFVaWW0xTXMweUE?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "29513dd2417946",
+     "date": "2026-10-21T20:41:02+00:00",
+     "titre": "Anthropic entre dans la course aux agents IA avec Claude Duet",
+     "neuf": "Anthropic officialise son entrée sur le marché des agents avec Claude Duet.",
+     "fil": "Lancement de l'agent IA Claude Duet d'Anthropic",
+     "source": "Anthropic et gouvernement",
+     "lien": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNblFra1FIR1VRWmpPaW80WGJSZGNtVG02LUMzU0pvR0NQbkJ3R1N1eGxTS0ZhblV6ZDV1VUNiMVVKVHRCNVI5aHZaZjBGREZUSDg3ekExUnFFWjF2QUs4Qk9ZREN6cUt4QVNZTnlwLThQMmt0Wmp3QWh1QkF3TDFuY1hNOGRnU2Ew?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "7abf36518713c4",
+     "date": "2026-10-22T01:05:09+00:00",
+     "titre": "Nouvel agent IA d'Anthropic pour l'achat de fournitures professionnelles",
+     "neuf": "L'agent d'Anthropic se dote de capacités d'achat autonome de fournitures professionnelles.",
+     "fil": "Nouvel agent IA d'Anthropic pour les achats professionnels",
+     "source": "Anthropic (actus)",
+     "lien": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQWjdMOWV2Z1JpdUNIN05TWE53U2JJRW1obFBKT05xQVQtc05ZUm9iM3JSaWxsdFpFSTB5UldmbnZqVlZ0bHZhaHZiNkFUMFp3NlpxTUZYOTBWc3RhZWZjSjhseGhOVlBVbE9scnRTLWhZS0lEU2JNTmc2UUwxSHI3ZS1lWXMyc3hFUkk4N2dvZGp2Q2w3amxVUHRiVkRHeHNGT2RrbF9mWHRfa3hrMmc?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "31cb9fa2449425",
+     "date": "2026-10-22T03:19:00+00:00",
+     "titre": "Claude Duet intègre plus de 6 000 outils pour automatiser les tâches",
+     "neuf": "Claude Duet se connecte à plus de 6 000 intégrations pour automatiser les flux de travail en entreprise.",
+     "fil": "Intégrations de Claude Duet",
+     "source": "Anthropic (actus)",
+     "lien": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPOHZGSWdQNmhaM1AwX2tMNFl0TGo3by1jaG9ESnI3cm1za2ZIbnF3TUJtUVZlOXJLZW9KYlJXWkdmLXRqejFOM2VPNlduTEV1bEx1U0VvQ0c1WDZ6S0YwdnFWNElWTVgway1yTFc5WE84ZFZ1VEo0M3NBbkVQLURuRUgtN3E2cXBsN0lPcFo3aTc?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "3dec6b4cf94367",
+     "date": "2026-10-22T11:11:31+00:00",
+     "titre": "Découvrez Claude Duet, le nouvel agent IA d'Anthropic",
+     "neuf": "Confirmation du lancement de l'agent pour alléger la charge de travail.",
+     "fil": "Même lancement officiel de l'agent Claude Duet",
+     "source": "Anthropic (actus)",
+     "lien": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBsa3ZVM2JtaGdBajhfZEFDWVJaVHlvbkxYcGR5ODFBdjlEeFNON3FfcG0tYzR0aHIyazRjanhUTWRyX1phZ3JLQTNVTmZTMXlBajQ5SmxUZUFVZms5eGxRbVJrZ04xZDYw?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "819de26796b063",
+     "date": "2026-10-22T12:16:35+00:00",
+     "titre": "Anthropic lance un agent IA professionnel face à Meta et OpenAI",
+     "neuf": "Anthropic dévoile son agent IA professionnel pour concurrencer Meta Muse et OpenAI Dots.",
+     "fil": "nouvel agent IA professionnel d'Anthropic",
+     "source": "Anthropic et gouvernement",
+     "lien": "https://news.google.com/rss/articles/CBMif0FVX3lxTE4weXI0QVdqNEdJSmR3Z2RvUl9feHFyMzdkSV90S2hhNlFadVd1TjZiUmpURVJtei00QnJQajBCaFJ1LXN2YktJN3o1S3hhNC1SV3RJNlA3RVhCeHNHZFFuMW5rc2x2WjY5VDZLaVZ0dkFqMmx0alJIcUliZEE1LVU?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "d24c772af64832",
+     "date": "2026-10-22T17:38:48+00:00",
+     "titre": "Lancement de Claude Duet par Anthropic : les entreprises hésitent",
+     "neuf": "Un article relève que les entreprises font face à des hésitations quant à l'adoption de Claude Duet.",
+     "fil": "même agent IA professionnel Claude Duet d'Anthropic",
+     "source": "Anthropic et gouvernement",
+     "lien": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNR05JZHN0U2d5RHE1MWUyUXVaeGhoX3E1dTRyNzNLd3JndmVGa0U2RGE2bFIzZ1ZHUUhTMVZ4Nzg3QmFTb2FMUENXSDR2a0Z5c3h3amx2YXFMY3E3SkFlN09PT1hLS1RjUHQzeGhuVm10TnBlMjlIcVpfdm1aSW95T2V1eFJpeWwwMDJmcnJmUWhxYVdvb2hYQUpUcjFld2VqM3YzcjFaYw?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "139e807626ba1a",
+     "date": "2026-10-24T13:07:30+00:00",
+     "titre": "Anthropic : un minimum de 20 sièges exclut les petits cabinets",
+     "neuf": "Anthropic impose un minimum de 20 sièges entreprise, excluant de fait les petits cabinets.",
+     "fil": "Conditions d'accès et abonnements aux services d'Anthropic",
+     "source": "Anthropic (actus)",
+     "lien": "https://news.google.com/rss/articles/CBMinAJBVV95cUxPT0R4ZTBtQWtQMTBJWGx2NGV2TVNxRl9aa2liNDQ2SGJFVFEta0I2M2lhaEkwR2hWMmxDMlZXamdQYkpFRkU1Wl9PN3JOLXljb3JuTFJ1Z0wwTFp6ZVlqQkRnVHpZOW1uMkpnR0hUYzkzZm9BXzNXSEQ1cnBic2M2cHpqM0FSempQUGNoQzVhWmdyQksxcVN4QVJGZ2NSaEZ3N0pZMno3SFFIQm9ORVBaWWhkM25DQm1pRkIzd1dyOEZvSmxtMnRBTkxYSXp5dW1IZmhNTC1CczY2T0ZDVlBPT1NvZnZ2YXRxLXZxbklsVnQtSVoxQWlsd0hlbVBEUkxpbTNlNUlBRUJmUXdpQ3BCaUVEQTR0SjRVQTdxQw?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "9dee3fa62c05d0",
+     "date": "2026-10-31T18:30:00+00:00",
+     "titre": "Comment utiliser Claude Duet lors de son déploiement",
+     "neuf": "Un guide d'utilisation pratique est publié à l'approche du déploiement de Claude Duet.",
+     "fil": "même agent Claude Duet",
+     "source": "Anthropic (actus)",
+     "lien": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE84cHZlMURNNDdZcjg1STBlNU1WMHA4YmlWMFM4RzExMGx6aDYxeHR1T252MG1OVmdySXdGMERHTTAwejBrMzIycFJ4MzR2UGFFVTlRX2w3eFRBVWZNdE5BZVI0d1YxTWM?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    }
+   ],
+   "statut": "active",
+   "societes": [
+    "anthropic",
+    "openai"
+   ]
+  },
+  {
+   "id": "h_b5289f0792",
+   "titre": "Apple s'associe à Alibaba pour l'IA en Chine",
+   "resume": "Apple officialise son partenariat stratégique avec Alibaba afin d'intégrer les technologies d'intelligence artificielle Qwen sur l'iPhone en Chine. Ce mouvement clé permet d'alimenter les fonctionnalités d'Apple Intelligence pour les utilisateurs locaux dès le mois de décembre.",
+   "creee": "2026-10-31T14:32:10.371026+00:00",
+   "maj": "2026-10-31T17:38:16+00:00",
+   "episodes": [
+    {
+     "id": "f13940454eeabf",
+     "date": "2026-10-31T10:02:17+00:00",
+     "titre": "Apple s'associe à Alibaba pour lancer ses fonctions IA en Chine",
+     "neuf": "Apple s'associe à Alibaba pour intégrer ses fonctions d'intelligence artificielle sur l'iPhone en Chine.",
+     "fil": "partenariat entre Apple et Alibaba pour l'IA en Chine",
+     "source": "Grandes annonces IA",
+     "lien": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNN2tkN3NFenBvWmVSMHFlWEJGWnlfeWpyVzFQQzhoUllDZ3ljS05venFUT1ZnT3pQai13c3hmUHU0RTlESklTekVvU2VuTXJXeDF0Z1k4THFicC1ybU0wcVk5MVBuNmdaMXVCUlZ3dTBPcmtLTVBjTnBKV2lHZEFGRmlKU0loWWttaWlXbDM3QkxLS1RkaHhic04xYm5FWGcyWWxDZDZFT01kVXl5WTFWQUtrcW1uZU020gG4AUFVX3lxTFA4YTg1dUhJeDhZajg5NTFxU29RRWNNeVZzZXRxMmpoUjZ3QTNuWktwS0FQVkxvbUQ3YjQ1NGcwa3hVRDE3TnNOTmVhdXk5QTVuYUhuMGgxR0tmWHZGbDdKV09tdnhWQWhJWTdnaW9mNmhZRWowaV9wQmdvZTRTa3FzdExZakVlTHpXT0RGNGxYS0RpeXd1emlfYXBqVkVCMk1MUjJhbmlQdV90M2RqN3FiakNEM3VYU2w?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "6e945eaaaac7f3",
+     "date": "2026-10-31T17:38:16+00:00",
+     "titre": "Alibaba intègre son modèle Qwen dans Apple Intelligence en Chine",
+     "neuf": "Alibaba officialise l'intégration de son modèle Qwen au sein d'Apple Intelligence pour le marché chinois.",
+     "fil": "même partenariat Apple-Alibaba en Chine",
+     "source": "Grandes annonces IA",
+     "lien": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxOYWxtSWxQWFFKLVc1dUZCdGtGOElTdFlWeTJZV0FWZ0MzbXBzbkpNSzNmclhleVlWblpHeElhSHhNMDZtcHlKWjBZTVFEQk9MRDJlcWZDWFZQYzlUZDdGcVBDTVk0RndNdC1iVG9taW9vY0FCdTF6WWVzSjdhQVp1Yk1jUkQ4QU9jZjdCTlRCZmZmZTBranBrSzh0cDcydmVWVmpYQ21SOXFyYUkyTUZFU0VVZzdXUnY0S2Q0bzE5ZU1XcGRxVUh2bDdyNHM2RGV3MUlJUVVBS3g1S28?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    }
+   ],
+   "statut": "active",
+   "societes": [
+    "alibaba"
+   ]
+  },
+  {
+   "id": "h_52e7f4c87a",
+   "titre": "Google lance son premier satellite de calcul IA",
+   "resume": "Google a concrétisé son projet en plaçant avec succès un satellite de calcul IA en orbite équipé de TPUs. Cette infrastructure spatiale permet d'exécuter directement des charges de travail d'inférence et des modèles comme Gemma 4.",
+   "creee": "2026-10-30T20:48:26.671184+00:00",
+   "maj": "2026-10-31T15:22:08+00:00",
+   "episodes": [
+    {
+     "id": "135f70cd39eb4c",
+     "date": "2026-10-30T17:00:00+00:00",
+     "titre": "Google lance son premier satellite de calcul IA en orbite",
+     "neuf": "",
+     "fil": "lancement du premier satellite de calcul IA par Google",
+     "source": "TechCrunch IA",
+     "lien": "https://techcrunch.com/2026/10/30/googles-first-data-center-satellite-is-online-and-writing-poetry/",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "c4dbacf8aa2b8b",
+     "date": "2026-10-30T18:21:38+00:00",
+     "titre": "Google déploie une IA directement sur un satellite en orbite",
+     "neuf": "Un satellite équipé de puces TPU a exécuté le modèle Gemma 4 directement depuis l'espace.",
+     "fil": "déploiement du modèle Gemma 4 sur un satellite en orbite",
+     "source": "The Verge IA",
+     "lien": "https://www.theverge.com/tech/1023528/google-project-suncatcher-ai-satellite-transmission",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "1aa86a472170d2",
+     "date": "2026-10-31T15:22:08+00:00",
+     "titre": "Google lance son premier satellite de centre de données en orbite",
+     "neuf": "Google a placé en orbite un premier satellite équipé de TPUs pour tester l'exécution de charges de travail d'inférence d'IA dans l'espace.",
+     "fil": "même satellite de calcul IA de Google",
+     "source": "r/LocalLLaMA",
+     "lien": "https://www.reddit.com/r/LocalLLaMA/comments/1xkcyn6/spent_a_lot_on_my_rig_but_i_can_only_run_gemma_4/",
+     "nb_sources": 1,
+     "primaire": false
+    }
+   ],
+   "statut": "active",
+   "societes": [
+    "google"
    ]
   },
   {
@@ -1673,7 +1999,7 @@
   {
    "id": "h_8dad32ff1f",
    "titre": "Fuite du modèle Claude Mythos d'Anthropic",
-   "resume": "La sécurité des technologies d'Anthropic est mise à rude épreuve par une série d'incidents, incluant des cyberattaques, des portes dérobées dans des extensions et la fuite d'un nouveau point de contrôle du modèle Numbat sur Hugging Face. Parallèlement, l'entreprise met à jour Claude Opus pour endiguer la prolifération de clones de jeux.",
+   "resume": "La sécurité des technologies d'Anthropic est testée par des cyberattaques, des portes dérobées et des fuites de points de contrôle, tandis que l'entreprise officialise la préparation de Claude Mythos 5.5 et met à jour ses outils pour endiguer la prolifération de clones de jeux.",
    "creee": "2026-10-21T20:44:46.798337+00:00",
    "maj": "2026-10-30T21:09:54+00:00",
    "episodes": [
@@ -2132,181 +2458,247 @@
    ]
   },
   {
-   "id": "h_c4961b9682",
-   "titre": "Contrôles de la Chine sur l'export d'IA",
-   "resume": "La Chine durcit ses restrictions réglementaires à l'exportation via le MOFCOM en ciblant l'intelligence artificielle et le secteur biopharmaceutique. En parallèle, des analyses soulignent que ces barrières technologiques et restrictions à l'export vers la Chine finissent par avoir des effets négatifs inattendus sur les États-Unis.",
+   "id": "h_5de020e85b",
+   "titre": "Application et sanctions de l'AI Act européen",
+   "resume": "L'Union européenne poursuit la mise en œuvre de son AI Act en fixant des cadres de sanctions, en précisant les obligations des agents d'IA, en renforçant la supervision humaine par les juristes et en encadrant la responsabilité spécifique au sein des départements RH.",
    "creee": "2026-10-20T09:56:16.457937+00:00",
-   "maj": "2026-10-30T13:00:30+00:00",
+   "maj": "2026-10-30T09:57:37+00:00",
    "episodes": [
     {
-     "id": "312d9d2bf59580",
-     "date": "2026-10-16T18:18:10+00:00",
-     "titre": "La Chine prévoit de durcir ses contrôles sur l'exportation d'IA",
-     "neuf": "La Chine planifie un renforcement de ses restrictions visant les modèles open-weight et des technologies clés.",
-     "fil": "Contrôles à l'export de l'IA par la Chine",
-     "source": "Contrôles à l'export IA",
-     "lien": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPdU1Eb2ZqTHBnQlJISXdubUVnNHZLTXJOLXlpdDI3cFlRWjZLOUpWRGpCTTgwTmZZZk1ydlRSQnVnV29sZTJwSF9LOWxnbktBejZYeGhpN1lINUxEVlRDb2xON2JJekdvdXo1dzB2VzBjOV9TR3NzSF85Z0dYc0N1NzVhWU5OU3kyZTNHSEE2ZFljX1RJdFFyWXBHdmExekZ2X0tPTUI5U1AzRUxWWkl6MENR?oc=5",
+     "id": "634535b9265419",
+     "date": "2026-10-09T14:00:41+00:00",
+     "titre": "L'AI Act de l'Union européenne face au défi de la conformité des entreprises",
+     "neuf": "L'Union européenne met en œuvre l'AI Act face au défi de la mise en conformité des entreprises.",
+     "fil": "Application et conformité sous l'AI Act",
+     "source": "Régulation européenne",
+     "lien": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNaW9pV3NTMEs3QllXanlWNGc5TE5MM3BhSEZBSGh4VEcxRl9INENtM01pNWcxYWhWSXMzNnd1RlBKbWc1NFAteUN5N192TklMZGxvMWUzNEhsRGVSTkcyWUhWZzNjZHVGOWpJSC1wSkVZXzIzQWRHYmR3aTJyeGppampUT0JhdGpKS2lGT3Q1TUVfbVJJWmtiVkZwcmZSMzZzTTZPR0hCWWladjc5eDY2STkyd0FoZzU0c0E?oc=5",
      "nb_sources": 1,
      "primaire": false
     },
     {
-     "id": "4c1e5451ed96c6",
-     "date": "2026-10-17T12:00:11+00:00",
-     "titre": "Impact des interdictions d'exportation d'IA chinoises sur les technologies à poids ouverts",
-     "neuf": "L'examen s'élargit à l'impact potentiel de ces interdictions sur l'avenir des modèles à poids ouverts.",
-     "fil": "mêmes projets de contrôles à l'exportation de l'IA en Chine",
-     "source": "Contrôles à l'export IA",
-     "lien": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNbXBIUWJVblVDTjRuV2xFYlJPd3E1bE5jdlVENVd1ek9CQjBleGJCTkItcERIT296NDNkcjQzMmJneU9RbDB3WWZrM3FBSHJvV0FjTmRWVUhHaXBQdHB6UDJuUTV1LXNwSnlqeW1hODZaclliY2pkN2FNcVA1R0RVNlNBMjRxWEQ4N3ZKNVhETGhpNHE2NUxVcnlicUtnNmpEVFdTMFNwbENtYUZkMThLX1h0czNNSDRoYlVyLVNXa2xoVVNDZFZOT1FuWTFhQmpuSVBEWjBn0gHWAUFVX3lxTE9kTHd4Z0laNEp1endfeXl3Tnlad1N4TGpDWWRCVHBRVGU5SWp6RS1EaWtOSHZxczdzeE5nSzhJNmhtbjVCWW9pOHBINHQzR2R6STBOTG1DalFtcWktSjEtbG9yTmFFY1liZnR6Y1FGZTFvcURSY1lKeFdJdk9OUmRldENHeUhBZXN4S2Vra0VPdG50VUg0cmtxTm51R1BJUlQtWXZaemtnWndzY19EWk9WczU2b2RiME1UNWFIdDZKeWtnSmlnSWJONkEwbUx0dVNzdUI2OGc?oc=5",
+     "id": "5dbd7821822f22",
+     "date": "2026-10-10T22:05:13+00:00",
+     "titre": "L'Union européenne se prépare à réguler l'IA avec l'AI Act",
+     "neuf": "Rappel de la mise en place imminente de l'AI Act comme premier grand règlement mondial.",
+     "fil": "Mise en œuvre et application de l'AI Act",
+     "source": "Régulation européenne",
+     "lien": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxNd1lVYkpES2RkbTVDUlJORTY0MG9tRy1sVVFpYUpoN2VxcXd4clQxNmFVVFF1STFJN1BmV091bURqT21CTllVOURuVUpZeGQtcENSUm9iUW9XdDJjN2dRZk1aTVFNUWl3VDRValZXTkh1N0dyNkI4Tl9xT2hDeVM5MjE5alJiMkJNSHBXRkp5RUhPejlRc09vTy1SMmZaQnpPRV83alczano0LTdZTkRGdkFuRFZZSEtTMGstQ2lyUS03a2tCTTBhVzMwMkRFQ05mRmx3Y1dfUVVUN2x3TmJLZk9jRTJzYTNSSGtSLXpLVDI2dw?oc=5",
      "nb_sources": 1,
      "primaire": false
     },
     {
-     "id": "f16f6a62981a38",
-     "date": "2026-10-20T10:30:00+00:00",
-     "titre": "Pékin restreint l'export de technologies d'IA sans toucher aux API de DeepSeek",
-     "neuf": "Pékin officialise ses restrictions sur l'exportation de technologies d'IA tout en préservant l'accès international aux API et modèles open source de DeepSeek.",
-     "fil": "mêmes restrictions de l'exportation de technologies d'IA par la Chine",
+     "id": "7b53088c1ad47d",
+     "date": "2026-10-15T22:39:08+00:00",
+     "titre": "AI Act : les enquêtes pourraient prolonger les délais de sanction",
+     "neuf": "Les enquêtes du Bureau de l'IA pourraient prolonger le délai de prescription des sanctions de 5 à 10 ans.",
+     "fil": "Sanctions et enquêtes sous l'AI Act",
      "source": "ActuIA",
-     "lien": "https://www.actuia.com/actualite/pekin-veut-restreindre-lexport-de-23-technologies-dia-sans-toucher-a-lapi-de-deepseek-et-qwen/",
+     "lien": "https://www.actuia.com/actualite/ai-act-les-enquetes-pourraient-prolonger-le-delai-de-sanction/",
      "nb_sources": 1,
      "primaire": false
     },
     {
-     "id": "5bd5883a528400",
-     "date": "2026-10-21T13:43:39+00:00",
-     "titre": "MOFCOM's New Rules and the Future of Chinese AI - ChinaTalk",
-     "neuf": "Nouvelles analyses sur l'impact à long terme des règles du MOFCOM concernant les contrôles à l'exportation d'IA en Chine.",
-     "fil": "MOFCOM's New Rules and the Future of Chinese AI",
-     "source": "Contrôles à l'export IA",
-     "lien": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBOREZsUnBob1FqbWpTTW1EMUE3TkN2Zmg4VUJrbE9KbDN5MUdWWFltczkwQWVpT3JlTlFtY1RqRFNtQkR2SDR4RkhiaHFmUVpabnJURS1kVVVxSUhpNll3?oc=5",
+     "id": "12a96253e39ba8",
+     "date": "2026-10-15T22:39:08+00:00",
+     "titre": "AI Act : les enquêtes pourraient prolonger le délai de sanction",
+     "neuf": "Précision sur la possibilité que les enquêtes de l'AI Act prolongent les délais de sanction.",
+     "fil": "même application et sanctions de l'AI Act européen",
+     "source": "Régulation européenne",
+     "lien": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPU0J5MXlWdzVVMk80RFFLQTFCTFlFejhLSXc2M3V2SktRMXVGVEZxVTVaZHVfMUUtak0zUUhNR05teWx4NXJUdXAyQzBqZWpXZXNidm9ZZU1HdEVBUDhrSjlKQlVPUXZHQTlvc3dxUDAwcThuenFRQThoNUEtSFRpdDFJckxYZHNpWXhJNlR5SGxCY1RUS0kycEJzdw?oc=5",
      "nb_sources": 1,
      "primaire": false
     },
     {
-     "id": "4be15d91491dd9",
-     "date": "2026-10-22T14:27:36+00:00",
-     "titre": "La Chine s'oppose à l'interdiction de DeepSeek par les États-Unis",
-     "neuf": "La Chine s'oppose publiquement à l'interdiction de DeepSeek par les États-Unis tout en préparant ses propres mesures réglementaires.",
-     "fil": "contrôles à l'exportation et position de la Chine",
-     "source": "Contrôles à l'export IA",
-     "lien": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPeXRNeUp2UzVnTlhiZXJNZENRTmREWWMxVFYyLS1IdndIX2pqU19PSW1SdDgtLXEtb2hVZ05BS1NlV3gxdlNZc1J3enBiY1ktZEZidmFsTVJfVXBpcU9kYTR1VUQxYVpWSm8xTHZCd09pMzRpWHdIcElkNHpBR2ZreWZldmZGNVpSd2FCTms5bGhtX0FDNURiWVRn?oc=5",
+     "id": "bd7357ab84c89f",
+     "date": "2026-10-16T10:25:18+00:00",
+     "titre": "L'Union européenne dévoile les règles de sanction pour l'AI Act",
+     "neuf": "La Commission européenne détaille l'application concrète des sanctions pour les modèles d'IA générative.",
+     "fil": "Règles de sanction de l'AI Act",
+     "source": "Régulation européenne",
+     "lien": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNVkZKdkNmWm1tQ0FEMWJCMDdnMlh6OUhDWk1ub3ByOHY2WDZxaHhTbl9PTEszODg4VVJUNVNsQnQ0MGdyUWVBd1Z2alVTQ1g1RXVIOFVwanVmQ0d5YTZlOFhFaWhnX1F5dF9QSlQ5RTlyMS04YVRETWNob0ktcTMwU0RYVnBqRTBfeWc?oc=5",
      "nb_sources": 1,
      "primaire": false
     },
     {
-     "id": "75f0d8b919659a",
-     "date": "2026-10-22T17:07:31+00:00",
-     "titre": "DeepSeek et MiniMax valident les règles chinoises d'exportation d'IA",
-     "neuf": "DeepSeek et MiniMax obtiennent l'autorisation officielle pour exporter leurs modèles.",
-     "fil": "même application des contrôles chinois sur l'exportation d'IA",
-     "source": "r/LocalLLaMA",
-     "lien": "https://www.reddit.com/r/LocalLLaMA/comments/1xcoelw/deepseek_and_minimax_clear_chinas_ai_export_rules/",
+     "id": "3115f2832e6b35",
+     "date": "2026-10-19T00:00:00+00:00",
+     "titre": "Entrée en vigueur de l'AI Act et fin du shadow IA",
+     "neuf": "L'AI Act entre officiellement en vigueur, marquant la fin de la tolérance pour le « shadow IA » au sein des entreprises en Europe.",
+     "fil": "même application et entrée en vigueur de l'AI Act européen",
+     "source": "Régulation européenne",
+     "lien": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPendzelR2MFhHU21YSTE2dlBHQjlxbkhsMDlQSjlfUlVyYi1XdWVPZVpweHM0ZGx1LVJuazFzMGJiQ3hQdVJ4VjFiMXNDUHdyLXZ0YU5nZ0JJSV9RSTJ5d3N1cF9RWF80ZTlNUHBLajU2cDRGZ1JLS19QOTVLZ21kTURuaEI0QldxV2p6N3NUNmUzM21HVk1yaGNHbUNQZjNwWkRKUTR6XzFnT01CTllnMw?oc=5",
      "nb_sources": 1,
      "primaire": false
     },
     {
-     "id": "8d092d29f2024b",
-     "date": "2026-10-23T07:10:34+00:00",
-     "titre": "DeepSeek et MiniMax obtiennent l'approbation pour un usage mondial",
-     "neuf": "DeepSeek et MiniMax reçoivent officiellement l'approbation pour l'utilisation mondiale de leur intelligence artificielle dans le cadre des contrôles à l'exportation.",
-     "fil": "même approbation pour l'utilisation mondiale et export des modèles DeepSeek et MiniMax",
-     "source": "Contrôles à l'export IA",
-     "lien": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPZUxoTk9BS0J1SUxMSzJCSGpQMl91ZTlfTzk0OE5EdFp4REZRV0EwRUk0ZlU2MVBzcmVuN0VlOWNpaXQxOFd4RWxVc0pKajdYUHNDT2JSRXlERmxDLUZucEtmNTVKNEo3Z09vdVN0U3VhLTNZck5uelFGOXVkZnd2bHFLN1VhaFZ1MFNxVGZFeXpCdV9SZk5Sa0N2NVlPWmsxSzlLTHF3U3I5TDhNcTRLWER4dmRkRjVXQXc?oc=5",
+     "id": "f815b9e3fe52ba",
+     "date": "2026-10-19T07:00:00+00:00",
+     "titre": "L'Union européenne déploie l'AI Act pour encadrer l'intelligence artificielle",
+     "neuf": "Rappel de la portée générale de l'AI Act en tant que premier grand règlement mondial d'encadrement.",
+     "fil": "Même mise en œuvre de l'AI Act européen",
+     "source": "Régulation européenne",
+     "lien": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFAwYm9obURudU1kM1hqWE55OXl0YXhwd3lYQ2QtWDZfVmt1SmlVY1NTLUlUUUxuNVBubVhkTER6OG9RR3FMN2hmY3FkWnJ0RldxNVE?oc=5",
      "nb_sources": 1,
      "primaire": false
     },
     {
-     "id": "f3d45600f3b941",
-     "date": "2026-10-23T10:22:30+00:00",
-     "titre": "La Chine propose de nouveaux contrôles à l'exportation sur l'IA",
-     "neuf": "La Chine envisage d'instaurer de nouveaux contrôles formels ciblant l'intelligence artificielle, les sciences de la vie et les technologies photovoltaïques.",
-     "fil": "même politique de contrôles à l'exportation de la Chine sur l'IA",
-     "source": "Contrôles à l'export IA",
-     "lien": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNVWtCTld5UTJnajEycGpGcEF6NWFBNGhmNlowYkJNVXZEZDF0WG5zdG5FNVBXdXZ1NmppTnI5Vi0zSmVuTHFRSEN0Vk5kU2RnZFVjbFVnaWltZzFUb1hCQ0pLY1lBYnl2eDlJYlFkOU1QX3dmV1ZJMGwtcUtWeGNkVHRjU1dkLUFGVDB5RVc0OFktUnVOZlBudV8zOTJNNFRXYXpFMnhoTGNKSTFlQTRhWUVnbG1BX1I5Mm9Wcg?oc=5",
+     "id": "cdfb1ae21529bf",
+     "date": "2026-10-19T09:17:11+00:00",
+     "titre": "AI Act : la gouvernance des agents IA pose question pour les entreprises",
+     "neuf": "Les entreprises s'interrogent sur le temps restant pour préparer la gouvernance de leurs agents face aux exigences de l'AI Act.",
+     "fil": "même application de l'AI Act",
+     "source": "Régulation européenne",
+     "lien": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxQMEhMWTVTUHZXR1NKS3AzX3dYaGI0MnFBME1pTG1aS21HajdiTFRIMzhxbjNtcm44NFE2UmFXXzZ4R1h6VW14YW4wOGd2ZzAyMk1sekZUVF9mVG41cm0yTkRKZXRKZi1rcU1ENFJyaWs5ZmZLdkFyVzczbWFudG13SERvRUxhTExoNjVlcUwwREV0OTlQRmdVZXdha2JfNFBtZkhXcWtfUGZqUjFZb1NDZkRyU0dYTU9nUlI5TkRQYzZCbnpGNWN0XzhWQWVfR2x2U0haZzN4UG0zZnN4bm9QYlhEVUZVanZBbFZPYzQ1QQ?oc=5",
      "nb_sources": 1,
      "primaire": false
     },
     {
-     "id": "b410f5938b6955",
-     "date": "2026-10-23T19:18:13+00:00",
-     "titre": "Nouveaux contrôles à l'exportation de la Chine sur les drones, l'IA et les terres rares",
-     "neuf": "La Chine officialise et élargit ses restrictions à l'exportation en y incluant l'IA aux côtés des drones et des terres rares.",
-     "fil": "nouveaux contrôles à l'exportation de la Chine sur l'IA",
-     "source": "Contrôles à l'export IA",
-     "lien": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPbmk4QjFka2xrVXpDR3RpbkdSOXhZX0kwQXJEclNndGlxa29RVVNQOS1oQl9WcFdVWkdwd1VDd3ZPOXZKRXpXZ0NjRmRTZjdGYjJaZjc5TGhNQ2VIX2NJTGJlX2NjQVVFUFBLSzhWZGdhelFXT1U2c2stVnhfVnRhWjVTeTA?oc=5",
+     "id": "662ebe66cb5c1b",
+     "date": "2026-10-19T10:00:00+00:00",
+     "titre": "L'AI Act européen privilégie l'IA d'aide à la décision",
+     "neuf": "L'Union européenne oriente l'AI Act vers le développement de systèmes d'aide à la décision plutôt que de contrôle.",
+     "fil": "même application de l'AI Act",
+     "source": "Régulation européenne",
+     "lien": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxQN1llSF9JNFd3TjZEekdYWG5KYzVqM05FdjMzbzAzSkpRc3o5QlVOd1hURlMtY0RQeXBPeEluZ2dxaUxiaUNMcXA4WHVkQ1lGWGpHVkNEcElkN0FDd1FwdEl1WGRQMWluRDJaVm9zdnhjdmFISjdVNC0xVzJVQzRpYWk3cEQxVlM0SWwzenV1RUhIZGZOVy0xS0lZdE5wS2hVay1JcG94RWNhaERoUkc5MEc4YklxVUkwN2s0RDhUSUVCdURsNXprZXN5dGZRajVpOGtoTVFCd1FYWGM?oc=5",
      "nb_sources": 1,
      "primaire": false
     },
     {
-     "id": "6c0cc7da9615ae",
-     "date": "2026-10-26T12:00:00+00:00",
-     "titre": "La Chine propose de nouveaux contrôles à l'exportation sur l'IA",
-     "neuf": "La Chine propose de nouveaux contrôles à l'exportation ciblant l'intelligence artificielle et les technologies biopharmaceutiques.",
-     "fil": "Contrôles de la Chine sur l'export d'IA",
-     "source": "Contrôles à l'export IA",
-     "lien": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQQUluM3JRMHRybHBfX0VRX2dPMTRaVEpldTJSMVo5RURBQkYyMzVZOFhTaDU2NmE2dEdEZmNsSzdLWmhQTHd0VnE3c1NEa3pfMTIyRnRCY0xIMk0zaVhNT3hzVkF0SWxqNzg0eklBTEFVZDE2NmhhVzhpemxndC1vN3V5Y1V2blFLM0t6c2h1bXRobUhPM1VDMWlxb0VTT0dBUnJrVWg3eTFGUTNRTlJRM0M4eWdrY2EtOVF3VWU3YkdrdUU?oc=5",
+     "id": "7fd6735c2ab1df",
+     "date": "2026-10-20T03:06:52+00:00",
+     "titre": "L'Union européenne sonde OpenAI et Anthropic dans le cadre de l'AI Act",
+     "neuf": "L'Union européenne cible OpenAI et Anthropic dans le cadre de sondages liés à l'AI Act, avec un risque d'amende.",
+     "fil": "même application de l'AI Act",
+     "source": "Régulation européenne",
+     "lien": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1LZU9MZ2xjbXhrNkxZSkFRd0E0QU1KMEtwalFMNWxPaWluSmZPRjNqM09rVGNzWF9yZ1ctV1ZHbk53cWdDVm4xQU5iUFNxTW0zN2k1TW1RWXdFcHVGSWxSRTBlWjlEMUNwazVXd0hyYUc0NzBP?oc=5",
      "nb_sources": 1,
      "primaire": false
     },
     {
-     "id": "f1c6375f91964e",
-     "date": "2026-10-28T07:22:16+00:00",
-     "titre": "La Chine instaure de nouveaux contrôles sur ses technologies d'intelligence artificielle",
-     "neuf": "La Chine officialise de nouvelles restrictions concrètes sur l'exportation de ses technologies clés en intelligence artificielle.",
-     "fil": "Mêmes contrôles à l'exportation et restrictions technologiques de la Chine",
-     "source": "Contrôles à l'export IA",
-     "lien": "https://news.google.com/rss/articles/CBMingFBVV95cUxNd2xfamMxTE1YUUxMbmJpWG1teVNZRWFpRGktWngtOE1VMFJ3UmNYLW9jdHBSMUZ4c0FuMF9ZX3ZSa3NNU0lJMEZBbjgwR0ZPb004MmNiMUFfYV9FOEJWNlc1OWtXMGdMb1I0VGsyOXFNRHhYUE1WNUI0X085d0Jvbm40cTNLSWRkQWcyNzJ2Vy0zWHF3VU10QmxIN3Uydw?oc=5",
+     "id": "90111474fb194f",
+     "date": "2026-10-20T04:40:30+00:00",
+     "titre": "Entrée en vigueur et conformité des entreprises à l'AI Act européen en 2026",
+     "neuf": "L'Union européenne officialise l'entrée en vigueur de l'AI Act et publie des guides de conformité pour l'année 2026.",
+     "fil": "même application de l'AI Act européen",
+     "source": "Régulation européenne",
+     "lien": "https://news.google.com/rss/articles/CBMia0FVX3lxTE96eVYyVkJQQ3JDRTdudXJtbmNvaW53T2VoT3Zid0tFWFVXWG50TGJSVVZhbE1VVl81d19sZGRzaml3Y21HbzBUb3pFRy1FNF9JcEpMMGlKSDNQcU5rdG5vU29ETjk4UGxQVld3?oc=5",
      "nb_sources": 1,
      "primaire": false
     },
     {
-     "id": "e2cd2186d6edbf",
-     "date": "2026-10-29T04:51:43+00:00",
-     "titre": "La Chine liste 40 technologies liées à l'IA pour ses contrôles à l'export",
-     "neuf": "La Chine formalise précisément une liste de 40 technologies liées à l'IA soumises à ses contrôles à l'export.",
-     "fil": "Contrôles de la Chine sur l'export d'IA",
-     "source": "Contrôles à l'export IA",
-     "lien": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNMmwtT0hEdmRudnBqV3Y3RTB2ZjcyZXVuWlFXTk1KUTBhc3htd0EzQXdObW01NE9iTGNBUnY5QWlmQjhzQlREWlh3SkdteDJ4WkVZbnVBbmJwY0ZKdkRnR2FmS2p2N1pmRl9RWmdGOVdxNk40Q2dNZWUweGJvd3JSNzRtOEN0RTQ?oc=5",
+     "id": "e412135ad51278",
+     "date": "2026-10-20T12:30:00+00:00",
+     "titre": "Agents IA : la nouvelle responsabilité des vendeurs face à l'UE",
+     "neuf": "La directive européenne assimile les logiciels et SaaS d'IA à des produits, engageant la responsabilité stricte de leurs vendeurs.",
+     "fil": "même cadre réglementaire européen sur l'IA",
+     "source": "ActuIA",
+     "lien": "https://www.actuia.com/actualite/agents-ia-ce-que-la-directive-europeenne-fera-payer-aux-entreprises-qui-les-vendent/",
      "nb_sources": 1,
      "primaire": false
     },
     {
-     "id": "108d0302d46bee",
-     "date": "2026-10-29T15:38:41+00:00",
-     "titre": "Les discussions UE-Chine sur l'IA menacées par les sanctions et le contrôle des exportations",
-     "neuf": "Les discussions entre l'UE et la Chine sur l'IA sont menacées par les contrôles à l'export et les interdictions visant Huawei.",
-     "fil": "même politique de contrôles à l'export de l'IA par la Chine",
-     "source": "Contrôles à l'export IA",
-     "lien": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOVmdiNkZjcnFIOE5OUDN1SXBPSk1TY3JxQVNfZWpxdUh6WUJURHlPOXdSUldDUXRZYjU5VVFHNzdBOUFkVl9TcEQ2SUkwTmVCSDQ1b0N6cDNGZFhZdzhxeDBKOVQ0ckJaZG9welpMdU55OU1QM3J6WWlOOV9XSnhWXzNKMXNNYkpzakRCVWtUd3ZjY2stYUxodjJYd2VsdFk?oc=5",
+     "id": "eba26d23de0f62",
+     "date": "2026-10-22T12:16:00+00:00",
+     "titre": "AI Act : publication de la première norme harmonisée sur le système qualité",
+     "neuf": "Publication de la première norme harmonisée (EN 18286) couvrant le système qualité des fournisseurs à haut risque.",
+     "fil": "application de l'AI Act",
+     "source": "ActuIA",
+     "lien": "https://www.actuia.com/actualite/ai-act-la-premiere-norme-harmonisee-ne-couvre-que-le-systeme-qualite/",
      "nb_sources": 1,
      "primaire": false
     },
     {
-     "id": "0a373e5a677d47",
-     "date": "2026-10-29T19:24:00+00:00",
-     "titre": "Contrôles chinois à l'exportation sur la biopharmacie et l'IA",
-     "neuf": "La Chine étend ses restrictions à l'exportation à la biopharmacie et formalise de nouvelles obligations d'enregistrement.",
-     "fil": "Renforcement des contrôles chinois à l'exportation sur l'IA et la haute technologie",
-     "source": "Contrôles à l'export IA",
-     "lien": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPSUo4UFR4b0ZicWJVclJDRkJERElfaUw3aGlJdkpzZUNKLW8yal9lYzBCRzVZQWlJbzZKVHB0ZnRZekU5dFVlbXNIazl4UWFzSjc4LTF5V1R3NVJUaTY4V1IxUmFFSWdtdDJTX3hDMDBqYWhYOEt3aXlDWVhQeWlzOVo5aFFTRjJHSVZ2WF9IM2pHa2hMeGdCaVVRMVpjT0ZoX003Sk1WM0lya2F3NGNYSzB1VGROYW_SAbwBQVVfeXFMT1ZocURFS1JoTlJTZjlVS2lUZnA1S2F0LTBId2NYc0Q2RGVDMzNmb0p4ZGlBUk0zU0wwajBONzkwYlB2ZFpKY0VBQmNGME1JZVhvcDl1RkIyeHdKbjhGY3Q0UW01c1M1aFZsNDYyQVNRVVhmRTlxcllMbm1wVnVHZVZNQjJGVGQ1S3dEakdnYzFqZmtPMTZEeGFpdHFFU3BMZVp6ZTlVcmtMM09QQTFfcVEyOWJKWkNDTmoxbGc?oc=5",
+     "id": "74085a9efe5c78",
+     "date": "2026-10-23T12:45:00+00:00",
+     "titre": "Entrée en vigueur de l'AI Act et accompagnement des entreprises dans le Var",
+     "neuf": "L'AI Act entre formellement en vigueur, entraînant la mise en place d'un accompagnement local des entreprises pour assurer leur conformité.",
+     "fil": "même mise en application et en conformité avec l'AI Act européen",
+     "source": "Régulation européenne",
+     "lien": "https://news.google.com/rss/articles/CBMixwFBVV95cUxONXR3TkJaLTVDLU5CcVlGZldXY3hUNnlLQVBKMk1FMDh6bF82NVN4dXoxRzNUTFNPYVd6X3RseUw5RVVFNUc4NjdNZkhzMWJlUmFSbDJwLS1TeWwzRzdFbU1ZaHBnY2RuM01GMzl6aGtVaXpBVDNiQXlkb01vYkRoUmxNZURKX0s4OVhUMThaRlVHZGVUcFFObXRObG53LWpxN0RYUE5leVFxbkk2Q1dvck0zVVp2Q2N1RXFROVljYXVyQ29ubk00?oc=5",
      "nb_sources": 1,
      "primaire": false
     },
     {
-     "id": "26057c2cdf5d5b",
-     "date": "2026-10-30T13:00:30+00:00",
-     "titre": "Les contrôles à l'exportation de l'IA vers la Chine se retournent contre les États-Unis",
-     "neuf": "Un article de Forbes analyse comment les restrictions à l'exportation de technologies d'intelligence artificielle vers la Chine finissent par se retourner contre les États-Unis.",
-     "fil": "mêmes contrôles américains et chinois sur l'export d'IA",
-     "source": "Contrôles à l'export IA",
-     "lien": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPbmJXb3A1dC1LQ3hxU3FjdFR6SldXcDNhV240bVU0OGdIdC1YZGU1R3Z4YllXOHhSUG1zNW84T3lhYTZNYjBPTGYxM1JKSDhpbXBtazZqT25KWnZRbXdDenRiN1MwdWE0M1liUVRUelJSanBBVmt5aDB4QTJ3TE15cVpvR1J1Qmp1QTFnS3R2T0s3SW9zcmIzNk5uYnRFYU5qbUpRZ2xuSFlaQUlfOGlJamxhc2M0WlU?oc=5",
+     "id": "d8516b9a59ac0d",
+     "date": "2026-10-24T12:43:32+00:00",
+     "titre": "L'UE fixe les sanctions de l'AI Act pour les modèles d'IA généraux",
+     "neuf": "L'Union européenne précise les montants des amendes maximales pour les modèles d'IA à large diffusion.",
+     "fil": "même application et sanctions de l'AI Act européen",
+     "source": "Régulation européenne",
+     "lien": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5wVDhvYTFtUXBzTi1RdUV5bHVBUUZCSlFwSjd3dnBabzlCaUVKLWk2WjNaUkw3TkRzanNVU25aOXhTbUo0MmQzOHFIMmZWcEg5VDFtaGNVSXlFTG9MclVHOElmVDlMejk0MWU4MW44NG5KYXZ4X1M1YTVjdw?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "bd3b68c4ad3d19",
+     "date": "2026-10-26T03:08:22+00:00",
+     "titre": "Application de l'AI Act de l'UE et seuil de calcul pour le fine-tuning",
+     "neuf": "L'Union européenne précise les seuils de calcul applicables au fine-tuning dans le cadre de l'AI Act.",
+     "fil": "application de l'AI Act",
+     "source": "Régulation européenne",
+     "lien": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQTmlZdDRQdmVybVQwN3d4X0JNbkRWblQ3azEwN05ZNGJFaG11MzhNekk0aW5OSThLY1ZuTEVSU2dETE54dzJULUZBZ0xfb1pNcDgweTlkamcwVS0zdEd3RVBISFVJU0xRclVJaFdUa2NBXzFCbmJwd2hma2pjZUpQWHFpWFA2a29lcElF?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "2f8775bad8c5bd",
+     "date": "2026-10-26T08:01:00+00:00",
+     "titre": "L'UE renforce son contrôle de l'intelligence artificielle avec l'AI Act",
+     "neuf": "L'UE rappelle et formalise la mise en œuvre de l'AI Act comme premier grand règlement mondial de contrôle.",
+     "fil": "même règlement européen AI Act",
+     "source": "Régulation européenne",
+     "lien": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOWlltZ1dTQko5SmY2eW1WRWplM2pEMEpuOXBCVDlPUmg4TEpBemVCTnBfZ19oV3VIamtvU25Dc2dnM0FwOVlrMjgxcUZJekxmV1lDMjNBVmpCU2hOaWV5M1IyWjJIRUFoYlphbjdtZjQ5NnJ0TFozOU9XV2k1ekhTeC1IZlMzd3M3ZGs0dmpmSzRvd1l4NXlEdDNNMC1aeDl3YlktQXBtbV9ObHJRdHQ4?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "19706a622a8409",
+     "date": "2026-10-28T08:05:19+00:00",
+     "titre": "L'incertitude des entreprises face aux obligations de formation de l'AI Act",
+     "neuf": "L'application de l'AI Act crée l'incertitude chez les entreprises en raison d'un manque de précisions textuelles sur les obligations de formation.",
+     "fil": "Même application et mise en œuvre de l'AI Act européen",
+     "source": "Régulation européenne",
+     "lien": "https://news.google.com/rss/articles/CBMie0FVX3lxTFBuLVBXU3JjdWdJY0REY05QOW9KQXhjbE9KTzBxdVdUeDM3V2tFaE1YSU9hS1kxc3hPMGE0c3E5dkswblRSMk1sVC1Mdl91RUVEdzdTSEZrRXZLdWF5SGd6eWx0bWxoYzhQaUZ0bnc0ZzJELW8zRmdfd1pROA?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "017d51a37fadb4",
+     "date": "2026-10-28T20:31:48+00:00",
+     "titre": "Entrée en vigueur des obligations de l'AI Act pour les agents d'IA",
+     "neuf": "Précision sur l'entrée en vigueur des obligations réglementaires visant spécifiquement les agents d'IA.",
+     "fil": "même application de l'AI Act",
+     "source": "Régulation européenne",
+     "lien": "https://news.google.com/rss/articles/CBMiekFVX3lxTE1pazBpYWV5YTQ1eXFBU0VOdm5OOS1UZXMzdjlpWUVSSFZHNEdBblRGRXJuWVBBSDZxeDNUdi0zOVhXVnNnX2p4cURLWkFJNGEzSEEyUEw3QlJYRllJY0ZuR1ptRXNBX2tFTGhJdjh4QmMzbnRXZW9BSnpR?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "8b113dfd26ee40",
+     "date": "2026-10-29T09:05:05+00:00",
+     "titre": "L'AI Act européen place le juriste au cœur de la supervision",
+     "neuf": "L'application de l'AI Act redéfinit concrètement le rôle du juriste pour en faire un architecte de la supervision humaine.",
+     "fil": "Même application de l'AI Act européen",
+     "source": "Régulation européenne",
+     "lien": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNLU1KbGpxLU85V2JEV2hFZ0xDZlFuUWJIZWVlTm0tZUQwYTBIZjBMbkY1WTFBUlo4bjl5QTY0Vnh3SXhjM3hUbGtoSmhkR0l6aHlkSXEwZTNoVkxyUndrb1JXenVSTjdVOHlfMlZUTkRDeDBIbFBXT0ZUdklaVXlJd2pDb09fSjZTLVllWUVZY1NlVnNlUW5KUzhwbDVVRnRyWTBzOUw2R0VjNWVLR2p5eDdR?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "3c36dafe3a3a4a",
+     "date": "2026-10-30T09:57:37+00:00",
+     "titre": "Impact de l'AI Act européen sur la responsabilité des départements RH",
+     "neuf": "Précision de l'impact réglementaire et de la responsabilité spécifique introduite pour les professionnels des ressources humaines.",
+     "fil": "application de l'AI Act européen aux départements RH",
+     "source": "Régulation européenne",
+     "lien": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQV1hoZFNPVUpIbXVmNkp2YnNxTzE0Q0tKN0owQ3pmRWtZWjJZdGxvLUNwczNwRW8wVVp4TGJTN3lYaVU5bmJOeEpLdFNZSUstcURBOUZUQmNVRFBhVE5jcDkzbENFU0ItSFpiWFVzcnNNZXE5dTlNazE1cldrOHJfNE5mZDdVRm9mTEgtNVRTaXpLbDg2R1pfejJfcVo5QUkxSjd6SW9GejluNC1NakVEUlRaQklFd2hiNTZibE9yYXpoai01eGQ2eWZn?oc=5",
      "nb_sources": 1,
      "primaire": false
     }
    ],
    "statut": "active",
    "societes": [
-    "deepseek",
+    "openai",
     "ue"
    ]
   },
@@ -2681,240 +3073,6 @@
    ]
   },
   {
-   "id": "h_5de020e85b",
-   "titre": "Application et sanctions de l'AI Act européen",
-   "resume": "L'Union européenne avance dans la mise en œuvre de son AI Act en fixant des cadres de sanctions, en précisant les obligations des agents d'IA et en plaçant le juriste au cœur de la supervision humaine.",
-   "creee": "2026-10-20T09:56:16.457937+00:00",
-   "maj": "2026-10-29T09:05:05+00:00",
-   "episodes": [
-    {
-     "id": "634535b9265419",
-     "date": "2026-10-09T14:00:41+00:00",
-     "titre": "L'AI Act de l'Union européenne face au défi de la conformité des entreprises",
-     "neuf": "L'Union européenne met en œuvre l'AI Act face au défi de la mise en conformité des entreprises.",
-     "fil": "Application et conformité sous l'AI Act",
-     "source": "Régulation européenne",
-     "lien": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNaW9pV3NTMEs3QllXanlWNGc5TE5MM3BhSEZBSGh4VEcxRl9INENtM01pNWcxYWhWSXMzNnd1RlBKbWc1NFAteUN5N192TklMZGxvMWUzNEhsRGVSTkcyWUhWZzNjZHVGOWpJSC1wSkVZXzIzQWRHYmR3aTJyeGppampUT0JhdGpKS2lGT3Q1TUVfbVJJWmtiVkZwcmZSMzZzTTZPR0hCWWladjc5eDY2STkyd0FoZzU0c0E?oc=5",
-     "nb_sources": 1,
-     "primaire": false
-    },
-    {
-     "id": "5dbd7821822f22",
-     "date": "2026-10-10T22:05:13+00:00",
-     "titre": "L'Union européenne se prépare à réguler l'IA avec l'AI Act",
-     "neuf": "Rappel de la mise en place imminente de l'AI Act comme premier grand règlement mondial.",
-     "fil": "Mise en œuvre et application de l'AI Act",
-     "source": "Régulation européenne",
-     "lien": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxNd1lVYkpES2RkbTVDUlJORTY0MG9tRy1sVVFpYUpoN2VxcXd4clQxNmFVVFF1STFJN1BmV091bURqT21CTllVOURuVUpZeGQtcENSUm9iUW9XdDJjN2dRZk1aTVFNUWl3VDRValZXTkh1N0dyNkI4Tl9xT2hDeVM5MjE5alJiMkJNSHBXRkp5RUhPejlRc09vTy1SMmZaQnpPRV83alczano0LTdZTkRGdkFuRFZZSEtTMGstQ2lyUS03a2tCTTBhVzMwMkRFQ05mRmx3Y1dfUVVUN2x3TmJLZk9jRTJzYTNSSGtSLXpLVDI2dw?oc=5",
-     "nb_sources": 1,
-     "primaire": false
-    },
-    {
-     "id": "7b53088c1ad47d",
-     "date": "2026-10-15T22:39:08+00:00",
-     "titre": "AI Act : les enquêtes pourraient prolonger les délais de sanction",
-     "neuf": "Les enquêtes du Bureau de l'IA pourraient prolonger le délai de prescription des sanctions de 5 à 10 ans.",
-     "fil": "Sanctions et enquêtes sous l'AI Act",
-     "source": "ActuIA",
-     "lien": "https://www.actuia.com/actualite/ai-act-les-enquetes-pourraient-prolonger-le-delai-de-sanction/",
-     "nb_sources": 1,
-     "primaire": false
-    },
-    {
-     "id": "12a96253e39ba8",
-     "date": "2026-10-15T22:39:08+00:00",
-     "titre": "AI Act : les enquêtes pourraient prolonger le délai de sanction",
-     "neuf": "Précision sur la possibilité que les enquêtes de l'AI Act prolongent les délais de sanction.",
-     "fil": "même application et sanctions de l'AI Act européen",
-     "source": "Régulation européenne",
-     "lien": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPU0J5MXlWdzVVMk80RFFLQTFCTFlFejhLSXc2M3V2SktRMXVGVEZxVTVaZHVfMUUtak0zUUhNR05teWx4NXJUdXAyQzBqZWpXZXNidm9ZZU1HdEVBUDhrSjlKQlVPUXZHQTlvc3dxUDAwcThuenFRQThoNUEtSFRpdDFJckxYZHNpWXhJNlR5SGxCY1RUS0kycEJzdw?oc=5",
-     "nb_sources": 1,
-     "primaire": false
-    },
-    {
-     "id": "bd7357ab84c89f",
-     "date": "2026-10-16T10:25:18+00:00",
-     "titre": "L'Union européenne dévoile les règles de sanction pour l'AI Act",
-     "neuf": "La Commission européenne détaille l'application concrète des sanctions pour les modèles d'IA générative.",
-     "fil": "Règles de sanction de l'AI Act",
-     "source": "Régulation européenne",
-     "lien": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNVkZKdkNmWm1tQ0FEMWJCMDdnMlh6OUhDWk1ub3ByOHY2WDZxaHhTbl9PTEszODg4VVJUNVNsQnQ0MGdyUWVBd1Z2alVTQ1g1RXVIOFVwanVmQ0d5YTZlOFhFaWhnX1F5dF9QSlQ5RTlyMS04YVRETWNob0ktcTMwU0RYVnBqRTBfeWc?oc=5",
-     "nb_sources": 1,
-     "primaire": false
-    },
-    {
-     "id": "3115f2832e6b35",
-     "date": "2026-10-19T00:00:00+00:00",
-     "titre": "Entrée en vigueur de l'AI Act et fin du shadow IA",
-     "neuf": "L'AI Act entre officiellement en vigueur, marquant la fin de la tolérance pour le « shadow IA » au sein des entreprises en Europe.",
-     "fil": "même application et entrée en vigueur de l'AI Act européen",
-     "source": "Régulation européenne",
-     "lien": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPendzelR2MFhHU21YSTE2dlBHQjlxbkhsMDlQSjlfUlVyYi1XdWVPZVpweHM0ZGx1LVJuazFzMGJiQ3hQdVJ4VjFiMXNDUHdyLXZ0YU5nZ0JJSV9RSTJ5d3N1cF9RWF80ZTlNUHBLajU2cDRGZ1JLS19QOTVLZ21kTURuaEI0QldxV2p6N3NUNmUzM21HVk1yaGNHbUNQZjNwWkRKUTR6XzFnT01CTllnMw?oc=5",
-     "nb_sources": 1,
-     "primaire": false
-    },
-    {
-     "id": "f815b9e3fe52ba",
-     "date": "2026-10-19T07:00:00+00:00",
-     "titre": "L'Union européenne déploie l'AI Act pour encadrer l'intelligence artificielle",
-     "neuf": "Rappel de la portée générale de l'AI Act en tant que premier grand règlement mondial d'encadrement.",
-     "fil": "Même mise en œuvre de l'AI Act européen",
-     "source": "Régulation européenne",
-     "lien": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFAwYm9obURudU1kM1hqWE55OXl0YXhwd3lYQ2QtWDZfVmt1SmlVY1NTLUlUUUxuNVBubVhkTER6OG9RR3FMN2hmY3FkWnJ0RldxNVE?oc=5",
-     "nb_sources": 1,
-     "primaire": false
-    },
-    {
-     "id": "cdfb1ae21529bf",
-     "date": "2026-10-19T09:17:11+00:00",
-     "titre": "AI Act : la gouvernance des agents IA pose question pour les entreprises",
-     "neuf": "Les entreprises s'interrogent sur le temps restant pour préparer la gouvernance de leurs agents face aux exigences de l'AI Act.",
-     "fil": "même application de l'AI Act",
-     "source": "Régulation européenne",
-     "lien": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxQMEhMWTVTUHZXR1NKS3AzX3dYaGI0MnFBME1pTG1aS21HajdiTFRIMzhxbjNtcm44NFE2UmFXXzZ4R1h6VW14YW4wOGd2ZzAyMk1sekZUVF9mVG41cm0yTkRKZXRKZi1rcU1ENFJyaWs5ZmZLdkFyVzczbWFudG13SERvRUxhTExoNjVlcUwwREV0OTlQRmdVZXdha2JfNFBtZkhXcWtfUGZqUjFZb1NDZkRyU0dYTU9nUlI5TkRQYzZCbnpGNWN0XzhWQWVfR2x2U0haZzN4UG0zZnN4bm9QYlhEVUZVanZBbFZPYzQ1QQ?oc=5",
-     "nb_sources": 1,
-     "primaire": false
-    },
-    {
-     "id": "662ebe66cb5c1b",
-     "date": "2026-10-19T10:00:00+00:00",
-     "titre": "L'AI Act européen privilégie l'IA d'aide à la décision",
-     "neuf": "L'Union européenne oriente l'AI Act vers le développement de systèmes d'aide à la décision plutôt que de contrôle.",
-     "fil": "même application de l'AI Act",
-     "source": "Régulation européenne",
-     "lien": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxQN1llSF9JNFd3TjZEekdYWG5KYzVqM05FdjMzbzAzSkpRc3o5QlVOd1hURlMtY0RQeXBPeEluZ2dxaUxiaUNMcXA4WHVkQ1lGWGpHVkNEcElkN0FDd1FwdEl1WGRQMWluRDJaVm9zdnhjdmFISjdVNC0xVzJVQzRpYWk3cEQxVlM0SWwzenV1RUhIZGZOVy0xS0lZdE5wS2hVay1JcG94RWNhaERoUkc5MEc4YklxVUkwN2s0RDhUSUVCdURsNXprZXN5dGZRajVpOGtoTVFCd1FYWGM?oc=5",
-     "nb_sources": 1,
-     "primaire": false
-    },
-    {
-     "id": "7fd6735c2ab1df",
-     "date": "2026-10-20T03:06:52+00:00",
-     "titre": "L'Union européenne sonde OpenAI et Anthropic dans le cadre de l'AI Act",
-     "neuf": "L'Union européenne cible OpenAI et Anthropic dans le cadre de sondages liés à l'AI Act, avec un risque d'amende.",
-     "fil": "même application de l'AI Act",
-     "source": "Régulation européenne",
-     "lien": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1LZU9MZ2xjbXhrNkxZSkFRd0E0QU1KMEtwalFMNWxPaWluSmZPRjNqM09rVGNzWF9yZ1ctV1ZHbk53cWdDVm4xQU5iUFNxTW0zN2k1TW1RWXdFcHVGSWxSRTBlWjlEMUNwazVXd0hyYUc0NzBP?oc=5",
-     "nb_sources": 1,
-     "primaire": false
-    },
-    {
-     "id": "90111474fb194f",
-     "date": "2026-10-20T04:40:30+00:00",
-     "titre": "Entrée en vigueur et conformité des entreprises à l'AI Act européen en 2026",
-     "neuf": "L'Union européenne officialise l'entrée en vigueur de l'AI Act et publie des guides de conformité pour l'année 2026.",
-     "fil": "même application de l'AI Act européen",
-     "source": "Régulation européenne",
-     "lien": "https://news.google.com/rss/articles/CBMia0FVX3lxTE96eVYyVkJQQ3JDRTdudXJtbmNvaW53T2VoT3Zid0tFWFVXWG50TGJSVVZhbE1VVl81d19sZGRzaml3Y21HbzBUb3pFRy1FNF9JcEpMMGlKSDNQcU5rdG5vU29ETjk4UGxQVld3?oc=5",
-     "nb_sources": 1,
-     "primaire": false
-    },
-    {
-     "id": "e412135ad51278",
-     "date": "2026-10-20T12:30:00+00:00",
-     "titre": "Agents IA : la nouvelle responsabilité des vendeurs face à l'UE",
-     "neuf": "La directive européenne assimile les logiciels et SaaS d'IA à des produits, engageant la responsabilité stricte de leurs vendeurs.",
-     "fil": "même cadre réglementaire européen sur l'IA",
-     "source": "ActuIA",
-     "lien": "https://www.actuia.com/actualite/agents-ia-ce-que-la-directive-europeenne-fera-payer-aux-entreprises-qui-les-vendent/",
-     "nb_sources": 1,
-     "primaire": false
-    },
-    {
-     "id": "eba26d23de0f62",
-     "date": "2026-10-22T12:16:00+00:00",
-     "titre": "AI Act : publication de la première norme harmonisée sur le système qualité",
-     "neuf": "Publication de la première norme harmonisée (EN 18286) couvrant le système qualité des fournisseurs à haut risque.",
-     "fil": "application de l'AI Act",
-     "source": "ActuIA",
-     "lien": "https://www.actuia.com/actualite/ai-act-la-premiere-norme-harmonisee-ne-couvre-que-le-systeme-qualite/",
-     "nb_sources": 1,
-     "primaire": false
-    },
-    {
-     "id": "74085a9efe5c78",
-     "date": "2026-10-23T12:45:00+00:00",
-     "titre": "Entrée en vigueur de l'AI Act et accompagnement des entreprises dans le Var",
-     "neuf": "L'AI Act entre formellement en vigueur, entraînant la mise en place d'un accompagnement local des entreprises pour assurer leur conformité.",
-     "fil": "même mise en application et en conformité avec l'AI Act européen",
-     "source": "Régulation européenne",
-     "lien": "https://news.google.com/rss/articles/CBMixwFBVV95cUxONXR3TkJaLTVDLU5CcVlGZldXY3hUNnlLQVBKMk1FMDh6bF82NVN4dXoxRzNUTFNPYVd6X3RseUw5RVVFNUc4NjdNZkhzMWJlUmFSbDJwLS1TeWwzRzdFbU1ZaHBnY2RuM01GMzl6aGtVaXpBVDNiQXlkb01vYkRoUmxNZURKX0s4OVhUMThaRlVHZGVUcFFObXRObG53LWpxN0RYUE5leVFxbkk2Q1dvck0zVVp2Q2N1RXFROVljYXVyQ29ubk00?oc=5",
-     "nb_sources": 1,
-     "primaire": false
-    },
-    {
-     "id": "d8516b9a59ac0d",
-     "date": "2026-10-24T12:43:32+00:00",
-     "titre": "L'UE fixe les sanctions de l'AI Act pour les modèles d'IA généraux",
-     "neuf": "L'Union européenne précise les montants des amendes maximales pour les modèles d'IA à large diffusion.",
-     "fil": "même application et sanctions de l'AI Act européen",
-     "source": "Régulation européenne",
-     "lien": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5wVDhvYTFtUXBzTi1RdUV5bHVBUUZCSlFwSjd3dnBabzlCaUVKLWk2WjNaUkw3TkRzanNVU25aOXhTbUo0MmQzOHFIMmZWcEg5VDFtaGNVSXlFTG9MclVHOElmVDlMejk0MWU4MW44NG5KYXZ4X1M1YTVjdw?oc=5",
-     "nb_sources": 1,
-     "primaire": false
-    },
-    {
-     "id": "bd3b68c4ad3d19",
-     "date": "2026-10-26T03:08:22+00:00",
-     "titre": "Application de l'AI Act de l'UE et seuil de calcul pour le fine-tuning",
-     "neuf": "L'Union européenne précise les seuils de calcul applicables au fine-tuning dans le cadre de l'AI Act.",
-     "fil": "application de l'AI Act",
-     "source": "Régulation européenne",
-     "lien": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQTmlZdDRQdmVybVQwN3d4X0JNbkRWblQ3azEwN05ZNGJFaG11MzhNekk0aW5OSThLY1ZuTEVSU2dETE54dzJULUZBZ0xfb1pNcDgweTlkamcwVS0zdEd3RVBISFVJU0xRclVJaFdUa2NBXzFCbmJwd2hma2pjZUpQWHFpWFA2a29lcElF?oc=5",
-     "nb_sources": 1,
-     "primaire": false
-    },
-    {
-     "id": "2f8775bad8c5bd",
-     "date": "2026-10-26T08:01:00+00:00",
-     "titre": "L'UE renforce son contrôle de l'intelligence artificielle avec l'AI Act",
-     "neuf": "L'UE rappelle et formalise la mise en œuvre de l'AI Act comme premier grand règlement mondial de contrôle.",
-     "fil": "même règlement européen AI Act",
-     "source": "Régulation européenne",
-     "lien": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOWlltZ1dTQko5SmY2eW1WRWplM2pEMEpuOXBCVDlPUmg4TEpBemVCTnBfZ19oV3VIamtvU25Dc2dnM0FwOVlrMjgxcUZJekxmV1lDMjNBVmpCU2hOaWV5M1IyWjJIRUFoYlphbjdtZjQ5NnJ0TFozOU9XV2k1ekhTeC1IZlMzd3M3ZGs0dmpmSzRvd1l4NXlEdDNNMC1aeDl3YlktQXBtbV9ObHJRdHQ4?oc=5",
-     "nb_sources": 1,
-     "primaire": false
-    },
-    {
-     "id": "19706a622a8409",
-     "date": "2026-10-28T08:05:19+00:00",
-     "titre": "L'incertitude des entreprises face aux obligations de formation de l'AI Act",
-     "neuf": "L'application de l'AI Act crée l'incertitude chez les entreprises en raison d'un manque de précisions textuelles sur les obligations de formation.",
-     "fil": "Même application et mise en œuvre de l'AI Act européen",
-     "source": "Régulation européenne",
-     "lien": "https://news.google.com/rss/articles/CBMie0FVX3lxTFBuLVBXU3JjdWdJY0REY05QOW9KQXhjbE9KTzBxdVdUeDM3V2tFaE1YSU9hS1kxc3hPMGE0c3E5dkswblRSMk1sVC1Mdl91RUVEdzdTSEZrRXZLdWF5SGd6eWx0bWxoYzhQaUZ0bnc0ZzJELW8zRmdfd1pROA?oc=5",
-     "nb_sources": 1,
-     "primaire": false
-    },
-    {
-     "id": "017d51a37fadb4",
-     "date": "2026-10-28T20:31:48+00:00",
-     "titre": "Entrée en vigueur des obligations de l'AI Act pour les agents d'IA",
-     "neuf": "Précision sur l'entrée en vigueur des obligations réglementaires visant spécifiquement les agents d'IA.",
-     "fil": "même application de l'AI Act",
-     "source": "Régulation européenne",
-     "lien": "https://news.google.com/rss/articles/CBMiekFVX3lxTE1pazBpYWV5YTQ1eXFBU0VOdm5OOS1UZXMzdjlpWUVSSFZHNEdBblRGRXJuWVBBSDZxeDNUdi0zOVhXVnNnX2p4cURLWkFJNGEzSEEyUEw3QlJYRllJY0ZuR1ptRXNBX2tFTGhJdjh4QmMzbnRXZW9BSnpR?oc=5",
-     "nb_sources": 1,
-     "primaire": false
-    },
-    {
-     "id": "8b113dfd26ee40",
-     "date": "2026-10-29T09:05:05+00:00",
-     "titre": "L'AI Act européen place le juriste au cœur de la supervision",
-     "neuf": "L'application de l'AI Act redéfinit concrètement le rôle du juriste pour en faire un architecte de la supervision humaine.",
-     "fil": "Même application de l'AI Act européen",
-     "source": "Régulation européenne",
-     "lien": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNLU1KbGpxLU85V2JEV2hFZ0xDZlFuUWJIZWVlTm0tZUQwYTBIZjBMbkY1WTFBUlo4bjl5QTY0Vnh3SXhjM3hUbGtoSmhkR0l6aHlkSXEwZTNoVkxyUndrb1JXenVSTjdVOHlfMlZUTkRDeDBIbFBXT0ZUdklaVXlJd2pDb09fSjZTLVllWUVZY1NlVnNlUW5KUzhwbDVVRnRyWTBzOUw2R0VjNWVLR2p5eDdR?oc=5",
-     "nb_sources": 1,
-     "primaire": false
-    }
-   ],
-   "statut": "active",
-   "societes": [
-    "openai",
-    "ue"
-   ]
-  },
-  {
    "id": "h_34d5b96a52",
    "titre": "Directives de contenu personnalisées pour l'API de Grok",
    "resume": "L'API de Grok intègre de nouvelles options permettant aux développeurs de définir des directives de contenu personnalisées pour leurs applications.",
@@ -3028,63 +3186,6 @@
    "statut": "active",
    "societes": [
     "nvidia"
-   ]
-  },
-  {
-   "id": "h_bb04558a25",
-   "titre": "Plainte contre OpenAI suite à des conseils médicaux mortels de ChatGPT",
-   "resume": "OpenAI fait face à des actions en justice intentées par des familles après que les conseils médicaux erronés de ChatGPT/GPT-4o, notamment liés à l'épilepsie, ont entraîné de graves conséquences et des décès. De nouveaux rapports de presse continuent de documenter ces poursuites pour mise en danger.",
-   "creee": "2026-10-28T01:08:58.693059+00:00",
-   "maj": "2026-10-28T14:40:00+00:00",
-   "episodes": [
-    {
-     "id": "d06768fd7f2b33",
-     "date": "2026-10-27T17:01:00+00:00",
-     "titre": "OpenAI visé par une plainte suite à des conseils médicaux mortels de ChatGPT",
-     "neuf": "Une nouvelle action en justice cible OpenAI pour un décès causé par des conseils médicaux erronés sur l'épilepsie.",
-     "fil": "Plainte en justice contre OpenAI suite à des conseils médicaux mortels de ChatGPT",
-     "source": "OpenAI (actus)",
-     "lien": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOUDdFLUZyZzNudHpoM2FCMXBzZVVHWXNEeU8xZlBKUDRXQnhuRWFGb1JmT2ZMYTJpV0RHalhQNzhQRDU2ZXQ0bFU4cGNCV0NxRnVVekkxTmtFOHRfNTlWLUhJUnZRV2RyQjltY3ZpRFlvcjlCMTg3M3Zhd25yQXVfNlQ1ZU1hS2dBV3BZZHI3LVVTbC1DQ3pN?oc=5",
-     "nb_sources": 2,
-     "primaire": false
-    },
-    {
-     "id": "a0e7e57c22a99a",
-     "date": "2026-10-27T19:38:47+00:00",
-     "titre": "Les conseils médicaux erronés de ChatGPT aux conséquences graves",
-     "neuf": "Le New York Times documente le cas critique des conseils erronés de ChatGPT sur l'épilepsie.",
-     "fil": "Conséquences graves des conseils médicaux de ChatGPT",
-     "source": "OpenAI (actus)",
-     "lien": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQZ0NqMW1MSnJGeVB2WHVWdWR4V0wySkRhVUpXTG1hQk1iZU1CY3pNeGRwUkVIcU83V01mckM5Z01qTmw0T2tRUVZmM1luNE55bDluMEQzUzB5THBzZWJYZ1ZTRFA3a0otUVZDRWRVdDdmTm9WY2VoazJUR19nNGlGNU9WNHVxWGZV?oc=5",
-     "nb_sources": 1,
-     "primaire": false
-    },
-    {
-     "id": "4ee3fcb6ac1d9b",
-     "date": "2026-10-27T23:34:27+00:00",
-     "titre": "Des parents poursuivent OpenAI suite aux conseils de GPT-4o à leur fille",
-     "neuf": "Une plainte de parents accuse GPT-4o d'avoir incité leur fille à arrêter son traitement médical.",
-     "fil": "Plainte de parents contre OpenAI pour les conseils de ChatGPT sur l'épilepsie",
-     "source": "OpenAI (actus)",
-     "lien": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPQ3JtRzlfcnp1ZXJ4ZFFyZ2dSSUROTkNzY3FnY3l0SEJpRngzcDJNQzc3LUZpblVFc0dPWXF6eVNEbENSVU1ycjI0ZjJrbWEtcjhaR1B4XzlEWnVBRFQyaGZhc2ZocU9wTHJLcVgwOUc1djNNb2VWRVBUdjNVTGo2YXVpRlJTOEFnMmtPUkwxNUlEbVd6M3JyWUMwVlhyM1dLZmRYMXYtTmVoR0s0VmN0QXM0RnJUQQ?oc=5",
-     "nb_sources": 1,
-     "primaire": false
-    },
-    {
-     "id": "a6575c402e2462",
-     "date": "2026-10-28T14:40:00+00:00",
-     "titre": "OpenAI sued over allegedly dangerous ChatGPT medication advice - MobiHealthNews",
-     "neuf": "Un média spécialisé (MobiHealthNews) rapporte la plainte visant OpenAI pour les conseils médicaux de ChatGPT.",
-     "fil": "Nouvel article de presse sur la plainte liée aux conseils médicaux dangereux de ChatGPT",
-     "source": "OpenAI (actus)",
-     "lien": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNaVRhTU5DN0hrSXdSVEsyRmhTZE9mTmxmZTFMaWg3WGRranlyRXZIeVhWaXZySm51UVV6LU1kMzhDZGZUNHNBX1lkbldWcllNS1dTLXpmZFJUNkhQa1c3VTlDRUV5Q2hQUEh2MWIwTF9Ld25mSGtwakpGQzEtcGhaMUhfQXJodExFRDdtUmJGLVE0emtZWUROc1h2SFViaEU?oc=5",
-     "nb_sources": 1,
-     "primaire": false
-    }
-   ],
-   "statut": "active",
-   "societes": [
-    "openai"
    ]
   },
   {
