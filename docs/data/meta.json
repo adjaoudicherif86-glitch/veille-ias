@@ -1,5 +1,5 @@
 {
- "maj": "2026-11-02T18:22:15.608015+00:00",
+ "maj": "2026-11-03T02:18:28.333086+00:00",
  "sources_ok": [
   "Notes de version Claude (API)",
   "Notes de version OpenAI (API)",
@@ -60,15 +60,15 @@
    "erreur": "429 Client Error: Too Many Requests for url: https://venturebeat.com/category/ai/feed/"
   }
  ],
- "total": 1896,
- "analyses": 1749,
+ "total": 1940,
+ "analyses": 1773,
  "brief": {
-  "titre": "Anthropic explose les compteurs, l'open source et les infrastructures avancent",
-  "texte": "L'actualité est dominée par Anthropic, qui affiche des revenus trimestriels massifs et prépare son introduction en bourse tout en teasant le modèle Claude Mythos 5.5. Côté open source, la communauté s'active avec la quantification à 1 bit de DeepSeek-V4.1-Flash, la sortie de Heretic 2.0 et la confirmation par Alibaba de la pérennité des modèles Qwen. Les besoins énergétiques et matériels explosent également, illustrés par le programme Grid Protectors d'OpenAI et l'expansion de Colossus 2 par SpaceXAI. Enfin, OpenAI renforce son offre professionnelle en doublant les limites d'utilisation de ses abonnés Pro.",
+  "titre": "Anthropic domine l'actualité financière et l'IA auto-améliorable",
+  "texte": "Anthropic monopolise l'attention avec des revenus impressionnants de 17 milliards de dollars et l'annonce du futur modèle Claude Mythos 5.5, tout en alertant sur l'approche de l'IA auto-améliorable. Sur le plan technique, la communauté open source progresse avec une quantification à 1 bit pour DeepSeek et la confirmation par Alibaba du maintien de l'open source pour les futurs modèles Qwen. Parallèlement, le secteur adapte ses infrastructures avec l'extension des data centers pour Colossus 2 et l'optimisation des API via les nouveaux Message Threads d'Anthropic. Enfin, OpenAI s'engage pour le réseau électrique avec le programme Grid Protectors.",
   "a_tester": [
-   "Tester les limites doublées des comptes OpenAI Pro pour vos flux de travail",
-   "Explorer les nouveautés de l'outil open source Heretic 2.0 pour la modification de modèles",
-   "Évaluer le modèle quantifié DeepSeek-V4.1-Flash à 1 bit sur votre infrastructure locale"
+   "Tester les 'Message Threads' de l'API Anthropic pour optimiser vos intégrations",
+   "Explorer les nouveaux modèles open source Qwen et la quantification 1 bit de DeepSeek",
+   "Analyser l'impact des annonces d'Anthropic sur votre stratégie d'utilisation interne de l'IA"
   ]
  },
  "top5": {
