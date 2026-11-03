@@ -1,5 +1,5 @@
 {
- "maj": "2026-11-03T11:56:08.072484+00:00",
+ "maj": "2026-11-03T19:29:29.685374+00:00",
  "sources_ok": [
   "Notes de version Claude (API)",
   "Notes de version OpenAI (API)",
@@ -29,6 +29,7 @@
   "The Verge IA",
   "TechCrunch IA",
   "Simon Willison",
+  "Hacker News (IA, 100+ pts)",
   "r/LocalLLaMA",
   "arXiv cs.AI",
   "arXiv cs.CL",
@@ -57,21 +58,17 @@
   {
    "nom": "VentureBeat IA",
    "erreur": "429 Client Error: Too Many Requests for url: https://venturebeat.com/category/ai/feed/"
-  },
-  {
-   "nom": "Hacker News (IA, 100+ pts)",
-   "erreur": "HTTPSConnectionPool(host='hnrss.org', port=443): Read timed out. (read timeout=25)"
   }
  ],
- "total": 1983,
- "analyses": 1790,
+ "total": 2031,
+ "analyses": 1803,
  "brief": {
-  "titre": "Anthropic domine l'actualité entre profits records et IA autonome",
-  "texte": "Anthropic s'impose au cœur de l'actualité avec des revenus stratosphériques atteignant 17 milliards de dollars et l'annonce de l'approche imminente d'une IA auto-améliorable, alors que Claude code déjà 90 % de ses programmes. En parallèle, l'écosystème open source progresse avec l'arrivée de la quantification à 1 bit pour DeepSeek-V4.1-Flash et la confirmation par Alibaba du maintien de l'ouverture pour les futurs modèles Qwen. Côté infrastructures, OpenAI déploie le programme Grid Protectors et son backend Git Pando, tandis que SpaceXAI étend son campus Colossus 2. Enfin, Anthropic introduit de nouvelles fonctionnalités API avec les Message Threads et renforce la sécurité avec Claude Cowork, malgré les tensions juridiques persistantes autour du droit d'auteur pour Google Gemini.",
+  "titre": "L'IA s'accélère : entre auto-amélioration, records financiers et défis énergétiques",
+  "texte": "La course à l'intelligence artificielle franchit de nouveaux paliers industriels et techniques cette semaine, avec une domination croissante des usages et des revenus records pour les acteurs majeurs. Anthropic domine l'actualité en annonçant 17 milliards de dollars de revenus au troisième trimestre et en préparant des systèmes d'IA auto-améliorables, alors que Claude rédige déjà 90% de son code. En parallèle, OpenAI et Google structuraient leurs écosystèmes, OpenAI lançant son backend Git Pando et le programme Grid Protectors, tandis que ChatGPT s'impose durablement dans les usages en atteignant 20% du volume de recherche de Google. Sur le plan open source, l'innovation locale progresse rapidement avec la sortie par ISTA d'une version quantifiée à 1 bit du modèle DeepSeek-V4.1-Flash.",
   "a_tester": [
-   "Tester les 'Message Threads' de l'API Claude pour optimiser vos intégrations de requêtes.",
-   "Explorer les performances des nouveaux modèles open source quantifiés à 1 bit.",
-   "Vérifier la conformité de vos processus face aux nouvelles exigences de sécurité en IA."
+   "Tester l'API des nouveaux 'Message Threads' d'Anthropic pour optimiser vos développements.",
+   "Explorer le modèle quantifié à 1 bit DeepSeek-V4.1-Flash pour vos expérimentations locales.",
+   "Intégrer les fonctionnalités de codage de Claude dans votre flux de travail actuel."
   ]
  },
  "top5": {
