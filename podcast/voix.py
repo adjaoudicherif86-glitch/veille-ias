@@ -60,8 +60,17 @@ def parler(texte, voix, consignes="", tentatives=4, langue="fr-FR"):
     erreurs = []
     for nom in list(_MODELE):
         for essai in range(tentatives):
-            r = requests.post(f"{API}/models/{nom}:generateContent", headers={"x-goog-api-key": _cle()},
-                              json=corps, timeout=180)
+            try:
+                r = requests.post(f"{API}/models/{nom}:generateContent", headers={"x-goog-api-key": _cle()},
+                                  json=corps, timeout=150)
+            except requests.RequestException as e:
+                print(f"  (voix : pas de réponse de {nom}, {type(e).__name__}, nouvel essai)", file=sys.stderr)
+                time.sleep(10)
+                continue
+            if r.status_code in (500, 502, 503, 504):
+                print(f"  (voix : {nom} surchargé ({r.status_code}), nouvel essai)", file=sys.stderr)
+                time.sleep(15 * (essai + 1))
+                continue
             if r.status_code == 429:
                 attente = 25 * (essai + 1)
                 print(f"  ⏸ quota vocal atteint sur {nom}, nouvel essai dans {attente} s")

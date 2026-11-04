@@ -114,8 +114,12 @@ def ecrire(maintenant=None, minutes=5):
     message = "MATIÈRE DE L'ÉPISODE (JSON) :\n" + json.dumps(m, ensure_ascii=False, indent=1)
     essais = [(m, k) for m in candidats for k in range(2)]
     for modele, k in essais:
-        r = s.post(URL, timeout=180, json={"model": modele, "temperature": 0.8,
-                                          "messages": [{"role": "system", "content": consigne}, {"role": "user", "content": message}]})
+        try:
+            r = s.post(URL, timeout=150, json={"model": modele, "temperature": 0.8,
+                                              "messages": [{"role": "system", "content": consigne}, {"role": "user", "content": message}]})
+        except requests.RequestException as e:
+            print(f"   ({modele} : pas de réponse, {type(e).__name__} ; on passe à la suite)")
+            continue
         if r.status_code in (429, 404, 400, 403, 503):
             print(f"   ({modele} : {r.status_code}, {'nouvel essai' if k == 0 else 'modèle suivant'})")
             if r.status_code in (429, 503) and k == 0:
