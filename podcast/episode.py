@@ -26,8 +26,19 @@ def main():
     enregistrees, modele_voix = [], None
     for k, x in enumerate(seqs, 1):
         consignes = rocco.PROFIL + "\n" + rocco.INTENTIONS[x["type"]]
-        pcm, modele_voix = voix.parler(x["texte"], rocco.VOIX, consignes)
-        print(f"🎙️  {k}/{len(seqs)} {x['type']} : {len(pcm) / 24000:.1f} s")
+        mots = len(x["texte"].split())
+        attendu = mots / 2.5                     # Rocco parle à environ 150 mots par minute
+        essais = []
+        for essai in range(3):
+            pcm, modele_voix = voix.parler(x["texte"], rocco.VOIX, consignes)
+            duree = len(pcm) / 24000
+            essais.append(pcm)
+            # garde-fou : une séquence bien plus longue que prévu = la voix a répété ou improvisé
+            if attendu * 0.6 <= duree <= attendu * 1.45 + 4:
+                break
+            print(f"   ⚠️  {k}/{len(seqs)} {x['type']} : {duree:.1f} s pour {mots} mots (attendu ~{attendu:.0f} s), on réenregistre")
+        pcm = min(essais, key=lambda p: abs(len(p) / 24000 - attendu))
+        print(f"🎙️  {k}/{len(seqs)} {x['type']} : {len(pcm) / 24000:.1f} s ({mots} mots)")
         enregistrees.append((x["type"], pcm))
     mix, debuts = sons.monter_episode(enregistrees, rocco.INTENSITE_RADIO)
     nom = f"flair-fm-{maintenant:%Y-%m-%d}.mp3"
