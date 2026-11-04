@@ -1,5 +1,5 @@
 {
- "maj": "2026-11-04T00:36:35.005227+00:00",
+ "maj": "2026-11-04T12:08:30.322574+00:00",
  "sources_ok": [
   "Notes de version Claude (API)",
   "Notes de version OpenAI (API)",
@@ -60,15 +60,15 @@
    "erreur": "429 Client Error: Too Many Requests for url: https://venturebeat.com/category/ai/feed/"
   }
  ],
- "total": 2059,
- "analyses": 1816,
+ "total": 2089,
+ "analyses": 1823,
  "brief": {
-  "titre": "Anthropic domine l'actualité entre records financiers et IA autonome",
-  "texte": "Anthropic s'impose au cœur de l'actualité en affichant des revenus massifs de 17 milliards de dollars au troisième trimestre tout en préparant le terrain pour une IPO et en développant des systèmes de filigrane et d'authentification pour ses modèles. L'entreprise met toutefois en garde contre l'approche imminente de l'IA auto-améliorable, un sujet brûlant alors que Claude écrit déjà 90 % de son code. Pendant ce temps, l'écosystème open source continue d'innover avec la sortie par l'ISTA d'une version quantifiée à 1 bit du modèle DeepSeek-V4.1-Flash. Enfin, les géants de la tech structurent leurs infrastructures, à l'image d'OpenAI qui lance le programme Grid Protectors pour soutenir le réseau électrique et de Google DeepMind qui accélère la découverte de médicaments avec Antigravity.",
+  "titre": "Anthropic enchaîne les annonces majeures et bouscule l'écosystème",
+  "texte": "Anthropic monopolise l'actualité avec la préparation de son IPO, le développement d'une IA auto-améliorante et l'intégration d'outils de contrôle du PC dans ses SDK. Pendant ce temps, OpenAI fait face à l'obsolescence de certains modèles de recherche tandis que ChatGPT Search gagne du terrain. Google se distingue entre pressions sur les écoles, ambitions en biotechnologie avec Antigravity et tensions sur le droit d'auteur. Enfin, Tencent muscle la concurrence open-weight avec son nouveau modèle Hy4.",
   "a_tester": [
-   "Tester l'impact des nouveaux filigranes textuels sur les API Claude récentes",
-   "Explorer la version quantifiée à 1 bit de DeepSeek-V4.1-Flash sur votre infrastructure locale",
-   "Évaluer les implications des outils de code comme le backend Pando d'OpenAI"
+   "Explorer les nouveaux outils de contrôle du PC et du navigateur dans les SDK Claude",
+   "Tester les performances du nouveau modèle open-weight Hy4 de Tencent",
+   "Analyser l'impact de l'obsolescence des modèles o3 et o4 sur vos intégrations API OpenAI"
   ]
  },
  "top5": {

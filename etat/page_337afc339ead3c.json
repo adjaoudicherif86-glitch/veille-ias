@@ -1,6 +1,6 @@
 {
  "url": "https://developers.openai.com/api/docs/changelog",
- "maj": "2026-11-04T00:36:34.999359+00:00",
+ "maj": "2026-11-04T12:08:30.316983+00:00",
  "lignes": [
   "Changelog",
   "October, 2026",
@@ -129,6 +129,7 @@
   "- Reasoning effort now defaults to medium.",
   "- When image_detail is unset or set to auto, the model now uses original behavior.",
   "- Caching for GPT-5.5 only works with extended prompt caching. In-memory prompt caching is not supported. Learn more here.",
+  "Deprecated o3-deep-research and o4-mini-deep-research, including their June 26, 2025 snapshots. These models are scheduled to shut down on July 23, 2026. See the deprecation notice.",
   "Released GPT Image 2, a state-of-the-art image generation model for image generation and editing. GPT Image 2 supports flexible image sizes, high-fidelity image inputs, token-based image pricing, and Batch API support with a 50% discount.",
   "Updated the Agents SDK with new capabilities, including:",
   "- running agents in controlled sandboxes;",
