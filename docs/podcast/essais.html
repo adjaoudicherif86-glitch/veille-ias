@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Flair FM : les essais</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:wght@400;700&family=Bricolage+Grotesque:opsz,wght@12..96,700;12..96,800&display=swap" rel="stylesheet">
+<style>
+:root{
+  --fond:#0E1512; --surface:#16211B; --surface2:#1C2A22; --encre:#E8EFE6; --doux:#97A99B; --trait:#2A3A30;
+  --neon:#FF7B3F; --neon2:#5FE0C1;
+  --titre:"Bricolage Grotesque", system-ui, sans-serif; --texte:"Atkinson Hyperlegible", system-ui, sans-serif;
+  color-scheme:dark;
+}
+*,*::before,*::after{box-sizing:border-box}
+body{margin:0;background:var(--fond);color:var(--encre);font:16px/1.55 var(--texte);-webkit-font-smoothing:antialiased;
+  padding:env(safe-area-inset-top,0) 0 env(safe-area-inset-bottom,0)}
+.wrap{max-width:760px;margin:0 auto;padding:28px 16px 60px}
+.retour{color:var(--doux);font-size:14px;text-decoration:none}
+.retour:hover{color:var(--encre)}
+h1{font:800 clamp(40px,9vw,68px)/.95 var(--titre);letter-spacing:-.04em;margin:18px 0 6px}
+h1 span{color:var(--neon);text-shadow:0 0 18px rgba(255,123,63,.45)}
+.chapo{color:var(--doux);margin:0 0 26px;max-width:58ch}
+.carte{background:var(--surface);border:1px solid var(--trait);border-radius:18px;padding:20px;margin-bottom:16px}
+.tete{display:flex;align-items:center;gap:14px;margin-bottom:12px}
+.avatar{flex:0 0 auto;width:54px;height:54px;border-radius:14px;display:grid;place-items:center;font:800 22px/1 var(--titre);
+  color:#0E1512;background:var(--c)}
+.tete h2{font:800 26px/1 var(--titre);margin:0 0 4px;letter-spacing:-.02em}
+.tete small{color:var(--doux)}
+.carte p{margin:0 0 14px}
+audio{width:100%;height:44px;margin:2px 0 10px;border-radius:99px}
+details summary{cursor:pointer;color:var(--doux);font-size:14px}
+details p{font-size:15px;color:var(--doux);margin-top:8px;font-style:italic}
+.erreur{background:#3A2216;color:#FFB08A;border-radius:12px;padding:12px 14px;font-size:15px}
+.choix{display:inline-block;margin-top:2px;border:1px solid var(--trait);border-radius:99px;padding:8px 14px;background:var(--surface2);color:var(--encre);font-weight:700;cursor:pointer}
+.choix[aria-pressed="true"]{background:var(--neon);border-color:var(--neon);color:#0E1512}
+.note{color:var(--doux);font-size:14px;margin-top:26px}
+.vide{color:var(--doux)}
+:focus-visible{outline:3px solid var(--neon2);outline-offset:2px}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <a class="retour" href="../">← Retour à Flair</a>
+  <h1>Flair <span>FM</span></h1>
+  <p class="chapo">Trois animateurs pour ton flash IA du matin. Écoute les trois, garde ton préféré : c'est lui qui présentera l'émission chaque jour.</p>
+  <div id="liste"><p class="vide">Chargement des extraits…</p></div>
+  <p class="note" id="note"></p>
+</div>
+<script>
+const COULEURS = {vex:"#FF7B3F", rocco:"#C9B37E", nova:"#5FE0C1"};
+const esc = s => String(s ?? "").replace(/[&<>"']/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
+const memo = { get(){ try{ return localStorage.getItem("flairfm:choix"); }catch{ return null; } }, set(v){ try{ localStorage.setItem("flairfm:choix", v); }catch{} } };
+async function charger(){
+  let infos;
+  try{ infos = await (await fetch("essais/infos.json", {cache:"no-store"})).json(); }
+  catch{ document.getElementById("liste").innerHTML = `<p class="vide">Les extraits ne sont pas encore prêts. Reviens dans quelques minutes.</p>`; return; }
+  const choisi = memo.get();
+  document.getElementById("liste").innerHTML = infos.animateurs.map(a => `
+    <article class="carte">
+      <div class="tete"><div class="avatar" style="--c:${COULEURS[a.id]||"#888"}">${esc(a.nom[0])}</div>
+        <div><h2>${esc(a.nom)}</h2><small>${esc(a.style)}${a.duree?`, ${Math.round(a.duree)} s`:""}</small></div></div>
+      <p>${esc(a.description)}</p>
+      ${a.fichier ? `<audio controls preload="none" src="essais/${esc(a.fichier)}?v=${encodeURIComponent(infos.genere)}"></audio>`
+                  : `<p class="erreur">Cet extrait n'a pas pu être enregistré.</p>`}
+      <button class="choix" data-id="${esc(a.id)}" aria-pressed="${choisi===a.id}">${choisi===a.id ? "Mon préféré" : "C'est lui que je préfère"}</button>
+      <details><summary>Lire le texte</summary><p>${esc(a.texte)}</p></details>
+    </article>`).join("");
+  document.querySelectorAll("audio").forEach(el => el.addEventListener("play", () => document.querySelectorAll("audio").forEach(o => o !== el && o.pause())));
+  document.querySelectorAll(".choix").forEach(b => b.onclick = () => { memo.set(b.dataset.id); charger(); });
+  document.getElementById("note").textContent = `Enregistré le ${new Date(infos.genere).toLocaleString("fr-FR",{dateStyle:"long",timeStyle:"short"})}. Voix de synthèse Gemini, habillage sonore original.`;
+}
+charger();
+</script>
+</body>
+</html>

@@ -1,0 +1,30 @@
+name: "Podcast : extraits d'essai"
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  essais:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install requests numpy scipy lameenc
+      - name: Enregistrer les extraits
+        env:
+          LLM_API_KEY: ${{ secrets.LLM_API_KEY }}
+          LLM_TTS_MODEL: ${{ vars.LLM_TTS_MODEL }}
+        run: python podcast/essais.py
+      - name: Publier
+        run: |
+          git config user.name "veille-bot"
+          git config user.email "veille-bot@users.noreply.github.com"
+          git add docs/podcast
+          git diff --cached --quiet || git commit -m "Podcast : extraits d'essai"
+          git pull --rebase origin main && git push
