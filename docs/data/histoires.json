@@ -1,6 +1,74 @@
 {
- "maj": "2026-11-03T19:29:29.685301+00:00",
+ "maj": "2026-11-04T00:36:35.005153+00:00",
  "histoires": [
+  {
+   "id": "h_97c425e6a7",
+   "titre": "Mise à jour v2.1.314 de Claude Code",
+   "resume": "Anthropic déploie et met régulièrement à jour Claude Code, avec des versions successives (jusqu'à v2.1.318) qui renforcent la sécurité, la gestion administrative et le suivi des sessions. L'outil intègre des contrôles stricts pour empêcher les utilisations non désirées et s'intègre plus finement avec les passerelles cloud et les rôles AWS.",
+   "creee": "2026-10-30T01:09:42.604214+00:00",
+   "maj": "2026-11-04T00:01:03+00:00",
+   "episodes": [
+    {
+     "id": "fd961a2239120b",
+     "date": "2026-10-30T01:06:26+00:00",
+     "titre": "Mise à jour Claude Code v2.1.314 : sécurité et résilience",
+     "neuf": "Publication de la version v2.1.314 apportant des correctifs de sécurité et de résilience.",
+     "fil": "Mises à jour de Claude Code",
+     "source": "Claude Code",
+     "lien": "https://github.com/anthropics/claude-code/releases/tag/v2.1.314",
+     "nb_sources": 1,
+     "primaire": true
+    },
+    {
+     "id": "a1eae37ef93f12",
+     "date": "2026-10-31T01:01:35+00:00",
+     "titre": "Mise à jour Claude Code v2.1.316 : budgets partagés et correctifs",
+     "neuf": "Déploiement de la version v2.1.316 introduisant des budgets partagés et de nouveaux contrôles administratifs.",
+     "fil": "Mise à jour de Claude Code",
+     "source": "Claude Code",
+     "lien": "https://github.com/anthropics/claude-code/releases/tag/v2.1.316",
+     "nb_sources": 1,
+     "primaire": true
+    },
+    {
+     "id": "21325d54bf349a",
+     "date": "2026-11-02T17:13:47+00:00",
+     "titre": "Yet another reason to self host: Anthropic has (again) cut back on reverse engineering tools",
+     "neuf": "Les utilisateurs signalent de nouvelles limitations dans Claude Code pour empêcher le clonage de jeux et le reverse engineering.",
+     "fil": "Mêmes limites et restrictions sur les outils de reverse engineering de Claude Code",
+     "source": "r/LocalLLaMA",
+     "lien": "https://www.reddit.com/r/LocalLLaMA/comments/1xm33gr/yet_another_reason_to_self_host_anthropic_has/",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "3233c3993f901c",
+     "date": "2026-11-03T01:25:46+00:00",
+     "titre": "Notes de version Claude Code v2.1.317 : sécurité et outils admin",
+     "neuf": "Sortie de la version v2.1.317 axée sur la sécurité, les outils administratifs et la correction de bugs.",
+     "fil": "Mise à jour corrective et fonctionnelle de Claude Code",
+     "source": "Claude Code",
+     "lien": "https://github.com/anthropics/claude-code/releases/tag/v2.1.317",
+     "nb_sources": 1,
+     "primaire": true
+    },
+    {
+     "id": "a506088947db76",
+     "date": "2026-11-04T00:01:03+00:00",
+     "titre": "Claude Code v2.1.318",
+     "neuf": "Publication de la version v2.1.318 ajoutant un historique des réponses pour les modifications de session et le support d'assumer un rôle sur les passerelles AWS.",
+     "fil": "Mise à jour de Claude Code",
+     "source": "Claude Code",
+     "lien": "https://github.com/anthropics/claude-code/releases/tag/v2.1.318",
+     "nb_sources": 1,
+     "primaire": true
+    }
+   ],
+   "statut": "active",
+   "societes": [
+    "anthropic"
+   ]
+  },
   {
    "id": "h_580b53331a",
    "titre": "Intégration de Grok dans les taxis autonomes Tesla",
@@ -533,7 +601,7 @@
   {
    "id": "h_5febc86840",
    "titre": "L'introduction en Bourse d'Anthropic",
-   "resume": "Anthropic poursuit activement les préparatifs de son introduction en bourse tout en faisant face à une pression financière intense liée à ses coûts de calcul massifs et à la dégradation de ses marges. L'entreprise gère en parallèle une croissance rapide et des dépenses internes très élevées pour ses services d'IA.",
+   "resume": "Anthropic poursuit ses préparatifs en vue de son introduction en bourse, en s'appuyant notamment sur les compétences de Claude en conception de puces et sur une fenêtre de marché favorable. L'entreprise doit toutefois composer avec des pressions financières liées à la baisse de ses marges de calcul et aux doutes de certains analystes quant à la viabilité à court terme de l'opération.",
    "creee": "2026-10-20T09:56:16.457937+00:00",
    "maj": "2026-11-03T17:07:01+00:00",
    "episodes": [
@@ -1539,6 +1607,17 @@
      "primaire": false
     },
     {
+     "id": "48685de4fece84",
+     "date": "2026-11-03T11:04:00+00:00",
+     "titre": "Les résultats d'Anthropic compliquent ses projets d'IPO selon les analystes",
+     "neuf": "Les derniers résultats financiers font douter les analystes d'une introduction en bourse favorable à court terme.",
+     "fil": "Même introduction en Bourse d'Anthropic",
+     "source": "Anthropic (actus)",
+     "lien": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNLXZGRmN4Mm9UUjBzdnVOMHEwVlJTNkpVZE1Odi1keFhfQm15VmdEUTBiRkdoV1l3SnpmWER6elZiYjZ2UTN2WTFoeEZOVTI0dXhwbnN5eEs2Q05IcUFyY054ME5qel93dkpQV1haWGJDbWx1dFhNQUxBYlozenB3UUVkNDYxRG5qT0JiMFNQQUN0Z1lwQm1yczlqWjlmLW9VTFNhRk9SS1VlNG9mZERQV21tVWo5Q1BueUlrcW5lZDk?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
      "id": "f2c9b2490d367c",
      "date": "2026-11-03T13:24:19+00:00",
      "titre": "Anthropic affiche des pertes face aux coûts massifs de calcul avant son introduction en bourse",
@@ -1550,6 +1629,17 @@
      "primaire": false
     },
     {
+     "id": "469e1e1d98ee0d",
+     "date": "2026-11-03T14:00:00+00:00",
+     "titre": "Anthropic met en avant les compétences de Claude en conception de puces pour son IPO",
+     "neuf": "Anthropic met en avant les compétences de Claude en conception de puces pour convaincre les investisseurs en vue de son introduction en bourse.",
+     "fil": "Même introduction en Bourse d'Anthropic",
+     "source": "Anthropic (actus)",
+     "lien": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQYnpwS0FzRk9KWUhPNC1rT3JnNWdLN1NhTWM0VU5zWHkyZEo5NVR1dXJhTWdVY2R0ZGEwcVhDTGZ3TkR5SGRIemoyenlCUU1TV2xMTzNBa0xtZDJSb1hGeUVqVlhBVmJNRVFkVS1qb21LdmtqOUxmWEtVOEgwd3JnRnNJMHJIQXdfYndBMUpjZWNPaGRwSW55ZWJsdEk?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
      "id": "f921040bc5e3bb",
      "date": "2026-11-03T14:33:21+00:00",
      "titre": "Tout savoir sur l'IPO d'Anthropic",
@@ -1557,6 +1647,17 @@
      "fil": "même introduction en Bourse d'Anthropic",
      "source": "Anthropic (actus)",
      "lien": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOUkN1VHFrREJneU9DdUV5UVBuT29PM1hOdXN5aU5udTZqc21yV1VMS0VySEJqa1NrLWlhcTdYdVM1Nmo3MDdJWWtEc2JRWDVrVXBKX2tJS0t4TTg0eG4zLVJqWFBNNUlCd1hDR3YxeHlvUmFqdks1cHFQUGk5U2RaX2JuYnl5REFlN0pRX25DdU9SX2s?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "45c1ddf5c5cb3f",
+     "date": "2026-11-03T17:00:00+00:00",
+     "titre": "Le marché des introductions en bourse s'ouvre pour Anthropic",
+     "neuf": "Anthropic bénéficie d'une ouverture favorable du marché des introductions en bourse par rapport à d'autres acteurs.",
+     "fil": "Même introduction en Bourse d'Anthropic",
+     "source": "Anthropic (actus)",
+     "lien": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOUl9Idk9HS21XSzJpc0NwdVlmSXU1X0xlZnZVMWlWY2c4eGVFMGJpNGVMSl81Y1djWUVvZl81RkFpUXh4aFZCRnVxel8yckF1cjhKZmJhc2tvSWlDVmtiZWtsZW1CeHJVX2Z3S0FyMER0TFZxaGFPWS1PNjZnam1SWG1uMzAtOTNyc0RWcUI1d1pxOXN2MGFvVWRPTQ?oc=5",
      "nb_sources": 1,
      "primaire": false
     },
@@ -1667,6 +1768,50 @@
    "societes": [
     "ollama"
    ]
+  },
+  {
+   "id": "h_673e2591a4",
+   "titre": "Saisie de serveurs à puces IA en Malaisie",
+   "resume": "Les autorités poursuivent leurs actions contre les violations des réglementations sur l'exportation de puces, tandis que de nouvelles méthodes de contournement, comme l'association de mémoire HBM à des processeurs non sanctionnés vers la Chine, sont mises en lumière.",
+   "creee": "2026-10-28T16:59:03.629060+00:00",
+   "maj": "2026-11-03T12:04:32+00:00",
+   "episodes": [
+    {
+     "id": "5d3712455705a1",
+     "date": "2026-10-28T10:16:04+00:00",
+     "titre": "Saisie de serveurs équipés de puces IA avancées en Malaisie",
+     "neuf": "Les autorités malaisiennes saisissent des serveurs équipés de puces IA dans le cadre de soupçons de violation des contrôles à l'export.",
+     "fil": "Saisie de serveurs à puces IA en Malaisie",
+     "source": "Contrôles à l'export IA",
+     "lien": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxQTWNocVNCQmJfUnhoQ1FfdGhEc2VjenVDMGpUUDY2SnJRX3JVZmFiMUhVbDVXbTZEUHZiZS1ZbGxaUXlJeWNXMWJDWW9xVnotaEczSHF6NjlNcVpvODkzVkFxd1ZBdm83eVRSM3QyenZ4Z0RPS3VhZm0tMDlpbE5ITjhDdmVnOW9vcmdXbF9VR1J5NGk1UzVDTDZ6cVU0YVNVUnUtYXZUclNnRW9aV0dCUndReHB3MVd0clhXWktIYVdmbTVoejU5NnQzRVZhMEZPU2xCNENIZm0zSDlzVG5RLUx1WjMyUGNRa0lweGFZNDVLZ0hxa2x4aWpBaHg1UQ?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "6dc152733a60f2",
+     "date": "2026-10-28T11:12:35+00:00",
+     "titre": "Saisie de serveurs équipés de puces IA en Malaisie pour violation suspectée des contrôles à l'export",
+     "neuf": "Confirmation officielle de la saisie de serveurs contenant des puces avancées soupçonnées d'infraction aux contrôles.",
+     "fil": "même saisie de serveurs en Malaisie",
+     "source": "Contrôles à l'export IA",
+     "lien": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNeU80bXl0NnNNS0JRUU91NUJIdFB6dDRrZlY1TXQzYUo3S1hfRG5oS3hpWk5qOHVxaWptQUZMaHBwUm5sdV9hLUNmRDFqUGhGS2FvbHdLeXRGUmhlb0R2TkloTU5wM2hxRWxGWWZFQ292MklNY3ZiZXBBa3BNN0VobVdxSjVRVzdNYTBJWWhYM2hOQTgyejJ0VUI5ZzY0WU5rQ2pUUE9YeUdvU2ZueHRaRWJDak95R1dBMDZZOEkyN0tVWG9BYmJ3TzhMRHVLQk9OMWYxYVhveUs?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "5913af8889b950",
+     "date": "2026-11-03T12:04:32+00:00",
+     "titre": "Contournement des sanctions sur les puces IA grâce à une faille d'exportation",
+     "neuf": "Des contrebandiers exploitent une faille en associant de la mémoire HBM interdite à des processeurs non sanctionnés pour l'acheminer vers la Chine.",
+     "fil": "Même problématique de contournement des contrôles à l'exportation de puces",
+     "source": "Contrôles à l'export IA",
+     "lien": "https://news.google.com/rss/articles/CBMi4wJBVV95cUxNczB1bmd3Umc1VkpITE9hR0cybF9uMTNvT01RcWVodndZRlZpUS1TTTBDOEs2WlFWMGo5OC1UR2szQ3VENE1fbHFSYW9mdG52R3RwSVFfNjNRM2F0MGtIWFVWMzdpWndQYzg0OWNyV3l2NnV6SFNzNmVPOTVnYWxEZUFQRlZIbEdXbXBZNlpOTVBzVS1HSWhHaEVNcklmX2Vza3VZQ25KbU1KZzVKbS1INjZMN2Z5MEtCTmctT1hSVjhtYU0zdnhBcDNsQ1FmRkZWX2lDUjIya2RCdXFjR0J3V2JWdVFCMHZSbjlnSno5RDBkdnItOFFKTkVUNmhzU0tNY2ZFLXNGWkY5LU93VnROZFZqQi1sdldaN29zRExpN20xbnRUMjlnM216ZGtDaUsyWFVfY1pzY2N1eEFOMXlvWTNOUWNtTlNNa1R4WU1nYlpPcVFlZ0ZWZC13S2NHYnc1Ym5R?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    }
+   ],
+   "statut": "active",
+   "societes": []
   },
   {
    "id": "h_01ca2f52c0",
@@ -1875,63 +2020,6 @@
    "societes": [
     "alibaba",
     "google"
-   ]
-  },
-  {
-   "id": "h_97c425e6a7",
-   "titre": "Mise à jour v2.1.314 de Claude Code",
-   "resume": "Anthropic déploie et met régulièrement à jour Claude Code, avec des versions successives (jusqu'à v2.1.317) qui renforcent la sécurité, la gestion administrative et corrigent les bugs de session. L'outil intègre des contrôles stricts pour empêcher les utilisations non désirées et le reverse engineering. Des incidents de sécurité isolés ont également touché ses extensions par le passé.",
-   "creee": "2026-10-30T01:09:42.604214+00:00",
-   "maj": "2026-11-03T01:25:46+00:00",
-   "episodes": [
-    {
-     "id": "fd961a2239120b",
-     "date": "2026-10-30T01:06:26+00:00",
-     "titre": "Mise à jour Claude Code v2.1.314 : sécurité et résilience",
-     "neuf": "Publication de la version v2.1.314 apportant des correctifs de sécurité et de résilience.",
-     "fil": "Mises à jour de Claude Code",
-     "source": "Claude Code",
-     "lien": "https://github.com/anthropics/claude-code/releases/tag/v2.1.314",
-     "nb_sources": 1,
-     "primaire": true
-    },
-    {
-     "id": "a1eae37ef93f12",
-     "date": "2026-10-31T01:01:35+00:00",
-     "titre": "Mise à jour Claude Code v2.1.316 : budgets partagés et correctifs",
-     "neuf": "Déploiement de la version v2.1.316 introduisant des budgets partagés et de nouveaux contrôles administratifs.",
-     "fil": "Mise à jour de Claude Code",
-     "source": "Claude Code",
-     "lien": "https://github.com/anthropics/claude-code/releases/tag/v2.1.316",
-     "nb_sources": 1,
-     "primaire": true
-    },
-    {
-     "id": "21325d54bf349a",
-     "date": "2026-11-02T17:13:47+00:00",
-     "titre": "Yet another reason to self host: Anthropic has (again) cut back on reverse engineering tools",
-     "neuf": "Les utilisateurs signalent de nouvelles limitations dans Claude Code pour empêcher le clonage de jeux et le reverse engineering.",
-     "fil": "Mêmes limites et restrictions sur les outils de reverse engineering de Claude Code",
-     "source": "r/LocalLLaMA",
-     "lien": "https://www.reddit.com/r/LocalLLaMA/comments/1xm33gr/yet_another_reason_to_self_host_anthropic_has/",
-     "nb_sources": 1,
-     "primaire": false
-    },
-    {
-     "id": "3233c3993f901c",
-     "date": "2026-11-03T01:25:46+00:00",
-     "titre": "Notes de version Claude Code v2.1.317 : sécurité et outils admin",
-     "neuf": "Sortie de la version v2.1.317 axée sur la sécurité, les outils administratifs et la correction de bugs.",
-     "fil": "Mise à jour corrective et fonctionnelle de Claude Code",
-     "source": "Claude Code",
-     "lien": "https://github.com/anthropics/claude-code/releases/tag/v2.1.317",
-     "nb_sources": 1,
-     "primaire": true
-    }
-   ],
-   "statut": "active",
-   "societes": [
-    "anthropic"
    ]
   },
   {
@@ -4184,39 +4272,6 @@
     "usgov",
     "openai"
    ]
-  },
-  {
-   "id": "h_673e2591a4",
-   "titre": "Saisie de serveurs à puces IA en Malaisie",
-   "resume": "Les autorités malaisiennes confirment et poursuivent la saisie de serveurs équipés de puces d'intelligence artificielle avancées, soupçonnées d'avoir enfreint les réglementations sur les contrôles à l'exportation.",
-   "creee": "2026-10-28T16:59:03.629060+00:00",
-   "maj": "2026-10-28T11:12:35+00:00",
-   "episodes": [
-    {
-     "id": "5d3712455705a1",
-     "date": "2026-10-28T10:16:04+00:00",
-     "titre": "Saisie de serveurs équipés de puces IA avancées en Malaisie",
-     "neuf": "Les autorités malaisiennes saisissent des serveurs équipés de puces IA dans le cadre de soupçons de violation des contrôles à l'export.",
-     "fil": "Saisie de serveurs à puces IA en Malaisie",
-     "source": "Contrôles à l'export IA",
-     "lien": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxQTWNocVNCQmJfUnhoQ1FfdGhEc2VjenVDMGpUUDY2SnJRX3JVZmFiMUhVbDVXbTZEUHZiZS1ZbGxaUXlJeWNXMWJDWW9xVnotaEczSHF6NjlNcVpvODkzVkFxd1ZBdm83eVRSM3QyenZ4Z0RPS3VhZm0tMDlpbE5ITjhDdmVnOW9vcmdXbF9VR1J5NGk1UzVDTDZ6cVU0YVNVUnUtYXZUclNnRW9aV0dCUndReHB3MVd0clhXWktIYVdmbTVoejU5NnQzRVZhMEZPU2xCNENIZm0zSDlzVG5RLUx1WjMyUGNRa0lweGFZNDVLZ0hxa2x4aWpBaHg1UQ?oc=5",
-     "nb_sources": 1,
-     "primaire": false
-    },
-    {
-     "id": "6dc152733a60f2",
-     "date": "2026-10-28T11:12:35+00:00",
-     "titre": "Saisie de serveurs équipés de puces IA en Malaisie pour violation suspectée des contrôles à l'export",
-     "neuf": "Confirmation officielle de la saisie de serveurs contenant des puces avancées soupçonnées d'infraction aux contrôles.",
-     "fil": "même saisie de serveurs en Malaisie",
-     "source": "Contrôles à l'export IA",
-     "lien": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNeU80bXl0NnNNS0JRUU91NUJIdFB6dDRrZlY1TXQzYUo3S1hfRG5oS3hpWk5qOHVxaWptQUZMaHBwUm5sdV9hLUNmRDFqUGhGS2FvbHdLeXRGUmhlb0R2TkloTU5wM2hxRWxGWWZFQ292MklNY3ZiZXBBa3BNN0VobVdxSjVRVzdNYTBJWWhYM2hOQTgyejJ0VUI5ZzY0WU5rQ2pUUE9YeUdvU2ZueHRaRWJDak95R1dBMDZZOEkyN0tVWG9BYmJ3TzhMRHVLQk9OMWYxYVhveUs?oc=5",
-     "nb_sources": 1,
-     "primaire": false
-    }
-   ],
-   "statut": "active",
-   "societes": []
   },
   {
    "id": "h_5eb8a2c48b",
