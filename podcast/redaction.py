@@ -5,6 +5,7 @@ découpé en séquences jouées séparément.
 import json
 import os
 import re
+import time
 from datetime import datetime, timedelta, timezone
 from pathlib import Path
 
@@ -81,21 +82,23 @@ Structure, en séquences séparées (chacune sera enregistrée à part puis mont
 Réponds UNIQUEMENT en JSON : {{"titre": "titre de l'épisode, 8 mots max, accrocheur", "sequences": [{{"type": "intro|sujet|histoire|fin", "ref": "id du sujet ou de l'histoire (vide pour intro et fin)", "texte": "..."}}]}}"""
 
 
-def _modele(session):
+def _modeles(session):
+    """Modèles candidats, du meilleur au plus économe : on passe au suivant si le quota gratuit est atteint."""
     force = os.getenv("LLM_MODEL", "").strip()
     if force:
-        return force
-    if "generativelanguage.googleapis.com" in URL:
-        try:
-            ids = [m["id"].split("/")[-1] for m in session.get(URL.replace("/chat/completions", "/models"), timeout=20).json()["data"]]
-            for motif in ("flash", "pro"):
-                c = sorted([i for i in ids if motif in i and "lite" not in i and not any(x in i for x in ("tts", "image", "live", "embedding", "audio"))], reverse=True)
-                if c:
-                    return c[0]
-        except Exception:
-            pass
-        return "gemini-2.5-flash"
-    return "llama-3.3-70b-versatile"
+        return [force]
+    if "generativelanguage.googleapis.com" not in URL:
+        return ["llama-3.3-70b-versatile"]
+    try:
+        ids = [m["id"].split("/")[-1] for m in session.get(URL.replace("/chat/completions", "/models"), timeout=20).json()["data"]]
+    except Exception:
+        ids = []
+    texte = [i for i in ids if not any(x in i for x in ("tts", "image", "live", "embedding", "audio", "robotics", "omni", "computer"))]
+    stables = lambda motif: sorted([i for i in texte if motif(i) and "preview" not in i and "exp" not in i], reverse=True)
+    flash = stables(lambda i: "flash" in i and "lite" not in i)
+    lite = stables(lambda i: "flash-lite" in i)
+    ordre = flash[:2] + lite[:2] + ["gemini-2.5-flash", "gemini-2.5-flash-lite"]
+    return list(dict.fromkeys(ordre))
 
 
 def ecrire(maintenant=None, minutes=5):
@@ -106,12 +109,18 @@ def ecrire(maintenant=None, minutes=5):
     cle = os.getenv("LLM_API_KEY", "").strip()
     s = requests.Session()
     s.headers.update({"Authorization": f"Bearer {cle}", "Content-Type": "application/json"})
-    modele = _modele(s)
+    candidats = _modeles(s)
     consigne = CONSIGNE.format(minutes=minutes, mots=minutes * 150, regles=rocco.REGLES_ECRITURE)
     message = "MATIÈRE DE L'ÉPISODE (JSON) :\n" + json.dumps(m, ensure_ascii=False, indent=1)
-    for essai in range(3):
+    essais = [(m, k) for m in candidats for k in range(2)]
+    for modele, k in essais:
         r = s.post(URL, timeout=180, json={"model": modele, "temperature": 0.8,
                                           "messages": [{"role": "system", "content": consigne}, {"role": "user", "content": message}]})
+        if r.status_code in (429, 404, 400, 403, 503):
+            print(f"   ({modele} : {r.status_code}, {'nouvel essai' if k == 0 else 'modèle suivant'})")
+            if r.status_code in (429, 503) and k == 0:
+                time.sleep(30)
+            continue
         r.raise_for_status()
         texte = r.json()["choices"][0]["message"]["content"]
         try:
@@ -124,4 +133,4 @@ def ecrire(maintenant=None, minutes=5):
                 return script
         except (json.JSONDecodeError, AttributeError):
             pass
-    raise RuntimeError("Script illisible après trois essais")
+    raise RuntimeError(f"Aucun modèle n'a pu écrire le script (essayés : {', '.join(candidats)})")
