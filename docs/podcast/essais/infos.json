@@ -1,38 +1,68 @@
 {
- "genere": "2026-11-04T13:32:27.815248+00:00",
+ "genere": "2026-11-04T13:44:04.595641+00:00",
+ "intro": "Rocco, version plus naturelle : texte réécrit en français parlé, nouvelles consignes de jeu, traitement radio allégé. Même texte, plusieurs timbres. Compare avec la version d'hier, tout en bas.",
  "animateurs": [
   {
-   "id": "vex",
-   "nom": "Vex",
-   "style": "Le survolté",
-   "voix": "Fenrir",
-   "description": "Énergie à fond, débit rapide, il vit chaque annonce comme un match.",
-   "texte": "Flair FM, il est sept heures, et l'IA, elle, n'a pas dormi ! Vex au micro, accrochez-vous. Numéro un : Google sort Gemini 4 Carbon et reprend la tête des classements. Accès encore limité, mais le message est clair : la course est relancée ! Numéro deux : Mistral libère les poids de Large 4. Mille milliards de paramètres, en accès libre. La France tape du poing sur la table ! Restez branchés, la suite arrive.",
-   "fichier": "vex.mp3",
-   "duree": 33.4,
-   "modele": "gemini-3.1-flash-tts-preview"
-  },
-  {
-   "id": "rocco",
-   "nom": "Rocco",
-   "style": "Le blasé pince-sans-rire",
+   "id": "rocco-algenib",
+   "nom": "Rocco · Algenib",
+   "style": "Le même timbre qu'hier, rauque",
    "voix": "Algenib",
-   "description": "Voix rocailleuse, ironie sèche, il en a vu d'autres. Rien ne l'impressionne… presque.",
-   "texte": "Flair FM. Ici Rocco. Il est sept heures, le café est froid, et les labos d'IA se battent encore pour la première place. Cette semaine, c'est Google, avec Gemini 4 Carbon. La semaine prochaine, ce sera quelqu'un d'autre. Bref. Plus intéressant : Anthropic prévient qu'elle approche d'une IA capable de s'améliorer toute seule. Rassurant. Notez-le quelque part… on en reparlera.",
-   "fichier": "rocco.mp3",
-   "duree": 37.3,
+   "description": "La voix que tu as choisie, avec le nouveau texte et le nouveau jeu.",
+   "texte": "Flair FM, bonjour. C'est Rocco. Bon… il est sept heures, mon café est déjà froid, et les labos d'IA se tapent encore dessus pour la première place. [sighs] Cette semaine, c'est Google, avec Gemini 4 Carbon. La semaine prochaine ? Ce sera un autre. On a l'habitude. Non, le truc qui m'a fait lever un sourcil ce matin, c'est Anthropic. Ils disent qu'ils se rapprochent d'une IA capable de… s'améliorer toute seule. Voilà. [laughs] Ça, notez-le quelque part. Parce qu'on va en reparler, croyez-moi.",
+   "fichier": "rocco-algenib.mp3",
+   "duree": 47.3,
    "modele": "gemini-3.1-flash-tts-preview"
   },
   {
-   "id": "nova",
-   "nom": "Nova",
-   "style": "La voix de fin de nuit",
-   "voix": "Sulafat",
-   "description": "Chaude, posée, presque confidentielle. L'ambiance des émissions de 4 heures du matin.",
-   "texte": "Ici Nova, sur Flair FM. La ville dort encore… mais les serveurs, eux, tournent à plein régime. Cette nuit, OpenAI a dévoilé GPT-6 Rosalind, un modèle taillé pour la biologie et les laboratoires. Et dans l'ombre, des chercheurs ont réparé les boucles de raisonnement d'un petit modèle Qwen, en modifiant à peine un poids sur six mille. Gardez l'oreille ouverte. La journée ne fait que commencer.",
-   "fichier": "nova.mp3",
-   "duree": 38.8,
+   "id": "rocco-umbriel",
+   "nom": "Rocco · Umbriel",
+   "style": "Plus décontracté",
+   "voix": "Umbriel",
+   "description": "Un timbre plus détendu, souvent plus naturel en conversation.",
+   "texte": "Flair FM, bonjour. C'est Rocco. Bon… il est sept heures, mon café est déjà froid, et les labos d'IA se tapent encore dessus pour la première place. [sighs] Cette semaine, c'est Google, avec Gemini 4 Carbon. La semaine prochaine ? Ce sera un autre. On a l'habitude. Non, le truc qui m'a fait lever un sourcil ce matin, c'est Anthropic. Ils disent qu'ils se rapprochent d'une IA capable de… s'améliorer toute seule. Voilà. [laughs] Ça, notez-le quelque part. Parce qu'on va en reparler, croyez-moi.",
+   "fichier": "rocco-umbriel.mp3",
+   "duree": 44.7,
    "modele": "gemini-3.1-flash-tts-preview"
+  },
+  {
+   "id": "rocco-zubenelgenubi",
+   "nom": "Rocco · Zubenelgenubi",
+   "style": "Plus familier",
+   "voix": "Zubenelgenubi",
+   "description": "Le timbre le plus « parlé » des voix Gemini, proche du ton d'un pote.",
+   "texte": "Flair FM, bonjour. C'est Rocco. Bon… il est sept heures, mon café est déjà froid, et les labos d'IA se tapent encore dessus pour la première place. [sighs] Cette semaine, c'est Google, avec Gemini 4 Carbon. La semaine prochaine ? Ce sera un autre. On a l'habitude. Non, le truc qui m'a fait lever un sourcil ce matin, c'est Anthropic. Ils disent qu'ils se rapprochent d'une IA capable de… s'améliorer toute seule. Voilà. [laughs] Ça, notez-le quelque part. Parce qu'on va en reparler, croyez-moi.",
+   "fichier": "rocco-zubenelgenubi.mp3",
+   "duree": 44.5,
+   "modele": "gemini-3.1-flash-tts-preview"
+  },
+  {
+   "id": "rocco-gacrux",
+   "nom": "Rocco · Gacrux",
+   "style": "Plus mûr, plus grave",
+   "voix": "Gacrux",
+   "description": "Une voix plus âgée et posée, le vieux briscard de la radio.",
+   "texte": "Flair FM, bonjour. C'est Rocco. Bon… il est sept heures, mon café est déjà froid, et les labos d'IA se tapent encore dessus pour la première place. [sighs] Cette semaine, c'est Google, avec Gemini 4 Carbon. La semaine prochaine ? Ce sera un autre. On a l'habitude. Non, le truc qui m'a fait lever un sourcil ce matin, c'est Anthropic. Ils disent qu'ils se rapprochent d'une IA capable de… s'améliorer toute seule. Voilà. [laughs] Ça, notez-le quelque part. Parce qu'on va en reparler, croyez-moi.",
+   "erreur": "'content'"
+  },
+  {
+   "id": "rocco-algenib-brut",
+   "nom": "Rocco · Algenib sans filtre",
+   "style": "Même voix, sans effet radio",
+   "voix": "Algenib",
+   "description": "Pour entendre si le filtre « radio » aide ou gêne. Seuls le jingle et la nappe restent.",
+   "texte": "Flair FM, bonjour. C'est Rocco. Bon… il est sept heures, mon café est déjà froid, et les labos d'IA se tapent encore dessus pour la première place. [sighs] Cette semaine, c'est Google, avec Gemini 4 Carbon. La semaine prochaine ? Ce sera un autre. On a l'habitude. Non, le truc qui m'a fait lever un sourcil ce matin, c'est Anthropic. Ils disent qu'ils se rapprochent d'une IA capable de… s'améliorer toute seule. Voilà. [laughs] Ça, notez-le quelque part. Parce qu'on va en reparler, croyez-moi.",
+   "fichier": "rocco-algenib-brut.mp3",
+   "duree": 46.5,
+   "modele": "gemini-3.1-flash-tts-preview"
+  },
+  {
+   "id": "rocco-v1",
+   "nom": "Rocco · version d'hier",
+   "style": "Pour comparer",
+   "voix": "Algenib",
+   "description": "Le premier essai, celui que tu trouvais trop « IA ».",
+   "texte": "Ancien texte, plus écrit.",
+   "fichier": "rocco-v1.mp3"
   }
  ]
 }
