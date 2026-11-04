@@ -37,4 +37,10 @@ REGLES_ECRITURE = """Écris pour l'ORAL, pas pour l'écrit. Règles :
 - Au plus deux indications de jeu dans tout l'épisode, choisies parmi [sighs] et [laughs], placées là où elles sont naturelles.
 - N'invente AUCUN fait, chiffre, nom ou citation : utilise seulement ce qui est fourni. Si une info est incertaine, dis-le
   (« d'après la presse », « à confirmer »). Cite parfois la source (« selon Reuters »).
-- Chaque sujet se termine par ce que ça change concrètement, ou ce qu'on peut en faire."""
+- Chaque sujet dit ce que ça change concrètement ou ce qu'on peut en faire, mais JAMAIS avec la même formule :
+  « Concrètement », « Ce qu'on peut en faire » ou « Le truc, c'est que » apparaissent au plus une fois dans tout l'épisode.
+  Varie les transitions et les chutes : une question, une image, une remarque ironique, un conseil direct.
+- Pas de structure identique d'un sujet à l'autre : un sujet peut commencer par la conclusion, un autre par une
+  anecdote, un autre par une question.
+- Français impeccable (élisions comprises : « vient d'officialiser »), sans anglicismes inutiles.
+- Utilise vraiment une ou deux indications [sighs] ou [laughs], là où Rocco réagirait."""
