@@ -29,17 +29,25 @@ def main():
         pcm, modele_voix = voix.parler(x["texte"], rocco.VOIX, consignes)
         print(f"🎙️  {k}/{len(seqs)} {x['type']} : {len(pcm) / 24000:.1f} s")
         enregistrees.append((x["type"], pcm))
-    mix = sons.monter_episode(enregistrees, rocco.INTENSITE_RADIO)
+    mix, debuts = sons.monter_episode(enregistrees, rocco.INTENSITE_RADIO)
     nom = f"flair-fm-{maintenant:%Y-%m-%d}.mp3"
     sons.en_mp3(mix, SORTIE / nom, debit=64)
     duree = round(len(mix) / sons.SR)
     m = script["matiere"]
-    sujets = [{"titre": s["titre"], "source": s["source"], "lien": s["lien"]} for s in m["sujets"]]
+    sujets = [{"id": s["id"], "titre": s["titre"], "source": s["source"], "lien": s["lien"], "societe": s.get("societe", "")}
+              for s in m["sujets"]]
+    par_ref = {s["id"]: s["titre"] for s in m["sujets"]}
     if m.get("feuilleton"):
-        sujets.append({"titre": "Le feuilleton : " + m["feuilleton"]["titre"], "source": "Flair", "lien": ""})
+        par_ref[m["feuilleton"]["id"]] = "Le feuilleton : " + m["feuilleton"]["titre"]
+    noms = {"intro": "L'ouverture", "fin": "Le mot de la fin"}
+    chapitres = []
+    for k, (x, debut) in enumerate(zip(seqs, debuts)):
+        titre = noms.get(x["type"]) or par_ref.get(x.get("ref", "")) or ("Le feuilleton" if x["type"] == "histoire" else f"Sujet {k}")
+        chapitres.append({"type": x["type"], "ref": x.get("ref", ""), "titre": titre, "debut": debut, "texte": x["texte"]})
     infos = {"date": maintenant.isoformat(), "jour": m["date"], "titre": script.get("titre") or f"Flair FM du {m['date']}",
              "fichier": nom, "duree": duree, "octets": (SORTIE / nom).stat().st_size, "sujets": sujets,
-             "script": [{"type": x["type"], "texte": x["texte"]} for x in seqs],
+             "chapitres": chapitres, "onde": sons.forme_d_onde(mix),
+             "histoire": (m.get("feuilleton") or {}).get("id"),
              "modeles": {"texte": script["modele"], "voix": modele_voix}}
     (SORTIE / "episode.json").write_text(json.dumps(infos, ensure_ascii=False, indent=1), encoding="utf-8")
     print(f"✅ {nom} : {duree // 60} min {duree % 60:02d} s, {infos['octets'] // 1024} Ko")

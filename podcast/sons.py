@@ -209,14 +209,19 @@ def monter_episode(sequences, intensite=1.0):
     rng = np.random.default_rng(5)
     j = jingle()
     morceaux, pos = [], len(j) - int(1.1 * SR)
+    debuts = []                                     # début de chaque séquence dans l'épisode (en secondes)
     for k, (genre, pcm) in enumerate(sequences):
+        if k == 0:
+            debuts.append(0.0)
         if k > 0:
             if genre in ("sujet", "histoire"):
                 pos += int(0.35 * SR)
+                debuts.append(round(pos / SR, 1))
                 morceaux.append((pos, transition() * 0.55))
                 pos += int(0.95 * SR)
             else:
                 pos += int(rng.uniform(0.55, 0.8) * SR)
+                debuts.append(round(pos / SR, 1))
         v = voix_radio(pcm, intensite)
         morceaux.append((pos, v))
         pos += len(v)
@@ -229,7 +234,15 @@ def monter_episode(sequences, intensite=1.0):
     for p0, son in morceaux:
         piste[p0:p0 + len(son)] += son[:len(piste) - p0]
     _placer(piste, fermeture * 0.8, fin_voix / SR + 0.5)
-    return _normaliser(piste, -1.0)
+    return _normaliser(piste, -1.0), debuts
+
+
+def forme_d_onde(x, barres=240):
+    """Niveau sonore de l'épisode en `barres` valeurs entre 0 et 1, pour dessiner la forme d'onde."""
+    n = len(x) // barres
+    rms = np.sqrt(np.mean(x[:n * barres].reshape(barres, n) ** 2, axis=1))
+    rms = rms / (np.max(rms) or 1)
+    return [round(float(v), 2) for v in np.sqrt(rms)]
 
 
 def en_mp3(x, chemin, debit=96):

@@ -267,7 +267,93 @@ h3.section{font:800 24px/1.1 var(--titre);letter-spacing:-.01em;margin:30px 0 14
 .chrono p{margin:0;font-size:15px;color:var(--doux)}
 .chrono .ep-meta{font-size:13px;color:var(--doux)}
 .ou-en-est{background:var(--foret-pale);border-radius:14px;padding:14px 16px;margin:12px 0}
+/* ===== Flair FM ===== */
+.fm-plateau{--fm-fond:#121C17;--fm-texte:#EEF3EA;--fm-doux:#9FB1A3;--fm-trait:#26362D;--fm-neon:#FF7B3F;--fm-onde:#5FE0C1;
+  background:radial-gradient(120% 140% at 85% 0%, #23382C 0%, var(--fm-fond) 55%);color:var(--fm-texte);border-radius:26px;padding:26px;margin:26px 0 8px;box-shadow:var(--ombre)}
+.fm-haut{display:grid;grid-template-columns:200px 1fr;gap:26px;align-items:center}
+.fm-pochette{width:200px;aspect-ratio:1;border-radius:18px;overflow:hidden;box-shadow:0 18px 40px -18px rgba(0,0,0,.8)}
+.fm-pochette img{width:100%;height:100%;display:block}
+.fm-quand{color:var(--fm-doux);font-weight:700;font-size:14px}
+.fm-titre{font:800 clamp(28px,3.6vw,44px)/1.04 var(--titre);letter-spacing:-.03em;margin:6px 0 8px}
+.fm-meta{color:var(--fm-doux);font-size:15px}
+.fm-commandes{display:flex;align-items:center;gap:12px;margin-top:18px;flex-wrap:wrap}
+.fm-play{width:64px;height:64px;border-radius:50%;border:0;background:var(--fm-neon);color:#14201A;display:grid;place-items:center;cursor:pointer;box-shadow:0 0 0 0 rgba(255,123,63,.5);transition:transform .12s}
+.fm-play:hover{transform:scale(1.05)}
+.fm-play.joue{animation:pulse 2.4s infinite}
+@keyframes pulse{0%{box-shadow:0 0 0 0 rgba(255,123,63,.45)}70%{box-shadow:0 0 0 16px rgba(255,123,63,0)}100%{box-shadow:0 0 0 0 rgba(255,123,63,0)}}
+.fm-btn{background:rgba(255,255,255,.06);border:1px solid var(--fm-trait);color:var(--fm-texte);border-radius:12px;height:44px;min-width:44px;padding:0 12px;cursor:pointer;font-weight:700;display:inline-flex;align-items:center;gap:6px}
+.fm-btn:hover{background:rgba(255,255,255,.12)}
+.fm-temps{margin-left:auto;font-variant-numeric:tabular-nums;color:var(--fm-doux);font-size:15px}
+.onde{position:relative;display:flex;align-items:center;gap:2px;height:76px;margin-top:22px;cursor:pointer;touch-action:none}
+.onde i{flex:1;border-radius:2px;background:rgba(255,255,255,.18);min-height:3px;transition:background .15s}
+.onde i.lu{background:var(--fm-onde)}
+.onde i.chap{box-shadow:-2px 0 0 0 rgba(255,123,63,.9)}
+.onde .curseur{position:absolute;top:-4px;bottom:-4px;width:2px;background:var(--fm-neon);border-radius:2px;pointer-events:none}
+.onde .bulle{position:absolute;top:-30px;transform:translateX(-50%);background:#000;color:#fff;font-size:12px;padding:2px 7px;border-radius:6px;pointer-events:none;white-space:nowrap}
+.fm-chapitre-actuel{margin-top:12px;font-size:14px;color:var(--fm-doux)}
+.fm-chapitre-actuel b{color:var(--fm-texte)}
+.fm-grille{display:grid;grid-template-columns:minmax(0,.9fr) minmax(0,1.1fr);gap:22px;margin-top:22px}
+.fm-bloc{background:var(--surface);border:1px solid var(--trait);border-radius:18px;padding:18px}
+.fm-bloc h3{font:800 19px/1.2 var(--titre);margin:0 0 12px}
+.chapitres{list-style:none;margin:0;padding:0}
+.chapitres li button{all:unset;box-sizing:border-box;display:grid;grid-template-columns:52px 1fr;gap:10px;width:100%;padding:10px 10px;border-radius:12px;cursor:pointer;align-items:start}
+.chapitres li button:hover{background:var(--surface2)}
+.chapitres li button:focus-visible{outline:3px solid var(--blaze)}
+.chapitres time{font-variant-numeric:tabular-nums;color:var(--doux);font-weight:700;font-size:14px;padding-top:1px}
+.chapitres span{font-weight:700;line-height:1.3}
+.chapitres small{display:block;color:var(--doux);font-weight:400;font-size:13px;margin-top:2px}
+.chapitres li.actif button{background:var(--foret-pale)}
+.chapitres li.actif time{color:var(--foret)}
+.transcription{max-height:440px;overflow-y:auto;padding-right:6px;scroll-behavior:smooth}
+.transcription p{margin:0 0 14px;padding:8px 12px;border-radius:12px;color:var(--doux);cursor:pointer;transition:background .2s,color .2s;line-height:1.6}
+.transcription p:hover{background:var(--surface2)}
+.transcription p.actif{color:var(--encre);background:var(--foret-pale)}
+.transcription p b{display:block;font:700 13px/1.3 var(--texte);color:var(--foret);margin-bottom:3px}
+.fm-sujets{display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:12px}
+.fm-sujet{display:flex;flex-direction:column;gap:6px;align-items:flex-start;background:var(--surface);border:1px solid var(--trait);border-radius:16px;padding:14px 16px}
+.fm-sujet h4{font:700 16px/1.25 var(--titre);margin:0}
+.fm-sujet .liens{display:flex;gap:14px;flex-wrap:wrap;margin-top:auto;font-size:14px}
+.fm-sujet button{all:unset;cursor:pointer;color:var(--foret);font-weight:700}
+.fm-sujet button:focus-visible{outline:3px solid var(--blaze)}
+.fm-section{margin-top:30px}
+.fm-section>h3{font:800 22px/1.15 var(--titre);letter-spacing:-.015em;margin:0 0 12px}
+.archives{list-style:none;margin:0;padding:0;background:var(--surface);border:1px solid var(--trait);border-radius:16px;overflow:hidden}
+.archives li{display:grid;grid-template-columns:48px 1fr auto;gap:14px;align-items:center;padding:12px 16px;border-bottom:1px solid var(--trait)}
+.archives li:last-child{border-bottom:0}
+.archives li.courant{background:var(--surface2)}
+.archives .mini-play{width:42px;height:42px;border-radius:50%;border:0;background:var(--encre);color:var(--fond);display:grid;place-items:center;cursor:pointer}
+.archives .avance{height:4px;border-radius:2px;background:var(--trait);margin-top:6px;overflow:hidden;max-width:260px}
+.archives .avance i{display:block;height:100%;background:var(--foret)}
+.archives small{color:var(--doux)}
+.fm-apropos{display:grid;grid-template-columns:auto 1fr;gap:16px;align-items:center;background:var(--surface);border:1px solid var(--trait);border-radius:16px;padding:16px;margin-top:30px;padding-bottom:16px}
+.fm-apropos img{width:64px;height:64px;border-radius:12px}
+.fm-apropos p{margin:0;color:var(--doux);font-size:15px}
+.fm-vide{background:var(--surface);border:1px dashed var(--trait);border-radius:18px;padding:30px;text-align:center;color:var(--doux);margin-top:26px}
+/* bannière sur la page Veille */
+.fm-banniere{display:flex;align-items:center;gap:14px;margin:24px 0 0;padding:12px 14px 12px 12px;border-radius:16px;background:#121C17;color:#EEF3EA;width:100%;text-align:left;border:0;cursor:pointer}
+.fm-banniere img{width:46px;height:46px;border-radius:10px}
+.fm-banniere b{display:block;font:700 16px/1.2 var(--titre)}
+.fm-banniere small{color:#9FB1A3}
+.fm-banniere .rond{margin-left:auto;flex:0 0 auto;width:42px;height:42px;border-radius:50%;background:#FF7B3F;color:#14201A;display:grid;place-items:center}
+/* mini-lecteur */
+.mini{position:fixed;left:12px;right:12px;bottom:calc(12px + env(safe-area-inset-bottom,0px));z-index:25;max-width:760px;margin:0 auto;background:#121C17;color:#EEF3EA;border-radius:18px;
+  box-shadow:0 18px 40px -12px rgba(0,0,0,.55);display:grid;grid-template-columns:44px 1fr auto auto auto;gap:12px;align-items:center;padding:10px 12px 14px;overflow:hidden}
+.mini img{width:44px;height:44px;border-radius:10px;cursor:pointer}
+.mini .txt{min-width:0;cursor:pointer}
+.mini b{display:block;font:700 15px/1.2 var(--titre);white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.mini small{display:block;color:#9FB1A3;font-size:13px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.mini button{width:40px;height:40px;border-radius:50%;border:0;background:rgba(255,255,255,.08);color:#EEF3EA;display:grid;place-items:center;cursor:pointer}
+.mini button.principal{background:#FF7B3F;color:#14201A}
+.mini .barre-mini{position:absolute;left:0;right:0;bottom:0;height:4px;background:rgba(255,255,255,.12)}
+.mini .barre-mini i{display:block;height:100%;background:#5FE0C1}
+body.avec-mini{padding-bottom:96px}
 @media (max-width:900px){
+  .fm-haut{grid-template-columns:1fr;gap:16px}
+  .fm-pochette{width:120px}
+  .fm-grille{grid-template-columns:1fr}
+  .fm-plateau{padding:18px;border-radius:20px}
+  .onde{height:60px;gap:1px}
+  .fm-temps{width:100%;margin-left:0}
   .fils{grid-template-columns:1fr}
   .histoires{grid-template-columns:1fr}
   .cinq{grid-template-columns:1fr 1fr}
@@ -299,6 +385,7 @@ h3.section{font:800 24px/1.1 var(--titre);letter-spacing:-.01em;margin:30px 0 14
     </h1>
     <nav class="onglets" aria-label="Sections">
       <a href="#veille" data-vue="veille">Veille</a>
+      <a href="#fm" data-vue="fm">Flair FM</a>
       <a href="#histoires" data-vue="histoires">Histoires</a>
       <a href="#annuaire" data-vue="annuaire">Les IA</a>
       <a href="#controle" data-vue="controle">Contrôle et pouvoir</a>
@@ -311,6 +398,7 @@ h3.section{font:800 24px/1.1 var(--titre);letter-spacing:-.01em;margin:30px 0 14
 
   <section class="vue" id="vue-veille">
 
+  <button class="fm-banniere" id="fm-banniere" hidden></button>
   <section class="une" id="une" hidden>
     <div class="une-tete"><h2>Les 5 à suivre cette semaine</h2><p id="une-sous"></p></div>
     <ol class="cinq" id="cinq"></ol>
@@ -361,6 +449,10 @@ h3.section{font:800 24px/1.1 var(--titre);letter-spacing:-.01em;margin:30px 0 14
   </div>
   </section>
 
+  <section class="vue" id="vue-fm" hidden>
+    <div id="fm-contenu"><div class="fm-vide">Chargement de Flair FM…</div></div>
+  </section>
+
   <section class="vue" id="vue-histoires" hidden>
     <div class="entete-vue">
       <h2>Les histoires suivies</h2>
@@ -405,6 +497,8 @@ h3.section{font:800 24px/1.1 var(--titre);letter-spacing:-.01em;margin:30px 0 14
   </section>
 </div>
 
+<audio id="lecteur" preload="metadata"></audio>
+<div class="mini" id="mini" hidden></div>
 <div class="voile" id="voile"></div>
 <article class="panneau" id="panneau" aria-hidden="true" role="dialog" aria-label="Détail du sujet"></article>
 
@@ -415,7 +509,7 @@ const store = {
   get(k, d){ try{ const v = localStorage.getItem("flair:"+k); return v ? JSON.parse(v) : d; }catch{ return d; } },
   set(k, v){ try{ localStorage.setItem("flair:"+k, JSON.stringify(v)); }catch{} }
 };
-let HIST = [], filtreHist = "active", SOCS = {}, ITEMS = [], TOUS = [], META = {}, ANNUAIRE = null, CONTROLE = null, tacheActive = null, lus = new Set(store.get("lus", [])), favs = new Set(store.get("favs", []));
+let EPISODES = [], HIST = [], filtreHist = "active", SOCS = {}, ITEMS = [], TOUS = [], META = {}, ANNUAIRE = null, CONTROLE = null, tacheActive = null, lus = new Set(store.get("lus", [])), favs = new Set(store.get("favs", []));
 const etat = {q:"", heures:168, tri:"flair", cat:null, type:null, soc:null, pc:false, nonlu:false, fav:false, chaud:false, limite:60, actif:-1};
 let visibles = [];
 
@@ -486,12 +580,13 @@ async function charger(){
   try{ const d = await (await fetch("data/societes.json",{cache:"no-store"})).json(); d.societes.forEach(x => SOCS[x.id] = x); }catch{ SOCS = {}; }
   try{ ANNUAIRE = await (await fetch("data/annuaire.json",{cache:"no-store"})).json(); }catch{ ANNUAIRE = null; }
   try{ CONTROLE = await (await fetch("data/controle.json",{cache:"no-store"})).json(); }catch{ CONTROLE = null; }
+  try{ EPISODES = (await (await fetch("podcast/episodes.json",{cache:"no-store"})).json()).episodes || []; }catch{ EPISODES = []; }
   try{ HIST = (await (await fetch("data/histoires.json",{cache:"no-store"})).json()).histoires.filter(h => h.episodes.length >= 2); }catch{ HIST = []; }
   const nbSources = (META.sources_ok||[]).length;
   $("#etat").innerHTML = META.maj
     ? `Dernière chasse <b>${depuis(META.maj)}</b><br>${nbSources} sources, ${META.analyses||0} sujets expliqués${(META.sources_ko||[]).length?`, ${(META.sources_ko).length} en panne`:""}`
     : "Pas encore de chasse";
-  rendreUne(); rendreAvancent(); rendreBrief(); rendreFiltres(); rendre(); rendreAnnuaire(); rendreControle(); rendreHistoires(); router();
+  fmInit(); rendreUne(); rendreAvancent(); rendreBrief(); rendreFiltres(); rendre(); rendreAnnuaire(); rendreControle(); rendreHistoires(); router();
 }
 
 function rendreBrief(){
@@ -621,6 +716,7 @@ function ouvrir(id, silencieux){
       ${(a?.tags||[]).map(t=>`<span class="badge">${esc(t)}</span>`).join("")}
     </div>
     ${encartHistoire(it)}
+    ${encartFM(it)}
     ${carteSociete(it)}
     ${a?.a_retenir ? `<p class="retenir">${esc(a.a_retenir)}</p>` : ""}
     ${it.raisons?.length ? `<h3>Pourquoi le chien l'a remonté</h3><div class="raisons">${it.raisons.map(r=>`<span>${esc(r)}</span>`).join("")}</div>` : ""}
@@ -642,6 +738,7 @@ function ouvrir(id, silencieux){
   p.querySelector(".fermer").onclick = fermer;
   p.querySelector("[data-fav]").onclick = () => basculerFav(it.id);
   montrerPanneau(); brancherSociete();
+  p.querySelector("[data-fm-ecouter]")?.addEventListener("click", e => { const [eid, t] = e.currentTarget.dataset.fmEcouter.split("|"); fermer(); fmJouer(eid, +t); });
   p.querySelector("[data-histoire]")?.addEventListener("click", e => { e.preventDefault(); ouvrirHistoire(e.currentTarget.dataset.histoire); });
   if (!silencieux){ p.scrollTop = 0; p.querySelector(".fermer").focus(); rendre(); }
 }
@@ -824,12 +921,207 @@ function ouvrirControle(it){
   rendreFilControle();
 }
 
+
+// ===================== Flair FM =====================
+const AUDIO = () => $("#lecteur");
+const fm = {ep: null, vitesse: 1, survol: null, dernierSave: 0};
+const VITESSES = [1, 1.25, 1.5, 2, 0.8];
+const ICONES = {
+  play: `<svg width="26" height="26" viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M8 5.5v13a1 1 0 0 0 1.5.86l10.4-6.5a1 1 0 0 0 0-1.72L9.5 4.64A1 1 0 0 0 8 5.5Z"/></svg>`,
+  pause: `<svg width="26" height="26" viewBox="0 0 24 24" aria-hidden="true"><rect x="6" y="5" width="4.5" height="14" rx="1.2" fill="currentColor"/><rect x="13.5" y="5" width="4.5" height="14" rx="1.2" fill="currentColor"/></svg>`,
+  recul: `<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M3 12a9 9 0 1 0 3-6.7L3 8"/><path d="M3 3v5h5"/></svg>`,
+  avance: `<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M21 12a9 9 0 1 1-3-6.7L21 8"/><path d="M21 3v5h-5"/></svg>`,
+  fermer: `<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><path d="M6 6l12 12M18 6 6 18"/></svg>`,
+};
+const mmss = s => { s = Math.max(0, Math.floor(s||0)); return `${Math.floor(s/60)}:${String(s%60).padStart(2,"0")}`; };
+const dureeLongue = s => `${Math.floor(s/60)} min ${String(Math.floor(s%60)).padStart(2,"0")}`;
+const fmPos = { get(id){ try{ return JSON.parse(localStorage.getItem("flair:fm:"+id)) || {}; }catch{ return {}; } },
+                set(id, v){ try{ localStorage.setItem("flair:fm:"+id, JSON.stringify(v)); }catch{} } };
+const epParTag = tag => EPISODES.find(e => e.tag === tag);
+const chapitresDe = ep => (ep?.chapitres || []);
+function chapitreA(ep, t){ const c = chapitresDe(ep); let k = 0; c.forEach((x,i) => { if (t >= x.debut) k = i; }); return c[k] ? k : -1; }
+
+function fmInit(){
+  const a = AUDIO();
+  if (!a.dataset.pret){
+    a.dataset.pret = 1;
+    a.addEventListener("timeupdate", fmTic);
+    a.addEventListener("play", fmEtat); a.addEventListener("pause", fmEtat); a.addEventListener("ended", () => { fmEtat(); if (fm.ep) fmPos.set(fm.ep.tag, {t: 0, fini: true}); });
+    a.addEventListener("loadedmetadata", fmTic);
+    if ("mediaSession" in navigator){
+      const ms = navigator.mediaSession;
+      ms.setActionHandler("play", () => a.play()); ms.setActionHandler("pause", () => a.pause());
+      ms.setActionHandler("seekbackward", d => a.currentTime -= d.seekOffset || 15);
+      ms.setActionHandler("seekforward", d => a.currentTime += d.seekOffset || 30);
+      try{ ms.setActionHandler("seekto", d => a.currentTime = d.seekTime); }catch{}
+      ms.setActionHandler("previoustrack", () => fmChapitre(-1)); ms.setActionHandler("nexttrack", () => fmChapitre(1));
+    }
+  }
+  if (!fm.ep && EPISODES.length) fmCharger(EPISODES[0], false);
+  rendreFM(); fmBanniere();
+}
+function fmCharger(ep, jouer, t){
+  const a = AUDIO();
+  if (fm.ep?.tag !== ep.tag){
+    fm.ep = ep; a.src = ep.url; a.playbackRate = fm.vitesse;
+    const reprise = fmPos.get(ep.tag);
+    const depart = t ?? (reprise.fini ? 0 : reprise.t || 0);
+    a.addEventListener("loadedmetadata", () => { if (depart) a.currentTime = depart; }, {once: true});
+    if ("mediaSession" in navigator) navigator.mediaSession.metadata = new MediaMetadata({
+      title: ep.titre, artist: "Rocco · Flair FM", album: `Flair FM, ${ep.jour}`,
+      artwork: [{src: "podcast/pochette-512.png", sizes: "512x512", type: "image/png"}]});
+  } else if (t != null) a.currentTime = t;
+  if (jouer) a.play().catch(() => {});
+  rendreFM(); fmMini();
+}
+function fmJouer(tag, t){ const ep = epParTag(tag) || EPISODES[0]; if (ep) fmCharger(ep, true, t); }
+function fmBascule(){ const a = AUDIO(); if (!fm.ep && EPISODES[0]) return fmCharger(EPISODES[0], true); a.paused ? a.play().catch(()=>{}) : a.pause(); }
+function fmChapitre(sens){
+  const a = AUDIO(), c = chapitresDe(fm.ep); if (!c.length) return;
+  let k = chapitreA(fm.ep, a.currentTime);
+  if (sens < 0 && a.currentTime - c[k].debut > 3) sens = 0;
+  k = Math.max(0, Math.min(c.length - 1, k + sens));
+  a.currentTime = c[k].debut + (k ? 0.2 : 0); if (a.paused) a.play().catch(()=>{});
+}
+function fmEtat(){
+  const joue = !AUDIO().paused;
+  document.querySelectorAll("[data-fm-play]").forEach(b => { b.innerHTML = joue && (!b.dataset.fmPlay || b.dataset.fmPlay === fm.ep?.tag) ? ICONES.pause : ICONES.play;
+    b.classList.toggle("joue", joue && b.classList.contains("fm-play")); b.setAttribute("aria-label", joue ? "Pause" : "Écouter"); });
+  if ("mediaSession" in navigator) navigator.mediaSession.playbackState = joue ? "playing" : "paused";
+  fmMini();
+}
+function fmTic(){
+  const a = AUDIO(), ep = fm.ep; if (!ep) return;
+  const d = a.duration || ep.duree, t = a.currentTime, r = d ? t / d : 0;
+  const onde = $("#onde");
+  if (onde){
+    const barres = onde.querySelectorAll("i"), n = Math.floor(r * barres.length);
+    barres.forEach((b, i) => b.classList.toggle("lu", i < n));
+    const cur = onde.querySelector(".curseur"); if (cur) cur.style.left = `${r*100}%`;
+  }
+  const temps = $("#fm-temps"); if (temps) temps.textContent = `${mmss(t)} / ${mmss(d)}`;
+  const k = chapitreA(ep, t);
+  document.querySelectorAll(".chapitres li").forEach((li, i) => li.classList.toggle("actif", i === k));
+  const paras = document.querySelectorAll(".transcription p");
+  paras.forEach((p, i) => { const etait = p.classList.contains("actif"); p.classList.toggle("actif", i === k);
+    if (i === k && !etait && !a.paused && !$("#vue-fm").hidden){ const box = p.parentElement; box.scrollTop = p.offsetTop - box.offsetTop - 8; } });
+  const ca = $("#fm-chap-actuel"); if (ca && k >= 0) ca.innerHTML = `En ce moment : <b>${esc(chapitresDe(ep)[k].titre)}</b>`;
+  const mb = $("#mini .barre-mini i"); if (mb) mb.style.width = `${r*100}%`;
+  const ms = $("#mini small"); if (ms && k >= 0) ms.textContent = `${mmss(t)} · ${chapitresDe(ep)[k].titre}`;
+  if (Date.now() - fm.dernierSave > 4000){ fm.dernierSave = Date.now(); fmPos.set(ep.tag, {t, fini: d && t > d - 8}); }
+  if ("mediaSession" in navigator && d && navigator.mediaSession.setPositionState){ try{ navigator.mediaSession.setPositionState({duration: d, position: Math.min(t, d), playbackRate: a.playbackRate}); }catch{} }
+}
+function rendreFM(){
+  const el = $("#fm-contenu"); if (!el) return;
+  const ep = fm.ep;
+  if (!ep){ el.innerHTML = `<div class="fm-vide"><strong>Pas encore d'épisode</strong><br>Le premier Flair FM est fabriqué chaque matin vers 6 h 40.</div>`; return; }
+  const c = chapitresDe(ep), d = ep.duree;
+  const onde = (ep.onde && ep.onde.length ? ep.onde : Array.from({length: 160}, () => .5));
+  const debutsChap = new Set(c.slice(1).map(x => Math.floor(x.debut / d * onde.length)));
+  const sujetsHtml = (ep.sujets||[]).map(s => {
+    const it = TOUS.find(i => i.id === s.id), ch = c.find(x => x.ref === s.id);
+    return `<div class="fm-sujet">${it ? socChip(it) : ""}<h4>${esc(s.titre)}</h4><small style="color:var(--doux)">${esc(s.source||"")}</small>
+      <div class="liens">${ch ? `<button data-fm-t="${ch.debut}">Écouter ce passage (${mmss(ch.debut)})</button>` : ""}
+      ${it ? `<button data-fm-item="${it.id}">Lire la fiche</button>` : (s.lien ? `<a href="${esc(s.lien)}" target="_blank" rel="noopener">Source</a>` : "")}</div></div>`;
+  }).join("");
+  const h = ep.histoire && HIST.find(x => x.id === ep.histoire);
+  el.innerHTML = `
+    <div class="fm-plateau">
+      <div class="fm-haut">
+        <div class="fm-pochette"><img src="podcast/pochette-512.png" alt="Pochette de Flair FM"></div>
+        <div>
+          <div class="fm-quand">Flair FM, ${esc(ep.jour)}${ep.tag === EPISODES[0]?.tag ? " · le dernier épisode" : ""}</div>
+          <h2 class="fm-titre">${esc(ep.titre)}</h2>
+          <div class="fm-meta">Présenté par Rocco · ${dureeLongue(d)} · ${c.filter(x=>x.type==="sujet").length} sujets${h ? " et un feuilleton" : ""}</div>
+          <div class="fm-commandes">
+            <button class="fm-play" data-fm-play="${ep.tag}" aria-label="Écouter">${ICONES.play}</button>
+            <button class="fm-btn" id="fm-recul" aria-label="Reculer de 15 secondes">${ICONES.recul}15</button>
+            <button class="fm-btn" id="fm-avance" aria-label="Avancer de 30 secondes">30${ICONES.avance}</button>
+            <button class="fm-btn" id="fm-vitesse" aria-label="Vitesse de lecture">${fm.vitesse}×</button>
+            <span class="fm-temps" id="fm-temps">0:00 / ${mmss(d)}</span>
+          </div>
+        </div>
+      </div>
+      <div class="onde" id="onde" role="slider" aria-label="Position dans l'épisode" aria-valuemin="0" aria-valuemax="${Math.round(d)}" tabindex="0">
+        ${onde.map((v,i) => `<i class="${debutsChap.has(i)?"chap":""}" style="height:${Math.max(6, v*100)}%"></i>`).join("")}
+        <span class="curseur" style="left:0"></span>
+      </div>
+      <div class="fm-chapitre-actuel" id="fm-chap-actuel">${c.length ? `${c.length} chapitres : clique sur l'onde ou sur un chapitre pour y aller.` : ""}</div>
+    </div>
+    ${c.length ? `<div class="fm-grille">
+      <div class="fm-bloc"><h3>Les chapitres</h3><ol class="chapitres">${c.map((x,i) => `<li><button data-fm-t="${x.debut}"><time>${mmss(x.debut)}</time>
+        <span>${esc(x.titre)}<small>${x.type==="sujet" ? "Sujet" : x.type==="histoire" ? "Le feuilleton" : x.type==="intro" ? "Ouverture" : "Fermeture"}</small></span></button></li>`).join("")}</ol></div>
+      <div class="fm-bloc"><h3>Ce que dit Rocco</h3><div class="transcription">${c.map(x => `<p data-fm-t="${x.debut}"><b>${mmss(x.debut)} · ${esc(x.titre)}</b>${esc(x.texte.replace(/\[(sighs|laughs)\]/g, ""))}</p>`).join("")}</div></div>
+    </div>` : ""}
+    ${sujetsHtml ? `<section class="fm-section"><h3>Les sujets de l'épisode</h3><div class="fm-sujets">${sujetsHtml}</div></section>` : ""}
+    ${h ? `<section class="fm-section"><h3>Le feuilleton du jour</h3>${carteFil(h, true)}</section>` : ""}
+    ${EPISODES.length > 1 ? `<section class="fm-section"><h3>Les épisodes précédents</h3><ul class="archives">${EPISODES.map(e => {
+        const pos = fmPos.get(e.tag), pc = pos.fini ? 100 : Math.min(100, (pos.t||0) / e.duree * 100);
+        return `<li class="${e.tag===ep.tag?"courant":""}"><button class="mini-play" data-fm-play="${e.tag}" aria-label="Écouter">${ICONES.play}</button>
+          <div><b>${esc(e.titre)}</b><br><small>${esc(e.jour)} · ${dureeLongue(e.duree)}${pos.fini ? " · écouté" : pc > 2 ? ` · ${Math.round(pc)} % écouté` : ""}</small>
+          ${pc > 2 ? `<div class="avance"><i style="width:${pc}%"></i></div>` : ""}</div>
+          <small>${new Date(e.date).toLocaleDateString("fr-FR",{day:"numeric",month:"short"})}</small></li>`; }).join("")}</ul></section>` : ""}
+    <div class="fm-apropos"><img src="podcast/pochette-512.png" alt=""><p><b>Flair FM</b>, c'est le flash IA du matin, présenté par Rocco : un vieux briscard de la radio de nuit, pince-sans-rire. Le script est écrit chaque matin par l'IA à partir de ta veille (les 5 à suivre et une histoire qui avance). La voix est une voix de synthèse Gemini, et l'habillage sonore est original. Un nouvel épisode arrive chaque matin vers 6 h 40.</p></div>`;
+  // branchements
+  el.querySelectorAll("[data-fm-play]").forEach(b => b.onclick = () => { const e = epParTag(b.dataset.fmPlay); if (e && e.tag !== fm.ep?.tag) fmCharger(e, true); else fmBascule(); });
+  el.querySelectorAll("[data-fm-t]").forEach(b => b.onclick = () => { fmCharger(ep, true, +b.dataset.fmT + (+b.dataset.fmT ? 0.2 : 0)); });
+  el.querySelectorAll("[data-fm-item]").forEach(b => b.onclick = () => ouvrir(b.dataset.fmItem));
+  el.querySelectorAll(".fil-carte").forEach(b => b.onclick = () => ouvrirHistoire(b.dataset.h));
+  $("#fm-recul").onclick = () => AUDIO().currentTime -= 15;
+  $("#fm-avance").onclick = () => AUDIO().currentTime += 30;
+  $("#fm-vitesse").onclick = e => { fm.vitesse = VITESSES[(VITESSES.indexOf(fm.vitesse)+1) % VITESSES.length]; AUDIO().playbackRate = fm.vitesse; e.currentTarget.textContent = `${fm.vitesse}×`; };
+  const o = $("#onde");
+  const ratio = ev => { const r = o.getBoundingClientRect(); return Math.min(1, Math.max(0, ((ev.touches?.[0]||ev).clientX - r.left) / r.width)); };
+  const viser = ev => { const t = ratio(ev) * (AUDIO().duration || d); fmCharger(ep, true, t); };
+  o.onclick = viser;
+  o.onmousemove = ev => { let b = o.querySelector(".bulle"); if (!b){ b = document.createElement("span"); b.className = "bulle"; o.append(b); }
+    const r = ratio(ev), t = r * d, k = chapitreA(ep, t); b.style.left = `${r*100}%`; b.textContent = `${mmss(t)}${k>=0 ? " · " + chapitresDe(ep)[k].titre.slice(0,32) : ""}`; };
+  o.onmouseleave = () => o.querySelector(".bulle")?.remove();
+  o.onkeydown = ev => { if (ev.key === "ArrowRight") AUDIO().currentTime += 10; if (ev.key === "ArrowLeft") AUDIO().currentTime -= 10; if (ev.key === " ") { ev.preventDefault(); fmBascule(); } };
+  fmEtat(); fmTic();
+}
+function fmMini(){
+  const m = $("#mini"), a = AUDIO();
+  const montrer = fm.ep && a.src && (!a.paused || a.currentTime > 0) && $("#vue-fm")?.hidden !== false;
+  m.hidden = !montrer; document.body.classList.toggle("avec-mini", !!montrer);
+  if (!montrer) return;
+  if (m.dataset.tag !== fm.ep.tag){
+    m.dataset.tag = fm.ep.tag;
+    m.innerHTML = `<img src="podcast/pochette-512.png" alt="" data-aller><div class="txt" data-aller><b>${esc(fm.ep.titre)}</b><small>Flair FM</small></div>
+      <button aria-label="Reculer de 15 secondes" data-r>${ICONES.recul}</button><button class="principal" data-fm-play="${fm.ep.tag}" aria-label="Écouter">${ICONES.play}</button>
+      <button aria-label="Fermer le lecteur" data-x>${ICONES.fermer}</button><span class="barre-mini"><i></i></span>`;
+    m.querySelectorAll("[data-aller]").forEach(x => x.onclick = () => location.hash = "#fm");
+    m.querySelector("[data-r]").onclick = () => a.currentTime -= 15;
+    m.querySelector("[data-fm-play]").onclick = fmBascule;
+    m.querySelector("[data-x]").onclick = () => { a.pause(); a.currentTime = a.currentTime; m.hidden = true; document.body.classList.remove("avec-mini"); m.dataset.ferme = 1; };
+  }
+  if (m.dataset.ferme && a.paused){ m.hidden = true; document.body.classList.remove("avec-mini"); return; }
+  delete m.dataset.ferme;
+  const b = m.querySelector("[data-fm-play]"); b.innerHTML = a.paused ? ICONES.play : ICONES.pause;
+}
+function fmBanniere(){
+  const b = $("#fm-banniere"), ep = EPISODES[0];
+  if (!ep){ b.hidden = true; return; }
+  const pos = fmPos.get(ep.tag);
+  b.hidden = false;
+  b.innerHTML = `<img src="podcast/pochette-512.png" alt=""><span><b>${pos.fini ? "Réécouter" : pos.t > 5 ? "Reprendre" : "Écouter"} le Flair FM du ${esc(ep.jour)}</b><small>${esc(ep.titre)} · ${dureeLongue(ep.duree)} avec Rocco</small></span><span class="rond">${ICONES.play}</span>`;
+  b.onclick = () => { fmCharger(ep, true); location.hash = "#fm"; };
+}
+function encartFM(it){
+  for (const e of EPISODES){
+    const ch = chapitresDe(e).find(x => x.ref === it.id);
+    if (ch) return `<div class="encart-fil" style="border-left-color:#FF7B3F"><small style="color:#D24E14">Dans Flair FM</small><strong>Rocco en parle dans l'épisode du ${esc(e.jour)}</strong>
+      <button class="cta" style="border:0;cursor:pointer" data-fm-ecouter="${e.tag}|${ch.debut + 0.2}">Écouter ce passage (${mmss(ch.debut)})</button></div>`;
+  }
+  return "";
+}
+
 // ----- Navigation -----
 function router(){
-  const vue = ["veille","histoires","annuaire","controle"].includes(location.hash.slice(1)) ? location.hash.slice(1) : "veille";
+  const vue = ["veille","fm","histoires","annuaire","controle"].includes(location.hash.slice(1)) ? location.hash.slice(1) : "veille";
   document.querySelectorAll(".vue").forEach(v => v.hidden = v.id !== "vue-"+vue);
   document.querySelectorAll("nav.onglets a").forEach(a => a.dataset.vue===vue ? a.setAttribute("aria-current","page") : a.removeAttribute("aria-current"));
-  fermer();
+  fermer(); fmMini();
 }
 window.addEventListener("hashchange", router);
 

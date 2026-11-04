@@ -12,14 +12,17 @@ ep = json.loads((Path(__file__).parent / "sortie" / "episode.json").read_text(en
 depot = os.environ["GITHUB_REPOSITORY"]
 tag = os.environ["TAG"]
 ep["tag"] = tag
-ep["url"] = f"https://github.com/{depot}/releases/download/{tag}/{ep['fichier']}"
+# Lecture : servi par jsDelivr depuis une étiquette audio-AAAA-MM-JJ (bon type audio/mpeg, lecture à une position,
+# compatible Safari). Téléchargement : copie dans les Releases GitHub.
+ep["url"] = f"https://cdn.jsdelivr.net/gh/{depot}@{os.environ['TAG_AUDIO']}/{ep['fichier']}"
+ep["telechargement"] = f"https://github.com/{depot}/releases/download/{tag}/{ep['fichier']}"
 try:
     cat = json.loads(CATALOGUE.read_text(encoding="utf-8"))
 except (FileNotFoundError, json.JSONDecodeError):
     cat = {"episodes": []}
 cat["episodes"] = [ep] + [e for e in cat["episodes"] if e["tag"] != tag]
 for vieux in cat["episodes"][GARDER:]:
-    print(vieux["tag"])
+    print(vieux["tag"], "audio-" + vieux["tag"].removeprefix("episode-"))
 cat["episodes"] = cat["episodes"][:GARDER]
 CATALOGUE.parent.mkdir(parents=True, exist_ok=True)
 CATALOGUE.write_text(json.dumps(cat, ensure_ascii=False, indent=1), encoding="utf-8")

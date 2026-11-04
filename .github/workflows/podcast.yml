@@ -37,6 +37,16 @@ jobs:
           F=$(ls podcast/sortie/*.mp3)
           gh release delete "$TAG" --yes --cleanup-tag 2>/dev/null || true
           gh release create "$TAG" "$F" --title "Flair FM, $(date -u +%d/%m/%Y)" --notes "Épisode du jour de Flair FM." --latest=false
+          # étiquette audio-… : un commit isolé qui ne contient que le MP3, hors de l'historique principal
+          TAG_AUDIO="audio-$(date -u +%Y-%m-%d)"
+          echo "TAG_AUDIO=$TAG_AUDIO" >> "$GITHUB_ENV"
+          D=$(mktemp -d); cp "$F" "$D/"; cd "$D"
+          git init -q && git add . && git -c user.name=veille-bot -c user.email=veille-bot@users.noreply.github.com commit -q -m "Flair FM : audio $TAG_AUDIO"
+          git push -q --force "https://x-access-token:${GH_TOKEN}@github.com/${GITHUB_REPOSITORY}.git" "HEAD:refs/tags/$TAG_AUDIO"
+          cd - > /dev/null
+          U="https://cdn.jsdelivr.net/gh/${GITHUB_REPOSITORY}@${TAG_AUDIO}/$(basename "$F")"
+          for i in 1 2 3 4 5 6; do curl -sI "$U" | tee /tmp/h.txt | head -1 | grep -q " 200" && break; sleep 10; done
+          echo "Vérification jsDelivr :"; grep -iE "^HTTP|content-type|accept-ranges|content-length" /tmp/h.txt
       - name: Mettre à jour le catalogue
         run: |
           python podcast/publier.py > a_supprimer.txt
@@ -49,4 +59,7 @@ jobs:
         env:
           GH_TOKEN: ${{ github.token }}
         run: |
-          while read -r t; do [ -n "$t" ] && gh release delete "$t" --yes --cleanup-tag || true; done < a_supprimer.txt
+          while read -r t ta; do
+            [ -n "$t" ] && gh release delete "$t" --yes --cleanup-tag || true
+            [ -n "$ta" ] && git push -q --delete "https://x-access-token:${GH_TOKEN}@github.com/${GITHUB_REPOSITORY}.git" "refs/tags/$ta" || true
+          done < a_supprimer.txt
