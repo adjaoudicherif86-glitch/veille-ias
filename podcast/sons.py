@@ -150,13 +150,16 @@ def voix_radio(x_24k, intensite=1.0):
     """Chaîne « voix radio » : rééchantillonnage, coupe-bas, coupe-haut, présence, saturation douce, compression."""
     x = signal.resample_poly(x_24k.astype(np.float64), 147, 80)  # 24 kHz -> 44,1 kHz
     x = x / (np.max(np.abs(x)) or 1)
-    x = _passe_haut(x, 140, 2)
-    x = _passe_bas(x, 7200, 4)
+    x = _passe_haut(x, 90 + 60 * intensite, 2)
+    x = _passe_bas(x, 11000 - 3800 * intensite, 4)
     b, a = _pic(2600, 1.2, 4.5 * intensite)        # présence
     x = signal.lfilter(b, a, x)
-    sature = np.tanh(x * (1.6 + 0.8 * intensite)) / np.tanh(1.6 + 0.8 * intensite)
-    x = 0.7 * x + 0.3 * sature
-    return _normaliser(_compresser(x, seuil_db=-20, ratio=3.5), -1)
+    if intensite > 0.6:                             # saturation douce, seulement pour un son « radio » marqué
+        sature = np.tanh(x * (1.6 + 0.8 * intensite)) / np.tanh(1.6 + 0.8 * intensite)
+        x = 0.7 * x + 0.3 * sature
+    if intensite <= 0:                              # voix brute : juste la normalisation
+        return _normaliser(x, -1)
+    return _normaliser(_compresser(x, seuil_db=-20, ratio=1.5 + 2 * intensite), -1)
 
 
 def _pic(f0, q, gain_db):

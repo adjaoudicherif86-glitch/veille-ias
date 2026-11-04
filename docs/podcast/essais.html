@@ -51,6 +51,7 @@ details p{font-size:15px;color:var(--doux);margin-top:8px;font-style:italic}
 </div>
 <script>
 const COULEURS = {vex:"#FF7B3F", rocco:"#C9B37E", nova:"#5FE0C1"};
+const couleur = id => COULEURS[id] || ["#C9B37E","#5FE0C1","#FF7B3F","#A99BFF","#7FB7FF","#97A99B"][[...id].reduce((h,c)=>h+c.charCodeAt(0),0) % 6];
 const esc = s => String(s ?? "").replace(/[&<>"']/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
 const memo = { get(){ try{ return localStorage.getItem("flairfm:choix"); }catch{ return null; } }, set(v){ try{ localStorage.setItem("flairfm:choix", v); }catch{} } };
 async function charger(){
@@ -58,9 +59,10 @@ async function charger(){
   try{ infos = await (await fetch("essais/infos.json", {cache:"no-store"})).json(); }
   catch{ document.getElementById("liste").innerHTML = `<p class="vide">Les extraits ne sont pas encore prêts. Reviens dans quelques minutes.</p>`; return; }
   const choisi = memo.get();
+  if (infos.intro) document.querySelector(".chapo").textContent = infos.intro;
   document.getElementById("liste").innerHTML = infos.animateurs.map(a => `
     <article class="carte">
-      <div class="tete"><div class="avatar" style="--c:${COULEURS[a.id]||"#888"}">${esc(a.nom[0])}</div>
+      <div class="tete"><div class="avatar" style="--c:${couleur(a.id)}">${esc(a.nom[0])}</div>
         <div><h2>${esc(a.nom)}</h2><small>${esc(a.style)}${a.duree?`, ${Math.round(a.duree)} s`:""}</small></div></div>
       <p>${esc(a.description)}</p>
       ${a.fichier ? `<audio controls preload="none" src="essais/${esc(a.fichier)}?v=${encodeURIComponent(infos.genere)}"></audio>`

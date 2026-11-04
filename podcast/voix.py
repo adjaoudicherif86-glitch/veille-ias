@@ -43,10 +43,10 @@ def modele():
     return candidats[0]
 
 
-def parler(texte, voix, consignes="", tentatives=4):
-    """Fait dire `texte` par la voix Gemini `voix`, avec des consignes de jeu (en langage naturel)."""
-    prompt = (f"{consignes.strip()}\n\n# TEXTE À DIRE (en français, mot pour mot, sans rien lire d'autre)\n{texte.strip()}"
-              if consignes else texte)
+def parler(texte, voix, consignes="", tentatives=4, langue="fr-FR"):
+    """Fait dire `texte` par la voix Gemini `voix`. `consignes` suit la structure recommandée par Google
+    (profil, scène, notes du réalisateur) ; le texte est ajouté sous l'en-tête TRANSCRIPT."""
+    prompt = f"{consignes.strip()}\n\n#### TRANSCRIPT\n{texte.strip()}" if consignes else texte
     corps = {
         "contents": [{"parts": [{"text": prompt}]}],
         "generationConfig": {
@@ -54,6 +54,8 @@ def parler(texte, voix, consignes="", tentatives=4):
             "speechConfig": {"voiceConfig": {"prebuiltVoiceConfig": {"voiceName": voix}}},
         },
     }
+    if langue:
+        corps["generationConfig"]["speechConfig"]["languageCode"] = langue
     modele()
     erreurs = []
     for nom in list(_MODELE):
