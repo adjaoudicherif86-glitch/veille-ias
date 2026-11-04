@@ -203,6 +203,35 @@ def monter(voix_24k, intensite=1.0, avec_nappe=True):
     return _normaliser(piste, -1.0)
 
 
+def monter_episode(sequences, intensite=1.0):
+    """sequences : liste de (type, pcm 24 kHz). Jingle, puis chaque séquence séparée par une vraie respiration
+    (et un son de transition avant chaque nouveau sujet), nappe sous toute la voix, fermeture musicale."""
+    rng = np.random.default_rng(5)
+    j = jingle()
+    morceaux, pos = [], len(j) - int(1.1 * SR)
+    for k, (genre, pcm) in enumerate(sequences):
+        if k > 0:
+            if genre in ("sujet", "histoire"):
+                pos += int(0.35 * SR)
+                morceaux.append((pos, transition() * 0.55))
+                pos += int(0.95 * SR)
+            else:
+                pos += int(rng.uniform(0.55, 0.8) * SR)
+        v = voix_radio(pcm, intensite)
+        morceaux.append((pos, v))
+        pos += len(v)
+    debut_voix, fin_voix = len(j) - int(1.1 * SR), pos
+    fermeture = fin()
+    piste = np.zeros(fin_voix + int(0.5 * SR) + len(fermeture))
+    piste[:len(j)] += j * 0.8
+    n = nappe((fin_voix - debut_voix) / SR + 1.5)
+    piste[debut_voix:debut_voix + len(n)] += n[:len(piste) - debut_voix] * 10 ** (-26 / 20)
+    for p0, son in morceaux:
+        piste[p0:p0 + len(son)] += son[:len(piste) - p0]
+    _placer(piste, fermeture * 0.8, fin_voix / SR + 0.5)
+    return _normaliser(piste, -1.0)
+
+
 def en_mp3(x, chemin, debit=96):
     import lameenc
     enc = lameenc.Encoder()

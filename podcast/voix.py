@@ -71,8 +71,13 @@ def parler(texte, voix, consignes="", tentatives=4, langue="fr-FR"):
                 erreurs.append(f"{nom} : {r.status_code} {r.text[:200]}")
                 break  # modèle indisponible pour cette clé : on essaie le suivant
             r.raise_for_status()
-            parts = r.json()["candidates"][0]["content"]["parts"]
-            donnees = next(p["inlineData"]["data"] for p in parts if "inlineData" in p)
+            try:
+                parts = r.json()["candidates"][0]["content"]["parts"]
+                donnees = next(p["inlineData"]["data"] for p in parts if "inlineData" in p)
+            except (KeyError, IndexError, StopIteration):
+                print(f"  (réponse sans audio sur {nom}, nouvel essai)", file=sys.stderr)
+                time.sleep(3)
+                continue
             if _MODELE[0] != nom:
                 _MODELE.remove(nom)
                 _MODELE.insert(0, nom)

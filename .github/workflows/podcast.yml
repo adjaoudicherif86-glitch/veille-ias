@@ -1,0 +1,52 @@
+name: "Flair FM : épisode du jour"
+
+on:
+  schedule:
+    - cron: "41 5 * * *"   # chaque matin vers 6 h 40 (heure de Paris en hiver), après la chasse de 4 h 17 UTC
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: podcast
+  cancel-in-progress: false
+
+jobs:
+  episode:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install requests numpy scipy lameenc
+      - name: Fabriquer l'épisode
+        env:
+          LLM_API_KEY: ${{ secrets.LLM_API_KEY }}
+          LLM_MODEL: ${{ vars.LLM_MODEL }}
+          LLM_TTS_MODEL: ${{ vars.LLM_TTS_MODEL }}
+        run: python podcast/episode.py
+      - name: Publier le fichier audio
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          TAG="episode-$(date -u +%Y-%m-%d)"
+          echo "TAG=$TAG" >> "$GITHUB_ENV"
+          F=$(ls podcast/sortie/*.mp3)
+          gh release delete "$TAG" --yes --cleanup-tag 2>/dev/null || true
+          gh release create "$TAG" "$F" --title "Flair FM, $(date -u +%d/%m/%Y)" --notes "Épisode du jour de Flair FM." --latest=false
+      - name: Mettre à jour le catalogue
+        run: |
+          python podcast/publier.py > a_supprimer.txt
+          git config user.name "veille-bot"
+          git config user.email "veille-bot@users.noreply.github.com"
+          git add docs/podcast/episodes.json
+          git diff --cached --quiet || git commit -m "Flair FM : épisode du $(date -u +%d/%m)"
+          git pull --rebase origin main && git push
+      - name: Supprimer les vieux épisodes
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          while read -r t; do [ -n "$t" ] && gh release delete "$t" --yes --cleanup-tag || true; done < a_supprimer.txt
