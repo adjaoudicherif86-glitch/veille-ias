@@ -1,5 +1,5 @@
 {
- "maj": "2026-11-05T00:54:36.002010+00:00",
+ "maj": "2026-11-05T12:20:36.888571+00:00",
  "sources_ok": [
   "Notes de version Claude (API)",
   "Notes de version OpenAI (API)",
@@ -60,8 +60,8 @@
    "erreur": "429 Client Error: Too Many Requests for url: https://venturebeat.com/category/ai/feed/"
   }
  ],
- "total": 2140,
- "analyses": 1846,
+ "total": 2187,
+ "analyses": 1839,
  "brief": {
   "titre": "Entre automatisation accrue et IPO, l'IA accélère",
   "texte": "OpenAI et Anthropic intensifient la course aux fonctionnalités avec de nouveaux outils de génération d'images, comme les GIF animés, et l'intégration de contrôles informatiques directement dans les SDK. Côté infrastructures, Anthropic prépare son entrée en bourse avec un projet pharaonique, tandis qu'OpenAI renforce ses capacités en rachetant Pierre Computer Company pour Codex. En parallèle, Google lie l'avenir de la recherche éducative à l'adoption de l'IA et DeepMind lance Antigravity pour la santé. Ces mouvements confirment une structuration agressive du marché entre automatisation quotidienne et investissements massifs.",
@@ -72,33 +72,33 @@
   ]
  },
  "top5": {
-  "maj": "2026-11-04T19:45:04.762260+00:00",
+  "maj": "2026-11-05T12:20:36.888571+00:00",
   "par_ia": true,
   "items": [
    {
-    "id": "bb2562f671cf45",
-    "pourquoi": "Mistral AI franchit une étape majeure en publiant les poids ouverts de son modèle de pointe Mistral Large 4 (1000 milliards de paramètres).",
-    "a_faire": "Tester l'intégration de Mistral Large 4 via Hugging Face pour vos cas d'usage complexes."
-   },
-   {
     "id": "3bb09205ddd5c3",
-    "pourquoi": "Anthropic intègre officiellement des classes bêta pour le contrôle du navigateur et du PC dans ses SDK, ouvrant la voie à des agents autonomes avancés.",
-    "a_faire": "Lire la documentation des SDK Claude pour explorer les nouvelles capacités d'utilisation du navigateur."
+    "pourquoi": "Anthropic intègre officiellement des classes de contrôle du navigateur et du PC dans ses SDK, marquant une avancée majeure pour les agents autonomes.",
+    "a_faire": "Tester ces nouvelles classes dans vos SDK pour automatiser des tâches complexes sur poste de travail."
    },
    {
-    "id": "56f80bd978a451",
-    "pourquoi": "OpenAI annonce la dépréciation prochaine des modèles o3-deep-research et o4-mini-deep-research, avec un arrêt prévu le 23 juillet.",
-    "a_faire": "Vérifier vos dépendances API pour identifier l'utilisation de ces modèles dépréciés et planifier la migration."
+    "id": "bb2562f671cf45",
+    "pourquoi": "Mistral AI sort ses poids ouverts pour Mistral Large 4 (1 000 milliards de paramètres), offrant une alternative souveraine puissante et hautement performante.",
+    "a_faire": "Télécharger et évaluer les performances de Mistral Large 4 sur vos cas d'usage internes."
    },
    {
-    "id": "7b04a568c5adcc",
-    "pourquoi": "Google DeepMind lance Antigravity, un système spécialisé en chimiinformatique pour accélérer la découverte de médicaments.",
-    "a_faire": "Surveiller les retours d'expérience sur Antigravity si vous évoluez dans le secteur de la santé ou de la pharma."
+    "id": "dad0a29a44b81d",
+    "pourquoi": "OpenAI met à jour son API avec GPT-Image-2.6 (Sunburst et Flare), permettant une génération d'images avancée, du SVG et des GIF animés.",
+    "a_faire": "Mettre à jour l'intégration de l'API OpenAI pour tester la création de fichiers vectoriels et d'animations."
    },
    {
-    "id": "52a6c1f6726849",
-    "pourquoi": "La sortie d'une version quantifiée à 1 bit de DeepSeek-V4.1-Flash démontre les progrès rapides de l'optimisation extrême des grands modèles.",
-    "a_faire": "Examiner la faisabilité d'exécuter ce modèle ultra-compressé en local pour des tâches de code."
+    "id": "7ac5bd2caa3b15",
+    "pourquoi": "Google officialise la disponibilité générale (GA) de l'outil Computer Use dans ses API, standardisant l'interaction des IA avec les interfaces graphiques.",
+    "a_faire": "Surveiller l'intégration de Computer Use dans vos workflows d'automatisation basés sur Gemini."
+   },
+   {
+    "id": "c8a0ef4754f436",
+    "pourquoi": "Moonshot AI lance Kimi K3.1 Pro, un modèle multimodal ouvert massif doté d'un million de tokens de contexte, élargissant les options pour le traitement de documents denses.",
+    "a_faire": "Examiner la fiche technique et tester Kimi K3.1 Pro sur des tâches de longue traîne multimodale."
    }
   ]
  }
