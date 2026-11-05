@@ -1,5 +1,5 @@
 {
- "maj": "2026-11-04T19:45:04.762260+00:00",
+ "maj": "2026-11-05T00:54:36.002010+00:00",
  "sources_ok": [
   "Notes de version Claude (API)",
   "Notes de version OpenAI (API)",
@@ -60,15 +60,15 @@
    "erreur": "429 Client Error: Too Many Requests for url: https://venturebeat.com/category/ai/feed/"
   }
  ],
- "total": 2129,
- "analyses": 1838,
+ "total": 2140,
+ "analyses": 1846,
  "brief": {
-  "titre": "Entre IPO pharaonique et agents autonomes, l'IA accélère",
-  "texte": "L'actualité de l'IA est marquée par des mouvements majeurs entre structuration industrielle et évolutions techniques. Anthropic fait sensation en préparant son IPO tout en révélant que Claude écrit 90% de son code et intègre désormais des outils de contrôle direct du PC. Côté API, les modèles évoluent avec l'obsolescence de certaines versions chez OpenAI et l'arrivée de filigranes textuels chez Claude. Enfin, les usages se diversifient avec l'arrivée des GIF animés sur ChatGPT et des avancées notables en santé avec Google DeepMind.",
+  "titre": "Entre automatisation accrue et IPO, l'IA accélère",
+  "texte": "OpenAI et Anthropic intensifient la course aux fonctionnalités avec de nouveaux outils de génération d'images, comme les GIF animés, et l'intégration de contrôles informatiques directement dans les SDK. Côté infrastructures, Anthropic prépare son entrée en bourse avec un projet pharaonique, tandis qu'OpenAI renforce ses capacités en rachetant Pierre Computer Company pour Codex. En parallèle, Google lie l'avenir de la recherche éducative à l'adoption de l'IA et DeepMind lance Antigravity pour la santé. Ces mouvements confirment une structuration agressive du marché entre automatisation quotidienne et investissements massifs.",
   "a_tester": [
-   "Tester les nouveaux outils de contrôle du navigateur et du PC intégrés dans les SDK Anthropic",
-   "Explorer la génération de GIF animés directement depuis ChatGPT pour vos contenus",
-   "Vérifier la compatibilité de vos intégrations API suite à l'obsolescence des modèles o3 et o4 mini chez OpenAI"
+   "Tester la génération de GIF animés et les nouvelles fonctions d'images d'OpenAI",
+   "Explorer l'intégration des outils de contrôle de navigateur et PC dans les SDK Claude",
+   "Examiner les dernières fonctionnalités d'Unsloth et son agent web intégré"
   ]
  },
  "top5": {
