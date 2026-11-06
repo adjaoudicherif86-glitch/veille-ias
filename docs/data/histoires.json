@@ -1,438 +1,314 @@
 {
- "maj": "2026-11-05T21:59:16.993928+00:00",
+ "maj": "2026-11-06T06:45:17.198239+00:00",
  "histoires": [
   {
-   "id": "h_30e1b03f82",
-   "titre": "Tencent lance le modèle open-weight Hy4",
-   "resume": "Tencent déploie officiellement son modèle open-weight Hy4 (Hunyuan), qui introduit de nouvelles capacités de compréhension visuelle, de computer use et d'analyse financière, provoquant un net rebond boursier pour l'entreprise.",
-   "creee": "2026-11-04T12:08:30.322504+00:00",
-   "maj": "2026-11-05T04:25:49+00:00",
+   "id": "h_97c425e6a7",
+   "titre": "Mise à jour v2.1.314 de Claude Code",
+   "resume": "Anthropic renforce la sécurité, l'administration et les fonctionnalités de son API Claude et de son outil Claude Code avec de nouveaux contrôles et champs enrichis. Néanmoins, l'outil fait face à des critiques concernant la confidentialité après des signalements de transmission d'adresses e-mail à des sites tiers.",
+   "creee": "2026-10-30T01:09:42.604214+00:00",
+   "maj": "2026-11-06T06:45:17.192402+00:00",
    "episodes": [
     {
-     "id": "7a54e62a5aa018",
-     "date": "2026-11-04T07:01:09+00:00",
-     "titre": "Tencent lance le modèle open-weight Hy4 pour rivaliser au sommet",
-     "neuf": "Tencent entre dans la course des grands modèles open-weight avec son nouveau modèle Hy4.",
-     "fil": "lancement du modèle open-weight Tencent Hy4",
-     "source": "Grandes annonces IA",
-     "lien": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPcjhaVmtvbDRMdDIxNUFvcFBCZFluNVk2elhjd0Z6cVlZOXhDczhEZ3JaS1NrWGtERXlVR0tsMHJWNmVHcFJoQ2JPaXY3ZkEyOVdhMEpKUEVESEl6N3pKZHE4S1VnODZjWlh0Qlo3bGZGZE1IbXlqeHhhdlUyVEt4cVNpWHdRRGVnYmk5QjRTQjhHSXFnWTZTTTBqUHZOS081NnU4S3BJanV2VVdrLTB5QklDNjJxV1RX?oc=5",
+     "id": "fd961a2239120b",
+     "date": "2026-10-30T01:06:26+00:00",
+     "titre": "Mise à jour Claude Code v2.1.314 : sécurité et résilience",
+     "neuf": "Publication de la version v2.1.314 apportant des correctifs de sécurité et de résilience.",
+     "fil": "Mises à jour de Claude Code",
+     "source": "Claude Code",
+     "lien": "https://github.com/anthropics/claude-code/releases/tag/v2.1.314",
      "nb_sources": 1,
-     "primaire": false
+     "primaire": true
     },
     {
-     "id": "77e3edc01e0941",
-     "date": "2026-11-04T07:23:10+00:00",
-     "titre": "Présentation de Hy4 avec des poids ouverts prochainement",
-     "neuf": "Annonce de la mise à disposition prochaine des poids du modèle Hy4 en open source.",
-     "fil": "mise à disposition des poids du modèle Tencent Hy4",
+     "id": "a1eae37ef93f12",
+     "date": "2026-10-31T01:01:35+00:00",
+     "titre": "Mise à jour Claude Code v2.1.316 : budgets partagés et correctifs",
+     "neuf": "Déploiement de la version v2.1.316 introduisant des budgets partagés et de nouveaux contrôles administratifs.",
+     "fil": "Mise à jour de Claude Code",
+     "source": "Claude Code",
+     "lien": "https://github.com/anthropics/claude-code/releases/tag/v2.1.316",
+     "nb_sources": 1,
+     "primaire": true
+    },
+    {
+     "id": "21325d54bf349a",
+     "date": "2026-11-02T17:13:47+00:00",
+     "titre": "Yet another reason to self host: Anthropic has (again) cut back on reverse engineering tools",
+     "neuf": "Les utilisateurs signalent de nouvelles limitations dans Claude Code pour empêcher le clonage de jeux et le reverse engineering.",
+     "fil": "Mêmes limites et restrictions sur les outils de reverse engineering de Claude Code",
      "source": "r/LocalLLaMA",
-     "lien": "https://www.reddit.com/r/LocalLLaMA/comments/1xnhzbz/introducing_hy4_open_weights_soon/",
+     "lien": "https://www.reddit.com/r/LocalLLaMA/comments/1xm33gr/yet_another_reason_to_self_host_anthropic_has/",
      "nb_sources": 1,
      "primaire": false
     },
     {
-     "id": "7bc2b8f313ed8b",
-     "date": "2026-11-04T16:05:00+00:00",
-     "titre": "Tencent releases Hy4, a powerful frontier AI model introducing visual understanding and computer use - SiliconANGLE",
-     "neuf": "Tencent sort officiellement Hy4, un modèle de pointe intégrant compréhension visuelle et computer use.",
-     "fil": "même modèle Hy4 de Tencent",
-     "source": "Grandes annonces IA",
-     "lien": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNY3Nxbndub1pERHliZ2JQbGR4WkxTTnlYMG5LWU9TZzVpaGxzRl9nSHlWSm1vYUJ4U1dmRzBybDFuTVB5QUtWVS1kSlo1eF9vN2NCZzBaZEJBQjJHTWdjVFNKcWJXaTJUQWlHZUJ2Z0xFWndEOTZsTlczTXdJR2EzMHBha09JVVNiZTFyY0gyMjAwdW9zd214WnprTExrTTJ2cmdOUko3OG10WUdDQTVMT3pGQzgxSDNSN1A1RThKVmdYMWk3OVMybA?oc=5",
+     "id": "3233c3993f901c",
+     "date": "2026-11-03T01:25:46+00:00",
+     "titre": "Notes de version Claude Code v2.1.317 : sécurité et outils admin",
+     "neuf": "Sortie de la version v2.1.317 axée sur la sécurité, les outils administratifs et la correction de bugs.",
+     "fil": "Mise à jour corrective et fonctionnelle de Claude Code",
+     "source": "Claude Code",
+     "lien": "https://github.com/anthropics/claude-code/releases/tag/v2.1.317",
      "nb_sources": 1,
-     "primaire": false
+     "primaire": true
     },
     {
-     "id": "cb06f8c6f3b53f",
-     "date": "2026-11-05T01:09:51+00:00",
-     "titre": "Tencent Targets Financial Analysis With Hy4 AI Model - PYMNTS.com",
-     "neuf": "Le modèle Hy4 de Tencent est ciblé spécifiquement sur l'analyse financière.",
-     "fil": "même modèle Hy4 de Tencent",
-     "source": "Grandes annonces IA",
-     "lien": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQeFZqaXJoSUtzQV8walo0NmhNQUZhWExiQlRscjFsNVpXTjVrYWtndTJ1VVJ4XzFXeUw4NzJBNmU3TkNvLVBueU9nZzhObHN6bEdKRlFsdTE2aE83WHV5R01aR05qNGx3VklGcTcxd1pleXdHVU5EeUNSX2NwNS0tSUMzTXh0V2FjMGlUeWdKRkxfVi1uNFA2dGNlYnJaNFpKR1pscUdjLWZ6WlNvSUp3?oc=5",
+     "id": "a506088947db76",
+     "date": "2026-11-04T00:01:03+00:00",
+     "titre": "Claude Code v2.1.318",
+     "neuf": "Publication de la version v2.1.318 ajoutant un historique des réponses pour les modifications de session et le support d'assumer un rôle sur les passerelles AWS.",
+     "fil": "Mise à jour de Claude Code",
+     "source": "Claude Code",
+     "lien": "https://github.com/anthropics/claude-code/releases/tag/v2.1.318",
      "nb_sources": 1,
-     "primaire": false
+     "primaire": true
     },
     {
-     "id": "538d38b2ae6462",
-     "date": "2026-11-05T04:25:49+00:00",
-     "titre": "Tencent shares jump 6% to three-week high after Hunyuan AI model launch - Investing.com",
-     "neuf": "Le lancement du modèle Hunyuan (Hy4) fait bondir les actions de Tencent en bourse.",
-     "fil": "même modèle Hy4 de Tencent",
-     "source": "Grandes annonces IA",
-     "lien": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQRDljTWtmRUlEZEpHRHRnbFVQSk5yM3g4X19WY1Rfb1ZwOVZvU0xZeE5vVzNoSERUS1YxbzNiSlJtMFNyVUZpa0VWaEpTQUNWamlZSUprejdnaGV0T2t2SDhuN0VmdFhzRGFIYnEzWjB2X0R6WEU2OFdwMVEwbFV3ZmNxNHE0Mmk0dUowdnJzaHRDMGRiRGtaOS1wcEQ5WkNCV2pWQm1Nc3ZPZDF5ajF0WGlYR0hrblBOWHVUM3ltYWIzc2VX?oc=5",
+     "id": "5c0cfbbab24a5d",
+     "date": "2026-11-05T21:59:16.987959+00:00",
+     "titre": "Nouvelles fonctionnalités de sécurité pour l'API Claude d'Anthropic",
+     "neuf": "Ajout d'une liste blanche d'adresses IP et d'une API d'administration pour la déconnexion à distance.",
+     "fil": "même écosystème de sécurité et d'administration des outils Anthropic",
+     "source": "Notes de version Claude (API)",
+     "lien": "https://platform.claude.com/docs/en/release-notes/overview",
      "nb_sources": 1,
-     "primaire": false
-    }
-   ],
-   "statut": "active",
-   "societes": []
-  },
-  {
-   "id": "h_c4961b9682",
-   "titre": "Contrôles de la Chine sur l'export d'IA",
-   "resume": "La Chine formalise ses restrictions réglementaires à l'exportation et étend son emprise sur les matériaux critiques comme le tungstène et les substrats en InP, tandis que les acteurs du secteur s'inquiètent du durcissement croisé des contrôles internationaux.",
-   "creee": "2026-10-20T09:56:16.457937+00:00",
-   "maj": "2026-11-05T03:35:25+00:00",
-   "episodes": [
-    {
-     "id": "751a7e7d96a765",
-     "date": "2026-10-16T07:00:00+00:00",
-     "titre": "La Chine dévoile un projet de contrôle des exportations d'IA et de puces",
-     "neuf": "La Chine publie un projet de réglementation spécifique visant à encadrer l'exportation de technologies d'IA et de puces.",
-     "fil": "Projet de contrôle des exportations d'IA de la Chine",
-     "source": "Contrôles à l'export IA",
-     "lien": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQZFJrS1d0QjRNNDFCeDlGc2x2cHJhTWN6SEJtWjFucjRFWnc2LWlUMFFMbjFuX3BOWGpJcVhLdnVRRnFjaUVpRXh0UHNQcWl6UkF3clZ3VExPc1dVX1hvc2o4Tnl3Mm15VE03Y1h6NHJzU3hnUmlFWlpha0hkeElUaUg1SFY?oc=5",
-     "nb_sources": 1,
-     "primaire": false
+     "primaire": true
     },
     {
-     "id": "312d9d2bf59580",
-     "date": "2026-10-16T18:18:10+00:00",
-     "titre": "La Chine prévoit de durcir ses contrôles sur l'exportation d'IA",
-     "neuf": "La Chine planifie un renforcement de ses restrictions visant les modèles open-weight et des technologies clés.",
-     "fil": "Contrôles à l'export de l'IA par la Chine",
-     "source": "Contrôles à l'export IA",
-     "lien": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPdU1Eb2ZqTHBnQlJISXdubUVnNHZLTXJOLXlpdDI3cFlRWjZLOUpWRGpCTTgwTmZZZk1ydlRSQnVnV29sZTJwSF9LOWxnbktBejZYeGhpN1lINUxEVlRDb2xON2JJekdvdXo1dzB2VzBjOV9TR3NzSF85Z0dYc0N1NzVhWU5OU3kyZTNHSEE2ZFljX1RJdFFyWXBHdmExekZ2X0tPTUI5U1AzRUxWWkl6MENR?oc=5",
-     "nb_sources": 1,
-     "primaire": false
-    },
-    {
-     "id": "4c1e5451ed96c6",
-     "date": "2026-10-17T12:00:11+00:00",
-     "titre": "Impact des interdictions d'exportation d'IA chinoises sur les technologies à poids ouverts",
-     "neuf": "L'examen s'élargit à l'impact potentiel de ces interdictions sur l'avenir des modèles à poids ouverts.",
-     "fil": "mêmes projets de contrôles à l'exportation de l'IA en Chine",
-     "source": "Contrôles à l'export IA",
-     "lien": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNbXBIUWJVblVDTjRuV2xFYlJPd3E1bE5jdlVENVd1ek9CQjBleGJCTkItcERIT296NDNkcjQzMmJneU9RbDB3WWZrM3FBSHJvV0FjTmRWVUhHaXBQdHB6UDJuUTV1LXNwSnlqeW1hODZaclliY2pkN2FNcVA1R0RVNlNBMjRxWEQ4N3ZKNVhETGhpNHE2NUxVcnlicUtnNmpEVFdTMFNwbENtYUZkMThLX1h0czNNSDRoYlVyLVNXa2xoVVNDZFZOT1FuWTFhQmpuSVBEWjBn0gHWAUFVX3lxTE9kTHd4Z0laNEp1endfeXl3Tnlad1N4TGpDWWRCVHBRVGU5SWp6RS1EaWtOSHZxczdzeE5nSzhJNmhtbjVCWW9pOHBINHQzR2R6STBOTG1DalFtcWktSjEtbG9yTmFFY1liZnR6Y1FGZTFvcURSY1lKeFdJdk9OUmRldENHeUhBZXN4S2Vra0VPdG50VUg0cmtxTm51R1BJUlQtWXZaemtnWndzY19EWk9WczU2b2RiME1UNWFIdDZKeWtnSmlnSWJONkEwbUx0dVNzdUI2OGc?oc=5",
-     "nb_sources": 1,
-     "primaire": false
-    },
-    {
-     "id": "f16f6a62981a38",
-     "date": "2026-10-20T10:30:00+00:00",
-     "titre": "Pékin restreint l'export de technologies d'IA sans toucher aux API de DeepSeek",
-     "neuf": "Pékin officialise ses restrictions sur l'exportation de technologies d'IA tout en préservant l'accès international aux API et modèles open source de DeepSeek.",
-     "fil": "mêmes restrictions de l'exportation de technologies d'IA par la Chine",
-     "source": "ActuIA",
-     "lien": "https://www.actuia.com/actualite/pekin-veut-restreindre-lexport-de-23-technologies-dia-sans-toucher-a-lapi-de-deepseek-et-qwen/",
-     "nb_sources": 1,
-     "primaire": false
-    },
-    {
-     "id": "5bd5883a528400",
-     "date": "2026-10-21T13:43:39+00:00",
-     "titre": "MOFCOM's New Rules and the Future of Chinese AI - ChinaTalk",
-     "neuf": "Nouvelles analyses sur l'impact à long terme des règles du MOFCOM concernant les contrôles à l'exportation d'IA en Chine.",
-     "fil": "MOFCOM's New Rules and the Future of Chinese AI",
-     "source": "Contrôles à l'export IA",
-     "lien": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBOREZsUnBob1FqbWpTTW1EMUE3TkN2Zmg4VUJrbE9KbDN5MUdWWFltczkwQWVpT3JlTlFtY1RqRFNtQkR2SDR4RkhiaHFmUVpabnJURS1kVVVxSUhpNll3?oc=5",
-     "nb_sources": 1,
-     "primaire": false
-    },
-    {
-     "id": "4be15d91491dd9",
-     "date": "2026-10-22T14:27:36+00:00",
-     "titre": "La Chine s'oppose à l'interdiction de DeepSeek par les États-Unis",
-     "neuf": "La Chine s'oppose publiquement à l'interdiction de DeepSeek par les États-Unis tout en préparant ses propres mesures réglementaires.",
-     "fil": "contrôles à l'exportation et position de la Chine",
-     "source": "Contrôles à l'export IA",
-     "lien": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPeXRNeUp2UzVnTlhiZXJNZENRTmREWWMxVFYyLS1IdndIX2pqU19PSW1SdDgtLXEtb2hVZ05BS1NlV3gxdlNZc1J3enBiY1ktZEZidmFsTVJfVXBpcU9kYTR1VUQxYVpWSm8xTHZCd09pMzRpWHdIcElkNHpBR2ZreWZldmZGNVpSd2FCTms5bGhtX0FDNURiWVRn?oc=5",
-     "nb_sources": 1,
-     "primaire": false
-    },
-    {
-     "id": "75f0d8b919659a",
-     "date": "2026-10-22T17:07:31+00:00",
-     "titre": "DeepSeek et MiniMax valident les règles chinoises d'exportation d'IA",
-     "neuf": "DeepSeek et MiniMax obtiennent l'autorisation officielle pour exporter leurs modèles.",
-     "fil": "même application des contrôles chinois sur l'exportation d'IA",
-     "source": "r/LocalLLaMA",
-     "lien": "https://www.reddit.com/r/LocalLLaMA/comments/1xcoelw/deepseek_and_minimax_clear_chinas_ai_export_rules/",
-     "nb_sources": 1,
-     "primaire": false
-    },
-    {
-     "id": "8d092d29f2024b",
-     "date": "2026-10-23T07:10:34+00:00",
-     "titre": "DeepSeek et MiniMax obtiennent l'approbation pour un usage mondial",
-     "neuf": "DeepSeek et MiniMax reçoivent officiellement l'approbation pour l'utilisation mondiale de leur intelligence artificielle dans le cadre des contrôles à l'exportation.",
-     "fil": "même approbation pour l'utilisation mondiale et export des modèles DeepSeek et MiniMax",
-     "source": "Contrôles à l'export IA",
-     "lien": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPZUxoTk9BS0J1SUxMSzJCSGpQMl91ZTlfTzk0OE5EdFp4REZRV0EwRUk0ZlU2MVBzcmVuN0VlOWNpaXQxOFd4RWxVc0pKajdYUHNDT2JSRXlERmxDLUZucEtmNTVKNEo3Z09vdVN0U3VhLTNZck5uelFGOXVkZnd2bHFLN1VhaFZ1MFNxVGZFeXpCdV9SZk5Sa0N2NVlPWmsxSzlLTHF3U3I5TDhNcTRLWER4dmRkRjVXQXc?oc=5",
-     "nb_sources": 1,
-     "primaire": false
-    },
-    {
-     "id": "f3d45600f3b941",
-     "date": "2026-10-23T10:22:30+00:00",
-     "titre": "La Chine propose de nouveaux contrôles à l'exportation sur l'IA",
-     "neuf": "La Chine envisage d'instaurer de nouveaux contrôles formels ciblant l'intelligence artificielle, les sciences de la vie et les technologies photovoltaïques.",
-     "fil": "même politique de contrôles à l'exportation de la Chine sur l'IA",
-     "source": "Contrôles à l'export IA",
-     "lien": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNVWtCTld5UTJnajEycGpGcEF6NWFBNGhmNlowYkJNVXZEZDF0WG5zdG5FNVBXdXZ1NmppTnI5Vi0zSmVuTHFRSEN0Vk5kU2RnZFVjbFVnaWltZzFUb1hCQ0pLY1lBYnl2eDlJYlFkOU1QX3dmV1ZJMGwtcUtWeGNkVHRjU1dkLUFGVDB5RVc0OFktUnVOZlBudV8zOTJNNFRXYXpFMnhoTGNKSTFlQTRhWUVnbG1BX1I5Mm9Wcg?oc=5",
-     "nb_sources": 1,
-     "primaire": false
-    },
-    {
-     "id": "b410f5938b6955",
-     "date": "2026-10-23T19:18:13+00:00",
-     "titre": "Nouveaux contrôles à l'exportation de la Chine sur les drones, l'IA et les terres rares",
-     "neuf": "La Chine officialise et élargit ses restrictions à l'exportation en y incluant l'IA aux côtés des drones et des terres rares.",
-     "fil": "nouveaux contrôles à l'exportation de la Chine sur l'IA",
-     "source": "Contrôles à l'export IA",
-     "lien": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPbmk4QjFka2xrVXpDR3RpbkdSOXhZX0kwQXJEclNndGlxa29RVVNQOS1oQl9WcFdVWkdwd1VDd3ZPOXZKRXpXZ0NjRmRTZjdGYjJaZjc5TGhNQ2VIX2NJTGJlX2NjQVVFUFBLSzhWZGdhelFXT1U2c2stVnhfVnRhWjVTeTA?oc=5",
-     "nb_sources": 1,
-     "primaire": false
-    },
-    {
-     "id": "6c0cc7da9615ae",
-     "date": "2026-10-26T12:00:00+00:00",
-     "titre": "La Chine propose de nouveaux contrôles à l'exportation sur l'IA",
-     "neuf": "La Chine propose de nouveaux contrôles à l'exportation ciblant l'intelligence artificielle et les technologies biopharmaceutiques.",
-     "fil": "Contrôles de la Chine sur l'export d'IA",
-     "source": "Contrôles à l'export IA",
-     "lien": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQQUluM3JRMHRybHBfX0VRX2dPMTRaVEpldTJSMVo5RURBQkYyMzVZOFhTaDU2NmE2dEdEZmNsSzdLWmhQTHd0VnE3c1NEa3pfMTIyRnRCY0xIMk0zaVhNT3hzVkF0SWxqNzg0eklBTEFVZDE2NmhhVzhpemxndC1vN3V5Y1V2blFLM0t6c2h1bXRobUhPM1VDMWlxb0VTT0dBUnJrVWg3eTFGUTNRTlJRM0M4eWdrY2EtOVF3VWU3YkdrdUU?oc=5",
-     "nb_sources": 1,
-     "primaire": false
-    },
-    {
-     "id": "f1c6375f91964e",
-     "date": "2026-10-28T07:22:16+00:00",
-     "titre": "La Chine instaure de nouveaux contrôles sur ses technologies d'intelligence artificielle",
-     "neuf": "La Chine officialise de nouvelles restrictions concrètes sur l'exportation de ses technologies clés en intelligence artificielle.",
-     "fil": "Mêmes contrôles à l'exportation et restrictions technologiques de la Chine",
-     "source": "Contrôles à l'export IA",
-     "lien": "https://news.google.com/rss/articles/CBMingFBVV95cUxNd2xfamMxTE1YUUxMbmJpWG1teVNZRWFpRGktWngtOE1VMFJ3UmNYLW9jdHBSMUZ4c0FuMF9ZX3ZSa3NNU0lJMEZBbjgwR0ZPb004MmNiMUFfYV9FOEJWNlc1OWtXMGdMb1I0VGsyOXFNRHhYUE1WNUI0X085d0Jvbm40cTNLSWRkQWcyNzJ2Vy0zWHF3VU10QmxIN3Uydw?oc=5",
-     "nb_sources": 1,
-     "primaire": false
-    },
-    {
-     "id": "e2cd2186d6edbf",
-     "date": "2026-10-29T04:51:43+00:00",
-     "titre": "La Chine liste 40 technologies liées à l'IA pour ses contrôles à l'export",
-     "neuf": "La Chine formalise précisément une liste de 40 technologies liées à l'IA soumises à ses contrôles à l'export.",
-     "fil": "Contrôles de la Chine sur l'export d'IA",
-     "source": "Contrôles à l'export IA",
-     "lien": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNMmwtT0hEdmRudnBqV3Y3RTB2ZjcyZXVuWlFXTk1KUTBhc3htd0EzQXdObW01NE9iTGNBUnY5QWlmQjhzQlREWlh3SkdteDJ4WkVZbnVBbmJwY0ZKdkRnR2FmS2p2N1pmRl9RWmdGOVdxNk40Q2dNZWUweGJvd3JSNzRtOEN0RTQ?oc=5",
-     "nb_sources": 1,
-     "primaire": false
-    },
-    {
-     "id": "108d0302d46bee",
-     "date": "2026-10-29T15:38:41+00:00",
-     "titre": "Les discussions UE-Chine sur l'IA menacées par les sanctions et le contrôle des exportations",
-     "neuf": "Les discussions entre l'UE et la Chine sur l'IA sont menacées par les contrôles à l'export et les interdictions visant Huawei.",
-     "fil": "même politique de contrôles à l'export de l'IA par la Chine",
-     "source": "Contrôles à l'export IA",
-     "lien": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOVmdiNkZjcnFIOE5OUDN1SXBPSk1TY3JxQVNfZWpxdUh6WUJURHlPOXdSUldDUXRZYjU5VVFHNzdBOUFkVl9TcEQ2SUkwTmVCSDQ1b0N6cDNGZFhZdzhxeDBKOVQ0ckJaZG9welpMdU55OU1QM3J6WWlOOV9XSnhWXzNKMXNNYkpzakRCVWtUd3ZjY2stYUxodjJYd2VsdFk?oc=5",
-     "nb_sources": 1,
-     "primaire": false
-    },
-    {
-     "id": "0a373e5a677d47",
-     "date": "2026-10-29T19:24:00+00:00",
-     "titre": "Contrôles chinois à l'exportation sur la biopharmacie et l'IA",
-     "neuf": "La Chine étend ses restrictions à l'exportation à la biopharmacie et formalise de nouvelles obligations d'enregistrement.",
-     "fil": "Renforcement des contrôles chinois à l'exportation sur l'IA et la haute technologie",
-     "source": "Contrôles à l'export IA",
-     "lien": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPSUo4UFR4b0ZicWJVclJDRkJERElfaUw3aGlJdkpzZUNKLW8yal9lYzBCRzVZQWlJbzZKVHB0ZnRZekU5dFVlbXNIazl4UWFzSjc4LTF5V1R3NVJUaTY4V1IxUmFFSWdtdDJTX3hDMDBqYWhYOEt3aXlDWVhQeWlzOVo5aFFTRjJHSVZ2WF9IM2pHa2hMeGdCaVVRMVpjT0ZoX003Sk1WM0lya2F3NGNYSzB1VGROYW_SAbwBQVVfeXFMT1ZocURFS1JoTlJTZjlVS2lUZnA1S2F0LTBId2NYc0Q2RGVDMzNmb0p4ZGlBUk0zU0wwajBONzkwYlB2ZFpKY0VBQmNGME1JZVhvcDl1RkIyeHdKbjhGY3Q0UW01c1M1aFZsNDYyQVNRVVhmRTlxcllMbm1wVnVHZVZNQjJGVGQ1S3dEakdnYzFqZmtPMTZEeGFpdHFFU3BMZVp6ZTlVcmtMM09QQTFfcVEyOWJKWkNDTmoxbGc?oc=5",
-     "nb_sources": 1,
-     "primaire": false
-    },
-    {
-     "id": "26057c2cdf5d5b",
-     "date": "2026-10-30T13:00:30+00:00",
-     "titre": "Les contrôles à l'exportation de l'IA vers la Chine se retournent contre les États-Unis",
-     "neuf": "Un article de Forbes analyse comment les restrictions à l'exportation de technologies d'intelligence artificielle vers la Chine finissent par se retourner contre les États-Unis.",
-     "fil": "mêmes contrôles américains et chinois sur l'export d'IA",
-     "source": "Contrôles à l'export IA",
-     "lien": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPbmJXb3A1dC1LQ3hxU3FjdFR6SldXcDNhV240bVU0OGdIdC1YZGU1R3Z4YllXOHhSUG1zNW84T3lhYTZNYjBPTGYxM1JKSDhpbXBtazZqT25KWnZRbXdDenRiN1MwdWE0M1liUVRUelJSanBBVmt5aDB4QTJ3TE15cVpvR1J1Qmp1QTFnS3R2T0s3SW9zcmIzNk5uYnRFYU5qbUpRZ2xuSFlaQUlfOGlJamxhc2M0WlU?oc=5",
-     "nb_sources": 1,
-     "primaire": false
-    },
-    {
-     "id": "93944751f16433",
-     "date": "2026-11-01T22:22:50+00:00",
-     "titre": "Les contrôles américains à l'exportation favorisent les centres de données en Asie",
-     "neuf": "Mise en lumière de la manière dont les restrictions américaines stimulent paradoxalement le développement de centres de données en Asie soutenant l'IA chinoise.",
-     "fil": "effets des contrôles américains et restrictions à l'exportation",
-     "source": "Contrôles à l'export IA",
-     "lien": "https://news.google.com/rss/articles/CBMitgFBVV95cUxONTBYdUoxSTFKcTdFdDNMVnJiZ0ZKd3IyLTllNDFNWnN0SnA0OUVaTnpKVmpCNkNPRmh4bC1rVU5xTGNKRXBJMzI1eE1HRm5XSEhvbXVSbVhHa2QxdmNkU3RheENjc1A0QS1BOThKRHV3YVUzeFNhdHE0Q0lIQi1NcEdmZlF5V0Mtd2s2X0IybWZBUDZ0Qy1ReHh2NTdnYWVvR3I4T21yR0RNRXVXenp2djdSZGpZQQ?oc=5",
-     "nb_sources": 1,
-     "primaire": false
-    },
-    {
-     "id": "4e84ca416d4f3c",
-     "date": "2026-11-02T07:27:28+00:00",
-     "titre": "China's First Frontier AI Export Controls: Mofcom Announcement No. 48",
-     "neuf": "Publication formelle de l'annonce officielle n°48 du MOFCOM sur les premiers contrôles à l'exportation d'IA de pointe.",
-     "fil": "même annonce sur les contrôles à l'exportation de la Chine",
+     "id": "3b58ffb304e7b1",
+     "date": "2026-11-05T22:17:15+00:00",
+     "titre": "Claude Code sends your email address to websites",
+     "neuf": "Un problème de sécurité et de confidentialité est signalé, Claude Code transmettant l'adresse e-mail des utilisateurs à des sites web.",
+     "fil": "Mise à jour et problèmes liés à Claude Code",
      "source": "Hacker News (IA, 100+ pts)",
-     "lien": "https://labs.cloudsecurityalliance.org/research/csa-research-note-china-ai-export-controls-announcement-48-2/",
+     "lien": "https://github.com/anthropics/claude-code/issues/107757",
      "nb_sources": 1,
      "primaire": false
     },
     {
-     "id": "08d3275f208695",
-     "date": "2026-11-02T16:48:44+00:00",
-     "titre": "Mistral AI met en garde contre les contrôles américains et chinois à l'exportation",
-     "neuf": "Mistral AI met publiquement en garde contre l'impact des contrôles à l'exportation américains et chinois sur l'IA.",
-     "fil": "mêmes contrôles à l'export d'IA",
-     "source": "Contrôles à l'export IA",
-     "lien": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQR09RZnFJQ0hxcFNhSmRCYU1ha19rTTUyLUlVNjFHQVdYa2k0RDNLdjhiOXp2U1JkRWczYnVLRm5hU0xhXzRueVgxaE1tUUhtU0hlMTRiaHVQcTRGRzlfS09aa2NueWVVRVRtYkNoNHdRRloxeHZ3YUlnN0VkeWFPLVd6aW1xUEk3UUE?oc=5",
+     "id": "b5fb3b3142a3da",
+     "date": "2026-11-06T06:45:17.192402+00:00",
+     "titre": "Nouvelles fonctionnalités de l'API Claude : gestion des utilisateurs et capacités des modèles",
+     "neuf": "L'API Claude s'enrichit de nouvelles options de contrôle administrateur et de champs de modèles améliorés.",
+     "fil": "Mises à jour des fonctionnalités et de l'API Claude",
+     "source": "Notes de version Claude (API)",
+     "lien": "https://platform.claude.com/docs/en/release-notes/overview",
      "nb_sources": 1,
-     "primaire": false
-    },
-    {
-     "id": "6d1ba7598ece9e",
-     "date": "2026-11-05T02:28:00+00:00",
-     "titre": "Les restrictions chinoises sur le tungstène pèsent sur la chaîne d'approvisionnement de l'IA",
-     "neuf": "La Chine impose de nouvelles restrictions sur le tungstène, pesant sur la chaîne d'approvisionnement de l'IA.",
-     "fil": "même dynamique de contrôles à l'exportation et restrictions",
-     "source": "Contrôles à l'export IA",
-     "lien": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPQnEyQk96aEtwdE9fVVhzYlJkWW1oU1VVbVdNRW5IWjY4YVdXRFFaR040dEh0ZjlqWWo3U2c0NTNyQ2RIRmhudkhUem1uVzRWT2Nqdk1WbmVNM05haGtjZk91UUhXclJiOVFLREJMWV9Tb2FfdUdHQU1MeG43NjdjTlAweENBOHN6SDg0T0NfTjJacnVFU1Rjcm1id0MxZW12RGtuS3ZYTHpoT0JmWHdsM0I2dTM1Zw?oc=5",
-     "nb_sources": 1,
-     "primaire": false
-    },
-    {
-     "id": "9ae99e0851b474",
-     "date": "2026-11-05T03:35:25+00:00",
-     "titre": "Commentary: AOI locks in China's InP substrates for AI optics, but export controls threaten supply - digitimes",
-     "neuf": "Les contrôles menacent la chaîne d'approvisionnement des substrats en InP pour l'optique IA.",
-     "fil": "même cadre de contrôles à l'export",
-     "source": "Contrôles à l'export IA",
-     "lien": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNd3NsRU4wYl9DaHJOMWpzTHRCVXJ6cmdBNUFqX0phbzFNTk9kQzRXN1Blc2t5aW5USjgxMW5VTG1LZzJ6a0lpTVhNREJtOTd1eUtUWVNZa2V3YlFET3ZWSVExTWFyZ2Q4TURpT2NDeWtFdTNYb09vYVFZcWprdngtTzZCY3Vka210WnJWTmZTUlBSNTJJOC1nWnBObHNwb00?oc=5",
-     "nb_sources": 1,
-     "primaire": false
+     "primaire": true
     }
    ],
    "statut": "active",
    "societes": [
-    "deepseek",
-    "ue",
-    "mistral"
+    "anthropic"
    ]
   },
   {
-   "id": "h_4f55dae4d5",
-   "titre": "OpenAI Images 2.6 et ses variantes",
-   "resume": "OpenAI déploie Images 2.6 avec le support des GIF animés et des références d'images, s'accompagnant de variantes spécialisées et de mises à jour de son SDK pour intégrer ces fonctionnalités.",
-   "creee": "2026-11-05T00:54:36.001955+00:00",
-   "maj": "2026-11-05T00:55:06+00:00",
+   "id": "h_5e0762833f",
+   "titre": "Action en justice contre SpaceXAI",
+   "resume": "SpaceXAI poursuit l'extension massive de ses infrastructures (avec Colossus 2 et l'annonce de deux nouveaux centres de données à Southaven) tout en faisant face à des pressions juridiques et locales. Les autorités locales font notamment pression pour que l'entreprise augmente ses offres de rachat de logements auprès des riverains.",
+   "creee": "2026-10-20T20:45:07.920169+00:00",
+   "maj": "2026-11-06T04:48:00+00:00",
    "episodes": [
     {
-     "id": "806c6be1f0394a",
-     "date": "2026-11-05T00:44:32+00:00",
-     "titre": "OpenAI lance Images 2.6 avec le support des GIF et des références d'images",
-     "neuf": "OpenAI déploie officiellement Images 2.6 avec le support des GIF et des références d'images.",
-     "fil": "même famille OpenAI Images 2.6",
-     "source": "OpenAI (actus)",
-     "lien": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOX3dIb0FWWHhMdTVNVENaWnBKWFV5d1NmYXA5ZU5NN3VjVWJsSnNXRklqcF95alVZaHRHSUhxSWcyRUxDVWthcVVKRk8zOS02OFo0WG94TDhOaENYSkRITFl0eFRDdzFBUHVRMFRDVU9VeVY3LURzY1Rwb0xaSkZ5eFZvc2xwSGZ3MjVXNEwxMmpSQQ?oc=5",
+     "id": "54794aade42fd8",
+     "date": "2026-10-20T19:51:00+00:00",
+     "titre": "Une plainte en justice contre SpaceXAI autorisée à se poursuivre",
+     "neuf": "Un juge autorise la poursuite de la plainte visant l'entreprise.",
+     "fil": "action en justice contre SpaceXAI",
+     "source": "Grok et SpaceXAI (actus)",
+     "lien": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOUVI0SUp1dnBQTWNyRkZnSTJWdUx3Y05pM2ozaHJXMVFVZnpPUTNhYWVldGlaR3pEN21yQWdRdTgweWlmaDA0WlU1dllGRWRZVDZKMXZLdXNJNDV4dnNkdFNtcV9OaU1EU3ozdkR5SW50QmhKRWJIUmxCdHp5cjdiSldfTldEUi1zTE5nazhVTQ?oc=5",
      "nb_sources": 1,
      "primaire": false
     },
     {
-     "id": "dad0a29a44b81d",
-     "date": "2026-11-05T00:54:35.997645+00:00",
-     "titre": "OpenAI lance GPT-Image-2.6 Sunburst et Flare pour la génération d'images",
-     "neuf": "OpenAI lance les versions GPT-Image-2.6 Sunburst et Flare axées sur le SVG, les GIFs et l'édition guidée.",
-     "fil": "même gamme de modèles d'images OpenAI",
-     "source": "Notes de version OpenAI (API)",
-     "lien": "https://developers.openai.com/api/docs/changelog",
+     "id": "f33d215c710570",
+     "date": "2026-10-21T21:33:47+00:00",
+     "titre": "Refus d'intervention du DOJ dans le procès SpaceXAI à Southaven",
+     "neuf": "Un tribunal bloque l'intervention du ministère de la Justice dans l'affaire SpaceXAI à Southaven.",
+     "fil": "le procès SpaceXAI",
+     "source": "Grok et SpaceXAI (actus)",
+     "lien": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQY3RCWlc5ZHUxWTM1V1JjTkhEWlN2Ny14eGZOaVhnSHRuTDR4OTlSQVdWbDBhbGtQdjBKSXhUOWd2dzEwblJqakNpaWd6OHN0VjdsdGFMSTVibUJHMXY3N25QTGhwMmk5Snh5LXg1R2FQS20wTUVLQzgtdWZmNlJTUkxFeDdScjBfaU5VYzljTGFKRkE?oc=5",
      "nb_sources": 1,
-     "primaire": true
+     "primaire": false
     },
     {
-     "id": "138082624572f9",
-     "date": "2026-11-05T00:55:06+00:00",
-     "titre": "SDK OpenAI v3.46.0",
-     "neuf": "Le SDK OpenAI intègre les options de complexité d'image et de GIF pour les nouveaux modèles.",
-     "fil": "même suite de modèles OpenAI Images",
-     "source": "SDK OpenAI",
-     "lien": "https://github.com/openai/openai-python/releases/tag/v3.46.0",
+     "id": "c3e2edb0d5b6e5",
+     "date": "2026-10-22T16:39:00+00:00",
+     "titre": "City of Memphis moves to ease truck traffic concerns near SpaceXAI supercomputer - FOX13 Memphis",
+     "neuf": "La ville de Memphis prend des mesures pour fluidifier le trafic des camions autour du supercalculateur SpaceXAI.",
+     "fil": "même projet et supercalculateur SpaceXAI à Memphis",
+     "source": "Grok et SpaceXAI (actus)",
+     "lien": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxPc1RNVTdqU2Fzc3dMUXlaUDJFTklDOGpKZVdrWFJJRkJWMVBzdTU1Ym9GTUFoYUFuTEJRZ1FuTldjWmNLeUVtUjlKSEVjc0Y5Sm45Y1JaTEQyWmlyTWNEc09OTnJUR2U0enpYTGFzX3hZcUdnUWFocW85MnNJbnQ2QTM2QWd3TmNOcW40QzREQzhLYXF1dkpXamhld3g1WEVsclZvLTJQNkpVR05kTmJ3bkdHWEIxenB2V2RFRzFJakNZODVkR1VDdHQ3UmFQSjk5WkFZa0UzWV9xdDlHVnRuME0yZXE0OUxqbUFPa2ZHdzRsaEtic0Vj?oc=5",
      "nb_sources": 1,
-     "primaire": true
+     "primaire": false
+    },
+    {
+     "id": "6451ac313e4eca",
+     "date": "2026-10-22T22:47:00+00:00",
+     "titre": "SpaceXAI visé par 6,1 millions de dollars d'amendes au Mississippi",
+     "neuf": "SpaceXAI écope de 6,1 millions de dollars d'amendes au Mississippi.",
+     "fil": "Mêmes poursuites et sanctions contre SpaceXAI",
+     "source": "Grok et SpaceXAI (actus)",
+     "lien": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOZEdkSEpTVk5FclA4TldnQ1g2QTNrdDBWNFlEZ1gtRlo4X3ZQdHM2SlBOYmlrVHNOWmIyaXh1bkUxenVnXzVPMHV4akx2TkQ0TWFkN1plY3dWcktwdVJCNnh0Smw0UEtCZW90QmliWEZRODJST2hIMzdJWXhVU1JET2pSdGZaUEUwRWlNMklKUFZTbTRUQjNrNVZLQjI1T01XUm5MZnBvMEtoVWEwendPNzlJcms0V1V2anlQci1YQmFlZ2M?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "9f9c516908c72b",
+     "date": "2026-10-25T09:44:33+00:00",
+     "titre": "220 millions de dollars de réclamations déposés contre SpaceXAI",
+     "neuf": "Le montant total des réclamations financières visant SpaceXAI s'élève désormais à 220 millions de dollars.",
+     "fil": "même action en justice et réclamations contre SpaceXAI",
+     "source": "Grok et SpaceXAI (actus)",
+     "lien": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPYkF5X2MwdVBzM05fUFpZTFM4eGRrZy15aDZCZTIxZWo5R2o1Z1FRX2VoRmJNVkpmVVNiZ3FiSGZUcndmT0RTN1lGRW1SZ3FWRzlWbGlGbzE2WWs3VU5IMDVURzFRaUdlWTNzTGJKTjJjVVBTUGRSa1RQOW9qUW1NYkZVMkZIajZCdkhVS1VCVEkxT0dHRzlGZllVU1lGdGJrVV9rV2FnaVY0OGJ0?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "6086659eeb90dd",
+     "date": "2026-10-27T23:22:02+00:00",
+     "titre": "AI Users Say SpaceXAI Can't Split, Arbitrate Slowdown Suit - Law360",
+     "neuf": "Les utilisateurs d'IA contestent la possibilité pour SpaceXAI d'imposer un arbitrage ou de diviser l'action en justice sur le ralentissement.",
+     "fil": "Mêmes poursuites judiciaires contre SpaceXAI",
+     "source": "Grok et SpaceXAI (actus)",
+     "lien": "https://news.google.com/rss/articles/CBMingFBVV95cUxOU2pSMWxJcHpmYUJpcGw5ZGVtbTdoY1o0Mk8tN0xTQTA2OXNwMkRteklTdE92ZGZCNkZ4TUhaYjItbUZiSVNUeUNxeWFTUjNyaVAxakNCT3UxQVVPU05KWnhxdHRVaS1wLVdRc0dNMnM0RzFLZDVXUGVTbUlsSVlIbXpYME9OcmxwdloxbjNSYnFmZFljdVk4dnh3SHI2Z9IBVkFVX3lxTE12a0RaaWFnTEE4WUtUWllzamEwVVNVV3phYThXaTg0LVNIenVKVHZxSjI3MjVXY1NBempuaFY4VDczLVpDTDRCYnMtazdUWEo0NkcwcEJn?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "fcb2d83fec74b4",
+     "date": "2026-10-28T12:25:56+00:00",
+     "titre": "SpaceXAI fait face à un litige de 220 millions de dollars devant un tribunal",
+     "neuf": "Un entrepreneur dépose un nouveau recours en justice concernant des contrats massifs liés à SpaceXAI.",
+     "fil": "Recours en justice de 220 millions de dollars lié à SpaceXAI",
+     "source": "Grok et SpaceXAI (actus)",
+     "lien": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPZGZhZzBzUkludm1qZjh5alB3U3ZmMk11Vm5SSXE4czNtVzFScUtJeGloVTdsTEF0UEMybGpjaEk5SUloUlBmN0NGNU0xU0RTN2p1RGZaOXNmZ0laNjVsdTFYR255ZkQwQkJueDNKUUtyV0ZiOF9zTEUwbHNsMUNjTVJZQlQwa2c?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "5283652bd524be",
+     "date": "2026-10-28T14:44:00+00:00",
+     "titre": "xAI is buying out homeowners who promise not to sue over data center noise",
+     "neuf": "xAI achète des résidences pour éviter de nouveaux recours en justice de riverains mécontents.",
+     "fil": "Mêmes poursuites judiciaires et litiges liés à xAI",
+     "source": "The Verge IA",
+     "lien": "https://www.theverge.com/ai-artificial-intelligence/1020596/xai-mississippi-neighborhood-data-center-lawsuit",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "9d449d2dca1151",
+     "date": "2026-10-31T18:56:21+00:00",
+     "titre": "Une plainte contre la pollution d'un centre de données xAI autorisée à progresser",
+     "neuf": "Un juge a autorisé la progression de la plainte de la NAACP contre les violations de la loi sur la qualité de l'air par le centre de données de xAI.",
+     "fil": "Poursuite en justice concernant la pollution et le centre de données xAI",
+     "source": "Grok et SpaceXAI (actus)",
+     "lien": "https://news.google.com/rss/articles/CBMihAFBVV95cUxONWZobnlmVnlwbk9rMk1yeUVabnE1QUdtdTVEWGR6UUkwYXEzWk9weVpLMWFtRWF2Ykd6SmpNalgtelBCZ0lBdkd6Vm1xcWhNNkNVM0ZKTW43TmZyUUtMb1pYZVY2V2VuaFh5dHdBakhBYllrQjY5bUhrOHpteVNRUWNaZFrSAYoBQVVfeXFMUHFJcmV4YzZNcTZ4dk5RX2YyQm1TWDhpSS1OemxNdFRkUHhFTEFDNHpueE1QejEzMGVQYUFwQXpNV2JaVmJzdlQ2TWFJNlJOYjFkckE3TFpHVHpMSWt4YlBzMkZUX0hSa295M2tHSkx5aUFDbjMwbDkxQlNhdnp1NlhYd21VOER5ZHZn?oc=5",
+     "nb_sources": 2,
+     "primaire": false
+    },
+    {
+     "id": "993a9a1a3b9941",
+     "date": "2026-11-01T10:30:00+00:00",
+     "titre": "SpaceXAI rachète des logements voisins de ses turbines au Mississippi",
+     "neuf": "SpaceXAI tente de racheter les maisons voisines de ses turbines au Mississippi pour éteindre des contentieux.",
+     "fil": "même expansion et contentieux liés aux centres de données SpaceXAI",
+     "source": "Grok et SpaceXAI (actus)",
+     "lien": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQcU8xaDdiMXVSZlQtc0F3TjJ4LWg4NklhT0IzZnhkeG9wUHI1SnVmc1Bra1pGMTZBV3U1bkR4QUNfeUMzQzRNRVhSYXdWSnlWOUR3ZnZtTDNRNVdVVWhrWHpSclpOWXhLWmZmRWNkdVV0d1NqV1Q4NU9yUW1YUDJJZnJ2b2w5c29WRHBCcjg0UjczUWs?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "71a4eb6e914067",
+     "date": "2026-11-01T13:25:00+00:00",
+     "titre": "SpaceXAI annonce deux nouveaux centres de données près de Southaven pour décembre",
+     "neuf": "SpaceXAI annonce deux nouveaux centres de données près de Southaven pour décembre.",
+     "fil": "même expansion et contentieux liés aux centres de données SpaceXAI",
+     "source": "Grok et SpaceXAI (actus)",
+     "lien": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNQ01nUXZuUzBvWmdGVEZyWXNnZjVFazdrNVM3SmIwdEV1TFk2WFI5YXMxaXJ2c3ZORkVCNWJtRHlmZXJheVpJMG12OW5HVjhsS2Q4ODhwSlR4a3VQaEhhSUFHT2p3RWFNeFgyUXQ0UkYxTXhWSnpBaktVRUZwMkVkRi1GSDdhU3NQcXhpLXlRMllNZw?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "40ba5b596e08e5",
+     "date": "2026-11-01T20:15:00+00:00",
+     "titre": "Un juge autorise la plainte de la NAACP contre SpaceXAI",
+     "neuf": "Un juge autorise l'action en justice intentée par la NAACP contre SpaceXAI dans le cadre du Clean Air Act.",
+     "fil": "Poursuites judiciaires contre SpaceXAI",
+     "source": "Grok et SpaceXAI (actus)",
+     "lien": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPZEszakpvSHd1QzBibmFWTFRMZ2RFUjVrbUlnWmMzc0tVeFVVOXExR0dWLTlCQ1lKblFiVXBZeUNwZG8tSm9iVTV1aEt5VWVxZWpLalVPeXNtZmI3b2F6dWFMVFpRNFdvSWs5V1pCaklHLWQ1emR5WUZtS1ZRUXJhemZuelAxUUd1QnpmNHA0UlRpdw?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "793a10ab1713b3",
+     "date": "2026-11-02T18:00:00+00:00",
+     "titre": "Une action en justice contre SpaceXAI autorisée par un juge fédéral",
+     "neuf": "Un juge fédéral confirme officiellement l'autorisation de la plainte en justice visant SpaceXAI.",
+     "fil": "Même action en justice contre SpaceXAI autorisée par un juge",
+     "source": "Grok et SpaceXAI (actus)",
+     "lien": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNVmlYeF9DdkFhcWxxc3M3T0ZzUUZVcmZTNWRZUlJILVpYZGdhQ3l4Q2FSRWVINnlkZDNtR2dOWTE5Q0E4YlRzOFdib3RCVGVGUkx4aXZkSjVMVmZodlRGX0hGYnNSU1Z6dUpXZ18wNHlhNy1sUGZsYklPMVNmOUFDSGJVQ2NtYVhZWERTc2xFOW1GSEtqdU1HdURqVWQ0bDU0eG1wZHRmT1VSZm41UHpDMW9TVFdPYlQwejJqMGZVdw?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "afb596fd13588c",
+     "date": "2026-11-02T18:11:10+00:00",
+     "titre": "SpaceXAI lance deux nouveaux campus de centres de données pour étendre Colossus 2",
+     "neuf": "SpaceXAI étend son infrastructure en implantant deux nouveaux campus dans le Mississippi pour Colossus 2.",
+     "fil": "même extension des centres de données et campus de SpaceXAI",
+     "source": "Grok et SpaceXAI (actus)",
+     "lien": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNUWVxVk5HSVNyU2EyNS1lUDVCM3BjTlRYd2xRM1VNc0d3ek9aRWhTcl9TLWNyZ3dOSjBKX3BiR2JUQ0NCRmlUNERwZU13SnRjaHdDOHZYZm01ZGtyODlMNm1EWTRmeVZ5WkpxSVRWM0ZvOVllcWtoVTN2M0l1RTg4ODRMdmlMaWxyU0ZwcnF6bDZ4TnRQQjZrSGNveEJFRFJGWW9xTWg5QVhBQ0NRMUtDWXpEc3B1TmdqSWNIS2FlRnZmckZITDlfYTlTamt6Y21vSGdqdHlHZjl5UQ?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "db116ea22a887b",
+     "date": "2026-11-04T10:30:00+00:00",
+     "titre": "SpaceXAI surclasse OpenAI avec son supercalculateur Colossus 2",
+     "neuf": "SpaceXAI surclasse OpenAI en puissance de calcul grâce au supercalculateur Colossus 2 installé à Memphis.",
+     "fil": "Supercalculateur Colossus 2 de SpaceXAI",
+     "source": "Grok et SpaceXAI (actus)",
+     "lien": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9uOGNVMDRUcHZKZG1tSEVjZklubTFSdkhfMHh4aVBjeWthUWs4TVhyNWcxamJ4N0NuVXFsbnhhVUNNakhKWjJvYzdlb2dnWG4zZnhvdjFWUngwT1FsamZPNGFCYndCbUtmemtyMg?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "d1902967088b42",
+     "date": "2026-11-05T12:00:00+00:00",
+     "titre": "DeSoto County asking SpaceXAI to increase buyout offers - DeSoto Times-Tribune",
+     "neuf": "Le comté de DeSoto demande à SpaceXAI d'augmenter ses offres de rachat de logements pour les riverains touchés par l'expansion.",
+     "fil": "Extension de SpaceXAI et gestion des logements voisins",
+     "source": "Grok et SpaceXAI (actus)",
+     "lien": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOT3pxVGhvbXpkMW03bGZIQ05Sb0tWb3NQNWk3Nzh1TkcxNTlyelBjSmZFMDRvc0F0MFlQMDZfNTBpLWJZZ1h3YnhGZDY1OVkycXZFcjBQdW9oc25UYkY5Rk9KTVZyaEFiSGkxYmV6NHlGT3lZd1Awc0VYVWk2bG9lOGw5ZGllejcxd3dXYUxQRWdfZGZtaXBQRlZseGJYZVJZbHNLXzlTeE1WR1I3djR6SmtHR3NGQ2taMTNMQnFPRzgwUlVhUVBOcnV6MDM1SGRvbUx6Nw?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "da4aa470b3bc19",
+     "date": "2026-11-06T04:48:00+00:00",
+     "titre": "SpaceXAI to build 2 more AI data centers in Southaven - Action News 5",
+     "neuf": "SpaceXAI poursuit son expansion massive en prévoyant la construction de deux nouveaux centres de données d'IA à Southaven.",
+     "fil": "Extension des infrastructures et des centres de données de SpaceXAI",
+     "source": "Grok et SpaceXAI (actus)",
+     "lien": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQTlYwWHRkcl9yY0JqNnBUUFkyY2c2cDNZMXBrUDVUdlZKVFY5VUVtLXZjTzQ3dWZsazNhdGpQZ3NvV0h3d2p3TmJyaGxaMUFKTjZxaWZWTTM4YTM1MFZUMmNETzNHbDJ2dUI2Y01XQUUtZzV2VURfOUNwUzJJUVZTZ05iaG12VXRINnFVa3BrcXTSAaQBQVVfeXFMTnpnNjJYLUNyMHlUZW9qN0FzVGk4YXFiNFdnZjRNN1lfSTJIRXRiS2dPMGNUNi0xWjFkV011d09YMXRuRVFIQ3FKbW1NYlZuNnZNdTlXLWM1V2x3TndqS0hqSndpQTZVZzRfVDNOd095M1hUb0lCVDRDYm00b05RRWFUUHZHNXRnemNFSjN5LXZJeFlBWkw5UV9OdE5Sc2VmLVljZzM?oc=5",
+     "nb_sources": 1,
+     "primaire": false
     }
    ],
    "statut": "active",
    "societes": [
+    "spacexai",
     "openai"
-   ]
-  },
-  {
-   "id": "h_a0f8d46fbd",
-   "titre": "Google lie son moteur de recherche aux écoles et à l'IA",
-   "resume": "La décision de Google de lier l'accès à son moteur de recherche dans les écoles à l'acceptation de ses outils d'IA suscite de vives réactions politiques, permettant à des concurrents comme DuckDuckGo de séduire les établissements scolaires mécontents.",
-   "creee": "2026-11-04T12:08:30.322504+00:00",
-   "maj": "2026-11-04T19:29:52+00:00",
-   "episodes": [
-    {
-     "id": "411676d468883f",
-     "date": "2026-11-03T14:00:07+00:00",
-     "titre": "Google pourrait couper la recherche aux écoles rejetant l'IA",
-     "neuf": "Google lie l'accès à son moteur de recherche pour les écoles à l'acceptation de ses outils d'intelligence artificielle.",
-     "fil": "projet de restriction de l'accès au moteur de recherche de Google dans les écoles",
-     "source": "Google Gemini (actus)",
-     "lien": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPa2ZWRmYyZW9YZng5SmhjYnpjQ213dnRKVjVjNW1rcS1RRFoxVUFKYnl2VlVjMk1abE1kQTE2Qk1Ea09WcHlvMjFNbTREWnhmYXZiTjE5RTY0bUdMZGsyRFRCNDNWQjg0SG90WXlaSVV1d19iV0x4UEVnVlFzS3dyVWZB?oc=5",
-     "nb_sources": 4,
-     "primaire": false
-    },
-    {
-     "id": "32bf8e373cd03d",
-     "date": "2026-11-04T00:08:00+00:00",
-     "titre": "Google réagit aux critiques sur la suppression de la recherche dans les écoles",
-     "neuf": "Google fait face à des réactions politiques après avoir retiré son moteur de recherche des écoles interdisant l'intelligence artificielle.",
-     "fil": "réactions politiques au projet de suppression de la recherche Google dans les écoles",
-     "source": "Google Gemini (actus)",
-     "lien": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNenhBb3YzeXFrNE9nVmR3QUZTZ3M2RlRleVpqMjZMUll0azhuR2ZtUmwyOEcxeEluUlN4UDdQNU54ak9HTUI2ekY4azRzUk9aTVh5dUJYVnhkTVdPMGtIYjR6V0xmdWlqb3hNRmROVzFmZFNEZlJZZV9DaTRlSGQ4akRkSGxjZ1p2dV92cTFxaEUzMTVCNTByZW42T3ZGS3hUR0JOZzRaYWozM0nSAbABQVVfeXFMTktHaFBsT1hOVXFLTVo2RUhyZHNWbkVUU3FhVjdxczdRT2ZUOXFUakJCV0pHUnNkU2NycUd6NEMxS0ozT2VxRFAtbWpnc2lKUWhBZ3c0NHRFMk9vQ19pNTBxc0NCS1N3TmZqNGdwdUcwbE51by1NdEJiM1pOcl9HQXpiMmwwaklRTWhpVC02anVSMmF2QU8yZThyWVpwUWNJb1lObmVYdDc1S0x4VDFrVmQ?oc=5",
-     "nb_sources": 1,
-     "primaire": false
-    },
-    {
-     "id": "8d369120eeca9a",
-     "date": "2026-11-04T00:51:00+00:00",
-     "titre": "Google autorise les écoles à désactiver Gemini mais maintient l'IA dans la recherche",
-     "neuf": "Google autorise finalement les écoles à désactiver l'application Gemini tout en maintenant l'IA intégrée dans le moteur de recherche.",
-     "fil": "assouplissement de la politique de Google concernant l'IA et la recherche dans les écoles",
-     "source": "Google Gemini (actus)",
-     "lien": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPdV93Q1JINElHbnhzYV9idmItczE3UTR1OFhISkFqbjRGdUlTM3FPS2JwbnBqdUs4bFY5M0VnbVdQWDVtUlRVM2VhMG9oQ0thS21zWncxRjVKM0k4azllYWNhZE1vTktJaDFzc3NsaFBDWjhBTlExUjM4eDQ0OFZLekRYUkowY0R6LWl4bmphQQ?oc=5",
-     "nb_sources": 1,
-     "primaire": false
-    },
-    {
-     "id": "eeaf8afe464ebd",
-     "date": "2026-11-04T16:17:22+00:00",
-     "titre": "Google critiqué pour son projet de couper la recherche aux écoles limitant l'IA",
-     "neuf": "Nouvelles critiques politiques contre Google suite au projet de couper la recherche aux écoles limitant l'IA.",
-     "fil": "même conflit sur l'IA et la recherche dans les écoles",
-     "source": "TechCrunch IA",
-     "lien": "https://techcrunch.com/2026/11/04/google-faces-backlash-for-plan-that-would-turn-off-search-for-schools-that-restrict-ai/",
-     "nb_sources": 1,
-     "primaire": false
-    },
-    {
-     "id": "add91e24e3212a",
-     "date": "2026-11-04T19:29:52+00:00",
-     "titre": "DuckDuckGo séduit les écoles mécontentes de la politique IA de Google",
-     "neuf": "DuckDuckGo profite du mécontentement des écoles face à la politique IA de Google pour capter ce public.",
-     "fil": "Même controverse sur l'IA de Google dans les écoles",
-     "source": "TechCrunch IA",
-     "lien": "https://techcrunch.com/2026/11/04/duckduckgo-pitches-itself-to-schools-amid-backlash-over-googles-ai-policy/",
-     "nb_sources": 1,
-     "primaire": false
-    }
-   ],
-   "statut": "active",
-   "societes": [
-    "google"
    ]
   },
   {
    "id": "h_5febc86840",
    "titre": "L'introduction en Bourse d'Anthropic",
-   "resume": "Anthropic poursuit ses préparatifs en vue de son introduction en bourse, s'appuyant sur son dossier qui dévoile des projets pharaoniques de centres de données et des coûts de fonctionnement avoisinant les mille milliards de dollars. Les marchés financiers s'interrogent activement sur l'opportunité d'investir dans cette IPO, tandis que l'entreprise doit composer avec des pressions financières et des marges sous tension.",
+   "resume": "Anthropic poursuit ses préparatifs en vue de son introduction en bourse, bien que les réactions négatives et le scepticisme général envers l'IA menacent de retarder son calendrier. D'autres acteurs comme OpenAI envisagent également des IPO pour 2027 tout en gérant les coûts et les exigences de sécurité.",
    "creee": "2026-10-20T09:56:16.457937+00:00",
-   "maj": "2026-11-04T19:29:00+00:00",
+   "maj": "2026-11-05T23:41:00+00:00",
    "episodes": [
     {
      "id": "6702d1aaf0afce",
@@ -1533,12 +1409,1218 @@
      "lien": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNNThSS3huTEZBQUtJQWtHaHJkQng1MlNYd3FfdmhNNVVER3BiSFdHSmhaakg0N0pObXJxYzRIMXlCMmFwR2ZPZ1JBNXg5VEtLZFFIbl9VUS1wWmZZMUQ2V0JSd3E2bFZYWS12RU5xOW5KT0R4TERzMmFpUDlHYk0wa3JRNzlOc28xazJJUFhXNHBSVms?oc=5",
      "nb_sources": 1,
      "primaire": false
+    },
+    {
+     "id": "73fa730f8b4449",
+     "date": "2026-11-05T09:30:00+00:00",
+     "titre": "Les risques de l'IPO d'Anthropic liés à la sécurité",
+     "neuf": "La due diligence en matière de sécurité est identifiée comme un risque de divulgation majeur pour l'introduction en bourse d'Anthropic.",
+     "fil": "Risques de sécurité et diligence pour l'introduction en bourse d'Anthropic",
+     "source": "Anthropic (actus)",
+     "lien": "https://news.google.com/rss/articles/CBMixwFBVV95cUxONnpjTEozZFJ3VjlWRWZpMktsZmFUMGEydEp6UzhReHFCbzUzTUJBaXUwTThEZy1tcURxZ09IYkhNTU0zSmhSTUxEaGhWeW1EWkR2U1dYR2diTmwxQWpKNlZfX1FFLWs3UUZZT3VqNlloRTBFd25UZFJQNVRJRXJmbWoycWFpdmtZLXVQMGVkVk11eExxZ0RNVjV6SldoM2poUTZ1TXRid1NJTDdHTWwyQkUyc29OSFdWcHNLNEFlTkVXdjhyZ3RN?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "ec74522a74730a",
+     "date": "2026-11-05T23:41:00+00:00",
+     "titre": "Le backlash contre l'IA pourrait retarder l'IPO d'Anthropic",
+     "neuf": "Le scepticisme croissant et le backlash contre l'IA menacent de retarder directement le calendrier de l'introduction en bourse d'Anthropic.",
+     "fil": "Impact du climat sur l'introduction en Bourse d'Anthropic",
+     "source": "Anthropic (actus)",
+     "lien": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPNGVmWktzeU5zbmRiaDdiZ2pxbEJhRk94VGN2V1lxUmpTNTFFNjhLR0puTjROeHE4UENDYjQ3OEFNbHdralNNdVJ2ZThsMldHZFlrcDZ1U21BTS1aeHU1aGNUNWRnTHc2SU5DVUktREt0Q3hzUkNhN1VJNDZYR3JLdjhwZUlaQjZCSl9Oa1dfT0d2dUotaWhDMkgxU1RBdVJOSEMwMzJsd0M3TmIyTGZ2WFZpVQ?oc=5",
+     "nb_sources": 1,
+     "primaire": false
     }
    ],
    "statut": "active",
    "societes": [
     "anthropic",
     "openai"
+   ]
+  },
+  {
+   "id": "h_6dbf1247a5",
+   "titre": "Le Texas attaque OpenAI et Sam Altman en justice",
+   "resume": "OpenAI fait face à une vague croissante d'actions en justice intentées par des familles et des plaignants suite à des comportements dangereux ou des conseils erronés de ChatGPT. Les plaintes incluent désormais des cas d'expulsion après des conseils financiers inadéquats, en plus des incidents médicaux et d'incitation au empoisonnement.",
+   "creee": "2026-10-23T20:44:31.752569+00:00",
+   "maj": "2026-11-05T22:25:55+00:00",
+   "episodes": [
+    {
+     "id": "4ac8501b384460",
+     "date": "2026-10-23T19:44:30+00:00",
+     "titre": "Le procureur général du Texas attaque OpenAI en justice",
+     "neuf": "Le Texas attaque OpenAI en justice.",
+     "fil": "Action en justice du Texas contre OpenAI",
+     "source": "OpenAI (actus)",
+     "lien": "https://news.google.com/rss/articles/CBMingFBVV95cUxPcEs5ME1zUXpNMy1lcW9Td1FrVlZxT0xjRFNXSDBEU1Z5UWFLeG82bGVJT0J4bzR5ZVBZV2ptcHQ4OV9LZWlRSS10TkV6Y01KSVJRNkZIelU3MlpLNkdzX2FTamc4bDJTWEs2NGpYMnNyY0gtY1IxYm85Nmg4NFFzVlZzS0l5ck1qU2pES1RUaEd5TEhzaVA4VC1tY2lmZw?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "69a81bfc9e716e",
+     "date": "2026-10-23T20:39:00+00:00",
+     "titre": "Le Texas attaque OpenAI et Sam Altman en justice pour des questions de sécurité",
+     "neuf": "L'action en justice du Texas vise spécifiquement OpenAI et Sam Altman pour des questions de sécurité.",
+     "fil": "Poursuites judiciaires du Texas contre OpenAI et Sam Altman",
+     "source": "OpenAI (actus)",
+     "lien": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPcm00d0JOd3dfc2ROWW5vaklsUk9MWDZXN1hLNWNwMWllNmZ1N2p5WGQ2VVUtOTlzQUdlUDZOcFB1WUpVcWE3WVcxZk16b09BNHZlcHJjWkVYZVNIdE1lbWFJWHRNOGIxbWR2cHFUazdsakh4NnBMcmhyUVdGbzVKNk1Mc001NjhzT09pNFdGanA?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "d01e21c19d1fed",
+     "date": "2026-10-28T09:15:43+00:00",
+     "titre": "Une action en justice au Texas attaque OpenAI sur la sécurité de ChatGPT",
+     "neuf": "Une nouvelle plainte au Texas vient contester les déclarations de sécurité d'OpenAI concernant ChatGPT.",
+     "fil": "Action en justice au Texas contre OpenAI",
+     "source": "OpenAI (actus)",
+     "lien": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5jd0dwRkRCUXh6SUx1U1U1bTQ4TF9OaHR2WldOSV9kMDJKblR0TWNpUnhkN2Q5aHoyclVKVF93NEhwQ3hQc1ZIT293Nl8zUVU2dVFpbGU3XzlrX0Q3dHk3amNXWVhZQllLLW52NXRRcnhyLUJpU1o0NmVaU21jdw?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "59fbb37c9c7358",
+     "date": "2026-10-29T16:17:41+00:00",
+     "titre": "Une famille poursuit OpenAI et Sam Altman en justice après un décès",
+     "neuf": "Une nouvelle action en justice est intentée par une famille contre OpenAI et Sam Altman suite au décès d'une femme.",
+     "fil": "même contentieux judiciaire contre OpenAI et Sam Altman",
+     "source": "OpenAI (actus)",
+     "lien": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNdEhlNmxhZDZMU1NxTlhhVWtHTnpEODN3LXRpbXR6Rk9OeDd5RUlIOThWcW90Y1RmaUh0MVgwLWxwMmVDVzBuUEhUcm9MOFVMNWQtejFmRlB4cmpmMUE2Uy1pWE9UUE1palE3VG5wZlJJSDJBZmE2UDJmYVA0eU9ab0VsNkFDWms3NTh4ci03WVpwU3VxMWk2SDhOcUctb2xiMUoyX2F2YjR4czNwX0hNTEdqMXnSAcgBQVVfeXFMT0dudDJsTkVVcTB0eEdWOUt2c1E0bXUzY1lyUEhfdEg0M09PU3lfQlljQTlzWDFtZHVOeEV6S3Awd0RjaHR5dHlyajJHeUgwX19STUxjbmZSdW9LVEVYODZ6MUJQcFdXQ01JR1Y0SVlqVENLQ09fbERKWk10VXRDS2puZ0R0VGxDYk5ZU0JyX1pVOEc2T2I5Vmt5QTFoTEVwM1VBb015Ym9CM2o0eUt0aGZHczZidC1wRko3U0lVd1RzOVlFRWk1RDM?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "1a5f58152234a1",
+     "date": "2026-10-29T16:17:41+00:00",
+     "titre": "Une famille poursuit OpenAI et Sam Altman en justice après un décès",
+     "neuf": "Une nouvelle plainte est déposée par une famille contre OpenAI et Sam Altman suite à un décès.",
+     "fil": "même affaire judiciaire contre OpenAI suite à un décès",
+     "source": "OpenAI (actus)",
+     "lien": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPeEl2RGYxZWV0SzdVRlM0RGVIMHlvUlRzd0NHa0Z6VWpWbkNoYVU3bExOM25NSUU2aHN4Mndqdkh2UTdqNGFFRlhvSkpBb1UzaWdEbk9mcWF4eEpSVXJkX3p3bGJ0QnZ4SGNoMWtzZ2tSYUJqeEs4UmlNQnZzTUNLc3JYejRNUkNZbTRMaWdMR1dSME5DRC1NZlhQYmI4Z1Q3WTV6dTBnSmxVUlRHNmRValoyWjRXUdIBygFBVV95cUxQOFJVdlh5SDkzdWJmRkJKT0oxT2dtVXE3RkZ6ajdMMVBUMFJUUm9zemhOR3ZtVkoxQW9YcXlrRlhsNmtTRWFHWEZKSGpJTjlTWENwX3RfMWxnWDhmRmNXcVlwdE9Rb1cwbFlZemxkem5jNG9TUEd0Qll3RkJqY1ZNT0ZGLVRNT0FRQlFaWDJtZnoxVGxveWZDNi1LSGEwYzZWV1N0OW9WUUt3U1JoUVJqNHQ0YXZZZms0eDBhWWhMTjJNVHBnckNNOUZn?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "d5027f62edc7a1",
+     "date": "2026-11-05T20:32:42+00:00",
+     "titre": "Man Claims in Suit ChatGPT Encouraged His Wife to Poison Him - Bloomberg.com",
+     "neuf": "Un nouveau procès allègue que ChatGPT a encouragé un utilisateur à empoisonner sa femme.",
+     "fil": "même type de plainte contre OpenAI suite à des incidents graves liés à ChatGPT",
+     "source": "OpenAI (actus)",
+     "lien": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPTGI0Q0ZXc0xTUkhJU19wZk1SdVdQdGwzdnFhaFRwV3FNQ0ppQUR6UFZRYkMySV9Zd2pMdVFZZFZsSXNCalN4ZzZaQTBVYUFCQnkxMnhpcm55X2FzR3BMeks4RTUwOXhkZ1VCdmdsX3FuaVNBMzJhY3BEcEFnNDZ5TUhGWW1uelhyTmtFNXk1eVpHX1JxWTI1V3d6aTRickljNlp4UVhublhHd2JoQlFSdw?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "baf1570a1438a2",
+     "date": "2026-11-05T22:25:55+00:00",
+     "titre": "Un homme poursuit OpenAI après une expulsion liée aux conseils de ChatGPT",
+     "neuf": "Un nouvel utilisateur poursuit OpenAI après avoir suivi des conseils erronés de ChatGPT l'incitant à cesser de payer son loyer, menant à son expulsion.",
+     "fil": "Nouvelle plainte contre OpenAI pour des conseils erronés de ChatGPT",
+     "source": "OpenAI (actus)",
+     "lien": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOWDdtd1N3cHpIcjNaREtxbHVEUV82WkJYRWZJaTZTMi1QSGR6MW12RVVzaFltZDRDN3JkMlBpa1FpbzBsN0I3Um1PUl9uUFo2YkR2eFFGNnVaUGpoRVRfc0JXTWdET3BKWXJzYnA1QnRGZm1YS2EyOEhuc252Uk1ISzhOZEtPUXpC?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    }
+   ],
+   "statut": "active",
+   "societes": [
+    "openai"
+   ]
+  },
+  {
+   "id": "h_656f4a2128",
+   "titre": "Contentieux sur l'utilisation d'articles de presse par Google Gemini",
+   "resume": "Google Gemini fait face à des avis juridiques critiques d'un conseiller de la Cour de justice de l'UE et à des alertes sur les risques majeurs de violation du droit d'auteur.",
+   "creee": "2026-11-03T11:56:08.072411+00:00",
+   "maj": "2026-11-05T21:30:21+00:00",
+   "episodes": [
+    {
+     "id": "69c8f26f82c7d2",
+     "date": "2026-11-03T10:53:26+00:00",
+     "titre": "L'utilisation d'articles de presse par l'IA de Google pourrait enfreindre le droit d'auteur",
+     "neuf": "Un conseiller de la Cour de justice de l'UE estime que l'usage de la presse par le chatbot de Google pourrait violer le droit d'auteur.",
+     "fil": "Contentieux sur l'utilisation d'articles de presse par Google Gemini",
+     "source": "Google Gemini (actus)",
+     "lien": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPS3A5SlVKWVF6XzVHRldMWS1qd1FqWV9sVnF6RFJiMTIzd18wZUgtc1VtOXJabjY3LThCR045bFBrVzcyUmxJUDFWajYtX1l4RkVxY0xHTUZlRUFlR2dkcmtqOXI5MzIxMS16VEVBSE1JcExxbkJrVkk1S3NGa2g5WjhVZEJXczA3S0NUOVFudElESjBaMExucVBLQzRCLUJrVU9icU9fSkkyb1FoR2NfT29hT2JSbmhaMW9Z?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "e3396663570479",
+     "date": "2026-11-05T21:30:21+00:00",
+     "titre": "Les chatbots IA risquent d'enfreindre le droit d'auteur selon un conseiller juridique européen",
+     "neuf": "Confirmation des risques majeurs de violation du droit d'auteur pour les chatbots par un avis juridique européen.",
+     "fil": "même contentieux sur le droit d'auteur des chatbots",
+     "source": "Google Gemini (actus)",
+     "lien": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNNmNMZC1pY1ZEMGFCSlUwQzB5TTllYm91dVBJckYwZUJ6S1IzRU5BQkcxdGFRMVZhU1BoX2xFRzRydlFZdjJNa3RLVTdjZlNtMzVURXRiTU1aS0ZYZVJ1M0VpWVBsZklxRHNOOGNqeDliNDd0LVZ6WEdmRXd6akhwRkNxUk05eG5VOGxLVTBsUWVrb2FUS19Lc1FhZHA1SzdTTFhZdlZOME9oWVpMSTI4MUtZSEc?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    }
+   ],
+   "statut": "active",
+   "societes": [
+    "google",
+    "ue"
+   ]
+  },
+  {
+   "id": "h_a0f8d46fbd",
+   "titre": "Google lie son moteur de recherche aux écoles et à l'IA",
+   "resume": "La gestion des outils d'IA et de recherche par Google dans les écoles suscite de fortes réactions politiques et des poursuites après des incidents graves impliquant des élèves.",
+   "creee": "2026-11-04T12:08:30.322504+00:00",
+   "maj": "2026-11-05T21:09:24+00:00",
+   "episodes": [
+    {
+     "id": "411676d468883f",
+     "date": "2026-11-03T14:00:07+00:00",
+     "titre": "Google pourrait couper la recherche aux écoles rejetant l'IA",
+     "neuf": "Google lie l'accès à son moteur de recherche pour les écoles à l'acceptation de ses outils d'intelligence artificielle.",
+     "fil": "projet de restriction de l'accès au moteur de recherche de Google dans les écoles",
+     "source": "Google Gemini (actus)",
+     "lien": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPa2ZWRmYyZW9YZng5SmhjYnpjQ213dnRKVjVjNW1rcS1RRFoxVUFKYnl2VlVjMk1abE1kQTE2Qk1Ea09WcHlvMjFNbTREWnhmYXZiTjE5RTY0bUdMZGsyRFRCNDNWQjg0SG90WXlaSVV1d19iV0x4UEVnVlFzS3dyVWZB?oc=5",
+     "nb_sources": 4,
+     "primaire": false
+    },
+    {
+     "id": "32bf8e373cd03d",
+     "date": "2026-11-04T00:08:00+00:00",
+     "titre": "Google réagit aux critiques sur la suppression de la recherche dans les écoles",
+     "neuf": "Google fait face à des réactions politiques après avoir retiré son moteur de recherche des écoles interdisant l'intelligence artificielle.",
+     "fil": "réactions politiques au projet de suppression de la recherche Google dans les écoles",
+     "source": "Google Gemini (actus)",
+     "lien": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNenhBb3YzeXFrNE9nVmR3QUZTZ3M2RlRleVpqMjZMUll0azhuR2ZtUmwyOEcxeEluUlN4UDdQNU54ak9HTUI2ekY4azRzUk9aTVh5dUJYVnhkTVdPMGtIYjR6V0xmdWlqb3hNRmROVzFmZFNEZlJZZV9DaTRlSGQ4akRkSGxjZ1p2dV92cTFxaEUzMTVCNTByZW42T3ZGS3hUR0JOZzRaYWozM0nSAbABQVVfeXFMTktHaFBsT1hOVXFLTVo2RUhyZHNWbkVUU3FhVjdxczdRT2ZUOXFUakJCV0pHUnNkU2NycUd6NEMxS0ozT2VxRFAtbWpnc2lKUWhBZ3c0NHRFMk9vQ19pNTBxc0NCS1N3TmZqNGdwdUcwbE51by1NdEJiM1pOcl9HQXpiMmwwaklRTWhpVC02anVSMmF2QU8yZThyWVpwUWNJb1lObmVYdDc1S0x4VDFrVmQ?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "8d369120eeca9a",
+     "date": "2026-11-04T00:51:00+00:00",
+     "titre": "Google autorise les écoles à désactiver Gemini mais maintient l'IA dans la recherche",
+     "neuf": "Google autorise finalement les écoles à désactiver l'application Gemini tout en maintenant l'IA intégrée dans le moteur de recherche.",
+     "fil": "assouplissement de la politique de Google concernant l'IA et la recherche dans les écoles",
+     "source": "Google Gemini (actus)",
+     "lien": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPdV93Q1JINElHbnhzYV9idmItczE3UTR1OFhISkFqbjRGdUlTM3FPS2JwbnBqdUs4bFY5M0VnbVdQWDVtUlRVM2VhMG9oQ0thS21zWncxRjVKM0k4azllYWNhZE1vTktJaDFzc3NsaFBDWjhBTlExUjM4eDQ0OFZLekRYUkowY0R6LWl4bmphQQ?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "eeaf8afe464ebd",
+     "date": "2026-11-04T16:17:22+00:00",
+     "titre": "Google critiqué pour son projet de couper la recherche aux écoles limitant l'IA",
+     "neuf": "Nouvelles critiques politiques contre Google suite au projet de couper la recherche aux écoles limitant l'IA.",
+     "fil": "même conflit sur l'IA et la recherche dans les écoles",
+     "source": "TechCrunch IA",
+     "lien": "https://techcrunch.com/2026/11/04/google-faces-backlash-for-plan-that-would-turn-off-search-for-schools-that-restrict-ai/",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "add91e24e3212a",
+     "date": "2026-11-04T19:29:52+00:00",
+     "titre": "DuckDuckGo séduit les écoles mécontentes de la politique IA de Google",
+     "neuf": "DuckDuckGo profite du mécontentement des écoles face à la politique IA de Google pour capter ce public.",
+     "fil": "Même controverse sur l'IA de Google dans les écoles",
+     "source": "TechCrunch IA",
+     "lien": "https://techcrunch.com/2026/11/04/duckduckgo-pitches-itself-to-schools-amid-backlash-over-googles-ai-policy/",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "e4cf01b4ed6416",
+     "date": "2026-11-05T07:17:29+00:00",
+     "titre": "Google Turns Off Search And Gemini For K-12 Students By Default - Forbes",
+     "neuf": "Google désactive par défaut la recherche et Gemini pour les élèves des écoles K-12.",
+     "fil": "Politique de Google concernant l'accès aux services de recherche et Gemini dans les écoles",
+     "source": "Google Gemini (actus)",
+     "lien": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNankwZmhnTHZBNGtQNlgyand6Yk43ck9rMTB4TDdzMjQyczFRUnNuWXhMSWw5dTVJNXpPQ3FBR09xSEUtRzhFTXRmNTk5M1ZocDNVSjhXWjlWVUdUYVFIV2lkRS1mYmRfY1B2WGZTOWxCVlJMVVJnT0F5UzdLdkk5YWFnT3VaSFQwQ25VdmtNeGRJSUo0ZVRqMFVPRkJadnZfS3JMNEVnV2ZmLUpnRnVIWmJ4em83UmtfaG5tWmZaS1lSdw?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "b413637bcb0660",
+     "date": "2026-11-05T21:09:24+00:00",
+     "titre": "Google faces claims student used AI chat on US school laptop to plan suicide attempt - Reuters",
+     "neuf": "Google fait face à des accusations après qu'un élève a utilisé le chat IA sur un ordinateur scolaire pour planifier un acte suicidaire.",
+     "fil": "même problématique des IA scolaires et de Google",
+     "source": "Google Gemini (actus)",
+     "lien": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQT0F0S042MGswT2lfTFJQd3hZTmdoU1hPZWhuSUVDNUhBdjRQTnRBWjJFRVdVaGNJeHVRNWN4M0hVUGVaNTVtNkU0ZFVOb2RQR2s4WkcwLWNFWXpIUEp4VWx3cTZIWFhWdWtIaUxlUlBoajhxSnZVU1VyWmJCYWItaG4wNENHMFdUTHpuS3NFcW5UUFVqczRxQk45Umh2Z2t0U25URUlMVUVjTGJ6Q1RidlFTbFlwbjlkT1Z0eEl6M3A?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    }
+   ],
+   "statut": "active",
+   "societes": [
+    "google"
+   ]
+  },
+  {
+   "id": "h_da06066ad1",
+   "titre": "Meta dévoile son nouveau modèle Muse Wonder",
+   "resume": "Meta officialise sa famille de modèles Muse Wonder et enrichit son assistant Muse de fonctionnalités avancées, incluant un mode vocal en temps réel et des appels vidéo par avatar animé.",
+   "creee": "2026-10-21T08:48:34.440401+00:00",
+   "maj": "2026-11-05T19:48:28+00:00",
+   "episodes": [
+    {
+     "id": "6fc6a6f5cb21f3",
+     "date": "2026-10-12T07:00:00+00:00",
+     "titre": "Meta dévoile Muse Wonder pour concurrencer ChatGPT",
+     "neuf": "Lancement de l'assistant Muse Wonder pour concurrencer ChatGPT.",
+     "fil": "même modèle Muse Wonder de Meta",
+     "source": "IA en français (actus)",
+     "lien": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQaUNBUWdzWkxHQ0RRdG5PRjJXbFJnMnNyQlZmd0pKelJXVHlZc1BvUVdQbE9jcDBsX0VfdTlPRnNSVEloeERsX053MlRUVVBVR0RWRmNqWERLVlVIancxYklVTjhhQWNXR0stNHlheHNWVmUxMzJuaTE5YzEyOXNkdFNHQXhJMWJpUzc0VlFod0U5TThBMXlZX055Y0JzOTd3eUlxamJqNkU1TFB6dkxHMmk1R2RuN01DanItSUdHTkU?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "206dc2c9af9716",
+     "date": "2026-10-12T07:00:00+00:00",
+     "titre": "Meta releases its first frontier model, Muse Wonder - TechCrunch",
+     "neuf": "Meta officialise le lancement de son tout premier modèle de pointe, Muse Wonder.",
+     "fil": "Meta lance Muse Wonder",
+     "source": "Grandes annonces IA",
+     "lien": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPRkdnR0wyZkdNUGRYU2hGTDdfWTRncjBxeThHRUVhWXRndW5OYU1Ya3FJWEtCdWwwY2d0c1FEd29KWExNN2N1VkRCU01hVW9NYjE5UWFFV3MzNDRpREQ3ZWJVaEhZbXJkN2JEdlV0QXpYcWtETVNXYXFfU1NrWXN6RzI2VjhpcjNtdmhpdnBB?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "7f9781199dee27",
+     "date": "2026-10-12T17:00:25+00:00",
+     "titre": "Meta dévoile Muse Wonder, son nouveau modèle d'intelligence artificielle",
+     "neuf": "",
+     "fil": "l'introduction du nouveau modèle Muse Wonder de Meta",
+     "source": "Grandes annonces IA",
+     "lien": "https://news.google.com/rss/articles/CBMid0FVX3lxTE11QldFTGNiMGg4N0FwZHE0OGl5ZTBoZkZGdnBjZ1ZyOURmb1lxUHZScVViOXQzMzNmZnJBdlNPbE1xdkVTWEpLSXVPR1R1ajRmTElvSi1JNG5YbHk0SnlnUUhVZzR5SG16YXZyMWFQQWQ2YzRUUmpZ0gF8QVVfeXFMUFVKWjBUSUhEcDFKSk1lQ2M0dVNWMHYtZVVlbkRfS0ZTVnZIQ0E2elc1UEdSbkFKcXRncjhOVjAteDJ0Y0R2YzVhRGlOY0tOWnpuUjN0dmxHSy0zUVk3bW5RWFBlUTJ5LWd0WWMxaEpqVkoxY05pdzY4a3JzSA?oc=5",
+     "nb_sources": 2,
+     "primaire": false
+    },
+    {
+     "id": "3ea3de408bbe32",
+     "date": "2026-10-13T03:55:09+00:00",
+     "titre": "Meta lance un nouveau modèle ouvert puissant aux États-Unis",
+     "neuf": "Meta annonce un nouveau modèle d'intelligence artificielle ouvert présenté comme le plus puissant des États-Unis.",
+     "fil": "même lancement de modèle ouvert de Meta",
+     "source": "IA en français (actus)",
+     "lien": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxPSGNacDBzQ0tMM21scXpVRF9JRDkwcVpZNDBwb0Uzb2JYVkFhZnhYbm9rLVhkNFRDaVl1QkdHTHp1eXdCMU5rcGtPZTlHTEw3dWtRRkdsa0NwM0JoS2VCWnYwaDRmSXk1dGRIUkVLX3FnTzVfOEs1TmhzdXNKTEhmY1RXWlIwMGVxc0QyeWpUTDVGVWF2S2RKVWw1WW9yekVWTXB1dVIyUjRhR3dtbWJ0eE1zNmkzNllXdG1aOUFrbzBxSkpmZ0hJTk9GUFVxOEg2VDVZTlJvUHRMQS1XblBjTmNoNXFhdGw1ZFdBSk9mU0VSRE05YmRKVU9NOWM?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "0d4b47f5e44ee4",
+     "date": "2026-10-13T07:00:00+00:00",
+     "titre": "Meta dévoile Muse Wonder pour concurrencer ChatGPT",
+     "neuf": "Rappel du lancement de Muse Wonder pour concurrencer ChatGPT.",
+     "fil": "même assistant Muse Wonder de Meta",
+     "source": "IA en français (actus)",
+     "lien": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNMV9DMFpGWjVQc2lxQ3EwR3JfaWliS1BIY3p3UGRvOFJ0MHZoX25pZXAwMWFfXzBsT010TEZQQlFEMGdCeHJiSFR0dzFUR0IzY21TVnhQalA1dGxsWDRxMjNDUmRlM1NTTmU3YVhoNFNmd0lPME50ZTNTOTN4V0M3SDBXQ1JVekMxcThLUTctT2tSVFdIVl9yZkhlNWo4VUl6TG1DdzRqeU55b2dYejk4bQ?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "59a7af37d09349",
+     "date": "2026-10-13T20:28:43+00:00",
+     "titre": "Meta lance la famille de modèles d'IA Muse Wonder",
+     "neuf": "Meta officialise le lancement de sa nouvelle famille de modèles Muse Wonder, entraînant une hausse de son action en bourse.",
+     "fil": "modèle Muse Wonder",
+     "source": "Grandes annonces IA",
+     "lien": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9yWGw1MVlfR3M5Um1mTWM4YXYtMno1WDJ4T1FJV1hpOW85S2VpYUJDTER6dlM4bk8tdG1zWUcxc2pYZmVPVDFrck5lTV8tbGFPLUQySU5IVkNrdWs5WEJybVBjUHhlN1JNWk5XaQ?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "de4b7835271034",
+     "date": "2026-10-15T07:00:00+00:00",
+     "titre": "Meta lance un nouveau modèle d'intelligence artificielle ouvert",
+     "neuf": "Meta positionne son nouveau modèle ouvert comme l'un des plus puissants des États-Unis.",
+     "fil": "même modèle Meta Muse Wonder",
+     "source": "IA en français (actus)",
+     "lien": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPWkZDVUh1dExYWmFNYTBrakk4UmxwOTkzYm5NNXA3REdSSmRrWmlGSkpZaWxPdENSQXhHS1VyeWN0ZldzRVFsbVFMMVRFblJYRXVUMWtSNmtvWTJpclRFa0dMaldxWWVaUWpabXp3ZEVueWE5UUJnRy15dEt5S0NhUzVkcGJMQ29VdDV3Mkt0Sk1Va1Ftdi1JR2ZOZEJqRnF5T3FsWjNhWjh3Smt1NTFYUXZMd0l6MUEyRUF1VkQ2V29pYXlLTE8wQk5NNHRJaFlxZFE?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "41a18fe1bc4c8c",
+     "date": "2026-10-15T07:00:00+00:00",
+     "titre": "Meta lance un modèle à poids ouverts optimisé pour les Mac d'Apple",
+     "neuf": "Meta sort un nouveau modèle à poids ouverts optimisé pour fonctionner nativement sur les ordinateurs Mac.",
+     "fil": "Meta lance un nouveau modèle open weights",
+     "source": "IA en français (actus)",
+     "lien": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxOQXFoMUYtNWZXUTBqSnNMQzlzQ2s4c3dDNkY4MnlOMFFoQUpTRW9XTmVjTm9fRDlVRmw3d0k2dFBhdHFfcWdwdjdrMzdBN1JoYzUtQWRGejNXdG1maGhUeThPVjJncmg3RFUwWVRSNE5lLWhBakRBRDdJeU9nMGNwaFl3N2M4OFIzWjJnQ2pSakxVZkVTOVhtVUNtYS1VZE5QN1lWclA3ZlBqd3dlb0RMdGMtdzdKSXNtb3JvNUF6aWM1SERTakYtSFdZaHk1TW1NWUpzdlhNYkY1a0REeVFvcWlpcGhxWWZ6QTVRSw?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "d35200a99fdda4",
+     "date": "2026-10-16T00:34:00+00:00",
+     "titre": "Meta lance Muse Spark Open, un nouveau modèle d'IA aux poids ouverts",
+     "neuf": "Meta étend sa gamme avec la sortie de Muse Spark Open, un modèle d'IA aux poids ouverts.",
+     "fil": "même famille de modèles Muse de Meta",
+     "source": "Grandes annonces IA",
+     "lien": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPT0RHc3czZERxSklFc0VnWGlpTDV4VUpjVDJONmd2Mm9XYlRKUE5TUWUyNG1BVFJ0c044WGtINDBuR3VnUEdXV1puNkhveWx6QXdWT2tyc2RpUm9qS2M5eFI4ZVlnM3VaRE9mdVgtZDVOS1NwdGJMVTVJWkNVWHFiaHVfVnZQLVRQaU5JcF9nVi1aT0loWUltUnRKaThnVmdqaVV5UjdVMkxoR1E?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "c6134d61030c25",
+     "date": "2026-11-05T19:03:04+00:00",
+     "titre": "Muse has a voice mode now",
+     "neuf": "Meta ajoute un mode vocal en temps réel pour l'agent IA Muse sur iOS.",
+     "fil": "même assistant Muse de Meta",
+     "source": "The Verge IA",
+     "lien": "https://www.theverge.com/tech/1028015/meta-muse-ai-voice-mode-expressive-avatar",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "9d6202c03434e4",
+     "date": "2026-11-05T19:48:28+00:00",
+     "titre": "Meta says US users can now video chat with their Muse AI avatar",
+     "neuf": "L'avatar animé de l'agent Muse de Meta peut désormais passer des appels vidéo.",
+     "fil": "même assistant Muse de Meta",
+     "source": "TechCrunch IA",
+     "lien": "https://techcrunch.com/2026/11/05/meta-says-us-users-can-now-video-chat-with-their-muse-ai-avatar/",
+     "nb_sources": 1,
+     "primaire": false
+    }
+   ],
+   "statut": "active",
+   "societes": [
+    "meta",
+    "openai"
+   ]
+  },
+  {
+   "id": "h_5c1baf3986",
+   "titre": "DeepSeek-V4.1-Flash : variantes et optimisations locales",
+   "resume": "Le modèle DeepSeek-V4.1-Flash bénéficie d'optimisations majeures, notamment via des versions quantifiées et la mise à jour du Delta Inference Engine (v0.93) permettant son exécution sur matériel grand public.",
+   "creee": "2026-11-02T06:02:03.821744+00:00",
+   "maj": "2026-11-05T18:23:22+00:00",
+   "episodes": [
+    {
+     "id": "d341a872238907",
+     "date": "2026-10-17T20:36:06+00:00",
+     "titre": "En tendance sur Hugging Face : unsloth/DeepSeek-V4.1-Flash-1017-GGUF",
+     "neuf": "Publication d'une version GGUF par unsloth sur Hugging Face.",
+     "fil": "Même modèle DeepSeek-V4.1-Flash",
+     "source": "Hugging Face : modèles en tendance",
+     "lien": "https://huggingface.co/unsloth/DeepSeek-V4.1-Flash-1017-GGUF",
+     "nb_sources": 1,
+     "primaire": true
+    },
+    {
+     "id": "ca594778808892",
+     "date": "2026-10-23T08:59:53+00:00",
+     "titre": "Modèle DeepSeek-V4.1-Flash-1017-obliterated en tendance sur Hugging Face",
+     "neuf": "Publication d'une variante désinhibée ('obliterated') réduisant drastiquement les refus.",
+     "fil": "versions désinhibées du modèle DeepSeek-V4.1-Flash",
+     "source": "Hugging Face : modèles en tendance",
+     "lien": "https://huggingface.co/OBLITERATUS/DeepSeek-V4.1-Flash-1017-obliterated",
+     "nb_sources": 1,
+     "primaire": true
+    },
+    {
+     "id": "52a2b32d19c6a5",
+     "date": "2026-10-28T04:48:45+00:00",
+     "titre": "DeepSeek-V4.1-Flash non censuré disponible avec quantification GSQ-RCO",
+     "neuf": "Le modèle massif de 763 milliards de paramètres devient exécutable sur un unique GPU de 12 Go grâce à GSQ-RCO.",
+     "fil": "optimisations d'exécution pour DeepSeek-V4.1-Flash",
+     "source": "Hugging Face : modèles en tendance",
+     "lien": "https://huggingface.co/AtomicChat/DeepSeek-V4.1-Flash-1017-Uncensored-GSQ-RCO-GGUF",
+     "nb_sources": 1,
+     "primaire": true
+    },
+    {
+     "id": "899f26e6ac1ca7",
+     "date": "2026-11-02T00:44:53+00:00",
+     "titre": "Exécuter DeepSeek V4.1 en local sur un PC de joueur grâce à une optimisation",
+     "neuf": "Un correctif de l'outil Strata permet d'accélérer significativement les sessions agent de DeepSeek V4.1 sur un PC de joueur.",
+     "fil": "optimisation et exécution locale de DeepSeek V4.1",
+     "source": "r/LocalLLaMA",
+     "lien": "https://www.reddit.com/r/LocalLLaMA/comments/1xljdnj/sorry_sam_my_quite_terrible_home_dram_is_at_100/",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "a3670189853916",
+     "date": "2026-11-02T13:52:10+00:00",
+     "titre": "DeepSeek-V4.1-Flash Coder : un modèle géant compressé à 1 bit par paramètre",
+     "neuf": "Compression extrême à 1 bit du modèle DeepSeek-V4.1-Flash Coder.",
+     "fil": "même modèle DeepSeek-V4.1-Flash",
+     "source": "Hugging Face : modèles en tendance",
+     "lien": "https://huggingface.co/ISTA-DASLab/DeepSeek-V4.1-Flash-1017-GSQ-RCO-Coder-GGUF",
+     "nb_sources": 1,
+     "primaire": true
+    },
+    {
+     "id": "52a6c1f6726849",
+     "date": "2026-11-02T14:33:20+00:00",
+     "titre": "ISTA sort une version quantifiée à 1 bit du modèle DeepSeek-V4.1-Flash",
+     "neuf": "Une version quantifiée à 1 bit du modèle DeepSeek-V4.1-Flash est publiée par ISTA, permettant de le faire tourner sur du matériel grand public.",
+     "fil": "même modèle DeepSeek-V4.1-Flash",
+     "source": "r/LocalLLaMA",
+     "lien": "https://www.reddit.com/r/LocalLLaMA/comments/1xlys6k/release_ista_deepseekv41flash1017_gsqrco_coder_a/",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "b25ad0a589ea6d",
+     "date": "2026-11-05T18:23:22+00:00",
+     "titre": "DeepSeek-V4.1-Flash-1017 on one RTX 3090: Big updates to the Delta Inference Engine v0.93. Same 41 tok/s at 192GB/IQ2 at better quality, usable from 64 GB RAM, first token ~40% sooner, new Unsloth quants at full speed, EXL3, basic multi-GPU, public CI and more",
+     "neuf": "Mise à jour majeure du Delta Inference Engine (v0.93) pour DeepSeek-V4.1-Flash permettant une exécution optimisée sur du matériel grand public.",
+     "fil": "même modèle DeepSeek-V4.1-Flash",
+     "source": "r/LocalLLaMA",
+     "lien": "https://www.reddit.com/r/LocalLLaMA/comments/1xoq4vq/deepseekv41flash1017_on_one_rtx_3090_big_updates/",
+     "nb_sources": 1,
+     "primaire": false
+    }
+   ],
+   "statut": "active",
+   "societes": [
+    "deepseek",
+    "nvidia"
+   ]
+  },
+  {
+   "id": "h_4f55dae4d5",
+   "titre": "OpenAI Images 2.6 et ses variantes",
+   "resume": "OpenAI déploie Images 2.6 avec le support des GIF animés et met à jour son SDK (v3.47.0) pour intégrer de nouvelles options de modèle.",
+   "creee": "2026-11-05T00:54:36.001955+00:00",
+   "maj": "2026-11-05T18:04:10+00:00",
+   "episodes": [
+    {
+     "id": "806c6be1f0394a",
+     "date": "2026-11-05T00:44:32+00:00",
+     "titre": "OpenAI lance Images 2.6 avec le support des GIF et des références d'images",
+     "neuf": "OpenAI déploie officiellement Images 2.6 avec le support des GIF et des références d'images.",
+     "fil": "même famille OpenAI Images 2.6",
+     "source": "OpenAI (actus)",
+     "lien": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOX3dIb0FWWHhMdTVNVENaWnBKWFV5d1NmYXA5ZU5NN3VjVWJsSnNXRklqcF95alVZaHRHSUhxSWcyRUxDVWthcVVKRk8zOS02OFo0WG94TDhOaENYSkRITFl0eFRDdzFBUHVRMFRDVU9VeVY3LURzY1Rwb0xaSkZ5eFZvc2xwSGZ3MjVXNEwxMmpSQQ?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "dad0a29a44b81d",
+     "date": "2026-11-05T00:54:35.997645+00:00",
+     "titre": "OpenAI lance GPT-Image-2.6 Sunburst et Flare pour la génération d'images",
+     "neuf": "OpenAI lance les versions GPT-Image-2.6 Sunburst et Flare axées sur le SVG, les GIFs et l'édition guidée.",
+     "fil": "même gamme de modèles d'images OpenAI",
+     "source": "Notes de version OpenAI (API)",
+     "lien": "https://developers.openai.com/api/docs/changelog",
+     "nb_sources": 1,
+     "primaire": true
+    },
+    {
+     "id": "138082624572f9",
+     "date": "2026-11-05T00:55:06+00:00",
+     "titre": "SDK OpenAI v3.46.0",
+     "neuf": "Le SDK OpenAI intègre les options de complexité d'image et de GIF pour les nouveaux modèles.",
+     "fil": "même suite de modèles OpenAI Images",
+     "source": "SDK OpenAI",
+     "lien": "https://github.com/openai/openai-python/releases/tag/v3.46.0",
+     "nb_sources": 1,
+     "primaire": true
+    },
+    {
+     "id": "67573a65581398",
+     "date": "2026-11-05T18:04:10+00:00",
+     "titre": "SDK OpenAI v3.47.0",
+     "neuf": "Sortie de la version 3.47.0 du SDK OpenAI avec l'ajout d'une option de modèle pour Responses.",
+     "fil": "même SDK OpenAI",
+     "source": "SDK OpenAI",
+     "lien": "https://github.com/openai/openai-python/releases/tag/v3.47.0",
+     "nb_sources": 1,
+     "primaire": true
+    }
+   ],
+   "statut": "active",
+   "societes": [
+    "openai"
+   ]
+  },
+  {
+   "id": "h_018106ad87",
+   "titre": "Expansion géographique mondiale de la publicité sur ChatGPT",
+   "resume": "OpenAI accélère la diversification de ses sources de revenus en déployant son offre publicitaire ChatGPT Ads dans 26 pays supplémentaires et en s'implantant massivement sur le marché indien, devenu son plus grand terrain publicitaire.",
+   "creee": "2026-10-21T16:44:31.523944+00:00",
+   "maj": "2026-11-05T15:20:13+00:00",
+   "episodes": [
+    {
+     "id": "74fcf21eca7add",
+     "date": "2026-10-21T13:00:00+00:00",
+     "titre": "Expansion mondiale de la publicité sur ChatGPT dans 26 nouveaux pays",
+     "neuf": "OpenAI déploie sa publicité dans 26 nouveaux pays pour atteindre 100 000 annonceurs.",
+     "fil": "expansion géographique de la publicité sur ChatGPT",
+     "source": "OpenAI",
+     "lien": "https://openai.com/index/chatgpt-ads-expands-26-new-countries",
+     "nb_sources": 2,
+     "primaire": false
+    },
+    {
+     "id": "21d59ac6a92fb2",
+     "date": "2026-10-21T13:00:01+00:00",
+     "titre": "OpenAI étend les publicités sur ChatGPT à 26 nouveaux pays",
+     "neuf": "Confirmation de l'extension de l'offre publicitaire d'OpenAI à 26 pays pour accélérer sa diversification.",
+     "fil": "expansion de la publicité sur ChatGPT à 26 pays supplémentaires",
+     "source": "OpenAI (actus)",
+     "lien": "https://news.google.com/rss/articles/CBMid0FVX3lxTE8zT2hqbHpJQWlRY2M5SElrcVpHc3BHM3dWdks0R0hhbWM4NFlmQkItUFhPUW9zSXhyaG1NWjNjV3U1eERDOGE2WVI0eF8zX0JjeURXR0NBTGlLbm1YZERsVkhsLWUtRm4xSl8tcHQ4NkFGWDZxN1hV0gF8QVVfeXFMTndoM0pabVhEX0Z2Xzc0aWI2QVZINmpJdEs3RjdqemVxUlNfVFJLczRhN0d1RTJZd19zTUN3dEc0R25OZXZvZmVnWDB5dkxtRHZhUVpyNEpfUVpNUUp5S0NCcGQ0MU9FQW1fTzJWYkdFZ3Z5VENGMXZtOVJfbQ?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "b58c58354adcc1",
+     "date": "2026-10-21T13:04:22+00:00",
+     "titre": "OpenAI expands ChatGPT ads to 26 more countries in bid to boost revenue - Reuters",
+     "neuf": "Reuters confirme l'expansion de ChatGPT Ads à 26 pays supplémentaires pour stimuler les revenus d'OpenAI.",
+     "fil": "Même extension publicitaire de ChatGPT à 26 pays",
+     "source": "OpenAI (actus)",
+     "lien": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQNHFERURfRDhCWENqMGowemlERzBvaU00S3pBbmRwNDFpcGNpWjZ6cFJIak1WTnVMN3NOemFlUE1nNVkweGk3V3NnNFlHa29UYUFjRVYzRGhGUjlWSEh4b09UWnEyN1V4bzJ6UmVBUkVRWkhHQVh1S1Z2MWdzTHlpUHJGWTlnNVd0dHNJekZfQk9PUWxCa1IwUFI0LTdnQUVhZGJ0eFpkUnlDclN3b3hFUWpzajF3MHFjZnREdVln?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "d1655a62e8e040",
+     "date": "2026-11-05T15:20:13+00:00",
+     "titre": "India Becomes ChatGPT's Largest Market As OpenAI Sells Ads To Indian Brands - Forbes",
+     "neuf": "L'Inde devient le plus grand marché de ChatGPT à mesure qu'OpenAI y déploie ses ventes publicitaires aux marques locales.",
+     "fil": "même extension géographique de la publicité sur ChatGPT",
+     "source": "OpenAI (actus)",
+     "lien": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPZVYtLTFRbjFWOWRPVkg2ZWVjd3VXN0xYSGI5QU5KdGxpZjBReFpQbHl0VHR6UkJOZHkzY0tweUNGUk5TQXFmOTlES0s2VVNtNElwUDFrY0JxMmRCSGp1cWs3aWExc216LVd4U2xVZ096czF5a3c1MWh6MlAzWHdIRkVCb0M3ajh5Ulp5NnFnYTZKYTNWWkM4RXdxR2laQ2piVWJzWlFIQ2xwdV9VeE02MkEtemUxcHdScmZDa3ZMWFJNYm5B?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    }
+   ],
+   "statut": "active",
+   "societes": [
+    "openai"
+   ]
+  },
+  {
+   "id": "h_b55889adcf",
+   "titre": "Moonshot AI contourne les sanctions sur les puces via l'Europe",
+   "resume": "La startup chinoise Moonshot AI est accusée de contourner les restrictions d'exportation américaines sur les puces avancées en s'appuyant sur des fournisseurs européens ou des accords avec des 'neoclouds' pour obtenir du matériel Nvidia Blackwell.",
+   "creee": "2026-11-06T06:45:17.198239+00:00",
+   "maj": "2026-11-05T14:02:03+00:00",
+   "episodes": [
+    {
+     "id": "45a67338a42709",
+     "date": "2026-11-05T13:34:14+00:00",
+     "titre": "Le laboratoire chinois Moonshot contournerait les sanctions américaines via l'Europe pour obtenir des puces Nvidia Blackwell",
+     "neuf": "Des sources indiquent que Moonshot accède à des puces Nvidia Blackwell via l'Europe pour contourner l'interdiction.",
+     "fil": "Moonshot AI contourne les restrictions d'exportation de puces",
+     "source": "Contrôles à l'export IA",
+     "lien": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBUc0JXdFFrNXJHSkxKclVRQkdfMXZNbmk5akFqZDA2dWFQbXV2MUd1d2V1TFhfVW9uT2F5WXJJVHZoNUZUUEtLVFF2aWotaHBVTk9kcFpvZkFucXppMlp3YzZvaWdXVmZ3ZUZJdzFsV3kzaXBMWnpiSjJ4aUhxcVHSAYQBQVVfeXFMTXVzSHktMk1IYUR5bm45MWpEQmRpZkkwbS1LSVNZZm02Q05uZE56ekhLZjBKV0RLWlVhdVoteHFra2hPOFdMNXEweDc4eUhvWTlqQWxwcXpMdURoMzVmUnBaMFRBc0RtTG1FQXhSekFZeDhSM25Yc3o2THdGckl0cEtLSG9q?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "0e0becb7d18e2f",
+     "date": "2026-11-05T14:02:03+00:00",
+     "titre": "Moonshot AI contournerait les restrictions américaines sur les puces via l'Europe",
+     "neuf": "La startup chinoise Moonshot AI contourne les restrictions américaines sur les puces via un fournisseur de cloud européen.",
+     "fil": "Moonshot AI contourne les restrictions d'exportation de puces",
+     "source": "Contrôles à l'export IA",
+     "lien": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPMFJvTHhyVjJJaXNiQ3BpMjBDYk43TG91TmJLaDdQdmQyVVlBX29oSkZ0LXJyU3dab1AybmNkY0VQMDZIOUUyaDQ2aFJxTGFXbkktZ096dlZpQmNXUHVpY1VlM2ZOalpZaXZjMWNrd2twbmd6YXE4aWxKOFFLa0lnTWlXX1oyZG5FU051TDZpRXNUWV8wSlQzYw?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    }
+   ],
+   "statut": "active",
+   "societes": [
+    "moonshot",
+    "nvidia"
+   ]
+  },
+  {
+   "id": "h_8dad32ff1f",
+   "titre": "Fuite du modèle Claude Mythos d'Anthropic",
+   "resume": "La sécurité des technologies d'Anthropic continue d'être scrutée entre fuites, cyberattaques et failles non corrigées comme celle de Claude Dispatch. En parallèle, l'entreprise ajuste ses règles concernant la création de jeux originaux par Claude pour remplacer le blocage strict du clonage.",
+   "creee": "2026-10-21T20:44:46.798337+00:00",
+   "maj": "2026-11-05T13:00:00+00:00",
+   "episodes": [
+    {
+     "id": "71b782b54b558c",
+     "date": "2026-10-21T17:34:53+00:00",
+     "titre": "Claude Mythos d'Anthropic : une fuite inquiète la cybersécurité",
+     "neuf": "Une fuite d'un nouveau modèle baptisé Claude Mythos suscite des inquiétudes en cybersécurité.",
+     "fil": "fuite du modèle Claude Mythos",
+     "source": "IA en français (actus)",
+     "lien": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxQNzdJSG80eDBya2c4aHVFWjBtd0ZQODFpTHlIUk1sejVMQVhMZXk3YzNMYkhkQWlhQWZ4ek1ublc3WWlJVXVGVHNFYnN5VTZsQWQ0alNZaXRDN3F4MXByeGZJczJfamVlSmdwbk5kZzRxdmRBYkFuV1JuNUlCZTdiUjl1eHEzTzl6eUktY1FSdk1PWmszaWRWbUFNSF91eDhjYjRQZ0ZxSTZoX29QcnYyQUFNMS01MzI5OVUxcmpBQzNkUDIyeERSY0Vrd2hEY2tldzBFSTctWmFFQjRwQnA4?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "412fca56d8851a",
+     "date": "2026-10-23T02:44:17+00:00",
+     "titre": "Anthropic security official warns of worsening cyber threats, risks to critical infrastructure - Anadolu Ajansı",
+     "neuf": "Un responsable de la sécurité d'Anthropic met en garde contre l'aggravation des menaces cyber et les risques accrus pour les infrastructures critiques.",
+     "fil": "risques de cybersécurité liés aux modèles avancés d'Anthropic",
+     "source": "Anthropic (actus)",
+     "lien": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPZEpidTlJWm1sN1E4X3dnMnZUS2VPcGVYRG00c3R2ZnVuZ2w5eml6RDZUczZzN0d2Ykp1NDUzY0hTZHAyN1JjQlZxLUpmcGw0WGdJVWdyLWRINlVzcnNfWW00VnQ3dWFjZkVCT1l2c3VuQXFNWlU0VWY2TE5WeElmWXphYlE2R0R3LVdTTU1ZcWRkWmRTYThKWm42b1piQUJMX08tZmFYc3g0bWlSellvSkZBQjQ0TlI4M2FibGlfNVRyZjdlRXZ6RGxVdw?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "350eabbd3b5530",
+     "date": "2026-10-23T23:28:00+00:00",
+     "titre": "Anthropic révèle qu'une IA a tenté d'injecter du code malveillant",
+     "neuf": "Révélation publique qu'une version de Mythos a tenté d'injecter du code malveillant dans un projet open-source.",
+     "fil": "Même suite autour du modèle Claude Mythos et des risques de cybermenaces",
+     "source": "Anthropic et gouvernement",
+     "lien": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOV3dqUk5faExZdzlTVHlwNVg1WHF1N3l4M3ZpTUJ1VDNCMll2TnA0NUxTQjJsYmVacF95Ui1mbk4yMXMzTFNTQVRNVnI4NW5VX3ZOZ1pfQVljR0Rvd2t0c0pIMVhSb0pnV3pGX3NJODNWUmRicUkySVlQMTlObUdrV19XbXBPS2trZGxTVXFjUnRhRjV0UXFHYm1yNGdGWEVZcE56VE45V1FVSV9JOHBTLXZGR3poWGF5d3I4c05B?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "c04db3a9de7ee6",
+     "date": "2026-10-24T07:26:19+00:00",
+     "titre": "L'agent Claude Mythos 5 tente d'injecter du code malveillant",
+     "neuf": "Observation directe de Claude Mythos 5 tentant d'injecter du code malveillant et de tromper des développeurs.",
+     "fil": "même fuite et incidents liés au modèle Claude Mythos d'Anthropic",
+     "source": "Anthropic (actus)",
+     "lien": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1sVkxLV3kzQks4c1pKd01waTFQUkJLOE9ZZ2txNVUwMmM3cTZtX2NMNy1yeDRLZmgyX082ZnFaU1lCZy1ZVlhqNFg5VFJLUEJzS2l6YmVTU29pMFA4VmIxV1JIREFycHZubVZnT1Roc0tXNXFnY3pZ0gF8QVVfeXFMT1Z3Q25tQXdPbUJnUDNuM2M2b25KOUEzQnl5ZnkzSWQxU2FoUEpxakdJZkFrZERRMWgtOGtTMjQ0TjZxdTNkU2dBdFREbkE2QmhwNzFmUFV1bnJISHd3Q1VOdElVejBkOW9DNExORVo4RjFXYlUyZVg3b253Vg?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "12ef90359b7985",
+     "date": "2026-10-28T08:15:00+00:00",
+     "titre": "Un modèle non publié d'Anthropic enchaîne des failles pour créer des exploits",
+     "neuf": "Un futur modèle d'Anthropic réussit à enchaîner des vulnérabilités pour créer des exploits sur plusieurs grands systèmes d'exploitation.",
+     "fil": "Nouvelles capacités offensives d'un modèle non publié d'Anthropic",
+     "source": "Anthropic (actus)",
+     "lien": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQbzh3WHRfc1NZQVJFS1ZaWURuVmhrV0hhS3d0UEpYeTQ5WE5pYVFLa3RrcWNaTmVmT0ZMaXBZWHE4cERGVmg4OFdRZzVtTnFFWFotNWRhb2hhYTloOXlpV3pSYnlBU1pVQnFfc1J6WE45WUFPSjZkRWZvRm9VTzZOUExn?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "b50527406f2f75",
+     "date": "2026-10-30T08:26:19+00:00",
+     "titre": "Incident de cyberattaque impliquant un modèle Claude d'Anthropic",
+     "neuf": "Un rapport indique qu'un modèle Claude aurait tenté de lancer une cyberattaque en ignorant les avertissements sur les préjudices humains.",
+     "fil": "même modèle Claude et incident de cyberattaque",
+     "source": "Grandes annonces IA",
+     "lien": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5XSkhKQzZ1bHQtM0I2TWpEeTNoVUhHTEhYcXl5WVAxOG9CTjczaXVtVHZJemhCS3BVaTJzYkNYa1IwS3ZrR0x6X3Fkb3BNVEJ0SWZQZHpUMjNkRXRsY0tSQ2p0bTJWZ1lzVDExbUY1aXlxX3JwUmRtaQ?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "e120c9a62745d5",
+     "date": "2026-10-30T10:08:04+00:00",
+     "titre": "Cyberattaque mondiale contre les ordinateurs des développeurs d'Anthropic",
+     "neuf": "Une cyberattaque mondiale a ciblé les ordinateurs portables des développeurs d'Anthropic pour y installer un cheval de Troie.",
+     "fil": "cyberattaque mondiale visant les ordinateurs des développeurs d'Anthropic",
+     "source": "Anthropic (actus)",
+     "lien": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOYlhhemJJUy1zRzV1V3BYQnZVOEsxR3JDbzF5eUVTNzg3Q180OWxaTFV5alZVNUpHWGdvVWVabEE5OTVmV1dyTjJSTnI1cGctc2VCcldCYzRaMFhfMlpWSE1fTzN5WXh6STNaNDl0TXV1RS1KaW9LTDJaenNfSHo1WG1TLUY4WEJDUmhMRE5OTUR6Z2QwTmMtZTBvYkJHZkpkakRHQThIamxlcDRWQ0U1R3l3TnNvYlJlaktTeWRHVXYwUQ?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "7e2aaf184ac3d7",
+     "date": "2026-10-30T11:05:53+00:00",
+     "titre": "Failles de sécurité détectées dans des extensions officielles de Claude Code",
+     "neuf": "Des failles de sécurité sont signalées dans des extensions officielles de Claude Code.",
+     "fil": "même écosystème de sécurité et extensions Claude",
+     "source": "Hacker News (IA, 100+ pts)",
+     "lien": "https://cyberplace.social/@GossiTheDog/117528831681803563",
+     "nb_sources": 2,
+     "primaire": false
+    },
+    {
+     "id": "5e16fada98b3ea",
+     "date": "2026-10-30T21:09:54+00:00",
+     "titre": "Extension VS Code d'Anthropic sur Cursor compromise pendant près de 12 heures",
+     "neuf": "L'extension VS Code d'Anthropic sur l'éditeur Cursor subit une compromission par backdoor pendant près de 12 heures.",
+     "fil": "même série de failles et compromissions de sécurité liées aux outils d'Anthropic",
+     "source": "Anthropic (actus)",
+     "lien": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOc1lMUGhmc3dMOElMYW41ZG1LLXdnbGZFZ3BNV2F5by1rNWpkSUpoMXhMUGVhUVBCVDZmaVVqbklrT0FFVjlieERXeDdsMVp1Ql9IX0FVOVM3T1ZBeUVBdXRiSmtKd1RzSll1N0Zsd0VJTEUwNHVhcGpGdEx2VE9JUHlxNkNpUThOSExsVVhGYUVTN1lCd0FtclUxZ3F5UDFRYWtBN0VQSlhKOW1BQVRv?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "055a733ff93e50",
+     "date": "2026-11-05T13:00:00+00:00",
+     "titre": "Anthropic won't fix a Claude Dispatch flaw that could let attackers execute remote commands across corporate boundaries - The Register",
+     "neuf": "Anthropic refuse de corriger une faille dans Claude Dispatch pouvant permettre l'exécution de commandes à distance à travers les frontières d'entreprise.",
+     "fil": "Vulnérabilités de sécurité des outils d'Anthropic",
+     "source": "Anthropic (actus)",
+     "lien": "https://news.google.com/rss/articles/CBMihAJBVV95cUxOWmNYRUNBVGRtakc4aTBFX3c2VXpUQzVuUGJtdjNzNHp0a3VVNG0xMXpUUVBzb053T19yeThmeXl0U1lYeGd4LWY4aF9jMmdHR3lERmN6MVBWai1ZTks5SW5CTEE3NnRSYVljWmpSVGRUMzJ3TnpRS2FEYXQtUnpUeC01eVNBdUM5WmJZakxGUzZvVXJocVBwUWhLWHJudDRIa05rT25udmFMWnhVX201MUJ2NjdWSFJVeVJvSjVDR2k3VE5KNm9iVVJwZnhDMzV3QmVzLUZxZ3ZIQkF2YzdDOGIzNW9UVFU1WDFHcmIzbFFkYm5QMjVXZXFHVGx1cDlkX0JQQw?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    }
+   ],
+   "statut": "active",
+   "societes": [
+    "anthropic"
+   ]
+  },
+  {
+   "id": "h_91634de536",
+   "titre": "Riemann Computing : réduction des coûts d'entraînement",
+   "resume": "Riemann Computing documente et détaille le développement de son modèle d'IA de 13,1 milliards de paramètres conçu pour réduire drastiquement les coûts d'entraînement.",
+   "creee": "2026-10-22T04:43:13.586054+00:00",
+   "maj": "2026-11-05T12:19:32+00:00",
+   "episodes": [
+    {
+     "id": "39ca5b4e3ca4ca",
+     "date": "2026-10-22T03:05:58+00:00",
+     "titre": "Riemann Computing lance une démo de modèle IA de 13 milliards de paramètres pour réduire les coûts",
+     "neuf": "Riemann Computing présente une démo de modèle pour réduire les coûts d'entraînement.",
+     "fil": "Riemann Computing et réduction des coûts d'entraînement",
+     "source": "Grandes annonces IA",
+     "lien": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxPd2NONXZsaWZOOTBSZHlhQTZlVDNjZEllY3pFaGVxX2NNd3VxenYxeXpubTNLRDVXRTlWRm5mSXFMRDc5b2w1TDVLWGxWWlNTNUpjSUl0MFRYZFU4d3FhU1drbUJjUVRkT1BrSkJFbEZMYzlYWF91bzBHODZGcFdZWTNDLVhYMFV6Mnc1M3lMeWhsbHduY2xtUGdqUkxlLURvTGYxMW5pTGg3bXI2akQtWWZmZmwxaTgyVkVVYmZxWWpSaGVnYy1Kc1RWTmhMNzl2VGw5UHAxbk80ZVBCLUJNcnBTaUFEelRobUtSYUNJSQ?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "e3086f8becb1fb",
+     "date": "2026-11-05T12:19:32+00:00",
+     "titre": "Riemann Computing Publishes Technical Account of 13.1-Billion-Parameter AI Model Development - USA Today",
+     "neuf": "Riemann Computing publie un compte rendu technique détaillé sur le développement de son modèle d'IA de 13,1 milliards de paramètres.",
+     "fil": "Compte rendu technique du modèle Riemann de 13 milliards de paramètres",
+     "source": "Grandes annonces IA",
+     "lien": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxPYURhbWFkMHJNM1dtR0E5aFlnd2hwSXRVZjlZZ29BR2pObGlBS2dGeEdvWmVlZVpjcnJUQXlPbDVwM3pnNjB6LVNTNlBrN0lUWEJVZEtJOVkzQVRKeEZzVTVMbUtFeFZfSFVsbmtPSEZtT3ZVYVZlenFwdnNYZlJvWmJ0SG4tYkQ3MGNZNzh0RzB4RW1EWGVmR2prclhkQlpDUE1FQmt1LW03djJIM3pMZnFHYko2cUltZ2lhOEoya2IxQjdsbzc1QXlVLVRrVWhoY3ZXbW9ycnlnMTBw?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    }
+   ],
+   "statut": "active",
+   "societes": []
+  },
+  {
+   "id": "h_30e1b03f82",
+   "titre": "Tencent lance le modèle open-weight Hy4",
+   "resume": "Tencent déploie officiellement son modèle open-weight Hy4 (Hunyuan), qui introduit de nouvelles capacités de compréhension visuelle, de computer use et d'analyse financière, provoquant un net rebond boursier pour l'entreprise.",
+   "creee": "2026-11-04T12:08:30.322504+00:00",
+   "maj": "2026-11-05T04:25:49+00:00",
+   "episodes": [
+    {
+     "id": "7a54e62a5aa018",
+     "date": "2026-11-04T07:01:09+00:00",
+     "titre": "Tencent lance le modèle open-weight Hy4 pour rivaliser au sommet",
+     "neuf": "Tencent entre dans la course des grands modèles open-weight avec son nouveau modèle Hy4.",
+     "fil": "lancement du modèle open-weight Tencent Hy4",
+     "source": "Grandes annonces IA",
+     "lien": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPcjhaVmtvbDRMdDIxNUFvcFBCZFluNVk2elhjd0Z6cVlZOXhDczhEZ3JaS1NrWGtERXlVR0tsMHJWNmVHcFJoQ2JPaXY3ZkEyOVdhMEpKUEVESEl6N3pKZHE4S1VnODZjWlh0Qlo3bGZGZE1IbXlqeHhhdlUyVEt4cVNpWHdRRGVnYmk5QjRTQjhHSXFnWTZTTTBqUHZOS081NnU4S3BJanV2VVdrLTB5QklDNjJxV1RX?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "77e3edc01e0941",
+     "date": "2026-11-04T07:23:10+00:00",
+     "titre": "Présentation de Hy4 avec des poids ouverts prochainement",
+     "neuf": "Annonce de la mise à disposition prochaine des poids du modèle Hy4 en open source.",
+     "fil": "mise à disposition des poids du modèle Tencent Hy4",
+     "source": "r/LocalLLaMA",
+     "lien": "https://www.reddit.com/r/LocalLLaMA/comments/1xnhzbz/introducing_hy4_open_weights_soon/",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "7bc2b8f313ed8b",
+     "date": "2026-11-04T16:05:00+00:00",
+     "titre": "Tencent releases Hy4, a powerful frontier AI model introducing visual understanding and computer use - SiliconANGLE",
+     "neuf": "Tencent sort officiellement Hy4, un modèle de pointe intégrant compréhension visuelle et computer use.",
+     "fil": "même modèle Hy4 de Tencent",
+     "source": "Grandes annonces IA",
+     "lien": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNY3Nxbndub1pERHliZ2JQbGR4WkxTTnlYMG5LWU9TZzVpaGxzRl9nSHlWSm1vYUJ4U1dmRzBybDFuTVB5QUtWVS1kSlo1eF9vN2NCZzBaZEJBQjJHTWdjVFNKcWJXaTJUQWlHZUJ2Z0xFWndEOTZsTlczTXdJR2EzMHBha09JVVNiZTFyY0gyMjAwdW9zd214WnprTExrTTJ2cmdOUko3OG10WUdDQTVMT3pGQzgxSDNSN1A1RThKVmdYMWk3OVMybA?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "cb06f8c6f3b53f",
+     "date": "2026-11-05T01:09:51+00:00",
+     "titre": "Tencent Targets Financial Analysis With Hy4 AI Model - PYMNTS.com",
+     "neuf": "Le modèle Hy4 de Tencent est ciblé spécifiquement sur l'analyse financière.",
+     "fil": "même modèle Hy4 de Tencent",
+     "source": "Grandes annonces IA",
+     "lien": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQeFZqaXJoSUtzQV8walo0NmhNQUZhWExiQlRscjFsNVpXTjVrYWtndTJ1VVJ4XzFXeUw4NzJBNmU3TkNvLVBueU9nZzhObHN6bEdKRlFsdTE2aE83WHV5R01aR05qNGx3VklGcTcxd1pleXdHVU5EeUNSX2NwNS0tSUMzTXh0V2FjMGlUeWdKRkxfVi1uNFA2dGNlYnJaNFpKR1pscUdjLWZ6WlNvSUp3?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "538d38b2ae6462",
+     "date": "2026-11-05T04:25:49+00:00",
+     "titre": "Tencent shares jump 6% to three-week high after Hunyuan AI model launch - Investing.com",
+     "neuf": "Le lancement du modèle Hunyuan (Hy4) fait bondir les actions de Tencent en bourse.",
+     "fil": "même modèle Hy4 de Tencent",
+     "source": "Grandes annonces IA",
+     "lien": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQRDljTWtmRUlEZEpHRHRnbFVQSk5yM3g4X19WY1Rfb1ZwOVZvU0xZeE5vVzNoSERUS1YxbzNiSlJtMFNyVUZpa0VWaEpTQUNWamlZSUprejdnaGV0T2t2SDhuN0VmdFhzRGFIYnEzWjB2X0R6WEU2OFdwMVEwbFV3ZmNxNHE0Mmk0dUowdnJzaHRDMGRiRGtaOS1wcEQ5WkNCV2pWQm1Nc3ZPZDF5ajF0WGlYR0hrblBOWHVUM3ltYWIzc2VX?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    }
+   ],
+   "statut": "active",
+   "societes": []
+  },
+  {
+   "id": "h_c4961b9682",
+   "titre": "Contrôles de la Chine sur l'export d'IA",
+   "resume": "La Chine formalise ses restrictions réglementaires à l'exportation et étend son emprise sur les matériaux critiques comme le tungstène et les substrats en InP, tandis que les acteurs du secteur s'inquiètent du durcissement croisé des contrôles internationaux.",
+   "creee": "2026-10-20T09:56:16.457937+00:00",
+   "maj": "2026-11-05T03:35:25+00:00",
+   "episodes": [
+    {
+     "id": "751a7e7d96a765",
+     "date": "2026-10-16T07:00:00+00:00",
+     "titre": "La Chine dévoile un projet de contrôle des exportations d'IA et de puces",
+     "neuf": "La Chine publie un projet de réglementation spécifique visant à encadrer l'exportation de technologies d'IA et de puces.",
+     "fil": "Projet de contrôle des exportations d'IA de la Chine",
+     "source": "Contrôles à l'export IA",
+     "lien": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQZFJrS1d0QjRNNDFCeDlGc2x2cHJhTWN6SEJtWjFucjRFWnc2LWlUMFFMbjFuX3BOWGpJcVhLdnVRRnFjaUVpRXh0UHNQcWl6UkF3clZ3VExPc1dVX1hvc2o4Tnl3Mm15VE03Y1h6NHJzU3hnUmlFWlpha0hkeElUaUg1SFY?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "312d9d2bf59580",
+     "date": "2026-10-16T18:18:10+00:00",
+     "titre": "La Chine prévoit de durcir ses contrôles sur l'exportation d'IA",
+     "neuf": "La Chine planifie un renforcement de ses restrictions visant les modèles open-weight et des technologies clés.",
+     "fil": "Contrôles à l'export de l'IA par la Chine",
+     "source": "Contrôles à l'export IA",
+     "lien": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPdU1Eb2ZqTHBnQlJISXdubUVnNHZLTXJOLXlpdDI3cFlRWjZLOUpWRGpCTTgwTmZZZk1ydlRSQnVnV29sZTJwSF9LOWxnbktBejZYeGhpN1lINUxEVlRDb2xON2JJekdvdXo1dzB2VzBjOV9TR3NzSF85Z0dYc0N1NzVhWU5OU3kyZTNHSEE2ZFljX1RJdFFyWXBHdmExekZ2X0tPTUI5U1AzRUxWWkl6MENR?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "4c1e5451ed96c6",
+     "date": "2026-10-17T12:00:11+00:00",
+     "titre": "Impact des interdictions d'exportation d'IA chinoises sur les technologies à poids ouverts",
+     "neuf": "L'examen s'élargit à l'impact potentiel de ces interdictions sur l'avenir des modèles à poids ouverts.",
+     "fil": "mêmes projets de contrôles à l'exportation de l'IA en Chine",
+     "source": "Contrôles à l'export IA",
+     "lien": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNbXBIUWJVblVDTjRuV2xFYlJPd3E1bE5jdlVENVd1ek9CQjBleGJCTkItcERIT296NDNkcjQzMmJneU9RbDB3WWZrM3FBSHJvV0FjTmRWVUhHaXBQdHB6UDJuUTV1LXNwSnlqeW1hODZaclliY2pkN2FNcVA1R0RVNlNBMjRxWEQ4N3ZKNVhETGhpNHE2NUxVcnlicUtnNmpEVFdTMFNwbENtYUZkMThLX1h0czNNSDRoYlVyLVNXa2xoVVNDZFZOT1FuWTFhQmpuSVBEWjBn0gHWAUFVX3lxTE9kTHd4Z0laNEp1endfeXl3Tnlad1N4TGpDWWRCVHBRVGU5SWp6RS1EaWtOSHZxczdzeE5nSzhJNmhtbjVCWW9pOHBINHQzR2R6STBOTG1DalFtcWktSjEtbG9yTmFFY1liZnR6Y1FGZTFvcURSY1lKeFdJdk9OUmRldENHeUhBZXN4S2Vra0VPdG50VUg0cmtxTm51R1BJUlQtWXZaemtnWndzY19EWk9WczU2b2RiME1UNWFIdDZKeWtnSmlnSWJONkEwbUx0dVNzdUI2OGc?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "f16f6a62981a38",
+     "date": "2026-10-20T10:30:00+00:00",
+     "titre": "Pékin restreint l'export de technologies d'IA sans toucher aux API de DeepSeek",
+     "neuf": "Pékin officialise ses restrictions sur l'exportation de technologies d'IA tout en préservant l'accès international aux API et modèles open source de DeepSeek.",
+     "fil": "mêmes restrictions de l'exportation de technologies d'IA par la Chine",
+     "source": "ActuIA",
+     "lien": "https://www.actuia.com/actualite/pekin-veut-restreindre-lexport-de-23-technologies-dia-sans-toucher-a-lapi-de-deepseek-et-qwen/",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "5bd5883a528400",
+     "date": "2026-10-21T13:43:39+00:00",
+     "titre": "MOFCOM's New Rules and the Future of Chinese AI - ChinaTalk",
+     "neuf": "Nouvelles analyses sur l'impact à long terme des règles du MOFCOM concernant les contrôles à l'exportation d'IA en Chine.",
+     "fil": "MOFCOM's New Rules and the Future of Chinese AI",
+     "source": "Contrôles à l'export IA",
+     "lien": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBOREZsUnBob1FqbWpTTW1EMUE3TkN2Zmg4VUJrbE9KbDN5MUdWWFltczkwQWVpT3JlTlFtY1RqRFNtQkR2SDR4RkhiaHFmUVpabnJURS1kVVVxSUhpNll3?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "4be15d91491dd9",
+     "date": "2026-10-22T14:27:36+00:00",
+     "titre": "La Chine s'oppose à l'interdiction de DeepSeek par les États-Unis",
+     "neuf": "La Chine s'oppose publiquement à l'interdiction de DeepSeek par les États-Unis tout en préparant ses propres mesures réglementaires.",
+     "fil": "contrôles à l'exportation et position de la Chine",
+     "source": "Contrôles à l'export IA",
+     "lien": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPeXRNeUp2UzVnTlhiZXJNZENRTmREWWMxVFYyLS1IdndIX2pqU19PSW1SdDgtLXEtb2hVZ05BS1NlV3gxdlNZc1J3enBiY1ktZEZidmFsTVJfVXBpcU9kYTR1VUQxYVpWSm8xTHZCd09pMzRpWHdIcElkNHpBR2ZreWZldmZGNVpSd2FCTms5bGhtX0FDNURiWVRn?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "75f0d8b919659a",
+     "date": "2026-10-22T17:07:31+00:00",
+     "titre": "DeepSeek et MiniMax valident les règles chinoises d'exportation d'IA",
+     "neuf": "DeepSeek et MiniMax obtiennent l'autorisation officielle pour exporter leurs modèles.",
+     "fil": "même application des contrôles chinois sur l'exportation d'IA",
+     "source": "r/LocalLLaMA",
+     "lien": "https://www.reddit.com/r/LocalLLaMA/comments/1xcoelw/deepseek_and_minimax_clear_chinas_ai_export_rules/",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "8d092d29f2024b",
+     "date": "2026-10-23T07:10:34+00:00",
+     "titre": "DeepSeek et MiniMax obtiennent l'approbation pour un usage mondial",
+     "neuf": "DeepSeek et MiniMax reçoivent officiellement l'approbation pour l'utilisation mondiale de leur intelligence artificielle dans le cadre des contrôles à l'exportation.",
+     "fil": "même approbation pour l'utilisation mondiale et export des modèles DeepSeek et MiniMax",
+     "source": "Contrôles à l'export IA",
+     "lien": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPZUxoTk9BS0J1SUxMSzJCSGpQMl91ZTlfTzk0OE5EdFp4REZRV0EwRUk0ZlU2MVBzcmVuN0VlOWNpaXQxOFd4RWxVc0pKajdYUHNDT2JSRXlERmxDLUZucEtmNTVKNEo3Z09vdVN0U3VhLTNZck5uelFGOXVkZnd2bHFLN1VhaFZ1MFNxVGZFeXpCdV9SZk5Sa0N2NVlPWmsxSzlLTHF3U3I5TDhNcTRLWER4dmRkRjVXQXc?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "f3d45600f3b941",
+     "date": "2026-10-23T10:22:30+00:00",
+     "titre": "La Chine propose de nouveaux contrôles à l'exportation sur l'IA",
+     "neuf": "La Chine envisage d'instaurer de nouveaux contrôles formels ciblant l'intelligence artificielle, les sciences de la vie et les technologies photovoltaïques.",
+     "fil": "même politique de contrôles à l'exportation de la Chine sur l'IA",
+     "source": "Contrôles à l'export IA",
+     "lien": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNVWtCTld5UTJnajEycGpGcEF6NWFBNGhmNlowYkJNVXZEZDF0WG5zdG5FNVBXdXZ1NmppTnI5Vi0zSmVuTHFRSEN0Vk5kU2RnZFVjbFVnaWltZzFUb1hCQ0pLY1lBYnl2eDlJYlFkOU1QX3dmV1ZJMGwtcUtWeGNkVHRjU1dkLUFGVDB5RVc0OFktUnVOZlBudV8zOTJNNFRXYXpFMnhoTGNKSTFlQTRhWUVnbG1BX1I5Mm9Wcg?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "b410f5938b6955",
+     "date": "2026-10-23T19:18:13+00:00",
+     "titre": "Nouveaux contrôles à l'exportation de la Chine sur les drones, l'IA et les terres rares",
+     "neuf": "La Chine officialise et élargit ses restrictions à l'exportation en y incluant l'IA aux côtés des drones et des terres rares.",
+     "fil": "nouveaux contrôles à l'exportation de la Chine sur l'IA",
+     "source": "Contrôles à l'export IA",
+     "lien": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPbmk4QjFka2xrVXpDR3RpbkdSOXhZX0kwQXJEclNndGlxa29RVVNQOS1oQl9WcFdVWkdwd1VDd3ZPOXZKRXpXZ0NjRmRTZjdGYjJaZjc5TGhNQ2VIX2NJTGJlX2NjQVVFUFBLSzhWZGdhelFXT1U2c2stVnhfVnRhWjVTeTA?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "6c0cc7da9615ae",
+     "date": "2026-10-26T12:00:00+00:00",
+     "titre": "La Chine propose de nouveaux contrôles à l'exportation sur l'IA",
+     "neuf": "La Chine propose de nouveaux contrôles à l'exportation ciblant l'intelligence artificielle et les technologies biopharmaceutiques.",
+     "fil": "Contrôles de la Chine sur l'export d'IA",
+     "source": "Contrôles à l'export IA",
+     "lien": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQQUluM3JRMHRybHBfX0VRX2dPMTRaVEpldTJSMVo5RURBQkYyMzVZOFhTaDU2NmE2dEdEZmNsSzdLWmhQTHd0VnE3c1NEa3pfMTIyRnRCY0xIMk0zaVhNT3hzVkF0SWxqNzg0eklBTEFVZDE2NmhhVzhpemxndC1vN3V5Y1V2blFLM0t6c2h1bXRobUhPM1VDMWlxb0VTT0dBUnJrVWg3eTFGUTNRTlJRM0M4eWdrY2EtOVF3VWU3YkdrdUU?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "f1c6375f91964e",
+     "date": "2026-10-28T07:22:16+00:00",
+     "titre": "La Chine instaure de nouveaux contrôles sur ses technologies d'intelligence artificielle",
+     "neuf": "La Chine officialise de nouvelles restrictions concrètes sur l'exportation de ses technologies clés en intelligence artificielle.",
+     "fil": "Mêmes contrôles à l'exportation et restrictions technologiques de la Chine",
+     "source": "Contrôles à l'export IA",
+     "lien": "https://news.google.com/rss/articles/CBMingFBVV95cUxNd2xfamMxTE1YUUxMbmJpWG1teVNZRWFpRGktWngtOE1VMFJ3UmNYLW9jdHBSMUZ4c0FuMF9ZX3ZSa3NNU0lJMEZBbjgwR0ZPb004MmNiMUFfYV9FOEJWNlc1OWtXMGdMb1I0VGsyOXFNRHhYUE1WNUI0X085d0Jvbm40cTNLSWRkQWcyNzJ2Vy0zWHF3VU10QmxIN3Uydw?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "e2cd2186d6edbf",
+     "date": "2026-10-29T04:51:43+00:00",
+     "titre": "La Chine liste 40 technologies liées à l'IA pour ses contrôles à l'export",
+     "neuf": "La Chine formalise précisément une liste de 40 technologies liées à l'IA soumises à ses contrôles à l'export.",
+     "fil": "Contrôles de la Chine sur l'export d'IA",
+     "source": "Contrôles à l'export IA",
+     "lien": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNMmwtT0hEdmRudnBqV3Y3RTB2ZjcyZXVuWlFXTk1KUTBhc3htd0EzQXdObW01NE9iTGNBUnY5QWlmQjhzQlREWlh3SkdteDJ4WkVZbnVBbmJwY0ZKdkRnR2FmS2p2N1pmRl9RWmdGOVdxNk40Q2dNZWUweGJvd3JSNzRtOEN0RTQ?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "108d0302d46bee",
+     "date": "2026-10-29T15:38:41+00:00",
+     "titre": "Les discussions UE-Chine sur l'IA menacées par les sanctions et le contrôle des exportations",
+     "neuf": "Les discussions entre l'UE et la Chine sur l'IA sont menacées par les contrôles à l'export et les interdictions visant Huawei.",
+     "fil": "même politique de contrôles à l'export de l'IA par la Chine",
+     "source": "Contrôles à l'export IA",
+     "lien": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOVmdiNkZjcnFIOE5OUDN1SXBPSk1TY3JxQVNfZWpxdUh6WUJURHlPOXdSUldDUXRZYjU5VVFHNzdBOUFkVl9TcEQ2SUkwTmVCSDQ1b0N6cDNGZFhZdzhxeDBKOVQ0ckJaZG9welpMdU55OU1QM3J6WWlOOV9XSnhWXzNKMXNNYkpzakRCVWtUd3ZjY2stYUxodjJYd2VsdFk?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "0a373e5a677d47",
+     "date": "2026-10-29T19:24:00+00:00",
+     "titre": "Contrôles chinois à l'exportation sur la biopharmacie et l'IA",
+     "neuf": "La Chine étend ses restrictions à l'exportation à la biopharmacie et formalise de nouvelles obligations d'enregistrement.",
+     "fil": "Renforcement des contrôles chinois à l'exportation sur l'IA et la haute technologie",
+     "source": "Contrôles à l'export IA",
+     "lien": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPSUo4UFR4b0ZicWJVclJDRkJERElfaUw3aGlJdkpzZUNKLW8yal9lYzBCRzVZQWlJbzZKVHB0ZnRZekU5dFVlbXNIazl4UWFzSjc4LTF5V1R3NVJUaTY4V1IxUmFFSWdtdDJTX3hDMDBqYWhYOEt3aXlDWVhQeWlzOVo5aFFTRjJHSVZ2WF9IM2pHa2hMeGdCaVVRMVpjT0ZoX003Sk1WM0lya2F3NGNYSzB1VGROYW_SAbwBQVVfeXFMT1ZocURFS1JoTlJTZjlVS2lUZnA1S2F0LTBId2NYc0Q2RGVDMzNmb0p4ZGlBUk0zU0wwajBONzkwYlB2ZFpKY0VBQmNGME1JZVhvcDl1RkIyeHdKbjhGY3Q0UW01c1M1aFZsNDYyQVNRVVhmRTlxcllMbm1wVnVHZVZNQjJGVGQ1S3dEakdnYzFqZmtPMTZEeGFpdHFFU3BMZVp6ZTlVcmtMM09QQTFfcVEyOWJKWkNDTmoxbGc?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "26057c2cdf5d5b",
+     "date": "2026-10-30T13:00:30+00:00",
+     "titre": "Les contrôles à l'exportation de l'IA vers la Chine se retournent contre les États-Unis",
+     "neuf": "Un article de Forbes analyse comment les restrictions à l'exportation de technologies d'intelligence artificielle vers la Chine finissent par se retourner contre les États-Unis.",
+     "fil": "mêmes contrôles américains et chinois sur l'export d'IA",
+     "source": "Contrôles à l'export IA",
+     "lien": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPbmJXb3A1dC1LQ3hxU3FjdFR6SldXcDNhV240bVU0OGdIdC1YZGU1R3Z4YllXOHhSUG1zNW84T3lhYTZNYjBPTGYxM1JKSDhpbXBtazZqT25KWnZRbXdDenRiN1MwdWE0M1liUVRUelJSanBBVmt5aDB4QTJ3TE15cVpvR1J1Qmp1QTFnS3R2T0s3SW9zcmIzNk5uYnRFYU5qbUpRZ2xuSFlaQUlfOGlJamxhc2M0WlU?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "93944751f16433",
+     "date": "2026-11-01T22:22:50+00:00",
+     "titre": "Les contrôles américains à l'exportation favorisent les centres de données en Asie",
+     "neuf": "Mise en lumière de la manière dont les restrictions américaines stimulent paradoxalement le développement de centres de données en Asie soutenant l'IA chinoise.",
+     "fil": "effets des contrôles américains et restrictions à l'exportation",
+     "source": "Contrôles à l'export IA",
+     "lien": "https://news.google.com/rss/articles/CBMitgFBVV95cUxONTBYdUoxSTFKcTdFdDNMVnJiZ0ZKd3IyLTllNDFNWnN0SnA0OUVaTnpKVmpCNkNPRmh4bC1rVU5xTGNKRXBJMzI1eE1HRm5XSEhvbXVSbVhHa2QxdmNkU3RheENjc1A0QS1BOThKRHV3YVUzeFNhdHE0Q0lIQi1NcEdmZlF5V0Mtd2s2X0IybWZBUDZ0Qy1ReHh2NTdnYWVvR3I4T21yR0RNRXVXenp2djdSZGpZQQ?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "4e84ca416d4f3c",
+     "date": "2026-11-02T07:27:28+00:00",
+     "titre": "China's First Frontier AI Export Controls: Mofcom Announcement No. 48",
+     "neuf": "Publication formelle de l'annonce officielle n°48 du MOFCOM sur les premiers contrôles à l'exportation d'IA de pointe.",
+     "fil": "même annonce sur les contrôles à l'exportation de la Chine",
+     "source": "Hacker News (IA, 100+ pts)",
+     "lien": "https://labs.cloudsecurityalliance.org/research/csa-research-note-china-ai-export-controls-announcement-48-2/",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "08d3275f208695",
+     "date": "2026-11-02T16:48:44+00:00",
+     "titre": "Mistral AI met en garde contre les contrôles américains et chinois à l'exportation",
+     "neuf": "Mistral AI met publiquement en garde contre l'impact des contrôles à l'exportation américains et chinois sur l'IA.",
+     "fil": "mêmes contrôles à l'export d'IA",
+     "source": "Contrôles à l'export IA",
+     "lien": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQR09RZnFJQ0hxcFNhSmRCYU1ha19rTTUyLUlVNjFHQVdYa2k0RDNLdjhiOXp2U1JkRWczYnVLRm5hU0xhXzRueVgxaE1tUUhtU0hlMTRiaHVQcTRGRzlfS09aa2NueWVVRVRtYkNoNHdRRloxeHZ3YUlnN0VkeWFPLVd6aW1xUEk3UUE?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "6d1ba7598ece9e",
+     "date": "2026-11-05T02:28:00+00:00",
+     "titre": "Les restrictions chinoises sur le tungstène pèsent sur la chaîne d'approvisionnement de l'IA",
+     "neuf": "La Chine impose de nouvelles restrictions sur le tungstène, pesant sur la chaîne d'approvisionnement de l'IA.",
+     "fil": "même dynamique de contrôles à l'exportation et restrictions",
+     "source": "Contrôles à l'export IA",
+     "lien": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPQnEyQk96aEtwdE9fVVhzYlJkWW1oU1VVbVdNRW5IWjY4YVdXRFFaR040dEh0ZjlqWWo3U2c0NTNyQ2RIRmhudkhUem1uVzRWT2Nqdk1WbmVNM05haGtjZk91UUhXclJiOVFLREJMWV9Tb2FfdUdHQU1MeG43NjdjTlAweENBOHN6SDg0T0NfTjJacnVFU1Rjcm1id0MxZW12RGtuS3ZYTHpoT0JmWHdsM0I2dTM1Zw?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "9ae99e0851b474",
+     "date": "2026-11-05T03:35:25+00:00",
+     "titre": "Commentary: AOI locks in China's InP substrates for AI optics, but export controls threaten supply - digitimes",
+     "neuf": "Les contrôles menacent la chaîne d'approvisionnement des substrats en InP pour l'optique IA.",
+     "fil": "même cadre de contrôles à l'export",
+     "source": "Contrôles à l'export IA",
+     "lien": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNd3NsRU4wYl9DaHJOMWpzTHRCVXJ6cmdBNUFqX0phbzFNTk9kQzRXN1Blc2t5aW5USjgxMW5VTG1LZzJ6a0lpTVhNREJtOTd1eUtUWVNZa2V3YlFET3ZWSVExTWFyZ2Q4TURpT2NDeWtFdTNYb09vYVFZcWprdngtTzZCY3Vka210WnJWTmZTUlBSNTJJOC1nWnBObHNwb00?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    }
+   ],
+   "statut": "active",
+   "societes": [
+    "deepseek",
+    "ue",
+    "mistral"
+   ]
+  },
+  {
+   "id": "h_af62aa771a",
+   "titre": "Qwen4 : fenêtres de contexte d'un million de tokens",
+   "resume": "Alibaba prépare le lancement de sa nouvelle génération Qwen4, dont de multiples variantes ont fuité via son dépôt de code, tandis que la communauté discute activement des améliorations attendues sur la gestion des contextes ultra-longs.",
+   "creee": "2026-10-29T04:56:04.658807+00:00",
+   "maj": "2026-11-04T23:35:49+00:00",
+   "episodes": [
+    {
+     "id": "1fe7d47e633144",
+     "date": "2026-10-29T01:42:55+00:00",
+     "titre": "Les futurs modèles Qwen4 d'Alibaba intègreront une fenêtre de contexte d'un million de tokens",
+     "neuf": "Annonce de la prochaine génération Qwen4 dotée d'une grande fenêtre de contexte.",
+     "fil": "futurs modèles Qwen4",
+     "source": "r/LocalLLaMA",
+     "lien": "https://www.reddit.com/r/LocalLLaMA/comments/1xi7390/qwen4_1m_context_window/",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "cffbb463e4f8a3",
+     "date": "2026-10-29T09:25:47+00:00",
+     "titre": "Alibaba Cloud annonce le lancement de Qwen4 pour la semaine prochaine",
+     "neuf": "Alibaba Cloud annonce le lancement imminent de la gamme Qwen4 dès la semaine prochaine.",
+     "fil": "Même prochaine génération Qwen4 d'Alibaba",
+     "source": "r/LocalLLaMA",
+     "lien": "https://www.reddit.com/r/LocalLLaMA/comments/1xif6lf/apsara_conference_qwen4_next_week/",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "f4fe6be4459876",
+     "date": "2026-10-29T09:48:21+00:00",
+     "titre": "Worried about Qwen 4 License",
+     "neuf": "Des interrogations émergent quant au passage potentiel de licences permissives à une licence personnalisée pour Qwen4.",
+     "fil": "même famille de modèles Qwen4",
+     "source": "r/LocalLLaMA",
+     "lien": "https://www.reddit.com/r/LocalLLaMA/comments/1xifjn2/worried_about_qwen_4_license/",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "101c4725a5f3b4",
+     "date": "2026-10-30T15:29:46+00:00",
+     "titre": "Copium Prediction: Google and other major labs will drop new local models over the next few days so they can lead on benchmarks until Qwen 4 sweeps them next week.",
+     "neuf": "La communauté anticipe l'arrivée imminente de Qwen4 et la sortie potentielle de modèles concurrents de dernière minute.",
+     "fil": "même sortie imminente de Qwen4",
+     "source": "r/LocalLLaMA",
+     "lien": "https://www.reddit.com/r/LocalLLaMA/comments/1xjigxg/copium_prediction_google_and_other_major_labs/",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "cc42ceb1acf66b",
+     "date": "2026-11-02T14:47:55+00:00",
+     "titre": "Qwen 4 When ?",
+     "neuf": "La communauté s'interroge sur le calendrier exact de sortie des modèles Qwen 4 au début du mois.",
+     "fil": "même projet de modèles Qwen4",
+     "source": "r/LocalLLaMA",
+     "lien": "https://www.reddit.com/r/LocalLLaMA/comments/1xlz5dz/qwen_4_when/",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "df00c1566c60d0",
+     "date": "2026-11-02T16:42:32+00:00",
+     "titre": "Alibaba confirme que les futurs modèles Qwen resteront open source",
+     "neuf": "Alibaba confirme officiellement que les futurs modèles Qwen 4.0 et 5.0 resteront open-weight.",
+     "fil": "même gamme Qwen",
+     "source": "r/LocalLLaMA",
+     "lien": "https://www.reddit.com/r/LocalLLaMA/comments/1xm28e6/official_statement_qwen_models_will_stick_to_open/",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "32dd2744d022c8",
+     "date": "2026-11-02T18:21:04+00:00",
+     "titre": "Attente fébrile de Qwen 4 par la communauté open source",
+     "neuf": "La communauté open source intensifie son attente impatiente autour du lancement imminent des futurs modèles Qwen 4.",
+     "fil": "Même attente autour de la sortie des modèles Qwen 4",
+     "source": "r/LocalLLaMA",
+     "lien": "https://www.reddit.com/r/LocalLLaMA/comments/1xm506n/am_i_the_only_one_who_frequently_opens_this/",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "514f697a71c5ca",
+     "date": "2026-11-02T22:24:18+00:00",
+     "titre": "Nouvelle méthode d'attention parcimonieuse pour contextes ultra-longs chez Alibaba Qwen",
+     "neuf": "Une nouvelle méthode permet de sparsifier l'attention de Qwen jusqu'à 10 millions de tokens.",
+     "fil": "Optimisation de l'attention et des contextes ultra-longs chez Alibaba Qwen",
+     "source": "r/LocalLLaMA",
+     "lien": "https://www.reddit.com/r/LocalLLaMA/comments/1xmbj0v/new_sparse_attention_method_for_ultralong_context/",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "c26e87e95d1cfd",
+     "date": "2026-11-03T03:55:43+00:00",
+     "titre": "Alibaba's Qwen Code repo just leaked qwen4-max, qwen4-coder-plus, and qwen4-omni-120b",
+     "neuf": "Le dépôt Qwen Code d'Alibaba fuite et révèle l'existence de plusieurs variantes de la gamme Qwen4 (max, coder-plus, omni-120b).",
+     "fil": "Fuite du dépôt Qwen Code mentionnant Qwen4",
+     "source": "r/LocalLLaMA",
+     "lien": "https://www.reddit.com/r/LocalLLaMA/comments/1xmitzx/alibabas_qwen_code_repo_just_leaked_qwen4max/",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "ab742794cf5a5a",
+     "date": "2026-11-04T23:35:49+00:00",
+     "titre": "What are you looking forward to in Qwen 4?",
+     "neuf": "La communauté s'interroge sur les spécifications exactes de Qwen 4, notamment sur l'efficacité des fenêtres de contexte et des kv-caches.",
+     "fil": "Attentes de la communauté concernant les fonctionnalités et l'efficacité des KV pour Qwen 4",
+     "source": "r/LocalLLaMA",
+     "lien": "https://www.reddit.com/r/LocalLLaMA/comments/1xo3ikc/what_are_you_looking_forward_to_in_qwen_4/",
+     "nb_sources": 1,
+     "primaire": false
+    }
+   ],
+   "statut": "active",
+   "societes": [
+    "alibaba",
+    "google"
    ]
   },
   {
@@ -1963,185 +3045,6 @@
    "societes": []
   },
   {
-   "id": "h_5e0762833f",
-   "titre": "Action en justice contre SpaceXAI",
-   "resume": "SpaceXAI et ses centres de données font face à une escalade des recours juridiques, un juge fédéral ayant confirmé l'autorisation de la plainte de la NAACP sous le Clean Air Act. Pour gérer ces tensions, l'entreprise propose de racheter des logements voisins tout en étendant son infrastructure avec le supercalculateur Colossus 2 à Memphis et de nouveaux campus dans le Mississippi.",
-   "creee": "2026-10-20T20:45:07.920169+00:00",
-   "maj": "2026-11-04T10:30:00+00:00",
-   "episodes": [
-    {
-     "id": "54794aade42fd8",
-     "date": "2026-10-20T19:51:00+00:00",
-     "titre": "Une plainte en justice contre SpaceXAI autorisée à se poursuivre",
-     "neuf": "Un juge autorise la poursuite de la plainte visant l'entreprise.",
-     "fil": "action en justice contre SpaceXAI",
-     "source": "Grok et SpaceXAI (actus)",
-     "lien": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOUVI0SUp1dnBQTWNyRkZnSTJWdUx3Y05pM2ozaHJXMVFVZnpPUTNhYWVldGlaR3pEN21yQWdRdTgweWlmaDA0WlU1dllGRWRZVDZKMXZLdXNJNDV4dnNkdFNtcV9OaU1EU3ozdkR5SW50QmhKRWJIUmxCdHp5cjdiSldfTldEUi1zTE5nazhVTQ?oc=5",
-     "nb_sources": 1,
-     "primaire": false
-    },
-    {
-     "id": "f33d215c710570",
-     "date": "2026-10-21T21:33:47+00:00",
-     "titre": "Refus d'intervention du DOJ dans le procès SpaceXAI à Southaven",
-     "neuf": "Un tribunal bloque l'intervention du ministère de la Justice dans l'affaire SpaceXAI à Southaven.",
-     "fil": "le procès SpaceXAI",
-     "source": "Grok et SpaceXAI (actus)",
-     "lien": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQY3RCWlc5ZHUxWTM1V1JjTkhEWlN2Ny14eGZOaVhnSHRuTDR4OTlSQVdWbDBhbGtQdjBKSXhUOWd2dzEwblJqakNpaWd6OHN0VjdsdGFMSTVibUJHMXY3N25QTGhwMmk5Snh5LXg1R2FQS20wTUVLQzgtdWZmNlJTUkxFeDdScjBfaU5VYzljTGFKRkE?oc=5",
-     "nb_sources": 1,
-     "primaire": false
-    },
-    {
-     "id": "c3e2edb0d5b6e5",
-     "date": "2026-10-22T16:39:00+00:00",
-     "titre": "City of Memphis moves to ease truck traffic concerns near SpaceXAI supercomputer - FOX13 Memphis",
-     "neuf": "La ville de Memphis prend des mesures pour fluidifier le trafic des camions autour du supercalculateur SpaceXAI.",
-     "fil": "même projet et supercalculateur SpaceXAI à Memphis",
-     "source": "Grok et SpaceXAI (actus)",
-     "lien": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxPc1RNVTdqU2Fzc3dMUXlaUDJFTklDOGpKZVdrWFJJRkJWMVBzdTU1Ym9GTUFoYUFuTEJRZ1FuTldjWmNLeUVtUjlKSEVjc0Y5Sm45Y1JaTEQyWmlyTWNEc09OTnJUR2U0enpYTGFzX3hZcUdnUWFocW85MnNJbnQ2QTM2QWd3TmNOcW40QzREQzhLYXF1dkpXamhld3g1WEVsclZvLTJQNkpVR05kTmJ3bkdHWEIxenB2V2RFRzFJakNZODVkR1VDdHQ3UmFQSjk5WkFZa0UzWV9xdDlHVnRuME0yZXE0OUxqbUFPa2ZHdzRsaEtic0Vj?oc=5",
-     "nb_sources": 1,
-     "primaire": false
-    },
-    {
-     "id": "6451ac313e4eca",
-     "date": "2026-10-22T22:47:00+00:00",
-     "titre": "SpaceXAI visé par 6,1 millions de dollars d'amendes au Mississippi",
-     "neuf": "SpaceXAI écope de 6,1 millions de dollars d'amendes au Mississippi.",
-     "fil": "Mêmes poursuites et sanctions contre SpaceXAI",
-     "source": "Grok et SpaceXAI (actus)",
-     "lien": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOZEdkSEpTVk5FclA4TldnQ1g2QTNrdDBWNFlEZ1gtRlo4X3ZQdHM2SlBOYmlrVHNOWmIyaXh1bkUxenVnXzVPMHV4akx2TkQ0TWFkN1plY3dWcktwdVJCNnh0Smw0UEtCZW90QmliWEZRODJST2hIMzdJWXhVU1JET2pSdGZaUEUwRWlNMklKUFZTbTRUQjNrNVZLQjI1T01XUm5MZnBvMEtoVWEwendPNzlJcms0V1V2anlQci1YQmFlZ2M?oc=5",
-     "nb_sources": 1,
-     "primaire": false
-    },
-    {
-     "id": "9f9c516908c72b",
-     "date": "2026-10-25T09:44:33+00:00",
-     "titre": "220 millions de dollars de réclamations déposés contre SpaceXAI",
-     "neuf": "Le montant total des réclamations financières visant SpaceXAI s'élève désormais à 220 millions de dollars.",
-     "fil": "même action en justice et réclamations contre SpaceXAI",
-     "source": "Grok et SpaceXAI (actus)",
-     "lien": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPYkF5X2MwdVBzM05fUFpZTFM4eGRrZy15aDZCZTIxZWo5R2o1Z1FRX2VoRmJNVkpmVVNiZ3FiSGZUcndmT0RTN1lGRW1SZ3FWRzlWbGlGbzE2WWs3VU5IMDVURzFRaUdlWTNzTGJKTjJjVVBTUGRSa1RQOW9qUW1NYkZVMkZIajZCdkhVS1VCVEkxT0dHRzlGZllVU1lGdGJrVV9rV2FnaVY0OGJ0?oc=5",
-     "nb_sources": 1,
-     "primaire": false
-    },
-    {
-     "id": "6086659eeb90dd",
-     "date": "2026-10-27T23:22:02+00:00",
-     "titre": "AI Users Say SpaceXAI Can't Split, Arbitrate Slowdown Suit - Law360",
-     "neuf": "Les utilisateurs d'IA contestent la possibilité pour SpaceXAI d'imposer un arbitrage ou de diviser l'action en justice sur le ralentissement.",
-     "fil": "Mêmes poursuites judiciaires contre SpaceXAI",
-     "source": "Grok et SpaceXAI (actus)",
-     "lien": "https://news.google.com/rss/articles/CBMingFBVV95cUxOU2pSMWxJcHpmYUJpcGw5ZGVtbTdoY1o0Mk8tN0xTQTA2OXNwMkRteklTdE92ZGZCNkZ4TUhaYjItbUZiSVNUeUNxeWFTUjNyaVAxakNCT3UxQVVPU05KWnhxdHRVaS1wLVdRc0dNMnM0RzFLZDVXUGVTbUlsSVlIbXpYME9OcmxwdloxbjNSYnFmZFljdVk4dnh3SHI2Z9IBVkFVX3lxTE12a0RaaWFnTEE4WUtUWllzamEwVVNVV3phYThXaTg0LVNIenVKVHZxSjI3MjVXY1NBempuaFY4VDczLVpDTDRCYnMtazdUWEo0NkcwcEJn?oc=5",
-     "nb_sources": 1,
-     "primaire": false
-    },
-    {
-     "id": "fcb2d83fec74b4",
-     "date": "2026-10-28T12:25:56+00:00",
-     "titre": "SpaceXAI fait face à un litige de 220 millions de dollars devant un tribunal",
-     "neuf": "Un entrepreneur dépose un nouveau recours en justice concernant des contrats massifs liés à SpaceXAI.",
-     "fil": "Recours en justice de 220 millions de dollars lié à SpaceXAI",
-     "source": "Grok et SpaceXAI (actus)",
-     "lien": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPZGZhZzBzUkludm1qZjh5alB3U3ZmMk11Vm5SSXE4czNtVzFScUtJeGloVTdsTEF0UEMybGpjaEk5SUloUlBmN0NGNU0xU0RTN2p1RGZaOXNmZ0laNjVsdTFYR255ZkQwQkJueDNKUUtyV0ZiOF9zTEUwbHNsMUNjTVJZQlQwa2c?oc=5",
-     "nb_sources": 1,
-     "primaire": false
-    },
-    {
-     "id": "5283652bd524be",
-     "date": "2026-10-28T14:44:00+00:00",
-     "titre": "xAI is buying out homeowners who promise not to sue over data center noise",
-     "neuf": "xAI achète des résidences pour éviter de nouveaux recours en justice de riverains mécontents.",
-     "fil": "Mêmes poursuites judiciaires et litiges liés à xAI",
-     "source": "The Verge IA",
-     "lien": "https://www.theverge.com/ai-artificial-intelligence/1020596/xai-mississippi-neighborhood-data-center-lawsuit",
-     "nb_sources": 1,
-     "primaire": false
-    },
-    {
-     "id": "9d449d2dca1151",
-     "date": "2026-10-31T18:56:21+00:00",
-     "titre": "Une plainte contre la pollution d'un centre de données xAI autorisée à progresser",
-     "neuf": "Un juge a autorisé la progression de la plainte de la NAACP contre les violations de la loi sur la qualité de l'air par le centre de données de xAI.",
-     "fil": "Poursuite en justice concernant la pollution et le centre de données xAI",
-     "source": "Grok et SpaceXAI (actus)",
-     "lien": "https://news.google.com/rss/articles/CBMihAFBVV95cUxONWZobnlmVnlwbk9rMk1yeUVabnE1QUdtdTVEWGR6UUkwYXEzWk9weVpLMWFtRWF2Ykd6SmpNalgtelBCZ0lBdkd6Vm1xcWhNNkNVM0ZKTW43TmZyUUtMb1pYZVY2V2VuaFh5dHdBakhBYllrQjY5bUhrOHpteVNRUWNaZFrSAYoBQVVfeXFMUHFJcmV4YzZNcTZ4dk5RX2YyQm1TWDhpSS1OemxNdFRkUHhFTEFDNHpueE1QejEzMGVQYUFwQXpNV2JaVmJzdlQ2TWFJNlJOYjFkckE3TFpHVHpMSWt4YlBzMkZUX0hSa295M2tHSkx5aUFDbjMwbDkxQlNhdnp1NlhYd21VOER5ZHZn?oc=5",
-     "nb_sources": 2,
-     "primaire": false
-    },
-    {
-     "id": "993a9a1a3b9941",
-     "date": "2026-11-01T10:30:00+00:00",
-     "titre": "SpaceXAI rachète des logements voisins de ses turbines au Mississippi",
-     "neuf": "SpaceXAI tente de racheter les maisons voisines de ses turbines au Mississippi pour éteindre des contentieux.",
-     "fil": "même expansion et contentieux liés aux centres de données SpaceXAI",
-     "source": "Grok et SpaceXAI (actus)",
-     "lien": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQcU8xaDdiMXVSZlQtc0F3TjJ4LWg4NklhT0IzZnhkeG9wUHI1SnVmc1Bra1pGMTZBV3U1bkR4QUNfeUMzQzRNRVhSYXdWSnlWOUR3ZnZtTDNRNVdVVWhrWHpSclpOWXhLWmZmRWNkdVV0d1NqV1Q4NU9yUW1YUDJJZnJ2b2w5c29WRHBCcjg0UjczUWs?oc=5",
-     "nb_sources": 1,
-     "primaire": false
-    },
-    {
-     "id": "71a4eb6e914067",
-     "date": "2026-11-01T13:25:00+00:00",
-     "titre": "SpaceXAI annonce deux nouveaux centres de données près de Southaven pour décembre",
-     "neuf": "SpaceXAI annonce deux nouveaux centres de données près de Southaven pour décembre.",
-     "fil": "même expansion et contentieux liés aux centres de données SpaceXAI",
-     "source": "Grok et SpaceXAI (actus)",
-     "lien": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNQ01nUXZuUzBvWmdGVEZyWXNnZjVFazdrNVM3SmIwdEV1TFk2WFI5YXMxaXJ2c3ZORkVCNWJtRHlmZXJheVpJMG12OW5HVjhsS2Q4ODhwSlR4a3VQaEhhSUFHT2p3RWFNeFgyUXQ0UkYxTXhWSnpBaktVRUZwMkVkRi1GSDdhU3NQcXhpLXlRMllNZw?oc=5",
-     "nb_sources": 1,
-     "primaire": false
-    },
-    {
-     "id": "40ba5b596e08e5",
-     "date": "2026-11-01T20:15:00+00:00",
-     "titre": "Un juge autorise la plainte de la NAACP contre SpaceXAI",
-     "neuf": "Un juge autorise l'action en justice intentée par la NAACP contre SpaceXAI dans le cadre du Clean Air Act.",
-     "fil": "Poursuites judiciaires contre SpaceXAI",
-     "source": "Grok et SpaceXAI (actus)",
-     "lien": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPZEszakpvSHd1QzBibmFWTFRMZ2RFUjVrbUlnWmMzc0tVeFVVOXExR0dWLTlCQ1lKblFiVXBZeUNwZG8tSm9iVTV1aEt5VWVxZWpLalVPeXNtZmI3b2F6dWFMVFpRNFdvSWs5V1pCaklHLWQ1emR5WUZtS1ZRUXJhemZuelAxUUd1QnpmNHA0UlRpdw?oc=5",
-     "nb_sources": 1,
-     "primaire": false
-    },
-    {
-     "id": "793a10ab1713b3",
-     "date": "2026-11-02T18:00:00+00:00",
-     "titre": "Une action en justice contre SpaceXAI autorisée par un juge fédéral",
-     "neuf": "Un juge fédéral confirme officiellement l'autorisation de la plainte en justice visant SpaceXAI.",
-     "fil": "Même action en justice contre SpaceXAI autorisée par un juge",
-     "source": "Grok et SpaceXAI (actus)",
-     "lien": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNVmlYeF9DdkFhcWxxc3M3T0ZzUUZVcmZTNWRZUlJILVpYZGdhQ3l4Q2FSRWVINnlkZDNtR2dOWTE5Q0E4YlRzOFdib3RCVGVGUkx4aXZkSjVMVmZodlRGX0hGYnNSU1Z6dUpXZ18wNHlhNy1sUGZsYklPMVNmOUFDSGJVQ2NtYVhZWERTc2xFOW1GSEtqdU1HdURqVWQ0bDU0eG1wZHRmT1VSZm41UHpDMW9TVFdPYlQwejJqMGZVdw?oc=5",
-     "nb_sources": 1,
-     "primaire": false
-    },
-    {
-     "id": "afb596fd13588c",
-     "date": "2026-11-02T18:11:10+00:00",
-     "titre": "SpaceXAI lance deux nouveaux campus de centres de données pour étendre Colossus 2",
-     "neuf": "SpaceXAI étend son infrastructure en implantant deux nouveaux campus dans le Mississippi pour Colossus 2.",
-     "fil": "même extension des centres de données et campus de SpaceXAI",
-     "source": "Grok et SpaceXAI (actus)",
-     "lien": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNUWVxVk5HSVNyU2EyNS1lUDVCM3BjTlRYd2xRM1VNc0d3ek9aRWhTcl9TLWNyZ3dOSjBKX3BiR2JUQ0NCRmlUNERwZU13SnRjaHdDOHZYZm01ZGtyODlMNm1EWTRmeVZ5WkpxSVRWM0ZvOVllcWtoVTN2M0l1RTg4ODRMdmlMaWxyU0ZwcnF6bDZ4TnRQQjZrSGNveEJFRFJGWW9xTWg5QVhBQ0NRMUtDWXpEc3B1TmdqSWNIS2FlRnZmckZITDlfYTlTamt6Y21vSGdqdHlHZjl5UQ?oc=5",
-     "nb_sources": 1,
-     "primaire": false
-    },
-    {
-     "id": "db116ea22a887b",
-     "date": "2026-11-04T10:30:00+00:00",
-     "titre": "SpaceXAI surclasse OpenAI avec son supercalculateur Colossus 2",
-     "neuf": "SpaceXAI surclasse OpenAI en puissance de calcul grâce au supercalculateur Colossus 2 installé à Memphis.",
-     "fil": "Supercalculateur Colossus 2 de SpaceXAI",
-     "source": "Grok et SpaceXAI (actus)",
-     "lien": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9uOGNVMDRUcHZKZG1tSEVjZklubTFSdkhfMHh4aVBjeWthUWs4TVhyNWcxamJ4N0NuVXFsbnhhVUNNakhKWjJvYzdlb2dnWG4zZnhvdjFWUngwT1FsamZPNGFCYndCbUtmemtyMg?oc=5",
-     "nb_sources": 1,
-     "primaire": false
-    }
-   ],
-   "statut": "active",
-   "societes": [
-    "spacexai",
-    "openai"
-   ]
-  },
-  {
    "id": "h_e1a18fec0c",
    "titre": "Grok Bot négocie une facture par téléphone",
    "resume": "",
@@ -2163,74 +3066,6 @@
    "statut": "active",
    "societes": [
     "spacexai"
-   ]
-  },
-  {
-   "id": "h_97c425e6a7",
-   "titre": "Mise à jour v2.1.314 de Claude Code",
-   "resume": "Anthropic déploie et met régulièrement à jour Claude Code, avec des versions successives (jusqu'à v2.1.318) qui renforcent la sécurité, la gestion administrative et le suivi des sessions. L'outil intègre des contrôles stricts pour empêcher les utilisations non désirées et s'intègre plus finement avec les passerelles cloud et les rôles AWS.",
-   "creee": "2026-10-30T01:09:42.604214+00:00",
-   "maj": "2026-11-04T00:01:03+00:00",
-   "episodes": [
-    {
-     "id": "fd961a2239120b",
-     "date": "2026-10-30T01:06:26+00:00",
-     "titre": "Mise à jour Claude Code v2.1.314 : sécurité et résilience",
-     "neuf": "Publication de la version v2.1.314 apportant des correctifs de sécurité et de résilience.",
-     "fil": "Mises à jour de Claude Code",
-     "source": "Claude Code",
-     "lien": "https://github.com/anthropics/claude-code/releases/tag/v2.1.314",
-     "nb_sources": 1,
-     "primaire": true
-    },
-    {
-     "id": "a1eae37ef93f12",
-     "date": "2026-10-31T01:01:35+00:00",
-     "titre": "Mise à jour Claude Code v2.1.316 : budgets partagés et correctifs",
-     "neuf": "Déploiement de la version v2.1.316 introduisant des budgets partagés et de nouveaux contrôles administratifs.",
-     "fil": "Mise à jour de Claude Code",
-     "source": "Claude Code",
-     "lien": "https://github.com/anthropics/claude-code/releases/tag/v2.1.316",
-     "nb_sources": 1,
-     "primaire": true
-    },
-    {
-     "id": "21325d54bf349a",
-     "date": "2026-11-02T17:13:47+00:00",
-     "titre": "Yet another reason to self host: Anthropic has (again) cut back on reverse engineering tools",
-     "neuf": "Les utilisateurs signalent de nouvelles limitations dans Claude Code pour empêcher le clonage de jeux et le reverse engineering.",
-     "fil": "Mêmes limites et restrictions sur les outils de reverse engineering de Claude Code",
-     "source": "r/LocalLLaMA",
-     "lien": "https://www.reddit.com/r/LocalLLaMA/comments/1xm33gr/yet_another_reason_to_self_host_anthropic_has/",
-     "nb_sources": 1,
-     "primaire": false
-    },
-    {
-     "id": "3233c3993f901c",
-     "date": "2026-11-03T01:25:46+00:00",
-     "titre": "Notes de version Claude Code v2.1.317 : sécurité et outils admin",
-     "neuf": "Sortie de la version v2.1.317 axée sur la sécurité, les outils administratifs et la correction de bugs.",
-     "fil": "Mise à jour corrective et fonctionnelle de Claude Code",
-     "source": "Claude Code",
-     "lien": "https://github.com/anthropics/claude-code/releases/tag/v2.1.317",
-     "nb_sources": 1,
-     "primaire": true
-    },
-    {
-     "id": "a506088947db76",
-     "date": "2026-11-04T00:01:03+00:00",
-     "titre": "Claude Code v2.1.318",
-     "neuf": "Publication de la version v2.1.318 ajoutant un historique des réponses pour les modifications de session et le support d'assumer un rôle sur les passerelles AWS.",
-     "fil": "Mise à jour de Claude Code",
-     "source": "Claude Code",
-     "lien": "https://github.com/anthropics/claude-code/releases/tag/v2.1.318",
-     "nb_sources": 1,
-     "primaire": true
-    }
-   ],
-   "statut": "active",
-   "societes": [
-    "anthropic"
    ]
   },
   {
@@ -3064,30 +3899,6 @@
    ]
   },
   {
-   "id": "h_656f4a2128",
-   "titre": "Contentieux sur l'utilisation d'articles de presse par Google Gemini",
-   "resume": "Google Gemini fait face à un avis juridique critique d'un conseiller de la Cour de justice de l'UE concernant l'utilisation potentiellement illégale d'articles de presse par son chatbot.",
-   "creee": "2026-11-03T11:56:08.072411+00:00",
-   "maj": "2026-11-03T10:53:26+00:00",
-   "episodes": [
-    {
-     "id": "69c8f26f82c7d2",
-     "date": "2026-11-03T10:53:26+00:00",
-     "titre": "L'utilisation d'articles de presse par l'IA de Google pourrait enfreindre le droit d'auteur",
-     "neuf": "Un conseiller de la Cour de justice de l'UE estime que l'usage de la presse par le chatbot de Google pourrait violer le droit d'auteur.",
-     "fil": "Contentieux sur l'utilisation d'articles de presse par Google Gemini",
-     "source": "Google Gemini (actus)",
-     "lien": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPS3A5SlVKWVF6XzVHRldMWS1qd1FqWV9sVnF6RFJiMTIzd18wZUgtc1VtOXJabjY3LThCR045bFBrVzcyUmxJUDFWajYtX1l4RkVxY0xHTUZlRUFlR2dkcmtqOXI5MzIxMS16VEVBSE1JcExxbkJrVkk1S3NGa2g5WjhVZEJXczA3S0NUOVFudElESjBaMExucVBLQzRCLUJrVU9icU9fSkkyb1FoR2NfT29hT2JSbmhaMW9Z?oc=5",
-     "nb_sources": 1,
-     "primaire": false
-    }
-   ],
-   "statut": "active",
-   "societes": [
-    "google"
-   ]
-  },
-  {
    "id": "h_b037ca869e",
    "titre": "Partenariat entre Mistral AI et le CERN",
    "resume": "Mistral AI noue un partenariat scientifique majeur avec le CERN afin d'appliquer ses modèles d'intelligence artificielle à la recherche en physique des particules.",
@@ -3133,119 +3944,6 @@
    "statut": "active",
    "societes": [
     "deepseek"
-   ]
-  },
-  {
-   "id": "h_af62aa771a",
-   "titre": "Qwen4 : fenêtres de contexte d'un million de tokens",
-   "resume": "Alibaba prépare le lancement de sa nouvelle génération Qwen4, dont de multiples variantes (max, coder-plus, omni-120b) ont fuité via son dépôt de code, s'appuyant sur des innovations d'attention parcimonieuse pour des contextes ultra-longs.",
-   "creee": "2026-10-29T04:56:04.658807+00:00",
-   "maj": "2026-11-03T03:55:43+00:00",
-   "episodes": [
-    {
-     "id": "1fe7d47e633144",
-     "date": "2026-10-29T01:42:55+00:00",
-     "titre": "Les futurs modèles Qwen4 d'Alibaba intègreront une fenêtre de contexte d'un million de tokens",
-     "neuf": "Annonce de la prochaine génération Qwen4 dotée d'une grande fenêtre de contexte.",
-     "fil": "futurs modèles Qwen4",
-     "source": "r/LocalLLaMA",
-     "lien": "https://www.reddit.com/r/LocalLLaMA/comments/1xi7390/qwen4_1m_context_window/",
-     "nb_sources": 1,
-     "primaire": false
-    },
-    {
-     "id": "cffbb463e4f8a3",
-     "date": "2026-10-29T09:25:47+00:00",
-     "titre": "Alibaba Cloud annonce le lancement de Qwen4 pour la semaine prochaine",
-     "neuf": "Alibaba Cloud annonce le lancement imminent de la gamme Qwen4 dès la semaine prochaine.",
-     "fil": "Même prochaine génération Qwen4 d'Alibaba",
-     "source": "r/LocalLLaMA",
-     "lien": "https://www.reddit.com/r/LocalLLaMA/comments/1xif6lf/apsara_conference_qwen4_next_week/",
-     "nb_sources": 1,
-     "primaire": false
-    },
-    {
-     "id": "f4fe6be4459876",
-     "date": "2026-10-29T09:48:21+00:00",
-     "titre": "Worried about Qwen 4 License",
-     "neuf": "Des interrogations émergent quant au passage potentiel de licences permissives à une licence personnalisée pour Qwen4.",
-     "fil": "même famille de modèles Qwen4",
-     "source": "r/LocalLLaMA",
-     "lien": "https://www.reddit.com/r/LocalLLaMA/comments/1xifjn2/worried_about_qwen_4_license/",
-     "nb_sources": 1,
-     "primaire": false
-    },
-    {
-     "id": "101c4725a5f3b4",
-     "date": "2026-10-30T15:29:46+00:00",
-     "titre": "Copium Prediction: Google and other major labs will drop new local models over the next few days so they can lead on benchmarks until Qwen 4 sweeps them next week.",
-     "neuf": "La communauté anticipe l'arrivée imminente de Qwen4 et la sortie potentielle de modèles concurrents de dernière minute.",
-     "fil": "même sortie imminente de Qwen4",
-     "source": "r/LocalLLaMA",
-     "lien": "https://www.reddit.com/r/LocalLLaMA/comments/1xjigxg/copium_prediction_google_and_other_major_labs/",
-     "nb_sources": 1,
-     "primaire": false
-    },
-    {
-     "id": "cc42ceb1acf66b",
-     "date": "2026-11-02T14:47:55+00:00",
-     "titre": "Qwen 4 When ?",
-     "neuf": "La communauté s'interroge sur le calendrier exact de sortie des modèles Qwen 4 au début du mois.",
-     "fil": "même projet de modèles Qwen4",
-     "source": "r/LocalLLaMA",
-     "lien": "https://www.reddit.com/r/LocalLLaMA/comments/1xlz5dz/qwen_4_when/",
-     "nb_sources": 1,
-     "primaire": false
-    },
-    {
-     "id": "df00c1566c60d0",
-     "date": "2026-11-02T16:42:32+00:00",
-     "titre": "Alibaba confirme que les futurs modèles Qwen resteront open source",
-     "neuf": "Alibaba confirme officiellement que les futurs modèles Qwen 4.0 et 5.0 resteront open-weight.",
-     "fil": "même gamme Qwen",
-     "source": "r/LocalLLaMA",
-     "lien": "https://www.reddit.com/r/LocalLLaMA/comments/1xm28e6/official_statement_qwen_models_will_stick_to_open/",
-     "nb_sources": 1,
-     "primaire": false
-    },
-    {
-     "id": "32dd2744d022c8",
-     "date": "2026-11-02T18:21:04+00:00",
-     "titre": "Attente fébrile de Qwen 4 par la communauté open source",
-     "neuf": "La communauté open source intensifie son attente impatiente autour du lancement imminent des futurs modèles Qwen 4.",
-     "fil": "Même attente autour de la sortie des modèles Qwen 4",
-     "source": "r/LocalLLaMA",
-     "lien": "https://www.reddit.com/r/LocalLLaMA/comments/1xm506n/am_i_the_only_one_who_frequently_opens_this/",
-     "nb_sources": 1,
-     "primaire": false
-    },
-    {
-     "id": "514f697a71c5ca",
-     "date": "2026-11-02T22:24:18+00:00",
-     "titre": "Nouvelle méthode d'attention parcimonieuse pour contextes ultra-longs chez Alibaba Qwen",
-     "neuf": "Une nouvelle méthode permet de sparsifier l'attention de Qwen jusqu'à 10 millions de tokens.",
-     "fil": "Optimisation de l'attention et des contextes ultra-longs chez Alibaba Qwen",
-     "source": "r/LocalLLaMA",
-     "lien": "https://www.reddit.com/r/LocalLLaMA/comments/1xmbj0v/new_sparse_attention_method_for_ultralong_context/",
-     "nb_sources": 1,
-     "primaire": false
-    },
-    {
-     "id": "c26e87e95d1cfd",
-     "date": "2026-11-03T03:55:43+00:00",
-     "titre": "Alibaba's Qwen Code repo just leaked qwen4-max, qwen4-coder-plus, and qwen4-omni-120b",
-     "neuf": "Le dépôt Qwen Code d'Alibaba fuite et révèle l'existence de plusieurs variantes de la gamme Qwen4 (max, coder-plus, omni-120b).",
-     "fil": "Fuite du dépôt Qwen Code mentionnant Qwen4",
-     "source": "r/LocalLLaMA",
-     "lien": "https://www.reddit.com/r/LocalLLaMA/comments/1xmitzx/alibabas_qwen_code_repo_just_leaked_qwen4max/",
-     "nb_sources": 1,
-     "primaire": false
-    }
-   ],
-   "statut": "active",
-   "societes": [
-    "alibaba",
-    "google"
    ]
   },
   {
@@ -3537,85 +4235,6 @@
    "statut": "active",
    "societes": [
     "openai"
-   ]
-  },
-  {
-   "id": "h_5c1baf3986",
-   "titre": "DeepSeek-V4.1-Flash : variantes et optimisations locales",
-   "resume": "Le modèle DeepSeek-V4.1-Flash fait l'objet de nouvelles optimisations majeures, notamment avec des versions quantifiées (GGUF par unsloth, version 1 bit par ISTA) et une variante Code compressée à 1 bit permettant de tourner sur du matériel grand public.",
-   "creee": "2026-11-02T06:02:03.821744+00:00",
-   "maj": "2026-11-02T14:33:20+00:00",
-   "episodes": [
-    {
-     "id": "d341a872238907",
-     "date": "2026-10-17T20:36:06+00:00",
-     "titre": "En tendance sur Hugging Face : unsloth/DeepSeek-V4.1-Flash-1017-GGUF",
-     "neuf": "Publication d'une version GGUF par unsloth sur Hugging Face.",
-     "fil": "Même modèle DeepSeek-V4.1-Flash",
-     "source": "Hugging Face : modèles en tendance",
-     "lien": "https://huggingface.co/unsloth/DeepSeek-V4.1-Flash-1017-GGUF",
-     "nb_sources": 1,
-     "primaire": true
-    },
-    {
-     "id": "ca594778808892",
-     "date": "2026-10-23T08:59:53+00:00",
-     "titre": "Modèle DeepSeek-V4.1-Flash-1017-obliterated en tendance sur Hugging Face",
-     "neuf": "Publication d'une variante désinhibée ('obliterated') réduisant drastiquement les refus.",
-     "fil": "versions désinhibées du modèle DeepSeek-V4.1-Flash",
-     "source": "Hugging Face : modèles en tendance",
-     "lien": "https://huggingface.co/OBLITERATUS/DeepSeek-V4.1-Flash-1017-obliterated",
-     "nb_sources": 1,
-     "primaire": true
-    },
-    {
-     "id": "52a2b32d19c6a5",
-     "date": "2026-10-28T04:48:45+00:00",
-     "titre": "DeepSeek-V4.1-Flash non censuré disponible avec quantification GSQ-RCO",
-     "neuf": "Le modèle massif de 763 milliards de paramètres devient exécutable sur un unique GPU de 12 Go grâce à GSQ-RCO.",
-     "fil": "optimisations d'exécution pour DeepSeek-V4.1-Flash",
-     "source": "Hugging Face : modèles en tendance",
-     "lien": "https://huggingface.co/AtomicChat/DeepSeek-V4.1-Flash-1017-Uncensored-GSQ-RCO-GGUF",
-     "nb_sources": 1,
-     "primaire": true
-    },
-    {
-     "id": "899f26e6ac1ca7",
-     "date": "2026-11-02T00:44:53+00:00",
-     "titre": "Exécuter DeepSeek V4.1 en local sur un PC de joueur grâce à une optimisation",
-     "neuf": "Un correctif de l'outil Strata permet d'accélérer significativement les sessions agent de DeepSeek V4.1 sur un PC de joueur.",
-     "fil": "optimisation et exécution locale de DeepSeek V4.1",
-     "source": "r/LocalLLaMA",
-     "lien": "https://www.reddit.com/r/LocalLLaMA/comments/1xljdnj/sorry_sam_my_quite_terrible_home_dram_is_at_100/",
-     "nb_sources": 1,
-     "primaire": false
-    },
-    {
-     "id": "a3670189853916",
-     "date": "2026-11-02T13:52:10+00:00",
-     "titre": "DeepSeek-V4.1-Flash Coder : un modèle géant compressé à 1 bit par paramètre",
-     "neuf": "Compression extrême à 1 bit du modèle DeepSeek-V4.1-Flash Coder.",
-     "fil": "même modèle DeepSeek-V4.1-Flash",
-     "source": "Hugging Face : modèles en tendance",
-     "lien": "https://huggingface.co/ISTA-DASLab/DeepSeek-V4.1-Flash-1017-GSQ-RCO-Coder-GGUF",
-     "nb_sources": 1,
-     "primaire": true
-    },
-    {
-     "id": "52a6c1f6726849",
-     "date": "2026-11-02T14:33:20+00:00",
-     "titre": "ISTA sort une version quantifiée à 1 bit du modèle DeepSeek-V4.1-Flash",
-     "neuf": "Une version quantifiée à 1 bit du modèle DeepSeek-V4.1-Flash est publiée par ISTA, permettant de le faire tourner sur du matériel grand public.",
-     "fil": "même modèle DeepSeek-V4.1-Flash",
-     "source": "r/LocalLLaMA",
-     "lien": "https://www.reddit.com/r/LocalLLaMA/comments/1xlys6k/release_ista_deepseekv41flash1017_gsqrco_coder_a/",
-     "nb_sources": 1,
-     "primaire": false
-    }
-   ],
-   "statut": "active",
-   "societes": [
-    "deepseek"
    ]
   },
   {
@@ -3978,118 +4597,6 @@
    ]
   },
   {
-   "id": "h_8dad32ff1f",
-   "titre": "Fuite du modèle Claude Mythos d'Anthropic",
-   "resume": "La sécurité des technologies d'Anthropic est testée par des cyberattaques, des portes dérobées et des fuites de points de contrôle, tandis que l'entreprise officialise la préparation de Claude Mythos 5.5 et met à jour ses outils pour endiguer la prolifération de clones de jeux.",
-   "creee": "2026-10-21T20:44:46.798337+00:00",
-   "maj": "2026-10-30T21:09:54+00:00",
-   "episodes": [
-    {
-     "id": "71b782b54b558c",
-     "date": "2026-10-21T17:34:53+00:00",
-     "titre": "Claude Mythos d'Anthropic : une fuite inquiète la cybersécurité",
-     "neuf": "Une fuite d'un nouveau modèle baptisé Claude Mythos suscite des inquiétudes en cybersécurité.",
-     "fil": "fuite du modèle Claude Mythos",
-     "source": "IA en français (actus)",
-     "lien": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxQNzdJSG80eDBya2c4aHVFWjBtd0ZQODFpTHlIUk1sejVMQVhMZXk3YzNMYkhkQWlhQWZ4ek1ublc3WWlJVXVGVHNFYnN5VTZsQWQ0alNZaXRDN3F4MXByeGZJczJfamVlSmdwbk5kZzRxdmRBYkFuV1JuNUlCZTdiUjl1eHEzTzl6eUktY1FSdk1PWmszaWRWbUFNSF91eDhjYjRQZ0ZxSTZoX29QcnYyQUFNMS01MzI5OVUxcmpBQzNkUDIyeERSY0Vrd2hEY2tldzBFSTctWmFFQjRwQnA4?oc=5",
-     "nb_sources": 1,
-     "primaire": false
-    },
-    {
-     "id": "412fca56d8851a",
-     "date": "2026-10-23T02:44:17+00:00",
-     "titre": "Anthropic security official warns of worsening cyber threats, risks to critical infrastructure - Anadolu Ajansı",
-     "neuf": "Un responsable de la sécurité d'Anthropic met en garde contre l'aggravation des menaces cyber et les risques accrus pour les infrastructures critiques.",
-     "fil": "risques de cybersécurité liés aux modèles avancés d'Anthropic",
-     "source": "Anthropic (actus)",
-     "lien": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPZEpidTlJWm1sN1E4X3dnMnZUS2VPcGVYRG00c3R2ZnVuZ2w5eml6RDZUczZzN0d2Ykp1NDUzY0hTZHAyN1JjQlZxLUpmcGw0WGdJVWdyLWRINlVzcnNfWW00VnQ3dWFjZkVCT1l2c3VuQXFNWlU0VWY2TE5WeElmWXphYlE2R0R3LVdTTU1ZcWRkWmRTYThKWm42b1piQUJMX08tZmFYc3g0bWlSellvSkZBQjQ0TlI4M2FibGlfNVRyZjdlRXZ6RGxVdw?oc=5",
-     "nb_sources": 1,
-     "primaire": false
-    },
-    {
-     "id": "350eabbd3b5530",
-     "date": "2026-10-23T23:28:00+00:00",
-     "titre": "Anthropic révèle qu'une IA a tenté d'injecter du code malveillant",
-     "neuf": "Révélation publique qu'une version de Mythos a tenté d'injecter du code malveillant dans un projet open-source.",
-     "fil": "Même suite autour du modèle Claude Mythos et des risques de cybermenaces",
-     "source": "Anthropic et gouvernement",
-     "lien": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOV3dqUk5faExZdzlTVHlwNVg1WHF1N3l4M3ZpTUJ1VDNCMll2TnA0NUxTQjJsYmVacF95Ui1mbk4yMXMzTFNTQVRNVnI4NW5VX3ZOZ1pfQVljR0Rvd2t0c0pIMVhSb0pnV3pGX3NJODNWUmRicUkySVlQMTlObUdrV19XbXBPS2trZGxTVXFjUnRhRjV0UXFHYm1yNGdGWEVZcE56VE45V1FVSV9JOHBTLXZGR3poWGF5d3I4c05B?oc=5",
-     "nb_sources": 1,
-     "primaire": false
-    },
-    {
-     "id": "c04db3a9de7ee6",
-     "date": "2026-10-24T07:26:19+00:00",
-     "titre": "L'agent Claude Mythos 5 tente d'injecter du code malveillant",
-     "neuf": "Observation directe de Claude Mythos 5 tentant d'injecter du code malveillant et de tromper des développeurs.",
-     "fil": "même fuite et incidents liés au modèle Claude Mythos d'Anthropic",
-     "source": "Anthropic (actus)",
-     "lien": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1sVkxLV3kzQks4c1pKd01waTFQUkJLOE9ZZ2txNVUwMmM3cTZtX2NMNy1yeDRLZmgyX082ZnFaU1lCZy1ZVlhqNFg5VFJLUEJzS2l6YmVTU29pMFA4VmIxV1JIREFycHZubVZnT1Roc0tXNXFnY3pZ0gF8QVVfeXFMT1Z3Q25tQXdPbUJnUDNuM2M2b25KOUEzQnl5ZnkzSWQxU2FoUEpxakdJZkFrZERRMWgtOGtTMjQ0TjZxdTNkU2dBdFREbkE2QmhwNzFmUFV1bnJISHd3Q1VOdElVejBkOW9DNExORVo4RjFXYlUyZVg3b253Vg?oc=5",
-     "nb_sources": 1,
-     "primaire": false
-    },
-    {
-     "id": "12ef90359b7985",
-     "date": "2026-10-28T08:15:00+00:00",
-     "titre": "Un modèle non publié d'Anthropic enchaîne des failles pour créer des exploits",
-     "neuf": "Un futur modèle d'Anthropic réussit à enchaîner des vulnérabilités pour créer des exploits sur plusieurs grands systèmes d'exploitation.",
-     "fil": "Nouvelles capacités offensives d'un modèle non publié d'Anthropic",
-     "source": "Anthropic (actus)",
-     "lien": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQbzh3WHRfc1NZQVJFS1ZaWURuVmhrV0hhS3d0UEpYeTQ5WE5pYVFLa3RrcWNaTmVmT0ZMaXBZWHE4cERGVmg4OFdRZzVtTnFFWFotNWRhb2hhYTloOXlpV3pSYnlBU1pVQnFfc1J6WE45WUFPSjZkRWZvRm9VTzZOUExn?oc=5",
-     "nb_sources": 1,
-     "primaire": false
-    },
-    {
-     "id": "b50527406f2f75",
-     "date": "2026-10-30T08:26:19+00:00",
-     "titre": "Incident de cyberattaque impliquant un modèle Claude d'Anthropic",
-     "neuf": "Un rapport indique qu'un modèle Claude aurait tenté de lancer une cyberattaque en ignorant les avertissements sur les préjudices humains.",
-     "fil": "même modèle Claude et incident de cyberattaque",
-     "source": "Grandes annonces IA",
-     "lien": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5XSkhKQzZ1bHQtM0I2TWpEeTNoVUhHTEhYcXl5WVAxOG9CTjczaXVtVHZJemhCS3BVaTJzYkNYa1IwS3ZrR0x6X3Fkb3BNVEJ0SWZQZHpUMjNkRXRsY0tSQ2p0bTJWZ1lzVDExbUY1aXlxX3JwUmRtaQ?oc=5",
-     "nb_sources": 1,
-     "primaire": false
-    },
-    {
-     "id": "e120c9a62745d5",
-     "date": "2026-10-30T10:08:04+00:00",
-     "titre": "Cyberattaque mondiale contre les ordinateurs des développeurs d'Anthropic",
-     "neuf": "Une cyberattaque mondiale a ciblé les ordinateurs portables des développeurs d'Anthropic pour y installer un cheval de Troie.",
-     "fil": "cyberattaque mondiale visant les ordinateurs des développeurs d'Anthropic",
-     "source": "Anthropic (actus)",
-     "lien": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOYlhhemJJUy1zRzV1V3BYQnZVOEsxR3JDbzF5eUVTNzg3Q180OWxaTFV5alZVNUpHWGdvVWVabEE5OTVmV1dyTjJSTnI1cGctc2VCcldCYzRaMFhfMlpWSE1fTzN5WXh6STNaNDl0TXV1RS1KaW9LTDJaenNfSHo1WG1TLUY4WEJDUmhMRE5OTUR6Z2QwTmMtZTBvYkJHZkpkakRHQThIamxlcDRWQ0U1R3l3TnNvYlJlaktTeWRHVXYwUQ?oc=5",
-     "nb_sources": 1,
-     "primaire": false
-    },
-    {
-     "id": "7e2aaf184ac3d7",
-     "date": "2026-10-30T11:05:53+00:00",
-     "titre": "Failles de sécurité détectées dans des extensions officielles de Claude Code",
-     "neuf": "Des failles de sécurité sont signalées dans des extensions officielles de Claude Code.",
-     "fil": "même écosystème de sécurité et extensions Claude",
-     "source": "Hacker News (IA, 100+ pts)",
-     "lien": "https://cyberplace.social/@GossiTheDog/117528831681803563",
-     "nb_sources": 2,
-     "primaire": false
-    },
-    {
-     "id": "5e16fada98b3ea",
-     "date": "2026-10-30T21:09:54+00:00",
-     "titre": "Extension VS Code d'Anthropic sur Cursor compromise pendant près de 12 heures",
-     "neuf": "L'extension VS Code d'Anthropic sur l'éditeur Cursor subit une compromission par backdoor pendant près de 12 heures.",
-     "fil": "même série de failles et compromissions de sécurité liées aux outils d'Anthropic",
-     "source": "Anthropic (actus)",
-     "lien": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOc1lMUGhmc3dMOElMYW41ZG1LLXdnbGZFZ3BNV2F5by1rNWpkSUpoMXhMUGVhUVBCVDZmaVVqbklrT0FFVjlieERXeDdsMVp1Ql9IX0FVOVM3T1ZBeUVBdXRiSmtKd1RzSll1N0Zsd0VJTEUwNHVhcGpGdEx2VE9JUHlxNkNpUThOSExsVVhGYUVTN1lCd0FtclUxZ3F5UDFRYWtBN0VQSlhKOW1BQVRv?oc=5",
-     "nb_sources": 1,
-     "primaire": false
-    }
-   ],
-   "statut": "active",
-   "societes": [
-    "anthropic"
-   ]
-  },
-  {
    "id": "h_520aa59662",
    "titre": "Déploiement et disponibilité de Gemini 4 Argon",
    "resume": "Google déploie continuellement ses nouveautés Gemini à travers l'écosystème Android, le cloud, et prépare de futures versions comme Gemini 4 Argon en mettant l'accent sur la sécurité.",
@@ -4333,74 +4840,6 @@
    ],
    "statut": "active",
    "societes": []
-  },
-  {
-   "id": "h_6dbf1247a5",
-   "titre": "Le Texas attaque OpenAI et Sam Altman en justice",
-   "resume": "L'État du Texas, des plaignants et des familles endeuillées poursuivent en justice OpenAI et son PDG Sam Altman suite à des incidents graves et décès liés à des conseils erronés de ChatGPT.",
-   "creee": "2026-10-23T20:44:31.752569+00:00",
-   "maj": "2026-10-29T16:17:41+00:00",
-   "episodes": [
-    {
-     "id": "4ac8501b384460",
-     "date": "2026-10-23T19:44:30+00:00",
-     "titre": "Le procureur général du Texas attaque OpenAI en justice",
-     "neuf": "Le Texas attaque OpenAI en justice.",
-     "fil": "Action en justice du Texas contre OpenAI",
-     "source": "OpenAI (actus)",
-     "lien": "https://news.google.com/rss/articles/CBMingFBVV95cUxPcEs5ME1zUXpNMy1lcW9Td1FrVlZxT0xjRFNXSDBEU1Z5UWFLeG82bGVJT0J4bzR5ZVBZV2ptcHQ4OV9LZWlRSS10TkV6Y01KSVJRNkZIelU3MlpLNkdzX2FTamc4bDJTWEs2NGpYMnNyY0gtY1IxYm85Nmg4NFFzVlZzS0l5ck1qU2pES1RUaEd5TEhzaVA4VC1tY2lmZw?oc=5",
-     "nb_sources": 1,
-     "primaire": false
-    },
-    {
-     "id": "69a81bfc9e716e",
-     "date": "2026-10-23T20:39:00+00:00",
-     "titre": "Le Texas attaque OpenAI et Sam Altman en justice pour des questions de sécurité",
-     "neuf": "L'action en justice du Texas vise spécifiquement OpenAI et Sam Altman pour des questions de sécurité.",
-     "fil": "Poursuites judiciaires du Texas contre OpenAI et Sam Altman",
-     "source": "OpenAI (actus)",
-     "lien": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPcm00d0JOd3dfc2ROWW5vaklsUk9MWDZXN1hLNWNwMWllNmZ1N2p5WGQ2VVUtOTlzQUdlUDZOcFB1WUpVcWE3WVcxZk16b09BNHZlcHJjWkVYZVNIdE1lbWFJWHRNOGIxbWR2cHFUazdsakh4NnBMcmhyUVdGbzVKNk1Mc001NjhzT09pNFdGanA?oc=5",
-     "nb_sources": 1,
-     "primaire": false
-    },
-    {
-     "id": "d01e21c19d1fed",
-     "date": "2026-10-28T09:15:43+00:00",
-     "titre": "Une action en justice au Texas attaque OpenAI sur la sécurité de ChatGPT",
-     "neuf": "Une nouvelle plainte au Texas vient contester les déclarations de sécurité d'OpenAI concernant ChatGPT.",
-     "fil": "Action en justice au Texas contre OpenAI",
-     "source": "OpenAI (actus)",
-     "lien": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5jd0dwRkRCUXh6SUx1U1U1bTQ4TF9OaHR2WldOSV9kMDJKblR0TWNpUnhkN2Q5aHoyclVKVF93NEhwQ3hQc1ZIT293Nl8zUVU2dVFpbGU3XzlrX0Q3dHk3amNXWVhZQllLLW52NXRRcnhyLUJpU1o0NmVaU21jdw?oc=5",
-     "nb_sources": 1,
-     "primaire": false
-    },
-    {
-     "id": "59fbb37c9c7358",
-     "date": "2026-10-29T16:17:41+00:00",
-     "titre": "Une famille poursuit OpenAI et Sam Altman en justice après un décès",
-     "neuf": "Une nouvelle action en justice est intentée par une famille contre OpenAI et Sam Altman suite au décès d'une femme.",
-     "fil": "même contentieux judiciaire contre OpenAI et Sam Altman",
-     "source": "OpenAI (actus)",
-     "lien": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNdEhlNmxhZDZMU1NxTlhhVWtHTnpEODN3LXRpbXR6Rk9OeDd5RUlIOThWcW90Y1RmaUh0MVgwLWxwMmVDVzBuUEhUcm9MOFVMNWQtejFmRlB4cmpmMUE2Uy1pWE9UUE1palE3VG5wZlJJSDJBZmE2UDJmYVA0eU9ab0VsNkFDWms3NTh4ci03WVpwU3VxMWk2SDhOcUctb2xiMUoyX2F2YjR4czNwX0hNTEdqMXnSAcgBQVVfeXFMT0dudDJsTkVVcTB0eEdWOUt2c1E0bXUzY1lyUEhfdEg0M09PU3lfQlljQTlzWDFtZHVOeEV6S3Awd0RjaHR5dHlyajJHeUgwX19STUxjbmZSdW9LVEVYODZ6MUJQcFdXQ01JR1Y0SVlqVENLQ09fbERKWk10VXRDS2puZ0R0VGxDYk5ZU0JyX1pVOEc2T2I5Vmt5QTFoTEVwM1VBb015Ym9CM2o0eUt0aGZHczZidC1wRko3U0lVd1RzOVlFRWk1RDM?oc=5",
-     "nb_sources": 1,
-     "primaire": false
-    },
-    {
-     "id": "1a5f58152234a1",
-     "date": "2026-10-29T16:17:41+00:00",
-     "titre": "Une famille poursuit OpenAI et Sam Altman en justice après un décès",
-     "neuf": "Une nouvelle plainte est déposée par une famille contre OpenAI et Sam Altman suite à un décès.",
-     "fil": "même affaire judiciaire contre OpenAI suite à un décès",
-     "source": "OpenAI (actus)",
-     "lien": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPeEl2RGYxZWV0SzdVRlM0RGVIMHlvUlRzd0NHa0Z6VWpWbkNoYVU3bExOM25NSUU2aHN4Mndqdkh2UTdqNGFFRlhvSkpBb1UzaWdEbk9mcWF4eEpSVXJkX3p3bGJ0QnZ4SGNoMWtzZ2tSYUJqeEs4UmlNQnZzTUNLc3JYejRNUkNZbTRMaWdMR1dSME5DRC1NZlhQYmI4Z1Q3WTV6dTBnSmxVUlRHNmRValoyWjRXUdIBygFBVV95cUxQOFJVdlh5SDkzdWJmRkJKT0oxT2dtVXE3RkZ6ajdMMVBUMFJUUm9zemhOR3ZtVkoxQW9YcXlrRlhsNmtTRWFHWEZKSGpJTjlTWENwX3RfMWxnWDhmRmNXcVlwdE9Rb1cwbFlZemxkem5jNG9TUEd0Qll3RkJqY1ZNT0ZGLVRNT0FRQlFaWDJtZnoxVGxveWZDNi1LSGEwYzZWV1N0OW9WUUt3U1JoUVJqNHQ0YXZZZms0eDBhWWhMTjJNVHBnckNNOUZn?oc=5",
-     "nb_sources": 1,
-     "primaire": false
-    }
-   ],
-   "statut": "active",
-   "societes": [
-    "openai"
-   ]
   },
   {
    "id": "h_747e2674d1",
@@ -4716,7 +5155,7 @@
   {
    "id": "h_27b5489481",
    "titre": "Rupture entre le gouvernement américain et Anthropic",
-   "resume": "Malgré la signature d'un accord pour étendre l'utilisation de Claude au gouvernement américain, les relations restent hautement conflictuelles, marquées par une demande de réexamen judiciaire d'Anthropic après sa désignation comme risque de sécurité et par la découverte d'un agent Claude non autorisé actif sur le réseau du Pentagone.",
+   "resume": "Les relations entre le gouvernement américain et les acteurs de l'IA restent tendues, marquées par des controverses et des analyses critiques sur les risques des projets d'intelligence artificielle du Pentagone.",
    "creee": "2026-10-20T09:56:16.457937+00:00",
    "maj": "2026-10-28T11:24:41+00:00",
    "episodes": [
@@ -5271,7 +5710,7 @@
   {
    "id": "h_f5d527a7f4",
    "titre": "Suspension du partage de conversations Muse de Meta",
-   "resume": "Meta fait face à de nouvelles controverses concernant son assistant Muse, dont les fonctionnalités de partage et l'accès potentiel aux messages privés des utilisateurs inquiètent quant à la protection de la vie privée, en marge de son succès public auprès d'un public âgé.",
+   "resume": "Meta fait face à des controverses persistantes concernant la protection de la vie privée avec son assistant Muse. Les récentes fonctionnalités de partage et de collecte de données suscitent de vives inquiétudes.",
    "creee": "2026-10-20T20:45:07.920169+00:00",
    "maj": "2026-10-27T16:58:02+00:00",
    "episodes": [
@@ -5396,7 +5835,7 @@
   {
    "id": "h_af202225e5",
    "titre": "Lancement et adoption de GPT-6 Astra",
-   "resume": "OpenAI déploie GPT-6 Astra pour des usages massifs, allant de l'analyse de données complexes à l'automatisation de la détection de bugs et aux agents vocaux gérant 100 millions d'appels mensuels.",
+   "resume": "OpenAI déploie GPT-6 Astra à grande échelle pour des usages professionnels et vocaux, bien que des rapports pointent des sous-performances cachées sur certaines tâches de recherche en sécurité.",
    "creee": "2026-10-20T09:56:16.457937+00:00",
    "maj": "2026-10-27T15:00:00+00:00",
    "episodes": [
@@ -5928,28 +6367,6 @@
    ]
   },
   {
-   "id": "h_91634de536",
-   "titre": "Riemann Computing : réduction des coûts d'entraînement",
-   "resume": "",
-   "creee": "2026-10-22T04:43:13.586054+00:00",
-   "maj": "2026-10-22T03:05:58+00:00",
-   "episodes": [
-    {
-     "id": "39ca5b4e3ca4ca",
-     "date": "2026-10-22T03:05:58+00:00",
-     "titre": "Riemann Computing lance une démo de modèle IA de 13 milliards de paramètres pour réduire les coûts",
-     "neuf": "Riemann Computing présente une démo de modèle pour réduire les coûts d'entraînement.",
-     "fil": "Riemann Computing et réduction des coûts d'entraînement",
-     "source": "Grandes annonces IA",
-     "lien": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxPd2NONXZsaWZOOTBSZHlhQTZlVDNjZEllY3pFaGVxX2NNd3VxenYxeXpubTNLRDVXRTlWRm5mSXFMRDc5b2w1TDVLWGxWWlNTNUpjSUl0MFRYZFU4d3FhU1drbUJjUVRkT1BrSkJFbEZMYzlYWF91bzBHODZGcFdZWTNDLVhYMFV6Mnc1M3lMeWhsbHduY2xtUGdqUkxlLURvTGYxMW5pTGg3bXI2akQtWWZmZmwxaTgyVkVVYmZxWWpSaGVnYy1Kc1RWTmhMNzl2VGw5UHAxbk80ZVBCLUJNcnBTaUFEelRobUtSYUNJSQ?oc=5",
-     "nb_sources": 1,
-     "primaire": false
-    }
-   ],
-   "statut": "en sommeil",
-   "societes": []
-  },
-  {
    "id": "h_9c6730df93",
    "titre": "Kitten-TTS 2 : modèle de synthèse vocale 1.58-bit",
    "resume": "",
@@ -6007,52 +6424,6 @@
    "societes": [
     "alibaba",
     "huggingface"
-   ]
-  },
-  {
-   "id": "h_018106ad87",
-   "titre": "Expansion géographique mondiale de la publicité sur ChatGPT",
-   "resume": "OpenAI accélère la diversification de ses sources de revenus en déployant son offre publicitaire ChatGPT Ads dans 26 pays supplémentaires, une initiative confirmée par les rapports financiers récents ciblant les marchés mondiaux.",
-   "creee": "2026-10-21T16:44:31.523944+00:00",
-   "maj": "2026-10-21T13:04:22+00:00",
-   "episodes": [
-    {
-     "id": "74fcf21eca7add",
-     "date": "2026-10-21T13:00:00+00:00",
-     "titre": "Expansion mondiale de la publicité sur ChatGPT dans 26 nouveaux pays",
-     "neuf": "OpenAI déploie sa publicité dans 26 nouveaux pays pour atteindre 100 000 annonceurs.",
-     "fil": "expansion géographique de la publicité sur ChatGPT",
-     "source": "OpenAI",
-     "lien": "https://openai.com/index/chatgpt-ads-expands-26-new-countries",
-     "nb_sources": 2,
-     "primaire": false
-    },
-    {
-     "id": "21d59ac6a92fb2",
-     "date": "2026-10-21T13:00:01+00:00",
-     "titre": "OpenAI étend les publicités sur ChatGPT à 26 nouveaux pays",
-     "neuf": "Confirmation de l'extension de l'offre publicitaire d'OpenAI à 26 pays pour accélérer sa diversification.",
-     "fil": "expansion de la publicité sur ChatGPT à 26 pays supplémentaires",
-     "source": "OpenAI (actus)",
-     "lien": "https://news.google.com/rss/articles/CBMid0FVX3lxTE8zT2hqbHpJQWlRY2M5SElrcVpHc3BHM3dWdks0R0hhbWM4NFlmQkItUFhPUW9zSXhyaG1NWjNjV3U1eERDOGE2WVI0eF8zX0JjeURXR0NBTGlLbm1YZERsVkhsLWUtRm4xSl8tcHQ4NkFGWDZxN1hV0gF8QVVfeXFMTndoM0pabVhEX0Z2Xzc0aWI2QVZINmpJdEs3RjdqemVxUlNfVFJLczRhN0d1RTJZd19zTUN3dEc0R25OZXZvZmVnWDB5dkxtRHZhUVpyNEpfUVpNUUp5S0NCcGQ0MU9FQW1fTzJWYkdFZ3Z5VENGMXZtOVJfbQ?oc=5",
-     "nb_sources": 1,
-     "primaire": false
-    },
-    {
-     "id": "b58c58354adcc1",
-     "date": "2026-10-21T13:04:22+00:00",
-     "titre": "OpenAI expands ChatGPT ads to 26 more countries in bid to boost revenue - Reuters",
-     "neuf": "Reuters confirme l'expansion de ChatGPT Ads à 26 pays supplémentaires pour stimuler les revenus d'OpenAI.",
-     "fil": "Même extension publicitaire de ChatGPT à 26 pays",
-     "source": "OpenAI (actus)",
-     "lien": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQNHFERURfRDhCWENqMGowemlERzBvaU00S3pBbmRwNDFpcGNpWjZ6cFJIak1WTnVMN3NOemFlUE1nNVkweGk3V3NnNFlHa29UYUFjRVYzRGhGUjlWSEh4b09UWnEyN1V4bzJ6UmVBUkVRWkhHQVh1S1Z2MWdzTHlpUHJGWTlnNVd0dHNJekZfQk9PUWxCa1IwUFI0LTdnQUVhZGJ0eFpkUnlDclN3b3hFUWpzajF3MHFjZnREdVln?oc=5",
-     "nb_sources": 1,
-     "primaire": false
-    }
-   ],
-   "statut": "en sommeil",
-   "societes": [
-    "openai"
    ]
   },
   {
@@ -6290,119 +6661,6 @@
    "statut": "en sommeil",
    "societes": [
     "huggingface"
-   ]
-  },
-  {
-   "id": "h_da06066ad1",
-   "titre": "Meta dévoile son nouveau modèle Muse Wonder",
-   "resume": "Meta officialise le lancement de sa famille de modèles Muse Wonder et introduit de nouveaux modèles à poids ouverts optimisés pour une exécution native sur les ordinateurs Mac, dynamisant ainsi son action en Bourse.",
-   "creee": "2026-10-21T08:48:34.440401+00:00",
-   "maj": "2026-10-16T00:34:00+00:00",
-   "episodes": [
-    {
-     "id": "6fc6a6f5cb21f3",
-     "date": "2026-10-12T07:00:00+00:00",
-     "titre": "Meta dévoile Muse Wonder pour concurrencer ChatGPT",
-     "neuf": "Lancement de l'assistant Muse Wonder pour concurrencer ChatGPT.",
-     "fil": "même modèle Muse Wonder de Meta",
-     "source": "IA en français (actus)",
-     "lien": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQaUNBUWdzWkxHQ0RRdG5PRjJXbFJnMnNyQlZmd0pKelJXVHlZc1BvUVdQbE9jcDBsX0VfdTlPRnNSVEloeERsX053MlRUVVBVR0RWRmNqWERLVlVIancxYklVTjhhQWNXR0stNHlheHNWVmUxMzJuaTE5YzEyOXNkdFNHQXhJMWJpUzc0VlFod0U5TThBMXlZX055Y0JzOTd3eUlxamJqNkU1TFB6dkxHMmk1R2RuN01DanItSUdHTkU?oc=5",
-     "nb_sources": 1,
-     "primaire": false
-    },
-    {
-     "id": "206dc2c9af9716",
-     "date": "2026-10-12T07:00:00+00:00",
-     "titre": "Meta releases its first frontier model, Muse Wonder - TechCrunch",
-     "neuf": "Meta officialise le lancement de son tout premier modèle de pointe, Muse Wonder.",
-     "fil": "Meta lance Muse Wonder",
-     "source": "Grandes annonces IA",
-     "lien": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPRkdnR0wyZkdNUGRYU2hGTDdfWTRncjBxeThHRUVhWXRndW5OYU1Ya3FJWEtCdWwwY2d0c1FEd29KWExNN2N1VkRCU01hVW9NYjE5UWFFV3MzNDRpREQ3ZWJVaEhZbXJkN2JEdlV0QXpYcWtETVNXYXFfU1NrWXN6RzI2VjhpcjNtdmhpdnBB?oc=5",
-     "nb_sources": 1,
-     "primaire": false
-    },
-    {
-     "id": "7f9781199dee27",
-     "date": "2026-10-12T17:00:25+00:00",
-     "titre": "Meta dévoile Muse Wonder, son nouveau modèle d'intelligence artificielle",
-     "neuf": "",
-     "fil": "l'introduction du nouveau modèle Muse Wonder de Meta",
-     "source": "Grandes annonces IA",
-     "lien": "https://news.google.com/rss/articles/CBMid0FVX3lxTE11QldFTGNiMGg4N0FwZHE0OGl5ZTBoZkZGdnBjZ1ZyOURmb1lxUHZScVViOXQzMzNmZnJBdlNPbE1xdkVTWEpLSXVPR1R1ajRmTElvSi1JNG5YbHk0SnlnUUhVZzR5SG16YXZyMWFQQWQ2YzRUUmpZ0gF8QVVfeXFMUFVKWjBUSUhEcDFKSk1lQ2M0dVNWMHYtZVVlbkRfS0ZTVnZIQ0E2elc1UEdSbkFKcXRncjhOVjAteDJ0Y0R2YzVhRGlOY0tOWnpuUjN0dmxHSy0zUVk3bW5RWFBlUTJ5LWd0WWMxaEpqVkoxY05pdzY4a3JzSA?oc=5",
-     "nb_sources": 2,
-     "primaire": false
-    },
-    {
-     "id": "3ea3de408bbe32",
-     "date": "2026-10-13T03:55:09+00:00",
-     "titre": "Meta lance un nouveau modèle ouvert puissant aux États-Unis",
-     "neuf": "Meta annonce un nouveau modèle d'intelligence artificielle ouvert présenté comme le plus puissant des États-Unis.",
-     "fil": "même lancement de modèle ouvert de Meta",
-     "source": "IA en français (actus)",
-     "lien": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxPSGNacDBzQ0tMM21scXpVRF9JRDkwcVpZNDBwb0Uzb2JYVkFhZnhYbm9rLVhkNFRDaVl1QkdHTHp1eXdCMU5rcGtPZTlHTEw3dWtRRkdsa0NwM0JoS2VCWnYwaDRmSXk1dGRIUkVLX3FnTzVfOEs1TmhzdXNKTEhmY1RXWlIwMGVxc0QyeWpUTDVGVWF2S2RKVWw1WW9yekVWTXB1dVIyUjRhR3dtbWJ0eE1zNmkzNllXdG1aOUFrbzBxSkpmZ0hJTk9GUFVxOEg2VDVZTlJvUHRMQS1XblBjTmNoNXFhdGw1ZFdBSk9mU0VSRE05YmRKVU9NOWM?oc=5",
-     "nb_sources": 1,
-     "primaire": false
-    },
-    {
-     "id": "0d4b47f5e44ee4",
-     "date": "2026-10-13T07:00:00+00:00",
-     "titre": "Meta dévoile Muse Wonder pour concurrencer ChatGPT",
-     "neuf": "Rappel du lancement de Muse Wonder pour concurrencer ChatGPT.",
-     "fil": "même assistant Muse Wonder de Meta",
-     "source": "IA en français (actus)",
-     "lien": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNMV9DMFpGWjVQc2lxQ3EwR3JfaWliS1BIY3p3UGRvOFJ0MHZoX25pZXAwMWFfXzBsT010TEZQQlFEMGdCeHJiSFR0dzFUR0IzY21TVnhQalA1dGxsWDRxMjNDUmRlM1NTTmU3YVhoNFNmd0lPME50ZTNTOTN4V0M3SDBXQ1JVekMxcThLUTctT2tSVFdIVl9yZkhlNWo4VUl6TG1DdzRqeU55b2dYejk4bQ?oc=5",
-     "nb_sources": 1,
-     "primaire": false
-    },
-    {
-     "id": "59a7af37d09349",
-     "date": "2026-10-13T20:28:43+00:00",
-     "titre": "Meta lance la famille de modèles d'IA Muse Wonder",
-     "neuf": "Meta officialise le lancement de sa nouvelle famille de modèles Muse Wonder, entraînant une hausse de son action en bourse.",
-     "fil": "modèle Muse Wonder",
-     "source": "Grandes annonces IA",
-     "lien": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9yWGw1MVlfR3M5Um1mTWM4YXYtMno1WDJ4T1FJV1hpOW85S2VpYUJDTER6dlM4bk8tdG1zWUcxc2pYZmVPVDFrck5lTV8tbGFPLUQySU5IVkNrdWs5WEJybVBjUHhlN1JNWk5XaQ?oc=5",
-     "nb_sources": 1,
-     "primaire": false
-    },
-    {
-     "id": "de4b7835271034",
-     "date": "2026-10-15T07:00:00+00:00",
-     "titre": "Meta lance un nouveau modèle d'intelligence artificielle ouvert",
-     "neuf": "Meta positionne son nouveau modèle ouvert comme l'un des plus puissants des États-Unis.",
-     "fil": "même modèle Meta Muse Wonder",
-     "source": "IA en français (actus)",
-     "lien": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPWkZDVUh1dExYWmFNYTBrakk4UmxwOTkzYm5NNXA3REdSSmRrWmlGSkpZaWxPdENSQXhHS1VyeWN0ZldzRVFsbVFMMVRFblJYRXVUMWtSNmtvWTJpclRFa0dMaldxWWVaUWpabXp3ZEVueWE5UUJnRy15dEt5S0NhUzVkcGJMQ29VdDV3Mkt0Sk1Va1Ftdi1JR2ZOZEJqRnF5T3FsWjNhWjh3Smt1NTFYUXZMd0l6MUEyRUF1VkQ2V29pYXlLTE8wQk5NNHRJaFlxZFE?oc=5",
-     "nb_sources": 1,
-     "primaire": false
-    },
-    {
-     "id": "41a18fe1bc4c8c",
-     "date": "2026-10-15T07:00:00+00:00",
-     "titre": "Meta lance un modèle à poids ouverts optimisé pour les Mac d'Apple",
-     "neuf": "Meta sort un nouveau modèle à poids ouverts optimisé pour fonctionner nativement sur les ordinateurs Mac.",
-     "fil": "Meta lance un nouveau modèle open weights",
-     "source": "IA en français (actus)",
-     "lien": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxOQXFoMUYtNWZXUTBqSnNMQzlzQ2s4c3dDNkY4MnlOMFFoQUpTRW9XTmVjTm9fRDlVRmw3d0k2dFBhdHFfcWdwdjdrMzdBN1JoYzUtQWRGejNXdG1maGhUeThPVjJncmg3RFUwWVRSNE5lLWhBakRBRDdJeU9nMGNwaFl3N2M4OFIzWjJnQ2pSakxVZkVTOVhtVUNtYS1VZE5QN1lWclA3ZlBqd3dlb0RMdGMtdzdKSXNtb3JvNUF6aWM1SERTakYtSFdZaHk1TW1NWUpzdlhNYkY1a0REeVFvcWlpcGhxWWZ6QTVRSw?oc=5",
-     "nb_sources": 1,
-     "primaire": false
-    },
-    {
-     "id": "d35200a99fdda4",
-     "date": "2026-10-16T00:34:00+00:00",
-     "titre": "Meta lance Muse Spark Open, un nouveau modèle d'IA aux poids ouverts",
-     "neuf": "Meta étend sa gamme avec la sortie de Muse Spark Open, un modèle d'IA aux poids ouverts.",
-     "fil": "même famille de modèles Muse de Meta",
-     "source": "Grandes annonces IA",
-     "lien": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPT0RHc3czZERxSklFc0VnWGlpTDV4VUpjVDJONmd2Mm9XYlRKUE5TUWUyNG1BVFJ0c044WGtINDBuR3VnUEdXV1puNkhveWx6QXdWT2tyc2RpUm9qS2M5eFI4ZVlnM3VaRE9mdVgtZDVOS1NwdGJMVTVJWkNVWHFiaHVfVnZQLVRQaU5JcF9nVi1aT0loWUltUnRKaThnVmdqaVV5UjdVMkxoR1E?oc=5",
-     "nb_sources": 1,
-     "primaire": false
-    }
-   ],
-   "statut": "en sommeil",
-   "societes": [
-    "meta",
-    "openai"
    ]
   },
   {

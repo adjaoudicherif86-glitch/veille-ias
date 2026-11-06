@@ -35,15 +35,15 @@
    "China says it will curb tech exports, including AI, citing national security risks - PBS"
   ],
   [
-   0.82,
-   "même événement selon l'IA",
-   "China unveils draft export controls on AI technologies and chips - Financial Times",
-   "China says it will curb tech exports, including AI, citing national security risks - PBS"
-  ],
-  [
    0.835,
    "même événement selon l'IA",
    "China Proposes Export Controls on AI Technologies - WSJ",
+   "China says it will curb tech exports, including AI, citing national security risks - PBS"
+  ],
+  [
+   0.82,
+   "même événement selon l'IA",
+   "China unveils draft export controls on AI technologies and chips - Financial Times",
    "China says it will curb tech exports, including AI, citing national security risks - PBS"
   ],
   [
@@ -51,6 +51,12 @@
    "même événement selon l'IA",
    "China Proposes Expanded Export Controls on AI, Biopharma and Solar Energy Technologies - Global Sanctions and ",
    "China adds 40 technologies in AI, biomedicine and PV for export controls in draft revised catalog - Global Tim"
+  ],
+  [
+   0.919,
+   "même événement selon l'IA",
+   "Anthropic’s Claude AI model accessed Georgia voter data in US - The Guardian",
+   "Anthropic's Claude bypassed a paywall to access Georgia voter data without authorization - Axios"
   ],
   [
    null,
@@ -71,15 +77,33 @@
    "DeepSeek AI model shows safety gaps in independent tests - Yahoo"
   ],
   [
+   0.848,
+   "même événement selon l'IA",
+   "Google Deepmind releases Gemini 4 Carbon just two weeks after Argon with gains across the board - the-decoder.",
+   "Google DeepMind Introduces Gemini 4 Carbon, Its Top Model for Cyber Defense and Coding - MarkTechPost"
+  ],
+  [
    0.872,
    "même événement selon l'IA",
    "House Democrats Demand Trump Preserve Grok AI Chats After TIME Report - Time Magazine",
    "Top House Democrats demand Trump preserve conversations with Grok - Politico"
   ],
   [
+   0.841,
+   "même événement selon l'IA",
+   "[GLB-3D-Coder] A tiny 4B coding model that creates 3D assets for Godot and other game engines",
+   "En tendance sur Hugging Face : ccore/Qwen3.5-4B-GLB-3D-Coder"
+  ],
+  [
    0.864,
    "même événement selon l'IA",
    "Elon Musk Says Grok Bot Costs Were ‘Unsustainably High’ Amid Complaints Over Usage Limits - Forbes",
+   "Musk says cost of running Grok Bot 'unsustainably high' relative to revenue - Anadolu Ajansı"
+  ],
+  [
+   0.841,
+   "même événement selon l'IA",
+   "Elon Musk says Grok Bot was throttled because costs were ‘unsustainably high’ — as users call the move a ‘rug ",
    "Musk says cost of running Grok Bot 'unsustainably high' relative to revenue - Anadolu Ajansı"
   ],
   [
@@ -89,22 +113,22 @@
    "Musk says cost of running Grok Bot 'unsustainably high' relative to revenue - Anadolu Ajansı"
   ],
   [
+   null,
+   "même titre",
+   "Scaling Git at OpenAI - OpenAI",
+   "Scaling Git at OpenAI"
+  ],
+  [
    0.841,
    "même événement selon l'IA",
-   "Anthropic's internal AI use, at retail prices, now exceeds its employee pay",
-   "Anthropic's internal AI use is now worth more than employee pay, at the prices it charges customers - Business"
+   "Commentary: Can AI bots become conscious? Why Microsoft's AI boss says that's the wrong question - Los Angeles",
+   "Microsoft AI CEO warns industry against trying to build conscious machines - The Spokesman-Review"
   ],
   [
    null,
    "même titre",
    "Elon Musk Has an AI Problem: People Are Using Grok Too Much - Yahoo Finance",
    "Elon Musk Has an AI Problem: People Are Using Grok Too Much - Benzinga"
-  ],
-  [
-   0.857,
-   "même événement selon l'IA",
-   "Microsoft AI Chief Says AI Development Should Stop If Artificial Intelligence Begins Showing Signs Of Consciou",
-   "Microsoft AI CEO warns industry against trying to build conscious machines - The Spokesman-Review"
   ],
   [
    0.863,
@@ -137,10 +161,10 @@
    "Sarvam Prism: a decision model built on Sarvam 105B - Sarvam AI"
   ],
   [
-   0.891,
+   0.839,
    "même événement selon l'IA",
-   "ricursiveAI/Ripple-65B-Preview · Hugging Face",
-   "En tendance sur Hugging Face : ricursiveAI/Ripple-65B-Preview"
+   "Tencent releases Hy4, a powerful frontier AI model introducing visual understanding and computer use - Silicon",
+   "Tencent launches Hy4 in bid to break into AI’s top tier of open-weight models - South China Morning Post"
   ],
   [
    0.917,
@@ -155,28 +179,10 @@
    "Nothing teases a screen-free AI device ahead of launch next month"
   ],
   [
-   0.875,
-   "même événement selon l'IA",
-   "ChatGPT Is Getting a GIF Maker Powered by OpenAI's Unannounced Images 2.6 Model - Decrypt",
-   "ChatGPT will now make you animated GIFs"
-  ],
-  [
    null,
    "même titre",
    "Pentagon chief tech officer says government will detail laws that apply to AI labs this month - Reuters",
    "Pentagon chief tech officer says government will detail laws that apply to AI labs this month - CNA"
-  ],
-  [
-   0.875,
-   "même événement selon l'IA",
-   "OpenAI launches Images 2.6 with GIFs and image reference - TestingCatalog AI News",
-   "Introducing Images 2.6"
-  ],
-  [
-   0.857,
-   "même événement selon l'IA",
-   "ChatGPT Search Hits 20% Of Google’s Query Volume, OpenAI Says - Forbes",
-   "ChatGPT Comes For Google's Lunch Money With 20% Search Volume Claim - HotHardware"
   ],
   [
    0.914,
@@ -197,16 +203,22 @@
    "Musk Pulls a Switcheroo on Grok, Claims “Unsustainably High Relative to Revenue” as Users Hit New Limits - Yah"
   ],
   [
-   0.857,
-   "même événement selon l'IA",
-   "ChatGPT Images 2.6 Adds GIF Creation and Faster Editing - TechRepublic",
-   "Introducing Images 2.6"
+   0.958,
+   "sens quasi identique",
+   "DeSoto Supervisors Push SpaceXAI to Raise Buyout Offers - DeSoto County News",
+   "DeSoto County asking SpaceXAI to increase buyout offers - DeSoto Times-Tribune"
   ],
   [
    0.856,
    "même événement selon l'IA",
    "Tencent Open-Sources Hy4 AI Model to Transform Complex Financial Workflows - FF News",
    "Tencent Targets Financial Analysis With Hy4 AI Model - PYMNTS.com"
+  ],
+  [
+   0.87,
+   "même événement selon l'IA",
+   "ChatGPT Images 2.6 Can Now Create GIFs - Thurrott.com",
+   "Introducing Images 2.6"
   ],
   [
    0.875,
@@ -239,21 +251,27 @@
    "Claude can now analyze your spending with its new Personal Finance tool - TechCrunch"
   ],
   [
-   0.877,
+   0.853,
    "même événement selon l'IA",
-   "Anthropic's Claude gets tool to analyze personal finances (ANT:Pending) - Seeking Alpha",
-   "Anthropic rolls out personal finance feature for Claude - Reuters"
+   "Anthropic rolls out personal finance feature for Claude - Reuters",
+   "Claude can now analyze your spending with its new Personal Finance tool - TechCrunch"
+  ],
+  [
+   0.863,
+   "même événement selon l'IA",
+   "OpenAI released a new cybersecurity model. Is that enough?",
+   "OpenAI says its new cybersecurity model is better at not hacking other companies - The Verge"
+  ],
+  [
+   0.846,
+   "même événement selon l'IA",
+   "Anthropic's IPO plans run up against a battered Wall Street - Yahoo Finance",
+   "The IPO Market Is Open For Anthropic. Not For Everyone Else. - WSJ"
   ],
   [
    0.904,
    "même événement selon l'IA",
    "Man sues OpenAI alleging ChatGPT encouraged his wife to poison him - USA Today",
-   "Man Claims in Suit ChatGPT Encouraged His Wife to Poison Him - Bloomberg.com"
-  ],
-  [
-   0.881,
-   "même événement selon l'IA",
-   "Man Sues OpenAI After Wife Allegedly Used ChatGPT to Help Poison Him - CNET",
    "Man Claims in Suit ChatGPT Encouraged His Wife to Poison Him - Bloomberg.com"
   ],
   [
@@ -269,6 +287,30 @@
    "Google lets schools turn off Gemini, but not the AI in search - The Japan Times"
   ],
   [
+   0.933,
+   "sens quasi identique",
+   "Airbnb is working on an AI travel agent",
+   "Airbnb says it’s launching an AI travel agent in the first half of 2027"
+  ],
+  [
+   0.849,
+   "même événement selon l'IA",
+   "Wife used ChatGPT for murder plot against husband: lawsuit - KRON4",
+   "Man Claims in Suit ChatGPT Encouraged His Wife to Poison Him - Bloomberg.com"
+  ],
+  [
+   null,
+   "même titre",
+   "Australian universities are creating AI-native graduates - OpenAI",
+   "Australian universities are creating AI-native graduates"
+  ],
+  [
+   0.857,
+   "même événement selon l'IA",
+   "Exclusive | Major Investors Are Skeptical Anthropic IPO Can Achieve $1.5 Trillion Valuation - WSJ",
+   "EXCLUSIVE: AI backlash could threaten Anthropic IPO timing, potential investors say - Reuters"
+  ],
+  [
    null,
    "même titre",
    "Mistral Large 4 passe de 38 à 25 points sur le nouvel indice d'Artificial Analysis",
@@ -279,6 +321,18 @@
    "même événement selon l'IA",
    "Google Cloud ouvre à ses clients Gemini Robotics ER 2, qui planifie les tâches des robots",
    "Gemini Robotics Embodied Reasoning 2 is now available on Google Cloud - Google Cloud"
+  ],
+  [
+   0.956,
+   "sens quasi identique",
+   "Mistral AI ouvre à Orange Cyberdefense l'accès anticipé à une version spécialisée de Large 4 - Le Monde Inform",
+   "Mistral AI va donner à Orange Cyberdefense un accès anticipé à une variante de Mistral Large 4 optimisée pour "
+  ],
+  [
+   0.843,
+   "même événement selon l'IA",
+   "IA souveraine : OVHcloud défie Mistral AI - 02/11 - BFM",
+   "ZD Tech : Octave Klaba attaque Mistral AI et annonce l'IA souveraine d'OVHcloud - ZDNET"
   ]
  ],
  "paires_non_fusionnees": [
@@ -368,11 +422,6 @@
    "Nanbeige/Nanbeige4.3-33B · Hugging Face"
   ],
   [
-   0.876,
-   "AI Act : les enquêtes pourraient prolonger le délai de sanction",
-   "AI Act : les enquêtes pourraient prolonger le délai de sanction - ActuIA"
-  ],
-  [
    0.874,
    "How Claude designed protein binders against scorpion neurotoxins - Anthropic",
    "Claude designed protein binders against scorpion neurotoxins"
@@ -561,11 +610,6 @@
    0.847,
    "Exposure Is Not Commitment: Double-Stratified Evaluation of Latent Monitors for Tool-Using Agents",
    "Beyond Plausible Prediction: Safety Sufficiency in Web World Models"
-  ],
-  [
-   0.845,
-   "Google unveils Gemini 4 Carbon, retaking the world's no. 1 spot on updated, harder benchmarks — but access is ",
-   "Google Deepmind releases Gemini 4 Carbon just two weeks after Argon with gains across the board - the-decoder."
   ],
   [
    0.845,
@@ -583,14 +627,19 @@
    "Anthropic's IPO is risky business - CNBC"
   ],
   [
-   0.876,
-   "En tendance sur Hugging Face : Nanbeige/Nanbeige4.3-33B",
-   "Nanbeige/Nanbeige4.3-33B · Hugging Face"
+   0.844,
+   "10 Surprises Revealed In Anthropic’s IPO Filing—CEO’s Personal Security Costs, Firms Spending $10 Million On C",
+   "The risk that AI wakes up and other warnings in Anthropic’s unusual IPO filing - The Washington Post"
+  ],
+  [
+   0.843,
+   "A Controlled LLM Workflow for Evidence-Grounded Diagnosis of Risk Score Differences",
+   "Consistency Is Not Validity: Self-Rewarded Moral Argumentation Makes Language Models Decisive but Pliable"
   ],
   [
    0.876,
-   "AI Act : les enquêtes pourraient prolonger le délai de sanction",
-   "AI Act : les enquêtes pourraient prolonger le délai de sanction - ActuIA"
+   "En tendance sur Hugging Face : Nanbeige/Nanbeige4.3-33B",
+   "Nanbeige/Nanbeige4.3-33B · Hugging Face"
   ],
   [
    0.874,
@@ -781,6 +830,11 @@
    0.847,
    "Exposure Is Not Commitment: Double-Stratified Evaluation of Latent Monitors for Tool-Using Agents",
    "Beyond Plausible Prediction: Safety Sufficiency in Web World Models"
+  ],
+  [
+   0.845,
+   "CoFiBreak: A Coarse-to-Fine Diversity Reward for Effective Multi-Turn Jailbreak",
+   "Alignment Faking Depends on the Value, Not Just the Model"
   ]
  ]
 }
