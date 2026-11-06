@@ -1,5 +1,5 @@
 {
- "maj": "2026-11-06T15:56:18.038578+00:00",
+ "maj": "2026-11-06T21:29:40.951977+00:00",
  "sources_ok": [
   "Notes de version Claude (API)",
   "Notes de version OpenAI (API)",
@@ -60,15 +60,15 @@
    "erreur": "429 Client Error: Too Many Requests for url: https://venturebeat.com/category/ai/feed/"
   }
  ],
- "total": 2246,
- "analyses": 1831,
+ "total": 2272,
+ "analyses": 1835,
  "brief": {
-  "titre": "Course aux modèles spécialisés, IPO d'OpenAI et nouveaux agents.",
-  "texte": "L'actualité est marquée par le lancement de modèles très spécialisés, à l'image de GPT-6 Cyber chez OpenAI pour la sécurité, Gemini Omni 1.2 Flash chez Google pour la vidéo et Cosmos 3 de NVIDIA pour la simulation. Côté écosystème, Alibaba surprend avec Qwen 4, tandis qu'Anthropic explore la finance personnelle et qu'une introduction en bourse d'OpenAI est envisagée pour 2027. Enfin, les API évoluent avec de nouvelles options pour les agents chez OpenAI et de meilleures capacités de gestion chez Claude. Le secteur jongle ainsi entre innovations produit et matérialisation économique.",
+  "titre": "Nouvelles vagues de modèles et API : l'IA accélère",
+  "texte": "Le secteur de l'IA franchit un nouveau cap avec l'arrivée conjointe de GPT-6-Cyber, Claude Opus 4.1 et Qwen 4, renforçant les capacités de développement et de sécurité. Google et NVIDIA poussent quant à eux l'innovation multimédia avec Gemini Omni 1.2 Flash et Cosmos 3 pour la simulation interactive. OpenAI et Anthropic élargissent leurs fonctionnalités d'API et d'automatisation, intégrant même la gestion financière et les appels SIP. Enfin, ces avancées techniques coïncident avec des interrogations économiques sur la croissance du secteur et l'approche de l'IPO d'Anthropic.",
   "a_tester": [
-   "Tester GPT-6-Cyber sur l'analyse de vulnérabilités pour vos projets de sécurité",
-   "Explorer les nouveautés de l'API Claude pour la gestion des utilisateurs",
-   "Évaluer Gemini Omni 1.2 Flash pour le traitement de vidéos longues"
+   "Tester l'API de Claude Opus 4.1 pour vos flux de production",
+   "Explorer les nouveautés de sécurité et MCP de Claude Code v2.1.319",
+   "Évaluer les outils dynamiques de la dernière mise à jour de l'API OpenAI"
   ]
  },
  "top5": {
