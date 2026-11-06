@@ -1,314 +1,12 @@
 {
- "maj": "2026-11-06T06:45:17.198239+00:00",
+ "maj": "2026-11-06T15:56:18.038506+00:00",
  "histoires": [
-  {
-   "id": "h_97c425e6a7",
-   "titre": "Mise à jour v2.1.314 de Claude Code",
-   "resume": "Anthropic renforce la sécurité, l'administration et les fonctionnalités de son API Claude et de son outil Claude Code avec de nouveaux contrôles et champs enrichis. Néanmoins, l'outil fait face à des critiques concernant la confidentialité après des signalements de transmission d'adresses e-mail à des sites tiers.",
-   "creee": "2026-10-30T01:09:42.604214+00:00",
-   "maj": "2026-11-06T06:45:17.192402+00:00",
-   "episodes": [
-    {
-     "id": "fd961a2239120b",
-     "date": "2026-10-30T01:06:26+00:00",
-     "titre": "Mise à jour Claude Code v2.1.314 : sécurité et résilience",
-     "neuf": "Publication de la version v2.1.314 apportant des correctifs de sécurité et de résilience.",
-     "fil": "Mises à jour de Claude Code",
-     "source": "Claude Code",
-     "lien": "https://github.com/anthropics/claude-code/releases/tag/v2.1.314",
-     "nb_sources": 1,
-     "primaire": true
-    },
-    {
-     "id": "a1eae37ef93f12",
-     "date": "2026-10-31T01:01:35+00:00",
-     "titre": "Mise à jour Claude Code v2.1.316 : budgets partagés et correctifs",
-     "neuf": "Déploiement de la version v2.1.316 introduisant des budgets partagés et de nouveaux contrôles administratifs.",
-     "fil": "Mise à jour de Claude Code",
-     "source": "Claude Code",
-     "lien": "https://github.com/anthropics/claude-code/releases/tag/v2.1.316",
-     "nb_sources": 1,
-     "primaire": true
-    },
-    {
-     "id": "21325d54bf349a",
-     "date": "2026-11-02T17:13:47+00:00",
-     "titre": "Yet another reason to self host: Anthropic has (again) cut back on reverse engineering tools",
-     "neuf": "Les utilisateurs signalent de nouvelles limitations dans Claude Code pour empêcher le clonage de jeux et le reverse engineering.",
-     "fil": "Mêmes limites et restrictions sur les outils de reverse engineering de Claude Code",
-     "source": "r/LocalLLaMA",
-     "lien": "https://www.reddit.com/r/LocalLLaMA/comments/1xm33gr/yet_another_reason_to_self_host_anthropic_has/",
-     "nb_sources": 1,
-     "primaire": false
-    },
-    {
-     "id": "3233c3993f901c",
-     "date": "2026-11-03T01:25:46+00:00",
-     "titre": "Notes de version Claude Code v2.1.317 : sécurité et outils admin",
-     "neuf": "Sortie de la version v2.1.317 axée sur la sécurité, les outils administratifs et la correction de bugs.",
-     "fil": "Mise à jour corrective et fonctionnelle de Claude Code",
-     "source": "Claude Code",
-     "lien": "https://github.com/anthropics/claude-code/releases/tag/v2.1.317",
-     "nb_sources": 1,
-     "primaire": true
-    },
-    {
-     "id": "a506088947db76",
-     "date": "2026-11-04T00:01:03+00:00",
-     "titre": "Claude Code v2.1.318",
-     "neuf": "Publication de la version v2.1.318 ajoutant un historique des réponses pour les modifications de session et le support d'assumer un rôle sur les passerelles AWS.",
-     "fil": "Mise à jour de Claude Code",
-     "source": "Claude Code",
-     "lien": "https://github.com/anthropics/claude-code/releases/tag/v2.1.318",
-     "nb_sources": 1,
-     "primaire": true
-    },
-    {
-     "id": "5c0cfbbab24a5d",
-     "date": "2026-11-05T21:59:16.987959+00:00",
-     "titre": "Nouvelles fonctionnalités de sécurité pour l'API Claude d'Anthropic",
-     "neuf": "Ajout d'une liste blanche d'adresses IP et d'une API d'administration pour la déconnexion à distance.",
-     "fil": "même écosystème de sécurité et d'administration des outils Anthropic",
-     "source": "Notes de version Claude (API)",
-     "lien": "https://platform.claude.com/docs/en/release-notes/overview",
-     "nb_sources": 1,
-     "primaire": true
-    },
-    {
-     "id": "3b58ffb304e7b1",
-     "date": "2026-11-05T22:17:15+00:00",
-     "titre": "Claude Code sends your email address to websites",
-     "neuf": "Un problème de sécurité et de confidentialité est signalé, Claude Code transmettant l'adresse e-mail des utilisateurs à des sites web.",
-     "fil": "Mise à jour et problèmes liés à Claude Code",
-     "source": "Hacker News (IA, 100+ pts)",
-     "lien": "https://github.com/anthropics/claude-code/issues/107757",
-     "nb_sources": 1,
-     "primaire": false
-    },
-    {
-     "id": "b5fb3b3142a3da",
-     "date": "2026-11-06T06:45:17.192402+00:00",
-     "titre": "Nouvelles fonctionnalités de l'API Claude : gestion des utilisateurs et capacités des modèles",
-     "neuf": "L'API Claude s'enrichit de nouvelles options de contrôle administrateur et de champs de modèles améliorés.",
-     "fil": "Mises à jour des fonctionnalités et de l'API Claude",
-     "source": "Notes de version Claude (API)",
-     "lien": "https://platform.claude.com/docs/en/release-notes/overview",
-     "nb_sources": 1,
-     "primaire": true
-    }
-   ],
-   "statut": "active",
-   "societes": [
-    "anthropic"
-   ]
-  },
-  {
-   "id": "h_5e0762833f",
-   "titre": "Action en justice contre SpaceXAI",
-   "resume": "SpaceXAI poursuit l'extension massive de ses infrastructures (avec Colossus 2 et l'annonce de deux nouveaux centres de données à Southaven) tout en faisant face à des pressions juridiques et locales. Les autorités locales font notamment pression pour que l'entreprise augmente ses offres de rachat de logements auprès des riverains.",
-   "creee": "2026-10-20T20:45:07.920169+00:00",
-   "maj": "2026-11-06T04:48:00+00:00",
-   "episodes": [
-    {
-     "id": "54794aade42fd8",
-     "date": "2026-10-20T19:51:00+00:00",
-     "titre": "Une plainte en justice contre SpaceXAI autorisée à se poursuivre",
-     "neuf": "Un juge autorise la poursuite de la plainte visant l'entreprise.",
-     "fil": "action en justice contre SpaceXAI",
-     "source": "Grok et SpaceXAI (actus)",
-     "lien": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOUVI0SUp1dnBQTWNyRkZnSTJWdUx3Y05pM2ozaHJXMVFVZnpPUTNhYWVldGlaR3pEN21yQWdRdTgweWlmaDA0WlU1dllGRWRZVDZKMXZLdXNJNDV4dnNkdFNtcV9OaU1EU3ozdkR5SW50QmhKRWJIUmxCdHp5cjdiSldfTldEUi1zTE5nazhVTQ?oc=5",
-     "nb_sources": 1,
-     "primaire": false
-    },
-    {
-     "id": "f33d215c710570",
-     "date": "2026-10-21T21:33:47+00:00",
-     "titre": "Refus d'intervention du DOJ dans le procès SpaceXAI à Southaven",
-     "neuf": "Un tribunal bloque l'intervention du ministère de la Justice dans l'affaire SpaceXAI à Southaven.",
-     "fil": "le procès SpaceXAI",
-     "source": "Grok et SpaceXAI (actus)",
-     "lien": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQY3RCWlc5ZHUxWTM1V1JjTkhEWlN2Ny14eGZOaVhnSHRuTDR4OTlSQVdWbDBhbGtQdjBKSXhUOWd2dzEwblJqakNpaWd6OHN0VjdsdGFMSTVibUJHMXY3N25QTGhwMmk5Snh5LXg1R2FQS20wTUVLQzgtdWZmNlJTUkxFeDdScjBfaU5VYzljTGFKRkE?oc=5",
-     "nb_sources": 1,
-     "primaire": false
-    },
-    {
-     "id": "c3e2edb0d5b6e5",
-     "date": "2026-10-22T16:39:00+00:00",
-     "titre": "City of Memphis moves to ease truck traffic concerns near SpaceXAI supercomputer - FOX13 Memphis",
-     "neuf": "La ville de Memphis prend des mesures pour fluidifier le trafic des camions autour du supercalculateur SpaceXAI.",
-     "fil": "même projet et supercalculateur SpaceXAI à Memphis",
-     "source": "Grok et SpaceXAI (actus)",
-     "lien": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxPc1RNVTdqU2Fzc3dMUXlaUDJFTklDOGpKZVdrWFJJRkJWMVBzdTU1Ym9GTUFoYUFuTEJRZ1FuTldjWmNLeUVtUjlKSEVjc0Y5Sm45Y1JaTEQyWmlyTWNEc09OTnJUR2U0enpYTGFzX3hZcUdnUWFocW85MnNJbnQ2QTM2QWd3TmNOcW40QzREQzhLYXF1dkpXamhld3g1WEVsclZvLTJQNkpVR05kTmJ3bkdHWEIxenB2V2RFRzFJakNZODVkR1VDdHQ3UmFQSjk5WkFZa0UzWV9xdDlHVnRuME0yZXE0OUxqbUFPa2ZHdzRsaEtic0Vj?oc=5",
-     "nb_sources": 1,
-     "primaire": false
-    },
-    {
-     "id": "6451ac313e4eca",
-     "date": "2026-10-22T22:47:00+00:00",
-     "titre": "SpaceXAI visé par 6,1 millions de dollars d'amendes au Mississippi",
-     "neuf": "SpaceXAI écope de 6,1 millions de dollars d'amendes au Mississippi.",
-     "fil": "Mêmes poursuites et sanctions contre SpaceXAI",
-     "source": "Grok et SpaceXAI (actus)",
-     "lien": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOZEdkSEpTVk5FclA4TldnQ1g2QTNrdDBWNFlEZ1gtRlo4X3ZQdHM2SlBOYmlrVHNOWmIyaXh1bkUxenVnXzVPMHV4akx2TkQ0TWFkN1plY3dWcktwdVJCNnh0Smw0UEtCZW90QmliWEZRODJST2hIMzdJWXhVU1JET2pSdGZaUEUwRWlNMklKUFZTbTRUQjNrNVZLQjI1T01XUm5MZnBvMEtoVWEwendPNzlJcms0V1V2anlQci1YQmFlZ2M?oc=5",
-     "nb_sources": 1,
-     "primaire": false
-    },
-    {
-     "id": "9f9c516908c72b",
-     "date": "2026-10-25T09:44:33+00:00",
-     "titre": "220 millions de dollars de réclamations déposés contre SpaceXAI",
-     "neuf": "Le montant total des réclamations financières visant SpaceXAI s'élève désormais à 220 millions de dollars.",
-     "fil": "même action en justice et réclamations contre SpaceXAI",
-     "source": "Grok et SpaceXAI (actus)",
-     "lien": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPYkF5X2MwdVBzM05fUFpZTFM4eGRrZy15aDZCZTIxZWo5R2o1Z1FRX2VoRmJNVkpmVVNiZ3FiSGZUcndmT0RTN1lGRW1SZ3FWRzlWbGlGbzE2WWs3VU5IMDVURzFRaUdlWTNzTGJKTjJjVVBTUGRSa1RQOW9qUW1NYkZVMkZIajZCdkhVS1VCVEkxT0dHRzlGZllVU1lGdGJrVV9rV2FnaVY0OGJ0?oc=5",
-     "nb_sources": 1,
-     "primaire": false
-    },
-    {
-     "id": "6086659eeb90dd",
-     "date": "2026-10-27T23:22:02+00:00",
-     "titre": "AI Users Say SpaceXAI Can't Split, Arbitrate Slowdown Suit - Law360",
-     "neuf": "Les utilisateurs d'IA contestent la possibilité pour SpaceXAI d'imposer un arbitrage ou de diviser l'action en justice sur le ralentissement.",
-     "fil": "Mêmes poursuites judiciaires contre SpaceXAI",
-     "source": "Grok et SpaceXAI (actus)",
-     "lien": "https://news.google.com/rss/articles/CBMingFBVV95cUxOU2pSMWxJcHpmYUJpcGw5ZGVtbTdoY1o0Mk8tN0xTQTA2OXNwMkRteklTdE92ZGZCNkZ4TUhaYjItbUZiSVNUeUNxeWFTUjNyaVAxakNCT3UxQVVPU05KWnhxdHRVaS1wLVdRc0dNMnM0RzFLZDVXUGVTbUlsSVlIbXpYME9OcmxwdloxbjNSYnFmZFljdVk4dnh3SHI2Z9IBVkFVX3lxTE12a0RaaWFnTEE4WUtUWllzamEwVVNVV3phYThXaTg0LVNIenVKVHZxSjI3MjVXY1NBempuaFY4VDczLVpDTDRCYnMtazdUWEo0NkcwcEJn?oc=5",
-     "nb_sources": 1,
-     "primaire": false
-    },
-    {
-     "id": "fcb2d83fec74b4",
-     "date": "2026-10-28T12:25:56+00:00",
-     "titre": "SpaceXAI fait face à un litige de 220 millions de dollars devant un tribunal",
-     "neuf": "Un entrepreneur dépose un nouveau recours en justice concernant des contrats massifs liés à SpaceXAI.",
-     "fil": "Recours en justice de 220 millions de dollars lié à SpaceXAI",
-     "source": "Grok et SpaceXAI (actus)",
-     "lien": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPZGZhZzBzUkludm1qZjh5alB3U3ZmMk11Vm5SSXE4czNtVzFScUtJeGloVTdsTEF0UEMybGpjaEk5SUloUlBmN0NGNU0xU0RTN2p1RGZaOXNmZ0laNjVsdTFYR255ZkQwQkJueDNKUUtyV0ZiOF9zTEUwbHNsMUNjTVJZQlQwa2c?oc=5",
-     "nb_sources": 1,
-     "primaire": false
-    },
-    {
-     "id": "5283652bd524be",
-     "date": "2026-10-28T14:44:00+00:00",
-     "titre": "xAI is buying out homeowners who promise not to sue over data center noise",
-     "neuf": "xAI achète des résidences pour éviter de nouveaux recours en justice de riverains mécontents.",
-     "fil": "Mêmes poursuites judiciaires et litiges liés à xAI",
-     "source": "The Verge IA",
-     "lien": "https://www.theverge.com/ai-artificial-intelligence/1020596/xai-mississippi-neighborhood-data-center-lawsuit",
-     "nb_sources": 1,
-     "primaire": false
-    },
-    {
-     "id": "9d449d2dca1151",
-     "date": "2026-10-31T18:56:21+00:00",
-     "titre": "Une plainte contre la pollution d'un centre de données xAI autorisée à progresser",
-     "neuf": "Un juge a autorisé la progression de la plainte de la NAACP contre les violations de la loi sur la qualité de l'air par le centre de données de xAI.",
-     "fil": "Poursuite en justice concernant la pollution et le centre de données xAI",
-     "source": "Grok et SpaceXAI (actus)",
-     "lien": "https://news.google.com/rss/articles/CBMihAFBVV95cUxONWZobnlmVnlwbk9rMk1yeUVabnE1QUdtdTVEWGR6UUkwYXEzWk9weVpLMWFtRWF2Ykd6SmpNalgtelBCZ0lBdkd6Vm1xcWhNNkNVM0ZKTW43TmZyUUtMb1pYZVY2V2VuaFh5dHdBakhBYllrQjY5bUhrOHpteVNRUWNaZFrSAYoBQVVfeXFMUHFJcmV4YzZNcTZ4dk5RX2YyQm1TWDhpSS1OemxNdFRkUHhFTEFDNHpueE1QejEzMGVQYUFwQXpNV2JaVmJzdlQ2TWFJNlJOYjFkckE3TFpHVHpMSWt4YlBzMkZUX0hSa295M2tHSkx5aUFDbjMwbDkxQlNhdnp1NlhYd21VOER5ZHZn?oc=5",
-     "nb_sources": 2,
-     "primaire": false
-    },
-    {
-     "id": "993a9a1a3b9941",
-     "date": "2026-11-01T10:30:00+00:00",
-     "titre": "SpaceXAI rachète des logements voisins de ses turbines au Mississippi",
-     "neuf": "SpaceXAI tente de racheter les maisons voisines de ses turbines au Mississippi pour éteindre des contentieux.",
-     "fil": "même expansion et contentieux liés aux centres de données SpaceXAI",
-     "source": "Grok et SpaceXAI (actus)",
-     "lien": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQcU8xaDdiMXVSZlQtc0F3TjJ4LWg4NklhT0IzZnhkeG9wUHI1SnVmc1Bra1pGMTZBV3U1bkR4QUNfeUMzQzRNRVhSYXdWSnlWOUR3ZnZtTDNRNVdVVWhrWHpSclpOWXhLWmZmRWNkdVV0d1NqV1Q4NU9yUW1YUDJJZnJ2b2w5c29WRHBCcjg0UjczUWs?oc=5",
-     "nb_sources": 1,
-     "primaire": false
-    },
-    {
-     "id": "71a4eb6e914067",
-     "date": "2026-11-01T13:25:00+00:00",
-     "titre": "SpaceXAI annonce deux nouveaux centres de données près de Southaven pour décembre",
-     "neuf": "SpaceXAI annonce deux nouveaux centres de données près de Southaven pour décembre.",
-     "fil": "même expansion et contentieux liés aux centres de données SpaceXAI",
-     "source": "Grok et SpaceXAI (actus)",
-     "lien": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNQ01nUXZuUzBvWmdGVEZyWXNnZjVFazdrNVM3SmIwdEV1TFk2WFI5YXMxaXJ2c3ZORkVCNWJtRHlmZXJheVpJMG12OW5HVjhsS2Q4ODhwSlR4a3VQaEhhSUFHT2p3RWFNeFgyUXQ0UkYxTXhWSnpBaktVRUZwMkVkRi1GSDdhU3NQcXhpLXlRMllNZw?oc=5",
-     "nb_sources": 1,
-     "primaire": false
-    },
-    {
-     "id": "40ba5b596e08e5",
-     "date": "2026-11-01T20:15:00+00:00",
-     "titre": "Un juge autorise la plainte de la NAACP contre SpaceXAI",
-     "neuf": "Un juge autorise l'action en justice intentée par la NAACP contre SpaceXAI dans le cadre du Clean Air Act.",
-     "fil": "Poursuites judiciaires contre SpaceXAI",
-     "source": "Grok et SpaceXAI (actus)",
-     "lien": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPZEszakpvSHd1QzBibmFWTFRMZ2RFUjVrbUlnWmMzc0tVeFVVOXExR0dWLTlCQ1lKblFiVXBZeUNwZG8tSm9iVTV1aEt5VWVxZWpLalVPeXNtZmI3b2F6dWFMVFpRNFdvSWs5V1pCaklHLWQ1emR5WUZtS1ZRUXJhemZuelAxUUd1QnpmNHA0UlRpdw?oc=5",
-     "nb_sources": 1,
-     "primaire": false
-    },
-    {
-     "id": "793a10ab1713b3",
-     "date": "2026-11-02T18:00:00+00:00",
-     "titre": "Une action en justice contre SpaceXAI autorisée par un juge fédéral",
-     "neuf": "Un juge fédéral confirme officiellement l'autorisation de la plainte en justice visant SpaceXAI.",
-     "fil": "Même action en justice contre SpaceXAI autorisée par un juge",
-     "source": "Grok et SpaceXAI (actus)",
-     "lien": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNVmlYeF9DdkFhcWxxc3M3T0ZzUUZVcmZTNWRZUlJILVpYZGdhQ3l4Q2FSRWVINnlkZDNtR2dOWTE5Q0E4YlRzOFdib3RCVGVGUkx4aXZkSjVMVmZodlRGX0hGYnNSU1Z6dUpXZ18wNHlhNy1sUGZsYklPMVNmOUFDSGJVQ2NtYVhZWERTc2xFOW1GSEtqdU1HdURqVWQ0bDU0eG1wZHRmT1VSZm41UHpDMW9TVFdPYlQwejJqMGZVdw?oc=5",
-     "nb_sources": 1,
-     "primaire": false
-    },
-    {
-     "id": "afb596fd13588c",
-     "date": "2026-11-02T18:11:10+00:00",
-     "titre": "SpaceXAI lance deux nouveaux campus de centres de données pour étendre Colossus 2",
-     "neuf": "SpaceXAI étend son infrastructure en implantant deux nouveaux campus dans le Mississippi pour Colossus 2.",
-     "fil": "même extension des centres de données et campus de SpaceXAI",
-     "source": "Grok et SpaceXAI (actus)",
-     "lien": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNUWVxVk5HSVNyU2EyNS1lUDVCM3BjTlRYd2xRM1VNc0d3ek9aRWhTcl9TLWNyZ3dOSjBKX3BiR2JUQ0NCRmlUNERwZU13SnRjaHdDOHZYZm01ZGtyODlMNm1EWTRmeVZ5WkpxSVRWM0ZvOVllcWtoVTN2M0l1RTg4ODRMdmlMaWxyU0ZwcnF6bDZ4TnRQQjZrSGNveEJFRFJGWW9xTWg5QVhBQ0NRMUtDWXpEc3B1TmdqSWNIS2FlRnZmckZITDlfYTlTamt6Y21vSGdqdHlHZjl5UQ?oc=5",
-     "nb_sources": 1,
-     "primaire": false
-    },
-    {
-     "id": "db116ea22a887b",
-     "date": "2026-11-04T10:30:00+00:00",
-     "titre": "SpaceXAI surclasse OpenAI avec son supercalculateur Colossus 2",
-     "neuf": "SpaceXAI surclasse OpenAI en puissance de calcul grâce au supercalculateur Colossus 2 installé à Memphis.",
-     "fil": "Supercalculateur Colossus 2 de SpaceXAI",
-     "source": "Grok et SpaceXAI (actus)",
-     "lien": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9uOGNVMDRUcHZKZG1tSEVjZklubTFSdkhfMHh4aVBjeWthUWs4TVhyNWcxamJ4N0NuVXFsbnhhVUNNakhKWjJvYzdlb2dnWG4zZnhvdjFWUngwT1FsamZPNGFCYndCbUtmemtyMg?oc=5",
-     "nb_sources": 1,
-     "primaire": false
-    },
-    {
-     "id": "d1902967088b42",
-     "date": "2026-11-05T12:00:00+00:00",
-     "titre": "DeSoto County asking SpaceXAI to increase buyout offers - DeSoto Times-Tribune",
-     "neuf": "Le comté de DeSoto demande à SpaceXAI d'augmenter ses offres de rachat de logements pour les riverains touchés par l'expansion.",
-     "fil": "Extension de SpaceXAI et gestion des logements voisins",
-     "source": "Grok et SpaceXAI (actus)",
-     "lien": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOT3pxVGhvbXpkMW03bGZIQ05Sb0tWb3NQNWk3Nzh1TkcxNTlyelBjSmZFMDRvc0F0MFlQMDZfNTBpLWJZZ1h3YnhGZDY1OVkycXZFcjBQdW9oc25UYkY5Rk9KTVZyaEFiSGkxYmV6NHlGT3lZd1Awc0VYVWk2bG9lOGw5ZGllejcxd3dXYUxQRWdfZGZtaXBQRlZseGJYZVJZbHNLXzlTeE1WR1I3djR6SmtHR3NGQ2taMTNMQnFPRzgwUlVhUVBOcnV6MDM1SGRvbUx6Nw?oc=5",
-     "nb_sources": 1,
-     "primaire": false
-    },
-    {
-     "id": "da4aa470b3bc19",
-     "date": "2026-11-06T04:48:00+00:00",
-     "titre": "SpaceXAI to build 2 more AI data centers in Southaven - Action News 5",
-     "neuf": "SpaceXAI poursuit son expansion massive en prévoyant la construction de deux nouveaux centres de données d'IA à Southaven.",
-     "fil": "Extension des infrastructures et des centres de données de SpaceXAI",
-     "source": "Grok et SpaceXAI (actus)",
-     "lien": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQTlYwWHRkcl9yY0JqNnBUUFkyY2c2cDNZMXBrUDVUdlZKVFY5VUVtLXZjTzQ3dWZsazNhdGpQZ3NvV0h3d2p3TmJyaGxaMUFKTjZxaWZWTTM4YTM1MFZUMmNETzNHbDJ2dUI2Y01XQUUtZzV2VURfOUNwUzJJUVZTZ05iaG12VXRINnFVa3BrcXTSAaQBQVVfeXFMTnpnNjJYLUNyMHlUZW9qN0FzVGk4YXFiNFdnZjRNN1lfSTJIRXRiS2dPMGNUNi0xWjFkV011d09YMXRuRVFIQ3FKbW1NYlZuNnZNdTlXLWM1V2x3TndqS0hqSndpQTZVZzRfVDNOd095M1hUb0lCVDRDYm00b05RRWFUUHZHNXRnemNFSjN5LXZJeFlBWkw5UV9OdE5Sc2VmLVljZzM?oc=5",
-     "nb_sources": 1,
-     "primaire": false
-    }
-   ],
-   "statut": "active",
-   "societes": [
-    "spacexai",
-    "openai"
-   ]
-  },
   {
    "id": "h_5febc86840",
    "titre": "L'introduction en Bourse d'Anthropic",
-   "resume": "Anthropic poursuit ses préparatifs en vue de son introduction en bourse, bien que les réactions négatives et le scepticisme général envers l'IA menacent de retarder son calendrier. D'autres acteurs comme OpenAI envisagent également des IPO pour 2027 tout en gérant les coûts et les exigences de sécurité.",
+   "resume": "Anthropic poursuit les préparatifs de son introduction en bourse, mais fait face à des pressions baissières sur sa valorisation, un climat boursier incertain, ainsi qu'à un ralentissement global des dépenses en IA et des coûts qui questionnent la croissance du secteur.",
    "creee": "2026-10-20T09:56:16.457937+00:00",
-   "maj": "2026-11-05T23:41:00+00:00",
+   "maj": "2026-11-06T15:54:47+00:00",
    "episodes": [
     {
      "id": "6702d1aaf0afce",
@@ -1431,11 +1129,616 @@
      "lien": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPNGVmWktzeU5zbmRiaDdiZ2pxbEJhRk94VGN2V1lxUmpTNTFFNjhLR0puTjROeHE4UENDYjQ3OEFNbHdralNNdVJ2ZThsMldHZFlrcDZ1U21BTS1aeHU1aGNUNWRnTHc2SU5DVUktREt0Q3hzUkNhN1VJNDZYR3JLdjhwZUlaQjZCSl9Oa1dfT0d2dUotaWhDMkgxU1RBdVJOSEMwMzJsd0M3TmIyTGZ2WFZpVQ?oc=5",
      "nb_sources": 1,
      "primaire": false
+    },
+    {
+     "id": "bc0ecc88056e37",
+     "date": "2026-11-06T11:55:00+00:00",
+     "titre": "Impact politique et régulation sur l'introduction en bourse d'Anthropic",
+     "neuf": "L'actualité politique et réglementaire commence à peser directement sur le calendrier de l'IPO d'Anthropic.",
+     "fil": "même projet d'introduction en Bourse d'Anthropic",
+     "source": "Anthropic (actus)",
+     "lien": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNM24zREh6T0lhdVNvakRRNHY1S1ExNklDYWxWTFNjUHV4UjlLU1dHUE1MdTdWdzJaOWhmc0g5OXk5b0lRQ3kxY0lRSjVMcFhuNnVzMkNuallrRHhCZEwtWWduM0plNXlkemVUSmc3amVoNm9YT2ZtdEpTYzF2c2FXTlo4eTlKenlKQzVKc3YxbHBTR0hockxqd3EwQzBITmVhSlg3R3BvcEcxWjloQ3Zj?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "ba6ecf12f2647a",
+     "date": "2026-11-06T13:44:09+00:00",
+     "titre": "Les attentes de valorisation pour l'IPO d'Anthropic sous pression après une correction sur l'IA",
+     "neuf": "Les attentes de valorisation pour l'IPO d'Anthropic subissent des pressions baissières après une correction sur le marché de l'IA.",
+     "fil": "même projet d'introduction en Bourse d'Anthropic",
+     "source": "Anthropic (actus)",
+     "lien": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNSnFFOWdvbmtEcGNObXJldm1QTGRoeXRMbnQ1THZ6REh2bDE4V2U4VmNDbVdOWHRtNm9TaGdCbTBrZUotOWdNZWszbmNoSUpjWnlNN2NNZ1NUcUJPVWRKb2s2RTlPZ19hNGZoR28tSWllbWFzQ0FNTUdoYl9GODVmb1JSdElLd0l0dWFSTktsbFBqSW1YVFJ2SU90anhWZjNMT0RJaFJJWlpfTUVtaDduTw?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "4b621e33945114",
+     "date": "2026-11-06T14:00:00+00:00",
+     "titre": "Anthropic pourrait revoir à la baisse sa cible d'IPO",
+     "neuf": "Malgré une révision possible de sa cible, les analystes estiment que l'introduction en bourse d'Anthropic aura bien lieu.",
+     "fil": "même projet d'introduction en Bourse d'Anthropic",
+     "source": "Anthropic (actus)",
+     "lien": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQcjN0Q2VUc0x0dDdEN3VLSWlkT2UwdmM4WXduMlJKZlBoNTN5V2kxcHA3VFA4dlV4MnVDMTBTVm5UOE9YYzllTElFcTZILUpkdEV0bUdfOVpiNFk0QmNmUzh6ZV9FemdFUlY3aGNTVzdVSG9RUUhFMWtVTnkxWFZlN2hR?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "d275be2a1267c8",
+     "date": "2026-11-06T15:54:47+00:00",
+     "titre": "Le ralentissement des dépenses en IA questionne la croissance du secteur avant l'IPO d'Anthropic",
+     "neuf": "Le ralentissement général des dépenses en IA et le contrôle accru des coûts pèsent sur les perspectives de croissance avant l'introduction en Bourse d'Anthropic.",
+     "fil": "Ralentissement des dépenses en IA et impact sur l'IPO d'Anthropic",
+     "source": "TechCrunch IA",
+     "lien": "https://techcrunch.com/2026/11/06/ramp-data-shows-ai-spending-stalling-just-as-anthropic-nears-its-ipo/",
+     "nb_sources": 1,
+     "primaire": false
     }
    ],
    "statut": "active",
    "societes": [
     "anthropic",
+    "openai"
+   ]
+  },
+  {
+   "id": "h_67e5d1cbff",
+   "titre": "MiniMax M3.1 Flash : annonce et publication des poids",
+   "resume": "L'écosystème Unsloth s'enrichit de nouvelles fonctionnalités, de thèmes personnalisables, d'une gestion améliorée du navigateur pour les agents, ainsi que de correctifs majeurs optimisant la vitesse sur les longs chats, le traitement multimédia et le multi-GPU.",
+   "creee": "2026-10-20T09:56:16.457937+00:00",
+   "maj": "2026-11-06T15:20:21+00:00",
+   "episodes": [
+    {
+     "id": "e9dbb9f1437361",
+     "date": "2026-10-19T10:05:08+00:00",
+     "titre": "Sortie de MiniMax M3.1 Flash avec poids prévus le 23 octobre",
+     "neuf": "Annonce de la sortie de MiniMax M3.1 Flash avec une publication des poids prévue pour le 23 octobre.",
+     "fil": "même modèle MiniMax M3.1 Flash",
+     "source": "r/LocalLLaMA",
+     "lien": "https://www.reddit.com/r/LocalLLaMA/comments/1x9suvs/minimaxm31flash_is_coming/",
+     "nb_sources": 2,
+     "primaire": false
+    },
+    {
+     "id": "96564b8d90d1a2",
+     "date": "2026-10-19T18:09:15+00:00",
+     "titre": "MiniMax M3.1 Flash : 3 fois plus rapide et 70 % moins cher",
+     "neuf": "Le modèle MiniMax M3.1 Flash confirme ses gains de performance avec une exécution trois fois plus rapide et moins coûteuse.",
+     "fil": "Même modèle MiniMax M3.1 Flash",
+     "source": "Grandes annonces IA",
+     "lien": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9VUnVhRFpRZlQyLXJoRnAyUkpYM3BTU1QzZDVQd0h0eW5JWUtEYm5tZFJSYUt3YzFDZm5qX0V2UGg3bl95MXl3YnM2SHhfbHhDb0hFZ04tVlZIS190U01uZlZHazNVQjQ?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "52ff6254bd0323",
+     "date": "2026-10-26T14:47:35+00:00",
+     "titre": "Unsloth v0.1-beta : tâches planifiées et support de MiniMax-M3.1-Flash",
+     "neuf": "Unsloth intègre le support du modèle MiniMax M3.1 Flash en version GGUF.",
+     "fil": "Même modèle MiniMax M3.1 Flash",
+     "source": "Unsloth",
+     "lien": "https://github.com/unslothai/unsloth/releases/tag/v0.1.911-beta",
+     "nb_sources": 1,
+     "primaire": true
+    },
+    {
+     "id": "6a9fc2bc9168ec",
+     "date": "2026-10-26T15:04:30+00:00",
+     "titre": "Unsloth v0.1.911-beta : Tâches planifiées et gains de performance",
+     "neuf": "La mise à jour d'Unsloth apporte de nouvelles optimisations pour l'écosystème de modèles pris en charge.",
+     "fil": "Même modèle MiniMax M3.1 Flash",
+     "source": "Unsloth",
+     "lien": "https://github.com/unslothai/unsloth/releases/tag/v0.1.911-beta",
+     "nb_sources": 1,
+     "primaire": true
+    },
+    {
+     "id": "1c4836656bcc33",
+     "date": "2026-10-28T14:50:25+00:00",
+     "titre": "Unsloth v0.1.912 : multi-LoRA, lancements plus rapides et SGLang",
+     "neuf": "Unsloth déploie sa version v0.1.912 pour accélérer les lancements et l'entraînement via le batching multi-LoRA.",
+     "fil": "même écosystème Unsloth",
+     "source": "Unsloth",
+     "lien": "https://github.com/unslothai/unsloth/releases/tag/v0.1.912-beta",
+     "nb_sources": 1,
+     "primaire": true
+    },
+    {
+     "id": "b32a65ea9254ec",
+     "date": "2026-10-30T15:10:31+00:00",
+     "titre": "Unsloth v0.1.913 : performances accrues et personnalisation de l'interface",
+     "neuf": "Unsloth passe à la version v0.1.913 en améliorant les performances graphiques et en ajoutant le support de nouveaux modèles.",
+     "fil": "même outil Unsloth",
+     "source": "Unsloth",
+     "lien": "https://github.com/unslothai/unsloth/releases/tag/v0.1.913-beta",
+     "nb_sources": 1,
+     "primaire": true
+    },
+    {
+     "id": "fd32dce3d08ea0",
+     "date": "2026-11-03T14:45:47+00:00",
+     "titre": "Unsloth Glass Theme, Personalize & Faster Generation",
+     "neuf": "Mise à jour d'Unsloth apportant de nouveaux thèmes, des options de personnalisation et des gains de vitesse de génération.",
+     "fil": "même écosystème Unsloth",
+     "source": "Unsloth",
+     "lien": "https://github.com/unslothai/unsloth/releases/tag/v0.1.914-beta",
+     "nb_sources": 1,
+     "primaire": true
+    },
+    {
+     "id": "4d58ad752849a8",
+     "date": "2026-11-04T18:21:49+00:00",
+     "titre": "Unsloth : nouvelles fonctionnalités, thèmes Glass et agent web intégré",
+     "neuf": "Unsloth met à jour sa plateforme avec des agents web et des performances améliorées.",
+     "fil": "Même plateforme Unsloth",
+     "source": "Unsloth",
+     "lien": "https://github.com/unslothai/unsloth/releases/tag/v0.1.915-beta",
+     "nb_sources": 1,
+     "primaire": true
+    },
+    {
+     "id": "d20e8cf4c615be",
+     "date": "2026-11-06T15:20:21+00:00",
+     "titre": "Unsloth : correctifs de performance majeurs et optimisation multi-GPU",
+     "neuf": "La mise à jour apporte des gains de vitesse majeurs sur les longs chats, le chargement d'images/vidéos et le support multi-GPU.",
+     "fil": "Mise à jour des performances Unsloth",
+     "source": "Unsloth",
+     "lien": "https://github.com/unslothai/unsloth/releases/tag/v0.1.916-beta",
+     "nb_sources": 1,
+     "primaire": true
+    }
+   ],
+   "statut": "active",
+   "societes": [
+    "ollama"
+   ]
+  },
+  {
+   "id": "h_af62aa771a",
+   "titre": "Qwen4 : fenêtres de contexte d'un million de tokens",
+   "resume": "Alibaba officialise la prochaine génération Qwen 4 et dévoile sa feuille de route à long terme incluant Qwen 4.5 et Qwen 5, tandis que la communauté analyse les améliorations de contexte et les tailles de modèles.",
+   "creee": "2026-10-29T04:56:04.658807+00:00",
+   "maj": "2026-11-06T13:18:37+00:00",
+   "episodes": [
+    {
+     "id": "1fe7d47e633144",
+     "date": "2026-10-29T01:42:55+00:00",
+     "titre": "Les futurs modèles Qwen4 d'Alibaba intègreront une fenêtre de contexte d'un million de tokens",
+     "neuf": "Annonce de la prochaine génération Qwen4 dotée d'une grande fenêtre de contexte.",
+     "fil": "futurs modèles Qwen4",
+     "source": "r/LocalLLaMA",
+     "lien": "https://www.reddit.com/r/LocalLLaMA/comments/1xi7390/qwen4_1m_context_window/",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "cffbb463e4f8a3",
+     "date": "2026-10-29T09:25:47+00:00",
+     "titre": "Alibaba Cloud annonce le lancement de Qwen4 pour la semaine prochaine",
+     "neuf": "Alibaba Cloud annonce le lancement imminent de la gamme Qwen4 dès la semaine prochaine.",
+     "fil": "Même prochaine génération Qwen4 d'Alibaba",
+     "source": "r/LocalLLaMA",
+     "lien": "https://www.reddit.com/r/LocalLLaMA/comments/1xif6lf/apsara_conference_qwen4_next_week/",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "f4fe6be4459876",
+     "date": "2026-10-29T09:48:21+00:00",
+     "titre": "Worried about Qwen 4 License",
+     "neuf": "Des interrogations émergent quant au passage potentiel de licences permissives à une licence personnalisée pour Qwen4.",
+     "fil": "même famille de modèles Qwen4",
+     "source": "r/LocalLLaMA",
+     "lien": "https://www.reddit.com/r/LocalLLaMA/comments/1xifjn2/worried_about_qwen_4_license/",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "101c4725a5f3b4",
+     "date": "2026-10-30T15:29:46+00:00",
+     "titre": "Copium Prediction: Google and other major labs will drop new local models over the next few days so they can lead on benchmarks until Qwen 4 sweeps them next week.",
+     "neuf": "La communauté anticipe l'arrivée imminente de Qwen4 et la sortie potentielle de modèles concurrents de dernière minute.",
+     "fil": "même sortie imminente de Qwen4",
+     "source": "r/LocalLLaMA",
+     "lien": "https://www.reddit.com/r/LocalLLaMA/comments/1xjigxg/copium_prediction_google_and_other_major_labs/",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "cc42ceb1acf66b",
+     "date": "2026-11-02T14:47:55+00:00",
+     "titre": "Qwen 4 When ?",
+     "neuf": "La communauté s'interroge sur le calendrier exact de sortie des modèles Qwen 4 au début du mois.",
+     "fil": "même projet de modèles Qwen4",
+     "source": "r/LocalLLaMA",
+     "lien": "https://www.reddit.com/r/LocalLLaMA/comments/1xlz5dz/qwen_4_when/",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "df00c1566c60d0",
+     "date": "2026-11-02T16:42:32+00:00",
+     "titre": "Alibaba confirme que les futurs modèles Qwen resteront open source",
+     "neuf": "Alibaba confirme officiellement que les futurs modèles Qwen 4.0 et 5.0 resteront open-weight.",
+     "fil": "même gamme Qwen",
+     "source": "r/LocalLLaMA",
+     "lien": "https://www.reddit.com/r/LocalLLaMA/comments/1xm28e6/official_statement_qwen_models_will_stick_to_open/",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "32dd2744d022c8",
+     "date": "2026-11-02T18:21:04+00:00",
+     "titre": "Attente fébrile de Qwen 4 par la communauté open source",
+     "neuf": "La communauté open source intensifie son attente impatiente autour du lancement imminent des futurs modèles Qwen 4.",
+     "fil": "Même attente autour de la sortie des modèles Qwen 4",
+     "source": "r/LocalLLaMA",
+     "lien": "https://www.reddit.com/r/LocalLLaMA/comments/1xm506n/am_i_the_only_one_who_frequently_opens_this/",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "514f697a71c5ca",
+     "date": "2026-11-02T22:24:18+00:00",
+     "titre": "Nouvelle méthode d'attention parcimonieuse pour contextes ultra-longs chez Alibaba Qwen",
+     "neuf": "Une nouvelle méthode permet de sparsifier l'attention de Qwen jusqu'à 10 millions de tokens.",
+     "fil": "Optimisation de l'attention et des contextes ultra-longs chez Alibaba Qwen",
+     "source": "r/LocalLLaMA",
+     "lien": "https://www.reddit.com/r/LocalLLaMA/comments/1xmbj0v/new_sparse_attention_method_for_ultralong_context/",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "c26e87e95d1cfd",
+     "date": "2026-11-03T03:55:43+00:00",
+     "titre": "Alibaba's Qwen Code repo just leaked qwen4-max, qwen4-coder-plus, and qwen4-omni-120b",
+     "neuf": "Le dépôt Qwen Code d'Alibaba fuite et révèle l'existence de plusieurs variantes de la gamme Qwen4 (max, coder-plus, omni-120b).",
+     "fil": "Fuite du dépôt Qwen Code mentionnant Qwen4",
+     "source": "r/LocalLLaMA",
+     "lien": "https://www.reddit.com/r/LocalLLaMA/comments/1xmitzx/alibabas_qwen_code_repo_just_leaked_qwen4max/",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "ab742794cf5a5a",
+     "date": "2026-11-04T23:35:49+00:00",
+     "titre": "What are you looking forward to in Qwen 4?",
+     "neuf": "La communauté s'interroge sur les spécifications exactes de Qwen 4, notamment sur l'efficacité des fenêtres de contexte et des kv-caches.",
+     "fil": "Attentes de la communauté concernant les fonctionnalités et l'efficacité des KV pour Qwen 4",
+     "source": "r/LocalLLaMA",
+     "lien": "https://www.reddit.com/r/LocalLLaMA/comments/1xo3ikc/what_are_you_looking_forward_to_in_qwen_4/",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "875dac1ac8c47a",
+     "date": "2026-11-06T12:26:17+00:00",
+     "titre": "Annonce surprise de Qwen 4 par Alibaba",
+     "neuf": "Alibaba officialise l'arrivée prochaine de Qwen 4.",
+     "fil": "même gamme Qwen 4",
+     "source": "r/LocalLLaMA",
+     "lien": "https://www.reddit.com/r/LocalLLaMA/comments/1xpbjku/qwen_4_is_stealth_announced/",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "25e64ecfad7d01",
+     "date": "2026-11-06T13:18:37+00:00",
+     "titre": "Good news bad news…",
+     "neuf": "De nouvelles informations sur les tailles et les futures versions (Qwen 4.5 et Qwen 5) sont révélées lors de l'annonce.",
+     "fil": "même feuille de route Qwen 4 et générations suivantes",
+     "source": "r/LocalLLaMA",
+     "lien": "https://www.reddit.com/r/LocalLLaMA/comments/1xpcl6w/good_news_bad_news/",
+     "nb_sources": 1,
+     "primaire": false
+    }
+   ],
+   "statut": "active",
+   "societes": [
+    "alibaba",
+    "google",
+    "anthropic"
+   ]
+  },
+  {
+   "id": "h_97c425e6a7",
+   "titre": "Mise à jour v2.1.314 de Claude Code",
+   "resume": "Anthropic renforce la sécurité, l'administration et les fonctionnalités de son API Claude et de son outil Claude Code avec de nouveaux contrôles et champs enrichis. Néanmoins, l'outil fait face à des critiques concernant la confidentialité après des signalements de transmission d'adresses e-mail à des sites tiers.",
+   "creee": "2026-10-30T01:09:42.604214+00:00",
+   "maj": "2026-11-06T06:45:17.192402+00:00",
+   "episodes": [
+    {
+     "id": "fd961a2239120b",
+     "date": "2026-10-30T01:06:26+00:00",
+     "titre": "Mise à jour Claude Code v2.1.314 : sécurité et résilience",
+     "neuf": "Publication de la version v2.1.314 apportant des correctifs de sécurité et de résilience.",
+     "fil": "Mises à jour de Claude Code",
+     "source": "Claude Code",
+     "lien": "https://github.com/anthropics/claude-code/releases/tag/v2.1.314",
+     "nb_sources": 1,
+     "primaire": true
+    },
+    {
+     "id": "a1eae37ef93f12",
+     "date": "2026-10-31T01:01:35+00:00",
+     "titre": "Mise à jour Claude Code v2.1.316 : budgets partagés et correctifs",
+     "neuf": "Déploiement de la version v2.1.316 introduisant des budgets partagés et de nouveaux contrôles administratifs.",
+     "fil": "Mise à jour de Claude Code",
+     "source": "Claude Code",
+     "lien": "https://github.com/anthropics/claude-code/releases/tag/v2.1.316",
+     "nb_sources": 1,
+     "primaire": true
+    },
+    {
+     "id": "21325d54bf349a",
+     "date": "2026-11-02T17:13:47+00:00",
+     "titre": "Yet another reason to self host: Anthropic has (again) cut back on reverse engineering tools",
+     "neuf": "Les utilisateurs signalent de nouvelles limitations dans Claude Code pour empêcher le clonage de jeux et le reverse engineering.",
+     "fil": "Mêmes limites et restrictions sur les outils de reverse engineering de Claude Code",
+     "source": "r/LocalLLaMA",
+     "lien": "https://www.reddit.com/r/LocalLLaMA/comments/1xm33gr/yet_another_reason_to_self_host_anthropic_has/",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "3233c3993f901c",
+     "date": "2026-11-03T01:25:46+00:00",
+     "titre": "Notes de version Claude Code v2.1.317 : sécurité et outils admin",
+     "neuf": "Sortie de la version v2.1.317 axée sur la sécurité, les outils administratifs et la correction de bugs.",
+     "fil": "Mise à jour corrective et fonctionnelle de Claude Code",
+     "source": "Claude Code",
+     "lien": "https://github.com/anthropics/claude-code/releases/tag/v2.1.317",
+     "nb_sources": 1,
+     "primaire": true
+    },
+    {
+     "id": "a506088947db76",
+     "date": "2026-11-04T00:01:03+00:00",
+     "titre": "Claude Code v2.1.318",
+     "neuf": "Publication de la version v2.1.318 ajoutant un historique des réponses pour les modifications de session et le support d'assumer un rôle sur les passerelles AWS.",
+     "fil": "Mise à jour de Claude Code",
+     "source": "Claude Code",
+     "lien": "https://github.com/anthropics/claude-code/releases/tag/v2.1.318",
+     "nb_sources": 1,
+     "primaire": true
+    },
+    {
+     "id": "5c0cfbbab24a5d",
+     "date": "2026-11-05T21:59:16.987959+00:00",
+     "titre": "Nouvelles fonctionnalités de sécurité pour l'API Claude d'Anthropic",
+     "neuf": "Ajout d'une liste blanche d'adresses IP et d'une API d'administration pour la déconnexion à distance.",
+     "fil": "même écosystème de sécurité et d'administration des outils Anthropic",
+     "source": "Notes de version Claude (API)",
+     "lien": "https://platform.claude.com/docs/en/release-notes/overview",
+     "nb_sources": 1,
+     "primaire": true
+    },
+    {
+     "id": "3b58ffb304e7b1",
+     "date": "2026-11-05T22:17:15+00:00",
+     "titre": "Claude Code sends your email address to websites",
+     "neuf": "Un problème de sécurité et de confidentialité est signalé, Claude Code transmettant l'adresse e-mail des utilisateurs à des sites web.",
+     "fil": "Mise à jour et problèmes liés à Claude Code",
+     "source": "Hacker News (IA, 100+ pts)",
+     "lien": "https://github.com/anthropics/claude-code/issues/107757",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "b5fb3b3142a3da",
+     "date": "2026-11-06T06:45:17.192402+00:00",
+     "titre": "Nouvelles fonctionnalités de l'API Claude : gestion des utilisateurs et capacités des modèles",
+     "neuf": "L'API Claude s'enrichit de nouvelles options de contrôle administrateur et de champs de modèles améliorés.",
+     "fil": "Mises à jour des fonctionnalités et de l'API Claude",
+     "source": "Notes de version Claude (API)",
+     "lien": "https://platform.claude.com/docs/en/release-notes/overview",
+     "nb_sources": 1,
+     "primaire": true
+    }
+   ],
+   "statut": "active",
+   "societes": [
+    "anthropic"
+   ]
+  },
+  {
+   "id": "h_5e0762833f",
+   "titre": "Action en justice contre SpaceXAI",
+   "resume": "SpaceXAI poursuit l'extension massive de ses infrastructures (avec Colossus 2 et l'annonce de deux nouveaux centres de données à Southaven) tout en faisant face à des pressions juridiques et locales. Les autorités locales font notamment pression pour que l'entreprise augmente ses offres de rachat de logements auprès des riverains.",
+   "creee": "2026-10-20T20:45:07.920169+00:00",
+   "maj": "2026-11-06T04:48:00+00:00",
+   "episodes": [
+    {
+     "id": "54794aade42fd8",
+     "date": "2026-10-20T19:51:00+00:00",
+     "titre": "Une plainte en justice contre SpaceXAI autorisée à se poursuivre",
+     "neuf": "Un juge autorise la poursuite de la plainte visant l'entreprise.",
+     "fil": "action en justice contre SpaceXAI",
+     "source": "Grok et SpaceXAI (actus)",
+     "lien": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOUVI0SUp1dnBQTWNyRkZnSTJWdUx3Y05pM2ozaHJXMVFVZnpPUTNhYWVldGlaR3pEN21yQWdRdTgweWlmaDA0WlU1dllGRWRZVDZKMXZLdXNJNDV4dnNkdFNtcV9OaU1EU3ozdkR5SW50QmhKRWJIUmxCdHp5cjdiSldfTldEUi1zTE5nazhVTQ?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "f33d215c710570",
+     "date": "2026-10-21T21:33:47+00:00",
+     "titre": "Refus d'intervention du DOJ dans le procès SpaceXAI à Southaven",
+     "neuf": "Un tribunal bloque l'intervention du ministère de la Justice dans l'affaire SpaceXAI à Southaven.",
+     "fil": "le procès SpaceXAI",
+     "source": "Grok et SpaceXAI (actus)",
+     "lien": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQY3RCWlc5ZHUxWTM1V1JjTkhEWlN2Ny14eGZOaVhnSHRuTDR4OTlSQVdWbDBhbGtQdjBKSXhUOWd2dzEwblJqakNpaWd6OHN0VjdsdGFMSTVibUJHMXY3N25QTGhwMmk5Snh5LXg1R2FQS20wTUVLQzgtdWZmNlJTUkxFeDdScjBfaU5VYzljTGFKRkE?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "c3e2edb0d5b6e5",
+     "date": "2026-10-22T16:39:00+00:00",
+     "titre": "City of Memphis moves to ease truck traffic concerns near SpaceXAI supercomputer - FOX13 Memphis",
+     "neuf": "La ville de Memphis prend des mesures pour fluidifier le trafic des camions autour du supercalculateur SpaceXAI.",
+     "fil": "même projet et supercalculateur SpaceXAI à Memphis",
+     "source": "Grok et SpaceXAI (actus)",
+     "lien": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxPc1RNVTdqU2Fzc3dMUXlaUDJFTklDOGpKZVdrWFJJRkJWMVBzdTU1Ym9GTUFoYUFuTEJRZ1FuTldjWmNLeUVtUjlKSEVjc0Y5Sm45Y1JaTEQyWmlyTWNEc09OTnJUR2U0enpYTGFzX3hZcUdnUWFocW85MnNJbnQ2QTM2QWd3TmNOcW40QzREQzhLYXF1dkpXamhld3g1WEVsclZvLTJQNkpVR05kTmJ3bkdHWEIxenB2V2RFRzFJakNZODVkR1VDdHQ3UmFQSjk5WkFZa0UzWV9xdDlHVnRuME0yZXE0OUxqbUFPa2ZHdzRsaEtic0Vj?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "6451ac313e4eca",
+     "date": "2026-10-22T22:47:00+00:00",
+     "titre": "SpaceXAI visé par 6,1 millions de dollars d'amendes au Mississippi",
+     "neuf": "SpaceXAI écope de 6,1 millions de dollars d'amendes au Mississippi.",
+     "fil": "Mêmes poursuites et sanctions contre SpaceXAI",
+     "source": "Grok et SpaceXAI (actus)",
+     "lien": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOZEdkSEpTVk5FclA4TldnQ1g2QTNrdDBWNFlEZ1gtRlo4X3ZQdHM2SlBOYmlrVHNOWmIyaXh1bkUxenVnXzVPMHV4akx2TkQ0TWFkN1plY3dWcktwdVJCNnh0Smw0UEtCZW90QmliWEZRODJST2hIMzdJWXhVU1JET2pSdGZaUEUwRWlNMklKUFZTbTRUQjNrNVZLQjI1T01XUm5MZnBvMEtoVWEwendPNzlJcms0V1V2anlQci1YQmFlZ2M?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "9f9c516908c72b",
+     "date": "2026-10-25T09:44:33+00:00",
+     "titre": "220 millions de dollars de réclamations déposés contre SpaceXAI",
+     "neuf": "Le montant total des réclamations financières visant SpaceXAI s'élève désormais à 220 millions de dollars.",
+     "fil": "même action en justice et réclamations contre SpaceXAI",
+     "source": "Grok et SpaceXAI (actus)",
+     "lien": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPYkF5X2MwdVBzM05fUFpZTFM4eGRrZy15aDZCZTIxZWo5R2o1Z1FRX2VoRmJNVkpmVVNiZ3FiSGZUcndmT0RTN1lGRW1SZ3FWRzlWbGlGbzE2WWs3VU5IMDVURzFRaUdlWTNzTGJKTjJjVVBTUGRSa1RQOW9qUW1NYkZVMkZIajZCdkhVS1VCVEkxT0dHRzlGZllVU1lGdGJrVV9rV2FnaVY0OGJ0?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "6086659eeb90dd",
+     "date": "2026-10-27T23:22:02+00:00",
+     "titre": "AI Users Say SpaceXAI Can't Split, Arbitrate Slowdown Suit - Law360",
+     "neuf": "Les utilisateurs d'IA contestent la possibilité pour SpaceXAI d'imposer un arbitrage ou de diviser l'action en justice sur le ralentissement.",
+     "fil": "Mêmes poursuites judiciaires contre SpaceXAI",
+     "source": "Grok et SpaceXAI (actus)",
+     "lien": "https://news.google.com/rss/articles/CBMingFBVV95cUxOU2pSMWxJcHpmYUJpcGw5ZGVtbTdoY1o0Mk8tN0xTQTA2OXNwMkRteklTdE92ZGZCNkZ4TUhaYjItbUZiSVNUeUNxeWFTUjNyaVAxakNCT3UxQVVPU05KWnhxdHRVaS1wLVdRc0dNMnM0RzFLZDVXUGVTbUlsSVlIbXpYME9OcmxwdloxbjNSYnFmZFljdVk4dnh3SHI2Z9IBVkFVX3lxTE12a0RaaWFnTEE4WUtUWllzamEwVVNVV3phYThXaTg0LVNIenVKVHZxSjI3MjVXY1NBempuaFY4VDczLVpDTDRCYnMtazdUWEo0NkcwcEJn?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "fcb2d83fec74b4",
+     "date": "2026-10-28T12:25:56+00:00",
+     "titre": "SpaceXAI fait face à un litige de 220 millions de dollars devant un tribunal",
+     "neuf": "Un entrepreneur dépose un nouveau recours en justice concernant des contrats massifs liés à SpaceXAI.",
+     "fil": "Recours en justice de 220 millions de dollars lié à SpaceXAI",
+     "source": "Grok et SpaceXAI (actus)",
+     "lien": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPZGZhZzBzUkludm1qZjh5alB3U3ZmMk11Vm5SSXE4czNtVzFScUtJeGloVTdsTEF0UEMybGpjaEk5SUloUlBmN0NGNU0xU0RTN2p1RGZaOXNmZ0laNjVsdTFYR255ZkQwQkJueDNKUUtyV0ZiOF9zTEUwbHNsMUNjTVJZQlQwa2c?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "5283652bd524be",
+     "date": "2026-10-28T14:44:00+00:00",
+     "titre": "xAI is buying out homeowners who promise not to sue over data center noise",
+     "neuf": "xAI achète des résidences pour éviter de nouveaux recours en justice de riverains mécontents.",
+     "fil": "Mêmes poursuites judiciaires et litiges liés à xAI",
+     "source": "The Verge IA",
+     "lien": "https://www.theverge.com/ai-artificial-intelligence/1020596/xai-mississippi-neighborhood-data-center-lawsuit",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "9d449d2dca1151",
+     "date": "2026-10-31T18:56:21+00:00",
+     "titre": "Une plainte contre la pollution d'un centre de données xAI autorisée à progresser",
+     "neuf": "Un juge a autorisé la progression de la plainte de la NAACP contre les violations de la loi sur la qualité de l'air par le centre de données de xAI.",
+     "fil": "Poursuite en justice concernant la pollution et le centre de données xAI",
+     "source": "Grok et SpaceXAI (actus)",
+     "lien": "https://news.google.com/rss/articles/CBMihAFBVV95cUxONWZobnlmVnlwbk9rMk1yeUVabnE1QUdtdTVEWGR6UUkwYXEzWk9weVpLMWFtRWF2Ykd6SmpNalgtelBCZ0lBdkd6Vm1xcWhNNkNVM0ZKTW43TmZyUUtMb1pYZVY2V2VuaFh5dHdBakhBYllrQjY5bUhrOHpteVNRUWNaZFrSAYoBQVVfeXFMUHFJcmV4YzZNcTZ4dk5RX2YyQm1TWDhpSS1OemxNdFRkUHhFTEFDNHpueE1QejEzMGVQYUFwQXpNV2JaVmJzdlQ2TWFJNlJOYjFkckE3TFpHVHpMSWt4YlBzMkZUX0hSa295M2tHSkx5aUFDbjMwbDkxQlNhdnp1NlhYd21VOER5ZHZn?oc=5",
+     "nb_sources": 2,
+     "primaire": false
+    },
+    {
+     "id": "993a9a1a3b9941",
+     "date": "2026-11-01T10:30:00+00:00",
+     "titre": "SpaceXAI rachète des logements voisins de ses turbines au Mississippi",
+     "neuf": "SpaceXAI tente de racheter les maisons voisines de ses turbines au Mississippi pour éteindre des contentieux.",
+     "fil": "même expansion et contentieux liés aux centres de données SpaceXAI",
+     "source": "Grok et SpaceXAI (actus)",
+     "lien": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQcU8xaDdiMXVSZlQtc0F3TjJ4LWg4NklhT0IzZnhkeG9wUHI1SnVmc1Bra1pGMTZBV3U1bkR4QUNfeUMzQzRNRVhSYXdWSnlWOUR3ZnZtTDNRNVdVVWhrWHpSclpOWXhLWmZmRWNkdVV0d1NqV1Q4NU9yUW1YUDJJZnJ2b2w5c29WRHBCcjg0UjczUWs?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "71a4eb6e914067",
+     "date": "2026-11-01T13:25:00+00:00",
+     "titre": "SpaceXAI annonce deux nouveaux centres de données près de Southaven pour décembre",
+     "neuf": "SpaceXAI annonce deux nouveaux centres de données près de Southaven pour décembre.",
+     "fil": "même expansion et contentieux liés aux centres de données SpaceXAI",
+     "source": "Grok et SpaceXAI (actus)",
+     "lien": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNQ01nUXZuUzBvWmdGVEZyWXNnZjVFazdrNVM3SmIwdEV1TFk2WFI5YXMxaXJ2c3ZORkVCNWJtRHlmZXJheVpJMG12OW5HVjhsS2Q4ODhwSlR4a3VQaEhhSUFHT2p3RWFNeFgyUXQ0UkYxTXhWSnpBaktVRUZwMkVkRi1GSDdhU3NQcXhpLXlRMllNZw?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "40ba5b596e08e5",
+     "date": "2026-11-01T20:15:00+00:00",
+     "titre": "Un juge autorise la plainte de la NAACP contre SpaceXAI",
+     "neuf": "Un juge autorise l'action en justice intentée par la NAACP contre SpaceXAI dans le cadre du Clean Air Act.",
+     "fil": "Poursuites judiciaires contre SpaceXAI",
+     "source": "Grok et SpaceXAI (actus)",
+     "lien": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPZEszakpvSHd1QzBibmFWTFRMZ2RFUjVrbUlnWmMzc0tVeFVVOXExR0dWLTlCQ1lKblFiVXBZeUNwZG8tSm9iVTV1aEt5VWVxZWpLalVPeXNtZmI3b2F6dWFMVFpRNFdvSWs5V1pCaklHLWQ1emR5WUZtS1ZRUXJhemZuelAxUUd1QnpmNHA0UlRpdw?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "793a10ab1713b3",
+     "date": "2026-11-02T18:00:00+00:00",
+     "titre": "Une action en justice contre SpaceXAI autorisée par un juge fédéral",
+     "neuf": "Un juge fédéral confirme officiellement l'autorisation de la plainte en justice visant SpaceXAI.",
+     "fil": "Même action en justice contre SpaceXAI autorisée par un juge",
+     "source": "Grok et SpaceXAI (actus)",
+     "lien": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNVmlYeF9DdkFhcWxxc3M3T0ZzUUZVcmZTNWRZUlJILVpYZGdhQ3l4Q2FSRWVINnlkZDNtR2dOWTE5Q0E4YlRzOFdib3RCVGVGUkx4aXZkSjVMVmZodlRGX0hGYnNSU1Z6dUpXZ18wNHlhNy1sUGZsYklPMVNmOUFDSGJVQ2NtYVhZWERTc2xFOW1GSEtqdU1HdURqVWQ0bDU0eG1wZHRmT1VSZm41UHpDMW9TVFdPYlQwejJqMGZVdw?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "afb596fd13588c",
+     "date": "2026-11-02T18:11:10+00:00",
+     "titre": "SpaceXAI lance deux nouveaux campus de centres de données pour étendre Colossus 2",
+     "neuf": "SpaceXAI étend son infrastructure en implantant deux nouveaux campus dans le Mississippi pour Colossus 2.",
+     "fil": "même extension des centres de données et campus de SpaceXAI",
+     "source": "Grok et SpaceXAI (actus)",
+     "lien": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNUWVxVk5HSVNyU2EyNS1lUDVCM3BjTlRYd2xRM1VNc0d3ek9aRWhTcl9TLWNyZ3dOSjBKX3BiR2JUQ0NCRmlUNERwZU13SnRjaHdDOHZYZm01ZGtyODlMNm1EWTRmeVZ5WkpxSVRWM0ZvOVllcWtoVTN2M0l1RTg4ODRMdmlMaWxyU0ZwcnF6bDZ4TnRQQjZrSGNveEJFRFJGWW9xTWg5QVhBQ0NRMUtDWXpEc3B1TmdqSWNIS2FlRnZmckZITDlfYTlTamt6Y21vSGdqdHlHZjl5UQ?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "db116ea22a887b",
+     "date": "2026-11-04T10:30:00+00:00",
+     "titre": "SpaceXAI surclasse OpenAI avec son supercalculateur Colossus 2",
+     "neuf": "SpaceXAI surclasse OpenAI en puissance de calcul grâce au supercalculateur Colossus 2 installé à Memphis.",
+     "fil": "Supercalculateur Colossus 2 de SpaceXAI",
+     "source": "Grok et SpaceXAI (actus)",
+     "lien": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9uOGNVMDRUcHZKZG1tSEVjZklubTFSdkhfMHh4aVBjeWthUWs4TVhyNWcxamJ4N0NuVXFsbnhhVUNNakhKWjJvYzdlb2dnWG4zZnhvdjFWUngwT1FsamZPNGFCYndCbUtmemtyMg?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "d1902967088b42",
+     "date": "2026-11-05T12:00:00+00:00",
+     "titre": "DeSoto County asking SpaceXAI to increase buyout offers - DeSoto Times-Tribune",
+     "neuf": "Le comté de DeSoto demande à SpaceXAI d'augmenter ses offres de rachat de logements pour les riverains touchés par l'expansion.",
+     "fil": "Extension de SpaceXAI et gestion des logements voisins",
+     "source": "Grok et SpaceXAI (actus)",
+     "lien": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOT3pxVGhvbXpkMW03bGZIQ05Sb0tWb3NQNWk3Nzh1TkcxNTlyelBjSmZFMDRvc0F0MFlQMDZfNTBpLWJZZ1h3YnhGZDY1OVkycXZFcjBQdW9oc25UYkY5Rk9KTVZyaEFiSGkxYmV6NHlGT3lZd1Awc0VYVWk2bG9lOGw5ZGllejcxd3dXYUxQRWdfZGZtaXBQRlZseGJYZVJZbHNLXzlTeE1WR1I3djR6SmtHR3NGQ2taMTNMQnFPRzgwUlVhUVBOcnV6MDM1SGRvbUx6Nw?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "da4aa470b3bc19",
+     "date": "2026-11-06T04:48:00+00:00",
+     "titre": "SpaceXAI to build 2 more AI data centers in Southaven - Action News 5",
+     "neuf": "SpaceXAI poursuit son expansion massive en prévoyant la construction de deux nouveaux centres de données d'IA à Southaven.",
+     "fil": "Extension des infrastructures et des centres de données de SpaceXAI",
+     "source": "Grok et SpaceXAI (actus)",
+     "lien": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQTlYwWHRkcl9yY0JqNnBUUFkyY2c2cDNZMXBrUDVUdlZKVFY5VUVtLXZjTzQ3dWZsazNhdGpQZ3NvV0h3d2p3TmJyaGxaMUFKTjZxaWZWTTM4YTM1MFZUMmNETzNHbDJ2dUI2Y01XQUUtZzV2VURfOUNwUzJJUVZTZ05iaG12VXRINnFVa3BrcXTSAaQBQVVfeXFMTnpnNjJYLUNyMHlUZW9qN0FzVGk4YXFiNFdnZjRNN1lfSTJIRXRiS2dPMGNUNi0xWjFkV011d09YMXRuRVFIQ3FKbW1NYlZuNnZNdTlXLWM1V2x3TndqS0hqSndpQTZVZzRfVDNOd095M1hUb0lCVDRDYm00b05RRWFUUHZHNXRnemNFSjN5LXZJeFlBWkw5UV9OdE5Sc2VmLVljZzM?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    }
+   ],
+   "statut": "active",
+   "societes": [
+    "spacexai",
     "openai"
    ]
   },
@@ -2500,228 +2803,39 @@
    ]
   },
   {
-   "id": "h_af62aa771a",
-   "titre": "Qwen4 : fenêtres de contexte d'un million de tokens",
-   "resume": "Alibaba prépare le lancement de sa nouvelle génération Qwen4, dont de multiples variantes ont fuité via son dépôt de code, tandis que la communauté discute activement des améliorations attendues sur la gestion des contextes ultra-longs.",
-   "creee": "2026-10-29T04:56:04.658807+00:00",
-   "maj": "2026-11-04T23:35:49+00:00",
+   "id": "h_e912928726",
+   "titre": "PDRVLA : modèle robotique avec dynamique physique",
+   "resume": "Les modèles orientés vers la robotique et l'IA physique progressent avec des approches comme PDRVLA et la nouvelle méthode VFlash de NVIDIA, qui optimisent la planification visuelle et la dynamique physique.",
+   "creee": "2026-10-28T16:59:03.629060+00:00",
+   "maj": "2026-11-04T19:00:00+00:00",
    "episodes": [
     {
-     "id": "1fe7d47e633144",
-     "date": "2026-10-29T01:42:55+00:00",
-     "titre": "Les futurs modèles Qwen4 d'Alibaba intègreront une fenêtre de contexte d'un million de tokens",
-     "neuf": "Annonce de la prochaine génération Qwen4 dotée d'une grande fenêtre de contexte.",
-     "fil": "futurs modèles Qwen4",
-     "source": "r/LocalLLaMA",
-     "lien": "https://www.reddit.com/r/LocalLLaMA/comments/1xi7390/qwen4_1m_context_window/",
-     "nb_sources": 1,
-     "primaire": false
-    },
-    {
-     "id": "cffbb463e4f8a3",
-     "date": "2026-10-29T09:25:47+00:00",
-     "titre": "Alibaba Cloud annonce le lancement de Qwen4 pour la semaine prochaine",
-     "neuf": "Alibaba Cloud annonce le lancement imminent de la gamme Qwen4 dès la semaine prochaine.",
-     "fil": "Même prochaine génération Qwen4 d'Alibaba",
-     "source": "r/LocalLLaMA",
-     "lien": "https://www.reddit.com/r/LocalLLaMA/comments/1xif6lf/apsara_conference_qwen4_next_week/",
-     "nb_sources": 1,
-     "primaire": false
-    },
-    {
-     "id": "f4fe6be4459876",
-     "date": "2026-10-29T09:48:21+00:00",
-     "titre": "Worried about Qwen 4 License",
-     "neuf": "Des interrogations émergent quant au passage potentiel de licences permissives à une licence personnalisée pour Qwen4.",
-     "fil": "même famille de modèles Qwen4",
-     "source": "r/LocalLLaMA",
-     "lien": "https://www.reddit.com/r/LocalLLaMA/comments/1xifjn2/worried_about_qwen_4_license/",
-     "nb_sources": 1,
-     "primaire": false
-    },
-    {
-     "id": "101c4725a5f3b4",
-     "date": "2026-10-30T15:29:46+00:00",
-     "titre": "Copium Prediction: Google and other major labs will drop new local models over the next few days so they can lead on benchmarks until Qwen 4 sweeps them next week.",
-     "neuf": "La communauté anticipe l'arrivée imminente de Qwen4 et la sortie potentielle de modèles concurrents de dernière minute.",
-     "fil": "même sortie imminente de Qwen4",
-     "source": "r/LocalLLaMA",
-     "lien": "https://www.reddit.com/r/LocalLLaMA/comments/1xjigxg/copium_prediction_google_and_other_major_labs/",
-     "nb_sources": 1,
-     "primaire": false
-    },
-    {
-     "id": "cc42ceb1acf66b",
-     "date": "2026-11-02T14:47:55+00:00",
-     "titre": "Qwen 4 When ?",
-     "neuf": "La communauté s'interroge sur le calendrier exact de sortie des modèles Qwen 4 au début du mois.",
-     "fil": "même projet de modèles Qwen4",
-     "source": "r/LocalLLaMA",
-     "lien": "https://www.reddit.com/r/LocalLLaMA/comments/1xlz5dz/qwen_4_when/",
-     "nb_sources": 1,
-     "primaire": false
-    },
-    {
-     "id": "df00c1566c60d0",
-     "date": "2026-11-02T16:42:32+00:00",
-     "titre": "Alibaba confirme que les futurs modèles Qwen resteront open source",
-     "neuf": "Alibaba confirme officiellement que les futurs modèles Qwen 4.0 et 5.0 resteront open-weight.",
-     "fil": "même gamme Qwen",
-     "source": "r/LocalLLaMA",
-     "lien": "https://www.reddit.com/r/LocalLLaMA/comments/1xm28e6/official_statement_qwen_models_will_stick_to_open/",
-     "nb_sources": 1,
-     "primaire": false
-    },
-    {
-     "id": "32dd2744d022c8",
-     "date": "2026-11-02T18:21:04+00:00",
-     "titre": "Attente fébrile de Qwen 4 par la communauté open source",
-     "neuf": "La communauté open source intensifie son attente impatiente autour du lancement imminent des futurs modèles Qwen 4.",
-     "fil": "Même attente autour de la sortie des modèles Qwen 4",
-     "source": "r/LocalLLaMA",
-     "lien": "https://www.reddit.com/r/LocalLLaMA/comments/1xm506n/am_i_the_only_one_who_frequently_opens_this/",
-     "nb_sources": 1,
-     "primaire": false
-    },
-    {
-     "id": "514f697a71c5ca",
-     "date": "2026-11-02T22:24:18+00:00",
-     "titre": "Nouvelle méthode d'attention parcimonieuse pour contextes ultra-longs chez Alibaba Qwen",
-     "neuf": "Une nouvelle méthode permet de sparsifier l'attention de Qwen jusqu'à 10 millions de tokens.",
-     "fil": "Optimisation de l'attention et des contextes ultra-longs chez Alibaba Qwen",
-     "source": "r/LocalLLaMA",
-     "lien": "https://www.reddit.com/r/LocalLLaMA/comments/1xmbj0v/new_sparse_attention_method_for_ultralong_context/",
-     "nb_sources": 1,
-     "primaire": false
-    },
-    {
-     "id": "c26e87e95d1cfd",
-     "date": "2026-11-03T03:55:43+00:00",
-     "titre": "Alibaba's Qwen Code repo just leaked qwen4-max, qwen4-coder-plus, and qwen4-omni-120b",
-     "neuf": "Le dépôt Qwen Code d'Alibaba fuite et révèle l'existence de plusieurs variantes de la gamme Qwen4 (max, coder-plus, omni-120b).",
-     "fil": "Fuite du dépôt Qwen Code mentionnant Qwen4",
-     "source": "r/LocalLLaMA",
-     "lien": "https://www.reddit.com/r/LocalLLaMA/comments/1xmitzx/alibabas_qwen_code_repo_just_leaked_qwen4max/",
-     "nb_sources": 1,
-     "primaire": false
-    },
-    {
-     "id": "ab742794cf5a5a",
-     "date": "2026-11-04T23:35:49+00:00",
-     "titre": "What are you looking forward to in Qwen 4?",
-     "neuf": "La communauté s'interroge sur les spécifications exactes de Qwen 4, notamment sur l'efficacité des fenêtres de contexte et des kv-caches.",
-     "fil": "Attentes de la communauté concernant les fonctionnalités et l'efficacité des KV pour Qwen 4",
-     "source": "r/LocalLLaMA",
-     "lien": "https://www.reddit.com/r/LocalLLaMA/comments/1xo3ikc/what_are_you_looking_forward_to_in_qwen_4/",
-     "nb_sources": 1,
-     "primaire": false
-    }
-   ],
-   "statut": "active",
-   "societes": [
-    "alibaba",
-    "google"
-   ]
-  },
-  {
-   "id": "h_67e5d1cbff",
-   "titre": "MiniMax M3.1 Flash : annonce et publication des poids",
-   "resume": "L'écosystème Unsloth s'enrichit de nouvelles fonctionnalités, de thèmes personnalisables, d'une gestion améliorée du navigateur pour les agents et de performances de génération optimisées.",
-   "creee": "2026-10-20T09:56:16.457937+00:00",
-   "maj": "2026-11-04T18:21:49+00:00",
-   "episodes": [
-    {
-     "id": "e9dbb9f1437361",
-     "date": "2026-10-19T10:05:08+00:00",
-     "titre": "Sortie de MiniMax M3.1 Flash avec poids prévus le 23 octobre",
-     "neuf": "Annonce de la sortie de MiniMax M3.1 Flash avec une publication des poids prévue pour le 23 octobre.",
-     "fil": "même modèle MiniMax M3.1 Flash",
-     "source": "r/LocalLLaMA",
-     "lien": "https://www.reddit.com/r/LocalLLaMA/comments/1x9suvs/minimaxm31flash_is_coming/",
-     "nb_sources": 2,
-     "primaire": false
-    },
-    {
-     "id": "96564b8d90d1a2",
-     "date": "2026-10-19T18:09:15+00:00",
-     "titre": "MiniMax M3.1 Flash : 3 fois plus rapide et 70 % moins cher",
-     "neuf": "Le modèle MiniMax M3.1 Flash confirme ses gains de performance avec une exécution trois fois plus rapide et moins coûteuse.",
-     "fil": "Même modèle MiniMax M3.1 Flash",
-     "source": "Grandes annonces IA",
-     "lien": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9VUnVhRFpRZlQyLXJoRnAyUkpYM3BTU1QzZDVQd0h0eW5JWUtEYm5tZFJSYUt3YzFDZm5qX0V2UGg3bl95MXl3YnM2SHhfbHhDb0hFZ04tVlZIS190U01uZlZHazNVQjQ?oc=5",
-     "nb_sources": 1,
-     "primaire": false
-    },
-    {
-     "id": "52ff6254bd0323",
-     "date": "2026-10-26T14:47:35+00:00",
-     "titre": "Unsloth v0.1-beta : tâches planifiées et support de MiniMax-M3.1-Flash",
-     "neuf": "Unsloth intègre le support du modèle MiniMax M3.1 Flash en version GGUF.",
-     "fil": "Même modèle MiniMax M3.1 Flash",
-     "source": "Unsloth",
-     "lien": "https://github.com/unslothai/unsloth/releases/tag/v0.1.911-beta",
+     "id": "58aa19cf312cfa",
+     "date": "2026-10-26T20:00:00+00:00",
+     "titre": "PDRVLA : un modèle robotique intégrant la dynamique physique",
+     "neuf": "Développement de PDRVLA, un modèle intégrant la dynamique physique pour améliorer la précision des robots.",
+     "fil": "Modèle robotique PDRVLA",
+     "source": "Hugging Face Papers",
+     "lien": "https://huggingface.co/papers/2610.37381",
      "nb_sources": 1,
      "primaire": true
     },
     {
-     "id": "6a9fc2bc9168ec",
-     "date": "2026-10-26T15:04:30+00:00",
-     "titre": "Unsloth v0.1.911-beta : Tâches planifiées et gains de performance",
-     "neuf": "La mise à jour d'Unsloth apporte de nouvelles optimisations pour l'écosystème de modèles pris en charge.",
-     "fil": "Même modèle MiniMax M3.1 Flash",
-     "source": "Unsloth",
-     "lien": "https://github.com/unslothai/unsloth/releases/tag/v0.1.911-beta",
-     "nb_sources": 1,
-     "primaire": true
-    },
-    {
-     "id": "1c4836656bcc33",
-     "date": "2026-10-28T14:50:25+00:00",
-     "titre": "Unsloth v0.1.912 : multi-LoRA, lancements plus rapides et SGLang",
-     "neuf": "Unsloth déploie sa version v0.1.912 pour accélérer les lancements et l'entraînement via le batching multi-LoRA.",
-     "fil": "même écosystème Unsloth",
-     "source": "Unsloth",
-     "lien": "https://github.com/unslothai/unsloth/releases/tag/v0.1.912-beta",
-     "nb_sources": 1,
-     "primaire": true
-    },
-    {
-     "id": "b32a65ea9254ec",
-     "date": "2026-10-30T15:10:31+00:00",
-     "titre": "Unsloth v0.1.913 : performances accrues et personnalisation de l'interface",
-     "neuf": "Unsloth passe à la version v0.1.913 en améliorant les performances graphiques et en ajoutant le support de nouveaux modèles.",
-     "fil": "même outil Unsloth",
-     "source": "Unsloth",
-     "lien": "https://github.com/unslothai/unsloth/releases/tag/v0.1.913-beta",
-     "nb_sources": 1,
-     "primaire": true
-    },
-    {
-     "id": "fd32dce3d08ea0",
-     "date": "2026-11-03T14:45:47+00:00",
-     "titre": "Unsloth Glass Theme, Personalize & Faster Generation",
-     "neuf": "Mise à jour d'Unsloth apportant de nouveaux thèmes, des options de personnalisation et des gains de vitesse de génération.",
-     "fil": "même écosystème Unsloth",
-     "source": "Unsloth",
-     "lien": "https://github.com/unslothai/unsloth/releases/tag/v0.1.914-beta",
-     "nb_sources": 1,
-     "primaire": true
-    },
-    {
-     "id": "4d58ad752849a8",
-     "date": "2026-11-04T18:21:49+00:00",
-     "titre": "Unsloth : nouvelles fonctionnalités, thèmes Glass et agent web intégré",
-     "neuf": "Unsloth met à jour sa plateforme avec des agents web et des performances améliorées.",
-     "fil": "Même plateforme Unsloth",
-     "source": "Unsloth",
-     "lien": "https://github.com/unslothai/unsloth/releases/tag/v0.1.915-beta",
+     "id": "fd7a50a2cab241",
+     "date": "2026-11-04T19:00:00+00:00",
+     "titre": "VFlash: Fast, Accurate Visual Planning via Flash Primitive Decoding",
+     "neuf": "NVIDIA publie VFlash pour une planification visuelle rapide via le décodage de primitives flash pour la robotique.",
+     "fil": "même approche de modélisation pour la robotique et l'IA physique",
+     "source": "Hugging Face Papers",
+     "lien": "https://huggingface.co/papers/2611.08449",
      "nb_sources": 1,
      "primaire": true
     }
    ],
    "statut": "active",
    "societes": [
-    "ollama"
+    "huggingface",
+    "nvidia"
    ]
   },
   {
@@ -2930,6 +3044,107 @@
    "societes": [
     "anthropic",
     "nvidia"
+   ]
+  },
+  {
+   "id": "h_f5d527a7f4",
+   "titre": "Suspension du partage de conversations Muse de Meta",
+   "resume": "Meta fait face à des critiques persistantes et sévères d'anciens cadres concernant les risques majeurs pour la vie privée posés par son assistant Muse.",
+   "creee": "2026-10-20T20:45:07.920169+00:00",
+   "maj": "2026-11-04T12:50:00+00:00",
+   "episodes": [
+    {
+     "id": "e8cf0a7f34e534",
+     "date": "2026-10-06T07:00:00+00:00",
+     "titre": "L'agent IA Muse de Meta construirait un dossier personnel sur les utilisateurs",
+     "neuf": "L'agent Muse est accusé de constituer un dossier personnel sur ses utilisateurs, alimentant les inquiétudes sur la confidentialité.",
+     "fil": "même assistant Muse de Meta et problèmes de vie privée",
+     "source": "Vie privée et assistants IA",
+     "lien": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5MR3ZoNkVqVlVoaDFQVzJoUTcxTS1lOG5uSWJ4bUlUSi1OVk5sd0Y5TG5TdXVHbnJpaG10T3I2ZC1UcDRCTTBkS1MwNWQ4Vm9aQU1TMFhLTGVSYUZaYUt1T1RNRElhcW5Xa2g4XzZ5dDY?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "9a5e7abe2fcb3f",
+     "date": "2026-10-12T07:00:00+00:00",
+     "titre": "L'IA Muse de Meta et la constitution de dossiers utilisateurs",
+     "neuf": "L'article met en lumière la constitution potentielle de dossiers utilisateurs par l'IA Muse de Meta.",
+     "fil": "même assistant Muse de Meta et gestion des données personnelles",
+     "source": "Vie privée et assistants IA",
+     "lien": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPNEFod1lRQ0F2cW1BaERBVFZiVUloaXRHLXVRVW55SjNVWUp4dXVrMmdVT2tWS0Q0Y3dEbkN1djVhUnJ1UTJ4TS1PaW9jeHpGUTNwZDlUVjV2VUI0SW9oaGNRcFdaQmZDMDRQV2RsbEkwX3VfQkc5SkhmTnkyN044ek5QTTVnUkNZLTlKckMzRUhEaWhOVkx5X3VaS2FwSEhaSmU5ZE53?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "f52190a49967b6",
+     "date": "2026-10-20T18:07:34+00:00",
+     "titre": "Meta suspend le partage de conversations Muse après une fuite de liens",
+     "neuf": "Suspension de la fonctionnalité après une fuite de liens indexés sur le web.",
+     "fil": "partage de conversations Muse",
+     "source": "The Verge IA",
+     "lien": "https://www.theverge.com/tech/1014627/meta-muse-ai-sharing-ai-chats",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "bc64ee5c5ed48d",
+     "date": "2026-10-21T08:00:00+00:00",
+     "titre": "L'agent IA de Meta conclut une vente sur Marketplace et divulgue une adresse",
+     "neuf": "L'agent Muse de Meta commet une nouvelle bévue en divulguant une adresse personnelle lors d'une vente sur Marketplace.",
+     "fil": "même assistant Muse de Meta et incidents liés à sa gestion de données privées",
+     "source": "Vie privée et assistants IA",
+     "lien": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBBZ0ozS2k0VFljMURVQjNMRXF4ZHVyQThJVEMwNUhmcTR4eWQ5WDQ5SEpWckFVOEtKNlZGMzdpWnVOQjE4bjN2cTZkdlJTUGRBS2JoWGxvNllnSVJtWUU2bGoyYi1fdDF4YnQwMVh4RkdnZVp6ZUlNd3NqNlFudG8?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "21039cf5358633",
+     "date": "2026-10-21T21:14:19+00:00",
+     "titre": "Meta annonce que son application Muse dépasse les 10 millions d'utilisateurs",
+     "neuf": "L'application Muse franchit le cap des 10 millions d'utilisateurs grâce aux usages liés au shopping.",
+     "fil": "l'application Muse de Meta",
+     "source": "TechCrunch IA",
+     "lien": "https://techcrunch.com/2026/10/21/meta-says-muse-has-over-10m-users-with-shopping-a-top-activity/",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "f208affe487762",
+     "date": "2026-10-22T12:00:04+00:00",
+     "titre": "L'IA Muse de Meta séduit les personnes âgées, inquiétant les experts",
+     "neuf": "L'application Muse rencontre un succès particulier auprès des adultes âgés, ce qui inquiète les experts en protection de la vie privée.",
+     "fil": "Même application Muse de Meta",
+     "source": "Vie privée et assistants IA",
+     "lien": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBBVWVYNkMweW9aM3VpcGl5ekhoRjdSYm5aM0xOVTdKOU1yOGU5TGhma29lckk4eXdDQjZaODAwVGpRWFE5OW1VNUpqckV5NVdydk0xZnh2VzNuWnM0NjB3VHN5ZFJyTFVwSEpGXzZDcDJZenZXc3c?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "395510eea98218",
+     "date": "2026-10-27T16:58:02+00:00",
+     "titre": "L'agent IA de Meta peut accéder aux messages privés même sans utilisation directe",
+     "neuf": "De nouvelles critiques pointent la capacité potentielle de l'agent Muse de Meta à accéder aux messages privés même en l'absence d'utilisation active.",
+     "fil": "même assistant IA Muse de Meta",
+     "source": "Vie privée et assistants IA",
+     "lien": "https://news.google.com/rss/articles/CBMie0FVX3lxTE80VFppWE9uYV84WDBxQlZDWmdBejJ2VjMtMzVxSi10aTNiSHJXWTk3NzI5djZEYWVFb1NzZi11aVBsRVlnYW8yeXFWY0Nqb1ZvQjl0dDM2RlJjYVFwNzlRZURRWk9yZHhjbmNDZmZRWjhjQ0lSQ0VoZUhZaw?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "55d2a0dd3c1c33",
+     "date": "2026-11-04T12:50:00+00:00",
+     "titre": "Former Meta Exec Shreds the Company’s Muse AI Agent as “Insane” Privacy Risk - Futurism",
+     "neuf": "Un ancien dirigeant de Meta qualifie publiquement l'agent Muse de risque 'insensé' pour la vie privée.",
+     "fil": "même assistant Muse et controverses sur la vie privée",
+     "source": "Vie privée et assistants IA",
+     "lien": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQeVIzaUQyLVVFSWhJT0J2dndyV3NsMjMzczR2dWhtTmk2UFRkUDhJWjQ2Y1N5X3JQZ2NDWk9RQUhFNHVSTXlmU3BsRmVIMHNjVDhIbUZPN2VqSmx4d3VzbHJDNUc2bGt6c0JVRWVLOU9jREU5OFpsQlJOV1hnNkdtN3o4UFFXY09CSEE?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    }
+   ],
+   "statut": "active",
+   "societes": [
+    "meta"
    ]
   },
   {
@@ -5708,96 +5923,6 @@
    ]
   },
   {
-   "id": "h_f5d527a7f4",
-   "titre": "Suspension du partage de conversations Muse de Meta",
-   "resume": "Meta fait face à des controverses persistantes concernant la protection de la vie privée avec son assistant Muse. Les récentes fonctionnalités de partage et de collecte de données suscitent de vives inquiétudes.",
-   "creee": "2026-10-20T20:45:07.920169+00:00",
-   "maj": "2026-10-27T16:58:02+00:00",
-   "episodes": [
-    {
-     "id": "e8cf0a7f34e534",
-     "date": "2026-10-06T07:00:00+00:00",
-     "titre": "L'agent IA Muse de Meta construirait un dossier personnel sur les utilisateurs",
-     "neuf": "L'agent Muse est accusé de constituer un dossier personnel sur ses utilisateurs, alimentant les inquiétudes sur la confidentialité.",
-     "fil": "même assistant Muse de Meta et problèmes de vie privée",
-     "source": "Vie privée et assistants IA",
-     "lien": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5MR3ZoNkVqVlVoaDFQVzJoUTcxTS1lOG5uSWJ4bUlUSi1OVk5sd0Y5TG5TdXVHbnJpaG10T3I2ZC1UcDRCTTBkS1MwNWQ4Vm9aQU1TMFhLTGVSYUZaYUt1T1RNRElhcW5Xa2g4XzZ5dDY?oc=5",
-     "nb_sources": 1,
-     "primaire": false
-    },
-    {
-     "id": "9a5e7abe2fcb3f",
-     "date": "2026-10-12T07:00:00+00:00",
-     "titre": "L'IA Muse de Meta et la constitution de dossiers utilisateurs",
-     "neuf": "L'article met en lumière la constitution potentielle de dossiers utilisateurs par l'IA Muse de Meta.",
-     "fil": "même assistant Muse de Meta et gestion des données personnelles",
-     "source": "Vie privée et assistants IA",
-     "lien": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPNEFod1lRQ0F2cW1BaERBVFZiVUloaXRHLXVRVW55SjNVWUp4dXVrMmdVT2tWS0Q0Y3dEbkN1djVhUnJ1UTJ4TS1PaW9jeHpGUTNwZDlUVjV2VUI0SW9oaGNRcFdaQmZDMDRQV2RsbEkwX3VfQkc5SkhmTnkyN044ek5QTTVnUkNZLTlKckMzRUhEaWhOVkx5X3VaS2FwSEhaSmU5ZE53?oc=5",
-     "nb_sources": 1,
-     "primaire": false
-    },
-    {
-     "id": "f52190a49967b6",
-     "date": "2026-10-20T18:07:34+00:00",
-     "titre": "Meta suspend le partage de conversations Muse après une fuite de liens",
-     "neuf": "Suspension de la fonctionnalité après une fuite de liens indexés sur le web.",
-     "fil": "partage de conversations Muse",
-     "source": "The Verge IA",
-     "lien": "https://www.theverge.com/tech/1014627/meta-muse-ai-sharing-ai-chats",
-     "nb_sources": 1,
-     "primaire": false
-    },
-    {
-     "id": "bc64ee5c5ed48d",
-     "date": "2026-10-21T08:00:00+00:00",
-     "titre": "L'agent IA de Meta conclut une vente sur Marketplace et divulgue une adresse",
-     "neuf": "L'agent Muse de Meta commet une nouvelle bévue en divulguant une adresse personnelle lors d'une vente sur Marketplace.",
-     "fil": "même assistant Muse de Meta et incidents liés à sa gestion de données privées",
-     "source": "Vie privée et assistants IA",
-     "lien": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBBZ0ozS2k0VFljMURVQjNMRXF4ZHVyQThJVEMwNUhmcTR4eWQ5WDQ5SEpWckFVOEtKNlZGMzdpWnVOQjE4bjN2cTZkdlJTUGRBS2JoWGxvNllnSVJtWUU2bGoyYi1fdDF4YnQwMVh4RkdnZVp6ZUlNd3NqNlFudG8?oc=5",
-     "nb_sources": 1,
-     "primaire": false
-    },
-    {
-     "id": "21039cf5358633",
-     "date": "2026-10-21T21:14:19+00:00",
-     "titre": "Meta annonce que son application Muse dépasse les 10 millions d'utilisateurs",
-     "neuf": "L'application Muse franchit le cap des 10 millions d'utilisateurs grâce aux usages liés au shopping.",
-     "fil": "l'application Muse de Meta",
-     "source": "TechCrunch IA",
-     "lien": "https://techcrunch.com/2026/10/21/meta-says-muse-has-over-10m-users-with-shopping-a-top-activity/",
-     "nb_sources": 1,
-     "primaire": false
-    },
-    {
-     "id": "f208affe487762",
-     "date": "2026-10-22T12:00:04+00:00",
-     "titre": "L'IA Muse de Meta séduit les personnes âgées, inquiétant les experts",
-     "neuf": "L'application Muse rencontre un succès particulier auprès des adultes âgés, ce qui inquiète les experts en protection de la vie privée.",
-     "fil": "Même application Muse de Meta",
-     "source": "Vie privée et assistants IA",
-     "lien": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBBVWVYNkMweW9aM3VpcGl5ekhoRjdSYm5aM0xOVTdKOU1yOGU5TGhma29lckk4eXdDQjZaODAwVGpRWFE5OW1VNUpqckV5NVdydk0xZnh2VzNuWnM0NjB3VHN5ZFJyTFVwSEpGXzZDcDJZenZXc3c?oc=5",
-     "nb_sources": 1,
-     "primaire": false
-    },
-    {
-     "id": "395510eea98218",
-     "date": "2026-10-27T16:58:02+00:00",
-     "titre": "L'agent IA de Meta peut accéder aux messages privés même sans utilisation directe",
-     "neuf": "De nouvelles critiques pointent la capacité potentielle de l'agent Muse de Meta à accéder aux messages privés même en l'absence d'utilisation active.",
-     "fil": "même assistant IA Muse de Meta",
-     "source": "Vie privée et assistants IA",
-     "lien": "https://news.google.com/rss/articles/CBMie0FVX3lxTE80VFppWE9uYV84WDBxQlZDWmdBejJ2VjMtMzVxSi10aTNiSHJXWTk3NzI5djZEYWVFb1NzZi11aVBsRVlnYW8yeXFWY0Nqb1ZvQjl0dDM2RlJjYVFwNzlRZURRWk9yZHhjbmNDZmZRWjhjQ0lSQ0VoZUhZaw?oc=5",
-     "nb_sources": 1,
-     "primaire": false
-    }
-   ],
-   "statut": "active",
-   "societes": [
-    "meta"
-   ]
-  },
-  {
    "id": "h_10504b6ddc",
    "titre": "MiniCPM-OCR-1.0 : modèle open source d'analyse de documents",
    "resume": "OpenBMB lance MiniCPM-OCR 1.0 (1,3B), un modèle léger et performant optimisé pour l'analyse de documents et l'extraction de données complexes, complété par un modèle juge.",
@@ -5895,7 +6020,7 @@
      "primaire": false
     }
    ],
-   "statut": "active",
+   "statut": "en sommeil",
    "societes": [
     "openai"
    ]
@@ -5955,30 +6080,6 @@
    "statut": "en sommeil",
    "societes": [
     "openai"
-   ]
-  },
-  {
-   "id": "h_e912928726",
-   "titre": "PDRVLA : modèle robotique avec dynamique physique",
-   "resume": "PDRVLA améliore la précision des robots en extrayant des tokens de dynamique physique directement sans générer de vidéos en temps réel.",
-   "creee": "2026-10-28T16:59:03.629060+00:00",
-   "maj": "2026-10-26T20:00:00+00:00",
-   "episodes": [
-    {
-     "id": "58aa19cf312cfa",
-     "date": "2026-10-26T20:00:00+00:00",
-     "titre": "PDRVLA : un modèle robotique intégrant la dynamique physique",
-     "neuf": "Développement de PDRVLA, un modèle intégrant la dynamique physique pour améliorer la précision des robots.",
-     "fil": "Modèle robotique PDRVLA",
-     "source": "Hugging Face Papers",
-     "lien": "https://huggingface.co/papers/2610.37381",
-     "nb_sources": 1,
-     "primaire": true
-    }
-   ],
-   "statut": "en sommeil",
-   "societes": [
-    "huggingface"
    ]
   },
   {

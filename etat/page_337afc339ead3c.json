@@ -1,13 +1,15 @@
 {
  "url": "https://developers.openai.com/api/docs/changelog",
- "maj": "2026-11-06T06:45:17.192402+00:00",
+ "maj": "2026-11-06T15:56:18.032974+00:00",
  "lignes": [
   "Changelog",
   "November, 2026",
   "Use GPT-6-Cyber to investigate vulnerabilities, reproduce them in an authorized test environment, and verify fixes. See Daybreak setup before sending your first request.",
   "Released GPT-Image-2.6 Sunburst and GPT-Image-2.6 Flare for image generation and editing, with adjustable complexity, SVG generation, and animated GIF generation. Added markup-guided editing for supported GPT Image 2.5 and 2.6 models.",
   "See the image generation guide.",
+  "Outbound SIP calling is now available to all organizations through the Live API. Connect GPT-Live to a phone number through your SIP provider. See the SIP guide.",
   "October, 2026",
+  "Added automatic review for eligible Agents API projects. Set the session's review field to \"auto_review\" to have a model approve or deny supported tool and permission requests based on conversation intent and risk. See the automatic review guide for supported requests, limitations, and additional token billing.",
   "Released GPT-6 Rosalind, bringing specialized biological reasoning with scientific tool use to complex life sciences research. Access is available to organizations approved for Rosalind Research through the trusted-access program for internal research by authorized users.",
   "Eligible ChatGPT Pro and Business subscribers can now claim up to $500 per month in free API credits as a subscription benefit. Activate the benefit from ChatGPT or API Platform by linking an API organization you own. See API credits for ChatGPT subscribers for credit amounts, eligibility, and how to claim.",
   "Released GPT-6.1 Terra, a fast, efficient model for visual reasoning, precise computer use, and clear, natural writing.",
