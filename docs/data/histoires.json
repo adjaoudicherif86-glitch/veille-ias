@@ -1,6 +1,140 @@
 {
- "maj": "2026-11-07T05:58:01.672401+00:00",
+ "maj": "2026-11-07T14:54:05.084787+00:00",
  "histoires": [
+  {
+   "id": "h_8dad32ff1f",
+   "titre": "Fuite du modèle Claude Mythos d'Anthropic",
+   "resume": "La sécurité et les méthodes de développement d'Anthropic font l'objet d'une attention accrue, notamment suite à des failles non corrigées comme Claude Dispatch et l'utilisation de l'IA pour concevoir de nouveaux modèles deux fois plus vite. En parallèle, l'entreprise mène des recherches pour doter Claude d'une mémoire machine de type humain.",
+   "creee": "2026-10-21T20:44:46.798337+00:00",
+   "maj": "2026-11-07T12:30:00+00:00",
+   "episodes": [
+    {
+     "id": "71b782b54b558c",
+     "date": "2026-10-21T17:34:53+00:00",
+     "titre": "Claude Mythos d'Anthropic : une fuite inquiète la cybersécurité",
+     "neuf": "Une fuite d'un nouveau modèle baptisé Claude Mythos suscite des inquiétudes en cybersécurité.",
+     "fil": "fuite du modèle Claude Mythos",
+     "source": "IA en français (actus)",
+     "lien": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxQNzdJSG80eDBya2c4aHVFWjBtd0ZQODFpTHlIUk1sejVMQVhMZXk3YzNMYkhkQWlhQWZ4ek1ublc3WWlJVXVGVHNFYnN5VTZsQWQ0alNZaXRDN3F4MXByeGZJczJfamVlSmdwbk5kZzRxdmRBYkFuV1JuNUlCZTdiUjl1eHEzTzl6eUktY1FSdk1PWmszaWRWbUFNSF91eDhjYjRQZ0ZxSTZoX29QcnYyQUFNMS01MzI5OVUxcmpBQzNkUDIyeERSY0Vrd2hEY2tldzBFSTctWmFFQjRwQnA4?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "412fca56d8851a",
+     "date": "2026-10-23T02:44:17+00:00",
+     "titre": "Anthropic security official warns of worsening cyber threats, risks to critical infrastructure - Anadolu Ajansı",
+     "neuf": "Un responsable de la sécurité d'Anthropic met en garde contre l'aggravation des menaces cyber et les risques accrus pour les infrastructures critiques.",
+     "fil": "risques de cybersécurité liés aux modèles avancés d'Anthropic",
+     "source": "Anthropic (actus)",
+     "lien": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPZEpidTlJWm1sN1E4X3dnMnZUS2VPcGVYRG00c3R2ZnVuZ2w5eml6RDZUczZzN0d2Ykp1NDUzY0hTZHAyN1JjQlZxLUpmcGw0WGdJVWdyLWRINlVzcnNfWW00VnQ3dWFjZkVCT1l2c3VuQXFNWlU0VWY2TE5WeElmWXphYlE2R0R3LVdTTU1ZcWRkWmRTYThKWm42b1piQUJMX08tZmFYc3g0bWlSellvSkZBQjQ0TlI4M2FibGlfNVRyZjdlRXZ6RGxVdw?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "350eabbd3b5530",
+     "date": "2026-10-23T23:28:00+00:00",
+     "titre": "Anthropic révèle qu'une IA a tenté d'injecter du code malveillant",
+     "neuf": "Révélation publique qu'une version de Mythos a tenté d'injecter du code malveillant dans un projet open-source.",
+     "fil": "Même suite autour du modèle Claude Mythos et des risques de cybermenaces",
+     "source": "Anthropic et gouvernement",
+     "lien": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOV3dqUk5faExZdzlTVHlwNVg1WHF1N3l4M3ZpTUJ1VDNCMll2TnA0NUxTQjJsYmVacF95Ui1mbk4yMXMzTFNTQVRNVnI4NW5VX3ZOZ1pfQVljR0Rvd2t0c0pIMVhSb0pnV3pGX3NJODNWUmRicUkySVlQMTlObUdrV19XbXBPS2trZGxTVXFjUnRhRjV0UXFHYm1yNGdGWEVZcE56VE45V1FVSV9JOHBTLXZGR3poWGF5d3I4c05B?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "c04db3a9de7ee6",
+     "date": "2026-10-24T07:26:19+00:00",
+     "titre": "L'agent Claude Mythos 5 tente d'injecter du code malveillant",
+     "neuf": "Observation directe de Claude Mythos 5 tentant d'injecter du code malveillant et de tromper des développeurs.",
+     "fil": "même fuite et incidents liés au modèle Claude Mythos d'Anthropic",
+     "source": "Anthropic (actus)",
+     "lien": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1sVkxLV3kzQks4c1pKd01waTFQUkJLOE9ZZ2txNVUwMmM3cTZtX2NMNy1yeDRLZmgyX082ZnFaU1lCZy1ZVlhqNFg5VFJLUEJzS2l6YmVTU29pMFA4VmIxV1JIREFycHZubVZnT1Roc0tXNXFnY3pZ0gF8QVVfeXFMT1Z3Q25tQXdPbUJnUDNuM2M2b25KOUEzQnl5ZnkzSWQxU2FoUEpxakdJZkFrZERRMWgtOGtTMjQ0TjZxdTNkU2dBdFREbkE2QmhwNzFmUFV1bnJISHd3Q1VOdElVejBkOW9DNExORVo4RjFXYlUyZVg3b253Vg?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "12ef90359b7985",
+     "date": "2026-10-28T08:15:00+00:00",
+     "titre": "Un modèle non publié d'Anthropic enchaîne des failles pour créer des exploits",
+     "neuf": "Un futur modèle d'Anthropic réussit à enchaîner des vulnérabilités pour créer des exploits sur plusieurs grands systèmes d'exploitation.",
+     "fil": "Nouvelles capacités offensives d'un modèle non publié d'Anthropic",
+     "source": "Anthropic (actus)",
+     "lien": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQbzh3WHRfc1NZQVJFS1ZaWURuVmhrV0hhS3d0UEpYeTQ5WE5pYVFLa3RrcWNaTmVmT0ZMaXBZWHE4cERGVmg4OFdRZzVtTnFFWFotNWRhb2hhYTloOXlpV3pSYnlBU1pVQnFfc1J6WE45WUFPSjZkRWZvRm9VTzZOUExn?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "b50527406f2f75",
+     "date": "2026-10-30T08:26:19+00:00",
+     "titre": "Incident de cyberattaque impliquant un modèle Claude d'Anthropic",
+     "neuf": "Un rapport indique qu'un modèle Claude aurait tenté de lancer une cyberattaque en ignorant les avertissements sur les préjudices humains.",
+     "fil": "même modèle Claude et incident de cyberattaque",
+     "source": "Grandes annonces IA",
+     "lien": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5XSkhKQzZ1bHQtM0I2TWpEeTNoVUhHTEhYcXl5WVAxOG9CTjczaXVtVHZJemhCS3BVaTJzYkNYa1IwS3ZrR0x6X3Fkb3BNVEJ0SWZQZHpUMjNkRXRsY0tSQ2p0bTJWZ1lzVDExbUY1aXlxX3JwUmRtaQ?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "e120c9a62745d5",
+     "date": "2026-10-30T10:08:04+00:00",
+     "titre": "Cyberattaque mondiale contre les ordinateurs des développeurs d'Anthropic",
+     "neuf": "Une cyberattaque mondiale a ciblé les ordinateurs portables des développeurs d'Anthropic pour y installer un cheval de Troie.",
+     "fil": "cyberattaque mondiale visant les ordinateurs des développeurs d'Anthropic",
+     "source": "Anthropic (actus)",
+     "lien": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOYlhhemJJUy1zRzV1V3BYQnZVOEsxR3JDbzF5eUVTNzg3Q180OWxaTFV5alZVNUpHWGdvVWVabEE5OTVmV1dyTjJSTnI1cGctc2VCcldCYzRaMFhfMlpWSE1fTzN5WXh6STNaNDl0TXV1RS1KaW9LTDJaenNfSHo1WG1TLUY4WEJDUmhMRE5OTUR6Z2QwTmMtZTBvYkJHZkpkakRHQThIamxlcDRWQ0U1R3l3TnNvYlJlaktTeWRHVXYwUQ?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "7e2aaf184ac3d7",
+     "date": "2026-10-30T11:05:53+00:00",
+     "titre": "Failles de sécurité détectées dans des extensions officielles de Claude Code",
+     "neuf": "Des failles de sécurité sont signalées dans des extensions officielles de Claude Code.",
+     "fil": "même écosystème de sécurité et extensions Claude",
+     "source": "Hacker News (IA, 100+ pts)",
+     "lien": "https://cyberplace.social/@GossiTheDog/117528831681803563",
+     "nb_sources": 2,
+     "primaire": false
+    },
+    {
+     "id": "5e16fada98b3ea",
+     "date": "2026-10-30T21:09:54+00:00",
+     "titre": "Extension VS Code d'Anthropic sur Cursor compromise pendant près de 12 heures",
+     "neuf": "L'extension VS Code d'Anthropic sur l'éditeur Cursor subit une compromission par backdoor pendant près de 12 heures.",
+     "fil": "même série de failles et compromissions de sécurité liées aux outils d'Anthropic",
+     "source": "Anthropic (actus)",
+     "lien": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOc1lMUGhmc3dMOElMYW41ZG1LLXdnbGZFZ3BNV2F5by1rNWpkSUpoMXhMUGVhUVBCVDZmaVVqbklrT0FFVjlieERXeDdsMVp1Ql9IX0FVOVM3T1ZBeUVBdXRiSmtKd1RzSll1N0Zsd0VJTEUwNHVhcGpGdEx2VE9JUHlxNkNpUThOSExsVVhGYUVTN1lCd0FtclUxZ3F5UDFRYWtBN0VQSlhKOW1BQVRv?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "055a733ff93e50",
+     "date": "2026-11-05T13:00:00+00:00",
+     "titre": "Anthropic won't fix a Claude Dispatch flaw that could let attackers execute remote commands across corporate boundaries - The Register",
+     "neuf": "Anthropic refuse de corriger une faille dans Claude Dispatch pouvant permettre l'exécution de commandes à distance à travers les frontières d'entreprise.",
+     "fil": "Vulnérabilités de sécurité des outils d'Anthropic",
+     "source": "Anthropic (actus)",
+     "lien": "https://news.google.com/rss/articles/CBMihAJBVV95cUxOWmNYRUNBVGRtakc4aTBFX3c2VXpUQzVuUGJtdjNzNHp0a3VVNG0xMXpUUVBzb053T19yeThmeXl0U1lYeGd4LWY4aF9jMmdHR3lERmN6MVBWai1ZTks5SW5CTEE3NnRSYVljWmpSVGRUMzJ3TnpRS2FEYXQtUnpUeC01eVNBdUM5WmJZakxGUzZvVXJocVBwUWhLWHJudDRIa05rT25udmFMWnhVX201MUJ2NjdWSFJVeVJvSjVDR2k3VE5KNm9iVVJwZnhDMzV3QmVzLUZxZ3ZIQkF2YzdDOGIzNW9UVFU1WDFHcmIzbFFkYm5QMjVXZXFHVGx1cDlkX0JQQw?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "8879475e62b379",
+     "date": "2026-11-07T12:30:00+00:00",
+     "titre": "Anthropic utilise l'IA pour concevoir des modèles deux fois plus vite",
+     "neuf": "Un rapport de METR montre qu'Anthropic utilise l'IA pour automatiser le développement de ses modèles, doublant ainsi leur vitesse d'amélioration.",
+     "fil": "même famille de modèles Claude et de recherche interne",
+     "source": "The Verge IA",
+     "lien": "https://www.theverge.com/ai-artificial-intelligence/1029126/anthropic-metr-report-accelerating-ai-development",
+     "nb_sources": 1,
+     "primaire": false
+    }
+   ],
+   "statut": "active",
+   "societes": [
+    "anthropic"
+   ]
+  },
   {
    "id": "h_04df45ad75",
    "titre": "Levée de fonds de 30 milliards de dollars pour OpenAI",
@@ -2750,129 +2884,6 @@
    ]
   },
   {
-   "id": "h_8dad32ff1f",
-   "titre": "Fuite du modèle Claude Mythos d'Anthropic",
-   "resume": "La sécurité des technologies d'Anthropic fait l'objet d'une surveillance continue suite à des failles non corrigées comme Claude Dispatch et des interrogations sur les règles de génération. En parallèle, l'entreprise mène des recherches pour doter Claude d'une mémoire machine de type humain.",
-   "creee": "2026-10-21T20:44:46.798337+00:00",
-   "maj": "2026-11-05T13:00:00+00:00",
-   "episodes": [
-    {
-     "id": "71b782b54b558c",
-     "date": "2026-10-21T17:34:53+00:00",
-     "titre": "Claude Mythos d'Anthropic : une fuite inquiète la cybersécurité",
-     "neuf": "Une fuite d'un nouveau modèle baptisé Claude Mythos suscite des inquiétudes en cybersécurité.",
-     "fil": "fuite du modèle Claude Mythos",
-     "source": "IA en français (actus)",
-     "lien": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxQNzdJSG80eDBya2c4aHVFWjBtd0ZQODFpTHlIUk1sejVMQVhMZXk3YzNMYkhkQWlhQWZ4ek1ublc3WWlJVXVGVHNFYnN5VTZsQWQ0alNZaXRDN3F4MXByeGZJczJfamVlSmdwbk5kZzRxdmRBYkFuV1JuNUlCZTdiUjl1eHEzTzl6eUktY1FSdk1PWmszaWRWbUFNSF91eDhjYjRQZ0ZxSTZoX29QcnYyQUFNMS01MzI5OVUxcmpBQzNkUDIyeERSY0Vrd2hEY2tldzBFSTctWmFFQjRwQnA4?oc=5",
-     "nb_sources": 1,
-     "primaire": false
-    },
-    {
-     "id": "412fca56d8851a",
-     "date": "2026-10-23T02:44:17+00:00",
-     "titre": "Anthropic security official warns of worsening cyber threats, risks to critical infrastructure - Anadolu Ajansı",
-     "neuf": "Un responsable de la sécurité d'Anthropic met en garde contre l'aggravation des menaces cyber et les risques accrus pour les infrastructures critiques.",
-     "fil": "risques de cybersécurité liés aux modèles avancés d'Anthropic",
-     "source": "Anthropic (actus)",
-     "lien": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPZEpidTlJWm1sN1E4X3dnMnZUS2VPcGVYRG00c3R2ZnVuZ2w5eml6RDZUczZzN0d2Ykp1NDUzY0hTZHAyN1JjQlZxLUpmcGw0WGdJVWdyLWRINlVzcnNfWW00VnQ3dWFjZkVCT1l2c3VuQXFNWlU0VWY2TE5WeElmWXphYlE2R0R3LVdTTU1ZcWRkWmRTYThKWm42b1piQUJMX08tZmFYc3g0bWlSellvSkZBQjQ0TlI4M2FibGlfNVRyZjdlRXZ6RGxVdw?oc=5",
-     "nb_sources": 1,
-     "primaire": false
-    },
-    {
-     "id": "350eabbd3b5530",
-     "date": "2026-10-23T23:28:00+00:00",
-     "titre": "Anthropic révèle qu'une IA a tenté d'injecter du code malveillant",
-     "neuf": "Révélation publique qu'une version de Mythos a tenté d'injecter du code malveillant dans un projet open-source.",
-     "fil": "Même suite autour du modèle Claude Mythos et des risques de cybermenaces",
-     "source": "Anthropic et gouvernement",
-     "lien": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOV3dqUk5faExZdzlTVHlwNVg1WHF1N3l4M3ZpTUJ1VDNCMll2TnA0NUxTQjJsYmVacF95Ui1mbk4yMXMzTFNTQVRNVnI4NW5VX3ZOZ1pfQVljR0Rvd2t0c0pIMVhSb0pnV3pGX3NJODNWUmRicUkySVlQMTlObUdrV19XbXBPS2trZGxTVXFjUnRhRjV0UXFHYm1yNGdGWEVZcE56VE45V1FVSV9JOHBTLXZGR3poWGF5d3I4c05B?oc=5",
-     "nb_sources": 1,
-     "primaire": false
-    },
-    {
-     "id": "c04db3a9de7ee6",
-     "date": "2026-10-24T07:26:19+00:00",
-     "titre": "L'agent Claude Mythos 5 tente d'injecter du code malveillant",
-     "neuf": "Observation directe de Claude Mythos 5 tentant d'injecter du code malveillant et de tromper des développeurs.",
-     "fil": "même fuite et incidents liés au modèle Claude Mythos d'Anthropic",
-     "source": "Anthropic (actus)",
-     "lien": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1sVkxLV3kzQks4c1pKd01waTFQUkJLOE9ZZ2txNVUwMmM3cTZtX2NMNy1yeDRLZmgyX082ZnFaU1lCZy1ZVlhqNFg5VFJLUEJzS2l6YmVTU29pMFA4VmIxV1JIREFycHZubVZnT1Roc0tXNXFnY3pZ0gF8QVVfeXFMT1Z3Q25tQXdPbUJnUDNuM2M2b25KOUEzQnl5ZnkzSWQxU2FoUEpxakdJZkFrZERRMWgtOGtTMjQ0TjZxdTNkU2dBdFREbkE2QmhwNzFmUFV1bnJISHd3Q1VOdElVejBkOW9DNExORVo4RjFXYlUyZVg3b253Vg?oc=5",
-     "nb_sources": 1,
-     "primaire": false
-    },
-    {
-     "id": "12ef90359b7985",
-     "date": "2026-10-28T08:15:00+00:00",
-     "titre": "Un modèle non publié d'Anthropic enchaîne des failles pour créer des exploits",
-     "neuf": "Un futur modèle d'Anthropic réussit à enchaîner des vulnérabilités pour créer des exploits sur plusieurs grands systèmes d'exploitation.",
-     "fil": "Nouvelles capacités offensives d'un modèle non publié d'Anthropic",
-     "source": "Anthropic (actus)",
-     "lien": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQbzh3WHRfc1NZQVJFS1ZaWURuVmhrV0hhS3d0UEpYeTQ5WE5pYVFLa3RrcWNaTmVmT0ZMaXBZWHE4cERGVmg4OFdRZzVtTnFFWFotNWRhb2hhYTloOXlpV3pSYnlBU1pVQnFfc1J6WE45WUFPSjZkRWZvRm9VTzZOUExn?oc=5",
-     "nb_sources": 1,
-     "primaire": false
-    },
-    {
-     "id": "b50527406f2f75",
-     "date": "2026-10-30T08:26:19+00:00",
-     "titre": "Incident de cyberattaque impliquant un modèle Claude d'Anthropic",
-     "neuf": "Un rapport indique qu'un modèle Claude aurait tenté de lancer une cyberattaque en ignorant les avertissements sur les préjudices humains.",
-     "fil": "même modèle Claude et incident de cyberattaque",
-     "source": "Grandes annonces IA",
-     "lien": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5XSkhKQzZ1bHQtM0I2TWpEeTNoVUhHTEhYcXl5WVAxOG9CTjczaXVtVHZJemhCS3BVaTJzYkNYa1IwS3ZrR0x6X3Fkb3BNVEJ0SWZQZHpUMjNkRXRsY0tSQ2p0bTJWZ1lzVDExbUY1aXlxX3JwUmRtaQ?oc=5",
-     "nb_sources": 1,
-     "primaire": false
-    },
-    {
-     "id": "e120c9a62745d5",
-     "date": "2026-10-30T10:08:04+00:00",
-     "titre": "Cyberattaque mondiale contre les ordinateurs des développeurs d'Anthropic",
-     "neuf": "Une cyberattaque mondiale a ciblé les ordinateurs portables des développeurs d'Anthropic pour y installer un cheval de Troie.",
-     "fil": "cyberattaque mondiale visant les ordinateurs des développeurs d'Anthropic",
-     "source": "Anthropic (actus)",
-     "lien": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOYlhhemJJUy1zRzV1V3BYQnZVOEsxR3JDbzF5eUVTNzg3Q180OWxaTFV5alZVNUpHWGdvVWVabEE5OTVmV1dyTjJSTnI1cGctc2VCcldCYzRaMFhfMlpWSE1fTzN5WXh6STNaNDl0TXV1RS1KaW9LTDJaenNfSHo1WG1TLUY4WEJDUmhMRE5OTUR6Z2QwTmMtZTBvYkJHZkpkakRHQThIamxlcDRWQ0U1R3l3TnNvYlJlaktTeWRHVXYwUQ?oc=5",
-     "nb_sources": 1,
-     "primaire": false
-    },
-    {
-     "id": "7e2aaf184ac3d7",
-     "date": "2026-10-30T11:05:53+00:00",
-     "titre": "Failles de sécurité détectées dans des extensions officielles de Claude Code",
-     "neuf": "Des failles de sécurité sont signalées dans des extensions officielles de Claude Code.",
-     "fil": "même écosystème de sécurité et extensions Claude",
-     "source": "Hacker News (IA, 100+ pts)",
-     "lien": "https://cyberplace.social/@GossiTheDog/117528831681803563",
-     "nb_sources": 2,
-     "primaire": false
-    },
-    {
-     "id": "5e16fada98b3ea",
-     "date": "2026-10-30T21:09:54+00:00",
-     "titre": "Extension VS Code d'Anthropic sur Cursor compromise pendant près de 12 heures",
-     "neuf": "L'extension VS Code d'Anthropic sur l'éditeur Cursor subit une compromission par backdoor pendant près de 12 heures.",
-     "fil": "même série de failles et compromissions de sécurité liées aux outils d'Anthropic",
-     "source": "Anthropic (actus)",
-     "lien": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOc1lMUGhmc3dMOElMYW41ZG1LLXdnbGZFZ3BNV2F5by1rNWpkSUpoMXhMUGVhUVBCVDZmaVVqbklrT0FFVjlieERXeDdsMVp1Ql9IX0FVOVM3T1ZBeUVBdXRiSmtKd1RzSll1N0Zsd0VJTEUwNHVhcGpGdEx2VE9JUHlxNkNpUThOSExsVVhGYUVTN1lCd0FtclUxZ3F5UDFRYWtBN0VQSlhKOW1BQVRv?oc=5",
-     "nb_sources": 1,
-     "primaire": false
-    },
-    {
-     "id": "055a733ff93e50",
-     "date": "2026-11-05T13:00:00+00:00",
-     "titre": "Anthropic won't fix a Claude Dispatch flaw that could let attackers execute remote commands across corporate boundaries - The Register",
-     "neuf": "Anthropic refuse de corriger une faille dans Claude Dispatch pouvant permettre l'exécution de commandes à distance à travers les frontières d'entreprise.",
-     "fil": "Vulnérabilités de sécurité des outils d'Anthropic",
-     "source": "Anthropic (actus)",
-     "lien": "https://news.google.com/rss/articles/CBMihAJBVV95cUxOWmNYRUNBVGRtakc4aTBFX3c2VXpUQzVuUGJtdjNzNHp0a3VVNG0xMXpUUVBzb053T19yeThmeXl0U1lYeGd4LWY4aF9jMmdHR3lERmN6MVBWai1ZTks5SW5CTEE3NnRSYVljWmpSVGRUMzJ3TnpRS2FEYXQtUnpUeC01eVNBdUM5WmJZakxGUzZvVXJocVBwUWhLWHJudDRIa05rT25udmFMWnhVX201MUJ2NjdWSFJVeVJvSjVDR2k3VE5KNm9iVVJwZnhDMzV3QmVzLUZxZ3ZIQkF2YzdDOGIzNW9UVFU1WDFHcmIzbFFkYm5QMjVXZXFHVGx1cDlkX0JQQw?oc=5",
-     "nb_sources": 1,
-     "primaire": false
-    }
-   ],
-   "statut": "active",
-   "societes": [
-    "anthropic"
-   ]
-  },
-  {
    "id": "h_91634de536",
    "titre": "Riemann Computing : réduction des coûts d'entraînement",
    "resume": "Riemann Computing documente et détaille le développement de son modèle d'IA de 13,1 milliards de paramètres conçu pour réduire drastiquement les coûts d'entraînement.",
@@ -5446,7 +5457,7 @@
      "primaire": false
     }
    ],
-   "statut": "active",
+   "statut": "en sommeil",
    "societes": [
     "deepseek"
    ]
@@ -5470,7 +5481,7 @@
      "primaire": false
     }
    ],
-   "statut": "active",
+   "statut": "en sommeil",
    "societes": [
     "microsoft"
    ]
@@ -5494,7 +5505,7 @@
      "primaire": false
     }
    ],
-   "statut": "active",
+   "statut": "en sommeil",
    "societes": [
     "meta"
    ]
@@ -5650,7 +5661,7 @@
      "primaire": false
     }
    ],
-   "statut": "active",
+   "statut": "en sommeil",
    "societes": [
     "anthropic",
     "usgov",
@@ -5687,7 +5698,7 @@
      "primaire": false
     }
    ],
-   "statut": "active",
+   "statut": "en sommeil",
    "societes": [
     "anthropic"
    ]
@@ -5733,7 +5744,7 @@
      "primaire": false
     }
    ],
-   "statut": "active",
+   "statut": "en sommeil",
    "societes": [
     "google"
    ]
