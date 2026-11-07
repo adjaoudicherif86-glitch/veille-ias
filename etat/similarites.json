@@ -17,10 +17,10 @@
    "Ollama v0.40.15"
   ],
   [
-   null,
-   "même titre",
-   "Genie 4: A new generation of world simulation - Google DeepMind",
-   "Genie 4: A new generation of world simulation"
+   0.818,
+   "même événement selon l'IA",
+   "Notes de version OpenAI (API) : Released GPT-Image-2.6 Sunburst and GPT-Image-2.6 Flare for image generation a",
+   "Introducing Images 2.6"
   ],
   [
    null,
@@ -33,6 +33,12 @@
    "même événement selon l'IA",
    "Elon Musk Says Grok Bot Costs Were ‘Unsustainably High’ Amid Complaints Over Usage Limits - Forbes",
    "Musk says cost of running Grok Bot 'unsustainably high' relative to revenue - Anadolu Ajansı"
+  ],
+  [
+   null,
+   "même titre",
+   "Elon Musk Has an AI Problem: People Are Using Grok Too Much - Yahoo Finance",
+   "Elon Musk Has an AI Problem: People Are Using Grok Too Much - Benzinga"
   ],
   [
    0.827,
@@ -65,22 +71,10 @@
    "Pentagon chief tech officer says government will detail laws that apply to AI labs this month - CNA"
   ],
   [
-   0.823,
-   "même événement selon l'IA",
-   "Tencent Targets Financial Analysis With Hy4 AI Model - PYMNTS.com",
-   "Tencent launches Hy4 in bid to break into AI’s top tier of open-weight models - South China Morning Post"
-  ],
-  [
    0.837,
    "même événement selon l'IA",
    "Musk Says Grok Costs Are Unsustainably High As Users Hit Limits - Dataconomy",
    "Elon Musk Has an AI Problem: People Are Using Grok Too Much - Benzinga"
-  ],
-  [
-   null,
-   "même titre",
-   "Chinese AI lab Moonshot turned to Europe for Nvidia Blackwell access amid U.S. China curbs, sources tell CNBC ",
-   "Chinese AI lab Moonshot turned to Europe for Nvidia Blackwell access amid U.S. China curbs, sources tell CNBC "
   ],
   [
    0.931,
@@ -119,16 +113,22 @@
    "Man Claims in Suit ChatGPT Encouraged His Wife to Poison Him - Bloomberg.com"
   ],
   [
-   0.859,
+   0.819,
    "même événement selon l'IA",
    "Google: Schools can keep search while skipping Gemini, but AI search is non-negotiable - Ars Technica",
-   "Google lets schools turn off Gemini, but not the AI in search - The Japan Times"
+   "Google Will Turn Off Search for Schools That Reject A.I. - The New York Times"
+  ],
+  [
+   0.819,
+   "même événement selon l'IA",
+   "OpenAI is stepping back from NDAs for data center projects",
+   "OpenAI kicks off charm offensive to change voters' view of data centers - Reuters"
   ],
   [
    null,
    "même titre",
-   "Greens condemn politicians creating AI-deepfake election videos - The Advocate | Burnie, TAS",
-   "Greens condemn politicians creating AI-deepfake election videos - The Canberra Times"
+   "AI for scientific discovery: How researchers use Claude",
+   "AI for scientific discovery How researchers use Claude - Anthropic"
   ],
   [
    0.823,
@@ -161,18 +161,6 @@
    "An Anthropic engineer warns about 'cognitive surrender' as AI agents take over his work - Business Insider"
   ],
   [
-   0.844,
-   "même événement selon l'IA",
-   "Man sues OpenAI alleging ChatGPT helped his wife try to murder him: it's the 10th homicide the AI chatbot has ",
-   "Man Claims in Suit ChatGPT Encouraged His Wife to Poison Him - Bloomberg.com"
-  ],
-  [
-   0.935,
-   "sens quasi identique",
-   "NousResearch/Arete-27B · Hugging Face (Qwen finetune)",
-   "En tendance sur Hugging Face : NousResearch/Arete-27B"
-  ],
-  [
    0.888,
    "même événement selon l'IA",
    "Man sues OpenAI, alleges ChatGPT aided wife in murder plot against him - CBS News",
@@ -183,12 +171,6 @@
    "même événement selon l'IA",
    "SpaceXAI started Southaven data center construction without water permits, Mississippi alleges - AP News",
    "SpaceXAI started Southaven data center construction without water permits, state alleges. Fines could exceed $"
-  ],
-  [
-   0.9,
-   "même événement selon l'IA",
-   "OpenAI gets $11 billion funding at $1.25 trillion valuation, source says - Reuters",
-   "OpenAI reportedly raises an additional $11 billion at a $1.25 trillion valuation"
   ],
   [
    0.852,
@@ -209,16 +191,16 @@
    "Man Claims in Suit ChatGPT Encouraged His Wife to Poison Him - Bloomberg.com"
   ],
   [
-   0.898,
-   "même événement selon l'IA",
-   "Lawsuit claims AI on Google’s school Chromebook helped plan teen’s near-suicide - KXAN Austin",
-   "Google faces claims student used AI chat on US school laptop to plan suicide attempt - Reuters"
-  ],
-  [
    0.823,
    "même événement selon l'IA",
    "Claude now watermarks text from older models, with no opt-out - Notebookcheck",
    "Anthropic's text watermark is easy to bypass on several older Claude models - The Decoder"
+  ],
+  [
+   null,
+   "même titre",
+   "Captures d'écran, mouvements de souris, reconnaissance faciale… Les travailleurs de l'IA dénoncent une surveil",
+   "Captures d'écran, mouvements de souris, reconnaissance faciale… Les travailleurs de l'IA dénoncent une surveil"
   ],
   [
    null,
@@ -231,12 +213,6 @@
    "même événement selon l'IA",
    "Google Cloud ouvre à ses clients Gemini Robotics ER 2, qui planifie les tâches des robots",
    "Gemini Robotics Embodied Reasoning 2 is now available on Google Cloud - Google Cloud"
-  ],
-  [
-   0.956,
-   "sens quasi identique",
-   "Mistral AI ouvre à Orange Cyberdefense l'accès anticipé à une version spécialisée de Large 4 - Le Monde Inform",
-   "Mistral AI va donner à Orange Cyberdefense un accès anticipé à une variante de Mistral Large 4 optimisée pour "
   ],
   [
    0.843,
@@ -485,11 +461,6 @@
    "Anthropic says risks for investors include blowback from runaway AI - PBS"
   ],
   [
-   0.853,
-   "Anthropic’s AI Safety Bill Has an Alarming Threshold for Government Action - Mother Jones",
-   "Anthropic’s proposed AI safety bill only kicks in if 50 deaths or $1 billion in damages are on the line — prop"
-  ],
-  [
    0.852,
    "xAI is buying out homeowners who promise not to sue over data center noise",
    "Elon Musk’s SpaceXAI will buy your home near its Mississippi gas turbines — if you never sue over ‘torturous’ "
@@ -563,6 +534,11 @@
    0.844,
    "Google is bringing a more personal version of its Gemini AI assistant to your car - TechCrunch",
    "Conversational Gemini navigation comes to Apple CarPlay"
+  ],
+  [
+   0.844,
+   "Anthropic warns investors of political risks as it prepares to go public - Politico",
+   "Anthropic's IPO is risky business - CNBC"
   ],
   [
    0.876,
@@ -700,11 +676,6 @@
    "Anthropic says risks for investors include blowback from runaway AI - PBS"
   ],
   [
-   0.853,
-   "Anthropic’s AI Safety Bill Has an Alarming Threshold for Government Action - Mother Jones",
-   "Anthropic’s proposed AI safety bill only kicks in if 50 deaths or $1 billion in damages are on the line — prop"
-  ],
-  [
    0.852,
    "xAI is buying out homeowners who promise not to sue over data center noise",
    "Elon Musk’s SpaceXAI will buy your home near its Mississippi gas turbines — if you never sue over ‘torturous’ "
@@ -763,6 +734,11 @@
    0.848,
    "Transformers v5.22.0: Mistral Large 4 (Le Chonk)",
    "Welcome Le Chonk: Mistral Large 4 on Hugging Face"
+  ],
+  [
+   0.847,
+   "Exposure Is Not Commitment: Double-Stratified Evaluation of Latent Monitors for Tool-Using Agents",
+   "Beyond Plausible Prediction: Safety Sufficiency in Web World Models"
   ]
  ]
 }

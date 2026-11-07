@@ -1,6 +1,279 @@
 {
- "maj": "2026-11-07T14:54:05.084787+00:00",
+ "maj": "2026-11-07T20:14:39.488494+00:00",
  "histoires": [
+  {
+   "id": "h_2cf5a730b3",
+   "titre": "Microsoft arrête le support de Copilot sur les smart TV",
+   "resume": "Microsoft concrétise la fin du support et le retrait complet de son assistant Copilot sur les téléviseurs connectés.",
+   "creee": "2026-10-28T16:59:03.629060+00:00",
+   "maj": "2026-11-07T18:17:00+00:00",
+   "episodes": [
+    {
+     "id": "3b062bd5fcac8d",
+     "date": "2026-10-28T12:32:17+00:00",
+     "titre": "Microsoft met fin au support de Copilot sur les téléviseurs connectés",
+     "neuf": "Microsoft annonce la fin du support de Copilot sur les smart TV d'ici la fin de l'année.",
+     "fil": "Arrêt de Copilot sur les téléviseurs connectés",
+     "source": "Microsoft Copilot (actus)",
+     "lien": "https://news.google.com/rss/articles/CBMingJBVV95cUxPemlkX0Fqa1RldzNTVXhXb0J0ZEd5NVYtb3ZONG1LNGM5N3JEdndXUEZyZ3V5ejhscnNmb0otWGRQSXFodExDTEVuUlVfbXUwVEhXeXVwd1B5Z0RGQWRUQmYxaXlScnd4WlVRS3E1SXB6dWEyaXd4UURFSjY0eHBEN1p2YXBoX1FjbHA3WUs5Vm93ZUxMbjVwZ1JGVUJRcTNyd0JqLVJVYmhyYkRYT1JXU2tlZm5zUDJCdzNUZjdRNk1JeG9laVhiRFBoczM1LXM5aHV5TTZaNUU0Wm5LRXdoNWkxR3pHcmV4aGhDOUtheExzSTM1dzcwX29nbDBfWm14YTVuX0dNazVUX2JNSnM3TWZsSk1qWTlvYnhnbnh3?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "2ac1acbe9f8da0",
+     "date": "2026-11-07T18:17:00+00:00",
+     "titre": "Microsoft retire Copilot des téléviseurs connectés",
+     "neuf": "Microsoft concrétise et finalise le retrait effectif de son assistant des téléviseurs.",
+     "fil": "même arrêt du support de Copilot sur les téléviseurs connectés",
+     "source": "Microsoft Copilot (actus)",
+     "lien": "https://news.google.com/rss/articles/CBMickFVX3lxTFB5RjRjTm51OU5PWGljUzdyUk1qX3RwX1VVN0ZOZmpScTV3cVZJbUN5REdEYWx0MkhOTTRxNHlnWWhEVHNjMms3WTYwd0xHS1lHLWlPNWhOUkNnS25SOGV5Qk1TVTUxZlVwbEZpc1Y5X0ZiZw?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    }
+   ],
+   "statut": "active",
+   "societes": [
+    "microsoft"
+   ]
+  },
+  {
+   "id": "h_71d93fee85",
+   "titre": "Quantifications GGUF pour le modèle Qwen3.8 27B",
+   "resume": "L'écosystème du modèle Qwen3.8 27B s'enrichit de quantifications, de variantes de fine-tuning et d'évaluations précises sur l'impact de la quantification du cache KV.",
+   "creee": "2026-10-28T01:08:58.693059+00:00",
+   "maj": "2026-11-07T17:09:51+00:00",
+   "episodes": [
+    {
+     "id": "a08630aa7a33a1",
+     "date": "2026-10-27T18:52:27+00:00",
+     "titre": "Statistically Lossless Qwen3.8 27B GGUFs",
+     "neuf": "Mise à disposition des versions GGUF pour le modèle Qwen3.8 27B.",
+     "fil": "Publication des quantifications GGUF pour Qwen3.8 27B",
+     "source": "r/LocalLLaMA",
+     "lien": "https://www.reddit.com/r/LocalLLaMA/comments/1xh17tk/statistically_lossless_qwen38_27b_ggufs/",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "1f5679e1fced18",
+     "date": "2026-11-02T22:42:11+00:00",
+     "titre": "Qwen 3.8 27b is sometimes so smart it scares me...",
+     "neuf": "Un utilisateur démontre la capacité du modèle à écrire et exécuter du code Python via Blender MCP.",
+     "fil": "Utilisation et capacités avancées du modèle Qwen 3.8 27B",
+     "source": "r/LocalLLaMA",
+     "lien": "https://www.reddit.com/r/LocalLLaMA/comments/1xmbym0/qwen_38_27b_is_sometimes_so_smart_it_scares_me/",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "1132e288d98359",
+     "date": "2026-11-03T12:53:57+00:00",
+     "titre": "Is Qwen 3.8 27B still the king",
+     "neuf": "Un utilisateur s'interroge sur la suprématie du modèle Qwen 3.8 27B face aux alternatives récentes sur le segment 8-35B.",
+     "fil": "même modèle Qwen 3.8 27B",
+     "source": "r/LocalLLaMA",
+     "lien": "https://www.reddit.com/r/LocalLLaMA/comments/1xms6eq/is_qwen_38_27b_still_the_king/",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "6857dc224a419f",
+     "date": "2026-11-03T16:29:48+00:00",
+     "titre": "Qwen 3.8 27B on my laptop can interpret model weights, too",
+     "neuf": "Démonstration de la capacité du modèle Qwen 3.8 27B à interpréter les poids neuronaux en local sur un ordinateur portable.",
+     "fil": "même modèle Qwen 3.8 27B",
+     "source": "Simon Willison",
+     "lien": "https://simonwillison.net/2026/Nov/3/qwen-can-interpret-model-weights/",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "28898a3e971eb1",
+     "date": "2026-11-03T17:29:42+00:00",
+     "titre": "Like GPT-6 Astra, Qwen 3.8 27B can interpret model weights",
+     "neuf": "Confirmation des capacités d'interprétation des poids neuronaux pour Qwen 3.8 27B, comparées à GPT-6 Astra.",
+     "fil": "même modèle Qwen 3.8 27B",
+     "source": "r/LocalLLaMA",
+     "lien": "https://www.reddit.com/r/LocalLLaMA/comments/1xmz9ca/like_gpt6_astra_qwen_38_27b_can_interpret_model/",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "30eca3f5f75219",
+     "date": "2026-11-04T17:51:33+00:00",
+     "titre": "Unsloth Qwen3.8-Flash-Next GGUFs V3.1 Update (November 4th 2026)",
+     "neuf": "Sortie de la version V3.1 des quantifications GGUF par Unsloth pour Qwen3.8-Flash-Next, offrant une précision accrue de 15%.",
+     "fil": "Mêmes quantifications GGUF pour Qwen",
+     "source": "r/LocalLLaMA",
+     "lien": "https://www.reddit.com/r/LocalLLaMA/comments/1xnuva2/unsloth_qwen38flashnext_ggufs_v31_update_november/",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "7273de9166d8f8",
+     "date": "2026-11-06T19:58:47+00:00",
+     "titre": "Arete-27B : un fine-tune de Qwen3.8 pour modifier les biais politiques",
+     "neuf": "Apparition d'Arete-27B, un fine-tune ciblé du modèle Qwen3.8-27B visant à réduire les biais politiques et les réponses encadrées.",
+     "fil": "Déclinaisons et fine-tunes du modèle Qwen3.8",
+     "source": "r/LocalLLaMA",
+     "lien": "https://www.reddit.com/r/LocalLLaMA/comments/1xpmj33/nousresearcharete27b_hugging_face_qwen_finetune/",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "1f7916b3bb2733",
+     "date": "2026-11-06T20:12:07+00:00",
+     "titre": "We are cooked. My QFN 3.8 NVFP4 just drew a dog freehand in MS Paint (using new Open WebUI 0.13.0 and Open Terminal 0.17.2)",
+     "neuf": "Démonstration des capacités avancées de Qwen3.8 sur de nouvelles interfaces (Open WebUI) lui permettant d'effectuer des actions de dessin directes au curseur dans une VM.",
+     "fil": "Utilisation pratique et capacités de génération du modèle Qwen3.8",
+     "source": "r/LocalLLaMA",
+     "lien": "https://www.reddit.com/r/LocalLLaMA/comments/1xpmvf2/we_are_cooked_my_qfn_38_nvfp4_just_drew_a_dog/",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "2158e4e9ba4f7c",
+     "date": "2026-11-07T17:09:51+00:00",
+     "titre": "Impact de la quantification du cache KV sur le modèle Qwen3.8 27B",
+     "neuf": "Une étude communautaire mesure l'impact précis de la quantification du cache KV sur les performances du modèle.",
+     "fil": "même modèle Qwen3.8 27B",
+     "source": "r/LocalLLaMA",
+     "lien": "https://www.reddit.com/r/LocalLLaMA/comments/1xqbesv/effects_of_kv_cache_quantization_on_qwen38_27b/",
+     "nb_sources": 1,
+     "primaire": false
+    }
+   ],
+   "statut": "active",
+   "societes": [
+    "alibaba",
+    "openai"
+   ]
+  },
+  {
+   "id": "h_4f55dae4d5",
+   "titre": "OpenAI Images 2.6 et ses variantes",
+   "resume": "OpenAI déploie Images 2.6 avec le support des GIF animés, met à jour son SDK et lance officiellement l'outil ChatGPT Images 2.6.",
+   "creee": "2026-11-05T00:54:36.001955+00:00",
+   "maj": "2026-11-07T16:36:18+00:00",
+   "episodes": [
+    {
+     "id": "806c6be1f0394a",
+     "date": "2026-11-05T00:44:32+00:00",
+     "titre": "OpenAI lance Images 2.6 avec le support des GIF et des références d'images",
+     "neuf": "OpenAI déploie officiellement Images 2.6 avec le support des GIF et des références d'images.",
+     "fil": "même famille OpenAI Images 2.6",
+     "source": "OpenAI (actus)",
+     "lien": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOX3dIb0FWWHhMdTVNVENaWnBKWFV5d1NmYXA5ZU5NN3VjVWJsSnNXRklqcF95alVZaHRHSUhxSWcyRUxDVWthcVVKRk8zOS02OFo0WG94TDhOaENYSkRITFl0eFRDdzFBUHVRMFRDVU9VeVY3LURzY1Rwb0xaSkZ5eFZvc2xwSGZ3MjVXNEwxMmpSQQ?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "dad0a29a44b81d",
+     "date": "2026-11-05T00:54:35.997645+00:00",
+     "titre": "OpenAI lance GPT-Image-2.6 Sunburst et Flare pour la génération d'images",
+     "neuf": "OpenAI lance les versions GPT-Image-2.6 Sunburst et Flare axées sur le SVG, les GIFs et l'édition guidée.",
+     "fil": "même gamme de modèles d'images OpenAI",
+     "source": "Notes de version OpenAI (API)",
+     "lien": "https://developers.openai.com/api/docs/changelog",
+     "nb_sources": 1,
+     "primaire": true
+    },
+    {
+     "id": "138082624572f9",
+     "date": "2026-11-05T00:55:06+00:00",
+     "titre": "SDK OpenAI v3.46.0",
+     "neuf": "Le SDK OpenAI intègre les options de complexité d'image et de GIF pour les nouveaux modèles.",
+     "fil": "même suite de modèles OpenAI Images",
+     "source": "SDK OpenAI",
+     "lien": "https://github.com/openai/openai-python/releases/tag/v3.46.0",
+     "nb_sources": 1,
+     "primaire": true
+    },
+    {
+     "id": "67573a65581398",
+     "date": "2026-11-05T18:04:10+00:00",
+     "titre": "SDK OpenAI v3.47.0",
+     "neuf": "Sortie de la version 3.47.0 du SDK OpenAI avec l'ajout d'une option de modèle pour Responses.",
+     "fil": "même SDK OpenAI",
+     "source": "SDK OpenAI",
+     "lien": "https://github.com/openai/openai-python/releases/tag/v3.47.0",
+     "nb_sources": 1,
+     "primaire": true
+    },
+    {
+     "id": "af7798f434c848",
+     "date": "2026-11-07T16:36:18+00:00",
+     "titre": "OpenAI lance ChatGPT Images 2.6",
+     "neuf": "OpenAI déploie officiellement la nouvelle version de son outil de génération et traitement d'images.",
+     "fil": "même gamme OpenAI Images 2.6",
+     "source": "OpenAI (actus)",
+     "lien": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOLS1GRGZDVWJ5elpTZ1MyVGFnbWhHWEZQWmJMbnJ6d3p2TEt2cmt1UlI0YjJxVHp1VWdSd1lIaGVXRTB5NUNTX2RhMThwMXVXZnJWOWxubFFkQTJRM05kYmhLR29DVE1iNVR6ajl2MTZlQ2swT0x5aUw0eVcwX1JSNHhCcUotdl9tQTFDSkg2VVBTRm14dVdLQjh0Y01paE9mSWtTeVFrSHdrR1VUeHBDTg?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    }
+   ],
+   "statut": "active",
+   "societes": [
+    "openai"
+   ]
+  },
+  {
+   "id": "h_673e2591a4",
+   "titre": "Saisie de serveurs à puces IA en Malaisie",
+   "resume": "Les autorités luttent contre les violations des sanctions sur les puces IA, avec de nouvelles révélations sur l'utilisation de sociétés écrans pour acheminer des processeurs vers la Chine.",
+   "creee": "2026-10-28T16:59:03.629060+00:00",
+   "maj": "2026-11-07T15:43:45+00:00",
+   "episodes": [
+    {
+     "id": "5d3712455705a1",
+     "date": "2026-10-28T10:16:04+00:00",
+     "titre": "Saisie de serveurs équipés de puces IA avancées en Malaisie",
+     "neuf": "Les autorités malaisiennes saisissent des serveurs équipés de puces IA dans le cadre de soupçons de violation des contrôles à l'export.",
+     "fil": "Saisie de serveurs à puces IA en Malaisie",
+     "source": "Contrôles à l'export IA",
+     "lien": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxQTWNocVNCQmJfUnhoQ1FfdGhEc2VjenVDMGpUUDY2SnJRX3JVZmFiMUhVbDVXbTZEUHZiZS1ZbGxaUXlJeWNXMWJDWW9xVnotaEczSHF6NjlNcVpvODkzVkFxd1ZBdm83eVRSM3QyenZ4Z0RPS3VhZm0tMDlpbE5ITjhDdmVnOW9vcmdXbF9VR1J5NGk1UzVDTDZ6cVU0YVNVUnUtYXZUclNnRW9aV0dCUndReHB3MVd0clhXWktIYVdmbTVoejU5NnQzRVZhMEZPU2xCNENIZm0zSDlzVG5RLUx1WjMyUGNRa0lweGFZNDVLZ0hxa2x4aWpBaHg1UQ?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "6dc152733a60f2",
+     "date": "2026-10-28T11:12:35+00:00",
+     "titre": "Saisie de serveurs équipés de puces IA en Malaisie pour violation suspectée des contrôles à l'export",
+     "neuf": "Confirmation officielle de la saisie de serveurs contenant des puces avancées soupçonnées d'infraction aux contrôles.",
+     "fil": "même saisie de serveurs en Malaisie",
+     "source": "Contrôles à l'export IA",
+     "lien": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNeU80bXl0NnNNS0JRUU91NUJIdFB6dDRrZlY1TXQzYUo3S1hfRG5oS3hpWk5qOHVxaWptQUZMaHBwUm5sdV9hLUNmRDFqUGhGS2FvbHdLeXRGUmhlb0R2TkloTU5wM2hxRWxGWWZFQ292MklNY3ZiZXBBa3BNN0VobVdxSjVRVzdNYTBJWWhYM2hOQTgyejJ0VUI5ZzY0WU5rQ2pUUE9YeUdvU2ZueHRaRWJDak95R1dBMDZZOEkyN0tVWG9BYmJ3TzhMRHVLQk9OMWYxYVhveUs?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "5913af8889b950",
+     "date": "2026-11-03T12:04:32+00:00",
+     "titre": "Contournement des sanctions sur les puces IA grâce à une faille d'exportation",
+     "neuf": "Des contrebandiers exploitent une faille en associant de la mémoire HBM interdite à des processeurs non sanctionnés pour l'acheminer vers la Chine.",
+     "fil": "Même problématique de contournement des contrôles à l'exportation de puces",
+     "source": "Contrôles à l'export IA",
+     "lien": "https://news.google.com/rss/articles/CBMi4wJBVV95cUxNczB1bmd3Umc1VkpITE9hR0cybF9uMTNvT01RcWVodndZRlZpUS1TTTBDOEs2WlFWMGo5OC1UR2szQ3VENE1fbHFSYW9mdG52R3RwSVFfNjNRM2F0MGtIWFVWMzdpWndQYzg0OWNyV3l2NnV6SFNzNmVPOTVnYWxEZUFQRlZIbEdXbXBZNlpOTVBzVS1HSWhHaEVNcklmX2Vza3VZQ25KbU1KZzVKbS1INjZMN2Z5MEtCTmctT1hSVjhtYU0zdnhBcDNsQ1FmRkZWX2lDUjIya2RCdXFjR0J3V2JWdVFCMHZSbjlnSno5RDBkdnItOFFKTkVUNmhzU0tNY2ZFLXNGWkY5LU93VnROZFZqQi1sdldaN29zRExpN20xbnRUMjlnM216ZGtDaUsyWFVfY1pzY2N1eEFOMXlvWTNOUWNtTlNNa1R4WU1nYlpPcVFlZ0ZWZC13S2NHYnc1Ym5R?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "73be1ddc7ff24f",
+     "date": "2026-11-07T15:43:45+00:00",
+     "titre": "Des puces IA Nvidia vendues à une société écran en Chine",
+     "neuf": "De nouvelles inquiétudes émergent concernant la vente de puces H200 à des sociétés écrans en Chine.",
+     "fil": "même problématique de contournement des sanctions sur les puces Nvidia en Chine",
+     "source": "The Verge IA",
+     "lien": "https://www.theverge.com/ai-artificial-intelligence/1029483/nvidia-ai-chips-china-blacklist-government",
+     "nb_sources": 1,
+     "primaire": false
+    }
+   ],
+   "statut": "active",
+   "societes": [
+    "nvidia"
+   ]
+  },
   {
    "id": "h_8dad32ff1f",
    "titre": "Fuite du modèle Claude Mythos d'Anthropic",
@@ -133,6 +406,30 @@
    "statut": "active",
    "societes": [
     "anthropic"
+   ]
+  },
+  {
+   "id": "h_0cb630a61b",
+   "titre": "Modèle Bell d'OpenAI à 10 000 milliards de paramètres",
+   "resume": "Des fuites révèlent le développement par OpenAI d'un nouveau modèle baptisé Bell, qui pourrait atteindre 10 000 milliards de paramètres et équiper ChatGPT 6.2.",
+   "creee": "2026-11-07T20:14:39.488494+00:00",
+   "maj": "2026-11-07T11:01:58+00:00",
+   "episodes": [
+    {
+     "id": "52381e52e49380",
+     "date": "2026-11-07T11:01:58+00:00",
+     "titre": "Un modèle Bell d'OpenAI à 10 000 milliards de paramètres fuite",
+     "neuf": "Des fuites révèlent l'existence d'un nouveau modèle massif de 10 000 milliards de paramètres.",
+     "fil": "développement du modèle Bell d'OpenAI",
+     "source": "OpenAI (actus)",
+     "lien": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9waHdmbGJUWHRrbUh6aWhJU1c1UHczMVRPcHRZdDZLa0lVRlRWR1pLZmtWZmRmb3ZmeW8zT0FlSHBJZXVFWTgyZjdBcjRpYlJpbHdVVG5KTW1PXzlmRGhIb1ln?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    }
+   ],
+   "statut": "active",
+   "societes": [
+    "openai"
    ]
   },
   {
@@ -438,108 +735,6 @@
    "statut": "active",
    "societes": [
     "google"
-   ]
-  },
-  {
-   "id": "h_71d93fee85",
-   "titre": "Quantifications GGUF pour le modèle Qwen3.8 27B",
-   "resume": "L'écosystème autour du modèle Qwen 3.8 27B s'enrichit de quantifications optimisées (comme via Unsloth), de variantes de fine-tuning axées sur la réduction des biais politiques (Arete-27B) et de démonstrations impressionnantes de manipulation directe dans des environnements virtuels.",
-   "creee": "2026-10-28T01:08:58.693059+00:00",
-   "maj": "2026-11-06T20:12:07+00:00",
-   "episodes": [
-    {
-     "id": "a08630aa7a33a1",
-     "date": "2026-10-27T18:52:27+00:00",
-     "titre": "Statistically Lossless Qwen3.8 27B GGUFs",
-     "neuf": "Mise à disposition des versions GGUF pour le modèle Qwen3.8 27B.",
-     "fil": "Publication des quantifications GGUF pour Qwen3.8 27B",
-     "source": "r/LocalLLaMA",
-     "lien": "https://www.reddit.com/r/LocalLLaMA/comments/1xh17tk/statistically_lossless_qwen38_27b_ggufs/",
-     "nb_sources": 1,
-     "primaire": false
-    },
-    {
-     "id": "1f5679e1fced18",
-     "date": "2026-11-02T22:42:11+00:00",
-     "titre": "Qwen 3.8 27b is sometimes so smart it scares me...",
-     "neuf": "Un utilisateur démontre la capacité du modèle à écrire et exécuter du code Python via Blender MCP.",
-     "fil": "Utilisation et capacités avancées du modèle Qwen 3.8 27B",
-     "source": "r/LocalLLaMA",
-     "lien": "https://www.reddit.com/r/LocalLLaMA/comments/1xmbym0/qwen_38_27b_is_sometimes_so_smart_it_scares_me/",
-     "nb_sources": 1,
-     "primaire": false
-    },
-    {
-     "id": "1132e288d98359",
-     "date": "2026-11-03T12:53:57+00:00",
-     "titre": "Is Qwen 3.8 27B still the king",
-     "neuf": "Un utilisateur s'interroge sur la suprématie du modèle Qwen 3.8 27B face aux alternatives récentes sur le segment 8-35B.",
-     "fil": "même modèle Qwen 3.8 27B",
-     "source": "r/LocalLLaMA",
-     "lien": "https://www.reddit.com/r/LocalLLaMA/comments/1xms6eq/is_qwen_38_27b_still_the_king/",
-     "nb_sources": 1,
-     "primaire": false
-    },
-    {
-     "id": "6857dc224a419f",
-     "date": "2026-11-03T16:29:48+00:00",
-     "titre": "Qwen 3.8 27B on my laptop can interpret model weights, too",
-     "neuf": "Démonstration de la capacité du modèle Qwen 3.8 27B à interpréter les poids neuronaux en local sur un ordinateur portable.",
-     "fil": "même modèle Qwen 3.8 27B",
-     "source": "Simon Willison",
-     "lien": "https://simonwillison.net/2026/Nov/3/qwen-can-interpret-model-weights/",
-     "nb_sources": 1,
-     "primaire": false
-    },
-    {
-     "id": "28898a3e971eb1",
-     "date": "2026-11-03T17:29:42+00:00",
-     "titre": "Like GPT-6 Astra, Qwen 3.8 27B can interpret model weights",
-     "neuf": "Confirmation des capacités d'interprétation des poids neuronaux pour Qwen 3.8 27B, comparées à GPT-6 Astra.",
-     "fil": "même modèle Qwen 3.8 27B",
-     "source": "r/LocalLLaMA",
-     "lien": "https://www.reddit.com/r/LocalLLaMA/comments/1xmz9ca/like_gpt6_astra_qwen_38_27b_can_interpret_model/",
-     "nb_sources": 1,
-     "primaire": false
-    },
-    {
-     "id": "30eca3f5f75219",
-     "date": "2026-11-04T17:51:33+00:00",
-     "titre": "Unsloth Qwen3.8-Flash-Next GGUFs V3.1 Update (November 4th 2026)",
-     "neuf": "Sortie de la version V3.1 des quantifications GGUF par Unsloth pour Qwen3.8-Flash-Next, offrant une précision accrue de 15%.",
-     "fil": "Mêmes quantifications GGUF pour Qwen",
-     "source": "r/LocalLLaMA",
-     "lien": "https://www.reddit.com/r/LocalLLaMA/comments/1xnuva2/unsloth_qwen38flashnext_ggufs_v31_update_november/",
-     "nb_sources": 1,
-     "primaire": false
-    },
-    {
-     "id": "7273de9166d8f8",
-     "date": "2026-11-06T19:58:47+00:00",
-     "titre": "Arete-27B : un fine-tune de Qwen3.8 pour modifier les biais politiques",
-     "neuf": "Apparition d'Arete-27B, un fine-tune ciblé du modèle Qwen3.8-27B visant à réduire les biais politiques et les réponses encadrées.",
-     "fil": "Déclinaisons et fine-tunes du modèle Qwen3.8",
-     "source": "r/LocalLLaMA",
-     "lien": "https://www.reddit.com/r/LocalLLaMA/comments/1xpmj33/nousresearcharete27b_hugging_face_qwen_finetune/",
-     "nb_sources": 1,
-     "primaire": false
-    },
-    {
-     "id": "1f7916b3bb2733",
-     "date": "2026-11-06T20:12:07+00:00",
-     "titre": "We are cooked. My QFN 3.8 NVFP4 just drew a dog freehand in MS Paint (using new Open WebUI 0.13.0 and Open Terminal 0.17.2)",
-     "neuf": "Démonstration des capacités avancées de Qwen3.8 sur de nouvelles interfaces (Open WebUI) lui permettant d'effectuer des actions de dessin directes au curseur dans une VM.",
-     "fil": "Utilisation pratique et capacités de génération du modèle Qwen3.8",
-     "source": "r/LocalLLaMA",
-     "lien": "https://www.reddit.com/r/LocalLLaMA/comments/1xpmvf2/we_are_cooked_my_qfn_38_nvfp4_just_drew_a_dog/",
-     "nb_sources": 1,
-     "primaire": false
-    }
-   ],
-   "statut": "active",
-   "societes": [
-    "alibaba",
-    "openai"
    ]
   },
   {
@@ -2734,63 +2929,6 @@
    ]
   },
   {
-   "id": "h_4f55dae4d5",
-   "titre": "OpenAI Images 2.6 et ses variantes",
-   "resume": "OpenAI déploie Images 2.6 avec le support des GIF animés et met à jour son SDK (v3.47.0) pour intégrer de nouvelles options de modèle.",
-   "creee": "2026-11-05T00:54:36.001955+00:00",
-   "maj": "2026-11-05T18:04:10+00:00",
-   "episodes": [
-    {
-     "id": "806c6be1f0394a",
-     "date": "2026-11-05T00:44:32+00:00",
-     "titre": "OpenAI lance Images 2.6 avec le support des GIF et des références d'images",
-     "neuf": "OpenAI déploie officiellement Images 2.6 avec le support des GIF et des références d'images.",
-     "fil": "même famille OpenAI Images 2.6",
-     "source": "OpenAI (actus)",
-     "lien": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOX3dIb0FWWHhMdTVNVENaWnBKWFV5d1NmYXA5ZU5NN3VjVWJsSnNXRklqcF95alVZaHRHSUhxSWcyRUxDVWthcVVKRk8zOS02OFo0WG94TDhOaENYSkRITFl0eFRDdzFBUHVRMFRDVU9VeVY3LURzY1Rwb0xaSkZ5eFZvc2xwSGZ3MjVXNEwxMmpSQQ?oc=5",
-     "nb_sources": 1,
-     "primaire": false
-    },
-    {
-     "id": "dad0a29a44b81d",
-     "date": "2026-11-05T00:54:35.997645+00:00",
-     "titre": "OpenAI lance GPT-Image-2.6 Sunburst et Flare pour la génération d'images",
-     "neuf": "OpenAI lance les versions GPT-Image-2.6 Sunburst et Flare axées sur le SVG, les GIFs et l'édition guidée.",
-     "fil": "même gamme de modèles d'images OpenAI",
-     "source": "Notes de version OpenAI (API)",
-     "lien": "https://developers.openai.com/api/docs/changelog",
-     "nb_sources": 1,
-     "primaire": true
-    },
-    {
-     "id": "138082624572f9",
-     "date": "2026-11-05T00:55:06+00:00",
-     "titre": "SDK OpenAI v3.46.0",
-     "neuf": "Le SDK OpenAI intègre les options de complexité d'image et de GIF pour les nouveaux modèles.",
-     "fil": "même suite de modèles OpenAI Images",
-     "source": "SDK OpenAI",
-     "lien": "https://github.com/openai/openai-python/releases/tag/v3.46.0",
-     "nb_sources": 1,
-     "primaire": true
-    },
-    {
-     "id": "67573a65581398",
-     "date": "2026-11-05T18:04:10+00:00",
-     "titre": "SDK OpenAI v3.47.0",
-     "neuf": "Sortie de la version 3.47.0 du SDK OpenAI avec l'ajout d'une option de modèle pour Responses.",
-     "fil": "même SDK OpenAI",
-     "source": "SDK OpenAI",
-     "lien": "https://github.com/openai/openai-python/releases/tag/v3.47.0",
-     "nb_sources": 1,
-     "primaire": true
-    }
-   ],
-   "statut": "active",
-   "societes": [
-    "openai"
-   ]
-  },
-  {
    "id": "h_018106ad87",
    "titre": "Expansion géographique mondiale de la publicité sur ChatGPT",
    "resume": "OpenAI accélère la diversification de ses sources de revenus en déployant son offre publicitaire ChatGPT Ads dans 26 pays supplémentaires et en s'implantant massivement sur le marché indien, devenu son plus grand terrain publicitaire.",
@@ -2845,6 +2983,296 @@
    "statut": "active",
    "societes": [
     "openai"
+   ]
+  },
+  {
+   "id": "h_5de020e85b",
+   "titre": "Application et sanctions de l'AI Act européen",
+   "resume": "L'Union européenne poursuit la mise en œuvre de son AI Act en précisant notamment les obligations de signalement des incidents graves pour les fournisseurs et déployeurs d'IA.",
+   "creee": "2026-10-20T09:56:16.457937+00:00",
+   "maj": "2026-11-05T14:17:16+00:00",
+   "episodes": [
+    {
+     "id": "634535b9265419",
+     "date": "2026-10-09T14:00:41+00:00",
+     "titre": "L'AI Act de l'Union européenne face au défi de la conformité des entreprises",
+     "neuf": "L'Union européenne met en œuvre l'AI Act face au défi de la mise en conformité des entreprises.",
+     "fil": "Application et conformité sous l'AI Act",
+     "source": "Régulation européenne",
+     "lien": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNaW9pV3NTMEs3QllXanlWNGc5TE5MM3BhSEZBSGh4VEcxRl9INENtM01pNWcxYWhWSXMzNnd1RlBKbWc1NFAteUN5N192TklMZGxvMWUzNEhsRGVSTkcyWUhWZzNjZHVGOWpJSC1wSkVZXzIzQWRHYmR3aTJyeGppampUT0JhdGpKS2lGT3Q1TUVfbVJJWmtiVkZwcmZSMzZzTTZPR0hCWWladjc5eDY2STkyd0FoZzU0c0E?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "5dbd7821822f22",
+     "date": "2026-10-10T22:05:13+00:00",
+     "titre": "L'Union européenne se prépare à réguler l'IA avec l'AI Act",
+     "neuf": "Rappel de la mise en place imminente de l'AI Act comme premier grand règlement mondial.",
+     "fil": "Mise en œuvre et application de l'AI Act",
+     "source": "Régulation européenne",
+     "lien": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxNd1lVYkpES2RkbTVDUlJORTY0MG9tRy1sVVFpYUpoN2VxcXd4clQxNmFVVFF1STFJN1BmV091bURqT21CTllVOURuVUpZeGQtcENSUm9iUW9XdDJjN2dRZk1aTVFNUWl3VDRValZXTkh1N0dyNkI4Tl9xT2hDeVM5MjE5alJiMkJNSHBXRkp5RUhPejlRc09vTy1SMmZaQnpPRV83alczano0LTdZTkRGdkFuRFZZSEtTMGstQ2lyUS03a2tCTTBhVzMwMkRFQ05mRmx3Y1dfUVVUN2x3TmJLZk9jRTJzYTNSSGtSLXpLVDI2dw?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "7b53088c1ad47d",
+     "date": "2026-10-15T22:39:08+00:00",
+     "titre": "AI Act : les enquêtes pourraient prolonger les délais de sanction",
+     "neuf": "Les enquêtes du Bureau de l'IA pourraient prolonger le délai de prescription des sanctions de 5 à 10 ans.",
+     "fil": "Sanctions et enquêtes sous l'AI Act",
+     "source": "ActuIA",
+     "lien": "https://www.actuia.com/actualite/ai-act-les-enquetes-pourraient-prolonger-le-delai-de-sanction/",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "12a96253e39ba8",
+     "date": "2026-10-15T22:39:08+00:00",
+     "titre": "AI Act : les enquêtes pourraient prolonger le délai de sanction",
+     "neuf": "Précision sur la possibilité que les enquêtes de l'AI Act prolongent les délais de sanction.",
+     "fil": "même application et sanctions de l'AI Act européen",
+     "source": "Régulation européenne",
+     "lien": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPU0J5MXlWdzVVMk80RFFLQTFCTFlFejhLSXc2M3V2SktRMXVGVEZxVTVaZHVfMUUtak0zUUhNR05teWx4NXJUdXAyQzBqZWpXZXNidm9ZZU1HdEVBUDhrSjlKQlVPUXZHQTlvc3dxUDAwcThuenFRQThoNUEtSFRpdDFJckxYZHNpWXhJNlR5SGxCY1RUS0kycEJzdw?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "bd7357ab84c89f",
+     "date": "2026-10-16T10:25:18+00:00",
+     "titre": "L'Union européenne dévoile les règles de sanction pour l'AI Act",
+     "neuf": "La Commission européenne détaille l'application concrète des sanctions pour les modèles d'IA générative.",
+     "fil": "Règles de sanction de l'AI Act",
+     "source": "Régulation européenne",
+     "lien": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNVkZKdkNmWm1tQ0FEMWJCMDdnMlh6OUhDWk1ub3ByOHY2WDZxaHhTbl9PTEszODg4VVJUNVNsQnQ0MGdyUWVBd1Z2alVTQ1g1RXVIOFVwanVmQ0d5YTZlOFhFaWhnX1F5dF9QSlQ5RTlyMS04YVRETWNob0ktcTMwU0RYVnBqRTBfeWc?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "3115f2832e6b35",
+     "date": "2026-10-19T00:00:00+00:00",
+     "titre": "Entrée en vigueur de l'AI Act et fin du shadow IA",
+     "neuf": "L'AI Act entre officiellement en vigueur, marquant la fin de la tolérance pour le « shadow IA » au sein des entreprises en Europe.",
+     "fil": "même application et entrée en vigueur de l'AI Act européen",
+     "source": "Régulation européenne",
+     "lien": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPendzelR2MFhHU21YSTE2dlBHQjlxbkhsMDlQSjlfUlVyYi1XdWVPZVpweHM0ZGx1LVJuazFzMGJiQ3hQdVJ4VjFiMXNDUHdyLXZ0YU5nZ0JJSV9RSTJ5d3N1cF9RWF80ZTlNUHBLajU2cDRGZ1JLS19QOTVLZ21kTURuaEI0QldxV2p6N3NUNmUzM21HVk1yaGNHbUNQZjNwWkRKUTR6XzFnT01CTllnMw?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "f815b9e3fe52ba",
+     "date": "2026-10-19T07:00:00+00:00",
+     "titre": "L'Union européenne déploie l'AI Act pour encadrer l'intelligence artificielle",
+     "neuf": "Rappel de la portée générale de l'AI Act en tant que premier grand règlement mondial d'encadrement.",
+     "fil": "Même mise en œuvre de l'AI Act européen",
+     "source": "Régulation européenne",
+     "lien": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFAwYm9obURudU1kM1hqWE55OXl0YXhwd3lYQ2QtWDZfVmt1SmlVY1NTLUlUUUxuNVBubVhkTER6OG9RR3FMN2hmY3FkWnJ0RldxNVE?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "cdfb1ae21529bf",
+     "date": "2026-10-19T09:17:11+00:00",
+     "titre": "AI Act : la gouvernance des agents IA pose question pour les entreprises",
+     "neuf": "Les entreprises s'interrogent sur le temps restant pour préparer la gouvernance de leurs agents face aux exigences de l'AI Act.",
+     "fil": "même application de l'AI Act",
+     "source": "Régulation européenne",
+     "lien": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxQMEhMWTVTUHZXR1NKS3AzX3dYaGI0MnFBME1pTG1aS21HajdiTFRIMzhxbjNtcm44NFE2UmFXXzZ4R1h6VW14YW4wOGd2ZzAyMk1sekZUVF9mVG41cm0yTkRKZXRKZi1rcU1ENFJyaWs5ZmZLdkFyVzczbWFudG13SERvRUxhTExoNjVlcUwwREV0OTlQRmdVZXdha2JfNFBtZkhXcWtfUGZqUjFZb1NDZkRyU0dYTU9nUlI5TkRQYzZCbnpGNWN0XzhWQWVfR2x2U0haZzN4UG0zZnN4bm9QYlhEVUZVanZBbFZPYzQ1QQ?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "662ebe66cb5c1b",
+     "date": "2026-10-19T10:00:00+00:00",
+     "titre": "L'AI Act européen privilégie l'IA d'aide à la décision",
+     "neuf": "L'Union européenne oriente l'AI Act vers le développement de systèmes d'aide à la décision plutôt que de contrôle.",
+     "fil": "même application de l'AI Act",
+     "source": "Régulation européenne",
+     "lien": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxQN1llSF9JNFd3TjZEekdYWG5KYzVqM05FdjMzbzAzSkpRc3o5QlVOd1hURlMtY0RQeXBPeEluZ2dxaUxiaUNMcXA4WHVkQ1lGWGpHVkNEcElkN0FDd1FwdEl1WGRQMWluRDJaVm9zdnhjdmFISjdVNC0xVzJVQzRpYWk3cEQxVlM0SWwzenV1RUhIZGZOVy0xS0lZdE5wS2hVay1JcG94RWNhaERoUkc5MEc4YklxVUkwN2s0RDhUSUVCdURsNXprZXN5dGZRajVpOGtoTVFCd1FYWGM?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "7fd6735c2ab1df",
+     "date": "2026-10-20T03:06:52+00:00",
+     "titre": "L'Union européenne sonde OpenAI et Anthropic dans le cadre de l'AI Act",
+     "neuf": "L'Union européenne cible OpenAI et Anthropic dans le cadre de sondages liés à l'AI Act, avec un risque d'amende.",
+     "fil": "même application de l'AI Act",
+     "source": "Régulation européenne",
+     "lien": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1LZU9MZ2xjbXhrNkxZSkFRd0E0QU1KMEtwalFMNWxPaWluSmZPRjNqM09rVGNzWF9yZ1ctV1ZHbk53cWdDVm4xQU5iUFNxTW0zN2k1TW1RWXdFcHVGSWxSRTBlWjlEMUNwazVXd0hyYUc0NzBP?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "90111474fb194f",
+     "date": "2026-10-20T04:40:30+00:00",
+     "titre": "Entrée en vigueur et conformité des entreprises à l'AI Act européen en 2026",
+     "neuf": "L'Union européenne officialise l'entrée en vigueur de l'AI Act et publie des guides de conformité pour l'année 2026.",
+     "fil": "même application de l'AI Act européen",
+     "source": "Régulation européenne",
+     "lien": "https://news.google.com/rss/articles/CBMia0FVX3lxTE96eVYyVkJQQ3JDRTdudXJtbmNvaW53T2VoT3Zid0tFWFVXWG50TGJSVVZhbE1VVl81d19sZGRzaml3Y21HbzBUb3pFRy1FNF9JcEpMMGlKSDNQcU5rdG5vU29ETjk4UGxQVld3?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "e412135ad51278",
+     "date": "2026-10-20T12:30:00+00:00",
+     "titre": "Agents IA : la nouvelle responsabilité des vendeurs face à l'UE",
+     "neuf": "La directive européenne assimile les logiciels et SaaS d'IA à des produits, engageant la responsabilité stricte de leurs vendeurs.",
+     "fil": "même cadre réglementaire européen sur l'IA",
+     "source": "ActuIA",
+     "lien": "https://www.actuia.com/actualite/agents-ia-ce-que-la-directive-europeenne-fera-payer-aux-entreprises-qui-les-vendent/",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "eba26d23de0f62",
+     "date": "2026-10-22T12:16:00+00:00",
+     "titre": "AI Act : publication de la première norme harmonisée sur le système qualité",
+     "neuf": "Publication de la première norme harmonisée (EN 18286) couvrant le système qualité des fournisseurs à haut risque.",
+     "fil": "application de l'AI Act",
+     "source": "ActuIA",
+     "lien": "https://www.actuia.com/actualite/ai-act-la-premiere-norme-harmonisee-ne-couvre-que-le-systeme-qualite/",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "74085a9efe5c78",
+     "date": "2026-10-23T12:45:00+00:00",
+     "titre": "Entrée en vigueur de l'AI Act et accompagnement des entreprises dans le Var",
+     "neuf": "L'AI Act entre formellement en vigueur, entraînant la mise en place d'un accompagnement local des entreprises pour assurer leur conformité.",
+     "fil": "même mise en application et en conformité avec l'AI Act européen",
+     "source": "Régulation européenne",
+     "lien": "https://news.google.com/rss/articles/CBMixwFBVV95cUxONXR3TkJaLTVDLU5CcVlGZldXY3hUNnlLQVBKMk1FMDh6bF82NVN4dXoxRzNUTFNPYVd6X3RseUw5RVVFNUc4NjdNZkhzMWJlUmFSbDJwLS1TeWwzRzdFbU1ZaHBnY2RuM01GMzl6aGtVaXpBVDNiQXlkb01vYkRoUmxNZURKX0s4OVhUMThaRlVHZGVUcFFObXRObG53LWpxN0RYUE5leVFxbkk2Q1dvck0zVVp2Q2N1RXFROVljYXVyQ29ubk00?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "d8516b9a59ac0d",
+     "date": "2026-10-24T12:43:32+00:00",
+     "titre": "L'UE fixe les sanctions de l'AI Act pour les modèles d'IA généraux",
+     "neuf": "L'Union européenne précise les montants des amendes maximales pour les modèles d'IA à large diffusion.",
+     "fil": "même application et sanctions de l'AI Act européen",
+     "source": "Régulation européenne",
+     "lien": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5wVDhvYTFtUXBzTi1RdUV5bHVBUUZCSlFwSjd3dnBabzlCaUVKLWk2WjNaUkw3TkRzanNVU25aOXhTbUo0MmQzOHFIMmZWcEg5VDFtaGNVSXlFTG9MclVHOElmVDlMejk0MWU4MW44NG5KYXZ4X1M1YTVjdw?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "bd3b68c4ad3d19",
+     "date": "2026-10-26T03:08:22+00:00",
+     "titre": "Application de l'AI Act de l'UE et seuil de calcul pour le fine-tuning",
+     "neuf": "L'Union européenne précise les seuils de calcul applicables au fine-tuning dans le cadre de l'AI Act.",
+     "fil": "application de l'AI Act",
+     "source": "Régulation européenne",
+     "lien": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQTmlZdDRQdmVybVQwN3d4X0JNbkRWblQ3azEwN05ZNGJFaG11MzhNekk0aW5OSThLY1ZuTEVSU2dETE54dzJULUZBZ0xfb1pNcDgweTlkamcwVS0zdEd3RVBISFVJU0xRclVJaFdUa2NBXzFCbmJwd2hma2pjZUpQWHFpWFA2a29lcElF?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "2f8775bad8c5bd",
+     "date": "2026-10-26T08:01:00+00:00",
+     "titre": "L'UE renforce son contrôle de l'intelligence artificielle avec l'AI Act",
+     "neuf": "L'UE rappelle et formalise la mise en œuvre de l'AI Act comme premier grand règlement mondial de contrôle.",
+     "fil": "même règlement européen AI Act",
+     "source": "Régulation européenne",
+     "lien": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOWlltZ1dTQko5SmY2eW1WRWplM2pEMEpuOXBCVDlPUmg4TEpBemVCTnBfZ19oV3VIamtvU25Dc2dnM0FwOVlrMjgxcUZJekxmV1lDMjNBVmpCU2hOaWV5M1IyWjJIRUFoYlphbjdtZjQ5NnJ0TFozOU9XV2k1ekhTeC1IZlMzd3M3ZGs0dmpmSzRvd1l4NXlEdDNNMC1aeDl3YlktQXBtbV9ObHJRdHQ4?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "19706a622a8409",
+     "date": "2026-10-28T08:05:19+00:00",
+     "titre": "L'incertitude des entreprises face aux obligations de formation de l'AI Act",
+     "neuf": "L'application de l'AI Act crée l'incertitude chez les entreprises en raison d'un manque de précisions textuelles sur les obligations de formation.",
+     "fil": "Même application et mise en œuvre de l'AI Act européen",
+     "source": "Régulation européenne",
+     "lien": "https://news.google.com/rss/articles/CBMie0FVX3lxTFBuLVBXU3JjdWdJY0REY05QOW9KQXhjbE9KTzBxdVdUeDM3V2tFaE1YSU9hS1kxc3hPMGE0c3E5dkswblRSMk1sVC1Mdl91RUVEdzdTSEZrRXZLdWF5SGd6eWx0bWxoYzhQaUZ0bnc0ZzJELW8zRmdfd1pROA?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "017d51a37fadb4",
+     "date": "2026-10-28T20:31:48+00:00",
+     "titre": "Entrée en vigueur des obligations de l'AI Act pour les agents d'IA",
+     "neuf": "Précision sur l'entrée en vigueur des obligations réglementaires visant spécifiquement les agents d'IA.",
+     "fil": "même application de l'AI Act",
+     "source": "Régulation européenne",
+     "lien": "https://news.google.com/rss/articles/CBMiekFVX3lxTE1pazBpYWV5YTQ1eXFBU0VOdm5OOS1UZXMzdjlpWUVSSFZHNEdBblRGRXJuWVBBSDZxeDNUdi0zOVhXVnNnX2p4cURLWkFJNGEzSEEyUEw3QlJYRllJY0ZuR1ptRXNBX2tFTGhJdjh4QmMzbnRXZW9BSnpR?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "8b113dfd26ee40",
+     "date": "2026-10-29T09:05:05+00:00",
+     "titre": "L'AI Act européen place le juriste au cœur de la supervision",
+     "neuf": "L'application de l'AI Act redéfinit concrètement le rôle du juriste pour en faire un architecte de la supervision humaine.",
+     "fil": "Même application de l'AI Act européen",
+     "source": "Régulation européenne",
+     "lien": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNLU1KbGpxLU85V2JEV2hFZ0xDZlFuUWJIZWVlTm0tZUQwYTBIZjBMbkY1WTFBUlo4bjl5QTY0Vnh3SXhjM3hUbGtoSmhkR0l6aHlkSXEwZTNoVkxyUndrb1JXenVSTjdVOHlfMlZUTkRDeDBIbFBXT0ZUdklaVXlJd2pDb09fSjZTLVllWUVZY1NlVnNlUW5KUzhwbDVVRnRyWTBzOUw2R0VjNWVLR2p5eDdR?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "3c36dafe3a3a4a",
+     "date": "2026-10-30T09:57:37+00:00",
+     "titre": "Impact de l'AI Act européen sur la responsabilité des départements RH",
+     "neuf": "Précision de l'impact réglementaire et de la responsabilité spécifique introduite pour les professionnels des ressources humaines.",
+     "fil": "application de l'AI Act européen aux départements RH",
+     "source": "Régulation européenne",
+     "lien": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQV1hoZFNPVUpIbXVmNkp2YnNxTzE0Q0tKN0owQ3pmRWtZWjJZdGxvLUNwczNwRW8wVVp4TGJTN3lYaVU5bmJOeEpLdFNZSUstcURBOUZUQmNVRFBhVE5jcDkzbENFU0ItSFpiWFVzcnNNZXE5dTlNazE1cldrOHJfNE5mZDdVRm9mTEgtNVRTaXpLbDg2R1pfejJfcVo5QUkxSjd6SW9GejluNC1NakVEUlRaQklFd2hiNTZibE9yYXpoai01eGQ2eWZn?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "3331daf54dbdca",
+     "date": "2026-11-02T12:02:06+00:00",
+     "titre": "Guide sur l'application de l'AI Act et du RGPD au travail en Europe",
+     "neuf": "Parution d'un guide pratique détaillant la mise en œuvre conjointe de l'AI Act et du RGPD au travail en Europe.",
+     "fil": "même application pratique de l'AI Act en milieu professionnel",
+     "source": "Régulation européenne",
+     "lien": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNMDR2UWR6RHIxQm1jU2xPekFsX2kyeHZHczV0YmJpTFBwUjdrOGVHV2RSSGlUcExQUjBEWnhrdF9heWg3Wi0wdVN0WTFzSHhIVnVLblRLbGhSS0QzXzVLQ3kwM1lhazJlVjN1QXRSUzZMRndKUzBYdkZUTDFSaUt1bWdVM0pMTWxCMTJpWXhyYjhTQQ?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "3aa6bc0186ff01",
+     "date": "2026-11-02T21:03:06+00:00",
+     "titre": "Obligations de filigrane pour les textes de Claude sous l'AI Act",
+     "neuf": "Un éclairage est apporté sur l'application des obligations de filigrane de l'AI Act aux textes générés par Claude.",
+     "fil": "Mêmes obligations de l'AI Act appliquées aux textes de Claude d'Anthropic",
+     "source": "Régulation européenne",
+     "lien": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPQ2poS2psc1NkTzBkT0VPUnhBSWpCS1VSbEp1QTdIYVJOd0o5b0htcWNMUlFzemJmYVllb0hYVkxkTVJfYjdURVh0TWxFb2dkU2g1YldmWmNqeHZtWTFOY2Y5eGFtS3FwSGJfTzJJa2c0SUxoQXFwMzMzZFhGZEFnZ0xhdnA2ZGR2SFk0eGFfQWUxYlZEdXU3Z0gwb0NyRUE?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "0e8dcba97cca0f",
+     "date": "2026-11-03T17:36:11+00:00",
+     "titre": "L'AI Act européen : quelles obligations pour les entreprises ?",
+     "neuf": "Nouvelles analyses et rappels sur les obligations concrètes des entreprises face à l'AI Act européen.",
+     "fil": "même AI Act européen",
+     "source": "Régulation européenne",
+     "lien": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPMGJPU1RQbGo2WmotZlVHOVlCbDBJS1FwSWxhNUZtUVd0LXRacTRDZ0duOGNSZGdYUlNiUTVRUmhfbGJHc25jZUVKRlM3d3hhSVQteUhYb3dUUlFEblNqbm9FdWpiSG1pUmo5ODVvT0VTaURVUUhCbk1UanYtUmZIRjhFQ3ZmWEFFSXQySmplT3JtNWRvdTZud3VheVR6eExiOEp3SExVRXVSdVp2LTZfZklhcDEzem10UnZiRHZraGVWZ2E2MnRGNGNFVGloUXhx?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "7bd5bef6431a6e",
+     "date": "2026-11-05T14:17:16+00:00",
+     "titre": "Obligations de signalement des incidents graves sous l'AI Act",
+     "neuf": "L'UE précise les obligations de signalement des incidents graves pour les fournisseurs et déployeurs d'IA.",
+     "fil": "même cadre réglementaire de l'AI Act européen",
+     "source": "Régulation européenne",
+     "lien": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1wTnBoRGtPSG45b1VRMExfRzBQMmNobzRld3dnakNaWndLZjM3WjB3bUJuTDdCUm9fdnVfUEM0R1FuMk9vZGFwMlVCVks5SkdENDFYa05QeWVoQjJSZk02X1E2cEEyRFFrSUh5SEFRZEFLMTg?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    }
+   ],
+   "statut": "active",
+   "societes": [
+    "openai",
+    "ue",
+    "anthropic"
    ]
   },
   {
@@ -2985,7 +3413,7 @@
   {
    "id": "h_c4961b9682",
    "titre": "Contrôles de la Chine sur l'export d'IA",
-   "resume": "La Chine formalise ses restrictions réglementaires à l'exportation et étend son emprise sur les matériaux critiques comme le tungstène et les substrats en InP, tandis que les acteurs du secteur s'inquiètent du durcissement croisé des contrôles internationaux.",
+   "resume": "La Chine formalise ses restrictions à l'exportation et étend son emprise sur les matériaux critiques, tandis que les instances de surveillance politique en Occident s'interrogent sur l'avenir de leurs commissions de contrôle.",
    "creee": "2026-10-20T09:56:16.457937+00:00",
    "maj": "2026-11-05T03:35:25+00:00",
    "episodes": [
@@ -3722,285 +4150,6 @@
    ]
   },
   {
-   "id": "h_5de020e85b",
-   "titre": "Application et sanctions de l'AI Act européen",
-   "resume": "L'Union européenne poursuit la mise en œuvre de son AI Act, tandis que les entreprises et organisations analysent les impacts et obligations réglementaires de ce nouveau cadre sur leurs activités.",
-   "creee": "2026-10-20T09:56:16.457937+00:00",
-   "maj": "2026-11-03T17:36:11+00:00",
-   "episodes": [
-    {
-     "id": "634535b9265419",
-     "date": "2026-10-09T14:00:41+00:00",
-     "titre": "L'AI Act de l'Union européenne face au défi de la conformité des entreprises",
-     "neuf": "L'Union européenne met en œuvre l'AI Act face au défi de la mise en conformité des entreprises.",
-     "fil": "Application et conformité sous l'AI Act",
-     "source": "Régulation européenne",
-     "lien": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNaW9pV3NTMEs3QllXanlWNGc5TE5MM3BhSEZBSGh4VEcxRl9INENtM01pNWcxYWhWSXMzNnd1RlBKbWc1NFAteUN5N192TklMZGxvMWUzNEhsRGVSTkcyWUhWZzNjZHVGOWpJSC1wSkVZXzIzQWRHYmR3aTJyeGppampUT0JhdGpKS2lGT3Q1TUVfbVJJWmtiVkZwcmZSMzZzTTZPR0hCWWladjc5eDY2STkyd0FoZzU0c0E?oc=5",
-     "nb_sources": 1,
-     "primaire": false
-    },
-    {
-     "id": "5dbd7821822f22",
-     "date": "2026-10-10T22:05:13+00:00",
-     "titre": "L'Union européenne se prépare à réguler l'IA avec l'AI Act",
-     "neuf": "Rappel de la mise en place imminente de l'AI Act comme premier grand règlement mondial.",
-     "fil": "Mise en œuvre et application de l'AI Act",
-     "source": "Régulation européenne",
-     "lien": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxNd1lVYkpES2RkbTVDUlJORTY0MG9tRy1sVVFpYUpoN2VxcXd4clQxNmFVVFF1STFJN1BmV091bURqT21CTllVOURuVUpZeGQtcENSUm9iUW9XdDJjN2dRZk1aTVFNUWl3VDRValZXTkh1N0dyNkI4Tl9xT2hDeVM5MjE5alJiMkJNSHBXRkp5RUhPejlRc09vTy1SMmZaQnpPRV83alczano0LTdZTkRGdkFuRFZZSEtTMGstQ2lyUS03a2tCTTBhVzMwMkRFQ05mRmx3Y1dfUVVUN2x3TmJLZk9jRTJzYTNSSGtSLXpLVDI2dw?oc=5",
-     "nb_sources": 1,
-     "primaire": false
-    },
-    {
-     "id": "7b53088c1ad47d",
-     "date": "2026-10-15T22:39:08+00:00",
-     "titre": "AI Act : les enquêtes pourraient prolonger les délais de sanction",
-     "neuf": "Les enquêtes du Bureau de l'IA pourraient prolonger le délai de prescription des sanctions de 5 à 10 ans.",
-     "fil": "Sanctions et enquêtes sous l'AI Act",
-     "source": "ActuIA",
-     "lien": "https://www.actuia.com/actualite/ai-act-les-enquetes-pourraient-prolonger-le-delai-de-sanction/",
-     "nb_sources": 1,
-     "primaire": false
-    },
-    {
-     "id": "12a96253e39ba8",
-     "date": "2026-10-15T22:39:08+00:00",
-     "titre": "AI Act : les enquêtes pourraient prolonger le délai de sanction",
-     "neuf": "Précision sur la possibilité que les enquêtes de l'AI Act prolongent les délais de sanction.",
-     "fil": "même application et sanctions de l'AI Act européen",
-     "source": "Régulation européenne",
-     "lien": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPU0J5MXlWdzVVMk80RFFLQTFCTFlFejhLSXc2M3V2SktRMXVGVEZxVTVaZHVfMUUtak0zUUhNR05teWx4NXJUdXAyQzBqZWpXZXNidm9ZZU1HdEVBUDhrSjlKQlVPUXZHQTlvc3dxUDAwcThuenFRQThoNUEtSFRpdDFJckxYZHNpWXhJNlR5SGxCY1RUS0kycEJzdw?oc=5",
-     "nb_sources": 1,
-     "primaire": false
-    },
-    {
-     "id": "bd7357ab84c89f",
-     "date": "2026-10-16T10:25:18+00:00",
-     "titre": "L'Union européenne dévoile les règles de sanction pour l'AI Act",
-     "neuf": "La Commission européenne détaille l'application concrète des sanctions pour les modèles d'IA générative.",
-     "fil": "Règles de sanction de l'AI Act",
-     "source": "Régulation européenne",
-     "lien": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNVkZKdkNmWm1tQ0FEMWJCMDdnMlh6OUhDWk1ub3ByOHY2WDZxaHhTbl9PTEszODg4VVJUNVNsQnQ0MGdyUWVBd1Z2alVTQ1g1RXVIOFVwanVmQ0d5YTZlOFhFaWhnX1F5dF9QSlQ5RTlyMS04YVRETWNob0ktcTMwU0RYVnBqRTBfeWc?oc=5",
-     "nb_sources": 1,
-     "primaire": false
-    },
-    {
-     "id": "3115f2832e6b35",
-     "date": "2026-10-19T00:00:00+00:00",
-     "titre": "Entrée en vigueur de l'AI Act et fin du shadow IA",
-     "neuf": "L'AI Act entre officiellement en vigueur, marquant la fin de la tolérance pour le « shadow IA » au sein des entreprises en Europe.",
-     "fil": "même application et entrée en vigueur de l'AI Act européen",
-     "source": "Régulation européenne",
-     "lien": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPendzelR2MFhHU21YSTE2dlBHQjlxbkhsMDlQSjlfUlVyYi1XdWVPZVpweHM0ZGx1LVJuazFzMGJiQ3hQdVJ4VjFiMXNDUHdyLXZ0YU5nZ0JJSV9RSTJ5d3N1cF9RWF80ZTlNUHBLajU2cDRGZ1JLS19QOTVLZ21kTURuaEI0QldxV2p6N3NUNmUzM21HVk1yaGNHbUNQZjNwWkRKUTR6XzFnT01CTllnMw?oc=5",
-     "nb_sources": 1,
-     "primaire": false
-    },
-    {
-     "id": "f815b9e3fe52ba",
-     "date": "2026-10-19T07:00:00+00:00",
-     "titre": "L'Union européenne déploie l'AI Act pour encadrer l'intelligence artificielle",
-     "neuf": "Rappel de la portée générale de l'AI Act en tant que premier grand règlement mondial d'encadrement.",
-     "fil": "Même mise en œuvre de l'AI Act européen",
-     "source": "Régulation européenne",
-     "lien": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFAwYm9obURudU1kM1hqWE55OXl0YXhwd3lYQ2QtWDZfVmt1SmlVY1NTLUlUUUxuNVBubVhkTER6OG9RR3FMN2hmY3FkWnJ0RldxNVE?oc=5",
-     "nb_sources": 1,
-     "primaire": false
-    },
-    {
-     "id": "cdfb1ae21529bf",
-     "date": "2026-10-19T09:17:11+00:00",
-     "titre": "AI Act : la gouvernance des agents IA pose question pour les entreprises",
-     "neuf": "Les entreprises s'interrogent sur le temps restant pour préparer la gouvernance de leurs agents face aux exigences de l'AI Act.",
-     "fil": "même application de l'AI Act",
-     "source": "Régulation européenne",
-     "lien": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxQMEhMWTVTUHZXR1NKS3AzX3dYaGI0MnFBME1pTG1aS21HajdiTFRIMzhxbjNtcm44NFE2UmFXXzZ4R1h6VW14YW4wOGd2ZzAyMk1sekZUVF9mVG41cm0yTkRKZXRKZi1rcU1ENFJyaWs5ZmZLdkFyVzczbWFudG13SERvRUxhTExoNjVlcUwwREV0OTlQRmdVZXdha2JfNFBtZkhXcWtfUGZqUjFZb1NDZkRyU0dYTU9nUlI5TkRQYzZCbnpGNWN0XzhWQWVfR2x2U0haZzN4UG0zZnN4bm9QYlhEVUZVanZBbFZPYzQ1QQ?oc=5",
-     "nb_sources": 1,
-     "primaire": false
-    },
-    {
-     "id": "662ebe66cb5c1b",
-     "date": "2026-10-19T10:00:00+00:00",
-     "titre": "L'AI Act européen privilégie l'IA d'aide à la décision",
-     "neuf": "L'Union européenne oriente l'AI Act vers le développement de systèmes d'aide à la décision plutôt que de contrôle.",
-     "fil": "même application de l'AI Act",
-     "source": "Régulation européenne",
-     "lien": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxQN1llSF9JNFd3TjZEekdYWG5KYzVqM05FdjMzbzAzSkpRc3o5QlVOd1hURlMtY0RQeXBPeEluZ2dxaUxiaUNMcXA4WHVkQ1lGWGpHVkNEcElkN0FDd1FwdEl1WGRQMWluRDJaVm9zdnhjdmFISjdVNC0xVzJVQzRpYWk3cEQxVlM0SWwzenV1RUhIZGZOVy0xS0lZdE5wS2hVay1JcG94RWNhaERoUkc5MEc4YklxVUkwN2s0RDhUSUVCdURsNXprZXN5dGZRajVpOGtoTVFCd1FYWGM?oc=5",
-     "nb_sources": 1,
-     "primaire": false
-    },
-    {
-     "id": "7fd6735c2ab1df",
-     "date": "2026-10-20T03:06:52+00:00",
-     "titre": "L'Union européenne sonde OpenAI et Anthropic dans le cadre de l'AI Act",
-     "neuf": "L'Union européenne cible OpenAI et Anthropic dans le cadre de sondages liés à l'AI Act, avec un risque d'amende.",
-     "fil": "même application de l'AI Act",
-     "source": "Régulation européenne",
-     "lien": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1LZU9MZ2xjbXhrNkxZSkFRd0E0QU1KMEtwalFMNWxPaWluSmZPRjNqM09rVGNzWF9yZ1ctV1ZHbk53cWdDVm4xQU5iUFNxTW0zN2k1TW1RWXdFcHVGSWxSRTBlWjlEMUNwazVXd0hyYUc0NzBP?oc=5",
-     "nb_sources": 1,
-     "primaire": false
-    },
-    {
-     "id": "90111474fb194f",
-     "date": "2026-10-20T04:40:30+00:00",
-     "titre": "Entrée en vigueur et conformité des entreprises à l'AI Act européen en 2026",
-     "neuf": "L'Union européenne officialise l'entrée en vigueur de l'AI Act et publie des guides de conformité pour l'année 2026.",
-     "fil": "même application de l'AI Act européen",
-     "source": "Régulation européenne",
-     "lien": "https://news.google.com/rss/articles/CBMia0FVX3lxTE96eVYyVkJQQ3JDRTdudXJtbmNvaW53T2VoT3Zid0tFWFVXWG50TGJSVVZhbE1VVl81d19sZGRzaml3Y21HbzBUb3pFRy1FNF9JcEpMMGlKSDNQcU5rdG5vU29ETjk4UGxQVld3?oc=5",
-     "nb_sources": 1,
-     "primaire": false
-    },
-    {
-     "id": "e412135ad51278",
-     "date": "2026-10-20T12:30:00+00:00",
-     "titre": "Agents IA : la nouvelle responsabilité des vendeurs face à l'UE",
-     "neuf": "La directive européenne assimile les logiciels et SaaS d'IA à des produits, engageant la responsabilité stricte de leurs vendeurs.",
-     "fil": "même cadre réglementaire européen sur l'IA",
-     "source": "ActuIA",
-     "lien": "https://www.actuia.com/actualite/agents-ia-ce-que-la-directive-europeenne-fera-payer-aux-entreprises-qui-les-vendent/",
-     "nb_sources": 1,
-     "primaire": false
-    },
-    {
-     "id": "eba26d23de0f62",
-     "date": "2026-10-22T12:16:00+00:00",
-     "titre": "AI Act : publication de la première norme harmonisée sur le système qualité",
-     "neuf": "Publication de la première norme harmonisée (EN 18286) couvrant le système qualité des fournisseurs à haut risque.",
-     "fil": "application de l'AI Act",
-     "source": "ActuIA",
-     "lien": "https://www.actuia.com/actualite/ai-act-la-premiere-norme-harmonisee-ne-couvre-que-le-systeme-qualite/",
-     "nb_sources": 1,
-     "primaire": false
-    },
-    {
-     "id": "74085a9efe5c78",
-     "date": "2026-10-23T12:45:00+00:00",
-     "titre": "Entrée en vigueur de l'AI Act et accompagnement des entreprises dans le Var",
-     "neuf": "L'AI Act entre formellement en vigueur, entraînant la mise en place d'un accompagnement local des entreprises pour assurer leur conformité.",
-     "fil": "même mise en application et en conformité avec l'AI Act européen",
-     "source": "Régulation européenne",
-     "lien": "https://news.google.com/rss/articles/CBMixwFBVV95cUxONXR3TkJaLTVDLU5CcVlGZldXY3hUNnlLQVBKMk1FMDh6bF82NVN4dXoxRzNUTFNPYVd6X3RseUw5RVVFNUc4NjdNZkhzMWJlUmFSbDJwLS1TeWwzRzdFbU1ZaHBnY2RuM01GMzl6aGtVaXpBVDNiQXlkb01vYkRoUmxNZURKX0s4OVhUMThaRlVHZGVUcFFObXRObG53LWpxN0RYUE5leVFxbkk2Q1dvck0zVVp2Q2N1RXFROVljYXVyQ29ubk00?oc=5",
-     "nb_sources": 1,
-     "primaire": false
-    },
-    {
-     "id": "d8516b9a59ac0d",
-     "date": "2026-10-24T12:43:32+00:00",
-     "titre": "L'UE fixe les sanctions de l'AI Act pour les modèles d'IA généraux",
-     "neuf": "L'Union européenne précise les montants des amendes maximales pour les modèles d'IA à large diffusion.",
-     "fil": "même application et sanctions de l'AI Act européen",
-     "source": "Régulation européenne",
-     "lien": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5wVDhvYTFtUXBzTi1RdUV5bHVBUUZCSlFwSjd3dnBabzlCaUVKLWk2WjNaUkw3TkRzanNVU25aOXhTbUo0MmQzOHFIMmZWcEg5VDFtaGNVSXlFTG9MclVHOElmVDlMejk0MWU4MW44NG5KYXZ4X1M1YTVjdw?oc=5",
-     "nb_sources": 1,
-     "primaire": false
-    },
-    {
-     "id": "bd3b68c4ad3d19",
-     "date": "2026-10-26T03:08:22+00:00",
-     "titre": "Application de l'AI Act de l'UE et seuil de calcul pour le fine-tuning",
-     "neuf": "L'Union européenne précise les seuils de calcul applicables au fine-tuning dans le cadre de l'AI Act.",
-     "fil": "application de l'AI Act",
-     "source": "Régulation européenne",
-     "lien": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQTmlZdDRQdmVybVQwN3d4X0JNbkRWblQ3azEwN05ZNGJFaG11MzhNekk0aW5OSThLY1ZuTEVSU2dETE54dzJULUZBZ0xfb1pNcDgweTlkamcwVS0zdEd3RVBISFVJU0xRclVJaFdUa2NBXzFCbmJwd2hma2pjZUpQWHFpWFA2a29lcElF?oc=5",
-     "nb_sources": 1,
-     "primaire": false
-    },
-    {
-     "id": "2f8775bad8c5bd",
-     "date": "2026-10-26T08:01:00+00:00",
-     "titre": "L'UE renforce son contrôle de l'intelligence artificielle avec l'AI Act",
-     "neuf": "L'UE rappelle et formalise la mise en œuvre de l'AI Act comme premier grand règlement mondial de contrôle.",
-     "fil": "même règlement européen AI Act",
-     "source": "Régulation européenne",
-     "lien": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOWlltZ1dTQko5SmY2eW1WRWplM2pEMEpuOXBCVDlPUmg4TEpBemVCTnBfZ19oV3VIamtvU25Dc2dnM0FwOVlrMjgxcUZJekxmV1lDMjNBVmpCU2hOaWV5M1IyWjJIRUFoYlphbjdtZjQ5NnJ0TFozOU9XV2k1ekhTeC1IZlMzd3M3ZGs0dmpmSzRvd1l4NXlEdDNNMC1aeDl3YlktQXBtbV9ObHJRdHQ4?oc=5",
-     "nb_sources": 1,
-     "primaire": false
-    },
-    {
-     "id": "19706a622a8409",
-     "date": "2026-10-28T08:05:19+00:00",
-     "titre": "L'incertitude des entreprises face aux obligations de formation de l'AI Act",
-     "neuf": "L'application de l'AI Act crée l'incertitude chez les entreprises en raison d'un manque de précisions textuelles sur les obligations de formation.",
-     "fil": "Même application et mise en œuvre de l'AI Act européen",
-     "source": "Régulation européenne",
-     "lien": "https://news.google.com/rss/articles/CBMie0FVX3lxTFBuLVBXU3JjdWdJY0REY05QOW9KQXhjbE9KTzBxdVdUeDM3V2tFaE1YSU9hS1kxc3hPMGE0c3E5dkswblRSMk1sVC1Mdl91RUVEdzdTSEZrRXZLdWF5SGd6eWx0bWxoYzhQaUZ0bnc0ZzJELW8zRmdfd1pROA?oc=5",
-     "nb_sources": 1,
-     "primaire": false
-    },
-    {
-     "id": "017d51a37fadb4",
-     "date": "2026-10-28T20:31:48+00:00",
-     "titre": "Entrée en vigueur des obligations de l'AI Act pour les agents d'IA",
-     "neuf": "Précision sur l'entrée en vigueur des obligations réglementaires visant spécifiquement les agents d'IA.",
-     "fil": "même application de l'AI Act",
-     "source": "Régulation européenne",
-     "lien": "https://news.google.com/rss/articles/CBMiekFVX3lxTE1pazBpYWV5YTQ1eXFBU0VOdm5OOS1UZXMzdjlpWUVSSFZHNEdBblRGRXJuWVBBSDZxeDNUdi0zOVhXVnNnX2p4cURLWkFJNGEzSEEyUEw3QlJYRllJY0ZuR1ptRXNBX2tFTGhJdjh4QmMzbnRXZW9BSnpR?oc=5",
-     "nb_sources": 1,
-     "primaire": false
-    },
-    {
-     "id": "8b113dfd26ee40",
-     "date": "2026-10-29T09:05:05+00:00",
-     "titre": "L'AI Act européen place le juriste au cœur de la supervision",
-     "neuf": "L'application de l'AI Act redéfinit concrètement le rôle du juriste pour en faire un architecte de la supervision humaine.",
-     "fil": "Même application de l'AI Act européen",
-     "source": "Régulation européenne",
-     "lien": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNLU1KbGpxLU85V2JEV2hFZ0xDZlFuUWJIZWVlTm0tZUQwYTBIZjBMbkY1WTFBUlo4bjl5QTY0Vnh3SXhjM3hUbGtoSmhkR0l6aHlkSXEwZTNoVkxyUndrb1JXenVSTjdVOHlfMlZUTkRDeDBIbFBXT0ZUdklaVXlJd2pDb09fSjZTLVllWUVZY1NlVnNlUW5KUzhwbDVVRnRyWTBzOUw2R0VjNWVLR2p5eDdR?oc=5",
-     "nb_sources": 1,
-     "primaire": false
-    },
-    {
-     "id": "3c36dafe3a3a4a",
-     "date": "2026-10-30T09:57:37+00:00",
-     "titre": "Impact de l'AI Act européen sur la responsabilité des départements RH",
-     "neuf": "Précision de l'impact réglementaire et de la responsabilité spécifique introduite pour les professionnels des ressources humaines.",
-     "fil": "application de l'AI Act européen aux départements RH",
-     "source": "Régulation européenne",
-     "lien": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQV1hoZFNPVUpIbXVmNkp2YnNxTzE0Q0tKN0owQ3pmRWtZWjJZdGxvLUNwczNwRW8wVVp4TGJTN3lYaVU5bmJOeEpLdFNZSUstcURBOUZUQmNVRFBhVE5jcDkzbENFU0ItSFpiWFVzcnNNZXE5dTlNazE1cldrOHJfNE5mZDdVRm9mTEgtNVRTaXpLbDg2R1pfejJfcVo5QUkxSjd6SW9GejluNC1NakVEUlRaQklFd2hiNTZibE9yYXpoai01eGQ2eWZn?oc=5",
-     "nb_sources": 1,
-     "primaire": false
-    },
-    {
-     "id": "3331daf54dbdca",
-     "date": "2026-11-02T12:02:06+00:00",
-     "titre": "Guide sur l'application de l'AI Act et du RGPD au travail en Europe",
-     "neuf": "Parution d'un guide pratique détaillant la mise en œuvre conjointe de l'AI Act et du RGPD au travail en Europe.",
-     "fil": "même application pratique de l'AI Act en milieu professionnel",
-     "source": "Régulation européenne",
-     "lien": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNMDR2UWR6RHIxQm1jU2xPekFsX2kyeHZHczV0YmJpTFBwUjdrOGVHV2RSSGlUcExQUjBEWnhrdF9heWg3Wi0wdVN0WTFzSHhIVnVLblRLbGhSS0QzXzVLQ3kwM1lhazJlVjN1QXRSUzZMRndKUzBYdkZUTDFSaUt1bWdVM0pMTWxCMTJpWXhyYjhTQQ?oc=5",
-     "nb_sources": 1,
-     "primaire": false
-    },
-    {
-     "id": "3aa6bc0186ff01",
-     "date": "2026-11-02T21:03:06+00:00",
-     "titre": "Obligations de filigrane pour les textes de Claude sous l'AI Act",
-     "neuf": "Un éclairage est apporté sur l'application des obligations de filigrane de l'AI Act aux textes générés par Claude.",
-     "fil": "Mêmes obligations de l'AI Act appliquées aux textes de Claude d'Anthropic",
-     "source": "Régulation européenne",
-     "lien": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPQ2poS2psc1NkTzBkT0VPUnhBSWpCS1VSbEp1QTdIYVJOd0o5b0htcWNMUlFzemJmYVllb0hYVkxkTVJfYjdURVh0TWxFb2dkU2g1YldmWmNqeHZtWTFOY2Y5eGFtS3FwSGJfTzJJa2c0SUxoQXFwMzMzZFhGZEFnZ0xhdnA2ZGR2SFk0eGFfQWUxYlZEdXU3Z0gwb0NyRUE?oc=5",
-     "nb_sources": 1,
-     "primaire": false
-    },
-    {
-     "id": "0e8dcba97cca0f",
-     "date": "2026-11-03T17:36:11+00:00",
-     "titre": "L'AI Act européen : quelles obligations pour les entreprises ?",
-     "neuf": "Nouvelles analyses et rappels sur les obligations concrètes des entreprises face à l'AI Act européen.",
-     "fil": "même AI Act européen",
-     "source": "Régulation européenne",
-     "lien": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPMGJPU1RQbGo2WmotZlVHOVlCbDBJS1FwSWxhNUZtUVd0LXRacTRDZ0duOGNSZGdYUlNiUTVRUmhfbGJHc25jZUVKRlM3d3hhSVQteUhYb3dUUlFEblNqbm9FdWpiSG1pUmo5ODVvT0VTaURVUUhCbk1UanYtUmZIRjhFQ3ZmWEFFSXQySmplT3JtNWRvdTZud3VheVR6eExiOEp3SExVRXVSdVp2LTZfZklhcDEzem10UnZiRHZraGVWZ2E2MnRGNGNFVGloUXhx?oc=5",
-     "nb_sources": 1,
-     "primaire": false
-    }
-   ],
-   "statut": "active",
-   "societes": [
-    "openai",
-    "ue",
-    "anthropic"
-   ]
-  },
-  {
    "id": "h_4c9894e533",
    "titre": "Gemini 4 Carbon : annonce et capacités",
    "resume": "Google DeepMind déploie officiellement Gemini 4 Carbon, un modèle axé sur la programmation et la cybersécurité qui surpasse de justesse Claude Opus 5.5. Les dernières publications détaillent ses gains globaux de performance par rapport aux versions précédentes.",
@@ -4222,50 +4371,6 @@
     "google",
     "anthropic"
    ]
-  },
-  {
-   "id": "h_673e2591a4",
-   "titre": "Saisie de serveurs à puces IA en Malaisie",
-   "resume": "Les autorités poursuivent leurs actions contre les violations des réglementations sur l'exportation de puces, tandis que de nouvelles méthodes de contournement, comme l'association de mémoire HBM à des processeurs non sanctionnés vers la Chine, sont mises en lumière.",
-   "creee": "2026-10-28T16:59:03.629060+00:00",
-   "maj": "2026-11-03T12:04:32+00:00",
-   "episodes": [
-    {
-     "id": "5d3712455705a1",
-     "date": "2026-10-28T10:16:04+00:00",
-     "titre": "Saisie de serveurs équipés de puces IA avancées en Malaisie",
-     "neuf": "Les autorités malaisiennes saisissent des serveurs équipés de puces IA dans le cadre de soupçons de violation des contrôles à l'export.",
-     "fil": "Saisie de serveurs à puces IA en Malaisie",
-     "source": "Contrôles à l'export IA",
-     "lien": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxQTWNocVNCQmJfUnhoQ1FfdGhEc2VjenVDMGpUUDY2SnJRX3JVZmFiMUhVbDVXbTZEUHZiZS1ZbGxaUXlJeWNXMWJDWW9xVnotaEczSHF6NjlNcVpvODkzVkFxd1ZBdm83eVRSM3QyenZ4Z0RPS3VhZm0tMDlpbE5ITjhDdmVnOW9vcmdXbF9VR1J5NGk1UzVDTDZ6cVU0YVNVUnUtYXZUclNnRW9aV0dCUndReHB3MVd0clhXWktIYVdmbTVoejU5NnQzRVZhMEZPU2xCNENIZm0zSDlzVG5RLUx1WjMyUGNRa0lweGFZNDVLZ0hxa2x4aWpBaHg1UQ?oc=5",
-     "nb_sources": 1,
-     "primaire": false
-    },
-    {
-     "id": "6dc152733a60f2",
-     "date": "2026-10-28T11:12:35+00:00",
-     "titre": "Saisie de serveurs équipés de puces IA en Malaisie pour violation suspectée des contrôles à l'export",
-     "neuf": "Confirmation officielle de la saisie de serveurs contenant des puces avancées soupçonnées d'infraction aux contrôles.",
-     "fil": "même saisie de serveurs en Malaisie",
-     "source": "Contrôles à l'export IA",
-     "lien": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNeU80bXl0NnNNS0JRUU91NUJIdFB6dDRrZlY1TXQzYUo3S1hfRG5oS3hpWk5qOHVxaWptQUZMaHBwUm5sdV9hLUNmRDFqUGhGS2FvbHdLeXRGUmhlb0R2TkloTU5wM2hxRWxGWWZFQ292MklNY3ZiZXBBa3BNN0VobVdxSjVRVzdNYTBJWWhYM2hOQTgyejJ0VUI5ZzY0WU5rQ2pUUE9YeUdvU2ZueHRaRWJDak95R1dBMDZZOEkyN0tVWG9BYmJ3TzhMRHVLQk9OMWYxYVhveUs?oc=5",
-     "nb_sources": 1,
-     "primaire": false
-    },
-    {
-     "id": "5913af8889b950",
-     "date": "2026-11-03T12:04:32+00:00",
-     "titre": "Contournement des sanctions sur les puces IA grâce à une faille d'exportation",
-     "neuf": "Des contrebandiers exploitent une faille en associant de la mémoire HBM interdite à des processeurs non sanctionnés pour l'acheminer vers la Chine.",
-     "fil": "Même problématique de contournement des contrôles à l'exportation de puces",
-     "source": "Contrôles à l'export IA",
-     "lien": "https://news.google.com/rss/articles/CBMi4wJBVV95cUxNczB1bmd3Umc1VkpITE9hR0cybF9uMTNvT01RcWVodndZRlZpUS1TTTBDOEs2WlFWMGo5OC1UR2szQ3VENE1fbHFSYW9mdG52R3RwSVFfNjNRM2F0MGtIWFVWMzdpWndQYzg0OWNyV3l2NnV6SFNzNmVPOTVnYWxEZUFQRlZIbEdXbXBZNlpOTVBzVS1HSWhHaEVNcklmX2Vza3VZQ25KbU1KZzVKbS1INjZMN2Z5MEtCTmctT1hSVjhtYU0zdnhBcDNsQ1FmRkZWX2lDUjIya2RCdXFjR0J3V2JWdVFCMHZSbjlnSno5RDBkdnItOFFKTkVUNmhzU0tNY2ZFLXNGWkY5LU93VnROZFZqQi1sdldaN29zRExpN20xbnRUMjlnM216ZGtDaUsyWFVfY1pzY2N1eEFOMXlvWTNOUWNtTlNNa1R4WU1nYlpPcVFlZ0ZWZC13S2NHYnc1Ym5R?oc=5",
-     "nb_sources": 1,
-     "primaire": false
-    }
-   ],
-   "statut": "active",
-   "societes": []
   },
   {
    "id": "h_01ca2f52c0",
@@ -5387,7 +5492,7 @@
      "primaire": false
     }
    ],
-   "statut": "active",
+   "statut": "en sommeil",
    "societes": [
     "openai"
    ]
@@ -5422,7 +5527,7 @@
      "primaire": false
     }
    ],
-   "statut": "active",
+   "statut": "en sommeil",
    "societes": [
     "nvidia"
    ]
@@ -5460,30 +5565,6 @@
    "statut": "en sommeil",
    "societes": [
     "deepseek"
-   ]
-  },
-  {
-   "id": "h_2cf5a730b3",
-   "titre": "Microsoft arrête le support de Copilot sur les smart TV",
-   "resume": "Microsoft met fin au support de son assistant Copilot sur les téléviseurs connectés d'ici la fin de l'année.",
-   "creee": "2026-10-28T16:59:03.629060+00:00",
-   "maj": "2026-10-28T12:32:17+00:00",
-   "episodes": [
-    {
-     "id": "3b062bd5fcac8d",
-     "date": "2026-10-28T12:32:17+00:00",
-     "titre": "Microsoft met fin au support de Copilot sur les téléviseurs connectés",
-     "neuf": "Microsoft annonce la fin du support de Copilot sur les smart TV d'ici la fin de l'année.",
-     "fil": "Arrêt de Copilot sur les téléviseurs connectés",
-     "source": "Microsoft Copilot (actus)",
-     "lien": "https://news.google.com/rss/articles/CBMingJBVV95cUxPemlkX0Fqa1RldzNTVXhXb0J0ZEd5NVYtb3ZONG1LNGM5N3JEdndXUEZyZ3V5ejhscnNmb0otWGRQSXFodExDTEVuUlVfbXUwVEhXeXVwd1B5Z0RGQWRUQmYxaXlScnd4WlVRS3E1SXB6dWEyaXd4UURFSjY0eHBEN1p2YXBoX1FjbHA3WUs5Vm93ZUxMbjVwZ1JGVUJRcTNyd0JqLVJVYmhyYkRYT1JXU2tlZm5zUDJCdzNUZjdRNk1JeG9laVhiRFBoczM1LXM5aHV5TTZaNUU0Wm5LRXdoNWkxR3pHcmV4aGhDOUtheExzSTM1dzcwX29nbDBfWm14YTVuX0dNazVUX2JNSnM3TWZsSk1qWTlvYnhnbnh3?oc=5",
-     "nb_sources": 1,
-     "primaire": false
-    }
-   ],
-   "statut": "en sommeil",
-   "societes": [
-    "microsoft"
    ]
   },
   {
