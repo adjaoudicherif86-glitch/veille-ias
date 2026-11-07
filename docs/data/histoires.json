@@ -1,6 +1,210 @@
 {
- "maj": "2026-11-06T21:29:40.951919+00:00",
+ "maj": "2026-11-07T05:58:01.672401+00:00",
  "histoires": [
+  {
+   "id": "h_04df45ad75",
+   "titre": "Levée de fonds de 30 milliards de dollars pour OpenAI",
+   "resume": "OpenAI poursuit sa levée de fonds record initialement fixée à 30 milliards de dollars. L'entreprise a réussi à mobiliser 11 milliards supplémentaires, atteignant une valorisation colossale de 1 250 milliards de dollars.",
+   "creee": "2026-10-23T00:57:49.756986+00:00",
+   "maj": "2026-11-06T22:53:46+00:00",
+   "episodes": [
+    {
+     "id": "d73c3fbf5a8b67",
+     "date": "2026-10-22T22:08:24+00:00",
+     "titre": "OpenAI prépare une levée de fonds de 30 milliards de dollars",
+     "neuf": "OpenAI négocie une levée de fonds géante de 30 milliards de dollars.",
+     "fil": "Levée de fonds record d'OpenAI",
+     "source": "TechCrunch IA",
+     "lien": "https://techcrunch.com/2026/10/22/openai-working-on-new-30b-raise-at-1-25t-valuation-ahead-of-ipo/",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "64b1cfc1c15174",
+     "date": "2026-10-31T02:56:00+00:00",
+     "titre": "OpenAI lève moins de la moitié de son objectif de 30 milliards",
+     "neuf": "OpenAI n'a atteint qu'une fraction de son objectif de levée de fonds lors de son dernier tour de table.",
+     "fil": "même levée de fonds de 30 milliards de dollars pour OpenAI",
+     "source": "OpenAI (actus)",
+     "lien": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQTW9TMmVsZkc2b05TYkloVW41X050RjdtZ1F5U01TRnJOSEthYTJpcDdPWVhJb0FvRGEteHgtbVhSS0lOVEZ3T2N5MTNpSUNWNXpETThZR0RvcFQwY2Q5R3ctRUFvM1ZtdFdMaXhGSnpPM2FiLUhORXNrem84cUpfVGpuQ0VmaGNsZUlxUVQ0dk4zQUE2cWFzUk8yM1R3cjc3dEczVw?oc=5",
+     "nb_sources": 2,
+     "primaire": false
+    },
+    {
+     "id": "314bd089789a09",
+     "date": "2026-11-06T22:53:46+00:00",
+     "titre": "OpenAI lève 11 milliards de dollars supplémentaires pour une valorisation de 1 250 milliards",
+     "neuf": "OpenAI engrange 11 milliards de dollars de plus, portant sa valorisation globale à 1 250 milliards de dollars.",
+     "fil": "même levée de fonds d'OpenAI",
+     "source": "TechCrunch IA",
+     "lien": "https://techcrunch.com/2026/11/06/openai-reportedly-raises-an-additional-11-billion-at-a-1-25-trillion-valuation/",
+     "nb_sources": 2,
+     "primaire": false
+    }
+   ],
+   "statut": "active",
+   "societes": [
+    "openai"
+   ]
+  },
+  {
+   "id": "h_af62aa771a",
+   "titre": "Qwen4 : fenêtres de contexte d'un million de tokens",
+   "resume": "Alibaba prépare activement le lancement de la génération Qwen 4 et de sa feuille de route à long terme. La communauté des développeurs locaux salue ces progrès en matière de fenêtres de contexte et de performances globales.",
+   "creee": "2026-10-29T04:56:04.658807+00:00",
+   "maj": "2026-11-06T21:54:01+00:00",
+   "episodes": [
+    {
+     "id": "1fe7d47e633144",
+     "date": "2026-10-29T01:42:55+00:00",
+     "titre": "Les futurs modèles Qwen4 d'Alibaba intègreront une fenêtre de contexte d'un million de tokens",
+     "neuf": "Annonce de la prochaine génération Qwen4 dotée d'une grande fenêtre de contexte.",
+     "fil": "futurs modèles Qwen4",
+     "source": "r/LocalLLaMA",
+     "lien": "https://www.reddit.com/r/LocalLLaMA/comments/1xi7390/qwen4_1m_context_window/",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "cffbb463e4f8a3",
+     "date": "2026-10-29T09:25:47+00:00",
+     "titre": "Alibaba Cloud annonce le lancement de Qwen4 pour la semaine prochaine",
+     "neuf": "Alibaba Cloud annonce le lancement imminent de la gamme Qwen4 dès la semaine prochaine.",
+     "fil": "Même prochaine génération Qwen4 d'Alibaba",
+     "source": "r/LocalLLaMA",
+     "lien": "https://www.reddit.com/r/LocalLLaMA/comments/1xif6lf/apsara_conference_qwen4_next_week/",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "f4fe6be4459876",
+     "date": "2026-10-29T09:48:21+00:00",
+     "titre": "Worried about Qwen 4 License",
+     "neuf": "Des interrogations émergent quant au passage potentiel de licences permissives à une licence personnalisée pour Qwen4.",
+     "fil": "même famille de modèles Qwen4",
+     "source": "r/LocalLLaMA",
+     "lien": "https://www.reddit.com/r/LocalLLaMA/comments/1xifjn2/worried_about_qwen_4_license/",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "101c4725a5f3b4",
+     "date": "2026-10-30T15:29:46+00:00",
+     "titre": "Copium Prediction: Google and other major labs will drop new local models over the next few days so they can lead on benchmarks until Qwen 4 sweeps them next week.",
+     "neuf": "La communauté anticipe l'arrivée imminente de Qwen4 et la sortie potentielle de modèles concurrents de dernière minute.",
+     "fil": "même sortie imminente de Qwen4",
+     "source": "r/LocalLLaMA",
+     "lien": "https://www.reddit.com/r/LocalLLaMA/comments/1xjigxg/copium_prediction_google_and_other_major_labs/",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "cc42ceb1acf66b",
+     "date": "2026-11-02T14:47:55+00:00",
+     "titre": "Qwen 4 When ?",
+     "neuf": "La communauté s'interroge sur le calendrier exact de sortie des modèles Qwen 4 au début du mois.",
+     "fil": "même projet de modèles Qwen4",
+     "source": "r/LocalLLaMA",
+     "lien": "https://www.reddit.com/r/LocalLLaMA/comments/1xlz5dz/qwen_4_when/",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "df00c1566c60d0",
+     "date": "2026-11-02T16:42:32+00:00",
+     "titre": "Alibaba confirme que les futurs modèles Qwen resteront open source",
+     "neuf": "Alibaba confirme officiellement que les futurs modèles Qwen 4.0 et 5.0 resteront open-weight.",
+     "fil": "même gamme Qwen",
+     "source": "r/LocalLLaMA",
+     "lien": "https://www.reddit.com/r/LocalLLaMA/comments/1xm28e6/official_statement_qwen_models_will_stick_to_open/",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "32dd2744d022c8",
+     "date": "2026-11-02T18:21:04+00:00",
+     "titre": "Attente fébrile de Qwen 4 par la communauté open source",
+     "neuf": "La communauté open source intensifie son attente impatiente autour du lancement imminent des futurs modèles Qwen 4.",
+     "fil": "Même attente autour de la sortie des modèles Qwen 4",
+     "source": "r/LocalLLaMA",
+     "lien": "https://www.reddit.com/r/LocalLLaMA/comments/1xm506n/am_i_the_only_one_who_frequently_opens_this/",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "514f697a71c5ca",
+     "date": "2026-11-02T22:24:18+00:00",
+     "titre": "Nouvelle méthode d'attention parcimonieuse pour contextes ultra-longs chez Alibaba Qwen",
+     "neuf": "Une nouvelle méthode permet de sparsifier l'attention de Qwen jusqu'à 10 millions de tokens.",
+     "fil": "Optimisation de l'attention et des contextes ultra-longs chez Alibaba Qwen",
+     "source": "r/LocalLLaMA",
+     "lien": "https://www.reddit.com/r/LocalLLaMA/comments/1xmbj0v/new_sparse_attention_method_for_ultralong_context/",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "c26e87e95d1cfd",
+     "date": "2026-11-03T03:55:43+00:00",
+     "titre": "Alibaba's Qwen Code repo just leaked qwen4-max, qwen4-coder-plus, and qwen4-omni-120b",
+     "neuf": "Le dépôt Qwen Code d'Alibaba fuite et révèle l'existence de plusieurs variantes de la gamme Qwen4 (max, coder-plus, omni-120b).",
+     "fil": "Fuite du dépôt Qwen Code mentionnant Qwen4",
+     "source": "r/LocalLLaMA",
+     "lien": "https://www.reddit.com/r/LocalLLaMA/comments/1xmitzx/alibabas_qwen_code_repo_just_leaked_qwen4max/",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "ab742794cf5a5a",
+     "date": "2026-11-04T23:35:49+00:00",
+     "titre": "What are you looking forward to in Qwen 4?",
+     "neuf": "La communauté s'interroge sur les spécifications exactes de Qwen 4, notamment sur l'efficacité des fenêtres de contexte et des kv-caches.",
+     "fil": "Attentes de la communauté concernant les fonctionnalités et l'efficacité des KV pour Qwen 4",
+     "source": "r/LocalLLaMA",
+     "lien": "https://www.reddit.com/r/LocalLLaMA/comments/1xo3ikc/what_are_you_looking_forward_to_in_qwen_4/",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "875dac1ac8c47a",
+     "date": "2026-11-06T12:26:17+00:00",
+     "titre": "Annonce surprise de Qwen 4 par Alibaba",
+     "neuf": "Alibaba officialise l'arrivée prochaine de Qwen 4.",
+     "fil": "même gamme Qwen 4",
+     "source": "r/LocalLLaMA",
+     "lien": "https://www.reddit.com/r/LocalLLaMA/comments/1xpbjku/qwen_4_is_stealth_announced/",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "25e64ecfad7d01",
+     "date": "2026-11-06T13:18:37+00:00",
+     "titre": "Good news bad news…",
+     "neuf": "De nouvelles informations sur les tailles et les futures versions (Qwen 4.5 et Qwen 5) sont révélées lors de l'annonce.",
+     "fil": "même feuille de route Qwen 4 et générations suivantes",
+     "source": "r/LocalLLaMA",
+     "lien": "https://www.reddit.com/r/LocalLLaMA/comments/1xpcl6w/good_news_bad_news/",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "cf82e26927f906",
+     "date": "2026-11-06T21:54:01+00:00",
+     "titre": "We are in the golden age of Local LLM",
+     "neuf": "La communauté dresse un premier bilan très positif de cette fin d'année pour les LLM locaux, portée par la perspective de la sortie imminente de Qwen 4.",
+     "fil": "même attente autour de la sortie de Qwen 4",
+     "source": "r/LocalLLaMA",
+     "lien": "https://www.reddit.com/r/LocalLLaMA/comments/1xppbht/we_are_in_the_golden_age_of_local_llm/",
+     "nb_sources": 1,
+     "primaire": false
+    }
+   ],
+   "statut": "active",
+   "societes": [
+    "alibaba",
+    "google",
+    "anthropic"
+   ]
+  },
   {
    "id": "h_a0f8d46fbd",
    "titre": "Google lie son moteur de recherche aux écoles et à l'IA",
@@ -2000,150 +2204,182 @@
    ]
   },
   {
-   "id": "h_af62aa771a",
-   "titre": "Qwen4 : fenêtres de contexte d'un million de tokens",
-   "resume": "Alibaba officialise la prochaine génération Qwen 4 et dévoile sa feuille de route à long terme incluant Qwen 4.5 et Qwen 5, tandis que la communauté analyse les améliorations de contexte et les tailles de modèles.",
-   "creee": "2026-10-29T04:56:04.658807+00:00",
-   "maj": "2026-11-06T13:18:37+00:00",
+   "id": "h_61682af51c",
+   "titre": "Lancement de l'agent IA Claude Duet d'Anthropic",
+   "resume": "Anthropic consolide son écosystème professionnel avec Claude Duet, Claude Code et l'intégration de fonctions de contrôle dans ses SDK. L'outil fait toutefois face à des difficultés avec le départ de sa responsable produit Cat Wu et la découverte de vulnérabilités, dont une fuite d'adresses e-mail via les en-têtes HTTP.",
+   "creee": "2026-10-21T20:44:46.798337+00:00",
+   "maj": "2026-11-06T15:02:35+00:00",
    "episodes": [
     {
-     "id": "1fe7d47e633144",
-     "date": "2026-10-29T01:42:55+00:00",
-     "titre": "Les futurs modèles Qwen4 d'Alibaba intègreront une fenêtre de contexte d'un million de tokens",
-     "neuf": "Annonce de la prochaine génération Qwen4 dotée d'une grande fenêtre de contexte.",
-     "fil": "futurs modèles Qwen4",
-     "source": "r/LocalLLaMA",
-     "lien": "https://www.reddit.com/r/LocalLLaMA/comments/1xi7390/qwen4_1m_context_window/",
+     "id": "5dbb54a005401f",
+     "date": "2026-10-21T19:14:01+00:00",
+     "titre": "Lancement de Claude Duet par Anthropic",
+     "neuf": "Anthropic officialise l'introduction de Claude Duet sur le marché.",
+     "fil": "lancement de l'agent Claude Duet",
+     "source": "Hacker News (IA, 100+ pts)",
+     "lien": "https://claude.com/product/claude-duet",
      "nb_sources": 1,
      "primaire": false
     },
     {
-     "id": "cffbb463e4f8a3",
-     "date": "2026-10-29T09:25:47+00:00",
-     "titre": "Alibaba Cloud annonce le lancement de Qwen4 pour la semaine prochaine",
-     "neuf": "Alibaba Cloud annonce le lancement imminent de la gamme Qwen4 dès la semaine prochaine.",
-     "fil": "Même prochaine génération Qwen4 d'Alibaba",
-     "source": "r/LocalLLaMA",
-     "lien": "https://www.reddit.com/r/LocalLLaMA/comments/1xif6lf/apsara_conference_qwen4_next_week/",
+     "id": "705d3445b65a91",
+     "date": "2026-10-21T19:53:20+00:00",
+     "titre": "Anthropic lance Claude Duet, son nouvel agent IA",
+     "neuf": "Anthropic positionne Claude Duet pour concurrencer les autres agents du marché.",
+     "fil": "lancement de Claude Duet",
+     "source": "Anthropic (actus)",
+     "lien": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQMm0xalYzS19NOGxhQ0ZpanpWeFpjN3g0VzZfVjROQ3RUemxqZmc3STZhdHlRUTlvZEJOaW52dzdVTUxOc09MMzlVeFlJSmc5V2p4WDdwWjRRaDZKMU5QbldoWHBIaTh0Qi1yc1JFaVNHM1BkQ25ucFZfbVJtWGNYMS1jRWlocDk5NUVheDVpclZEUTJw?oc=5",
+     "nb_sources": 2,
+     "primaire": false
+    },
+    {
+     "id": "05e2774a24a1f6",
+     "date": "2026-10-21T20:29:00+00:00",
+     "titre": "Anthropic lance Claude Duet, son nouvel agent personnel",
+     "neuf": "Claude Duet est présenté comme un nouvel agent personnel pour répliquer à la concurrence.",
+     "fil": "lancement de Claude Duet",
+     "source": "Anthropic (actus)",
+     "lien": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPQkZFNGVZc2Q2Q3VJYWVFNjFlOUh1NE1aNWFrZHlzOFlEMVpQU0xFQkFDSW4ydXljV1gtRnBBVzZjWi11Z3dMQ0sxdl9EdXdJOWl0TWlYMnl1M1o5S3d4LXRuOW9lLUd3bS1lYkloUnFGVnhqbFNJSGtVRUt4ZnlWSVg1Q01YOHlrWF9tZ0RsQXptUjljR0MxVFVaWW0xTXMweUE?oc=5",
      "nb_sources": 1,
      "primaire": false
     },
     {
-     "id": "f4fe6be4459876",
-     "date": "2026-10-29T09:48:21+00:00",
-     "titre": "Worried about Qwen 4 License",
-     "neuf": "Des interrogations émergent quant au passage potentiel de licences permissives à une licence personnalisée pour Qwen4.",
-     "fil": "même famille de modèles Qwen4",
-     "source": "r/LocalLLaMA",
-     "lien": "https://www.reddit.com/r/LocalLLaMA/comments/1xifjn2/worried_about_qwen_4_license/",
+     "id": "29513dd2417946",
+     "date": "2026-10-21T20:41:02+00:00",
+     "titre": "Anthropic entre dans la course aux agents IA avec Claude Duet",
+     "neuf": "Anthropic officialise son entrée sur le marché des agents avec Claude Duet.",
+     "fil": "Lancement de l'agent IA Claude Duet d'Anthropic",
+     "source": "Anthropic et gouvernement",
+     "lien": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNblFra1FIR1VRWmpPaW80WGJSZGNtVG02LUMzU0pvR0NQbkJ3R1N1eGxTS0ZhblV6ZDV1VUNiMVVKVHRCNVI5aHZaZjBGREZUSDg3ekExUnFFWjF2QUs4Qk9ZREN6cUt4QVNZTnlwLThQMmt0Wmp3QWh1QkF3TDFuY1hNOGRnU2Ew?oc=5",
      "nb_sources": 1,
      "primaire": false
     },
     {
-     "id": "101c4725a5f3b4",
-     "date": "2026-10-30T15:29:46+00:00",
-     "titre": "Copium Prediction: Google and other major labs will drop new local models over the next few days so they can lead on benchmarks until Qwen 4 sweeps them next week.",
-     "neuf": "La communauté anticipe l'arrivée imminente de Qwen4 et la sortie potentielle de modèles concurrents de dernière minute.",
-     "fil": "même sortie imminente de Qwen4",
-     "source": "r/LocalLLaMA",
-     "lien": "https://www.reddit.com/r/LocalLLaMA/comments/1xjigxg/copium_prediction_google_and_other_major_labs/",
+     "id": "7abf36518713c4",
+     "date": "2026-10-22T01:05:09+00:00",
+     "titre": "Nouvel agent IA d'Anthropic pour l'achat de fournitures professionnelles",
+     "neuf": "L'agent d'Anthropic se dote de capacités d'achat autonome de fournitures professionnelles.",
+     "fil": "Nouvel agent IA d'Anthropic pour les achats professionnels",
+     "source": "Anthropic (actus)",
+     "lien": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQWjdMOWV2Z1JpdUNIN05TWE53U2JJRW1obFBKT05xQVQtc05ZUm9iM3JSaWxsdFpFSTB5UldmbnZqVlZ0bHZhaHZiNkFUMFp3NlpxTUZYOTBWc3RhZWZjSjhseGhOVlBVbE9scnRTLWhZS0lEU2JNTmc2UUwxSHI3ZS1lWXMyc3hFUkk4N2dvZGp2Q2w3amxVUHRiVkRHeHNGT2RrbF9mWHRfa3hrMmc?oc=5",
      "nb_sources": 1,
      "primaire": false
     },
     {
-     "id": "cc42ceb1acf66b",
-     "date": "2026-11-02T14:47:55+00:00",
-     "titre": "Qwen 4 When ?",
-     "neuf": "La communauté s'interroge sur le calendrier exact de sortie des modèles Qwen 4 au début du mois.",
-     "fil": "même projet de modèles Qwen4",
-     "source": "r/LocalLLaMA",
-     "lien": "https://www.reddit.com/r/LocalLLaMA/comments/1xlz5dz/qwen_4_when/",
+     "id": "31cb9fa2449425",
+     "date": "2026-10-22T03:19:00+00:00",
+     "titre": "Claude Duet intègre plus de 6 000 outils pour automatiser les tâches",
+     "neuf": "Claude Duet se connecte à plus de 6 000 intégrations pour automatiser les flux de travail en entreprise.",
+     "fil": "Intégrations de Claude Duet",
+     "source": "Anthropic (actus)",
+     "lien": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPOHZGSWdQNmhaM1AwX2tMNFl0TGo3by1jaG9ESnI3cm1za2ZIbnF3TUJtUVZlOXJLZW9KYlJXWkdmLXRqejFOM2VPNlduTEV1bEx1U0VvQ0c1WDZ6S0YwdnFWNElWTVgway1yTFc5WE84ZFZ1VEo0M3NBbkVQLURuRUgtN3E2cXBsN0lPcFo3aTc?oc=5",
      "nb_sources": 1,
      "primaire": false
     },
     {
-     "id": "df00c1566c60d0",
-     "date": "2026-11-02T16:42:32+00:00",
-     "titre": "Alibaba confirme que les futurs modèles Qwen resteront open source",
-     "neuf": "Alibaba confirme officiellement que les futurs modèles Qwen 4.0 et 5.0 resteront open-weight.",
-     "fil": "même gamme Qwen",
-     "source": "r/LocalLLaMA",
-     "lien": "https://www.reddit.com/r/LocalLLaMA/comments/1xm28e6/official_statement_qwen_models_will_stick_to_open/",
+     "id": "3dec6b4cf94367",
+     "date": "2026-10-22T11:11:31+00:00",
+     "titre": "Découvrez Claude Duet, le nouvel agent IA d'Anthropic",
+     "neuf": "Confirmation du lancement de l'agent pour alléger la charge de travail.",
+     "fil": "Même lancement officiel de l'agent Claude Duet",
+     "source": "Anthropic (actus)",
+     "lien": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBsa3ZVM2JtaGdBajhfZEFDWVJaVHlvbkxYcGR5ODFBdjlEeFNON3FfcG0tYzR0aHIyazRjanhUTWRyX1phZ3JLQTNVTmZTMXlBajQ5SmxUZUFVZms5eGxRbVJrZ04xZDYw?oc=5",
      "nb_sources": 1,
      "primaire": false
     },
     {
-     "id": "32dd2744d022c8",
-     "date": "2026-11-02T18:21:04+00:00",
-     "titre": "Attente fébrile de Qwen 4 par la communauté open source",
-     "neuf": "La communauté open source intensifie son attente impatiente autour du lancement imminent des futurs modèles Qwen 4.",
-     "fil": "Même attente autour de la sortie des modèles Qwen 4",
-     "source": "r/LocalLLaMA",
-     "lien": "https://www.reddit.com/r/LocalLLaMA/comments/1xm506n/am_i_the_only_one_who_frequently_opens_this/",
+     "id": "819de26796b063",
+     "date": "2026-10-22T12:16:35+00:00",
+     "titre": "Anthropic lance un agent IA professionnel face à Meta et OpenAI",
+     "neuf": "Anthropic dévoile son agent IA professionnel pour concurrencer Meta Muse et OpenAI Dots.",
+     "fil": "nouvel agent IA professionnel d'Anthropic",
+     "source": "Anthropic et gouvernement",
+     "lien": "https://news.google.com/rss/articles/CBMif0FVX3lxTE4weXI0QVdqNEdJSmR3Z2RvUl9feHFyMzdkSV90S2hhNlFadVd1TjZiUmpURVJtei00QnJQajBCaFJ1LXN2YktJN3o1S3hhNC1SV3RJNlA3RVhCeHNHZFFuMW5rc2x2WjY5VDZLaVZ0dkFqMmx0alJIcUliZEE1LVU?oc=5",
      "nb_sources": 1,
      "primaire": false
     },
     {
-     "id": "514f697a71c5ca",
-     "date": "2026-11-02T22:24:18+00:00",
-     "titre": "Nouvelle méthode d'attention parcimonieuse pour contextes ultra-longs chez Alibaba Qwen",
-     "neuf": "Une nouvelle méthode permet de sparsifier l'attention de Qwen jusqu'à 10 millions de tokens.",
-     "fil": "Optimisation de l'attention et des contextes ultra-longs chez Alibaba Qwen",
-     "source": "r/LocalLLaMA",
-     "lien": "https://www.reddit.com/r/LocalLLaMA/comments/1xmbj0v/new_sparse_attention_method_for_ultralong_context/",
+     "id": "d24c772af64832",
+     "date": "2026-10-22T17:38:48+00:00",
+     "titre": "Lancement de Claude Duet par Anthropic : les entreprises hésitent",
+     "neuf": "Un article relève que les entreprises font face à des hésitations quant à l'adoption de Claude Duet.",
+     "fil": "même agent IA professionnel Claude Duet d'Anthropic",
+     "source": "Anthropic et gouvernement",
+     "lien": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNR05JZHN0U2d5RHE1MWUyUXVaeGhoX3E1dTRyNzNLd3JndmVGa0U2RGE2bFIzZ1ZHUUhTMVZ4Nzg3QmFTb2FMUENXSDR2a0Z5c3h3amx2YXFMY3E3SkFlN09PT1hLS1RjUHQzeGhuVm10TnBlMjlIcVpfdm1aSW95T2V1eFJpeWwwMDJmcnJmUWhxYVdvb2hYQUpUcjFld2VqM3YzcjFaYw?oc=5",
      "nb_sources": 1,
      "primaire": false
     },
     {
-     "id": "c26e87e95d1cfd",
-     "date": "2026-11-03T03:55:43+00:00",
-     "titre": "Alibaba's Qwen Code repo just leaked qwen4-max, qwen4-coder-plus, and qwen4-omni-120b",
-     "neuf": "Le dépôt Qwen Code d'Alibaba fuite et révèle l'existence de plusieurs variantes de la gamme Qwen4 (max, coder-plus, omni-120b).",
-     "fil": "Fuite du dépôt Qwen Code mentionnant Qwen4",
-     "source": "r/LocalLLaMA",
-     "lien": "https://www.reddit.com/r/LocalLLaMA/comments/1xmitzx/alibabas_qwen_code_repo_just_leaked_qwen4max/",
+     "id": "139e807626ba1a",
+     "date": "2026-10-24T13:07:30+00:00",
+     "titre": "Anthropic : un minimum de 20 sièges exclut les petits cabinets",
+     "neuf": "Anthropic impose un minimum de 20 sièges entreprise, excluant de fait les petits cabinets.",
+     "fil": "Conditions d'accès et abonnements aux services d'Anthropic",
+     "source": "Anthropic (actus)",
+     "lien": "https://news.google.com/rss/articles/CBMinAJBVV95cUxPT0R4ZTBtQWtQMTBJWGx2NGV2TVNxRl9aa2liNDQ2SGJFVFEta0I2M2lhaEkwR2hWMmxDMlZXamdQYkpFRkU1Wl9PN3JOLXljb3JuTFJ1Z0wwTFp6ZVlqQkRnVHpZOW1uMkpnR0hUYzkzZm9BXzNXSEQ1cnBic2M2cHpqM0FSempQUGNoQzVhWmdyQksxcVN4QVJGZ2NSaEZ3N0pZMno3SFFIQm9ORVBaWWhkM25DQm1pRkIzd1dyOEZvSmxtMnRBTkxYSXp5dW1IZmhNTC1CczY2T0ZDVlBPT1NvZnZ2YXRxLXZxbklsVnQtSVoxQWlsd0hlbVBEUkxpbTNlNUlBRUJmUXdpQ3BCaUVEQTR0SjRVQTdxQw?oc=5",
      "nb_sources": 1,
      "primaire": false
     },
     {
-     "id": "ab742794cf5a5a",
-     "date": "2026-11-04T23:35:49+00:00",
-     "titre": "What are you looking forward to in Qwen 4?",
-     "neuf": "La communauté s'interroge sur les spécifications exactes de Qwen 4, notamment sur l'efficacité des fenêtres de contexte et des kv-caches.",
-     "fil": "Attentes de la communauté concernant les fonctionnalités et l'efficacité des KV pour Qwen 4",
-     "source": "r/LocalLLaMA",
-     "lien": "https://www.reddit.com/r/LocalLLaMA/comments/1xo3ikc/what_are_you_looking_forward_to_in_qwen_4/",
+     "id": "9dee3fa62c05d0",
+     "date": "2026-10-31T18:30:00+00:00",
+     "titre": "Comment utiliser Claude Duet lors de son déploiement",
+     "neuf": "Un guide d'utilisation pratique est publié à l'approche du déploiement de Claude Duet.",
+     "fil": "même agent Claude Duet",
+     "source": "Anthropic (actus)",
+     "lien": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE84cHZlMURNNDdZcjg1STBlNU1WMHA4YmlWMFM4RzExMGx6aDYxeHR1T252MG1OVmdySXdGMERHTTAwejBrMzIycFJ4MzR2UGFFVTlRX2w3eFRBVWZNdE5BZVI0d1YxTWM?oc=5",
      "nb_sources": 1,
      "primaire": false
     },
     {
-     "id": "875dac1ac8c47a",
-     "date": "2026-11-06T12:26:17+00:00",
-     "titre": "Annonce surprise de Qwen 4 par Alibaba",
-     "neuf": "Alibaba officialise l'arrivée prochaine de Qwen 4.",
-     "fil": "même gamme Qwen 4",
-     "source": "r/LocalLLaMA",
-     "lien": "https://www.reddit.com/r/LocalLLaMA/comments/1xpbjku/qwen_4_is_stealth_announced/",
+     "id": "241a7f4e9db5ba",
+     "date": "2026-11-03T04:53:56+00:00",
+     "titre": "Anthropic active la surveillance EDR pour Claude Cowork",
+     "neuf": "Anthropic intègre une surveillance EDR pour détecter l'activité cachée des agents dans Claude Cowork.",
+     "fil": "Surveillance EDR pour Claude Cowork",
+     "source": "Anthropic (actus)",
+     "lien": "https://news.google.com/rss/articles/CBMicEFVX3lxTE45OFMtMFVaZlRnaTU1WkZyQ05HVFlJWkdUR1RWRFBwTHNvQUpyT0k3c0lxM0tEc0pyWHYtTTktMWdEYmUyYmtPNDk0Z3FEYXlWc1NzVTc2WHZ5cEdxMGNXRmJWWnVEcGxNb0FTSGFaVUjSAXZBVV95cUxOM3ZuNEVrUDk3eFFJbHBOVUxjeHpiNUVGT1JqUEFJeWRhdVVRakhlZTdsSzY3V2hHT1VVR2FqYlR5YXRscktTQ2tFbTBLOHZkendvRFN6TDF4MzA0cW9HNDh4ZUFQbDFUN2RIN0VQRlk1TlUxUUZB?oc=5",
      "nb_sources": 1,
      "primaire": false
     },
     {
-     "id": "25e64ecfad7d01",
-     "date": "2026-11-06T13:18:37+00:00",
-     "titre": "Good news bad news…",
-     "neuf": "De nouvelles informations sur les tailles et les futures versions (Qwen 4.5 et Qwen 5) sont révélées lors de l'annonce.",
-     "fil": "même feuille de route Qwen 4 et générations suivantes",
-     "source": "r/LocalLLaMA",
-     "lien": "https://www.reddit.com/r/LocalLLaMA/comments/1xpcl6w/good_news_bad_news/",
+     "id": "631f7a4392b4cd",
+     "date": "2026-11-03T18:03:00+00:00",
+     "titre": "Anthropic lance un outil de surveillance des conversations Claude pour les entreprises",
+     "neuf": "Introduction d'un nouvel outil de surveillance des conversations professionnelles avec Claude pour les employeurs.",
+     "fil": "même agent Claude et outils professionnels",
+     "source": "Anthropic (actus)",
+     "lien": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQMnpIVHMtWlhsVGNpRDQyRGZXYTFRZWJUSENxRklKcXR4SWdOLTBocmQteVdUQXN1RXBNcC00WDB3TFV3Sjdta1ZvV012amtMS3E4WWtoWU8tMnBQSWxiMFVEVS1Za21JYnBHVDhSb2lMTlh6ZjJkcTNucXdPZVkybHYtSGpUV3g2djNJaFh2ZDJ6UldIZHc?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "13f71de2c4d569",
+     "date": "2026-11-03T23:55:00+00:00",
+     "titre": "Cat Wu, responsable produit clé et visage de Claude Code, quitte Anthropic",
+     "neuf": "Cat Wu, figure clé du produit et visage de Claude Code, quitte l'entreprise Anthropic.",
+     "fil": "même écosystème Claude Code d'Anthropic",
+     "source": "Anthropic (actus)",
+     "lien": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNV3VPODg4OFh2Wk9FNTFNRlMzTzV4WnpOWGZ2Z1lNZ01nYUh2SS0xN1R0LUpTTHhUTnMwVFZQS2tiNHRpdHVuZVVjT0ZwZmJqbDdndlZZcGJkcHFQSElyZG5MSVdHczNtS0d3VGlONGVibnhVWDJIaVNNbHZMNENwR2ZzNFlaWWRjVDNQeHpaUXNEdk1OZ012a3MybFA?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "6df25cd73cd94d",
+     "date": "2026-11-06T15:02:35+00:00",
+     "titre": "Fuite d'adresses e-mail d'utilisateurs de Claude Code via les en-têtes HTTP",
+     "neuf": "Une faille supplémentaire est identifiée sur Claude Code, exposant cette fois des adresses e-mail d'utilisateurs via les en-têtes HTTP User-Agent.",
+     "fil": "même outil Claude Code d'Anthropic",
+     "source": "Anthropic (actus)",
+     "lien": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBCSU9YMTU4eXZjZ2lISEd1OXNMSXVOb0JESS1WZE5VaWlBUV9hUzA2RmtrX1BjSG9KemFhLXkwUEhQdVAwQUtRdmxhVnh1aUhUNkltM3Q1U196WTZIVGd5X2w0Q2UxNWlWN25V0gFwQVVfeXFMUEVId1RlTy1yTTdyT0VPVUhhVkMyQ0V2UWZ4TjFKMXB3SDdDNXNjeGhRNjFoODl1M3B4TEQ2dVVFV244TzF6d3pYdjJPTjlWcFZWSE80eC0xUU5nMFZrUjgtZ0E0ZnRaaWdLT293RlJaZA?oc=5",
      "nb_sources": 1,
      "primaire": false
     }
    ],
    "statut": "active",
    "societes": [
-    "alibaba",
-    "google",
-    "anthropic"
+    "anthropic",
+    "openai"
    ]
   },
   {
@@ -2516,7 +2752,7 @@
   {
    "id": "h_8dad32ff1f",
    "titre": "Fuite du modèle Claude Mythos d'Anthropic",
-   "resume": "La sécurité des technologies d'Anthropic continue d'être scrutée entre fuites, cyberattaques et failles non corrigées comme celle de Claude Dispatch. En parallèle, l'entreprise ajuste ses règles concernant la création de jeux originaux par Claude pour remplacer le blocage strict du clonage.",
+   "resume": "La sécurité des technologies d'Anthropic fait l'objet d'une surveillance continue suite à des failles non corrigées comme Claude Dispatch et des interrogations sur les règles de génération. En parallèle, l'entreprise mène des recherches pour doter Claude d'une mémoire machine de type humain.",
    "creee": "2026-10-21T20:44:46.798337+00:00",
    "maj": "2026-11-05T13:00:00+00:00",
    "episodes": [
@@ -3436,174 +3672,6 @@
    ],
    "statut": "active",
    "societes": [
-    "openai"
-   ]
-  },
-  {
-   "id": "h_61682af51c",
-   "titre": "Lancement de l'agent IA Claude Duet d'Anthropic",
-   "resume": "Anthropic renforce son écosystème professionnel avec Claude Duet, Claude Code et l'intégration d'outils de contrôle du navigateur et du PC dans ses SDK Python et TypeScript. En parallèle, l'entreprise déploie des outils de surveillance et enregistre le départ de Cat Wu, responsable produit clé de Claude Code.",
-   "creee": "2026-10-21T20:44:46.798337+00:00",
-   "maj": "2026-11-03T23:55:00+00:00",
-   "episodes": [
-    {
-     "id": "5dbb54a005401f",
-     "date": "2026-10-21T19:14:01+00:00",
-     "titre": "Lancement de Claude Duet par Anthropic",
-     "neuf": "Anthropic officialise l'introduction de Claude Duet sur le marché.",
-     "fil": "lancement de l'agent Claude Duet",
-     "source": "Hacker News (IA, 100+ pts)",
-     "lien": "https://claude.com/product/claude-duet",
-     "nb_sources": 1,
-     "primaire": false
-    },
-    {
-     "id": "705d3445b65a91",
-     "date": "2026-10-21T19:53:20+00:00",
-     "titre": "Anthropic lance Claude Duet, son nouvel agent IA",
-     "neuf": "Anthropic positionne Claude Duet pour concurrencer les autres agents du marché.",
-     "fil": "lancement de Claude Duet",
-     "source": "Anthropic (actus)",
-     "lien": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQMm0xalYzS19NOGxhQ0ZpanpWeFpjN3g0VzZfVjROQ3RUemxqZmc3STZhdHlRUTlvZEJOaW52dzdVTUxOc09MMzlVeFlJSmc5V2p4WDdwWjRRaDZKMU5QbldoWHBIaTh0Qi1yc1JFaVNHM1BkQ25ucFZfbVJtWGNYMS1jRWlocDk5NUVheDVpclZEUTJw?oc=5",
-     "nb_sources": 2,
-     "primaire": false
-    },
-    {
-     "id": "05e2774a24a1f6",
-     "date": "2026-10-21T20:29:00+00:00",
-     "titre": "Anthropic lance Claude Duet, son nouvel agent personnel",
-     "neuf": "Claude Duet est présenté comme un nouvel agent personnel pour répliquer à la concurrence.",
-     "fil": "lancement de Claude Duet",
-     "source": "Anthropic (actus)",
-     "lien": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPQkZFNGVZc2Q2Q3VJYWVFNjFlOUh1NE1aNWFrZHlzOFlEMVpQU0xFQkFDSW4ydXljV1gtRnBBVzZjWi11Z3dMQ0sxdl9EdXdJOWl0TWlYMnl1M1o5S3d4LXRuOW9lLUd3bS1lYkloUnFGVnhqbFNJSGtVRUt4ZnlWSVg1Q01YOHlrWF9tZ0RsQXptUjljR0MxVFVaWW0xTXMweUE?oc=5",
-     "nb_sources": 1,
-     "primaire": false
-    },
-    {
-     "id": "29513dd2417946",
-     "date": "2026-10-21T20:41:02+00:00",
-     "titre": "Anthropic entre dans la course aux agents IA avec Claude Duet",
-     "neuf": "Anthropic officialise son entrée sur le marché des agents avec Claude Duet.",
-     "fil": "Lancement de l'agent IA Claude Duet d'Anthropic",
-     "source": "Anthropic et gouvernement",
-     "lien": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNblFra1FIR1VRWmpPaW80WGJSZGNtVG02LUMzU0pvR0NQbkJ3R1N1eGxTS0ZhblV6ZDV1VUNiMVVKVHRCNVI5aHZaZjBGREZUSDg3ekExUnFFWjF2QUs4Qk9ZREN6cUt4QVNZTnlwLThQMmt0Wmp3QWh1QkF3TDFuY1hNOGRnU2Ew?oc=5",
-     "nb_sources": 1,
-     "primaire": false
-    },
-    {
-     "id": "7abf36518713c4",
-     "date": "2026-10-22T01:05:09+00:00",
-     "titre": "Nouvel agent IA d'Anthropic pour l'achat de fournitures professionnelles",
-     "neuf": "L'agent d'Anthropic se dote de capacités d'achat autonome de fournitures professionnelles.",
-     "fil": "Nouvel agent IA d'Anthropic pour les achats professionnels",
-     "source": "Anthropic (actus)",
-     "lien": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQWjdMOWV2Z1JpdUNIN05TWE53U2JJRW1obFBKT05xQVQtc05ZUm9iM3JSaWxsdFpFSTB5UldmbnZqVlZ0bHZhaHZiNkFUMFp3NlpxTUZYOTBWc3RhZWZjSjhseGhOVlBVbE9scnRTLWhZS0lEU2JNTmc2UUwxSHI3ZS1lWXMyc3hFUkk4N2dvZGp2Q2w3amxVUHRiVkRHeHNGT2RrbF9mWHRfa3hrMmc?oc=5",
-     "nb_sources": 1,
-     "primaire": false
-    },
-    {
-     "id": "31cb9fa2449425",
-     "date": "2026-10-22T03:19:00+00:00",
-     "titre": "Claude Duet intègre plus de 6 000 outils pour automatiser les tâches",
-     "neuf": "Claude Duet se connecte à plus de 6 000 intégrations pour automatiser les flux de travail en entreprise.",
-     "fil": "Intégrations de Claude Duet",
-     "source": "Anthropic (actus)",
-     "lien": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPOHZGSWdQNmhaM1AwX2tMNFl0TGo3by1jaG9ESnI3cm1za2ZIbnF3TUJtUVZlOXJLZW9KYlJXWkdmLXRqejFOM2VPNlduTEV1bEx1U0VvQ0c1WDZ6S0YwdnFWNElWTVgway1yTFc5WE84ZFZ1VEo0M3NBbkVQLURuRUgtN3E2cXBsN0lPcFo3aTc?oc=5",
-     "nb_sources": 1,
-     "primaire": false
-    },
-    {
-     "id": "3dec6b4cf94367",
-     "date": "2026-10-22T11:11:31+00:00",
-     "titre": "Découvrez Claude Duet, le nouvel agent IA d'Anthropic",
-     "neuf": "Confirmation du lancement de l'agent pour alléger la charge de travail.",
-     "fil": "Même lancement officiel de l'agent Claude Duet",
-     "source": "Anthropic (actus)",
-     "lien": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBsa3ZVM2JtaGdBajhfZEFDWVJaVHlvbkxYcGR5ODFBdjlEeFNON3FfcG0tYzR0aHIyazRjanhUTWRyX1phZ3JLQTNVTmZTMXlBajQ5SmxUZUFVZms5eGxRbVJrZ04xZDYw?oc=5",
-     "nb_sources": 1,
-     "primaire": false
-    },
-    {
-     "id": "819de26796b063",
-     "date": "2026-10-22T12:16:35+00:00",
-     "titre": "Anthropic lance un agent IA professionnel face à Meta et OpenAI",
-     "neuf": "Anthropic dévoile son agent IA professionnel pour concurrencer Meta Muse et OpenAI Dots.",
-     "fil": "nouvel agent IA professionnel d'Anthropic",
-     "source": "Anthropic et gouvernement",
-     "lien": "https://news.google.com/rss/articles/CBMif0FVX3lxTE4weXI0QVdqNEdJSmR3Z2RvUl9feHFyMzdkSV90S2hhNlFadVd1TjZiUmpURVJtei00QnJQajBCaFJ1LXN2YktJN3o1S3hhNC1SV3RJNlA3RVhCeHNHZFFuMW5rc2x2WjY5VDZLaVZ0dkFqMmx0alJIcUliZEE1LVU?oc=5",
-     "nb_sources": 1,
-     "primaire": false
-    },
-    {
-     "id": "d24c772af64832",
-     "date": "2026-10-22T17:38:48+00:00",
-     "titre": "Lancement de Claude Duet par Anthropic : les entreprises hésitent",
-     "neuf": "Un article relève que les entreprises font face à des hésitations quant à l'adoption de Claude Duet.",
-     "fil": "même agent IA professionnel Claude Duet d'Anthropic",
-     "source": "Anthropic et gouvernement",
-     "lien": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNR05JZHN0U2d5RHE1MWUyUXVaeGhoX3E1dTRyNzNLd3JndmVGa0U2RGE2bFIzZ1ZHUUhTMVZ4Nzg3QmFTb2FMUENXSDR2a0Z5c3h3amx2YXFMY3E3SkFlN09PT1hLS1RjUHQzeGhuVm10TnBlMjlIcVpfdm1aSW95T2V1eFJpeWwwMDJmcnJmUWhxYVdvb2hYQUpUcjFld2VqM3YzcjFaYw?oc=5",
-     "nb_sources": 1,
-     "primaire": false
-    },
-    {
-     "id": "139e807626ba1a",
-     "date": "2026-10-24T13:07:30+00:00",
-     "titre": "Anthropic : un minimum de 20 sièges exclut les petits cabinets",
-     "neuf": "Anthropic impose un minimum de 20 sièges entreprise, excluant de fait les petits cabinets.",
-     "fil": "Conditions d'accès et abonnements aux services d'Anthropic",
-     "source": "Anthropic (actus)",
-     "lien": "https://news.google.com/rss/articles/CBMinAJBVV95cUxPT0R4ZTBtQWtQMTBJWGx2NGV2TVNxRl9aa2liNDQ2SGJFVFEta0I2M2lhaEkwR2hWMmxDMlZXamdQYkpFRkU1Wl9PN3JOLXljb3JuTFJ1Z0wwTFp6ZVlqQkRnVHpZOW1uMkpnR0hUYzkzZm9BXzNXSEQ1cnBic2M2cHpqM0FSempQUGNoQzVhWmdyQksxcVN4QVJGZ2NSaEZ3N0pZMno3SFFIQm9ORVBaWWhkM25DQm1pRkIzd1dyOEZvSmxtMnRBTkxYSXp5dW1IZmhNTC1CczY2T0ZDVlBPT1NvZnZ2YXRxLXZxbklsVnQtSVoxQWlsd0hlbVBEUkxpbTNlNUlBRUJmUXdpQ3BCaUVEQTR0SjRVQTdxQw?oc=5",
-     "nb_sources": 1,
-     "primaire": false
-    },
-    {
-     "id": "9dee3fa62c05d0",
-     "date": "2026-10-31T18:30:00+00:00",
-     "titre": "Comment utiliser Claude Duet lors de son déploiement",
-     "neuf": "Un guide d'utilisation pratique est publié à l'approche du déploiement de Claude Duet.",
-     "fil": "même agent Claude Duet",
-     "source": "Anthropic (actus)",
-     "lien": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE84cHZlMURNNDdZcjg1STBlNU1WMHA4YmlWMFM4RzExMGx6aDYxeHR1T252MG1OVmdySXdGMERHTTAwejBrMzIycFJ4MzR2UGFFVTlRX2w3eFRBVWZNdE5BZVI0d1YxTWM?oc=5",
-     "nb_sources": 1,
-     "primaire": false
-    },
-    {
-     "id": "241a7f4e9db5ba",
-     "date": "2026-11-03T04:53:56+00:00",
-     "titre": "Anthropic active la surveillance EDR pour Claude Cowork",
-     "neuf": "Anthropic intègre une surveillance EDR pour détecter l'activité cachée des agents dans Claude Cowork.",
-     "fil": "Surveillance EDR pour Claude Cowork",
-     "source": "Anthropic (actus)",
-     "lien": "https://news.google.com/rss/articles/CBMicEFVX3lxTE45OFMtMFVaZlRnaTU1WkZyQ05HVFlJWkdUR1RWRFBwTHNvQUpyT0k3c0lxM0tEc0pyWHYtTTktMWdEYmUyYmtPNDk0Z3FEYXlWc1NzVTc2WHZ5cEdxMGNXRmJWWnVEcGxNb0FTSGFaVUjSAXZBVV95cUxOM3ZuNEVrUDk3eFFJbHBOVUxjeHpiNUVGT1JqUEFJeWRhdVVRakhlZTdsSzY3V2hHT1VVR2FqYlR5YXRscktTQ2tFbTBLOHZkendvRFN6TDF4MzA0cW9HNDh4ZUFQbDFUN2RIN0VQRlk1TlUxUUZB?oc=5",
-     "nb_sources": 1,
-     "primaire": false
-    },
-    {
-     "id": "631f7a4392b4cd",
-     "date": "2026-11-03T18:03:00+00:00",
-     "titre": "Anthropic lance un outil de surveillance des conversations Claude pour les entreprises",
-     "neuf": "Introduction d'un nouvel outil de surveillance des conversations professionnelles avec Claude pour les employeurs.",
-     "fil": "même agent Claude et outils professionnels",
-     "source": "Anthropic (actus)",
-     "lien": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQMnpIVHMtWlhsVGNpRDQyRGZXYTFRZWJUSENxRklKcXR4SWdOLTBocmQteVdUQXN1RXBNcC00WDB3TFV3Sjdta1ZvV012amtMS3E4WWtoWU8tMnBQSWxiMFVEVS1Za21JYnBHVDhSb2lMTlh6ZjJkcTNucXdPZVkybHYtSGpUV3g2djNJaFh2ZDJ6UldIZHc?oc=5",
-     "nb_sources": 1,
-     "primaire": false
-    },
-    {
-     "id": "13f71de2c4d569",
-     "date": "2026-11-03T23:55:00+00:00",
-     "titre": "Cat Wu, responsable produit clé et visage de Claude Code, quitte Anthropic",
-     "neuf": "Cat Wu, figure clé du produit et visage de Claude Code, quitte l'entreprise Anthropic.",
-     "fil": "même écosystème Claude Code d'Anthropic",
-     "source": "Anthropic (actus)",
-     "lien": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNV3VPODg4OFh2Wk9FNTFNRlMzTzV4WnpOWGZ2Z1lNZ01nYUh2SS0xN1R0LUpTTHhUTnMwVFZQS2tiNHRpdHVuZVVjT0ZwZmJqbDdndlZZcGJkcHFQSElyZG5MSVdHczNtS0d3VGlONGVibnhVWDJIaVNNbHZMNENwR2ZzNFlaWWRjVDNQeHpaUXNEdk1OZ012a3MybFA?oc=5",
-     "nb_sources": 1,
-     "primaire": false
-    }
-   ],
-   "statut": "active",
-   "societes": [
-    "anthropic",
     "openai"
    ]
   },
@@ -4876,41 +4944,6 @@
    ]
   },
   {
-   "id": "h_04df45ad75",
-   "titre": "Levée de fonds de 30 milliards de dollars pour OpenAI",
-   "resume": "OpenAI a ciblé une levée de fonds record de 30 milliards de dollars pour atteindre une valorisation colossale. Toutefois, les derniers tours de table indiquent que l'entreprise n'a pour l'instant atteint qu'une fraction de cet objectif initial.",
-   "creee": "2026-10-23T00:57:49.756986+00:00",
-   "maj": "2026-10-31T02:56:00+00:00",
-   "episodes": [
-    {
-     "id": "d73c3fbf5a8b67",
-     "date": "2026-10-22T22:08:24+00:00",
-     "titre": "OpenAI prépare une levée de fonds de 30 milliards de dollars",
-     "neuf": "OpenAI négocie une levée de fonds géante de 30 milliards de dollars.",
-     "fil": "Levée de fonds record d'OpenAI",
-     "source": "TechCrunch IA",
-     "lien": "https://techcrunch.com/2026/10/22/openai-working-on-new-30b-raise-at-1-25t-valuation-ahead-of-ipo/",
-     "nb_sources": 1,
-     "primaire": false
-    },
-    {
-     "id": "64b1cfc1c15174",
-     "date": "2026-10-31T02:56:00+00:00",
-     "titre": "OpenAI lève moins de la moitié de son objectif de 30 milliards",
-     "neuf": "OpenAI n'a atteint qu'une fraction de son objectif de levée de fonds lors de son dernier tour de table.",
-     "fil": "même levée de fonds de 30 milliards de dollars pour OpenAI",
-     "source": "OpenAI (actus)",
-     "lien": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQTW9TMmVsZkc2b05TYkloVW41X050RjdtZ1F5U01TRnJOSEthYTJpcDdPWVhJb0FvRGEteHgtbVhSS0lOVEZ3T2N5MTNpSUNWNXpETThZR0RvcFQwY2Q5R3ctRUFvM1ZtdFdMaXhGSnpPM2FiLUhORXNrem84cUpfVGpuQ0VmaGNsZUlxUVQ0dk4zQUE2cWFzUk8yM1R3cjc3dEczVw?oc=5",
-     "nb_sources": 2,
-     "primaire": false
-    }
-   ],
-   "statut": "active",
-   "societes": [
-    "openai"
-   ]
-  },
-  {
    "id": "h_520aa59662",
    "titre": "Déploiement et disponibilité de Gemini 4 Argon",
    "resume": "Google déploie continuellement ses nouveautés Gemini à travers l'écosystème Android, le cloud, et prépare de futures versions comme Gemini 4 Argon en mettant l'accent sur la sécurité.",
@@ -5845,7 +5878,7 @@
      "primaire": false
     }
    ],
-   "statut": "active",
+   "statut": "en sommeil",
    "societes": [
     "anthropic"
    ]
@@ -5869,7 +5902,7 @@
      "primaire": false
     }
    ],
-   "statut": "active",
+   "statut": "en sommeil",
    "societes": []
   },
   {
