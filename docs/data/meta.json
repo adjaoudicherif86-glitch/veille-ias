@@ -1,5 +1,5 @@
 {
- "maj": "2026-11-07T20:14:39.488560+00:00",
+ "maj": "2026-11-07T23:39:17.692327+00:00",
  "sources_ok": [
   "Notes de version Claude (API)",
   "Notes de version OpenAI (API)",
@@ -60,15 +60,15 @@
    "erreur": "429 Client Error: Too Many Requests for url: https://venturebeat.com/category/ai/feed/"
   }
  ],
- "total": 2296,
- "analyses": 1870,
+ "total": 2295,
+ "analyses": 1883,
  "brief": {
-  "titre": "Mega-fonds, nouveaux modèles et outils agents en effervescence",
-  "texte": "L'écosystème IA est marqué par des mouvements financiers massifs avec la levée géante d'OpenAI et l'approche de l'IPO d'Anthropic, malgré des interrogations sur le ralentissement des dépenses. Côté technique, les annonces s'accélèrent avec le lancement de Claude Opus 4.1, la surprise Qwen 4 d'Alibaba et l'arrivée de nouveaux outils d'automatisation et d'appels SIP chez OpenAI. Les géants continuent de structurer le marché, entre le nouveau centre de données de Google DeepMind et Meta Spaces pour la collaboration d'agents. Enfin, la personnalisation et la sécurité progressent avec des initiatives open source comme le fine-tune politique Arete-27B et la mise à jour de Claude Code.",
+  "titre": "Méga-levées d'OpenAI et accélération des modèles phares",
+  "texte": "L'écosystème IA est en plein ébullition avec la levée massive de 11 milliards d'OpenAI, tandis que les annonces s'accélèrent du côté des infrastructures et des lancements d'API. Anthropic innove en utilisant l'IA pour concevoir ses propres modèles plus rapidement et déploie Claude Opus 4.1, au moment où Claude Code se met à jour en version 2.1.319. Parallèlement, Alibaba surprend avec Qwen 4, et l'Open Source continue de progresser avec des projets axés sur la longévité et le fine-tune politique. Enfin, la prudence gagne le marché avec des interrogations sur le ralentissement des dépenses en IA avant l'IPO d'Anthropic.",
   "a_tester": [
-   "Tester Claude Opus 4.1 via l'API d'Anthropic pour vos flux de travail",
-   "Explorer les nouvelles fonctionnalités d'automatisation et d'outils dynamiques de l'API OpenAI",
-   "Mettre à jour Claude Code vers la version v2.1.319 pour sécuriser vos environnements"
+   "Tester Claude Opus 4.1 via l'API d'Anthropic pour vos cas d'usage complexes",
+   "Explorer les nouveautés de Claude Code v2.1.319 et ses intégrations MCP",
+   "Examiner les nouvelles fonctionnalités d'automatisation et outils dynamiques de l'API OpenAI"
   ]
  },
  "top5": {

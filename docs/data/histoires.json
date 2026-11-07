@@ -1,5 +1,5 @@
 {
- "maj": "2026-11-07T20:14:39.488494+00:00",
+ "maj": "2026-11-07T23:39:17.692240+00:00",
  "histoires": [
   {
    "id": "h_2cf5a730b3",
@@ -215,6 +215,175 @@
    "statut": "active",
    "societes": [
     "openai"
+   ]
+  },
+  {
+   "id": "h_af62aa771a",
+   "titre": "Qwen4 : fenêtres de contexte d'un million de tokens",
+   "resume": "Alibaba prépare activement le lancement de la génération Qwen 4, avec des aperçus potentiels comme le modèle Qoduck doté de capacités natives de génération d'images et de vidéos. La communauté des développeurs locaux suit de près ces avancées en matière de fenêtres de contexte et de performances multimodales.",
+   "creee": "2026-10-29T04:56:04.658807+00:00",
+   "maj": "2026-11-07T16:28:52+00:00",
+   "episodes": [
+    {
+     "id": "1fe7d47e633144",
+     "date": "2026-10-29T01:42:55+00:00",
+     "titre": "Les futurs modèles Qwen4 d'Alibaba intègreront une fenêtre de contexte d'un million de tokens",
+     "neuf": "Annonce de la prochaine génération Qwen4 dotée d'une grande fenêtre de contexte.",
+     "fil": "futurs modèles Qwen4",
+     "source": "r/LocalLLaMA",
+     "lien": "https://www.reddit.com/r/LocalLLaMA/comments/1xi7390/qwen4_1m_context_window/",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "cffbb463e4f8a3",
+     "date": "2026-10-29T09:25:47+00:00",
+     "titre": "Alibaba Cloud annonce le lancement de Qwen4 pour la semaine prochaine",
+     "neuf": "Alibaba Cloud annonce le lancement imminent de la gamme Qwen4 dès la semaine prochaine.",
+     "fil": "Même prochaine génération Qwen4 d'Alibaba",
+     "source": "r/LocalLLaMA",
+     "lien": "https://www.reddit.com/r/LocalLLaMA/comments/1xif6lf/apsara_conference_qwen4_next_week/",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "f4fe6be4459876",
+     "date": "2026-10-29T09:48:21+00:00",
+     "titre": "Worried about Qwen 4 License",
+     "neuf": "Des interrogations émergent quant au passage potentiel de licences permissives à une licence personnalisée pour Qwen4.",
+     "fil": "même famille de modèles Qwen4",
+     "source": "r/LocalLLaMA",
+     "lien": "https://www.reddit.com/r/LocalLLaMA/comments/1xifjn2/worried_about_qwen_4_license/",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "101c4725a5f3b4",
+     "date": "2026-10-30T15:29:46+00:00",
+     "titre": "Copium Prediction: Google and other major labs will drop new local models over the next few days so they can lead on benchmarks until Qwen 4 sweeps them next week.",
+     "neuf": "La communauté anticipe l'arrivée imminente de Qwen4 et la sortie potentielle de modèles concurrents de dernière minute.",
+     "fil": "même sortie imminente de Qwen4",
+     "source": "r/LocalLLaMA",
+     "lien": "https://www.reddit.com/r/LocalLLaMA/comments/1xjigxg/copium_prediction_google_and_other_major_labs/",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "cc42ceb1acf66b",
+     "date": "2026-11-02T14:47:55+00:00",
+     "titre": "Qwen 4 When ?",
+     "neuf": "La communauté s'interroge sur le calendrier exact de sortie des modèles Qwen 4 au début du mois.",
+     "fil": "même projet de modèles Qwen4",
+     "source": "r/LocalLLaMA",
+     "lien": "https://www.reddit.com/r/LocalLLaMA/comments/1xlz5dz/qwen_4_when/",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "df00c1566c60d0",
+     "date": "2026-11-02T16:42:32+00:00",
+     "titre": "Alibaba confirme que les futurs modèles Qwen resteront open source",
+     "neuf": "Alibaba confirme officiellement que les futurs modèles Qwen 4.0 et 5.0 resteront open-weight.",
+     "fil": "même gamme Qwen",
+     "source": "r/LocalLLaMA",
+     "lien": "https://www.reddit.com/r/LocalLLaMA/comments/1xm28e6/official_statement_qwen_models_will_stick_to_open/",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "32dd2744d022c8",
+     "date": "2026-11-02T18:21:04+00:00",
+     "titre": "Attente fébrile de Qwen 4 par la communauté open source",
+     "neuf": "La communauté open source intensifie son attente impatiente autour du lancement imminent des futurs modèles Qwen 4.",
+     "fil": "Même attente autour de la sortie des modèles Qwen 4",
+     "source": "r/LocalLLaMA",
+     "lien": "https://www.reddit.com/r/LocalLLaMA/comments/1xm506n/am_i_the_only_one_who_frequently_opens_this/",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "514f697a71c5ca",
+     "date": "2026-11-02T22:24:18+00:00",
+     "titre": "Nouvelle méthode d'attention parcimonieuse pour contextes ultra-longs chez Alibaba Qwen",
+     "neuf": "Une nouvelle méthode permet de sparsifier l'attention de Qwen jusqu'à 10 millions de tokens.",
+     "fil": "Optimisation de l'attention et des contextes ultra-longs chez Alibaba Qwen",
+     "source": "r/LocalLLaMA",
+     "lien": "https://www.reddit.com/r/LocalLLaMA/comments/1xmbj0v/new_sparse_attention_method_for_ultralong_context/",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "c26e87e95d1cfd",
+     "date": "2026-11-03T03:55:43+00:00",
+     "titre": "Alibaba's Qwen Code repo just leaked qwen4-max, qwen4-coder-plus, and qwen4-omni-120b",
+     "neuf": "Le dépôt Qwen Code d'Alibaba fuite et révèle l'existence de plusieurs variantes de la gamme Qwen4 (max, coder-plus, omni-120b).",
+     "fil": "Fuite du dépôt Qwen Code mentionnant Qwen4",
+     "source": "r/LocalLLaMA",
+     "lien": "https://www.reddit.com/r/LocalLLaMA/comments/1xmitzx/alibabas_qwen_code_repo_just_leaked_qwen4max/",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "ab742794cf5a5a",
+     "date": "2026-11-04T23:35:49+00:00",
+     "titre": "What are you looking forward to in Qwen 4?",
+     "neuf": "La communauté s'interroge sur les spécifications exactes de Qwen 4, notamment sur l'efficacité des fenêtres de contexte et des kv-caches.",
+     "fil": "Attentes de la communauté concernant les fonctionnalités et l'efficacité des KV pour Qwen 4",
+     "source": "r/LocalLLaMA",
+     "lien": "https://www.reddit.com/r/LocalLLaMA/comments/1xo3ikc/what_are_you_looking_forward_to_in_qwen_4/",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "875dac1ac8c47a",
+     "date": "2026-11-06T12:26:17+00:00",
+     "titre": "Annonce surprise de Qwen 4 par Alibaba",
+     "neuf": "Alibaba officialise l'arrivée prochaine de Qwen 4.",
+     "fil": "même gamme Qwen 4",
+     "source": "r/LocalLLaMA",
+     "lien": "https://www.reddit.com/r/LocalLLaMA/comments/1xpbjku/qwen_4_is_stealth_announced/",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "25e64ecfad7d01",
+     "date": "2026-11-06T13:18:37+00:00",
+     "titre": "Good news bad news…",
+     "neuf": "De nouvelles informations sur les tailles et les futures versions (Qwen 4.5 et Qwen 5) sont révélées lors de l'annonce.",
+     "fil": "même feuille de route Qwen 4 et générations suivantes",
+     "source": "r/LocalLLaMA",
+     "lien": "https://www.reddit.com/r/LocalLLaMA/comments/1xpcl6w/good_news_bad_news/",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "cf82e26927f906",
+     "date": "2026-11-06T21:54:01+00:00",
+     "titre": "We are in the golden age of Local LLM",
+     "neuf": "La communauté dresse un premier bilan très positif de cette fin d'année pour les LLM locaux, portée par la perspective de la sortie imminente de Qwen 4.",
+     "fil": "même attente autour de la sortie de Qwen 4",
+     "source": "r/LocalLLaMA",
+     "lien": "https://www.reddit.com/r/LocalLLaMA/comments/1xppbht/we_are_in_the_golden_age_of_local_llm/",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "c55c064ff90f1d",
+     "date": "2026-11-07T16:28:52+00:00",
+     "titre": "Test de Qoduck (potentiel Qwen 4) avec génération native d'images et vidéos",
+     "neuf": "Le modèle mystère Qoduck, pressenti pour être Qwen 4, intègre des capacités natives de génération d'images et de vidéos.",
+     "fil": "même famille de modèles Qwen avec la génération Qwen 4",
+     "source": "r/LocalLLaMA",
+     "lien": "https://www.reddit.com/r/LocalLLaMA/comments/1xqafp1/testing_qoduck_maybe_qwen4_on_qoder/",
+     "nb_sources": 1,
+     "primaire": false
+    }
+   ],
+   "statut": "active",
+   "societes": [
+    "alibaba",
+    "google",
+    "anthropic"
    ]
   },
   {
@@ -476,164 +645,6 @@
    "statut": "active",
    "societes": [
     "openai"
-   ]
-  },
-  {
-   "id": "h_af62aa771a",
-   "titre": "Qwen4 : fenêtres de contexte d'un million de tokens",
-   "resume": "Alibaba prépare activement le lancement de la génération Qwen 4 et de sa feuille de route à long terme. La communauté des développeurs locaux salue ces progrès en matière de fenêtres de contexte et de performances globales.",
-   "creee": "2026-10-29T04:56:04.658807+00:00",
-   "maj": "2026-11-06T21:54:01+00:00",
-   "episodes": [
-    {
-     "id": "1fe7d47e633144",
-     "date": "2026-10-29T01:42:55+00:00",
-     "titre": "Les futurs modèles Qwen4 d'Alibaba intègreront une fenêtre de contexte d'un million de tokens",
-     "neuf": "Annonce de la prochaine génération Qwen4 dotée d'une grande fenêtre de contexte.",
-     "fil": "futurs modèles Qwen4",
-     "source": "r/LocalLLaMA",
-     "lien": "https://www.reddit.com/r/LocalLLaMA/comments/1xi7390/qwen4_1m_context_window/",
-     "nb_sources": 1,
-     "primaire": false
-    },
-    {
-     "id": "cffbb463e4f8a3",
-     "date": "2026-10-29T09:25:47+00:00",
-     "titre": "Alibaba Cloud annonce le lancement de Qwen4 pour la semaine prochaine",
-     "neuf": "Alibaba Cloud annonce le lancement imminent de la gamme Qwen4 dès la semaine prochaine.",
-     "fil": "Même prochaine génération Qwen4 d'Alibaba",
-     "source": "r/LocalLLaMA",
-     "lien": "https://www.reddit.com/r/LocalLLaMA/comments/1xif6lf/apsara_conference_qwen4_next_week/",
-     "nb_sources": 1,
-     "primaire": false
-    },
-    {
-     "id": "f4fe6be4459876",
-     "date": "2026-10-29T09:48:21+00:00",
-     "titre": "Worried about Qwen 4 License",
-     "neuf": "Des interrogations émergent quant au passage potentiel de licences permissives à une licence personnalisée pour Qwen4.",
-     "fil": "même famille de modèles Qwen4",
-     "source": "r/LocalLLaMA",
-     "lien": "https://www.reddit.com/r/LocalLLaMA/comments/1xifjn2/worried_about_qwen_4_license/",
-     "nb_sources": 1,
-     "primaire": false
-    },
-    {
-     "id": "101c4725a5f3b4",
-     "date": "2026-10-30T15:29:46+00:00",
-     "titre": "Copium Prediction: Google and other major labs will drop new local models over the next few days so they can lead on benchmarks until Qwen 4 sweeps them next week.",
-     "neuf": "La communauté anticipe l'arrivée imminente de Qwen4 et la sortie potentielle de modèles concurrents de dernière minute.",
-     "fil": "même sortie imminente de Qwen4",
-     "source": "r/LocalLLaMA",
-     "lien": "https://www.reddit.com/r/LocalLLaMA/comments/1xjigxg/copium_prediction_google_and_other_major_labs/",
-     "nb_sources": 1,
-     "primaire": false
-    },
-    {
-     "id": "cc42ceb1acf66b",
-     "date": "2026-11-02T14:47:55+00:00",
-     "titre": "Qwen 4 When ?",
-     "neuf": "La communauté s'interroge sur le calendrier exact de sortie des modèles Qwen 4 au début du mois.",
-     "fil": "même projet de modèles Qwen4",
-     "source": "r/LocalLLaMA",
-     "lien": "https://www.reddit.com/r/LocalLLaMA/comments/1xlz5dz/qwen_4_when/",
-     "nb_sources": 1,
-     "primaire": false
-    },
-    {
-     "id": "df00c1566c60d0",
-     "date": "2026-11-02T16:42:32+00:00",
-     "titre": "Alibaba confirme que les futurs modèles Qwen resteront open source",
-     "neuf": "Alibaba confirme officiellement que les futurs modèles Qwen 4.0 et 5.0 resteront open-weight.",
-     "fil": "même gamme Qwen",
-     "source": "r/LocalLLaMA",
-     "lien": "https://www.reddit.com/r/LocalLLaMA/comments/1xm28e6/official_statement_qwen_models_will_stick_to_open/",
-     "nb_sources": 1,
-     "primaire": false
-    },
-    {
-     "id": "32dd2744d022c8",
-     "date": "2026-11-02T18:21:04+00:00",
-     "titre": "Attente fébrile de Qwen 4 par la communauté open source",
-     "neuf": "La communauté open source intensifie son attente impatiente autour du lancement imminent des futurs modèles Qwen 4.",
-     "fil": "Même attente autour de la sortie des modèles Qwen 4",
-     "source": "r/LocalLLaMA",
-     "lien": "https://www.reddit.com/r/LocalLLaMA/comments/1xm506n/am_i_the_only_one_who_frequently_opens_this/",
-     "nb_sources": 1,
-     "primaire": false
-    },
-    {
-     "id": "514f697a71c5ca",
-     "date": "2026-11-02T22:24:18+00:00",
-     "titre": "Nouvelle méthode d'attention parcimonieuse pour contextes ultra-longs chez Alibaba Qwen",
-     "neuf": "Une nouvelle méthode permet de sparsifier l'attention de Qwen jusqu'à 10 millions de tokens.",
-     "fil": "Optimisation de l'attention et des contextes ultra-longs chez Alibaba Qwen",
-     "source": "r/LocalLLaMA",
-     "lien": "https://www.reddit.com/r/LocalLLaMA/comments/1xmbj0v/new_sparse_attention_method_for_ultralong_context/",
-     "nb_sources": 1,
-     "primaire": false
-    },
-    {
-     "id": "c26e87e95d1cfd",
-     "date": "2026-11-03T03:55:43+00:00",
-     "titre": "Alibaba's Qwen Code repo just leaked qwen4-max, qwen4-coder-plus, and qwen4-omni-120b",
-     "neuf": "Le dépôt Qwen Code d'Alibaba fuite et révèle l'existence de plusieurs variantes de la gamme Qwen4 (max, coder-plus, omni-120b).",
-     "fil": "Fuite du dépôt Qwen Code mentionnant Qwen4",
-     "source": "r/LocalLLaMA",
-     "lien": "https://www.reddit.com/r/LocalLLaMA/comments/1xmitzx/alibabas_qwen_code_repo_just_leaked_qwen4max/",
-     "nb_sources": 1,
-     "primaire": false
-    },
-    {
-     "id": "ab742794cf5a5a",
-     "date": "2026-11-04T23:35:49+00:00",
-     "titre": "What are you looking forward to in Qwen 4?",
-     "neuf": "La communauté s'interroge sur les spécifications exactes de Qwen 4, notamment sur l'efficacité des fenêtres de contexte et des kv-caches.",
-     "fil": "Attentes de la communauté concernant les fonctionnalités et l'efficacité des KV pour Qwen 4",
-     "source": "r/LocalLLaMA",
-     "lien": "https://www.reddit.com/r/LocalLLaMA/comments/1xo3ikc/what_are_you_looking_forward_to_in_qwen_4/",
-     "nb_sources": 1,
-     "primaire": false
-    },
-    {
-     "id": "875dac1ac8c47a",
-     "date": "2026-11-06T12:26:17+00:00",
-     "titre": "Annonce surprise de Qwen 4 par Alibaba",
-     "neuf": "Alibaba officialise l'arrivée prochaine de Qwen 4.",
-     "fil": "même gamme Qwen 4",
-     "source": "r/LocalLLaMA",
-     "lien": "https://www.reddit.com/r/LocalLLaMA/comments/1xpbjku/qwen_4_is_stealth_announced/",
-     "nb_sources": 1,
-     "primaire": false
-    },
-    {
-     "id": "25e64ecfad7d01",
-     "date": "2026-11-06T13:18:37+00:00",
-     "titre": "Good news bad news…",
-     "neuf": "De nouvelles informations sur les tailles et les futures versions (Qwen 4.5 et Qwen 5) sont révélées lors de l'annonce.",
-     "fil": "même feuille de route Qwen 4 et générations suivantes",
-     "source": "r/LocalLLaMA",
-     "lien": "https://www.reddit.com/r/LocalLLaMA/comments/1xpcl6w/good_news_bad_news/",
-     "nb_sources": 1,
-     "primaire": false
-    },
-    {
-     "id": "cf82e26927f906",
-     "date": "2026-11-06T21:54:01+00:00",
-     "titre": "We are in the golden age of Local LLM",
-     "neuf": "La communauté dresse un premier bilan très positif de cette fin d'année pour les LLM locaux, portée par la perspective de la sortie imminente de Qwen 4.",
-     "fil": "même attente autour de la sortie de Qwen 4",
-     "source": "r/LocalLLaMA",
-     "lien": "https://www.reddit.com/r/LocalLLaMA/comments/1xppbht/we_are_in_the_golden_age_of_local_llm/",
-     "nb_sources": 1,
-     "primaire": false
-    }
-   ],
-   "statut": "active",
-   "societes": [
-    "alibaba",
-    "google",
-    "anthropic"
    ]
   },
   {
