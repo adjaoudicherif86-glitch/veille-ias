@@ -1,5 +1,5 @@
 {
- "maj": "2026-11-08T15:12:06.174785+00:00",
+ "maj": "2026-11-08T20:28:43.807655+00:00",
  "sources_ok": [
   "Notes de version Claude (API)",
   "Notes de version OpenAI (API)",
@@ -60,15 +60,15 @@
    "erreur": "429 Client Error: Too Many Requests for url: https://venturebeat.com/category/ai/feed/"
   }
  ],
- "total": 2293,
- "analyses": 1901,
+ "total": 2286,
+ "analyses": 1900,
  "brief": {
-  "titre": "Entre investissements massifs, failles de sécurité et innovations locales",
-  "texte": "L'actualité de l'intelligence artificielle est marquée par des investissements colossaux, à l'image du contrat de 3,4 milliards d'Anthropic pour ses data centers et du nouveau site de Google DeepMind au Wyoming. Côté technique, Anthropic accélère sa conception de modèles et explore la mémoire artificielle, tandis que des fuites majeures concernent un modèle OpenAI de 10 000 milliards de paramètres et une faille dans Claude Code. L'écosystème open source progresse également avec l'agent local Observer et les optimisations de llama.cpp pour les modèles MoE. Enfin, la sécurité reste un enjeu crucial avec des puces Nvidia détournées en Chine et Microsoft qui réorganise sa recherche.",
+  "titre": "Entre sécurité de Claude Code, investissements massifs et poursuites contre Suno",
+  "texte": "L'actualité est marquée par des mouvements contrastés autour des géants de l'IA. D'un côté, Anthropic accélère sa conception de modèles et sécurise d'importants financements, malgré des failles de sécurité sur Claude Code qui poussent Goldman Sachs à suspendre son utilisation. De l'autre, la pression réglementaire et juridique s'intensifie avec la plainte des ayants droit d'Elvis et Eminem contre Suno. Pendant ce temps, Apple intensifie ses ambitions pour un Siri autonome avec OpenAI, tandis que l'écosystème local s'agite avec le succès des RTX 5060 Ti et l'émergence d'agents open source. Enfin, la viabilité économique est questionnée, qu'il s'agisse des coûts de Grok pour Elon Musk ou de la rentabilité attendue de Microsoft Copilot.",
   "a_tester": [
-   "Tester l'agent open source local Observer pour surveiller vos flux.",
-   "Mettre à jour llama.cpp pour profiter du cache MoE et optimiser votre VRAM.",
-   "Vérifier la sécurité de vos dépôts suite aux failles signalées sur Claude Code."
+   "Auditez l'utilisation des outils de type agentique comme Claude Code pour éviter toute fuite de données sensibles.",
+   "Testez les nouvelles solutions d'agents open source locaux sur vos propres configurations matérielles.",
+   "Suivez l'évolution des outils de génération musicale face aux nouvelles procédures judiciaires des ayants droit."
   ]
  },
  "top5": {

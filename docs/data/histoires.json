@@ -1,6 +1,377 @@
 {
- "maj": "2026-11-08T15:12:06.174735+00:00",
+ "maj": "2026-11-08T20:28:43.807589+00:00",
  "histoires": [
+  {
+   "id": "h_61682af51c",
+   "titre": "Lancement de l'agent IA Claude Duet d'Anthropic",
+   "resume": "Anthropic consolide son écosystème professionnel avec Claude Duet et Claude Code. L'outil fait face à des difficultés d'adoption, notamment son retrait par Goldman Sachs, ainsi qu'à des vulnérabilités de sécurité et des fuites de données.",
+   "creee": "2026-10-21T20:44:46.798337+00:00",
+   "maj": "2026-11-08T18:16:07+00:00",
+   "episodes": [
+    {
+     "id": "5dbb54a005401f",
+     "date": "2026-10-21T19:14:01+00:00",
+     "titre": "Lancement de Claude Duet par Anthropic",
+     "neuf": "Anthropic officialise l'introduction de Claude Duet sur le marché.",
+     "fil": "lancement de l'agent Claude Duet",
+     "source": "Hacker News (IA, 100+ pts)",
+     "lien": "https://claude.com/product/claude-duet",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "705d3445b65a91",
+     "date": "2026-10-21T19:53:20+00:00",
+     "titre": "Anthropic lance Claude Duet, son nouvel agent IA",
+     "neuf": "Anthropic positionne Claude Duet pour concurrencer les autres agents du marché.",
+     "fil": "lancement de Claude Duet",
+     "source": "Anthropic (actus)",
+     "lien": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQMm0xalYzS19NOGxhQ0ZpanpWeFpjN3g0VzZfVjROQ3RUemxqZmc3STZhdHlRUTlvZEJOaW52dzdVTUxOc09MMzlVeFlJSmc5V2p4WDdwWjRRaDZKMU5QbldoWHBIaTh0Qi1yc1JFaVNHM1BkQ25ucFZfbVJtWGNYMS1jRWlocDk5NUVheDVpclZEUTJw?oc=5",
+     "nb_sources": 2,
+     "primaire": false
+    },
+    {
+     "id": "05e2774a24a1f6",
+     "date": "2026-10-21T20:29:00+00:00",
+     "titre": "Anthropic lance Claude Duet, son nouvel agent personnel",
+     "neuf": "Claude Duet est présenté comme un nouvel agent personnel pour répliquer à la concurrence.",
+     "fil": "lancement de Claude Duet",
+     "source": "Anthropic (actus)",
+     "lien": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPQkZFNGVZc2Q2Q3VJYWVFNjFlOUh1NE1aNWFrZHlzOFlEMVpQU0xFQkFDSW4ydXljV1gtRnBBVzZjWi11Z3dMQ0sxdl9EdXdJOWl0TWlYMnl1M1o5S3d4LXRuOW9lLUd3bS1lYkloUnFGVnhqbFNJSGtVRUt4ZnlWSVg1Q01YOHlrWF9tZ0RsQXptUjljR0MxVFVaWW0xTXMweUE?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "29513dd2417946",
+     "date": "2026-10-21T20:41:02+00:00",
+     "titre": "Anthropic entre dans la course aux agents IA avec Claude Duet",
+     "neuf": "Anthropic officialise son entrée sur le marché des agents avec Claude Duet.",
+     "fil": "Lancement de l'agent IA Claude Duet d'Anthropic",
+     "source": "Anthropic et gouvernement",
+     "lien": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNblFra1FIR1VRWmpPaW80WGJSZGNtVG02LUMzU0pvR0NQbkJ3R1N1eGxTS0ZhblV6ZDV1VUNiMVVKVHRCNVI5aHZaZjBGREZUSDg3ekExUnFFWjF2QUs4Qk9ZREN6cUt4QVNZTnlwLThQMmt0Wmp3QWh1QkF3TDFuY1hNOGRnU2Ew?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "7abf36518713c4",
+     "date": "2026-10-22T01:05:09+00:00",
+     "titre": "Nouvel agent IA d'Anthropic pour l'achat de fournitures professionnelles",
+     "neuf": "L'agent d'Anthropic se dote de capacités d'achat autonome de fournitures professionnelles.",
+     "fil": "Nouvel agent IA d'Anthropic pour les achats professionnels",
+     "source": "Anthropic (actus)",
+     "lien": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQWjdMOWV2Z1JpdUNIN05TWE53U2JJRW1obFBKT05xQVQtc05ZUm9iM3JSaWxsdFpFSTB5UldmbnZqVlZ0bHZhaHZiNkFUMFp3NlpxTUZYOTBWc3RhZWZjSjhseGhOVlBVbE9scnRTLWhZS0lEU2JNTmc2UUwxSHI3ZS1lWXMyc3hFUkk4N2dvZGp2Q2w3amxVUHRiVkRHeHNGT2RrbF9mWHRfa3hrMmc?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "31cb9fa2449425",
+     "date": "2026-10-22T03:19:00+00:00",
+     "titre": "Claude Duet intègre plus de 6 000 outils pour automatiser les tâches",
+     "neuf": "Claude Duet se connecte à plus de 6 000 intégrations pour automatiser les flux de travail en entreprise.",
+     "fil": "Intégrations de Claude Duet",
+     "source": "Anthropic (actus)",
+     "lien": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPOHZGSWdQNmhaM1AwX2tMNFl0TGo3by1jaG9ESnI3cm1za2ZIbnF3TUJtUVZlOXJLZW9KYlJXWkdmLXRqejFOM2VPNlduTEV1bEx1U0VvQ0c1WDZ6S0YwdnFWNElWTVgway1yTFc5WE84ZFZ1VEo0M3NBbkVQLURuRUgtN3E2cXBsN0lPcFo3aTc?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "3dec6b4cf94367",
+     "date": "2026-10-22T11:11:31+00:00",
+     "titre": "Découvrez Claude Duet, le nouvel agent IA d'Anthropic",
+     "neuf": "Confirmation du lancement de l'agent pour alléger la charge de travail.",
+     "fil": "Même lancement officiel de l'agent Claude Duet",
+     "source": "Anthropic (actus)",
+     "lien": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBsa3ZVM2JtaGdBajhfZEFDWVJaVHlvbkxYcGR5ODFBdjlEeFNON3FfcG0tYzR0aHIyazRjanhUTWRyX1phZ3JLQTNVTmZTMXlBajQ5SmxUZUFVZms5eGxRbVJrZ04xZDYw?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "819de26796b063",
+     "date": "2026-10-22T12:16:35+00:00",
+     "titre": "Anthropic lance un agent IA professionnel face à Meta et OpenAI",
+     "neuf": "Anthropic dévoile son agent IA professionnel pour concurrencer Meta Muse et OpenAI Dots.",
+     "fil": "nouvel agent IA professionnel d'Anthropic",
+     "source": "Anthropic et gouvernement",
+     "lien": "https://news.google.com/rss/articles/CBMif0FVX3lxTE4weXI0QVdqNEdJSmR3Z2RvUl9feHFyMzdkSV90S2hhNlFadVd1TjZiUmpURVJtei00QnJQajBCaFJ1LXN2YktJN3o1S3hhNC1SV3RJNlA3RVhCeHNHZFFuMW5rc2x2WjY5VDZLaVZ0dkFqMmx0alJIcUliZEE1LVU?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "d24c772af64832",
+     "date": "2026-10-22T17:38:48+00:00",
+     "titre": "Lancement de Claude Duet par Anthropic : les entreprises hésitent",
+     "neuf": "Un article relève que les entreprises font face à des hésitations quant à l'adoption de Claude Duet.",
+     "fil": "même agent IA professionnel Claude Duet d'Anthropic",
+     "source": "Anthropic et gouvernement",
+     "lien": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNR05JZHN0U2d5RHE1MWUyUXVaeGhoX3E1dTRyNzNLd3JndmVGa0U2RGE2bFIzZ1ZHUUhTMVZ4Nzg3QmFTb2FMUENXSDR2a0Z5c3h3amx2YXFMY3E3SkFlN09PT1hLS1RjUHQzeGhuVm10TnBlMjlIcVpfdm1aSW95T2V1eFJpeWwwMDJmcnJmUWhxYVdvb2hYQUpUcjFld2VqM3YzcjFaYw?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "139e807626ba1a",
+     "date": "2026-10-24T13:07:30+00:00",
+     "titre": "Anthropic : un minimum de 20 sièges exclut les petits cabinets",
+     "neuf": "Anthropic impose un minimum de 20 sièges entreprise, excluant de fait les petits cabinets.",
+     "fil": "Conditions d'accès et abonnements aux services d'Anthropic",
+     "source": "Anthropic (actus)",
+     "lien": "https://news.google.com/rss/articles/CBMinAJBVV95cUxPT0R4ZTBtQWtQMTBJWGx2NGV2TVNxRl9aa2liNDQ2SGJFVFEta0I2M2lhaEkwR2hWMmxDMlZXamdQYkpFRkU1Wl9PN3JOLXljb3JuTFJ1Z0wwTFp6ZVlqQkRnVHpZOW1uMkpnR0hUYzkzZm9BXzNXSEQ1cnBic2M2cHpqM0FSempQUGNoQzVhWmdyQksxcVN4QVJGZ2NSaEZ3N0pZMno3SFFIQm9ORVBaWWhkM25DQm1pRkIzd1dyOEZvSmxtMnRBTkxYSXp5dW1IZmhNTC1CczY2T0ZDVlBPT1NvZnZ2YXRxLXZxbklsVnQtSVoxQWlsd0hlbVBEUkxpbTNlNUlBRUJmUXdpQ3BCaUVEQTR0SjRVQTdxQw?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "9dee3fa62c05d0",
+     "date": "2026-10-31T18:30:00+00:00",
+     "titre": "Comment utiliser Claude Duet lors de son déploiement",
+     "neuf": "Un guide d'utilisation pratique est publié à l'approche du déploiement de Claude Duet.",
+     "fil": "même agent Claude Duet",
+     "source": "Anthropic (actus)",
+     "lien": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE84cHZlMURNNDdZcjg1STBlNU1WMHA4YmlWMFM4RzExMGx6aDYxeHR1T252MG1OVmdySXdGMERHTTAwejBrMzIycFJ4MzR2UGFFVTlRX2w3eFRBVWZNdE5BZVI0d1YxTWM?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "241a7f4e9db5ba",
+     "date": "2026-11-03T04:53:56+00:00",
+     "titre": "Anthropic active la surveillance EDR pour Claude Cowork",
+     "neuf": "Anthropic intègre une surveillance EDR pour détecter l'activité cachée des agents dans Claude Cowork.",
+     "fil": "Surveillance EDR pour Claude Cowork",
+     "source": "Anthropic (actus)",
+     "lien": "https://news.google.com/rss/articles/CBMicEFVX3lxTE45OFMtMFVaZlRnaTU1WkZyQ05HVFlJWkdUR1RWRFBwTHNvQUpyT0k3c0lxM0tEc0pyWHYtTTktMWdEYmUyYmtPNDk0Z3FEYXlWc1NzVTc2WHZ5cEdxMGNXRmJWWnVEcGxNb0FTSGFaVUjSAXZBVV95cUxOM3ZuNEVrUDk3eFFJbHBOVUxjeHpiNUVGT1JqUEFJeWRhdVVRakhlZTdsSzY3V2hHT1VVR2FqYlR5YXRscktTQ2tFbTBLOHZkendvRFN6TDF4MzA0cW9HNDh4ZUFQbDFUN2RIN0VQRlk1TlUxUUZB?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "631f7a4392b4cd",
+     "date": "2026-11-03T18:03:00+00:00",
+     "titre": "Anthropic lance un outil de surveillance des conversations Claude pour les entreprises",
+     "neuf": "Introduction d'un nouvel outil de surveillance des conversations professionnelles avec Claude pour les employeurs.",
+     "fil": "même agent Claude et outils professionnels",
+     "source": "Anthropic (actus)",
+     "lien": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQMnpIVHMtWlhsVGNpRDQyRGZXYTFRZWJUSENxRklKcXR4SWdOLTBocmQteVdUQXN1RXBNcC00WDB3TFV3Sjdta1ZvV012amtMS3E4WWtoWU8tMnBQSWxiMFVEVS1Za21JYnBHVDhSb2lMTlh6ZjJkcTNucXdPZVkybHYtSGpUV3g2djNJaFh2ZDJ6UldIZHc?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "13f71de2c4d569",
+     "date": "2026-11-03T23:55:00+00:00",
+     "titre": "Cat Wu, responsable produit clé et visage de Claude Code, quitte Anthropic",
+     "neuf": "Cat Wu, figure clé du produit et visage de Claude Code, quitte l'entreprise Anthropic.",
+     "fil": "même écosystème Claude Code d'Anthropic",
+     "source": "Anthropic (actus)",
+     "lien": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNV3VPODg4OFh2Wk9FNTFNRlMzTzV4WnpOWGZ2Z1lNZ01nYUh2SS0xN1R0LUpTTHhUTnMwVFZQS2tiNHRpdHVuZVVjT0ZwZmJqbDdndlZZcGJkcHFQSElyZG5MSVdHczNtS0d3VGlONGVibnhVWDJIaVNNbHZMNENwR2ZzNFlaWWRjVDNQeHpaUXNEdk1OZ012a3MybFA?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "6df25cd73cd94d",
+     "date": "2026-11-06T15:02:35+00:00",
+     "titre": "Fuite d'adresses e-mail d'utilisateurs de Claude Code via les en-têtes HTTP",
+     "neuf": "Une faille supplémentaire est identifiée sur Claude Code, exposant cette fois des adresses e-mail d'utilisateurs via les en-têtes HTTP User-Agent.",
+     "fil": "même outil Claude Code d'Anthropic",
+     "source": "Anthropic (actus)",
+     "lien": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBCSU9YMTU4eXZjZ2lISEd1OXNMSXVOb0JESS1WZE5VaWlBUV9hUzA2RmtrX1BjSG9KemFhLXkwUEhQdVAwQUtRdmxhVnh1aUhUNkltM3Q1U196WTZIVGd5X2w0Q2UxNWlWN25V0gFwQVVfeXFMUEVId1RlTy1yTTdyT0VPVUhhVkMyQ0V2UWZ4TjFKMXB3SDdDNXNjeGhRNjFoODl1M3B4TEQ2dVVFV244TzF6d3pYdjJPTjlWcFZWSE80eC0xUU5nMFZrUjgtZ0E0ZnRaaWdLT293RlJaZA?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "5186d80b7eef56",
+     "date": "2026-11-07T20:45:32+00:00",
+     "titre": "Une faille dans Claude Code expose des mots de passe sur GitHub",
+     "neuf": "Une nouvelle faille liée à la fonction 'Don't Ask Again' entraîne la fuite de secrets et mots de passe sur GitHub.",
+     "fil": "Même outil Claude Code et ses failles de sécurité",
+     "source": "Hacker News (IA, 100+ pts)",
+     "lien": "https://apiiro.com/blog/coding-agents-leaking-secrets-github-dont-ask-again",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "a78801b8303612",
+     "date": "2026-11-08T18:16:07+00:00",
+     "titre": "Goldman Sachs retire l'outil Claude Code de ses banquiers",
+     "neuf": "Goldman Sachs retire l'outil Claude Code à ses banquiers et traders, marquant un coup d'arrêt pour son adoption bancaire.",
+     "fil": "retrait et restrictions d'utilisation de Claude Code en entreprise",
+     "source": "Hacker News (IA, 100+ pts)",
+     "lien": "https://www.thestateofai.com/news/goldman-sachs-claude-code-traders-bankers",
+     "nb_sources": 1,
+     "primaire": false
+    }
+   ],
+   "statut": "active",
+   "societes": [
+    "anthropic",
+    "openai"
+   ]
+  },
+  {
+   "id": "h_5eb8a2c48b",
+   "titre": "Plainte contre Anthropic pour l'entraînement sur des chansons d'Elvis Presley",
+   "resume": "Les actions en justice concernant l'utilisation non autorisée de la musique d'Elvis Presley pour l'entraînement d'IA s'étendent désormais à d'autres plateformes comme Suno, poursuivi aux côtés d'Anthropic.",
+   "creee": "2026-10-26T01:06:19.676384+00:00",
+   "maj": "2026-11-08T17:23:19+00:00",
+   "episodes": [
+    {
+     "id": "841de2ccd84cdd",
+     "date": "2026-10-25T18:41:00+00:00",
+     "titre": "Le détenteur des droits d'Elvis Presley poursuit Anthropic en justice",
+     "neuf": "Anthropic fait l'objet d'une nouvelle plainte, cette fois pour l'utilisation non autorisée de chansons d'Elvis Presley lors de l'entraînement de son IA.",
+     "fil": "Poursuite en justice pour droits d'auteur",
+     "source": "Anthropic (actus)",
+     "lien": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNelFOZFdTZmw2a1FtcjAxZk5lYktWT09FRTRaT0g0MmFrRFpHX0dIbk1IeVJNYmxVVlhBZHRYWk1YZzFHRjh0N29jSEdWd2s3OEJrcFM4SW9Tb29tLTQ5VjJaQ3BFQThpRXNJUzVPbXcwOElvcVJUNl9aZE1SaWVZTTR1VTYtcHNGZVdjU2t4MVItd2ZKYlhZZGd3cw?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "b137501d0def23",
+     "date": "2026-10-28T08:03:45+00:00",
+     "titre": "Anthropic poursuivi pour entraînement présumé de Claude sur la musique d'Elvis Presley",
+     "neuf": "Confirmation formelle de la plainte visant l'utilisation non autorisée de morceaux d'Elvis Presley pour entraîner Claude.",
+     "fil": "Nouvelle action en justice pour l'entraînement sur des chansons d'Elvis Presley",
+     "source": "Anthropic (actus)",
+     "lien": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1aM0VCcEtCcW8wb2VSYU8zM2ducWdqTGtXbTVSQlVFenFITHdISHUzVllRRXdSNGtBcHVWcjYyd1VJTk9BcWRjeVdCYVFkVkJtWlE4cEp4eHMwUE4zakZGUlE4QnVHbUpnbVRUSTNYU0QzQkxiamRkdlB2OWsxVlU?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "ae06ecf7187204",
+     "date": "2026-11-08T17:23:19+00:00",
+     "titre": "Les ayants droit d'Elvis et d'Eminem attaquent Suno en justice",
+     "neuf": "Suno fait l'objet de nouvelles poursuites de la part des ayants droit d'Elvis Presley et Eminem pour génération illégale.",
+     "fil": "poursuites judiciaires concernant l'utilisation non autorisée d'œuvres d'Elvis Presley",
+     "source": "The Verge IA",
+     "lien": "https://www.theverge.com/ai-artificial-intelligence/1029533/elvis-eminem-suno-ai-music-clone-lawsuit",
+     "nb_sources": 1,
+     "primaire": false
+    }
+   ],
+   "statut": "active",
+   "societes": [
+    "anthropic"
+   ]
+  },
+  {
+   "id": "h_71d93fee85",
+   "titre": "Quantifications GGUF pour le modèle Qwen3.8 27B",
+   "resume": "L'écosystème du modèle Qwen3.8 27B s'enrichit de quantifications, de variantes de fine-tuning, d'évaluations de cache KV et de méthodes de décodage spéculatif optimisant ses performances.",
+   "creee": "2026-10-28T01:08:58.693059+00:00",
+   "maj": "2026-11-08T16:23:48+00:00",
+   "episodes": [
+    {
+     "id": "a08630aa7a33a1",
+     "date": "2026-10-27T18:52:27+00:00",
+     "titre": "Statistically Lossless Qwen3.8 27B GGUFs",
+     "neuf": "Mise à disposition des versions GGUF pour le modèle Qwen3.8 27B.",
+     "fil": "Publication des quantifications GGUF pour Qwen3.8 27B",
+     "source": "r/LocalLLaMA",
+     "lien": "https://www.reddit.com/r/LocalLLaMA/comments/1xh17tk/statistically_lossless_qwen38_27b_ggufs/",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "1f5679e1fced18",
+     "date": "2026-11-02T22:42:11+00:00",
+     "titre": "Qwen 3.8 27b is sometimes so smart it scares me...",
+     "neuf": "Un utilisateur démontre la capacité du modèle à écrire et exécuter du code Python via Blender MCP.",
+     "fil": "Utilisation et capacités avancées du modèle Qwen 3.8 27B",
+     "source": "r/LocalLLaMA",
+     "lien": "https://www.reddit.com/r/LocalLLaMA/comments/1xmbym0/qwen_38_27b_is_sometimes_so_smart_it_scares_me/",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "1132e288d98359",
+     "date": "2026-11-03T12:53:57+00:00",
+     "titre": "Is Qwen 3.8 27B still the king",
+     "neuf": "Un utilisateur s'interroge sur la suprématie du modèle Qwen 3.8 27B face aux alternatives récentes sur le segment 8-35B.",
+     "fil": "même modèle Qwen 3.8 27B",
+     "source": "r/LocalLLaMA",
+     "lien": "https://www.reddit.com/r/LocalLLaMA/comments/1xms6eq/is_qwen_38_27b_still_the_king/",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "6857dc224a419f",
+     "date": "2026-11-03T16:29:48+00:00",
+     "titre": "Qwen 3.8 27B on my laptop can interpret model weights, too",
+     "neuf": "Démonstration de la capacité du modèle Qwen 3.8 27B à interpréter les poids neuronaux en local sur un ordinateur portable.",
+     "fil": "même modèle Qwen 3.8 27B",
+     "source": "Simon Willison",
+     "lien": "https://simonwillison.net/2026/Nov/3/qwen-can-interpret-model-weights/",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "28898a3e971eb1",
+     "date": "2026-11-03T17:29:42+00:00",
+     "titre": "Like GPT-6 Astra, Qwen 3.8 27B can interpret model weights",
+     "neuf": "Confirmation des capacités d'interprétation des poids neuronaux pour Qwen 3.8 27B, comparées à GPT-6 Astra.",
+     "fil": "même modèle Qwen 3.8 27B",
+     "source": "r/LocalLLaMA",
+     "lien": "https://www.reddit.com/r/LocalLLaMA/comments/1xmz9ca/like_gpt6_astra_qwen_38_27b_can_interpret_model/",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "30eca3f5f75219",
+     "date": "2026-11-04T17:51:33+00:00",
+     "titre": "Unsloth Qwen3.8-Flash-Next GGUFs V3.1 Update (November 4th 2026)",
+     "neuf": "Sortie de la version V3.1 des quantifications GGUF par Unsloth pour Qwen3.8-Flash-Next, offrant une précision accrue de 15%.",
+     "fil": "Mêmes quantifications GGUF pour Qwen",
+     "source": "r/LocalLLaMA",
+     "lien": "https://www.reddit.com/r/LocalLLaMA/comments/1xnuva2/unsloth_qwen38flashnext_ggufs_v31_update_november/",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "7273de9166d8f8",
+     "date": "2026-11-06T19:58:47+00:00",
+     "titre": "Arete-27B : un fine-tune de Qwen3.8 pour modifier les biais politiques",
+     "neuf": "Apparition d'Arete-27B, un fine-tune ciblé du modèle Qwen3.8-27B visant à réduire les biais politiques et les réponses encadrées.",
+     "fil": "Déclinaisons et fine-tunes du modèle Qwen3.8",
+     "source": "r/LocalLLaMA",
+     "lien": "https://www.reddit.com/r/LocalLLaMA/comments/1xpmj33/nousresearcharete27b_hugging_face_qwen_finetune/",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "1f7916b3bb2733",
+     "date": "2026-11-06T20:12:07+00:00",
+     "titre": "We are cooked. My QFN 3.8 NVFP4 just drew a dog freehand in MS Paint (using new Open WebUI 0.13.0 and Open Terminal 0.17.2)",
+     "neuf": "Démonstration des capacités avancées de Qwen3.8 sur de nouvelles interfaces (Open WebUI) lui permettant d'effectuer des actions de dessin directes au curseur dans une VM.",
+     "fil": "Utilisation pratique et capacités de génération du modèle Qwen3.8",
+     "source": "r/LocalLLaMA",
+     "lien": "https://www.reddit.com/r/LocalLLaMA/comments/1xpmvf2/we_are_cooked_my_qfn_38_nvfp4_just_drew_a_dog/",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "2158e4e9ba4f7c",
+     "date": "2026-11-07T17:09:51+00:00",
+     "titre": "Impact de la quantification du cache KV sur le modèle Qwen3.8 27B",
+     "neuf": "Une étude communautaire mesure l'impact précis de la quantification du cache KV sur les performances du modèle.",
+     "fil": "même modèle Qwen3.8 27B",
+     "source": "r/LocalLLaMA",
+     "lien": "https://www.reddit.com/r/LocalLLaMA/comments/1xqbesv/effects_of_kv_cache_quantization_on_qwen38_27b/",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "0f7e68661e502a",
+     "date": "2026-11-08T16:23:48+00:00",
+     "titre": "Tencent développe une méthode de décodage spéculatif 3x plus rapide",
+     "neuf": "Tencent introduit un décodage spéculatif accélérant par trois la génération pour cette catégorie de modèles.",
+     "fil": "méthode de décodage spéculatif pour les modèles de 27B",
+     "source": "r/LocalLLaMA",
+     "lien": "https://www.reddit.com/r/LocalLLaMA/comments/1xr2aaa/tencentqwen3827bdspineb16_hugging_face/",
+     "nb_sources": 1,
+     "primaire": false
+    }
+   ],
+   "statut": "active",
+   "societes": [
+    "alibaba",
+    "openai"
+   ]
+  },
   {
    "id": "h_f2080b39f6",
    "titre": "La DARPA cherche des outils d'IA pour les marchés numériques",
@@ -284,196 +655,6 @@
    ]
   },
   {
-   "id": "h_61682af51c",
-   "titre": "Lancement de l'agent IA Claude Duet d'Anthropic",
-   "resume": "Anthropic consolide son écosystème professionnel avec Claude Duet et Claude Code. L'outil fait face à des difficultés organisationnelles et à de nouvelles vulnérabilités, incluant une fuite d'adresses e-mail et une exposition accidentelle de mots de passe sur GitHub.",
-   "creee": "2026-10-21T20:44:46.798337+00:00",
-   "maj": "2026-11-07T20:45:32+00:00",
-   "episodes": [
-    {
-     "id": "5dbb54a005401f",
-     "date": "2026-10-21T19:14:01+00:00",
-     "titre": "Lancement de Claude Duet par Anthropic",
-     "neuf": "Anthropic officialise l'introduction de Claude Duet sur le marché.",
-     "fil": "lancement de l'agent Claude Duet",
-     "source": "Hacker News (IA, 100+ pts)",
-     "lien": "https://claude.com/product/claude-duet",
-     "nb_sources": 1,
-     "primaire": false
-    },
-    {
-     "id": "705d3445b65a91",
-     "date": "2026-10-21T19:53:20+00:00",
-     "titre": "Anthropic lance Claude Duet, son nouvel agent IA",
-     "neuf": "Anthropic positionne Claude Duet pour concurrencer les autres agents du marché.",
-     "fil": "lancement de Claude Duet",
-     "source": "Anthropic (actus)",
-     "lien": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQMm0xalYzS19NOGxhQ0ZpanpWeFpjN3g0VzZfVjROQ3RUemxqZmc3STZhdHlRUTlvZEJOaW52dzdVTUxOc09MMzlVeFlJSmc5V2p4WDdwWjRRaDZKMU5QbldoWHBIaTh0Qi1yc1JFaVNHM1BkQ25ucFZfbVJtWGNYMS1jRWlocDk5NUVheDVpclZEUTJw?oc=5",
-     "nb_sources": 2,
-     "primaire": false
-    },
-    {
-     "id": "05e2774a24a1f6",
-     "date": "2026-10-21T20:29:00+00:00",
-     "titre": "Anthropic lance Claude Duet, son nouvel agent personnel",
-     "neuf": "Claude Duet est présenté comme un nouvel agent personnel pour répliquer à la concurrence.",
-     "fil": "lancement de Claude Duet",
-     "source": "Anthropic (actus)",
-     "lien": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPQkZFNGVZc2Q2Q3VJYWVFNjFlOUh1NE1aNWFrZHlzOFlEMVpQU0xFQkFDSW4ydXljV1gtRnBBVzZjWi11Z3dMQ0sxdl9EdXdJOWl0TWlYMnl1M1o5S3d4LXRuOW9lLUd3bS1lYkloUnFGVnhqbFNJSGtVRUt4ZnlWSVg1Q01YOHlrWF9tZ0RsQXptUjljR0MxVFVaWW0xTXMweUE?oc=5",
-     "nb_sources": 1,
-     "primaire": false
-    },
-    {
-     "id": "29513dd2417946",
-     "date": "2026-10-21T20:41:02+00:00",
-     "titre": "Anthropic entre dans la course aux agents IA avec Claude Duet",
-     "neuf": "Anthropic officialise son entrée sur le marché des agents avec Claude Duet.",
-     "fil": "Lancement de l'agent IA Claude Duet d'Anthropic",
-     "source": "Anthropic et gouvernement",
-     "lien": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNblFra1FIR1VRWmpPaW80WGJSZGNtVG02LUMzU0pvR0NQbkJ3R1N1eGxTS0ZhblV6ZDV1VUNiMVVKVHRCNVI5aHZaZjBGREZUSDg3ekExUnFFWjF2QUs4Qk9ZREN6cUt4QVNZTnlwLThQMmt0Wmp3QWh1QkF3TDFuY1hNOGRnU2Ew?oc=5",
-     "nb_sources": 1,
-     "primaire": false
-    },
-    {
-     "id": "7abf36518713c4",
-     "date": "2026-10-22T01:05:09+00:00",
-     "titre": "Nouvel agent IA d'Anthropic pour l'achat de fournitures professionnelles",
-     "neuf": "L'agent d'Anthropic se dote de capacités d'achat autonome de fournitures professionnelles.",
-     "fil": "Nouvel agent IA d'Anthropic pour les achats professionnels",
-     "source": "Anthropic (actus)",
-     "lien": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQWjdMOWV2Z1JpdUNIN05TWE53U2JJRW1obFBKT05xQVQtc05ZUm9iM3JSaWxsdFpFSTB5UldmbnZqVlZ0bHZhaHZiNkFUMFp3NlpxTUZYOTBWc3RhZWZjSjhseGhOVlBVbE9scnRTLWhZS0lEU2JNTmc2UUwxSHI3ZS1lWXMyc3hFUkk4N2dvZGp2Q2w3amxVUHRiVkRHeHNGT2RrbF9mWHRfa3hrMmc?oc=5",
-     "nb_sources": 1,
-     "primaire": false
-    },
-    {
-     "id": "31cb9fa2449425",
-     "date": "2026-10-22T03:19:00+00:00",
-     "titre": "Claude Duet intègre plus de 6 000 outils pour automatiser les tâches",
-     "neuf": "Claude Duet se connecte à plus de 6 000 intégrations pour automatiser les flux de travail en entreprise.",
-     "fil": "Intégrations de Claude Duet",
-     "source": "Anthropic (actus)",
-     "lien": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPOHZGSWdQNmhaM1AwX2tMNFl0TGo3by1jaG9ESnI3cm1za2ZIbnF3TUJtUVZlOXJLZW9KYlJXWkdmLXRqejFOM2VPNlduTEV1bEx1U0VvQ0c1WDZ6S0YwdnFWNElWTVgway1yTFc5WE84ZFZ1VEo0M3NBbkVQLURuRUgtN3E2cXBsN0lPcFo3aTc?oc=5",
-     "nb_sources": 1,
-     "primaire": false
-    },
-    {
-     "id": "3dec6b4cf94367",
-     "date": "2026-10-22T11:11:31+00:00",
-     "titre": "Découvrez Claude Duet, le nouvel agent IA d'Anthropic",
-     "neuf": "Confirmation du lancement de l'agent pour alléger la charge de travail.",
-     "fil": "Même lancement officiel de l'agent Claude Duet",
-     "source": "Anthropic (actus)",
-     "lien": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBsa3ZVM2JtaGdBajhfZEFDWVJaVHlvbkxYcGR5ODFBdjlEeFNON3FfcG0tYzR0aHIyazRjanhUTWRyX1phZ3JLQTNVTmZTMXlBajQ5SmxUZUFVZms5eGxRbVJrZ04xZDYw?oc=5",
-     "nb_sources": 1,
-     "primaire": false
-    },
-    {
-     "id": "819de26796b063",
-     "date": "2026-10-22T12:16:35+00:00",
-     "titre": "Anthropic lance un agent IA professionnel face à Meta et OpenAI",
-     "neuf": "Anthropic dévoile son agent IA professionnel pour concurrencer Meta Muse et OpenAI Dots.",
-     "fil": "nouvel agent IA professionnel d'Anthropic",
-     "source": "Anthropic et gouvernement",
-     "lien": "https://news.google.com/rss/articles/CBMif0FVX3lxTE4weXI0QVdqNEdJSmR3Z2RvUl9feHFyMzdkSV90S2hhNlFadVd1TjZiUmpURVJtei00QnJQajBCaFJ1LXN2YktJN3o1S3hhNC1SV3RJNlA3RVhCeHNHZFFuMW5rc2x2WjY5VDZLaVZ0dkFqMmx0alJIcUliZEE1LVU?oc=5",
-     "nb_sources": 1,
-     "primaire": false
-    },
-    {
-     "id": "d24c772af64832",
-     "date": "2026-10-22T17:38:48+00:00",
-     "titre": "Lancement de Claude Duet par Anthropic : les entreprises hésitent",
-     "neuf": "Un article relève que les entreprises font face à des hésitations quant à l'adoption de Claude Duet.",
-     "fil": "même agent IA professionnel Claude Duet d'Anthropic",
-     "source": "Anthropic et gouvernement",
-     "lien": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNR05JZHN0U2d5RHE1MWUyUXVaeGhoX3E1dTRyNzNLd3JndmVGa0U2RGE2bFIzZ1ZHUUhTMVZ4Nzg3QmFTb2FMUENXSDR2a0Z5c3h3amx2YXFMY3E3SkFlN09PT1hLS1RjUHQzeGhuVm10TnBlMjlIcVpfdm1aSW95T2V1eFJpeWwwMDJmcnJmUWhxYVdvb2hYQUpUcjFld2VqM3YzcjFaYw?oc=5",
-     "nb_sources": 1,
-     "primaire": false
-    },
-    {
-     "id": "139e807626ba1a",
-     "date": "2026-10-24T13:07:30+00:00",
-     "titre": "Anthropic : un minimum de 20 sièges exclut les petits cabinets",
-     "neuf": "Anthropic impose un minimum de 20 sièges entreprise, excluant de fait les petits cabinets.",
-     "fil": "Conditions d'accès et abonnements aux services d'Anthropic",
-     "source": "Anthropic (actus)",
-     "lien": "https://news.google.com/rss/articles/CBMinAJBVV95cUxPT0R4ZTBtQWtQMTBJWGx2NGV2TVNxRl9aa2liNDQ2SGJFVFEta0I2M2lhaEkwR2hWMmxDMlZXamdQYkpFRkU1Wl9PN3JOLXljb3JuTFJ1Z0wwTFp6ZVlqQkRnVHpZOW1uMkpnR0hUYzkzZm9BXzNXSEQ1cnBic2M2cHpqM0FSempQUGNoQzVhWmdyQksxcVN4QVJGZ2NSaEZ3N0pZMno3SFFIQm9ORVBaWWhkM25DQm1pRkIzd1dyOEZvSmxtMnRBTkxYSXp5dW1IZmhNTC1CczY2T0ZDVlBPT1NvZnZ2YXRxLXZxbklsVnQtSVoxQWlsd0hlbVBEUkxpbTNlNUlBRUJmUXdpQ3BCaUVEQTR0SjRVQTdxQw?oc=5",
-     "nb_sources": 1,
-     "primaire": false
-    },
-    {
-     "id": "9dee3fa62c05d0",
-     "date": "2026-10-31T18:30:00+00:00",
-     "titre": "Comment utiliser Claude Duet lors de son déploiement",
-     "neuf": "Un guide d'utilisation pratique est publié à l'approche du déploiement de Claude Duet.",
-     "fil": "même agent Claude Duet",
-     "source": "Anthropic (actus)",
-     "lien": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE84cHZlMURNNDdZcjg1STBlNU1WMHA4YmlWMFM4RzExMGx6aDYxeHR1T252MG1OVmdySXdGMERHTTAwejBrMzIycFJ4MzR2UGFFVTlRX2w3eFRBVWZNdE5BZVI0d1YxTWM?oc=5",
-     "nb_sources": 1,
-     "primaire": false
-    },
-    {
-     "id": "241a7f4e9db5ba",
-     "date": "2026-11-03T04:53:56+00:00",
-     "titre": "Anthropic active la surveillance EDR pour Claude Cowork",
-     "neuf": "Anthropic intègre une surveillance EDR pour détecter l'activité cachée des agents dans Claude Cowork.",
-     "fil": "Surveillance EDR pour Claude Cowork",
-     "source": "Anthropic (actus)",
-     "lien": "https://news.google.com/rss/articles/CBMicEFVX3lxTE45OFMtMFVaZlRnaTU1WkZyQ05HVFlJWkdUR1RWRFBwTHNvQUpyT0k3c0lxM0tEc0pyWHYtTTktMWdEYmUyYmtPNDk0Z3FEYXlWc1NzVTc2WHZ5cEdxMGNXRmJWWnVEcGxNb0FTSGFaVUjSAXZBVV95cUxOM3ZuNEVrUDk3eFFJbHBOVUxjeHpiNUVGT1JqUEFJeWRhdVVRakhlZTdsSzY3V2hHT1VVR2FqYlR5YXRscktTQ2tFbTBLOHZkendvRFN6TDF4MzA0cW9HNDh4ZUFQbDFUN2RIN0VQRlk1TlUxUUZB?oc=5",
-     "nb_sources": 1,
-     "primaire": false
-    },
-    {
-     "id": "631f7a4392b4cd",
-     "date": "2026-11-03T18:03:00+00:00",
-     "titre": "Anthropic lance un outil de surveillance des conversations Claude pour les entreprises",
-     "neuf": "Introduction d'un nouvel outil de surveillance des conversations professionnelles avec Claude pour les employeurs.",
-     "fil": "même agent Claude et outils professionnels",
-     "source": "Anthropic (actus)",
-     "lien": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQMnpIVHMtWlhsVGNpRDQyRGZXYTFRZWJUSENxRklKcXR4SWdOLTBocmQteVdUQXN1RXBNcC00WDB3TFV3Sjdta1ZvV012amtMS3E4WWtoWU8tMnBQSWxiMFVEVS1Za21JYnBHVDhSb2lMTlh6ZjJkcTNucXdPZVkybHYtSGpUV3g2djNJaFh2ZDJ6UldIZHc?oc=5",
-     "nb_sources": 1,
-     "primaire": false
-    },
-    {
-     "id": "13f71de2c4d569",
-     "date": "2026-11-03T23:55:00+00:00",
-     "titre": "Cat Wu, responsable produit clé et visage de Claude Code, quitte Anthropic",
-     "neuf": "Cat Wu, figure clé du produit et visage de Claude Code, quitte l'entreprise Anthropic.",
-     "fil": "même écosystème Claude Code d'Anthropic",
-     "source": "Anthropic (actus)",
-     "lien": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNV3VPODg4OFh2Wk9FNTFNRlMzTzV4WnpOWGZ2Z1lNZ01nYUh2SS0xN1R0LUpTTHhUTnMwVFZQS2tiNHRpdHVuZVVjT0ZwZmJqbDdndlZZcGJkcHFQSElyZG5MSVdHczNtS0d3VGlONGVibnhVWDJIaVNNbHZMNENwR2ZzNFlaWWRjVDNQeHpaUXNEdk1OZ012a3MybFA?oc=5",
-     "nb_sources": 1,
-     "primaire": false
-    },
-    {
-     "id": "6df25cd73cd94d",
-     "date": "2026-11-06T15:02:35+00:00",
-     "titre": "Fuite d'adresses e-mail d'utilisateurs de Claude Code via les en-têtes HTTP",
-     "neuf": "Une faille supplémentaire est identifiée sur Claude Code, exposant cette fois des adresses e-mail d'utilisateurs via les en-têtes HTTP User-Agent.",
-     "fil": "même outil Claude Code d'Anthropic",
-     "source": "Anthropic (actus)",
-     "lien": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBCSU9YMTU4eXZjZ2lISEd1OXNMSXVOb0JESS1WZE5VaWlBUV9hUzA2RmtrX1BjSG9KemFhLXkwUEhQdVAwQUtRdmxhVnh1aUhUNkltM3Q1U196WTZIVGd5X2w0Q2UxNWlWN25V0gFwQVVfeXFMUEVId1RlTy1yTTdyT0VPVUhhVkMyQ0V2UWZ4TjFKMXB3SDdDNXNjeGhRNjFoODl1M3B4TEQ2dVVFV244TzF6d3pYdjJPTjlWcFZWSE80eC0xUU5nMFZrUjgtZ0E0ZnRaaWdLT293RlJaZA?oc=5",
-     "nb_sources": 1,
-     "primaire": false
-    },
-    {
-     "id": "5186d80b7eef56",
-     "date": "2026-11-07T20:45:32+00:00",
-     "titre": "Une faille dans Claude Code expose des mots de passe sur GitHub",
-     "neuf": "Une nouvelle faille liée à la fonction 'Don't Ask Again' entraîne la fuite de secrets et mots de passe sur GitHub.",
-     "fil": "Même outil Claude Code et ses failles de sécurité",
-     "source": "Hacker News (IA, 100+ pts)",
-     "lien": "https://apiiro.com/blog/coding-agents-leaking-secrets-github-dont-ask-again",
-     "nb_sources": 1,
-     "primaire": false
-    }
-   ],
-   "statut": "active",
-   "societes": [
-    "anthropic",
-    "openai"
-   ]
-  },
-  {
    "id": "h_2cf5a730b3",
    "titre": "Microsoft arrête le support de Copilot sur les smart TV",
    "resume": "Microsoft concrétise la fin du support et le retrait complet de son assistant Copilot sur les téléviseurs connectés.",
@@ -506,119 +687,6 @@
    "statut": "active",
    "societes": [
     "microsoft"
-   ]
-  },
-  {
-   "id": "h_71d93fee85",
-   "titre": "Quantifications GGUF pour le modèle Qwen3.8 27B",
-   "resume": "L'écosystème du modèle Qwen3.8 27B s'enrichit de quantifications, de variantes de fine-tuning et d'évaluations précises sur l'impact de la quantification du cache KV.",
-   "creee": "2026-10-28T01:08:58.693059+00:00",
-   "maj": "2026-11-07T17:09:51+00:00",
-   "episodes": [
-    {
-     "id": "a08630aa7a33a1",
-     "date": "2026-10-27T18:52:27+00:00",
-     "titre": "Statistically Lossless Qwen3.8 27B GGUFs",
-     "neuf": "Mise à disposition des versions GGUF pour le modèle Qwen3.8 27B.",
-     "fil": "Publication des quantifications GGUF pour Qwen3.8 27B",
-     "source": "r/LocalLLaMA",
-     "lien": "https://www.reddit.com/r/LocalLLaMA/comments/1xh17tk/statistically_lossless_qwen38_27b_ggufs/",
-     "nb_sources": 1,
-     "primaire": false
-    },
-    {
-     "id": "1f5679e1fced18",
-     "date": "2026-11-02T22:42:11+00:00",
-     "titre": "Qwen 3.8 27b is sometimes so smart it scares me...",
-     "neuf": "Un utilisateur démontre la capacité du modèle à écrire et exécuter du code Python via Blender MCP.",
-     "fil": "Utilisation et capacités avancées du modèle Qwen 3.8 27B",
-     "source": "r/LocalLLaMA",
-     "lien": "https://www.reddit.com/r/LocalLLaMA/comments/1xmbym0/qwen_38_27b_is_sometimes_so_smart_it_scares_me/",
-     "nb_sources": 1,
-     "primaire": false
-    },
-    {
-     "id": "1132e288d98359",
-     "date": "2026-11-03T12:53:57+00:00",
-     "titre": "Is Qwen 3.8 27B still the king",
-     "neuf": "Un utilisateur s'interroge sur la suprématie du modèle Qwen 3.8 27B face aux alternatives récentes sur le segment 8-35B.",
-     "fil": "même modèle Qwen 3.8 27B",
-     "source": "r/LocalLLaMA",
-     "lien": "https://www.reddit.com/r/LocalLLaMA/comments/1xms6eq/is_qwen_38_27b_still_the_king/",
-     "nb_sources": 1,
-     "primaire": false
-    },
-    {
-     "id": "6857dc224a419f",
-     "date": "2026-11-03T16:29:48+00:00",
-     "titre": "Qwen 3.8 27B on my laptop can interpret model weights, too",
-     "neuf": "Démonstration de la capacité du modèle Qwen 3.8 27B à interpréter les poids neuronaux en local sur un ordinateur portable.",
-     "fil": "même modèle Qwen 3.8 27B",
-     "source": "Simon Willison",
-     "lien": "https://simonwillison.net/2026/Nov/3/qwen-can-interpret-model-weights/",
-     "nb_sources": 1,
-     "primaire": false
-    },
-    {
-     "id": "28898a3e971eb1",
-     "date": "2026-11-03T17:29:42+00:00",
-     "titre": "Like GPT-6 Astra, Qwen 3.8 27B can interpret model weights",
-     "neuf": "Confirmation des capacités d'interprétation des poids neuronaux pour Qwen 3.8 27B, comparées à GPT-6 Astra.",
-     "fil": "même modèle Qwen 3.8 27B",
-     "source": "r/LocalLLaMA",
-     "lien": "https://www.reddit.com/r/LocalLLaMA/comments/1xmz9ca/like_gpt6_astra_qwen_38_27b_can_interpret_model/",
-     "nb_sources": 1,
-     "primaire": false
-    },
-    {
-     "id": "30eca3f5f75219",
-     "date": "2026-11-04T17:51:33+00:00",
-     "titre": "Unsloth Qwen3.8-Flash-Next GGUFs V3.1 Update (November 4th 2026)",
-     "neuf": "Sortie de la version V3.1 des quantifications GGUF par Unsloth pour Qwen3.8-Flash-Next, offrant une précision accrue de 15%.",
-     "fil": "Mêmes quantifications GGUF pour Qwen",
-     "source": "r/LocalLLaMA",
-     "lien": "https://www.reddit.com/r/LocalLLaMA/comments/1xnuva2/unsloth_qwen38flashnext_ggufs_v31_update_november/",
-     "nb_sources": 1,
-     "primaire": false
-    },
-    {
-     "id": "7273de9166d8f8",
-     "date": "2026-11-06T19:58:47+00:00",
-     "titre": "Arete-27B : un fine-tune de Qwen3.8 pour modifier les biais politiques",
-     "neuf": "Apparition d'Arete-27B, un fine-tune ciblé du modèle Qwen3.8-27B visant à réduire les biais politiques et les réponses encadrées.",
-     "fil": "Déclinaisons et fine-tunes du modèle Qwen3.8",
-     "source": "r/LocalLLaMA",
-     "lien": "https://www.reddit.com/r/LocalLLaMA/comments/1xpmj33/nousresearcharete27b_hugging_face_qwen_finetune/",
-     "nb_sources": 1,
-     "primaire": false
-    },
-    {
-     "id": "1f7916b3bb2733",
-     "date": "2026-11-06T20:12:07+00:00",
-     "titre": "We are cooked. My QFN 3.8 NVFP4 just drew a dog freehand in MS Paint (using new Open WebUI 0.13.0 and Open Terminal 0.17.2)",
-     "neuf": "Démonstration des capacités avancées de Qwen3.8 sur de nouvelles interfaces (Open WebUI) lui permettant d'effectuer des actions de dessin directes au curseur dans une VM.",
-     "fil": "Utilisation pratique et capacités de génération du modèle Qwen3.8",
-     "source": "r/LocalLLaMA",
-     "lien": "https://www.reddit.com/r/LocalLLaMA/comments/1xpmvf2/we_are_cooked_my_qfn_38_nvfp4_just_drew_a_dog/",
-     "nb_sources": 1,
-     "primaire": false
-    },
-    {
-     "id": "2158e4e9ba4f7c",
-     "date": "2026-11-07T17:09:51+00:00",
-     "titre": "Impact de la quantification du cache KV sur le modèle Qwen3.8 27B",
-     "neuf": "Une étude communautaire mesure l'impact précis de la quantification du cache KV sur les performances du modèle.",
-     "fil": "même modèle Qwen3.8 27B",
-     "source": "r/LocalLLaMA",
-     "lien": "https://www.reddit.com/r/LocalLLaMA/comments/1xqbesv/effects_of_kv_cache_quantization_on_qwen38_27b/",
-     "nb_sources": 1,
-     "primaire": false
-    }
-   ],
-   "statut": "active",
-   "societes": [
-    "alibaba",
-    "openai"
    ]
   },
   {
@@ -5400,7 +5468,7 @@
      "primaire": false
     }
    ],
-   "statut": "active",
+   "statut": "en sommeil",
    "societes": []
   },
   {
@@ -5846,41 +5914,6 @@
     "anthropic",
     "usgov",
     "openai"
-   ]
-  },
-  {
-   "id": "h_5eb8a2c48b",
-   "titre": "Plainte contre Anthropic pour l'entraînement sur des chansons d'Elvis Presley",
-   "resume": "Anthropic fait face à une action en justice confirmée concernant l'utilisation prétendument non autorisée de morceaux d'Elvis Presley pour l'entraînement de ses modèles.",
-   "creee": "2026-10-26T01:06:19.676384+00:00",
-   "maj": "2026-10-28T08:03:45+00:00",
-   "episodes": [
-    {
-     "id": "841de2ccd84cdd",
-     "date": "2026-10-25T18:41:00+00:00",
-     "titre": "Le détenteur des droits d'Elvis Presley poursuit Anthropic en justice",
-     "neuf": "Anthropic fait l'objet d'une nouvelle plainte, cette fois pour l'utilisation non autorisée de chansons d'Elvis Presley lors de l'entraînement de son IA.",
-     "fil": "Poursuite en justice pour droits d'auteur",
-     "source": "Anthropic (actus)",
-     "lien": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNelFOZFdTZmw2a1FtcjAxZk5lYktWT09FRTRaT0g0MmFrRFpHX0dIbk1IeVJNYmxVVlhBZHRYWk1YZzFHRjh0N29jSEdWd2s3OEJrcFM4SW9Tb29tLTQ5VjJaQ3BFQThpRXNJUzVPbXcwOElvcVJUNl9aZE1SaWVZTTR1VTYtcHNGZVdjU2t4MVItd2ZKYlhZZGd3cw?oc=5",
-     "nb_sources": 1,
-     "primaire": false
-    },
-    {
-     "id": "b137501d0def23",
-     "date": "2026-10-28T08:03:45+00:00",
-     "titre": "Anthropic poursuivi pour entraînement présumé de Claude sur la musique d'Elvis Presley",
-     "neuf": "Confirmation formelle de la plainte visant l'utilisation non autorisée de morceaux d'Elvis Presley pour entraîner Claude.",
-     "fil": "Nouvelle action en justice pour l'entraînement sur des chansons d'Elvis Presley",
-     "source": "Anthropic (actus)",
-     "lien": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1aM0VCcEtCcW8wb2VSYU8zM2ducWdqTGtXbTVSQlVFenFITHdISHUzVllRRXdSNGtBcHVWcjYyd1VJTk9BcWRjeVdCYVFkVkJtWlE4cEp4eHMwUE4zakZGUlE4QnVHbUpnbVRUSTNYU0QzQkxiamRkdlB2OWsxVlU?oc=5",
-     "nb_sources": 1,
-     "primaire": false
-    }
-   ],
-   "statut": "en sommeil",
-   "societes": [
-    "anthropic"
    ]
   },
   {
