@@ -71,9 +71,11 @@ select{font-family:var(--mono);font-size:11.5px;padding:6px 8px;border:1px solid
 .tenue .total{font-family:var(--mono);font-size:13px;white-space:nowrap}
 .tenue .total b{font-size:18px;font-weight:500}
 .planche{display:grid;gap:8px;grid-template-columns:repeat(var(--n),minmax(0,1fr))}
-.planche a{display:block;background:var(--papier);aspect-ratio:3/4;overflow:hidden;position:relative}
+.planche a{display:block;background:var(--papier);aspect-ratio:2/3;overflow:hidden;position:relative}
 .planche img{width:100%;height:100%;object-fit:cover}
 .planche span{position:absolute;bottom:0;left:0;right:0;background:color-mix(in srgb,var(--carte) 88%,transparent);font-family:var(--mono);font-size:10.5px;padding:4px 6px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.bascule{display:flex;gap:6px}
+.bascule .puce{padding:4px 10px;font-size:10.5px}
 .tenue ul{padding-left:18px;font-size:13.5px}
 .tenue ul li{margin:2px 0}
 .lignes{font-size:13.5px;border-top:1px solid var(--trait)}
@@ -123,10 +125,11 @@ select{font-family:var(--mono);font-size:11.5px;padding:6px 8px;border:1px solid
 const STYLES={tous:"Tous",workwear:"Workwear",streetwear:"Streetwear",minimal:"Minimal",oldmoney:"Old money"};
 const BUDGETS=[[0,"Tout prix"],[30,"≤ 30 €"],[60,"≤ 60 €"],[100,"≤ 100 €"]];
 const CATS={tous:"Toutes les pièces",veste:"Vestes",surchemise:"Surchemises",maille:"Maille",sweat:"Sweats",chemise:"Chemises",tshirt:"T-shirts & polos",pantalon:"Pantalons",short:"Shorts",chaussures:"Chaussures",accessoire:"Accessoires"};
-const etat={vue:"pieces",style:"tous",budget:0,cat:"tous",tri:"score"};
+const etat={photos:"porte",vue:"pieces",style:"tous",budget:0,cat:"tous",tri:"score"};
 try{Object.assign(etat,JSON.parse(localStorage.getItem("pu-filtres")||"{}"))}catch(e){}
 let D=null, parId={};
 const eur=n=>Math.round(n).toLocaleString("fr-FR")+" €";
+const U=(s,w)=>esc(s)+(s.includes("?")?"&amp;":"?")+"width="+w;
 const esc=s=>String(s??"").replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
 const drap=o=>o==="UE"?"":`<span class="drap" title="Expédié hors UE : droits de douane et TVA possibles">↗ ${o}, frais d'import possibles</span>`;
 function prix(a){return `<div class="prix"><span class="now">${eur(a.prix_eur)}</span><s>${eur(a.avant_eur)}</s><span class="rem">−${a.remise} %</span></div>`}
@@ -143,7 +146,7 @@ function puces(){
   document.getElementById("f-cat").style.display=document.getElementById("f-tri").style.display=etat.vue==="pieces"?"":"none";
 }
 function carte(a){
-  const im=a.images.slice(0,2).map((s,i)=>`<img src="${esc(s)}${s.includes("?")?"&":"?"}width=600" alt="${i?"":esc(a.nom)}" loading="lazy">`).join("");
+  const im=[a.images[0],a.porte&&a.porte!==a.images[0]?a.porte:a.images[1]].filter(Boolean).map((s,i)=>`<img src="${U(s,600)}" alt="${i?"":esc(a.nom)}" loading="lazy">`).join("");
   return `<article class="piece">
     <a class="photo" href="${esc(a.lien)}" target="_blank" rel="noopener">${im}<span class="rem">−${a.remise} %</span>${a.forte?'<span class="forte">Pièce forte</span>':""}</a>
     <div class="marque">${esc(a.marque)}</div>
@@ -160,7 +163,8 @@ function tenue(t){
     <div class="style-eti">${STYLES[t.style]||""}</div>
     <div class="entete"><h3>${esc(t.nom)}</h3><div class="total"><b>${eur(total)}</b> <s style="color:var(--doux)">${eur(avant)}</s></div></div>
     ${t.accroche?`<p>${esc(t.accroche)}</p>`:""}
-    <div class="planche" style="--n:${arts.length}">${arts.map(a=>`<a href="${esc(a.lien)}" target="_blank" rel="noopener"><img src="${esc(a.images[0])}${a.images[0].includes("?")?"&":"?"}width=500" alt="${esc(a.nom)}" loading="lazy"><span>${esc(a.marque)}</span></a>`).join("")}</div>
+    ${arts.some(a=>a.porte)?`<div class="bascule"><button class="puce" data-photos="porte" aria-pressed="${etat.photos!=="plat"}">Porté</button><button class="puce" data-photos="plat" aria-pressed="${etat.photos==="plat"}">À plat</button></div>`:""}
+    <div class="planche" style="--n:${arts.length}">${arts.map(a=>`<a href="${esc(a.lien)}" target="_blank" rel="noopener"><img src="${U(etat.photos!=="plat"&&a.porte?a.porte:a.images[0],500)}" alt="${esc(a.nom)}" loading="lazy"><span>${esc(a.marque)}</span></a>`).join("")}</div>
     <div class="lignes">
       ${arts.map(a=>`<div><span><a href="${esc(a.lien)}" target="_blank" rel="noopener">${esc(a.nom)}</a> · ${esc(a.boutique)} ${a.origine!=="UE"?'<span class="drap">↗ '+a.origine+'</span>':""}</span><span class="mono">${eur(a.prix_eur)} <span class="drap">−${a.remise} %</span></span></div>`).join("")}
       ${(t.complements||[]).map(c=>`<div class="compl"><span>+ ${esc(c.piece)}${c.ou?" · "+esc(c.ou):""}</span><span class="mono">${esc(c.prix||"")}</span></div>`).join("")}
@@ -190,14 +194,15 @@ function rendre(){
 function coup(){
   const a=parId[D.coup]; if(!a)return;
   document.getElementById("coup").innerHTML=`<div class="coup">
-    <a class="photo" href="${esc(a.lien)}" target="_blank" rel="noopener"><img src="${esc(a.images[0])}${a.images[0].includes("?")?"&":"?"}width=900" alt="${esc(a.nom)}"></a>
+    <a class="photo" href="${esc(a.lien)}" target="_blank" rel="noopener"><img src="${U(a.porte||a.images[0],900)}" alt="${esc(a.nom)}"></a>
     <div><div class="eti">Le coup du jour · ${esc(a.marque)}</div><h2>${esc(a.nom)}</h2>${prix(a)}
     ${a.pourquoi?`<p style="margin-top:12px">${esc(a.pourquoi)}</p>`:""}
     <p style="margin-top:8px;font-family:var(--mono);font-size:11.5px">${esc(a.boutique)}${a.tailles.length?" · tailles "+esc(a.tailles.slice(0,8).join(" · ")):""} ${drap(a.origine)}</p>
     <a class="bouton" href="${esc(a.lien)}" target="_blank" rel="noopener">Voir sur le site</a></div></div>`;
 }
 document.addEventListener("click",e=>{
-  const b=e.target.closest("[data-style],[data-budget],[data-vue]"); if(!b)return;
+  const b=e.target.closest("[data-style],[data-budget],[data-vue],[data-photos]"); if(!b)return;
+  if(b.dataset.photos)etat.photos=b.dataset.photos;
   if(b.dataset.style)etat.style=b.dataset.style;
   if(b.dataset.budget!==undefined)etat.budget=+b.dataset.budget;
   if(b.dataset.vue)etat.vue=b.dataset.vue;

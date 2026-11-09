@@ -137,7 +137,7 @@ def analyser(p, b, dev, taux):
         tailles = list(dict.fromkeys(x.get(cle) for x in dispo if x.get(cle)))
         if cat != "accessoire" and len(tailles) < 2:
             return None
-    images = [i["src"] for i in p.get("images", [])[:3] if i.get("src")]
+    images = [i["src"] for i in p.get("images", [])[:6] if i.get("src")]
     if not images:
         return None
     eur = round(prix * taux.get(dev, 1), 2)
@@ -216,6 +216,68 @@ def demander_ia(candidats):
     return None
 
 
+# --- Photos portées : on repère, parmi les photos de la boutique, celle où un mannequin porte l'article ---
+
+API_NATIVE = "https://generativelanguage.googleapis.com/v1beta"
+VISION = """Voici des photos de produits de boutiques de vêtements, groupées par article (ARTICLE id, puis ses photos numérotées 0, 1, 2…).
+Pour chaque article, indique la photo où une personne PORTE le vêtement en le montrant le mieux (photo portée, de préférence
+en pied ou en buste, vêtement bien visible). Si aucune photo ne montre une personne qui porte l'article, mets -1.
+Réponds UNIQUEMENT en JSON : {"id de l'article": numéro, ...}"""
+
+
+def miniature(url):
+    import base64
+    try:
+        r = requests.get(url + ("&" if "?" in url else "?") + "width=320", headers={"User-Agent": UA["User-Agent"]}, timeout=20)
+        if r.status_code == 200 and r.headers.get("content-type", "").startswith("image/"):
+            return {"inline_data": {"mime_type": r.headers["content-type"].split(";")[0], "data": base64.b64encode(r.content).decode()}}
+    except Exception:
+        pass
+    return None
+
+
+def photos_portees(articles):
+    cle = os.getenv("LLM_API_KEY", "").strip()
+    if not cle or not articles:
+        return 0
+    trouves = 0
+    for i in range(0, len(articles), 6):
+        lot = [a for a in articles[i:i + 6] if len(a["images"]) > 1]
+        parts = [{"text": VISION}]
+        for a in lot:
+            parts.append({"text": f"ARTICLE {a['id']} ({a['nom']})"})
+            for k, u in enumerate(a["images"][:6]):
+                m = miniature(u)
+                if m:
+                    parts += [{"text": f"photo {k}"}, m]
+        if len(parts) <= 1:
+            continue
+        for modele in ("gemini-flash-lite-latest", "gemini-2.5-flash-lite", "gemini-flash-latest"):
+            try:
+                r = requests.post(f"{API_NATIVE}/models/{modele}:generateContent", headers={"x-goog-api-key": cle}, timeout=120,
+                                  json={"contents": [{"parts": parts}], "generationConfig": {"responseMimeType": "application/json", "temperature": 0}})
+            except requests.RequestException:
+                continue
+            if r.status_code == 429:
+                time.sleep(20)
+                continue
+            if r.status_code != 200:
+                continue
+            try:
+                t = r.json()["candidates"][0]["content"]["parts"][0]["text"]
+                rep = json.loads(t[t.find("{"):t.rfind("}") + 1])
+            except (KeyError, IndexError, json.JSONDecodeError):
+                continue
+            for a in lot:
+                k = rep.get(a["id"])
+                if isinstance(k, int) and 0 <= k < len(a["images"]):
+                    a["porte"] = a["images"][k]
+                    trouves += 1
+            break
+        time.sleep(4)
+    return trouves
+
+
 def main():
     cfg = json.loads((Path(__file__).parent / "boutiques.json").read_text(encoding="utf-8"))["boutiques"]
     taux = taux_eur()
@@ -268,6 +330,10 @@ def main():
     if (not coup or par_id[coup]["prix_eur"] > 70) and uniques:  # petit budget : le coup du jour reste abordable
         abordables = [a for a in uniques if a["prix_eur"] <= 70 and a["categorie"] not in ("accessoire", "short")]
         coup = max(abordables or uniques, key=lambda a: score(a) + (3 if a.get("forte") else 0))["id"]
+    a_voir = list(dict.fromkeys([i for t in tenues for i in t["articles"]] + ([coup] if coup else [])
+                                 + [a["id"] for a in sorted(uniques, key=score, reverse=True) if a.get("forte")][:40]))
+    n = photos_portees([par_id[i] for i in a_voir])
+    print(f"📸 {n} photos portées trouvées sur {len(a_voir)} articles vérifiés")
     SORTIE.parent.mkdir(parents=True, exist_ok=True)
     SORTIE.write_text(json.dumps({
         "maj": MAINTENANT.isoformat(), "modele": rep.get("_modele"), "taux": {k: round(v, 4) for k, v in taux.items() if k in ("GBP", "USD", "DKK")},
