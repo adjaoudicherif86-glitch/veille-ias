@@ -1,0 +1,27 @@
+name: "Pièce Unique : promos du jour"
+on:
+  schedule:
+    - cron: "23 7 * * *"
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: mode
+  cancel-in-progress: false
+jobs:
+  collecte:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install requests
+      - env:
+          LLM_API_KEY: ${{ secrets.LLM_API_KEY }}
+        run: python mode/collecte.py
+      - run: |
+          git config user.name "veille-bot"; git config user.email "veille-bot@users.noreply.github.com"
+          git add docs/mode/data.json; git diff --cached --quiet || git commit -m "Pièce Unique : promos du jour"
+          for i in 1 2 3; do git pull --rebase origin main && git push && break; sleep 5; done

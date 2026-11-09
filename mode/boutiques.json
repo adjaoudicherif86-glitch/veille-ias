@@ -1,0 +1,17 @@
+{
+ "_aide": "Boutiques lues automatiquement (Shopify). collection = collection des soldes, ou null pour lire tout le catalogue et garder les articles remisés. origine = UE, UK ou US (frais d'import). styles = styles probables de la marque (indice pour l'IA). multi = boutique multimarque.",
+ "boutiques": [
+  {"domaine": "arte-antwerp.com", "nom": "Arte Antwerp", "collection": null, "origine": "UE", "styles": ["streetwear"]},
+  {"domaine": "minimum.dk", "nom": "Minimum", "collection": null, "origine": "UE", "styles": ["minimal"]},
+  {"domaine": "bonnegueule.fr", "nom": "Bonne Gueule", "collection": null, "origine": "UE", "styles": ["minimal", "oldmoney"]},
+  {"domaine": "hast.fr", "nom": "Hast", "collection": null, "origine": "UE", "styles": ["oldmoney", "minimal"]},
+  {"domaine": "representclo.com", "nom": "Represent", "collection": "outlet", "origine": "UK", "styles": ["streetwear"]},
+  {"domaine": "stanray.com", "nom": "Stan Ray", "collection": "outlet", "origine": "UK", "styles": ["workwear"]},
+  {"domaine": "uskees.com", "nom": "Uskees", "collection": "sale", "origine": "UK", "styles": ["workwear"]},
+  {"domaine": "universalworks.co.uk", "nom": "Universal Works", "collection": null, "origine": "UK", "styles": ["workwear", "oldmoney"]},
+  {"domaine": "kestin.co", "nom": "Kestin", "collection": null, "origine": "UK", "styles": ["workwear", "minimal"]},
+  {"domaine": "stuartslondon.com", "nom": "Stuarts London", "collection": "sale", "origine": "UK", "multi": true, "styles": ["oldmoney", "workwear", "streetwear"]},
+  {"domaine": "goodhoodstore.com", "nom": "Goodhood", "collection": "sale", "origine": "UK", "multi": true, "styles": ["streetwear", "minimal"]},
+  {"domaine": "taylorstitch.com", "nom": "Taylor Stitch", "collection": null, "origine": "US", "styles": ["workwear", "oldmoney"]}
+ ]
+}
