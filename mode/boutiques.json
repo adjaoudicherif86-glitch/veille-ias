@@ -1,7 +1,7 @@
 {
  "_aide": "Boutiques lues automatiquement (Shopify). collection = collection des soldes, ou null pour lire tout le catalogue et garder les articles remisés. origine = UE, UK ou US (frais d'import). styles = styles probables de la marque (indice pour l'IA). multi = boutique multimarque. mixte = vend aussi pour femme : on ne lit que la collection homme.",
  "boutiques": [
-  {"domaine": "arte-antwerp.com", "mixte": true, "nom": "Arte Antwerp", "collection": null, "origine": "UE", "styles": ["streetwear"]},
+  {"domaine": "arte-antwerp.com", "nom": "Arte Antwerp", "collection": null, "origine": "UE", "styles": ["streetwear"]},
   {"domaine": "minimum.dk", "mixte": true, "nom": "Minimum", "collection": null, "origine": "UE", "styles": ["minimal"]},
   {"domaine": "bonnegueule.fr", "nom": "Bonne Gueule", "collection": null, "origine": "UE", "styles": ["minimal", "oldmoney"]},
   {"domaine": "hast.fr", "nom": "Hast", "collection": null, "origine": "UE", "styles": ["oldmoney", "minimal"]},

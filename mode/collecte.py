@@ -224,8 +224,14 @@ def main():
         dev = devise(b["domaine"])
         brut = produits(b)
         if b.get("mixte"):
-            hommes = ids_homme(b)
-            brut = [p for p in brut if p["id"] in hommes] if hommes else [p for p in brut if genre(p) == "homme"]
+            par_tag = [p for p in brut if genre(p) == "homme"]
+            if len(par_tag) >= max(10, len(brut) // 5):
+                brut = par_tag
+            else:
+                hommes = ids_homme(b)
+                garde = [p for p in brut if p["id"] in (hommes or ())]
+                if len(garde) >= max(10, len(brut) // 5):
+                    brut = garde
         gardes = [a for a in (analyser(p, b, dev, taux) for p in brut) if a]
         print(f"🛍️  {b['nom']:16} {len(brut):4} produits lus, {len(gardes):3} vraies affaires ({dev})")
         bilan.append({"boutique": b["nom"], "lus": len(brut), "gardes": len(gardes), "devise": dev, "origine": b["origine"]})
