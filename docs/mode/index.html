@@ -173,6 +173,7 @@ function filtre(a){
 }
 function rendre(){
   puces(); sauver();
+  document.getElementById("coup").style.display=etat.vue==="pieces"?"":"none";
   document.querySelectorAll("nav.onglets button").forEach(b=>b.setAttribute("aria-selected",b.dataset.vue===etat.vue));
   const v=document.getElementById("vue"), c=document.getElementById("compte");
   if(etat.vue==="pieces"){

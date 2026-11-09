@@ -264,7 +264,10 @@ def main():
         if len(ids) >= 2 and t.get("style") in ("workwear", "streetwear", "minimal", "oldmoney"):
             t["articles"] = ids
             tenues.append(t)
-    coup = rep.get("coup") if rep.get("coup") in par_id else (max(uniques, key=score)["id"] if uniques else None)
+    coup = rep.get("coup") if rep.get("coup") in par_id else None
+    if (not coup or par_id[coup]["prix_eur"] > 70) and uniques:  # petit budget : le coup du jour reste abordable
+        abordables = [a for a in uniques if a["prix_eur"] <= 70 and a["categorie"] not in ("accessoire", "short")]
+        coup = max(abordables or uniques, key=lambda a: score(a) + (3 if a.get("forte") else 0))["id"]
     SORTIE.parent.mkdir(parents=True, exist_ok=True)
     SORTIE.write_text(json.dumps({
         "maj": MAINTENANT.isoformat(), "modele": rep.get("_modele"), "taux": {k: round(v, 4) for k, v in taux.items() if k in ("GBP", "USD", "DKK")},
