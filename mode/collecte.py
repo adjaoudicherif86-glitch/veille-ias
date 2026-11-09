@@ -25,6 +25,7 @@ EXCLURE = re.compile(r"\b(women'?s?|womens|woman|ladies|femme|dress|skirt|bra|bi
                      r"homeware|incense|fragrance|perfume|gift ?card|cup|vase|keyring|key ring|lighter|ashtray|blanket|pillow|cushion|"
                      r"socks?|underwear|boxer|brief|swim|phone case|airpods|playing cards|frisbee|ball)\b", re.I)
 CATEGORIES = [
+    ("accessoire", r"\b(cap|hat|beanie|bucket|bag|tote|backpack|belt|scarf|bandana|neckerchief|glove|wallet|casquette|bonnet|sac|ceinture|écharpe)s?\b"),
     ("chaussures", r"\b(shoe|boot|sneaker|trainer|loafer|derby|mule|clog|sandal|chaussure|basket|mocassin)s?\b"),
     ("surchemise", r"\b(overshirt|over shirt|shirt jacket|shacket|surchemise)\b"),
     ("veste", r"\b(jacket|coat|parka|blouson|bomber|anorak|overcoat|trucker|chore|harrington|veste|manteau|puffer|fleece|gilet)s?\b"),
@@ -34,8 +35,9 @@ CATEGORIES = [
     ("tshirt", r"\b(t-shirt|tee|tshirt|polo|long ?sleeve|henley|vest top|tank)\b"),
     ("pantalon", r"\b(pant|trouser|jean|denim|chino|cargo|jogger|pantalon|fatigue)s?\b"),
     ("short", r"\b(short)s?\b"),
-    ("accessoire", r"\b(cap|hat|beanie|bucket|bag|tote|backpack|belt|scarf|glove|wallet|casquette|bonnet|sac|ceinture|écharpe)s?\b"),
 ]
+FEMME = re.compile(r"\b(women|womens|woman|ladies|female|wmns|dame|damer|kvinde|femme|femmes|her)\b", re.I)
+HOMME = re.compile(r"\b(men|mens|man|male|menswear|herre|herrer|homme|hommes)\b", re.I)
 TAILLES = re.compile(r"^(size|taille|größe|storlek|størrelse)$", re.I)
 
 
@@ -81,7 +83,37 @@ def categorie(p):
     return None
 
 
+def ids_homme(b):
+    """Boutique mixte : on ne garde que les produits de la collection homme."""
+    for h in ("men", "mens", "herre", "man", "homme", "menswear", "mens-collection", "shop-men"):
+        ids = set()
+        for page in range(1, 9):
+            try:
+                r = requests.get(f"https://{b['domaine']}/collections/{h}/products.json", headers=UA, params={"limit": 250, "page": page}, timeout=30)
+                lot = r.json().get("products", []) if r.status_code == 200 else []
+            except Exception:
+                lot = []
+            ids |= {x["id"] for x in lot}
+            if len(lot) < 250:
+                break
+        if ids:
+            print(f"  {b['nom']} : collection homme « {h} », {len(ids)} produits")
+            return ids
+    return None
+
+
+def genre(p):
+    tags = p.get("tags", [])
+    tags = tags if isinstance(tags, list) else str(tags).split(",")
+    texte = f"{' '.join(tags)} {p.get('product_type', '')} {p.get('handle', '').replace('-', ' ')}"
+    if FEMME.search(texte) and not HOMME.search(texte):
+        return "femme"
+    return "homme" if HOMME.search(texte) else None
+
+
 def analyser(p, b, dev, taux):
+    if genre(p) == "femme":
+        return None
     if EXCLURE.search(f"{p['title']} {p.get('product_type', '')} {' '.join(p.get('tags', []) if isinstance(p.get('tags'), list) else [p.get('tags', '')])}"):
         return None
     cat = categorie(p)
@@ -191,6 +223,9 @@ def main():
     for b in cfg:
         dev = devise(b["domaine"])
         brut = produits(b)
+        if b.get("mixte"):
+            hommes = ids_homme(b)
+            brut = [p for p in brut if p["id"] in hommes] if hommes else [p for p in brut if genre(p) == "homme"]
         gardes = [a for a in (analyser(p, b, dev, taux) for p in brut) if a]
         print(f"🛍️  {b['nom']:16} {len(brut):4} produits lus, {len(gardes):3} vraies affaires ({dev})")
         bilan.append({"boutique": b["nom"], "lus": len(brut), "gardes": len(gardes), "devise": dev, "origine": b["origine"]})
