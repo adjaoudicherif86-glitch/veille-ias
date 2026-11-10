@@ -408,10 +408,8 @@ def main():
     except (FileNotFoundError, json.JSONDecodeError):
         deja = {}
     premiere = not deja
-    debut = deja.setdefault("_debut", jour) if not premiere else jour
-    if premiere:
-        deja["_debut"] = jour
     jour = MAINTENANT.date().isoformat()
+    debut = deja.setdefault("_debut", jour)
     for a in uniques:
         a["vu_le"] = deja.get(a["id"], jour)
         a["nouveau"] = not premiere and a["vu_le"] > debut and a["vu_le"] >= (MAINTENANT - timedelta(days=2)).date().isoformat()
