@@ -1,0 +1,901 @@
+{
+ "boutiques": [
+  {
+   "boutique": "eu.stussy.com",
+   "shopify": true,
+   "produits": 250,
+   "soldes": null,
+   "remises_dans_tout": 0,
+   "devise": "EUR"
+  },
+  {
+   "boutique": "hufworldwide.com",
+   "shopify": true,
+   "produits": 250,
+   "soldes": {
+    "collection": "sale",
+    "produits": 250,
+    "remises": 244,
+    "exemple": [
+     {
+      "titre": "The Potted Garden T-Shirt",
+      "prix": "25.20",
+      "avant": "36.00",
+      "image": "https://cdn.shopify.com/s/files/1/0268/5180/3305/files/THE-POTTED-GARDEN-SS-TEE_STONE_TS02985_STONE_01.png?v=1782494317"
+     },
+     {
+      "titre": "From The Road T-Shirt",
+      "prix": "28.80",
+      "avant": "36.00",
+      "image": "https://cdn.shopify.com/s/files/1/0268/5180/3305/files/FROM-THE-ROAD-SS-TEE_WHITE_TS02984_WHITE_01.png?v=1782494303"
+     }
+    ]
+   },
+   "remises_dans_tout": 12,
+   "devise": "USD"
+  },
+  {
+   "boutique": "buttergoods.com",
+   "shopify": true,
+   "produits": 250,
+   "soldes": {
+    "collection": "sale",
+    "produits": 250,
+    "remises": 250,
+    "exemple": [
+     {
+      "titre": "Nail Logo Tee, Ash",
+      "prix": "45.00",
+      "avant": "59.95",
+      "image": "https://cdn.shopify.com/s/files/1/1428/9764/files/NailLogoTeeAsh1.png?v=1778556923"
+     },
+     {
+      "titre": "Stars Tee, White",
+      "prix": "45.00",
+      "avant": "59.95",
+      "image": "https://cdn.shopify.com/s/files/1/1428/9764/files/StarsTeeWhite.webp?v=1787895562"
+     }
+    ]
+   },
+   "remises_dans_tout": 2,
+   "devise": "AUD"
+  },
+  {
+   "boutique": "poptradingcompany.com",
+   "shopify": true,
+   "produits": 250,
+   "soldes": null,
+   "remises_dans_tout": 0,
+   "devise": "EUR"
+  },
+  {
+   "boutique": "patta.nl",
+   "shopify": true,
+   "produits": 250,
+   "soldes": null,
+   "remises_dans_tout": 17,
+   "devise": "EUR"
+  },
+  {
+   "boutique": "woodwood.com",
+   "shopify": false,
+   "produits": 0,
+   "soldes": null,
+   "remises_dans_tout": 0,
+   "devise": null
+  },
+  {
+   "boutique": "eu.kith.com",
+   "shopify": true,
+   "produits": 250,
+   "soldes": {
+    "collection": "mens-sale",
+    "produits": 5,
+    "remises": 4,
+    "exemple": [
+     {
+      "titre": "A-Cold-Wall* Gradient Tee - Light Grey",
+      "prix": "75.00",
+      "avant": "100.00",
+      "image": "https://cdn.shopify.com/s/files/1/0274/7469/0125/files/ACWMTS133-GRY-FRONT.jpg?v=1695894278"
+     },
+     {
+      "titre": "Jil Sander Crewneck Tee - City Lights",
+      "prix": "130.00",
+      "avant": "650.00",
+      "image": "https://cdn.shopify.com/s/files/1/0274/7469/0125/products/J21GC0117J20071-471-FRONT.jpg?v=1686728311"
+     }
+    ]
+   },
+   "remises_dans_tout": 0,
+   "devise": "EUR"
+  },
+  {
+   "boutique": "ariesarise.com",
+   "shopify": true,
+   "produits": 250,
+   "soldes": {
+    "collection": "sale",
+    "produits": 77,
+    "remises": 68,
+    "exemple": [
+     {
+      "titre": "Premium Aged Temple Hoodie",
+      "prix": "108.00",
+      "avant": "215.00",
+      "image": "https://cdn.shopify.com/s/files/1/0208/0184/7345/files/AR20023.05_PREMIUM_AGED_TEMPLE_HOODIE_OFF_WHITE_L__112.png?v=1775826227"
+     },
+     {
+      "titre": "Premium Aged Temple Sweatshort",
+      "prix": "100.00",
+      "avant": "200.00",
+      "image": "https://cdn.shopify.com/s/files/1/0208/0184/7345/files/AR30023.05_PREMIUM_AGED_TEMPLE_SWEATSHORT_OFF_WHITE_L__112_37c978ac-441c-4c5a-9658-8fe12f03dba4.png?v=1776072684"
+     }
+    ]
+   },
+   "remises_dans_tout": 9,
+   "devise": "GBP"
+  },
+  {
+   "boutique": "helascaps.com",
+   "shopify": true,
+   "produits": 245,
+   "soldes": null,
+   "remises_dans_tout": 96,
+   "devise": "EUR"
+  },
+  {
+   "boutique": "wastedparis.com",
+   "shopify": false,
+   "produits": 0,
+   "soldes": null,
+   "remises_dans_tout": 0,
+   "devise": null
+  },
+  {
+   "boutique": "drolemonsieur.com",
+   "shopify": false,
+   "produits": 0,
+   "soldes": null,
+   "remises_dans_tout": 0,
+   "devise": null
+  },
+  {
+   "boutique": "avnier.com",
+   "shopify": true,
+   "produits": 102,
+   "soldes": {
+    "collection": "archive-sale",
+    "produits": 23,
+    "remises": 22,
+    "exemple": [
+     {
+      "titre": "T-shirt SOURCE AVWW",
+      "prix": "25.00",
+      "avant": "55.00",
+      "image": "https://cdn.shopify.com/s/files/1/0488/5113/files/AVNIER-marque-audio-visual-work-wear-jeans-roadie-face.png?v=1765198692"
+     },
+     {
+      "titre": "Pullover CITIZEN BAND V1.2",
+      "prix": "80.00",
+      "avant": "220.00",
+      "image": "https://cdn.shopify.com/s/files/1/0488/5113/files/pullover-citizen-band-red-clay-v2-avnier-audiovisual-work-wear-4-silhouette-face.png?v=1694090435"
+     }
+    ]
+   },
+   "remises_dans_tout": 22,
+   "devise": "EUR"
+  },
+  {
+   "boutique": "carnebollente.com",
+   "shopify": true,
+   "produits": 186,
+   "soldes": null,
+   "remises_dans_tout": 0,
+   "devise": "EUR"
+  },
+  {
+   "boutique": "homecore.com",
+   "shopify": true,
+   "produits": 223,
+   "soldes": null,
+   "remises_dans_tout": 0,
+   "devise": "EUR"
+  },
+  {
+   "boutique": "obeyclothing.eu",
+   "shopify": true,
+   "produits": 250,
+   "soldes": {
+    "collection": "men-sale",
+    "produits": 1,
+    "remises": 0,
+    "exemple": []
+   },
+   "remises_dans_tout": 1,
+   "devise": "EUR"
+  },
+  {
+   "boutique": "olafhussein.com",
+   "shopify": true,
+   "produits": 250,
+   "soldes": {
+    "collection": "sale",
+    "produits": 250,
+    "remises": 242,
+    "exemple": [
+     {
+      "titre": "WASHED SIGNATURE BOXY CREWNECK | CHARCOAL",
+      "prix": "70.00",
+      "avant": "140.00",
+      "image": "https://cdn.shopify.com/s/files/1/1075/3388/files/P250821145125_top_Jpg_High_res_11_e448d7c7-eb3a-4708-8e44-21f858818c79.jpg?v=1790005194"
+     },
+     {
+      "titre": "UTILITY WORKWEAR TROUSERS | KAKI",
+      "prix": "65.00",
+      "avant": "130.00",
+      "image": "https://cdn.shopify.com/s/files/1/1075/3388/files/P241030143307_P241030143308_bottom_Jpg_High_res_1_43af7227-8506-4e5a-9951-9a4ebf6c5a78.jpg?v=1789998091"
+     }
+    ]
+   },
+   "remises_dans_tout": 91,
+   "devise": "EUR"
+  },
+  {
+   "boutique": "carhartt-wip.com",
+   "shopify": false,
+   "produits": 0,
+   "soldes": null,
+   "remises_dans_tout": 0,
+   "devise": null
+  },
+  {
+   "boutique": "farah.co.uk",
+   "shopify": true,
+   "produits": 250,
+   "soldes": {
+    "collection": "sale",
+    "produits": 94,
+    "remises": 94,
+    "exemple": [
+     {
+      "titre": "Hanbury Crew Neck Sweatshirt In Battleship Blue",
+      "prix": "30.00",
+      "avant": "60.00",
+      "image": "https://cdn.shopify.com/s/files/1/0021/1514/1731/files/wz0kslggzwqln3v7tgau.jpg?v=1762428114"
+     },
+     {
+      "titre": "Boxworth Short Sleeve Shirt In Regatta Blue",
+      "prix": "32.50",
+      "avant": "65.00",
+      "image": "https://cdn.shopify.com/s/files/1/0021/1514/1731/files/moscxhybekehkqdkybar.jpg?v=1762428114"
+     }
+    ]
+   },
+   "remises_dans_tout": 69,
+   "devise": "GBP"
+  },
+  {
+   "boutique": "polarskateco.com",
+   "shopify": true,
+   "produits": 250,
+   "soldes": null,
+   "remises_dans_tout": 0,
+   "devise": "EUR"
+  },
+  {
+   "boutique": "magenta-skateboards.com",
+   "shopify": false,
+   "produits": 0,
+   "soldes": null,
+   "remises_dans_tout": 0,
+   "devise": null
+  },
+  {
+   "boutique": "dimemtl.com",
+   "shopify": true,
+   "produits": 250,
+   "soldes": null,
+   "remises_dans_tout": 0,
+   "devise": "CAD"
+  },
+  {
+   "boutique": "sixthjune.com",
+   "shopify": true,
+   "produits": 250,
+   "soldes": {
+    "collection": "sale",
+    "produits": 166,
+    "remises": 166,
+    "exemple": [
+     {
+      "titre": "EMINENCE jungle shirt",
+      "prix": "64.95",
+      "avant": "129.90",
+      "image": "https://cdn.shopify.com/s/files/1/1990/3745/files/sixth-june-25639-NAVY-3_30ffbee3-5b01-4345-a725-541bb13e893c.jpg?v=1750683242"
+     },
+     {
+      "titre": "EMINENCE jungle short",
+      "prix": "74.95",
+      "avant": "149.90",
+      "image": "https://cdn.shopify.com/s/files/1/1990/3745/files/sixth-june-25640-NAVY-5_25382dfd-f2e0-4479-aa4d-9cb9ce9aa3e3.jpg?v=1750683605"
+     }
+    ]
+   },
+   "remises_dans_tout": 33,
+   "devise": "EUR"
+  },
+  {
+   "boutique": "bleu-de-paname.com",
+   "shopify": false,
+   "produits": 0,
+   "soldes": null,
+   "remises_dans_tout": 0,
+   "devise": null
+  },
+  {
+   "boutique": "vetra.fr",
+   "shopify": false,
+   "produits": 0,
+   "soldes": null,
+   "remises_dans_tout": 0,
+   "devise": null
+  },
+  {
+   "boutique": "peggsandson.com",
+   "shopify": true,
+   "produits": 250,
+   "soldes": null,
+   "remises_dans_tout": 0,
+   "devise": "GBP"
+  },
+  {
+   "boutique": "urbanindustry.co.uk",
+   "shopify": true,
+   "produits": 250,
+   "soldes": {
+    "collection": "sale",
+    "produits": 250,
+    "remises": 250,
+    "exemple": [
+     {
+      "titre": "ON Running Cloud 6 Shoes",
+      "prix": "111.95",
+      "avant": "139.95",
+      "image": "https://cdn.shopify.com/s/files/1/1213/2346/files/OnRunning_Cloud6_Shoes_BlackWhite_01.jpg?v=1787671931"
+     },
+     {
+      "titre": "ON Running Cloudhorizon 2 Waterproof Shoes",
+      "prix": "149.95",
+      "avant": "179.95",
+      "image": "https://cdn.shopify.com/s/files/1/1213/2346/files/OnRunning_CloudhorizonWaterproof_Shoes_BrownSobaEclipse_01.jpg?v=1787748661"
+     }
+    ]
+   },
+   "remises_dans_tout": 23,
+   "devise": "GBP"
+  },
+  {
+   "boutique": "couvertureandthegarbstore.com",
+   "shopify": true,
+   "produits": 250,
+   "soldes": {
+    "collection": "mens-sale",
+    "produits": 250,
+    "remises": 250,
+    "exemple": [
+     {
+      "titre": "MT10T Raincloud and Concrete",
+      "prix": "72.00",
+      "avant": "120.00",
+      "image": "https://cdn.shopify.com/s/files/1/0552/9269/0532/files/30449077-MT10TRaincloudandConcrete-MT10TRaincloudandConcrete-NEWBALANCE-1.jpg?v=1779188686"
+     },
+     {
+      "titre": "Chambray Double Pocket Grande Shirt Sky",
+      "prix": "123.00",
+      "avant": "205.00",
+      "image": "https://cdn.shopify.com/s/files/1/0552/9269/0532/files/S-115-TD5-DUCH-SKY-FRONT.jpg?v=1777562936"
+     }
+    ]
+   },
+   "remises_dans_tout": 1,
+   "devise": "GBP"
+  },
+  {
+   "boutique": "clutchcafe.com",
+   "shopify": false,
+   "produits": 0,
+   "soldes": null,
+   "remises_dans_tout": 0,
+   "devise": null
+  },
+  {
+   "boutique": "sonofastag.com",
+   "shopify": true,
+   "produits": 250,
+   "soldes": null,
+   "remises_dans_tout": 0,
+   "devise": "GBP"
+  },
+  {
+   "boutique": "mfpen.com",
+   "shopify": true,
+   "produits": 226,
+   "soldes": null,
+   "remises_dans_tout": 0,
+   "devise": "DKK"
+  },
+  {
+   "boutique": "waxlondon.com",
+   "shopify": true,
+   "produits": 250,
+   "soldes": {
+    "collection": "archive-sale",
+    "produits": 123,
+    "remises": 123,
+    "exemple": [
+     {
+      "titre": "Didcot - Ecru And Multicolour Floral Applique Short-Sleeve Shirt",
+      "prix": "75.00",
+      "avant": "125.00",
+      "image": "https://cdn.shopify.com/s/files/1/0575/9575/6709/files/didcot-ecru-and-multicolour-floral-applique-short-sleeve-shirt_06909227.jpg?v=1783018146"
+     },
+     {
+      "titre": "Kurt - Light Khaki Organic Cotton Trousers",
+      "prix": "63.00",
+      "avant": "105.00",
+      "image": "https://cdn.shopify.com/s/files/1/0575/9575/6709/files/kurt-light-khaki-organic-cotton-trousers_4ef60627.jpg?v=1771612492"
+     }
+    ]
+   },
+   "remises_dans_tout": 18,
+   "devise": "GBP"
+  },
+  {
+   "boutique": "folkclothing.com",
+   "shopify": true,
+   "produits": 250,
+   "soldes": {
+    "collection": "sale",
+    "produits": 250,
+    "remises": 250,
+    "exemple": [
+     {
+      "titre": "Easy Fit Sweat - Soft Black",
+      "prix": "80.00",
+      "avant": "110.00",
+      "image": "https://cdn.shopify.com/s/files/1/1010/6206/files/folk-easy-sweat-black-front.jpg?v=1775555472"
+     },
+     {
+      "titre": "Barrel Leg Jean - Graphite Denim",
+      "prix": "105.00",
+      "avant": "145.00",
+      "image": "https://cdn.shopify.com/s/files/1/1010/6206/files/folk-barrel-leg-jean-graphite-denim-front.jpg?v=1777379190"
+     }
+    ]
+   },
+   "remises_dans_tout": 61,
+   "devise": "GBP"
+  },
+  {
+   "boutique": "albamclothing.com",
+   "shopify": true,
+   "produits": 63,
+   "soldes": {
+    "collection": "sale",
+    "produits": 20,
+    "remises": 19,
+    "exemple": [
+     {
+      "titre": "Oxford Stripe Fenton Shirt in Pale Blue",
+      "prix": "46.00",
+      "avant": "115.00",
+      "image": "https://cdn.shopify.com/s/files/1/1429/1636/files/ALM522211OXSS25073-BLUE-01jpg.jpg?v=1778229864"
+     },
+     {
+      "titre": "Derby Seersucker Shirt in Dark Navy",
+      "prix": "52.00",
+      "avant": "130.00",
+      "image": "https://cdn.shopify.com/s/files/1/1429/1636/files/DERBYSEERSUCKERFRONT.jpg?v=1778163755"
+     }
+    ]
+   },
+   "remises_dans_tout": 27,
+   "devise": "GBP"
+  },
+  {
+   "boutique": "youmustcreate.com",
+   "shopify": true,
+   "produits": 250,
+   "soldes": null,
+   "remises_dans_tout": 0,
+   "devise": "GBP"
+  },
+  {
+   "boutique": "oliverspencer.co.uk",
+   "shopify": true,
+   "produits": 250,
+   "soldes": {
+    "collection": "sale",
+    "produits": 1,
+    "remises": 0,
+    "exemple": []
+   },
+   "remises_dans_tout": 1,
+   "devise": "GBP"
+  },
+  {
+   "boutique": "sunspel.com",
+   "shopify": true,
+   "produits": 250,
+   "soldes": null,
+   "remises_dans_tout": 0,
+   "devise": "GBP"
+  },
+  {
+   "boutique": "studionicholson.com",
+   "shopify": true,
+   "produits": 250,
+   "soldes": null,
+   "remises_dans_tout": 1,
+   "devise": "GBP"
+  },
+  {
+   "boutique": "farafield.co.uk",
+   "shopify": false,
+   "produits": 0,
+   "soldes": null,
+   "remises_dans_tout": 0,
+   "devise": null
+  },
+  {
+   "boutique": "faherty.com",
+   "shopify": false,
+   "produits": 0,
+   "soldes": null,
+   "remises_dans_tout": 0,
+   "devise": null
+  },
+  {
+   "boutique": "rowingblazers.com",
+   "shopify": true,
+   "produits": 250,
+   "soldes": {
+    "collection": "sale",
+    "produits": 204,
+    "remises": 204,
+    "exemple": [
+     {
+      "titre": "Cotton Lobster & Martini Striped Sweater Navy",
+      "prix": "136.80",
+      "avant": "228.00",
+      "image": "https://cdn.shopify.com/s/files/1/1770/6343/files/WSU26S24S01NAV_05.jpg?v=1781114034"
+     },
+     {
+      "titre": "Oversized Cashmere Terrier Sweater Cream",
+      "prix": "178.80",
+      "avant": "298.00",
+      "image": "https://cdn.shopify.com/s/files/1/1770/6343/files/RB-08AUG25_SWEATER_DOG_CREAM.jpg?v=1773764348"
+     }
+    ]
+   },
+   "remises_dans_tout": 40,
+   "devise": "USD"
+  },
+  {
+   "boutique": "thenextdoor.fr",
+   "shopify": true,
+   "produits": 250,
+   "soldes": {
+    "collection": "promotions",
+    "produits": 115,
+    "remises": 114,
+    "exemple": [
+     {
+      "titre": "NH Tee LS-4",
+      "prix": "28.00",
+      "avant": "70.00",
+      "image": "https://cdn.shopify.com/s/files/1/0065/5340/3445/files/Captured_ecran2025-11-24a16.13.01.png?v=1763997193"
+     },
+     {
+      "titre": "x Nocta Fleece CS Pant",
+      "prix": "44.00",
+      "avant": "110.00",
+      "image": "https://cdn.shopify.com/s/files/1/0065/5340/3445/files/NOCTA_FW25_47.jpg?v=1763656610"
+     }
+    ]
+   },
+   "remises_dans_tout": 96,
+   "devise": "EUR"
+  },
+  {
+   "boutique": "royalcheese.com",
+   "shopify": false,
+   "produits": 0,
+   "soldes": null,
+   "remises_dans_tout": 0,
+   "devise": null
+  },
+  {
+   "boutique": "frenchtrotters.fr",
+   "shopify": false,
+   "produits": 0,
+   "soldes": null,
+   "remises_dans_tout": 0,
+   "devise": null
+  },
+  {
+   "boutique": "citadium.com",
+   "shopify": false,
+   "produits": 0,
+   "soldes": null,
+   "remises_dans_tout": 0,
+   "devise": null
+  },
+  {
+   "boutique": "shinzo.paris",
+   "shopify": false,
+   "produits": 0,
+   "soldes": null,
+   "remises_dans_tout": 0,
+   "devise": null
+  },
+  {
+   "boutique": "starcow.fr",
+   "shopify": false,
+   "produits": 0,
+   "soldes": null,
+   "remises_dans_tout": 0,
+   "devise": null
+  },
+  {
+   "boutique": "afew-store.com",
+   "shopify": true,
+   "produits": 250,
+   "soldes": {
+    "collection": "sale",
+    "produits": 250,
+    "remises": 250,
+    "exemple": [
+     {
+      "titre": "adidas Originals ADIMULE",
+      "prix": "74.99",
+      "avant": "99.99",
+      "image": "https://cdn.shopify.com/s/files/1/2718/4356/files/adidas-originals-adimule-rusora-rusora-gum5-jr3586-footwear_20_3E_20sandals_20_26_20slides.jpg?v=1793842270"
+     },
+     {
+      "titre": "Air Jordan Hoodie",
+      "prix": "109.99",
+      "avant": "114.99",
+      "image": "https://cdn.shopify.com/s/files/1/2718/4356/files/air-jordan-hoodie-black-university-red-iw4150-010-apparel_20_3E_20hoodies_20_26_20sweatshirts.jpg?v=1792506617"
+     }
+    ]
+   },
+   "remises_dans_tout": 0,
+   "devise": "EUR"
+  },
+  {
+   "boutique": "vooberlin.com",
+   "shopify": true,
+   "produits": 250,
+   "soldes": {
+    "collection": "archive",
+    "produits": 250,
+    "remises": 0,
+    "exemple": []
+   },
+   "remises_dans_tout": 0,
+   "devise": "EUR"
+  },
+  {
+   "boutique": "slamjam.com",
+   "shopify": true,
+   "produits": 250,
+   "soldes": {
+    "collection": "sale",
+    "produits": 250,
+    "remises": 250,
+    "exemple": [
+     {
+      "titre": "Men's Gorge V-Neck T-Shirt Faded Pine",
+      "prix": "76.00",
+      "avant": "190.00",
+      "image": "https://cdn.shopify.com/s/files/1/0576/7705/4136/files/OurLegacy-Clothing-Shortsleeve-GorgeV-neckGreen-M2266GF001-20260429095134_1.jpg?v=1778074624"
+     },
+     {
+      "titre": "Men's Leisure Shorts Flower Grid Ripstop",
+      "prix": "144.00",
+      "avant": "360.00",
+      "image": "https://cdn.shopify.com/s/files/1/0576/7705/4136/files/OurLegacy-Clothing-Short-LeisureShortsMulticolor-M2264LFG001-20260429100845_1.jpg?v=1778075018"
+     }
+    ]
+   },
+   "remises_dans_tout": 8,
+   "devise": "EUR"
+  },
+  {
+   "boutique": "triads.co.uk",
+   "shopify": true,
+   "produits": 250,
+   "soldes": {
+    "collection": "sale",
+    "produits": 250,
+    "remises": 246,
+    "exemple": [
+     {
+      "titre": "Les Deux Billy Weave Knitted Ls Polo - Light Ivory",
+      "prix": "70.00",
+      "avant": "140.00",
+      "image": "https://cdn.shopify.com/s/files/1/0661/2382/5375/files/Code_80.jpg?v=1773747791"
+     },
+     {
+      "titre": "Les Deux Chase Sport Hoodie - Snow Melange",
+      "prix": "54.00",
+      "avant": "108.00",
+      "image": "https://cdn.shopify.com/s/files/1/0661/2382/5375/files/Code-2026-03-21T182136.602.jpg?v=1774117309"
+     }
+    ]
+   },
+   "remises_dans_tout": 197,
+   "devise": "GBP"
+  },
+  {
+   "boutique": "oipolloi.com",
+   "shopify": true,
+   "produits": 250,
+   "soldes": null,
+   "remises_dans_tout": 0,
+   "devise": "GBP"
+  },
+  {
+   "boutique": "hanon-shop.com",
+   "shopify": false,
+   "produits": 0,
+   "soldes": null,
+   "remises_dans_tout": 0,
+   "devise": null
+  },
+  {
+   "boutique": "18montrose.com",
+   "shopify": false,
+   "produits": 0,
+   "soldes": null,
+   "remises_dans_tout": 0,
+   "devise": null
+  },
+  {
+   "boutique": "aphrodite1994.com",
+   "shopify": false,
+   "produits": 0,
+   "soldes": null,
+   "remises_dans_tout": 0,
+   "devise": null
+  },
+  {
+   "boutique": "sevenstore.com",
+   "shopify": false,
+   "produits": 0,
+   "soldes": null,
+   "remises_dans_tout": 0,
+   "devise": null
+  },
+  {
+   "boutique": "dailypaperclothing.com",
+   "shopify": false,
+   "produits": 0,
+   "soldes": null,
+   "remises_dans_tout": 0,
+   "devise": null
+  },
+  {
+   "boutique": "www.lesdeux.com",
+   "shopify": true,
+   "produits": 250,
+   "soldes": {
+    "collection": "sale",
+    "produits": 236,
+    "remises": 0,
+    "exemple": []
+   },
+   "remises_dans_tout": 0,
+   "devise": null
+  },
+  {
+   "boutique": "nn07.com",
+   "shopify": false,
+   "produits": 0,
+   "soldes": null,
+   "remises_dans_tout": 0,
+   "devise": null
+  },
+  {
+   "boutique": "asphalte.com",
+   "shopify": false,
+   "produits": 0,
+   "soldes": null,
+   "remises_dans_tout": 0,
+   "devise": null
+  },
+  {
+   "boutique": "faguo-store.com",
+   "shopify": false,
+   "produits": 0,
+   "soldes": null,
+   "remises_dans_tout": 0,
+   "devise": null
+  },
+  {
+   "boutique": "dickieslife.com",
+   "shopify": false,
+   "produits": 0,
+   "soldes": null,
+   "remises_dans_tout": 0,
+   "devise": null
+  },
+  {
+   "boutique": "edwin-europe.com",
+   "shopify": false,
+   "produits": 0,
+   "soldes": null,
+   "remises_dans_tout": 0,
+   "devise": null
+  },
+  {
+   "boutique": "olive-clothing.com",
+   "shopify": false,
+   "produits": 0,
+   "soldes": null,
+   "remises_dans_tout": 0,
+   "devise": null
+  },
+  {
+   "boutique": "garbstore.com",
+   "shopify": false,
+   "produits": 0,
+   "soldes": null,
+   "remises_dans_tout": 0,
+   "devise": null
+  },
+  {
+   "boutique": "nigelcabourn.com",
+   "shopify": false,
+   "produits": 0,
+   "soldes": null,
+   "remises_dans_tout": 0,
+   "devise": null
+  },
+  {
+   "boutique": "outlandish.fr",
+   "shopify": false,
+   "produits": 0,
+   "soldes": null,
+   "remises_dans_tout": 0,
+   "devise": null
+  },
+  {
+   "boutique": "saintjames.com",
+   "shopify": false,
+   "produits": 0,
+   "soldes": null,
+   "remises_dans_tout": 0,
+   "devise": null
+  },
+  {
+   "boutique": "knowledgecotton.com",
+   "shopify": false,
+   "produits": 0,
+   "soldes": null,
+   "remises_dans_tout": 0,
+   "devise": null
+  },
+  {
+   "boutique": "percivalclothing.com",
+   "shopify": false,
+   "produits": 0,
+   "soldes": null,
+   "remises_dans_tout": 0,
+   "devise": null
+  }
+ ],
+ "images": []
+}
