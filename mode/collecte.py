@@ -388,6 +388,145 @@ def photos_portees(articles):
     return trouves
 
 
+# --- Le fil, façon Camino : posts courts + fils « le + chaud / le + clean / le − cher » ---------------------------
+
+CONSIGNE_FIL = """Tu tiens le compte d'un média streetwear français qui poste des bons plans, exactement dans l'esprit du Twitter de
+Camino TV. Ton ton : parlé, spontané, minuscules, phrases courtes, tutoiement ou « vous » collectif, argot léger mais naturel
+(« dar », « ça passe trop bien », « c'est des détails qui tuent », « valeur sûre », « là ça devient pas mal »). Tu parles de la
+pièce comme un pote qui s'y connaît : la matière, la coupe, le détail qui change tout, la saison, la taille dispo. Jamais de
+blabla marketing, jamais de hashtags, au plus un emoji de temps en temps.
+
+Exemples de ton (à ne pas recopier) :
+- « le côté brossé pour la saison là ça passe trop bien »
+- « un halfzip avec ce genre d'empiècements c'est des détails qui tuent »
+- « il est encore plus à l'aise lui (dispo jusqu'au 2XL) »
+- « la bonne polaire, c'est plus que nécessaire là »
+
+On te donne :
+1. POSTS : des pièces déjà sélectionnées (promo ou nouveauté). Pour CHACUNE, écris un post de 1 à 2 phrases (25 mots max).
+   Si la pièce a « baisse » ou une remise, tu peux dire « passe à X € au lieu de Y € ». Si de grandes tailles sont dispo
+   (XXL, 2XL, 3XL), dis-le entre parenthèses. Ne répète pas la même formule d'un post à l'autre.
+2. FILS : des listes de pièces du même type. Pour chaque liste, écris un titre de fil dans le même ton (ex. : « l'hiver c'est
+   bien la saison des polaires »), puis choisis 4 ou 5 pièces DIFFÉRENTES (marques et prix variés) et donne à chacune une
+   étiquette courte et unique : « le + chaud », « le + clean », « la − chère », « le + bg », « le + efficace », « le + oversize »,
+   « le + solide », « le + original »… accordée au genre du mot (le pull, la veste).
+
+Réponds UNIQUEMENT en JSON :
+{"posts": [{"id": "...", "texte": "..."}], "fils": [{"titre": "...", "items": [{"id": "...", "label": "..."}]}]}
+N'invente aucun id."""
+
+NOMS_CAT = {"veste": "vestes", "surchemise": "surchemises", "maille": "pulls et cardigans", "sweat": "sweats et hoodies",
+            "chemise": "chemises", "tshirt": "t-shirts et polos", "pantalon": "pantalons", "short": "shorts",
+            "chaussures": "chaussures", "accessoire": "accessoires"}
+
+
+def ligne_fil(x):
+    grand = [t for t in x.get("tailles", []) if re.search(r"XXL|2XL|3XL|XXXL", str(t), re.I)]
+    prix = f"{x['prix_eur']:.0f} €"
+    if x.get("baisse_de"):
+        prix += f" (baisse : avant {x['baisse_de']:.0f} €)"
+    elif x["remise"]:
+        prix += f" au lieu de {x['avant_eur']:.0f} € (−{x['remise']} %)"
+    else:
+        prix += " (prix normal)"
+    return (f"{x['id']} | {x['marque']} | {x['nom']} | {prix} | {x['boutique']}"
+            + (f" | grandes tailles : {', '.join(grand[:3])}" if grand else "") + (f" | avis : {x['pourquoi']}" if x.get("pourquoi") else ""))
+
+
+def rediger_fil(posts, groupes):
+    """posts : articles à présenter ; groupes : {catégorie: [articles]} pour les fils thématiques."""
+    texte = "POSTS :\n" + "\n".join(ligne_fil(x) for x in posts)
+    for cat, lot in groupes.items():
+        texte += f"\n\nFIL — {NOMS_CAT.get(cat, cat)} :\n" + "\n".join(ligne_fil(x) for x in lot)
+    cle = os.getenv("LLM_API_KEY", "").strip()
+    if not cle:
+        return {}
+    for m in ["gemini-flash-latest", "gemini-flash-lite-latest", "gemini-2.5-flash-lite"]:
+        for essai in range(2):
+            try:
+                r = requests.post(URL, timeout=150, headers={"Authorization": f"Bearer {cle}"}, json={
+                    "model": m, "temperature": 0.8,
+                    "messages": [{"role": "system", "content": CONSIGNE_FIL + CONTEXTE}, {"role": "user", "content": texte}]})
+            except requests.RequestException:
+                break
+            if r.status_code in (429, 503) and essai == 0:
+                time.sleep(25)
+                continue
+            if r.status_code != 200:
+                break
+            t = re.sub(r"```(json)?", "", r.json()["choices"][0]["message"]["content"])
+            try:
+                rep = json.loads(t[t.find("{"):t.rfind("}") + 1])
+                rep["_modele"] = m
+                return rep
+            except json.JSONDecodeError:
+                break
+    return {}
+
+
+def construire_fil(uniques, nouveautes, selection, par_id_tout):
+    # les posts : la sélection, les baisses de prix, et les meilleures nouveautés
+    baisses = sorted((a for a in uniques + nouveautes if a.get("baisse_de") and a.get("fiab") != "prudence"),
+                     key=lambda a: a["baisse_de"] - a["prix_eur"], reverse=True)[:6]
+    neufs = [a for a in nouveautes if a.get("note", 0) >= 8][:10]
+    ids_posts = list(dict.fromkeys([i for i in selection[:24]] + [a["id"] for a in baisses + neufs]))[:36]
+    posts = [par_id_tout[i] for i in ids_posts if i in par_id_tout]
+    # les fils : 3 catégories de saison avec assez de bonnes pièces, marques variées
+    pool = [a for a in uniques + nouveautes if a.get("note", 0) >= 6 and a.get("fiab") != "prudence"]
+    groupes = {}
+    for cat in sorted({a["categorie"] for a in pool}, key=lambda c: -POIDS.get(c, 1)):
+        if POIDS.get(cat, 1) < 2:
+            continue
+        vus_m, lot = set(), []
+        for a in sorted((a for a in pool if a["categorie"] == cat), key=lambda a: (a.get("note", 0), a.get("rang", 0)), reverse=True):
+            if a["marque"].lower() in vus_m:
+                continue
+            vus_m.add(a["marque"].lower())
+            lot.append(a)
+            if len(lot) >= 12:
+                break
+        if len(lot) >= 6:
+            groupes[cat] = lot
+        if len(groupes) >= 3:
+            break
+    rep = rediger_fil(posts, groupes)
+    textes = {p.get("id"): (p.get("texte") or "").strip() for p in rep.get("posts", []) if p.get("id") in par_id_tout}
+    sortie_posts = []
+    for a in posts:
+        t = textes.get(a["id"]) or a.get("pourquoi") or ""
+        if t:
+            sortie_posts.append({"id": a["id"], "texte": t, "baisse": bool(a.get("baisse_de"))})
+    fils = []
+    for f in rep.get("fils", []):
+        items = [{"id": i["id"], "label": (i.get("label") or "").strip()} for i in f.get("items", []) if i.get("id") in par_id_tout]
+        items = list({i["id"]: i for i in items}.values())
+        if len(items) >= 3 and (f.get("titre") or "").strip():
+            fils.append({"titre": f["titre"].strip(), "items": items[:5]})
+    print(f"→ le fil : {len(sortie_posts)} posts, {len(fils)} fils thématiques ({rep.get('_modele')})")
+    return {"posts": sortie_posts, "fils": fils}
+
+
+def suivre_prix(articles):
+    """Garde le dernier prix vu de chaque pièce : une baisse d'au moins 5 % devient « passe à X au lieu de Y »."""
+    f = RACINE / "etat" / "mode-prix.json"
+    try:
+        hist = json.loads(f.read_text(encoding="utf-8"))
+    except (FileNotFoundError, json.JSONDecodeError):
+        hist = {}
+    jour = MAINTENANT.date().isoformat()
+    n = 0
+    for a in articles:
+        h = hist.get(a["id"])
+        if h and a["prix"] <= h["p"] * 0.95 and h["d"] < jour:
+            a["baisse_de"] = h["e"]
+            n += 1
+        if not h or h["d"] < jour or a["prix"] < h["p"]:
+            hist[a["id"]] = {"p": a["prix"], "e": round(a["prix_eur"]), "d": jour}
+    limite = (MAINTENANT - timedelta(days=45)).date().isoformat()
+    f.write_text(json.dumps({k: v for k, v in hist.items() if v["d"] >= limite}, separators=(",", ":")), encoding="utf-8")
+    print(f"→ suivi des prix : {n} baisses depuis la dernière visite")
+
+
 def main():
     cfg = json.loads((Path(__file__).parent / "boutiques.json").read_text(encoding="utf-8"))["boutiques"]
     taux = taux_eur()
@@ -521,8 +660,12 @@ def main():
     nouveautes = sorted((a for a in cands if a.get("note", 6 if not rep else 0) >= 6), key=lambda a: (a.get("note", 0), a["sortie"]), reverse=True)[:72]
     print(f"→ sans promo : {len(neufs)} sorties récentes, {len(cands)} montrées à l'IA, {len(nouveautes)} gardées")
 
-    a_voir = list(dict.fromkeys([i for t in tenues for i in t["articles"]] + ([coup] if coup else []) + selection[:30]))
-    n = photos_portees([par_id[i] for i in a_voir])
+    suivre_prix(uniques + nouveautes)
+    par_id_tout = {a["id"]: a for a in uniques + nouveautes}
+    fil = construire_fil(uniques, nouveautes, selection, par_id_tout)
+    a_voir = list(dict.fromkeys([i for t in tenues for i in t["articles"]] + ([coup] if coup else []) + selection[:30]
+                                + [p["id"] for p in fil["posts"] if p["id"] in par_id]))
+    n = photos_portees([par_id_tout[i] for i in a_voir][:60])
     print(f"📸 {n} photos portées trouvées sur {len(a_voir)} articles vérifiés")
     # première apparition de chaque article : sert à « Ça vient de tomber »
     f_vus = RACINE / "etat" / "mode-vus.json"
@@ -541,13 +684,13 @@ def main():
     f_vus.parent.mkdir(exist_ok=True)
     f_vus.write_text(json.dumps({k: v for k, v in deja.items() if k == "_debut" or v >= limite}, separators=(",", ":")), encoding="utf-8")
     for a in uniques + nouveautes:  # allège le fichier lu par le site (téléphone)
-        for k in ("description", "styles_indice", "type", "prix", "avant", "devise", "domaine", "vu_le"):
+        for k in ("description", "styles_indice", "type", "prix", "avant", "devise", "domaine", "vu_le"):  # noqa
             a.pop(k, None)
         a["images"] = a["images"][:2] + ([a["porte"]] if a.get("porte") and a["porte"] not in a["images"][:2] else [])
     SORTIE.parent.mkdir(parents=True, exist_ok=True)
     SORTIE.write_text(json.dumps({
         "maj": MAINTENANT.isoformat(), "saison": SAISON, "poids": POIDS, "modele": modele, "taux": {k: round(v, 4) for k, v in taux.items() if k in ("GBP", "USD", "DKK")},
-        "bilan": bilan, "coup": coup, "selection": selection, "tenues": tenues, "articles": uniques, "nouveautes": nouveautes,
+        "bilan": bilan, "coup": coup, "selection": selection, "fil": fil, "tenues": tenues, "articles": uniques, "nouveautes": nouveautes,
     }, ensure_ascii=False, separators=(",", ":")), encoding="utf-8")
     print(f"✅ {len(uniques)} promos, {len(selection)} pépites, {len(nouveautes)} sans promo, {len(tenues)} tenues, plan du jour : {coup} ({modele})")
 

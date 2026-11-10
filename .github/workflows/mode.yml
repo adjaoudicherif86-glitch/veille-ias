@@ -23,5 +23,5 @@ jobs:
         run: python mode/collecte.py
       - run: |
           git config user.name "veille-bot"; git config user.email "veille-bot@users.noreply.github.com"
-          git add docs/mode/data.json etat/mode-vus.json; git diff --cached --quiet || git commit -m "Pièce Unique : promos du jour"
+          git add docs/mode/data.json etat/mode-vus.json etat/mode-prix.json; git diff --cached --quiet || git commit -m "Pièce Unique : promos du jour"
           for i in 1 2 3; do git pull --rebase origin main && git push && break; sleep 5; done

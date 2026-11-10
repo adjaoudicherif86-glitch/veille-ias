@@ -112,6 +112,50 @@ h2{font-stretch:112%;font-weight:900;font-size:clamp(24px,3vw,36px);letter-spaci
 .marque-filtre{display:inline-flex;gap:8px;align-items:center;background:var(--sticker);border-radius:999px;padding:6px 8px 6px 13px;font-size:13.5px;font-weight:700}
 .marque-filtre button{border:0;background:var(--noir);color:var(--blanc);border-radius:999px;width:22px;height:22px;cursor:pointer;line-height:1}
 
+/* le fil */
+.fil-zone{display:grid;grid-template-columns:minmax(0,700px) minmax(0,1fr);gap:clamp(24px,4vw,64px);align-items:start;padding:8px 0 30px}
+.fil{display:flex;flex-direction:column}
+.post{padding:22px 0 24px;border-bottom:1px solid var(--trait)}
+.post:first-child{padding-top:6px}
+.post-tete{display:flex;align-items:center;gap:10px;flex-wrap:wrap;font-size:13.5px;color:var(--gris)}
+.post-tete b{color:var(--noir);font-size:15px}
+.post-tete .baisse{background:var(--rouge);color:#fff;font-weight:700;font-size:12px;padding:2px 8px;border-radius:999px}
+.post-txt{font-size:clamp(18px,1.6vw,20px);line-height:1.35;font-weight:500;margin:8px 0 6px;max-width:34em}
+.post-prix{font-size:16px;display:flex;gap:10px;align-items:baseline;flex-wrap:wrap}
+.post-prix b{font-stretch:80%;font-weight:900;font-size:22px}
+.post-prix .ou{color:var(--gris);font-size:14px}
+.post-photos{display:grid;grid-template-columns:1fr 1fr;gap:6px;margin-top:12px;max-width:560px}
+.post-photos.une{grid-template-columns:minmax(0,60%)}
+.post-photos a{display:block;background:var(--photo);aspect-ratio:4/5;overflow:hidden;border-radius:14px}
+.post-photos img{width:100%;height:100%;object-fit:cover}
+.post-pied{display:flex;gap:10px;align-items:center;flex-wrap:wrap;margin-top:12px}
+.post-pied .fiab{margin:0}
+.lien-btn{margin-left:auto;display:inline-flex;gap:8px}
+.lien-btn a,.lien-btn button{font-size:13.5px;font-weight:700;padding:8px 14px;border-radius:999px;border:1.5px solid var(--noir);background:var(--blanc);cursor:pointer;white-space:nowrap}
+.lien-btn a{background:var(--noir);color:var(--blanc)}
+.thread{padding:24px 0 26px;border-bottom:1px solid var(--trait)}
+.thread .qui{font-size:13.5px;color:var(--gris);margin-bottom:6px}
+.thread h3{font-stretch:100%;font-weight:800;font-size:clamp(22px,2.4vw,28px);letter-spacing:-.02em;line-height:1.1;margin-bottom:14px}
+.thread .bande{display:grid;grid-template-columns:repeat(var(--n),minmax(0,1fr));gap:4px;margin-bottom:12px}
+.thread .bande a{background:var(--photo);aspect-ratio:3/4;overflow:hidden;border-radius:10px;display:block}
+.thread .bande img{width:100%;height:100%;object-fit:cover}
+.thread ul{list-style:none;border-top:1.5px solid var(--noir)}
+.thread li a{display:grid;grid-template-columns:118px minmax(0,1fr) auto;gap:12px;align-items:baseline;padding:10px 0;border-bottom:1px solid var(--trait)}
+.thread li a:hover .tn{text-decoration:underline}
+.thread .lab{font-weight:800}
+.thread .tn{min-width:0;overflow-wrap:anywhere;font-size:14.5px}
+.thread .px{font-weight:700;white-space:nowrap;font-size:14.5px}
+.thread .px s{color:var(--gris);font-weight:400;margin-left:6px;text-decoration-color:var(--rouge)}
+.cote{position:sticky;top:16px;display:flex;flex-direction:column;gap:26px}
+.cote h3{font-stretch:112%;font-weight:900;font-size:20px;letter-spacing:-.02em;margin-bottom:8px}
+.cote ul{list-style:none}
+.cote li a{display:grid;grid-template-columns:56px minmax(0,1fr);gap:10px;align-items:center;padding:8px 0;border-bottom:1px solid var(--trait)}
+.cote li img{width:56px;height:70px;object-fit:cover;background:var(--photo);border-radius:8px}
+.cote li span{font-size:13.5px;line-height:1.3;min-width:0}
+.cote li b{display:block}
+.cote .vide2{color:var(--gris);font-size:13.5px}
+@media (max-width:1060px){.fil-zone{grid-template-columns:1fr}.cote{position:static}}
+@media (max-width:560px){.thread li a{grid-template-columns:96px minmax(0,1fr);row-gap:2px}.thread .px{grid-column:2}.lien-btn{margin-left:0}}
 /* étiquette prix sans promo */
 .sticker.tag{background:var(--noir);color:var(--blanc);transform:none;box-shadow:none}
 .sticker.tag .r{font-weight:500}
@@ -225,7 +269,7 @@ footer b{color:var(--blanc);font-weight:600}
   <div class="wrap">
     <a class="logo" href="#" data-vue="plans">Pièce Unique</a>
     <nav class="vues" aria-label="Rubriques">
-      <button data-vue="plans">La sélection</button>
+      <button data-vue="plans">Le fil</button>
       <button data-vue="tout">Toutes les promos</button>
       <button data-vue="neuf">Sans promo</button>
       <button data-vue="fits">Les fits</button>
@@ -310,6 +354,45 @@ function similaires(a,n=8){
   for(const [,x] of notes){const m=marque(x);if((cm[m]||0)>=2)continue;cm[m]=(cm[m]||0)+1;out.push(x);if(out.length>=n)break}
   return out}
 const jourCourt=d=>new Date(d).toLocaleDateString("fr-FR",{day:"numeric",month:"short"});
+function prixLigne(a){
+  if(a.baisse_de)return `<b>${eur(a.prix_eur)}</b><s class="avant">${eur(a.baisse_de)}</s><span class="ou">le prix vient de baisser</span>`;
+  if(a.remise)return `<b>${eur(a.prix_eur)}</b><s class="avant">${eur(a.avant_eur)}</s><span class="ou">−${a.remise} %</span>`;
+  return `<b>${eur(a.prix_eur)}</b><span class="ou">${a.sortie?"nouveauté, prix normal":"prix spécial"}</span>`}
+function post(p){
+  const a=parId[p.id]; if(!a)return "";
+  const photos=[...new Set([a.porte,a.images[0],a.images[1]].filter(Boolean))].slice(0,2);
+  return `<article class="post">
+    <div class="post-tete"><b>${esc(marque(a))}</b><span>chez ${esc(a.boutique)}</span>${p.baisse||a.baisse_de?'<span class="baisse">Baisse de prix</span>':a.nouveau?'<span class="mark noir">Nouveau</span>':""}</div>
+    <p class="post-txt">${esc(String(p.texte).replace(/^[\s«"“]+|[\s»"”]+$/g,""))}</p>
+    <p class="post-prix">${prixLigne(a)}</p>
+    <div class="post-photos${photos.length<2?" une":""}">${photos.map(u=>`<a href="${esc(a.lien)}" data-art="${esc(a.id)}" target="_blank" rel="noopener"><img src="${U(u,700)}" alt="${esc(a.nom)}" loading="lazy"></a>`).join("")}</div>
+    <div class="post-pied">${badge(a)}<span class="lien-btn"><button data-art="${esc(a.id)}">Dans le même genre</button><a href="${esc(a.lien)}" target="_blank" rel="noopener">Voir chez ${esc(a.boutique)}</a></span></div>
+  </article>`}
+function thread(f){
+  const items=f.items.map(i=>({...i,a:parId[i.id]})).filter(i=>i.a&&styleOk(i.a));
+  if(items.length<3)return "";
+  return `<article class="thread">
+    <div class="qui">Le fil du jour</div>
+    <h3>${esc(f.titre)}</h3>
+    <div class="bande" style="--n:${items.length}">${items.map(({a})=>`<a href="${esc(a.lien)}" data-art="${esc(a.id)}" target="_blank" rel="noopener"><img src="${U(a.porte||a.images[0],400)}" alt="${esc(a.nom)}" loading="lazy"></a>`).join("")}</div>
+    <ul>${items.map(({a,label})=>`<li><a href="${esc(a.lien)}" data-art="${esc(a.id)}" target="_blank" rel="noopener"><span class="lab">${esc(label)}</span><span class="tn">${esc(marque(a))}, ${esc(nom(a).n)}</span><span class="px">${eur(a.prix_eur)}${a.remise?`<s>${eur(a.avant_eur)}</s>`:""}</span></a></li>`).join("")}</ul>
+  </article>`}
+function ligneCote(a){return `<li><a href="${esc(a.lien)}" data-art="${esc(a.id)}" target="_blank" rel="noopener"><img src="${U(a.porte||a.images[0],160)}" alt="" loading="lazy"><span><b>${esc(marque(a))}</b>${esc(nom(a).n)}<br>${eur(a.prix_eur)}${a.baisse_de?` <s class="avant">${eur(a.baisse_de)}</s>`:a.remise?` <s class="avant">${eur(a.avant_eur)}</s>`:""}</span></a></li>`}
+function vueFil(){
+  const fil=D.fil||{posts:[],fils:[]};
+  const posts=fil.posts.filter(p=>parId[p.id]&&styleOk(parId[p.id]));
+  let corps="", k=0;
+  posts.forEach((p,i)=>{corps+=post(p);if((i+1)%4===0&&fil.fils[k])corps+=thread(fil.fils[k++])});
+  while(fil.fils[k])corps+=thread(fil.fils[k++]);
+  const pool=[...D.articles,...D.nouveautes].filter(styleOk);
+  const baisses=pool.filter(a=>a.baisse_de).sort((a,b)=>(b.baisse_de-b.prix_eur)-(a.baisse_de-a.prix_eur)).slice(0,8);
+  const petits=varier(D.articles.filter(a=>styleOk(a)&&a.prix_eur<=30&&a.categorie!=="accessoire"&&(a.note||0)>=6).sort((a,b)=>note(b)-note(a))).slice(0,8);
+  return `<section class="rangee" style="border-top:0"><div class="wrap"><div class="intro-sel"><h2>Le fil</h2><p>Les pièces repérées aujourd'hui, en promo ou pas, et un fil par type de pièce pour comparer. Clique sur une photo pour voir le détail et des pièces du même genre.</p></div>
+    <div class="fil-zone"><div class="fil">${corps||'<p class="vide">Le fil du jour arrive à la prochaine mise à jour.</p>'}</div>
+      <aside class="cote">
+        <div><h3>Ça vient de baisser</h3>${baisses.length?`<ul>${baisses.map(ligneCote).join("")}</ul>`:'<p class="vide2">Aucune baisse depuis hier. Le robot compare les prix chaque matin.</p>'}</div>
+        <div><h3>Moins de 30 balles</h3><ul>${petits.map(ligneCote).join("")}</ul></div>
+      </aside></div></div></section>`}
 function vuePlans(){
   const base=D.articles.filter(styleOk);
   let h="";
@@ -327,16 +410,14 @@ function vuePlans(){
         <a class="cta" href="${esc(c.lien)}" target="_blank" rel="noopener">Voir chez ${esc(c.boutique)}</a>
       </div></section></div>`;
   }
-  const sel=(D.selection&&D.selection.length?D.selection.map(i=>parId[i]).filter(Boolean):varier([...D.articles].sort((x,y)=>note(y)-note(x))).slice(0,60)).filter(styleOk);
-  h+=`<section class="rangee" style="${c&&etat.style==="tous"?"":"border-top:0"}"><div class="wrap"><div class="intro-sel"><h2>La sélection</h2><p>${sel.length} pépites choisies parmi ${D.articles.length} promos : les mieux notées de chaque style, sans deux pièces qui se ressemblent. Clique sur une pièce pour voir des articles du même genre.</p></div>
-    ${sel.length?`<div class="grille">${sel.map(a=>fiche(a)).join("")}</div>`:`<p class="vide">Pas de pépite dans ce style aujourd'hui.</p>`}</div></section>`;
+  h+=vueFil();
   if(!etat.marque){
     const neufs=varier(base.filter(a=>a.nouveau).sort((a,b)=>note(b)-note(a))).slice(0,16);
     if(neufs.length)h+=`<section class="rangee"><div class="wrap"><div class="titre-rangee"><h2>Ça vient de tomber</h2><p>Nouvelles remises depuis hier</p></div><div class="defile">${neufs.map(a=>fiche(a)).join("")}</div></div></section>`;
     const petits=varier(base.filter(a=>a.prix_eur<=30&&a.categorie!=="accessoire").sort((a,b)=>note(b)-note(a))).slice(0,16);
     const ens=varier(base.filter(a=>a.enseigne).sort((a,b)=>note(b)-note(a))).slice(0,16);
     if(ens.length)h+=`<section class="rangee"><div class="wrap"><div class="titre-rangee"><h2>Les grandes enseignes</h2><p>Zara, Uniqlo : essai et retour possibles en magasin</p></div><div class="defile">${ens.map(a=>fiche(a)).join("")}</div></div></section>`;
-    if(petits.length)h+=`<section class="rangee"><div class="wrap"><div class="titre-rangee"><h2>Moins de 30 balles</h2><p>${base.filter(a=>a.prix_eur<=30).length} pièces</p></div><div class="defile">${petits.map(a=>fiche(a)).join("")}</div></div></section>`;
+    if(false)h+=`<section class="rangee"><div class="wrap"><div class="titre-rangee"><h2>Moins de 30 balles</h2><p>${base.filter(a=>a.prix_eur<=30).length} pièces</p></div><div class="defile">${petits.map(a=>fiche(a)).join("")}</div></div></section>`;
   }
   h+=`<div class="voir-tout"><button class="cta" data-vue="tout" style="border:0;cursor:pointer;margin:0">Voir les ${base.length} promos</button></div>`;
   return h;
@@ -487,7 +568,7 @@ document.addEventListener("click",e=>{
 Promise.all([fetch("data.json?"+Date.now()).then(r=>r.json()),fetch("fiabilite.json?"+Date.now()).then(r=>r.ok?r.json():{boutiques:[]}).catch(()=>({boutiques:[]}))]).then(([d,f])=>{
   D=d; F=f; D.nouveautes=D.nouveautes||[]; [...D.nouveautes,...D.articles].forEach(a=>parId[a.id]=a); F.boutiques.forEach(b=>fParNom[b.boutique]=b);
   [...D.nouveautes,...D.articles].forEach(a=>{if(!a.fiab&&fParNom[a.boutique])a.fiab=fParNom[a.boutique].niveau;if(!a.fam)a.fam=a.categorie});
-  const top=(D.selection&&D.selection.length?D.selection.map(i=>parId[i]).filter(Boolean):varier([...D.articles].filter(a=>a.categorie!=="accessoire").sort((a,b)=>note(b)-note(a)))).slice(0,14);
+  const top=(D.fil&&D.fil.posts.length?D.fil.posts.map(p=>parId[p.id]).filter(Boolean):D.selection&&D.selection.length?D.selection.map(i=>parId[i]).filter(Boolean):varier([...D.articles].filter(a=>a.categorie!=="accessoire").sort((a,b)=>note(b)-note(a)))).slice(0,14);
   const ligne=top.map(a=>`<a href="${esc(a.lien)}" data-art="${esc(a.id)}" target="_blank" rel="noopener">${esc(marque(a))}, ${esc(nom(a).n)} à <b>${eur(a.prix_eur)}</b></a>`).join("");
   document.getElementById("ticker").innerHTML=ligne+ligne;
   const m=new Date(d.maj);
