@@ -21,6 +21,8 @@ SORTIE = RACINE / "docs" / "mode" / "data.json"
 UA = {"User-Agent": "Mozilla/5.0 (compatible; PieceUnique/1.0; veille personnelle)", "Accept": "application/json"}
 REMISE_MIN = 30
 PRIX_MAX_EUR = 200
+PRIX_MAX_NEUF = 160   # onglet « Sans promo » : on reste sur des prix accessibles
+JOURS_NEUF = 45
 MAINTENANT = datetime.now(timezone.utc)
 
 EXCLURE = re.compile(r"\b(women'?s?|womens|woman|ladies|femme|dress|skirt|bra|bikini|towel|mug|candle|book|magazine|poster|print|sticker|"
@@ -118,7 +120,32 @@ def genre(p):
     return "homme" if HOMME.search(texte) else None
 
 
-def analyser(p, b, dev, taux):
+SOUS_TYPES = [
+    ("puffer", r"puffer|doudoune|down\b|padded|quilted|matelass"), ("teddy", r"teddy|varsity|letterman"),
+    ("polaire", r"sherpa|fleece|polaire|borg"), ("bomber", r"bomber|ma-?1|aviator|harrington"),
+    ("coupe-vent", r"coach|windbreaker|coupe-vent|track jacket|shell"), ("travail", r"chore|worker|work jacket|travail|utility|engineer|coverall"),
+    ("veste-denim", r"trucker|denim jacket|veste en (denim|jean)"), ("parka", r"parka|anorak|raincoat|imperm"),
+    ("manteau", r"\bcoat|manteau|overcoat|\bmac\b"), ("blazer", r"blazer|suit|costume|tailored"),
+    ("gilet", r"gilet|\bvest\b|sans manches|sleeveless"), ("cardigan", r"cardigan"),
+    ("col-roule", r"roll ?neck|turtle|col roulé|mock"), ("hoodie", r"hood|capuche"), ("zip", r"\bzip"),
+    ("pull", r"knit|sweater|jumper|\bpull|maille"), ("sweat", r"crew|sweatshirt|sweat\b"), ("polo", r"polo"),
+    ("manches-longues", r"long ?sleeve|manches longues|\bls\b"), ("tee", r"\btee|t-shirt|tshirt"),
+    ("cargo", r"cargo|fatigue|carpenter"), ("jean", r"jean|denim"), ("jogging", r"jogger|sweatpant|track pant|jogging"),
+    ("velours", r"cord|velours"), ("chino", r"chino|pleat|trouser|pantalon|pant"), ("flanelle", r"flannel|flanelle|check|carreaux"),
+    ("oxford", r"oxford|button.?down"), ("bottes", r"boot|botte"), ("mocassins", r"loafer|mocassin|derby"),
+    ("baskets", r"sneaker|trainer|basket|runner"), ("casquette", r"\bcap\b|casquette"), ("bonnet", r"beanie|bonnet"), ("sac", r"bag|tote|sac"),
+]
+
+
+def sous_type(cat, nom):
+    for nom_st, motif in SOUS_TYPES:
+        if re.search(motif, nom, re.I):
+            return f"{cat}:{nom_st}"
+    return f"{cat}:autre"
+
+
+def analyser(p, b, dev, taux, nouveaute=False):
+    """Article en promo (par défaut) ou, avec nouveaute=True, article récent même sans remise."""
     if genre(p) == "femme":
         return None
     if EXCLURE.search(f"{p['title']} {p.get('product_type', '')} {' '.join(p.get('tags', []) if isinstance(p.get('tags'), list) else [p.get('tags', '')])}"):
@@ -132,10 +159,12 @@ def analyser(p, b, dev, taux):
         return None
     v = min(dispo, key=lambda x: float(x["price"]))
     prix, avant = float(v["price"]), float(v.get("compare_at_price") or 0)
-    if not avant or avant <= prix:
-        return None
-    remise = round((1 - prix / avant) * 100)
-    if remise < REMISE_MIN:
+    remise = round((1 - prix / avant) * 100) if avant > prix else 0
+    if nouveaute:
+        if remise >= REMISE_MIN:  # déjà dans les promos
+            return None
+        avant = avant if avant > prix else prix
+    elif remise < REMISE_MIN:
         return None
     idx = next((i for i, o in enumerate(p.get("options", [])) if TAILLES.match(o.get("name", ""))), None)
     tailles = []
@@ -148,14 +177,15 @@ def analyser(p, b, dev, taux):
     if not images:
         return None
     eur = round(prix * taux.get(dev, 1), 2)
-    if eur > PRIX_MAX_EUR:
+    if eur > (PRIX_MAX_NEUF if nouveaute else PRIX_MAX_EUR):
         return None
     return {
         "id": f"{b['domaine'].split('.')[0]}-{p['id']}", "boutique": b["nom"], "domaine": b["domaine"], "origine": b["origine"], "pays": b.get("pays", b["origine"]),
-        "marque": p.get("vendor") or b["nom"], "nom": p["title"], "categorie": cat, "type": p.get("product_type", ""),
+        "marque": p.get("vendor") or b["nom"], "nom": p["title"], "categorie": cat, "fam": sous_type(cat, p["title"]), "type": p.get("product_type", ""),
         "prix": prix, "avant": avant, "devise": dev, "remise": remise, "prix_eur": eur, "avant_eur": round(avant * taux.get(dev, 1), 2),
         "tailles": tailles[:12], "images": images, "lien": f"https://{b['domaine']}/products/{p['handle']}",
         "styles_indice": b.get("styles", []), "description": re.sub(r"<[^>]+>", " ", p.get("body_html") or "")[:300].strip(),
+        **({"sortie": (p.get("published_at") or p.get("created_at") or "")[:10]} if nouveaute else {}),
     }
 
 
@@ -182,28 +212,38 @@ def score(x):
 # --- IA : sélection et tenues ---------------------------------------------
 
 URL = os.getenv("LLM_API_URL", "").strip() or "https://generativelanguage.googleapis.com/v1beta/openai/chat/completions"
-CONSIGNE = """Tu es styliste et chasseur de bonnes affaires pour un homme jeune, au budget serré, qui aime le streetwear,
-le workwear, le minimal et le old money (références : Aimé Leon Dore, Carhartt WIP, COS, Ralph Lauren). On te donne des
-articles réellement en promo, avec leur prix en euros. Réponds UNIQUEMENT en JSON :
-{
- "pieces": [{"id": "...", "styles": ["workwear|streetwear|minimal|oldmoney", ...], "forte": true|false,
-             "pourquoi": "ton avis en 1 phrase courte, façon média streetwear qui parle à sa commu (tutoiement, direct, sans
-                          blabla marketing) : ce qui rend la pièce intéressante à ce prix. Ex. : « Un vrai ripstop Stan Ray à 42 balles, tu
-                          le portes cinq ans. »"}],
- "coup": "id de la meilleure affaire du jour (belle pièce, grosse remise, prix bas)",
- "tenues": [{"style": "workwear|streetwear|minimal|oldmoney", "nom": "nom court qui sonne naturel (2 à 4 mots, pas de jeu de mots forcé)",
-             "accroche": "1 phrase en tutoiement : pour quelle occasion, quelle vibe",
+RAYONS = {
+    "workwear": "vestes de travail, toiles épaisses, denim brut, chore jackets, cargos, bottes (esprit Carhartt WIP, Stan Ray, Dickies)",
+    "streetwear": "hoodies lourds, puffers, cargos amples, pièces graphiques, skate, sneakers (esprit Stüssy, Patta, Arte Antwerp)",
+    "minimal": "coupes nettes, couleurs neutres, belles matières, sans gros logo (esprit COS, Norse Projects, Uniqlo U)",
+    "oldmoney": "maille, polos, chemises oxford, velours côtelé, mocassins, esprit preppy discret (esprit Ralph Lauren, Drake's)",
+}
+CONSIGNE = """Tu es le sélectionneur d'un média streetwear français (esprit Camino TV). Ton lecteur est un homme jeune, au budget
+serré, qui cherche des PÉPITES : des pièces qui ont un vrai intérêt (matière, coupe, marque respectée, détail qui change tout)
+à petit prix. Il en a marre des listes de vestes qui se ressemblent toutes.
+Rayon du jour : {style} — {description}.
+On te donne des articles réellement {quoi}, avec leur prix en euros. Réponds UNIQUEMENT en JSON :
+{{
+ "pieces": [{{"id": "...", "styles": ["workwear|streetwear|minimal|oldmoney", ...], "note": 0 à 10,
+             "pourquoi": "si note ≥ 7 : ton avis en 1 phrase courte, tutoiement, direct, sans blabla marketing, qui dit ce que la
+                          pièce a de spécial à ce prix. Sinon chaîne vide."}}]{tenues_schema}
+}}
+Règles :
+- Note CHAQUE article, sévèrement : 9-10 = pépite rare ; 7-8 = bonne affaire solide ; 5-6 = correct mais banal ; moins de 5 =
+  sans intérêt, hors style du rayon, ou pièce qu'on voit partout. Au plus {max_hauts} articles à 8 ou plus.
+- ANTI-DOUBLONS : si plusieurs pièces se ressemblent (même type, même marque, même esprit), une seule peut avoir 8+ ; baisse
+  les autres à 6 ou moins. Varie les types de pièces dans tes meilleures notes (veste, maille, pantalon, chaussures…).
+- "styles" : le ou les vrais styles de la pièce (pas forcément le rayon).
+- Privilégie les prix bas et les marques qui valent le coup d'être découvertes. N'invente aucun id.{tenues_regles}"""
+TENUES_SCHEMA = """,
+ "tenues": [{"nom": "nom court qui sonne naturel (2 à 4 mots)", "accroche": "1 phrase en tutoiement : pour quelle occasion, quelle vibe",
              "articles": ["id", "id", ...],
              "complements": [{"piece": "ex. : t-shirt blanc épais", "ou": "ex. : Uniqlo U", "prix": "ex. : 20 à 30 €"}],
-             "conseils": ["3 conseils concrets pour la porter : proportions, couleurs, chaussures"]}]
-}
-Règles :
-- "pieces" : classe CHAQUE article fourni. "forte" = pièce marquante (belle matière, coupe, coloris) à vrai bon prix.
-- "tenues" : 2 tenues par style (8 au total), chacune avec 2 à 4 articles de la liste (différentes catégories : haut, bas,
-  couche, chaussures…) qui vont vraiment ensemble (couleurs, matières, esprit). Complète avec 1 à 3 pièces basiques
-  abordables qui ne sont pas dans la liste (marques à petits prix : Uniqlo, Kiabi, H&M, Decathlon, Dickies, Levi's, Vans…),
-  40 € maximum chacune, jamais de pièces de luxe en complément.
-- Privilégie les prix bas : le lecteur a peu d'argent. N'invente aucun id."""
+             "conseils": ["3 conseils concrets pour la porter : proportions, couleurs, chaussures"]}]"""
+TENUES_REGLES = """
+- "tenues" : 2 tenues dans le style du rayon, chacune avec 2 à 4 articles de la liste (catégories différentes : haut, bas,
+  couche, chaussures…) qui vont vraiment ensemble. Complète avec 1 à 3 basiques abordables hors liste (Uniqlo, Kiabi, H&M,
+  Decathlon, Dickies, Levi's, Vans…), 40 € maximum chacun."""
 
 
 CONTEXTE = f"""
@@ -211,31 +251,34 @@ Contexte du jour :
 - Saison : {SAISON} ({MAINTENANT.strftime('%d/%m')}). Raisonne comme un acheteur logique : en saison froide, priorité aux
   vestes, maille, sweats, surchemises, pantalons épais et chaussures ; les t-shirts restent utiles en sous-couche mais ne
   sont pas la priorité. Les tenues doivent être portables MAINTENANT (pas de short en hiver).
-- Le lecteur vit en France : favorise les boutiques françaises (FR), puis européennes (BE, NL, DK, DE, IT, SE, PT).
-  Royaume-Uni (UK) et États-Unis (US) = douane et TVA en plus : au plus UNE pièce UK/US par tenue, et le "coup" doit venir
-  de France ou de l'UE.
+- Le lecteur vit en France : favorise les boutiques françaises (FR), puis européennes. Royaume-Uni (UK) et États-Unis (US) =
+  douane et TVA en plus : au plus UNE pièce UK/US par tenue.
 - Fiabilité de la boutique (avis clients) : "fiable" et "correct" d'abord ; "mitige" seulement si la pièce vaut vraiment le
-  coup ; JAMAIS de pièce "prudence" dans une tenue ni comme "coup"."""
+  coup ; JAMAIS de pièce "prudence" dans une tenue."""
 
 
-def demander_ia(candidats):
+def ligne(x):
+    return (f"{x['id']} | {x['marque']} | {x['nom']} | {x['categorie']} | {x['prix_eur']:.0f} €"
+            + (f" (−{x['remise']} %)" if x["remise"] else "") + f" | expédié de {x.get('pays', x['origine'])} | boutique {x.get('fiab', '?')}")
+
+
+def demander_ia(consigne, candidats):
     cle = os.getenv("LLM_API_KEY", "").strip()
-    if not cle:
+    if not cle or not candidats:
         return None
     s = requests.Session()
     s.headers.update({"Authorization": f"Bearer {cle}", "Content-Type": "application/json"})
-    lignes = "\n".join(f"{x['id']} | {x['marque']} | {x['nom']} | {x['categorie']} | {x['prix_eur']:.0f} € (−{x['remise']} %) | "
-                       f"expédié de {x.get('pays', x['origine'])} | boutique {x.get('fiab', '?')} | indice {','.join(x['styles_indice'])}" for x in candidats)
+    lignes = "\n".join(ligne(x) for x in candidats)
     modeles = [os.getenv("LLM_MODEL", "").strip()] if os.getenv("LLM_MODEL", "").strip() else \
-        ["gemini-flash-latest", "gemini-2.5-flash", "gemini-flash-lite-latest", "gemini-2.5-flash-lite"]
+        ["gemini-flash-latest", "gemini-flash-lite-latest", "gemini-2.5-flash-lite"]
     for m in modeles:
         for essai in range(2):
             try:
-                r = s.post(URL, timeout=170, json={"model": m, "temperature": 0.5,
-                                                  "messages": [{"role": "system", "content": CONSIGNE + CONTEXTE}, {"role": "user", "content": lignes}]})
+                r = s.post(URL, timeout=150, json={"model": m, "temperature": 0.4,
+                                                  "messages": [{"role": "system", "content": consigne + CONTEXTE}, {"role": "user", "content": lignes}]})
             except requests.RequestException as e:
                 print(f"  ({m} : pas de réponse, {type(e).__name__})")
-                continue
+                break
             if r.status_code != 200:
                 print(f"  ({m} : {r.status_code})")
                 if r.status_code in (429, 503) and essai == 0:
@@ -251,6 +294,36 @@ def demander_ia(candidats):
             except json.JSONDecodeError:
                 print(f"  ({m} : réponse illisible)")
     return None
+
+
+def varies(articles, n, par_boutique=6, par_fam=5):
+    """Les n meilleurs articles (par rang) sans empiler la même boutique ni le même type de pièce."""
+    cb, cf, out = {}, {}, []
+    for a in articles:
+        if cb.get(a["boutique"], 0) >= par_boutique or cf.get(a["fam"], 0) >= par_fam:
+            continue
+        cb[a["boutique"]] = cb.get(a["boutique"], 0) + 1
+        cf[a["fam"]] = cf.get(a["fam"], 0) + 1
+        out.append(a)
+        if len(out) >= n:
+            break
+    return out
+
+
+def appliquer_notes(rep, par_id):
+    for p in (rep or {}).get("pieces", []):
+        a = par_id.get(p.get("id"))
+        try:
+            note = float(p.get("note", 0))
+        except (TypeError, ValueError):
+            note = 0
+        if a and note >= a.get("note", -1):
+            a["note"] = note
+            st = [x for x in p.get("styles", []) if x in RAYONS]
+            if st:
+                a["styles"] = st
+            if (p.get("pourquoi") or "").strip():
+                a["pourquoi"] = p["pourquoi"].strip()
 
 
 # --- Photos portées : on repère, parmi les photos de la boutique, celle où un mannequin porte l'article ---
@@ -318,7 +391,8 @@ def photos_portees(articles):
 def main():
     cfg = json.loads((Path(__file__).parent / "boutiques.json").read_text(encoding="utf-8"))["boutiques"]
     taux = taux_eur()
-    articles, bilan = [], []
+    articles, neufs, bilan = [], [], []
+    depuis = (MAINTENANT - timedelta(days=JOURS_NEUF)).isoformat()
     for b in cfg:
         dev, pays_meta, livre_fr = boutique_meta(b["domaine"])
         if livre_fr is False:
@@ -326,19 +400,29 @@ def main():
             bilan.append({"boutique": b["nom"], "lus": 0, "gardes": 0, "devise": dev, "origine": b["origine"], "exclue": "ne livre pas la France"})
             continue
         brut = produits(b)
-        if b.get("mixte"):
-            par_tag = [p for p in brut if genre(p) == "homme"]
-            if len(par_tag) >= max(10, len(brut) // 5):
-                brut = par_tag
-            else:
-                hommes = ids_homme(b)
-                garde = [p for p in brut if p["id"] in (hommes or ())]
-                if len(garde) >= max(10, len(brut) // 5):
-                    brut = garde
+        catalogue = brut if not b.get("collection") else produits(b | {"collection": None})[:500]  # pour les nouveautés
+        hommes = None
+
+        def garder_homme(liste):
+            nonlocal hommes
+            if not b.get("mixte"):
+                return liste
+            par_tag = [p for p in liste if genre(p) == "homme"]
+            if len(par_tag) >= max(10, len(liste) // 5):
+                return par_tag
+            if hommes is None:
+                hommes = ids_homme(b) or set()
+            garde = [p for p in liste if p["id"] in hommes]
+            return garde if len(garde) >= max(10, len(liste) // 5) else liste
+
+        brut = garder_homme(brut)
         gardes = [a for a in (analyser(p, b, dev, taux) for p in brut) if a]
-        print(f"🛍️  {b['nom']:16} {len(brut):4} produits lus, {len(gardes):3} vraies affaires ({dev})")
-        bilan.append({"boutique": b["nom"], "lus": len(brut), "gardes": len(gardes), "devise": dev, "origine": b["origine"]})
+        recents = [p for p in (catalogue if catalogue is brut else garder_homme(catalogue)) if (p.get("published_at") or "") >= depuis]
+        nv = sorted((a for a in (analyser(p, b, dev, taux, nouveaute=True) for p in recents) if a), key=lambda a: a["sortie"], reverse=True)[:14]
+        print(f"🛍️  {b['nom']:16} {len(brut):4} produits lus, {len(gardes):3} vraies affaires, {len(nv):2} nouveautés ({dev})")
+        bilan.append({"boutique": b["nom"], "lus": len(brut), "gardes": len(gardes), "neufs": len(nv), "devise": dev, "origine": b["origine"]})
         articles += gardes
+        neufs += nv
         time.sleep(1)
     # grandes enseignes hors Shopify (Zara, Uniqlo) : remise d'au moins 20 %, ou « prix spécial » Zara à 40 € max
     import enseignes
@@ -349,57 +433,88 @@ def main():
             print(f"  ✗ {f.__name__} : {e}")
             lot = []
         gardes = [a for a in lot if not EXCLURE.search(a["nom"]) and (a["remise"] >= 20 or (a.get("prix_special") and a["prix_eur"] <= 40))]
+        for a in gardes:
+            a["fam"] = sous_type(a["categorie"], a["nom"])
         bilan.append({"boutique": f.__name__.capitalize(), "lus": len(lot), "gardes": len(gardes), "devise": "EUR", "origine": "UE"})
         articles += gardes
     # fiabilité de la boutique (avis clients vérifiés, mode/avis.json)
     import fiabilite
     avis = fiabilite.charger_avis()["boutiques"]
-    for a in articles:
+    for a in articles + neufs:
         a["fiab"] = fiabilite.niveau(avis.get(a["boutique"]))
-    # une même pièce dans plusieurs coloris : on garde le meilleur coloris par modèle
-    vus, uniques = set(), []
+    neufs = [a for a in neufs if a["fiab"] != "prudence"]
+
+    # --- anti-similarité : un coloris par modèle, 3 pièces max par marque et par type, 120 max par boutique
+    vus, compte, par_b, uniques = set(), {}, {}, []
     for a in sorted(articles, key=score, reverse=True):
         cle = (a["marque"].lower(), re.sub(r"\s*[-–(].*$", "", a["nom"].lower()))
-        if cle in vus:
+        k = (a["marque"].lower(), a["fam"])
+        if cle in vus or compte.get(k, 0) >= 3 or par_b.get(a["boutique"], 0) >= 120:
             continue
         vus.add(cle)
+        compte[k] = compte.get(k, 0) + 1
+        par_b[a["boutique"]] = par_b.get(a["boutique"], 0) + 1
         uniques.append(a)
-    # variété : pas plus de 16 modèles par boutique dans ce qu'on montre à l'IA
-    par_boutique, candidats = {}, []
-    for a in uniques:
-        if par_boutique.get(a["boutique"], 0) < 16:
-            par_boutique[a["boutique"]] = par_boutique.get(a["boutique"], 0) + 1
-            candidats.append(a)
-    candidats = candidats[:150]
-    print(f"→ {len(articles)} affaires, {len(uniques)} modèles distincts, {len(candidats)} envoyés à l'IA")
-    rep = demander_ia(candidats) or {}
     par_id = {a["id"]: a for a in uniques}
-    for p in rep.get("pieces", []):
-        a = par_id.get(p.get("id"))
-        if a:
-            a["styles"] = [s for s in p.get("styles", []) if s in ("workwear", "streetwear", "minimal", "oldmoney")] or a["styles_indice"]
-            a["forte"] = bool(p.get("forte"))
-            a["pourquoi"] = (p.get("pourquoi") or "").strip()
+    print(f"→ {len(articles)} affaires, {len(uniques)} gardées après tri des doublons et des pièces trop semblables")
+
+    # --- l'IA note chaque rayon (sévèrement) et compose 2 tenues par style
+    tenues, modele = [], None
+    for style, description in RAYONS.items():
+        cands = varies([a for a in uniques if style in a["styles_indice"]], 70)
+        rep = demander_ia(CONSIGNE.format(style=style, description=description, quoi="en promo", max_hauts=14,
+                                          tenues_schema=TENUES_SCHEMA, tenues_regles=TENUES_REGLES), cands)
+        print(f"  rayon {style} : {len(cands)} candidats, {'noté par ' + rep['_modele'] if rep else 'IA indisponible'}")
+        appliquer_notes(rep, par_id)
+        for t in (rep or {}).get("tenues", []):
+            ids = list(dict.fromkeys(i for i in t.get("articles", []) if i in par_id))
+            if len(ids) >= 2 and not any(par_id[i].get("fiab") == "prudence" for i in ids):
+                tenues.append(t | {"style": style, "articles": ids})
+        modele = (rep or {}).get("_modele") or modele
+        time.sleep(6)
     for a in uniques:
         a.setdefault("styles", a["styles_indice"])
-        a.setdefault("forte", False)
-    tenues = []
-    for t in rep.get("tenues", []):
-        ids = [i for i in t.get("articles", []) if i in par_id]
-        if any(par_id[i].get("fiab") == "prudence" for i in ids):
-            continue
-        if len(ids) >= 2 and t.get("style") in ("workwear", "streetwear", "minimal", "oldmoney"):
-            t["articles"] = ids
-            tenues.append(t)
-    coup = rep.get("coup") if rep.get("coup") in par_id else None
-    if (not coup or par_id[coup]["prix_eur"] > 70 or par_id[coup]["origine"] != "UE"
-                     or par_id[coup].get("fiab") in ("mitige", "prudence")
-                     or POIDS.get(par_id[coup]["categorie"], 1) < 2) and uniques:  # le plan du jour suit la saison  # petit budget : le coup du jour reste abordable
-        abordables = [a for a in uniques if a["prix_eur"] <= 70 and a["origine"] == "UE" and POIDS.get(a["categorie"], 1) >= 2
-                      and a.get("fiab") in ("fiable", "correct", "enseigne") and a["remise"] >= 30]
-        coup = max(abordables or uniques, key=lambda a: score(a) + (3 if a.get("forte") else 0))["id"]
-    a_voir = list(dict.fromkeys([i for t in tenues for i in t["articles"]] + ([coup] if coup else [])
-                                 + [a["id"] for a in sorted(uniques, key=score, reverse=True) if a.get("forte")][:40]))
+        a["forte"] = a.get("note", 0) >= 8
+        a["rang"] = round(score(a), 2)
+
+    # --- la sélection : les mieux notées de chaque style, sans deux fois la même marque ni le même type
+    selection = []
+    for style in RAYONS:
+        cm, cf, n = {}, {}, 0
+        for a in sorted((x for x in uniques if x.get("note", 0) >= 7 and style in x["styles"] and x["fiab"] != "prudence"),
+                        key=lambda x: (x["note"], x["rang"]), reverse=True):
+            m = a["marque"].lower()
+            if a["id"] in selection or cm.get(m, 0) >= 2 or cf.get(a["fam"], 0) >= 2:
+                continue
+            cm[m], cf[a["fam"]], n = cm.get(m, 0) + 1, cf.get(a["fam"], 0) + 1, n + 1
+            selection.append(a["id"])
+            if n >= 14:
+                break
+    print(f"→ sélection : {len(selection)} pépites")
+
+    # --- le plan du jour : une pépite de saison, abordable, expédiée de France ou d'UE par une boutique fiable
+    eligibles = [a for a in uniques if a["prix_eur"] <= 70 and a["origine"] == "UE" and POIDS.get(a["categorie"], 1) >= 2
+                 and a.get("fiab") in ("fiable", "correct", "enseigne") and a["remise"] >= 30]
+    coup = max(eligibles or uniques, key=lambda a: a.get("note", 0) * 2 + score(a))["id"] if uniques else None
+
+    # --- sans promo : les sorties récentes, notées par l'IA pour les styles du lecteur
+    vus_n, neufs_u = set(), []
+    for a in sorted(neufs, key=lambda a: a["sortie"], reverse=True):
+        cle = (a["marque"].lower(), re.sub(r"\s*[-–(].*$", "", a["nom"].lower()))
+        if cle not in vus_n and a["id"] not in par_id:
+            vus_n.add(cle)
+            neufs_u.append(a)
+    cands = varies(neufs_u, 150, par_boutique=7, par_fam=14)
+    rep = demander_ia(CONSIGNE.format(style="les nouveautés", description="sorties récentes dans les quatre styles du lecteur : streetwear, workwear, minimal, old money",
+                                      quoi="sortis ces dernières semaines (sans promo)", max_hauts=30, tenues_schema="", tenues_regles=""), cands)
+    par_id_n = {a["id"]: a for a in cands}
+    appliquer_notes(rep, par_id_n)
+    for a in cands:
+        a.setdefault("styles", a["styles_indice"])
+    nouveautes = sorted((a for a in cands if a.get("note", 6 if not rep else 0) >= 6), key=lambda a: (a.get("note", 0), a["sortie"]), reverse=True)[:72]
+    print(f"→ sans promo : {len(neufs)} sorties récentes, {len(cands)} montrées à l'IA, {len(nouveautes)} gardées")
+
+    a_voir = list(dict.fromkeys([i for t in tenues for i in t["articles"]] + ([coup] if coup else []) + selection[:30]))
     n = photos_portees([par_id[i] for i in a_voir])
     print(f"📸 {n} photos portées trouvées sur {len(a_voir)} articles vérifiés")
     # première apparition de chaque article : sert à « Ça vient de tomber »
@@ -418,18 +533,16 @@ def main():
     limite = (MAINTENANT - timedelta(days=60)).date().isoformat()
     f_vus.parent.mkdir(exist_ok=True)
     f_vus.write_text(json.dumps({k: v for k, v in deja.items() if k == "_debut" or v >= limite}, separators=(",", ":")), encoding="utf-8")
-    for a in uniques:
-        a["rang"] = round(score(a), 2)
-    for a in uniques:  # allège le fichier lu par le site (téléphone)
+    for a in uniques + nouveautes:  # allège le fichier lu par le site (téléphone)
         for k in ("description", "styles_indice", "type", "prix", "avant", "devise", "domaine", "vu_le"):
             a.pop(k, None)
         a["images"] = a["images"][:2] + ([a["porte"]] if a.get("porte") and a["porte"] not in a["images"][:2] else [])
     SORTIE.parent.mkdir(parents=True, exist_ok=True)
     SORTIE.write_text(json.dumps({
-        "maj": MAINTENANT.isoformat(), "saison": SAISON, "poids": POIDS, "modele": rep.get("_modele"), "taux": {k: round(v, 4) for k, v in taux.items() if k in ("GBP", "USD", "DKK")},
-        "bilan": bilan, "coup": coup, "tenues": tenues, "articles": uniques,
+        "maj": MAINTENANT.isoformat(), "saison": SAISON, "poids": POIDS, "modele": modele, "taux": {k: round(v, 4) for k, v in taux.items() if k in ("GBP", "USD", "DKK")},
+        "bilan": bilan, "coup": coup, "selection": selection, "tenues": tenues, "articles": uniques, "nouveautes": nouveautes,
     }, ensure_ascii=False, separators=(",", ":")), encoding="utf-8")
-    print(f"✅ {len(uniques)} articles, {len(tenues)} tenues, coup du jour : {coup} ({rep.get('_modele')})")
+    print(f"✅ {len(uniques)} promos, {len(selection)} pépites, {len(nouveautes)} sans promo, {len(tenues)} tenues, plan du jour : {coup} ({modele})")
 
 
 if __name__ == "__main__":

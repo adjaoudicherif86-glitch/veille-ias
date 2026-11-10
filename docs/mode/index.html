@@ -112,6 +112,31 @@ h2{font-stretch:112%;font-weight:900;font-size:clamp(24px,3vw,36px);letter-spaci
 .marque-filtre{display:inline-flex;gap:8px;align-items:center;background:var(--sticker);border-radius:999px;padding:6px 8px 6px 13px;font-size:13.5px;font-weight:700}
 .marque-filtre button{border:0;background:var(--noir);color:var(--blanc);border-radius:999px;width:22px;height:22px;cursor:pointer;line-height:1}
 
+/* étiquette prix sans promo */
+.sticker.tag{background:var(--noir);color:var(--blanc);transform:none;box-shadow:none}
+.sticker.tag .r{font-weight:500}
+/* panneau article */
+dialog.panneau{border:0;padding:0;margin:0 0 0 auto;height:100dvh;max-height:100dvh;width:min(560px,100vw);max-width:100vw;background:var(--blanc);color:var(--noir);overflow-y:auto;overscroll-behavior:contain}
+dialog.panneau::backdrop{background:rgba(0,0,0,.45)}
+.pn-tete{position:sticky;top:0;z-index:2;background:var(--blanc);display:flex;justify-content:space-between;align-items:center;padding:12px 18px;border-bottom:1px solid var(--trait);font-weight:700}
+.pn-tete button{border:0;background:var(--noir);color:var(--blanc);border-radius:999px;padding:8px 16px;font-weight:700;cursor:pointer}
+.pn-photos{display:grid;grid-auto-flow:column;grid-auto-columns:78%;gap:4px;overflow-x:auto;scroll-snap-type:x mandatory;background:var(--photo)}
+.pn-photos.seule{grid-auto-columns:100%}
+.pn-photos img{width:100%;aspect-ratio:3/4;object-fit:cover;scroll-snap-align:start}
+.pn-corps{padding:18px 18px 8px}
+.pn-corps h2{font-stretch:75%;font-size:clamp(30px,6vw,40px);line-height:.95;text-transform:uppercase;letter-spacing:0;margin:4px 0 10px}
+.pn-prix{display:flex;align-items:center;gap:14px;flex-wrap:wrap;margin:6px 0 12px}
+.pn-corps .av{font-size:17px;line-height:1.35;font-weight:500;margin:10px 0}
+.pn-corps .lg2{font-size:14px;color:var(--gris);margin-top:8px}
+.pn-corps .cta{margin-top:16px;width:100%;justify-content:center}
+.pn-sim{padding:10px 18px 30px}
+.pn-sim h3{font-stretch:112%;font-weight:900;font-size:22px;letter-spacing:-.02em;margin:18px 0 12px;padding-top:18px;border-top:1px solid var(--trait)}
+.pn-sim .grille{grid-template-columns:repeat(2,minmax(0,1fr));gap:20px 10px;padding:0}
+.mini .av,.mini .t,.mini .fiab{display:none}
+.mini .sticker .p{font-size:19px}
+.voir-tout{display:flex;justify-content:center;padding:26px 0 40px}
+.intro-sel{display:flex;justify-content:space-between;align-items:baseline;gap:14px;flex-wrap:wrap;margin-bottom:4px}
+.intro-sel p{color:var(--gris);font-size:14.5px;max-width:60ch}
 /* fiabilité */
 .fiab{display:inline-flex;align-items:center;gap:6px;font-size:12.5px;font-weight:600;margin-top:6px;color:var(--noir)}
 .fiab::before{content:"";width:8px;height:8px;border-radius:50%;background:var(--c,#9a9a9a);flex:none}
@@ -176,6 +201,11 @@ footer .logo{color:var(--blanc);font-size:24px;margin-bottom:14px}
 footer p{max-width:72ch;margin-top:8px}
 footer b{color:var(--blanc);font-weight:600}
 .vide{padding:70px 0;text-align:center;color:var(--gris)}
+@media (max-width:1020px){
+  .tete .wrap{flex-wrap:wrap;height:auto;padding-top:12px;padding-bottom:8px;gap:8px}
+  .vues{width:100%;overflow-x:auto;scrollbar-width:none;margin:0 -4px}
+  .vues button{white-space:nowrap}
+}
 @media (max-width:760px){
   .plan{grid-template-columns:1fr}
   .tete .wrap{height:62px}
@@ -195,7 +225,9 @@ footer b{color:var(--blanc);font-weight:600}
   <div class="wrap">
     <a class="logo" href="#" data-vue="plans">Pièce Unique</a>
     <nav class="vues" aria-label="Rubriques">
-      <button data-vue="plans">Bons plans</button>
+      <button data-vue="plans">La sélection</button>
+      <button data-vue="tout">Toutes les promos</button>
+      <button data-vue="neuf">Sans promo</button>
       <button data-vue="fits">Les fits</button>
       <button data-vue="marques">Marques</button>
       <button data-vue="fiab">Fiabilité</button>
@@ -204,12 +236,13 @@ footer b{color:var(--blanc);font-weight:600}
 </header>
 <nav class="styles" aria-label="Styles"><div class="wrap" id="styles"></div></nav>
 <main id="vue"></main>
+<dialog class="panneau" id="panneau" aria-label="Détail de la pièce"></dialog>
 <footer>
   <div class="wrap">
     <div class="logo">Pièce Unique</div>
     <p id="maj"></p>
     <p id="boutiques"></p>
-    <p>Les prix sont convertis en euros au taux du jour. On garde les remises d'au moins 30 % (20 % chez Zara et Uniqlo) sur le prix boutique, avec au moins deux tailles en stock. Le classement tient compte de la saison, met en avant les boutiques françaises puis européennes, et les boutiques bien notées par leurs clients. Pour les boutiques au Royaume-Uni et aux États-Unis, la douane et la TVA peuvent s'ajouter à la livraison.</p>
+    <p>Les prix sont convertis en euros au taux du jour. On garde les remises d'au moins 30 % (20 % chez Zara et Uniqlo) sur le prix boutique, avec au moins deux tailles en stock. La sélection est notée par une IA, style par style, avec la consigne d'écarter les pièces qui se ressemblent. Le classement tient compte de la saison, met en avant les boutiques françaises puis européennes, et les boutiques bien notées par leurs clients. Pour les boutiques au Royaume-Uni et aux États-Unis, la douane et la TVA peuvent s'ajouter à la livraison.</p>
   </div>
 </footer>
 <script>
@@ -235,7 +268,8 @@ const eur=n=>Math.round(n).toLocaleString("fr-FR")+" €";
 function sauver(){try{localStorage.setItem("pu2",JSON.stringify({style:etat.style,budget:etat.budget,tri:etat.tri,photos:etat.photos,fiables:etat.fiables}))}catch(e){}}
 function note(a){if(a.rang!=null)return a.rang+(a.forte?2.5:0)+(a.nouveau?1:0);const p={veste:3,maille:3,surchemise:3,pantalon:2.6,chaussures:2.4,chemise:2.2,sweat:2,tshirt:1,short:.6,accessoire:.8}[a.categorie]||1;
   return a.remise/10+p+(a.prix_eur<=40?2:a.prix_eur<=70?1.3:a.prix_eur<=110?.7:0)+(a.forte?2.5:0)+(a.origine==="UE"?.8:0)+(a.nouveau?1:0)}
-const sticker=(a,xl)=>`<span class="sticker${xl?" xl":""}${a.remise?"":" special"}"><span class="p">${eur(a.prix_eur)}</span><span class="r">${a.remise?"−"+a.remise+" %":"Prix spécial"}</span></span>`;
+const sticker=(a,xl)=>a.sortie&&!a.remise?`<span class="sticker tag${xl?" xl":""}"><span class="p">${eur(a.prix_eur)}</span><span class="r">Sorti le ${jourCourt(a.sortie)}</span></span>`
+  :`<span class="sticker${xl?" xl":""}${a.remise?"":" special"}"><span class="p">${eur(a.prix_eur)}</span><span class="r">${a.remise?"−"+a.remise+" %":"Prix spécial"}</span></span>`;
 function badge(a){const f=fParNom[a.boutique],n=a.fiab||(f&&f.niveau)||"inconnu",v=f&&f.avis;
   return `<a class="fiab f-${n}" href="#" data-fiche="${esc(a.boutique)}">${NIV[n]}${v&&v.note?` <small title="${v.avis} avis ${esc(v.source)}">${String(v.note).replace(".",",")}/5</small>`:""}</a>`}
 const avisIA=a=>String(a.pourquoi||"").replace(/^[\s«"“]+|[\s»"”]+$/g,"");
@@ -243,10 +277,10 @@ const fiableOk=a=>!etat.fiables||["fiable","correct","enseigne"].includes(a.fiab
 const douane=a=>a.pays==="FR"?`<span style="color:#0b3d91;font-weight:600">Expédié de France</span>`:a.origine==="UE"?"":`<span class="douane">Envoi depuis le ${PAYS[a.origine]||a.origine}, douane possible</span>`;
 const styleOk=a=>(etat.style==="tous"||(a.styles||[]).includes(etat.style))&&fiableOk(a);
 
-function fiche(a){
+function fiche(a,mini){
   const b=a.porte&&a.porte!==a.images[0]?a.porte:a.images[1];
-  return `<article class="fiche">
-    <a class="photo" href="${esc(a.lien)}" target="_blank" rel="noopener" aria-label="${esc(marque(a)+" "+a.nom)} chez ${esc(a.boutique)}">
+  return `<article class="fiche${mini===true?" mini":""}">
+    <a class="photo" href="${esc(a.lien)}" data-art="${esc(a.id)}" target="_blank" rel="noopener" aria-label="${esc(marque(a)+" "+a.nom)} chez ${esc(a.boutique)}">
       <img src="${U(a.images[0],600)}" alt="" loading="lazy">${b?`<img class="b" src="${U(b,600)}" alt="" loading="lazy">`:""}
       <span class="marks">${a.nouveau?'<span class="mark noir">Nouveau</span>':"<span></span>"}${a.forte?'<span class="mark">Validé</span>':""}</span>
       ${sticker(a)}
@@ -254,7 +288,7 @@ function fiche(a){
     <div class="txt">
       <div class="m">${esc(marque(a))}</div>
       <div class="n">${esc(nom(a).n)}${nom(a).c?`<span style="color:var(--gris)">, ${esc(nom(a).c)}</span>`:""}</div>
-      <div class="pa">${a.remise?`Au lieu de <span class="avant">${eur(a.avant_eur)}</span>`:"Prix spécial"}${marque(a)===a.boutique?"":" chez "+esc(a.boutique)}</div>
+      <div class="pa">${a.remise?`Au lieu de <span class="avant">${eur(a.avant_eur)}</span>`:a.sortie?"Sans promo":"Prix spécial"}${marque(a)===a.boutique?"":" chez "+esc(a.boutique)}</div>
       ${badge(a)}
       ${a.pourquoi?`<p class="av">${esc(avisIA(a))}</p>`:""}
       <div class="t">${a.tailles.length?"Tailles "+esc(a.tailles.slice(0,7).join(", ")):""}${a.tailles.length&&(a.origine!=="UE"||a.pays==="FR")?"<br>":""}${douane(a)}</div>
@@ -263,14 +297,26 @@ function fiche(a){
 }
 
 // « Notre sélection » : on mélange les boutiques pour ne pas aligner 20 pièces de la même
-function varier(l){const rang={};return l.map(a=>{const r=rang[a.boutique]=(rang[a.boutique]||0)+1;return [note(a)-.7*r,a]}).sort((x,y)=>y[0]-x[0]).map(x=>x[1])}
+function varier(l){const rb={},rf={};return l.map(a=>{const r=rb[a.boutique]=(rb[a.boutique]||0)+1,f=rf[a.fam]=(rf[a.fam]||0)+1;return [note(a)-.7*r-.35*f,a]}).sort((x,y)=>y[0]-x[0]).map(x=>x[1])}
+const mots=a=>new Set(String(a.nom).toLowerCase().split(/[^a-zà-ÿ]+/).filter(m=>m.length>3));
+// « Dans le même genre » : même catégorie, puis même type de pièce, mêmes styles, prix proche, sans empiler une marque
+function similaires(a,n=8){
+  const ma=mots(a), pool=[...D.articles,...(D.nouveautes||[])], cm={}, out=[];
+  const notes=pool.filter(x=>x.id!==a.id&&x.categorie===a.categorie&&x.fiab!=="prudence").map(x=>{
+    let s=(x.fam===a.fam?4:0)+(x.styles||[]).filter(t=>(a.styles||[]).includes(t)).length*1.5;
+    s+=2-Math.min(2,Math.abs(x.prix_eur-a.prix_eur)/Math.max(20,a.prix_eur)*2);
+    s+=[...mots(x)].filter(m=>ma.has(m)).length*.8+(x.note||0)*.25+(x.remise?1:0)+(x.pays==="FR"?.5:0);
+    return [s,x]}).sort((p,q)=>q[0]-p[0]);
+  for(const [,x] of notes){const m=marque(x);if((cm[m]||0)>=2)continue;cm[m]=(cm[m]||0)+1;out.push(x);if(out.length>=n)break}
+  return out}
+const jourCourt=d=>new Date(d).toLocaleDateString("fr-FR",{day:"numeric",month:"short"});
 function vuePlans(){
   const base=D.articles.filter(styleOk);
   let h="";
   const c=parId[D.coup];
-  if(c&&etat.style==="tous"&&!etat.marque){
+  if(c&&etat.style==="tous"){
     h+=`<div class="wrap"><section class="plan">
-      <a class="photo" href="${esc(c.lien)}" target="_blank" rel="noopener"><img src="${U(c.porte||c.images[0],1000)}" alt="${esc(c.nom)}">${sticker(c,true)}</a>
+      <a class="photo" href="${esc(c.lien)}" data-art="${esc(c.id)}" target="_blank" rel="noopener"><img src="${U(c.porte||c.images[0],1000)}" alt="${esc(c.nom)}">${sticker(c,true)}</a>
       <div>
         <div class="quoi">Le plan du jour</div>
         <h1>${esc(nom(c).n)}</h1>
@@ -281,14 +327,24 @@ function vuePlans(){
         <a class="cta" href="${esc(c.lien)}" target="_blank" rel="noopener">Voir chez ${esc(c.boutique)}</a>
       </div></section></div>`;
   }
+  const sel=(D.selection&&D.selection.length?D.selection.map(i=>parId[i]).filter(Boolean):varier([...D.articles].sort((x,y)=>note(y)-note(x))).slice(0,60)).filter(styleOk);
+  h+=`<section class="rangee" style="${c&&etat.style==="tous"?"":"border-top:0"}"><div class="wrap"><div class="intro-sel"><h2>La sélection</h2><p>${sel.length} pépites choisies parmi ${D.articles.length} promos : les mieux notées de chaque style, sans deux pièces qui se ressemblent. Clique sur une pièce pour voir des articles du même genre.</p></div>
+    ${sel.length?`<div class="grille">${sel.map(a=>fiche(a)).join("")}</div>`:`<p class="vide">Pas de pépite dans ce style aujourd'hui.</p>`}</div></section>`;
   if(!etat.marque){
     const neufs=varier(base.filter(a=>a.nouveau).sort((a,b)=>note(b)-note(a))).slice(0,16);
-    if(neufs.length)h+=`<section class="rangee"><div class="wrap"><div class="titre-rangee"><h2>Ça vient de tomber</h2><p>Nouvelles remises depuis hier</p></div><div class="defile">${neufs.map(fiche).join("")}</div></div></section>`;
+    if(neufs.length)h+=`<section class="rangee"><div class="wrap"><div class="titre-rangee"><h2>Ça vient de tomber</h2><p>Nouvelles remises depuis hier</p></div><div class="defile">${neufs.map(a=>fiche(a)).join("")}</div></div></section>`;
     const petits=varier(base.filter(a=>a.prix_eur<=30&&a.categorie!=="accessoire").sort((a,b)=>note(b)-note(a))).slice(0,16);
     const ens=varier(base.filter(a=>a.enseigne).sort((a,b)=>note(b)-note(a))).slice(0,16);
-    if(ens.length)h+=`<section class="rangee"><div class="wrap"><div class="titre-rangee"><h2>Les grandes enseignes</h2><p>Zara, Uniqlo : essai et retour possibles en magasin</p></div><div class="defile">${ens.map(fiche).join("")}</div></div></section>`;
-    if(petits.length)h+=`<section class="rangee"><div class="wrap"><div class="titre-rangee"><h2>Moins de 30 balles</h2><p>${base.filter(a=>a.prix_eur<=30).length} pièces</p></div><div class="defile">${petits.map(fiche).join("")}</div></div></section>`;
+    if(ens.length)h+=`<section class="rangee"><div class="wrap"><div class="titre-rangee"><h2>Les grandes enseignes</h2><p>Zara, Uniqlo : essai et retour possibles en magasin</p></div><div class="defile">${ens.map(a=>fiche(a)).join("")}</div></div></section>`;
+    if(petits.length)h+=`<section class="rangee"><div class="wrap"><div class="titre-rangee"><h2>Moins de 30 balles</h2><p>${base.filter(a=>a.prix_eur<=30).length} pièces</p></div><div class="defile">${petits.map(a=>fiche(a)).join("")}</div></div></section>`;
   }
+  h+=`<div class="voir-tout"><button class="cta" data-vue="tout" style="border:0;cursor:pointer;margin:0">Voir les ${base.length} promos</button></div>`;
+  return h;
+}
+
+function vueTout(){
+  const base=D.articles.filter(styleOk);
+  let h="";
   let l=base.filter(a=>(etat.cat==="tous"||a.categorie===etat.cat)&&(!etat.budget||a.prix_eur<=etat.budget)&&(!etat.marque||marque(a)===etat.marque));
   l.sort(etat.tri==="prix"?(a,b)=>a.prix_eur-b.prix_eur:etat.tri==="remise"?(a,b)=>b.remise-a.remise:(a,b)=>note(b)-note(a));
   if(etat.tri==="choix")l=varier(l);
@@ -302,10 +358,19 @@ function vuePlans(){
     <span class="nb">${l.length} pièce${l.length>1?"s":""}</span>
   </div></div><div class="wrap">
     ${etat.tri==="choix"&&D.saison==="froid"&&etat.cat==="tous"?`<p class="saison">C'est la saison froide : la sélection met d'abord en avant <b>vestes, maille, sweats et pantalons épais</b>. Les t-shirts restent là, un peu plus bas.</p>`:D.saison==="chaud"&&etat.tri==="choix"&&etat.cat==="tous"?`<p class="saison">C'est l'été : la sélection met d'abord en avant <b>t-shirts, chemises et shorts</b>.</p>`:""}
-    ${l.length?`<div class="grille">${l.slice(0,etat.n).map(fiche).join("")}</div>${l.length>etat.n?`<button class="plus" id="plus">Voir ${Math.min(48,l.length-etat.n)} pièces de plus</button>`:""}`
+    ${l.length?`<div class="grille">${l.slice(0,etat.n).map(a=>fiche(a)).join("")}</div>${l.length>etat.n?`<button class="plus" id="plus">Voir ${Math.min(48,l.length-etat.n)} pièces de plus</button>`:""}`
       :`<p class="vide">Rien avec ces filtres aujourd'hui. Essaie un autre budget ou une autre catégorie.</p>`}
   </div></section>`;
   return h;
+}
+
+function vueNeuf(){
+  const base=(D.nouveautes||[]).filter(styleOk);
+  const presentes=new Set(base.map(a=>a.categorie));
+  const l=base.filter(a=>etat.cat==="tous"||a.categorie===etat.cat);
+  return `<div class="wrap"><div class="fits-tete"><div><h2>Sans promo</h2><p style="margin-top:8px">Les sorties récentes dans tes styles, au prix normal. Pour voir ce qui se fait en ce moment et repérer des marques, pas pour acheter tout de suite : si une pièce te plaît, elle finira peut-être dans la sélection.</p></div></div></div>
+  <div class="outils"><div class="wrap"><div class="cats">${Object.entries(CATS).filter(([k])=>k==="tous"||presentes.has(k)).map(([k,v])=>`<button data-cat="${k}" aria-pressed="${etat.cat===k}">${v}</button>`).join("")}</div><span class="nb">${l.length} pièce${l.length>1?"s":""}</span></div></div>
+  <div class="wrap" id="tout">${l.length?`<div class="grille">${l.map(a=>fiche(a)).join("")}</div>`:`<p class="vide">Rien de récent dans ce style pour l'instant.</p>`}</div>`;
 }
 
 function vueFits(){
@@ -319,7 +384,7 @@ function vueFits(){
     h+=`<article class="fit">
       <div class="planche" style="--n:${arts.length}">
         <span class="sticker xl" style="padding:8px 13px 10px"><span class="p" style="font-size:clamp(30px,4vw,48px)">${eur(total)}</span><span class="r">au lieu de ${eur(avant)}</span></span>
-        ${arts.map(a=>`<a href="${esc(a.lien)}" target="_blank" rel="noopener"><img src="${U(etat.photos!=="plat"&&a.porte?a.porte:a.images[0],600)}" alt="${esc(a.nom)}" loading="lazy"><span class="lg">${esc(marque(a))}</span></a>`).join("")}
+        ${arts.map(a=>`<a href="${esc(a.lien)}" data-art="${esc(a.id)}" target="_blank" rel="noopener"><img src="${U(etat.photos!=="plat"&&a.porte?a.porte:a.images[0],600)}" alt="${esc(a.nom)}" loading="lazy"><span class="lg">${esc(marque(a))}</span></a>`).join("")}
       </div>
       <div class="fit-corps">
         <div><div class="style">${STYLES[t.style]||""}</div><h3>${esc(t.nom)}</h3>${t.accroche?`<p class="acc">${esc(t.accroche)}</p>`:""}</div>
@@ -371,12 +436,30 @@ function vueFiab(){
   if((F.ecartees||[]).length)h+=`<div class="ecartees"><h2 style="font-size:24px;margin-bottom:8px">Boutiques retirées</h2><ul>${F.ecartees.map(e=>`<li><b>${esc(e.nom)}</b> : ${esc(e.raison)}</li>`).join("")}</ul></div>`;
   return h+"</div>";
 }
+function ouvrir(id){
+  const a=parId[id]; if(!a)return;
+  const pn=document.getElementById("panneau"), imgs=[...new Set([a.porte,...a.images].filter(Boolean))].slice(0,4), sim=similaires(a);
+  pn.innerHTML=`<div class="pn-tete"><span>${esc(marque(a))}</span><button data-fermer>Fermer</button></div>
+    <div class="pn-photos${imgs.length<2?" seule":""}">${imgs.map(u=>`<img src="${U(u,900)}" alt="${esc(a.nom)}">`).join("")}</div>
+    <div class="pn-corps">
+      <div class="m" style="font-weight:700">${esc(marque(a))}${nom(a).c?`<span style="color:var(--gris);font-weight:400">, ${esc(nom(a).c)}</span>`:""}</div>
+      <h2>${esc(nom(a).n)}</h2>
+      <div class="pn-prix">${sticker(a)}${a.remise?`<span>au lieu de <span class="avant">${eur(a.avant_eur)}</span></span>`:""}</div>
+      ${a.pourquoi?`<p class="av">« ${esc(avisIA(a))} »</p>`:""}
+      <div>${badge(a)}</div>
+      <p class="lg2">${a.tailles.length?"Tailles dispo : "+esc(a.tailles.join(", "))+"<br>":""}${douane(a)||"Expédié depuis l'Union européenne, sans douane"}</p>
+      <a class="cta" href="${esc(a.lien)}" target="_blank" rel="noopener">Voir chez ${esc(a.boutique)}</a>
+    </div>
+    ${sim.length?`<div class="pn-sim"><h3>Dans le même genre</h3><div class="grille">${sim.map(x=>fiche(x,true)).join("")}</div></div>`:""}`;
+  if(!pn.open)pn.showModal();
+  pn.scrollTop=0;
+}
 function rendre(haut){
   sauver();
   document.querySelectorAll(".vues button").forEach(b=>b.setAttribute("aria-current",b.dataset.vue===etat.vue));
   document.getElementById("styles").innerHTML=Object.entries(STYLES).map(([k,v])=>`<button data-style="${k}" aria-pressed="${etat.style===k}">${v}</button>`).join("");
   const v=document.getElementById("vue");
-  v.innerHTML=etat.vue==="fits"?vueFits():etat.vue==="marques"?vueMarques():etat.vue==="fiab"?vueFiab():vuePlans();
+  v.innerHTML=etat.vue==="fits"?vueFits():etat.vue==="marques"?vueMarques():etat.vue==="fiab"?vueFiab():etat.vue==="tout"?vueTout():etat.vue==="neuf"?vueNeuf():vuePlans();
   const fb=document.getElementById("fiables"); if(fb)fb.onchange=e=>{etat.fiables=e.target.checked;etat.n=48;rendre("tout")};
   const b=document.getElementById("budget"); if(b){b.value=etat.budget; b.onchange=e=>{etat.budget=+e.target.value;etat.n=48;rendre("tout")}}
   const t=document.getElementById("tri"); if(t){t.value=etat.tri; t.onchange=e=>{etat.tri=e.target.value;rendre("tout")}}
@@ -386,21 +469,26 @@ function rendre(haut){
 }
 
 document.addEventListener("click",e=>{
+  const pn=document.getElementById("panneau");
+  if(e.target===pn||e.target.closest("[data-fermer]")){pn.close();return}
+  const art=e.target.closest("[data-art]");
+  if(art&&!e.ctrlKey&&!e.metaKey&&!e.shiftKey){e.preventDefault();ouvrir(art.dataset.art);return}
+  if(pn.open&&e.target.closest("[data-fiche],[data-vue]"))pn.close();
   const fi=e.target.closest("[data-fiche]");
   if(fi){e.preventDefault();etat.vue="fiab";rendre(true);document.getElementById("f-"+fi.dataset.fiche.replace(/\W+/g,"-"))?.scrollIntoView({block:"center"});return}
   const b=e.target.closest("[data-vue],[data-style],[data-cat],[data-marque],[data-photos]"); if(!b)return;
-  if(b.dataset.vue){e.preventDefault();etat.vue=b.dataset.vue;etat.marque=null;rendre(true);return}
+  if(b.dataset.vue){e.preventDefault();etat.vue=b.dataset.vue;etat.marque=null;etat.cat="tous";etat.n=48;rendre(true);return}
   if(b.dataset.style){etat.style=b.dataset.style;etat.n=48;rendre();return}
   if(b.dataset.cat){etat.cat=b.dataset.cat;etat.n=48;rendre("tout");return}
   if(b.dataset.photos){etat.photos=b.dataset.photos;rendre();return}
-  if("marque" in b.dataset){etat.marque=b.dataset.marque||null;etat.vue="plans";etat.cat="tous";etat.n=48;rendre(etat.marque?"tout":true)}
+  if("marque" in b.dataset){etat.marque=b.dataset.marque||null;etat.vue="tout";etat.cat="tous";etat.n=48;rendre(etat.marque?"tout":true)}
 });
 
 Promise.all([fetch("data.json?"+Date.now()).then(r=>r.json()),fetch("fiabilite.json?"+Date.now()).then(r=>r.ok?r.json():{boutiques:[]}).catch(()=>({boutiques:[]}))]).then(([d,f])=>{
-  D=d; F=f; D.articles.forEach(a=>parId[a.id]=a); F.boutiques.forEach(b=>fParNom[b.boutique]=b);
-  D.articles.forEach(a=>{if(!a.fiab&&fParNom[a.boutique])a.fiab=fParNom[a.boutique].niveau});
-  const top=varier([...D.articles].filter(a=>a.categorie!=="accessoire").sort((a,b)=>note(b)-note(a))).slice(0,14);
-  const ligne=top.map(a=>`<a href="${esc(a.lien)}" target="_blank" rel="noopener">${esc(marque(a))}, ${esc(nom(a).n)} à <b>${eur(a.prix_eur)}</b></a>`).join("");
+  D=d; F=f; D.nouveautes=D.nouveautes||[]; [...D.nouveautes,...D.articles].forEach(a=>parId[a.id]=a); F.boutiques.forEach(b=>fParNom[b.boutique]=b);
+  [...D.nouveautes,...D.articles].forEach(a=>{if(!a.fiab&&fParNom[a.boutique])a.fiab=fParNom[a.boutique].niveau;if(!a.fam)a.fam=a.categorie});
+  const top=(D.selection&&D.selection.length?D.selection.map(i=>parId[i]).filter(Boolean):varier([...D.articles].filter(a=>a.categorie!=="accessoire").sort((a,b)=>note(b)-note(a)))).slice(0,14);
+  const ligne=top.map(a=>`<a href="${esc(a.lien)}" data-art="${esc(a.id)}" target="_blank" rel="noopener">${esc(marque(a))}, ${esc(nom(a).n)} à <b>${eur(a.prix_eur)}</b></a>`).join("");
   document.getElementById("ticker").innerHTML=ligne+ligne;
   const m=new Date(d.maj);
   document.getElementById("maj").innerHTML=`Mis à jour le <b>${m.toLocaleDateString("fr-FR",{weekday:"long",day:"numeric",month:"long"})} à ${m.toLocaleTimeString("fr-FR",{hour:"2-digit",minute:"2-digit"})}</b>, avec ${d.articles.length} pièces en promo et ${d.tenues.length} fits.`;
