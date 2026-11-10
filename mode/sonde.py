@@ -5,31 +5,30 @@ from pathlib import Path
 import requests
 
 UA = {"User-Agent": "Mozilla/5.0 (compatible; PieceUnique/0.1; veille personnelle)", "Accept": "application/json"}
-BOUTIQUES = [
-  "representclo.com", "stuartslondon.com", "kestin.co", "universalworks.co.uk", "olive-clothing.com", "serviceworks.co",
-  "dailypaperclothing.com", "arte-antwerp.com", "uskees.com", "percivalclothing.com", "stanray.com", "aimeleondore.com",
-  "thefrankieshop.com", "colorfulstandard.com", "portugueseflannel.com", "drakes.com", "knowledgecotton.com",
-  "bonnegueule.fr", "asphalte.com", "faguo-store.com", "maisonlabiche.com", "debonnefacture.fr", "lelaboureur.fr",
-  "norseprojects.com", "foret.dk", "nn07.com", "kardo-india.com", "dickieslife.com", "edwin-europe.com",
-  "hast.fr", "lesdeux.com", "samsoe.com", "minimum.dk", "outlandish.fr", "saintjames.com", "armorlux.com",
-  "beamsplus.com", "garbstore.com", "goodhoodstore.com", "hollandandholland.com", "nigelcabourn.com",
-  "workwearoutlet.co.uk", "taylorstitch.com", "buckmason.com", "nowmanifest.com", "lecolonel.fr",
-]
-COLLECTIONS = ["sale", "outlet", "soldes", "mens-sale", "men-sale", "sale-men", "archive-sale", "promotions", "black-friday", "last-chance"]
+CANDIDATS = Path(__file__).with_name("candidats.txt")
+BOUTIQUES = [l.strip() for l in CANDIDATS.read_text().splitlines() if l.strip() and not l.startswith("#")]
+UA_NAV = {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0 Safari/537.36", "Accept": "application/json"}
+COLLECTIONS = ["sale", "mens-sale", "sale-mens", "men-sale", "archive", "soldes-homme", "promo", "outlet-men", "outlet", "soldes", "mens-sale", "men-sale", "sale-men", "archive-sale", "promotions", "black-friday", "last-chance"]
 
 def essai(url):
-    try:
-        r = requests.get(url, headers=UA, timeout=20)
-        if r.status_code == 200 and r.headers.get("content-type", "").startswith("application/json"):
-            return r.json().get("products", None)
-        return None
-    except Exception:
-        return None
+    for h in (UA, UA_NAV):
+        try:
+            r = requests.get(url, headers=h, timeout=20)
+            if r.status_code == 200:
+                return r.json().get("products", None)
+        except Exception:
+            pass
+    return None
 
 res = []
 for d in BOUTIQUES:
     base = f"https://{d}"
     tous = essai(f"{base}/products.json?limit=250")
+    if tous is None and not d.startswith(("www.", "eu.")):
+        base = f"https://www.{d}"
+        tous = essai(f"{base}/products.json?limit=250")
+        if tous is not None:
+            d = "www." + d
     ligne = {"boutique": d, "shopify": tous is not None, "produits": len(tous or []), "soldes": None, "remises_dans_tout": 0, "devise": None}
     if tous:
         ligne["remises_dans_tout"] = sum(1 for p in tous for v in p.get("variants", [])[:1] if v.get("compare_at_price") and float(v["compare_at_price"]) > float(v["price"]))
@@ -52,7 +51,7 @@ for d in BOUTIQUES:
 # Gemini : modèles capables de produire des images
 images = []
 cle = os.getenv("LLM_API_KEY", "").strip()
-if cle:
+if cle and os.getenv("TESTER_IMAGES"):
     try:
         r = requests.get("https://generativelanguage.googleapis.com/v1beta/models", headers={"x-goog-api-key": cle}, params={"pageSize": 1000}, timeout=30)
         noms = [m["name"].split("/")[-1] for m in r.json().get("models", [])]
@@ -69,4 +68,4 @@ if cle:
         print("Gemini :", e)
 
 Path("etat").mkdir(exist_ok=True)
-Path("etat/mode-sondage.json").write_text(json.dumps({"boutiques": res, "images": images}, ensure_ascii=False, indent=1), encoding="utf-8")
+Path(os.getenv("SORTIE_SONDE", "etat/mode-sondage.json")).write_text(json.dumps({"boutiques": res, "images": images}, ensure_ascii=False, indent=1), encoding="utf-8")
