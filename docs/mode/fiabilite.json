@@ -1,0 +1,1186 @@
+{
+ "maj": "2026-11-10T11:04:31.725063+00:00",
+ "avis_verifies_le": "2026-11-10",
+ "ecartees": [
+  {
+   "domaine": "farah.co.uk",
+   "nom": "Farah",
+   "raison": "Trustpilot 2,0/5 : retours non traités, qualité en baisse"
+  },
+  {
+   "domaine": "hufworldwide.com",
+   "nom": "HUF",
+   "raison": "Trustpilot 1,6/5 : commandes annulées, remboursements difficiles, envoi des États-Unis"
+  },
+  {
+   "domaine": "rowingblazers.com",
+   "nom": "Rowing Blazers",
+   "raison": "Trustpilot 1,6/5 : remboursements refusés, commandes jamais expédiées, envoi des États-Unis"
+  }
+ ],
+ "boutiques": [
+  {
+   "boutique": "Arte Antwerp",
+   "site": "arte-antwerp.com",
+   "niveau": "prudence",
+   "avis": {
+    "note": 2.4,
+    "avis": 53,
+    "source": "Trustpilot",
+    "url": "https://au.trustpilot.com/review/arte-antwerp.com",
+    "plus": [
+     "Qualité et design appréciés par les clients fidèles"
+    ],
+    "moins": [
+     "Retours perdus ou remboursements qui n'arrivent pas",
+     "Service client lent à répondre"
+    ]
+   },
+   "veille": false,
+   "multi": false,
+   "pays": "BE",
+   "pays_nom": "Belgique",
+   "hors_ue": false
+  },
+  {
+   "boutique": "Minimum",
+   "site": "minimum.dk",
+   "niveau": "mitige",
+   "avis": {
+    "note": 3.2,
+    "avis": 68,
+    "source": "Trustpilot",
+    "url": "https://www.trustpilot.com/review/minimum.dk",
+    "plus": [
+     "Bonne qualité pour le prix"
+    ],
+    "moins": [
+     "Remboursements qui traînent (plus d'un mois)",
+     "Retour payant (15 €)"
+    ]
+   },
+   "veille": false,
+   "multi": false,
+   "pays": "DK",
+   "pays_nom": "Danemark",
+   "hors_ue": false,
+   "retour": "14 jours, frais de 7 €",
+   "retour_gratuit": false,
+   "livraison": "8 € en France, 2 à 5 jours",
+   "livraison_gratuite_des": "100 €",
+   "remboursement": "argent",
+   "alerte": "Frais de retour de 7 € déduits"
+  },
+  {
+   "boutique": "Bonne Gueule",
+   "site": "bonnegueule.fr",
+   "niveau": "inconnu",
+   "avis": null,
+   "veille": false,
+   "multi": false,
+   "pays": "FR",
+   "pays_nom": "France",
+   "hors_ue": false,
+   "retour": "15 jours, retour prépayé",
+   "retour_gratuit": true,
+   "livraison": "5 à 6 €, 2 à 4 jours",
+   "livraison_gratuite_des": "200 €",
+   "remboursement": "argent",
+   "douane": "droits payés par la boutique",
+   "alerte": "Pas de retour gratuit sur les promos"
+  },
+  {
+   "boutique": "Hast",
+   "site": "hast.fr",
+   "niveau": "inconnu",
+   "avis": null,
+   "veille": false,
+   "multi": false,
+   "pays": "FR",
+   "pays_nom": "France",
+   "hors_ue": false,
+   "retour": "14 jours, retour payant (8 €)",
+   "retour_gratuit": false,
+   "livraison": "Dès 3 € ou 5 €, 2 à 3 jours",
+   "livraison_gratuite_des": "200 €",
+   "remboursement": "argent",
+   "alerte": "Frais de retour déduits de 8 €"
+  },
+  {
+   "boutique": "Represent",
+   "site": "representclo.com",
+   "niveau": "fiable",
+   "avis": {
+    "note": 4.0,
+    "avis": 27035,
+    "source": "Trustpilot",
+    "url": "https://fi.trustpilot.com/review/representclo.com",
+    "plus": [
+     "Qualité des pièces souvent saluée"
+    ],
+    "moins": [
+     "Retards et colis non reçus signalés",
+     "Réponses automatiques du service client"
+    ]
+   },
+   "veille": false,
+   "multi": false,
+   "pays": "US",
+   "pays_nom": "États-Unis",
+   "hors_ue": true,
+   "retour": "14 jours, frais de port payants",
+   "retour_gratuit": false,
+   "remboursement": "argent",
+   "alerte": "Expédition depuis les États-Unis"
+  },
+  {
+   "boutique": "Stan Ray",
+   "site": "stanray.com",
+   "niveau": "mitige",
+   "avis": {
+    "note": 2.9,
+    "avis": 149,
+    "source": "Trustpilot",
+    "url": "https://ca.trustpilot.com/review/stanray.com",
+    "plus": [
+     "Vêtements solides, conformes aux photos"
+    ],
+    "moins": [
+     "Commandes parfois jamais expédiées",
+     "Service client difficile à joindre"
+    ]
+   },
+   "veille": false,
+   "multi": false,
+   "pays": "UK",
+   "pays_nom": "Royaume-Uni",
+   "hors_ue": true,
+   "retour": "14 jours, frais de port exclus",
+   "retour_gratuit": false,
+   "remboursement": "argent",
+   "alerte": "Frais de port de retour non remboursés"
+  },
+  {
+   "boutique": "Uskees",
+   "site": "uskees.com",
+   "niveau": "correct",
+   "avis": {
+    "note": 4.2,
+    "avis": 26,
+    "source": "Trustpilot",
+    "url": "https://es.trustpilot.com/review/uskees.com",
+    "plus": [
+     "Belle qualité",
+     "Échanges traités vite"
+    ],
+    "moins": [
+     "Retours refusés si l'emballage n'est pas conforme"
+    ]
+   },
+   "veille": false,
+   "multi": false,
+   "pays": "UK",
+   "pays_nom": "Royaume-Uni",
+   "hors_ue": true
+  },
+  {
+   "boutique": "Universal Works",
+   "site": "universalworks.co.uk",
+   "niveau": "mitige",
+   "avis": {
+    "note": 2.8,
+    "avis": 24,
+    "source": "Trustpilot",
+    "url": "https://www.trustpilot.com/review/universalworks.co.uk",
+    "plus": [
+     "Livraison rapide",
+     "Coupes et style appréciés"
+    ],
+    "moins": [
+     "Qualité jugée juste pour le prix",
+     "Retours depuis l'étranger compliqués"
+    ]
+   },
+   "veille": false,
+   "multi": false,
+   "pays": "UK",
+   "pays_nom": "Royaume-Uni",
+   "hors_ue": true,
+   "retour": "14 jours, retour payant",
+   "retour_gratuit": false,
+   "livraison": "7,50 €, 3 à 5 jours",
+   "livraison_gratuite_des": "300 €",
+   "remboursement": "argent",
+   "douane": "droits payés par la boutique",
+   "alerte": "Frais de retour déduits du remboursement"
+  },
+  {
+   "boutique": "Kestin",
+   "site": "kestin.co",
+   "niveau": "inconnu",
+   "avis": null,
+   "veille": false,
+   "multi": false,
+   "pays": "UK",
+   "pays_nom": "Royaume-Uni",
+   "hors_ue": true,
+   "retour": "14 jours, retour payant",
+   "retour_gratis": false,
+   "livraison": "calculé au checkout, 5 à 10 jours",
+   "livraison_gratuite_des": "250 €",
+   "remboursement": "argent",
+   "douane": "droits payés par la boutique",
+   "alerte": "frais de retour à votre charge"
+  },
+  {
+   "boutique": "Stuarts London",
+   "site": "stuartslondon.com",
+   "niveau": "fiable",
+   "avis": {
+    "note": 4.2,
+    "avis": 242,
+    "source": "Trustpilot",
+    "url": "https://ie.trustpilot.com/review/www.stuartslondon.com",
+    "plus": [
+     "Expédition rapide",
+     "Service client réactif pour les échanges"
+    ],
+    "moins": [
+     "Remboursements parfois lents"
+    ]
+   },
+   "veille": false,
+   "multi": true,
+   "pays": "UK",
+   "pays_nom": "Royaume-Uni",
+   "hors_ue": true,
+   "retour": "30 jours, retour payant",
+   "retour_gratuit": false,
+   "livraison": "International, calculé au paiement",
+   "remboursement": "argent",
+   "douane": "droits à la charge du client",
+   "alerte": "Frais de douane et retour payants pour la France"
+  },
+  {
+   "boutique": "Goodhood",
+   "site": "goodhoodstore.com",
+   "niveau": "correct",
+   "avis": {
+    "note": 3.9,
+    "avis": 443,
+    "source": "Trustpilot",
+    "url": "https://ca.trustpilot.com/review/goodhoodstore.com",
+    "plus": [
+     "Livraison rapide et soignée",
+     "Grand choix"
+    ],
+    "moins": [
+     "Quelques colis très en retard",
+     "Remboursements lents"
+    ]
+   },
+   "veille": false,
+   "multi": true,
+   "pays": "UK",
+   "pays_nom": "Royaume-Uni",
+   "hors_ue": true,
+   "retour": "14 jours, retour payant",
+   "retour_gratuit": false,
+   "livraison": "2 jours, DDP",
+   "remboursement": "argent",
+   "douane": "droits payés par la boutique",
+   "alerte": "Frais de retour international à votre charge"
+  },
+  {
+   "boutique": "Taylor Stitch",
+   "site": "taylorstitch.com",
+   "niveau": "mitige",
+   "avis": {
+    "note": 3.2,
+    "avis": 30,
+    "source": "Trustpilot",
+    "url": "https://nl-be.trustpilot.com/review/www.taylorstitch.com",
+    "plus": [
+     "Très bonne qualité"
+    ],
+    "moins": [
+     "E-mails sans réponse",
+     "Douane en plus hors États-Unis"
+    ]
+   },
+   "veille": false,
+   "multi": false,
+   "pays": "US",
+   "pays_nom": "États-Unis",
+   "hors_ue": true,
+   "retour": "21 jours, retour payant",
+   "retour_gratuit": false,
+   "livraison": "Calculé selon poids et distance",
+   "remboursement": "argent",
+   "douane": "droits à la charge du client",
+   "alerte": "Frais de retour payants depuis l'étranger"
+  },
+  {
+   "boutique": "Avnier",
+   "site": "avnier.com",
+   "niveau": "fiable",
+   "avis": {
+    "note": 4.5,
+    "avis": 393,
+    "source": "Trustpilot",
+    "url": "https://ca.trustpilot.com/review/avnier.com",
+    "plus": [
+     "Confort et qualité",
+     "Livraison et contact rapides"
+    ],
+    "moins": [
+     "Peu de plaintes visibles"
+    ]
+   },
+   "veille": false,
+   "multi": false,
+   "pays": "FR",
+   "pays_nom": "France",
+   "hors_ue": false,
+   "retour": "30 jours, retours offerts",
+   "retour_gratuit": true,
+   "livraison": "En France",
+   "livraison_gratuite_des": "150 €",
+   "remboursement": "argent"
+  },
+  {
+   "boutique": "Sixth June",
+   "site": "sixthjune.com",
+   "niveau": "fiable",
+   "avis": {
+    "note": 4.5,
+    "avis": 53,
+    "source": "Trustpilot",
+    "url": "https://uk.trustpilot.com/review/www.sixthjune.com",
+    "plus": [
+     "Prix abordables, choix varié"
+    ],
+    "moins": [
+     "Tailles variables",
+     "Retours parfois compliqués"
+    ]
+   },
+   "veille": false,
+   "multi": false,
+   "pays": "FR",
+   "pays_nom": "France",
+   "hors_ue": false,
+   "retour": "30 jours, 3 € de frais",
+   "retour_gratuit": false,
+   "livraison": "Dès 3,90 €, 48h en France",
+   "livraison_gratuite_des": "39 €",
+   "remboursement": "argent",
+   "alerte": "3 € déduits du remboursement"
+  },
+  {
+   "boutique": "Olaf Hussein",
+   "site": "olafhussein.com",
+   "niveau": "mitige",
+   "avis": {
+    "note": 3.4,
+    "avis": 36,
+    "source": "Trustpilot",
+    "url": "https://ca.trustpilot.com/review/olafhussein.com",
+    "plus": [
+     "Hoodies épais de bonne qualité"
+    ],
+    "moins": [
+     "Retour payant, remboursement parfois lent"
+    ]
+   },
+   "veille": false,
+   "multi": false,
+   "pays": "NL",
+   "pays_nom": "Pays-Bas",
+   "hors_ue": false,
+   "retour": "30 jours, retour payant",
+   "retour_gratuit": false,
+   "remboursement": "argent",
+   "alerte": "Frais de retour à votre charge"
+  },
+  {
+   "boutique": "Patta",
+   "site": "patta.nl",
+   "niveau": "fiable",
+   "avis": {
+    "note": 4.2,
+    "avis": 276,
+    "source": "Trustpilot",
+    "url": "https://se.trustpilot.com/review/patta.nl",
+    "plus": [
+     "Service client serviable",
+     "Livraison rapide"
+    ],
+    "moins": [
+     "Livraison gratuite seulement dès 250 €"
+    ]
+   },
+   "veille": false,
+   "multi": false,
+   "pays": "NL",
+   "pays_nom": "Pays-Bas",
+   "hors_ue": false,
+   "retour": "14 jours, retour payant",
+   "retour_gratuit": false,
+   "livraison": "3 à 5 jours",
+   "remboursement": "argent",
+   "alerte": "Articles soldés remboursés en avoir seulement."
+  },
+  {
+   "boutique": "Hélas",
+   "site": "helascaps.com",
+   "niveau": "peu",
+   "avis": {
+    "note": null,
+    "avis": 1,
+    "source": "Trustpilot",
+    "url": "https://ca.trustpilot.com/review/www.helascaps.com",
+    "plus": [
+     "Marque parisienne connue (casquettes)"
+    ],
+    "moins": [
+     "Presque aucun avis en ligne"
+    ]
+   },
+   "veille": false,
+   "multi": false,
+   "pays": "FR",
+   "pays_nom": "France",
+   "hors_ue": false,
+   "retour": "14 jours, retour à vos frais",
+   "retour_gratuit": false,
+   "livraison": "12 € en France, 2 à 10 jours",
+   "remboursement": "argent",
+   "douane": "Droits payés (UE)",
+   "alerte": "Frais de retour à votre charge"
+  },
+  {
+   "boutique": "The Next Door",
+   "site": "thenextdoor.fr",
+   "niveau": "peu",
+   "avis": {
+    "note": null,
+    "avis": 0,
+    "source": "Presse",
+    "url": "https://www.doitinparis.com/fr/thenextdoor-concept-store-paris-24408",
+    "plus": [
+     "Concept-store français reconnu (Avignon, Paris), partenaire Nike"
+    ],
+    "moins": [
+     "Pas d'avis clients en ligne"
+    ]
+   },
+   "veille": false,
+   "multi": true,
+   "pays": "FR",
+   "pays_nom": "France",
+   "hors_ue": false,
+   "retour": "30 jours, par voie postale",
+   "livraison": "Colissimo avec signature, délai indicatif",
+   "remboursement": "argent",
+   "alerte": "Risques transport à charge acquéreur"
+  },
+  {
+   "boutique": "Afew",
+   "site": "afew-store.com",
+   "niveau": "inconnu",
+   "avis": null,
+   "veille": false,
+   "multi": true,
+   "pays": "DE",
+   "pays_nom": "Allemagne",
+   "hors_ue": false
+  },
+  {
+   "boutique": "Slam Jam",
+   "site": "slamjam.com",
+   "niveau": "fiable",
+   "avis": {
+    "note": 4.6,
+    "avis": 14073,
+    "source": "Trustpilot",
+    "url": "https://ca.trustpilot.com/review/slamjam.com",
+    "plus": [
+     "Livraison rapide, bien emballé",
+     "Grand choix, bons prix"
+    ],
+    "moins": [
+     "Tailles parfois incohérentes"
+    ]
+   },
+   "veille": false,
+   "multi": true,
+   "pays": "IT",
+   "pays_nom": "Italie",
+   "hors_ue": false,
+   "livraison": "13 € en France, 3 à 4 jours",
+   "livraison_gratuite_des": "250 €",
+   "remboursement": "argent",
+   "douane": "droits payés par la boutique"
+  },
+  {
+   "boutique": "Aries",
+   "site": "ariesarise.com",
+   "niveau": "fiable",
+   "avis": {
+    "note": 4.7,
+    "avis": 51,
+    "source": "Trustpilot",
+    "url": "https://fi.trustpilot.com/review/ariesarise.com",
+    "plus": [
+     "Service client attentif",
+     "Qualité excellente"
+    ],
+    "moins": [
+     "Quelques erreurs de taille à la livraison"
+    ]
+   },
+   "veille": false,
+   "multi": false,
+   "pays": "UK",
+   "pays_nom": "Royaume-Uni",
+   "hors_ue": true,
+   "retour": "14 jours, retour payant",
+   "retour_gratuit": false,
+   "remboursement": "argent",
+   "alerte": "frais de retour à votre charge"
+  },
+  {
+   "boutique": "Urban Industry",
+   "site": "urbanindustry.co.uk",
+   "niveau": "inconnu",
+   "avis": null,
+   "veille": false,
+   "multi": true,
+   "pays": "UK",
+   "pays_nom": "Royaume-Uni",
+   "hors_ue": true,
+   "livraison": "10 € en France, 3 à 7 jours",
+   "douane": "Droits et taxes à la charge du client",
+   "alerte": "Frais de douane applicables pour la France"
+  },
+  {
+   "boutique": "Couverture & The Garbstore",
+   "site": "couvertureandthegarbstore.com",
+   "niveau": "fiable",
+   "avis": {
+    "note": 4.8,
+    "avis": 81,
+    "source": "Trustpilot",
+    "url": "https://ca.trustpilot.com/review/www.couvertureandthegarbstore.com",
+    "plus": [
+     "Service client très réactif",
+     "Sélection originale"
+    ],
+    "moins": [
+     "Quelques retards Royal Mail, résolus"
+    ]
+   },
+   "veille": false,
+   "multi": true,
+   "pays": "UK",
+   "pays_nom": "Royaume-Uni",
+   "hors_ue": true,
+   "alerte": "Boutique anglaise, attention aux frais de douane"
+  },
+  {
+   "boutique": "Triads",
+   "site": "triads.co.uk",
+   "niveau": "fiable",
+   "avis": {
+    "note": 4.7,
+    "avis": 2105,
+    "source": "Reviews.io",
+    "url": "https://www.reviews.io/company-reviews/store/triads-ltd/insights",
+    "plus": [
+     "Prix jugés excellents",
+     "Bon service client"
+    ],
+    "moins": [
+     "Retours jugés difficiles"
+    ]
+   },
+   "veille": false,
+   "multi": true,
+   "pays": "UK",
+   "pays_nom": "Royaume-Uni",
+   "hors_ue": true,
+   "retour": "21 jours, retour payant",
+   "retour_gratuit": false,
+   "livraison": "DHL Express, calculé au panier",
+   "remboursement": "argent",
+   "alerte": "Déclarer 'unwanted returns' pour la douane"
+  },
+  {
+   "boutique": "Wax London",
+   "site": "waxlondon.com",
+   "niveau": "fiable",
+   "avis": {
+    "note": 4.2,
+    "avis": 138,
+    "source": "Trustpilot",
+    "url": "https://ie.trustpilot.com/review/waxlondon.com",
+    "plus": [
+     "Service client réactif pour les échanges",
+     "Qualité appréciée"
+    ],
+    "moins": [
+     "Ruptures de stock après commande"
+    ]
+   },
+   "veille": false,
+   "multi": false,
+   "pays": "UK",
+   "pays_nom": "Royaume-Uni",
+   "hors_ue": true
+  },
+  {
+   "boutique": "Folk",
+   "site": "folkclothing.com",
+   "niveau": "peu",
+   "avis": {
+    "note": null,
+    "avis": 2,
+    "source": "Trustpilot",
+    "url": "https://au.trustpilot.com/review/folkclothing.co.uk",
+    "plus": [
+     "Marque londonienne installée"
+    ],
+    "moins": [
+     "Presque aucun avis en ligne",
+     "Échange payant"
+    ]
+   },
+   "veille": false,
+   "multi": false,
+   "pays": "UK",
+   "pays_nom": "Royaume-Uni",
+   "hors_ue": true,
+   "retour": "28 jours, retour payant",
+   "retour_gratuit": false,
+   "remboursement": "argent",
+   "alerte": "Frais de douane potentiels depuis le R-U"
+  },
+  {
+   "boutique": "Albam",
+   "site": "albamclothing.com",
+   "niveau": "inconnu",
+   "avis": null,
+   "veille": false,
+   "multi": false,
+   "pays": "UK",
+   "pays_nom": "Royaume-Uni",
+   "hors_ue": true,
+   "retour": "28 jours, retour payant à vos frais",
+   "retour_gratuit": false,
+   "livraison": "Environ 20 £, 1 à 3 jours",
+   "remboursement": "argent",
+   "douane": "Droits de douane à la charge du client",
+   "alerte": "Frais de retour et de douane payants"
+  },
+  {
+   "boutique": "Stüssy",
+   "site": "eu.stussy.com",
+   "niveau": "inconnu",
+   "avis": null,
+   "veille": true,
+   "multi": false,
+   "pays": "NL",
+   "pays_nom": "Pays-Bas",
+   "hors_ue": false,
+   "retour": "14 jours, retour payant",
+   "retour_gratuit": false,
+   "livraison": "12 € en France, 3 à 5 jours",
+   "livraison_gratuite_des": "200 €",
+   "remboursement": "argent",
+   "alerte": "Frais de retour déduits du remboursement"
+  },
+  {
+   "boutique": "Pop Trading Company",
+   "site": "poptradingcompany.com",
+   "niveau": "inconnu",
+   "avis": null,
+   "veille": true,
+   "multi": false,
+   "pays": "NL",
+   "pays_nom": "Pays-Bas",
+   "hors_ue": false,
+   "retour": "21 jours, non étiqueté = frais",
+   "retour_gratuit": false,
+   "livraison": "DHL Express Europe 1 à 3 jours",
+   "remboursement": "argent",
+   "douane": "client responsable des frais",
+   "alerte": "Articles soldes non remboursables"
+  },
+  {
+   "boutique": "Carne Bollente",
+   "site": "carnebollente.com",
+   "niveau": "inconnu",
+   "avis": null,
+   "veille": true,
+   "multi": false,
+   "pays": "FR",
+   "pays_nom": "France",
+   "hors_ue": false,
+   "retour": "14 jours",
+   "retour_gratuit": true,
+   "livraison": "7 à 10 € en France",
+   "livraison_gratuite_des": "300 €",
+   "remboursement": "argent",
+   "douane": "droits inclus",
+   "alerte": "Pas de retour sur les chaussettes et sous-vêtements."
+  },
+  {
+   "boutique": "Homecore",
+   "site": "homecore.com",
+   "niveau": "inconnu",
+   "avis": null,
+   "veille": true,
+   "multi": false,
+   "pays": "FR",
+   "pays_nom": "France",
+   "hors_ue": false
+  },
+  {
+   "boutique": "Polar Skate Co.",
+   "site": "polarskateco.com",
+   "niveau": "inconnu",
+   "avis": null,
+   "veille": true,
+   "multi": false,
+   "pays": "NL",
+   "pays_nom": "Pays-Bas",
+   "hors_ue": false,
+   "retour": "14 jours, retour payant",
+   "retour_gratuit": false,
+   "remboursement": "argent",
+   "alerte": "Frais de retour à votre charge"
+  },
+  {
+   "boutique": "Colorful Standard",
+   "site": "colorfulstandard.com",
+   "niveau": "inconnu",
+   "avis": null,
+   "veille": true,
+   "multi": false,
+   "pays": "DK",
+   "pays_nom": "Danemark",
+   "hors_ue": false,
+   "retour": "90 jours, retour payant",
+   "retour_gratuit": false,
+   "livraison": "Calculé au paiement, délais variables",
+   "remboursement": "argent",
+   "douane": "Taxes incluses au paiement",
+   "alerte": "Frais de retour à votre charge"
+  },
+  {
+   "boutique": "Portuguese Flannel",
+   "site": "portugueseflannel.com",
+   "niveau": "inconnu",
+   "avis": null,
+   "veille": true,
+   "multi": false,
+   "pays": "PT",
+   "pays_nom": "Portugal",
+   "hors_ue": false,
+   "retour": "14 jours, retour payant à l'international",
+   "retour_gratuit": false,
+   "remboursement": "argent",
+   "alerte": "Frais de retour à votre charge"
+  },
+  {
+   "boutique": "Norse Projects",
+   "site": "norseprojects.com",
+   "niveau": "inconnu",
+   "avis": null,
+   "veille": true,
+   "multi": false,
+   "pays": "DK",
+   "pays_nom": "Danemark",
+   "hors_ue": false,
+   "retour": "14 jours, retour payant",
+   "retour_gratuit": false,
+   "livraison": "15 à 20 € en France, 1 à 4 jours",
+   "livraison_gratuite_des": "350 €",
+   "remboursement": "argent",
+   "alerte": "frais de retour à votre charge"
+  },
+  {
+   "boutique": "Oi Polloi",
+   "site": "oipolloi.com",
+   "niveau": "inconnu",
+   "avis": null,
+   "veille": true,
+   "multi": true,
+   "pays": "UK",
+   "pays_nom": "Royaume-Uni",
+   "hors_ue": true,
+   "retour": "14 jours, retour payant",
+   "retour_gratuit": false,
+   "livraison": "4 à 7 jours, gratuit",
+   "livraison_gratuite_des": "0 €",
+   "remboursement": "argent",
+   "douane": "Droits payés par la boutique",
+   "alerte": "Marquer le colis en marchandises retournées."
+  },
+  {
+   "boutique": "Peggs & Son",
+   "site": "peggsandson.com",
+   "niveau": "correct",
+   "avis": {
+    "note": 3.9,
+    "avis": 37,
+    "source": "Trustpilot",
+    "url": "https://www.trustpilot.com/review/peggsandson.com",
+    "plus": [
+     "Belle sélection de marques",
+     "Personnel serviable"
+    ],
+    "moins": [
+     "Retours 14 jours, parfois en avoir"
+    ]
+   },
+   "veille": true,
+   "multi": true,
+   "pays": "UK",
+   "pays_nom": "Royaume-Uni",
+   "hors_ue": true,
+   "alerte": "Texte incomplet, aucune info France."
+  },
+  {
+   "boutique": "Sunspel",
+   "site": "sunspel.com",
+   "niveau": "inconnu",
+   "avis": null,
+   "veille": true,
+   "multi": false,
+   "pays": "UK",
+   "pays_nom": "Royaume-Uni",
+   "hors_ue": true
+  },
+  {
+   "boutique": "Drake's",
+   "site": "drakes.com",
+   "niveau": "inconnu",
+   "avis": null,
+   "veille": true,
+   "multi": false,
+   "pays": "UK",
+   "pays_nom": "Royaume-Uni",
+   "hors_ue": true,
+   "retour": "14 jours",
+   "remboursement": "argent",
+   "alerte": "Retours retardés post-Brexit via UE"
+  },
+  {
+   "boutique": "Aimé Leon Dore",
+   "site": "aimeleondore.com",
+   "niveau": "inconnu",
+   "avis": null,
+   "veille": true,
+   "multi": false,
+   "pays": "US",
+   "pays_nom": "États-Unis",
+   "hors_ue": true,
+   "retour": "10 jours ouvrés, retour payant",
+   "retour_gratuit": false,
+   "remboursement": "avoir seulement",
+   "alerte": "Remboursement uniquement en avoir (store credit)."
+  },
+  {
+   "boutique": "Le Coq Sportif",
+   "site": "lecoqsportif.com",
+   "niveau": "fiable",
+   "avis": {
+    "note": 4.0,
+    "avis": 62,
+    "source": "ÀmonAvis + Trustpilot",
+    "url": "https://amonavis.fr/le-coq-sportif",
+    "plus": [
+     "Expédition rapide",
+     "Confort des t-shirts et casquettes"
+    ],
+    "moins": [
+     "Quelques colis perdus",
+     "Remboursements longs"
+    ]
+   },
+   "veille": false,
+   "multi": false,
+   "pays": "FR",
+   "pays_nom": "France",
+   "hors_ue": false,
+   "retour": "30 jours, gratuit",
+   "retour_gratuit": true,
+   "livraison": "3,90 € à 7,90 €",
+   "livraison_gratuite_des": "90 €",
+   "remboursement": "argent",
+   "alerte": "Pas d'échange, uniquement remboursement"
+  },
+  {
+   "boutique": "Footdistrict",
+   "site": "footdistrict.com",
+   "niveau": "fiable",
+   "avis": {
+    "note": 4.6,
+    "avis": 8461,
+    "source": "Trustpilot",
+    "url": "https://fr.trustpilot.com/review/footdistrict.com/location",
+    "plus": [
+     "Envoi rapide et soigné",
+     "Bons prix"
+    ],
+    "moins": [
+     "Retour payant"
+    ]
+   },
+   "veille": false,
+   "multi": true,
+   "pays": "ES",
+   "pays_nom": "Espagne",
+   "hors_ue": false,
+   "retour": "14 jours, retour payant",
+   "retour_gratuit": false,
+   "livraison": "Expédié depuis l'Espagne",
+   "remboursement": "argent",
+   "douane": "Pas de douane pour la France"
+  },
+  {
+   "boutique": "Chevignon",
+   "site": "chevignon.fr",
+   "niveau": "mitige",
+   "avis": {
+    "note": 3.0,
+    "avis": 22,
+    "source": "Trustpilot",
+    "url": "https://nl.trustpilot.com/review/chevignon.com",
+    "plus": [
+     "SAV sérieux (réparations)"
+    ],
+    "moins": [
+     "Service client en ligne difficile à joindre"
+    ]
+   },
+   "veille": false,
+   "multi": false,
+   "pays": "FR",
+   "pays_nom": "France",
+   "hors_ue": false,
+   "retour": "14 jours, retour gratuit en France",
+   "retour_gratuit": true,
+   "livraison": "3 à 5 jours ouvrés",
+   "livraison_gratuite_des": "150 €",
+   "remboursement": "argent",
+   "alerte": "Articles personnalisés non remboursables."
+  },
+  {
+   "boutique": "Olow",
+   "site": "olow.fr",
+   "niveau": "inconnu",
+   "avis": null,
+   "veille": false,
+   "multi": false,
+   "pays": "FR",
+   "pays_nom": "France",
+   "hors_ue": false,
+   "retour": "15 jours, retour gratuit en France",
+   "retour_gratuit": true,
+   "livraison": "Dès 5 €, 2 à 4 jours",
+   "livraison_gratuite_des": "120 €",
+   "remboursement": "argent"
+  },
+  {
+   "boutique": "Dagobear",
+   "site": "dagobear.com",
+   "niveau": "inconnu",
+   "avis": null,
+   "veille": false,
+   "multi": false,
+   "pays": "FR",
+   "pays_nom": "France",
+   "hors_ue": false,
+   "retour": "14 jours, frais à votre charge",
+   "retour_gratuit": false,
+   "livraison": "7 jours maximum",
+   "remboursement": "argent",
+   "alerte": "Risques du transport à la charge du client"
+  },
+  {
+   "boutique": "Kappa",
+   "site": "kappa.fr",
+   "niveau": "inconnu",
+   "avis": null,
+   "veille": false,
+   "multi": false,
+   "pays": "IT",
+   "pays_nom": "Italie",
+   "hors_ue": false,
+   "retour": "30 jours, non porté",
+   "livraison": "9,90 € en France, 3 à 5 jours",
+   "livraison_gratuite_des": "99 €",
+   "remboursement": "argent",
+   "alerte": "Pas d'échange, retour à vos frais pour remboursement."
+  },
+  {
+   "boutique": "Cuisse de Grenouille",
+   "site": "cuissedegrenouille.com",
+   "niveau": "inconnu",
+   "avis": null,
+   "veille": false,
+   "multi": false,
+   "pays": "FR",
+   "pays_nom": "France",
+   "hors_ue": false
+  },
+  {
+   "boutique": "Kulte",
+   "site": "kulte.fr",
+   "niveau": "inconnu",
+   "avis": null,
+   "veille": false,
+   "multi": false,
+   "pays": "FR",
+   "pays_nom": "France",
+   "hors_ue": false,
+   "retour": "14 jours, retour payant",
+   "retour_gratuit": false,
+   "livraison": "6 € en France, 2 à 5 jours",
+   "livraison_gratuite_des": "80 €",
+   "remboursement": "argent",
+   "alerte": "Pas d'échange, remboursement uniquement."
+  },
+  {
+   "boutique": "Le Slip Français",
+   "site": "leslipfrancais.fr",
+   "niveau": "inconnu",
+   "avis": null,
+   "veille": false,
+   "multi": false,
+   "pays": "FR",
+   "pays_nom": "France",
+   "hors_ue": false
+  },
+  {
+   "boutique": "Balibaris",
+   "site": "balibaris.com",
+   "niveau": "inconnu",
+   "avis": null,
+   "veille": true,
+   "multi": false,
+   "pays": "FR",
+   "pays_nom": "France",
+   "hors_ue": false,
+   "retour": "14 jours, gratuit en France",
+   "retour_gratuit": true,
+   "livraison": "4€ à 6€, 3 à 6 jours",
+   "remboursement": "argent",
+   "alerte": "Frais de port non remboursés"
+  },
+  {
+   "boutique": "Teddy Smith",
+   "site": "teddysmith.com",
+   "niveau": "inconnu",
+   "avis": null,
+   "veille": true,
+   "multi": false,
+   "pays": "FR",
+   "pays_nom": "France",
+   "hors_ue": false,
+   "retour": "14 jours, frais de retour non précisés",
+   "remboursement": "argent",
+   "alerte": "Frais de retour et livraison non précisés."
+  },
+  {
+   "boutique": "Loom",
+   "site": "loom.fr",
+   "niveau": "inconnu",
+   "avis": null,
+   "veille": true,
+   "multi": false,
+   "pays": "FR",
+   "pays_nom": "France",
+   "hors_ue": false,
+   "retour": "30 jours",
+   "retour_gratuit": true,
+   "livraison": "5 à 8 € en France, 2 à 3 jours",
+   "livraison_gratuite_des": "100 €",
+   "remboursement": "argent",
+   "alerte": "Sous-vêtements non repris si ouverts"
+  },
+  {
+   "boutique": "Armor Lux",
+   "site": "armorlux.com",
+   "niveau": "inconnu",
+   "avis": null,
+   "veille": true,
+   "multi": false,
+   "pays": "FR",
+   "pays_nom": "France",
+   "hors_ue": false,
+   "retour": "30 jours, gratuit en France",
+   "retour_gratuit": true,
+   "livraison": "4,90 € à 10 €, 2 à 5 jours",
+   "livraison_gratuite_des": "100 €",
+   "remboursement": "argent",
+   "alerte": "Pas d'échange possible, uniquement remboursement"
+  },
+  {
+   "boutique": "Zara",
+   "site": "zara.com",
+   "niveau": "enseigne",
+   "avis": {
+    "note": 2.5,
+    "avis": 5,
+    "source": "Trustpilot",
+    "url": "https://fr-be.trustpilot.com/review/zara.co.uk",
+    "enseigne": true,
+    "plus": [
+     "Magasins partout en France : essai et retour en boutique"
+    ],
+    "moins": [
+     "Remboursements en ligne parfois tardifs",
+     "Service client par chatbot"
+    ]
+   },
+   "veille": false,
+   "multi": false,
+   "pays": "FR",
+   "retour": "30 jours, gratuit en magasin, payant par la poste",
+   "livraison": "Gratuite en magasin, payante à domicile sous un certain montant",
+   "remboursement": "Sur le moyen de paiement",
+   "pays_nom": "France (magasins)"
+  },
+  {
+   "boutique": "Uniqlo",
+   "site": "uniqlo.com",
+   "niveau": "enseigne",
+   "avis": {
+    "note": 1.7,
+    "avis": 339,
+    "source": "Trustpilot",
+    "url": "https://ca.trustpilot.com/review/uniqlo.eu",
+    "enseigne": true,
+    "plus": [
+     "Basiques durables, bon rapport qualité-prix",
+     "Magasins partout en France : essai et retour en boutique"
+    ],
+    "moins": [
+     "Service client en ligne peu aidant",
+     "Retours par la poste payants"
+    ]
+   },
+   "veille": false,
+   "multi": false,
+   "pays": "FR",
+   "retour": "30 jours, gratuit en magasin, payant par la poste",
+   "livraison": "Gratuite en magasin, payante à domicile sous un certain montant",
+   "remboursement": "Sur le moyen de paiement",
+   "pays_nom": "France (magasins)"
+  }
+ ]
+}
