@@ -144,7 +144,7 @@ def analyser(p, b, dev, taux):
     if eur > PRIX_MAX_EUR:
         return None
     return {
-        "id": f"{b['domaine'].split('.')[0]}-{p['id']}", "boutique": b["nom"], "domaine": b["domaine"], "origine": b["origine"],
+        "id": f"{b['domaine'].split('.')[0]}-{p['id']}", "boutique": b["nom"], "domaine": b["domaine"], "origine": b["origine"], "pays": b.get("pays", b["origine"]),
         "marque": p.get("vendor") or b["nom"], "nom": p["title"], "categorie": cat, "type": p.get("product_type", ""),
         "prix": prix, "avant": avant, "devise": dev, "remise": remise, "prix_eur": eur, "avant_eur": round(avant * taux.get(dev, 1), 2),
         "tailles": tailles[:12], "images": images, "lien": f"https://{b['domaine']}/products/{p['handle']}",
@@ -152,10 +152,23 @@ def analyser(p, b, dev, taux):
     }
 
 
+MOIS = MAINTENANT.month
+SAISON = "froid" if MOIS in (10, 11, 12, 1, 2, 3) else "chaud" if MOIS in (5, 6, 7, 8) else "mi-saison"
+POIDS = {
+    "froid": {"veste": 3.4, "maille": 3.4, "surchemise": 2.8, "sweat": 2.6, "pantalon": 2.6, "chaussures": 2.6, "chemise": 2,
+              "accessoire": 1.2, "tshirt": .8, "short": -.5},
+    "chaud": {"tshirt": 2.6, "short": 2.2, "chemise": 2.6, "pantalon": 2.4, "chaussures": 2.4, "surchemise": 2, "sweat": 1.2,
+              "veste": 1, "maille": .6, "accessoire": .8},
+    "mi-saison": {"veste": 3, "maille": 2.6, "surchemise": 3, "pantalon": 2.6, "chemise": 2.4, "chaussures": 2.4, "sweat": 2.2,
+                  "tshirt": 1.4, "short": .8, "accessoire": .8},
+}[SAISON]
+BONUS_PAYS = {"FR": 2.5, "UK": 0, "US": -.8}  # autres pays de l'UE : 1.2
+
+
 def score(x):
-    priorite = {"veste": 3, "maille": 3, "surchemise": 3, "pantalon": 2.6, "chemise": 2.2, "chaussures": 2.4, "sweat": 2, "tshirt": 1, "short": .6, "accessoire": .8}
+    """Rang d'un article : remise, saison, petit prix, et les boutiques françaises puis européennes d'abord."""
     prix_bonus = 2 if x["prix_eur"] <= 40 else 1.3 if x["prix_eur"] <= 70 else .7 if x["prix_eur"] <= 110 else 0
-    return x["remise"] / 10 + priorite.get(x["categorie"], 1) + prix_bonus + (0.8 if x["origine"] == "UE" else 0)
+    return x["remise"] / 10 + POIDS.get(x["categorie"], 1) + prix_bonus + BONUS_PAYS.get(x.get("pays"), 1.2)
 
 
 # --- IA : sélection et tenues ---------------------------------------------
@@ -185,6 +198,16 @@ Règles :
 - Privilégie les prix bas : le lecteur a peu d'argent. N'invente aucun id."""
 
 
+CONTEXTE = f"""
+Contexte du jour :
+- Saison : {SAISON} ({MAINTENANT.strftime('%d/%m')}). Raisonne comme un acheteur logique : en saison froide, priorité aux
+  vestes, maille, sweats, surchemises, pantalons épais et chaussures ; les t-shirts restent utiles en sous-couche mais ne
+  sont pas la priorité. Les tenues doivent être portables MAINTENANT (pas de short en hiver).
+- Le lecteur vit en France : favorise les boutiques françaises (FR), puis européennes (BE, NL, DK, DE, IT, SE, PT).
+  Royaume-Uni (UK) et États-Unis (US) = douane et TVA en plus : au plus UNE pièce UK/US par tenue, et le "coup" doit venir
+  de France ou de l'UE."""
+
+
 def demander_ia(candidats):
     cle = os.getenv("LLM_API_KEY", "").strip()
     if not cle:
@@ -192,14 +215,14 @@ def demander_ia(candidats):
     s = requests.Session()
     s.headers.update({"Authorization": f"Bearer {cle}", "Content-Type": "application/json"})
     lignes = "\n".join(f"{x['id']} | {x['marque']} | {x['nom']} | {x['categorie']} | {x['prix_eur']:.0f} € (−{x['remise']} %) | "
-                       f"origine {x['origine']} | indice {','.join(x['styles_indice'])}" for x in candidats)
+                       f"expédié de {x.get('pays', x['origine'])} | indice {','.join(x['styles_indice'])}" for x in candidats)
     modeles = [os.getenv("LLM_MODEL", "").strip()] if os.getenv("LLM_MODEL", "").strip() else \
         ["gemini-flash-latest", "gemini-2.5-flash", "gemini-flash-lite-latest", "gemini-2.5-flash-lite"]
     for m in modeles:
         for essai in range(2):
             try:
                 r = s.post(URL, timeout=170, json={"model": m, "temperature": 0.5,
-                                                  "messages": [{"role": "system", "content": CONSIGNE}, {"role": "user", "content": lignes}]})
+                                                  "messages": [{"role": "system", "content": CONSIGNE + CONTEXTE}, {"role": "user", "content": lignes}]})
             except requests.RequestException as e:
                 print(f"  ({m} : pas de réponse, {type(e).__name__})")
                 continue
@@ -337,8 +360,8 @@ def main():
             t["articles"] = ids
             tenues.append(t)
     coup = rep.get("coup") if rep.get("coup") in par_id else None
-    if (not coup or par_id[coup]["prix_eur"] > 70) and uniques:  # petit budget : le coup du jour reste abordable
-        abordables = [a for a in uniques if a["prix_eur"] <= 70 and a["categorie"] not in ("accessoire", "short")]
+    if (not coup or par_id[coup]["prix_eur"] > 70 or par_id[coup]["origine"] != "UE") and uniques:  # petit budget : le coup du jour reste abordable
+        abordables = [a for a in uniques if a["prix_eur"] <= 70 and a["origine"] == "UE" and POIDS.get(a["categorie"], 1) >= 2]
         coup = max(abordables or uniques, key=lambda a: score(a) + (3 if a.get("forte") else 0))["id"]
     a_voir = list(dict.fromkeys([i for t in tenues for i in t["articles"]] + ([coup] if coup else [])
                                  + [a["id"] for a in sorted(uniques, key=score, reverse=True) if a.get("forte")][:40]))
@@ -359,13 +382,15 @@ def main():
     limite = (MAINTENANT - timedelta(days=60)).date().isoformat()
     f_vus.parent.mkdir(exist_ok=True)
     f_vus.write_text(json.dumps({k: v for k, v in deja.items() if v >= limite}, separators=(",", ":")), encoding="utf-8")
+    for a in uniques:
+        a["rang"] = round(score(a), 2)
     for a in uniques:  # allège le fichier lu par le site (téléphone)
         for k in ("description", "styles_indice", "type", "prix", "avant", "devise", "domaine", "vu_le"):
             a.pop(k, None)
         a["images"] = a["images"][:2] + ([a["porte"]] if a.get("porte") and a["porte"] not in a["images"][:2] else [])
     SORTIE.parent.mkdir(parents=True, exist_ok=True)
     SORTIE.write_text(json.dumps({
-        "maj": MAINTENANT.isoformat(), "modele": rep.get("_modele"), "taux": {k: round(v, 4) for k, v in taux.items() if k in ("GBP", "USD", "DKK")},
+        "maj": MAINTENANT.isoformat(), "saison": SAISON, "poids": POIDS, "modele": rep.get("_modele"), "taux": {k: round(v, 4) for k, v in taux.items() if k in ("GBP", "USD", "DKK")},
         "bilan": bilan, "coup": coup, "tenues": tenues, "articles": uniques,
     }, ensure_ascii=False, separators=(",", ":")), encoding="utf-8")
     print(f"✅ {len(uniques)} articles, {len(tenues)} tenues, coup du jour : {coup} ({rep.get('_modele')})")

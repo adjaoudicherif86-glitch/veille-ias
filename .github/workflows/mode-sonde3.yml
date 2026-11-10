@@ -1,6 +1,9 @@
 name: "Pièce Unique : sondage fiabilité et enseignes"
 on:
   workflow_dispatch:
+    inputs:
+      sonde:
+        default: sonde3
 permissions:
   contents: write
 jobs:
@@ -13,8 +16,10 @@ jobs:
         with:
           python-version: "3.12"
       - run: pip install requests
-      - run: python mode/sonde3.py
+      - env:
+          SONDE: ${{ inputs.sonde }}
+        run: python mode/${SONDE:-sonde3}.py
       - run: |
           git config user.name "veille-bot"; git config user.email "veille-bot@users.noreply.github.com"
-          git add etat/mode-sondage-3.json; git diff --cached --quiet || git commit -m "Pièce Unique : sondage fiabilité et enseignes"
+          git add etat/mode-sondage-*.json; git diff --cached --quiet || git commit -m "Pièce Unique : sondage fiabilité et enseignes"
           for i in 1 2 3; do git pull --rebase origin main && git push && break; sleep 5; done

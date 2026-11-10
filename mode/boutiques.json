@@ -1,5 +1,5 @@
 {
- "_aide": "Boutiques lues automatiquement (Shopify). collection = collection des soldes, ou null pour lire tout le catalogue et garder les articles remisés. origine = UE, UK ou US (frais d'import). styles = styles probables de la marque (indice pour l'IA). multi = boutique multimarque. mixte = vend aussi pour femme : on ne lit que la collection homme. veille = pas de remises au moment de l'ajout, surveillée pour les soldes et le Black Friday.",
+ "_aide": "Boutiques lues automatiquement (Shopify). collection = collection des soldes, ou null pour lire tout le catalogue et garder les articles remisés. origine = UE, UK ou US (frais d'import). styles = styles probables de la marque (indice pour l'IA). multi = boutique multimarque. mixte = vend aussi pour femme : on ne lit que la collection homme. veille = pas de remises au moment de l'ajout, surveillée pour les soldes et le Black Friday. pays = pays d'expédition (FR mis en avant).",
  "boutiques": [
   {
    "domaine": "arte-antwerp.com",
@@ -8,7 +8,8 @@
    "origine": "UE",
    "styles": [
     "streetwear"
-   ]
+   ],
+   "pays": "BE"
   },
   {
    "domaine": "minimum.dk",
@@ -18,7 +19,8 @@
    "origine": "UE",
    "styles": [
     "minimal"
-   ]
+   ],
+   "pays": "DK"
   },
   {
    "domaine": "bonnegueule.fr",
@@ -28,7 +30,8 @@
    "styles": [
     "minimal",
     "oldmoney"
-   ]
+   ],
+   "pays": "FR"
   },
   {
    "domaine": "hast.fr",
@@ -38,7 +41,8 @@
    "styles": [
     "oldmoney",
     "minimal"
-   ]
+   ],
+   "pays": "FR"
   },
   {
    "domaine": "representclo.com",
@@ -48,7 +52,8 @@
    "origine": "UK",
    "styles": [
     "streetwear"
-   ]
+   ],
+   "pays": "UK"
   },
   {
    "domaine": "stanray.com",
@@ -57,7 +62,8 @@
    "origine": "UK",
    "styles": [
     "workwear"
-   ]
+   ],
+   "pays": "UK"
   },
   {
    "domaine": "uskees.com",
@@ -66,7 +72,8 @@
    "origine": "UK",
    "styles": [
     "workwear"
-   ]
+   ],
+   "pays": "UK"
   },
   {
    "domaine": "universalworks.co.uk",
@@ -76,7 +83,8 @@
    "styles": [
     "workwear",
     "oldmoney"
-   ]
+   ],
+   "pays": "UK"
   },
   {
    "domaine": "kestin.co",
@@ -86,7 +94,8 @@
    "styles": [
     "workwear",
     "minimal"
-   ]
+   ],
+   "pays": "UK"
   },
   {
    "domaine": "stuartslondon.com",
@@ -98,7 +107,8 @@
     "oldmoney",
     "workwear",
     "streetwear"
-   ]
+   ],
+   "pays": "UK"
   },
   {
    "domaine": "goodhoodstore.com",
@@ -110,7 +120,8 @@
    "styles": [
     "streetwear",
     "minimal"
-   ]
+   ],
+   "pays": "UK"
   },
   {
    "domaine": "taylorstitch.com",
@@ -121,7 +132,8 @@
    "styles": [
     "workwear",
     "oldmoney"
-   ]
+   ],
+   "pays": "US"
   },
   {
    "domaine": "avnier.com",
@@ -131,7 +143,8 @@
    "styles": [
     "streetwear",
     "minimal"
-   ]
+   ],
+   "pays": "FR"
   },
   {
    "domaine": "sixthjune.com",
@@ -140,7 +153,8 @@
    "origine": "UE",
    "styles": [
     "streetwear"
-   ]
+   ],
+   "pays": "FR"
   },
   {
    "domaine": "olafhussein.com",
@@ -151,7 +165,8 @@
     "streetwear",
     "minimal"
    ],
-   "mixte": true
+   "mixte": true,
+   "pays": "NL"
   },
   {
    "domaine": "patta.nl",
@@ -161,7 +176,8 @@
    "styles": [
     "streetwear"
    ],
-   "mixte": true
+   "mixte": true,
+   "pays": "NL"
   },
   {
    "domaine": "helascaps.com",
@@ -170,7 +186,8 @@
    "origine": "UE",
    "styles": [
     "streetwear"
-   ]
+   ],
+   "pays": "FR"
   },
   {
    "domaine": "thenextdoor.fr",
@@ -183,7 +200,8 @@
     "minimal"
    ],
    "multi": true,
-   "mixte": true
+   "mixte": true,
+   "pays": "FR"
   },
   {
    "domaine": "afew-store.com",
@@ -194,7 +212,8 @@
     "streetwear"
    ],
    "multi": true,
-   "mixte": true
+   "mixte": true,
+   "pays": "DE"
   },
   {
    "domaine": "slamjam.com",
@@ -206,7 +225,8 @@
     "minimal"
    ],
    "multi": true,
-   "mixte": true
+   "mixte": true,
+   "pays": "IT"
   },
   {
    "domaine": "ariesarise.com",
@@ -216,7 +236,8 @@
    "styles": [
     "streetwear"
    ],
-   "mixte": true
+   "mixte": true,
+   "pays": "UK"
   },
   {
    "domaine": "farah.co.uk",
@@ -226,7 +247,8 @@
    "styles": [
     "oldmoney",
     "workwear"
-   ]
+   ],
+   "pays": "UK"
   },
   {
    "domaine": "urbanindustry.co.uk",
@@ -238,7 +260,8 @@
     "workwear"
    ],
    "multi": true,
-   "mixte": true
+   "mixte": true,
+   "pays": "UK"
   },
   {
    "domaine": "couvertureandthegarbstore.com",
@@ -249,7 +272,8 @@
     "workwear",
     "minimal"
    ],
-   "multi": true
+   "multi": true,
+   "pays": "UK"
   },
   {
    "domaine": "triads.co.uk",
@@ -262,7 +286,8 @@
     "minimal"
    ],
    "multi": true,
-   "mixte": true
+   "mixte": true,
+   "pays": "UK"
   },
   {
    "domaine": "waxlondon.com",
@@ -272,7 +297,8 @@
    "styles": [
     "minimal",
     "workwear"
-   ]
+   ],
+   "pays": "UK"
   },
   {
    "domaine": "folkclothing.com",
@@ -282,7 +308,8 @@
    "styles": [
     "minimal"
    ],
-   "mixte": true
+   "mixte": true,
+   "pays": "UK"
   },
   {
    "domaine": "albamclothing.com",
@@ -292,7 +319,8 @@
    "styles": [
     "workwear",
     "minimal"
-   ]
+   ],
+   "pays": "UK"
   },
   {
    "domaine": "hufworldwide.com",
@@ -301,7 +329,8 @@
    "origine": "US",
    "styles": [
     "streetwear"
-   ]
+   ],
+   "pays": "US"
   },
   {
    "domaine": "rowingblazers.com",
@@ -311,7 +340,8 @@
    "styles": [
     "oldmoney"
    ],
-   "mixte": true
+   "mixte": true,
+   "pays": "US"
   },
   {
    "domaine": "eu.stussy.com",
@@ -322,7 +352,8 @@
     "streetwear"
    ],
    "mixte": true,
-   "veille": true
+   "veille": true,
+   "pays": "NL"
   },
   {
    "domaine": "poptradingcompany.com",
@@ -332,7 +363,8 @@
    "styles": [
     "streetwear"
    ],
-   "veille": true
+   "veille": true,
+   "pays": "NL"
   },
   {
    "domaine": "carnebollente.com",
@@ -342,7 +374,8 @@
    "styles": [
     "streetwear"
    ],
-   "veille": true
+   "veille": true,
+   "pays": "FR"
   },
   {
    "domaine": "homecore.com",
@@ -353,7 +386,8 @@
     "streetwear",
     "minimal"
    ],
-   "veille": true
+   "veille": true,
+   "pays": "FR"
   },
   {
    "domaine": "polarskateco.com",
@@ -363,7 +397,8 @@
    "styles": [
     "streetwear"
    ],
-   "veille": true
+   "veille": true,
+   "pays": "SE"
   },
   {
    "domaine": "colorfulstandard.com",
@@ -374,7 +409,8 @@
     "minimal"
    ],
    "mixte": true,
-   "veille": true
+   "veille": true,
+   "pays": "DK"
   },
   {
    "domaine": "portugueseflannel.com",
@@ -385,7 +421,8 @@
     "oldmoney",
     "minimal"
    ],
-   "veille": true
+   "veille": true,
+   "pays": "PT"
   },
   {
    "domaine": "norseprojects.com",
@@ -397,7 +434,8 @@
     "workwear"
    ],
    "mixte": true,
-   "veille": true
+   "veille": true,
+   "pays": "DK"
   },
   {
    "domaine": "oipolloi.com",
@@ -410,7 +448,8 @@
     "minimal"
    ],
    "multi": true,
-   "veille": true
+   "veille": true,
+   "pays": "UK"
   },
   {
    "domaine": "peggsandson.com",
@@ -422,7 +461,8 @@
     "oldmoney"
    ],
    "multi": true,
-   "veille": true
+   "veille": true,
+   "pays": "UK"
   },
   {
    "domaine": "sunspel.com",
@@ -434,7 +474,8 @@
     "oldmoney"
    ],
    "mixte": true,
-   "veille": true
+   "veille": true,
+   "pays": "UK"
   },
   {
    "domaine": "drakes.com",
@@ -444,7 +485,8 @@
    "styles": [
     "oldmoney"
    ],
-   "veille": true
+   "veille": true,
+   "pays": "UK"
   },
   {
    "domaine": "aimeleondore.com",
@@ -455,7 +497,8 @@
     "oldmoney",
     "streetwear"
    ],
-   "veille": true
+   "veille": true,
+   "pays": "US"
   }
  ]
 }
