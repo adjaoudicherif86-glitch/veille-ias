@@ -1,0 +1,30 @@
+{
+ "bershka": {
+  "ids": {
+   "storeId": "44009501"
+  },
+  "https://www.bershka.com/itxrest/2/web/seo/config?appId=1": {
+   "statut": 200,
+   "taille": 7788,
+   "debut": "{\"seoLocaleMap\":{\"-30\":\"bg_BG\",\"-52\":\"he_IL\",\"-53\":\"sr_RS\",\"-10\":\"ja_JP\",\"-55\":\"sq_AL\",\"-33\":\"lt_LT\",\"-11\":\"eu_ES\",\"-99\":\"en_DE\",\"-56\":\"mk_MK\",\"-12\":\"gl_ES\",\"-34\":\"et_EE\",\"-13\":\"ca_ES\",\"-35\":\"lv_LV\",\"-14\":\"el_GR\",\"-36\":\"sl_SI\",\"-15\":\"en_GB\",\"-38\":\"hr_HR\",\"-39\":\"da_DK\",\"-1\":\"en_US\",\"-2\":\"fr_FR\",\"-3\":\"de_DE\",\"-4\":\"it_IT\",\"-61\":\"ka_GE\",\"-5\":\"es_ES\",\"-6\":\"pt_PT\",\"-40\":\"no_NO\",\"-7\":\"zh_CN\",\"-63\":\"pt_BR\",\"-64\":\"kk_KZ\",\"-42\":\"hu_HU\",\"-20\":\"ru_RU\",\"-43\":\"tr_TR\",\"-21\":\"ro_RO\",\"-9\":\"ko_KR\",\"-22\":\"pl_PL\",\""
+  },
+  "https://www.bershka.com/fr/categories?ajax=true": {
+   "statut": 200,
+   "taille": 2189,
+   "debut": "<!DOCTYPE html><html><head> <meta charset=\"utf-8\"> <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\"> <meta http-equiv=\"refresh\" content=\"5; URL='/fr/?ajax=true&bm-verify=AAQAAAAO_____6A0oWdqe1h2wKB70bIaboWdU3L4cfXQRGwvkuRdqAxWCTtV4vJdIuddrBhohYANxxikzzanBF9dGWsa-oFebOnFHRdXYICANBrXvu-rHvDSNMjIm8zdaDr5qr0hqrFcNZiRmoctiMBomhLON0vRSOrAOA0KutfLsw5U6zhbEJd87Q68fcVRteJrQQkcT0wOvEFGQLkin7GmMKxIC1gpTA3NMHzbfOIhS8Bq7NphWba7A_0UXQvZ4iNCWoqbxY7Gw1eK'\" /><title>&nbsp;</t"
+  }
+ },
+ "pullandbear": {
+  "ids": {},
+  "https://www.pullandbear.com/itxrest/2/web/seo/config?appId=1": {
+   "statut": 200,
+   "taille": 6784,
+   "debut": "{\"seoLocaleMap\":{\"-50\":\"es_MX\",\"-52\":\"he_IL\",\"-30\":\"bg_BG\",\"-53\":\"sr_RS\",\"-33\":\"lt_LT\",\"-55\":\"sq_AL\",\"-11\":\"eu_ES\",\"-56\":\"mk_MK\",\"-34\":\"et_EE\",\"-12\":\"gl_ES\",\"-35\":\"lv_LV\",\"-13\":\"ca_ES\",\"-14\":\"el_GR\",\"-36\":\"sl_SI\",\"-15\":\"en_GB\",\"-37\":\"th_TH\",\"-38\":\"hr_HR\",\"-39\":\"da_DK\",\"-1\":\"en_US\",\"-2\":\"fr_FR\",\"-3\":\"de_DE\",\"-4\":\"it_IT\",\"-5\":\"es_ES\",\"-6\":\"pt_BR\",\"-7\":\"zh_CN\",\"-42\":\"hu_HU\",\"-20\":\"ru_RU\",\"-21\":\"ro_RO\",\"-43\":\"tr_TR\",\"-44\":\"ar_AE\",\"-22\":\"pl_PL\",\"-47\":\"uk_UA\",\"-25\":\"sv_SE\",\"100\":\"nl_NL\",\"-49\":\"id_ID\","
+  },
+  "https://www.pullandbear.com/fr/categories?ajax=true": {
+   "statut": 404,
+   "taille": 678130,
+   "debut": "<!DOCTYPE html>\n\n\n<html lang=\"es-ES\" dir=\"ltr\" class=\"error404\">\n  <head>\n<script>\nvar isIE = (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMode));\nif (isIE) {\n  window.location.href = 'https://www.pullandbear.com/es/browser-not-supported.html';\n}\n</script>\n<link rel=\"stylesheet\" href=\"/front/static/itxwebstandard/css/itx-styles-global.min.css?t=2026110914560930db818534026\" type=\"text/css\">\n\n<script type=\"text/javascript\">\n  const growthBookConfiguration = {\n    apiK"
+  }
+ }
+}
