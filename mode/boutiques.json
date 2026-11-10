@@ -1,17 +1,461 @@
 {
- "_aide": "Boutiques lues automatiquement (Shopify). collection = collection des soldes, ou null pour lire tout le catalogue et garder les articles remisés. origine = UE, UK ou US (frais d'import). styles = styles probables de la marque (indice pour l'IA). multi = boutique multimarque. mixte = vend aussi pour femme : on ne lit que la collection homme.",
+ "_aide": "Boutiques lues automatiquement (Shopify). collection = collection des soldes, ou null pour lire tout le catalogue et garder les articles remisés. origine = UE, UK ou US (frais d'import). styles = styles probables de la marque (indice pour l'IA). multi = boutique multimarque. mixte = vend aussi pour femme : on ne lit que la collection homme. veille = pas de remises au moment de l'ajout, surveillée pour les soldes et le Black Friday.",
  "boutiques": [
-  {"domaine": "arte-antwerp.com", "nom": "Arte Antwerp", "collection": null, "origine": "UE", "styles": ["streetwear"]},
-  {"domaine": "minimum.dk", "mixte": true, "nom": "Minimum", "collection": null, "origine": "UE", "styles": ["minimal"]},
-  {"domaine": "bonnegueule.fr", "nom": "Bonne Gueule", "collection": null, "origine": "UE", "styles": ["minimal", "oldmoney"]},
-  {"domaine": "hast.fr", "nom": "Hast", "collection": null, "origine": "UE", "styles": ["oldmoney", "minimal"]},
-  {"domaine": "representclo.com", "mixte": true, "nom": "Represent", "collection": "outlet", "origine": "UK", "styles": ["streetwear"]},
-  {"domaine": "stanray.com", "nom": "Stan Ray", "collection": "outlet", "origine": "UK", "styles": ["workwear"]},
-  {"domaine": "uskees.com", "nom": "Uskees", "collection": "sale", "origine": "UK", "styles": ["workwear"]},
-  {"domaine": "universalworks.co.uk", "nom": "Universal Works", "collection": null, "origine": "UK", "styles": ["workwear", "oldmoney"]},
-  {"domaine": "kestin.co", "nom": "Kestin", "collection": null, "origine": "UK", "styles": ["workwear", "minimal"]},
-  {"domaine": "stuartslondon.com", "nom": "Stuarts London", "collection": "sale", "origine": "UK", "multi": true, "styles": ["oldmoney", "workwear", "streetwear"]},
-  {"domaine": "goodhoodstore.com", "mixte": true, "nom": "Goodhood", "collection": "sale", "origine": "UK", "multi": true, "styles": ["streetwear", "minimal"]},
-  {"domaine": "taylorstitch.com", "mixte": true, "nom": "Taylor Stitch", "collection": null, "origine": "US", "styles": ["workwear", "oldmoney"]}
+  {
+   "domaine": "arte-antwerp.com",
+   "nom": "Arte Antwerp",
+   "collection": null,
+   "origine": "UE",
+   "styles": [
+    "streetwear"
+   ]
+  },
+  {
+   "domaine": "minimum.dk",
+   "mixte": true,
+   "nom": "Minimum",
+   "collection": null,
+   "origine": "UE",
+   "styles": [
+    "minimal"
+   ]
+  },
+  {
+   "domaine": "bonnegueule.fr",
+   "nom": "Bonne Gueule",
+   "collection": null,
+   "origine": "UE",
+   "styles": [
+    "minimal",
+    "oldmoney"
+   ]
+  },
+  {
+   "domaine": "hast.fr",
+   "nom": "Hast",
+   "collection": null,
+   "origine": "UE",
+   "styles": [
+    "oldmoney",
+    "minimal"
+   ]
+  },
+  {
+   "domaine": "representclo.com",
+   "mixte": true,
+   "nom": "Represent",
+   "collection": "outlet",
+   "origine": "UK",
+   "styles": [
+    "streetwear"
+   ]
+  },
+  {
+   "domaine": "stanray.com",
+   "nom": "Stan Ray",
+   "collection": "outlet",
+   "origine": "UK",
+   "styles": [
+    "workwear"
+   ]
+  },
+  {
+   "domaine": "uskees.com",
+   "nom": "Uskees",
+   "collection": "sale",
+   "origine": "UK",
+   "styles": [
+    "workwear"
+   ]
+  },
+  {
+   "domaine": "universalworks.co.uk",
+   "nom": "Universal Works",
+   "collection": null,
+   "origine": "UK",
+   "styles": [
+    "workwear",
+    "oldmoney"
+   ]
+  },
+  {
+   "domaine": "kestin.co",
+   "nom": "Kestin",
+   "collection": null,
+   "origine": "UK",
+   "styles": [
+    "workwear",
+    "minimal"
+   ]
+  },
+  {
+   "domaine": "stuartslondon.com",
+   "nom": "Stuarts London",
+   "collection": "sale",
+   "origine": "UK",
+   "multi": true,
+   "styles": [
+    "oldmoney",
+    "workwear",
+    "streetwear"
+   ]
+  },
+  {
+   "domaine": "goodhoodstore.com",
+   "mixte": true,
+   "nom": "Goodhood",
+   "collection": "sale",
+   "origine": "UK",
+   "multi": true,
+   "styles": [
+    "streetwear",
+    "minimal"
+   ]
+  },
+  {
+   "domaine": "taylorstitch.com",
+   "mixte": true,
+   "nom": "Taylor Stitch",
+   "collection": null,
+   "origine": "US",
+   "styles": [
+    "workwear",
+    "oldmoney"
+   ]
+  },
+  {
+   "domaine": "avnier.com",
+   "nom": "Avnier",
+   "collection": "archive-sale",
+   "origine": "UE",
+   "styles": [
+    "streetwear",
+    "minimal"
+   ]
+  },
+  {
+   "domaine": "sixthjune.com",
+   "nom": "Sixth June",
+   "collection": "sale",
+   "origine": "UE",
+   "styles": [
+    "streetwear"
+   ]
+  },
+  {
+   "domaine": "olafhussein.com",
+   "nom": "Olaf Hussein",
+   "collection": "sale",
+   "origine": "UE",
+   "styles": [
+    "streetwear",
+    "minimal"
+   ],
+   "mixte": true
+  },
+  {
+   "domaine": "patta.nl",
+   "nom": "Patta",
+   "collection": null,
+   "origine": "UE",
+   "styles": [
+    "streetwear"
+   ],
+   "mixte": true
+  },
+  {
+   "domaine": "helascaps.com",
+   "nom": "Hélas",
+   "collection": null,
+   "origine": "UE",
+   "styles": [
+    "streetwear"
+   ]
+  },
+  {
+   "domaine": "thenextdoor.fr",
+   "nom": "The Next Door",
+   "collection": "promotions",
+   "origine": "UE",
+   "styles": [
+    "streetwear",
+    "workwear",
+    "minimal"
+   ],
+   "multi": true,
+   "mixte": true
+  },
+  {
+   "domaine": "afew-store.com",
+   "nom": "Afew",
+   "collection": "sale",
+   "origine": "UE",
+   "styles": [
+    "streetwear"
+   ],
+   "multi": true,
+   "mixte": true
+  },
+  {
+   "domaine": "slamjam.com",
+   "nom": "Slam Jam",
+   "collection": "sale",
+   "origine": "UE",
+   "styles": [
+    "streetwear",
+    "minimal"
+   ],
+   "multi": true,
+   "mixte": true
+  },
+  {
+   "domaine": "ariesarise.com",
+   "nom": "Aries",
+   "collection": "sale",
+   "origine": "UK",
+   "styles": [
+    "streetwear"
+   ],
+   "mixte": true
+  },
+  {
+   "domaine": "farah.co.uk",
+   "nom": "Farah",
+   "collection": "sale",
+   "origine": "UK",
+   "styles": [
+    "oldmoney",
+    "workwear"
+   ]
+  },
+  {
+   "domaine": "urbanindustry.co.uk",
+   "nom": "Urban Industry",
+   "collection": "sale",
+   "origine": "UK",
+   "styles": [
+    "streetwear",
+    "workwear"
+   ],
+   "multi": true,
+   "mixte": true
+  },
+  {
+   "domaine": "couvertureandthegarbstore.com",
+   "nom": "Couverture & The Garbstore",
+   "collection": "mens-sale",
+   "origine": "UK",
+   "styles": [
+    "workwear",
+    "minimal"
+   ],
+   "multi": true
+  },
+  {
+   "domaine": "triads.co.uk",
+   "nom": "Triads",
+   "collection": "sale",
+   "origine": "UK",
+   "styles": [
+    "streetwear",
+    "oldmoney",
+    "minimal"
+   ],
+   "multi": true,
+   "mixte": true
+  },
+  {
+   "domaine": "waxlondon.com",
+   "nom": "Wax London",
+   "collection": "archive-sale",
+   "origine": "UK",
+   "styles": [
+    "minimal",
+    "workwear"
+   ]
+  },
+  {
+   "domaine": "folkclothing.com",
+   "nom": "Folk",
+   "collection": "sale",
+   "origine": "UK",
+   "styles": [
+    "minimal"
+   ],
+   "mixte": true
+  },
+  {
+   "domaine": "albamclothing.com",
+   "nom": "Albam",
+   "collection": "sale",
+   "origine": "UK",
+   "styles": [
+    "workwear",
+    "minimal"
+   ]
+  },
+  {
+   "domaine": "hufworldwide.com",
+   "nom": "HUF",
+   "collection": "sale",
+   "origine": "US",
+   "styles": [
+    "streetwear"
+   ]
+  },
+  {
+   "domaine": "rowingblazers.com",
+   "nom": "Rowing Blazers",
+   "collection": "sale",
+   "origine": "US",
+   "styles": [
+    "oldmoney"
+   ],
+   "mixte": true
+  },
+  {
+   "domaine": "eu.stussy.com",
+   "nom": "Stüssy",
+   "collection": null,
+   "origine": "UE",
+   "styles": [
+    "streetwear"
+   ],
+   "mixte": true,
+   "veille": true
+  },
+  {
+   "domaine": "poptradingcompany.com",
+   "nom": "Pop Trading Company",
+   "collection": null,
+   "origine": "UE",
+   "styles": [
+    "streetwear"
+   ],
+   "veille": true
+  },
+  {
+   "domaine": "carnebollente.com",
+   "nom": "Carne Bollente",
+   "collection": null,
+   "origine": "UE",
+   "styles": [
+    "streetwear"
+   ],
+   "veille": true
+  },
+  {
+   "domaine": "homecore.com",
+   "nom": "Homecore",
+   "collection": null,
+   "origine": "UE",
+   "styles": [
+    "streetwear",
+    "minimal"
+   ],
+   "veille": true
+  },
+  {
+   "domaine": "polarskateco.com",
+   "nom": "Polar Skate Co.",
+   "collection": null,
+   "origine": "UE",
+   "styles": [
+    "streetwear"
+   ],
+   "veille": true
+  },
+  {
+   "domaine": "colorfulstandard.com",
+   "nom": "Colorful Standard",
+   "collection": null,
+   "origine": "UE",
+   "styles": [
+    "minimal"
+   ],
+   "mixte": true,
+   "veille": true
+  },
+  {
+   "domaine": "portugueseflannel.com",
+   "nom": "Portuguese Flannel",
+   "collection": null,
+   "origine": "UE",
+   "styles": [
+    "oldmoney",
+    "minimal"
+   ],
+   "veille": true
+  },
+  {
+   "domaine": "norseprojects.com",
+   "nom": "Norse Projects",
+   "collection": "sale",
+   "origine": "UE",
+   "styles": [
+    "minimal",
+    "workwear"
+   ],
+   "mixte": true,
+   "veille": true
+  },
+  {
+   "domaine": "oipolloi.com",
+   "nom": "Oi Polloi",
+   "collection": null,
+   "origine": "UK",
+   "styles": [
+    "workwear",
+    "streetwear",
+    "minimal"
+   ],
+   "multi": true,
+   "veille": true
+  },
+  {
+   "domaine": "peggsandson.com",
+   "nom": "Peggs & Son",
+   "collection": null,
+   "origine": "UK",
+   "styles": [
+    "workwear",
+    "oldmoney"
+   ],
+   "multi": true,
+   "veille": true
+  },
+  {
+   "domaine": "sunspel.com",
+   "nom": "Sunspel",
+   "collection": null,
+   "origine": "UK",
+   "styles": [
+    "minimal",
+    "oldmoney"
+   ],
+   "mixte": true,
+   "veille": true
+  },
+  {
+   "domaine": "drakes.com",
+   "nom": "Drake's",
+   "collection": null,
+   "origine": "UK",
+   "styles": [
+    "oldmoney"
+   ],
+   "veille": true
+  },
+  {
+   "domaine": "aimeleondore.com",
+   "nom": "Aimé Leon Dore",
+   "collection": null,
+   "origine": "US",
+   "styles": [
+    "oldmoney",
+    "streetwear"
+   ],
+   "veille": true
+  }
  ]
 }
