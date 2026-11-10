@@ -393,7 +393,8 @@ def main():
             tenues.append(t)
     coup = rep.get("coup") if rep.get("coup") in par_id else None
     if (not coup or par_id[coup]["prix_eur"] > 70 or par_id[coup]["origine"] != "UE"
-                     or par_id[coup].get("fiab") in ("mitige", "prudence")) and uniques:  # petit budget : le coup du jour reste abordable
+                     or par_id[coup].get("fiab") in ("mitige", "prudence")
+                     or POIDS.get(par_id[coup]["categorie"], 1) < 2) and uniques:  # le plan du jour suit la saison  # petit budget : le coup du jour reste abordable
         abordables = [a for a in uniques if a["prix_eur"] <= 70 and a["origine"] == "UE" and POIDS.get(a["categorie"], 1) >= 2
                       and a.get("fiab") in ("fiable", "correct", "enseigne") and a["remise"] >= 30]
         coup = max(abordables or uniques, key=lambda a: score(a) + (3 if a.get("forte") else 0))["id"]
