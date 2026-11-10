@@ -28,7 +28,7 @@ MAINTENANT = datetime.now(timezone.utc)
 EXCLURE = re.compile(r"\b(women'?s?|womens|woman|ladies|femme|dress|skirt|bra|bikini|towel|mug|candle|book|magazine|poster|print|sticker|"
                      r"homeware|incense|fragrance|perfume|gift ?card|cup|vase|keyring|key ring|lighter|ashtray|blanket|pillow|cushion|"
                      r"socks?|underwear|boxer|brief|swim|phone case|airpods|playing cards|frisbee|ball|jupe|jupe-culotte|robe|junior|kids?|enfants?|girls?|boys|"
-                     r"brassière|legging|soutien-gorge|caleçon|chaussettes?|slip)\b", re.I)
+                     r"brassière|legging|soutien-gorge|caleçon|chaussettes?|slip|pyjamas?|pj|nightwear|loungewear)\b", re.I)
 CATEGORIES = [
     ("accessoire", r"\b(cap|hat|beanie|bucket|bag|tote|backpack|belt|scarf|bandana|neckerchief|glove|wallet|casquette|bonnet|sac|ceinture|écharpe)s?\b"),
     ("chaussures", r"\b(shoe|boot|sneaker|trainer|loafer|derby|mule|clog|sandal|chaussure|basket|mocassin)s?\b"),
@@ -482,10 +482,13 @@ def main():
     for style in RAYONS:
         cm, cf, n = {}, {}, 0
         for a in sorted((x for x in uniques if x.get("note", 0) >= 7 and style in x["styles"] and x["fiab"] != "prudence"),
-                        key=lambda x: (x["note"], x["rang"]), reverse=True):
+                        key=lambda x: (x["note"] + {"FR": .9, "UK": -.4, "US": -.8}.get(x["pays"], .4), x["rang"]), reverse=True):
             m = a["marque"].lower()
-            if a["id"] in selection or cm.get(m, 0) >= 2 or cf.get(a["fam"], 0) >= 2:
+            hors_ue = a["origine"] != "UE"
+            if a["id"] in selection or cm.get(m, 0) >= 2 or cf.get(a["fam"], 0) >= 2 or (hors_ue and cm.get("_hors_ue", 0) >= 4):
                 continue
+            if hors_ue:
+                cm["_hors_ue"] = cm.get("_hors_ue", 0) + 1
             cm[m], cf[a["fam"]], n = cm.get(m, 0) + 1, cf.get(a["fam"], 0) + 1, n + 1
             selection.append(a["id"])
             if n >= 14:
@@ -504,11 +507,15 @@ def main():
         if cle not in vus_n and a["id"] not in par_id:
             vus_n.add(cle)
             neufs_u.append(a)
-    cands = varies(neufs_u, 150, par_boutique=7, par_fam=14)
-    rep = demander_ia(CONSIGNE.format(style="les nouveautés", description="sorties récentes dans les quatre styles du lecteur : streetwear, workwear, minimal, old money",
-                                      quoi="sortis ces dernières semaines (sans promo)", max_hauts=30, tenues_schema="", tenues_regles=""), cands)
+    cands = varies(neufs_u, 140, par_boutique=6, par_fam=9)
+    rep = None
     par_id_n = {a["id"]: a for a in cands}
-    appliquer_notes(rep, par_id_n)
+    for i in range(0, len(cands), 70):  # deux petits appels plutôt qu'un gros (plus fiable)
+        r = demander_ia(CONSIGNE.format(style="les nouveautés", description="sorties récentes dans les quatre styles du lecteur : streetwear, workwear, minimal, old money",
+                                        quoi="sortis ces dernières semaines (sans promo)", max_hauts=15, tenues_schema="", tenues_regles=""), cands[i:i + 70])
+        appliquer_notes(r, par_id_n)
+        rep = rep or r
+        time.sleep(6)
     for a in cands:
         a.setdefault("styles", a["styles_indice"])
     nouveautes = sorted((a for a in cands if a.get("note", 6 if not rep else 0) >= 6), key=lambda a: (a.get("note", 0), a["sortie"]), reverse=True)[:72]
