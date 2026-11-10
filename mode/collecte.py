@@ -25,7 +25,8 @@ MAINTENANT = datetime.now(timezone.utc)
 
 EXCLURE = re.compile(r"\b(women'?s?|womens|woman|ladies|femme|dress|skirt|bra|bikini|towel|mug|candle|book|magazine|poster|print|sticker|"
                      r"homeware|incense|fragrance|perfume|gift ?card|cup|vase|keyring|key ring|lighter|ashtray|blanket|pillow|cushion|"
-                     r"socks?|underwear|boxer|brief|swim|phone case|airpods|playing cards|frisbee|ball)\b", re.I)
+                     r"socks?|underwear|boxer|brief|swim|phone case|airpods|playing cards|frisbee|ball|jupe|jupe-culotte|robe|junior|kids?|enfants?|girls?|boys|"
+                     r"brassière|legging|soutien-gorge|caleçon|chaussettes?|slip)\b", re.I)
 CATEGORIES = [
     ("accessoire", r"\b(cap|hat|beanie|bucket|bag|tote|backpack|belt|scarf|bandana|neckerchief|glove|wallet|casquette|bonnet|sac|ceinture|écharpe)s?\b"),
     ("chaussures", r"\b(shoe|boot|sneaker|trainer|loafer|derby|mule|clog|sandal|chaussure|basket|mocassin)s?\b"),
@@ -407,14 +408,17 @@ def main():
     except (FileNotFoundError, json.JSONDecodeError):
         deja = {}
     premiere = not deja
+    debut = deja.setdefault("_debut", jour) if not premiere else jour
+    if premiere:
+        deja["_debut"] = jour
     jour = MAINTENANT.date().isoformat()
     for a in uniques:
         a["vu_le"] = deja.get(a["id"], jour)
-        a["nouveau"] = not premiere and a["vu_le"] >= (MAINTENANT - timedelta(days=2)).date().isoformat()
+        a["nouveau"] = not premiere and a["vu_le"] > debut and a["vu_le"] >= (MAINTENANT - timedelta(days=2)).date().isoformat()
         deja.setdefault(a["id"], jour)
     limite = (MAINTENANT - timedelta(days=60)).date().isoformat()
     f_vus.parent.mkdir(exist_ok=True)
-    f_vus.write_text(json.dumps({k: v for k, v in deja.items() if v >= limite}, separators=(",", ":")), encoding="utf-8")
+    f_vus.write_text(json.dumps({k: v for k, v in deja.items() if k == "_debut" or v >= limite}, separators=(",", ":")), encoding="utf-8")
     for a in uniques:
         a["rang"] = round(score(a), 2)
     for a in uniques:  # allège le fichier lu par le site (téléphone)

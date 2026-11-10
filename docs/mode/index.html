@@ -184,6 +184,8 @@ footer b{color:var(--blanc);font-weight:600}
   .vues{gap:0}
   .outils .nb{margin-left:0}
   .outils{position:static}
+  .tete .wrap{flex-wrap:wrap;height:auto;padding-top:12px;padding-bottom:8px;gap:8px}
+  .vues{width:100%;overflow-x:auto;scrollbar-width:none;margin:0 -4px}
 }
 </style>
 </head>
@@ -235,9 +237,10 @@ function note(a){if(a.rang!=null)return a.rang+(a.forte?2.5:0)+(a.nouveau?1:0);c
   return a.remise/10+p+(a.prix_eur<=40?2:a.prix_eur<=70?1.3:a.prix_eur<=110?.7:0)+(a.forte?2.5:0)+(a.origine==="UE"?.8:0)+(a.nouveau?1:0)}
 const sticker=(a,xl)=>`<span class="sticker${xl?" xl":""}${a.remise?"":" special"}"><span class="p">${eur(a.prix_eur)}</span><span class="r">${a.remise?"−"+a.remise+" %":"Prix spécial"}</span></span>`;
 function badge(a){const f=fParNom[a.boutique],n=a.fiab||(f&&f.niveau)||"inconnu",v=f&&f.avis;
-  return `<a class="fiab f-${n}" href="#" data-fiche="${esc(a.boutique)}">${NIV[n]}${v&&v.note?` <small>${String(v.note).replace(".",",")}/5, ${v.avis.toLocaleString("fr-FR")} avis</small>`:""}</a>`}
+  return `<a class="fiab f-${n}" href="#" data-fiche="${esc(a.boutique)}">${NIV[n]}${v&&v.note?` <small title="${v.avis} avis ${esc(v.source)}">${String(v.note).replace(".",",")}/5</small>`:""}</a>`}
+const avisIA=a=>String(a.pourquoi||"").replace(/^[\s«"“]+|[\s»"”]+$/g,"");
 const fiableOk=a=>!etat.fiables||["fiable","correct","enseigne"].includes(a.fiab);
-const douane=a=>a.origine==="UE"?"":`<span class="douane">Envoi depuis le ${PAYS[a.origine]||a.origine}, douane possible</span>`;
+const douane=a=>a.pays==="FR"?`<span style="color:#0b3d91;font-weight:600">Expédié de France</span>`:a.origine==="UE"?"":`<span class="douane">Envoi depuis le ${PAYS[a.origine]||a.origine}, douane possible</span>`;
 const styleOk=a=>(etat.style==="tous"||(a.styles||[]).includes(etat.style))&&fiableOk(a);
 
 function fiche(a){
@@ -245,7 +248,7 @@ function fiche(a){
   return `<article class="fiche">
     <a class="photo" href="${esc(a.lien)}" target="_blank" rel="noopener" aria-label="${esc(marque(a)+" "+a.nom)} chez ${esc(a.boutique)}">
       <img src="${U(a.images[0],600)}" alt="" loading="lazy">${b?`<img class="b" src="${U(b,600)}" alt="" loading="lazy">`:""}
-      <span class="marks"><span style="display:flex;gap:4px">${a.nouveau?'<span class="mark noir">Nouveau</span>':""}${a.pays==="FR"?'<span class="mark fr">Boutique française</span>':""}</span>${a.forte?'<span class="mark">Validé</span>':""}</span>
+      <span class="marks">${a.nouveau?'<span class="mark noir">Nouveau</span>':"<span></span>"}${a.forte?'<span class="mark">Validé</span>':""}</span>
       ${sticker(a)}
     </a>
     <div class="txt">
@@ -253,8 +256,8 @@ function fiche(a){
       <div class="n">${esc(nom(a).n)}${nom(a).c?`<span style="color:var(--gris)">, ${esc(nom(a).c)}</span>`:""}</div>
       <div class="pa">${a.remise?`Au lieu de <span class="avant">${eur(a.avant_eur)}</span>`:"Prix spécial"}${marque(a)===a.boutique?"":" chez "+esc(a.boutique)}</div>
       ${badge(a)}
-      ${a.pourquoi?`<p class="av">${esc(a.pourquoi)}</p>`:""}
-      <div class="t">${a.tailles.length?"Tailles "+esc(a.tailles.slice(0,7).join(", ")):""}${a.tailles.length&&a.origine!=="UE"?"<br>":""}${douane(a)}</div>
+      ${a.pourquoi?`<p class="av">${esc(avisIA(a))}</p>`:""}
+      <div class="t">${a.tailles.length?"Tailles "+esc(a.tailles.slice(0,7).join(", ")):""}${a.tailles.length&&(a.origine!=="UE"||a.pays==="FR")?"<br>":""}${douane(a)}</div>
     </div>
   </article>`;
 }
@@ -272,7 +275,7 @@ function vuePlans(){
         <div class="quoi">Le plan du jour</div>
         <h1>${esc(nom(c).n)}</h1>
         <div class="marque">${esc(marque(c))}${nom(c).c?", "+esc(nom(c).c):""}, au lieu de <span class="avant">${eur(c.avant_eur)}</span></div>
-        ${c.pourquoi?`<blockquote>« ${esc(c.pourquoi)} »</blockquote>`:""}
+        ${c.pourquoi?`<blockquote>« ${esc(avisIA(c))} »</blockquote>`:""}
         <div>${badge(c)}</div>
         <p class="details">${c.tailles.length?"Encore dispo en "+esc(c.tailles.slice(0,8).join(", "))+". ":""}${douane(c)}</p>
         <a class="cta" href="${esc(c.lien)}" target="_blank" rel="noopener">Voir chez ${esc(c.boutique)}</a>
