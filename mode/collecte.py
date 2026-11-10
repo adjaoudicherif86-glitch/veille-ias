@@ -50,11 +50,15 @@ def taux_eur():
         return {"EUR": 1.0, "GBP": 1.15, "USD": 0.87, "DKK": 0.134, "SEK": 0.087}
 
 
-def devise(domaine):
+def boutique_meta(domaine):
+    """Devise de base de la boutique (celle de /products.json), pays et livraison en France, d'après /meta.json.
+    Attention : /cart.js renvoie la devise du visiteur (USD depuis les serveurs GitHub), pas celle des prix."""
     try:
-        return requests.get(f"https://{domaine}/cart.js", headers=UA, timeout=15).json().get("currency") or "EUR"
+        m = requests.get(f"https://{domaine}/meta.json", headers=UA, timeout=15).json()
+        pays = m.get("ships_to_countries") or []
+        return m.get("currency") or "EUR", m.get("country"), ("FR" in pays) if pays else None
     except Exception:
-        return "EUR"
+        return "EUR", None, None
 
 
 def produits(b):
@@ -310,7 +314,11 @@ def main():
     taux = taux_eur()
     articles, bilan = [], []
     for b in cfg:
-        dev = devise(b["domaine"])
+        dev, pays_meta, livre_fr = boutique_meta(b["domaine"])
+        if livre_fr is False:
+            print(f"⛔ {b['nom']:16} ne livre pas la France d'après la boutique : ignorée")
+            bilan.append({"boutique": b["nom"], "lus": 0, "gardes": 0, "devise": dev, "origine": b["origine"], "exclue": "ne livre pas la France"})
+            continue
         brut = produits(b)
         if b.get("mixte"):
             par_tag = [p for p in brut if genre(p) == "homme"]
