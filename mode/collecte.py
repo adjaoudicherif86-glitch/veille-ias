@@ -9,7 +9,7 @@ import os
 import re
 import sys
 import time
-from datetime import datetime, timezone
+from datetime import datetime, timedelta, timezone
 from pathlib import Path
 
 import requests
@@ -166,9 +166,12 @@ le workwear, le minimal et le old money (références : Aimé Leon Dore, Carhart
 articles réellement en promo, avec leur prix en euros. Réponds UNIQUEMENT en JSON :
 {
  "pieces": [{"id": "...", "styles": ["workwear|streetwear|minimal|oldmoney", ...], "forte": true|false,
-             "pourquoi": "1 phrase en français : pourquoi c'est une bonne affaire ou une pièce intéressante"}],
+             "pourquoi": "ton avis en 1 phrase courte, façon média streetwear qui parle à sa commu (tutoiement, direct, sans
+                          blabla marketing) : ce qui rend la pièce intéressante à ce prix. Ex. : « Un vrai ripstop Stan Ray à 42 balles, tu
+                          le portes cinq ans. »"}],
  "coup": "id de la meilleure affaire du jour (belle pièce, grosse remise, prix bas)",
- "tenues": [{"style": "workwear|streetwear|minimal|oldmoney", "nom": "nom court et évocateur", "accroche": "1 phrase",
+ "tenues": [{"style": "workwear|streetwear|minimal|oldmoney", "nom": "nom court qui sonne naturel (2 à 4 mots, pas de jeu de mots forcé)",
+             "accroche": "1 phrase en tutoiement : pour quelle occasion, quelle vibe",
              "articles": ["id", "id", ...],
              "complements": [{"piece": "ex. : t-shirt blanc épais", "ou": "ex. : Uniqlo U", "prix": "ex. : 20 à 30 €"}],
              "conseils": ["3 conseils concrets pour la porter : proportions, couleurs, chaussures"]}]
@@ -177,7 +180,8 @@ Règles :
 - "pieces" : classe CHAQUE article fourni. "forte" = pièce marquante (belle matière, coupe, coloris) à vrai bon prix.
 - "tenues" : 2 tenues par style (8 au total), chacune avec 2 à 4 articles de la liste (différentes catégories : haut, bas,
   couche, chaussures…) qui vont vraiment ensemble (couleurs, matières, esprit). Complète avec 1 à 3 pièces basiques
-  abordables qui ne sont pas dans la liste (marques à petits prix : Uniqlo, Arket, Weekday, Dickies, Levi's…).
+  abordables qui ne sont pas dans la liste (marques à petits prix : Uniqlo, Kiabi, H&M, Decathlon, Dickies, Levi's, Vans…),
+  40 € maximum chacune, jamais de pièces de luxe en complément.
 - Privilégie les prix bas : le lecteur a peu d'argent. N'invente aucun id."""
 
 
@@ -307,7 +311,13 @@ def main():
             continue
         vus.add(cle)
         uniques.append(a)
-    candidats = uniques[:140]
+    # variété : pas plus de 16 modèles par boutique dans ce qu'on montre à l'IA
+    par_boutique, candidats = {}, []
+    for a in uniques:
+        if par_boutique.get(a["boutique"], 0) < 16:
+            par_boutique[a["boutique"]] = par_boutique.get(a["boutique"], 0) + 1
+            candidats.append(a)
+    candidats = candidats[:150]
     print(f"→ {len(articles)} affaires, {len(uniques)} modèles distincts, {len(candidats)} envoyés à l'IA")
     rep = demander_ia(candidats) or {}
     par_id = {a["id"]: a for a in uniques}
@@ -334,6 +344,21 @@ def main():
                                  + [a["id"] for a in sorted(uniques, key=score, reverse=True) if a.get("forte")][:40]))
     n = photos_portees([par_id[i] for i in a_voir])
     print(f"📸 {n} photos portées trouvées sur {len(a_voir)} articles vérifiés")
+    # première apparition de chaque article : sert à « Ça vient de tomber »
+    f_vus = RACINE / "etat" / "mode-vus.json"
+    try:
+        deja = json.loads(f_vus.read_text(encoding="utf-8"))
+    except (FileNotFoundError, json.JSONDecodeError):
+        deja = {}
+    premiere = not deja
+    jour = MAINTENANT.date().isoformat()
+    for a in uniques:
+        a["vu_le"] = deja.get(a["id"], jour)
+        a["nouveau"] = not premiere and a["vu_le"] >= (MAINTENANT - timedelta(days=2)).date().isoformat()
+        deja.setdefault(a["id"], jour)
+    limite = (MAINTENANT - timedelta(days=60)).date().isoformat()
+    f_vus.parent.mkdir(exist_ok=True)
+    f_vus.write_text(json.dumps({k: v for k, v in deja.items() if v >= limite}, separators=(",", ":")), encoding="utf-8")
     SORTIE.parent.mkdir(parents=True, exist_ok=True)
     SORTIE.write_text(json.dumps({
         "maj": MAINTENANT.isoformat(), "modele": rep.get("_modele"), "taux": {k: round(v, 4) for k, v in taux.items() if k in ("GBP", "USD", "DKK")},
