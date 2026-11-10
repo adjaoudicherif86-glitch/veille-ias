@@ -1,6 +1,6 @@
 {
  "url": "https://platform.claude.com/docs/en/release-notes/overview",
- "maj": "2026-11-10T12:39:30.865587+00:00",
+ "maj": "2026-11-10T21:48:41.490621+00:00",
  "lignes": [
   "Release notes",
   "Claude Platform release notes",
@@ -16,6 +16,7 @@
   "- Thinking blocks that Claude Fable 5.2 and Claude Mythos 5.2 produce work only in the account that produced them, or in an account linked to it. See Preserved thinking.",
   "- We’ve launched fast mode for Claude Fable 5.2 in Messages API requests on the Claude API. Fast mode delivers up to 2.5x higher output tokens per second, at $16 USD per MTok of input and $80 USD per MTok of output. Set speed: \"fast\" on your request, with no beta header.",
   "November 5, 2026",
+  "- The Compliance API now includes Security posture data, in beta for Claude Enterprise organizations. The Activity Feed records changes to attestations on the Security posture page in claude.ai Organization settings. The GET /v1/compliance/organizations/{organization_id}/security_posture endpoint returns an organization’s current Security posture results. See Security posture in the Compliance API.",
   "- You can now set up an IP allowlist for your organization in the Claude Console, in beta. Requests to covered services from addresses not on your list are refused, which limits where a leaked API key can be used. Add IPv4 and IPv6 addresses or CIDR ranges, up to 1,000 per organization. See IP allowlisting for what’s covered and how to set it up.",
   "- You can now sign a member of your Claude Enterprise (claude.ai) organization out of Claude everywhere with the Admin API. This capability is in beta. See the Admin API reference. The member stays in the organization and can sign in again. See Sign a member out everywhere for the beta header and what the request doesn’t end.",
   "November 3, 2026",
