@@ -472,7 +472,12 @@ def construire_fil(uniques, nouveautes, selection, par_id_tout):
                      key=lambda a: a["baisse_de"] - a["prix_eur"], reverse=True)[:6]
     neufs = [a for a in nouveautes if a.get("note", 0) >= 8][:10]
     ids_posts = list(dict.fromkeys([i for i in selection[:24]] + [a["id"] for a in baisses + neufs]))[:36]
-    posts = [par_id_tout[i] for i in ids_posts if i in par_id_tout]
+    posts, vus_p = [], set()
+    for i in ids_posts:  # un seul post par marque et par type de pièce
+        a = par_id_tout.get(i)
+        if a and (a["marque"].lower(), a.get("fam")) not in vus_p:
+            vus_p.add((a["marque"].lower(), a.get("fam")))
+            posts.append(a)
     # les fils : 3 catégories de saison avec assez de bonnes pièces, marques variées
     pool = [a for a in uniques + nouveautes if a.get("note", 0) >= 6 and a.get("fiab") != "prudence"]
     groupes = {}
