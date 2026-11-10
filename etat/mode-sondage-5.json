@@ -1,7 +1,18 @@
 {
  "bershka": {
   "ids": {
-   "storeId": "44009501"
+   "storeId": "44009501",
+   "catalogId": "40259533"
+  },
+  "https://www.bershka.com/itxrest/2/catalog/store/44009501/40259533/category?languageId=-2&typeCatalog=1&appId=1": {
+   "statut": 200,
+   "taille": 257272,
+   "debut": "{\"categories\":[{\"id\":1010193132,\"name\":\"FEMME\",\"nameEn\":\"WOMEN\",\"shortDescription\":null,\"description\":null,\"keywords\":null,\"key\":\"BERSHKA_WOMAN\",\"numberOfProducts\":null,\"type\":\"\",\"viewCategoryId\":0,\"subcategories\":[{\"id\":1010780481,\"name\":\"Highlight\",\"nameEn\":\"Highlight\",\"shortDescription\":null,\"description\":null,\"keywords\":null,\"key\":\"***DESTACADOS***\",\"numberOfProducts\":null,\"type\":\"14\",\"viewCategoryId\":0,\"subcategories\":[{\"id\":1010378020,\"name\":\"Nouveautés\",\"nameEn\":\"New\",\"shortDescription\":n"
+  },
+  "https://www.bershka.com/itxrest/3/catalog/store/44009501/40259533/category?languageId=-2&typeCatalog=1&appId=1": {
+   "statut": 403,
+   "taille": 196,
+   "debut": "<HTML><HEAD>\n<TITLE>Service Unavailable</TITLE>\n</HEAD><BODY>\n<H1>Service Unavailable</H1>\n\nHTTP Error 403. The service is unavailable.<P>\nReference #0.9751c317.1794323563.17af31b5\n</BODY>\n</HTML>"
   },
   "https://www.bershka.com/itxrest/2/web/seo/config?appId=1": {
    "statut": 200,
@@ -11,7 +22,7 @@
   "https://www.bershka.com/fr/categories?ajax=true": {
    "statut": 200,
    "taille": 2189,
-   "debut": "<!DOCTYPE html><html><head> <meta charset=\"utf-8\"> <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\"> <meta http-equiv=\"refresh\" content=\"5; URL='/fr/?ajax=true&bm-verify=AAQAAAAO_____6A0oWdqe1h2wKB70bIaboWdU3L4cfXQRGwvkuRdqAxWCTtV4vJdIuddrBhohYANxxikzzanBF9dGWsa-oFebOnFHRdXYICANBrXvu-rHvDSNMjIm8zdaDr5qr0hqrFcNZiRmoctiMBomhLON0vRSOrAOA0KutfLsw5U6zhbEJd87Q68fcVRteJrQQkcT0wOvEFGQLkin7GmMKxIC1gpTA3NMHzbfOIhS8Bq7NphWba7A_0UXQvZ4iNCWoqbxY7Gw1eK'\" /><title>&nbsp;</t"
+   "debut": "<!DOCTYPE html><html><head> <meta charset=\"utf-8\"> <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\"> <meta http-equiv=\"refresh\" content=\"5; URL='/fr/?ajax=true&bm-verify=AAQAAAAO_____64_eaXR32xCzGo0ovXIe_rcoTAXHuQHSSiXofXKGS-K5r24_FTUng85XInpZJ5iy6pwCBqlIi6zjKlbIkm79SdVvRySzukQ1DnanSIt_beinrTbeNQDrEb_srMZt4eaLpByhIPnK4QrXh6SA8h8dagheHnrf4GscAapA4auEoJCgBP17Js87KIYFlCYioIrZCkjGQmmstCBQWct7xQDL4HqBRVcQbKMH3cTL3TJsqDC6-AcTTtbpZczUERWkZ9L_tPn'\" /><title>&nbsp;</t"
   }
  },
  "pullandbear": {
