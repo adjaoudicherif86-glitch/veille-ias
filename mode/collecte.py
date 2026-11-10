@@ -403,8 +403,10 @@ Exemples de ton (à ne pas recopier) :
 - « la bonne polaire, c'est plus que nécessaire là »
 
 On te donne :
-1. POSTS : des pièces déjà sélectionnées (promo ou nouveauté). Pour CHACUNE, écris un post de 1 à 2 phrases (25 mots max).
-   Si la pièce a « baisse » ou une remise, tu peux dire « passe à X € au lieu de Y € ». Si de grandes tailles sont dispo
+1. POSTS : des pièces déjà sélectionnées (promo ou nouveauté). Pour CHACUNE, écris un post de 1 à 2 phrases (25 mots max). Varie
+   vraiment les débuts de phrase et les tournures d'un post à l'autre.
+   Le prix est déjà affiché sous le post : ne le répète pas, SAUF si la pièce a une « baisse » (là tu peux dire « passe à X €
+   au lieu de Y € »). Parle de la pièce, pas de la remise. Si de grandes tailles sont dispo
    (XXL, 2XL, 3XL), dis-le entre parenthèses. Ne répète pas la même formule d'un post à l'autre.
 2. FILS : des listes de pièces du même type. Pour chaque liste, écris un titre de fil dans le même ton (ex. : « l'hiver c'est
    bien la saison des polaires »), puis choisis 4 ou 5 pièces DIFFÉRENTES (marques et prix variés) et donne à chacune une
@@ -657,7 +659,7 @@ def main():
         time.sleep(6)
     for a in cands:
         a.setdefault("styles", a["styles_indice"])
-    nouveautes = sorted((a for a in cands if a.get("note", 6 if not rep else 0) >= 6), key=lambda a: (a.get("note", 0), a["sortie"]), reverse=True)[:72]
+    nouveautes = sorted((a for a in cands if a.get("note", 6) >= 6), key=lambda a: (a.get("note", 0), a["sortie"]), reverse=True)[:72]
     print(f"→ sans promo : {len(neufs)} sorties récentes, {len(cands)} montrées à l'IA, {len(nouveautes)} gardées")
 
     suivre_prix(uniques + nouveautes)
