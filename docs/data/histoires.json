@@ -1,12 +1,12 @@
 {
- "maj": "2026-11-10T02:44:28.674355+00:00",
+ "maj": "2026-11-10T12:39:30.871929+00:00",
  "histoires": [
   {
    "id": "h_448e1ef468",
    "titre": "Lancement de Claude Fable 5.5",
-   "resume": "Anthropic officialise et déploie activement ses nouveaux modèles Claude Fable 5.2 et Mythos 5.2, dotés d'une fenêtre de contexte de 1M de tokens et positionnés 20% sous les tarifs de GPT-6 Astra. Ces modèles font l'objet d'intégrations de sécurité majeures, notamment avec Cisco, et démontrent des capacités avancées en programmation et en résolution de problèmes complexes.",
+   "resume": "Anthropic officialise et déploie activement ses nouveaux modèles Claude Fable 5.2 et Mythos 5.2 (avec une disponibilité sur AWS et des tests sur le code et la 3D). Ces modèles bénéficient d'intégrations majeures et de retours d'utilisation axés sur leurs capacités avancées en programmation.",
    "creee": "2026-10-20T09:56:16.457937+00:00",
-   "maj": "2026-11-10T02:44:28.670758+00:00",
+   "maj": "2026-11-10T09:32:04+00:00",
    "episodes": [
     {
      "id": "c435919116b493",
@@ -64,6 +64,17 @@
      "primaire": false
     },
     {
+     "id": "0275f0132ff724",
+     "date": "2026-11-09T20:04:37+00:00",
+     "titre": "Lancement de Claude Fable 5.2 sur AWS",
+     "neuf": "Le modèle Claude Fable 5.2 est désormais disponible sur l'infrastructure cloud d'AWS.",
+     "fil": "même modèle Claude Fable 5.2",
+     "source": "Anthropic (actus)",
+     "lien": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPd2JVY2R2SzNCdEtZdXlHOG85RU1qSkVTYndPS3c0ZWtnRm5scXZaNUhzZE5QR0t3VTRmMGxXQk9SaTJrY0ZTOElUSjZ0czN1VGFQZW9LVlRpWTRpRnVjcHhDcVNLd2ZHcWRZWlJIVkRsb1RCWTFPNVQySm9XWGZlT3BvYmtMWHJKb0E?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
      "id": "255b56db4a4a44",
      "date": "2026-11-09T20:04:55+00:00",
      "titre": "Claude Fable 5.2 scores 65 on Artificial Analysis, highest so far",
@@ -117,6 +128,28 @@
      "lien": "https://platform.claude.com/docs/en/release-notes/overview",
      "nb_sources": 1,
      "primaire": true
+    },
+    {
+     "id": "c8bf0b8e918f2d",
+     "date": "2026-11-10T05:34:14+00:00",
+     "titre": "Quoting Prompting Claude Fable 5.2",
+     "neuf": "Analyses et tests sur la manière dont Claude Fable 5.2 réagit aux instructions concernant la propriété du code.",
+     "fil": "même modèle Claude Fable 5.2",
+     "source": "Simon Willison",
+     "lien": "https://simonwillison.net/2026/Nov/10/prompting-claude-fable-52/",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "5ffd74996fdd91",
+     "date": "2026-11-10T09:32:04+00:00",
+     "titre": "Anthropic lance Claude Fable et Mythos 5.2",
+     "neuf": "Nouvelle présentation officielle de Claude Fable et Mythos 5.2 par Anthropic.",
+     "fil": "même lancement de Claude Fable 5.2",
+     "source": "IA en français (actus)",
+     "lien": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQUm5OSlBxcGRWZUZHaTJoNTJkZGVlRmh2UnViTVZwTnVORE1sNkxaR2NxT09sNHl6bHJ2RkExX0RXajZWeF9OVG5faGo0VFVfekVXcUtPaUl5SGxwX29qWWdUYWkzbzN0NVh0OHZiNVVNRjl3UldhM3ZjY1JDVFJ3MUpCNVNydkZjVVNoSEQwaXlQTnpPNWtMZGEtNllZUVlHbjhod2Zn?oc=5",
+     "nb_sources": 1,
+     "primaire": false
     }
    ],
    "statut": "active",
@@ -126,725 +159,58 @@
    ]
   },
   {
-   "id": "h_97c425e6a7",
-   "titre": "Mise à jour v2.1.314 de Claude Code",
-   "resume": "Anthropic déploie la version v2.1.322 de Claude Code en intégrant notamment le mode rapide sur Vertex dans plusieurs régions géographiques, après avoir introduit des contrôles de sécurité renforcés, la gestion des tâches MCP et une architecture hybride combinant fichiers CLAUDE.md et hooks stricts.",
-   "creee": "2026-10-30T01:09:42.604214+00:00",
-   "maj": "2026-11-10T02:29:43+00:00",
+   "id": "h_b55889adcf",
+   "titre": "Moonshot AI contourne les sanctions sur les puces via l'Europe",
+   "resume": "La startup chinoise Moonshot AI est sous le coup de nouvelles révélations concernant son accès présumé à du matériel Nvidia Blackwell en contournant les restrictions d'exportation américaines via des intermédiaires.",
+   "creee": "2026-11-06T06:45:17.198239+00:00",
+   "maj": "2026-11-10T08:48:00+00:00",
    "episodes": [
     {
-     "id": "fd961a2239120b",
-     "date": "2026-10-30T01:06:26+00:00",
-     "titre": "Mise à jour Claude Code v2.1.314 : sécurité et résilience",
-     "neuf": "Publication de la version v2.1.314 apportant des correctifs de sécurité et de résilience.",
-     "fil": "Mises à jour de Claude Code",
-     "source": "Claude Code",
-     "lien": "https://github.com/anthropics/claude-code/releases/tag/v2.1.314",
-     "nb_sources": 1,
-     "primaire": true
-    },
-    {
-     "id": "a1eae37ef93f12",
-     "date": "2026-10-31T01:01:35+00:00",
-     "titre": "Mise à jour Claude Code v2.1.316 : budgets partagés et correctifs",
-     "neuf": "Déploiement de la version v2.1.316 introduisant des budgets partagés et de nouveaux contrôles administratifs.",
-     "fil": "Mise à jour de Claude Code",
-     "source": "Claude Code",
-     "lien": "https://github.com/anthropics/claude-code/releases/tag/v2.1.316",
-     "nb_sources": 1,
-     "primaire": true
-    },
-    {
-     "id": "21325d54bf349a",
-     "date": "2026-11-02T17:13:47+00:00",
-     "titre": "Yet another reason to self host: Anthropic has (again) cut back on reverse engineering tools",
-     "neuf": "Les utilisateurs signalent de nouvelles limitations dans Claude Code pour empêcher le clonage de jeux et le reverse engineering.",
-     "fil": "Mêmes limites et restrictions sur les outils de reverse engineering de Claude Code",
-     "source": "r/LocalLLaMA",
-     "lien": "https://www.reddit.com/r/LocalLLaMA/comments/1xm33gr/yet_another_reason_to_self_host_anthropic_has/",
-     "nb_sources": 1,
-     "primaire": false
-    },
-    {
-     "id": "3233c3993f901c",
-     "date": "2026-11-03T01:25:46+00:00",
-     "titre": "Notes de version Claude Code v2.1.317 : sécurité et outils admin",
-     "neuf": "Sortie de la version v2.1.317 axée sur la sécurité, les outils administratifs et la correction de bugs.",
-     "fil": "Mise à jour corrective et fonctionnelle de Claude Code",
-     "source": "Claude Code",
-     "lien": "https://github.com/anthropics/claude-code/releases/tag/v2.1.317",
-     "nb_sources": 1,
-     "primaire": true
-    },
-    {
-     "id": "a506088947db76",
-     "date": "2026-11-04T00:01:03+00:00",
-     "titre": "Claude Code v2.1.318",
-     "neuf": "Publication de la version v2.1.318 ajoutant un historique des réponses pour les modifications de session et le support d'assumer un rôle sur les passerelles AWS.",
-     "fil": "Mise à jour de Claude Code",
-     "source": "Claude Code",
-     "lien": "https://github.com/anthropics/claude-code/releases/tag/v2.1.318",
-     "nb_sources": 1,
-     "primaire": true
-    },
-    {
-     "id": "5c0cfbbab24a5d",
-     "date": "2026-11-05T21:59:16.987959+00:00",
-     "titre": "Nouvelles fonctionnalités de sécurité pour l'API Claude d'Anthropic",
-     "neuf": "Ajout d'une liste blanche d'adresses IP et d'une API d'administration pour la déconnexion à distance.",
-     "fil": "même écosystème de sécurité et d'administration des outils Anthropic",
-     "source": "Notes de version Claude (API)",
-     "lien": "https://platform.claude.com/docs/en/release-notes/overview",
-     "nb_sources": 1,
-     "primaire": true
-    },
-    {
-     "id": "3b58ffb304e7b1",
-     "date": "2026-11-05T22:17:15+00:00",
-     "titre": "Claude Code sends your email address to websites",
-     "neuf": "Un problème de sécurité et de confidentialité est signalé, Claude Code transmettant l'adresse e-mail des utilisateurs à des sites web.",
-     "fil": "Mise à jour et problèmes liés à Claude Code",
-     "source": "Hacker News (IA, 100+ pts)",
-     "lien": "https://github.com/anthropics/claude-code/issues/107757",
-     "nb_sources": 1,
-     "primaire": false
-    },
-    {
-     "id": "b5fb3b3142a3da",
-     "date": "2026-11-06T06:45:17.192402+00:00",
-     "titre": "Nouvelles fonctionnalités de l'API Claude : gestion des utilisateurs et capacités des modèles",
-     "neuf": "L'API Claude s'enrichit de nouvelles options de contrôle administrateur et de champs de modèles améliorés.",
-     "fil": "Mises à jour des fonctionnalités et de l'API Claude",
-     "source": "Notes de version Claude (API)",
-     "lien": "https://platform.claude.com/docs/en/release-notes/overview",
-     "nb_sources": 1,
-     "primaire": true
-    },
-    {
-     "id": "06e9433f39d00d",
-     "date": "2026-11-06T17:04:01+00:00",
-     "titre": "Mise à jour Claude Code v2.1.319 : sécurité, MCP et API",
-     "neuf": "La version v2.1.319 apporte des contrôles renforcés pour le mode automatique, la gestion des tâches MCP en arrière-plan et des optimisations de latence.",
-     "fil": "Mise à jour directe de l'outil Claude Code",
-     "source": "Claude Code",
-     "lien": "https://github.com/anthropics/claude-code/releases/tag/v2.1.319",
-     "nb_sources": 1,
-     "primaire": true
-    },
-    {
-     "id": "2fbff683355d87",
-     "date": "2026-11-08T10:12:49+00:00",
-     "titre": "Anthropic : règles souples et hooks stricts pour Claude",
-     "neuf": "Anthropic précise l'utilisation de CLAUDE.md pour des règles souples combinées à des hooks stricts.",
-     "fil": "même outil Claude Code / configuration de Claude",
-     "source": "Anthropic (actus)",
-     "lien": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPaGh3bGExVzQ0NDE2eG11QXBNT3E4ZjI0NEVWd1RWVWdUbnZwM3hQeG1meWJJeENJYkpzbEx5N2NObmF2dnlIUnRlMmh0OTNDOEpkNF96X3FnTmF5TlpPbXRZclRJckdfRDhXVndtTi1CTWZkZXZFai1jWjZtN1lQY1ZMekhHMkFWRWx0OTJB?oc=5",
-     "nb_sources": 1,
-     "primaire": false
-    },
-    {
-     "id": "2a50096e729630",
-     "date": "2026-11-10T02:29:43+00:00",
-     "titre": "Mise à jour Claude Code v2.1.322 : ajout du mode rapide sur Vertex",
-     "neuf": "La version v2.1.322 intègre le mode rapide sur Vertex dans plusieurs régions géographiques.",
-     "fil": "même version Claude Code",
-     "source": "Claude Code",
-     "lien": "https://github.com/anthropics/claude-code/releases/tag/v2.1.322",
-     "nb_sources": 1,
-     "primaire": true
-    }
-   ],
-   "statut": "active",
-   "societes": [
-    "anthropic"
-   ]
-  },
-  {
-   "id": "h_520aa59662",
-   "titre": "Déploiement et disponibilité de Gemini 4 Argon",
-   "resume": "Google continue d'ajuster son offre et ses tarifs à travers son écosystème, étendant les capacités de Gemini Omni avec une baisse de 30% sur la vidéo 720p tout en déclinant ses modèles pour le contrôle robotique et la simulation.",
-   "creee": "2026-10-20T09:56:16.457937+00:00",
-   "maj": "2026-11-10T01:04:06+00:00",
-   "episodes": [
-    {
-     "id": "15e70ee5e4a75a",
-     "date": "2026-09-30T20:01:45+00:00",
-     "titre": "Google DeepMind annonce Gemini 4 Argon",
-     "neuf": "Google DeepMind annonce l'arrivée de son modèle d'IA frontière Gemini 4 Argon.",
-     "fil": "Annonce initiale du modèle Gemini 4 Argon par Google DeepMind",
-     "source": "Google DeepMind",
-     "lien": "https://deepmind.google/blog/gemini-4-argon-our-next-era-of-frontier-intelligence/",
-     "nb_sources": 2,
-     "primaire": false
-    },
-    {
-     "id": "16c1598a645116",
-     "date": "2026-10-01T07:00:00+00:00",
-     "titre": "Google lance Gemini 4 Argon, un modèle ultra-puissant réservé aux experts",
-     "neuf": "Le modèle Gemini 4 Argon est initialement réservé à un cercle restreint d'experts en cybersécurité.",
-     "fil": "Suite sur Gemini 4 Argon",
-     "source": "IA en français (actus)",
-     "lien": "https://news.google.com/rss/articles/CBMiwAJBVV95cUxPbm9zS21iUDk5OTBSU1ExUnMxRTBsbzBIdWJOMTloa0toNnp2cnN5a01oSlduSlpsUEhKbWQyUnJsU3FlVmJjVnRFZzJLRnNTRzJOZjFPcG82TF9LUzV6UU03UWFSblJSZzgwMTRIX1Z6YU50dkRFYjZzM29BVWFDVnR4LWdBN1pzOVlZS3pzWVJMRWhJQWJxbllsbGVXd0VwWDI2bFZJbm9udVR1UDhqRkJKdEVXOTU1cHVFZHFId1VTWXBzLTR4WTdPZjF4QTc4VEJkUUtpZTE0Y0dwNmdSSlNuSmVHQUtCM1R3LWY0QU1LcWQxSjc5d3VYdldSMkZMSDVCRG1raXl5QzlDcjg2WWhxUTUySlowMkRURnJCa3RvUmZKNV9INkNJSm91elVxZXc4bzNuZnJneFdFRUhROQ?oc=5",
-     "nb_sources": 1,
-     "primaire": false
-    },
-    {
-     "id": "c1e94fc831365c",
-     "date": "2026-10-13T16:00:00+00:00",
-     "titre": "Google DeepMind lance Gemini 4 Argon",
-     "neuf": "Google présente de nouveau Gemini 4 Argon comme un modèle conçu pour résoudre des problèmes complexes.",
-     "fil": "Extension du déploiement de Gemini 4 Argon",
-     "source": "Google AI",
-     "lien": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-argon/",
-     "nb_sources": 3,
-     "primaire": false
-    },
-    {
-     "id": "f9eb89f74ed89d",
-     "date": "2026-10-13T16:10:19+00:00",
-     "titre": "Google lance Gemini 4 Argon, son nouveau modèle phare pour développeurs et entreprises",
-     "neuf": "Google officialise le déploiement à large échelle de Gemini 4 Argon pour les développeurs et entreprises.",
-     "fil": "Disponibilité élargie de Gemini 4 Argon",
-     "source": "Grandes annonces IA",
-     "lien": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQclhsaXp4NUtqeVJDQTNIUjVXQVdJcnNXYnpYZUFTZm4wY3UxcTM1SzJvdzRBNE9HaURlNG1obzFGQ0o3R0pWNVJfNGFDOUdFZnhfdEJxSkszQ2hZQlowMjdCbVliRE9uX3A5ak1CYkJHOEV1elBYRWgtUHBwdF9lcWEyUGdjbmhQb2JONkpNeWhLTHgzQzRhRFRnZTEwcDRCa3k3RkpxY0c5Z1RsSlFCSmQwNmRmQQ?oc=5",
-     "nb_sources": 2,
-     "primaire": false
-    },
-    {
-     "id": "471508c04c304c",
-     "date": "2026-10-13T19:43:07+00:00",
-     "titre": "Google DeepMind annonce le développement sécurisé de Gemini 4 Argon",
-     "neuf": "Google DeepMind annonce le développement du modèle en insistant sur la sécurité et la responsabilité.",
-     "fil": "Même modèle Gemini 4 Argon",
-     "source": "Google DeepMind",
-     "lien": "https://deepmind.google/blog/developing-gemini-4-argon-responsibly-and-safely/",
-     "nb_sources": 1,
-     "primaire": false
-    },
-    {
-     "id": "58bef2b78b9c5f",
-     "date": "2026-10-18T12:43:42+00:00",
-     "titre": "Quatre agents Gemini 4 Argon terminent Minecraft sans aide humaine",
-     "neuf": "Quatre agents propulsés par Gemini 4 Argon parviennent à terminer le jeu Minecraft de manière autonome.",
-     "fil": "même modèle Gemini 4 Argon",
-     "source": "Google Gemini (actus)",
-     "lien": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNdVViZFVsamhYNzZfb2xUN3ZkdHlDcVRNWWktdmRjZ3gxUHJwc3F5MnBibHpCVVo2LWRtM0lLM1MxSG82ampTWF9IcGUtUnAyMUtCWmw5X0pReDViVXBTeFh5dXY2SkVFcWlueFBvdGZ2Z19OdWgzc3NOY3kyaDd2SDBDWnhsb0xvNEFVWWo2UXRoaTA?oc=5",
-     "nb_sources": 1,
-     "primaire": false
-    },
-    {
-     "id": "14367e39ff3673",
-     "date": "2026-10-19T16:45:48+00:00",
-     "titre": "Google Gemini 4 Argon : Annonce et perspectives",
-     "neuf": "Nouvelles annonces autour du positionnement et des perspectives de Gemini 4 Argon.",
-     "fil": "Même modèle Gemini 4 Argon",
-     "source": "Google Gemini (actus)",
-     "lien": "https://news.google.com/rss/articles/CBMickFVX3lxTE1uZTJkalB3aTJDdmZFOFhaOHJDZG43YTdOOGRoQkZGeEgyTVp1ak5QcDNvbXN2aXZUWWJLZE5VeXo3d0dXc0NuMGw2bFJfd2hPTUktZnVXcHM1ZnBIWW5RX2F2NGZKbS13UnFmTm5vSEd2dw?oc=5",
-     "nb_sources": 1,
-     "primaire": false
-    },
-    {
-     "id": "c4ea13b1040293",
-     "date": "2026-10-20T10:25:00+00:00",
-     "titre": "Quatre agents IA de Google DeepMind battent Minecraft en 27 heures",
-     "neuf": "Quatre agents IA de Google DeepMind ont réussi à finir le jeu Minecraft en 27 heures en écrivant des milliers de programmes, au prix d'un coût important en jetons.",
-     "fil": "mêmes agents IA de Google DeepMind sur Minecraft",
-     "source": "Google Gemini (actus)",
-     "lien": "https://news.google.com/rss/articles/CBMi-wJBVV95cUxPTXUtclRkR2lEMFJ6ZnY1X0NlVmNjSWpUY01hbTFMYnVLTm9VSjE4ZUIyakZNTGRlZFM1cHVYbURjTU0xZjVlb2JkTWdjRlVNS2VrRU9PeHdyZU8zczJEYVJUWDJlTUJxeHIwVHN0WjgxV19pUHRqeEF2U2RaU3RkVnpta1lVZjk0NGVITEJXbVFnajdyNkxXLUk3MzFIM2hRWjRjYXNGME1ZeUJ1TDY4dTNucE9SZzBTbHdXS3JsYlZqNzgybnVvU0J3dllKem1wRlJkaHNwbC1hRE1ZZXNzZ216MUdfU01vdS1YY2dxNU0tNTZpWTVIb2FjWnNNYkI4bk1uNzh4bThEX1M5Y2h4S2Zsc1BDVV9LSlExdzF6d3VZRzh5NzFBcXdTNWNINlRBUVdfRmZ5UzZ5bU93YlNhZmxqVGdodGxBZU1ycGtTNEszTzh6dDlWZm1VRmk4S0x4TmlZZDJzWDl4NHBYazFGV185YjZ4c1MwQ1lB?oc=5",
-     "nb_sources": 1,
-     "primaire": false
-    },
-    {
-     "id": "641825df9197d5",
-     "date": "2026-10-21T13:02:42+00:00",
-     "titre": "Gemini 4 Carbon : vers une baisse massive des coûts d'IA",
-     "neuf": "Le futur modèle Gemini 4 Carbon est annoncé avec des coûts prétendument inférieurs de 400 % à ceux de son concurrent GPT Astra.",
-     "fil": "même famille de modèles Google Gemini 4",
-     "source": "Google Gemini (actus)",
-     "lien": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBMRXhuRUFOOGQzdjh6R3hkY2xIbHpJMk9WY1E3R0Iwc0kwTG1UUlhKMW91bF9aY21RT2E0NXEzRHlKVkdoWDl0d2FqWHVyVHZlOHlraFhlTWRsNWJBbkdRUVNUa2xfSE1iSEFpcWVB?oc=5",
-     "nb_sources": 1,
-     "primaire": false
-    },
-    {
-     "id": "5d569a00a1354c",
-     "date": "2026-10-22T19:34:44+00:00",
-     "titre": "Google DeepMind utilise Gemini 4 Argon pour apprendre de nouvelles compétences aux robots",
-     "neuf": "Gemini 4 Argon est désormais appliqué à l'apprentissage de nouvelles compétences pour les robots humanoïdes Apptronik à partir de simples vidéos.",
-     "fil": "même modèle Gemini 4 Argon",
-     "source": "Google Gemini (actus)",
-     "lien": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxPSVEwaG5UMVNDWVduOE9scVhpVUw5azY3T1VERHVvbGJIbHFTR0t4bzNtNWd4alk0T3BoajlLSnlfVWhlcEFMNkdnVUNsLWQwVm5TU1FZeE81bFpHZkR4QjcwMjNxekRYZTN4aU1wZHhFYW9YWU1wNVlMSDJMS2NpX1ZfLTBWb24yWnNxaGx3bWo2MnVoWFVNZjhzSDBqb0NaMVR6bEZBZ0NoUnVTWjBzaHhzb0YyVWJVWkhBM3pSUnNGWWh5ZnhwOGlGdWZyZzRDcVliUmVJRVJKZnNxVUdxZnRXMTU?oc=5",
-     "nb_sources": 1,
-     "primaire": false
-    },
-    {
-     "id": "6017f42bfa9cb6",
-     "date": "2026-10-23T20:13:43+00:00",
-     "titre": "Gemini 4 Argon : l'entraînement massif sature les serveurs de Google",
-     "neuf": "L'entraînement massif du modèle Gemini 4 Argon monopolise 25 billions de tokens et sature les serveurs de Google.",
-     "fil": "Même modèle Gemini 4 Argon",
-     "source": "Google Gemini (actus)",
-     "lien": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOXzlmX0VtN1B5UVhicDZLVWhLTU93cnZRaE8tVFZMUVNCYzFEc2FFbG1QRFpkaFdPNG41YTZWQ3N1Q05KNGhEU3V1WndBbWNHZTUyMTd4anQ3aVc3NVhmV2FveGRQWDdCR04xOEd4LVJfbFFrMzBpU2FSSG9xN3dJcUtNSVU5cDU0RWxsLXozVHdnNE4yaGxwc3pR?oc=5",
-     "nb_sources": 1,
-     "primaire": false
-    },
-    {
-     "id": "09b5411a8d8658",
-     "date": "2026-10-24T12:20:11+00:00",
-     "titre": "Comparatif Gemini vs ChatGPT : tests de performance entre Argon et GPT-6.1 Sol",
-     "neuf": "Publication d'un test comparatif direct entre les performances de Gemini 4 Argon et GPT-6.1 Sol.",
-     "fil": "même modèle Gemini 4 Argon",
-     "source": "Google Gemini (actus)",
-     "lien": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBOdUNoMGJyQzA3c3F3NjF3ZHljSU1XZUQ4dkFLS2Y5UmZaS0F4WDc4X013VmJuTmVLS0V3M0NuVEl1QzVMSWVQejJDWFlkZmpKMjRpTThiNDdaUjZjSk9JRVVMTDV0NDZ6SUc0NThpbEVEWU5BZWRRd2FJWjd2UFU?oc=5",
-     "nb_sources": 1,
-     "primaire": false
-    },
-    {
-     "id": "0222cb39eb9690",
-     "date": "2026-10-24T16:00:02+00:00",
-     "titre": "Google Optimizes Agent Development Kit's 200K-line Python Codebase Overnight with Gemini 4 Argon - infoq.com",
-     "neuf": "Google utilise Gemini 4 Argon pour optimiser en une nuit une base de code Python de 200 000 lignes.",
-     "fil": "Applications pratiques du modèle Gemini 4 Argon",
-     "source": "Google Gemini (actus)",
-     "lien": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1qcUw2RWl0OHUtRUJLOXA2Y0VYX214QVZqZnFvOW1HYlhsSEthUUdBY1JVSzlWakIzUFhxNzl1ZDVOVDdZc3dSbHlETzV1eGtzT0lkT3lRdVFyY1NteEZIZWFNdDVUbXJ0R1ZqdE1naw?oc=5",
-     "nb_sources": 1,
-     "primaire": false
-    },
-    {
-     "id": "4dcce3a85e1ad1",
-     "date": "2026-10-25T10:33:00+00:00",
-     "titre": "Google DeepMind crée un tableau périodique 3D avec Gemini 4 Argon",
-     "neuf": "Gemini 4 Argon est utilisé par Google DeepMind pour concevoir un tableau périodique en trois dimensions.",
-     "fil": "même modèle Gemini 4 Argon",
-     "source": "Google Gemini (actus)",
-     "lien": "https://news.google.com/rss/articles/CBMigwJBVV95cUxQZmFqbWV1UW1hWmt2b1pBZTVjOWthVUNHYjd4V3RzeV9UX1hzSUVTQVRRZTRfMTBWdTMtalQtblBTd0Q4VTdWbENybm45UWx3TnRrcF9wb1UtVFVqeFI1UERmNnY2M2l0SjNBUnY0cjZMalFnSGpveXllT2tweUthaWdwa2hlWWFSRUV1VE5PbVBkbkJlQWxGNUFPMXl6Ql9XS0NZTkFSMFB4ajYwNU4tdDZuUm00UFNGQVlyVkpSdFpJWE5rb0xsSkg0TVlLa0luRy1rZXY3bUJHNEFWMTdPTloyVnZCMGZMUjFhLWVSZlBZakZmMWhEVE8tVDZKZkRPbkYw0gGIAkFVX3lxTE9fT3d3Yng3TVBINThDT01aNkZnQkxHTFIta0FYR1NaSWxZUUYyMHIxa3VGdWowUHk0TFpLdURkV0p4RFIzRmhtVGdHdmRZdWFuZW44bEtlOW1wMDZBc245cEFyaTUzTTFhT0lyVnl4STkySS00TFBWd3l5S180blFkekdxdkNUbjBNdVN3X0EwcVNITk9sN05aZjVWV2NsVFhHek5uTjhsQm1RUFpMUVBudVBRNExyUlVzYUFhRUdCekp6dU1hOVhpVkROWjIxSnhHeUxWNVIwR2J2OUZkdG5COFhCMUlYdkZoczRUSlQ3djEtTDBFanBYamwweDZCaEdFNEZkYWd6TA?oc=5",
-     "nb_sources": 1,
-     "primaire": false
-    },
-    {
-     "id": "af728b0cf267c9",
-     "date": "2026-10-27T04:00:00+00:00",
-     "titre": "Google annonce Gemini 4 Argon : une intelligence accrue mais un impact mesuré",
-     "neuf": "Google présente officiellement Gemini 4 Argon avec des capacités avancées mais un impact immédiat nuancé.",
-     "fil": "annonce de Gemini 4 Argon",
-     "source": "Google Gemini (actus)",
-     "lien": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxOSXhERDNFS1ZEaVlrV0hId1BSTktrUEJzSWRxOGtSTEVwQzFLNjRqU25NUVU4aUhocUJDQ2pEQjBmYVpVd3RkdFBjSnNqMFBnTVBoZklTeHJpcjFCS0FvSDNkaWU4MG4yWEE4eTRsd0JNOHFyNDVwQ3Nva3dMd3Y1VnliMHRwaXlHS2ZXUEZFWEtTRzlFU1pNaUUxVEtyN2RlTHNHdTdBWk1QNkp6a2VWakR4UlBsd3FWdHpsZGx3LXJraFZmcjBYU1NwQlhvTnV6ajBDcjFpbE51UjgtT3Rrd1d3?oc=5",
-     "nb_sources": 1,
-     "primaire": false
-    },
-    {
-     "id": "e8dcc67b7678b7",
-     "date": "2026-10-27T04:10:37+00:00",
-     "titre": "Google annonce Gemini 4 Argon : focus sur le code, les agents et le jeu",
-     "neuf": "Focus sur la programmation, les agents autonomes et la performance dans le jeu pour Gemini 4 Argon.",
-     "fil": "spécificités de Gemini 4 Argon",
-     "source": "Google Gemini (actus)",
-     "lien": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQdnZhVzR2OVVoTkpvNm1JSmxhclY0cWk5c0FJNUk2MW5qVm1DdFkyTVNNdm00RjViQThzcTZlMDJMQmtjME9XRWE0SWY0dVlaY2FQeGlnOG9zQ2FpV1o3bl9OZHpDZUFEckVaS0tGMU56dDVuZW1fak9SR2MySVltNlNB?oc=5",
-     "nb_sources": 1,
-     "primaire": false
-    },
-    {
-     "id": "591b1cde4604de",
-     "date": "2026-10-27T14:31:49+00:00",
-     "titre": "Google intègre l'intelligence personnelle de Gemini dans les voitures",
-     "neuf": "Gemini intègre des fonctionnalités d'intelligence personnelle directement dans les systèmes embarqués automobiles.",
-     "fil": "Déploiement et disponibilité de Gemini",
-     "source": "Google Gemini (actus)",
-     "lien": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5Tc0tzMXVVMWNvOFUxM3F0aUFEWTI1bHRpcVF0SjZOc21TNHMxT1A4T3o4LTZOSHlyT1ljWFlmYnNYUTAtOW0yVk8xYVRMYktrX1hLVzFpX291QjRBc1M5c1hzTVBkMkVsbXgyNllWVTRLRkRHNGg2cTM2WlI2QQ?oc=5",
-     "nb_sources": 1,
-     "primaire": false
-    },
-    {
-     "id": "b83884add02f4b",
-     "date": "2026-10-27T15:14:55+00:00",
-     "titre": "Gemini Robotics Embodied Reasoning 2 disponible sur Google Cloud",
-     "neuf": "Le modèle Gemini Robotics Embodied Reasoning 2 est mis à disposition sur Google Cloud.",
-     "fil": "Gemini 4 / Gemini Robotics",
-     "source": "Google Gemini (actus)",
-     "lien": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPYmFHdjgxSllxUXBrQTBJSEJXWXdqLUYzcHM1TTRkZEpMeEwxMHZmVGNkd0hCMVlHb0VrdHhwUzJLQnEydFBvLTZvcVU1TVdaVlFVUllxQ2NQM1pmY24yRFRubjViLU9ONkpDUEhPVUMyU0pRX1hBRzVrOWtrTXFCRDZkcDl1Nnp0bmVqT0NTMGxZYVZ4Z29WSmh3V1A3NGRsYzBDWTNSVm9leV80cTlnYk9Ib2JQX3RzRlB6dUVNUGtUZVM1NThz?oc=5",
-     "nb_sources": 1,
-     "primaire": false
-    },
-    {
-     "id": "7ac5bd2caa3b15",
-     "date": "2026-10-30T13:05:12.658537+00:00",
-     "titre": "Disponibilité générale de l'outil Computer Use pour l'API Gemini",
-     "neuf": "L'outil Computer Use de Google passe en disponibilité générale (GA) pour les développeurs utilisant l'API Gemini.",
-     "fil": "même gamme Gemini et API associées",
-     "source": "Notes de version Gemini (API)",
-     "lien": "https://ai.google.dev/gemini-api/docs/changelog",
-     "nb_sources": 1,
-     "primaire": true
-    },
-    {
-     "id": "fe261067fe28e5",
-     "date": "2026-11-05T19:08:10+00:00",
-     "titre": "Gemini Omni 1.2 Flash étend les vidéos à 15 secondes et réduit les prix de 30 %",
-     "neuf": "Précision sur la durée des clips (15 secondes) et la baisse des tarifs de 30 %.",
-     "fil": "Même modèle Gemini Omni 1.2 Flash",
-     "source": "Google Gemini (actus)",
-     "lien": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNTGdycWROdW9kWlpFRWtJc0wzeVMtVTgxTENtWm1DbDJlREJxWkZKYWJLZWpQMEs0NTBHVW9BekxiZ3hJd1JfVnEzN3hwMm5fYThpMGZuQ0wxMnk4UUlHNG1kN0pZTTlqYXZEWG1Jd19Ld0pEVnZJR1dSVXhQLUMwZGtiWlcxM1V3VzFXWjRva3FzTGhudkIzaURaX1lTOXltVmdkaHduYk1JQnEyMDROSkFuTXhtME1BWncxTTdSc3MyQQ?oc=5",
-     "nb_sources": 1,
-     "primaire": false
-    },
-    {
-     "id": "efc3d11f786131",
-     "date": "2026-11-09T15:45:39+00:00",
-     "titre": "Google lance Gemini 4 Argon pour le contrôle des robots",
-     "neuf": "Google décline Gemini 4 Argon pour le contrôle robotique et la simulation.",
-     "fil": "même modèle Gemini 4 Argon",
-     "source": "Google Gemini (actus)",
-     "lien": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9JSUE2NjRhaHA4V1hYSGdWRXhNWllHLXZlY0VBZVR4U01HZmJlNEFfVGZMeE9CRXVUaTJucFZKSnpOMkVBZ1V2ZE5KREhlMWQwNXRQOWxhU084eW1LcEY4bFhERnlGQQ?oc=5",
-     "nb_sources": 1,
-     "primaire": false
-    },
-    {
-     "id": "cc68ecc71bda41",
-     "date": "2026-11-10T01:04:06+00:00",
-     "titre": "Google réduit le prix de la vidéo 720p de Gemini Omni de 30 %",
-     "neuf": "Google réduit de 30% le prix de la vidéo 720p pour Gemini Omni et ajoute la prise en charge de clips de 15 secondes.",
-     "fil": "même écosystème Gemini Omni",
-     "source": "Google Gemini (actus)",
-     "lien": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNMlZyMEFYVG1nV1dYclhTdDNnRVdoUXUxdU1xbXBIVkdaMTZkdVpTS0Q2LS1ZaktwSkVEdEd6X2tJTzU2aVlfQi0zMWlpY2FMdEVESWdoMUY0R0xxOTZwN2FCUnVkVjRGOTRJYVZZdTNmUkVudlBKWVJpeTRNNGNhcHV4R3RvVGc5TC01ZzIydHBxbEVYeE1RWUswdU5nQXhFdnhEM1NQUDNvWHhVbzFzaHJLNA?oc=5",
-     "nb_sources": 1,
-     "primaire": false
-    }
-   ],
-   "statut": "active",
-   "societes": [
-    "google",
-    "openai"
-   ]
-  },
-  {
-   "id": "h_5e0762833f",
-   "titre": "Action en justice contre SpaceXAI",
-   "resume": "SpaceXAI poursuit le développement de ses infrastructures malgré une pression juridique et réglementaire accrue. Après les allégations sur l'absence de permis d'eau pour le centre de Southaven dans le Mississippi, l'entreprise doit désormais faire face à des discussions sur ses permis d'émissions atmosphériques.",
-   "creee": "2026-10-20T20:45:07.920169+00:00",
-   "maj": "2026-11-10T00:21:36+00:00",
-   "episodes": [
-    {
-     "id": "54794aade42fd8",
-     "date": "2026-10-20T19:51:00+00:00",
-     "titre": "Une plainte en justice contre SpaceXAI autorisée à se poursuivre",
-     "neuf": "Un juge autorise la poursuite de la plainte visant l'entreprise.",
-     "fil": "action en justice contre SpaceXAI",
-     "source": "Grok et SpaceXAI (actus)",
-     "lien": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOUVI0SUp1dnBQTWNyRkZnSTJWdUx3Y05pM2ozaHJXMVFVZnpPUTNhYWVldGlaR3pEN21yQWdRdTgweWlmaDA0WlU1dllGRWRZVDZKMXZLdXNJNDV4dnNkdFNtcV9OaU1EU3ozdkR5SW50QmhKRWJIUmxCdHp5cjdiSldfTldEUi1zTE5nazhVTQ?oc=5",
-     "nb_sources": 1,
-     "primaire": false
-    },
-    {
-     "id": "f33d215c710570",
-     "date": "2026-10-21T21:33:47+00:00",
-     "titre": "Refus d'intervention du DOJ dans le procès SpaceXAI à Southaven",
-     "neuf": "Un tribunal bloque l'intervention du ministère de la Justice dans l'affaire SpaceXAI à Southaven.",
-     "fil": "le procès SpaceXAI",
-     "source": "Grok et SpaceXAI (actus)",
-     "lien": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQY3RCWlc5ZHUxWTM1V1JjTkhEWlN2Ny14eGZOaVhnSHRuTDR4OTlSQVdWbDBhbGtQdjBKSXhUOWd2dzEwblJqakNpaWd6OHN0VjdsdGFMSTVibUJHMXY3N25QTGhwMmk5Snh5LXg1R2FQS20wTUVLQzgtdWZmNlJTUkxFeDdScjBfaU5VYzljTGFKRkE?oc=5",
-     "nb_sources": 1,
-     "primaire": false
-    },
-    {
-     "id": "c3e2edb0d5b6e5",
-     "date": "2026-10-22T16:39:00+00:00",
-     "titre": "City of Memphis moves to ease truck traffic concerns near SpaceXAI supercomputer - FOX13 Memphis",
-     "neuf": "La ville de Memphis prend des mesures pour fluidifier le trafic des camions autour du supercalculateur SpaceXAI.",
-     "fil": "même projet et supercalculateur SpaceXAI à Memphis",
-     "source": "Grok et SpaceXAI (actus)",
-     "lien": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxPc1RNVTdqU2Fzc3dMUXlaUDJFTklDOGpKZVdrWFJJRkJWMVBzdTU1Ym9GTUFoYUFuTEJRZ1FuTldjWmNLeUVtUjlKSEVjc0Y5Sm45Y1JaTEQyWmlyTWNEc09OTnJUR2U0enpYTGFzX3hZcUdnUWFocW85MnNJbnQ2QTM2QWd3TmNOcW40QzREQzhLYXF1dkpXamhld3g1WEVsclZvLTJQNkpVR05kTmJ3bkdHWEIxenB2V2RFRzFJakNZODVkR1VDdHQ3UmFQSjk5WkFZa0UzWV9xdDlHVnRuME0yZXE0OUxqbUFPa2ZHdzRsaEtic0Vj?oc=5",
-     "nb_sources": 1,
-     "primaire": false
-    },
-    {
-     "id": "6451ac313e4eca",
-     "date": "2026-10-22T22:47:00+00:00",
-     "titre": "SpaceXAI visé par 6,1 millions de dollars d'amendes au Mississippi",
-     "neuf": "SpaceXAI écope de 6,1 millions de dollars d'amendes au Mississippi.",
-     "fil": "Mêmes poursuites et sanctions contre SpaceXAI",
-     "source": "Grok et SpaceXAI (actus)",
-     "lien": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOZEdkSEpTVk5FclA4TldnQ1g2QTNrdDBWNFlEZ1gtRlo4X3ZQdHM2SlBOYmlrVHNOWmIyaXh1bkUxenVnXzVPMHV4akx2TkQ0TWFkN1plY3dWcktwdVJCNnh0Smw0UEtCZW90QmliWEZRODJST2hIMzdJWXhVU1JET2pSdGZaUEUwRWlNMklKUFZTbTRUQjNrNVZLQjI1T01XUm5MZnBvMEtoVWEwendPNzlJcms0V1V2anlQci1YQmFlZ2M?oc=5",
-     "nb_sources": 1,
-     "primaire": false
-    },
-    {
-     "id": "9f9c516908c72b",
-     "date": "2026-10-25T09:44:33+00:00",
-     "titre": "220 millions de dollars de réclamations déposés contre SpaceXAI",
-     "neuf": "Le montant total des réclamations financières visant SpaceXAI s'élève désormais à 220 millions de dollars.",
-     "fil": "même action en justice et réclamations contre SpaceXAI",
-     "source": "Grok et SpaceXAI (actus)",
-     "lien": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPYkF5X2MwdVBzM05fUFpZTFM4eGRrZy15aDZCZTIxZWo5R2o1Z1FRX2VoRmJNVkpmVVNiZ3FiSGZUcndmT0RTN1lGRW1SZ3FWRzlWbGlGbzE2WWs3VU5IMDVURzFRaUdlWTNzTGJKTjJjVVBTUGRSa1RQOW9qUW1NYkZVMkZIajZCdkhVS1VCVEkxT0dHRzlGZllVU1lGdGJrVV9rV2FnaVY0OGJ0?oc=5",
-     "nb_sources": 1,
-     "primaire": false
-    },
-    {
-     "id": "6086659eeb90dd",
-     "date": "2026-10-27T23:22:02+00:00",
-     "titre": "AI Users Say SpaceXAI Can't Split, Arbitrate Slowdown Suit - Law360",
-     "neuf": "Les utilisateurs d'IA contestent la possibilité pour SpaceXAI d'imposer un arbitrage ou de diviser l'action en justice sur le ralentissement.",
-     "fil": "Mêmes poursuites judiciaires contre SpaceXAI",
-     "source": "Grok et SpaceXAI (actus)",
-     "lien": "https://news.google.com/rss/articles/CBMingFBVV95cUxOU2pSMWxJcHpmYUJpcGw5ZGVtbTdoY1o0Mk8tN0xTQTA2OXNwMkRteklTdE92ZGZCNkZ4TUhaYjItbUZiSVNUeUNxeWFTUjNyaVAxakNCT3UxQVVPU05KWnhxdHRVaS1wLVdRc0dNMnM0RzFLZDVXUGVTbUlsSVlIbXpYME9OcmxwdloxbjNSYnFmZFljdVk4dnh3SHI2Z9IBVkFVX3lxTE12a0RaaWFnTEE4WUtUWllzamEwVVNVV3phYThXaTg0LVNIenVKVHZxSjI3MjVXY1NBempuaFY4VDczLVpDTDRCYnMtazdUWEo0NkcwcEJn?oc=5",
-     "nb_sources": 1,
-     "primaire": false
-    },
-    {
-     "id": "fcb2d83fec74b4",
-     "date": "2026-10-28T12:25:56+00:00",
-     "titre": "SpaceXAI fait face à un litige de 220 millions de dollars devant un tribunal",
-     "neuf": "Un entrepreneur dépose un nouveau recours en justice concernant des contrats massifs liés à SpaceXAI.",
-     "fil": "Recours en justice de 220 millions de dollars lié à SpaceXAI",
-     "source": "Grok et SpaceXAI (actus)",
-     "lien": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPZGZhZzBzUkludm1qZjh5alB3U3ZmMk11Vm5SSXE4czNtVzFScUtJeGloVTdsTEF0UEMybGpjaEk5SUloUlBmN0NGNU0xU0RTN2p1RGZaOXNmZ0laNjVsdTFYR255ZkQwQkJueDNKUUtyV0ZiOF9zTEUwbHNsMUNjTVJZQlQwa2c?oc=5",
-     "nb_sources": 1,
-     "primaire": false
-    },
-    {
-     "id": "5283652bd524be",
-     "date": "2026-10-28T14:44:00+00:00",
-     "titre": "xAI is buying out homeowners who promise not to sue over data center noise",
-     "neuf": "xAI achète des résidences pour éviter de nouveaux recours en justice de riverains mécontents.",
-     "fil": "Mêmes poursuites judiciaires et litiges liés à xAI",
-     "source": "The Verge IA",
-     "lien": "https://www.theverge.com/ai-artificial-intelligence/1020596/xai-mississippi-neighborhood-data-center-lawsuit",
-     "nb_sources": 1,
-     "primaire": false
-    },
-    {
-     "id": "9d449d2dca1151",
-     "date": "2026-10-31T18:56:21+00:00",
-     "titre": "Une plainte contre la pollution d'un centre de données xAI autorisée à progresser",
-     "neuf": "Un juge a autorisé la progression de la plainte de la NAACP contre les violations de la loi sur la qualité de l'air par le centre de données de xAI.",
-     "fil": "Poursuite en justice concernant la pollution et le centre de données xAI",
-     "source": "Grok et SpaceXAI (actus)",
-     "lien": "https://news.google.com/rss/articles/CBMihAFBVV95cUxONWZobnlmVnlwbk9rMk1yeUVabnE1QUdtdTVEWGR6UUkwYXEzWk9weVpLMWFtRWF2Ykd6SmpNalgtelBCZ0lBdkd6Vm1xcWhNNkNVM0ZKTW43TmZyUUtMb1pYZVY2V2VuaFh5dHdBakhBYllrQjY5bUhrOHpteVNRUWNaZFrSAYoBQVVfeXFMUHFJcmV4YzZNcTZ4dk5RX2YyQm1TWDhpSS1OemxNdFRkUHhFTEFDNHpueE1QejEzMGVQYUFwQXpNV2JaVmJzdlQ2TWFJNlJOYjFkckE3TFpHVHpMSWt4YlBzMkZUX0hSa295M2tHSkx5aUFDbjMwbDkxQlNhdnp1NlhYd21VOER5ZHZn?oc=5",
-     "nb_sources": 2,
-     "primaire": false
-    },
-    {
-     "id": "993a9a1a3b9941",
-     "date": "2026-11-01T10:30:00+00:00",
-     "titre": "SpaceXAI rachète des logements voisins de ses turbines au Mississippi",
-     "neuf": "SpaceXAI tente de racheter les maisons voisines de ses turbines au Mississippi pour éteindre des contentieux.",
-     "fil": "même expansion et contentieux liés aux centres de données SpaceXAI",
-     "source": "Grok et SpaceXAI (actus)",
-     "lien": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQcU8xaDdiMXVSZlQtc0F3TjJ4LWg4NklhT0IzZnhkeG9wUHI1SnVmc1Bra1pGMTZBV3U1bkR4QUNfeUMzQzRNRVhSYXdWSnlWOUR3ZnZtTDNRNVdVVWhrWHpSclpOWXhLWmZmRWNkdVV0d1NqV1Q4NU9yUW1YUDJJZnJ2b2w5c29WRHBCcjg0UjczUWs?oc=5",
-     "nb_sources": 1,
-     "primaire": false
-    },
-    {
-     "id": "71a4eb6e914067",
-     "date": "2026-11-01T13:25:00+00:00",
-     "titre": "SpaceXAI annonce deux nouveaux centres de données près de Southaven pour décembre",
-     "neuf": "SpaceXAI annonce deux nouveaux centres de données près de Southaven pour décembre.",
-     "fil": "même expansion et contentieux liés aux centres de données SpaceXAI",
-     "source": "Grok et SpaceXAI (actus)",
-     "lien": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNQ01nUXZuUzBvWmdGVEZyWXNnZjVFazdrNVM3SmIwdEV1TFk2WFI5YXMxaXJ2c3ZORkVCNWJtRHlmZXJheVpJMG12OW5HVjhsS2Q4ODhwSlR4a3VQaEhhSUFHT2p3RWFNeFgyUXQ0UkYxTXhWSnpBaktVRUZwMkVkRi1GSDdhU3NQcXhpLXlRMllNZw?oc=5",
-     "nb_sources": 1,
-     "primaire": false
-    },
-    {
-     "id": "40ba5b596e08e5",
-     "date": "2026-11-01T20:15:00+00:00",
-     "titre": "Un juge autorise la plainte de la NAACP contre SpaceXAI",
-     "neuf": "Un juge autorise l'action en justice intentée par la NAACP contre SpaceXAI dans le cadre du Clean Air Act.",
-     "fil": "Poursuites judiciaires contre SpaceXAI",
-     "source": "Grok et SpaceXAI (actus)",
-     "lien": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPZEszakpvSHd1QzBibmFWTFRMZ2RFUjVrbUlnWmMzc0tVeFVVOXExR0dWLTlCQ1lKblFiVXBZeUNwZG8tSm9iVTV1aEt5VWVxZWpLalVPeXNtZmI3b2F6dWFMVFpRNFdvSWs5V1pCaklHLWQ1emR5WUZtS1ZRUXJhemZuelAxUUd1QnpmNHA0UlRpdw?oc=5",
-     "nb_sources": 1,
-     "primaire": false
-    },
-    {
-     "id": "793a10ab1713b3",
-     "date": "2026-11-02T18:00:00+00:00",
-     "titre": "Une action en justice contre SpaceXAI autorisée par un juge fédéral",
-     "neuf": "Un juge fédéral confirme officiellement l'autorisation de la plainte en justice visant SpaceXAI.",
-     "fil": "Même action en justice contre SpaceXAI autorisée par un juge",
-     "source": "Grok et SpaceXAI (actus)",
-     "lien": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNVmlYeF9DdkFhcWxxc3M3T0ZzUUZVcmZTNWRZUlJILVpYZGdhQ3l4Q2FSRWVINnlkZDNtR2dOWTE5Q0E4YlRzOFdib3RCVGVGUkx4aXZkSjVMVmZodlRGX0hGYnNSU1Z6dUpXZ18wNHlhNy1sUGZsYklPMVNmOUFDSGJVQ2NtYVhZWERTc2xFOW1GSEtqdU1HdURqVWQ0bDU0eG1wZHRmT1VSZm41UHpDMW9TVFdPYlQwejJqMGZVdw?oc=5",
-     "nb_sources": 1,
-     "primaire": false
-    },
-    {
-     "id": "afb596fd13588c",
-     "date": "2026-11-02T18:11:10+00:00",
-     "titre": "SpaceXAI lance deux nouveaux campus de centres de données pour étendre Colossus 2",
-     "neuf": "SpaceXAI étend son infrastructure en implantant deux nouveaux campus dans le Mississippi pour Colossus 2.",
-     "fil": "même extension des centres de données et campus de SpaceXAI",
-     "source": "Grok et SpaceXAI (actus)",
-     "lien": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNUWVxVk5HSVNyU2EyNS1lUDVCM3BjTlRYd2xRM1VNc0d3ek9aRWhTcl9TLWNyZ3dOSjBKX3BiR2JUQ0NCRmlUNERwZU13SnRjaHdDOHZYZm01ZGtyODlMNm1EWTRmeVZ5WkpxSVRWM0ZvOVllcWtoVTN2M0l1RTg4ODRMdmlMaWxyU0ZwcnF6bDZ4TnRQQjZrSGNveEJFRFJGWW9xTWg5QVhBQ0NRMUtDWXpEc3B1TmdqSWNIS2FlRnZmckZITDlfYTlTamt6Y21vSGdqdHlHZjl5UQ?oc=5",
-     "nb_sources": 1,
-     "primaire": false
-    },
-    {
-     "id": "db116ea22a887b",
-     "date": "2026-11-04T10:30:00+00:00",
-     "titre": "SpaceXAI surclasse OpenAI avec son supercalculateur Colossus 2",
-     "neuf": "SpaceXAI surclasse OpenAI en puissance de calcul grâce au supercalculateur Colossus 2 installé à Memphis.",
-     "fil": "Supercalculateur Colossus 2 de SpaceXAI",
-     "source": "Grok et SpaceXAI (actus)",
-     "lien": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9uOGNVMDRUcHZKZG1tSEVjZklubTFSdkhfMHh4aVBjeWthUWs4TVhyNWcxamJ4N0NuVXFsbnhhVUNNakhKWjJvYzdlb2dnWG4zZnhvdjFWUngwT1FsamZPNGFCYndCbUtmemtyMg?oc=5",
-     "nb_sources": 1,
-     "primaire": false
-    },
-    {
-     "id": "d1902967088b42",
-     "date": "2026-11-05T12:00:00+00:00",
-     "titre": "DeSoto County asking SpaceXAI to increase buyout offers - DeSoto Times-Tribune",
-     "neuf": "Le comté de DeSoto demande à SpaceXAI d'augmenter ses offres de rachat de logements pour les riverains touchés par l'expansion.",
-     "fil": "Extension de SpaceXAI et gestion des logements voisins",
-     "source": "Grok et SpaceXAI (actus)",
-     "lien": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOT3pxVGhvbXpkMW03bGZIQ05Sb0tWb3NQNWk3Nzh1TkcxNTlyelBjSmZFMDRvc0F0MFlQMDZfNTBpLWJZZ1h3YnhGZDY1OVkycXZFcjBQdW9oc25UYkY5Rk9KTVZyaEFiSGkxYmV6NHlGT3lZd1Awc0VYVWk2bG9lOGw5ZGllejcxd3dXYUxQRWdfZGZtaXBQRlZseGJYZVJZbHNLXzlTeE1WR1I3djR6SmtHR3NGQ2taMTNMQnFPRzgwUlVhUVBOcnV6MDM1SGRvbUx6Nw?oc=5",
-     "nb_sources": 1,
-     "primaire": false
-    },
-    {
-     "id": "da4aa470b3bc19",
-     "date": "2026-11-06T04:48:00+00:00",
-     "titre": "SpaceXAI to build 2 more AI data centers in Southaven - Action News 5",
-     "neuf": "SpaceXAI poursuit son expansion massive en prévoyant la construction de deux nouveaux centres de données d'IA à Southaven.",
-     "fil": "Extension des infrastructures et des centres de données de SpaceXAI",
-     "source": "Grok et SpaceXAI (actus)",
-     "lien": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQTlYwWHRkcl9yY0JqNnBUUFkyY2c2cDNZMXBrUDVUdlZKVFY5VUVtLXZjTzQ3dWZsazNhdGpQZ3NvV0h3d2p3TmJyaGxaMUFKTjZxaWZWTTM4YTM1MFZUMmNETzNHbDJ2dUI2Y01XQUUtZzV2VURfOUNwUzJJUVZTZ05iaG12VXRINnFVa3BrcXTSAaQBQVVfeXFMTnpnNjJYLUNyMHlUZW9qN0FzVGk4YXFiNFdnZjRNN1lfSTJIRXRiS2dPMGNUNi0xWjFkV011d09YMXRuRVFIQ3FKbW1NYlZuNnZNdTlXLWM1V2x3TndqS0hqSndpQTZVZzRfVDNOd095M1hUb0lCVDRDYm00b05RRWFUUHZHNXRnemNFSjN5LXZJeFlBWkw5UV9OdE5Sc2VmLVljZzM?oc=5",
-     "nb_sources": 1,
-     "primaire": false
-    },
-    {
-     "id": "6c374f232dc341",
-     "date": "2026-11-06T17:00:00+00:00",
-     "titre": "SpaceXAI poursuivi pour construction de centre de données sans permis",
-     "neuf": "SpaceXAI fait face à plus de 6 millions de dollars d'amendes pour avoir démarré la construction sans les permis d'eau requis.",
-     "fil": "Mêmes projets de centres de données SpaceXAI à Southaven et contentieux juridiques",
-     "source": "Grok et SpaceXAI (actus)",
-     "lien": "https://news.google.com/rss/articles/CBMimwJBVV95cUxQR01ZdUI1Y2l2azAxWTlRc2F1OXdicW1qNlBiQ0lWTzM1UHJzRWF1OUMtVWsyV2Q1V3h3UkU2SkctUHFNTlA0ekdkdW9saEJuaDNBakRoU29kNjdCWG9HMkgyU0I1SllhWFlyQlZuR0JxV3NyS2tIYVlWd2gxYnJybUtKMjFuSHRaUG5oT0NuaHpWRW9fb2NNZnpENDNoUDJWSGNoRUI4NVVtVE1sTENxYmpWei1kdnE2cWVnUUg3MEV4blA2YnJ4NlZRaThCcWhrNUtSc0ljVFFXdnp2NnlyQUNKREhRYmpaWFROam9XOVBYbUlfbXR2TUZiRE80YXY1QkFnQm9XQ19sd21nVU5hZVR5RzRlWV9PSFNR?oc=5",
-     "nb_sources": 1,
-     "primaire": false
-    },
-    {
-     "id": "791d80da593f9b",
-     "date": "2026-11-09T17:29:36+00:00",
-     "titre": "SpaceXAI Started Southaven Data Center Construction Without Water Permits, Mississippi Alleges - Broadband Breakfast",
-     "neuf": "Le Mississippi allègue formellement que SpaceXAI a débuté la construction du centre de données de Southaven sans permis d'eau.",
-     "fil": "poursuites contre SpaceXAI pour la construction de son centre de données",
-     "source": "Grok et SpaceXAI (actus)",
-     "lien": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNdDNxMzFfV2t6bVkwbUxZM3ExUXZOWTYxTW9YakRuRm12Tzh0VE1UU3JYSDFmY2VONnVNdlEwd3U1MC1wVDgzYUFsU2FFZnJxWUVTUDJIVkZFb2l5bVVCRF9mUnpTLUtyUFhHbHl5b2FBR3FUd0VMTGt5d0UtZGpFclZqT3F5Q1lOdWVIbnpRR1dXdE0wVVhGZG9ieEd6d2tfeTI1djNXdF9Zc2V5NmFfeTAzOHR1YmkyTGxsZWcwcHFyMTg?oc=5",
-     "nb_sources": 1,
-     "primaire": false
-    },
-    {
-     "id": "3f418073cd21e2",
-     "date": "2026-11-10T00:21:36+00:00",
-     "titre": "Air permit being discussed for Mississsippi SpaceXAI - WREG.com",
-     "neuf": "Discussions en cours concernant cette fois un permis pour les émissions atmosphériques du site du Mississippi.",
-     "fil": "même centre de données SpaceXAI au Mississippi",
-     "source": "Grok et SpaceXAI (actus)",
-     "lien": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQSThMQVRpcERrY2hUV0xwblZOeThCR2d3ZUZCNEJxSG5aX0cxVkEtenRseFppWDZoUjhKQ0M1RjNXVmt2NXoyOElVcEZIeVphRE1XRTExZGFNX01McjhKQ2hFaTRpdlc3cDh1YjN0bk9xblM0QkQ1TGlxa3loXzN2c9IBhgFBVV95cUxPaFd0VU4yM1YwLWxIUlRwZU5HemdLTDFqSG00QnhiRlI1T2N2NU1wM3BNdmVtQXR1UGZrc0x5QmZDZ3pSTHBMb3ZwRjhfN3JEamMtVl93MVp0TXE1NFNaajVJSnVfWTRVY0huNnMwSGVpd01hUHg2RF84TEdGb0owcFpVMHJtZw?oc=5",
-     "nb_sources": 1,
-     "primaire": false
-    }
-   ],
-   "statut": "active",
-   "societes": [
-    "spacexai",
-    "openai"
-   ]
-  },
-  {
-   "id": "h_d7bf294641",
-   "titre": "Enquête sur Jensen Huang et relations avec la Chine",
-   "resume": "Nvidia subit de lourdes turbulences boursières et politiques suite à l'ouverture d'une enquête interne sur les liens étroits entre son PDG Jensen Huang et un espion chinois présumé. Des rapports confirment que des vendeurs à découvert avaient alerté sur le sujet des mois plus tôt, faisant craindre de nouveaux durcissements de contrôles à l'exportation.",
-   "creee": "2026-11-09T18:48:52.645091+00:00",
-   "maj": "2026-11-10T00:10:00+00:00",
-   "episodes": [
-    {
-     "id": "67abd93f196f85",
-     "date": "2026-11-08T22:54:50+00:00",
-     "titre": "Here’s the full text of Jensen Huang’s memo to Nvidia",
-     "neuf": "",
-     "fil": "Enquête sur Jensen Huang et ses liens présumés avec une agent chinoise",
-     "source": "The Verge IA",
-     "lien": "https://www.theverge.com/ai-artificial-intelligence/1029595/full-text-jensen-huang-affair-memo-nvidia",
-     "nb_sources": 1,
-     "primaire": false
-    },
-    {
-     "id": "a06869aa80e569",
-     "date": "2026-11-09T17:36:08+00:00",
-     "titre": "Controverse autour de la vie privée de Jensen Huang",
-     "neuf": "Un nouvel article de presse revient sur la controverse personnelle impliquant le PDG de NVIDIA, Jensen Huang.",
-     "fil": "même enquête sur Jensen Huang",
-     "source": "The Verge IA",
-     "lien": "https://www.theverge.com/ai-artificial-intelligence/1029990/jensen-huang-the-spy-who-loved-me",
-     "nb_sources": 1,
-     "primaire": false
-    },
-    {
-     "id": "05d31a5bc4a78d",
-     "date": "2026-11-09T22:23:42+00:00",
-     "titre": "The race is on to sue Nvidia",
-     "neuf": "L'action de Nvidia chute de plus de 4% après l'ouverture de l'enquête du conseil d'administration sur les relations du PDG avec un espion chinois présumé.",
-     "fil": "même enquête sur Jensen Huang et la Chine",
-     "source": "TechCrunch IA",
-     "lien": "https://techcrunch.com/2026/11/09/the-race-is-on-to-sue-nvidia/",
-     "nb_sources": 1,
-     "primaire": false
-    },
-    {
-     "id": "f469998b0ebdf8",
-     "date": "2026-11-09T22:46:09+00:00",
-     "titre": "A short seller flagged Nvidia CEO’s ties to a suspected Chinese spy six months before the scandal",
-     "neuf": "Révélation qu'un vendeur à découvert avait soulevé ces liens suspects six mois avant le scandale.",
-     "fil": "même enquête sur les liens entre Jensen Huang et un espion chinois",
-     "source": "TechCrunch IA",
-     "lien": "https://techcrunch.com/2026/11/09/a-short-seller-flagged-nvidia-ceos-ties-to-a-suspected-chinese-spy-six-months-before-the-scandal/",
-     "nb_sources": 1,
-     "primaire": false
-    },
-    {
-     "id": "e7e320ce81413c",
-     "date": "2026-11-09T22:46:09+00:00",
-     "titre": "Allégations de liens entre le PDG de Nvidia et un espion chinois",
-     "neuf": "Confirmation par la presse des alertes précoces lancées par un cabinet de vente à découvert.",
-     "fil": "même affaire d'allégations de liens entre Jensen Huang et un espion chinois",
+     "id": "45a67338a42709",
+     "date": "2026-11-05T13:34:14+00:00",
+     "titre": "Le laboratoire chinois Moonshot contournerait les sanctions américaines via l'Europe pour obtenir des puces Nvidia Blackwell",
+     "neuf": "Des sources indiquent que Moonshot accède à des puces Nvidia Blackwell via l'Europe pour contourner l'interdiction.",
+     "fil": "Moonshot AI contourne les restrictions d'exportation de puces",
      "source": "Contrôles à l'export IA",
-     "lien": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOZXJiaTdrLTJPT0c5MzNWQ0tldUVWWkN6MEdxU0xzSHdDUEwtQ2VrN1RpWndpUXBhb1AwN2JQZnpxeHJvY0M4US0zMnRTdDhEMDhtek51Q0lxaGV0ZDlhNFA3NllXNmlBWWpOUHI1OXZ3SEgwZEZQdVU0c2ZSc1ZZRjkzS2h2cXUtdFMwR180eDU5dWlzOVk4dUZUamNESGU5eDYwWDBFSE1mRmZBZk80VFBNS2tacW9mU2VlUHBYc1ZFZmRLWWVpaU42MA?oc=5",
+     "lien": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBUc0JXdFFrNXJHSkxKclVRQkdfMXZNbmk5akFqZDA2dWFQbXV2MUd1d2V1TFhfVW9uT2F5WXJJVHZoNUZUUEtLVFF2aWotaHBVTk9kcFpvZkFucXppMlp3YzZvaWdXVmZ3ZUZJdzFsV3kzaXBMWnpiSjJ4aUhxcVHSAYQBQVVfeXFMTXVzSHktMk1IYUR5bm45MWpEQmRpZkkwbS1LSVNZZm02Q05uZE56ekhLZjBKV0RLWlVhdVoteHFra2hPOFdMNXEweDc4eUhvWTlqQWxwcXpMdURoMzVmUnBaMFRBc0RtTG1FQXhSekFZeDhSM25Yc3o2THdGckl0cEtLSG9q?oc=5",
      "nb_sources": 1,
      "primaire": false
     },
     {
-     "id": "fd48ce2874be78",
-     "date": "2026-11-09T23:47:46+00:00",
-     "titre": "Trump réagit aux allégations concernant le PDG de Nvidia Jensen Huang",
-     "neuf": "Réaction publique du président Trump lors d'une conférence de presse.",
-     "fil": "même scandale concernant Jensen Huang",
-     "source": "The Verge IA",
-     "lien": "https://www.theverge.com/tech/1030446/trump-jensen-huang-press-conference",
-     "nb_sources": 1,
-     "primaire": false
-    },
-    {
-     "id": "c0027ca762436d",
-     "date": "2026-11-10T00:10:00+00:00",
-     "titre": "Nouveau risque de durcissement des contrôles à l'exportation pour Nvidia après une affaire d'espionnage",
-     "neuf": "Nvidia fait face à de nouvelles pressions pour durcir les contrôles à l'exportation de ses puces suite à l'affaire.",
-     "fil": "même affaire d'espionnage et contrôles à l'exportation pour Nvidia",
+     "id": "0e0becb7d18e2f",
+     "date": "2026-11-05T14:02:03+00:00",
+     "titre": "Moonshot AI contournerait les restrictions américaines sur les puces via l'Europe",
+     "neuf": "La startup chinoise Moonshot AI contourne les restrictions américaines sur les puces via un fournisseur de cloud européen.",
+     "fil": "Moonshot AI contourne les restrictions d'exportation de puces",
      "source": "Contrôles à l'export IA",
-     "lien": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPQnNsYzdpaDRKS3c2Yi1LdVdWczlkM3QwSEJPMUowOUxxeTZZMUZodGt5SGxucEFkcVkybHhsOTFfWjVyeGdYcTNxbGR1VmNVNHRFc19fMUVoVGJTS1FBS2NaV3pKbzBJZWZOdnBVcXV3ZW55dWZ3WkhSVlBNSlpNc0hBNXBnTlJ0Y3dOQzhoUlJ2TkNBdlM0THVXMDVUcVFxZFFLeEN3?oc=5",
+     "lien": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPMFJvTHhyVjJJaXNiQ3BpMjBDYk43TG91TmJLaDdQdmQyVVlBX29oSkZ0LXJyU3dab1AybmNkY0VQMDZIOUUyaDQ2aFJxTGFXbkktZ096dlZpQmNXUHVpY1VlM2ZOalpZaXZjMWNrd2twbmd6YXE4aWxKOFFLa0lnTWlXX1oyZG5FU051TDZpRXNUWV8wSlQzYw?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "7ed8057f6f1dee",
+     "date": "2026-11-10T08:48:00+00:00",
+     "titre": "Soupçons d'accès aux puces Nvidia par Moonshot AI malgré les restrictions",
+     "neuf": "De nouvelles informations confirment l'accès présumé de Moonshot AI à des puces Nvidia en dépit des restrictions.",
+     "fil": "même contournement des sanctions par Moonshot AI",
+     "source": "Contrôles à l'export IA",
+     "lien": "https://news.google.com/rss/articles/CBMiiAJBVV95cUxOU0RXZGlXTTVMN01RWGkyN25wOGw5VDlfN1ZnYnJVMllWdUFqcHYzQm5UNTZKMW5nWmllQ1dJckstUlB3ZXJBeGs2U0tvU1JYWk5aT3BQcFAyU1N5VEF3V01yS3R6RkUyeDl2UzA0TVNib01BQXh1MjBFalNTTmdLbEJxOXRyTWdmdWl6WWxNLWZxMFBfNGoxRFpxNlJHRjJnbFJqOHdfYzh0bk81ZURfbDZUNmVQbkVnYjVyR3FzZGVVbTRrUDJNNVZIM01uaDlxWXY2T0dHeGFhVzRXTXJCNXNSc0hQdlhjakZtWXV5Z1dvVE5kMS1YaUhPRGRkYzhlQ2sxZjFtdW0?oc=5",
      "nb_sources": 1,
      "primaire": false
     }
    ],
    "statut": "active",
    "societes": [
+    "moonshot",
     "nvidia"
    ]
   },
   {
    "id": "h_5febc86840",
    "titre": "L'introduction en Bourse d'Anthropic",
-   "resume": "Anthropic s'active pour son introduction en bourse tout en sortant de nouveaux modèles de pointe sur fond de rumeurs d'IPO et de débats sur la cadence de développement.",
+   "resume": "Anthropic prépare activement son introduction en bourse tout en multipliant les lancements de modèles de pointe, malgré de récents incidents administratifs lors des dépôts réglementaires.",
    "creee": "2026-10-20T09:56:16.457937+00:00",
-   "maj": "2026-11-09T19:00:01+00:00",
+   "maj": "2026-11-10T06:27:00+00:00",
    "episodes": [
     {
      "id": "6702d1aaf0afce",
@@ -2066,12 +1432,737 @@
      "lien": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1EZ19OSTNSY1dhR3hRS1h5MWdBMnQtbDBZRG9lNUl6c2Z3Sy1hYlh2LUY2elVFd1BzbUVrYkdHcC1XQVBuTFZ3d2p3ME9uTkRRb0k5NE1OdjB1eU5XNFFWb3pTcTd1OUw0cTF2Ynd4M25tSGFQaHdhVFFoZVZyR1U?oc=5",
      "nb_sources": 1,
      "primaire": false
+    },
+    {
+     "id": "ce9cf8a9755cdb",
+     "date": "2026-11-10T06:27:00+00:00",
+     "titre": "Incident de dépôt pour Anthropic avant son introduction en bourse",
+     "neuf": "Un incident administratif lors d'un dépôt réglementaire survient en amont de l'introduction en bourse.",
+     "fil": "même introduction en Bourse d'Anthropic",
+     "source": "Anthropic (actus)",
+     "lien": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQUGZJVjVla0UtT3MwdHFOTXpWLTdVWlEwSFFwaF9tSDg4R2VoY3pENS1NQ29UOURwUXN1UGxxdTB6NnBUOFowYks2Tktmb09IRGh3VEVmZzQ1NGp5U3hVZk1lallwdHJSZzRoMmdhNVU2WXdPSmgyUzZIVzJlQXUxaFdzbUxxcUJTQ3NfMDJIbDNTVGxUQ2syajBaS0F6R29ZMzZPWDBsaDIwcmJGcWsycHIxRQ?oc=5",
+     "nb_sources": 1,
+     "primaire": false
     }
    ],
    "statut": "active",
    "societes": [
     "anthropic",
     "openai"
+   ]
+  },
+  {
+   "id": "h_97c425e6a7",
+   "titre": "Mise à jour v2.1.314 de Claude Code",
+   "resume": "Anthropic déploie la version v2.1.322 de Claude Code en intégrant notamment le mode rapide sur Vertex dans plusieurs régions géographiques, après avoir introduit des contrôles de sécurité renforcés, la gestion des tâches MCP et une architecture hybride combinant fichiers CLAUDE.md et hooks stricts.",
+   "creee": "2026-10-30T01:09:42.604214+00:00",
+   "maj": "2026-11-10T02:29:43+00:00",
+   "episodes": [
+    {
+     "id": "fd961a2239120b",
+     "date": "2026-10-30T01:06:26+00:00",
+     "titre": "Mise à jour Claude Code v2.1.314 : sécurité et résilience",
+     "neuf": "Publication de la version v2.1.314 apportant des correctifs de sécurité et de résilience.",
+     "fil": "Mises à jour de Claude Code",
+     "source": "Claude Code",
+     "lien": "https://github.com/anthropics/claude-code/releases/tag/v2.1.314",
+     "nb_sources": 1,
+     "primaire": true
+    },
+    {
+     "id": "a1eae37ef93f12",
+     "date": "2026-10-31T01:01:35+00:00",
+     "titre": "Mise à jour Claude Code v2.1.316 : budgets partagés et correctifs",
+     "neuf": "Déploiement de la version v2.1.316 introduisant des budgets partagés et de nouveaux contrôles administratifs.",
+     "fil": "Mise à jour de Claude Code",
+     "source": "Claude Code",
+     "lien": "https://github.com/anthropics/claude-code/releases/tag/v2.1.316",
+     "nb_sources": 1,
+     "primaire": true
+    },
+    {
+     "id": "21325d54bf349a",
+     "date": "2026-11-02T17:13:47+00:00",
+     "titre": "Yet another reason to self host: Anthropic has (again) cut back on reverse engineering tools",
+     "neuf": "Les utilisateurs signalent de nouvelles limitations dans Claude Code pour empêcher le clonage de jeux et le reverse engineering.",
+     "fil": "Mêmes limites et restrictions sur les outils de reverse engineering de Claude Code",
+     "source": "r/LocalLLaMA",
+     "lien": "https://www.reddit.com/r/LocalLLaMA/comments/1xm33gr/yet_another_reason_to_self_host_anthropic_has/",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "3233c3993f901c",
+     "date": "2026-11-03T01:25:46+00:00",
+     "titre": "Notes de version Claude Code v2.1.317 : sécurité et outils admin",
+     "neuf": "Sortie de la version v2.1.317 axée sur la sécurité, les outils administratifs et la correction de bugs.",
+     "fil": "Mise à jour corrective et fonctionnelle de Claude Code",
+     "source": "Claude Code",
+     "lien": "https://github.com/anthropics/claude-code/releases/tag/v2.1.317",
+     "nb_sources": 1,
+     "primaire": true
+    },
+    {
+     "id": "a506088947db76",
+     "date": "2026-11-04T00:01:03+00:00",
+     "titre": "Claude Code v2.1.318",
+     "neuf": "Publication de la version v2.1.318 ajoutant un historique des réponses pour les modifications de session et le support d'assumer un rôle sur les passerelles AWS.",
+     "fil": "Mise à jour de Claude Code",
+     "source": "Claude Code",
+     "lien": "https://github.com/anthropics/claude-code/releases/tag/v2.1.318",
+     "nb_sources": 1,
+     "primaire": true
+    },
+    {
+     "id": "5c0cfbbab24a5d",
+     "date": "2026-11-05T21:59:16.987959+00:00",
+     "titre": "Nouvelles fonctionnalités de sécurité pour l'API Claude d'Anthropic",
+     "neuf": "Ajout d'une liste blanche d'adresses IP et d'une API d'administration pour la déconnexion à distance.",
+     "fil": "même écosystème de sécurité et d'administration des outils Anthropic",
+     "source": "Notes de version Claude (API)",
+     "lien": "https://platform.claude.com/docs/en/release-notes/overview",
+     "nb_sources": 1,
+     "primaire": true
+    },
+    {
+     "id": "3b58ffb304e7b1",
+     "date": "2026-11-05T22:17:15+00:00",
+     "titre": "Claude Code sends your email address to websites",
+     "neuf": "Un problème de sécurité et de confidentialité est signalé, Claude Code transmettant l'adresse e-mail des utilisateurs à des sites web.",
+     "fil": "Mise à jour et problèmes liés à Claude Code",
+     "source": "Hacker News (IA, 100+ pts)",
+     "lien": "https://github.com/anthropics/claude-code/issues/107757",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "b5fb3b3142a3da",
+     "date": "2026-11-06T06:45:17.192402+00:00",
+     "titre": "Nouvelles fonctionnalités de l'API Claude : gestion des utilisateurs et capacités des modèles",
+     "neuf": "L'API Claude s'enrichit de nouvelles options de contrôle administrateur et de champs de modèles améliorés.",
+     "fil": "Mises à jour des fonctionnalités et de l'API Claude",
+     "source": "Notes de version Claude (API)",
+     "lien": "https://platform.claude.com/docs/en/release-notes/overview",
+     "nb_sources": 1,
+     "primaire": true
+    },
+    {
+     "id": "06e9433f39d00d",
+     "date": "2026-11-06T17:04:01+00:00",
+     "titre": "Mise à jour Claude Code v2.1.319 : sécurité, MCP et API",
+     "neuf": "La version v2.1.319 apporte des contrôles renforcés pour le mode automatique, la gestion des tâches MCP en arrière-plan et des optimisations de latence.",
+     "fil": "Mise à jour directe de l'outil Claude Code",
+     "source": "Claude Code",
+     "lien": "https://github.com/anthropics/claude-code/releases/tag/v2.1.319",
+     "nb_sources": 1,
+     "primaire": true
+    },
+    {
+     "id": "2fbff683355d87",
+     "date": "2026-11-08T10:12:49+00:00",
+     "titre": "Anthropic : règles souples et hooks stricts pour Claude",
+     "neuf": "Anthropic précise l'utilisation de CLAUDE.md pour des règles souples combinées à des hooks stricts.",
+     "fil": "même outil Claude Code / configuration de Claude",
+     "source": "Anthropic (actus)",
+     "lien": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPaGh3bGExVzQ0NDE2eG11QXBNT3E4ZjI0NEVWd1RWVWdUbnZwM3hQeG1meWJJeENJYkpzbEx5N2NObmF2dnlIUnRlMmh0OTNDOEpkNF96X3FnTmF5TlpPbXRZclRJckdfRDhXVndtTi1CTWZkZXZFai1jWjZtN1lQY1ZMekhHMkFWRWx0OTJB?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "2a50096e729630",
+     "date": "2026-11-10T02:29:43+00:00",
+     "titre": "Mise à jour Claude Code v2.1.322 : ajout du mode rapide sur Vertex",
+     "neuf": "La version v2.1.322 intègre le mode rapide sur Vertex dans plusieurs régions géographiques.",
+     "fil": "même version Claude Code",
+     "source": "Claude Code",
+     "lien": "https://github.com/anthropics/claude-code/releases/tag/v2.1.322",
+     "nb_sources": 1,
+     "primaire": true
+    }
+   ],
+   "statut": "active",
+   "societes": [
+    "anthropic"
+   ]
+  },
+  {
+   "id": "h_520aa59662",
+   "titre": "Déploiement et disponibilité de Gemini 4 Argon",
+   "resume": "Google continue d'ajuster son offre et ses tarifs à travers son écosystème, étendant les capacités de Gemini Omni avec une baisse de 30% sur la vidéo 720p tout en déclinant ses modèles pour le contrôle robotique et la simulation.",
+   "creee": "2026-10-20T09:56:16.457937+00:00",
+   "maj": "2026-11-10T01:04:06+00:00",
+   "episodes": [
+    {
+     "id": "15e70ee5e4a75a",
+     "date": "2026-09-30T20:01:45+00:00",
+     "titre": "Google DeepMind annonce Gemini 4 Argon",
+     "neuf": "Google DeepMind annonce l'arrivée de son modèle d'IA frontière Gemini 4 Argon.",
+     "fil": "Annonce initiale du modèle Gemini 4 Argon par Google DeepMind",
+     "source": "Google DeepMind",
+     "lien": "https://deepmind.google/blog/gemini-4-argon-our-next-era-of-frontier-intelligence/",
+     "nb_sources": 2,
+     "primaire": false
+    },
+    {
+     "id": "16c1598a645116",
+     "date": "2026-10-01T07:00:00+00:00",
+     "titre": "Google lance Gemini 4 Argon, un modèle ultra-puissant réservé aux experts",
+     "neuf": "Le modèle Gemini 4 Argon est initialement réservé à un cercle restreint d'experts en cybersécurité.",
+     "fil": "Suite sur Gemini 4 Argon",
+     "source": "IA en français (actus)",
+     "lien": "https://news.google.com/rss/articles/CBMiwAJBVV95cUxPbm9zS21iUDk5OTBSU1ExUnMxRTBsbzBIdWJOMTloa0toNnp2cnN5a01oSlduSlpsUEhKbWQyUnJsU3FlVmJjVnRFZzJLRnNTRzJOZjFPcG82TF9LUzV6UU03UWFSblJSZzgwMTRIX1Z6YU50dkRFYjZzM29BVWFDVnR4LWdBN1pzOVlZS3pzWVJMRWhJQWJxbllsbGVXd0VwWDI2bFZJbm9udVR1UDhqRkJKdEVXOTU1cHVFZHFId1VTWXBzLTR4WTdPZjF4QTc4VEJkUUtpZTE0Y0dwNmdSSlNuSmVHQUtCM1R3LWY0QU1LcWQxSjc5d3VYdldSMkZMSDVCRG1raXl5QzlDcjg2WWhxUTUySlowMkRURnJCa3RvUmZKNV9INkNJSm91elVxZXc4bzNuZnJneFdFRUhROQ?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "c1e94fc831365c",
+     "date": "2026-10-13T16:00:00+00:00",
+     "titre": "Google DeepMind lance Gemini 4 Argon",
+     "neuf": "Google présente de nouveau Gemini 4 Argon comme un modèle conçu pour résoudre des problèmes complexes.",
+     "fil": "Extension du déploiement de Gemini 4 Argon",
+     "source": "Google AI",
+     "lien": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-argon/",
+     "nb_sources": 3,
+     "primaire": false
+    },
+    {
+     "id": "f9eb89f74ed89d",
+     "date": "2026-10-13T16:10:19+00:00",
+     "titre": "Google lance Gemini 4 Argon, son nouveau modèle phare pour développeurs et entreprises",
+     "neuf": "Google officialise le déploiement à large échelle de Gemini 4 Argon pour les développeurs et entreprises.",
+     "fil": "Disponibilité élargie de Gemini 4 Argon",
+     "source": "Grandes annonces IA",
+     "lien": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQclhsaXp4NUtqeVJDQTNIUjVXQVdJcnNXYnpYZUFTZm4wY3UxcTM1SzJvdzRBNE9HaURlNG1obzFGQ0o3R0pWNVJfNGFDOUdFZnhfdEJxSkszQ2hZQlowMjdCbVliRE9uX3A5ak1CYkJHOEV1elBYRWgtUHBwdF9lcWEyUGdjbmhQb2JONkpNeWhLTHgzQzRhRFRnZTEwcDRCa3k3RkpxY0c5Z1RsSlFCSmQwNmRmQQ?oc=5",
+     "nb_sources": 2,
+     "primaire": false
+    },
+    {
+     "id": "471508c04c304c",
+     "date": "2026-10-13T19:43:07+00:00",
+     "titre": "Google DeepMind annonce le développement sécurisé de Gemini 4 Argon",
+     "neuf": "Google DeepMind annonce le développement du modèle en insistant sur la sécurité et la responsabilité.",
+     "fil": "Même modèle Gemini 4 Argon",
+     "source": "Google DeepMind",
+     "lien": "https://deepmind.google/blog/developing-gemini-4-argon-responsibly-and-safely/",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "58bef2b78b9c5f",
+     "date": "2026-10-18T12:43:42+00:00",
+     "titre": "Quatre agents Gemini 4 Argon terminent Minecraft sans aide humaine",
+     "neuf": "Quatre agents propulsés par Gemini 4 Argon parviennent à terminer le jeu Minecraft de manière autonome.",
+     "fil": "même modèle Gemini 4 Argon",
+     "source": "Google Gemini (actus)",
+     "lien": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNdVViZFVsamhYNzZfb2xUN3ZkdHlDcVRNWWktdmRjZ3gxUHJwc3F5MnBibHpCVVo2LWRtM0lLM1MxSG82ampTWF9IcGUtUnAyMUtCWmw5X0pReDViVXBTeFh5dXY2SkVFcWlueFBvdGZ2Z19OdWgzc3NOY3kyaDd2SDBDWnhsb0xvNEFVWWo2UXRoaTA?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "14367e39ff3673",
+     "date": "2026-10-19T16:45:48+00:00",
+     "titre": "Google Gemini 4 Argon : Annonce et perspectives",
+     "neuf": "Nouvelles annonces autour du positionnement et des perspectives de Gemini 4 Argon.",
+     "fil": "Même modèle Gemini 4 Argon",
+     "source": "Google Gemini (actus)",
+     "lien": "https://news.google.com/rss/articles/CBMickFVX3lxTE1uZTJkalB3aTJDdmZFOFhaOHJDZG43YTdOOGRoQkZGeEgyTVp1ak5QcDNvbXN2aXZUWWJLZE5VeXo3d0dXc0NuMGw2bFJfd2hPTUktZnVXcHM1ZnBIWW5RX2F2NGZKbS13UnFmTm5vSEd2dw?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "c4ea13b1040293",
+     "date": "2026-10-20T10:25:00+00:00",
+     "titre": "Quatre agents IA de Google DeepMind battent Minecraft en 27 heures",
+     "neuf": "Quatre agents IA de Google DeepMind ont réussi à finir le jeu Minecraft en 27 heures en écrivant des milliers de programmes, au prix d'un coût important en jetons.",
+     "fil": "mêmes agents IA de Google DeepMind sur Minecraft",
+     "source": "Google Gemini (actus)",
+     "lien": "https://news.google.com/rss/articles/CBMi-wJBVV95cUxPTXUtclRkR2lEMFJ6ZnY1X0NlVmNjSWpUY01hbTFMYnVLTm9VSjE4ZUIyakZNTGRlZFM1cHVYbURjTU0xZjVlb2JkTWdjRlVNS2VrRU9PeHdyZU8zczJEYVJUWDJlTUJxeHIwVHN0WjgxV19pUHRqeEF2U2RaU3RkVnpta1lVZjk0NGVITEJXbVFnajdyNkxXLUk3MzFIM2hRWjRjYXNGME1ZeUJ1TDY4dTNucE9SZzBTbHdXS3JsYlZqNzgybnVvU0J3dllKem1wRlJkaHNwbC1hRE1ZZXNzZ216MUdfU01vdS1YY2dxNU0tNTZpWTVIb2FjWnNNYkI4bk1uNzh4bThEX1M5Y2h4S2Zsc1BDVV9LSlExdzF6d3VZRzh5NzFBcXdTNWNINlRBUVdfRmZ5UzZ5bU93YlNhZmxqVGdodGxBZU1ycGtTNEszTzh6dDlWZm1VRmk4S0x4TmlZZDJzWDl4NHBYazFGV185YjZ4c1MwQ1lB?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "641825df9197d5",
+     "date": "2026-10-21T13:02:42+00:00",
+     "titre": "Gemini 4 Carbon : vers une baisse massive des coûts d'IA",
+     "neuf": "Le futur modèle Gemini 4 Carbon est annoncé avec des coûts prétendument inférieurs de 400 % à ceux de son concurrent GPT Astra.",
+     "fil": "même famille de modèles Google Gemini 4",
+     "source": "Google Gemini (actus)",
+     "lien": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBMRXhuRUFOOGQzdjh6R3hkY2xIbHpJMk9WY1E3R0Iwc0kwTG1UUlhKMW91bF9aY21RT2E0NXEzRHlKVkdoWDl0d2FqWHVyVHZlOHlraFhlTWRsNWJBbkdRUVNUa2xfSE1iSEFpcWVB?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "5d569a00a1354c",
+     "date": "2026-10-22T19:34:44+00:00",
+     "titre": "Google DeepMind utilise Gemini 4 Argon pour apprendre de nouvelles compétences aux robots",
+     "neuf": "Gemini 4 Argon est désormais appliqué à l'apprentissage de nouvelles compétences pour les robots humanoïdes Apptronik à partir de simples vidéos.",
+     "fil": "même modèle Gemini 4 Argon",
+     "source": "Google Gemini (actus)",
+     "lien": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxPSVEwaG5UMVNDWVduOE9scVhpVUw5azY3T1VERHVvbGJIbHFTR0t4bzNtNWd4alk0T3BoajlLSnlfVWhlcEFMNkdnVUNsLWQwVm5TU1FZeE81bFpHZkR4QjcwMjNxekRYZTN4aU1wZHhFYW9YWU1wNVlMSDJMS2NpX1ZfLTBWb24yWnNxaGx3bWo2MnVoWFVNZjhzSDBqb0NaMVR6bEZBZ0NoUnVTWjBzaHhzb0YyVWJVWkhBM3pSUnNGWWh5ZnhwOGlGdWZyZzRDcVliUmVJRVJKZnNxVUdxZnRXMTU?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "6017f42bfa9cb6",
+     "date": "2026-10-23T20:13:43+00:00",
+     "titre": "Gemini 4 Argon : l'entraînement massif sature les serveurs de Google",
+     "neuf": "L'entraînement massif du modèle Gemini 4 Argon monopolise 25 billions de tokens et sature les serveurs de Google.",
+     "fil": "Même modèle Gemini 4 Argon",
+     "source": "Google Gemini (actus)",
+     "lien": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOXzlmX0VtN1B5UVhicDZLVWhLTU93cnZRaE8tVFZMUVNCYzFEc2FFbG1QRFpkaFdPNG41YTZWQ3N1Q05KNGhEU3V1WndBbWNHZTUyMTd4anQ3aVc3NVhmV2FveGRQWDdCR04xOEd4LVJfbFFrMzBpU2FSSG9xN3dJcUtNSVU5cDU0RWxsLXozVHdnNE4yaGxwc3pR?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "09b5411a8d8658",
+     "date": "2026-10-24T12:20:11+00:00",
+     "titre": "Comparatif Gemini vs ChatGPT : tests de performance entre Argon et GPT-6.1 Sol",
+     "neuf": "Publication d'un test comparatif direct entre les performances de Gemini 4 Argon et GPT-6.1 Sol.",
+     "fil": "même modèle Gemini 4 Argon",
+     "source": "Google Gemini (actus)",
+     "lien": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBOdUNoMGJyQzA3c3F3NjF3ZHljSU1XZUQ4dkFLS2Y5UmZaS0F4WDc4X013VmJuTmVLS0V3M0NuVEl1QzVMSWVQejJDWFlkZmpKMjRpTThiNDdaUjZjSk9JRVVMTDV0NDZ6SUc0NThpbEVEWU5BZWRRd2FJWjd2UFU?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "0222cb39eb9690",
+     "date": "2026-10-24T16:00:02+00:00",
+     "titre": "Google Optimizes Agent Development Kit's 200K-line Python Codebase Overnight with Gemini 4 Argon - infoq.com",
+     "neuf": "Google utilise Gemini 4 Argon pour optimiser en une nuit une base de code Python de 200 000 lignes.",
+     "fil": "Applications pratiques du modèle Gemini 4 Argon",
+     "source": "Google Gemini (actus)",
+     "lien": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1qcUw2RWl0OHUtRUJLOXA2Y0VYX214QVZqZnFvOW1HYlhsSEthUUdBY1JVSzlWakIzUFhxNzl1ZDVOVDdZc3dSbHlETzV1eGtzT0lkT3lRdVFyY1NteEZIZWFNdDVUbXJ0R1ZqdE1naw?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "4dcce3a85e1ad1",
+     "date": "2026-10-25T10:33:00+00:00",
+     "titre": "Google DeepMind crée un tableau périodique 3D avec Gemini 4 Argon",
+     "neuf": "Gemini 4 Argon est utilisé par Google DeepMind pour concevoir un tableau périodique en trois dimensions.",
+     "fil": "même modèle Gemini 4 Argon",
+     "source": "Google Gemini (actus)",
+     "lien": "https://news.google.com/rss/articles/CBMigwJBVV95cUxQZmFqbWV1UW1hWmt2b1pBZTVjOWthVUNHYjd4V3RzeV9UX1hzSUVTQVRRZTRfMTBWdTMtalQtblBTd0Q4VTdWbENybm45UWx3TnRrcF9wb1UtVFVqeFI1UERmNnY2M2l0SjNBUnY0cjZMalFnSGpveXllT2tweUthaWdwa2hlWWFSRUV1VE5PbVBkbkJlQWxGNUFPMXl6Ql9XS0NZTkFSMFB4ajYwNU4tdDZuUm00UFNGQVlyVkpSdFpJWE5rb0xsSkg0TVlLa0luRy1rZXY3bUJHNEFWMTdPTloyVnZCMGZMUjFhLWVSZlBZakZmMWhEVE8tVDZKZkRPbkYw0gGIAkFVX3lxTE9fT3d3Yng3TVBINThDT01aNkZnQkxHTFIta0FYR1NaSWxZUUYyMHIxa3VGdWowUHk0TFpLdURkV0p4RFIzRmhtVGdHdmRZdWFuZW44bEtlOW1wMDZBc245cEFyaTUzTTFhT0lyVnl4STkySS00TFBWd3l5S180blFkekdxdkNUbjBNdVN3X0EwcVNITk9sN05aZjVWV2NsVFhHek5uTjhsQm1RUFpMUVBudVBRNExyUlVzYUFhRUdCekp6dU1hOVhpVkROWjIxSnhHeUxWNVIwR2J2OUZkdG5COFhCMUlYdkZoczRUSlQ3djEtTDBFanBYamwweDZCaEdFNEZkYWd6TA?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "af728b0cf267c9",
+     "date": "2026-10-27T04:00:00+00:00",
+     "titre": "Google annonce Gemini 4 Argon : une intelligence accrue mais un impact mesuré",
+     "neuf": "Google présente officiellement Gemini 4 Argon avec des capacités avancées mais un impact immédiat nuancé.",
+     "fil": "annonce de Gemini 4 Argon",
+     "source": "Google Gemini (actus)",
+     "lien": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxOSXhERDNFS1ZEaVlrV0hId1BSTktrUEJzSWRxOGtSTEVwQzFLNjRqU25NUVU4aUhocUJDQ2pEQjBmYVpVd3RkdFBjSnNqMFBnTVBoZklTeHJpcjFCS0FvSDNkaWU4MG4yWEE4eTRsd0JNOHFyNDVwQ3Nva3dMd3Y1VnliMHRwaXlHS2ZXUEZFWEtTRzlFU1pNaUUxVEtyN2RlTHNHdTdBWk1QNkp6a2VWakR4UlBsd3FWdHpsZGx3LXJraFZmcjBYU1NwQlhvTnV6ajBDcjFpbE51UjgtT3Rrd1d3?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "e8dcc67b7678b7",
+     "date": "2026-10-27T04:10:37+00:00",
+     "titre": "Google annonce Gemini 4 Argon : focus sur le code, les agents et le jeu",
+     "neuf": "Focus sur la programmation, les agents autonomes et la performance dans le jeu pour Gemini 4 Argon.",
+     "fil": "spécificités de Gemini 4 Argon",
+     "source": "Google Gemini (actus)",
+     "lien": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQdnZhVzR2OVVoTkpvNm1JSmxhclY0cWk5c0FJNUk2MW5qVm1DdFkyTVNNdm00RjViQThzcTZlMDJMQmtjME9XRWE0SWY0dVlaY2FQeGlnOG9zQ2FpV1o3bl9OZHpDZUFEckVaS0tGMU56dDVuZW1fak9SR2MySVltNlNB?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "591b1cde4604de",
+     "date": "2026-10-27T14:31:49+00:00",
+     "titre": "Google intègre l'intelligence personnelle de Gemini dans les voitures",
+     "neuf": "Gemini intègre des fonctionnalités d'intelligence personnelle directement dans les systèmes embarqués automobiles.",
+     "fil": "Déploiement et disponibilité de Gemini",
+     "source": "Google Gemini (actus)",
+     "lien": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5Tc0tzMXVVMWNvOFUxM3F0aUFEWTI1bHRpcVF0SjZOc21TNHMxT1A4T3o4LTZOSHlyT1ljWFlmYnNYUTAtOW0yVk8xYVRMYktrX1hLVzFpX291QjRBc1M5c1hzTVBkMkVsbXgyNllWVTRLRkRHNGg2cTM2WlI2QQ?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "b83884add02f4b",
+     "date": "2026-10-27T15:14:55+00:00",
+     "titre": "Gemini Robotics Embodied Reasoning 2 disponible sur Google Cloud",
+     "neuf": "Le modèle Gemini Robotics Embodied Reasoning 2 est mis à disposition sur Google Cloud.",
+     "fil": "Gemini 4 / Gemini Robotics",
+     "source": "Google Gemini (actus)",
+     "lien": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPYmFHdjgxSllxUXBrQTBJSEJXWXdqLUYzcHM1TTRkZEpMeEwxMHZmVGNkd0hCMVlHb0VrdHhwUzJLQnEydFBvLTZvcVU1TVdaVlFVUllxQ2NQM1pmY24yRFRubjViLU9ONkpDUEhPVUMyU0pRX1hBRzVrOWtrTXFCRDZkcDl1Nnp0bmVqT0NTMGxZYVZ4Z29WSmh3V1A3NGRsYzBDWTNSVm9leV80cTlnYk9Ib2JQX3RzRlB6dUVNUGtUZVM1NThz?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "7ac5bd2caa3b15",
+     "date": "2026-10-30T13:05:12.658537+00:00",
+     "titre": "Disponibilité générale de l'outil Computer Use pour l'API Gemini",
+     "neuf": "L'outil Computer Use de Google passe en disponibilité générale (GA) pour les développeurs utilisant l'API Gemini.",
+     "fil": "même gamme Gemini et API associées",
+     "source": "Notes de version Gemini (API)",
+     "lien": "https://ai.google.dev/gemini-api/docs/changelog",
+     "nb_sources": 1,
+     "primaire": true
+    },
+    {
+     "id": "fe261067fe28e5",
+     "date": "2026-11-05T19:08:10+00:00",
+     "titre": "Gemini Omni 1.2 Flash étend les vidéos à 15 secondes et réduit les prix de 30 %",
+     "neuf": "Précision sur la durée des clips (15 secondes) et la baisse des tarifs de 30 %.",
+     "fil": "Même modèle Gemini Omni 1.2 Flash",
+     "source": "Google Gemini (actus)",
+     "lien": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNTGdycWROdW9kWlpFRWtJc0wzeVMtVTgxTENtWm1DbDJlREJxWkZKYWJLZWpQMEs0NTBHVW9BekxiZ3hJd1JfVnEzN3hwMm5fYThpMGZuQ0wxMnk4UUlHNG1kN0pZTTlqYXZEWG1Jd19Ld0pEVnZJR1dSVXhQLUMwZGtiWlcxM1V3VzFXWjRva3FzTGhudkIzaURaX1lTOXltVmdkaHduYk1JQnEyMDROSkFuTXhtME1BWncxTTdSc3MyQQ?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "efc3d11f786131",
+     "date": "2026-11-09T15:45:39+00:00",
+     "titre": "Google lance Gemini 4 Argon pour le contrôle des robots",
+     "neuf": "Google décline Gemini 4 Argon pour le contrôle robotique et la simulation.",
+     "fil": "même modèle Gemini 4 Argon",
+     "source": "Google Gemini (actus)",
+     "lien": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9JSUE2NjRhaHA4V1hYSGdWRXhNWllHLXZlY0VBZVR4U01HZmJlNEFfVGZMeE9CRXVUaTJucFZKSnpOMkVBZ1V2ZE5KREhlMWQwNXRQOWxhU084eW1LcEY4bFhERnlGQQ?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "cc68ecc71bda41",
+     "date": "2026-11-10T01:04:06+00:00",
+     "titre": "Google réduit le prix de la vidéo 720p de Gemini Omni de 30 %",
+     "neuf": "Google réduit de 30% le prix de la vidéo 720p pour Gemini Omni et ajoute la prise en charge de clips de 15 secondes.",
+     "fil": "même écosystème Gemini Omni",
+     "source": "Google Gemini (actus)",
+     "lien": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNMlZyMEFYVG1nV1dYclhTdDNnRVdoUXUxdU1xbXBIVkdaMTZkdVpTS0Q2LS1ZaktwSkVEdEd6X2tJTzU2aVlfQi0zMWlpY2FMdEVESWdoMUY0R0xxOTZwN2FCUnVkVjRGOTRJYVZZdTNmUkVudlBKWVJpeTRNNGNhcHV4R3RvVGc5TC01ZzIydHBxbEVYeE1RWUswdU5nQXhFdnhEM1NQUDNvWHhVbzFzaHJLNA?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    }
+   ],
+   "statut": "active",
+   "societes": [
+    "google",
+    "openai"
+   ]
+  },
+  {
+   "id": "h_5e0762833f",
+   "titre": "Action en justice contre SpaceXAI",
+   "resume": "SpaceXAI poursuit le développement de ses infrastructures malgré une pression juridique et réglementaire accrue. Après les allégations sur l'absence de permis d'eau pour le centre de Southaven dans le Mississippi, l'entreprise doit désormais faire face à des discussions sur ses permis d'émissions atmosphériques.",
+   "creee": "2026-10-20T20:45:07.920169+00:00",
+   "maj": "2026-11-10T00:21:36+00:00",
+   "episodes": [
+    {
+     "id": "54794aade42fd8",
+     "date": "2026-10-20T19:51:00+00:00",
+     "titre": "Une plainte en justice contre SpaceXAI autorisée à se poursuivre",
+     "neuf": "Un juge autorise la poursuite de la plainte visant l'entreprise.",
+     "fil": "action en justice contre SpaceXAI",
+     "source": "Grok et SpaceXAI (actus)",
+     "lien": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOUVI0SUp1dnBQTWNyRkZnSTJWdUx3Y05pM2ozaHJXMVFVZnpPUTNhYWVldGlaR3pEN21yQWdRdTgweWlmaDA0WlU1dllGRWRZVDZKMXZLdXNJNDV4dnNkdFNtcV9OaU1EU3ozdkR5SW50QmhKRWJIUmxCdHp5cjdiSldfTldEUi1zTE5nazhVTQ?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "f33d215c710570",
+     "date": "2026-10-21T21:33:47+00:00",
+     "titre": "Refus d'intervention du DOJ dans le procès SpaceXAI à Southaven",
+     "neuf": "Un tribunal bloque l'intervention du ministère de la Justice dans l'affaire SpaceXAI à Southaven.",
+     "fil": "le procès SpaceXAI",
+     "source": "Grok et SpaceXAI (actus)",
+     "lien": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQY3RCWlc5ZHUxWTM1V1JjTkhEWlN2Ny14eGZOaVhnSHRuTDR4OTlSQVdWbDBhbGtQdjBKSXhUOWd2dzEwblJqakNpaWd6OHN0VjdsdGFMSTVibUJHMXY3N25QTGhwMmk5Snh5LXg1R2FQS20wTUVLQzgtdWZmNlJTUkxFeDdScjBfaU5VYzljTGFKRkE?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "c3e2edb0d5b6e5",
+     "date": "2026-10-22T16:39:00+00:00",
+     "titre": "City of Memphis moves to ease truck traffic concerns near SpaceXAI supercomputer - FOX13 Memphis",
+     "neuf": "La ville de Memphis prend des mesures pour fluidifier le trafic des camions autour du supercalculateur SpaceXAI.",
+     "fil": "même projet et supercalculateur SpaceXAI à Memphis",
+     "source": "Grok et SpaceXAI (actus)",
+     "lien": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxPc1RNVTdqU2Fzc3dMUXlaUDJFTklDOGpKZVdrWFJJRkJWMVBzdTU1Ym9GTUFoYUFuTEJRZ1FuTldjWmNLeUVtUjlKSEVjc0Y5Sm45Y1JaTEQyWmlyTWNEc09OTnJUR2U0enpYTGFzX3hZcUdnUWFocW85MnNJbnQ2QTM2QWd3TmNOcW40QzREQzhLYXF1dkpXamhld3g1WEVsclZvLTJQNkpVR05kTmJ3bkdHWEIxenB2V2RFRzFJakNZODVkR1VDdHQ3UmFQSjk5WkFZa0UzWV9xdDlHVnRuME0yZXE0OUxqbUFPa2ZHdzRsaEtic0Vj?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "6451ac313e4eca",
+     "date": "2026-10-22T22:47:00+00:00",
+     "titre": "SpaceXAI visé par 6,1 millions de dollars d'amendes au Mississippi",
+     "neuf": "SpaceXAI écope de 6,1 millions de dollars d'amendes au Mississippi.",
+     "fil": "Mêmes poursuites et sanctions contre SpaceXAI",
+     "source": "Grok et SpaceXAI (actus)",
+     "lien": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOZEdkSEpTVk5FclA4TldnQ1g2QTNrdDBWNFlEZ1gtRlo4X3ZQdHM2SlBOYmlrVHNOWmIyaXh1bkUxenVnXzVPMHV4akx2TkQ0TWFkN1plY3dWcktwdVJCNnh0Smw0UEtCZW90QmliWEZRODJST2hIMzdJWXhVU1JET2pSdGZaUEUwRWlNMklKUFZTbTRUQjNrNVZLQjI1T01XUm5MZnBvMEtoVWEwendPNzlJcms0V1V2anlQci1YQmFlZ2M?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "9f9c516908c72b",
+     "date": "2026-10-25T09:44:33+00:00",
+     "titre": "220 millions de dollars de réclamations déposés contre SpaceXAI",
+     "neuf": "Le montant total des réclamations financières visant SpaceXAI s'élève désormais à 220 millions de dollars.",
+     "fil": "même action en justice et réclamations contre SpaceXAI",
+     "source": "Grok et SpaceXAI (actus)",
+     "lien": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPYkF5X2MwdVBzM05fUFpZTFM4eGRrZy15aDZCZTIxZWo5R2o1Z1FRX2VoRmJNVkpmVVNiZ3FiSGZUcndmT0RTN1lGRW1SZ3FWRzlWbGlGbzE2WWs3VU5IMDVURzFRaUdlWTNzTGJKTjJjVVBTUGRSa1RQOW9qUW1NYkZVMkZIajZCdkhVS1VCVEkxT0dHRzlGZllVU1lGdGJrVV9rV2FnaVY0OGJ0?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "6086659eeb90dd",
+     "date": "2026-10-27T23:22:02+00:00",
+     "titre": "AI Users Say SpaceXAI Can't Split, Arbitrate Slowdown Suit - Law360",
+     "neuf": "Les utilisateurs d'IA contestent la possibilité pour SpaceXAI d'imposer un arbitrage ou de diviser l'action en justice sur le ralentissement.",
+     "fil": "Mêmes poursuites judiciaires contre SpaceXAI",
+     "source": "Grok et SpaceXAI (actus)",
+     "lien": "https://news.google.com/rss/articles/CBMingFBVV95cUxOU2pSMWxJcHpmYUJpcGw5ZGVtbTdoY1o0Mk8tN0xTQTA2OXNwMkRteklTdE92ZGZCNkZ4TUhaYjItbUZiSVNUeUNxeWFTUjNyaVAxakNCT3UxQVVPU05KWnhxdHRVaS1wLVdRc0dNMnM0RzFLZDVXUGVTbUlsSVlIbXpYME9OcmxwdloxbjNSYnFmZFljdVk4dnh3SHI2Z9IBVkFVX3lxTE12a0RaaWFnTEE4WUtUWllzamEwVVNVV3phYThXaTg0LVNIenVKVHZxSjI3MjVXY1NBempuaFY4VDczLVpDTDRCYnMtazdUWEo0NkcwcEJn?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "fcb2d83fec74b4",
+     "date": "2026-10-28T12:25:56+00:00",
+     "titre": "SpaceXAI fait face à un litige de 220 millions de dollars devant un tribunal",
+     "neuf": "Un entrepreneur dépose un nouveau recours en justice concernant des contrats massifs liés à SpaceXAI.",
+     "fil": "Recours en justice de 220 millions de dollars lié à SpaceXAI",
+     "source": "Grok et SpaceXAI (actus)",
+     "lien": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPZGZhZzBzUkludm1qZjh5alB3U3ZmMk11Vm5SSXE4czNtVzFScUtJeGloVTdsTEF0UEMybGpjaEk5SUloUlBmN0NGNU0xU0RTN2p1RGZaOXNmZ0laNjVsdTFYR255ZkQwQkJueDNKUUtyV0ZiOF9zTEUwbHNsMUNjTVJZQlQwa2c?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "5283652bd524be",
+     "date": "2026-10-28T14:44:00+00:00",
+     "titre": "xAI is buying out homeowners who promise not to sue over data center noise",
+     "neuf": "xAI achète des résidences pour éviter de nouveaux recours en justice de riverains mécontents.",
+     "fil": "Mêmes poursuites judiciaires et litiges liés à xAI",
+     "source": "The Verge IA",
+     "lien": "https://www.theverge.com/ai-artificial-intelligence/1020596/xai-mississippi-neighborhood-data-center-lawsuit",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "9d449d2dca1151",
+     "date": "2026-10-31T18:56:21+00:00",
+     "titre": "Une plainte contre la pollution d'un centre de données xAI autorisée à progresser",
+     "neuf": "Un juge a autorisé la progression de la plainte de la NAACP contre les violations de la loi sur la qualité de l'air par le centre de données de xAI.",
+     "fil": "Poursuite en justice concernant la pollution et le centre de données xAI",
+     "source": "Grok et SpaceXAI (actus)",
+     "lien": "https://news.google.com/rss/articles/CBMihAFBVV95cUxONWZobnlmVnlwbk9rMk1yeUVabnE1QUdtdTVEWGR6UUkwYXEzWk9weVpLMWFtRWF2Ykd6SmpNalgtelBCZ0lBdkd6Vm1xcWhNNkNVM0ZKTW43TmZyUUtMb1pYZVY2V2VuaFh5dHdBakhBYllrQjY5bUhrOHpteVNRUWNaZFrSAYoBQVVfeXFMUHFJcmV4YzZNcTZ4dk5RX2YyQm1TWDhpSS1OemxNdFRkUHhFTEFDNHpueE1QejEzMGVQYUFwQXpNV2JaVmJzdlQ2TWFJNlJOYjFkckE3TFpHVHpMSWt4YlBzMkZUX0hSa295M2tHSkx5aUFDbjMwbDkxQlNhdnp1NlhYd21VOER5ZHZn?oc=5",
+     "nb_sources": 2,
+     "primaire": false
+    },
+    {
+     "id": "993a9a1a3b9941",
+     "date": "2026-11-01T10:30:00+00:00",
+     "titre": "SpaceXAI rachète des logements voisins de ses turbines au Mississippi",
+     "neuf": "SpaceXAI tente de racheter les maisons voisines de ses turbines au Mississippi pour éteindre des contentieux.",
+     "fil": "même expansion et contentieux liés aux centres de données SpaceXAI",
+     "source": "Grok et SpaceXAI (actus)",
+     "lien": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQcU8xaDdiMXVSZlQtc0F3TjJ4LWg4NklhT0IzZnhkeG9wUHI1SnVmc1Bra1pGMTZBV3U1bkR4QUNfeUMzQzRNRVhSYXdWSnlWOUR3ZnZtTDNRNVdVVWhrWHpSclpOWXhLWmZmRWNkdVV0d1NqV1Q4NU9yUW1YUDJJZnJ2b2w5c29WRHBCcjg0UjczUWs?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "71a4eb6e914067",
+     "date": "2026-11-01T13:25:00+00:00",
+     "titre": "SpaceXAI annonce deux nouveaux centres de données près de Southaven pour décembre",
+     "neuf": "SpaceXAI annonce deux nouveaux centres de données près de Southaven pour décembre.",
+     "fil": "même expansion et contentieux liés aux centres de données SpaceXAI",
+     "source": "Grok et SpaceXAI (actus)",
+     "lien": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNQ01nUXZuUzBvWmdGVEZyWXNnZjVFazdrNVM3SmIwdEV1TFk2WFI5YXMxaXJ2c3ZORkVCNWJtRHlmZXJheVpJMG12OW5HVjhsS2Q4ODhwSlR4a3VQaEhhSUFHT2p3RWFNeFgyUXQ0UkYxTXhWSnpBaktVRUZwMkVkRi1GSDdhU3NQcXhpLXlRMllNZw?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "40ba5b596e08e5",
+     "date": "2026-11-01T20:15:00+00:00",
+     "titre": "Un juge autorise la plainte de la NAACP contre SpaceXAI",
+     "neuf": "Un juge autorise l'action en justice intentée par la NAACP contre SpaceXAI dans le cadre du Clean Air Act.",
+     "fil": "Poursuites judiciaires contre SpaceXAI",
+     "source": "Grok et SpaceXAI (actus)",
+     "lien": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPZEszakpvSHd1QzBibmFWTFRMZ2RFUjVrbUlnWmMzc0tVeFVVOXExR0dWLTlCQ1lKblFiVXBZeUNwZG8tSm9iVTV1aEt5VWVxZWpLalVPeXNtZmI3b2F6dWFMVFpRNFdvSWs5V1pCaklHLWQ1emR5WUZtS1ZRUXJhemZuelAxUUd1QnpmNHA0UlRpdw?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "793a10ab1713b3",
+     "date": "2026-11-02T18:00:00+00:00",
+     "titre": "Une action en justice contre SpaceXAI autorisée par un juge fédéral",
+     "neuf": "Un juge fédéral confirme officiellement l'autorisation de la plainte en justice visant SpaceXAI.",
+     "fil": "Même action en justice contre SpaceXAI autorisée par un juge",
+     "source": "Grok et SpaceXAI (actus)",
+     "lien": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNVmlYeF9DdkFhcWxxc3M3T0ZzUUZVcmZTNWRZUlJILVpYZGdhQ3l4Q2FSRWVINnlkZDNtR2dOWTE5Q0E4YlRzOFdib3RCVGVGUkx4aXZkSjVMVmZodlRGX0hGYnNSU1Z6dUpXZ18wNHlhNy1sUGZsYklPMVNmOUFDSGJVQ2NtYVhZWERTc2xFOW1GSEtqdU1HdURqVWQ0bDU0eG1wZHRmT1VSZm41UHpDMW9TVFdPYlQwejJqMGZVdw?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "afb596fd13588c",
+     "date": "2026-11-02T18:11:10+00:00",
+     "titre": "SpaceXAI lance deux nouveaux campus de centres de données pour étendre Colossus 2",
+     "neuf": "SpaceXAI étend son infrastructure en implantant deux nouveaux campus dans le Mississippi pour Colossus 2.",
+     "fil": "même extension des centres de données et campus de SpaceXAI",
+     "source": "Grok et SpaceXAI (actus)",
+     "lien": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNUWVxVk5HSVNyU2EyNS1lUDVCM3BjTlRYd2xRM1VNc0d3ek9aRWhTcl9TLWNyZ3dOSjBKX3BiR2JUQ0NCRmlUNERwZU13SnRjaHdDOHZYZm01ZGtyODlMNm1EWTRmeVZ5WkpxSVRWM0ZvOVllcWtoVTN2M0l1RTg4ODRMdmlMaWxyU0ZwcnF6bDZ4TnRQQjZrSGNveEJFRFJGWW9xTWg5QVhBQ0NRMUtDWXpEc3B1TmdqSWNIS2FlRnZmckZITDlfYTlTamt6Y21vSGdqdHlHZjl5UQ?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "db116ea22a887b",
+     "date": "2026-11-04T10:30:00+00:00",
+     "titre": "SpaceXAI surclasse OpenAI avec son supercalculateur Colossus 2",
+     "neuf": "SpaceXAI surclasse OpenAI en puissance de calcul grâce au supercalculateur Colossus 2 installé à Memphis.",
+     "fil": "Supercalculateur Colossus 2 de SpaceXAI",
+     "source": "Grok et SpaceXAI (actus)",
+     "lien": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9uOGNVMDRUcHZKZG1tSEVjZklubTFSdkhfMHh4aVBjeWthUWs4TVhyNWcxamJ4N0NuVXFsbnhhVUNNakhKWjJvYzdlb2dnWG4zZnhvdjFWUngwT1FsamZPNGFCYndCbUtmemtyMg?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "d1902967088b42",
+     "date": "2026-11-05T12:00:00+00:00",
+     "titre": "DeSoto County asking SpaceXAI to increase buyout offers - DeSoto Times-Tribune",
+     "neuf": "Le comté de DeSoto demande à SpaceXAI d'augmenter ses offres de rachat de logements pour les riverains touchés par l'expansion.",
+     "fil": "Extension de SpaceXAI et gestion des logements voisins",
+     "source": "Grok et SpaceXAI (actus)",
+     "lien": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOT3pxVGhvbXpkMW03bGZIQ05Sb0tWb3NQNWk3Nzh1TkcxNTlyelBjSmZFMDRvc0F0MFlQMDZfNTBpLWJZZ1h3YnhGZDY1OVkycXZFcjBQdW9oc25UYkY5Rk9KTVZyaEFiSGkxYmV6NHlGT3lZd1Awc0VYVWk2bG9lOGw5ZGllejcxd3dXYUxQRWdfZGZtaXBQRlZseGJYZVJZbHNLXzlTeE1WR1I3djR6SmtHR3NGQ2taMTNMQnFPRzgwUlVhUVBOcnV6MDM1SGRvbUx6Nw?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "da4aa470b3bc19",
+     "date": "2026-11-06T04:48:00+00:00",
+     "titre": "SpaceXAI to build 2 more AI data centers in Southaven - Action News 5",
+     "neuf": "SpaceXAI poursuit son expansion massive en prévoyant la construction de deux nouveaux centres de données d'IA à Southaven.",
+     "fil": "Extension des infrastructures et des centres de données de SpaceXAI",
+     "source": "Grok et SpaceXAI (actus)",
+     "lien": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQTlYwWHRkcl9yY0JqNnBUUFkyY2c2cDNZMXBrUDVUdlZKVFY5VUVtLXZjTzQ3dWZsazNhdGpQZ3NvV0h3d2p3TmJyaGxaMUFKTjZxaWZWTTM4YTM1MFZUMmNETzNHbDJ2dUI2Y01XQUUtZzV2VURfOUNwUzJJUVZTZ05iaG12VXRINnFVa3BrcXTSAaQBQVVfeXFMTnpnNjJYLUNyMHlUZW9qN0FzVGk4YXFiNFdnZjRNN1lfSTJIRXRiS2dPMGNUNi0xWjFkV011d09YMXRuRVFIQ3FKbW1NYlZuNnZNdTlXLWM1V2x3TndqS0hqSndpQTZVZzRfVDNOd095M1hUb0lCVDRDYm00b05RRWFUUHZHNXRnemNFSjN5LXZJeFlBWkw5UV9OdE5Sc2VmLVljZzM?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "6c374f232dc341",
+     "date": "2026-11-06T17:00:00+00:00",
+     "titre": "SpaceXAI poursuivi pour construction de centre de données sans permis",
+     "neuf": "SpaceXAI fait face à plus de 6 millions de dollars d'amendes pour avoir démarré la construction sans les permis d'eau requis.",
+     "fil": "Mêmes projets de centres de données SpaceXAI à Southaven et contentieux juridiques",
+     "source": "Grok et SpaceXAI (actus)",
+     "lien": "https://news.google.com/rss/articles/CBMimwJBVV95cUxQR01ZdUI1Y2l2azAxWTlRc2F1OXdicW1qNlBiQ0lWTzM1UHJzRWF1OUMtVWsyV2Q1V3h3UkU2SkctUHFNTlA0ekdkdW9saEJuaDNBakRoU29kNjdCWG9HMkgyU0I1SllhWFlyQlZuR0JxV3NyS2tIYVlWd2gxYnJybUtKMjFuSHRaUG5oT0NuaHpWRW9fb2NNZnpENDNoUDJWSGNoRUI4NVVtVE1sTENxYmpWei1kdnE2cWVnUUg3MEV4blA2YnJ4NlZRaThCcWhrNUtSc0ljVFFXdnp2NnlyQUNKREhRYmpaWFROam9XOVBYbUlfbXR2TUZiRE80YXY1QkFnQm9XQ19sd21nVU5hZVR5RzRlWV9PSFNR?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "791d80da593f9b",
+     "date": "2026-11-09T17:29:36+00:00",
+     "titre": "SpaceXAI Started Southaven Data Center Construction Without Water Permits, Mississippi Alleges - Broadband Breakfast",
+     "neuf": "Le Mississippi allègue formellement que SpaceXAI a débuté la construction du centre de données de Southaven sans permis d'eau.",
+     "fil": "poursuites contre SpaceXAI pour la construction de son centre de données",
+     "source": "Grok et SpaceXAI (actus)",
+     "lien": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNdDNxMzFfV2t6bVkwbUxZM3ExUXZOWTYxTW9YakRuRm12Tzh0VE1UU3JYSDFmY2VONnVNdlEwd3U1MC1wVDgzYUFsU2FFZnJxWUVTUDJIVkZFb2l5bVVCRF9mUnpTLUtyUFhHbHl5b2FBR3FUd0VMTGt5d0UtZGpFclZqT3F5Q1lOdWVIbnpRR1dXdE0wVVhGZG9ieEd6d2tfeTI1djNXdF9Zc2V5NmFfeTAzOHR1YmkyTGxsZWcwcHFyMTg?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "3f418073cd21e2",
+     "date": "2026-11-10T00:21:36+00:00",
+     "titre": "Air permit being discussed for Mississsippi SpaceXAI - WREG.com",
+     "neuf": "Discussions en cours concernant cette fois un permis pour les émissions atmosphériques du site du Mississippi.",
+     "fil": "même centre de données SpaceXAI au Mississippi",
+     "source": "Grok et SpaceXAI (actus)",
+     "lien": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQSThMQVRpcERrY2hUV0xwblZOeThCR2d3ZUZCNEJxSG5aX0cxVkEtenRseFppWDZoUjhKQ0M1RjNXVmt2NXoyOElVcEZIeVphRE1XRTExZGFNX01McjhKQ2hFaTRpdlc3cDh1YjN0bk9xblM0QkQ1TGlxa3loXzN2c9IBhgFBVV95cUxPaFd0VU4yM1YwLWxIUlRwZU5HemdLTDFqSG00QnhiRlI1T2N2NU1wM3BNdmVtQXR1UGZrc0x5QmZDZ3pSTHBMb3ZwRjhfN3JEamMtVl93MVp0TXE1NFNaajVJSnVfWTRVY0huNnMwSGVpd01hUHg2RF84TEdGb0owcFpVMHJtZw?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    }
+   ],
+   "statut": "active",
+   "societes": [
+    "spacexai",
+    "openai"
+   ]
+  },
+  {
+   "id": "h_d7bf294641",
+   "titre": "Enquête sur Jensen Huang et relations avec la Chine",
+   "resume": "Nvidia subit de lourdes turbulences boursières et politiques suite à l'ouverture d'une enquête interne sur les liens étroits entre son PDG Jensen Huang et un espion chinois présumé. Des rapports confirment que des vendeurs à découvert avaient alerté sur le sujet des mois plus tôt, faisant craindre de nouveaux durcissements de contrôles à l'exportation.",
+   "creee": "2026-11-09T18:48:52.645091+00:00",
+   "maj": "2026-11-10T00:10:00+00:00",
+   "episodes": [
+    {
+     "id": "67abd93f196f85",
+     "date": "2026-11-08T22:54:50+00:00",
+     "titre": "Here’s the full text of Jensen Huang’s memo to Nvidia",
+     "neuf": "",
+     "fil": "Enquête sur Jensen Huang et ses liens présumés avec une agent chinoise",
+     "source": "The Verge IA",
+     "lien": "https://www.theverge.com/ai-artificial-intelligence/1029595/full-text-jensen-huang-affair-memo-nvidia",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "a06869aa80e569",
+     "date": "2026-11-09T17:36:08+00:00",
+     "titre": "Controverse autour de la vie privée de Jensen Huang",
+     "neuf": "Un nouvel article de presse revient sur la controverse personnelle impliquant le PDG de NVIDIA, Jensen Huang.",
+     "fil": "même enquête sur Jensen Huang",
+     "source": "The Verge IA",
+     "lien": "https://www.theverge.com/ai-artificial-intelligence/1029990/jensen-huang-the-spy-who-loved-me",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "05d31a5bc4a78d",
+     "date": "2026-11-09T22:23:42+00:00",
+     "titre": "The race is on to sue Nvidia",
+     "neuf": "L'action de Nvidia chute de plus de 4% après l'ouverture de l'enquête du conseil d'administration sur les relations du PDG avec un espion chinois présumé.",
+     "fil": "même enquête sur Jensen Huang et la Chine",
+     "source": "TechCrunch IA",
+     "lien": "https://techcrunch.com/2026/11/09/the-race-is-on-to-sue-nvidia/",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "f469998b0ebdf8",
+     "date": "2026-11-09T22:46:09+00:00",
+     "titre": "A short seller flagged Nvidia CEO’s ties to a suspected Chinese spy six months before the scandal",
+     "neuf": "Révélation qu'un vendeur à découvert avait soulevé ces liens suspects six mois avant le scandale.",
+     "fil": "même enquête sur les liens entre Jensen Huang et un espion chinois",
+     "source": "TechCrunch IA",
+     "lien": "https://techcrunch.com/2026/11/09/a-short-seller-flagged-nvidia-ceos-ties-to-a-suspected-chinese-spy-six-months-before-the-scandal/",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "e7e320ce81413c",
+     "date": "2026-11-09T22:46:09+00:00",
+     "titre": "Allégations de liens entre le PDG de Nvidia et un espion chinois",
+     "neuf": "Confirmation par la presse des alertes précoces lancées par un cabinet de vente à découvert.",
+     "fil": "même affaire d'allégations de liens entre Jensen Huang et un espion chinois",
+     "source": "Contrôles à l'export IA",
+     "lien": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOZXJiaTdrLTJPT0c5MzNWQ0tldUVWWkN6MEdxU0xzSHdDUEwtQ2VrN1RpWndpUXBhb1AwN2JQZnpxeHJvY0M4US0zMnRTdDhEMDhtek51Q0lxaGV0ZDlhNFA3NllXNmlBWWpOUHI1OXZ3SEgwZEZQdVU0c2ZSc1ZZRjkzS2h2cXUtdFMwR180eDU5dWlzOVk4dUZUamNESGU5eDYwWDBFSE1mRmZBZk80VFBNS2tacW9mU2VlUHBYc1ZFZmRLWWVpaU42MA?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "fd48ce2874be78",
+     "date": "2026-11-09T23:47:46+00:00",
+     "titre": "Trump réagit aux allégations concernant le PDG de Nvidia Jensen Huang",
+     "neuf": "Réaction publique du président Trump lors d'une conférence de presse.",
+     "fil": "même scandale concernant Jensen Huang",
+     "source": "The Verge IA",
+     "lien": "https://www.theverge.com/tech/1030446/trump-jensen-huang-press-conference",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "c0027ca762436d",
+     "date": "2026-11-10T00:10:00+00:00",
+     "titre": "Nouveau risque de durcissement des contrôles à l'exportation pour Nvidia après une affaire d'espionnage",
+     "neuf": "Nvidia fait face à de nouvelles pressions pour durcir les contrôles à l'exportation de ses puces suite à l'affaire.",
+     "fil": "même affaire d'espionnage et contrôles à l'exportation pour Nvidia",
+     "source": "Contrôles à l'export IA",
+     "lien": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPQnNsYzdpaDRKS3c2Yi1LdVdWczlkM3QwSEJPMUowOUxxeTZZMUZodGt5SGxucEFkcVkybHhsOTFfWjVyeGdYcTNxbGR1VmNVNHRFc19fMUVoVGJTS1FBS2NaV3pKbzBJZWZOdnBVcXV3ZW55dWZ3WkhSVlBNSlpNc0hBNXBnTlJ0Y3dOQzhoUlJ2TkNBdlM0THVXMDVUcVFxZFFLeEN3?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    }
+   ],
+   "statut": "active",
+   "societes": [
+    "nvidia"
    ]
   },
   {
@@ -4615,42 +4706,6 @@
     "openai",
     "ue",
     "anthropic"
-   ]
-  },
-  {
-   "id": "h_b55889adcf",
-   "titre": "Moonshot AI contourne les sanctions sur les puces via l'Europe",
-   "resume": "La startup chinoise Moonshot AI est accusée de contourner les restrictions d'exportation américaines sur les puces avancées en s'appuyant sur des fournisseurs européens ou des accords avec des 'neoclouds' pour obtenir du matériel Nvidia Blackwell.",
-   "creee": "2026-11-06T06:45:17.198239+00:00",
-   "maj": "2026-11-05T14:02:03+00:00",
-   "episodes": [
-    {
-     "id": "45a67338a42709",
-     "date": "2026-11-05T13:34:14+00:00",
-     "titre": "Le laboratoire chinois Moonshot contournerait les sanctions américaines via l'Europe pour obtenir des puces Nvidia Blackwell",
-     "neuf": "Des sources indiquent que Moonshot accède à des puces Nvidia Blackwell via l'Europe pour contourner l'interdiction.",
-     "fil": "Moonshot AI contourne les restrictions d'exportation de puces",
-     "source": "Contrôles à l'export IA",
-     "lien": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBUc0JXdFFrNXJHSkxKclVRQkdfMXZNbmk5akFqZDA2dWFQbXV2MUd1d2V1TFhfVW9uT2F5WXJJVHZoNUZUUEtLVFF2aWotaHBVTk9kcFpvZkFucXppMlp3YzZvaWdXVmZ3ZUZJdzFsV3kzaXBMWnpiSjJ4aUhxcVHSAYQBQVVfeXFMTXVzSHktMk1IYUR5bm45MWpEQmRpZkkwbS1LSVNZZm02Q05uZE56ekhLZjBKV0RLWlVhdVoteHFra2hPOFdMNXEweDc4eUhvWTlqQWxwcXpMdURoMzVmUnBaMFRBc0RtTG1FQXhSekFZeDhSM25Yc3o2THdGckl0cEtLSG9q?oc=5",
-     "nb_sources": 1,
-     "primaire": false
-    },
-    {
-     "id": "0e0becb7d18e2f",
-     "date": "2026-11-05T14:02:03+00:00",
-     "titre": "Moonshot AI contournerait les restrictions américaines sur les puces via l'Europe",
-     "neuf": "La startup chinoise Moonshot AI contourne les restrictions américaines sur les puces via un fournisseur de cloud européen.",
-     "fil": "Moonshot AI contourne les restrictions d'exportation de puces",
-     "source": "Contrôles à l'export IA",
-     "lien": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPMFJvTHhyVjJJaXNiQ3BpMjBDYk43TG91TmJLaDdQdmQyVVlBX29oSkZ0LXJyU3dab1AybmNkY0VQMDZIOUUyaDQ2aFJxTGFXbkktZ096dlZpQmNXUHVpY1VlM2ZOalpZaXZjMWNrd2twbmd6YXE4aWxKOFFLa0lnTWlXX1oyZG5FU051TDZpRXNUWV8wSlQzYw?oc=5",
-     "nb_sources": 1,
-     "primaire": false
-    }
-   ],
-   "statut": "active",
-   "societes": [
-    "moonshot",
-    "nvidia"
    ]
   },
   {

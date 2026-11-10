@@ -1,5 +1,5 @@
 {
- "maj": "2026-11-10T02:44:28.674404+00:00",
+ "maj": "2026-11-10T12:39:30.872032+00:00",
  "sources_ok": [
   "Notes de version Claude (API)",
   "Notes de version OpenAI (API)",
@@ -60,15 +60,15 @@
    "erreur": "429 Client Error: Too Many Requests for url: https://venturebeat.com/category/ai/feed/"
   }
  ],
- "total": 2307,
- "analyses": 1834,
+ "total": 2303,
+ "analyses": 1800,
  "brief": {
-  "titre": "Anthropic frappe fort avec Claude 5.2 et baisse ses prix",
-  "texte": "La course aux modèles légers et économiques s'accélère avec le lancement par Anthropic de Claude Fable 5.2 et Mythos 5.2, proposés 20% moins cher que la concurrence. Parallèlement, l'entreprise prépare activement son introduction en bourse pour novembre prochain malgré un contexte de valorisations en baisse. Côté écosystème, Meta réplique en lançant Muse Ember pour les agents, tandis que Google cible la robotique avec Gemini 4 Argon. Enfin, l'intégration des grands acteurs se renforce avec l'arrivée de ChatGPT Enterprise sur l'AWS Marketplace.",
+  "titre": "Anthropic frappe fort avec Fable 5.2 et son introduction en bourse",
+  "texte": "Anthropic domine l'actualité en lançant Claude Fable 5.2 et Claude Mythos 5.2, positionnés à un tarif agressif inférieur aux offres concurrentes. L'entreprise accélère également sa stratégie financière en préparant son introduction en bourse avec une valorisation estimée à 1 300 milliards de dollars. Pendant ce temps, la concurrence s'organise avec Meta qui introduit Muse Ember pour les agents et Google qui muscle son offre avec Gemini 4 Argon et AlphaProof Code. Enfin, l'écosystème cloud se consolide avec l'arrivée de ChatGPT Enterprise sur l'AWS Marketplace.",
   "a_tester": [
-   "Tester les nouveaux modèles Claude Fable et Mythos 5.2 sur vos cas d'usage pour évaluer le gain de performance et la baisse des coûts.",
-   "Comparer Muse Ember de Meta avec vos solutions actuelles pour le déploiement d'agents légers.",
-   "Vérifier l'intégration de ChatGPT Enterprise via l'AWS Marketplace si vous utilisez déjà l'infrastructure AWS."
+   "Tester les nouveaux modèles Claude Fable et Mythos 5.2 via l'API pour comparer leurs performances et tarifs.",
+   "Explorer le modèle léger Muse Ember de Meta pour vos projets d'agents conversationnels.",
+   "Vérifier la disponibilité de ChatGPT Enterprise sur votre console AWS si vous utilisez cet écosystème."
   ]
  },
  "top5": {
