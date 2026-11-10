@@ -112,6 +112,32 @@ h2{font-stretch:112%;font-weight:900;font-size:clamp(24px,3vw,36px);letter-spaci
 .marque-filtre{display:inline-flex;gap:8px;align-items:center;background:var(--sticker);border-radius:999px;padding:6px 8px 6px 13px;font-size:13.5px;font-weight:700}
 .marque-filtre button{border:0;background:var(--noir);color:var(--blanc);border-radius:999px;width:22px;height:22px;cursor:pointer;line-height:1}
 
+/* fiabilité */
+.fiab{display:inline-flex;align-items:center;gap:6px;font-size:12.5px;font-weight:600;margin-top:6px;color:var(--noir)}
+.fiab::before{content:"";width:8px;height:8px;border-radius:50%;background:var(--c,#9a9a9a);flex:none}
+.fiab small{font-weight:400;color:var(--gris)}
+.f-fiable{--c:#1f8a3b}.f-correct{--c:#7aa83a}.f-enseigne{--c:#2c63d6}.f-mitige{--c:#e08a00}.f-prudence{--c:#d7000f}.f-peu,.f-inconnu{--c:#9a9a9a}
+.mark.fr{background:#0b3d91;color:#fff}
+.sticker.special .r{font-weight:600}
+.saison{font-size:14px;color:var(--gris);padding:14px 0 0}
+.saison b{color:var(--noir);font-weight:600}
+.bascule-fiab{display:inline-flex;align-items:center;gap:8px;font-size:13.5px;font-weight:600;cursor:pointer;white-space:nowrap}
+.bascule-fiab input{width:18px;height:18px;accent-color:var(--noir)}
+.cartes-fiab{display:grid;grid-template-columns:repeat(auto-fill,minmax(min(100%,330px),1fr));gap:16px;padding:20px 0 50px}
+.cf{border:1px solid var(--trait);padding:16px;display:flex;flex-direction:column;gap:8px;min-width:0}
+.cf h3{font-stretch:112%;font-weight:800;font-size:20px;letter-spacing:-.02em;display:flex;justify-content:space-between;gap:10px;align-items:baseline}
+.cf h3 a{font-size:12.5px;font-weight:500;color:var(--gris);text-decoration:underline;font-stretch:100%;letter-spacing:0}
+.cf dl{display:grid;grid-template-columns:auto 1fr;gap:4px 12px;font-size:13.5px}
+.cf dt{color:var(--gris)}
+.cf dd{min-width:0;overflow-wrap:anywhere}
+.cf ul{list-style:none;font-size:13.5px;display:grid;gap:3px}
+.cf li.p::before{content:"+ ";color:#1f8a3b;font-weight:700}
+.cf li.m::before{content:"− ";color:var(--rouge);font-weight:700}
+.cf .alerte{background:#fff4d6;font-size:13px;padding:6px 9px}
+.legende{display:flex;flex-wrap:wrap;gap:8px 18px;padding:6px 0 0}
+.methode{max-width:68ch;color:#2b2b2b;font-size:15px;margin-top:10px}
+.ecartees{padding:0 0 40px;font-size:14px}
+.ecartees li{margin:4px 0 4px 18px}
 /* fits */
 .fits-tete{padding:clamp(24px,4vw,44px) 0 6px;display:flex;justify-content:space-between;gap:16px;align-items:end;flex-wrap:wrap}
 .fits-tete p{color:var(--gris);max-width:52ch}
@@ -170,6 +196,7 @@ footer b{color:var(--blanc);font-weight:600}
       <button data-vue="plans">Bons plans</button>
       <button data-vue="fits">Les fits</button>
       <button data-vue="marques">Marques</button>
+      <button data-vue="fiab">Fiabilité</button>
     </nav>
   </div>
 </header>
@@ -180,16 +207,18 @@ footer b{color:var(--blanc);font-weight:600}
     <div class="logo">Pièce Unique</div>
     <p id="maj"></p>
     <p id="boutiques"></p>
-    <p>Les prix sont convertis en euros au taux du jour. On ne garde que les remises d'au moins 30 % sur le prix boutique, avec au moins deux tailles en stock. Pour les boutiques au Royaume-Uni et aux États-Unis, la douane et la TVA peuvent s'ajouter à la livraison.</p>
+    <p>Les prix sont convertis en euros au taux du jour. On garde les remises d'au moins 30 % (20 % chez Zara et Uniqlo) sur le prix boutique, avec au moins deux tailles en stock. Le classement tient compte de la saison, met en avant les boutiques françaises puis européennes, et les boutiques bien notées par leurs clients. Pour les boutiques au Royaume-Uni et aux États-Unis, la douane et la TVA peuvent s'ajouter à la livraison.</p>
   </div>
 </footer>
 <script>
 const STYLES={tous:"Tout",workwear:"Workwear",streetwear:"Streetwear",minimal:"Minimal",oldmoney:"Old money"};
 const CATS={tous:"Tout",veste:"Vestes",surchemise:"Surchemises",maille:"Maille",sweat:"Sweats",chemise:"Chemises",tshirt:"T-shirts et polos",pantalon:"Pantalons",short:"Shorts",chaussures:"Chaussures",accessoire:"Accessoires"};
 const PAYS={UK:"Royaume-Uni",US:"États-Unis"};
-const etat={vue:"plans",style:"tous",cat:"tous",budget:0,tri:"choix",marque:null,photos:"porte",n:48};
-try{const s=JSON.parse(localStorage.getItem("pu2")||"{}");["style","budget","tri","photos"].forEach(k=>{if(k in s)etat[k]=s[k]})}catch(e){}
-let D, parId={};
+const etat={fiables:false,vue:"plans",style:"tous",cat:"tous",budget:0,tri:"choix",marque:null,photos:"porte",n:48};
+try{const s=JSON.parse(localStorage.getItem("pu2")||"{}");["style","budget","tri","photos","fiables"].forEach(k=>{if(k in s)etat[k]=s[k]})}catch(e){}
+let D, F={boutiques:[]}, parId={}, fParNom={};
+const NIV={fiable:"Boutique fiable",correct:"Boutique correcte",enseigne:"Grande enseigne",mitige:"Avis mitigés",prudence:"Prudence",peu:"Peu d'avis",inconnu:"Pas encore vérifiée"};
+const PAYSN={FR:"France",BE:"Belgique",NL:"Pays-Bas",DK:"Danemark",DE:"Allemagne",IT:"Italie",ES:"Espagne",SE:"Suède",PT:"Portugal",UK:"Royaume-Uni",US:"États-Unis"};
 
 const esc=s=>String(s??"").replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
 const U=(s,w)=>esc(s)+(String(s).includes("?")?"&amp;":"?")+"width="+w;
@@ -201,25 +230,29 @@ function nom(a){let n=String(a.nom),c="";const i=n.search(/\s[-–]\s/);if(i>0){
   n=n.replace(/\b[A-Z]?\d{4}\b/g,"").replace(new RegExp("^"+marque(a).replace(/[.*+?^${}()|[\]\\]/g,"\\$&")+"\\s+(?!x\\s)","i"),"").replace(/\s{2,}/g," ").trim();
   return {n:n||a.nom,c}}
 const eur=n=>Math.round(n).toLocaleString("fr-FR")+" €";
-function sauver(){try{localStorage.setItem("pu2",JSON.stringify({style:etat.style,budget:etat.budget,tri:etat.tri,photos:etat.photos}))}catch(e){}}
-function note(a){const p={veste:3,maille:3,surchemise:3,pantalon:2.6,chaussures:2.4,chemise:2.2,sweat:2,tshirt:1,short:.6,accessoire:.8}[a.categorie]||1;
+function sauver(){try{localStorage.setItem("pu2",JSON.stringify({style:etat.style,budget:etat.budget,tri:etat.tri,photos:etat.photos,fiables:etat.fiables}))}catch(e){}}
+function note(a){if(a.rang!=null)return a.rang+(a.forte?2.5:0)+(a.nouveau?1:0);const p={veste:3,maille:3,surchemise:3,pantalon:2.6,chaussures:2.4,chemise:2.2,sweat:2,tshirt:1,short:.6,accessoire:.8}[a.categorie]||1;
   return a.remise/10+p+(a.prix_eur<=40?2:a.prix_eur<=70?1.3:a.prix_eur<=110?.7:0)+(a.forte?2.5:0)+(a.origine==="UE"?.8:0)+(a.nouveau?1:0)}
-const sticker=(a,xl)=>`<span class="sticker${xl?" xl":""}"><span class="p">${eur(a.prix_eur)}</span><span class="r">−${a.remise} %</span></span>`;
+const sticker=(a,xl)=>`<span class="sticker${xl?" xl":""}${a.remise?"":" special"}"><span class="p">${eur(a.prix_eur)}</span><span class="r">${a.remise?"−"+a.remise+" %":"Prix spécial"}</span></span>`;
+function badge(a){const f=fParNom[a.boutique],n=a.fiab||(f&&f.niveau)||"inconnu",v=f&&f.avis;
+  return `<a class="fiab f-${n}" href="#" data-fiche="${esc(a.boutique)}">${NIV[n]}${v&&v.note?` <small>${String(v.note).replace(".",",")}/5, ${v.avis.toLocaleString("fr-FR")} avis</small>`:""}</a>`}
+const fiableOk=a=>!etat.fiables||["fiable","correct","enseigne"].includes(a.fiab);
 const douane=a=>a.origine==="UE"?"":`<span class="douane">Envoi depuis le ${PAYS[a.origine]||a.origine}, douane possible</span>`;
-const styleOk=a=>etat.style==="tous"||(a.styles||[]).includes(etat.style);
+const styleOk=a=>(etat.style==="tous"||(a.styles||[]).includes(etat.style))&&fiableOk(a);
 
 function fiche(a){
   const b=a.porte&&a.porte!==a.images[0]?a.porte:a.images[1];
   return `<article class="fiche">
     <a class="photo" href="${esc(a.lien)}" target="_blank" rel="noopener" aria-label="${esc(marque(a)+" "+a.nom)} chez ${esc(a.boutique)}">
       <img src="${U(a.images[0],600)}" alt="" loading="lazy">${b?`<img class="b" src="${U(b,600)}" alt="" loading="lazy">`:""}
-      <span class="marks">${a.nouveau?'<span class="mark noir">Nouveau</span>':"<span></span>"}${a.forte?'<span class="mark">Validé</span>':""}</span>
+      <span class="marks"><span style="display:flex;gap:4px">${a.nouveau?'<span class="mark noir">Nouveau</span>':""}${a.pays==="FR"?'<span class="mark fr">Boutique française</span>':""}</span>${a.forte?'<span class="mark">Validé</span>':""}</span>
       ${sticker(a)}
     </a>
     <div class="txt">
       <div class="m">${esc(marque(a))}</div>
       <div class="n">${esc(nom(a).n)}${nom(a).c?`<span style="color:var(--gris)">, ${esc(nom(a).c)}</span>`:""}</div>
-      <div class="pa">Au lieu de <span class="avant">${eur(a.avant_eur)}</span>${marque(a)===a.boutique?"":" chez "+esc(a.boutique)}</div>
+      <div class="pa">${a.remise?`Au lieu de <span class="avant">${eur(a.avant_eur)}</span>`:"Prix spécial"}${marque(a)===a.boutique?"":" chez "+esc(a.boutique)}</div>
+      ${badge(a)}
       ${a.pourquoi?`<p class="av">${esc(a.pourquoi)}</p>`:""}
       <div class="t">${a.tailles.length?"Tailles "+esc(a.tailles.slice(0,7).join(", ")):""}${a.tailles.length&&a.origine!=="UE"?"<br>":""}${douane(a)}</div>
     </div>
@@ -240,6 +273,7 @@ function vuePlans(){
         <h1>${esc(nom(c).n)}</h1>
         <div class="marque">${esc(marque(c))}${nom(c).c?", "+esc(nom(c).c):""}, au lieu de <span class="avant">${eur(c.avant_eur)}</span></div>
         ${c.pourquoi?`<blockquote>« ${esc(c.pourquoi)} »</blockquote>`:""}
+        <div>${badge(c)}</div>
         <p class="details">${c.tailles.length?"Encore dispo en "+esc(c.tailles.slice(0,8).join(", "))+". ":""}${douane(c)}</p>
         <a class="cta" href="${esc(c.lien)}" target="_blank" rel="noopener">Voir chez ${esc(c.boutique)}</a>
       </div></section></div>`;
@@ -248,6 +282,8 @@ function vuePlans(){
     const neufs=varier(base.filter(a=>a.nouveau).sort((a,b)=>note(b)-note(a))).slice(0,16);
     if(neufs.length)h+=`<section class="rangee"><div class="wrap"><div class="titre-rangee"><h2>Ça vient de tomber</h2><p>Nouvelles remises depuis hier</p></div><div class="defile">${neufs.map(fiche).join("")}</div></div></section>`;
     const petits=varier(base.filter(a=>a.prix_eur<=30&&a.categorie!=="accessoire").sort((a,b)=>note(b)-note(a))).slice(0,16);
+    const ens=varier(base.filter(a=>a.enseigne).sort((a,b)=>note(b)-note(a))).slice(0,16);
+    if(ens.length)h+=`<section class="rangee"><div class="wrap"><div class="titre-rangee"><h2>Les grandes enseignes</h2><p>Zara, Uniqlo : essai et retour possibles en magasin</p></div><div class="defile">${ens.map(fiche).join("")}</div></div></section>`;
     if(petits.length)h+=`<section class="rangee"><div class="wrap"><div class="titre-rangee"><h2>Moins de 30 balles</h2><p>${base.filter(a=>a.prix_eur<=30).length} pièces</p></div><div class="defile">${petits.map(fiche).join("")}</div></div></section>`;
   }
   let l=base.filter(a=>(etat.cat==="tous"||a.categorie===etat.cat)&&(!etat.budget||a.prix_eur<=etat.budget)&&(!etat.marque||marque(a)===etat.marque));
@@ -258,9 +294,11 @@ function vuePlans(){
     ${etat.marque?`<span class="marque-filtre">${esc(etat.marque)}<button data-marque="" aria-label="Retirer le filtre marque">×</button></span>`:""}
     <div class="cats">${Object.entries(CATS).filter(([k])=>k==="tous"||presentes.has(k)).map(([k,v])=>`<button data-cat="${k}" aria-pressed="${etat.cat===k}">${v}</button>`).join("")}</div>
     <select id="budget" aria-label="Budget"><option value="0">Tous les prix</option><option value="30">Jusqu'à 30 €</option><option value="60">Jusqu'à 60 €</option><option value="100">Jusqu'à 100 €</option></select>
+    <label class="bascule-fiab"><input type="checkbox" id="fiables" ${etat.fiables?"checked":""}> Boutiques fiables seulement</label>
     <select id="tri" aria-label="Trier"><option value="choix">Notre sélection</option><option value="prix">Prix croissant</option><option value="remise">Plus grosse remise</option></select>
     <span class="nb">${l.length} pièce${l.length>1?"s":""}</span>
   </div></div><div class="wrap">
+    ${etat.tri==="choix"&&D.saison==="froid"&&etat.cat==="tous"?`<p class="saison">C'est la saison froide : la sélection met d'abord en avant <b>vestes, maille, sweats et pantalons épais</b>. Les t-shirts restent là, un peu plus bas.</p>`:D.saison==="chaud"&&etat.tri==="choix"&&etat.cat==="tous"?`<p class="saison">C'est l'été : la sélection met d'abord en avant <b>t-shirts, chemises et shorts</b>.</p>`:""}
     ${l.length?`<div class="grille">${l.slice(0,etat.n).map(fiche).join("")}</div>${l.length>etat.n?`<button class="plus" id="plus">Voir ${Math.min(48,l.length-etat.n)} pièces de plus</button>`:""}`
       :`<p class="vide">Rien avec ces filtres aujourd'hui. Essaie un autre budget ou une autre catégorie.</p>`}
   </div></section>`;
@@ -305,12 +343,38 @@ function vueMarques(){
   return h+"</div></div>";
 }
 
+function vueFiab(){
+  const ordre={fiable:0,enseigne:1,correct:2,peu:3,inconnu:4,mitige:5,prudence:6};
+  const actives=new Set(D.articles.map(a=>a.boutique));
+  const l=[...F.boutiques].filter(b=>actives.has(b.boutique)||!b.veille).sort((a,b)=>(ordre[a.niveau]??9)-(ordre[b.niveau]??9)||a.boutique.localeCompare(b.boutique));
+  const nb=b=>D.articles.filter(a=>a.boutique===b.boutique).length;
+  let h=`<div class="wrap"><div class="fits-tete"><div><h2>Fiabilité des boutiques</h2>
+    <p class="methode">Avant d'acheter, regarde à qui tu achètes. Pour chaque boutique : la note des clients (Trustpilot, vérifiée à la main le ${F.avis_verifies_le?new Date(F.avis_verifies_le).toLocaleDateString("fr-FR"):"—"}), d'où part le colis, et les conditions de retour et de livraison lues sur le site de la boutique${F.maj?` (mises à jour le ${new Date(F.maj).toLocaleDateString("fr-FR")})`:""}. Les boutiques notées sous 2,5/5 passent en « Prudence » : leurs pièces restent visibles mais ne sont jamais en plan du jour ni dans les fits.</p>
+    <div class="legende">${["fiable","correct","enseigne","peu","mitige","prudence"].map(n=>`<span class="fiab f-${n}">${NIV[n]}</span>`).join("")}</div></div></div>
+    <div class="cartes-fiab">`;
+  for(const b of l){
+    const v=b.avis||{};
+    const lignes=[["Envoi depuis",b.pays_nom+(b.hors_ue?" (douane et TVA possibles)":"")],["Retour",b.retour],["Livraison",b.livraison],["Livraison offerte",b.livraison_gratuite_des?"dès "+b.livraison_gratuite_des:null],["Remboursement",b.remboursement],["Douane",b.hors_ue?b.douane:null],["En promo ici",nb(b)?nb(b)+" pièce"+(nb(b)>1?"s":""):"rien aujourd'hui"]].filter(x=>x[1]);
+    h+=`<article class="cf" id="f-${esc(b.boutique.replace(/\W+/g,"-"))}">
+      <h3>${esc(b.boutique)} <a href="https://${esc(b.site)}" target="_blank" rel="noopener">${esc(b.site)}</a></h3>
+      <span class="fiab f-${b.niveau}">${NIV[b.niveau]}${v.note?` <small>${String(v.note).replace(".",",")}/5 sur ${v.avis.toLocaleString("fr-FR")} avis ${esc(v.source)}</small>`:v.avis===0||v.avis?` <small>${v.avis} avis</small>`:""}</span>
+      <dl>${lignes.map(([k,x])=>`<dt>${k}</dt><dd>${esc(x)}</dd>`).join("")}</dl>
+      ${b.alerte?`<p class="alerte">À savoir : ${esc(b.alerte)}</p>`:""}
+      ${(v.plus||[]).length||(v.moins||[]).length?`<ul>${(v.plus||[]).map(x=>`<li class="p">${esc(x)}</li>`).join("")}${(v.moins||[]).map(x=>`<li class="m">${esc(x)}</li>`).join("")}</ul>`:""}
+      ${v.url?`<a href="${esc(v.url)}" target="_blank" rel="noopener" style="font-size:13px;text-decoration:underline">Lire les avis</a>`:""}
+    </article>`;
+  }
+  h+=`</div>`;
+  if((F.ecartees||[]).length)h+=`<div class="ecartees"><h2 style="font-size:24px;margin-bottom:8px">Boutiques retirées</h2><ul>${F.ecartees.map(e=>`<li><b>${esc(e.nom)}</b> : ${esc(e.raison)}</li>`).join("")}</ul></div>`;
+  return h+"</div>";
+}
 function rendre(haut){
   sauver();
   document.querySelectorAll(".vues button").forEach(b=>b.setAttribute("aria-current",b.dataset.vue===etat.vue));
   document.getElementById("styles").innerHTML=Object.entries(STYLES).map(([k,v])=>`<button data-style="${k}" aria-pressed="${etat.style===k}">${v}</button>`).join("");
   const v=document.getElementById("vue");
-  v.innerHTML=etat.vue==="fits"?vueFits():etat.vue==="marques"?vueMarques():vuePlans();
+  v.innerHTML=etat.vue==="fits"?vueFits():etat.vue==="marques"?vueMarques():etat.vue==="fiab"?vueFiab():vuePlans();
+  const fb=document.getElementById("fiables"); if(fb)fb.onchange=e=>{etat.fiables=e.target.checked;etat.n=48;rendre("tout")};
   const b=document.getElementById("budget"); if(b){b.value=etat.budget; b.onchange=e=>{etat.budget=+e.target.value;etat.n=48;rendre("tout")}}
   const t=document.getElementById("tri"); if(t){t.value=etat.tri; t.onchange=e=>{etat.tri=e.target.value;rendre("tout")}}
   const p=document.getElementById("plus"); if(p)p.onclick=()=>{const y=scrollY;etat.n+=48;rendre();scrollTo(0,y)};
@@ -319,6 +383,8 @@ function rendre(haut){
 }
 
 document.addEventListener("click",e=>{
+  const fi=e.target.closest("[data-fiche]");
+  if(fi){e.preventDefault();etat.vue="fiab";rendre(true);document.getElementById("f-"+fi.dataset.fiche.replace(/\W+/g,"-"))?.scrollIntoView({block:"center"});return}
   const b=e.target.closest("[data-vue],[data-style],[data-cat],[data-marque],[data-photos]"); if(!b)return;
   if(b.dataset.vue){e.preventDefault();etat.vue=b.dataset.vue;etat.marque=null;rendre(true);return}
   if(b.dataset.style){etat.style=b.dataset.style;etat.n=48;rendre();return}
@@ -327,8 +393,9 @@ document.addEventListener("click",e=>{
   if("marque" in b.dataset){etat.marque=b.dataset.marque||null;etat.vue="plans";etat.cat="tous";etat.n=48;rendre(etat.marque?"tout":true)}
 });
 
-fetch("data.json?"+Date.now()).then(r=>r.json()).then(d=>{
-  D=d; D.articles.forEach(a=>parId[a.id]=a);
+Promise.all([fetch("data.json?"+Date.now()).then(r=>r.json()),fetch("fiabilite.json?"+Date.now()).then(r=>r.ok?r.json():{boutiques:[]}).catch(()=>({boutiques:[]}))]).then(([d,f])=>{
+  D=d; F=f; D.articles.forEach(a=>parId[a.id]=a); F.boutiques.forEach(b=>fParNom[b.boutique]=b);
+  D.articles.forEach(a=>{if(!a.fiab&&fParNom[a.boutique])a.fiab=fParNom[a.boutique].niveau});
   const top=varier([...D.articles].filter(a=>a.categorie!=="accessoire").sort((a,b)=>note(b)-note(a))).slice(0,14);
   const ligne=top.map(a=>`<a href="${esc(a.lien)}" target="_blank" rel="noopener">${esc(marque(a))}, ${esc(nom(a).n)} à <b>${eur(a.prix_eur)}</b></a>`).join("");
   document.getElementById("ticker").innerHTML=ligne+ligne;
