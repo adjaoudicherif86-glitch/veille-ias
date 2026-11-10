@@ -26,13 +26,16 @@ for nom, base, pages in [
     ids = {}
     for p in pages:
         s, t, txt = get(base + p)
-        trouve = {k: re.findall(rf'["\']?{k}["\']?\s*[:=]\s*["\']?(\d{{5,}})', txt)[:5] for k in ("storeId", "catalogId", "catalogue", "store")}
+        trouve = {k: re.findall(rf'["\']?{k}["\']?\s*[:=]\s*["\']?(\d{{5,}})', txt)[:5] for k in ("storeId", "catalogId", "catalogue", "store", "catalog", "catalogID", "masterCatalogId")}
+        cats = re.findall(r'catalog\w*["\']?\s*[:=]\s*["\']?(\d{5,})', txt, re.I)[:5]
+        if cats:
+            trouve["catalogId"] = cats
         print(nom.upper(), p, s, t[:30], len(txt), trouve, re.findall(r"itxrest/[^\"' ]{0,120}", txt)[:5])
         for k, v in trouve.items():
             if v:
                 ids.setdefault(k, v[0])
     res[nom] = {"ids": ids}
-    store, cat = ids.get("storeId") or ids.get("store"), ids.get("catalogId") or ids.get("catalogue")
+    store, cat = ids.get("storeId") or ids.get("store"), ids.get("catalogId") or ids.get("catalogue") or ids.get("catalog")
     essais = []
     if store and cat:
         essais += [f"{base}/itxrest/2/catalog/store/{store}/{cat}/category?languageId=-2&typeCatalog=1&appId=1",
