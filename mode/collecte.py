@@ -359,11 +359,15 @@ def main():
     limite = (MAINTENANT - timedelta(days=60)).date().isoformat()
     f_vus.parent.mkdir(exist_ok=True)
     f_vus.write_text(json.dumps({k: v for k, v in deja.items() if v >= limite}, separators=(",", ":")), encoding="utf-8")
+    for a in uniques:  # allège le fichier lu par le site (téléphone)
+        for k in ("description", "styles_indice", "type", "prix", "avant", "devise", "domaine", "vu_le"):
+            a.pop(k, None)
+        a["images"] = a["images"][:2] + ([a["porte"]] if a.get("porte") and a["porte"] not in a["images"][:2] else [])
     SORTIE.parent.mkdir(parents=True, exist_ok=True)
     SORTIE.write_text(json.dumps({
         "maj": MAINTENANT.isoformat(), "modele": rep.get("_modele"), "taux": {k: round(v, 4) for k, v in taux.items() if k in ("GBP", "USD", "DKK")},
         "bilan": bilan, "coup": coup, "tenues": tenues, "articles": uniques,
-    }, ensure_ascii=False, indent=1), encoding="utf-8")
+    }, ensure_ascii=False, separators=(",", ":")), encoding="utf-8")
     print(f"✅ {len(uniques)} articles, {len(tenues)} tenues, coup du jour : {coup} ({rep.get('_modele')})")
 
 
