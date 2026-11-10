@@ -14,6 +14,8 @@ from pathlib import Path
 
 import requests
 
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+
 RACINE = Path(__file__).resolve().parent.parent
 SORTIE = RACINE / "docs" / "mode" / "data.json"
 UA = {"User-Agent": "Mozilla/5.0 (compatible; PieceUnique/1.0; veille personnelle)", "Accept": "application/json"}
@@ -167,12 +169,13 @@ POIDS = {
                   "tshirt": 1.4, "short": .8, "accessoire": .8},
 }[SAISON]
 BONUS_PAYS = {"FR": 2.5, "UK": 0, "US": -.8}  # autres pays de l'UE : 1.2
+BONUS_FIAB = {"fiable": .8, "correct": .3, "enseigne": .3, "mitige": -.7, "prudence": -2}
 
 
 def score(x):
     """Rang d'un article : remise, saison, petit prix, et les boutiques françaises puis européennes d'abord."""
     prix_bonus = 2 if x["prix_eur"] <= 40 else 1.3 if x["prix_eur"] <= 70 else .7 if x["prix_eur"] <= 110 else 0
-    return x["remise"] / 10 + POIDS.get(x["categorie"], 1) + prix_bonus + BONUS_PAYS.get(x.get("pays"), 1.2)
+    return x["remise"] / 10 + POIDS.get(x["categorie"], 1) + prix_bonus + BONUS_PAYS.get(x.get("pays"), 1.2) + BONUS_FIAB.get(x.get("fiab"), 0)
 
 
 # --- IA : sélection et tenues ---------------------------------------------
@@ -209,7 +212,9 @@ Contexte du jour :
   sont pas la priorité. Les tenues doivent être portables MAINTENANT (pas de short en hiver).
 - Le lecteur vit en France : favorise les boutiques françaises (FR), puis européennes (BE, NL, DK, DE, IT, SE, PT).
   Royaume-Uni (UK) et États-Unis (US) = douane et TVA en plus : au plus UNE pièce UK/US par tenue, et le "coup" doit venir
-  de France ou de l'UE."""
+  de France ou de l'UE.
+- Fiabilité de la boutique (avis clients) : "fiable" et "correct" d'abord ; "mitige" seulement si la pièce vaut vraiment le
+  coup ; JAMAIS de pièce "prudence" dans une tenue ni comme "coup"."""
 
 
 def demander_ia(candidats):
@@ -219,7 +224,7 @@ def demander_ia(candidats):
     s = requests.Session()
     s.headers.update({"Authorization": f"Bearer {cle}", "Content-Type": "application/json"})
     lignes = "\n".join(f"{x['id']} | {x['marque']} | {x['nom']} | {x['categorie']} | {x['prix_eur']:.0f} € (−{x['remise']} %) | "
-                       f"expédié de {x.get('pays', x['origine'])} | indice {','.join(x['styles_indice'])}" for x in candidats)
+                       f"expédié de {x.get('pays', x['origine'])} | boutique {x.get('fiab', '?')} | indice {','.join(x['styles_indice'])}" for x in candidats)
     modeles = [os.getenv("LLM_MODEL", "").strip()] if os.getenv("LLM_MODEL", "").strip() else \
         ["gemini-flash-latest", "gemini-2.5-flash", "gemini-flash-lite-latest", "gemini-2.5-flash-lite"]
     for m in modeles:
@@ -334,6 +339,22 @@ def main():
         bilan.append({"boutique": b["nom"], "lus": len(brut), "gardes": len(gardes), "devise": dev, "origine": b["origine"]})
         articles += gardes
         time.sleep(1)
+    # grandes enseignes hors Shopify (Zara, Uniqlo) : remise d'au moins 20 %, ou « prix spécial » Zara à 40 € max
+    import enseignes
+    for f in (enseignes.zara, enseignes.uniqlo):
+        try:
+            lot = f(CATEGORIES)
+        except Exception as e:
+            print(f"  ✗ {f.__name__} : {e}")
+            lot = []
+        gardes = [a for a in lot if not EXCLURE.search(a["nom"]) and (a["remise"] >= 20 or (a.get("prix_special") and a["prix_eur"] <= 40))]
+        bilan.append({"boutique": f.__name__.capitalize(), "lus": len(lot), "gardes": len(gardes), "devise": "EUR", "origine": "UE"})
+        articles += gardes
+    # fiabilité de la boutique (avis clients vérifiés, mode/avis.json)
+    import fiabilite
+    avis = fiabilite.charger_avis()["boutiques"]
+    for a in articles:
+        a["fiab"] = fiabilite.niveau(avis.get(a["boutique"]))
     # une même pièce dans plusieurs coloris : on garde le meilleur coloris par modèle
     vus, uniques = set(), []
     for a in sorted(articles, key=score, reverse=True):
@@ -364,12 +385,16 @@ def main():
     tenues = []
     for t in rep.get("tenues", []):
         ids = [i for i in t.get("articles", []) if i in par_id]
+        if any(par_id[i].get("fiab") == "prudence" for i in ids):
+            continue
         if len(ids) >= 2 and t.get("style") in ("workwear", "streetwear", "minimal", "oldmoney"):
             t["articles"] = ids
             tenues.append(t)
     coup = rep.get("coup") if rep.get("coup") in par_id else None
-    if (not coup or par_id[coup]["prix_eur"] > 70 or par_id[coup]["origine"] != "UE") and uniques:  # petit budget : le coup du jour reste abordable
-        abordables = [a for a in uniques if a["prix_eur"] <= 70 and a["origine"] == "UE" and POIDS.get(a["categorie"], 1) >= 2]
+    if (not coup or par_id[coup]["prix_eur"] > 70 or par_id[coup]["origine"] != "UE"
+                     or par_id[coup].get("fiab") in ("mitige", "prudence")) and uniques:  # petit budget : le coup du jour reste abordable
+        abordables = [a for a in uniques if a["prix_eur"] <= 70 and a["origine"] == "UE" and POIDS.get(a["categorie"], 1) >= 2
+                      and a.get("fiab") in ("fiable", "correct", "enseigne") and a["remise"] >= 30]
         coup = max(abordables or uniques, key=lambda a: score(a) + (3 if a.get("forte") else 0))["id"]
     a_voir = list(dict.fromkeys([i for t in tenues for i in t["articles"]] + ([coup] if coup else [])
                                  + [a["id"] for a in sorted(uniques, key=score, reverse=True) if a.get("forte")][:40]))

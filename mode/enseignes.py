@@ -69,13 +69,12 @@ def zara(categories, debug=False):
                 else f"https://www.zara.com/fr/fr/search?searchTerm={requests.utils.quote(p.get('name', ''))}&section=MAN"
             remise = round((1 - prix / avant) * 100) if avant > prix else 0
             nom = p.get("name", "").capitalize()
-            porte = next((m["url"].replace("{width}", "750") for m in (c0.get("xmedia") or []) if m.get("kind") == "plain"), None)
             articles.append({
                 "id": f"zara-{p['id']}", "boutique": "Zara", "domaine": "zara.com", "origine": "UE", "pays": "FR",
                 "marque": "Zara", "nom": nom + (f" - {c0['name']}" if c0.get("name") else ""), "categorie": cat, "type": p.get("familyName", ""),
                 "prix": prix, "avant": avant or prix, "devise": "EUR", "remise": remise, "prix_eur": round(prix, 2),
                 "avant_eur": round(avant or prix, 2), "tailles": [], "images": images, "lien": lien, "styles_indice": ["minimal", "streetwear"],
-                "description": "", "prix_special": remise == 0, "enseigne": True, **({"porte": porte} if porte else {}),
+                "description": "", "prix_special": remise == 0, "enseigne": True,
             })
     print(f"🛍️  Zara            {len(articles):3} articles ({', '.join(c for _, c in cibles[:4]) or 'aucune catégorie promo'})")
     return articles

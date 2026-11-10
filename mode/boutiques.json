@@ -240,17 +240,6 @@
    "pays": "UK"
   },
   {
-   "domaine": "farah.co.uk",
-   "nom": "Farah",
-   "collection": "sale",
-   "origine": "UK",
-   "styles": [
-    "oldmoney",
-    "workwear"
-   ],
-   "pays": "UK"
-  },
-  {
    "domaine": "urbanindustry.co.uk",
    "nom": "Urban Industry",
    "collection": "sale",
@@ -321,27 +310,6 @@
     "minimal"
    ],
    "pays": "UK"
-  },
-  {
-   "domaine": "hufworldwide.com",
-   "nom": "HUF",
-   "collection": "sale",
-   "origine": "US",
-   "styles": [
-    "streetwear"
-   ],
-   "pays": "US"
-  },
-  {
-   "domaine": "rowingblazers.com",
-   "nom": "Rowing Blazers",
-   "collection": "sale",
-   "origine": "US",
-   "styles": [
-    "oldmoney"
-   ],
-   "mixte": true,
-   "pays": "US"
   },
   {
    "domaine": "eu.stussy.com",
@@ -499,6 +467,170 @@
    ],
    "veille": true,
    "pays": "US"
+  },
+  {
+   "domaine": "lecoqsportif.com",
+   "nom": "Le Coq Sportif",
+   "collection": null,
+   "origine": "UE",
+   "pays": "FR",
+   "styles": [
+    "streetwear",
+    "oldmoney"
+   ]
+  },
+  {
+   "domaine": "footdistrict.com",
+   "nom": "Footdistrict",
+   "collection": null,
+   "origine": "UE",
+   "pays": "ES",
+   "styles": [
+    "streetwear"
+   ],
+   "multi": true,
+   "mixte": true
+  },
+  {
+   "domaine": "chevignon.fr",
+   "nom": "Chevignon",
+   "collection": null,
+   "origine": "UE",
+   "pays": "FR",
+   "styles": [
+    "workwear",
+    "oldmoney"
+   ]
+  },
+  {
+   "domaine": "olow.fr",
+   "nom": "Olow",
+   "collection": null,
+   "origine": "UE",
+   "pays": "FR",
+   "styles": [
+    "streetwear",
+    "minimal"
+   ]
+  },
+  {
+   "domaine": "dagobear.com",
+   "nom": "Dagobear",
+   "collection": null,
+   "origine": "UE",
+   "pays": "FR",
+   "styles": [
+    "minimal",
+    "streetwear"
+   ]
+  },
+  {
+   "domaine": "kappa.fr",
+   "nom": "Kappa",
+   "collection": null,
+   "origine": "UE",
+   "pays": "FR",
+   "styles": [
+    "streetwear"
+   ],
+   "mixte": true
+  },
+  {
+   "domaine": "cuissedegrenouille.com",
+   "nom": "Cuisse de Grenouille",
+   "collection": null,
+   "origine": "UE",
+   "pays": "FR",
+   "styles": [
+    "streetwear",
+    "oldmoney"
+   ]
+  },
+  {
+   "domaine": "kulte.fr",
+   "nom": "Kulte",
+   "collection": null,
+   "origine": "UE",
+   "pays": "FR",
+   "styles": [
+    "streetwear"
+   ]
+  },
+  {
+   "domaine": "leslipfrancais.fr",
+   "nom": "Le Slip Français",
+   "collection": null,
+   "origine": "UE",
+   "pays": "FR",
+   "styles": [
+    "minimal",
+    "oldmoney"
+   ],
+   "mixte": true
+  },
+  {
+   "domaine": "balibaris.com",
+   "nom": "Balibaris",
+   "collection": null,
+   "origine": "UE",
+   "pays": "FR",
+   "styles": [
+    "oldmoney",
+    "minimal"
+   ],
+   "veille": true
+  },
+  {
+   "domaine": "teddysmith.com",
+   "nom": "Teddy Smith",
+   "collection": null,
+   "origine": "UE",
+   "pays": "FR",
+   "styles": [
+    "streetwear",
+    "workwear"
+   ],
+   "veille": true
+  },
+  {
+   "domaine": "loom.fr",
+   "nom": "Loom",
+   "collection": null,
+   "origine": "UE",
+   "pays": "FR",
+   "styles": [
+    "minimal"
+   ],
+   "veille": true
+  },
+  {
+   "domaine": "armorlux.com",
+   "nom": "Armor Lux",
+   "collection": null,
+   "origine": "UE",
+   "pays": "FR",
+   "styles": [
+    "oldmoney",
+    "workwear"
+   ],
+   "veille": true
+  }
+ ],
+ "ecartees": [
+  {
+   "domaine": "farah.co.uk",
+   "nom": "Farah",
+   "raison": "Trustpilot 2,0/5 : retours non traités, qualité en baisse"
+  },
+  {
+   "domaine": "hufworldwide.com",
+   "nom": "HUF",
+   "raison": "Trustpilot 1,6/5 : commandes annulées, remboursements difficiles, envoi des États-Unis"
+  },
+  {
+   "domaine": "rowingblazers.com",
+   "nom": "Rowing Blazers",
+   "raison": "Trustpilot 1,6/5 : remboursements refusés, commandes jamais expédiées, envoi des États-Unis"
   }
  ]
 }
