@@ -1,5 +1,5 @@
 {
- "maj": "2026-11-11T06:19:17.336845+00:00",
+ "maj": "2026-11-11T16:10:34.583574+00:00",
  "sources_ok": [
   "Notes de version Claude (API)",
   "Notes de version OpenAI (API)",
@@ -25,7 +25,6 @@
   "Anthropic (actus)",
   "Mistral AI (actus)",
   "Meta Llama (actus)",
-  "MIT Technology Review",
   "The Verge IA",
   "TechCrunch IA",
   "Simon Willison",
@@ -56,12 +55,16 @@
    "erreur": "page vide ou générée en JavaScript"
   },
   {
+   "nom": "MIT Technology Review",
+   "erreur": "502 Server Error: Bad Gateway for url: https://www.technologyreview.com/topic/artificial-intelligence/feed"
+  },
+  {
    "nom": "VentureBeat IA",
    "erreur": "429 Client Error: Too Many Requests for url: https://venturebeat.com/category/ai/feed/"
   }
  ],
- "total": 2335,
- "analyses": 1741,
+ "total": 2321,
+ "analyses": 1698,
  "brief": {
   "titre": "Nouvelles versions phares et offensive boursière d'Anthropic",
   "texte": "L'actualité de l'IA est marquée par une vague de lancements majeurs et de mouvements financiers historiques. Google DeepMind dégaine Gemini 4 Carbon doté d'une fonction d'essaim d'agents et Gemini Robotics 2.5, tandis que Google Cloud cible le secteur de la santé. De son côté, OpenAI riposte avec GPT-Image-2.6, l'API GPT-Live-1 et de nouvelles fonctionnalités de gestion d'entreprise dans ChatGPT. Anthropic n'est pas en reste en publiant Claude Fable 5.2, Mythos 5.2 et Claude Meetings, tout en préparant activement une introduction en bourse monumentale visant une valorisation de 1 300 milliards de dollars.",
