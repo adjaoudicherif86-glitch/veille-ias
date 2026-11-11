@@ -1,5 +1,5 @@
 {
- "maj": "2026-11-11T16:10:34.583574+00:00",
+ "maj": "2026-11-11T22:41:30.582352+00:00",
  "sources_ok": [
   "Notes de version Claude (API)",
   "Notes de version OpenAI (API)",
@@ -25,6 +25,7 @@
   "Anthropic (actus)",
   "Mistral AI (actus)",
   "Meta Llama (actus)",
+  "MIT Technology Review",
   "The Verge IA",
   "TechCrunch IA",
   "Simon Willison",
@@ -55,53 +56,49 @@
    "erreur": "page vide ou générée en JavaScript"
   },
   {
-   "nom": "MIT Technology Review",
-   "erreur": "502 Server Error: Bad Gateway for url: https://www.technologyreview.com/topic/artificial-intelligence/feed"
-  },
-  {
    "nom": "VentureBeat IA",
    "erreur": "429 Client Error: Too Many Requests for url: https://venturebeat.com/category/ai/feed/"
   }
  ],
- "total": 2321,
- "analyses": 1698,
+ "total": 2311,
+ "analyses": 1670,
  "brief": {
-  "titre": "Nouvelles versions phares et offensive boursière d'Anthropic",
-  "texte": "L'actualité de l'IA est marquée par une vague de lancements majeurs et de mouvements financiers historiques. Google DeepMind dégaine Gemini 4 Carbon doté d'une fonction d'essaim d'agents et Gemini Robotics 2.5, tandis que Google Cloud cible le secteur de la santé. De son côté, OpenAI riposte avec GPT-Image-2.6, l'API GPT-Live-1 et de nouvelles fonctionnalités de gestion d'entreprise dans ChatGPT. Anthropic n'est pas en reste en publiant Claude Fable 5.2, Mythos 5.2 et Claude Meetings, tout en préparant activement une introduction en bourse monumentale visant une valorisation de 1 300 milliards de dollars.",
+  "titre": "Gemini 4 Carbon, AlphaGenome 2 et introduction en bourse massive pour Anthropic",
+  "texte": "Google DeepMind frappe fort aujourd'hui avec le lancement officiel de Gemini 4 Carbon, doté d'une fonction d'essaim d'agents autonomes, complété par AlphaGenome 2 pour le décodage de l'ADN et Gemini pour la santé. De son côté, Anthropic se prépare activement pour son introduction en bourse avec une valorisation visée de 1 300 milliards de dollars, tout en lançant Claude Meetings et sa version de Claude la plus puissante. Enfin, OpenAI déploie GPT-Image-2.6 et l'API GPT-Live-1, tandis qu'Unsloth sort sa version 3.1 avec des GGUFs dynamiques. Ces annonces confirment l'accélération majeure des capacités agentiques et multimodales sur le marché.",
   "a_tester": [
-   "Tester l'API GPT-Live-1 d'OpenAI pour vos flux en temps réel",
-   "Explorer les nouveaux modèles Claude Fable et Mythos 5.2",
-   "Évaluer Gemini 4 Carbon et sa fonction d'essaim d'agents"
+   "Tester l'intégration de Gemini 4 Carbon et ses essaims d'agents pour automatiser des flux complexes.",
+   "Explorer l'outil Claude Meetings pour optimiser la transformation de vos réunions en plans d'action.",
+   "Expérimenter les GGUFs dynamiques et le support de Qwen3.8-27B avec Unsloth v3.1."
   ]
  },
  "top5": {
-  "maj": "2026-11-11T06:19:17.336845+00:00",
+  "maj": "2026-11-11T22:41:30.582352+00:00",
   "par_ia": true,
   "items": [
    {
     "id": "96561f0960dfd2",
-    "pourquoi": "Anthropic lance Claude Fable 5.2 avec une impressionnante fenêtre de contexte de 1 million de tokens, redéfinissant les standards pour le traitement de documents massifs.",
-    "a_faire": "Tester l'API de ces nouveaux modèles pour vos cas d'usage nécessitant l'analyse de grands volumes de texte."
+    "pourquoi": "Anthropic lance Claude Fable 5.2 et Claude Mythos 5.2 avec une énorme fenêtre de contexte de 1 million de tokens, impactant directement les capacités d'analyse de documents massifs.",
+    "a_faire": "Tester l'API de ces nouveaux modèles sur vos cas d'usage nécessitant de longs contextes."
    },
    {
     "id": "da432fbb05941c",
-    "pourquoi": "Meta positionne Muse Ember comme une alternative ultra-économique pour les agents conversationnels, venant concurrencer directement les modèles légers d'Anthropic.",
-    "a_faire": "Surveiller les benchmarks de performance et de coût pour l'intégrer dans vos futurs développements d'agents."
+    "pourquoi": "Meta positionne Muse Ember comme une alternative ultra-économique pour les architectures d'agents, concurrençant directement les modèles de pointe actuels sur le plan des coûts.",
+    "a_faire": "Évaluer les performances et les coûts de Muse Ember pour vos déploiements d'agents conversationnels."
    },
    {
     "id": "53c56afbaf05f8",
-    "pourquoi": "OpenAI intègre la cybersécurité offensive et défensive avec GPT-6 Cyber, un outil spécialisé capable d'automatiser la détection et la correction de failles.",
-    "a_faire": "Se renseigner sur les conditions d'accès et les garde-fous de ce modèle pour auditer votre code."
+    "pourquoi": "OpenAI introduit GPT-6 Cyber, un outil spécialisé dans la détection et la correction automatisée de failles de sécurité, ouvrant de nouvelles perspectives pour l'ingénierie défensive.",
+    "a_faire": "Surveiller les conditions d'accès et les benchmarks de ce modèle pour intégrer l'IA dans vos audits de sécurité."
+   },
+   {
+    "id": "5ca4dc7b6d88cb",
+    "pourquoi": "OpenAI intègre la gestion directe des entreprises dans ChatGPT, facilitant la conversion et la visibilité commerciale au sein même de l'interface conversationnelle.",
+    "a_faire": "Explorer le tableau de bord 'Businesses in ChatGPT' pour configurer la présence et l'interaction de votre structure."
    },
    {
     "id": "428ac4b42c0b5f",
-    "pourquoi": "Google DeepMind franchit un cap dans la vérification logicielle automatisée avec AlphaProof Code, capable de générer des millions de lignes de preuves formelles.",
-    "a_faire": "Suivre les publications techniques pour évaluer l'applicabilité de la vérification formelle sur vos logiciels critiques."
-   },
-   {
-    "id": "168143ea4218e6",
-    "pourquoi": "Apple simplifie l'adoption de l'IA sur poste de travail avec une application Mac dédiée aux modèles locaux, démocratisant l'inférence sur device.",
-    "a_faire": "Tester l'application dès sa sortie pour évaluer les performances des modèles locaux sur macOS."
+    "pourquoi": "Google DeepMind franchit un cap dans la vérification logicielle automatisée avec AlphaProof Code capable de générer des preuves formelles à grande échelle.",
+    "a_faire": "Lire la documentation technique sur AlphaProof Code pour anticiper son usage dans la validation de code critique."
    }
   ]
  }
