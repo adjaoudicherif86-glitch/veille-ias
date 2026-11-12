@@ -669,7 +669,7 @@ def main():
 
     suivre_prix(uniques + nouveautes)
     par_id_tout = {a["id"]: a for a in uniques + nouveautes}
-    fil = construire_fil(uniques, nouveautes, selection, par_id_tout)
+    fil = {"posts": [], "fils": []}  # le fil façon Camino est retiré (Chérif préfère la sélection en grille)
     a_voir = list(dict.fromkeys([i for t in tenues for i in t["articles"]] + ([coup] if coup else []) + selection[:30]
                                 + [p["id"] for p in fil["posts"] if p["id"] in par_id]))
     n = photos_portees([par_id_tout[i] for i in a_voir][:60])

@@ -269,7 +269,7 @@ footer b{color:var(--blanc);font-weight:600}
   <div class="wrap">
     <a class="logo" href="#" data-vue="plans">Pièce Unique</a>
     <nav class="vues" aria-label="Rubriques">
-      <button data-vue="plans">Le fil</button>
+      <button data-vue="plans">La sélection</button>
       <button data-vue="tout">Toutes les promos</button>
       <button data-vue="neuf">Sans promo</button>
       <button data-vue="fits">Les fits</button>
@@ -332,7 +332,7 @@ function fiche(a,mini){
     <div class="txt">
       <div class="m">${esc(marque(a))}</div>
       <div class="n">${esc(nom(a).n)}${nom(a).c?`<span style="color:var(--gris)">, ${esc(nom(a).c)}</span>`:""}</div>
-      <div class="pa">${a.remise?`Au lieu de <span class="avant">${eur(a.avant_eur)}</span>`:a.sortie?"Sans promo":"Prix spécial"}${marque(a)===a.boutique?"":" chez "+esc(a.boutique)}</div>
+      <div class="pa">${a.baisse_de?`<b style="color:var(--rouge)">Baisse de prix</b> : avant ${eur(a.baisse_de)}<br>`:""}${a.remise?`Au lieu de <span class="avant">${eur(a.avant_eur)}</span>`:a.sortie?"Sans promo":"Prix spécial"}${marque(a)===a.boutique?"":" chez "+esc(a.boutique)}</div>
       ${badge(a)}
       ${a.pourquoi?`<p class="av">${esc(avisIA(a))}</p>`:""}
       <div class="t">${a.tailles.length?"Tailles "+esc(a.tailles.slice(0,7).join(", ")):""}${a.tailles.length&&(a.origine!=="UE"||a.pays==="FR")?"<br>":""}${douane(a)}</div>
@@ -410,14 +410,18 @@ function vuePlans(){
         <a class="cta" href="${esc(c.lien)}" target="_blank" rel="noopener">Voir chez ${esc(c.boutique)}</a>
       </div></section></div>`;
   }
-  h+=vueFil();
+  const sel=(D.selection&&D.selection.length?D.selection.map(i=>parId[i]).filter(Boolean):varier([...D.articles].sort((x,y)=>note(y)-note(x))).slice(0,60)).filter(styleOk);
+  h+=`<section class="rangee" style="${c&&etat.style==="tous"?"":"border-top:0"}"><div class="wrap"><div class="intro-sel"><h2>La sélection</h2><p>${sel.length} pépites choisies parmi ${D.articles.length} promos : les mieux notées de chaque style, sans deux pièces qui se ressemblent. Clique sur une pièce pour voir des articles du même genre.</p></div>
+    ${sel.length?`<div class="grille">${sel.map(a=>fiche(a)).join("")}</div>`:`<p class="vide">Pas de pépite dans ce style aujourd'hui.</p>`}</div></section>`;
+  const baisses=[...D.articles,...D.nouveautes].filter(a=>styleOk(a)&&a.baisse_de).sort((a,b)=>(b.baisse_de-b.prix_eur)-(a.baisse_de-a.prix_eur)).slice(0,16);
+  if(baisses.length)h+=`<section class="rangee"><div class="wrap"><div class="titre-rangee"><h2>Ça vient de baisser</h2><p>Prix en baisse depuis hier</p></div><div class="defile">${baisses.map(a=>fiche(a)).join("")}</div></div></section>`;
   if(!etat.marque){
     const neufs=varier(base.filter(a=>a.nouveau).sort((a,b)=>note(b)-note(a))).slice(0,16);
     if(neufs.length)h+=`<section class="rangee"><div class="wrap"><div class="titre-rangee"><h2>Ça vient de tomber</h2><p>Nouvelles remises depuis hier</p></div><div class="defile">${neufs.map(a=>fiche(a)).join("")}</div></div></section>`;
     const petits=varier(base.filter(a=>a.prix_eur<=30&&a.categorie!=="accessoire").sort((a,b)=>note(b)-note(a))).slice(0,16);
     const ens=varier(base.filter(a=>a.enseigne).sort((a,b)=>note(b)-note(a))).slice(0,16);
     if(ens.length)h+=`<section class="rangee"><div class="wrap"><div class="titre-rangee"><h2>Les grandes enseignes</h2><p>Zara, Uniqlo : essai et retour possibles en magasin</p></div><div class="defile">${ens.map(a=>fiche(a)).join("")}</div></div></section>`;
-    if(false)h+=`<section class="rangee"><div class="wrap"><div class="titre-rangee"><h2>Moins de 30 balles</h2><p>${base.filter(a=>a.prix_eur<=30).length} pièces</p></div><div class="defile">${petits.map(a=>fiche(a)).join("")}</div></div></section>`;
+    if(petits.length)h+=`<section class="rangee"><div class="wrap"><div class="titre-rangee"><h2>Moins de 30 balles</h2><p>${base.filter(a=>a.prix_eur<=30).length} pièces</p></div><div class="defile">${petits.map(a=>fiche(a)).join("")}</div></div></section>`;
   }
   h+=`<div class="voir-tout"><button class="cta" data-vue="tout" style="border:0;cursor:pointer;margin:0">Voir les ${base.length} promos</button></div>`;
   return h;
@@ -568,7 +572,7 @@ document.addEventListener("click",e=>{
 Promise.all([fetch("data.json?"+Date.now()).then(r=>r.json()),fetch("fiabilite.json?"+Date.now()).then(r=>r.ok?r.json():{boutiques:[]}).catch(()=>({boutiques:[]}))]).then(([d,f])=>{
   D=d; F=f; D.nouveautes=D.nouveautes||[]; [...D.nouveautes,...D.articles].forEach(a=>parId[a.id]=a); F.boutiques.forEach(b=>fParNom[b.boutique]=b);
   [...D.nouveautes,...D.articles].forEach(a=>{if(!a.fiab&&fParNom[a.boutique])a.fiab=fParNom[a.boutique].niveau;if(!a.fam)a.fam=a.categorie});
-  const top=(D.fil&&D.fil.posts.length?D.fil.posts.map(p=>parId[p.id]).filter(Boolean):D.selection&&D.selection.length?D.selection.map(i=>parId[i]).filter(Boolean):varier([...D.articles].filter(a=>a.categorie!=="accessoire").sort((a,b)=>note(b)-note(a)))).slice(0,14);
+  const top=(D.selection&&D.selection.length?D.selection.map(i=>parId[i]).filter(Boolean):varier([...D.articles].filter(a=>a.categorie!=="accessoire").sort((a,b)=>note(b)-note(a)))).slice(0,14);
   const ligne=top.map(a=>`<a href="${esc(a.lien)}" data-art="${esc(a.id)}" target="_blank" rel="noopener">${esc(marque(a))}, ${esc(nom(a).n)} à <b>${eur(a.prix_eur)}</b></a>`).join("");
   document.getElementById("ticker").innerHTML=ligne+ligne;
   const m=new Date(d.maj);
