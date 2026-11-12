@@ -156,6 +156,23 @@ h2{font-stretch:112%;font-weight:900;font-size:clamp(24px,3vw,36px);letter-spaci
 .cote .vide2{color:var(--gris);font-size:13.5px}
 @media (max-width:1060px){.fil-zone{grid-template-columns:1fr}.cote{position:static}}
 @media (max-width:560px){.thread li a{grid-template-columns:96px minmax(0,1fr);row-gap:2px}.thread .px{grid-column:2}.lien-btn{margin-left:0}}
+/* plans Camino */
+.cam-grille{display:grid;grid-template-columns:repeat(auto-fill,minmax(min(100%,300px),1fr));gap:22px 16px;padding:18px 0 40px}
+.cam{display:flex;flex-direction:column;gap:10px;min-width:0}
+.cam .ph{display:grid;grid-template-columns:repeat(var(--n),minmax(0,1fr));gap:4px}
+.cam .ph img{width:100%;aspect-ratio:4/5;object-fit:cover;background:var(--photo);border-radius:10px}
+.cam .qui{font-size:12.5px;color:var(--gris)}
+.cam .qui b{color:var(--noir)}
+.cam .txt{font-size:14.5px;line-height:1.4;display:-webkit-box;-webkit-line-clamp:4;-webkit-box-orient:vertical;overflow:hidden}
+.cam ul{list-style:none;border-top:1.5px solid var(--noir)}
+.cam li{display:flex;justify-content:space-between;gap:10px;padding:7px 0;border-bottom:1px solid var(--trait);font-size:14px}
+.cam li span:first-child{min-width:0;overflow-wrap:anywhere}
+.cam li .px{white-space:nowrap;font-weight:700}
+.cam li s{color:var(--gris);font-weight:400;margin-left:4px;text-decoration-color:var(--rouge)}
+.cam .code{display:inline-block;background:var(--sticker);font-size:12px;font-weight:700;padding:1px 7px;margin-left:6px}
+.cam .actions{display:flex;gap:8px;flex-wrap:wrap}
+.cam .actions a{font-size:13px;font-weight:700;padding:7px 13px;border-radius:999px;border:1.5px solid var(--noir)}
+.cam .actions a.plein{background:var(--noir);color:var(--blanc)}
 /* étiquette prix sans promo */
 .sticker.tag{background:var(--noir);color:var(--blanc);transform:none;box-shadow:none}
 .sticker.tag .r{font-weight:500}
@@ -272,6 +289,7 @@ footer b{color:var(--blanc);font-weight:600}
       <button data-vue="plans">La sélection</button>
       <button data-vue="tout">Toutes les promos</button>
       <button data-vue="neuf">Sans promo</button>
+      <button data-vue="camino">Repéré par Camino</button>
       <button data-vue="fits">Les fits</button>
       <button data-vue="marques">Marques</button>
       <button data-vue="fiab">Fiabilité</button>
@@ -393,6 +411,23 @@ function vueFil(){
         <div><h3>Ça vient de baisser</h3>${baisses.length?`<ul>${baisses.map(ligneCote).join("")}</ul>`:'<p class="vide2">Aucune baisse depuis hier. Le robot compare les prix chaque matin.</p>'}</div>
         <div><h3>Moins de 30 balles</h3><ul>${petits.map(ligneCote).join("")}</ul></div>
       </aside></div></div></section>`}
+let C={posts:[]};
+function depuis(d){const h=Math.round((Date.now()-new Date(d))/36e5);return h<1?"à l'instant":h<24?`il y a ${h} h`:`il y a ${Math.round(h/24)} j`}
+function carteCamino(p){
+  const pieces=(p.pieces||[]).filter(x=>etat.style==="tous"||!(x.styles||[]).length||x.styles.includes(etat.style));
+  if(!pieces.length)return "";
+  const im=(p.images||[]).slice(0,2);
+  return `<article class="cam">
+    ${im.length?`<a class="ph" style="--n:${im.length}" href="${esc(p.url)}" target="_blank" rel="noopener">${im.map(u=>`<img src="${esc(u)}" alt="" loading="lazy">`).join("")}</a>`:""}
+    <div class="qui"><b>Camino TV</b> sur X, ${depuis(p.date)}</div>
+    <p class="txt">${esc(p.texte)}</p>
+    <ul>${pieces.map(x=>`<li><span>${x.lien?`<a href="${esc(x.lien)}" target="_blank" rel="noopener" style="text-decoration:underline;text-decoration-color:var(--trait)">`:""}${x.etiquette?`<b>${esc(x.etiquette)}</b> `:""}${esc([x.marque,x.nom].filter(Boolean).join(", "))}${x.lien?"</a>":""}${x.code?`<span class="code">code ${esc(x.code)}</span>`:""}</span><span class="px">${x.prix!=null?eur(x.prix):""}${x.prix_avant?`<s>${eur(x.prix_avant)}</s>`:""}</span></li>`).join("")}</ul>
+    <div class="actions">${(pieces[0].lien||p.liens&&p.liens[0])?`<a class="plein" href="${esc(pieces[0].lien||p.liens[0])}" target="_blank" rel="noopener">Voir la pièce</a>`:""}<a href="${esc(p.url)}" target="_blank" rel="noopener">Voir le post</a></div>
+  </article>`}
+function vueCamino(){
+  const l=(C.posts||[]).map(carteCamino).filter(Boolean);
+  return `<div class="wrap"><div class="fits-tete"><div><h2>Repéré par Camino</h2><p style="margin-top:8px;max-width:62ch">Les bons plans vêtements et chaussures postés par Camino TV sur X, récupérés automatiquement plusieurs fois par jour. Les liens et les codes sont les leurs.</p></div></div>
+    ${l.length?`<div class="cam-grille">${l.join("")}</div>`:`<p class="vide">${C.maj?"Aucun plan mode posté par Camino ces derniers jours dans ce style.":"La lecture du compte de Camino n'est pas encore activée : il manque la clé de l'API X."}</p>`}</div>`}
 function vuePlans(){
   const base=D.articles.filter(styleOk);
   let h="";
@@ -413,6 +448,8 @@ function vuePlans(){
   const sel=(D.selection&&D.selection.length?D.selection.map(i=>parId[i]).filter(Boolean):varier([...D.articles].sort((x,y)=>note(y)-note(x))).slice(0,60)).filter(styleOk);
   h+=`<section class="rangee" style="${c&&etat.style==="tous"?"":"border-top:0"}"><div class="wrap"><div class="intro-sel"><h2>La sélection</h2><p>${sel.length} pépites choisies parmi ${D.articles.length} promos : les mieux notées de chaque style, sans deux pièces qui se ressemblent. Clique sur une pièce pour voir des articles du même genre.</p></div>
     ${sel.length?`<div class="grille">${sel.map(a=>fiche(a)).join("")}</div>`:`<p class="vide">Pas de pépite dans ce style aujourd'hui.</p>`}</div></section>`;
+  const cam=(C.posts||[]).slice(0,12).map(carteCamino).filter(Boolean).slice(0,4);
+  if(cam.length)h+=`<section class="rangee"><div class="wrap"><div class="titre-rangee"><h2>Repéré par Camino</h2><p><a href="#" data-vue="camino" style="text-decoration:underline">Tous leurs plans</a></p></div><div class="cam-grille" style="padding-top:0">${cam.join("")}</div></div></section>`;
   const baisses=[...D.articles,...D.nouveautes].filter(a=>styleOk(a)&&a.baisse_de).sort((a,b)=>(b.baisse_de-b.prix_eur)-(a.baisse_de-a.prix_eur)).slice(0,16);
   if(baisses.length)h+=`<section class="rangee"><div class="wrap"><div class="titre-rangee"><h2>Ça vient de baisser</h2><p>Prix en baisse depuis hier</p></div><div class="defile">${baisses.map(a=>fiche(a)).join("")}</div></div></section>`;
   if(!etat.marque){
@@ -544,7 +581,7 @@ function rendre(haut){
   document.querySelectorAll(".vues button").forEach(b=>b.setAttribute("aria-current",b.dataset.vue===etat.vue));
   document.getElementById("styles").innerHTML=Object.entries(STYLES).map(([k,v])=>`<button data-style="${k}" aria-pressed="${etat.style===k}">${v}</button>`).join("");
   const v=document.getElementById("vue");
-  v.innerHTML=etat.vue==="fits"?vueFits():etat.vue==="marques"?vueMarques():etat.vue==="fiab"?vueFiab():etat.vue==="tout"?vueTout():etat.vue==="neuf"?vueNeuf():vuePlans();
+  v.innerHTML=etat.vue==="fits"?vueFits():etat.vue==="marques"?vueMarques():etat.vue==="fiab"?vueFiab():etat.vue==="tout"?vueTout():etat.vue==="neuf"?vueNeuf():etat.vue==="camino"?vueCamino():vuePlans();
   const fb=document.getElementById("fiables"); if(fb)fb.onchange=e=>{etat.fiables=e.target.checked;etat.n=48;rendre("tout")};
   const b=document.getElementById("budget"); if(b){b.value=etat.budget; b.onchange=e=>{etat.budget=+e.target.value;etat.n=48;rendre("tout")}}
   const t=document.getElementById("tri"); if(t){t.value=etat.tri; t.onchange=e=>{etat.tri=e.target.value;rendre("tout")}}
@@ -569,8 +606,8 @@ document.addEventListener("click",e=>{
   if("marque" in b.dataset){etat.marque=b.dataset.marque||null;etat.vue="tout";etat.cat="tous";etat.n=48;rendre(etat.marque?"tout":true)}
 });
 
-Promise.all([fetch("data.json?"+Date.now()).then(r=>r.json()),fetch("fiabilite.json?"+Date.now()).then(r=>r.ok?r.json():{boutiques:[]}).catch(()=>({boutiques:[]}))]).then(([d,f])=>{
-  D=d; F=f; D.nouveautes=D.nouveautes||[]; [...D.nouveautes,...D.articles].forEach(a=>parId[a.id]=a); F.boutiques.forEach(b=>fParNom[b.boutique]=b);
+Promise.all([fetch("data.json?"+Date.now()).then(r=>r.json()),fetch("fiabilite.json?"+Date.now()).then(r=>r.ok?r.json():{boutiques:[]}).catch(()=>({boutiques:[]})),fetch("camino.json?"+Date.now()).then(r=>r.ok?r.json():{posts:[]}).catch(()=>({posts:[]}))]).then(([d,f,cm])=>{
+  D=d; F=f; C=cm||{posts:[]}; D.nouveautes=D.nouveautes||[]; [...D.nouveautes,...D.articles].forEach(a=>parId[a.id]=a); F.boutiques.forEach(b=>fParNom[b.boutique]=b);
   [...D.nouveautes,...D.articles].forEach(a=>{if(!a.fiab&&fParNom[a.boutique])a.fiab=fParNom[a.boutique].niveau;if(!a.fam)a.fam=a.categorie});
   const top=(D.selection&&D.selection.length?D.selection.map(i=>parId[i]).filter(Boolean):varier([...D.articles].filter(a=>a.categorie!=="accessoire").sort((a,b)=>note(b)-note(a)))).slice(0,14);
   const ligne=top.map(a=>`<a href="${esc(a.lien)}" data-art="${esc(a.id)}" target="_blank" rel="noopener">${esc(marque(a))}, ${esc(nom(a).n)} à <b>${eur(a.prix_eur)}</b></a>`).join("");

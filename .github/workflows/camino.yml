@@ -1,0 +1,28 @@
+name: "Pièce Unique : plans Camino (API X)"
+on:
+  schedule:
+    - cron: "11 9,15,21 * * *"
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: camino
+  cancel-in-progress: false
+jobs:
+  camino:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install requests
+      - env:
+          X_BEARER_TOKEN: ${{ secrets.X_BEARER_TOKEN }}
+          LLM_API_KEY: ${{ secrets.LLM_API_KEY }}
+        run: python mode/camino.py
+      - run: |
+          git config user.name "veille-bot"; git config user.email "veille-bot@users.noreply.github.com"
+          git add docs/mode/camino.json etat/camino.json 2>/dev/null; git diff --cached --quiet || git commit -m "Pièce Unique : plans Camino"
+          for i in 1 2 3; do git pull --rebase origin main && git push && break; sleep 5; done
