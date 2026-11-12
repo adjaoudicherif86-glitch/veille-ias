@@ -1,11 +1,13 @@
 {
  "url": "https://platform.claude.com/docs/en/release-notes/overview",
- "maj": "2026-11-12T07:10:17.066204+00:00",
+ "maj": "2026-11-12T16:48:21.920309+00:00",
  "lignes": [
   "Release notes",
   "Claude Platform release notes",
   "Updates to the Claude Platform, including the Claude API, client SDKs, and the Claude Console.",
   "The Claude Platform release notes list changes to the Claude API, the client SDKs, and the Claude Console, newest first.",
+  "November 12, 2026",
+  "- We’ve launched self-hosted Claude Managed Agents. You run the whole Managed Agents service, not only self-hosted sandboxes, on your own infrastructure, and you store agents, sessions, and session history there. The server sends model requests to the provider that you choose, which is Anthropic by default. To request access, contact your Anthropic account team.",
   "November 9, 2026",
   "- We’ve launched Claude Fable 5.2 (claude-fable-5-2), built for demanding reasoning and long-horizon agentic work. Claude Mythos 5.2 (claude-mythos-5-2) offers the same capabilities only to organizations verified through Anthropic’s verification programs, such as the Cyber Verification Program. Both models have a 1M token context window, 128k max output tokens, and always-on adaptive thinking. They cost $8 USD per MTok of input and $40 USD per MTok of output (Claude Fable 5.1 and Claude Mythos 5.1 cost $10 USD per MTok of input and $50 USD per MTok of output). Claude Fable 5.2 is available on the Claude API, Amazon Bedrock (bedrock-runtime), Claude Platform on AWS, Claude Models on Google Cloud (Anthropic managed), Claude Models on Google Cloud (Google managed), and Claude in Microsoft Foundry. See What’s new in Claude Fable 5.2 for API changes and migration guidance. For model-specific prompting patterns, see Prompting Claude Fable 5.2.",
   "- Claude Fable 5.2 and Claude Mythos 5.2 enforce the prefix check for every account, whatever its age. Claude Fable 5.1 returns the error by default on accounts created on or after August 31, 2026 (see When prefix_mismatch_behavior is unset). If your code edits the system prompt, tools, or an earlier message and then sends back a Claude Fable 5.2 or Claude Mythos 5.2 thinking block from a later turn, the request returns a 400 error. Before you switch, check whether your code edits the prefix.",
