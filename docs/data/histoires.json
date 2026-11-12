@@ -1,12 +1,12 @@
 {
- "maj": "2026-11-11T22:41:30.582283+00:00",
+ "maj": "2026-11-12T07:10:17.071944+00:00",
  "histoires": [
   {
    "id": "h_d7bf294641",
    "titre": "Enquête sur Jensen Huang et relations avec la Chine",
-   "resume": "Nvidia et son PDG Jensen Huang font face à une pression politique accrue et à une convocation formelle du Congrès américain suite à une affaire d'espionnage, incitant des parlementaires à réclamer des restrictions renforcées sur les puces.",
+   "resume": "Nvidia et son PDG Jensen Huang font face à une pression politique accrue, des interrogations sur la succession et des demandes de sénateurs américains exigeant la conservation des registres d'exportation vers la Chine suite aux polémiques.",
    "creee": "2026-11-09T18:48:52.645091+00:00",
-   "maj": "2026-11-11T19:22:22+00:00",
+   "maj": "2026-11-12T05:47:48+00:00",
    "episodes": [
     {
      "id": "67abd93f196f85",
@@ -194,6 +194,28 @@
      "lien": "https://techcrunch.com/2026/11/11/congress-to-call-jensen-huang-in-to-answer-for-alleged-chinese-spy-affair/",
      "nb_sources": 1,
      "primaire": false
+    },
+    {
+     "id": "ffb441e7267ce5",
+     "date": "2026-11-12T03:44:00+00:00",
+     "titre": "Des sénateurs américains demandent la conservation des registres d'exportation de Nvidia vers la Chine",
+     "neuf": "Des sénateurs demandent la conservation des registres d'exportation de Nvidia vers la Chine.",
+     "fil": "mêmes relations et contrôles liés à Nvidia et la Chine",
+     "source": "Contrôles à l'export IA",
+     "lien": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOU2otaHFORWxkN3E2TnF1cllybUxndHc4b3d1SlI3bExwOWNnV2F6VXRnU2h4eWFWMFBEUy1pcWxhaUNUTVNjZ0NZU21OMTFnRERCeGlMeW9UbkpNa3g2ZDZLNG9VanFCbzk3OGdXWWE4ZFM4MVozZzItTFVWVGdJdXNmTzlGM2U1QWtBYXp5SFhwUWlTQ0sxckxYdjlvZWJFSGFuVUVHSGZwTnJDaXlGRGlFSmllODd3WkpfeF9sOEVxeXdKU3JZ?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "1ed3750459d0e2",
+     "date": "2026-11-12T05:47:48+00:00",
+     "titre": "Hausse des mentions de la Chine par le PDG de NVIDIA après les contrôles américains",
+     "neuf": "Hausse notable des mentions de la Chine par Jensen Huang suite aux contrôles américains.",
+     "fil": "mêmes relations entre Jensen Huang, Nvidia et la Chine",
+     "source": "Contrôles à l'export IA",
+     "lien": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNTUpvRUw1ZjAyemU4TGxkc0p0OUl0eXBvVkpCdVpNREE2U1d6MnpvVXNQY09LU3haRzhPa1N3ZkxzbFlUZEF5Ym04cG53VHVsMFZvakZoQ3VvcDlzam92NFlvM21qTU5uRGI5a2NIMkJlNTlwSEl0UzVqOGRpc1B0eWNFWnhTSVRw?oc=5",
+     "nb_sources": 1,
+     "primaire": false
     }
    ],
    "statut": "active",
@@ -202,311 +224,11 @@
    ]
   },
   {
-   "id": "h_520aa59662",
-   "titre": "Déploiement et disponibilité de Gemini 4 Argon",
-   "resume": "Google continue d'étendre son écosystème Gemini à travers de nouveaux déploiements matériels, l'intégration des fonctionnalités sur la gamme Pixel 10 et le lancement du SDK Gemini 3.2.0 introduisant la Decisions API.",
-   "creee": "2026-10-20T09:56:16.457937+00:00",
-   "maj": "2026-11-11T18:00:00+00:00",
-   "episodes": [
-    {
-     "id": "15e70ee5e4a75a",
-     "date": "2026-09-30T20:01:45+00:00",
-     "titre": "Google DeepMind annonce Gemini 4 Argon",
-     "neuf": "Google DeepMind annonce l'arrivée de son modèle d'IA frontière Gemini 4 Argon.",
-     "fil": "Annonce initiale du modèle Gemini 4 Argon par Google DeepMind",
-     "source": "Google DeepMind",
-     "lien": "https://deepmind.google/blog/gemini-4-argon-our-next-era-of-frontier-intelligence/",
-     "nb_sources": 2,
-     "primaire": false
-    },
-    {
-     "id": "16c1598a645116",
-     "date": "2026-10-01T07:00:00+00:00",
-     "titre": "Google lance Gemini 4 Argon, un modèle ultra-puissant réservé aux experts",
-     "neuf": "Le modèle Gemini 4 Argon est initialement réservé à un cercle restreint d'experts en cybersécurité.",
-     "fil": "Suite sur Gemini 4 Argon",
-     "source": "IA en français (actus)",
-     "lien": "https://news.google.com/rss/articles/CBMiwAJBVV95cUxPbm9zS21iUDk5OTBSU1ExUnMxRTBsbzBIdWJOMTloa0toNnp2cnN5a01oSlduSlpsUEhKbWQyUnJsU3FlVmJjVnRFZzJLRnNTRzJOZjFPcG82TF9LUzV6UU03UWFSblJSZzgwMTRIX1Z6YU50dkRFYjZzM29BVWFDVnR4LWdBN1pzOVlZS3pzWVJMRWhJQWJxbllsbGVXd0VwWDI2bFZJbm9udVR1UDhqRkJKdEVXOTU1cHVFZHFId1VTWXBzLTR4WTdPZjF4QTc4VEJkUUtpZTE0Y0dwNmdSSlNuSmVHQUtCM1R3LWY0QU1LcWQxSjc5d3VYdldSMkZMSDVCRG1raXl5QzlDcjg2WWhxUTUySlowMkRURnJCa3RvUmZKNV9INkNJSm91elVxZXc4bzNuZnJneFdFRUhROQ?oc=5",
-     "nb_sources": 1,
-     "primaire": false
-    },
-    {
-     "id": "c1e94fc831365c",
-     "date": "2026-10-13T16:00:00+00:00",
-     "titre": "Google DeepMind lance Gemini 4 Argon",
-     "neuf": "Google présente de nouveau Gemini 4 Argon comme un modèle conçu pour résoudre des problèmes complexes.",
-     "fil": "Extension du déploiement de Gemini 4 Argon",
-     "source": "Google AI",
-     "lien": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-argon/",
-     "nb_sources": 3,
-     "primaire": false
-    },
-    {
-     "id": "f9eb89f74ed89d",
-     "date": "2026-10-13T16:10:19+00:00",
-     "titre": "Google lance Gemini 4 Argon, son nouveau modèle phare pour développeurs et entreprises",
-     "neuf": "Google officialise le déploiement à large échelle de Gemini 4 Argon pour les développeurs et entreprises.",
-     "fil": "Disponibilité élargie de Gemini 4 Argon",
-     "source": "Grandes annonces IA",
-     "lien": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQclhsaXp4NUtqeVJDQTNIUjVXQVdJcnNXYnpYZUFTZm4wY3UxcTM1SzJvdzRBNE9HaURlNG1obzFGQ0o3R0pWNVJfNGFDOUdFZnhfdEJxSkszQ2hZQlowMjdCbVliRE9uX3A5ak1CYkJHOEV1elBYRWgtUHBwdF9lcWEyUGdjbmhQb2JONkpNeWhLTHgzQzRhRFRnZTEwcDRCa3k3RkpxY0c5Z1RsSlFCSmQwNmRmQQ?oc=5",
-     "nb_sources": 2,
-     "primaire": false
-    },
-    {
-     "id": "471508c04c304c",
-     "date": "2026-10-13T19:43:07+00:00",
-     "titre": "Google DeepMind annonce le développement sécurisé de Gemini 4 Argon",
-     "neuf": "Google DeepMind annonce le développement du modèle en insistant sur la sécurité et la responsabilité.",
-     "fil": "Même modèle Gemini 4 Argon",
-     "source": "Google DeepMind",
-     "lien": "https://deepmind.google/blog/developing-gemini-4-argon-responsibly-and-safely/",
-     "nb_sources": 1,
-     "primaire": false
-    },
-    {
-     "id": "58bef2b78b9c5f",
-     "date": "2026-10-18T12:43:42+00:00",
-     "titre": "Quatre agents Gemini 4 Argon terminent Minecraft sans aide humaine",
-     "neuf": "Quatre agents propulsés par Gemini 4 Argon parviennent à terminer le jeu Minecraft de manière autonome.",
-     "fil": "même modèle Gemini 4 Argon",
-     "source": "Google Gemini (actus)",
-     "lien": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNdVViZFVsamhYNzZfb2xUN3ZkdHlDcVRNWWktdmRjZ3gxUHJwc3F5MnBibHpCVVo2LWRtM0lLM1MxSG82ampTWF9IcGUtUnAyMUtCWmw5X0pReDViVXBTeFh5dXY2SkVFcWlueFBvdGZ2Z19OdWgzc3NOY3kyaDd2SDBDWnhsb0xvNEFVWWo2UXRoaTA?oc=5",
-     "nb_sources": 1,
-     "primaire": false
-    },
-    {
-     "id": "14367e39ff3673",
-     "date": "2026-10-19T16:45:48+00:00",
-     "titre": "Google Gemini 4 Argon : Annonce et perspectives",
-     "neuf": "Nouvelles annonces autour du positionnement et des perspectives de Gemini 4 Argon.",
-     "fil": "Même modèle Gemini 4 Argon",
-     "source": "Google Gemini (actus)",
-     "lien": "https://news.google.com/rss/articles/CBMickFVX3lxTE1uZTJkalB3aTJDdmZFOFhaOHJDZG43YTdOOGRoQkZGeEgyTVp1ak5QcDNvbXN2aXZUWWJLZE5VeXo3d0dXc0NuMGw2bFJfd2hPTUktZnVXcHM1ZnBIWW5RX2F2NGZKbS13UnFmTm5vSEd2dw?oc=5",
-     "nb_sources": 1,
-     "primaire": false
-    },
-    {
-     "id": "c4ea13b1040293",
-     "date": "2026-10-20T10:25:00+00:00",
-     "titre": "Quatre agents IA de Google DeepMind battent Minecraft en 27 heures",
-     "neuf": "Quatre agents IA de Google DeepMind ont réussi à finir le jeu Minecraft en 27 heures en écrivant des milliers de programmes, au prix d'un coût important en jetons.",
-     "fil": "mêmes agents IA de Google DeepMind sur Minecraft",
-     "source": "Google Gemini (actus)",
-     "lien": "https://news.google.com/rss/articles/CBMi-wJBVV95cUxPTXUtclRkR2lEMFJ6ZnY1X0NlVmNjSWpUY01hbTFMYnVLTm9VSjE4ZUIyakZNTGRlZFM1cHVYbURjTU0xZjVlb2JkTWdjRlVNS2VrRU9PeHdyZU8zczJEYVJUWDJlTUJxeHIwVHN0WjgxV19pUHRqeEF2U2RaU3RkVnpta1lVZjk0NGVITEJXbVFnajdyNkxXLUk3MzFIM2hRWjRjYXNGME1ZeUJ1TDY4dTNucE9SZzBTbHdXS3JsYlZqNzgybnVvU0J3dllKem1wRlJkaHNwbC1hRE1ZZXNzZ216MUdfU01vdS1YY2dxNU0tNTZpWTVIb2FjWnNNYkI4bk1uNzh4bThEX1M5Y2h4S2Zsc1BDVV9LSlExdzF6d3VZRzh5NzFBcXdTNWNINlRBUVdfRmZ5UzZ5bU93YlNhZmxqVGdodGxBZU1ycGtTNEszTzh6dDlWZm1VRmk4S0x4TmlZZDJzWDl4NHBYazFGV185YjZ4c1MwQ1lB?oc=5",
-     "nb_sources": 1,
-     "primaire": false
-    },
-    {
-     "id": "641825df9197d5",
-     "date": "2026-10-21T13:02:42+00:00",
-     "titre": "Gemini 4 Carbon : vers une baisse massive des coûts d'IA",
-     "neuf": "Le futur modèle Gemini 4 Carbon est annoncé avec des coûts prétendument inférieurs de 400 % à ceux de son concurrent GPT Astra.",
-     "fil": "même famille de modèles Google Gemini 4",
-     "source": "Google Gemini (actus)",
-     "lien": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBMRXhuRUFOOGQzdjh6R3hkY2xIbHpJMk9WY1E3R0Iwc0kwTG1UUlhKMW91bF9aY21RT2E0NXEzRHlKVkdoWDl0d2FqWHVyVHZlOHlraFhlTWRsNWJBbkdRUVNUa2xfSE1iSEFpcWVB?oc=5",
-     "nb_sources": 1,
-     "primaire": false
-    },
-    {
-     "id": "5d569a00a1354c",
-     "date": "2026-10-22T19:34:44+00:00",
-     "titre": "Google DeepMind utilise Gemini 4 Argon pour apprendre de nouvelles compétences aux robots",
-     "neuf": "Gemini 4 Argon est désormais appliqué à l'apprentissage de nouvelles compétences pour les robots humanoïdes Apptronik à partir de simples vidéos.",
-     "fil": "même modèle Gemini 4 Argon",
-     "source": "Google Gemini (actus)",
-     "lien": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxPSVEwaG5UMVNDWVduOE9scVhpVUw5azY3T1VERHVvbGJIbHFTR0t4bzNtNWd4alk0T3BoajlLSnlfVWhlcEFMNkdnVUNsLWQwVm5TU1FZeE81bFpHZkR4QjcwMjNxekRYZTN4aU1wZHhFYW9YWU1wNVlMSDJMS2NpX1ZfLTBWb24yWnNxaGx3bWo2MnVoWFVNZjhzSDBqb0NaMVR6bEZBZ0NoUnVTWjBzaHhzb0YyVWJVWkhBM3pSUnNGWWh5ZnhwOGlGdWZyZzRDcVliUmVJRVJKZnNxVUdxZnRXMTU?oc=5",
-     "nb_sources": 1,
-     "primaire": false
-    },
-    {
-     "id": "6017f42bfa9cb6",
-     "date": "2026-10-23T20:13:43+00:00",
-     "titre": "Gemini 4 Argon : l'entraînement massif sature les serveurs de Google",
-     "neuf": "L'entraînement massif du modèle Gemini 4 Argon monopolise 25 billions de tokens et sature les serveurs de Google.",
-     "fil": "Même modèle Gemini 4 Argon",
-     "source": "Google Gemini (actus)",
-     "lien": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOXzlmX0VtN1B5UVhicDZLVWhLTU93cnZRaE8tVFZMUVNCYzFEc2FFbG1QRFpkaFdPNG41YTZWQ3N1Q05KNGhEU3V1WndBbWNHZTUyMTd4anQ3aVc3NVhmV2FveGRQWDdCR04xOEd4LVJfbFFrMzBpU2FSSG9xN3dJcUtNSVU5cDU0RWxsLXozVHdnNE4yaGxwc3pR?oc=5",
-     "nb_sources": 1,
-     "primaire": false
-    },
-    {
-     "id": "09b5411a8d8658",
-     "date": "2026-10-24T12:20:11+00:00",
-     "titre": "Comparatif Gemini vs ChatGPT : tests de performance entre Argon et GPT-6.1 Sol",
-     "neuf": "Publication d'un test comparatif direct entre les performances de Gemini 4 Argon et GPT-6.1 Sol.",
-     "fil": "même modèle Gemini 4 Argon",
-     "source": "Google Gemini (actus)",
-     "lien": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBOdUNoMGJyQzA3c3F3NjF3ZHljSU1XZUQ4dkFLS2Y5UmZaS0F4WDc4X013VmJuTmVLS0V3M0NuVEl1QzVMSWVQejJDWFlkZmpKMjRpTThiNDdaUjZjSk9JRVVMTDV0NDZ6SUc0NThpbEVEWU5BZWRRd2FJWjd2UFU?oc=5",
-     "nb_sources": 1,
-     "primaire": false
-    },
-    {
-     "id": "0222cb39eb9690",
-     "date": "2026-10-24T16:00:02+00:00",
-     "titre": "Google Optimizes Agent Development Kit's 200K-line Python Codebase Overnight with Gemini 4 Argon - infoq.com",
-     "neuf": "Google utilise Gemini 4 Argon pour optimiser en une nuit une base de code Python de 200 000 lignes.",
-     "fil": "Applications pratiques du modèle Gemini 4 Argon",
-     "source": "Google Gemini (actus)",
-     "lien": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1qcUw2RWl0OHUtRUJLOXA2Y0VYX214QVZqZnFvOW1HYlhsSEthUUdBY1JVSzlWakIzUFhxNzl1ZDVOVDdZc3dSbHlETzV1eGtzT0lkT3lRdVFyY1NteEZIZWFNdDVUbXJ0R1ZqdE1naw?oc=5",
-     "nb_sources": 1,
-     "primaire": false
-    },
-    {
-     "id": "4dcce3a85e1ad1",
-     "date": "2026-10-25T10:33:00+00:00",
-     "titre": "Google DeepMind crée un tableau périodique 3D avec Gemini 4 Argon",
-     "neuf": "Gemini 4 Argon est utilisé par Google DeepMind pour concevoir un tableau périodique en trois dimensions.",
-     "fil": "même modèle Gemini 4 Argon",
-     "source": "Google Gemini (actus)",
-     "lien": "https://news.google.com/rss/articles/CBMigwJBVV95cUxQZmFqbWV1UW1hWmt2b1pBZTVjOWthVUNHYjd4V3RzeV9UX1hzSUVTQVRRZTRfMTBWdTMtalQtblBTd0Q4VTdWbENybm45UWx3TnRrcF9wb1UtVFVqeFI1UERmNnY2M2l0SjNBUnY0cjZMalFnSGpveXllT2tweUthaWdwa2hlWWFSRUV1VE5PbVBkbkJlQWxGNUFPMXl6Ql9XS0NZTkFSMFB4ajYwNU4tdDZuUm00UFNGQVlyVkpSdFpJWE5rb0xsSkg0TVlLa0luRy1rZXY3bUJHNEFWMTdPTloyVnZCMGZMUjFhLWVSZlBZakZmMWhEVE8tVDZKZkRPbkYw0gGIAkFVX3lxTE9fT3d3Yng3TVBINThDT01aNkZnQkxHTFIta0FYR1NaSWxZUUYyMHIxa3VGdWowUHk0TFpLdURkV0p4RFIzRmhtVGdHdmRZdWFuZW44bEtlOW1wMDZBc245cEFyaTUzTTFhT0lyVnl4STkySS00TFBWd3l5S180blFkekdxdkNUbjBNdVN3X0EwcVNITk9sN05aZjVWV2NsVFhHek5uTjhsQm1RUFpMUVBudVBRNExyUlVzYUFhRUdCekp6dU1hOVhpVkROWjIxSnhHeUxWNVIwR2J2OUZkdG5COFhCMUlYdkZoczRUSlQ3djEtTDBFanBYamwweDZCaEdFNEZkYWd6TA?oc=5",
-     "nb_sources": 1,
-     "primaire": false
-    },
-    {
-     "id": "af728b0cf267c9",
-     "date": "2026-10-27T04:00:00+00:00",
-     "titre": "Google annonce Gemini 4 Argon : une intelligence accrue mais un impact mesuré",
-     "neuf": "Google présente officiellement Gemini 4 Argon avec des capacités avancées mais un impact immédiat nuancé.",
-     "fil": "annonce de Gemini 4 Argon",
-     "source": "Google Gemini (actus)",
-     "lien": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxOSXhERDNFS1ZEaVlrV0hId1BSTktrUEJzSWRxOGtSTEVwQzFLNjRqU25NUVU4aUhocUJDQ2pEQjBmYVpVd3RkdFBjSnNqMFBnTVBoZklTeHJpcjFCS0FvSDNkaWU4MG4yWEE4eTRsd0JNOHFyNDVwQ3Nva3dMd3Y1VnliMHRwaXlHS2ZXUEZFWEtTRzlFU1pNaUUxVEtyN2RlTHNHdTdBWk1QNkp6a2VWakR4UlBsd3FWdHpsZGx3LXJraFZmcjBYU1NwQlhvTnV6ajBDcjFpbE51UjgtT3Rrd1d3?oc=5",
-     "nb_sources": 1,
-     "primaire": false
-    },
-    {
-     "id": "e8dcc67b7678b7",
-     "date": "2026-10-27T04:10:37+00:00",
-     "titre": "Google annonce Gemini 4 Argon : focus sur le code, les agents et le jeu",
-     "neuf": "Focus sur la programmation, les agents autonomes et la performance dans le jeu pour Gemini 4 Argon.",
-     "fil": "spécificités de Gemini 4 Argon",
-     "source": "Google Gemini (actus)",
-     "lien": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQdnZhVzR2OVVoTkpvNm1JSmxhclY0cWk5c0FJNUk2MW5qVm1DdFkyTVNNdm00RjViQThzcTZlMDJMQmtjME9XRWE0SWY0dVlaY2FQeGlnOG9zQ2FpV1o3bl9OZHpDZUFEckVaS0tGMU56dDVuZW1fak9SR2MySVltNlNB?oc=5",
-     "nb_sources": 1,
-     "primaire": false
-    },
-    {
-     "id": "591b1cde4604de",
-     "date": "2026-10-27T14:31:49+00:00",
-     "titre": "Google intègre l'intelligence personnelle de Gemini dans les voitures",
-     "neuf": "Gemini intègre des fonctionnalités d'intelligence personnelle directement dans les systèmes embarqués automobiles.",
-     "fil": "Déploiement et disponibilité de Gemini",
-     "source": "Google Gemini (actus)",
-     "lien": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5Tc0tzMXVVMWNvOFUxM3F0aUFEWTI1bHRpcVF0SjZOc21TNHMxT1A4T3o4LTZOSHlyT1ljWFlmYnNYUTAtOW0yVk8xYVRMYktrX1hLVzFpX291QjRBc1M5c1hzTVBkMkVsbXgyNllWVTRLRkRHNGg2cTM2WlI2QQ?oc=5",
-     "nb_sources": 1,
-     "primaire": false
-    },
-    {
-     "id": "b83884add02f4b",
-     "date": "2026-10-27T15:14:55+00:00",
-     "titre": "Gemini Robotics Embodied Reasoning 2 disponible sur Google Cloud",
-     "neuf": "Le modèle Gemini Robotics Embodied Reasoning 2 est mis à disposition sur Google Cloud.",
-     "fil": "Gemini 4 / Gemini Robotics",
-     "source": "Google Gemini (actus)",
-     "lien": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPYmFHdjgxSllxUXBrQTBJSEJXWXdqLUYzcHM1TTRkZEpMeEwxMHZmVGNkd0hCMVlHb0VrdHhwUzJLQnEydFBvLTZvcVU1TVdaVlFVUllxQ2NQM1pmY24yRFRubjViLU9ONkpDUEhPVUMyU0pRX1hBRzVrOWtrTXFCRDZkcDl1Nnp0bmVqT0NTMGxZYVZ4Z29WSmh3V1A3NGRsYzBDWTNSVm9leV80cTlnYk9Ib2JQX3RzRlB6dUVNUGtUZVM1NThz?oc=5",
-     "nb_sources": 1,
-     "primaire": false
-    },
-    {
-     "id": "7ac5bd2caa3b15",
-     "date": "2026-10-30T13:05:12.658537+00:00",
-     "titre": "Disponibilité générale de l'outil Computer Use pour l'API Gemini",
-     "neuf": "L'outil Computer Use de Google passe en disponibilité générale (GA) pour les développeurs utilisant l'API Gemini.",
-     "fil": "même gamme Gemini et API associées",
-     "source": "Notes de version Gemini (API)",
-     "lien": "https://ai.google.dev/gemini-api/docs/changelog",
-     "nb_sources": 1,
-     "primaire": true
-    },
-    {
-     "id": "fe261067fe28e5",
-     "date": "2026-11-05T19:08:10+00:00",
-     "titre": "Gemini Omni 1.2 Flash étend les vidéos à 15 secondes et réduit les prix de 30 %",
-     "neuf": "Précision sur la durée des clips (15 secondes) et la baisse des tarifs de 30 %.",
-     "fil": "Même modèle Gemini Omni 1.2 Flash",
-     "source": "Google Gemini (actus)",
-     "lien": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNTGdycWROdW9kWlpFRWtJc0wzeVMtVTgxTENtWm1DbDJlREJxWkZKYWJLZWpQMEs0NTBHVW9BekxiZ3hJd1JfVnEzN3hwMm5fYThpMGZuQ0wxMnk4UUlHNG1kN0pZTTlqYXZEWG1Jd19Ld0pEVnZJR1dSVXhQLUMwZGtiWlcxM1V3VzFXWjRva3FzTGhudkIzaURaX1lTOXltVmdkaHduYk1JQnEyMDROSkFuTXhtME1BWncxTTdSc3MyQQ?oc=5",
-     "nb_sources": 1,
-     "primaire": false
-    },
-    {
-     "id": "efc3d11f786131",
-     "date": "2026-11-09T15:45:39+00:00",
-     "titre": "Google lance Gemini 4 Argon pour le contrôle des robots",
-     "neuf": "Google décline Gemini 4 Argon pour le contrôle robotique et la simulation.",
-     "fil": "même modèle Gemini 4 Argon",
-     "source": "Google Gemini (actus)",
-     "lien": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9JSUE2NjRhaHA4V1hYSGdWRXhNWllHLXZlY0VBZVR4U01HZmJlNEFfVGZMeE9CRXVUaTJucFZKSnpOMkVBZ1V2ZE5KREhlMWQwNXRQOWxhU084eW1LcEY4bFhERnlGQQ?oc=5",
-     "nb_sources": 1,
-     "primaire": false
-    },
-    {
-     "id": "a98763b80c842a",
-     "date": "2026-11-09T19:51:47+00:00",
-     "titre": "Google DeepMind dévoile Gemini Robotics 2.5 pour la dextérité robotique",
-     "neuf": "Google DeepMind dévoile Gemini Robotics 2.5 pour améliorer la dextérité et la fiabilité des robots.",
-     "fil": "Gemini Robotics 2.5 étend les capacités robotiques de Google",
-     "source": "Google DeepMind",
-     "lien": "https://deepmind.google/blog/gemini-robotics-2-5-accelerates-real-world-physical-intelligence/",
-     "nb_sources": 2,
-     "primaire": false
-    },
-    {
-     "id": "cc68ecc71bda41",
-     "date": "2026-11-10T01:04:06+00:00",
-     "titre": "Google réduit le prix de la vidéo 720p de Gemini Omni de 30 %",
-     "neuf": "Google réduit de 30% le prix de la vidéo 720p pour Gemini Omni et ajoute la prise en charge de clips de 15 secondes.",
-     "fil": "même écosystème Gemini Omni",
-     "source": "Google Gemini (actus)",
-     "lien": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNMlZyMEFYVG1nV1dYclhTdDNnRVdoUXUxdU1xbXBIVkdaMTZkdVpTS0Q2LS1ZaktwSkVEdEd6X2tJTzU2aVlfQi0zMWlpY2FMdEVESWdoMUY0R0xxOTZwN2FCUnVkVjRGOTRJYVZZdTNmUkVudlBKWVJpeTRNNGNhcHV4R3RvVGc5TC01ZzIydHBxbEVYeE1RWUswdU5nQXhFdnhEM1NQUDNvWHhVbzFzaHJLNA?oc=5",
-     "nb_sources": 1,
-     "primaire": false
-    },
-    {
-     "id": "620a9ae2784c9f",
-     "date": "2026-11-10T15:00:39+00:00",
-     "titre": "DeepMind reveals Gemini Robotics 2.5 and open safety benchmark \"ASIMOV-jailbreak\" - Ars Technica",
-     "neuf": "Google DeepMind officialise la sortie de Gemini Robotics 2.5 aux côtés d'un benchmark de sécurité open source.",
-     "fil": "Déploiement de Gemini Robotics 2.5",
-     "source": "Google Gemini (actus)",
-     "lien": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNSzRrTEw4QUxHdnc3UUlmUE04TXJrX3BlSDFTQ0FWYWticVpaLVhvZzJlMVVodXdRLVpEbENfakZEbkROeDc5YTV2M2U1eVpxWkFlMEJUbURibWxWemJ6RWtpM0Npblp6UnVpOUtWWkE1Ri0tanhEUlNXT0FSUVFGM0w5WnBPNFE1OGF2c0R2SHhFb0J5OU1fYjhmOU1OV1FEcnlNNjhleUNLX3I1VVh5OUtoaFdvZDNqdnRn?oc=5",
-     "nb_sources": 1,
-     "primaire": false
-    },
-    {
-     "id": "ac5a661efbfd50",
-     "date": "2026-11-10T19:00:00+00:00",
-     "titre": "Google déploie de nouvelles fonctionnalités Gemini sur davantage d'appareils",
-     "neuf": "Google étend les capacités de Gemini Intelligence à un plus grand nombre d'appareils.",
-     "fil": "même déploiement des fonctionnalités Gemini sur de nouveaux appareils",
-     "source": "Google AI",
-     "lien": "https://blog.google/products-and-platforms/platforms/android/gemini-intelligence-november-features-devices/",
-     "nb_sources": 1,
-     "primaire": false
-    },
-    {
-     "id": "8e4104a923ec61",
-     "date": "2026-11-11T18:00:00+00:00",
-     "titre": "Google lance la Gemini Decisions API pour les développeurs",
-     "neuf": "Google officialise le lancement de la Decisions API pour automatiser la prise de décision via Gemini.",
-     "fil": "Lancement officiel de la Gemini Decisions API pour les développeurs",
-     "source": "Hacker News (IA, 100+ pts)",
-     "lien": "https://blog.google/innovation-and-ai/technology/developers-tools/gemini-decisions-api/",
-     "nb_sources": 2,
-     "primaire": false
-    }
-   ],
-   "statut": "active",
-   "societes": [
-    "google",
-    "openai"
-   ]
-  },
-  {
    "id": "h_5febc86840",
    "titre": "L'introduction en Bourse d'Anthropic",
-   "resume": "Anthropic concrétise sa méga-introduction en bourse dans un climat d'optimisme marqué par une forte sursouscription et une hausse du trafic de Claude, malgré des interrogations persistantes sur la valorisation et des prévisions contrastées.",
+   "resume": "Anthropic concrétise sa méga-introduction en bourse avec une forte participation annoncée des investisseurs particuliers (20 % réservés) et des engagements massifs de 10 milliards de dollars chacun de la part de Nvidia et Alphabet.",
    "creee": "2026-10-20T09:56:16.457937+00:00",
-   "maj": "2026-11-11T16:51:01+00:00",
+   "maj": "2026-11-11T23:30:48+00:00",
    "episodes": [
     {
      "id": "6702d1aaf0afce",
@@ -1992,11 +1714,366 @@
      "lien": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQcnY3SEdBcnM4NEVjV1hISVF0SUxqSjh4MWtkdkI4b1BGS0U0Vi0xV3lUbUVhR0dvalBHOElHX1NtVWJwNzlkb1N3WjBrbjdpZkkwQjZzVEJPVHlyOEphNG1rSUVMYWVYRFhreVhBeEFScFRBYXhmUmV1VGMyN2FWRFJJaFMwNl9PQ1owaTFXc0F5a1lOYXFBX2lnYWRvZndpYXJEazZDU1Ywai10eDd2aDFENWp5U1FMYjl0OS1ZdDJyOUZNMEE?oc=5",
      "nb_sources": 1,
      "primaire": false
+    },
+    {
+     "id": "a08ea18973567d",
+     "date": "2026-11-11T17:23:49+00:00",
+     "titre": "L'introduction en bourse d'Anthropic pourrait attirer un record d'achats particuliers",
+     "neuf": "Vanda Research anticipe un intérêt record des investisseurs particuliers pour l'IPO.",
+     "fil": "même introduction en Bourse d'Anthropic",
+     "source": "Anthropic (actus)",
+     "lien": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPSkc4cW15aGVaZG4tLTR1YVpRUWJzNXVtQ0RyR2d1bEFXTFFIU2xhWEduUmxTUFJWZEt0cVh3ZDNxNnRwV2k0WFlnMlNycWpycVVSNGl0Qy1NMlhvZVBUWVhVVGhISDZpcUxBdGVFQnRXRzhCTGZYZVEzUEh1MjlBOFZ6X2p3eG4tUlF3a3NNUXhzYzU5d0NmcVhqS1QzcG5DMUItVWlDdlJ3U1ZoU0tscy1xa3Fxbnh2dHhPYmpNQ1VZOUk0?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "e7b616287ba62a",
+     "date": "2026-11-11T21:39:04+00:00",
+     "titre": "Anthropic réserve 20% de son introduction en bourse aux particuliers",
+     "neuf": "Anthropic prévoit de réserver 20 % de son introduction en bourse aux investisseurs particuliers.",
+     "fil": "même introduction en Bourse d'Anthropic",
+     "source": "Anthropic (actus)",
+     "lien": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQUjgtYTBNSWRqZ011YWk1SVlYdnBuWFlHcFR4eUhaaDU5bENOcldKdElscC1lRmlvcWtEUUtTUUY1WFYzdTZrUXk1S2JsQ3hYTG5ZLUV5blUySHhVdWhHbU1semZ0NU9zbHE0QjgtR1FpZmx4YUxDMm91dGFUbmdzelR6MlBSdXpBc1lWa3VYSDNjaDUzbU5vVVUyaFdLNzlDMHBkbDlqNTdYRjh0dF9fRzE4REV1aXRPcXYxSjdDNDh1TzF4?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "612f055b3324a1",
+     "date": "2026-11-11T22:47:00+00:00",
+     "titre": "Nvidia et Alphabet investissent 10 milliards de dollars chacun dans Anthropic",
+     "neuf": "Nvidia et Alphabet s'engagent à acheter chacun pour 10 milliards de dollars d'actions lors de l'IPO d'Anthropic.",
+     "fil": "même introduction en Bourse d'Anthropic",
+     "source": "Anthropic (actus)",
+     "lien": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNZ1NPRnN4V1I4SmpvVG5PU1FQYnUwMDA2Y3pOc1FRclg1cm1hR1hmR042TUFGYzNETTdPVlFJR2hWUVBCeXZMQ3g4bVhYYjB1R3FLdzVQZjNUUW85ZHNKZDBHTlBEc0VEUC1ud0pXR3U2VUZJZ1BfdnMyeVNJWDRTMWY0Yktwd0pWWGh5Qm1qX2hqT0lCMlo1ckI0MnNad0ZmWTdQS2c4ZldwcnE3VGZiczB5QmZPY3NyZWQzZkZ1YzNnLTk1M2Q4SmQwM21ub0NfeWc?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "429fe31c4f662a",
+     "date": "2026-11-11T23:30:48+00:00",
+     "titre": "Analyse de Jim Cramer sur le pari d'une introduction en bourse d'Anthropic",
+     "neuf": "Analyse financière de Jim Cramer sur le pari de l'introduction en bourse d'Anthropic.",
+     "fil": "même introduction en Bourse d'Anthropic",
+     "source": "Anthropic (actus)",
+     "lien": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPUUU1UTJ3dnVtQlBEN3FnbnhzUmVuUFd4UTdfOVQ4bW9lb1dXUVVqa3dPOXR4d0tWazhrdHBqajgwdnFEVk55UmIzZnF4MUR0ZnI0SVA0N2gxU0dObDBsSmNUY3N6NWlSYUd0VE1TY2NtT1Zta2hGbU9iSWtmaUxWdUN5ZS0xZw?oc=5",
+     "nb_sources": 1,
+     "primaire": false
     }
    ],
    "statut": "active",
    "societes": [
     "anthropic",
+    "openai"
+   ]
+  },
+  {
+   "id": "h_520aa59662",
+   "titre": "Déploiement et disponibilité de Gemini 4 Argon",
+   "resume": "Google continue d'étendre son écosystème Gemini à travers de nouveaux déploiements matériels, l'intégration des fonctionnalités sur la gamme Pixel 10 et le lancement du SDK Gemini 3.2.0 introduisant la Decisions API.",
+   "creee": "2026-10-20T09:56:16.457937+00:00",
+   "maj": "2026-11-11T18:00:00+00:00",
+   "episodes": [
+    {
+     "id": "15e70ee5e4a75a",
+     "date": "2026-09-30T20:01:45+00:00",
+     "titre": "Google DeepMind annonce Gemini 4 Argon",
+     "neuf": "Google DeepMind annonce l'arrivée de son modèle d'IA frontière Gemini 4 Argon.",
+     "fil": "Annonce initiale du modèle Gemini 4 Argon par Google DeepMind",
+     "source": "Google DeepMind",
+     "lien": "https://deepmind.google/blog/gemini-4-argon-our-next-era-of-frontier-intelligence/",
+     "nb_sources": 2,
+     "primaire": false
+    },
+    {
+     "id": "16c1598a645116",
+     "date": "2026-10-01T07:00:00+00:00",
+     "titre": "Google lance Gemini 4 Argon, un modèle ultra-puissant réservé aux experts",
+     "neuf": "Le modèle Gemini 4 Argon est initialement réservé à un cercle restreint d'experts en cybersécurité.",
+     "fil": "Suite sur Gemini 4 Argon",
+     "source": "IA en français (actus)",
+     "lien": "https://news.google.com/rss/articles/CBMiwAJBVV95cUxPbm9zS21iUDk5OTBSU1ExUnMxRTBsbzBIdWJOMTloa0toNnp2cnN5a01oSlduSlpsUEhKbWQyUnJsU3FlVmJjVnRFZzJLRnNTRzJOZjFPcG82TF9LUzV6UU03UWFSblJSZzgwMTRIX1Z6YU50dkRFYjZzM29BVWFDVnR4LWdBN1pzOVlZS3pzWVJMRWhJQWJxbllsbGVXd0VwWDI2bFZJbm9udVR1UDhqRkJKdEVXOTU1cHVFZHFId1VTWXBzLTR4WTdPZjF4QTc4VEJkUUtpZTE0Y0dwNmdSSlNuSmVHQUtCM1R3LWY0QU1LcWQxSjc5d3VYdldSMkZMSDVCRG1raXl5QzlDcjg2WWhxUTUySlowMkRURnJCa3RvUmZKNV9INkNJSm91elVxZXc4bzNuZnJneFdFRUhROQ?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "c1e94fc831365c",
+     "date": "2026-10-13T16:00:00+00:00",
+     "titre": "Google DeepMind lance Gemini 4 Argon",
+     "neuf": "Google présente de nouveau Gemini 4 Argon comme un modèle conçu pour résoudre des problèmes complexes.",
+     "fil": "Extension du déploiement de Gemini 4 Argon",
+     "source": "Google AI",
+     "lien": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-argon/",
+     "nb_sources": 3,
+     "primaire": false
+    },
+    {
+     "id": "f9eb89f74ed89d",
+     "date": "2026-10-13T16:10:19+00:00",
+     "titre": "Google lance Gemini 4 Argon, son nouveau modèle phare pour développeurs et entreprises",
+     "neuf": "Google officialise le déploiement à large échelle de Gemini 4 Argon pour les développeurs et entreprises.",
+     "fil": "Disponibilité élargie de Gemini 4 Argon",
+     "source": "Grandes annonces IA",
+     "lien": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQclhsaXp4NUtqeVJDQTNIUjVXQVdJcnNXYnpYZUFTZm4wY3UxcTM1SzJvdzRBNE9HaURlNG1obzFGQ0o3R0pWNVJfNGFDOUdFZnhfdEJxSkszQ2hZQlowMjdCbVliRE9uX3A5ak1CYkJHOEV1elBYRWgtUHBwdF9lcWEyUGdjbmhQb2JONkpNeWhLTHgzQzRhRFRnZTEwcDRCa3k3RkpxY0c5Z1RsSlFCSmQwNmRmQQ?oc=5",
+     "nb_sources": 2,
+     "primaire": false
+    },
+    {
+     "id": "471508c04c304c",
+     "date": "2026-10-13T19:43:07+00:00",
+     "titre": "Google DeepMind annonce le développement sécurisé de Gemini 4 Argon",
+     "neuf": "Google DeepMind annonce le développement du modèle en insistant sur la sécurité et la responsabilité.",
+     "fil": "Même modèle Gemini 4 Argon",
+     "source": "Google DeepMind",
+     "lien": "https://deepmind.google/blog/developing-gemini-4-argon-responsibly-and-safely/",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "58bef2b78b9c5f",
+     "date": "2026-10-18T12:43:42+00:00",
+     "titre": "Quatre agents Gemini 4 Argon terminent Minecraft sans aide humaine",
+     "neuf": "Quatre agents propulsés par Gemini 4 Argon parviennent à terminer le jeu Minecraft de manière autonome.",
+     "fil": "même modèle Gemini 4 Argon",
+     "source": "Google Gemini (actus)",
+     "lien": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNdVViZFVsamhYNzZfb2xUN3ZkdHlDcVRNWWktdmRjZ3gxUHJwc3F5MnBibHpCVVo2LWRtM0lLM1MxSG82ampTWF9IcGUtUnAyMUtCWmw5X0pReDViVXBTeFh5dXY2SkVFcWlueFBvdGZ2Z19OdWgzc3NOY3kyaDd2SDBDWnhsb0xvNEFVWWo2UXRoaTA?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "14367e39ff3673",
+     "date": "2026-10-19T16:45:48+00:00",
+     "titre": "Google Gemini 4 Argon : Annonce et perspectives",
+     "neuf": "Nouvelles annonces autour du positionnement et des perspectives de Gemini 4 Argon.",
+     "fil": "Même modèle Gemini 4 Argon",
+     "source": "Google Gemini (actus)",
+     "lien": "https://news.google.com/rss/articles/CBMickFVX3lxTE1uZTJkalB3aTJDdmZFOFhaOHJDZG43YTdOOGRoQkZGeEgyTVp1ak5QcDNvbXN2aXZUWWJLZE5VeXo3d0dXc0NuMGw2bFJfd2hPTUktZnVXcHM1ZnBIWW5RX2F2NGZKbS13UnFmTm5vSEd2dw?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "c4ea13b1040293",
+     "date": "2026-10-20T10:25:00+00:00",
+     "titre": "Quatre agents IA de Google DeepMind battent Minecraft en 27 heures",
+     "neuf": "Quatre agents IA de Google DeepMind ont réussi à finir le jeu Minecraft en 27 heures en écrivant des milliers de programmes, au prix d'un coût important en jetons.",
+     "fil": "mêmes agents IA de Google DeepMind sur Minecraft",
+     "source": "Google Gemini (actus)",
+     "lien": "https://news.google.com/rss/articles/CBMi-wJBVV95cUxPTXUtclRkR2lEMFJ6ZnY1X0NlVmNjSWpUY01hbTFMYnVLTm9VSjE4ZUIyakZNTGRlZFM1cHVYbURjTU0xZjVlb2JkTWdjRlVNS2VrRU9PeHdyZU8zczJEYVJUWDJlTUJxeHIwVHN0WjgxV19pUHRqeEF2U2RaU3RkVnpta1lVZjk0NGVITEJXbVFnajdyNkxXLUk3MzFIM2hRWjRjYXNGME1ZeUJ1TDY4dTNucE9SZzBTbHdXS3JsYlZqNzgybnVvU0J3dllKem1wRlJkaHNwbC1hRE1ZZXNzZ216MUdfU01vdS1YY2dxNU0tNTZpWTVIb2FjWnNNYkI4bk1uNzh4bThEX1M5Y2h4S2Zsc1BDVV9LSlExdzF6d3VZRzh5NzFBcXdTNWNINlRBUVdfRmZ5UzZ5bU93YlNhZmxqVGdodGxBZU1ycGtTNEszTzh6dDlWZm1VRmk4S0x4TmlZZDJzWDl4NHBYazFGV185YjZ4c1MwQ1lB?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "641825df9197d5",
+     "date": "2026-10-21T13:02:42+00:00",
+     "titre": "Gemini 4 Carbon : vers une baisse massive des coûts d'IA",
+     "neuf": "Le futur modèle Gemini 4 Carbon est annoncé avec des coûts prétendument inférieurs de 400 % à ceux de son concurrent GPT Astra.",
+     "fil": "même famille de modèles Google Gemini 4",
+     "source": "Google Gemini (actus)",
+     "lien": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBMRXhuRUFOOGQzdjh6R3hkY2xIbHpJMk9WY1E3R0Iwc0kwTG1UUlhKMW91bF9aY21RT2E0NXEzRHlKVkdoWDl0d2FqWHVyVHZlOHlraFhlTWRsNWJBbkdRUVNUa2xfSE1iSEFpcWVB?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "5d569a00a1354c",
+     "date": "2026-10-22T19:34:44+00:00",
+     "titre": "Google DeepMind utilise Gemini 4 Argon pour apprendre de nouvelles compétences aux robots",
+     "neuf": "Gemini 4 Argon est désormais appliqué à l'apprentissage de nouvelles compétences pour les robots humanoïdes Apptronik à partir de simples vidéos.",
+     "fil": "même modèle Gemini 4 Argon",
+     "source": "Google Gemini (actus)",
+     "lien": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxPSVEwaG5UMVNDWVduOE9scVhpVUw5azY3T1VERHVvbGJIbHFTR0t4bzNtNWd4alk0T3BoajlLSnlfVWhlcEFMNkdnVUNsLWQwVm5TU1FZeE81bFpHZkR4QjcwMjNxekRYZTN4aU1wZHhFYW9YWU1wNVlMSDJMS2NpX1ZfLTBWb24yWnNxaGx3bWo2MnVoWFVNZjhzSDBqb0NaMVR6bEZBZ0NoUnVTWjBzaHhzb0YyVWJVWkhBM3pSUnNGWWh5ZnhwOGlGdWZyZzRDcVliUmVJRVJKZnNxVUdxZnRXMTU?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "6017f42bfa9cb6",
+     "date": "2026-10-23T20:13:43+00:00",
+     "titre": "Gemini 4 Argon : l'entraînement massif sature les serveurs de Google",
+     "neuf": "L'entraînement massif du modèle Gemini 4 Argon monopolise 25 billions de tokens et sature les serveurs de Google.",
+     "fil": "Même modèle Gemini 4 Argon",
+     "source": "Google Gemini (actus)",
+     "lien": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOXzlmX0VtN1B5UVhicDZLVWhLTU93cnZRaE8tVFZMUVNCYzFEc2FFbG1QRFpkaFdPNG41YTZWQ3N1Q05KNGhEU3V1WndBbWNHZTUyMTd4anQ3aVc3NVhmV2FveGRQWDdCR04xOEd4LVJfbFFrMzBpU2FSSG9xN3dJcUtNSVU5cDU0RWxsLXozVHdnNE4yaGxwc3pR?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "09b5411a8d8658",
+     "date": "2026-10-24T12:20:11+00:00",
+     "titre": "Comparatif Gemini vs ChatGPT : tests de performance entre Argon et GPT-6.1 Sol",
+     "neuf": "Publication d'un test comparatif direct entre les performances de Gemini 4 Argon et GPT-6.1 Sol.",
+     "fil": "même modèle Gemini 4 Argon",
+     "source": "Google Gemini (actus)",
+     "lien": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBOdUNoMGJyQzA3c3F3NjF3ZHljSU1XZUQ4dkFLS2Y5UmZaS0F4WDc4X013VmJuTmVLS0V3M0NuVEl1QzVMSWVQejJDWFlkZmpKMjRpTThiNDdaUjZjSk9JRVVMTDV0NDZ6SUc0NThpbEVEWU5BZWRRd2FJWjd2UFU?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "0222cb39eb9690",
+     "date": "2026-10-24T16:00:02+00:00",
+     "titre": "Google Optimizes Agent Development Kit's 200K-line Python Codebase Overnight with Gemini 4 Argon - infoq.com",
+     "neuf": "Google utilise Gemini 4 Argon pour optimiser en une nuit une base de code Python de 200 000 lignes.",
+     "fil": "Applications pratiques du modèle Gemini 4 Argon",
+     "source": "Google Gemini (actus)",
+     "lien": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1qcUw2RWl0OHUtRUJLOXA2Y0VYX214QVZqZnFvOW1HYlhsSEthUUdBY1JVSzlWakIzUFhxNzl1ZDVOVDdZc3dSbHlETzV1eGtzT0lkT3lRdVFyY1NteEZIZWFNdDVUbXJ0R1ZqdE1naw?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "4dcce3a85e1ad1",
+     "date": "2026-10-25T10:33:00+00:00",
+     "titre": "Google DeepMind crée un tableau périodique 3D avec Gemini 4 Argon",
+     "neuf": "Gemini 4 Argon est utilisé par Google DeepMind pour concevoir un tableau périodique en trois dimensions.",
+     "fil": "même modèle Gemini 4 Argon",
+     "source": "Google Gemini (actus)",
+     "lien": "https://news.google.com/rss/articles/CBMigwJBVV95cUxQZmFqbWV1UW1hWmt2b1pBZTVjOWthVUNHYjd4V3RzeV9UX1hzSUVTQVRRZTRfMTBWdTMtalQtblBTd0Q4VTdWbENybm45UWx3TnRrcF9wb1UtVFVqeFI1UERmNnY2M2l0SjNBUnY0cjZMalFnSGpveXllT2tweUthaWdwa2hlWWFSRUV1VE5PbVBkbkJlQWxGNUFPMXl6Ql9XS0NZTkFSMFB4ajYwNU4tdDZuUm00UFNGQVlyVkpSdFpJWE5rb0xsSkg0TVlLa0luRy1rZXY3bUJHNEFWMTdPTloyVnZCMGZMUjFhLWVSZlBZakZmMWhEVE8tVDZKZkRPbkYw0gGIAkFVX3lxTE9fT3d3Yng3TVBINThDT01aNkZnQkxHTFIta0FYR1NaSWxZUUYyMHIxa3VGdWowUHk0TFpLdURkV0p4RFIzRmhtVGdHdmRZdWFuZW44bEtlOW1wMDZBc245cEFyaTUzTTFhT0lyVnl4STkySS00TFBWd3l5S180blFkekdxdkNUbjBNdVN3X0EwcVNITk9sN05aZjVWV2NsVFhHek5uTjhsQm1RUFpMUVBudVBRNExyUlVzYUFhRUdCekp6dU1hOVhpVkROWjIxSnhHeUxWNVIwR2J2OUZkdG5COFhCMUlYdkZoczRUSlQ3djEtTDBFanBYamwweDZCaEdFNEZkYWd6TA?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "af728b0cf267c9",
+     "date": "2026-10-27T04:00:00+00:00",
+     "titre": "Google annonce Gemini 4 Argon : une intelligence accrue mais un impact mesuré",
+     "neuf": "Google présente officiellement Gemini 4 Argon avec des capacités avancées mais un impact immédiat nuancé.",
+     "fil": "annonce de Gemini 4 Argon",
+     "source": "Google Gemini (actus)",
+     "lien": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxOSXhERDNFS1ZEaVlrV0hId1BSTktrUEJzSWRxOGtSTEVwQzFLNjRqU25NUVU4aUhocUJDQ2pEQjBmYVpVd3RkdFBjSnNqMFBnTVBoZklTeHJpcjFCS0FvSDNkaWU4MG4yWEE4eTRsd0JNOHFyNDVwQ3Nva3dMd3Y1VnliMHRwaXlHS2ZXUEZFWEtTRzlFU1pNaUUxVEtyN2RlTHNHdTdBWk1QNkp6a2VWakR4UlBsd3FWdHpsZGx3LXJraFZmcjBYU1NwQlhvTnV6ajBDcjFpbE51UjgtT3Rrd1d3?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "e8dcc67b7678b7",
+     "date": "2026-10-27T04:10:37+00:00",
+     "titre": "Google annonce Gemini 4 Argon : focus sur le code, les agents et le jeu",
+     "neuf": "Focus sur la programmation, les agents autonomes et la performance dans le jeu pour Gemini 4 Argon.",
+     "fil": "spécificités de Gemini 4 Argon",
+     "source": "Google Gemini (actus)",
+     "lien": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQdnZhVzR2OVVoTkpvNm1JSmxhclY0cWk5c0FJNUk2MW5qVm1DdFkyTVNNdm00RjViQThzcTZlMDJMQmtjME9XRWE0SWY0dVlaY2FQeGlnOG9zQ2FpV1o3bl9OZHpDZUFEckVaS0tGMU56dDVuZW1fak9SR2MySVltNlNB?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "591b1cde4604de",
+     "date": "2026-10-27T14:31:49+00:00",
+     "titre": "Google intègre l'intelligence personnelle de Gemini dans les voitures",
+     "neuf": "Gemini intègre des fonctionnalités d'intelligence personnelle directement dans les systèmes embarqués automobiles.",
+     "fil": "Déploiement et disponibilité de Gemini",
+     "source": "Google Gemini (actus)",
+     "lien": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5Tc0tzMXVVMWNvOFUxM3F0aUFEWTI1bHRpcVF0SjZOc21TNHMxT1A4T3o4LTZOSHlyT1ljWFlmYnNYUTAtOW0yVk8xYVRMYktrX1hLVzFpX291QjRBc1M5c1hzTVBkMkVsbXgyNllWVTRLRkRHNGg2cTM2WlI2QQ?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "b83884add02f4b",
+     "date": "2026-10-27T15:14:55+00:00",
+     "titre": "Gemini Robotics Embodied Reasoning 2 disponible sur Google Cloud",
+     "neuf": "Le modèle Gemini Robotics Embodied Reasoning 2 est mis à disposition sur Google Cloud.",
+     "fil": "Gemini 4 / Gemini Robotics",
+     "source": "Google Gemini (actus)",
+     "lien": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPYmFHdjgxSllxUXBrQTBJSEJXWXdqLUYzcHM1TTRkZEpMeEwxMHZmVGNkd0hCMVlHb0VrdHhwUzJLQnEydFBvLTZvcVU1TVdaVlFVUllxQ2NQM1pmY24yRFRubjViLU9ONkpDUEhPVUMyU0pRX1hBRzVrOWtrTXFCRDZkcDl1Nnp0bmVqT0NTMGxZYVZ4Z29WSmh3V1A3NGRsYzBDWTNSVm9leV80cTlnYk9Ib2JQX3RzRlB6dUVNUGtUZVM1NThz?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "7ac5bd2caa3b15",
+     "date": "2026-10-30T13:05:12.658537+00:00",
+     "titre": "Disponibilité générale de l'outil Computer Use pour l'API Gemini",
+     "neuf": "L'outil Computer Use de Google passe en disponibilité générale (GA) pour les développeurs utilisant l'API Gemini.",
+     "fil": "même gamme Gemini et API associées",
+     "source": "Notes de version Gemini (API)",
+     "lien": "https://ai.google.dev/gemini-api/docs/changelog",
+     "nb_sources": 1,
+     "primaire": true
+    },
+    {
+     "id": "fe261067fe28e5",
+     "date": "2026-11-05T19:08:10+00:00",
+     "titre": "Gemini Omni 1.2 Flash étend les vidéos à 15 secondes et réduit les prix de 30 %",
+     "neuf": "Précision sur la durée des clips (15 secondes) et la baisse des tarifs de 30 %.",
+     "fil": "Même modèle Gemini Omni 1.2 Flash",
+     "source": "Google Gemini (actus)",
+     "lien": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNTGdycWROdW9kWlpFRWtJc0wzeVMtVTgxTENtWm1DbDJlREJxWkZKYWJLZWpQMEs0NTBHVW9BekxiZ3hJd1JfVnEzN3hwMm5fYThpMGZuQ0wxMnk4UUlHNG1kN0pZTTlqYXZEWG1Jd19Ld0pEVnZJR1dSVXhQLUMwZGtiWlcxM1V3VzFXWjRva3FzTGhudkIzaURaX1lTOXltVmdkaHduYk1JQnEyMDROSkFuTXhtME1BWncxTTdSc3MyQQ?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "efc3d11f786131",
+     "date": "2026-11-09T15:45:39+00:00",
+     "titre": "Google lance Gemini 4 Argon pour le contrôle des robots",
+     "neuf": "Google décline Gemini 4 Argon pour le contrôle robotique et la simulation.",
+     "fil": "même modèle Gemini 4 Argon",
+     "source": "Google Gemini (actus)",
+     "lien": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9JSUE2NjRhaHA4V1hYSGdWRXhNWllHLXZlY0VBZVR4U01HZmJlNEFfVGZMeE9CRXVUaTJucFZKSnpOMkVBZ1V2ZE5KREhlMWQwNXRQOWxhU084eW1LcEY4bFhERnlGQQ?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "a98763b80c842a",
+     "date": "2026-11-09T19:51:47+00:00",
+     "titre": "Google DeepMind dévoile Gemini Robotics 2.5 pour la dextérité robotique",
+     "neuf": "Google DeepMind dévoile Gemini Robotics 2.5 pour améliorer la dextérité et la fiabilité des robots.",
+     "fil": "Gemini Robotics 2.5 étend les capacités robotiques de Google",
+     "source": "Google DeepMind",
+     "lien": "https://deepmind.google/blog/gemini-robotics-2-5-accelerates-real-world-physical-intelligence/",
+     "nb_sources": 2,
+     "primaire": false
+    },
+    {
+     "id": "cc68ecc71bda41",
+     "date": "2026-11-10T01:04:06+00:00",
+     "titre": "Google réduit le prix de la vidéo 720p de Gemini Omni de 30 %",
+     "neuf": "Google réduit de 30% le prix de la vidéo 720p pour Gemini Omni et ajoute la prise en charge de clips de 15 secondes.",
+     "fil": "même écosystème Gemini Omni",
+     "source": "Google Gemini (actus)",
+     "lien": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNMlZyMEFYVG1nV1dYclhTdDNnRVdoUXUxdU1xbXBIVkdaMTZkdVpTS0Q2LS1ZaktwSkVEdEd6X2tJTzU2aVlfQi0zMWlpY2FMdEVESWdoMUY0R0xxOTZwN2FCUnVkVjRGOTRJYVZZdTNmUkVudlBKWVJpeTRNNGNhcHV4R3RvVGc5TC01ZzIydHBxbEVYeE1RWUswdU5nQXhFdnhEM1NQUDNvWHhVbzFzaHJLNA?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "620a9ae2784c9f",
+     "date": "2026-11-10T15:00:39+00:00",
+     "titre": "DeepMind reveals Gemini Robotics 2.5 and open safety benchmark \"ASIMOV-jailbreak\" - Ars Technica",
+     "neuf": "Google DeepMind officialise la sortie de Gemini Robotics 2.5 aux côtés d'un benchmark de sécurité open source.",
+     "fil": "Déploiement de Gemini Robotics 2.5",
+     "source": "Google Gemini (actus)",
+     "lien": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNSzRrTEw4QUxHdnc3UUlmUE04TXJrX3BlSDFTQ0FWYWticVpaLVhvZzJlMVVodXdRLVpEbENfakZEbkROeDc5YTV2M2U1eVpxWkFlMEJUbURibWxWemJ6RWtpM0Npblp6UnVpOUtWWkE1Ri0tanhEUlNXT0FSUVFGM0w5WnBPNFE1OGF2c0R2SHhFb0J5OU1fYjhmOU1OV1FEcnlNNjhleUNLX3I1VVh5OUtoaFdvZDNqdnRn?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "ac5a661efbfd50",
+     "date": "2026-11-10T19:00:00+00:00",
+     "titre": "Google déploie de nouvelles fonctionnalités Gemini sur davantage d'appareils",
+     "neuf": "Google étend les capacités de Gemini Intelligence à un plus grand nombre d'appareils.",
+     "fil": "même déploiement des fonctionnalités Gemini sur de nouveaux appareils",
+     "source": "Google AI",
+     "lien": "https://blog.google/products-and-platforms/platforms/android/gemini-intelligence-november-features-devices/",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "a3797b075317b9",
+     "date": "2026-11-11T17:29:00+00:00",
+     "titre": "Google Gemini arrive sur CarPlay",
+     "neuf": "Google Gemini s'intègre au système CarPlay d'Apple.",
+     "fil": "même écosystème Google Gemini",
+     "source": "Google Gemini (actus)",
+     "lien": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQMlkydkt2U185OG0zbGhfRURFU1lNU2ppX0pkdjZ4aWNjSmJBWnZGS2VUOV90T1Z1dFlJckpVSFJtbkdZeDlBQ3h4bGlwdDExdzZaRWJWVkZBZ0U3a1NQZ1FjZ1BMTVJwRnJRT3F3bnlHSDJpX2lsVnVFZENySmx1OEkxb1AtUGZTd1E?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "8e4104a923ec61",
+     "date": "2026-11-11T18:00:00+00:00",
+     "titre": "Google lance la Gemini Decisions API pour les développeurs",
+     "neuf": "Google officialise le lancement de la Decisions API pour automatiser la prise de décision via Gemini.",
+     "fil": "Lancement officiel de la Gemini Decisions API pour les développeurs",
+     "source": "Hacker News (IA, 100+ pts)",
+     "lien": "https://blog.google/innovation-and-ai/technology/developers-tools/gemini-decisions-api/",
+     "nb_sources": 2,
+     "primaire": false
+    }
+   ],
+   "statut": "active",
+   "societes": [
+    "google",
     "openai"
    ]
   },
@@ -2986,7 +3063,7 @@
   {
    "id": "h_c4961b9682",
    "titre": "Contrôles de la Chine sur l'export d'IA",
-   "resume": "Les restrictions américaines sur l'exportation de puces continuent d'être contournées en Chine via des acquisitions illicites (puces H200 par des universités) et des marchés noirs on-chain liés à la distillation de modèles, tandis que les fabricants subissent des chutes de revenus.",
+   "resume": "Les restrictions américaines sur l'exportation de puces et de technologies d'IA font l'objet d'appels à un durcissement accru par des sénateurs américains, tandis que persistent des contournements via des marchés noirs et des acquisitions indirectes en Chine.",
    "creee": "2026-10-20T09:56:16.457937+00:00",
    "maj": "2026-11-11T05:10:25+00:00",
    "episodes": [
@@ -3355,6 +3432,52 @@
    ]
   },
   {
+   "id": "h_db1295fb28",
+   "titre": "Acquisition de la structure Odessia par OpenAI",
+   "resume": "OpenAI officialise l'acquisition de la structure Odessia et de son fondateur Francis Davidson, marquant une expansion vers les applications verticales et les agents spécialisés dans le voyage.",
+   "creee": "2026-11-10T21:48:41.496197+00:00",
+   "maj": "2026-11-10T21:08:52+00:00",
+   "episodes": [
+    {
+     "id": "7014007d6d1f5f",
+     "date": "2026-11-10T18:00:32+00:00",
+     "titre": "OpenAI fait l'acquisition d'Odessia",
+     "neuf": "OpenAI officialise l'acquisition de la structure Odessia.",
+     "fil": "acquisition d'Odessia par OpenAI",
+     "source": "OpenAI (actus)",
+     "lien": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNTm5oXzBlUkNmeUx2dmM3RHhERWFNN19TbDNpbzNfR1VOSzlLVVRJYllMd1d3Zy1qVkJMZnY2NEpNQjZobjEzeF9mQzlZNzRfQTI5WFI1anhwWTlVRnhORUFhVFpjRTFPVXlXeWx2bkxaREJOdXN3RE5qcFpZNkhVTEpwWQ?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "78ee2f5f35e7ad",
+     "date": "2026-11-10T19:31:07+00:00",
+     "titre": "OpenAI rachète Odessia, l'agent IA de voyage",
+     "neuf": "Le rachat d'Odessia positionne OpenAI sur le segment des applications verticales de voyage.",
+     "fil": "rachat de l'agent de voyage Odessia par OpenAI",
+     "source": "OpenAI (actus)",
+     "lien": "https://news.google.com/rss/articles/CBMitAFBVV95cUxONGpXeWNILTNEanFCXzVFUmhBRWl4cEVXMWZnczhzYXpZS0VJZEFoWjhCUThHeUJ3Uk4tNHNBclcyVVVoZEdvRWFVdmJHZ0F6REdKbTdqek90d0VqcHBjSUNrMnZqSFBWVXNtNW9zLTJFQjVUaDBXOERab0Uyc1Q2RUhjYXZpZEQxU2VYU3JZLU9JQnRuRDNxRnZBOVdzeTlPeTRRUVJmV2djdU9oRUxKejMxLVk?oc=5",
+     "nb_sources": 2,
+     "primaire": false
+    },
+    {
+     "id": "bd2a6830d8cf77",
+     "date": "2026-11-10T21:08:52+00:00",
+     "titre": "OpenAI acquires Odessia, travel startup created by Sonder founder",
+     "neuf": "Précisions sur le rachat d'Odessia et sur son fondateur Francis Davidson issu du secteur du voyage.",
+     "fil": "même acquisition d'Odessia par OpenAI",
+     "source": "TechCrunch IA",
+     "lien": "https://techcrunch.com/2026/11/10/openai-acquires-odessia-travel-startup-created-by-sonder-founder/",
+     "nb_sources": 1,
+     "primaire": false
+    }
+   ],
+   "statut": "active",
+   "societes": [
+    "openai"
+   ]
+  },
+  {
    "id": "h_27b5489481",
    "titre": "Rupture entre le gouvernement américain et Anthropic",
    "resume": "Le conflit entre le gouvernement américain et Anthropic s'intensifie après que le Pentagone a officiellement désigné l'entreprise comme un risque pour la chaîne d'approvisionnement, sur fond de désaccords éthiques et militaires.",
@@ -3578,41 +3701,6 @@
    "statut": "active",
    "societes": [
     "anthropic"
-   ]
-  },
-  {
-   "id": "h_db1295fb28",
-   "titre": "Acquisition de la structure Odessia par OpenAI",
-   "resume": "OpenAI officialise l'acquisition de la structure Odessia, marquant une expansion vers les applications verticales et les agents spécialisés, notamment dans le voyage.",
-   "creee": "2026-11-10T21:48:41.496197+00:00",
-   "maj": "2026-11-10T19:31:07+00:00",
-   "episodes": [
-    {
-     "id": "7014007d6d1f5f",
-     "date": "2026-11-10T18:00:32+00:00",
-     "titre": "OpenAI fait l'acquisition d'Odessia",
-     "neuf": "OpenAI officialise l'acquisition de la structure Odessia.",
-     "fil": "acquisition d'Odessia par OpenAI",
-     "source": "OpenAI (actus)",
-     "lien": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNTm5oXzBlUkNmeUx2dmM3RHhERWFNN19TbDNpbzNfR1VOSzlLVVRJYllMd1d3Zy1qVkJMZnY2NEpNQjZobjEzeF9mQzlZNzRfQTI5WFI1anhwWTlVRnhORUFhVFpjRTFPVXlXeWx2bkxaREJOdXN3RE5qcFpZNkhVTEpwWQ?oc=5",
-     "nb_sources": 1,
-     "primaire": false
-    },
-    {
-     "id": "78ee2f5f35e7ad",
-     "date": "2026-11-10T19:31:07+00:00",
-     "titre": "OpenAI rachète Odessia, l'agent IA de voyage",
-     "neuf": "Le rachat d'Odessia positionne OpenAI sur le segment des applications verticales de voyage.",
-     "fil": "rachat de l'agent de voyage Odessia par OpenAI",
-     "source": "OpenAI (actus)",
-     "lien": "https://news.google.com/rss/articles/CBMitAFBVV95cUxONGpXeWNILTNEanFCXzVFUmhBRWl4cEVXMWZnczhzYXpZS0VJZEFoWjhCUThHeUJ3Uk4tNHNBclcyVVVoZEdvRWFVdmJHZ0F6REdKbTdqek90d0VqcHBjSUNrMnZqSFBWVXNtNW9zLTJFQjVUaDBXOERab0Uyc1Q2RUhjYXZpZEQxU2VYU3JZLU9JQnRuRDNxRnZBOVdzeTlPeTRRUVJmV2djdU9oRUxKejMxLVk?oc=5",
-     "nb_sources": 2,
-     "primaire": false
-    }
-   ],
-   "statut": "active",
-   "societes": [
-    "openai"
    ]
   },
   {

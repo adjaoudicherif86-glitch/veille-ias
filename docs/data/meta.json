@@ -1,5 +1,5 @@
 {
- "maj": "2026-11-11T22:41:30.582352+00:00",
+ "maj": "2026-11-12T07:10:17.072014+00:00",
  "sources_ok": [
   "Notes de version Claude (API)",
   "Notes de version OpenAI (API)",
@@ -60,15 +60,15 @@
    "erreur": "429 Client Error: Too Many Requests for url: https://venturebeat.com/category/ai/feed/"
   }
  ],
- "total": 2311,
- "analyses": 1670,
+ "total": 2284,
+ "analyses": 1651,
  "brief": {
-  "titre": "Gemini 4 Carbon, AlphaGenome 2 et introduction en bourse massive pour Anthropic",
-  "texte": "Google DeepMind frappe fort aujourd'hui avec le lancement officiel de Gemini 4 Carbon, doté d'une fonction d'essaim d'agents autonomes, complété par AlphaGenome 2 pour le décodage de l'ADN et Gemini pour la santé. De son côté, Anthropic se prépare activement pour son introduction en bourse avec une valorisation visée de 1 300 milliards de dollars, tout en lançant Claude Meetings et sa version de Claude la plus puissante. Enfin, OpenAI déploie GPT-Image-2.6 et l'API GPT-Live-1, tandis qu'Unsloth sort sa version 3.1 avec des GGUFs dynamiques. Ces annonces confirment l'accélération majeure des capacités agentiques et multimodales sur le marché.",
+  "titre": "Anthropic s'envole en bourse pendant que Google et OpenAI accélèrent",
+  "texte": "Le secteur de l'IA est en ébullition avec l'introduction en bourse ultra-demandée d'Anthropic, soutenue par des investissements massifs de Nvidia et Alphabet malgré une alerte de sécurité. Parallèlement, les géants renforcent leurs offres avec le lancement de Gemini 4 Carbon pour les agents autonomes, de GPT-Image-2.6 et de l'API GPT-Live-1 par OpenAI. Côté open source et recherche, Google DeepMind dévoile AlphaGenome 2 pour la génomique tandis qu'Unsloth v3.1 optimise l'utilisation des modèles locaux. Enfin, les utilisateurs mobiles profitent de l'intégration poussée de Gemini avec la dernière mise à jour Pixel Drop.",
   "a_tester": [
-   "Tester l'intégration de Gemini 4 Carbon et ses essaims d'agents pour automatiser des flux complexes.",
-   "Explorer l'outil Claude Meetings pour optimiser la transformation de vos réunions en plans d'action.",
-   "Expérimenter les GGUFs dynamiques et le support de Qwen3.8-27B avec Unsloth v3.1."
+   "Tester l'API GPT-Live-1 et les nouvelles capacités de GPT-Image-2.6 d'OpenAI",
+   "Mettre à jour vos environnements locaux avec Unsloth v3.1 pour exploiter Qwen3.8-27B",
+   "Explorer les fonctionnalités agents de Google Gemini 4 Carbon"
   ]
  },
  "top5": {
