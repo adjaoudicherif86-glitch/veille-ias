@@ -426,8 +426,8 @@ function carteCamino(p){
   </article>`}
 function vueCamino(){
   const l=(C.posts||[]).map(carteCamino).filter(Boolean);
-  return `<div class="wrap"><div class="fits-tete"><div><h2>Repéré par Camino</h2><p style="margin-top:8px;max-width:62ch">Les bons plans vêtements et chaussures postés par Camino TV sur X, récupérés automatiquement plusieurs fois par jour. Les liens et les codes sont les leurs.</p></div></div>
-    ${l.length?`<div class="cam-grille">${l.join("")}</div>`:`<p class="vide">${C.maj?"Aucun plan mode posté par Camino ces derniers jours dans ce style.":"La lecture du compte de Camino n'est pas encore activée : il manque la clé de l'API X."}</p>`}</div>`}
+  return `<div class="wrap"><div class="fits-tete"><div><h2>Repéré par Camino</h2><p style="margin-top:8px;max-width:62ch">Les bons plans vêtements et chaussures postés par Camino TV sur X, récupérés sur leur compte. Les liens et les codes sont les leurs.</p></div></div>
+    ${l.length?`<div class="cam-grille">${l.join("")}</div>`:`<p class="vide">${C.maj?"Aucun plan mode posté par Camino ces derniers jours dans ce style.":"Pas encore de plans Camino : la première lecture de leur compte arrive bientôt."}</p>`}</div>`}
 function vuePlans(){
   const base=D.articles.filter(styleOk);
   let h="";
