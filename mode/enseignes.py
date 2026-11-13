@@ -33,13 +33,18 @@ def zara(categories, debug=False):
     def parcours(noeuds, chemin=""):
         for n in noeuds or []:
             nom = n.get("name", "")
-            if chemin.startswith(" > HOMME") and re.search(r"special prices|soldes|sale|prix", nom, re.I) and "CARTE" not in chemin:
+            if (chemin.startswith(" > HOMME") or chemin.startswith(" > FEMME")) and re.search(r"special prices|soldes|sale|prix", nom, re.I) and "CARTE" not in chemin:
                 cibles.append((n.get("redirectCategoryId") or n.get("id"), f"{chemin} > {nom}"))
             parcours(n.get("subcategories"), f"{chemin} > {nom}")
 
     parcours(arbre.get("categories"))
     articles, vus = [], set()
-    for cid, chemin in cibles[:4]:
+    # 4 catégories homme et 3 femme au plus
+    hommes = [c for c in cibles if c[1].startswith(" > HOMME")][:4]
+    femmes = [c for c in cibles if c[1].startswith(" > FEMME")][:3]
+    cibles = hommes + femmes
+    for cid, chemin in cibles:
+        g = "femme" if chemin.startswith(" > FEMME") else "homme"
         try:
             d = requests.get(f"https://www.zara.com/fr/fr/category/{cid}/products?ajax=true", headers=NAV, timeout=30).json()
         except Exception as e:
@@ -50,7 +55,7 @@ def zara(categories, debug=False):
         if debug and produits:
             print("ZARA exemple :", json.dumps(produits[0], ensure_ascii=False)[:1500])
         for p in produits:
-            if p.get("id") in vus or p.get("sectionName") not in (None, "MAN"):
+            if p.get("id") in vus or p.get("sectionName") not in (None, "MAN" if g == "homme" else "WOMAN"):
                 continue
             vus.add(p.get("id"))
             prix = (p.get("price") or 0) / 100
@@ -66,17 +71,17 @@ def zara(categories, debug=False):
             seo = p.get("seo") or {}
             lien = (f"https://www.zara.com/fr/fr/{seo['keyword']}-p{seo['seoProductId']}.html"
                     + (f"?v1={seo['discernProductId']}" if seo.get("discernProductId") else "")) if seo.get("keyword") and seo.get("seoProductId") \
-                else f"https://www.zara.com/fr/fr/search?searchTerm={requests.utils.quote(p.get('name', ''))}&section=MAN"
+                else f"https://www.zara.com/fr/fr/search?searchTerm={requests.utils.quote(p.get('name', ''))}&section={'MAN' if g == 'homme' else 'WOMAN'}"
             remise = round((1 - prix / avant) * 100) if avant > prix else 0
             nom = p.get("name", "").capitalize()
             articles.append({
-                "id": f"zara-{p['id']}", "boutique": "Zara", "domaine": "zara.com", "origine": "UE", "pays": "FR",
+                "id": f"zara-{p['id']}", "genre": g, "boutique": "Zara", "domaine": "zara.com", "origine": "UE", "pays": "FR",
                 "marque": "Zara", "nom": nom + (f" - {c0['name']}" if c0.get("name") else ""), "categorie": cat, "type": p.get("familyName", ""),
                 "prix": prix, "avant": avant or prix, "devise": "EUR", "remise": remise, "prix_eur": round(prix, 2),
                 "avant_eur": round(avant or prix, 2), "tailles": [], "images": images, "lien": lien, "styles_indice": ["minimal", "streetwear"],
                 "description": "", "prix_special": remise == 0, "enseigne": True,
             })
-    print(f"🛍️  Zara            {len(articles):3} articles ({', '.join(c for _, c in cibles[:4]) or 'aucune catégorie promo'})")
+    print(f"🛍️  Zara            {len(articles):3} articles ({', '.join(c for _, c in cibles) or 'aucune catégorie promo'})")
     return articles
 
 
@@ -98,9 +103,15 @@ def uniqlo(categories, debug=False):
             print("UNIQLO réponse :", json.dumps(d, ensure_ascii=False)[:1500])
         for it in items:
             genre = json.dumps({k: it.get(k) for k in ("genderCategory", "genderName", "gender")}, ensure_ascii=False).upper()
-            if "WOMEN" in genre or "FEMME" in genre or "KIDS" in genre or "BABY" in genre or "ENFANT" in genre:
+            if "KIDS" in genre or "BABY" in genre or "ENFANT" in genre:
                 continue
-            if "MEN" not in genre and "HOMME" not in genre and "UNISEX" not in genre:
+            if "WOMEN" in genre or "FEMME" in genre:
+                g = "femme"
+            elif "MEN" in genre or "HOMME" in genre:
+                g = "homme"
+            elif "UNISEX" in genre:
+                g = "mixte"
+            else:
                 continue
             prix_d = it.get("prices") or {}
             avant = ((prix_d.get("base") or {}).get("value")) or 0
@@ -117,7 +128,7 @@ def uniqlo(categories, debug=False):
             tailles = [s.get("name") for s in it.get("sizes") or [] if isinstance(s, dict) and s.get("name")]
             remise = round((1 - prix / avant) * 100)
             articles.append({
-                "id": f"uniqlo-{pid}", "boutique": "Uniqlo", "domaine": "uniqlo.com", "origine": "UE", "pays": "FR",
+                "id": f"uniqlo-{pid}", "genre": g, "boutique": "Uniqlo", "domaine": "uniqlo.com", "origine": "UE", "pays": "FR",
                 "marque": "Uniqlo", "nom": it.get("name", ""), "categorie": cat, "type": "", "prix": prix, "avant": avant, "devise": "EUR",
                 "remise": remise, "prix_eur": round(prix, 2), "avant_eur": round(avant, 2), "tailles": tailles[:10], "images": images,
                 "lien": f"https://www.uniqlo.com/fr/fr/products/{pid}", "styles_indice": ["minimal"], "description": "", "enseigne": True,

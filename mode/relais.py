@@ -28,7 +28,7 @@ NAV = {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.
 MAINTENANT = datetime.now(timezone.utc)
 GARDER_JOURS = 5
 URL_IA = os.getenv("LLM_API_URL", "").strip() or "https://generativelanguage.googleapis.com/v1beta/openai/chat/completions"
-FEMME = re.compile(r"\b(femmes?|women|woman|fille|ladies|enfants?|kids?|junior|bébé|gar[cç]on)\b", re.I)
+ENFANT = re.compile(r"\b(fille|enfants?|kids?|junior|bébé|gar[cç]on)\b", re.I)
 HORS_MODE = re.compile(r"\b(montre|watch|lunettes|sunglasses|parfum|eau de|bijou|bracelet|collier|valise|portefeuille|ceinture|"
                        r"cravate|chaussettes?|caleçons?|boxers?|slips?|pyjama|maillot de bain)\b", re.I)
 
@@ -40,7 +40,7 @@ def prix_txt(t):
 
 def dealabs():
     items = []
-    for groupe in ("mode-homme", "sneakers"):
+    for groupe in ("mode-homme", "sneakers", "mode-femme"):
         try:
             x = requests.get(f"https://www.dealabs.com/rss/groupe/{groupe}", headers=NAV, timeout=30).text
         except Exception as e:
@@ -90,13 +90,13 @@ def linkdeal(pages=2):
     return items
 
 
-CONSIGNE = """Tu tries des bons plans mode pour un homme qui suit Camino TV : streetwear, workwear, un peu d'old money, marques
+CONSIGNE = """Tu tries des bons plans mode pour des lecteurs (hommes et femmes) qui suivent Camino TV : streetwear, workwear, un peu d'old money, marques
 connues (Nike, Adidas, New Balance, Salomon, Carhartt WIP, Dickies, The North Face, Levi's, Ralph Lauren, Lacoste, Uniqlo,
 Jack & Jones, Timberland, Le Coq Sportif, Vans, Converse…), petits prix. Pour chaque bon plan, réponds :
-garder = true seulement si c'est un vêtement, des chaussures ou un accessoire de mode (bonnet, casquette, sac) pour HOMME,
-dans ce style, à un prix intéressant. false pour : femme ou enfant, sport pur (maillot de foot, chaussures de running ou de
+garder = true seulement si c'est un vêtement, des chaussures ou un accessoire de mode (bonnet, casquette, sac) pour homme ou
+pour femme, dans ce style, à un prix intéressant. false pour : enfant, sport pur (maillot de foot, chaussures de running ou de
 basket techniques, tenue de foot), montres, parfums, high-tech, sous-vêtements, chaussettes, pièces de luxe hors budget.
-Réponds UNIQUEMENT en JSON : {"items": [{"id": "...", "garder": true|false, "marque": "...", "nom": "nom court et clair en français",
+Réponds UNIQUEMENT en JSON : {"items": [{"id": "...", "garder": true|false, "genre": "homme|femme|mixte", "marque": "...", "nom": "nom court et clair en français",
 "categorie": "veste|surchemise|maille|sweat|chemise|tshirt|pantalon|short|chaussures|accessoire",
 "styles": ["streetwear|workwear|minimal|oldmoney"]}]}"""
 
@@ -136,7 +136,7 @@ def main():
     except (FileNotFoundError, json.JSONDecodeError):
         ancien = {}
     bruts = dealabs() + linkdeal()
-    bruts = [x for x in bruts if not FEMME.search(x["titre"]) and not SPORT.search(x["titre"]) and not EXCLURE.search(x["titre"])
+    bruts = [x for x in bruts if not ENFANT.search(x["titre"]) and not SPORT.search(x["titre"]) and not EXCLURE.search(x["titre"])
              and not HORS_MODE.search(x["titre"])]
     for x in bruts:  # LinkDeal n'a pas de date : on garde la première fois qu'on l'a vu
         x["date"] = x["date"] or (ancien.get(x["id"]) or {}).get("date") or MAINTENANT.isoformat()
@@ -151,7 +151,8 @@ def main():
                 gardes[x["id"]] = x | {"categorie": next((c for c, m in CATEGORIES if re.search(m, x["titre"], re.I)), "accessoire"), "styles": []}
             continue
         if a.get("garder"):
-            gardes[x["id"]] = x | {"marque": a.get("marque"), "nom": a.get("nom") or x["titre"], "categorie": a.get("categorie"), "styles": a.get("styles", [])}
+            gardes[x["id"]] = x | {"marque": a.get("marque"), "nom": a.get("nom") or x["titre"], "categorie": a.get("categorie"), "styles": a.get("styles", []),
+                                   "genre": a.get("genre") or ("femme" if "femme" in x["lien"] else "homme")}
     limite = (MAINTENANT - timedelta(days=GARDER_JOURS)).isoformat()
     vivants = {x["id"] for x in bruts}
     items = sorted((x for x in gardes.values() if x["date"] >= limite and (x["source"] != "LinkDeal" or x["id"] in vivants)),

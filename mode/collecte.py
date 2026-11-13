@@ -48,9 +48,9 @@ PRIX_MAX_NEUF = 160   # onglet « Sans promo » : on reste sur des prix accessib
 JOURS_NEUF = 45
 MAINTENANT = datetime.now(timezone.utc)
 
-EXCLURE = re.compile(r"\b(women'?s?|womens|woman|ladies|femme|dress|skirt|bra|bikini|towel|mug|candle|book|magazine|poster|print|sticker|"
+EXCLURE = re.compile(r"\b(bra|bikini|towel|mug|candle|book|magazine|poster|print|sticker|"
                      r"homeware|incense|fragrance|perfume|gift ?card|cup|vase|keyring|key ring|lighter|ashtray|blanket|pillow|cushion|"
-                     r"socks?|underwear|boxer|brief|swim|phone case|airpods|playing cards|frisbee|ball|jupe|jupe-culotte|robe|junior|kids?|enfants?|girls?|boys|"
+                     r"socks?|underwear|boxer|brief|swim|phone case|airpods|playing cards|frisbee|ball|junior|kids?|enfants?|girls?|boys|"
                      r"brassière|legging|soutien-gorge|caleçon|chaussettes?|slip|pyjamas?|pj|nightwear|loungewear)\b", re.I)
 CATEGORIES = [
     ("accessoire", r"\b(cap|hat|beanie|bucket|bag|tote|backpack|belt|scarf|bandana|neckerchief|glove|wallet|casquette|bonnet|sac|ceinture|écharpe)s?\b"),
@@ -134,6 +134,23 @@ def ids_homme(b):
     return None
 
 
+FEMME_TITRE = re.compile(r"\b(women'?s?|womens|wmns|woman|ladies|femme|dress|skirt|jupe|robe)\b", re.I)
+
+
+def genre_article(p, b, hommes):
+    """homme, femme ou mixte. Boutique homme seulement : homme. Boutique mixte : étiquettes, sinon collection homme."""
+    g = genre(p)
+    if FEMME_TITRE.search(p.get("title", "")):
+        g = "femme"
+    if g:
+        return g
+    if not b.get("mixte"):
+        return "homme"
+    if hommes:
+        return "homme" if p["id"] in hommes else "femme"
+    return "mixte"
+
+
 def genre(p):
     tags = p.get("tags", [])
     tags = tags if isinstance(tags, list) else str(tags).split(",")
@@ -167,10 +184,8 @@ def sous_type(cat, nom):
     return f"{cat}:autre"
 
 
-def analyser(p, b, dev, taux, nouveaute=False):
+def analyser(p, b, dev, taux, nouveaute=False, hommes=None):
     """Article en promo (par défaut) ou, avec nouveaute=True, article récent même sans remise."""
-    if genre(p) == "femme":
-        return None
     if EXCLURE.search(f"{p['title']} {p.get('product_type', '')} {' '.join(p.get('tags', []) if isinstance(p.get('tags'), list) else [p.get('tags', '')])}"):
         return None
     if SPORT.search(f"{p['title']} {p.get('product_type', '')}"):
@@ -205,7 +220,7 @@ def analyser(p, b, dev, taux, nouveaute=False):
     if eur > (PRIX_MAX_NEUF if nouveaute else PRIX_MAX_EUR):
         return None
     return {
-        "id": f"{b['domaine'].split('.')[0]}-{p['id']}", "boutique": b["nom"], "domaine": b["domaine"], "origine": b["origine"], "pays": b.get("pays", b["origine"]),
+        "id": f"{b['domaine'].split('.')[0]}-{p['id']}", "genre": genre_article(p, b, hommes), "boutique": b["nom"], "domaine": b["domaine"], "origine": b["origine"], "pays": b.get("pays", b["origine"]),
         "marque": p.get("vendor") or b["nom"], "nom": p["title"], "categorie": cat, "fam": sous_type(cat, p["title"]), "type": p.get("product_type", ""),
         "prix": prix, "avant": avant, "devise": dev, "remise": remise, "prix_eur": eur, "avant_eur": round(avant * taux.get(dev, 1), 2),
         "tailles": tailles[:12], "images": images, "lien": f"https://{b['domaine']}/products/{p['handle']}", "handle": p["handle"],
@@ -268,6 +283,9 @@ Règles :
   les autres à 6 ou moins. Varie les types de pièces dans tes meilleures notes (veste, maille, pantalon, chaussures…).
 - "styles" : le ou les vrais styles de la pièce (pas forcément le rayon).
 - Privilégie les prix bas et les marques qui valent le coup d'être découvertes. N'invente aucun id.{tenues_regles}"""
+FEMME_INTRO = """IMPORTANT : pour cette passe, la sélection est pour une LECTRICE (mode femme), avec le même esprit et le même budget
+serré. Remplace « homme » par « femme » partout dans ce qui suit ; robes et jupes sont bienvenues si elles collent au style.
+"""
 TENUES_SCHEMA = """,
  "tenues": [{"nom": "nom court qui sonne naturel (2 à 4 mots)", "accroche": "1 phrase en tutoiement : pour quelle occasion, quelle vibe",
              "articles": ["id", "id", ...],
@@ -655,24 +673,13 @@ def main():
             continue
         brut = produits(b)
         catalogue = brut if not b.get("collection") else produits(b | {"collection": None})[:500]  # pour les nouveautés
+        # boutique mixte : la collection homme sert à étiqueter homme / femme quand les produits n'ont pas d'étiquette
         hommes = None
-
-        def garder_homme(liste):
-            nonlocal hommes
-            if not b.get("mixte"):
-                return liste
-            par_tag = [p for p in liste if genre(p) == "homme"]
-            if len(par_tag) >= max(10, len(liste) // 5):
-                return par_tag
-            if hommes is None:
-                hommes = ids_homme(b) or set()
-            garde = [p for p in liste if p["id"] in hommes]
-            return garde if len(garde) >= max(10, len(liste) // 5) else liste
-
-        brut = garder_homme(brut)
-        gardes = [a for a in (analyser(p, b, dev, taux) for p in brut) if a]
-        recents = [p for p in (catalogue if catalogue is brut else garder_homme(catalogue)) if (p.get("published_at") or "") >= depuis]
-        nv = sorted((a for a in (analyser(p, b, dev, taux, nouveaute=True) for p in recents) if a), key=lambda a: a["sortie"], reverse=True)[:14]
+        if b.get("mixte") and sum(1 for p in brut if genre(p)) < max(10, len(brut) // 5):
+            hommes = ids_homme(b) or set()
+        gardes = [a for a in (analyser(p, b, dev, taux, hommes=hommes) for p in brut) if a]
+        recents = [p for p in catalogue if (p.get("published_at") or "") >= depuis]
+        nv = sorted((a for a in (analyser(p, b, dev, taux, nouveaute=True, hommes=hommes) for p in recents) if a), key=lambda a: a["sortie"], reverse=True)[:18]
         print(f"🛍️  {b['nom']:16} {len(brut):4} produits lus, {len(gardes):3} vraies affaires, {len(nv):2} nouveautés ({dev})")
         bilan.append({"boutique": b["nom"], "lus": len(brut), "gardes": len(gardes), "neufs": len(nv), "devise": dev, "origine": b["origine"]})
         articles += gardes
@@ -698,23 +705,27 @@ def main():
         a["fiab"] = fiabilite.niveau(avis.get(a["boutique"]))
     neufs = [a for a in neufs if a["fiab"] != "prudence"]
 
+    for a in articles + neufs:
+        a.setdefault("genre", "homme")
     # --- anti-similarité : un coloris par modèle, 3 pièces max par marque et par type, 120 max par boutique
     vus, compte, par_b, uniques = set(), {}, {}, []
     for a in sorted(articles, key=score, reverse=True):
         cle = (a["marque"].lower(), re.sub(r"\s*[-–(].*$", "", a["nom"].lower()))
-        k = (a["marque"].lower(), a["fam"])
-        if cle in vus or compte.get(k, 0) >= 3 or par_b.get(a["boutique"], 0) >= 120:
+        k = (a["marque"].lower(), a["fam"], a["genre"] == "femme")
+        kb = (a["boutique"], a["genre"] == "femme")
+        if cle in vus or compte.get(k, 0) >= 3 or par_b.get(kb, 0) >= (60 if kb[1] else 120):
             continue
         vus.add(cle)
         compte[k] = compte.get(k, 0) + 1
-        par_b[a["boutique"]] = par_b.get(a["boutique"], 0) + 1
+        par_b[kb] = par_b.get(kb, 0) + 1
         uniques.append(a)
     print(f"→ {len(articles)} affaires, {len(uniques)} gardées après tri des doublons et des pièces trop semblables")
     uniques = verifier_fr(uniques, taux)
     for a in uniques:
         a["zone"] = zone(a)
     par_id = {a["id"]: a for a in uniques}
-    print(f"→ onglet principal : {sum(a['zone'] == 'principal' for a in uniques)} pièces ; indés et pointu : {sum(a['zone'] == 'pointu' for a in uniques)}")
+    print(f"→ onglet principal : {sum(a['zone'] == 'principal' for a in uniques)} pièces ; indés et pointu : {sum(a['zone'] == 'pointu' for a in uniques)} ; "
+          f"femme : {sum(a['genre'] == 'femme' for a in uniques)}")
 
     # --- l'IA note chaque rayon (sévèrement) et compose 2 tenues par style
     tenues, modele = [], None
@@ -728,7 +739,7 @@ def main():
         tenues = [t for t in ancien.get("tenues", []) if all(i in par_id for i in t.get("articles", []))]
         modele = ancien.get("modele")
     for style, description in (RAYONS.items() if ia_du_jour else []):
-        cands = varies([a for a in uniques if style in a["styles_indice"] and a["zone"] == "principal"], 70)
+        cands = varies([a for a in uniques if style in a["styles_indice"] and a["zone"] == "principal" and a["genre"] != "femme"], 70)
         rep = demander_ia(CONSIGNE.format(style=style, description=description, quoi="en promo", max_hauts=14,
                                           tenues_schema=TENUES_SCHEMA, tenues_regles=TENUES_REGLES), cands)
         print(f"  rayon {style} : {len(cands)} candidats, {'noté par ' + rep['_modele'] if rep else 'IA indisponible'}")
@@ -739,6 +750,20 @@ def main():
                 tenues.append(t | {"style": style, "articles": ids})
         modele = (rep or {}).get("_modele") or modele
         time.sleep(6)
+    # deux passes en plus : la mode femme (même esprit) et les indés / pièces pointues
+    passes = [
+        ("la mode femme", "même esprit Camino côté femme : streetwear, workwear, minimal, old money ; marques connues à petit prix",
+         [a for a in uniques if a["genre"] == "femme" and a["zone"] == "principal"], FEMME_INTRO),
+        ("indés & pointu", "marques indépendantes ou plus pointues, parfois plus chères ou expédiées hors UE : ne mets 8+ qu'aux pièces qui valent vraiment leur prix",
+         [a for a in uniques if a["genre"] != "femme" and a["zone"] == "pointu"], ""),
+    ]
+    for style, description, liste, intro in (passes if ia_du_jour else []):
+        cands = varies(liste, 70)
+        rep = demander_ia(intro + CONSIGNE.format(style=style, description=description, quoi="en promo", max_hauts=12,
+                                                  tenues_schema="", tenues_regles=""), cands)
+        print(f"  passe {style} : {len(cands)} candidats, {'noté par ' + rep['_modele'] if rep else 'IA indisponible'}")
+        appliquer_notes(rep, par_id)
+        time.sleep(6)
     for a in uniques:
         a.setdefault("styles", a["styles_indice"])
         a["forte"] = a.get("note", 0) >= 8
@@ -748,7 +773,7 @@ def main():
     selection = []
     for style in RAYONS:
         cm, cf, n = {}, {}, 0
-        for a in sorted((x for x in uniques if x.get("note", 0) >= 7 and style in x["styles"] and x["fiab"] != "prudence" and x["zone"] == "principal"),
+        for a in sorted((x for x in uniques if x.get("note", 0) >= 7 and style in x["styles"] and x["fiab"] != "prudence" and x["zone"] == "principal" and x["genre"] != "femme"),
                         key=lambda x: (x["note"] + {"FR": .9, "UK": -.4, "US": -.8}.get(x["pays"], .4), x["rang"]), reverse=True):
             m = a["marque"].lower()
             hors_ue = a["origine"] != "UE"
@@ -760,18 +785,32 @@ def main():
             selection.append(a["id"])
             if n >= 14:
                 break
-    print(f"→ sélection : {len(selection)} pépites")
+    # côté femme (marques connues) puis indés & pointu : les mieux notées, une ou deux par marque
+    for filtre, seuil, par_marque, maxi in ((lambda x: x["genre"] == "femme" and x["zone"] == "principal", 7, 2, 28),
+                                            (lambda x: x["genre"] != "femme" and x["zone"] == "pointu", 8, 1, 14)):
+        cm, n = {}, 0
+        for a in sorted((x for x in uniques if filtre(x) and x.get("note", 0) >= seuil and x["fiab"] != "prudence"),
+                        key=lambda x: (x["note"], x["rang"]), reverse=True):
+            m = a["marque"].lower()
+            if a["id"] in selection or cm.get(m, 0) >= par_marque:
+                continue
+            cm[m], n = cm.get(m, 0) + 1, n + 1
+            selection.append(a["id"])
+            if n >= maxi:
+                break
+    print(f"→ sélection : {len(selection)} pépites (dont {sum(par_id[i]['genre'] == 'femme' for i in selection)} femme, "
+          f"{sum(par_id[i]['zone'] == 'pointu' for i in selection)} indés & pointu)")
 
     # --- le plan du jour : une pépite de saison, abordable, expédiée de France ou d'UE par une boutique fiable
-    eligibles = [a for a in uniques if a["prix_eur"] <= 70 and a["zone"] == "principal" and POIDS.get(a["categorie"], 1) >= 2
+    eligibles = [a for a in uniques if a["prix_eur"] <= 70 and a["zone"] == "principal" and a["genre"] != "femme" and POIDS.get(a["categorie"], 1) >= 2
                  and a.get("fiab") in ("fiable", "correct", "enseigne") and a["remise"] >= 30]
-    coup = max(eligibles or uniques, key=lambda a: a.get("note", 0) * 2 + score(a))["id"] if uniques else None
+    coup = max(eligibles or [a for a in uniques if a["genre"] != "femme"] or uniques, key=lambda a: a.get("note", 0) * 2 + score(a))["id"] if uniques else None
 
     # --- sans promo : les sorties récentes, notées par l'IA pour les styles du lecteur
     vus_n, neufs_u = set(), []
     for a in sorted(neufs, key=lambda a: a["sortie"], reverse=True):
         cle = (a["marque"].lower(), re.sub(r"\s*[-–(].*$", "", a["nom"].lower()))
-        if cle not in vus_n and a["id"] not in par_id and not SPORT.search(a["nom"]) and MARQUES_CONNUES.search(f"{a['marque']} {a['nom']} {a['boutique']}"):
+        if cle not in vus_n and a["id"] not in par_id and a["genre"] != "femme" and not SPORT.search(a["nom"]) and MARQUES_CONNUES.search(f"{a['marque']} {a['nom']} {a['boutique']}"):
             vus_n.add(cle)
             neufs_u.append(a)
     cands = varies(neufs_u, 140, par_boutique=6, par_fam=9)

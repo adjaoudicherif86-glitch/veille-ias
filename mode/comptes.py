@@ -25,15 +25,15 @@ NOMS = {"CaminoTV": "Camino TV", "FitThemAll": "FitThemAll", "Sneakerologue": "S
 
 CONSIGNE = """Tu lis des posts X de comptes français de bons plans mode (Camino TV, FitThemAll, Sneakerologue).
 Pour chaque POST, avec son texte et sa photo, réponds :
-- "garder" : true seulement si le post présente des vêtements, chaussures ou accessoires de MODE HOMME portables au
+- "garder" : true seulement si le post présente des vêtements, chaussures ou accessoires de mode (homme OU femme) portables au
   quotidien (streetwear, workwear, old money, minimal, sneakers lifestyle). false pour : sport pur (maillot de club ou
-  d'équipe, NBA, foot, running technique de compétition), pièce clairement femme, déco, parfum, bijoux, électroménager,
+  d'équipe, NBA, foot, running technique de compétition), enfant, déco, parfum, bijoux, électroménager,
   livres, revente/spéculation, simple annonce sans prix.
 - "pieces" : chaque pièce citée, avec un NOM CLAIR en français (aide-toi de la photo : « pull col camionneur côtelé »,
   « Asics Gel-NYC beige »…), la marque, le prix, l'ancien prix si donné, le code promo, le lien exact du texte qui
   correspond, une étiquette courte si le post en donne une (« le + chaud »), la catégorie et les styles.
 Réponds UNIQUEMENT en JSON :
-{"posts": [{"id": "...", "garder": true|false, "resume": "1 phrase en français, ton direct, qui dit ce que c'est",
+{"posts": [{"id": "...", "garder": true|false, "genre": "homme|femme|mixte (pour qui sont les pièces)", "resume": "1 phrase en français, ton direct, qui dit ce que c'est",
   "pieces": [{"nom": "...", "marque": "... ou null", "prix": nombre ou null, "prix_avant": nombre ou null, "code": "... ou null",
               "lien": "... ou null", "etiquette": "... ou null",
               "categorie": "veste|surchemise|maille|sweat|chemise|tshirt|pantalon|short|chaussures|accessoire",
@@ -103,6 +103,7 @@ def main():
         deja[pid] = {"compte": compte, "compte_nom": NOMS.get(compte, compte), "tweet_id": pid, "url": f"https://x.com/{compte}/status/{pid}",
                      "date": date_id(pid), "texte": (a.get("resume") or "").strip() or texte[:200], "liens": liens,
                      "images": [f"https://pbs.twimg.com/media/{m}?format=jpg&name=medium" for m in images[:2]],
+                     "genre": a.get("genre") if a.get("genre") in ("homme", "femme", "mixte") else "homme",
                      "pieces": [x for x in a["pieces"] if x.get("nom")]}
         gardes += 1
     limite = (MAINTENANT - timedelta(days=JOURS)).isoformat()
