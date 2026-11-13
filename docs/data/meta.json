@@ -1,5 +1,5 @@
 {
- "maj": "2026-11-12T16:48:21.924789+00:00",
+ "maj": "2026-11-13T01:05:05.015274+00:00",
  "sources_ok": [
   "Notes de version Claude (API)",
   "Notes de version OpenAI (API)",
@@ -29,7 +29,6 @@
   "The Verge IA",
   "TechCrunch IA",
   "Simon Willison",
-  "Hacker News (IA, 100+ pts)",
   "r/LocalLLaMA",
   "arXiv cs.AI",
   "arXiv cs.CL",
@@ -58,47 +57,51 @@
   {
    "nom": "VentureBeat IA",
    "erreur": "429 Client Error: Too Many Requests for url: https://venturebeat.com/category/ai/feed/"
+  },
+  {
+   "nom": "Hacker News (IA, 100+ pts)",
+   "erreur": "HTTPSConnectionPool(host='hnrss.org', port=443): Max retries exceeded with url: /newest?q=AI+OR+LLM+OR+GPT+OR+Claude+OR+Gemini&points=100 (Caused by ConnectTime"
   }
  ],
- "total": 2268,
- "analyses": 1595,
+ "total": 2262,
+ "analyses": 1568,
  "brief": {
-  "titre": "Séismes chez Nvidia, investissements massifs et avancées en biologie",
-  "texte": "L'actualité de l'IA est marquée par des turbulences majeures au sommet de Nvidia, tandis qu'Alphabet et Nvidia injectent chacun 10 milliards de dollars dans Anthropic, qui prépare sa méga-IPO à 64 milliards. Côté technique, Google DeepMind dévoile AlphaGenome 2 pour la génomique et Gemini 4 Carbon pour les agents autonomes. Anthropic lance également ses Managed Agents en auto-hébergement, offrant de nouvelles perspectives aux développeurs. Enfin, l'écosystème open source progresse avec Unsloth v3.1 et de nouveaux modèles locaux de transformation image-vidéo.",
+  "titre": "Gemini 4, séisme chez Nvidia et nouveaux agents",
+  "texte": "Google DeepMind frappe fort aujourd'hui en lançant Gemini 4 Hydrogen pour remplacer la version 3.8 Flash et dynamiser sa recherche, tandis qu'OpenAI met à jour ses API avec GPT-6 Cyber, GPT-Image-2.5 et GPT-5 pro. Du côté d'Anthropic, l'actualité est marquée par des investissements massifs de 10 milliards de dollars chacun de la part de Nvidia et Alphabet, ainsi que par le lancement de nouveaux agents gérés auto-hébergés. En parallèle, l'écosystème est secoué par la démission surprise de Jensen Huang, PDG de Nvidia, suite à une enquête interne, interrogeant l'avenir de l'entreprise. Enfin, Unsloth publie sa version v3.1 avec des GGUFs dynamiques et Hugging Face réaffirme son engagement pour l'IA ouverte.",
   "a_tester": [
-   "Tester les Managed Agents auto-hébergés de Claude via l'API",
-   "Explorer les nouveautés de la v3.1 d'Unsloth pour vos LLM locaux",
-   "Suivre l'intégration des nouveaux outils de Google DeepMind et Gemini 4"
+   "Tester les performances de Gemini 4 Hydrogen sur vos requêtes de recherche",
+   "Explorer les nouveaux modèles d'API d'OpenAI (GPT-6 Cyber, GPT-Image-2.5, GPT-5 pro)",
+   "Évaluer les gains de performance de la mise à jour Unsloth v3.1 pour vos modèles locaux"
   ]
  },
  "top5": {
-  "maj": "2026-11-12T16:48:21.924789+00:00",
-  "par_ia": false,
+  "maj": "2026-11-13T01:05:05.015274+00:00",
+  "par_ia": true,
   "items": [
    {
-    "id": "0b2e1c02de474f",
-    "pourquoi": "Permet de suivre l'évolution des modèles phares de Google et d'évaluer de potentielles nouvelles capacités pour les professionnels et développeurs.",
-    "a_faire": ""
-   },
-   {
     "id": "96561f0960dfd2",
-    "pourquoi": "Ces nouveaux modèles offrent des capacités accrues pour le raisonnement complexe et le travail d'agent sur le long terme, avec des modifications importantes à intégrer pour la gestion des API, du contexte et des outils informatiques.",
-    "a_faire": ""
+    "pourquoi": "Anthropic lance Claude Fable 5.2 et Claude Mythos 5.2 avec une impressionnante fenêtre de contexte de 1 million de tokens, impactant directement les capacités d'analyse de documents complexes.",
+    "a_faire": "Tester l'API de ces nouveaux modèles sur vos cas d'usage nécessitant de larges contextes."
    },
    {
-    "id": "da432fbb05941c",
-    "pourquoi": "Ce modèle permet de réduire drastiquement les coûts d'infrastructure pour le déploiement d'agents conversationnels ou autonomes à grande échelle.",
-    "a_faire": ""
+    "id": "d194f419aff3ac",
+    "pourquoi": "OpenAI renouvelle sa gamme avec GPT-6 Cyber (sécurité), GPT-Image-2.5 et GPT-5 pro, redéfinissant les standards de performance pour l'investigation et la génération.",
+    "a_faire": "Consulter les notes de version de l'API OpenAI pour évaluer l'intégration de GPT-6 Cyber et GPT-Image-2.5."
    },
    {
     "id": "5ca4dc7b6d88cb",
-    "pourquoi": "C'est un tournant majeur pour le référencement et l'acquisition client, les entreprises devant désormais optimiser leur présence directement dans les grands modèles de langage.",
-    "a_faire": ""
+    "pourquoi": "OpenAI introduit 'Businesses in ChatGPT', permettant aux entreprises de gérer leur visibilité et interagir directement avec les utilisateurs depuis l'interface.",
+    "a_faire": "Surveiller le déploiement de cette fonctionnalité pour positionner votre entreprise sur la plateforme."
    },
    {
-    "id": "5b916f1bea878c",
-    "pourquoi": "Cet outil offre aux professionnels de la santé et de la recherche un moyen puissant de modéliser l'impact de mutations génétiques, accélérant potentiellement la compréhension des maladies.",
-    "a_faire": ""
+    "id": "da432fbb05941c",
+    "pourquoi": "Meta lance Muse Ember, un modèle léger et économique spécifiquement taillé pour l'exécution de tâches par des agents conversationnels.",
+    "a_faire": "Comparer les coûts et performances de Muse Ember face aux alternatives actuelles pour vos architectures d'agents."
+   },
+   {
+    "id": "168143ea4218e6",
+    "pourquoi": "Apple prépare une application macOS dédiée à l'exécution locale de modèles d'IA, facilitant grandement le déploiement sur les postes de travail.",
+    "a_faire": "Surveiller la sortie officielle de l'application pour tester l'exécution de LLM en local sur Mac."
    }
   ]
  }
