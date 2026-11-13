@@ -1,5 +1,5 @@
 {
- "maj": "2026-11-13T01:05:05.015274+00:00",
+ "maj": "2026-11-13T12:12:46.658919+00:00",
  "sources_ok": [
   "Notes de version Claude (API)",
   "Notes de version OpenAI (API)",
@@ -29,6 +29,7 @@
   "The Verge IA",
   "TechCrunch IA",
   "Simon Willison",
+  "Hacker News (IA, 100+ pts)",
   "r/LocalLLaMA",
   "arXiv cs.AI",
   "arXiv cs.CL",
@@ -57,21 +58,17 @@
   {
    "nom": "VentureBeat IA",
    "erreur": "429 Client Error: Too Many Requests for url: https://venturebeat.com/category/ai/feed/"
-  },
-  {
-   "nom": "Hacker News (IA, 100+ pts)",
-   "erreur": "HTTPSConnectionPool(host='hnrss.org', port=443): Max retries exceeded with url: /newest?q=AI+OR+LLM+OR+GPT+OR+Claude+OR+Gemini&points=100 (Caused by ConnectTime"
   }
  ],
  "total": 2262,
- "analyses": 1568,
+ "analyses": 1540,
  "brief": {
-  "titre": "Gemini 4, séisme chez Nvidia et nouveaux agents",
-  "texte": "Google DeepMind frappe fort aujourd'hui en lançant Gemini 4 Hydrogen pour remplacer la version 3.8 Flash et dynamiser sa recherche, tandis qu'OpenAI met à jour ses API avec GPT-6 Cyber, GPT-Image-2.5 et GPT-5 pro. Du côté d'Anthropic, l'actualité est marquée par des investissements massifs de 10 milliards de dollars chacun de la part de Nvidia et Alphabet, ainsi que par le lancement de nouveaux agents gérés auto-hébergés. En parallèle, l'écosystème est secoué par la démission surprise de Jensen Huang, PDG de Nvidia, suite à une enquête interne, interrogeant l'avenir de l'entreprise. Enfin, Unsloth publie sa version v3.1 avec des GGUFs dynamiques et Hugging Face réaffirme son engagement pour l'IA ouverte.",
+  "titre": "Gemini 4, GPT-6 et séisme chez Nvidia",
+  "texte": "L'actualité de l'IA est marquée par des annonces produits majeures et des bouleversements stratégiques. Google déploie massivement Gemini 4 Hydrogen, tandis qu'OpenAI riposte avec le lancement de GPT-6 Cyber, GPT-Image-2.5, GPT-5 pro et l'intégration directe des entreprises dans ChatGPT. Anthropic structure son développement avec des agents auto-hébergés, un produit dédié aux industriels et prépare son introduction en bourse. Enfin, le départ inattendu de Jensen Huang de la tête de Nvidia interroge l'écosystème, alors qu'Hugging Face réaffirme son engagement pour l'open source.",
   "a_tester": [
-   "Tester les performances de Gemini 4 Hydrogen sur vos requêtes de recherche",
-   "Explorer les nouveaux modèles d'API d'OpenAI (GPT-6 Cyber, GPT-Image-2.5, GPT-5 pro)",
-   "Évaluer les gains de performance de la mise à jour Unsloth v3.1 pour vos modèles locaux"
+   "Tester les performances et les nouveautés de l'API avec les nouveaux modèles GPT-6 et GPT-Image-2.5",
+   "Explorer l'intégration de Gemini 4 Hydrogen via la mise à jour majeure de Google Search",
+   "Évaluer les nouvelles options d'agents gérés Claude auto-hébergés pour vos flux de travail"
   ]
  },
  "top5": {
