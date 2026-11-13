@@ -1,0 +1,27 @@
+name: "Pièce Unique : repéré sur X (Camino & co)"
+on:
+  push:
+    paths: ["etat/x-brut.json"]
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: comptes
+  cancel-in-progress: false
+jobs:
+  comptes:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install requests
+      - env:
+          LLM_API_KEY: ${{ secrets.LLM_API_KEY }}
+        run: python mode/comptes.py
+      - run: |
+          git config user.name "veille-bot"; git config user.email "veille-bot@users.noreply.github.com"
+          git add docs/mode/camino.json; git diff --cached --quiet || git commit -m "Pièce Unique : repéré sur X"
+          for i in 1 2 3; do git pull --rebase origin main && git push && break; sleep 5; done
