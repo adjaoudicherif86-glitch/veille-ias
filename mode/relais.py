@@ -52,7 +52,7 @@ def dealabs():
             lien = g(r"<link>(.*?)</link>").strip()
             marchand = html.unescape(g(r'<pepper:merchant name="([^"]*)"'))
             prix = prix_txt(g(r'<pepper:merchant[^>]*price="([^"]*)"'))
-            image = g(r'<media:content[^>]*url="([^"]+)"').replace("/re/150x150/", "/re/500x500/")
+            image = g(r'<media:content[^>]*url="([^"]+)"').replace("/re/150x150/", "/re/300x300/")
             try:
                 date = parsedate_to_datetime(g(r"<pubDate>(.*?)</pubDate>")).astimezone(timezone.utc).isoformat()
             except Exception:

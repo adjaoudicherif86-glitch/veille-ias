@@ -429,7 +429,7 @@ function relaisEnArticles(){
     out.push({id:"r-"+x.id,relai:{src:x.source,url:x.lien,date:x.date,texte:"",pieces:[]},genre:x.genre||"homme",
       marque:x.marque||x.marchand||x.source,nom:x.nom||x.titre,boutique:x.marchand||x.source,categorie:x.categorie||"accessoire",fam:x.categorie||"accessoire",
       styles:x.styles||[],prix_eur:x.prix??0,avant_eur:x.prix_avant||x.prix||0,remise:x.prix_avant&&x.prix&&x.prix_avant>x.prix?Math.round((1-x.prix/x.prix_avant)*100):0,
-      images:[x.image],tailles:[],lien:x.lien,origine:"UE"});
+      images:[String(x.image).replace("/re/500x500/","/re/300x300/")],tailles:[],lien:x.lien,origine:"UE"});
   }
   return out.sort((a,b)=>String(b.relai.date).localeCompare(String(a.relai.date)));
 }
