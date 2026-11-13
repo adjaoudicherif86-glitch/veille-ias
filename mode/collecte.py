@@ -21,6 +21,29 @@ SORTIE = RACINE / "docs" / "mode" / "data.json"
 UA = {"User-Agent": "Mozilla/5.0 (compatible; PieceUnique/1.0; veille personnelle)", "Accept": "application/json"}
 REMISE_MIN = 30
 PRIX_MAX_EUR = 200
+# Le style Camino : du streetwear, du workwear, un peu d'old money, pas du sport pur
+SPORT = re.compile(r"\b(maillot|football|soccer|replica|(home|away|third) (shirt|jersey|kit)|pre-?match|matchday|fanwear|supporters?|"
+                   r"football club|f\.?c\.?|ac milan|inter milan|juventus|fiorentina|psg|paris saint|olympique|real madrid|barcelona|arsenal|"
+                   r"chelsea|liverpool|manchester (city|united)|bayern|dortmund|ajax|celtic|nba|nfl|basketball|basket-?ball|tennis|"
+                   r"golf(?! ?le ?fleur)|cycling|cyclisme|swim|compression|marathon|training top|gym)\b", re.I)
+MARQUES_CONNUES = re.compile(
+    r"nike|jordan|adidas|new balance|asics|salomon|puma|reebok|converse|vans|hoka|timberland|clarks|dr\.? ?martens|birkenstock|ugg|"
+    r"carhartt|dickies|north face|patagonia|columbia|arc.?teryx|stone island|c\.?p\.? company|st[uü]ssy|ralph lauren|lacoste|tommy|"
+    r"levi|\blee\b|wrangler|uniqlo|zara|bershka|pull ?& ?bear|jack ?& ?jones|champion|napapijri|kappa|fila|ellesse|le coq sportif|"
+    r"sergio tacchini|lyle ?& ?scott|fred perry|barbour|schott|alpha industries|obey|kangol|new era|eastpak|edwin|gramicci|and wander|"
+    r"norse projects|arte antwerp|sixth june|avnier|olaf hussein|daily paper|pop trading|patta|represent|ami paris|a\.?p\.?c|kitsun|"
+    r"axel arigato|veja|autry|calvin klein|hugo boss|armor.?lux|saint james|chevignon|teddy smith|kaporal|slip fran|faguo|olow|dagobear|"
+    r"kulte|h[ée]las|homecore|carne bollente|dr[oô]le de monsieur|nudie|filling pieces|mizuno|saucony|diadora|karhu|merrell|quiksilver|"
+    r"volcom|huf|thrasher|butter goods|polar skate|palace|kith|aim[ée] leon dore|parajumpers|k-?way|comme des gar", re.I)
+PLAFONDS = {"chaussures": 130, "veste": 150, "surchemise": 100, "maille": 100}  # au-delà : onglet « Indés & pointu »
+
+
+def zone(a):
+    """principal = ce que Camino mettrait en avant (marque connue, expédié de l'UE, prix accessible) ; sinon « pointu »."""
+    connue = a.get("enseigne") or MARQUES_CONNUES.search(f"{a['marque']} {a['nom']} {a['boutique']}")
+    abordable = a["prix_eur"] <= PLAFONDS.get(a["categorie"], 90)
+    return "principal" if (connue and abordable and a["origine"] == "UE") else "pointu"
+
 PRIX_MAX_NEUF = 160   # onglet « Sans promo » : on reste sur des prix accessibles
 JOURS_NEUF = 45
 MAINTENANT = datetime.now(timezone.utc)
@@ -150,6 +173,8 @@ def analyser(p, b, dev, taux, nouveaute=False):
         return None
     if EXCLURE.search(f"{p['title']} {p.get('product_type', '')} {' '.join(p.get('tags', []) if isinstance(p.get('tags'), list) else [p.get('tags', '')])}"):
         return None
+    if SPORT.search(f"{p['title']} {p.get('product_type', '')}"):
+        return None
     cat = categorie(p)
     if not cat:
         return None
@@ -183,7 +208,7 @@ def analyser(p, b, dev, taux, nouveaute=False):
         "id": f"{b['domaine'].split('.')[0]}-{p['id']}", "boutique": b["nom"], "domaine": b["domaine"], "origine": b["origine"], "pays": b.get("pays", b["origine"]),
         "marque": p.get("vendor") or b["nom"], "nom": p["title"], "categorie": cat, "fam": sous_type(cat, p["title"]), "type": p.get("product_type", ""),
         "prix": prix, "avant": avant, "devise": dev, "remise": remise, "prix_eur": eur, "avant_eur": round(avant * taux.get(dev, 1), 2),
-        "tailles": tailles[:12], "images": images, "lien": f"https://{b['domaine']}/products/{p['handle']}",
+        "tailles": tailles[:12], "images": images, "lien": f"https://{b['domaine']}/products/{p['handle']}", "handle": p["handle"],
         "styles_indice": b.get("styles", []), "description": re.sub(r"<[^>]+>", " ", p.get("body_html") or "")[:300].strip(),
         **({"sortie": (p.get("published_at") or p.get("created_at") or "")[:10]} if nouveaute else {}),
     }
@@ -221,6 +246,9 @@ RAYONS = {
 CONSIGNE = """Tu es le sélectionneur d'un média streetwear français (esprit Camino TV). Ton lecteur est un homme jeune, au budget
 serré, qui cherche des PÉPITES : des pièces qui ont un vrai intérêt (matière, coupe, marque respectée, détail qui change tout)
 à petit prix. Il en a marre des listes de vestes qui se ressemblent toutes.
+Ton lecteur suit Camino TV : il veut des marques connues (Nike, Adidas, New Balance, Salomon, Carhartt WIP, Dickies, The North
+Face, Levi's, Ralph Lauren, Lacoste, Uniqlo, Stüssy…) et de bonnes marques françaises abordables, à petit prix. Le sport pur
+(maillots de foot, tenues de running technique, basket) est hors sujet : note 0.
 Rayon du jour : {style} — {description}.
 On te donne des articles réellement {quoi}, avec leur prix en euros. Réponds UNIQUEMENT en JSON :
 {{
@@ -534,9 +562,84 @@ def suivre_prix(articles):
     print(f"→ suivi des prix : {n} baisses depuis la dernière visite")
 
 
+def devise_france(domaine):
+    """Devise affichée à un visiteur français (marché France de la boutique)."""
+    try:
+        return requests.get(f"https://{domaine}/cart.js", headers=UA, timeout=15,
+                            cookies={"localization": "FR", "cart_currency": "EUR"}).json().get("currency") or "EUR"
+    except Exception:
+        return None
+
+
+def verifier_fr(articles, taux):
+    """Relit chaque pièce comme un visiteur français, juste avant publication : prix France, remise France, stock.
+    Une promo qui n'existe pas en France (fréquent chez les boutiques anglaises) ou qui a disparu est retirée."""
+    from concurrent.futures import ThreadPoolExecutor
+    par_dom = {}
+    for a in articles:
+        if a.get("handle") and a.get("domaine"):
+            par_dom.setdefault(a["domaine"], []).append(a)
+    garde, retire, echec = [], 0, 0
+    heure = datetime.now(timezone.utc).isoformat()
+
+    def boutique(dom):
+        nonlocal retire, echec
+        dev = devise_france(dom)
+        ok = []
+        for a in par_dom[dom]:
+            try:
+                r = requests.get(f"https://{dom}/products/{a['handle']}.js", headers=UA, timeout=15,
+                                 cookies={"localization": "FR", "cart_currency": "EUR"})
+                if r.status_code == 404:
+                    retire += 1
+                    continue
+                d = r.json()
+            except Exception:
+                echec += 1
+                ok.append(a)  # pas de réponse : on garde la lecture du catalogue
+                continue
+            dispo = [v for v in d.get("variants", []) if v.get("available")]
+            if not dispo or not dev:
+                retire += 1
+                continue
+            v = min(dispo, key=lambda x: x.get("price") or 10 ** 9)
+            prix, avant = (v.get("price") or 0) / 100, (v.get("compare_at_price") or 0) / 100
+            if not prix or avant <= prix or round((1 - prix / avant) * 100) < REMISE_MIN:
+                retire += 1
+                continue
+            t = taux.get(dev, 1)
+            a["prix_eur"], a["avant_eur"], a["remise"] = round(prix * t, 2), round(avant * t, 2), round((1 - prix / avant) * 100)
+            noms = d.get("options") or []
+            noms = [o.get("name") if isinstance(o, dict) else o for o in noms]
+            idx = next((i for i, n in enumerate(noms) if n and TAILLES.match(n)), None)
+            if idx is not None:
+                a["tailles"] = list(dict.fromkeys(x.get(f"option{idx + 1}") for x in dispo if x.get(f"option{idx + 1}")))[:12]
+            a["verifie"] = heure
+            ok.append(a)
+            time.sleep(.15)
+        return ok
+
+    with ThreadPoolExecutor(max_workers=12) as ex:
+        for lot in ex.map(boutique, list(par_dom)):
+            garde += lot
+    for a in articles:  # Zara, Uniqlo : lus en direct sur le marché France
+        if not a.get("handle"):
+            a["verifie"] = heure
+            garde.append(a)
+    print(f"→ vérification au prix France : {len(garde)} gardées, {retire} retirées (promo absente en France, épuisée ou disparue), {echec} sans réponse")
+    return garde
+
+
 def main():
     cfg = json.loads((Path(__file__).parent / "boutiques.json").read_text(encoding="utf-8"))["boutiques"]
     taux = taux_eur()
+    try:
+        ancien = json.loads(SORTIE.read_text(encoding="utf-8"))
+    except (FileNotFoundError, json.JSONDecodeError):
+        ancien = {}
+    notes_avant = {a["id"]: a for a in ancien.get("articles", []) + ancien.get("nouveautes", []) if a.get("note") is not None}
+    ia_du_jour = bool(os.getenv("FORCE_IA")) or MAINTENANT.hour in (6, 7) or len(notes_avant) < 50
+    print(f"Passage {'complet (IA)' if ia_du_jour else 'rapide (prix et stocks, notes de ce matin)'}")
     articles, neufs, bilan = [], [], []
     depuis = (MAINTENANT - timedelta(days=JOURS_NEUF)).isoformat()
     for b in cfg:
@@ -578,7 +681,7 @@ def main():
         except Exception as e:
             print(f"  ✗ {f.__name__} : {e}")
             lot = []
-        gardes = [a for a in lot if not EXCLURE.search(a["nom"]) and (a["remise"] >= 20 or (a.get("prix_special") and a["prix_eur"] <= 40))]
+        gardes = [a for a in lot if not EXCLURE.search(a["nom"]) and not SPORT.search(a["nom"]) and (a["remise"] >= 20 or (a.get("prix_special") and a["prix_eur"] <= 40))]
         for a in gardes:
             a["fam"] = sous_type(a["categorie"], a["nom"])
         bilan.append({"boutique": f.__name__.capitalize(), "lus": len(lot), "gardes": len(gardes), "devise": "EUR", "origine": "UE"})
@@ -601,13 +704,26 @@ def main():
         compte[k] = compte.get(k, 0) + 1
         par_b[a["boutique"]] = par_b.get(a["boutique"], 0) + 1
         uniques.append(a)
-    par_id = {a["id"]: a for a in uniques}
     print(f"→ {len(articles)} affaires, {len(uniques)} gardées après tri des doublons et des pièces trop semblables")
+    uniques = verifier_fr(uniques, taux)
+    for a in uniques:
+        a["zone"] = zone(a)
+    par_id = {a["id"]: a for a in uniques}
+    print(f"→ onglet principal : {sum(a['zone'] == 'principal' for a in uniques)} pièces ; indés et pointu : {sum(a['zone'] == 'pointu' for a in uniques)}")
 
     # --- l'IA note chaque rayon (sévèrement) et compose 2 tenues par style
     tenues, modele = [], None
-    for style, description in RAYONS.items():
-        cands = varies([a for a in uniques if style in a["styles_indice"]], 70)
+    if not ia_du_jour:  # passage rapide : on reprend les notes et les fits de ce matin
+        for a in uniques:
+            v = notes_avant.get(a["id"])
+            if v:
+                for k in ("note", "styles", "pourquoi", "porte"):
+                    if v.get(k) is not None:
+                        a[k] = v[k]
+        tenues = [t for t in ancien.get("tenues", []) if all(i in par_id for i in t.get("articles", []))]
+        modele = ancien.get("modele")
+    for style, description in (RAYONS.items() if ia_du_jour else []):
+        cands = varies([a for a in uniques if style in a["styles_indice"] and a["zone"] == "principal"], 70)
         rep = demander_ia(CONSIGNE.format(style=style, description=description, quoi="en promo", max_hauts=14,
                                           tenues_schema=TENUES_SCHEMA, tenues_regles=TENUES_REGLES), cands)
         print(f"  rayon {style} : {len(cands)} candidats, {'noté par ' + rep['_modele'] if rep else 'IA indisponible'}")
@@ -627,7 +743,7 @@ def main():
     selection = []
     for style in RAYONS:
         cm, cf, n = {}, {}, 0
-        for a in sorted((x for x in uniques if x.get("note", 0) >= 7 and style in x["styles"] and x["fiab"] != "prudence"),
+        for a in sorted((x for x in uniques if x.get("note", 0) >= 7 and style in x["styles"] and x["fiab"] != "prudence" and x["zone"] == "principal"),
                         key=lambda x: (x["note"] + {"FR": .9, "UK": -.4, "US": -.8}.get(x["pays"], .4), x["rang"]), reverse=True):
             m = a["marque"].lower()
             hors_ue = a["origine"] != "UE"
@@ -642,7 +758,7 @@ def main():
     print(f"→ sélection : {len(selection)} pépites")
 
     # --- le plan du jour : une pépite de saison, abordable, expédiée de France ou d'UE par une boutique fiable
-    eligibles = [a for a in uniques if a["prix_eur"] <= 70 and a["origine"] == "UE" and POIDS.get(a["categorie"], 1) >= 2
+    eligibles = [a for a in uniques if a["prix_eur"] <= 70 and a["zone"] == "principal" and POIDS.get(a["categorie"], 1) >= 2
                  and a.get("fiab") in ("fiable", "correct", "enseigne") and a["remise"] >= 30]
     coup = max(eligibles or uniques, key=lambda a: a.get("note", 0) * 2 + score(a))["id"] if uniques else None
 
@@ -650,13 +766,20 @@ def main():
     vus_n, neufs_u = set(), []
     for a in sorted(neufs, key=lambda a: a["sortie"], reverse=True):
         cle = (a["marque"].lower(), re.sub(r"\s*[-–(].*$", "", a["nom"].lower()))
-        if cle not in vus_n and a["id"] not in par_id:
+        if cle not in vus_n and a["id"] not in par_id and not SPORT.search(a["nom"]) and MARQUES_CONNUES.search(f"{a['marque']} {a['nom']} {a['boutique']}"):
             vus_n.add(cle)
             neufs_u.append(a)
     cands = varies(neufs_u, 140, par_boutique=6, par_fam=9)
     rep = None
     par_id_n = {a["id"]: a for a in cands}
-    for i in range(0, len(cands), 70):  # deux petits appels plutôt qu'un gros (plus fiable)
+    if not ia_du_jour:
+        for a in cands:
+            v = notes_avant.get(a["id"])
+            if v:
+                for k in ("note", "styles", "pourquoi"):
+                    if v.get(k) is not None:
+                        a[k] = v[k]
+    for i in (range(0, len(cands), 70) if ia_du_jour else []):  # deux petits appels plutôt qu'un gros (plus fiable)
         r = demander_ia(CONSIGNE.format(style="les nouveautés", description="sorties récentes dans les quatre styles du lecteur : streetwear, workwear, minimal, old money",
                                         quoi="sortis ces dernières semaines (sans promo)", max_hauts=15, tenues_schema="", tenues_regles=""), cands[i:i + 70])
         appliquer_notes(r, par_id_n)
@@ -672,7 +795,7 @@ def main():
     fil = {"posts": [], "fils": []}  # le fil façon Camino est retiré (Chérif préfère la sélection en grille)
     a_voir = list(dict.fromkeys([i for t in tenues for i in t["articles"]] + ([coup] if coup else []) + selection[:30]
                                 + [p["id"] for p in fil["posts"] if p["id"] in par_id]))
-    n = photos_portees([par_id_tout[i] for i in a_voir][:60])
+    n = photos_portees([par_id_tout[i] for i in a_voir if not par_id_tout[i].get("porte")][:60]) if ia_du_jour else 0
     print(f"📸 {n} photos portées trouvées sur {len(a_voir)} articles vérifiés")
     # première apparition de chaque article : sert à « Ça vient de tomber »
     f_vus = RACINE / "etat" / "mode-vus.json"
@@ -691,7 +814,7 @@ def main():
     f_vus.parent.mkdir(exist_ok=True)
     f_vus.write_text(json.dumps({k: v for k, v in deja.items() if k == "_debut" or v >= limite}, separators=(",", ":")), encoding="utf-8")
     for a in uniques + nouveautes:  # allège le fichier lu par le site (téléphone)
-        for k in ("description", "styles_indice", "type", "prix", "avant", "devise", "domaine", "vu_le"):  # noqa
+        for k in ("description", "styles_indice", "type", "prix", "avant", "devise", "domaine", "vu_le", "handle"):  # noqa
             a.pop(k, None)
         a["images"] = a["images"][:2] + ([a["porte"]] if a.get("porte") and a["porte"] not in a["images"][:2] else [])
     SORTIE.parent.mkdir(parents=True, exist_ok=True)

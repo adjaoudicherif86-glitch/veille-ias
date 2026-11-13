@@ -287,9 +287,10 @@ footer b{color:var(--blanc);font-weight:600}
     <a class="logo" href="#" data-vue="plans">Pièce Unique</a>
     <nav class="vues" aria-label="Rubriques">
       <button data-vue="plans">La sélection</button>
-      <button data-vue="tout">Toutes les promos</button>
+      <button data-vue="tout">Promos</button>
+      <button data-vue="pointu">Indés &amp; pointu</button>
       <button data-vue="neuf">Sans promo</button>
-      <button data-vue="camino">Repéré par Camino</button>
+      <button data-vue="camino">Les relais</button>
       <button data-vue="fits">Les fits</button>
       <button data-vue="marques">Marques</button>
       <button data-vue="fiab">Fiabilité</button>
@@ -337,6 +338,7 @@ function badge(a){const f=fParNom[a.boutique],n=a.fiab||(f&&f.niveau)||"inconnu"
 const avisIA=a=>String(a.pourquoi||"").replace(/^[\s«"“]+|[\s»"”]+$/g,"");
 const fiableOk=a=>!etat.fiables||["fiable","correct","enseigne"].includes(a.fiab);
 const douane=a=>a.pays==="FR"?`<span style="color:#0b3d91;font-weight:600">Expédié de France</span>`:a.origine==="UE"?"":`<span class="douane">Envoi depuis le ${PAYS[a.origine]||a.origine}, douane possible</span>`;
+const principal=a=>a.zone!=="pointu";
 const styleOk=a=>(etat.style==="tous"||(a.styles||[]).includes(etat.style))&&fiableOk(a);
 
 function fiche(a,mini){
@@ -353,7 +355,7 @@ function fiche(a,mini){
       <div class="pa">${a.baisse_de?`<b style="color:var(--rouge)">Baisse de prix</b> : avant ${eur(a.baisse_de)}<br>`:""}${a.remise?`Au lieu de <span class="avant">${eur(a.avant_eur)}</span>`:a.sortie?"Sans promo":"Prix spécial"}${marque(a)===a.boutique?"":" chez "+esc(a.boutique)}</div>
       ${badge(a)}
       ${a.pourquoi?`<p class="av">${esc(avisIA(a))}</p>`:""}
-      <div class="t">${a.tailles.length?"Tailles "+esc(a.tailles.slice(0,7).join(", ")):""}${a.tailles.length&&(a.origine!=="UE"||a.pays==="FR")?"<br>":""}${douane(a)}</div>
+      <div class="t">${a.verifie?`<span style="color:#1f8a3b">Prix et stock vérifiés ${depuis(a.verifie)}</span><br>`:""}${a.tailles.length?"Tailles "+esc(a.tailles.slice(0,7).join(", ")):""}${a.tailles.length&&(a.origine!=="UE"||a.pays==="FR")?"<br>":""}${douane(a)}</div>
     </div>
   </article>`;
 }
@@ -411,7 +413,8 @@ function vueFil(){
         <div><h3>Ça vient de baisser</h3>${baisses.length?`<ul>${baisses.map(ligneCote).join("")}</ul>`:'<p class="vide2">Aucune baisse depuis hier. Le robot compare les prix chaque matin.</p>'}</div>
         <div><h3>Moins de 30 balles</h3><ul>${petits.map(ligneCote).join("")}</ul></div>
       </aside></div></div></section>`}
-let C={posts:[]};
+let C={posts:[]}, R={items:[]};
+const COMPTES={CaminoTV:"Camino TV",FitThemAll:"FitThemAll",LinkDeal_:"LinkDeal",DealsFinder93:"DealsFinder"};
 function depuis(d){const h=Math.round((Date.now()-new Date(d))/36e5);return h<1?"à l'instant":h<24?`il y a ${h} h`:`il y a ${Math.round(h/24)} j`}
 function carteCamino(p){
   const pieces=(p.pieces||[]).filter(x=>etat.style==="tous"||!(x.styles||[]).length||x.styles.includes(etat.style));
@@ -419,17 +422,31 @@ function carteCamino(p){
   const im=(p.images||[]).slice(0,2);
   return `<article class="cam">
     ${im.length?`<a class="ph" style="--n:${im.length}" href="${esc(p.url)}" target="_blank" rel="noopener">${im.map(u=>`<img src="${esc(u)}" alt="" loading="lazy">`).join("")}</a>`:""}
-    <div class="qui"><b>Camino TV</b> sur X, ${depuis(p.date)}</div>
+    <div class="qui"><b>${esc(COMPTES[p.compte]||p.compte||"Camino TV")}</b> sur X, ${depuis(p.date)}</div>
     <p class="txt">${esc(p.texte)}</p>
     <ul>${pieces.map(x=>`<li><span>${x.lien?`<a href="${esc(x.lien)}" target="_blank" rel="noopener" style="text-decoration:underline;text-decoration-color:var(--trait)">`:""}${x.etiquette?`<b>${esc(x.etiquette)}</b> `:""}${esc([x.marque,x.nom].filter(Boolean).join(", "))}${x.lien?"</a>":""}${x.code?`<span class="code">code ${esc(x.code)}</span>`:""}</span><span class="px">${x.prix!=null?eur(x.prix):""}${x.prix_avant?`<s>${eur(x.prix_avant)}</s>`:""}</span></li>`).join("")}</ul>
     <div class="actions">${(pieces[0].lien||p.liens&&p.liens[0])?`<a class="plein" href="${esc(pieces[0].lien||p.liens[0])}" target="_blank" rel="noopener">Voir la pièce</a>`:""}<a href="${esc(p.url)}" target="_blank" rel="noopener">Voir le post</a></div>
   </article>`}
+function carteRelais(x){
+  if(etat.style!=="tous"&&(x.styles||[]).length&&!x.styles.includes(etat.style))return "";
+  return `<article class="cam">
+    ${x.image?`<a class="ph" style="--n:1" href="${esc(x.lien)}" target="_blank" rel="noopener"><img src="${esc(x.image)}" alt="" loading="lazy" style="aspect-ratio:1/1;object-fit:contain;background:#fff"></a>`:""}
+    <div class="qui"><b>${esc(x.source)}</b>${x.source==="Dealabs"?" (la communauté)":""}, ${depuis(x.date)}${x.marchand?` · chez ${esc(x.marchand)}`:""}</div>
+    <p class="txt" style="font-weight:600">${esc(x.marque&&!String(x.nom||"").toLowerCase().includes(String(x.marque).toLowerCase())?x.marque+", "+(x.nom||x.titre):(x.nom||x.titre))}</p>
+    <p style="font-size:15px">${x.prix!=null?`<b>${eur(x.prix)}</b>`:""}${x.prix_avant?` <s class="avant">${eur(x.prix_avant)}</s>`:""}</p>
+    <div class="actions"><a class="plein" href="${esc(x.lien)}" target="_blank" rel="noopener">Voir le bon plan</a></div>
+  </article>`}
+function relaisTous(){
+  const l=[...(C.posts||[]).map(p=>({t:"x",d:p.date,src:COMPTES[p.compte]||p.compte||"Camino TV",p})),...(R.items||[]).map(x=>({t:"r",d:x.date,src:x.source,p:x}))];
+  return l.sort((a,b)=>String(b.d).localeCompare(String(a.d)))}
 function vueCamino(){
-  const l=(C.posts||[]).map(carteCamino).filter(Boolean);
-  return `<div class="wrap"><div class="fits-tete"><div><h2>Repéré par Camino</h2><p style="margin-top:8px;max-width:62ch">Les bons plans vêtements et chaussures postés par Camino TV sur X, récupérés sur leur compte. Les liens et les codes sont les leurs.</p></div></div>
-    ${l.length?`<div class="cam-grille">${l.join("")}</div>`:`<p class="vide">${C.maj?"Aucun plan mode posté par Camino ces derniers jours dans ce style.":"Pas encore de plans Camino : la première lecture de leur compte arrive bientôt."}</p>`}</div>`}
+  const tous=relaisTous(), sources=[...new Set(tous.map(x=>x.src))];
+  const l=tous.filter(x=>!etat.source||x.src===etat.source).map(x=>x.t==="x"?carteCamino(x.p):carteRelais(x.p)).filter(Boolean);
+  return `<div class="wrap"><div class="fits-tete"><div><h2>Les relais</h2><p style="margin-top:8px;max-width:66ch">Les bons plans repérés par les comptes qui font ça bien : Camino TV et ses concurrents sur X (lus avec toi, à la demande), LinkDeal et la communauté Dealabs (lus automatiquement toutes les 3 heures). Les liens et les codes sont les leurs.</p></div></div>
+    <div class="cats" style="padding:4px 0 6px"><button data-source="" aria-pressed="${!etat.source}">Tout</button>${sources.map(x=>`<button data-source="${esc(x)}" aria-pressed="${etat.source===x}">${esc(x)}</button>`).join("")}</div>
+    ${l.length?`<div class="cam-grille">${l.join("")}</div>`:`<p class="vide">Pas de relais dans ce style pour l'instant.</p>`}</div>`}
 function vuePlans(){
-  const base=D.articles.filter(styleOk);
+  const base=D.articles.filter(a=>principal(a)&&styleOk(a));
   let h="";
   const c=parId[D.coup];
   if(c&&etat.style==="tous"){
@@ -448,8 +465,8 @@ function vuePlans(){
   const sel=(D.selection&&D.selection.length?D.selection.map(i=>parId[i]).filter(Boolean):varier([...D.articles].sort((x,y)=>note(y)-note(x))).slice(0,60)).filter(styleOk);
   h+=`<section class="rangee" style="${c&&etat.style==="tous"?"":"border-top:0"}"><div class="wrap"><div class="intro-sel"><h2>La sélection</h2><p>${sel.length} pépites choisies parmi ${D.articles.length} promos : les mieux notées de chaque style, sans deux pièces qui se ressemblent. Clique sur une pièce pour voir des articles du même genre.</p></div>
     ${sel.length?`<div class="grille">${sel.map(a=>fiche(a)).join("")}</div>`:`<p class="vide">Pas de pépite dans ce style aujourd'hui.</p>`}</div></section>`;
-  const cam=(C.posts||[]).slice(0,12).map(carteCamino).filter(Boolean).slice(0,4);
-  if(cam.length)h+=`<section class="rangee"><div class="wrap"><div class="titre-rangee"><h2>Repéré par Camino</h2><p><a href="#" data-vue="camino" style="text-decoration:underline">Tous leurs plans</a></p></div><div class="cam-grille" style="padding-top:0">${cam.join("")}</div></div></section>`;
+  const cam=relaisTous().slice(0,24).map(x=>x.t==="x"?carteCamino(x.p):carteRelais(x.p)).filter(Boolean).slice(0,4);
+  if(cam.length)h+=`<section class="rangee"><div class="wrap"><div class="titre-rangee"><h2>Les relais du moment</h2><p><a href="#" data-vue="camino" style="text-decoration:underline">Tous les relais</a></p></div><div class="cam-grille" style="padding-top:0">${cam.join("")}</div></div></section>`;
   const baisses=[...D.articles,...D.nouveautes].filter(a=>styleOk(a)&&a.baisse_de).sort((a,b)=>(b.baisse_de-b.prix_eur)-(a.baisse_de-a.prix_eur)).slice(0,16);
   if(baisses.length)h+=`<section class="rangee"><div class="wrap"><div class="titre-rangee"><h2>Ça vient de baisser</h2><p>Prix en baisse depuis hier</p></div><div class="defile">${baisses.map(a=>fiche(a)).join("")}</div></div></section>`;
   if(!etat.marque){
@@ -460,13 +477,14 @@ function vuePlans(){
     if(ens.length)h+=`<section class="rangee"><div class="wrap"><div class="titre-rangee"><h2>Les grandes enseignes</h2><p>Zara, Uniqlo : essai et retour possibles en magasin</p></div><div class="defile">${ens.map(a=>fiche(a)).join("")}</div></div></section>`;
     if(petits.length)h+=`<section class="rangee"><div class="wrap"><div class="titre-rangee"><h2>Moins de 30 balles</h2><p>${base.filter(a=>a.prix_eur<=30).length} pièces</p></div><div class="defile">${petits.map(a=>fiche(a)).join("")}</div></div></section>`;
   }
-  h+=`<div class="voir-tout"><button class="cta" data-vue="tout" style="border:0;cursor:pointer;margin:0">Voir les ${base.length} promos</button></div>`;
+  h+=`<div class="voir-tout"><button class="cta" data-vue="tout" style="border:0;cursor:pointer;margin:0">Voir les ${base.length} promos accessibles</button></div>`;
   return h;
 }
 
-function vueTout(){
-  const base=D.articles.filter(styleOk);
-  let h="";
+function vueTout(zone){
+  const pointu=zone==="pointu";
+  const base=D.articles.filter(a=>styleOk(a)&&(pointu?!principal(a):principal(a)));
+  let h=pointu?`<div class="wrap"><div class="fits-tete"><div><h2>Indés &amp; pointu</h2><p style="margin-top:8px;max-width:64ch">Les marques indépendantes et pointues, plus chères, et tout ce qui part du Royaume-Uni ou des États-Unis (douane possible). Mis de côté pour ne pas noyer les promos accessibles.</p></div></div></div>`:"";
   let l=base.filter(a=>(etat.cat==="tous"||a.categorie===etat.cat)&&(!etat.budget||a.prix_eur<=etat.budget)&&(!etat.marque||marque(a)===etat.marque));
   l.sort(etat.tri==="prix"?(a,b)=>a.prix_eur-b.prix_eur:etat.tri==="remise"?(a,b)=>b.remise-a.remise:(a,b)=>note(b)-note(a));
   if(etat.tri==="choix")l=varier(l);
@@ -581,7 +599,7 @@ function rendre(haut){
   document.querySelectorAll(".vues button").forEach(b=>b.setAttribute("aria-current",b.dataset.vue===etat.vue));
   document.getElementById("styles").innerHTML=Object.entries(STYLES).map(([k,v])=>`<button data-style="${k}" aria-pressed="${etat.style===k}">${v}</button>`).join("");
   const v=document.getElementById("vue");
-  v.innerHTML=etat.vue==="fits"?vueFits():etat.vue==="marques"?vueMarques():etat.vue==="fiab"?vueFiab():etat.vue==="tout"?vueTout():etat.vue==="neuf"?vueNeuf():etat.vue==="camino"?vueCamino():vuePlans();
+  v.innerHTML=etat.vue==="fits"?vueFits():etat.vue==="marques"?vueMarques():etat.vue==="fiab"?vueFiab():etat.vue==="tout"?vueTout():etat.vue==="pointu"?vueTout("pointu"):etat.vue==="neuf"?vueNeuf():etat.vue==="camino"?vueCamino():vuePlans();
   const fb=document.getElementById("fiables"); if(fb)fb.onchange=e=>{etat.fiables=e.target.checked;etat.n=48;rendre("tout")};
   const b=document.getElementById("budget"); if(b){b.value=etat.budget; b.onchange=e=>{etat.budget=+e.target.value;etat.n=48;rendre("tout")}}
   const t=document.getElementById("tri"); if(t){t.value=etat.tri; t.onchange=e=>{etat.tri=e.target.value;rendre("tout")}}
@@ -598,18 +616,19 @@ document.addEventListener("click",e=>{
   if(pn.open&&e.target.closest("[data-fiche],[data-vue]"))pn.close();
   const fi=e.target.closest("[data-fiche]");
   if(fi){e.preventDefault();etat.vue="fiab";rendre(true);document.getElementById("f-"+fi.dataset.fiche.replace(/\W+/g,"-"))?.scrollIntoView({block:"center"});return}
-  const b=e.target.closest("[data-vue],[data-style],[data-cat],[data-marque],[data-photos]"); if(!b)return;
+  const b=e.target.closest("[data-vue],[data-style],[data-cat],[data-marque],[data-photos],[data-source]"); if(!b)return;
   if(b.dataset.vue){e.preventDefault();etat.vue=b.dataset.vue;etat.marque=null;etat.cat="tous";etat.n=48;rendre(true);return}
   if(b.dataset.style){etat.style=b.dataset.style;etat.n=48;rendre();return}
   if(b.dataset.cat){etat.cat=b.dataset.cat;etat.n=48;rendre("tout");return}
   if(b.dataset.photos){etat.photos=b.dataset.photos;rendre();return}
+  if("source" in b.dataset){etat.source=b.dataset.source||null;rendre();return}
   if("marque" in b.dataset){etat.marque=b.dataset.marque||null;etat.vue="tout";etat.cat="tous";etat.n=48;rendre(etat.marque?"tout":true)}
 });
 
-Promise.all([fetch("data.json?"+Date.now()).then(r=>r.json()),fetch("fiabilite.json?"+Date.now()).then(r=>r.ok?r.json():{boutiques:[]}).catch(()=>({boutiques:[]})),fetch("camino.json?"+Date.now()).then(r=>r.ok?r.json():{posts:[]}).catch(()=>({posts:[]}))]).then(([d,f,cm])=>{
-  D=d; F=f; C=cm||{posts:[]}; D.nouveautes=D.nouveautes||[]; [...D.nouveautes,...D.articles].forEach(a=>parId[a.id]=a); F.boutiques.forEach(b=>fParNom[b.boutique]=b);
+Promise.all([fetch("data.json?"+Date.now()).then(r=>r.json()),fetch("fiabilite.json?"+Date.now()).then(r=>r.ok?r.json():{boutiques:[]}).catch(()=>({boutiques:[]})),fetch("camino.json?"+Date.now()).then(r=>r.ok?r.json():{posts:[]}).catch(()=>({posts:[]})),fetch("relais.json?"+Date.now()).then(r=>r.ok?r.json():{items:[]}).catch(()=>({items:[]}))]).then(([d,f,cm,rl])=>{
+  D=d; F=f; C=cm||{posts:[]}; R=rl||{items:[]}; D.nouveautes=D.nouveautes||[]; [...D.nouveautes,...D.articles].forEach(a=>parId[a.id]=a); F.boutiques.forEach(b=>fParNom[b.boutique]=b);
   [...D.nouveautes,...D.articles].forEach(a=>{if(!a.fiab&&fParNom[a.boutique])a.fiab=fParNom[a.boutique].niveau;if(!a.fam)a.fam=a.categorie});
-  const top=(D.selection&&D.selection.length?D.selection.map(i=>parId[i]).filter(Boolean):varier([...D.articles].filter(a=>a.categorie!=="accessoire").sort((a,b)=>note(b)-note(a)))).slice(0,14);
+  const top=(D.selection&&D.selection.length?D.selection.map(i=>parId[i]).filter(Boolean):varier([...D.articles].filter(a=>principal(a)&&a.categorie!=="accessoire").sort((a,b)=>note(b)-note(a)))).slice(0,14);
   const ligne=top.map(a=>`<a href="${esc(a.lien)}" data-art="${esc(a.id)}" target="_blank" rel="noopener">${esc(marque(a))}, ${esc(nom(a).n)} à <b>${eur(a.prix_eur)}</b></a>`).join("");
   document.getElementById("ticker").innerHTML=ligne+ligne;
   const m=new Date(d.maj);

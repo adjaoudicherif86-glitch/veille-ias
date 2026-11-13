@@ -2,7 +2,12 @@ name: "Pièce Unique : promos du jour"
 on:
   schedule:
     - cron: "23 7 * * *"
+    - cron: "23 10,13,16,19,22 * * *"
   workflow_dispatch:
+    inputs:
+      force_ia:
+        description: "Relancer la notation IA"
+        default: ""
 permissions:
   contents: write
 concurrency:
@@ -20,8 +25,12 @@ jobs:
       - run: pip install requests
       - env:
           LLM_API_KEY: ${{ secrets.LLM_API_KEY }}
+          FORCE_IA: ${{ inputs.force_ia }}
         run: python mode/collecte.py
+      - env:
+          LLM_API_KEY: ${{ secrets.LLM_API_KEY }}
+        run: python mode/relais.py || echo "relais indisponibles"
       - run: |
           git config user.name "veille-bot"; git config user.email "veille-bot@users.noreply.github.com"
-          git add docs/mode/data.json etat/mode-vus.json etat/mode-prix.json; git diff --cached --quiet || git commit -m "Pièce Unique : promos du jour"
+          for f in docs/mode/data.json etat/mode-vus.json etat/mode-prix.json docs/mode/relais.json; do [ -f "$f" ] && git add "$f"; done; git diff --cached --quiet || git commit -m "Pièce Unique : promos du jour"
           for i in 1 2 3; do git pull --rebase origin main && git push && break; sleep 5; done
