@@ -414,7 +414,7 @@ function vueFil(){
         <div><h3>Moins de 30 balles</h3><ul>${petits.map(ligneCote).join("")}</ul></div>
       </aside></div></div></section>`}
 let C={posts:[]}, R={items:[]};
-const COMPTES={CaminoTV:"Camino TV",FitThemAll:"FitThemAll",LinkDeal_:"LinkDeal",DealsFinder93:"DealsFinder"};
+const COMPTES={CaminoTV:"Camino TV",FitThemAll:"FitThemAll",Sneakerologue:"Sneakerologue",LinkDeal_:"LinkDeal",DealsFinder93:"DealsFinder"};
 function depuis(d){const h=Math.round((Date.now()-new Date(d))/36e5);return h<1?"à l'instant":h<24?`il y a ${h} h`:`il y a ${Math.round(h/24)} j`}
 function carteCamino(p){
   const pieces=(p.pieces||[]).filter(x=>etat.style==="tous"||!(x.styles||[]).length||x.styles.includes(etat.style));

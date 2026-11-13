@@ -249,6 +249,11 @@ serré, qui cherche des PÉPITES : des pièces qui ont un vrai intérêt (matiè
 Ton lecteur suit Camino TV : il veut des marques connues (Nike, Adidas, New Balance, Salomon, Carhartt WIP, Dickies, The North
 Face, Levi's, Ralph Lauren, Lacoste, Uniqlo, Stüssy…) et de bonnes marques françaises abordables, à petit prix. Le sport pur
 (maillots de foot, tenues de running technique, basket) est hors sujet : note 0.
+Référence de goût : ce que relaient Camino TV et FitThemAll sur X. Par exemple : pantalon brossé et pantalon barrel Uniqlo,
+half-zip côtelé, polaire Uniqlo ou Columbia, bomber Uniqlo x JW Anderson, surchemise matelassée Uniqlo C, doudounes simples
+(Decathlon, Columbia), Air Max 95, Air Force 1, Asics Gel-NYC et Gel-1130, New Balance 1906R et 2002R, Salomon XT-4, Clarks
+Gore-Tex, boots Timberland, mocassins Mango, polo adidas rayé, sweat Ralph Lauren, hoodie zippé Carhartt WIP, joggings Nike,
+gants et bonnets ACG : des pièces qu'on porte vraiment, à petit prix.
 Rayon du jour : {style} — {description}.
 On te donne des articles réellement {quoi}, avec leur prix en euros. Réponds UNIQUEMENT en JSON :
 {{
