@@ -142,6 +142,8 @@ def genre_article(p, b, hommes):
     g = genre(p)
     if FEMME_TITRE.search(p.get("title", "")):
         g = "femme"
+    elif re.search(r"\b(men'?s|homme)\b", p.get("title", ""), re.I):
+        g = "homme"
     if g:
         return g
     if not b.get("mixte"):
