@@ -93,6 +93,15 @@ h2{font-stretch:112%;font-weight:900;font-size:clamp(24px,3vw,36px);letter-spaci
 
 /* fiche article */
 .fiche{display:flex;flex-direction:column;min-width:0}
+.zone-photo{position:relative}
+.coeur{position:absolute;right:10px;bottom:12px;width:38px;height:38px;border-radius:50%;border:0;background:var(--blanc);box-shadow:0 1px 4px rgba(0,0,0,.18);cursor:pointer;font-size:19px;line-height:38px;text-align:center;color:var(--noir);padding:0}
+.coeur[aria-pressed="true"]{background:var(--rouge);color:var(--blanc)}
+.coeur:focus-visible,.coeur-txt:focus-visible{outline:2px solid var(--noir);outline-offset:2px}
+.coeur-txt{border:1.5px solid var(--noir);background:var(--blanc);border-radius:999px;padding:12px 18px;font-weight:700;font-size:15px;cursor:pointer;margin-top:10px;width:100%}
+.coeur-txt[aria-pressed="true"]{background:var(--rouge);border-color:var(--rouge);color:var(--blanc)}
+.vue-fav #nbfav:not(:empty){display:inline-block;min-width:20px;padding:0 6px;border-radius:999px;background:var(--rouge);color:var(--blanc);font-size:12px;line-height:20px;text-align:center}
+.fiche .gt{font-weight:700;color:var(--noir)}
+.plus-en-ligne{font-size:12.5px;color:var(--rouge);font-weight:600;margin-top:6px}
 .fiche .photo{position:relative;display:block;background:var(--photo);aspect-ratio:3/4;overflow:hidden}
 .fiche .photo img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
 .fiche .photo img.b{opacity:0;transition:opacity .2s}
@@ -305,7 +314,9 @@ footer b{color:var(--blanc);font-weight:600}
       <button data-vue="camino">Les relais</button>
       <button data-vue="neuf">Nouveautés</button>
       <button data-vue="fits">Les fits</button>
+      <button data-vue="gt">Grandes tailles</button>
       <button data-vue="fiab">Fiabilité</button>
+      <button data-vue="favoris" class="vue-fav" aria-label="Mes favoris"><span aria-hidden="true">♥</span> Favoris <span id="nbfav"></span></button>
     </nav>
   </div>
 </header>
@@ -358,11 +369,11 @@ const img=(a,u,w)=>a.relai?esc(u):U(u,w);
 function ficheRelai(a,mini){
   const r=a.relai, b=r.x&&a.images[1];
   return `<article class="fiche relai${mini===true?" mini":""}">
-    <a class="photo" href="${esc(a.lien)}" data-art="${esc(a.id)}" target="_blank" rel="noopener" aria-label="${esc(marque(a)+" "+a.nom)}, repéré par ${esc(r.src)}">
+    <div class="zone-photo"><a class="photo" href="${esc(a.lien)}" data-art="${esc(a.id)}" target="_blank" rel="noopener" aria-label="${esc(marque(a)+" "+a.nom)}, repéré par ${esc(r.src)}">
       <img${r.x?' class="x"':""} src="${esc(a.images[0])}" alt="" loading="lazy">${b?`<img class="b x" src="${esc(b)}" alt="" loading="lazy">`:""}
       <span class="marks"><span class="mark src">${esc(r.src)}</span><span class="mark">${depuis(r.date)}</span></span>
       <span class="sticker"><span class="p">${a.prix_eur?eur(a.prix_eur):"Bon plan"}</span><span class="r">${a.remise?"−"+a.remise+" %":"Repéré"}</span></span>
-    </a>
+    </a>${coeur(a)}</div>
     <div class="txt">
       <div class="m">${esc(marque(a))}</div>
       <div class="n">${esc(a.nom)}</div>
@@ -373,20 +384,21 @@ function ficheRelai(a,mini){
 }
 function fiche(a,mini){
   if(a.relai)return ficheRelai(a,mini);
+  if(a._parti)return fiche({...a,_parti:false,verifie:null},mini).replace('<div class="t">','<p class="plus-en-ligne">Plus dans nos promos : la pièce est peut-être épuisée ou revenue à son prix, vérifie sur le site.</p><div class="t">');
   const b=a.porte&&a.porte!==a.images[0]?a.porte:a.images[1];
   return `<article class="fiche${mini===true?" mini":""}">
-    <a class="photo" href="${esc(a.lien)}" data-art="${esc(a.id)}" target="_blank" rel="noopener" aria-label="${esc(marque(a)+" "+a.nom)} chez ${esc(a.boutique)}">
+    <div class="zone-photo"><a class="photo" href="${esc(a.lien)}" data-art="${esc(a.id)}" target="_blank" rel="noopener" aria-label="${esc(marque(a)+" "+a.nom)} chez ${esc(a.boutique)}">
       <img src="${U(a.images[0],600)}" alt="" loading="lazy">${b?`<img class="b" src="${U(b,600)}" alt="" loading="lazy">`:""}
       <span class="marks">${a.nouveau?'<span class="mark noir">Nouveau</span>':"<span></span>"}${a.forte?'<span class="mark">Validé</span>':""}</span>
       ${sticker(a)}
-    </a>
+    </a>${coeur(a)}</div>
     <div class="txt">
       <div class="m">${esc(marque(a))}</div>
       <div class="n">${esc(nom(a).n)}${nom(a).c?`<span style="color:var(--gris)">, ${esc(nom(a).c)}</span>`:""}</div>
       <div class="pa">${a.baisse_de?`<b style="color:var(--rouge)">Baisse de prix</b> : avant ${eur(a.baisse_de)}<br>`:""}${a.remise?`Au lieu de <span class="avant">${eur(a.avant_eur)}</span>`:a.sortie?"Sans promo":"Prix spécial"}${marque(a)===a.boutique?"":" chez "+esc(a.boutique)}</div>
       ${badge(a)}
       ${a.pourquoi?`<p class="av">${esc(avisIA(a))}</p>`:""}
-      <div class="t">${a.verifie?`<span style="color:#1f8a3b">Prix et stock vérifiés ${depuis(a.verifie)}</span><br>`:""}${a.tailles.length?"Tailles "+esc(a.tailles.slice(0,7).join(", ")):""}${a.tailles.length&&(a.origine!=="UE"||a.pays==="FR")?"<br>":""}${douane(a)}</div>
+      <div class="t">${a.verifie?`<span style="color:#1f8a3b">Prix et stock vérifiés ${depuis(a.verifie)}</span><br>`:""}${a.tailles.length?"Tailles "+taillesTxt(a):""}${a.tailles.length&&(a.origine!=="UE"||a.pays==="FR")?"<br>":""}${douane(a)}</div>
     </div>
   </article>`;
 }
@@ -471,6 +483,51 @@ function vueCamino(){
   return `<div class="wrap"><div class="fits-tete"><div><h2>Les relais</h2><p style="margin-top:8px;max-width:66ch">Tous les bons plans repérés par les comptes qui font ça bien, du plus récent au plus ancien : Camino TV et ses concurrents sur X (lus avec toi, à la demande), LinkDeal et la communauté Dealabs (lus automatiquement toutes les 3 heures). Les meilleurs passent aussi dans la sélection. Les liens et les codes sont les leurs.</p></div></div>
     <div class="cats" style="padding:4px 0 6px"><button data-source="" aria-pressed="${!etat.source}">Tout</button>${sources.map(x=>`<button data-source="${esc(x)}" aria-pressed="${etat.source===x}">${esc(x)}</button>`).join("")}</div>
     ${l.length?`<div class="cam-grille">${l.join("")}</div>`:`<p class="vide">Pas de relais dans ce style pour l'instant.</p>`}</div>`}
+// Favoris : gardés dans ce navigateur, avec une copie de la pièce (elle reste visible même si la promo disparaît)
+let FAV={};
+try{FAV=JSON.parse(localStorage.getItem("pu-fav")||"{}")}catch(e){}
+const estFav=id=>!!FAV[id];
+function coeur(a,txt){const on=estFav(a.id);
+  return txt?`<button class="coeur-txt" data-fav="${esc(a.id)}" aria-pressed="${on}">${on?"♥ Dans tes favoris":"♡ Ajouter aux favoris"}</button>`
+    :`<button class="coeur" data-fav="${esc(a.id)}" aria-pressed="${on}" aria-label="${on?"Retirer des favoris":"Ajouter aux favoris"}">${on?"♥":"♡"}</button>`}
+function sauverFav(){try{localStorage.setItem("pu-fav",JSON.stringify(FAV))}catch(e){}
+  const n=Object.keys(FAV).length, el=document.getElementById("nbfav"); if(el)el.textContent=n||""}
+function basculerFav(id){
+  if(FAV[id])delete FAV[id];
+  else{const a=parId[id]; if(!a)return; const {_parti,...copie}=a; FAV[id]={...copie,images:(a.images||[]).slice(0,3),_ajoute:new Date().toISOString()}}
+  sauverFav();
+  document.querySelectorAll(`[data-fav="${CSS.escape(id)}"]`).forEach(b=>{const on=estFav(id);b.setAttribute("aria-pressed",on);
+    if(b.classList.contains("coeur-txt"))b.textContent=on?"♥ Dans tes favoris":"♡ Ajouter aux favoris";else{b.textContent=on?"♥":"♡";b.setAttribute("aria-label",on?"Retirer des favoris":"Ajouter aux favoris")}});
+}
+function vueFavoris(){
+  const l=Object.values(FAV).sort((a,b)=>String(b._ajoute).localeCompare(String(a._ajoute))).map(f=>parId[f.id]||{...f,_parti:!f.relai});
+  const total=l.reduce((s,a)=>s+(a.prix_eur||0),0);
+  const lien=location.origin+location.pathname+"#fav="+encodeURIComponent(Object.keys(FAV).join(","));
+  return `<div class="wrap"><div class="fits-tete"><div><h2>Tes favoris</h2><p style="margin-top:8px;max-width:64ch">${l.length?`${l.length} pièce${l.length>1?"s":""} gardée${l.length>1?"s":""}, ${eur(total)} au total. Les prix se mettent à jour à chaque visite ; une pièce qui sort des promos reste ici avec une alerte.`:"Touche le cœur sur une pièce pour la garder ici. Tes favoris restent dans ce navigateur, même quand la promo disparaît du site."}</p></div></div>
+    ${l.length?`<div class="grille">${l.map(a=>fiche(a)).join("")}</div>
+    <p style="margin:28px 0 8px;font-size:14px;max-width:64ch;color:var(--gris)">Tes favoris sont gardés sur cet appareil. Pour les retrouver sur ton téléphone ou ton ordi, ouvre ce lien là-bas :</p>
+    <p style="padding-bottom:40px"><button class="cats-btn" id="copierfav" data-lien="${esc(lien)}" style="border:1.5px solid var(--noir);background:var(--blanc);border-radius:999px;padding:10px 16px;font-weight:700;cursor:pointer">Copier le lien de mes favoris</button></p>`
+      :`<p class="vide">Aucun favori pour l'instant. Va dans <a href="#" data-vue="plans" style="text-decoration:underline">la sélection</a> et touche le ♡.</p>`}</div>`}
+// Grandes tailles : XXL, 3XL, 4XL encore en stock
+function grandeTaille(t){t=String(t).replace(/^adult\s*\|\s*/i,"").trim().toUpperCase();
+  if(/^(4XL|XXXXL|4X)$/.test(t))return "4XL";
+  if(/^(3XL|XXXL|3X|XXX-LARGE)$/.test(t))return "3XL";
+  if(/^(XXL|2XL|2X|XX-LARGE|XL\/XXL)$/.test(t))return "XXL";
+  return null}
+const grandes=a=>[...new Set((a.tailles||[]).map(grandeTaille).filter(Boolean))];
+function taillesTxt(a){const t=a.tailles.map(x=>String(x).replace(/^adult\s*\|\s*/i,"")), g=t.filter(grandeTaille), vu=t.slice(0,7);
+  const l=[...vu,...g.filter(x=>!vu.includes(x))];
+  return l.map(x=>grandeTaille(x)?`<b class="gt">${esc(x)}</b>`:esc(x)).join(", ")}
+function vueGT(){
+  const base=[...D.articles,...D.nouveautes].filter(a=>styleOk(a)&&grandes(a).length);
+  const nb=k=>base.filter(a=>grandes(a).includes(k)).length;
+  let l=base.filter(a=>(!etat.gt||grandes(a).includes(etat.gt))&&(etat.cat==="tous"||a.categorie===etat.cat));
+  l=varier(l.sort((a,b)=>note(b)-note(a)));
+  const presentes=new Set(base.map(a=>a.categorie));
+  return `<div class="wrap"><div class="fits-tete"><div><h2>Grandes tailles</h2><p style="margin-top:8px;max-width:64ch">Les pièces encore en stock en XXL, 3XL ou 4XL, en promo ou en nouveauté. Les tailles sont relues à chaque mise à jour, toutes les 3 heures.</p></div></div>
+    <div class="cats selection-filtre">${[["","Toutes"],["XXL","XXL"],["3XL","3XL"],["4XL","4XL"]].map(([k,v])=>`<button data-gt="${k}" aria-pressed="${(etat.gt||"")===k}">${v}${k?` (${nb(k)})`:` (${base.length})`}</button>`).join("")}</div></div>
+  <div class="outils"><div class="wrap"><div class="cats">${Object.entries(CATS).filter(([k])=>k==="tous"||presentes.has(k)).map(([k,v])=>`<button data-cat="${k}" aria-pressed="${etat.cat===k}">${v}</button>`).join("")}</div><span class="nb">${l.length} pièce${l.length>1?"s":""}</span></div></div>
+  <div class="wrap" id="tout">${l.length?`<div class="grille">${l.slice(0,etat.n).map(a=>fiche(a)).join("")}</div>${l.length>etat.n?`<button class="plus" id="plus">Voir ${Math.min(48,l.length-etat.n)} pièces de plus</button>`:""}`:`<p class="vide">Rien dans cette taille avec ces filtres aujourd'hui.</p>`}</div>`}
 // La sélection : les pépites des boutiques, les indés et les relais des 3 derniers jours, entrelacés
 function selectionMix(){
   const sel=(D.selection||[]).map(i=>parId[i]).filter(a=>a&&styleOk(a));
@@ -619,6 +676,7 @@ function ouvrirRelai(a){
       <ul class="pn-pieces">${pieces.map(x=>`<li><span>${x.lien?`<a href="${esc(x.lien)}" target="_blank" rel="noopener" style="text-decoration:underline">`:""}${x.etiquette?`<b>${esc(x.etiquette)}</b> `:""}${esc([x.marque,x.nom].filter(Boolean).join(", "))}${x.lien?"</a>":""}${x.code?`<span class="code">code ${esc(x.code)}</span>`:""}</span><span class="px">${x.prix!=null?eur(x.prix):""}${x.prix_avant?`<s>${eur(x.prix_avant)}</s>`:""}</span></li>`).join("")}</ul>
       <p class="lg2">Les liens et les codes sont ceux de ${esc(r.src)}. Une promo relayée part vite : vérifie le prix sur le site avant de commander.</p>
       <a class="cta" href="${esc(a.lien)}" target="_blank" rel="noopener">Voir la pièce</a>
+      ${coeur(a,true)}
       ${r.url&&r.url!==a.lien?`<p style="margin-top:12px"><a href="${esc(r.url)}" target="_blank" rel="noopener" style="text-decoration:underline">Voir le post de ${esc(r.src)}</a></p>`:""}
     </div>
     ${sim.length?`<div class="pn-sim"><h3>Dans le même genre, en boutique</h3><div class="grille">${sim.map(x=>fiche(x,true)).join("")}</div></div>`:""}`;
@@ -639,6 +697,7 @@ function ouvrir(id){
       <div>${badge(a)}</div>
       <p class="lg2">${a.tailles.length?"Tailles dispo : "+esc(a.tailles.join(", "))+"<br>":""}${douane(a)||"Expédié depuis l'Union européenne, sans douane"}</p>
       <a class="cta" href="${esc(a.lien)}" target="_blank" rel="noopener">Voir chez ${esc(a.boutique)}</a>
+      ${coeur(a,true)}
     </div>
     ${sim.length?`<div class="pn-sim"><h3>Dans le même genre</h3><div class="grille">${sim.map(x=>fiche(x,true)).join("")}</div></div>`:""}`;
   if(!pn.open)pn.showModal();
@@ -649,7 +708,9 @@ function rendre(haut){
   document.querySelectorAll(".vues button").forEach(b=>b.setAttribute("aria-current",b.dataset.vue===etat.vue));
   document.getElementById("styles").innerHTML=`<span class="genre" role="group" aria-label="Homme ou femme"><button data-genre="homme" aria-pressed="${etat.genre==="homme"}">Homme</button><button data-genre="femme" aria-pressed="${etat.genre==="femme"}">Femme</button></span>`+Object.entries(STYLES).map(([k,v])=>`<button data-style="${k}" aria-pressed="${etat.style===k}">${v}</button>`).join("");
   const v=document.getElementById("vue");
-  v.innerHTML=etat.vue==="fits"?vueFits():etat.vue==="fiab"?vueFiab():etat.vue==="tout"?vueTout():etat.vue==="neuf"?vueNeuf():etat.vue==="camino"?vueCamino():vuePlans();
+  v.innerHTML=etat.vue==="fits"?vueFits():etat.vue==="fiab"?vueFiab():etat.vue==="tout"?vueTout():etat.vue==="neuf"?vueNeuf():etat.vue==="camino"?vueCamino():etat.vue==="gt"?vueGT():etat.vue==="favoris"?vueFavoris():vuePlans();
+  sauverFav();
+  const cf=document.getElementById("copierfav"); if(cf)cf.onclick=()=>{navigator.clipboard?.writeText(cf.dataset.lien).then(()=>{cf.textContent="Lien copié, ouvre-le sur ton autre appareil"},()=>prompt("Copie ce lien :",cf.dataset.lien))};
   const top=selectionMix().slice(0,16), ligne=top.map(a=>`<a href="${esc(a.lien)}" data-art="${esc(a.id)}" target="_blank" rel="noopener">${esc(marque(a))}, ${esc(nom(a).n)}${a.prix_eur?` à <b>${eur(a.prix_eur)}</b>`:""}</a>`).join("");
   document.getElementById("ticker").innerHTML=ligne+ligne;
   const mq=document.getElementById("marque"); if(mq)mq.onchange=e=>{etat.marque=e.target.value||null;etat.n=48;rendre("tout")};
@@ -664,12 +725,15 @@ function rendre(haut){
 document.addEventListener("click",e=>{
   const pn=document.getElementById("panneau");
   if(e.target===pn||e.target.closest("[data-fermer]")){pn.close();return}
+  const fv=e.target.closest("[data-fav]");
+  if(fv){e.preventDefault();basculerFav(fv.dataset.fav);if(etat.vue==="favoris"&&!pn.open)rendre();return}
   const art=e.target.closest("[data-art]");
   if(art&&!e.ctrlKey&&!e.metaKey&&!e.shiftKey){e.preventDefault();ouvrir(art.dataset.art);return}
   if(pn.open&&e.target.closest("[data-fiche],[data-vue]"))pn.close();
   const fi=e.target.closest("[data-fiche]");
   if(fi){e.preventDefault();etat.vue="fiab";rendre(true);document.getElementById("f-"+fi.dataset.fiche.replace(/\W+/g,"-"))?.scrollIntoView({block:"center"});return}
-  const b=e.target.closest("[data-vue],[data-style],[data-cat],[data-marque],[data-photos],[data-genre],[data-nature],[data-source]"); if(!b)return;
+  const b=e.target.closest("[data-vue],[data-style],[data-cat],[data-marque],[data-photos],[data-genre],[data-nature],[data-source],[data-gt]"); if(!b)return;
+  if("gt" in b.dataset){etat.gt=b.dataset.gt||null;etat.n=48;rendre();return}
   if(b.dataset.vue){e.preventDefault();etat.vue=b.dataset.vue;etat.marque=null;etat.cat="tous";etat.nature="";etat.source=null;etat.n=48;rendre(true);return}
   if(b.dataset.genre){etat.genre=b.dataset.genre;etat.marque=null;etat.n=48;rendre();return}
   if("source" in b.dataset){etat.source=b.dataset.source||null;rendre();return}
@@ -684,6 +748,8 @@ Promise.all([fetch("data.json?"+Date.now()).then(r=>r.json()),fetch("fiabilite.j
   D=d; F=f; C=cm||{posts:[]}; R=rl||{items:[]}; D.nouveautes=D.nouveautes||[]; [...D.nouveautes,...D.articles].forEach(a=>parId[a.id]=a); F.boutiques.forEach(b=>fParNom[b.boutique]=b);
   [...D.nouveautes,...D.articles].forEach(a=>{if(!a.fiab&&fParNom[a.boutique])a.fiab=fParNom[a.boutique].niveau;if(!a.fam)a.fam=a.categorie});
   REL=relaisEnArticles(); REL.forEach(a=>parId[a.id]=a);
+  const mh=location.hash.match(/fav=([^&]*)/);
+  if(mh){decodeURIComponent(mh[1]).split(",").forEach(id=>{if(id&&parId[id]&&!FAV[id])basculerFav(id)});history.replaceState(null,"",location.pathname);etat.vue="favoris"}
   const m=new Date(d.maj);
   document.getElementById("maj").innerHTML=`Mis à jour le <b>${m.toLocaleDateString("fr-FR",{weekday:"long",day:"numeric",month:"long"})} à ${m.toLocaleTimeString("fr-FR",{hour:"2-digit",minute:"2-digit"})}</b>, avec ${d.articles.length} pièces en promo, ${REL.length} bons plans relayés et ${d.tenues.length} fits.`;
   document.getElementById("boutiques").innerHTML="Boutiques suivies : "+d.bilan.filter(b=>b.gardes).map(b=>`<b>${esc(b.boutique)}</b> (${b.gardes})`).join(", ")+".";
