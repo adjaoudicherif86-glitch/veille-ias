@@ -27,7 +27,7 @@ def main(chemin):
         if p.get("tweet_id") and p.get("pieces"):
             par_id[p["tweet_id"]] = p
     posts = sorted((p for p in par_id.values() if p["date"] >= limite), key=lambda p: p["date"], reverse=True)
-    SORTIE.write_text(json.dumps({"maj": maintenant.isoformat(), "compte": "CaminoTV", "source": "lecture à la demande",
+    SORTIE.write_text(json.dumps({"maj": maintenant.isoformat(), "source": "lecture à la demande",
                                   "posts": posts}, ensure_ascii=False, separators=(",", ":")), encoding="utf-8")
     print(f"✅ {len(nouveaux)} posts ajoutés, {len(posts)} plans Camino en ligne")
 
