@@ -302,6 +302,7 @@ footer b{color:var(--blanc);font-weight:600}
     <nav class="vues" aria-label="Rubriques">
       <button data-vue="plans">La sélection</button>
       <button data-vue="tout">Tout voir</button>
+      <button data-vue="camino">Les relais</button>
       <button data-vue="neuf">Nouveautés</button>
       <button data-vue="fits">Les fits</button>
       <button data-vue="fiab">Fiabilité</button>
@@ -439,6 +440,37 @@ const natureOk=a=>!etat.nature||nature(a)===etat.nature;
 const NATURES={"":"Tout",promo:"Promos en boutique",pointu:"Indés & pointu",relai:"Repérés par Camino et cie"};
 function filtreNature(l){const n=k=>l.filter(a=>!k||nature(a)===k).length;
   return `<div class="cats selection-filtre">${Object.entries(NATURES).filter(([k])=>!k||n(k)).map(([k,v])=>`<button data-nature="${k}" aria-pressed="${(etat.nature||"")===k}">${esc(v)}</button>`).join("")}</div>`}
+function carteCamino(p){
+  if(!genreOk(p))return "";
+  const pieces=(p.pieces||[]).filter(x=>etat.style==="tous"||!(x.styles||[]).length||x.styles.includes(etat.style));
+  if(!pieces.length)return "";
+  const im=(p.images||[]).slice(0,2);
+  return `<article class="cam">
+    ${im.length?`<a class="ph" style="--n:${im.length}" href="${esc(p.url)}" target="_blank" rel="noopener">${im.map(u=>`<img src="${esc(u)}" alt="" loading="lazy">`).join("")}</a>`:""}
+    <div class="qui"><b>${esc(COMPTES[p.compte]||p.compte||"Camino TV")}</b> sur X, ${depuis(p.date)}</div>
+    <p class="txt">${esc(p.texte)}</p>
+    <ul>${pieces.map(x=>`<li><span>${x.lien?`<a href="${esc(x.lien)}" target="_blank" rel="noopener" style="text-decoration:underline;text-decoration-color:var(--trait)">`:""}${x.etiquette?`<b>${esc(x.etiquette)}</b> `:""}${esc([x.marque,x.nom].filter(Boolean).join(", "))}${x.lien?"</a>":""}${x.code?`<span class="code">code ${esc(x.code)}</span>`:""}</span><span class="px">${x.prix!=null?eur(x.prix):""}${x.prix_avant?`<s>${eur(x.prix_avant)}</s>`:""}</span></li>`).join("")}</ul>
+    <div class="actions">${(pieces[0].lien||p.liens&&p.liens[0])?`<a class="plein" href="${esc(pieces[0].lien||p.liens[0])}" target="_blank" rel="noopener">Voir la pièce</a>`:""}<a href="${esc(p.url)}" target="_blank" rel="noopener">Voir le post</a></div>
+  </article>`}
+function carteRelais(x){
+  if(!genreOk(x))return "";
+  if(etat.style!=="tous"&&(x.styles||[]).length&&!x.styles.includes(etat.style))return "";
+  return `<article class="cam">
+    ${x.image?`<a class="ph" style="--n:1" href="${esc(x.lien)}" target="_blank" rel="noopener"><img src="${esc(String(x.image).replace("/re/500x500/","/re/300x300/"))}" alt="" loading="lazy" style="aspect-ratio:1/1;object-fit:contain;background:#fff"></a>`:""}
+    <div class="qui"><b>${esc(x.source)}</b>${x.source==="Dealabs"?" (la communauté)":""}, ${depuis(x.date)}${x.marchand?` · chez ${esc(x.marchand)}`:""}</div>
+    <p class="txt" style="font-weight:600">${esc(x.marque&&!String(x.nom||"").toLowerCase().includes(String(x.marque).toLowerCase())?x.marque+", "+(x.nom||x.titre):(x.nom||x.titre))}</p>
+    <p style="font-size:15px">${x.prix!=null?`<b>${eur(x.prix)}</b>`:""}${x.prix_avant?` <s class="avant">${eur(x.prix_avant)}</s>`:""}</p>
+    <div class="actions"><a class="plein" href="${esc(x.lien)}" target="_blank" rel="noopener">Voir le bon plan</a></div>
+  </article>`}
+function relaisTous(){
+  const l=[...(C.posts||[]).map(p=>({t:"x",d:p.date,src:COMPTES[p.compte]||p.compte||"Camino TV",p})),...(R.items||[]).map(x=>({t:"r",d:x.date,src:x.source,p:x}))];
+  return l.sort((a,b)=>String(b.d).localeCompare(String(a.d)))}
+function vueCamino(){
+  const tous=relaisTous(), sources=[...new Set(tous.map(x=>x.src))];
+  const l=tous.filter(x=>!etat.source||x.src===etat.source).map(x=>x.t==="x"?carteCamino(x.p):carteRelais(x.p)).filter(Boolean);
+  return `<div class="wrap"><div class="fits-tete"><div><h2>Les relais</h2><p style="margin-top:8px;max-width:66ch">Tous les bons plans repérés par les comptes qui font ça bien, du plus récent au plus ancien : Camino TV et ses concurrents sur X (lus avec toi, à la demande), LinkDeal et la communauté Dealabs (lus automatiquement toutes les 3 heures). Les meilleurs passent aussi dans la sélection. Les liens et les codes sont les leurs.</p></div></div>
+    <div class="cats" style="padding:4px 0 6px"><button data-source="" aria-pressed="${!etat.source}">Tout</button>${sources.map(x=>`<button data-source="${esc(x)}" aria-pressed="${etat.source===x}">${esc(x)}</button>`).join("")}</div>
+    ${l.length?`<div class="cam-grille">${l.join("")}</div>`:`<p class="vide">Pas de relais dans ce style pour l'instant.</p>`}</div>`}
 // La sélection : les pépites des boutiques, les indés et les relais des 3 derniers jours, entrelacés
 function selectionMix(){
   const sel=(D.selection||[]).map(i=>parId[i]).filter(a=>a&&styleOk(a));
@@ -477,7 +509,7 @@ function vuePlans(){
   const mix=selectionMix(), sel=mix.filter(natureOk);
   const nb=k=>mix.filter(a=>nature(a)===k).length;
   h+=`<section class="rangee" style="${avecPlan?"":"border-top:0"}"><div class="wrap"><div class="intro-sel"><h2>La sélection</h2><p>Ce qui vaut le coup en ce moment : ${nb("promo")} promos en boutique, ${nb("pointu")} pièces d'indés et ${nb("relai")} bons plans repérés par Camino TV et cie ces trois derniers jours. Clique sur une pièce pour le détail et des articles du même genre.</p></div>
-    ${filtreNature(mix)}
+    ${filtreNature(mix)}${etat.nature==="relai"?`<p style="margin:-6px 0 16px;font-size:14px"><a href="#" data-vue="camino" style="text-decoration:underline">Voir tous les relais, compte par compte</a></p>`:""}
     ${sel.length?`<div class="grille">${sel.map(a=>fiche(a)).join("")}</div>`:`<p class="vide">Rien ici dans ce style aujourd'hui. Essaie un autre style.</p>`}</div></section>`;
   const baisses=[...D.articles,...D.nouveautes].filter(a=>styleOk(a)&&a.baisse_de).sort((a,b)=>(b.baisse_de-b.prix_eur)-(a.baisse_de-a.prix_eur)).slice(0,16);
   if(baisses.length)h+=`<section class="rangee"><div class="wrap"><div class="titre-rangee"><h2>Ça vient de baisser</h2><p>Prix en baisse depuis hier</p></div><div class="defile">${baisses.map(a=>fiche(a)).join("")}</div></div></section>`;
@@ -491,7 +523,7 @@ function vuePlans(){
 }
 
 function vueTout(){
-  const base=[...D.articles,...REL.filter(a=>a.prix_eur>0)].filter(styleOk);
+  const base=[...D.articles,...REL.filter(a=>a.prix_eur>0&&recent(a,3))].filter(styleOk);
   const avant=base.filter(a=>(etat.cat==="tous"||a.categorie===etat.cat)&&(!etat.budget||a.prix_eur<=etat.budget)&&(!etat.marque||marque(a)===etat.marque));
   let l=avant.filter(natureOk);
   l.sort(etat.tri==="prix"?(a,b)=>a.prix_eur-b.prix_eur:etat.tri==="remise"?(a,b)=>b.remise-a.remise:(a,b)=>note(b)-note(a));
@@ -617,7 +649,7 @@ function rendre(haut){
   document.querySelectorAll(".vues button").forEach(b=>b.setAttribute("aria-current",b.dataset.vue===etat.vue));
   document.getElementById("styles").innerHTML=`<span class="genre" role="group" aria-label="Homme ou femme"><button data-genre="homme" aria-pressed="${etat.genre==="homme"}">Homme</button><button data-genre="femme" aria-pressed="${etat.genre==="femme"}">Femme</button></span>`+Object.entries(STYLES).map(([k,v])=>`<button data-style="${k}" aria-pressed="${etat.style===k}">${v}</button>`).join("");
   const v=document.getElementById("vue");
-  v.innerHTML=etat.vue==="fits"?vueFits():etat.vue==="fiab"?vueFiab():etat.vue==="tout"?vueTout():etat.vue==="neuf"?vueNeuf():vuePlans();
+  v.innerHTML=etat.vue==="fits"?vueFits():etat.vue==="fiab"?vueFiab():etat.vue==="tout"?vueTout():etat.vue==="neuf"?vueNeuf():etat.vue==="camino"?vueCamino():vuePlans();
   const top=selectionMix().slice(0,16), ligne=top.map(a=>`<a href="${esc(a.lien)}" data-art="${esc(a.id)}" target="_blank" rel="noopener">${esc(marque(a))}, ${esc(nom(a).n)}${a.prix_eur?` à <b>${eur(a.prix_eur)}</b>`:""}</a>`).join("");
   document.getElementById("ticker").innerHTML=ligne+ligne;
   const mq=document.getElementById("marque"); if(mq)mq.onchange=e=>{etat.marque=e.target.value||null;etat.n=48;rendre("tout")};
@@ -637,9 +669,10 @@ document.addEventListener("click",e=>{
   if(pn.open&&e.target.closest("[data-fiche],[data-vue]"))pn.close();
   const fi=e.target.closest("[data-fiche]");
   if(fi){e.preventDefault();etat.vue="fiab";rendre(true);document.getElementById("f-"+fi.dataset.fiche.replace(/\W+/g,"-"))?.scrollIntoView({block:"center"});return}
-  const b=e.target.closest("[data-vue],[data-style],[data-cat],[data-marque],[data-photos],[data-genre],[data-nature]"); if(!b)return;
-  if(b.dataset.vue){e.preventDefault();etat.vue=b.dataset.vue;etat.marque=null;etat.cat="tous";etat.nature="";etat.n=48;rendre(true);return}
+  const b=e.target.closest("[data-vue],[data-style],[data-cat],[data-marque],[data-photos],[data-genre],[data-nature],[data-source]"); if(!b)return;
+  if(b.dataset.vue){e.preventDefault();etat.vue=b.dataset.vue;etat.marque=null;etat.cat="tous";etat.nature="";etat.source=null;etat.n=48;rendre(true);return}
   if(b.dataset.genre){etat.genre=b.dataset.genre;etat.marque=null;etat.n=48;rendre();return}
+  if("source" in b.dataset){etat.source=b.dataset.source||null;rendre();return}
   if("nature" in b.dataset){etat.nature=b.dataset.nature;etat.n=48;rendre();return}
   if(b.dataset.style){etat.style=b.dataset.style;etat.n=48;rendre();return}
   if(b.dataset.cat){etat.cat=b.dataset.cat;etat.n=48;rendre("tout");return}
