@@ -1,5 +1,5 @@
 {
- "maj": "2026-11-13T19:42:43.585224+00:00",
+ "maj": "2026-11-14T11:28:03.824781+00:00",
  "sources_ok": [
   "Notes de version Claude (API)",
   "Notes de version OpenAI (API)",
@@ -29,6 +29,7 @@
   "The Verge IA",
   "TechCrunch IA",
   "Simon Willison",
+  "Hacker News (IA, 100+ pts)",
   "r/LocalLLaMA",
   "arXiv cs.AI",
   "arXiv cs.CL",
@@ -57,51 +58,47 @@
   {
    "nom": "VentureBeat IA",
    "erreur": "429 Client Error: Too Many Requests for url: https://venturebeat.com/category/ai/feed/"
-  },
-  {
-   "nom": "Hacker News (IA, 100+ pts)",
-   "erreur": "502 Server Error: Bad Gateway for url: https://hnrss.org/newest?q=AI+OR+LLM+OR+GPT+OR+Claude+OR+Gemini&points=100"
   }
  ],
- "total": 2264,
- "analyses": 1525,
+ "total": 2259,
+ "analyses": 1509,
  "brief": {
-  "titre": "Déferlante Gemini 4 et nouveaux outils d'agents IA",
-  "texte": "L'actualité de l'intelligence artificielle est marquée par des annonces majeures de Google, qui dévoile Gemini 4 Hydrogen pour remplacer la version 3.8 Flash au cœur de son moteur de recherche. Du côté d'OpenAI, l'écosystème s'élargit avec le lancement de ChatGPT Wallet pour les paiements d'agents, l'intégration directe des entreprises et de nouvelles versions d'API comme GPT-6 Cyber et GPT-Image-2.5. Anthropic réagit en lançant des agents gérés Claude auto-hébergés pour les professionnels. Enfin, l'open source progresse solidement avec la sortie de llama.cpp v1.0.0 et la mise à jour de Transformers v5.23.0.",
+  "titre": "Nouvelles puces, géants de la tech et modèles open-weight",
+  "texte": "L'actualité de l'IA est marquée par d'importantes turbulences chez Nvidia, entre la démission de Jensen Huang et les accusations de fausse pénurie. Côté produits, les géants accélèrent avec de nouvelles versions de modèles chez OpenAI et Google, ainsi que l'arrivée de ChatGPT Wallet pour les paiements d'agents. L'écosystème open-source et local n'est pas en reste avec les nouveautés de Hugging Face et Perplexity. Enfin, les mouvements financiers se précisent avec l'introduction en bourse imminente d'Anthropic.",
   "a_tester": [
-   "Tester l'intégration des nouvelles capacités multimodaux de Transformers v5.23.0",
-   "Évaluer les opportunités business avec le ChatGPT Wallet et l'implantation entreprise d'OpenAI",
-   "Déployer la v1.0.0 de llama.cpp pour optimiser vos flux d'IA locale"
+   "Tester les capacités de classification des nouveaux modèles Perplexity Decider v1.3 et Flash v1.3",
+   "Explorer la mise à jour Transformers v5.23.0 pour vos projets de modèles multimodaux",
+   "Évaluer l'impact potentiel de llama.cpp v1.0.0 pour optimiser vos déplacements d'IA en local"
   ]
  },
  "top5": {
-  "maj": "2026-11-13T19:42:43.585224+00:00",
+  "maj": "2026-11-14T11:28:03.824781+00:00",
   "par_ia": true,
   "items": [
    {
+    "id": "d194f419aff3ac",
+    "pourquoi": "L'arrivée de nouveaux modèles phares chez OpenAI (GPT-6 Cyber, GPT-Image-2.5 et GPT-5 pro) redéfinit les standards de l'industrie en matière de génération et de cybersécurité.",
+    "a_faire": "Consulter les notes de version de l'API OpenAI pour tester ces nouveaux modèles dans vos environnements de développement."
+   },
+   {
     "id": "5bf4951adbe969",
-    "pourquoi": "L'introduction de ChatGPT Wallet marque un tournant concret vers l'autonomie des agents IA capables de réaliser des transactions financières en ligne.",
-    "a_faire": "Surveiller les conditions de sécurité et les cas d'usage potentiels de ces paiements automatisés pour vos workflows."
+    "pourquoi": "OpenAI introduit ChatGPT Wallet, permettant aux agents IA d'effectuer des achats en autonomie, ce qui ouvre la voie à de nouveaux cas d'usage transactionnels.",
+    "a_faire": "Surveiller l'intégration de ce portefeuille dans vos outils de travail et évaluer les implications de sécurité associées."
    },
    {
     "id": "96561f0960dfd2",
-    "pourquoi": "Le lancement de Claude Fable 5.2 et Mythos 5.2 avec une fenêtre de contexte de 1 million de tokens offre de nouvelles perspectives pour le traitement de documents massifs.",
-    "a_faire": "Tester l'API de ces nouveaux modèles sur vos cas d'usage nécessitant de larges contextes."
+    "pourquoi": "Anthropic lance Claude Fable 5.2 avec une large fenêtre de contexte, renforçant la concurrence directe sur les grands volumes de données.",
+    "a_faire": "Tester la nouvelle API pour évaluer ses performances sur le traitement de documents volumineux."
    },
    {
-    "id": "d194f419aff3ac",
-    "pourquoi": "OpenAI déploie de nouveaux modèles spécialisés majeurs (GPT-6 Cyber pour la sécurité et de nouvelles versions d'imagerie) impactant directement les outils de développement.",
-    "a_faire": "Consulter les notes de version de l'API pour évaluer les gains de performance sur vos applications."
+    "id": "459a57b4750adf",
+    "pourquoi": "Google intègre Gemini 4 Hydrogen directement dans son moteur de recherche, modifiant significativement l'expérience utilisateur et l'accès à l'information.",
+    "a_faire": "Observer les nouvelles fonctionnalités visuelles et les exemples d'interaction sur Google Search."
    },
    {
     "id": "da432fbb05941c",
-    "pourquoi": "Meta positionne Muse Ember comme une alternative très économique pour les agents, redéfinissant les coûts d'infrastructure pour l'IA conversationnelle.",
-    "a_faire": "Comparer les coûts et performances de ce modèle léger avec vos solutions actuelles (Haiku)."
-   },
-   {
-    "id": "428ac4b42c0b5f",
-    "pourquoi": "AlphaProof Code introduit par Google DeepMind automatise la vérification formelle de code complexe, ouvrant la voie à une sécurisation logicielle accrue.",
-    "a_faire": "Se tenir informé des modalités d'intégration de ces agents de vérification pour sécuriser vos développements critiques."
+    "pourquoi": "Meta propose Muse Ember, un modèle économique taillé pour les agents, réduisant les coûts d'infrastructure pour le déploiement d'agents conversationnels.",
+    "a_faire": "Tester ce modèle léger pour comparer son coût et son efficacité par rapport à vos solutions actuelles."
    }
   ]
  }
