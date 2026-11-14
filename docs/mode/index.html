@@ -458,7 +458,7 @@ function carteCamino(p){
   if(!pieces.length)return "";
   const im=(p.images||[]).slice(0,2);
   return `<article class="cam">
-    ${im.length?`<a class="ph" style="--n:${im.length}" href="${esc(p.url)}" target="_blank" rel="noopener">${im.map(u=>`<img src="${esc(u)}" alt="" loading="lazy">`).join("")}</a>`:""}
+    ${im.length?`<div class="zone-photo"><a class="ph" style="--n:${im.length}" href="${esc(p.url)}" target="_blank" rel="noopener">${im.map(u=>`<img src="${esc(u)}" alt="" loading="lazy">`).join("")}</a>${parId["x-"+p.tweet_id]?coeur(parId["x-"+p.tweet_id]):""}</div>`:""}
     <div class="qui"><b>${esc(COMPTES[p.compte]||p.compte||"Camino TV")}</b> sur X, ${depuis(p.date)}</div>
     <p class="txt">${esc(p.texte)}</p>
     <ul>${pieces.map(x=>`<li><span>${x.lien?`<a href="${esc(x.lien)}" target="_blank" rel="noopener" style="text-decoration:underline;text-decoration-color:var(--trait)">`:""}${x.etiquette?`<b>${esc(x.etiquette)}</b> `:""}${esc([x.marque,x.nom].filter(Boolean).join(", "))}${x.lien?"</a>":""}${x.code?`<span class="code">code ${esc(x.code)}</span>`:""}</span><span class="px">${x.prix!=null?eur(x.prix):""}${x.prix_avant?`<s>${eur(x.prix_avant)}</s>`:""}</span></li>`).join("")}</ul>
@@ -468,7 +468,7 @@ function carteRelais(x){
   if(!genreOk(x))return "";
   if(etat.style!=="tous"&&(x.styles||[]).length&&!x.styles.includes(etat.style))return "";
   return `<article class="cam">
-    ${x.image?`<a class="ph" style="--n:1" href="${esc(x.lien)}" target="_blank" rel="noopener"><img src="${esc(String(x.image).replace("/re/500x500/","/re/300x300/"))}" alt="" loading="lazy" style="aspect-ratio:1/1;object-fit:contain;background:#fff"></a>`:""}
+    ${x.image?`<div class="zone-photo"><a class="ph" style="--n:1" href="${esc(x.lien)}" target="_blank" rel="noopener"><img src="${esc(String(x.image).replace("/re/500x500/","/re/300x300/"))}" alt="" loading="lazy" style="aspect-ratio:1/1;object-fit:contain;background:#fff"></a>${parId["r-"+x.id]?coeur(parId["r-"+x.id]):""}</div>`:""}
     <div class="qui"><b>${esc(x.source)}</b>${x.source==="Dealabs"?" (la communauté)":""}, ${depuis(x.date)}${x.marchand?` · chez ${esc(x.marchand)}`:""}</div>
     <p class="txt" style="font-weight:600">${esc(x.marque&&!String(x.nom||"").toLowerCase().includes(String(x.marque).toLowerCase())?x.marque+", "+(x.nom||x.titre):(x.nom||x.titre))}</p>
     <p style="font-size:15px">${x.prix!=null?`<b>${eur(x.prix)}</b>`:""}${x.prix_avant?` <s class="avant">${eur(x.prix_avant)}</s>`:""}</p>
