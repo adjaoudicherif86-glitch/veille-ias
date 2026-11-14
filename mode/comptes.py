@@ -43,7 +43,8 @@ N'invente aucun prix ni lien."""
 
 def image_b64(media_id):
     try:
-        r = requests.get(f"https://pbs.twimg.com/media/{media_id}?format=jpg&name=small", timeout=20)
+        url = media_id if media_id.startswith("http") else f"https://pbs.twimg.com/media/{media_id}?format=jpg&name=small"
+        r = requests.get(url, timeout=20)
         if r.status_code == 200:
             return {"inline_data": {"mime_type": "image/jpeg", "data": base64.b64encode(r.content).decode()}}
     except requests.RequestException:
@@ -102,7 +103,7 @@ def main():
         liens = re.findall(r"https?://\S+", texte)
         deja[pid] = {"compte": compte, "compte_nom": NOMS.get(compte, compte), "tweet_id": pid, "url": f"https://x.com/{compte}/status/{pid}",
                      "date": date_id(pid), "texte": (a.get("resume") or "").strip() or texte[:200], "liens": liens,
-                     "images": [f"https://pbs.twimg.com/media/{m}?format=jpg&name=medium" for m in images[:2]],
+                     "images": [m if m.startswith("http") else f"https://pbs.twimg.com/media/{m}?format=jpg&name=medium" for m in images[:2]],
                      "genre": a.get("genre") if a.get("genre") in ("homme", "femme", "mixte") else "homme",
                      "pieces": [x for x in a["pieces"] if x.get("nom")]}
         gardes += 1
