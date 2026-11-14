@@ -41,10 +41,10 @@
    "Anthropic orders AI tool Claude to stop remaking video games - Game Developer"
   ],
   [
-   0.846,
+   0.889,
    "même événement selon l'IA",
-   "Election body airs deepfake warning - Taipei Times",
-   "Central Election Commission releases PSA warning about election deepfake material-News-Radio Taiwan Internatio"
+   "Meta releases Muse Ember, a new lightweight model for agent execution - TechCrunch",
+   "Introducing Our Smallest, Most Efficient Model: Muse Ember - Meta AI"
   ],
   [
    0.889,
@@ -53,10 +53,10 @@
    "Notes de version Claude (API) : - We’ve launched Claude Fable 5.2 (claude-fable-5-2), built for demanding reas"
   ],
   [
-   null,
-   "même titre",
-   "Introducing Businesses in ChatGPT - OpenAI",
-   "Introducing Businesses in ChatGPT"
+   0.833,
+   "même événement selon l'IA",
+   "Anthropic announces Claude Fable 5.2 and Mythos 5.2. They'e already solved black hole physics problems. - Mash",
+   "Claude Fable 5.2 and Mythos 5.2"
   ],
   [
    null,
@@ -89,22 +89,40 @@
    "Gemini 4 Carbon is now available"
   ],
   [
-   0.834,
-   "même événement selon l'IA",
-   "OpenAI lets businesses claim ChatGPT profiles, adds AI agents for US e-commerce firms - Reuters",
-   "ChatGPT is getting verified AI ‘Business Agents’"
+   null,
+   "même titre",
+   "Introducing Businesses in ChatGPT - OpenAI",
+   "Introducing Businesses in ChatGPT"
   ],
   [
-   0.835,
+   0.832,
    "même événement selon l'IA",
-   "Microsoft Research backdoored an AI agent by directly editing fewer than 10 dormant neurons",
-   "Lazare, veni foras: Reprogramming Dormant Neurons to Backdoor AI Agents - Microsoft"
+   "llm-gemini 0.36",
+   "Google releases Gemini 4 Carbon with agent ‘swarm’ feature"
+  ],
+  [
+   0.834,
+   "même événement selon l'IA",
+   "US lawmakers push tighter China chip curbs in defence bill after Nvidia spy scandal raises security concerns -",
+   "Nvidia’s Next Headache: New Push For Export Controls in Wake of Spy Scandal - The Information"
+  ],
+  [
+   null,
+   "même titre",
+   "ChatGPT Plus for veterans and servicemembers - OpenAI",
+   "ChatGPT Plus for veterans and servicemembers"
   ],
   [
    0.868,
    "même événement selon l'IA",
    "Nvidia spy scandal could reshape fight over AI chips and China - The Hill",
    "Nvidia’s Next Headache: New Push For Export Controls in Wake of Spy Scandal - The Information"
+  ],
+  [
+   0.862,
+   "même événement selon l'IA",
+   "Helsing debuts Clarity military AI to challenge Palantir in Europe - Yahoo Finance Singapore",
+   "Helsing launches European alternative to Palantir’s military AI - The Kyiv Independent"
   ],
   [
    0.907,
@@ -125,22 +143,10 @@
    "Pentagon sued over failures to make military review boards’ decisions accessible - Federal News Network"
   ],
   [
-   0.835,
+   0.832,
    "même événement selon l'IA",
-   "Mississippi regulator affirms SpaceXAI turbine permits - Daily Memphian",
-   "MDEQ Board Upholds SpaceXAI Southaven Power Plant Permit - DeSoto County News"
-  ],
-  [
-   0.835,
-   "même événement selon l'IA",
-   "Nvidia CEO Jensen Huang resigns amid spy, affair scandals",
-   "Jensen Huang accused of having another affair — with an Nvidia exec"
-  ],
-  [
-   0.837,
-   "même événement selon l'IA",
-   "Jensen Huang is out at Nvidia — who is Colette Kress, his interim replacement?",
-   "Nvidia's Jensen Huang Resigns as CEO, Colette Kress Named Interim"
+   "Jensen Huang's affair with alleged spy revives push to tighten China chip curbs ahead of Trump-Xi summit - CNB",
+   "Jensen Huang’s Affair Renews Debate on Chips Export Controls - The Daily Upside"
   ],
   [
    0.851,
@@ -179,12 +185,6 @@
    "Claude’s Duet agent is a little neurotic and surprisingly helpful - The Verge"
   ],
   [
-   0.846,
-   "même événement selon l'IA",
-   "Anthropic Claude AI down, Status update: Services including Claude API, Claude Code, connectors down - Livemin",
-   "Anthropic Claude down: Why it said it was unable to authenticate code - Mashable"
-  ],
-  [
    0.837,
    "même événement selon l'IA",
    "What’s really at stake in the Jensen Huang saga",
@@ -203,12 +203,6 @@
    "China warns against new export controls on US chips after Nvidia scandal - Al Arabiya English"
   ],
   [
-   0.841,
-   "même événement selon l'IA",
-   "OpenAI launches ChatGPT Wallet, letting AI agents pay for purchases - Reuters",
-   "Introducing ChatGPT Wallet"
-  ],
-  [
    0.854,
    "même événement selon l'IA",
    "ChatGPT’s new Wallet lets AI agents shop and check out for you",
@@ -221,22 +215,52 @@
    "Introducing ChatGPT Wallet"
   ],
   [
-   0.858,
-   "même événement selon l'IA",
-   "EXCLUSIVE: Investors flock to Anthropic IPO but question durability of AI lead - Reuters",
-   "Anthropic's Blockbuster IPO Is Near. Here's What Analysts Are Saying. - Investor's Business Daily"
-  ],
-  [
    null,
    "même titre",
-   "SpaceX Cuts Grok Video Team: So Where Does Its $7.6B AI Business Get Its Money? - BeInCrypto",
-   "SpaceX Cuts Grok Video Team: So Where Does Its $7.6B AI Business Get Its Money? - Yahoo Finance"
+   "Meet the seven co-founders of Anthropic - CNBC",
+   "Meet the seven co-founders of Anthropic - CNBC"
   ],
   [
    0.835,
    "même événement selon l'IA",
    "SpaceXAI cuts about 60 Grok Imagine staff to push coding tools and agents - Startup Fortune",
    "Musk's SpaceX Super Intelligence Trims About 60 Jobs in Grok Imagine Video Unit - BigGo Finance"
+  ],
+  [
+   0.833,
+   "même événement selon l'IA",
+   "Trust ChatGPT With Your Payments? OpenAI Rolls Out ChatGPT Wallet - PCMag",
+   "Introducing ChatGPT Wallet"
+  ],
+  [
+   0.856,
+   "même événement selon l'IA",
+   "Anthropic to IPO amid Nvidia fiasco - Axios",
+   "Anthropic’s blockbuster IPO just got harder after Jensen Huang’s dramatic exit as Nvidia CEO - Fortune"
+  ],
+  [
+   0.885,
+   "même événement selon l'IA",
+   "UN to discuss restrictions on AI-powered autonomous weapons - Ukrinform",
+   "War without human involvement is becoming a reality: the UN is to discuss a ban on AI-powered weapons - UkrMed"
+  ],
+  [
+   0.832,
+   "même événement selon l'IA",
+   "Elon Musk, other tech execs sign petition calling on Nvidia to reinstate Jensen Huang",
+   "‘Bring Back THE Boss’: Nvidia Employees Petition for Jensen Huang’s Return"
+  ],
+  [
+   null,
+   "même titre",
+   "Grok AI Predicts How Low XRP Could Fall Before Year-End - Yahoo Finance",
+   "Grok AI Predicts How Low XRP Could Fall Before Year-End - 24/7 Wall St."
+  ],
+  [
+   0.863,
+   "même événement selon l'IA",
+   "UN conference in Geneva to discuss restrictions and bans on AI-powered autonomous weapons - The New Voice of U",
+   "War without human involvement is becoming a reality: the UN is to discuss a ban on AI-powered weapons - UkrMed"
   ],
   [
    null,
@@ -281,10 +305,10 @@
    "'Teams are moving to new models almost as fast as labs release them': Vercel data reveals AI models now have a"
   ],
   [
-   0.855,
+   0.834,
    "même événement selon l'IA",
    "Google Gemini 4 Hydrogen : performances, nouveautés et disponibilité - BlogNT",
-   "Introducing Gemini 4 Hydrogen"
+   "Google Search gets a major upgrade with Gemini 4 Hydrogen"
   ],
   [
    0.838,
@@ -348,6 +372,11 @@
    0.888,
    "En tendance sur Hugging Face : ccore/Qwen3.5-4B-GLB-3D-Coder",
    "CCORE GLB-3D-Coder 4B final model and full weights are out"
+  ],
+  [
+   0.887,
+   "En tendance sur Hugging Face : ConceptCountry/qwen-concept-27b",
+   "ConceptCountry/qwen-concept-27b · Hugging Face"
   ],
   [
    0.885,
@@ -443,11 +472,6 @@
    0.857,
    "The risk that AI wakes up and other warnings in Anthropic’s unusual IPO filing - The Washington Post",
    "Here’s What Claude And ChatGPT Flagged In Anthropic’s IPO Filing - Forbes"
-  ],
-  [
-   0.856,
-   "Nvidia CEO Jensen Huang’s affair with alleged Chinese spy: a timeline",
-   "Jensen Huang's affair with alleged spy revives push to tighten China chip curbs ahead of Trump-Xi summit - CNB"
   ],
   [
    0.856,
@@ -566,11 +590,6 @@
   ],
   [
    0.847,
-   "Congress to call Jensen Huang in to answer for alleged Chinese spy affair",
-   "Jensen Huang's affair with alleged spy revives push to tighten China chip curbs ahead of Trump-Xi summit - CNB"
-  ],
-  [
-   0.847,
    "Aspect-wise Pairwise Tournaments for Test-Time Selection",
    "Forcing a Letter Suppresses Refusal: Mechanistic Evidence from WMDP"
   ],
@@ -593,6 +612,11 @@
    0.844,
    "SDK Anthropic v2.7.0",
    "Notes de version Claude (API) : - We’ve launched Claude Fable 5.2 (claude-fable-5-2), built for demanding reas"
+  ],
+  [
+   0.844,
+   "Rethinking Supervision Targets for Multimodal LLM Unlearning: Less Private Information, Reduced Distribution S",
+   "Graph Visualizations in Prompts for Knowledge Graph Question Answering"
   ],
   [
    0.874,
@@ -678,11 +702,6 @@
    0.857,
    "The risk that AI wakes up and other warnings in Anthropic’s unusual IPO filing - The Washington Post",
    "Here’s What Claude And ChatGPT Flagged In Anthropic’s IPO Filing - Forbes"
-  ],
-  [
-   0.856,
-   "Nvidia CEO Jensen Huang’s affair with alleged Chinese spy: a timeline",
-   "Jensen Huang's affair with alleged spy revives push to tighten China chip curbs ahead of Trump-Xi summit - CNB"
   ],
   [
    0.856,
@@ -793,6 +812,11 @@
    0.848,
    "En tendance sur Hugging Face : Cactus-Compute/mirage",
    "Mirage: A 22 MB visual-language model that runs scene descriptions + object detection + OCR + segmentation + s"
+  ],
+  [
+   0.847,
+   "Exposure Is Not Commitment: Double-Stratified Evaluation of Latent Monitors for Tool-Using Agents",
+   "Beyond Plausible Prediction: Safety Sufficiency in Web World Models"
   ]
  ]
 }
