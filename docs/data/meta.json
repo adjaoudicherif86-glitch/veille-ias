@@ -1,5 +1,5 @@
 {
- "maj": "2026-11-14T11:28:03.824781+00:00",
+ "maj": "2026-11-14T18:01:26.844948+00:00",
  "sources_ok": [
   "Notes de version Claude (API)",
   "Notes de version OpenAI (API)",
@@ -61,14 +61,14 @@
   }
  ],
  "total": 2259,
- "analyses": 1509,
+ "analyses": 1516,
  "brief": {
-  "titre": "Nouvelles puces, géants de la tech et modèles open-weight",
-  "texte": "L'actualité de l'IA est marquée par d'importantes turbulences chez Nvidia, entre la démission de Jensen Huang et les accusations de fausse pénurie. Côté produits, les géants accélèrent avec de nouvelles versions de modèles chez OpenAI et Google, ainsi que l'arrivée de ChatGPT Wallet pour les paiements d'agents. L'écosystème open-source et local n'est pas en reste avec les nouveautés de Hugging Face et Perplexity. Enfin, les mouvements financiers se précisent avec l'introduction en bourse imminente d'Anthropic.",
+  "titre": "Entre bourses, géopolitique et paiements autonomes, l'IA accélère",
+  "texte": "L'écosystème est secoué par de grands mouvements financiers, entre l'entrée en bourse imminente d'Anthropic et les turbulences chez Nvidia. Côté technique, l'IA locale progresse avec llama.cpp v1.0.0 et de nouveaux modèles open-weight de Perplexity. OpenAI fait un pas de géant vers l'autonomie des agents en leur offrant un portefeuille de paiement sécurisé. Enfin, Google poursuit sa course aux performances avec le lancement de Gemini 4 Hydrogen.",
   "a_tester": [
-   "Tester les capacités de classification des nouveaux modèles Perplexity Decider v1.3 et Flash v1.3",
-   "Explorer la mise à jour Transformers v5.23.0 pour vos projets de modèles multimodaux",
-   "Évaluer l'impact potentiel de llama.cpp v1.0.0 pour optimiser vos déplacements d'IA en local"
+   "Tester llama.cpp v1.0.0 pour optimiser vos déploiements d'IA locale",
+   "Explorer les nouveaux classifieurs open-weight Decider et Flash v1.3 de Perplexity",
+   "Évaluer les capacités multimodales de la dernière mise à jour Transformers v5.23.0"
   ]
  },
  "top5": {
