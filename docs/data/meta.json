@@ -1,5 +1,5 @@
 {
- "maj": "2026-11-14T23:54:42.138128+00:00",
+ "maj": "2026-11-15T06:31:47.032112+00:00",
  "sources_ok": [
   "Notes de version Claude (API)",
   "Notes de version OpenAI (API)",
@@ -60,15 +60,15 @@
    "erreur": "429 Client Error: Too Many Requests for url: https://venturebeat.com/category/ai/feed/"
   }
  ],
- "total": 2251,
- "analyses": 1516,
+ "total": 2246,
+ "analyses": 1525,
  "brief": {
-  "titre": "Entre bourses, géopolitique et paiements autonomes, l'IA accélère",
-  "texte": "L'écosystème est secoué par de grands mouvements financiers, entre l'entrée en bourse imminente d'Anthropic et les turbulences chez Nvidia. Côté technique, l'IA locale progresse avec llama.cpp v1.0.0 et de nouveaux modèles open-weight de Perplexity. OpenAI fait un pas de géant vers l'autonomie des agents en leur offrant un portefeuille de paiement sécurisé. Enfin, Google poursuit sa course aux performances avec le lancement de Gemini 4 Hydrogen.",
+  "titre": "Entre bourses, tensions géopolitiques et autonomie financière des agents",
+  "texte": "L'actualité est marquée par les mouvements financiers majeurs des géants de l'IA, entre les projets d'introduction en bourse d'Anthropic et de Mistral AI malgré le scepticisme de Wall Street. Du côté de NVIDIA, la gouvernance est sous pression avec des inquiétudes sur le financement des startups et des accusations de fausse pénurie de puces. Pendant ce temps, l'intégration des technologies progresse concrètement : Grok est sollicité par le Pentagone pour l'optimisation militaire et OpenAI dote ses agents de portefeuilles de paiement sécurisés. Enfin, la sécurité reste un enjeu critique suite à des fuites de données sur Grok Build et le contournement des interdictions d'exportation de puces chinoises.",
   "a_tester": [
-   "Tester llama.cpp v1.0.0 pour optimiser vos déploiements d'IA locale",
-   "Explorer les nouveaux classifieurs open-weight Decider et Flash v1.3 de Perplexity",
-   "Évaluer les capacités multimodales de la dernière mise à jour Transformers v5.23.0"
+   "Explorer l'intégration de portefeuilles de paiement sécurisés pour vos agents IA autonomes",
+   "Auditer la sécurité et la confidentialité de vos liens de partage et de vos données sur les plateformes conversationnelles",
+   "Analyser l'impact des tensions d'approvisionnement en puces NVIDIA sur votre infrastructure IA à moyen terme"
   ]
  },
  "top5": {
