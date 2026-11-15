@@ -1,5 +1,5 @@
 {
- "maj": "2026-11-15T15:39:54.589403+00:00",
+ "maj": "2026-11-15T21:02:21.499378+00:00",
  "sources_ok": [
   "Notes de version Claude (API)",
   "Notes de version OpenAI (API)",
@@ -60,15 +60,15 @@
    "erreur": "429 Client Error: Too Many Requests for url: https://venturebeat.com/category/ai/feed/"
   }
  ],
- "total": 2231,
- "analyses": 1523,
+ "total": 2233,
+ "analyses": 1530,
  "brief": {
-  "titre": "Bourse, géopolitique et tensions de gouvernance secouent la tech",
-  "texte": "L'écosystème de l'intelligence artificielle est sous tension avec les préparatifs d'introduction en bourse d'Anthropic et de Mistral AI, malgré un certain scepticisme de Wall Street. Parallèlement, des turbulences majeures secouent Nvidia, marquées par une crise de gouvernance, des départs clés et de nouvelles restrictions géopolitiques visant l'accès aux GPU en Chine. Du côté des usages, Anthropic rappelle que les anciennes habitudes de prompt peuvent freiner les performances de ses modèles. Enfin, une fuite de données via les liens de partage Grok Build vient rappeler les risques accrus en matière de cybersécurité.",
+  "titre": "Entre IPOs massives et tensions géopolitiques, l'écosystème IA secoué",
+  "texte": "L'écosystème de l'intelligence artificielle est en plein bouleversement financier et géopolitique. Anthropic et potentiellement Mistral AI se préparent à des introductions en bourse très surveillées, mettant une pression directe sur OpenAI malgré le scepticisme de Wall Street. Parallèlement, le secteur fait face à de fortes turbulences avec des crises de gouvernance chez Nvidia et des fuites de données liées à Grok Build. Face à ces risques accrus, le Congrès américain durcit les contrôles sur l'exportation des puces. Enfin, du côté open source, Basalt 0.4.0 intègre Qwen 27B pour des performances records sur RTX 5090.",
   "a_tester": [
-   "Analyser l'impact des nouvelles restrictions sur vos infrastructures GPU et vos chaînes d'approvisionnement",
-   "Revoir et optimiser vos pratiques de prompting pour tirer le meilleur parti des derniers modèles d'Anthropic",
-   "Auditer la sécurité de vos partages de liens et de données sur les outils génératifs pour éviter les fuites"
+   "Auditer la sécurité et la confidentialité de vos liens de partage d'outils IA",
+   "Tester Basalt 0.4.0 avec Qwen 27B sur votre configuration matérielle pour évaluer les gains de vitesse",
+   "Suivre l'évolution des régulations à l'exportation des puces pour anticiper l'impact sur vos infrastructures"
   ]
  },
  "top5": {
