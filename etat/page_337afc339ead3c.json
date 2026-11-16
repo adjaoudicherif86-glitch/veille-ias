@@ -1,9 +1,10 @@
 {
  "url": "https://developers.openai.com/api/docs/changelog",
- "maj": "2026-11-16T06:29:04.919368+00:00",
+ "maj": "2026-11-16T18:32:52.756969+00:00",
  "lignes": [
   "Changelog",
   "November, 2026",
+  "Approved organizations can use the OpenAI CSAM Image Classifier at no cost to help prioritize images for human review. The model returns separate signals for potential child sexual abuse material (CSAM) and potential AI-generated CSAM.",
   "Use GPT-6 Cyber to investigate vulnerabilities, reproduce them in an authorized test environment, and verify fixes. See Daybreak setup before sending your first request.",
   "Released GPT-Image-2.6 Sunburst and GPT-Image-2.6 Flare for image generation and editing, with adjustable complexity, SVG generation, and animated GIF generation. Added markup-guided editing for supported GPT-Image-2.5 and GPT-Image-2.6 models.",
   "See the image generation guide.",
