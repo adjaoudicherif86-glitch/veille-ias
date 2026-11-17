@@ -1,5 +1,5 @@
 {
- "maj": "2026-11-16T18:32:52.760409+00:00",
+ "maj": "2026-11-17T02:56:20.769718+00:00",
  "sources_ok": [
   "Notes de version Claude (API)",
   "Notes de version OpenAI (API)",
@@ -34,18 +34,15 @@
   "arXiv cs.AI",
   "arXiv cs.CL",
   "ActuIA",
-  "IA en français (actus)",
   "Microsoft Copilot (actus)",
   "Google Gemini (actus)",
   "OpenAI (actus)",
   "Grok et SpaceXAI (actus)",
-  "Grandes annonces IA",
   "Surveillance et IA",
   "IA et surveillance (FR)",
   "IA militaire",
   "Anthropic et gouvernement",
   "Sécurité des modèles",
-  "Contrôles à l'export IA",
   "Désinformation et deepfakes",
   "Régulation européenne",
   "Vie privée et assistants IA"
@@ -58,47 +55,59 @@
   {
    "nom": "VentureBeat IA",
    "erreur": "429 Client Error: Too Many Requests for url: https://venturebeat.com/category/ai/feed/"
+  },
+  {
+   "nom": "IA en français (actus)",
+   "erreur": "429 Client Error: Too Many Requests for url: https://news.google.com/rss/search?q=%22intelligence+artificielle%22+nouveau+mod%C3%A8le&hl=fr&gl=FR&ceid=FR:fr"
+  },
+  {
+   "nom": "Grandes annonces IA",
+   "erreur": "429 Client Error: Too Many Requests for url: https://news.google.com/rss/search?q=%22AI+model%22+launch+OR+release&hl=en-US&gl=US&ceid=US:en"
+  },
+  {
+   "nom": "Contrôles à l'export IA",
+   "erreur": "429 Client Error: Too Many Requests for url: https://news.google.com/rss/search?q=AI+%22export+controls%22&hl=en-US&gl=US&ceid=US:en"
   }
  ],
- "total": 2233,
- "analyses": 1445,
+ "total": 2227,
+ "analyses": 1424,
  "brief": {
-  "titre": "Actualité IA : Sécurité, partenariats médias et avancées matérielles",
-  "texte": "L'écosystème de l'intelligence artificielle est marqué par de fortes dynamiques financières et technologiques aujourd'hui. Anthropic fait les grands titres avec une introduction en bourse sursouscrite sept fois malgré les turbulences autour de Nvidia, tandis que ce dernier continue d'innover avec de nouvelles architectures comme Vera Rubin. Côté applications, OpenAI se diversifie en lançant des solutions pour la santé, en proposant un classificateur CSAM et en nouant un partenariat stratégique avec LVMH Media. Enfin, les collaborations se renforcent entre acteurs majeurs avec l'alliance d'Hugging Face et OpenRouter, et Alibaba dévoile son modèle Qwen4-Max axé sur la cybersécurité.",
+  "titre": "Entre agents de santé, architecture Rubin et IPO d'Anthropic",
+  "texte": "OpenAI accélère sur les cas d'usage verticaux avec un outil de santé et un classificateur CSAM gratuit, tout en faisant face à des poursuites en Californie. Côté matériel, NVIDIA frappe fort avec son architecture Vera Rubin et sa déclinaison HPC pour les agents scientifiques. L'actualité financière est dominée par l'introduction en bourse sursouscrite d'Anthropic, qui lance par ailleurs Claude Sheets pour concurrencer Excel. Enfin, l'écosystème open source progresse avec Alibaba et son modèle Qwen4-Max, ainsi que l'intégration du Computer Use par Unsloth.",
   "a_tester": [
-   "Explorer l'alliance Hugging Face et OpenRouter pour simplifier l'exécution de vos modèles ouverts.",
-   "Tester les dernières optimisations d'Unsloth pour vos flux de travail en 'Computer Use'.",
-   "Analyser les nouvelles opportunités offertes par les bibliothèques CUDA-X de NVIDIA pour la recherche."
+   "Explorer Claude Sheets pour évaluer son potentiel face à Microsoft Excel",
+   "Tester les capacités des nouveaux modèles open source via l'alliance Hugging Face et OpenRouter",
+   "Analyser l'impact des annonces de l'architecture Vera Rubin de NVIDIA sur vos infrastructures ML"
   ]
  },
  "top5": {
-  "maj": "2026-11-16T18:32:52.760409+00:00",
-  "par_ia": false,
+  "maj": "2026-11-17T02:56:20.769718+00:00",
+  "par_ia": true,
   "items": [
    {
-    "id": "96561f0960dfd2",
-    "pourquoi": "Ces nouveaux modèles offrent des capacités accrues pour le raisonnement complexe et le travail d'agent sur le long terme, avec des modifications importantes à intégrer pour la gestion des API, du contexte et des outils informatiques.",
-    "a_faire": ""
-   },
-   {
-    "id": "0b2e1c02de474f",
-    "pourquoi": "Permet de suivre l'évolution des modèles phares de Google et d'évaluer de potentielles nouvelles capacités pour les professionnels et développeurs.",
-    "a_faire": ""
+    "id": "a14681e2ddce12",
+    "pourquoi": "Google lance officiellement Gemini 4 Carbon avec une fonction d'essaim d'agents, marquant une concurrence directe majeure face à OpenAI et Anthropic.",
+    "a_faire": "Tester les nouvelles capacités d'essaim d'agents de ce modèle pour évaluer son potentiel sur vos cas d'usage."
    },
    {
     "id": "5bf4951adbe969",
-    "pourquoi": "C'est une étape majeure vers l'autonomie des agents IA, qui passent de la simple assistance à l'exécution de transactions financières en autonomie.",
-    "a_faire": ""
+    "pourquoi": "OpenAI introduce ChatGPT Wallet, permettant aux agents d'effectuer des achats en ligne avec l'accord de l'utilisateur, ouvrant la voie aux agents transactionnels autonomes.",
+    "a_faire": "Surveiller l'évolution de cette solution de paiement pour anticiper l'intégration de flux transactionnels dans vos assistants."
    },
    {
-    "id": "40e78db6601d46",
-    "pourquoi": "C'est important car llama.cpp est le moteur sous-jacent de nombreux outils d'IA locale comme Ollama, garantissant de meilleures performances et une plus grande stabilité sur vos machines.",
-    "a_faire": ""
+    "id": "5ca4dc7b6d88cb",
+    "pourquoi": "L'arrivée de 'Businesses in ChatGPT' permet aux entreprises de gérer leur visibilité et de convertir l'intérêt des utilisateurs directement au sein de la plateforme.",
+    "a_faire": "Examiner comment positionner votre entreprise et optimiser votre présence sur cette nouvelle interface."
    },
    {
-    "id": "853b24ff0d6ecd",
-    "pourquoi": "C'est important car cela abaisse les barrières techniques et financières pour tester et déployer des modèles ouverts directement depuis la plateforme de référence.",
-    "a_faire": ""
+    "id": "3197bf91500d66",
+    "pourquoi": "NVIDIA domine les benchmarks MLPerf avec sa nouvelle architecture Vera Rubin, multipliant par 10 le débit par watt pour l'inférence.",
+    "a_faire": "Veiller sur l'adoption de cette nouvelle architecture pour anticiper les gains de performance futurs sur vos infrastructures."
+   },
+   {
+    "id": "d371e6cd7cca07",
+    "pourquoi": "Unsloth intègre le Computer Use en bêta et le support de MiniMax-H3-Image, démocratisant le contrôle direct des interfaces par des modèles locaux.",
+    "a_faire": "Tester la mise à jour pour expérimenter le Computer Use sur vos environnements locaux."
    }
   ]
  }
