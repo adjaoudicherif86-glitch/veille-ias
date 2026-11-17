@@ -1,5 +1,5 @@
 {
- "maj": "2026-11-17T13:26:05.914815+00:00",
+ "maj": "2026-11-17T23:30:11.822144+00:00",
  "sources_ok": [
   "Notes de version Claude (API)",
   "Notes de version OpenAI (API)",
@@ -30,7 +30,6 @@
   "TechCrunch IA",
   "Simon Willison",
   "Hacker News (IA, 100+ pts)",
-  "r/LocalLLaMA",
   "arXiv cs.AI",
   "arXiv cs.CL",
   "ActuIA",
@@ -58,46 +57,51 @@
   {
    "nom": "VentureBeat IA",
    "erreur": "429 Client Error: Too Many Requests for url: https://venturebeat.com/category/ai/feed/"
+  },
+  {
+   "nom": "r/LocalLLaMA",
+   "erreur": "404 Client Error: Not Found for url: https://www.reddit.com/r/LocalLLaMA/top/.rss?t=day"
   }
  ],
- "total": 2242,
- "analyses": 1412,
+ "total": 2229,
+ "analyses": 1352,
  "brief": {
-  "titre": "Actualités IA : Santé, agents autonomes et IPO record",
-  "texte": "OpenAI innove aujourd'hui en lançant ChatGPT pour la santé et un classificateur d'images CSAM, tout en faisant face à une action en justice en Californie. Du côté des infrastructures, NVIDIA impressionne avec sa nouvelle architecture Vera Rubin et Rubin HPC pour accélérer les agents scientifiques. La concurrence s'intensifie également dans l'écosystème avec l'arrivée d'Alibaba et son modèle Qwen4-Max, ainsi qu'Unsloth qui intègre le Computer Use. Enfin, Anthropic fait les grands titres avec une introduction en bourse sursouscrite sept fois et le lancement de Claude Sheets face à Excel.",
+  "titre": "Actualité IA : Nouveaux modèles, annonces boursières et avancées matérielles",
+  "texte": "Le paysage de l'intelligence artificielle est en pleine effervescence avec le lancement des modèles GPT-6.2 Astra et Sol par OpenAI, ainsi que l'arrivée d'Olala mini 7A1B, le modèle hybride d'OVH. Du côté des infrastructures, Nvidia continue d'innover avec son architecture Vera Rubin et Rubin HPC tout en maintenant sa stratégie ouverte. Parallèlement, Anthropic se prépare à une introduction en bourse majeure en novembre tout en introduisant de nouvelles fonctionnalités pour son API. Enfin, l'écosystème open source progresse avec les dernières mises à jour d'Unsloth intégrant le Computer Use local et le protocole MCP.",
   "a_tester": [
-   "Explorer les nouvelles capacités de l'architecture Vera Rubin de NVIDIA pour vos projets de calcul haute performance.",
-   "Tester l'intégration du Computer Use proposée par Unsloth pour vos flux de travail automatisés."
+   "Tester le nouveau modèle hybride Olala mini 7A1B d'OVH pour vos tâches locales.",
+   "Explorer la mise à jour d'Unsloth avec le Computer Use local et le support MCP.",
+   "Examiner la nouvelle facturation liée en version bêta pour l'API Claude d'Anthropic."
   ]
  },
  "top5": {
-  "maj": "2026-11-17T02:56:20.769718+00:00",
+  "maj": "2026-11-17T23:30:11.822144+00:00",
   "par_ia": true,
   "items": [
    {
-    "id": "a14681e2ddce12",
-    "pourquoi": "Google lance officiellement Gemini 4 Carbon avec une fonction d'essaim d'agents, marquant une concurrence directe majeure face à OpenAI et Anthropic.",
-    "a_faire": "Tester les nouvelles capacités d'essaim d'agents de ce modèle pour évaluer son potentiel sur vos cas d'usage."
+    "id": "549a77347d5e1e",
+    "pourquoi": "Le lancement des nouveaux modèles GPT-6.2 Astra et Sol par OpenAI redéfinit les standards de performance en entreprise, notamment en matière de codage et d'interaction.",
+    "a_faire": "Tester ces nouveaux modèles sur vos cas d'usage de développement et d'automatisation."
    },
    {
     "id": "5bf4951adbe969",
-    "pourquoi": "OpenAI introduce ChatGPT Wallet, permettant aux agents d'effectuer des achats en ligne avec l'accord de l'utilisateur, ouvrant la voie aux agents transactionnels autonomes.",
-    "a_faire": "Surveiller l'évolution de cette solution de paiement pour anticiper l'intégration de flux transactionnels dans vos assistants."
+    "pourquoi": "ChatGPT Wallet introduit une brique essentielle pour l'autonomie des agents IA en permettant des transactions financières sécurisées.",
+    "a_faire": "Surveiller les implications de sécurité et de gouvernance de ces paiements automatisés."
    },
    {
-    "id": "5ca4dc7b6d88cb",
-    "pourquoi": "L'arrivée de 'Businesses in ChatGPT' permet aux entreprises de gérer leur visibilité et de convertir l'intérêt des utilisateurs directement au sein de la plateforme.",
-    "a_faire": "Examiner comment positionner votre entreprise et optimiser votre présence sur cette nouvelle interface."
+    "id": "afe59ba4cdcfc4",
+    "pourquoi": "L'intégration du Computer Use en local via Unsloth démocratise l'interaction directe des IA open-source avec les applications et l'écran.",
+    "a_faire": "Tester la mise à jour Unsloth pour évaluer le potentiel des agents locaux sur votre poste."
    },
    {
-    "id": "3197bf91500d66",
-    "pourquoi": "NVIDIA domine les benchmarks MLPerf avec sa nouvelle architecture Vera Rubin, multipliant par 10 le débit par watt pour l'inférence.",
-    "a_faire": "Veiller sur l'adoption de cette nouvelle architecture pour anticiper les gains de performance futurs sur vos infrastructures."
+    "id": "e12a30aa3f82ad",
+    "pourquoi": "La flotte K2-Horizon propose des modèles ouverts axés sur le raisonnement, allant du petit modèle dense au grand MoE pour les tâches complexes.",
+    "a_faire": "Étudier les benchmarks de ces nouveaux modèles ouverts pour vos projets de recherche et agents."
    },
    {
-    "id": "d371e6cd7cca07",
-    "pourquoi": "Unsloth intègre le Computer Use en bêta et le support de MiniMax-H3-Image, démocratisant le contrôle direct des interfaces par des modèles locaux.",
-    "a_faire": "Tester la mise à jour pour expérimenter le Computer Use sur vos environnements locaux."
+    "id": "4bc1a69b9f2b88",
+    "pourquoi": "L'introduction en bourse d'Anthropic marque un tournant financier et stratégique majeur pour l'un des acteurs clés de l'écosystème IA.",
+    "a_faire": "Suivre l'évolution de l'action et les impacts sur la stratégie produit d'Anthropic."
    }
   ]
  }
