@@ -61,7 +61,7 @@ def lire_lot(lot, cle):
             parts.append(im)
     for modele in ("gemini-flash-latest", "gemini-flash-lite-latest", "gemini-2.5-flash"):
         try:
-            r = requests.post(f"{API}/models/{modele}:generateContent", headers={"x-goog-api-key": cle}, timeout=150,
+            r = requests.post(f"{API}/models/{modele}:generateContent", headers={"x-goog-api-key": cle}, timeout=90,
                               json={"contents": [{"parts": parts}], "generationConfig": {"responseMimeType": "application/json", "temperature": 0}})
         except requests.RequestException:
             continue
@@ -90,14 +90,23 @@ def main():
     except (FileNotFoundError, json.JSONDecodeError):
         actuel = {"posts": []}
     deja = {p["tweet_id"]: p for p in actuel.get("posts", [])}
-    a_lire = [p for p in brut["posts"] if p[1] not in deja and date_id(p[1]) >= (MAINTENANT - timedelta(days=JOURS)).isoformat()]
+    ecartes = set(actuel.get("ecartes", []))  # posts déjà lus et écartés : on ne les relit pas
+    a_lire = [p for p in brut["posts"] if p[1] not in deja and p[1] not in ecartes
+              and date_id(p[1]) >= (MAINTENANT - timedelta(days=JOURS)).isoformat()]
+    a_lire.sort(key=lambda p: int(p[1]), reverse=True)
+    a_lire = a_lire[:72]  # au plus 12 lots par passage : le reste au prochain
     lus = {}
+    debut = time.time()
     for i in range(0, len(a_lire), 6):
+        if time.time() - debut > 18 * 60:
+            break
         lus |= lire_lot(a_lire[i:i + 6], cle)
-        time.sleep(5)
+        time.sleep(4)
     gardes = 0
     for compte, pid, texte, images in a_lire:
         a = lus.get(pid)
+        if a and (not a.get("garder") or not a.get("pieces")):
+            ecartes.add(pid)
         if not a or not a.get("garder") or not a.get("pieces"):
             continue
         liens = re.findall(r"https?://\S+", texte)
@@ -110,7 +119,7 @@ def main():
     limite = (MAINTENANT - timedelta(days=JOURS)).isoformat()
     posts = sorted((p for p in deja.values() if p["date"] >= limite), key=lambda p: p["date"], reverse=True)
     SORTIE.write_text(json.dumps({"maj": MAINTENANT.isoformat(), "lu_le": brut.get("lu_le"), "comptes": list(NOMS.values()),
-                                  "posts": posts}, ensure_ascii=False, separators=(",", ":")), encoding="utf-8")
+                                  "posts": posts, "ecartes": sorted(ecartes, reverse=True)[:600]}, ensure_ascii=False, separators=(",", ":")), encoding="utf-8")
     print(f"✅ {len(a_lire)} posts lus par l'IA, {gardes} gardés ; {len(posts)} plans en ligne (5 derniers jours)")
 
 
