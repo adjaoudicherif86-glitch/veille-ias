@@ -94,6 +94,28 @@ h2{font-stretch:112%;font-weight:900;font-size:clamp(24px,3vw,36px);letter-spaci
 /* fiche article */
 .fiche{display:flex;flex-direction:column;min-width:0}
 .zone-photo{position:relative}
+.vues .vue-bf{background:var(--sticker);color:var(--noir)}
+.vues .vue-bf[aria-current="true"]{background:var(--noir);color:var(--sticker)}
+.bf-tete{padding:34px 0 10px}
+.bf-tete h2{font-size:clamp(40px,7vw,84px);line-height:.92;letter-spacing:-.02em;font-weight:900;font-stretch:115%}
+.bf-tete .compte{display:inline-block;background:var(--sticker);padding:4px 12px;font-weight:800;font-size:clamp(16px,2vw,20px);margin:14px 0 8px;transform:rotate(-1.5deg)}
+.bf-tete p{max-width:66ch;color:var(--gris)}
+.bf-offres{display:grid;grid-template-columns:repeat(auto-fill,minmax(min(100%,290px),1fr));gap:14px;padding:18px 0 34px}
+.offre{border:1.5px solid var(--noir);padding:16px 16px 14px;display:flex;flex-direction:column;gap:8px;background:var(--blanc);position:relative}
+.offre.fini{opacity:.5}
+.offre .haut{display:flex;justify-content:space-between;align-items:baseline;gap:10px}
+.offre .mq{font-weight:800;font-size:15px}
+.offre .etat{font-size:12px;font-weight:700;border-radius:999px;padding:2px 9px;white-space:nowrap}
+.offre .etat.en-cours{background:#1f8a3b;color:#fff}
+.offre .etat.bientot{background:var(--noir);color:var(--sticker)}
+.offre .etat.fini{background:var(--trait);color:var(--gris)}
+.offre .gros{font-size:clamp(26px,3vw,34px);font-weight:900;line-height:1;font-stretch:110%}
+.offre .det{font-size:14px;line-height:1.45}
+.offre .meta{font-size:12.5px;color:var(--gris);margin-top:auto}
+.offre .cam{font-size:12px;font-weight:700}
+.offre a.voir{font-weight:700;font-size:14px;text-decoration:underline;text-underline-offset:3px}
+.bf-cal{display:flex;flex-wrap:wrap;gap:8px 22px;font-size:14px;padding:4px 0 6px}
+.bf-cal b{font-weight:800}
 .coeur{position:absolute;right:10px;bottom:12px;width:38px;height:38px;border-radius:50%;border:0;background:var(--blanc);box-shadow:0 1px 4px rgba(0,0,0,.18);cursor:pointer;font-size:19px;line-height:38px;text-align:center;color:var(--noir);padding:0}
 .coeur[aria-pressed="true"]{background:var(--rouge);color:var(--blanc)}
 .coeur:focus-visible,.coeur-txt:focus-visible{outline:2px solid var(--noir);outline-offset:2px}
@@ -310,6 +332,7 @@ footer b{color:var(--blanc);font-weight:600}
     <a class="logo" href="#" data-vue="plans">Pièce Unique</a>
     <nav class="vues" aria-label="Rubriques">
       <button data-vue="plans">La sélection</button>
+      <button data-vue="bf" class="vue-bf" hidden>Black Friday</button>
       <button data-vue="tout">Tout voir</button>
       <button data-vue="camino">Les relais</button>
       <button data-vue="neuf">Nouveautés</button>
@@ -528,6 +551,42 @@ function vueGT(){
     <div class="cats selection-filtre">${[["","Toutes"],["XXL","XXL"],["3XL","3XL"],["4XL","4XL"]].map(([k,v])=>`<button data-gt="${k}" aria-pressed="${(etat.gt||"")===k}">${v}${k?` (${nb(k)})`:` (${base.length})`}</button>`).join("")}</div></div>
   <div class="outils"><div class="wrap"><div class="cats">${Object.entries(CATS).filter(([k])=>k==="tous"||presentes.has(k)).map(([k,v])=>`<button data-cat="${k}" aria-pressed="${etat.cat===k}">${v}</button>`).join("")}</div><span class="nb">${l.length} pièce${l.length>1?"s":""}</span></div></div>
   <div class="wrap" id="tout">${l.length?`<div class="grille">${l.slice(0,etat.n).map(a=>fiche(a)).join("")}</div>${l.length>etat.n?`<button class="plus" id="plus">Voir ${Math.min(48,l.length-etat.n)} pièces de plus</button>`:""}`:`<p class="vide">Rien dans cette taille avec ces filtres aujourd'hui.</p>`}</div>`}
+// Black Friday : les offres des marques (relevées à la main) + les pièces en grosse remise
+let BF=null;
+const jour=d=>new Date(d+"T00:00:00");
+function etatOffre(o){const t=new Date();
+  if(o.a_venir)return ["bientot","Bientôt"];
+  if(o.fin&&t>new Date(o.fin+"T23:59:59"))return ["fini","Terminé"];
+  if(o.debut&&t<jour(o.debut))return ["bientot","Dès le "+jour(o.debut).toLocaleDateString("fr-FR",{day:"numeric",month:"long"})];
+  return ["en-cours","En cours"]}
+function vueBF(){
+  if(!BF)return `<div class="wrap"><p class="vide">Les offres Black Friday arrivent.</p></div>`;
+  const j=Math.ceil((jour(BF.black_friday)-new Date())/864e5);
+  const ordre={"en-cours":0,"bientot":1,"fini":2};
+  const of=[...BF.offres].sort((a,b)=>ordre[etatOffre(a)[0]]-ordre[etatOffre(b)[0]]||(b.camino?1:0)-(a.camino?1:0));
+  const enCours=of.filter(o=>etatOffre(o)[0]==="en-cours").length;
+  const pieces=varier([...D.articles,...REL.filter(a=>recent(a,4)&&a.prix_eur>0)].filter(a=>styleOk(a)&&(a.remise||0)>=30&&a.fiab!=="prudence")
+    .sort((a,b)=>(note(b)+(b.relai?1.5:0)+b.remise/25)-(note(a)+(a.relai?1.5:0)+a.remise/25)));
+  const maj=new Date(BF.maj).toLocaleDateString("fr-FR",{day:"numeric",month:"long"});
+  return `<div class="wrap"><div class="bf-tete">
+      <h2>Black Friday</h2>
+      <span class="compte">${j>0?`J−${j} avant le vendredi 27 novembre`:j===0?"C'est aujourd'hui":"Jusqu'au Cyber Monday, lundi 30 novembre"}</span>
+      <p>${enCours} marques ont déjà lancé leurs remises. Voici les offres qui comptent pour toi, marque par marque, puis les pièces à −30 % et plus repérées dans les boutiques suivies et par Camino TV et cie. Offres vérifiées le ${maj}.</p>
+    </div>
+    <div class="bf-cal"><span><b>Mer. 19</b> accès anticipé The North Face</span><span><b>Ven. 20</b> adidas pour tous</span><span><b>Sam. 21</b> gros lancement Nike</span><span><b>Ven. 27</b> Black Friday (H&amp;M, ASOS)</span><span><b>Lun. 30</b> Cyber Monday</span></div>
+    <div class="bf-offres">${of.map(o=>{const [k,t]=etatOffre(o);return `<article class="offre ${k==="fini"?"fini":""}">
+      <div class="haut"><span class="mq">${esc(o.marque)}</span><span class="etat ${k}">${esc(t)}</span></div>
+      <div class="gros">${esc(o.offre)}</div>
+      <p class="det">${esc(o.detail)}${o.code?` <span class="code">code ${esc(o.code)}</span>`:""}</p>
+      ${o.condition?`<p class="meta" style="margin-top:0">${esc(o.condition)}</p>`:""}
+      ${o.camino?`<span class="cam">Relayé par Camino et cie</span>`:""}
+      <p class="meta">Source : ${esc(o.source)}${o.fin?`, jusqu'au ${jour(o.fin).toLocaleDateString("fr-FR",{day:"numeric",month:"long"})}`:""}</p>
+      <a class="voir" href="${esc(o.lien)}" target="_blank" rel="noopener">Voir l'offre</a>
+    </article>`}).join("")}</div></div>
+  <section class="rangee"><div class="wrap"><div class="titre-rangee"><h2>Les pièces à −30 % et plus</h2><p>${pieces.length} pièces dans tes styles, promos des boutiques et relais des 4 derniers jours</p></div>
+    ${pieces.length?`<div class="grille">${pieces.slice(0,etat.n).map(a=>fiche(a)).join("")}</div>${pieces.length>etat.n?`<button class="plus" id="plus">Voir ${Math.min(48,pieces.length-etat.n)} pièces de plus</button>`:""}`:`<p class="vide">Rien dans ce style pour l'instant.</p>`}
+  </div></section>`;
+}
 // La sélection : les pépites des boutiques, les indés et les relais des 3 derniers jours, entrelacés
 function selectionMix(){
   const sel=(D.selection||[]).map(i=>parId[i]).filter(a=>a&&styleOk(a));
@@ -550,6 +609,8 @@ function vuePlans(){
   let h="";
   const c=parId[D.coup];
   const avecPlan=c&&etat.style==="tous"&&etat.genre==="homme";
+  if(BF&&new Date()<new Date(BF.cyber_monday+"T23:59:59")){const n=BF.offres.filter(o=>etatOffre(o)[0]==="en-cours").length;
+    h+=`<div class="wrap"><button data-vue="bf" style="display:block;width:100%;text-align:left;border:0;cursor:pointer;background:var(--sticker);padding:14px 18px;margin-top:18px;font-weight:800;font-size:clamp(16px,2vw,19px)">Black Friday : ${n} marques ont déjà lancé leurs remises. Voir les offres et les pièces à −30 % et plus</button></div>`}
   if(avecPlan){
     h+=`<div class="wrap"><section class="plan">
       <a class="photo" href="${esc(c.lien)}" data-art="${esc(c.id)}" target="_blank" rel="noopener"><img src="${U(c.porte||c.images[0],1000)}" alt="${esc(c.nom)}">${sticker(c,true)}</a>
@@ -708,7 +769,7 @@ function rendre(haut){
   document.querySelectorAll(".vues button").forEach(b=>b.setAttribute("aria-current",b.dataset.vue===etat.vue));
   document.getElementById("styles").innerHTML=`<span class="genre" role="group" aria-label="Homme ou femme"><button data-genre="homme" aria-pressed="${etat.genre==="homme"}">Homme</button><button data-genre="femme" aria-pressed="${etat.genre==="femme"}">Femme</button></span>`+Object.entries(STYLES).map(([k,v])=>`<button data-style="${k}" aria-pressed="${etat.style===k}">${v}</button>`).join("");
   const v=document.getElementById("vue");
-  v.innerHTML=etat.vue==="fits"?vueFits():etat.vue==="fiab"?vueFiab():etat.vue==="tout"?vueTout():etat.vue==="neuf"?vueNeuf():etat.vue==="camino"?vueCamino():etat.vue==="gt"?vueGT():etat.vue==="favoris"?vueFavoris():vuePlans();
+  v.innerHTML=etat.vue==="fits"?vueFits():etat.vue==="fiab"?vueFiab():etat.vue==="tout"?vueTout():etat.vue==="neuf"?vueNeuf():etat.vue==="camino"?vueCamino():etat.vue==="gt"?vueGT():etat.vue==="bf"?vueBF():etat.vue==="favoris"?vueFavoris():vuePlans();
   sauverFav();
   const cf=document.getElementById("copierfav"); if(cf)cf.onclick=()=>{navigator.clipboard?.writeText(cf.dataset.lien).then(()=>{cf.textContent="Lien copié, ouvre-le sur ton autre appareil"},()=>prompt("Copie ce lien :",cf.dataset.lien))};
   const top=selectionMix().slice(0,16), ligne=top.map(a=>`<a href="${esc(a.lien)}" data-art="${esc(a.id)}" target="_blank" rel="noopener">${esc(marque(a))}, ${esc(nom(a).n)}${a.prix_eur?` à <b>${eur(a.prix_eur)}</b>`:""}</a>`).join("");
@@ -744,7 +805,8 @@ document.addEventListener("click",e=>{
   if("marque" in b.dataset){etat.marque=b.dataset.marque||null;etat.vue="tout";etat.cat="tous";etat.n=48;rendre(etat.marque?"tout":true)}
 });
 
-Promise.all([fetch("data.json?"+Date.now()).then(r=>r.json()),fetch("fiabilite.json?"+Date.now()).then(r=>r.ok?r.json():{boutiques:[]}).catch(()=>({boutiques:[]})),fetch("camino.json?"+Date.now()).then(r=>r.ok?r.json():{posts:[]}).catch(()=>({posts:[]})),fetch("relais.json?"+Date.now()).then(r=>r.ok?r.json():{items:[]}).catch(()=>({items:[]}))]).then(([d,f,cm,rl])=>{
+Promise.all([fetch("data.json?"+Date.now()).then(r=>r.json()),fetch("fiabilite.json?"+Date.now()).then(r=>r.ok?r.json():{boutiques:[]}).catch(()=>({boutiques:[]})),fetch("camino.json?"+Date.now()).then(r=>r.ok?r.json():{posts:[]}).catch(()=>({posts:[]})),fetch("relais.json?"+Date.now()).then(r=>r.ok?r.json():{items:[]}).catch(()=>({items:[]})),fetch("blackfriday.json?"+Date.now()).then(r=>r.ok?r.json():null).catch(()=>null)]).then(([d,f,cm,rl,bf])=>{
+  BF=bf; const bfb=document.querySelector(".vue-bf"); if(BF&&bfb&&new Date()<new Date(BF.cyber_monday+"T23:59:59"))bfb.hidden=false;
   D=d; F=f; C=cm||{posts:[]}; R=rl||{items:[]}; D.nouveautes=D.nouveautes||[]; [...D.nouveautes,...D.articles].forEach(a=>parId[a.id]=a); F.boutiques.forEach(b=>fParNom[b.boutique]=b);
   [...D.nouveautes,...D.articles].forEach(a=>{if(!a.fiab&&fParNom[a.boutique])a.fiab=fParNom[a.boutique].niveau;if(!a.fam)a.fam=a.categorie});
   REL=relaisEnArticles(); REL.forEach(a=>parId[a.id]=a);
