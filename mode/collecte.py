@@ -49,7 +49,7 @@ PRIX_MAX_NEUF = 160   # onglet « Sans promo » : on reste sur des prix accessib
 JOURS_NEUF = 45
 MAINTENANT = datetime.now(timezone.utc)
 
-EXCLURE = re.compile(r"\b(bra|bikini|towel|mug|candle|book|magazine|poster|print|sticker|"
+EXCLURE = re.compile(r"\b(hanger|cintre|ashtray|cendrier|incense|encens|bra|bikini|towel|mug|candle|book|magazine|poster|print|sticker|"
                      r"homeware|incense|fragrance|perfume|gift ?card|cup|vase|keyring|key ring|lighter|ashtray|blanket|pillow|cushion|"
                      r"socks?|underwear|boxer|brief|swim|phone case|airpods|playing cards|frisbee|ball|junior|kids?|enfants?|girls?|boys|"
                      r"brassière|legging|soutien-gorge|caleçon|chaussettes?|slip|pyjamas?|pj|nightwear|loungewear)\b", re.I)

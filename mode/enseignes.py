@@ -189,7 +189,7 @@ def carhartt(categories, debug=False):
                     continue
                 vus.add(d["url"])
                 gids = " ".join(d.get("group_ids", []) + d.get("attr_main_category_url", []))
-                g = "femme" if "femme" in gids and "homme" not in gids else "homme"
+                g = "femme" if ("femme" in gids and "homme" not in gids) or d.get("product_title", "").lower().startswith("women") else "homme"
                 titre = f"{d.get('product_title', '')} {d.get('color_description', '')}".strip()
                 cat = _categorie(f"{titre} {' '.join(d.get('type', []))}", categories) or "accessoire"
                 if fmt is None:
