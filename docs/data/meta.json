@@ -1,5 +1,5 @@
 {
- "maj": "2026-11-17T23:30:11.822144+00:00",
+ "maj": "2026-11-18T07:27:52.987713+00:00",
  "sources_ok": [
   "Notes de version Claude (API)",
   "Notes de version OpenAI (API)",
@@ -63,15 +63,15 @@
    "erreur": "404 Client Error: Not Found for url: https://www.reddit.com/r/LocalLLaMA/top/.rss?t=day"
   }
  ],
- "total": 2229,
- "analyses": 1352,
+ "total": 2236,
+ "analyses": 1356,
  "brief": {
-  "titre": "Actualité IA : Nouveaux modèles, annonces boursières et avancées matérielles",
-  "texte": "Le paysage de l'intelligence artificielle est en pleine effervescence avec le lancement des modèles GPT-6.2 Astra et Sol par OpenAI, ainsi que l'arrivée d'Olala mini 7A1B, le modèle hybride d'OVH. Du côté des infrastructures, Nvidia continue d'innover avec son architecture Vera Rubin et Rubin HPC tout en maintenant sa stratégie ouverte. Parallèlement, Anthropic se prépare à une introduction en bourse majeure en novembre tout en introduisant de nouvelles fonctionnalités pour son API. Enfin, l'écosystème open source progresse avec les dernières mises à jour d'Unsloth intégrant le Computer Use local et le protocole MCP.",
+  "titre": "GPT-6.2, introduction en bourse d'Anthropic et nouveaux modèles locaux",
+  "texte": "L'écosystème est en ébullition avec le lancement par OpenAI des modèles GPT-6.2 Astra et Sol, bien que cette sortie s'accompagne de vives critiques et d'une action en justice de la Californie. Parallèlement, Anthropic prépare activement son introduction en bourse, une opération majeure où Amazon et Google devraient détenir près de 30% des parts, tout en lançant la facturation liée en bêta pour son API. Côté open source et local, OVH se positionne avec le modèle hybride Olala mini 7A1B de 7 milliards de paramètres. Enfin, Unsloth met à jour ses outils pour intégrer le Computer Use local et le MCP, tandis que Microsoft diversifie son offre avec de nouveaux modèles dédiés au code et à la cybersécurité.",
   "a_tester": [
-   "Tester le nouveau modèle hybride Olala mini 7A1B d'OVH pour vos tâches locales.",
-   "Explorer la mise à jour d'Unsloth avec le Computer Use local et le support MCP.",
-   "Examiner la nouvelle facturation liée en version bêta pour l'API Claude d'Anthropic."
+   "Tester l'API Responses mise à jour avec GPT-6.2",
+   "Explorer le modèle ultra-rapide Olala mini 7A1B d'OVH",
+   "Expérimenter les nouveautés d'Unsloth sur le Computer Use local"
   ]
  },
  "top5": {
