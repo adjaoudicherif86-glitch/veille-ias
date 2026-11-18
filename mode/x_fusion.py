@@ -11,7 +11,7 @@ from datetime import datetime, timedelta, timezone
 from pathlib import Path
 
 BRUT = Path(__file__).resolve().parent.parent / "etat" / "x-brut.json"
-COMPTES = {"caminotv": "CaminoTV", "fitthemall": "FitThemAll", "sneakerologue": "Sneakerologue",
+COMPTES = {"caminotv": "CaminoTV", "fitthemall": "FitThemAll",
            "bershka": "Bershka", "pullandbear": "pullandbear"}
 # Recherche ouverte sur tout X : on garde les autres comptes seulement s'ils parlent de ces marques, avec un lien.
 MARQUES = re.compile(r"bershka|pull\s*(&|and|n|et)\s*bear|pullandbear", re.I)

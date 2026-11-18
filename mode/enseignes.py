@@ -146,3 +146,65 @@ if __name__ == "__main__":
         a = f(CATEGORIES, debug=True)
         for x in a[:4]:
             print(" ", x["nom"], x["categorie"], x["prix_eur"], x["avant_eur"], x["remise"], x["lien"], x["images"][:1])
+
+
+# --- Carhartt WIP ------------------------------------------------------------
+# Leur site (Next.js) s'appuie sur Constructor.io, le moteur de recherche public que le navigateur de chaque visiteur
+# interroge. On lit les mêmes groupes que la page (Black Friday, promos), avec les prix France.
+
+CARHARTT_CLE = "key_QG9KK8DOmSUeFblV"
+
+
+def _carhartt_lien(slug):
+    """Le format d'URL produit n'est pas documenté : on teste les formats plausibles une fois par passage."""
+    for f in ("https://www.carhartt-wip.com/fr-fr/p/{}", "https://www.carhartt-wip.com/fr-fr/{}", "https://www.carhartt-wip.com/fr-fr/product/{}"):
+        try:
+            r = requests.get(f.format(slug), headers=NAV, timeout=20)
+            if r.status_code == 200:
+                return f
+        except requests.RequestException:
+            pass
+    return None
+
+
+def carhartt(categories, debug=False):
+    base = "https://ac.cnstrc.com/browse/group_id/{}"
+    vus, articles, fmt = set(), [], None
+    for groupe in ("black-friday", "homme-promos-hiver", "homme-promos-ete", "femme-promos-hiver", "femme-promos-ete"):
+        for page in range(1, 6):
+            try:
+                r = requests.get(base.format(groupe), headers=NAV, timeout=25, params={
+                    "key": CARHARTT_CLE, "section": "Products", "num_results_per_page": 100, "page": page,
+                    "fmt_options[show_hidden_fields]": "true"})
+                res = r.json()["response"]["results"]
+            except (requests.RequestException, ValueError, KeyError):
+                break
+            for x in res:
+                d = x.get("data", {})
+                prix, avant = d.get("price_FR_EUR"), d.get("list_price_FR_EUR")
+                if not prix or not avant or d.get("hide_from_webshop") or not d.get("main_visible_flag_b2c", True):
+                    continue
+                prix, avant = prix / 100, avant / 100
+                if prix >= avant or d.get("url") in vus or (d.get("stock_quantity") is not None and d["stock_quantity"] <= 0):
+                    continue
+                vus.add(d["url"])
+                gids = " ".join(d.get("group_ids", []) + d.get("attr_main_category_url", []))
+                g = "femme" if "femme" in gids and "homme" not in gids else "homme"
+                titre = f"{d.get('product_title', '')} {d.get('color_description', '')}".strip()
+                cat = _categorie(f"{titre} {' '.join(d.get('type', []))}", categories) or "accessoire"
+                if fmt is None:
+                    fmt = _carhartt_lien(d["url"]) or ""
+                lien = fmt.format(d["url"]) if fmt else f"https://www.carhartt-wip.com/fr-fr/search?q={requests.utils.quote(d.get('product_title', ''))}"
+                images = [i + "?w=900&fmt=auto" for i in (d.get("images") or [d.get("image_url")])[:3] if i]
+                remise = round((1 - prix / avant) * 100)
+                articles.append({
+                    "id": f"carhartt-{d.get('id') or d['url']}", "genre": g, "boutique": "Carhartt WIP", "domaine": "carhartt-wip.com",
+                    "origine": "UE", "pays": "DE", "marque": "Carhartt WIP", "nom": titre, "categorie": cat, "type": " ".join(d.get("type", [])),
+                    "prix": prix, "avant": avant, "devise": "EUR", "remise": remise, "prix_eur": round(prix, 2), "avant_eur": round(avant, 2),
+                    "tailles": [], "images": images, "lien": lien, "styles_indice": ["workwear", "streetwear"],
+                    "description": re.sub(r"<[^>]+>", " ", d.get("description", ""))[:300], "prix_special": False, "enseigne": True,
+                })
+            if len(res) < 100:
+                break
+    print(f"🛍️  Carhartt WIP    {len(articles):3} articles en promo (lien produit : {'ok' if fmt else 'recherche'})")
+    return articles

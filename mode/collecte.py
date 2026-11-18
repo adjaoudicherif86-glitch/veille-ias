@@ -34,7 +34,8 @@ MARQUES_CONNUES = re.compile(
     r"norse projects|arte antwerp|sixth june|avnier|olaf hussein|daily paper|pop trading|patta|represent|ami paris|a\.?p\.?c|kitsun|"
     r"axel arigato|veja|autry|calvin klein|hugo boss|armor.?lux|saint james|chevignon|teddy smith|kaporal|slip fran|faguo|olow|dagobear|"
     r"kulte|h[ée]las|homecore|carne bollente|dr[oô]le de monsieur|nudie|filling pieces|mizuno|saucony|diadora|karhu|merrell|quiksilver|"
-    r"volcom|huf|thrasher|butter goods|polar skate|palace|kith|aim[ée] leon dore|parajumpers|k-?way|comme des gar", re.I)
+    r"volcom|huf|thrasher|butter goods|polar skate|palace|kith|aim[ée] leon dore|parajumpers|k-?way|comme des gar|"
+    r"jott|just over the top|rains|picture|maison labiche|commune de paris|edmmond|makia|hast|bonne gueule", re.I)
 PLAFONDS = {"chaussures": 130, "veste": 150, "surchemise": 100, "maille": 100}  # au-delà : onglet « Indés & pointu »
 
 
@@ -663,7 +664,13 @@ def main():
     except (FileNotFoundError, json.JSONDecodeError):
         ancien = {}
     notes_avant = {a["id"]: a for a in ancien.get("articles", []) + ancien.get("nouveautes", []) if a.get("note") is not None}
-    ia_du_jour = bool(os.getenv("FORCE_IA")) or MAINTENANT.hour in (6, 7) or len(notes_avant) < 50
+    # passage IA complet le matin et l'après-midi, ou dès que la dernière notation a plus de 9 h
+    # (GitHub saute des passages planifiés : sans ça, les nouvelles remises pouvaient rester sans note toute la journée)
+    try:
+        ia_vieille = MAINTENANT - datetime.fromisoformat(ancien.get("ia_le") or "2000-01-01T00:00:00+00:00") > timedelta(hours=9)
+    except ValueError:
+        ia_vieille = True
+    ia_du_jour = bool(os.getenv("FORCE_IA")) or MAINTENANT.hour in (6, 15) or ia_vieille or len(notes_avant) < 50
     print(f"Passage {'complet (IA)' if ia_du_jour else 'rapide (prix et stocks, notes de ce matin)'}")
     articles, neufs, bilan = [], [], []
     depuis = (MAINTENANT - timedelta(days=JOURS_NEUF)).isoformat()
@@ -689,7 +696,7 @@ def main():
         time.sleep(1)
     # grandes enseignes hors Shopify (Zara, Uniqlo) : remise d'au moins 20 %, ou « prix spécial » Zara à 40 € max
     import enseignes
-    for f in (enseignes.zara, enseignes.uniqlo):
+    for f in (enseignes.zara, enseignes.uniqlo, enseignes.carhartt):
         try:
             lot = f(CATEGORIES)
         except Exception as e:
@@ -698,7 +705,7 @@ def main():
         gardes = [a for a in lot if not EXCLURE.search(a["nom"]) and not SPORT.search(a["nom"]) and (a["remise"] >= 20 or (a.get("prix_special") and a["prix_eur"] <= 40))]
         for a in gardes:
             a["fam"] = sous_type(a["categorie"], a["nom"])
-        bilan.append({"boutique": f.__name__.capitalize(), "lus": len(lot), "gardes": len(gardes), "devise": "EUR", "origine": "UE"})
+        bilan.append({"boutique": {"carhartt": "Carhartt WIP"}.get(f.__name__, f.__name__.capitalize()), "lus": len(lot), "gardes": len(gardes), "devise": "EUR", "origine": "UE"})
         articles += gardes
     # fiabilité de la boutique (avis clients vérifiés, mode/avis.json)
     import fiabilite
@@ -865,7 +872,7 @@ def main():
         a["images"] = a["images"][:2] + ([a["porte"]] if a.get("porte") and a["porte"] not in a["images"][:2] else [])
     SORTIE.parent.mkdir(parents=True, exist_ok=True)
     SORTIE.write_text(json.dumps({
-        "maj": MAINTENANT.isoformat(), "saison": SAISON, "poids": POIDS, "modele": modele, "taux": {k: round(v, 4) for k, v in taux.items() if k in ("GBP", "USD", "DKK")},
+        "maj": MAINTENANT.isoformat(), "ia_le": MAINTENANT.isoformat() if ia_du_jour else ancien.get("ia_le"), "saison": SAISON, "poids": POIDS, "modele": modele, "taux": {k: round(v, 4) for k, v in taux.items() if k in ("GBP", "USD", "DKK")},
         "bilan": bilan, "coup": coup, "selection": selection, "fil": fil, "tenues": tenues, "articles": uniques, "nouveautes": nouveautes,
     }, ensure_ascii=False, separators=(",", ":")), encoding="utf-8")
     print(f"✅ {len(uniques)} promos, {len(selection)} pépites, {len(nouveautes)} sans promo, {len(tenues)} tenues, plan du jour : {coup} ({modele})")

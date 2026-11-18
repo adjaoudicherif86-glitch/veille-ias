@@ -448,6 +448,13 @@ let C={posts:[]}, R={items:[]}, REL=[];
 const COMPTES={CaminoTV:"Camino TV",FitThemAll:"FitThemAll",Sneakerologue:"Sneakerologue",LinkDeal_:"LinkDeal",DealsFinder93:"DealsFinder",Bershka:"Bershka",pullandbear:"Pull&Bear"};
 function depuis(d){const h=Math.round((Date.now()-new Date(d))/36e5);return h<1?"à l'instant":h<24?`il y a ${h} h`:`il y a ${Math.round(h/24)} j`}
 // Les relais (posts X, LinkDeal, Dealabs) deviennent des pièces comme les autres : même carte, même panneau
+const PAS_SNEAKER=/mocassin|loafer|boot|botte|derby|richelieu|chelsea|clarks|wallabee|ugg|birkenstock|sabot|mule|chausson|pantoufle/i;
+const SNEAKER=/sneaker|basket|air max|air force|jordan|dunk|gel-|samba|gazelle|spezial|campus|new balance|\bnb\b|1906|2002r|990|xt-|salomon|asics|vans|converse|chuck|on cloud|hoka|puma|reebok|saucony|veja|tn\b|running|trainer/i;
+const estSneaker=x=>{const t=[x.nom,x.marque,x.titre].filter(Boolean).join(" ");return !PAS_SNEAKER.test(t)&&((x.categorie==="chaussures")||SNEAKER.test(t))&&(x.categorie==="chaussures"||!x.categorie)};
+function nettoyerRelais(){
+  C.posts=(C.posts||[]).filter(p=>p.compte!=="Sneakerologue").map(p=>({...p,pieces:(p.pieces||[]).filter(x=>!estSneaker(x))})).filter(p=>p.pieces.length);
+  R.items=(R.items||[]).filter(x=>!estSneaker(x));
+}
 function relaisEnArticles(){
   const out=[];
   for(const p of C.posts||[]){
@@ -573,7 +580,7 @@ function vueBF(){
       <span class="compte">${j>0?`J−${j} avant le vendredi 27 novembre`:j===0?"C'est aujourd'hui":"Jusqu'au Cyber Monday, lundi 30 novembre"}</span>
       <p>${enCours} marques ont déjà lancé leurs remises. Voici les offres qui comptent pour toi, marque par marque, puis les pièces à −30 % et plus repérées dans les boutiques suivies et par Camino TV et cie. Offres vérifiées le ${maj}.</p>
     </div>
-    <div class="bf-cal"><span><b>Mer. 19</b> accès anticipé The North Face</span><span><b>Ven. 20</b> adidas pour tous</span><span><b>Sam. 21</b> gros lancement Nike</span><span><b>Ven. 27</b> Black Friday (H&amp;M, ASOS)</span><span><b>Lun. 30</b> Cyber Monday</span></div>
+    <div class="bf-cal"><span><b>Mer. 19</b> accès anticipé The North Face</span><span><b>Ven. 20</b> adidas pour tous</span><span><b>Jeu. 26</b> Zara, Pull&amp;Bear, Bershka, Massimo Dutti (le soir)</span><span><b>Ven. 27</b> Black Friday (H&amp;M, ASOS, Mango)</span><span><b>Lun. 30</b> Cyber Monday</span></div>
     <div class="bf-offres">${of.map(o=>{const [k,t]=etatOffre(o);return `<article class="offre ${k==="fini"?"fini":""}">
       <div class="haut"><span class="mq">${esc(o.marque)}</span><span class="etat ${k}">${esc(t)}</span></div>
       <div class="gros">${esc(o.offre)}</div>
@@ -589,7 +596,11 @@ function vueBF(){
 }
 // La sélection : les pépites des boutiques, les indés et les relais des 3 derniers jours, entrelacés
 function selectionMix(){
-  const sel=(D.selection||[]).map(i=>parId[i]).filter(a=>a&&styleOk(a));
+  const ids=new Set(D.selection||[]);
+  const fraiches=D.articles.filter(a=>!ids.has(a.id)&&(a.nouveau||a.baisse_de)&&(a.note||0)>=7&&a.zone!=="pointu"&&a.fiab!=="prudence").slice(0,16);
+  const frais=a=>(a.nouveau?2:0)+(a.baisse_de?2:0);
+  const sel=[...(D.selection||[]).map(i=>parId[i]).filter(Boolean),...fraiches].filter(styleOk)
+    .map((a,i)=>[a,i]).sort((x,y)=>frais(y[0])-frais(x[0])||x[1]-y[1]).map(x=>x[0]);
   const promo=sel.filter(a=>a.zone!=="pointu"), pointu=sel.filter(a=>a.zone==="pointu");
   // relais : un compte après l'autre (Camino TV, FitThemAll, LinkDeal…), pour ne pas laisser une source tout prendre
   const cm={}, parSrc={};
@@ -648,7 +659,7 @@ function vueTout(){
   if(etat.tri==="choix")l=varier(l);
   const presentes=new Set(base.map(a=>a.categorie));
   const marques=[...new Set(base.map(marque))].sort((a,b)=>a.localeCompare(b,"fr",{sensitivity:"base"}));
-  return `<div class="wrap"><div class="fits-tete"><div><h2>Tout voir</h2><p style="margin-top:8px;max-width:66ch">Toutes les promos des boutiques suivies, les indés et pièces pointues (plus chères, ou envoyées hors UE avec douane possible) et les bons plans relayés par Camino TV, FitThemAll, Sneakerologue, LinkDeal et Dealabs.</p></div></div>${filtreNature(avant)}</div>
+  return `<div class="wrap"><div class="fits-tete"><div><h2>Tout voir</h2><p style="margin-top:8px;max-width:66ch">Toutes les promos des boutiques suivies, les indés et pièces pointues (plus chères, ou envoyées hors UE avec douane possible) et les bons plans relayés par Camino TV, FitThemAll, LinkDeal et Dealabs.</p></div></div>${filtreNature(avant)}</div>
   <section class="rangee" id="tout" style="padding-top:0;border-top:0"><div class="outils"><div class="wrap">
     <div class="cats">${Object.entries(CATS).filter(([k])=>k==="tous"||presentes.has(k)).map(([k,v])=>`<button data-cat="${k}" aria-pressed="${etat.cat===k}">${v}</button>`).join("")}</div>
     <select id="marque" aria-label="Marque"><option value="">Toutes les marques</option>${marques.map(m=>`<option${m===etat.marque?" selected":""}>${esc(m)}</option>`).join("")}</select>
@@ -807,7 +818,7 @@ document.addEventListener("click",e=>{
 
 Promise.all([fetch("data.json?"+Date.now()).then(r=>r.json()),fetch("fiabilite.json?"+Date.now()).then(r=>r.ok?r.json():{boutiques:[]}).catch(()=>({boutiques:[]})),fetch("camino.json?"+Date.now()).then(r=>r.ok?r.json():{posts:[]}).catch(()=>({posts:[]})),fetch("relais.json?"+Date.now()).then(r=>r.ok?r.json():{items:[]}).catch(()=>({items:[]})),fetch("blackfriday.json?"+Date.now()).then(r=>r.ok?r.json():null).catch(()=>null)]).then(([d,f,cm,rl,bf])=>{
   BF=bf; const bfb=document.querySelector(".vue-bf"); if(BF&&bfb&&new Date()<new Date(BF.cyber_monday+"T23:59:59"))bfb.hidden=false;
-  D=d; F=f; C=cm||{posts:[]}; R=rl||{items:[]}; D.nouveautes=D.nouveautes||[]; [...D.nouveautes,...D.articles].forEach(a=>parId[a.id]=a); F.boutiques.forEach(b=>fParNom[b.boutique]=b);
+  D=d; F=f; C=cm||{posts:[]}; R=rl||{items:[]}; nettoyerRelais(); D.nouveautes=D.nouveautes||[]; [...D.nouveautes,...D.articles].forEach(a=>parId[a.id]=a); F.boutiques.forEach(b=>fParNom[b.boutique]=b);
   [...D.nouveautes,...D.articles].forEach(a=>{if(!a.fiab&&fParNom[a.boutique])a.fiab=fParNom[a.boutique].niveau;if(!a.fam)a.fam=a.categorie});
   REL=relaisEnArticles(); REL.forEach(a=>parId[a.id]=a);
   const mh=location.hash.match(/fav=([^&]*)/);

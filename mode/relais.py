@@ -40,7 +40,7 @@ def prix_txt(t):
 
 def dealabs():
     items = []
-    for groupe in ("mode-homme", "sneakers", "mode-femme"):
+    for groupe in ("mode-homme", "mode-femme"):
         try:
             x = requests.get(f"https://www.dealabs.com/rss/groupe/{groupe}", headers=NAV, timeout=30).text
         except Exception as e:
@@ -94,7 +94,8 @@ CONSIGNE = """Tu tries des bons plans mode pour des lecteurs (hommes et femmes) 
 connues (Nike, Adidas, New Balance, Salomon, Carhartt WIP, Dickies, The North Face, Levi's, Ralph Lauren, Lacoste, Uniqlo,
 Jack & Jones, Timberland, Le Coq Sportif, Vans, Converse…), petits prix. Pour chaque bon plan, réponds :
 garder = true seulement si c'est un vêtement, des chaussures ou un accessoire de mode (bonnet, casquette, sac) pour homme ou
-pour femme, dans ce style, à un prix intéressant. false pour : enfant, sport pur (maillot de foot, chaussures de running ou de
+pour femme, dans ce style, à un prix intéressant. false aussi pour toutes les sneakers / baskets (on ne garde que les
+mocassins, boots, derbies et chaussures de ville). false pour : enfant, sport pur (maillot de foot, chaussures de running ou de
 basket techniques, tenue de foot), montres, parfums, high-tech, sous-vêtements, chaussettes, pièces de luxe hors budget.
 Réponds UNIQUEMENT en JSON : {"items": [{"id": "...", "garder": true|false, "genre": "homme|femme|mixte", "marque": "...", "nom": "nom court et clair en français",
 "categorie": "veste|surchemise|maille|sweat|chemise|tshirt|pantalon|short|chaussures|accessoire",

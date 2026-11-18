@@ -1,5 +1,5 @@
 {
- "maj": "2026-11-17T17:30:00+01:00",
+ "maj": "2026-11-18T11:30:00+01:00",
  "black_friday": "2026-11-27",
  "cyber_monday": "2026-11-30",
  "note": "Offres relevées à la main le 17/11/2026 (sites des marques, Camino TV, FitThemAll, Sneakerologue, presse sneakers). Statut calculé avec les dates : en cours, bientôt, terminé.",
@@ -30,14 +30,14 @@
   },
   {
    "marque": "Nike",
-   "offre": "−30 %",
-   "detail": "Une sélection à −30 % : Air Force 1 dès 83,99 €, Dunk Low à 83,99 €, Air Max 90 à 104,99 €, Air Max Plus et Air Max 95 à 132,99 € au lieu de 189,99 €. Le gros de l'opération est attendu à partir du 21 novembre.",
-   "debut": "2026-11-13",
+   "offre": "Jusqu'à −40 %",
+   "detail": "Black Friday lancé le 18 novembre : jusqu'à −40 % sur une sélection (vêtements et chaussures). Avant ça, −30 % sur Air Force 1, Dunk, Air Max.",
+   "debut": "2026-11-18",
    "fin": "2026-11-30",
    "code": null,
    "condition": null,
    "lien": "https://www.nike.com/fr/",
-   "source": "Le Site de la Sneaker, Highsnobiety",
+   "source": "Sneakerologue (18/11), Le Site de la Sneaker",
    "camino": false
   },
   {
@@ -80,7 +80,7 @@
   {
    "marque": "Mango",
    "offre": "Code BF26F",
-   "detail": "Mocassins en cuir à 56 € au lieu de 100 €, chemises 100 % coton à 17 € au lieu de 46 €, sweat polo rayé à 28 € au lieu de 50 €.",
+   "detail": "Mocassins en cuir à 56 € au lieu de 100 €, chemises 100 % coton à 17 € au lieu de 46 €, sweat polo rayé à 28 € au lieu de 50 €. Gros des remises le 27 novembre, avant-première la veille au soir.",
    "debut": "2026-11-16",
    "fin": null,
    "code": "BF26F",
@@ -139,14 +139,14 @@
   },
   {
    "marque": "Carhartt WIP",
-   "offre": "Jusqu'à −50 %",
-   "detail": "Chez les revendeurs : doudoune déperlante à 139 € au lieu de 279 €, polaire camo à 119 € au lieu de 170 €, veste en cuir à 203 € au lieu de 290 €, t-shirts à −50 %.",
-   "debut": "2026-11-16",
-   "fin": null,
+   "offre": "−30 % (Black Friday)",
+   "detail": "Sur le site officiel : une sélection Black Friday à −30 % (Quentin Jacket à 188 € au lieu de 269 €, OG Detroit Jacket à 174 € au lieu de 249 €), plus des fins de série à −50 % (Springfield Jacket à 139,50 € au lieu de 279 €, sweats à 44,50 €). Le robot lit maintenant Carhartt WIP directement.",
+   "debut": "2026-11-18",
+   "fin": "2026-11-30",
    "code": null,
-   "condition": "Selon le revendeur",
-   "lien": "https://x.com/CaminoTV",
-   "source": "Camino TV et Dealabs, 16-17/11",
+   "condition": "Expédié d'Allemagne",
+   "lien": "https://www.carhartt-wip.com/fr-fr",
+   "source": "Catalogue officiel Carhartt WIP, 18/11",
    "camino": true
   },
   {
@@ -200,16 +200,77 @@
   },
   {
    "marque": "Zara",
-   "offre": "Pas encore annoncé",
-   "detail": "Zara n'a encore rien publié pour 2026. Le robot du site lit Zara toutes les 3 heures : les baisses apparaîtront dans la sélection dès qu'elles tombent.",
-   "debut": null,
-   "fin": null,
+   "offre": "Le 26 novembre au soir",
+   "detail": "Comme toutes les marques Inditex, Zara lance son Black Friday la veille, le jeudi 26 novembre au soir, sur le site et l'appli, jusqu'au Cyber Monday. Le robot du site lit Zara toutes les heures.",
+   "debut": "2026-11-26",
+   "fin": "2026-11-30",
    "code": null,
    "condition": null,
    "lien": "https://www.zara.com/fr/fr/",
-   "source": "Pas de date officielle",
+   "source": "Calendrier Inditex (Trendencias)",
    "camino": false,
-   "a_venir": true
+   "a_venir": false
+  },
+  {
+   "marque": "Pull&Bear",
+   "offre": "Le 26 novembre",
+   "detail": "Lancement le jeudi 26 novembre dans l'après-midi, sur le site et l'appli, jusqu'au Cyber Monday. Leurs promos arrivent ici par leur compte X et Dealabs : le site Pull&Bear bloque les robots.",
+   "debut": "2026-11-26",
+   "fin": "2026-11-30",
+   "code": null,
+   "condition": null,
+   "lien": "https://www.pullandbear.com/fr/",
+   "source": "Calendrier Inditex (Trendencias)",
+   "camino": false
+  },
+  {
+   "marque": "Bershka",
+   "offre": "Le 26 novembre au soir",
+   "detail": "Lancement le jeudi 26 novembre au soir, jusqu'au Cyber Monday. Leurs promos arrivent ici par leur compte X et Dealabs : le site Bershka bloque les robots.",
+   "debut": "2026-11-26",
+   "fin": "2026-11-30",
+   "code": null,
+   "condition": null,
+   "lien": "https://www.bershka.com/fr/",
+   "source": "Calendrier Inditex (Trendencias)",
+   "camino": false
+  },
+  {
+   "marque": "Zalando",
+   "offre": "Jusqu'à −70 % (attendu)",
+   "detail": "Pas encore de date officielle. L'an dernier, la Black Week Zalando a commencé le 20 novembre, avec des remises jusqu'à −70 %. Attention aux prix de référence : compare avec le « dernier prix le plus bas ».",
+   "debut": null,
+   "fin": null,
+   "a_venir": true,
+   "code": null,
+   "condition": null,
+   "lien": "https://www.zalando.fr/",
+   "source": "Monsterdealz (relevé du 10/11)",
+   "camino": false
+  },
+  {
+   "marque": "Massimo Dutti",
+   "offre": "Le 26 novembre au soir",
+   "detail": "Le côté old money d'Inditex : lancement en ligne le jeudi 26 novembre au soir, jusqu'au Cyber Monday.",
+   "debut": "2026-11-26",
+   "fin": "2026-11-30",
+   "code": null,
+   "condition": null,
+   "lien": "https://www.massimodutti.com/fr/",
+   "source": "Calendrier Inditex (Trendencias)",
+   "camino": false
+  },
+  {
+   "marque": "JOTT",
+   "offre": "Doudounes en promo",
+   "detail": "Plus de 180 pièces déjà remisées sur le site (doudounes légères, gilets sans manches). Le robot lit JOTT directement depuis le 18/11.",
+   "debut": "2026-11-18",
+   "fin": null,
+   "code": null,
+   "condition": null,
+   "lien": "https://www.justoverthetop.com/",
+   "source": "Catalogue JOTT, 18/11",
+   "camino": false
   }
  ]
 }

@@ -1,8 +1,8 @@
 name: "Pièce Unique : promos du jour"
 on:
   schedule:
-    - cron: "23 7 * * *"
-    - cron: "23 10,13,16,19,22 * * *"
+    # GitHub saute beaucoup de passages planifiés : on en demande un par heure pour en avoir vraiment toutes les 2-3 h
+    - cron: "23 * * * *"
   workflow_dispatch:
     inputs:
       force_ia:

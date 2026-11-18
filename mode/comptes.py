@@ -24,13 +24,15 @@ JOURS = 5
 NOMS = {"CaminoTV": "Camino TV", "FitThemAll": "FitThemAll", "Sneakerologue": "Sneakerologue",
         "Bershka": "Bershka", "pullandbear": "Pull&Bear"}
 
-CONSIGNE = """Tu lis des posts X de bons plans mode : comptes français de relais (Camino TV, FitThemAll, Sneakerologue),
+CONSIGNE = """Tu lis des posts X de bons plans mode : comptes français de relais (Camino TV, FitThemAll),
 comptes officiels Bershka et Pull&Bear, et posts d'autres comptes qui parlent de Bershka ou Pull&Bear. Pour ces autres
 comptes, "garder" vaut false aussi pour la pub déguisée, les concours, les liens d'affiliation sans prix et les posts
 qui ne présentent pas une vraie offre.
 Pour chaque POST, avec son texte et sa photo, réponds :
 - "garder" : true seulement si le post présente des vêtements, chaussures ou accessoires de mode (homme OU femme) portables au
-  quotidien (streetwear, workwear, old money, minimal, sneakers lifestyle). false pour : sport pur (maillot de club ou
+  quotidien (streetwear, workwear, old money, minimal). PAS DE SNEAKERS : écarte les baskets (Nike, Jordan, adidas, New
+  Balance, Asics, Salomon…) ; garde seulement les autres chaussures (mocassins, boots, derbies, Clarks). Si un post mélange
+  vêtements et baskets, garde le post mais ne mets pas les baskets dans "pieces". false pour : sport pur (maillot de club ou
   d'équipe, NBA, foot, running technique de compétition), enfant, déco, parfum, bijoux, électroménager,
   livres, revente/spéculation, simple annonce sans prix.
 - "pieces" : chaque pièce citée, avec un NOM CLAIR en français (aide-toi de la photo : « pull col camionneur côtelé »,
@@ -51,6 +53,25 @@ def image_b64(media_id):
         r = requests.get(url, timeout=20)
         if r.status_code == 200:
             return {"inline_data": {"mime_type": "image/jpeg", "data": base64.b64encode(r.content).decode()}}
+    except requests.RequestException:
+        pass
+    return None
+
+
+NAV = {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0 Safari/537.36",
+       "Accept-Language": "fr-FR,fr;q=0.9"}
+
+
+def photo_produit(lien):
+    """Post X sans photo lisible : on suit le lien (chck.me, tidd.ly…) et on prend la photo du produit (og:image)."""
+    if not lien:
+        return None
+    try:
+        r = requests.get(lien, headers=NAV, timeout=20, allow_redirects=True)
+        m = re.search(r'<meta[^>]+property=["\']og:image(?::secure_url)?["\'][^>]+content=["\']([^"\']+)', r.text) or \
+            re.search(r'<meta[^>]+content=["\']([^"\']+)["\'][^>]+property=["\']og:image', r.text)
+        if m and m.group(1).startswith("http"):
+            return m.group(1).replace("&amp;", "&")
     except requests.RequestException:
         pass
     return None
@@ -116,10 +137,18 @@ def main():
         liens = re.findall(r"https?://\S+", texte)
         deja[pid] = {"compte": compte, "compte_nom": NOMS.get(compte, compte), "tweet_id": pid, "url": f"https://x.com/{compte}/status/{pid}",
                      "date": date_id(pid), "texte": (a.get("resume") or "").strip() or texte[:200], "liens": liens,
-                     "images": [m if m.startswith("http") else f"https://pbs.twimg.com/media/{m}?format=jpg&name=medium" for m in images[:2]],
+                     "images": [m if m.startswith("http") else f"https://pbs.twimg.com/media/{m}?format=jpg&name=medium" for m in images[:2]]
+                     or [u for u in [photo_produit(next((x.get("lien") for x in a["pieces"] if x.get("lien")), None) or (liens[0] if liens else None))] if u],
                      "genre": a.get("genre") if a.get("genre") in ("homme", "femme", "mixte") else "homme",
                      "pieces": [x for x in a["pieces"] if x.get("nom")]}
         gardes += 1
+    sans = [p for p in deja.values() if not p.get("images")][:30]
+    for p in sans:
+        u = photo_produit(next((x.get("lien") for x in p.get("pieces", []) if x.get("lien")), None) or (p.get("liens") or [None])[0])
+        if u:
+            p["images"] = [u]
+    if sans:
+        print(f"photos rattrapées : {sum(1 for p in sans if p.get('images'))}/{len(sans)}")
     limite = (MAINTENANT - timedelta(days=JOURS)).isoformat()
     posts = sorted((p for p in deja.values() if p["date"] >= limite), key=lambda p: p["date"], reverse=True)
     SORTIE.write_text(json.dumps({"maj": MAINTENANT.isoformat(), "lu_le": brut.get("lu_le"), "comptes": list(NOMS.values()),
