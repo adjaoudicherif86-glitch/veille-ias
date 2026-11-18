@@ -14,8 +14,10 @@ BRUT = Path(__file__).resolve().parent.parent / "etat" / "x-brut.json"
 COMPTES = {"caminotv": "CaminoTV", "fitthemall": "FitThemAll",
            "bershka": "Bershka", "pullandbear": "pullandbear"}
 # Recherche ouverte sur tout X : on garde les autres comptes seulement s'ils parlent de ces marques, avec un lien.
-MARQUES = re.compile(r"bershka|pull\s*(&|and|n|et)\s*bear|pullandbear", re.I)
-MAX_AUTRES = 25  # au plus 25 posts d'autres comptes par lecture : la recherche ouverte est bruyante
+MARQUES = re.compile(r"bershka|pull\s*(&|and|n|et)\s*bear|pullandbear|black\s*(friday|week)|uniqlo|zara|carhartt|north\s*face|"
+                     r"levi|lacoste|mango|h&m|arket|ralph\s*lauren|jott|columbia|patagonia|tommy|calvin\s*klein|jack\s*&\s*jones|"
+                     r"massimo\s*dutti|celio|jules|kiabi|decathlon|zalando|asos", re.I)
+MAX_AUTRES = 40  # au plus 25 posts d'autres comptes par lecture : la recherche ouverte est bruyante
 
 
 def date_id(pid):
