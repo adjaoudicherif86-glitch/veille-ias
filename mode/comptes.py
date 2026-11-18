@@ -21,9 +21,13 @@ SORTIE = RACINE / "docs" / "mode" / "camino.json"
 API = "https://generativelanguage.googleapis.com/v1beta"
 MAINTENANT = datetime.now(timezone.utc)
 JOURS = 5
-NOMS = {"CaminoTV": "Camino TV", "FitThemAll": "FitThemAll", "Sneakerologue": "Sneakerologue"}
+NOMS = {"CaminoTV": "Camino TV", "FitThemAll": "FitThemAll", "Sneakerologue": "Sneakerologue",
+        "Bershka": "Bershka", "pullandbear": "Pull&Bear"}
 
-CONSIGNE = """Tu lis des posts X de comptes français de bons plans mode (Camino TV, FitThemAll, Sneakerologue).
+CONSIGNE = """Tu lis des posts X de bons plans mode : comptes français de relais (Camino TV, FitThemAll, Sneakerologue),
+comptes officiels Bershka et Pull&Bear, et posts d'autres comptes qui parlent de Bershka ou Pull&Bear. Pour ces autres
+comptes, "garder" vaut false aussi pour la pub déguisée, les concours, les liens d'affiliation sans prix et les posts
+qui ne présentent pas une vraie offre.
 Pour chaque POST, avec son texte et sa photo, réponds :
 - "garder" : true seulement si le post présente des vêtements, chaussures ou accessoires de mode (homme OU femme) portables au
   quotidien (streetwear, workwear, old money, minimal, sneakers lifestyle). false pour : sport pur (maillot de club ou

@@ -445,7 +445,7 @@ function prixLigne(a){
   if(a.remise)return `<b>${eur(a.prix_eur)}</b><s class="avant">${eur(a.avant_eur)}</s><span class="ou">−${a.remise} %</span>`;
   return `<b>${eur(a.prix_eur)}</b><span class="ou">${a.sortie?"nouveauté, prix normal":"prix spécial"}</span>`}
 let C={posts:[]}, R={items:[]}, REL=[];
-const COMPTES={CaminoTV:"Camino TV",FitThemAll:"FitThemAll",Sneakerologue:"Sneakerologue",LinkDeal_:"LinkDeal",DealsFinder93:"DealsFinder"};
+const COMPTES={CaminoTV:"Camino TV",FitThemAll:"FitThemAll",Sneakerologue:"Sneakerologue",LinkDeal_:"LinkDeal",DealsFinder93:"DealsFinder",Bershka:"Bershka",pullandbear:"Pull&Bear"};
 function depuis(d){const h=Math.round((Date.now()-new Date(d))/36e5);return h<1?"à l'instant":h<24?`il y a ${h} h`:`il y a ${Math.round(h/24)} j`}
 // Les relais (posts X, LinkDeal, Dealabs) deviennent des pièces comme les autres : même carte, même panneau
 function relaisEnArticles(){
@@ -503,7 +503,7 @@ function relaisTous(){
 function vueCamino(){
   const tous=relaisTous(), sources=[...new Set(tous.map(x=>x.src))];
   const l=tous.filter(x=>!etat.source||x.src===etat.source).map(x=>x.t==="x"?carteCamino(x.p):carteRelais(x.p)).filter(Boolean);
-  return `<div class="wrap"><div class="fits-tete"><div><h2>Les relais</h2><p style="margin-top:8px;max-width:66ch">Tous les bons plans repérés par les comptes qui font ça bien, du plus récent au plus ancien : Camino TV et ses concurrents sur X (lus avec toi, à la demande), LinkDeal et la communauté Dealabs (lus automatiquement toutes les 3 heures). Les meilleurs passent aussi dans la sélection. Les liens et les codes sont les leurs.</p></div></div>
+  return `<div class="wrap"><div class="fits-tete"><div><h2>Les relais</h2><p style="margin-top:8px;max-width:66ch">Tous les bons plans repérés par les comptes qui font ça bien, du plus récent au plus ancien : Camino TV et ses concurrents sur X, plus tout ce qui se dit sur Bershka et Pull&amp;Bear (comptes officiels et autres comptes), lus avec toi, à la demande ; LinkDeal et la communauté Dealabs (lus automatiquement toutes les 3 heures). Les meilleurs passent aussi dans la sélection. Les liens et les codes sont les leurs.</p></div></div>
     <div class="cats" style="padding:4px 0 6px"><button data-source="" aria-pressed="${!etat.source}">Tout</button>${sources.map(x=>`<button data-source="${esc(x)}" aria-pressed="${etat.source===x}">${esc(x)}</button>`).join("")}</div>
     ${l.length?`<div class="cam-grille">${l.join("")}</div>`:`<p class="vide">Pas de relais dans ce style pour l'instant.</p>`}</div>`}
 // Favoris : gardés dans ce navigateur, avec une copie de la pièce (elle reste visible même si la promo disparaît)

@@ -1,11 +1,11 @@
 // À exécuter (javascript_tool) sur une page de recherche X du type
 // https://x.com/search?q=from%3ACaminoTV%20chck.me%20since%3A2026-11-10&f=live
 // Fait défiler ~35 s et garde chaque post [compte, id, texte, ids images] dans localStorage « __pu_x ».
+// Sans « from: » (recherche ouverte, ex. Bershka / Pull&Bear sur tout X), garde les posts de tous les comptes.
 // Renvoie le nombre de posts gardés pour ce compte. Relancer une 2e fois si « encore » est true.
 (async () => {
   const q = new URL(location).searchParams.get("q") || "";
   const compte = (q.match(/from:(\w+)/i) || [])[1];
-  if (!compte) return "Ce n'est pas une recherche from:compte";
   const K = "__pu_x";
   let all = {};
   try { all = JSON.parse(localStorage.getItem(K) || "{}"); } catch (e) {}
@@ -13,7 +13,7 @@
   const lire = () => {
     for (const ar of document.querySelectorAll('article[data-testid="tweet"]')) {
       const h = [...ar.querySelectorAll('a[href*="/status/"]')].map(a => a.getAttribute("href")).find(h => /^\/[^/]+\/status\/\d+$/.test(h));
-      if (!h || h.split("/")[1].toLowerCase() !== compte.toLowerCase()) continue;
+      if (!h || (compte && h.split("/")[1].toLowerCase() !== compte.toLowerCase())) continue;
       const id = h.split("/")[3];
       const el = ar.querySelector('[data-testid="tweetText"]');
       if (!el) continue;
@@ -37,5 +37,5 @@
   }
   lire();
   localStorage.setItem(K, JSON.stringify(all));
-  return { compte, posts_compte: Object.values(all).filter(p => p[0].toLowerCase() === compte.toLowerCase()).length, total: Object.keys(all).length, encore: stable < 6 };
+  return { compte: compte || "recherche ouverte", posts_compte: compte ? Object.values(all).filter(p => p[0].toLowerCase() === compte.toLowerCase()).length : null, total: Object.keys(all).length, encore: stable < 6 };
 })();

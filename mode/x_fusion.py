@@ -5,12 +5,17 @@ Usage : python mode/x_fusion.py export.json
 Pousser ensuite etat/x-brut.json : le workflow comptes.yml lit les nouveaux posts et met à jour le site.
 """
 import json
+import re
 import sys
 from datetime import datetime, timedelta, timezone
 from pathlib import Path
 
 BRUT = Path(__file__).resolve().parent.parent / "etat" / "x-brut.json"
-COMPTES = {"caminotv": "CaminoTV", "fitthemall": "FitThemAll", "sneakerologue": "Sneakerologue"}
+COMPTES = {"caminotv": "CaminoTV", "fitthemall": "FitThemAll", "sneakerologue": "Sneakerologue",
+           "bershka": "Bershka", "pullandbear": "pullandbear"}
+# Recherche ouverte sur tout X : on garde les autres comptes seulement s'ils parlent de ces marques, avec un lien.
+MARQUES = re.compile(r"bershka|pull\s*(&|and|n|et)\s*bear|pullandbear", re.I)
+MAX_AUTRES = 25  # au plus 25 posts d'autres comptes par lecture : la recherche ouverte est bruyante
 
 
 def date_id(pid):
@@ -26,10 +31,17 @@ def main(chemin):
         brut = {"posts": []}
     par_id = {p[1]: p for p in brut.get("posts", [])}
     ajoutes = 0
-    for compte, pid, texte, images in neuf:
-        c = COMPTES.get(str(compte).lower())
-        if not c or not str(pid).isdigit() or not texte:
+    autres = 0
+    for compte, pid, texte, images in sorted(neuf, key=lambda p: -int(p[1]) if str(p[1]).isdigit() else 0):
+        if not str(pid).isdigit() or not texte:
             continue
+        c = COMPTES.get(str(compte).lower())
+        if not c:
+            if not re.fullmatch(r"\w{1,15}", str(compte)) or not MARQUES.search(texte) or "http" not in texte \
+                    or (pid not in par_id and autres >= MAX_AUTRES):
+                continue
+            c = str(compte)
+            autres += pid not in par_id
         ajoutes += pid not in par_id
         par_id[pid] = [c, pid, texte, images[:4]]
     limite = datetime.now(timezone.utc) - timedelta(days=7)
