@@ -1,5 +1,5 @@
 {
- "maj": "2026-11-18T07:27:52.987713+00:00",
+ "maj": "2026-11-18T17:15:25.343708+00:00",
  "sources_ok": [
   "Notes de version Claude (API)",
   "Notes de version OpenAI (API)",
@@ -63,45 +63,45 @@
    "erreur": "404 Client Error: Not Found for url: https://www.reddit.com/r/LocalLLaMA/top/.rss?t=day"
   }
  ],
- "total": 2236,
- "analyses": 1356,
+ "total": 2218,
+ "analyses": 1317,
  "brief": {
-  "titre": "GPT-6.2, introduction en bourse d'Anthropic et nouveaux modèles locaux",
-  "texte": "L'écosystème est en ébullition avec le lancement par OpenAI des modèles GPT-6.2 Astra et Sol, bien que cette sortie s'accompagne de vives critiques et d'une action en justice de la Californie. Parallèlement, Anthropic prépare activement son introduction en bourse, une opération majeure où Amazon et Google devraient détenir près de 30% des parts, tout en lançant la facturation liée en bêta pour son API. Côté open source et local, OVH se positionne avec le modèle hybride Olala mini 7A1B de 7 milliards de paramètres. Enfin, Unsloth met à jour ses outils pour intégrer le Computer Use local et le MCP, tandis que Microsoft diversifie son offre avec de nouveaux modèles dédiés au code et à la cybersécurité.",
+  "titre": "Déferlante de nouveaux modèles et mouvements boursiers majeurs",
+  "texte": "Le paysage de l'intelligence artificielle est marqué aujourd'hui par des annonces produits d'envergure et des restructurations financières majeures. OpenAI officialise GPT-6.2 avec les versions Astra et Sol, capables notamment de recréer virtuellement des environnements complexes comme Paris. En parallèle, Anthropic frappe fort en lançant Claude Opus 4.8 doté d'un million de tokens de contexte, tout en préparant activement son introduction en bourse prévue pour novembre avec le soutien d'Amazon et Google. Du côté de l'open source, OVH innove avec Olala mini 7A1B et Unsloth intègre le Computer Use local ainsi que le MCP. Enfin, l'écosystème hardware et institutionnel s'agite avec l'enquête de la SEC sur Nvidia malgré le maintien de sa stratégie ouverte.",
   "a_tester": [
-   "Tester l'API Responses mise à jour avec GPT-6.2",
-   "Explorer le modèle ultra-rapide Olala mini 7A1B d'OVH",
-   "Expérimenter les nouveautés d'Unsloth sur le Computer Use local"
+   "Tester la fenêtre de contexte d'un million de tokens sur le nouveau Claude Opus 4.8 pour vos analyses documentaires denses",
+   "Explorer les capacités de modélisation et de simulation du nouveau GPT-6.2 Astra et Sol",
+   "Expérimenter les nouveautés d'Unsloth incluant le Computer Use local et le support MCP"
   ]
  },
  "top5": {
-  "maj": "2026-11-17T23:30:11.822144+00:00",
+  "maj": "2026-11-18T17:15:25.343708+00:00",
   "par_ia": true,
   "items": [
    {
+    "id": "962d469daa1741",
+    "pourquoi": "Anthropic repousse les limites des LLM avec Claude Opus 4.8, intégrant par défaut une fenêtre de contexte d'un million de tokens et une mise en cache automatique.",
+    "a_faire": "Tester l'API de Claude Opus 4.8 pour vos projets nécessitant l'analyse de documents massifs en un seul bloc."
+   },
+   {
     "id": "549a77347d5e1e",
-    "pourquoi": "Le lancement des nouveaux modèles GPT-6.2 Astra et Sol par OpenAI redéfinit les standards de performance en entreprise, notamment en matière de codage et d'interaction.",
-    "a_faire": "Tester ces nouveaux modèles sur vos cas d'usage de développement et d'automatisation."
+    "pourquoi": "OpenAI déploie ses nouveaux modèles GPT-6.2 Astra et Sol, optimisés pour la performance professionnelle, le code et l'interaction directe avec l'ordinateur.",
+    "a_faire": "Surveiller l'impact de ces nouveaux modèles sur vos flux de travail de développement et d'automatisation."
    },
    {
     "id": "5bf4951adbe969",
-    "pourquoi": "ChatGPT Wallet introduit une brique essentielle pour l'autonomie des agents IA en permettant des transactions financières sécurisées.",
-    "a_faire": "Surveiller les implications de sécurité et de gouvernance de ces paiements automatisés."
+    "pourquoi": "L'introduction de ChatGPT Wallet marque un tournant en permettant aux agents IA d'effectuer des achats en ligne de manière sécurisée et autonome.",
+    "a_faire": "Examiner les implications de sécurité et d'intégration de cette solution de paiement pour vos futurs projets d'agents conversationnels."
+   },
+   {
+    "id": "6b6a7a8cb03271",
+    "pourquoi": "Microsoft officialise Copilot Workspaces lors de la conférence Ignite 2026, redéfinissant les standards de la productivité d'entreprise assistée par l'IA.",
+    "a_faire": "Évaluer l'intégration de Copilot Workspaces dans l'écosystème bureautique de votre organisation."
    },
    {
     "id": "afe59ba4cdcfc4",
-    "pourquoi": "L'intégration du Computer Use en local via Unsloth démocratise l'interaction directe des IA open-source avec les applications et l'écran.",
-    "a_faire": "Tester la mise à jour Unsloth pour évaluer le potentiel des agents locaux sur votre poste."
-   },
-   {
-    "id": "e12a30aa3f82ad",
-    "pourquoi": "La flotte K2-Horizon propose des modèles ouverts axés sur le raisonnement, allant du petit modèle dense au grand MoE pour les tâches complexes.",
-    "a_faire": "Étudier les benchmarks de ces nouveaux modèles ouverts pour vos projets de recherche et agents."
-   },
-   {
-    "id": "4bc1a69b9f2b88",
-    "pourquoi": "L'introduction en bourse d'Anthropic marque un tournant financier et stratégique majeur pour l'un des acteurs clés de l'écosystème IA.",
-    "a_faire": "Suivre l'évolution de l'action et les impacts sur la stratégie produit d'Anthropic."
+    "pourquoi": "La mise à jour d'Unsloth démocratise le Computer Use local et les intégrations MCP, rapprochant les capacités avancées des agents directement du matériel personnel.",
+    "a_faire": "Tester la mise à jour v0.1.919-beta d'Unsloth pour expérimenter l'automatisation locale des applications."
    }
   ]
  }
