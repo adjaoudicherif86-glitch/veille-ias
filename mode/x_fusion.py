@@ -16,7 +16,15 @@ COMPTES = {"caminotv": "CaminoTV", "fitthemall": "FitThemAll",
 # Recherche ouverte sur tout X : on garde les autres comptes seulement s'ils parlent de ces marques, avec un lien.
 MARQUES = re.compile(r"bershka|pull\s*(&|and|n|et)\s*bear|pullandbear|black\s*(friday|week)|uniqlo|zara|carhartt|north\s*face|"
                      r"levi|lacoste|mango|h&m|arket|ralph\s*lauren|jott|columbia|patagonia|tommy|calvin\s*klein|jack\s*&\s*jones|"
-                     r"massimo\s*dutti|celio|jules|kiabi|decathlon|zalando|asos", re.I)
+                     r"massimo\s*dutti|celio|jules|kiabi|decathlon", re.I)
+# Revendeurs (Zalando, ASOS, Veepee…) : on garde leurs bons plans s'ils portent sur une marque déjà référencée sur Pièce Unique.
+REVENDEURS = re.compile(r"zalando|asos|veepee|vente-?priv|showroom ?priv|vinted|about ?you|la ?redoute|spartoo|galeries ?lafayette|"
+                        r"yoox|bonprix|sarenza|printemps|end\. ?clothing|farfetch|footlocker|courir|snipes|jd ?sports", re.I)
+try:
+    sys.path.insert(0, str(Path(__file__).resolve().parent))
+    from collecte import MARQUES_CONNUES  # la liste des marques du site, gardée à un seul endroit
+except Exception:
+    MARQUES_CONNUES = MARQUES
 MAX_AUTRES = 40  # au plus 25 posts d'autres comptes par lecture : la recherche ouverte est bruyante
 
 
@@ -39,7 +47,7 @@ def main(chemin):
             continue
         c = COMPTES.get(str(compte).lower())
         if not c:
-            if not re.fullmatch(r"\w{1,15}", str(compte)) or not MARQUES.search(texte) or "http" not in texte \
+            if not re.fullmatch(r"\w{1,15}", str(compte)) or not (MARQUES.search(texte) or (REVENDEURS.search(texte) and MARQUES_CONNUES.search(texte))) or "http" not in texte \
                     or (pid not in par_id and autres >= MAX_AUTRES):
                 continue
             c = str(compte)
