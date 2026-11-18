@@ -25,7 +25,8 @@ NOMS = {"CaminoTV": "Camino TV", "FitThemAll": "FitThemAll", "Sneakerologue": "S
         "Bershka": "Bershka", "pullandbear": "Pull&Bear"}
 
 CONSIGNE = """Tu lis des posts X de bons plans mode : comptes français de relais (Camino TV, FitThemAll),
-comptes officiels Bershka et Pull&Bear, et posts d'autres comptes (bons plans Black Friday mode, Bershka, Pull&Bear). Pour ces autres
+comptes officiels Bershka et Pull&Bear, et posts d'autres comptes (bons plans Black Friday mode, Bershka, Pull&Bear, y compris
+des pièces Bershka ou Pull&Bear vendues chez Zalando, ASOS, Veepee, Showroomprivé, Vinted, About You, La Redoute…). Pour ces autres
 comptes, "garder" vaut false aussi pour la pub déguisée, les concours, les liens d'affiliation sans prix et les posts
 qui ne présentent pas une vraie offre.
 Pour chaque POST, avec son texte et sa photo, réponds :
