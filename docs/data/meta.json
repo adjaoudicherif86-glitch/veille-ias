@@ -1,5 +1,5 @@
 {
- "maj": "2026-11-18T17:15:25.343708+00:00",
+ "maj": "2026-11-19T01:52:25.779764+00:00",
  "sources_ok": [
   "Notes de version Claude (API)",
   "Notes de version OpenAI (API)",
@@ -63,15 +63,15 @@
    "erreur": "404 Client Error: Not Found for url: https://www.reddit.com/r/LocalLLaMA/top/.rss?t=day"
   }
  ],
- "total": 2218,
- "analyses": 1317,
+ "total": 2217,
+ "analyses": 1293,
  "brief": {
-  "titre": "Déferlante de nouveaux modèles et mouvements boursiers majeurs",
-  "texte": "Le paysage de l'intelligence artificielle est marqué aujourd'hui par des annonces produits d'envergure et des restructurations financières majeures. OpenAI officialise GPT-6.2 avec les versions Astra et Sol, capables notamment de recréer virtuellement des environnements complexes comme Paris. En parallèle, Anthropic frappe fort en lançant Claude Opus 4.8 doté d'un million de tokens de contexte, tout en préparant activement son introduction en bourse prévue pour novembre avec le soutien d'Amazon et Google. Du côté de l'open source, OVH innove avec Olala mini 7A1B et Unsloth intègre le Computer Use local ainsi que le MCP. Enfin, l'écosystème hardware et institutionnel s'agite avec l'enquête de la SEC sur Nvidia malgré le maintien de sa stratégie ouverte.",
+  "titre": "Anthropic entre en bourse et les modèles majeurs évoluent",
+  "texte": "L'écosystème IA est marqué par une intense activité sur le front des modèles et de la finance. OpenAI déploie ses nouveautés avec les modèles GPT-6.2 Astra, Sol et l'API Responses mise à jour, tandis que Google réplique en lançant Gemini 4 Neon, une version plus économique. De son côté, Anthropic réussit son entrée en bourse historique à Wall Street avec une valorisation dépassant les 1 000 milliards de dollars et l'annonce de Claude Opus 4.8 doté d'un million de tokens de contexte. Enfin, Nvidia fait face à des turbulences majeures sur le marché chinois et avec la SEC suite au départ de Jensen Huang, alors qu'OpenAI applique ses IA à la conception de puces.",
   "a_tester": [
-   "Tester la fenêtre de contexte d'un million de tokens sur le nouveau Claude Opus 4.8 pour vos analyses documentaires denses",
-   "Explorer les capacités de modélisation et de simulation du nouveau GPT-6.2 Astra et Sol",
-   "Expérimenter les nouveautés d'Unsloth incluant le Computer Use local et le support MCP"
+   "Tester l'API Responses avec GPT-6.2 pour vos intégrations",
+   "Expérimenter la nouvelle fenêtre de contexte d'un million de tokens de Claude Opus 4.8",
+   "Évaluer Gemini 4 Neon pour optimiser vos coûts d'inférence"
   ]
  },
  "top5": {
