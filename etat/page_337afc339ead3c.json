@@ -1,9 +1,11 @@
 {
  "url": "https://developers.openai.com/api/docs/changelog",
- "maj": "2026-11-19T13:06:16.349120+00:00",
+ "maj": "2026-11-19T23:03:26.690704+00:00",
  "lignes": [
   "Changelog",
   "November, 2026",
+  "GPT-Live-1.1 improves pronunciation, accent consistency, and transcription in multilingual voice conversations. Use gpt-live-1.1 in an existing Live session configuration and describe in plain language when to delegate to your backend.",
+  "Configure standby for GPT-Live-1 and GPT-Live-1.1 WebRTC sessions to pause inference during inactivity and resume when someone speaks.",
   "Use GPT-6.2 Astra for demanding reasoning and coding tasks, or GPT-6.2 Sol for everyday coding and agent workflows. Both models support the Responses API and Chat Completions. Tool calling requires the Responses API.",
   "GPT-6.2 changes how the Responses API preserves reasoning when you edit a conversation’s prefix and how it handles the top-level instructions field. See the GPT-6.2 migration guide for details and recommended updates to your integration.",
   "Choose a two-hour or eight-hour background completion window in the Responses API public beta. Model token rates are 30% lower than Standard for the two-hour window and 40% lower for the eight-hour window.",

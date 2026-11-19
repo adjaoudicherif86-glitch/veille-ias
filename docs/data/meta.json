@@ -1,5 +1,5 @@
 {
- "maj": "2026-11-19T13:06:16.354522+00:00",
+ "maj": "2026-11-19T23:03:26.698266+00:00",
  "sources_ok": [
   "Notes de version Claude (API)",
   "Notes de version OpenAI (API)",
@@ -15,7 +15,6 @@
   "SDK Gemini",
   "Open WebUI",
   "ComfyUI",
-  "Unsloth",
   "MLX LM (Mac)",
   "OpenAI",
   "Google DeepMind",
@@ -29,7 +28,6 @@
   "The Verge IA",
   "TechCrunch IA",
   "Simon Willison",
-  "Hacker News (IA, 100+ pts)",
   "arXiv cs.AI",
   "arXiv cs.CL",
   "ActuIA",
@@ -55,23 +53,31 @@
    "erreur": "page vide ou générée en JavaScript"
   },
   {
+   "nom": "Unsloth",
+   "erreur": "503 Server Error: Service Unavailable for url: https://github.com/unslothai/unsloth/releases.atom"
+  },
+  {
    "nom": "VentureBeat IA",
    "erreur": "429 Client Error: Too Many Requests for url: https://venturebeat.com/category/ai/feed/"
+  },
+  {
+   "nom": "Hacker News (IA, 100+ pts)",
+   "erreur": "502 Server Error: Bad Gateway for url: https://hnrss.org/newest?q=AI+OR+LLM+OR+GPT+OR+Claude+OR+Gemini&points=100"
   },
   {
    "nom": "r/LocalLLaMA",
    "erreur": "404 Client Error: Not Found for url: https://www.reddit.com/r/LocalLLaMA/top/.rss?t=day"
   }
  ],
- "total": 2222,
- "analyses": 1277,
+ "total": 2227,
+ "analyses": 1248,
  "brief": {
-  "titre": "Anthropic entre en bourse et les modèles s'envolent",
-  "texte": "L'écosystème IA est secoué aujourd'hui par l'entrée en bourse historique d'Anthropic au Nasdaq, affichant une valorisation géante. Côté technique, Anthropic frappe fort en lançant Claude Opus 4.8 avec une fenêtre de contexte d'un million de tokens. Google DeepMind riposte en présentant Gemini 4 Neon, une version plus économique dotée de la même capacité contextuelle. Pendant ce temps, OpenAI met à jour ses API en enrichissant Sora avec des références de personnages en 1080p et en intégrant GPT-6.2 à son API Responses. Ces annonces massives redéfinissent simultanément le marché financier et les standards de performance des LLM.",
+  "titre": "Anthropic entre en bourse pendant qu'OpenAI et Google innovent",
+  "texte": "L'actualité de l'IA est dominée par l'entrée en bourse historique d'Anthropic au Nasdaq, marquant un tournant financier majeur pour l'écosystème. Sur le plan technique, la concurrence s'accélère avec le lancement de Claude Opus 4.8 et de Gemini 4 Neon, dotés tous deux d'une impressionnante fenêtre de contexte d'un million de tokens. Google optimise également son API avec l'arrivée du Tool Retrieval. Enfin, OpenAI met à jour ses offres avec GPT-Live-1.1 et enrichit l'API Sora pour le 1080p.",
   "a_tester": [
-   "Tester la nouvelle fenêtre de contexte d'un million de tokens sur Claude Opus 4.8 ou Gemini 4 Neon",
-   "Explorer les nouvelles options de référence de personnages et de 1080p sur l'API Sora d'OpenAI",
-   "Intégrer GPT-6.2 via la mise à jour de l'API Responses d'OpenAI"
+   "Tester la nouvelle fenêtre de contexte d'un million de tokens avec Claude Opus 4.8 ou Gemini 4 Neon",
+   "Explorer les nouvelles capacités de l'API Sora d'OpenAI pour la génération vidéo en 1080p",
+   "Intégrer le Tool Retrieval de l'API Gemini dans vos flux de développement"
   ]
  },
  "top5": {
