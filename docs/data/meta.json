@@ -1,5 +1,5 @@
 {
- "maj": "2026-11-19T23:03:26.698266+00:00",
+ "maj": "2026-11-20T07:15:31.500200+00:00",
  "sources_ok": [
   "Notes de version Claude (API)",
   "Notes de version OpenAI (API)",
@@ -15,6 +15,7 @@
   "SDK Gemini",
   "Open WebUI",
   "ComfyUI",
+  "Unsloth",
   "MLX LM (Mac)",
   "OpenAI",
   "Google DeepMind",
@@ -53,10 +54,6 @@
    "erreur": "page vide ou générée en JavaScript"
   },
   {
-   "nom": "Unsloth",
-   "erreur": "503 Server Error: Service Unavailable for url: https://github.com/unslothai/unsloth/releases.atom"
-  },
-  {
    "nom": "VentureBeat IA",
    "erreur": "429 Client Error: Too Many Requests for url: https://venturebeat.com/category/ai/feed/"
   },
@@ -69,45 +66,45 @@
    "erreur": "404 Client Error: Not Found for url: https://www.reddit.com/r/LocalLLaMA/top/.rss?t=day"
   }
  ],
- "total": 2227,
- "analyses": 1248,
+ "total": 2237,
+ "analyses": 1254,
  "brief": {
-  "titre": "Anthropic entre en bourse pendant qu'OpenAI et Google innovent",
-  "texte": "L'actualité de l'IA est dominée par l'entrée en bourse historique d'Anthropic au Nasdaq, marquant un tournant financier majeur pour l'écosystème. Sur le plan technique, la concurrence s'accélère avec le lancement de Claude Opus 4.8 et de Gemini 4 Neon, dotés tous deux d'une impressionnante fenêtre de contexte d'un million de tokens. Google optimise également son API avec l'arrivée du Tool Retrieval. Enfin, OpenAI met à jour ses offres avec GPT-Live-1.1 et enrichit l'API Sora pour le 1080p.",
+  "titre": "Gemini 4 Neon, introduction en bourse record pour Anthropic",
+  "texte": "L'écosystème IA franchit un nouveau cap financier avec l'entrée en bourse historique d'Anthropic au Nasdaq, atteignant une valorisation géante. Côté technique, Google DeepMind frappe fort en dévoilant le modèle Gemini 4 Neon doté d'une fenêtre de contexte d'un million de tokens et du Tool Retrieval en API. OpenAI fait également actualité en lançant GPT-Live-1.1 avec de meilleures voix et un mode veille, tout en enrichissant Sora de références de personnages en 1080p. Enfin, l'open-source progresse avec Unsloth qui optimise le support AMD NPU et intègre la diffusion LoRA.",
   "a_tester": [
-   "Tester la nouvelle fenêtre de contexte d'un million de tokens avec Claude Opus 4.8 ou Gemini 4 Neon",
-   "Explorer les nouvelles capacités de l'API Sora d'OpenAI pour la génération vidéo en 1080p",
-   "Intégrer le Tool Retrieval de l'API Gemini dans vos flux de développement"
+   "Tester la nouvelle fenêtre de contexte d'un million de tokens de Gemini 4 Neon",
+   "Explorer les fonctionnalités de GPT-Live-1.1 et le mode veille de l'API OpenAI",
+   "Découvrir les nouveautés de l'API Sora pour la génération vidéo en 1080p"
   ]
  },
  "top5": {
-  "maj": "2026-11-19T13:06:16.354522+00:00",
+  "maj": "2026-11-20T07:15:31.500200+00:00",
   "par_ia": true,
   "items": [
    {
-    "id": "549a77347d5e1e",
-    "pourquoi": "OpenAI déploie sa nouvelle génération de modèles (GPT-6.2 Astra et Sol) avec des gains majeurs en codage et interaction informatique.",
-    "a_faire": "Tester ces nouveaux modèles sur vos flux de travail de développement et d'automatisation."
+    "id": "962d469daa1741",
+    "pourquoi": "Anthropic franchit une étape majeure en portant la fenêtre de contexte de Claude Opus 4.8 à un million de tokens par défaut, ce qui transforme les capacités d'analyse de documents massifs et de codebases entières.",
+    "a_faire": "Tester l'API de Claude Opus 4.8 sur un projet volumineux pour évaluer les gains sur la mise en cache automatique et la gestion de grands contextes."
    },
    {
-    "id": "962d469daa1741",
-    "pourquoi": "Anthropic franchit un cap technique important avec Claude Opus 4.8 et sa fenêtre de contexte d'un million de tokens par défaut.",
-    "a_faire": "Mettre à jour vos intégrations API pour exploiter le contexte étendu et la mise en cache automatique."
+    "id": "549a77347d5e1e",
+    "pourquoi": "OpenAI déploie ses nouveaux modèles GPT-6.2 Astra et Sol, axés sur les performances professionnelles accrues et l'interaction avancée avec l'ordinateur.",
+    "a_faire": "Surveiller les benchmarks et tester ces nouveaux modèles sur vos cas d'usage professionnels complexes en codage et automatisation."
    },
    {
     "id": "5bf4951adbe969",
-    "pourquoi": "L'introduction de ChatGPT Wallet marque le passage concret des agents IA autonomes à la transaction financière en ligne.",
-    "a_faire": "Surveiller les implications de sécurité et de gouvernance liées aux achats automatisés par les agents."
+    "pourquoi": "L'introduction de ChatGPT Wallet marque un tournant pour les agents IA autonomes en leur permettant d'effectuer des transactions financières en ligne de manière sécurisée.",
+    "a_faire": "Se renseigner sur les modalités de ChatGPT Work et évaluer les implications de sécurité pour l'intégration future d'agents payeurs."
    },
    {
-    "id": "afe59ba4cdcfc4",
-    "pourquoi": "Unsloth démocratise le Computer Use local et l'intégration MCP, ouvrant de nouvelles perspectives pour l'IA open-source sur machine personnelle.",
-    "a_faire": "Mettre à jour Unsloth pour tester le Computer Use en local sur vos cas d'usage."
+    "id": "993ad2d4012afd",
+    "pourquoi": "OVH lance un modèle hybride ultra-rapide de 7 milliards de paramètres tournant sur du matériel grand public, facilitant l'adoption locale de l'IA.",
+    "a_faire": "Télécharger et tester Olala mini 7A1B sur votre machine pour mesurer ses performances en local par rapport aux solutions cloud."
    },
    {
-    "id": "6b6a7a8cb03271",
-    "pourquoi": "Microsoft structure durablement la productivité d'entreprise avec Copilot Workspaces présenté lors d'Ignite 2026.",
-    "a_faire": "Évaluer l'impact de ces espaces de travail collaboratifs IA pour vos déploiements Microsoft."
+    "id": "b18ca0530fdd1a",
+    "pourquoi": "Microsoft introduit des scores de risque et des outils de vérification pour rendre les agents d'IA plus transparents et contrôlables en entreprise.",
+    "a_faire": "Explorer la préversion de ces outils de gouvernance pour anticiper les exigences de conformité sur vos futurs déploiements d'agents."
    }
   ]
  }
