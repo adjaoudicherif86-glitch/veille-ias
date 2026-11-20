@@ -1,5 +1,5 @@
 {
- "maj": "2026-11-20T07:15:31.500200+00:00",
+ "maj": "2026-11-20T16:57:48.128595+00:00",
  "sources_ok": [
   "Notes de version Claude (API)",
   "Notes de version OpenAI (API)",
@@ -29,6 +29,7 @@
   "The Verge IA",
   "TechCrunch IA",
   "Simon Willison",
+  "Hacker News (IA, 100+ pts)",
   "arXiv cs.AI",
   "arXiv cs.CL",
   "ActuIA",
@@ -58,23 +59,19 @@
    "erreur": "429 Client Error: Too Many Requests for url: https://venturebeat.com/category/ai/feed/"
   },
   {
-   "nom": "Hacker News (IA, 100+ pts)",
-   "erreur": "502 Server Error: Bad Gateway for url: https://hnrss.org/newest?q=AI+OR+LLM+OR+GPT+OR+Claude+OR+Gemini&points=100"
-  },
-  {
    "nom": "r/LocalLLaMA",
    "erreur": "404 Client Error: Not Found for url: https://www.reddit.com/r/LocalLLaMA/top/.rss?t=day"
   }
  ],
- "total": 2237,
- "analyses": 1254,
+ "total": 2211,
+ "analyses": 1217,
  "brief": {
-  "titre": "Gemini 4 Neon, introduction en bourse record pour Anthropic",
-  "texte": "L'écosystème IA franchit un nouveau cap financier avec l'entrée en bourse historique d'Anthropic au Nasdaq, atteignant une valorisation géante. Côté technique, Google DeepMind frappe fort en dévoilant le modèle Gemini 4 Neon doté d'une fenêtre de contexte d'un million de tokens et du Tool Retrieval en API. OpenAI fait également actualité en lançant GPT-Live-1.1 avec de meilleures voix et un mode veille, tout en enrichissant Sora de références de personnages en 1080p. Enfin, l'open-source progresse avec Unsloth qui optimise le support AMD NPU et intègre la diffusion LoRA.",
+  "titre": "Anthropic entre en bourse et Gemini 4 Neon débarque",
+  "texte": "L'écosystème IA est secoué par l'introduction en bourse historique d'Anthropic au Nasdaq, propulsant sa valorisation à 1,5 billion de dollars après une démonstration marquante sur l'hypothèse de Riemann. Pendant ce temps, Google DeepMind riposte en lançant Gemini 4 Neon doté d'un million de tokens de contexte et du Tool Retrieval en API. OpenAI fait également actualité en enrichissant son API Sora avec du 1080p et en lançant GPT-Live-1.1. Enfin, Unsloth améliore l'accessibilité locale avec son support AMD NPU et l'ajout de la diffusion LoRA.",
   "a_tester": [
-   "Tester la nouvelle fenêtre de contexte d'un million de tokens de Gemini 4 Neon",
-   "Explorer les fonctionnalités de GPT-Live-1.1 et le mode veille de l'API OpenAI",
-   "Découvrir les nouveautés de l'API Sora pour la génération vidéo en 1080p"
+   "Tester la fenêtre de contexte d'un million de tokens avec Gemini 4 Neon sur un projet complexe",
+   "Explorer les nouvelles capacités vocales et le mode veille de GPT-Live-1.1 via l'API OpenAI",
+   "Expérimenter les références de personnages et le rendu 1080p sur l'API Sora d'OpenAI"
   ]
  },
  "top5": {
