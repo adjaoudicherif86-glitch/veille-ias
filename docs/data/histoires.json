@@ -1,337 +1,12 @@
 {
- "maj": "2026-11-21T01:31:18.746635+00:00",
+ "maj": "2026-11-21T12:38:52.779441+00:00",
  "histoires": [
-  {
-   "id": "h_97c425e6a7",
-   "titre": "Mise à jour v2.1.314 de Claude Code",
-   "resume": "Anthropic met à jour Claude Code de manière rapprochée, la version v2.1.330 intégrant le support des comptes d'entreprise, un outil de graphiques et des correctifs de stabilité.",
-   "creee": "2026-10-30T01:09:42.604214+00:00",
-   "maj": "2026-11-20T22:32:56+00:00",
-   "episodes": [
-    {
-     "id": "fd961a2239120b",
-     "date": "2026-10-30T01:06:26+00:00",
-     "titre": "Mise à jour Claude Code v2.1.314 : sécurité et résilience",
-     "neuf": "Publication de la version v2.1.314 apportant des correctifs de sécurité et de résilience.",
-     "fil": "Mises à jour de Claude Code",
-     "source": "Claude Code",
-     "lien": "https://github.com/anthropics/claude-code/releases/tag/v2.1.314",
-     "nb_sources": 1,
-     "primaire": true
-    },
-    {
-     "id": "a1eae37ef93f12",
-     "date": "2026-10-31T01:01:35+00:00",
-     "titre": "Mise à jour Claude Code v2.1.316 : budgets partagés et correctifs",
-     "neuf": "Déploiement de la version v2.1.316 introduisant des budgets partagés et de nouveaux contrôles administratifs.",
-     "fil": "Mise à jour de Claude Code",
-     "source": "Claude Code",
-     "lien": "https://github.com/anthropics/claude-code/releases/tag/v2.1.316",
-     "nb_sources": 1,
-     "primaire": true
-    },
-    {
-     "id": "21325d54bf349a",
-     "date": "2026-11-02T17:13:47+00:00",
-     "titre": "Yet another reason to self host: Anthropic has (again) cut back on reverse engineering tools",
-     "neuf": "Les utilisateurs signalent de nouvelles limitations dans Claude Code pour empêcher le clonage de jeux et le reverse engineering.",
-     "fil": "Mêmes limites et restrictions sur les outils de reverse engineering de Claude Code",
-     "source": "r/LocalLLaMA",
-     "lien": "https://www.reddit.com/r/LocalLLaMA/comments/1xm33gr/yet_another_reason_to_self_host_anthropic_has/",
-     "nb_sources": 1,
-     "primaire": false
-    },
-    {
-     "id": "3233c3993f901c",
-     "date": "2026-11-03T01:25:46+00:00",
-     "titre": "Notes de version Claude Code v2.1.317 : sécurité et outils admin",
-     "neuf": "Sortie de la version v2.1.317 axée sur la sécurité, les outils administratifs et la correction de bugs.",
-     "fil": "Mise à jour corrective et fonctionnelle de Claude Code",
-     "source": "Claude Code",
-     "lien": "https://github.com/anthropics/claude-code/releases/tag/v2.1.317",
-     "nb_sources": 1,
-     "primaire": true
-    },
-    {
-     "id": "a506088947db76",
-     "date": "2026-11-04T00:01:03+00:00",
-     "titre": "Claude Code v2.1.318",
-     "neuf": "Publication de la version v2.1.318 ajoutant un historique des réponses pour les modifications de session et le support d'assumer un rôle sur les passerelles AWS.",
-     "fil": "Mise à jour de Claude Code",
-     "source": "Claude Code",
-     "lien": "https://github.com/anthropics/claude-code/releases/tag/v2.1.318",
-     "nb_sources": 1,
-     "primaire": true
-    },
-    {
-     "id": "5c0cfbbab24a5d",
-     "date": "2026-11-05T21:59:16.987959+00:00",
-     "titre": "Nouvelles fonctionnalités de sécurité pour l'API Claude d'Anthropic",
-     "neuf": "Ajout d'une liste blanche d'adresses IP et d'une API d'administration pour la déconnexion à distance.",
-     "fil": "même écosystème de sécurité et d'administration des outils Anthropic",
-     "source": "Notes de version Claude (API)",
-     "lien": "https://platform.claude.com/docs/en/release-notes/overview",
-     "nb_sources": 1,
-     "primaire": true
-    },
-    {
-     "id": "3b58ffb304e7b1",
-     "date": "2026-11-05T22:17:15+00:00",
-     "titre": "Claude Code sends your email address to websites",
-     "neuf": "Un problème de sécurité et de confidentialité est signalé, Claude Code transmettant l'adresse e-mail des utilisateurs à des sites web.",
-     "fil": "Mise à jour et problèmes liés à Claude Code",
-     "source": "Hacker News (IA, 100+ pts)",
-     "lien": "https://github.com/anthropics/claude-code/issues/107757",
-     "nb_sources": 1,
-     "primaire": false
-    },
-    {
-     "id": "b5fb3b3142a3da",
-     "date": "2026-11-06T06:45:17.192402+00:00",
-     "titre": "Nouvelles fonctionnalités de l'API Claude : gestion des utilisateurs et capacités des modèles",
-     "neuf": "L'API Claude s'enrichit de nouvelles options de contrôle administrateur et de champs de modèles améliorés.",
-     "fil": "Mises à jour des fonctionnalités et de l'API Claude",
-     "source": "Notes de version Claude (API)",
-     "lien": "https://platform.claude.com/docs/en/release-notes/overview",
-     "nb_sources": 1,
-     "primaire": true
-    },
-    {
-     "id": "06e9433f39d00d",
-     "date": "2026-11-06T17:04:01+00:00",
-     "titre": "Mise à jour Claude Code v2.1.319 : sécurité, MCP et API",
-     "neuf": "La version v2.1.319 apporte des contrôles renforcés pour le mode automatique, la gestion des tâches MCP en arrière-plan et des optimisations de latence.",
-     "fil": "Mise à jour directe de l'outil Claude Code",
-     "source": "Claude Code",
-     "lien": "https://github.com/anthropics/claude-code/releases/tag/v2.1.319",
-     "nb_sources": 1,
-     "primaire": true
-    },
-    {
-     "id": "2fbff683355d87",
-     "date": "2026-11-08T10:12:49+00:00",
-     "titre": "Anthropic : règles souples et hooks stricts pour Claude",
-     "neuf": "Anthropic précise l'utilisation de CLAUDE.md pour des règles souples combinées à des hooks stricts.",
-     "fil": "même outil Claude Code / configuration de Claude",
-     "source": "Anthropic (actus)",
-     "lien": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPaGh3bGExVzQ0NDE2eG11QXBNT3E4ZjI0NEVWd1RWVWdUbnZwM3hQeG1meWJJeENJYkpzbEx5N2NObmF2dnlIUnRlMmh0OTNDOEpkNF96X3FnTmF5TlpPbXRZclRJckdfRDhXVndtTi1CTWZkZXZFai1jWjZtN1lQY1ZMekhHMkFWRWx0OTJB?oc=5",
-     "nb_sources": 1,
-     "primaire": false
-    },
-    {
-     "id": "2a50096e729630",
-     "date": "2026-11-10T02:29:43+00:00",
-     "titre": "Mise à jour Claude Code v2.1.322 : ajout du mode rapide sur Vertex",
-     "neuf": "La version v2.1.322 intègre le mode rapide sur Vertex dans plusieurs régions géographiques.",
-     "fil": "même version Claude Code",
-     "source": "Claude Code",
-     "lien": "https://github.com/anthropics/claude-code/releases/tag/v2.1.322",
-     "nb_sources": 1,
-     "primaire": true
-    },
-    {
-     "id": "d10f2a05aed896",
-     "date": "2026-11-12T22:12:13+00:00",
-     "titre": "Claude Code v2.1.323 : Code Mode et gestion avancée des plugins",
-     "neuf": "Anthropic déploie la version v2.1.323 de Claude Code en introduisant un mode Code expérimental et des améliorations de plugins.",
-     "fil": "Mise à jour Claude Code v2.1.323 : Code Mode et plugins",
-     "source": "Claude Code",
-     "lien": "https://github.com/anthropics/claude-code/releases/tag/v2.1.323",
-     "nb_sources": 1,
-     "primaire": true
-    },
-    {
-     "id": "94b85d61082b9d",
-     "date": "2026-11-13T20:40:01+00:00",
-     "titre": "Mise à jour Claude Code v2.1.325 : correctifs et améliorations",
-     "neuf": "Publication de la version v2.1.325 apportant correctifs de sécurité et de gestion des sous-agents.",
-     "fil": "même outil Claude Code",
-     "source": "Claude Code",
-     "lien": "https://github.com/anthropics/claude-code/releases/tag/v2.1.325",
-     "nb_sources": 1,
-     "primaire": true
-    },
-    {
-     "id": "a9dc79e6aa5b9d",
-     "date": "2026-11-14T00:28:11+00:00",
-     "titre": "Anthropic met à jour Claude Code Projects pour exécuter des agents IA en parallèle",
-     "neuf": "Claude Code Projects intègre l'exécution d'agents IA en parallèle.",
-     "fil": "même outil de développement Claude Code",
-     "source": "Hacker News (IA, 100+ pts)",
-     "lien": "https://claude.com/resources/articles/projects-redesigned",
-     "nb_sources": 1,
-     "primaire": false
-    },
-    {
-     "id": "412c70223465a3",
-     "date": "2026-11-16T22:11:05+00:00",
-     "titre": "Mise à jour Claude Code v2.1.326 : correctifs et améliorations",
-     "neuf": "Déploiement de la version v2.1.326 apportant de nouveaux correctifs de stabilité et de sécurité.",
-     "fil": "Même outil Claude Code",
-     "source": "Claude Code",
-     "lien": "https://github.com/anthropics/claude-code/releases/tag/v2.1.326",
-     "nb_sources": 1,
-     "primaire": true
-    },
-    {
-     "id": "32159618a7db61",
-     "date": "2026-11-17T23:17:45+00:00",
-     "titre": "Notes de version Claude Code v2.1.327",
-     "neuf": "La version v2.1.327 intègre des correctifs et des améliorations pour les serveurs MCP et le contrôle à distance.",
-     "fil": "Mise à jour directe de Claude Code",
-     "source": "Claude Code",
-     "lien": "https://github.com/anthropics/claude-code/releases/tag/v2.1.327",
-     "nb_sources": 1,
-     "primaire": true
-    },
-    {
-     "id": "4917e11f45df6e",
-     "date": "2026-11-18T06:53:28+00:00",
-     "titre": "Anthropic Adds Code Mode to Claude Code: Claude Now Chains Tool Calls in JavaScript - MarkTechPost",
-     "neuf": "Ajout du 'Code Mode' permettant à Claude d'enchaîner des appels d'outils en JavaScript.",
-     "fil": "Même outil Claude Code",
-     "source": "Anthropic (actus)",
-     "lien": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPU1Jhd1ZQUE1lQWhlRkZFcDB5d18zeUpyS0o3ZWFlRnVwOXhFcG5IXzVITlZwcXN6ZTFDc1hIYmd2Wldwd01mYTdOR2preXpFUnBEdlJfQi1IMElxNGVaNUEwQUtxcER5NEQwcWR2Sk1zS1NETl9nc2MyNVI4bHhPTHdrUk9LM2YtUzRHZXJ2M2FuZy13LUlVS3Nn0gGaAUFVX3lxTE9TUmF3VlBQTWVBaGVGRkVwMHl3XzN5SnJLSjdlYWVGdXA5eEVwbkhfNUhOVnBxc3plMUNzWEhiZ3ZaV3B3TWZhN05Hamt5ekVScER2Ul9CLUgwSXE0ZVo1QTBBS3FwRHk0RDBxZHZKTXNLU0ROX2dzYzI1UjhseE9Md2tST0szZi1TNEdlcnYzYW5nLXctSVVLc2c?oc=5",
-     "nb_sources": 1,
-     "primaire": false
-    },
-    {
-     "id": "543433c8b6cdb8",
-     "date": "2026-11-19T01:14:04+00:00",
-     "titre": "Mise à jour Claude Code v2.1.328 : nouveautés et correctifs",
-     "neuf": "Mise à jour vers la version v0.2.1.328 (ou v2.1.328) introduisant le mode automatique sur plusieurs plateformes cloud.",
-     "fil": "Même outil Claude Code",
-     "source": "Claude Code",
-     "lien": "https://github.com/anthropics/claude-code/releases/tag/v2.1.328",
-     "nb_sources": 1,
-     "primaire": true
-    },
-    {
-     "id": "5257b8018162e4",
-     "date": "2026-11-19T22:14:41+00:00",
-     "titre": "Claude Code v2.1.329 : notes de version officielles",
-     "neuf": "Publication de la version Claude Code v2.1.329 apportant correctifs de stabilité et améliorations de l'interface.",
-     "fil": "Mise à jour v2.1.314 de Claude Code",
-     "source": "Claude Code",
-     "lien": "https://github.com/anthropics/claude-code/releases/tag/v2.1.329",
-     "nb_sources": 1,
-     "primaire": true
-    },
-    {
-     "id": "c71339fba99fa7",
-     "date": "2026-11-20T22:32:56+00:00",
-     "titre": "Mise à jour Claude Code v2.1.330 : nouveautés et correctifs",
-     "neuf": "Sortie de la version v2.1.330 de Claude Code ajoutant le support des comptes d'entreprise et un outil de graphiques intégré.",
-     "fil": "même outil Claude Code",
-     "source": "Claude Code",
-     "lien": "https://github.com/anthropics/claude-code/releases/tag/v2.1.330",
-     "nb_sources": 1,
-     "primaire": true
-    }
-   ],
-   "statut": "active",
-   "societes": [
-    "anthropic"
-   ]
-  },
-  {
-   "id": "h_e5873f2e04",
-   "titre": "Mises à jour de ComfyUI",
-   "resume": "ComfyUI poursuit ses mises à jour mineures et correctives successives, passant rapidement à la version v0.46.2 après l'intégration de nœuds partenaires.",
-   "creee": "2026-11-17T23:30:11.822089+00:00",
-   "maj": "2026-11-20T21:58:18+00:00",
-   "episodes": [
-    {
-     "id": "6a40f7c6d282d9",
-     "date": "2026-11-17T22:47:35+00:00",
-     "titre": "ComfyUI v0.45.6",
-     "neuf": "Sortie de ComfyUI v0.45.6.",
-     "fil": "Notes de version de ComfyUI",
-     "source": "ComfyUI",
-     "lien": "https://github.com/Comfy-Org/ComfyUI/releases/tag/v0.45.6",
-     "nb_sources": 1,
-     "primaire": true
-    },
-    {
-     "id": "15e6247147f701",
-     "date": "2026-11-18T22:55:32+00:00",
-     "titre": "ComfyUI v0.46.0",
-     "neuf": "Sortie de la version v0.46.0 de ComfyUI intégrant de nouveaux nœuds partenaires pour LTX et MiniMax.",
-     "fil": "Même outil ComfyUI",
-     "source": "ComfyUI",
-     "lien": "https://github.com/Comfy-Org/ComfyUI/releases/tag/v0.46.0",
-     "nb_sources": 1,
-     "primaire": true
-    },
-    {
-     "id": "7b384b126b90d1",
-     "date": "2026-11-19T21:33:50+00:00",
-     "titre": "ComfyUI v0.46.1",
-     "neuf": "Publication de la version ComfyUI v0.46.1.",
-     "fil": "Mises à jour de ComfyUI",
-     "source": "ComfyUI",
-     "lien": "https://github.com/Comfy-Org/ComfyUI/releases/tag/v0.46.1",
-     "nb_sources": 1,
-     "primaire": true
-    },
-    {
-     "id": "6bc5e973980a5d",
-     "date": "2026-11-20T21:58:18+00:00",
-     "titre": "ComfyUI v0.46.2",
-     "neuf": "Sortie de la version v0.46.2 de ComfyUI.",
-     "fil": "même outil ComfyUI",
-     "source": "ComfyUI",
-     "lien": "https://github.com/Comfy-Org/ComfyUI/releases/tag/v0.46.2",
-     "nb_sources": 1,
-     "primaire": true
-    }
-   ],
-   "statut": "active",
-   "societes": [
-    "anthropic"
-   ]
-  },
-  {
-   "id": "h_16baf84ddd",
-   "titre": "Mise à jour v2.11.0 du SDK Anthropic",
-   "resume": "Anthropic déploie la version 2.12.0 de son SDK, apportant des corrections spécifiques pour la transmission des identifiants de profil utilisateur sur Amazon Bedrock.",
-   "creee": "2026-11-19T23:03:26.698196+00:00",
-   "maj": "2026-11-20T15:56:21+00:00",
-   "episodes": [
-    {
-     "id": "3fa84539955afe",
-     "date": "2026-11-19T19:14:21+00:00",
-     "titre": "SDK Anthropic v2.11.0",
-     "neuf": "",
-     "fil": "Mise à jour du SDK Anthropic v2.11.0",
-     "source": "SDK Anthropic",
-     "lien": "https://github.com/anthropics/anthropic-sdk-python/releases/tag/v2.11.0",
-     "nb_sources": 1,
-     "primaire": true
-    },
-    {
-     "id": "cc3cf646b606ef",
-     "date": "2026-11-20T15:56:21+00:00",
-     "titre": "Sortie du SDK Anthropic v2.12.0 avec correctifs Bedrock",
-     "neuf": "La version 2.12.0 corrige la transmission des identifiants de profil utilisateur sur Amazon Bedrock.",
-     "fil": "Sortie de la version 2.12.0 du SDK Anthropic",
-     "source": "SDK Anthropic",
-     "lien": "https://github.com/anthropics/anthropic-sdk-python/releases/tag/v2.12.0",
-     "nb_sources": 1,
-     "primaire": true
-    }
-   ],
-   "statut": "active",
-   "societes": [
-    "anthropic"
-   ]
-  },
   {
    "id": "h_5febc86840",
    "titre": "L'introduction en Bourse d'Anthropic",
-   "resume": "L'introduction en bourse d'Anthropic se solde par un krach boursier et une forte baisse de la valeur de l'action, s'accompagnant de manifestations publiques de contestataires à San Francisco et de couvertures financières prudentes des investisseurs.",
+   "resume": "L'introduction en bourse d'Anthropic se solde par un krach boursier et une forte baisse de l'action, accompagnés de débats sur sa valorisation estimée à 1,3 billion de dollars et d'interrogations sur l'impact de l'IPO sur sa promesse de sécurité.",
    "creee": "2026-10-20T09:56:16.457937+00:00",
-   "maj": "2026-11-20T15:44:00+00:00",
+   "maj": "2026-11-21T10:00:00+00:00",
    "episodes": [
     {
      "id": "6702d1aaf0afce",
@@ -2851,6 +2526,50 @@
      "lien": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQRTk1MEVuRzZfdUVPMG9Mc3c4VFlvRUJRTGl0WUxTWVFOUG41LWJwWTFsbnNwcnktNjh5VE9IMUdLbHRuRnlEbUFZNlUyZGgxMG5admdobWx6R3VBU2VCb3BBczlUZU9sdmctenh6c2laaUpWSzYzWTBHaUh6UWhSWmVmOTRnRWdoVDM2MjRoWkM0LXU4cmc?oc=5",
      "nb_sources": 1,
      "primaire": false
+    },
+    {
+     "id": "5cb7c98d027dbe",
+     "date": "2026-11-20T20:11:00+00:00",
+     "titre": "Anthropic et sa valorisation estimée à 1,3 billion de dollars",
+     "neuf": "La valorisation d'Anthropic atteint 1,3 billion de dollars en parallèle de ses turbulences financières.",
+     "fil": "Nouvelle estimation de la valorisation boursière d'Anthropic",
+     "source": "Anthropic (actus)",
+     "lien": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQR2k1MHotX0Zkam5USm9jZmJ0NGU5Ym82RUNGVjlkRndWSnVMc1Iyc0RSaDg0OURqX1RyaEwzZmx3ZG16Rk1heVlrc0lTSlUzay00UVlNdmhKcWt5UnNyazd5emdVLUo5WGN5X3l4UHVrNVM0TDlyNkpYZjNqQkhkeGM0MUdfUUxnRl9nMEF1SEE0NmhGbHU4LWEwRDFDbnZRamVLQlJxdnl0Q0tLc3lwWUxOdVE?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "ffcd24b1a705c0",
+     "date": "2026-11-21T02:16:00+00:00",
+     "titre": "Débuts boursiers turbulents pour Anthropic selon le Wall Street Journal",
+     "neuf": "La presse financière revient en détail sur les débuts boursiers tourmentés et les analyses de responsabilités pour Anthropic.",
+     "fil": "Suivi des débuts boursiers et des turbulences de l'introduction en bourse d'Anthropic",
+     "source": "Anthropic (actus)",
+     "lien": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQd0p4QVlqUGxNcEQwUVJFWkU2cnBwOGRoMjk0ZDRSaFlNZzZMdmt5d3p0QzZzeDZXZks1TGhyN1JPNDI0clRKSHMtSWpOdHNMeUMyNHU5YlpJY0NITnJ4MUhJeTByWmtKdU9QdlZIZGtvYmJlZW1oTjVKZ25WRGowQVRXSWp1cDZYLTRONXRoVkRSc3ZjdDNvWE5jLUhnY2lHd202LXd5Umk3ZlQt?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "031c5dfe65f28a",
+     "date": "2026-11-21T09:02:02+00:00",
+     "titre": "Analyse financière et spéculations sur le prix d'Anthropic",
+     "neuf": "Des analyses financières prolongent la spéculation sur le prix de l'action suite aux débuts boursiers mouvementés.",
+     "fil": "Spéculations financières sur l'introduction en bourse et le prix d'Anthropic",
+     "source": "Anthropic (actus)",
+     "lien": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNbzhfUWpza2xMMVdabER1SnVtbGdQc3BPX3BORzJDeTc2UGYzNDZFdjVBZ2RTZ3VTQ1ZTcENvNFczSzlYMVdpZlZyb3l6S3lhSW1FUnJFN3VoWERNYkdQN0x0STB2YS1oSkFCbWVCcjVFZHRlcHV6cHlwaldRZDBrUEdJcGNIYTlxSE5KMVoySnhDRmNjT0l0V2VIOTlzZ2dmZTdlVkRYTm0zNmp6Y1k3aEdUUnhrTXNOdlk3SUF1Wmk0cUJKbllvZUdHUFNxQXc?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "79675d8d2f0554",
+     "date": "2026-11-21T10:00:00+00:00",
+     "titre": "L'introduction en bourse d'Anthropic menace-t-elle sa promesse de sécurité ?",
+     "neuf": "Le débat s'ouvre sur la menace potentielle de l'introduction en bourse quant au respect de la promesse de sécurité historique de l'entreprise.",
+     "fil": "Conséquences de l'introduction en bourse sur la gouvernance et la sécurité d'Anthropic",
+     "source": "Anthropic et gouvernement",
+     "lien": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQVWZST3piU2NqZVJlVFlPQU9BY1F3eXNMR3VQdVd3OTRTcUF0b0FHSmp3MFZpZHFYaWNrOE9zRnl5LXBlNDlwaXQxaHhKY0VDVjQyVHhiT2ZQZHA0c2pwWFJ2VkItZEtmMHFfSmg3VU44dHgta0VnUHNVZy1sZGhRT0V3?oc=5",
+     "nb_sources": 1,
+     "primaire": false
     }
    ],
    "statut": "active",
@@ -2860,345 +2579,11 @@
    ]
   },
   {
-   "id": "h_ce024d6c9b",
-   "titre": "Nouveau modèle de Mistral AI contre les acteurs chinois",
-   "resume": "Mistral AI poursuit son expansion stratégique et souveraine en ouvrant un siège Asie-Pacifique à Singapour, tout en consolidant ses partenariats européens majeurs, notamment avec Deutsche Telekom.",
-   "creee": "2026-10-27T00:58:25.413423+00:00",
-   "maj": "2026-11-20T15:33:26+00:00",
-   "episodes": [
-    {
-     "id": "0f96ced7a18023",
-     "date": "2026-10-06T07:00:00+00:00",
-     "titre": "Mistral AI lance un nouveau modèle pour concurrencer les modèles chinois",
-     "neuf": "Mistral AI lance un nouveau modèle visant à concurrencer directement les acteurs chinois.",
-     "fil": "Annonce d'un nouveau modèle Mistral AI",
-     "source": "Grandes annonces IA",
-     "lien": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNcjVFRUV6ZzZmeXFiN3NIWmZwUTBGWTR3ZUx1UUhjLWRLMC0wZThtLW00a1FYNjloa3BiSTFveFdZZFkxWnd5d283Qi04MnU1UC1IUl9KdlBkX2o2X3JpQ0pUZVRZQzJ3Uk1fRzR5VnJIdGhwVGI3Q0JWc2RWOGtBZTZzek4tcWQxRTAxZnB3eWJyV2gzY2FlNjdYVk95b2lQX2UtLVNWandvMDA?oc=5",
-     "nb_sources": 2,
-     "primaire": false
-    },
-    {
-     "id": "90a784e5869212",
-     "date": "2026-10-07T07:00:00+00:00",
-     "titre": "« Avec une avance considérable » : le Français Mistral envoie du lourd avec son nouveau modèle d’IA - Futura, le média qui explore le monde",
-     "neuf": "Sortie d'un nouveau modèle de Mistral AI salué pour ses performances face à la concurrence.",
-     "fil": "Nouveau modèle de Mistral AI contre les acteurs chinois",
-     "source": "IA en français (actus)",
-     "lien": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxQbEF4NzNrdGRmbm1qU3A3VURENTJ4Tm9fcWtQWFFQMHpTTFdadTdiOUVUSWNaWkRVbXA1WHZEV3NRU284cTFnU2IxX3FCT3RTcVNjUm1ldUZ0bUFFMnNqaUJtSU5Xakh0VW9qRU45S3BRQnpOVUFSM0o1X0JPRnpMN3FxVDMwMUw2all0VVZJMldYTWhQRVpOcExDQWxKamZLd25wczA0OTdVakt4SUNnX1RaTmt2ODBPeHBLRXdGbk5KQ3ROM0duMkNQbGhXYzN5NGdXMnJRdWptN2xaaFY0Q216eUVxOG42?oc=5",
-     "nb_sources": 2,
-     "primaire": false
-    },
-    {
-     "id": "a1765f446c5b64",
-     "date": "2026-10-29T00:00:00+00:00",
-     "titre": "Mistral Large 4 disponible sur Hugging Face",
-     "neuf": "Mistral Large 4 est désormais accessible sur la plateforme Hugging Face.",
-     "fil": "même modèle Mistral Large 4",
-     "source": "Hugging Face",
-     "lien": "https://huggingface.co/blog/mistral-large4",
-     "nb_sources": 3,
-     "primaire": false
-    },
-    {
-     "id": "df6933ff3f4e15",
-     "date": "2026-10-29T10:44:05+00:00",
-     "titre": "Sortie de Mistral Large 4 : le nouveau modèle ouvert de Mistral AI",
-     "neuf": "Mistral AI officialise la sortie de son nouveau modèle ouvert Mistral Large 4.",
-     "fil": "Même stratégie de nouveaux modèles de Mistral AI",
-     "source": "Mistral AI (actus)",
-     "lien": "https://news.google.com/rss/articles/CBMioAJBVV95cUxOQkZudHktZm14SEVHaFppU1VxaWdJVjBqS2JSYnpDdHlreTZUWjduUnhqdTZJQkV5MTRWMUNWQldDSUpPWURnVTZhRXZaekpjam5zMmxoMnBuWEhJc0lMcVBFUnhYZE4yTlh4ZU5xQkJHdlM3aS0ydnMtOEhKQThnaEhZUWxmUmFyTVhTdHV6UVYyYVA3bS02ODdkSkhPQjVpTkgxU29pWVFMVUFMSkNrWXhubWloV29QdEtucTZKeTZNUjIwU3FzY0VNaC1xS2tEbnFuOFdjdFlOMHE3dWdOWU5hYUlnbm9WbXFpTmY5d3RZU05lbm05TXBOR1ZEWWljbGxOenZpQ0ZUbms0RzdzMEY1S05BWjMxLUlwUFk5SUc?oc=5",
-     "nb_sources": 1,
-     "primaire": false
-    },
-    {
-     "id": "1ee7ff6ad9c98e",
-     "date": "2026-10-29T14:10:54+00:00",
-     "titre": "Code, cybersécurité : les nouvelles priorités de Mistral AI pour griffer ses concurrents chinois - Les Echos",
-     "neuf": "La presse souligne l'orientation de Mistral AI vers le code et la cybersécurité pour concurrencer ses rivaux.",
-     "fil": "même stratégie de Mistral AI",
-     "source": "Mistral AI (actus)",
-     "lien": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxPWnZNU0d1VERmVG1SOGI3UWp4TkdzRnRkU0M3WXMyNkMxeEpVcGd0blhmS2QtSEtObWlkX080UXE0dHBnNUk3Z1o3bk12TlNGNk9sc3ZJTlUxTkItZEw0UngxVXVwdlBCVnYzX3lPZmpMX3ZQYVVaREdteVh6OEpQLXFwd0xVUk1LTE1VNXhDajNtYzJiYlh5ZDVEU1p1NFRxdzNBYlNZcGRCVkx2RXpabW9rMzJhY3kyMEg3aVA1Q0QxVTdJUTg4M0xaMmN0QTNhRFdiWmhld3VETkJkVHhfSEV0UTU1cG4xOVB4ZmdOVjdqSTJuSVE?oc=5",
-     "nb_sources": 1,
-     "primaire": false
-    },
-    {
-     "id": "163733f8c8122a",
-     "date": "2026-10-29T14:11:42+00:00",
-     "titre": "Mistral Large 4 'Le Chonk' disponible en poids ouverts",
-     "neuf": "Mistral Large 4 (surnommé 'Le Chonk') est mis à disposition avec des poids ouverts.",
-     "fil": "même modèle Mistral Large 4",
-     "source": "r/LocalLLaMA",
-     "lien": "https://www.reddit.com/r/LocalLLaMA/comments/1xil3qy/mistral_large_4_le_chonk_is_now_open_weight/",
-     "nb_sources": 1,
-     "primaire": false
-    },
-    {
-     "id": "46c2109033cade",
-     "date": "2026-10-29T14:16:58+00:00",
-     "titre": "Transformers v5.22.0 intègre Mistral Large 4",
-     "neuf": "La bibliothèque Transformers intègre Mistral Large 4, modèle MoE d'environ 1 000 milliards de paramètres.",
-     "fil": "même modèle Mistral Large 4",
-     "source": "Transformers",
-     "lien": "https://github.com/huggingface/transformers/releases/tag/v5.22.0",
-     "nb_sources": 1,
-     "primaire": true
-    },
-    {
-     "id": "aa833204da72d6",
-     "date": "2026-10-29T14:45:06+00:00",
-     "titre": "Mistral AI lance un nouveau modèle téléchargeable axé sur la cybersécurité",
-     "neuf": "Mistral AI propose un nouveau modèle téléchargeable axé sur la cybersécurité.",
-     "fil": "même modèle Mistral Large 4",
-     "source": "Grandes annonces IA",
-     "lien": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPOWlfcWswLUlERGllQ3RvSmx1M2JWeUlBXzJSRDNmay1NOFpVU3d2X2JGSFFtd0xaRFA5ZGFkSjE0Rl9RRWVLYlEyVUkxOTVSSmVyb3Joekt2WXNmNE0yV0MyaHZRNmpZcnBiNTU1OXZabGNWT2I0WkE2WUFvQVZKRXZKWmlTOHlhU0V2dV9INGxpbUxueDYxNnVLQjMtWjlRdTFnWUdtc3BpUlN2eFVQZE43MUdkMGR1TGdFczJQTlJGcE9K?oc=5",
-     "nb_sources": 1,
-     "primaire": false
-    },
-    {
-     "id": "c59c3778d59beb",
-     "date": "2026-10-29T14:46:43+00:00",
-     "titre": "Orange Cyberdéfense et Mistral AI unissent leurs forces pour créer des agents IA capable de déceler les failles de cybersécurité - La Tribune",
-     "neuf": "Partenariat entre Orange Cyberdéfense et Mistral AI pour développer des agents de détection de failles.",
-     "fil": "même orientation cybersécurité pour Mistral AI",
-     "source": "Mistral AI (actus)",
-     "lien": "https://news.google.com/rss/articles/CBMinwJBVV95cUxNSTRmMmhPWjJUY2dIdU1hZDVjUFF4VW5IT09kSWQySWtfRFhTYTY3VG9ueU05cnM3SXctNFNMcWNjbWo4bE5sdXBRQmxZRF80VUFUcktTZ2pOanZoNEhDVmxWT05KQnV2ZWtadHFRNmFHN05xNjY0ZGVJSVhsSUItRm5OcldNRjVITUpDdi1XQjRqT2JfM1NPa2dfdWZZZGlEZlN6aHVoWDR4YUNoNTA5SFk4bE1nb1BHR1kzWE9MY0xiQzRkbkt2QjNNdGJHcnNBYlJoT1hnMHVWS1ZKRkkwSkVLcUZiRVlNQV9COXVpZ3JyX2N3NHdOaEFNa1NJN3RneDljRUc5REM1MXJCZ2FPVzFUSWJQd1plZWp1Znh5cw?oc=5",
-     "nb_sources": 1,
-     "primaire": false
-    },
-    {
-     "id": "5f62453a07556a",
-     "date": "2026-10-29T21:09:58+00:00",
-     "titre": "Mistral AI lance publiquement Large 4 avec un accent sur la cybersécurité",
-     "neuf": "Mistral AI officialise la mise à disposition publique de son modèle Large 4 orienté cybersécurité.",
-     "fil": "Disponibilité publique de Mistral Large 4",
-     "source": "Mistral AI (actus)",
-     "lien": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxOakNoX210Zmt3WXFkVkxzZ0lZbTI0Zk5pUHJ5aVowRFVqOVJ0Vm4xamlsUGpmdnFZRnB2NTRnTXp6emFqX1JQeWZBSGUwemdWWE1zajFNeFlxd2dTbmpMdi1JUWp1bDJkVHRzdXBBZV8ydUhFdmp6d0U0Ymw3N2dvbkN1YXBlVE0tY1VlZlo3SU4ySm5KdDd1am5jZFktT3RvanhObklEVXlhSldfRUp2azhINmJKN3hKU3UwanJfZmdUSTFlcS13d050QndRWkV4RjVDU3k4SndZa1VQOGJsNTFsZ0ZVZHlGYXc?oc=5",
-     "nb_sources": 1,
-     "primaire": false
-    },
-    {
-     "id": "ea2f33362d6132",
-     "date": "2026-10-30T03:06:37+00:00",
-     "titre": "Orange Cyberdefense intègre Mistral Large 4 pour des solutions de cybersécurité",
-     "neuf": "Orange Cyberdefense intègre concrètement Mistral Large 4 pour ses solutions de cybersécurité.",
-     "fil": "même modèle Mistral Large 4 et partenariat avec Orange Cyberdéfense",
-     "source": "Mistral AI (actus)",
-     "lien": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQTXRWN214R0lzRWh5VEJXRW8wTF92TUMtU3VXX1hFLVROTE1HZjVhRFpLWDQtZ1IwNExZWVRKMnViRTc1SGxFQXhNQ2ZLZVVjWmhBRUNOUlh0dTljSUQ4MXdVS045RDRYS29oV2RtUjV5ZzBkR2E2aFF5eWxvOFJRNWRRTnJLU3pHUGF5SGFn?oc=5",
-     "nb_sources": 1,
-     "primaire": false
-    },
-    {
-     "id": "b04f3cf0fe6c1c",
-     "date": "2026-10-30T06:30:01+00:00",
-     "titre": "Orange et Mistral AI s'associent pour sécuriser les réseaux européens",
-     "neuf": "Orange et Mistral AI officialisent leur alliance pour sécuriser les infrastructures télécoms européennes.",
-     "fil": "même partenariat entre Orange et Mistral AI",
-     "source": "Mistral AI (actus)",
-     "lien": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQX1Ewb1RMa0ZXa0FBTEJ6cnlqN1Q5NW1lUzhyYnhDM3BaS3RIcDFpTzhkUEIwR1RxTXBramFHYjFiMWpYdVdPZV9WQnNaWkI0YXJseUtOQVVWWEZrRFNsUTV2WmdQSTJ6cmdLaUoteHFBVWZ4M1lXTi15Rmg3YTF3MTFlM29kZ09ySWhQZ2Q1YTBlREJlN01wUkRxTnRkQmh2aEFHdkgtUDFJdjBHQk5aOHR30gG3AUFVX3lxTE4zR09Nc2E2QjZaUG9OZ2x6blNXZVhGTFZSbnp6dkVvTW01OGFOTlE2dGphdzAyQVhMRFNla3BianNkODhPVVVfZ3Rsd0Zrd0lZS3J1UjlxWjBaU0pHWjczRlhvdUxtTmswdFoybUh1WnFmdFRXeXVEaG5ESnNrcW9fQ3F5QVdLZTE2Tk81RVNacUU1b2w0ZEw0QlRqSndNVzJMWEdVSGJ1ZUVJbG9xeUotZVpnLXphdw?oc=5",
-     "nb_sources": 1,
-     "primaire": false
-    },
-    {
-     "id": "bb2562f671cf45",
-     "date": "2026-10-30T06:46:21+00:00",
-     "titre": "Mistral AI publie les poids ouverts de son modèle Large 4",
-     "neuf": "Mistral AI libère officiellement les poids ouverts de son modèle massif Mistral Large 4.",
-     "fil": "même modèle Mistral Large 4",
-     "source": "Mistral AI (actus)",
-     "lien": "https://news.google.com/rss/articles/CBMigANBVV95cUxPaTF3YUY5ckNUd0JRZXpBbmd5UGxmbmVjS3M2M3g2VEdGTThmcGpWQTBHUWdPZDdrZ0RJRWVXSGZ2T2k3STIwZExPN1BvQV9BX3hralgtYndhWjhyU3JNMk53VU9VUV9TejdLTGxENFBaOTFlQllaMTZGbGJTNHJlQjFGeGlHTDJNZjFLYXJES0xlZDhLd0diUzBzUk1YQ0wyTmlfNHQ1OXVUa0tZZlc5NzBLTFBpWThxZHlXVnhOVnRMWk5vMFJ2eFBUWGVJSjFVNi1JTnNoTGdBTTJCV196ak1MNTdLQmRMU2FXZXUxUXdIdnpxU3pBazItdm1JTHh0aHBaY0w0MTRjN09sOTQ4LXh0b1lmZm5wT1p6VWpVNEpKcnRGeFRqeGk0Tjg3TGU2cHExeUYtdkxNNEhLbGktZy1DNVhKUE9xdW5abWdRM2gwWmt0TjZBamt5VGhrQVBqblpEV0RrdG11YkE4MGtyTkVsUFdFWWRZbTFSWHNLcDfSAYYDQVVfeXFMT3J2ZVBGUnRENlZXTk04LUtSQll6YXpfZHNYQTRnM0k3enJ2WXlqQnRMeUZCN0lTZE5nQ2hST1dnZ0RXdmdLQ0ZsNVB0MTE3NWRvd29pUkFOTXRRcHJTZGlEdmdGYUl1WVQxSzFZREFKdUQ1cy1JQ05TZWxEdVVfZGtOQ2w0dkZTZlEzZGdJMm93THJUVHVCRWFORlNrVkFldGJsdmNyUWgwSmtUYlJ5SzhWTWFYZnZtcVlfb1BTOU45M0tMOHkzdGlFUlZ6N2xpRUpNTE5jVno2N25wMVl3a1Q5NTJCbFVwS0xadzcxWV9sT3JldGF6bXBDNEtIOXBmVi01NXJ5X0F5YzcxZS1MVElaZTlRWXJrN1o5S3BvN0RzbEk3WXloOUlEa3pFaGdoNk5EYVpMWVJSM0I2LU1udjdTRFZVQkJ2VUZUMURQUEtWZ0cyaDVKZGY3TzJpbnhvS3I4SWZTVWdyNjdZU3ZJZHpXd1dIV1JFMVQ4YmRpUW0xb2JRbFdR?oc=5",
-     "nb_sources": 1,
-     "primaire": false
-    },
-    {
-     "id": "a253732e255fb1",
-     "date": "2026-10-30T09:08:40+00:00",
-     "titre": "Orange Cyberdefense obtient une variante cyber de Mistral Large 4",
-     "neuf": "Concrétisation du partenariat avec le lancement de la variante cyber affichant un taux de correction de 82 %.",
-     "fil": "même modèle Mistral Large 4 et Orange Cyberdefense",
-     "source": "Mistral AI (actus)",
-     "lien": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPN0wteFNwYW9wc2xhRVg4cmZDYWlubUZGaG9FSVRHSXBGc3g4ZFczYjByUEpvVUIwV0pQRGQ4dTE4NlZ3YlFvMGFwdVZoNTBwaUpHQ3FMWFF0ZFZYLWhOVG5XWk9HN21IeURNaE4wV1ZGSU05Vk02ODFGWEFJUGMxR2VWay1VQTU1c0NZOW5URkFsbTQ0bmpBcjNKSWxhSnBRRTM3dDRCRQ?oc=5",
-     "nb_sources": 1,
-     "primaire": false
-    },
-    {
-     "id": "0ed4a5dd067d8d",
-     "date": "2026-11-02T17:14:16+00:00",
-     "titre": "Cybersécurité : Orange Cyberdefense s’allie à Mistral AI pour développer des services souverains - Acteurs Publics",
-     "neuf": "Acteurs Publics revient en détail sur l'alliance entre Orange Cyberdefense et Mistral AI pour des services souverains.",
-     "fil": "même partenariat Orange Cyberdefense et Mistral AI",
-     "source": "Mistral AI (actus)",
-     "lien": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPaEl2RG8tcFZjQ3RYV2ZSRF9SSTV5cV9SSlhGeEpxTW9CRHRBYnd0UmFKalpaSFJLZTZmMGJFS3NmT2lmY3BKdzlkMDVaR2lYNDhKTVV0N25XbzhXcVQzRGk1MldCZGNOX1JWYlByUUNDUHB6Q3h4UDFwQUZ0cGdpakRZVUctZGJaMjNVVmd3NzdwV2NDd1dTcTk1ZGQ1ckQwa1M5LWZveXBZWDdYRm9RZXpvVjhTbzRJVG1LVmpfcUNxU0x4a25nSg?oc=5",
-     "nb_sources": 1,
-     "primaire": false
-    },
-    {
-     "id": "7f28460fea4a50",
-     "date": "2026-11-02T19:00:00+00:00",
-     "titre": "IA souveraine : OVHcloud défie Mistral AI - BFM",
-     "neuf": "OVHcloud se positionne pour défier Mistral AI sur le terrain de l'IA souveraine.",
-     "fil": "Même concurrence autour de l'offre de Mistral AI",
-     "source": "Mistral AI (actus)",
-     "lien": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQbGIwWmlWdjZpdEYtZVZoN3pxZ1NtbGVFNzFwMEptdk1xdnN5TXVpaWhGQVJ6LU80M2wtS3o0YjlfdXJRR0NnVVFJdWRJeldjVFNuYzl3MWUzcmc4cnhjNFlXLXhEbHJ2U1Frc1RuTlU4N1d3elBEVVVBYnZJdERidElLTzVaNlUtSUhRYW1TTy04ZkY5R2JBbEp2M1ZTb29qbi1jZ2JMeWNQNDl3UUc2X1dSZ3dNOVY4MVdwcFRjM1dPX2JyeFE?oc=5",
-     "nb_sources": 1,
-     "primaire": false
-    },
-    {
-     "id": "d679bfcacae435",
-     "date": "2026-11-09T14:45:33+00:00",
-     "titre": "Mistral AI menace d’investir hors de France à cause d’une nouvelle loi sur le droit d’auteur - Siècle Digital",
-     "neuf": "Mistral AI menace d'investir hors de France en raison d'une nouvelle loi sur le droit d'auteur.",
-     "fil": "même conflit de Mistral AI en France",
-     "source": "Mistral AI (actus)",
-     "lien": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOMWhvMnNtTTNGcVhCM0tXN2JTblhpR0tMZ05QbU51SWVOaWpvem4xLTRDZExJNjRQMC1CMThXRXRBbnJzQXlhNlEtZnJPcFJ2MlBtV2RfODM0WjJtT19lTDNRNHFaUVFyalhEOVZfa0RMeTMxd1ZqamREd01HcGdjSnJJdFdRY3Bmd1BORGRuQUtxdDZNT3hKZ2R2NEsyb2dFQkF0aUtMQUUxejRxc3o4aGkwQ3poWWhrUVh2VWxBdkJEbzM3?oc=5",
-     "nb_sources": 1,
-     "primaire": false
-    },
-    {
-     "id": "1bec6ecc4e0296",
-     "date": "2026-11-10T10:40:25+00:00",
-     "titre": "Loi Darcos et IA, vers l’exil des data centers ou une solution européenne équitable - Atlantico",
-     "neuf": "De nouvelles analyses soulignent le risque d'exil des data centers face à la loi Darcos.",
-     "fil": "Conflit réglementaire français et Mistral AI",
-     "source": "Mistral AI (actus)",
-     "lien": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQOUQ4NjQ4dXFFU3FJUmpHVkk1VXZlTUZUSS1EUE8zUWs0aHVnTlRYRVF0Z0dXQ2pmTVhOakg3X0FYMkpOM3VwMzU2dzYxaVhURXE4NEY4elkxcWEwZ1lrYm5aeThjcTczaDdHakNRUVhZT0NuT1dLU3hsSkZRNXdFSGVJTFRET1VyZ0ZPRld0Q3NzbUlGdkN1enBGQktjRTEycUxCZHVhZHRIVEZlRUpZZEtYbDFpSE90UEtWSTd1YVZWVlcxUkw0cldhaUg?oc=5",
-     "nb_sources": 1,
-     "primaire": false
-    },
-    {
-     "id": "c43c512353aa0b",
-     "date": "2026-11-10T14:00:00+00:00",
-     "titre": "Mistral AI appelle les députés à enterrer la loi Darcos sur l’IA et le droit d’auteur - Journal du Coin",
-     "neuf": "Mistral AI monte en créneau en appelant directement les députés à enterrer la loi Darcos.",
-     "fil": "même opposition de Mistral AI face à la loi Darcos sur le droit d'auteur",
-     "source": "Mistral AI (actus)",
-     "lien": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE9PbDFpVTNXb0V6Rk12eEhwdUJlbTVtbXhrSjgxSG5vbGZ6NXZUaUdrSm54bWdfWkRWR3BOQ2Z3MjRFWVJ2U1dJNk5udw?oc=5",
-     "nb_sources": 1,
-     "primaire": false
-    },
-    {
-     "id": "eb9b69e59fc195",
-     "date": "2026-11-13T06:47:35+00:00",
-     "titre": "Mistral revendique le rattrapage des laboratoires américains et mise sur les services pour rentabiliser ses modèles - it social",
-     "neuf": "Mistral revendique son rattrapage technologique face aux laboratoires américains et mise sur les services pour rentabiliser ses modèles.",
-     "fil": "même stratégie de Mistral AI face aux acteurs américains",
-     "source": "Mistral AI (actus)",
-     "lien": "https://news.google.com/rss/articles/CBMiqgJBVV95cUxQbm9INV9ldEdrWFhZOERfOXpVaGcyQjdfcEEwbkVGRnVtTlBSeVFnSk1sRzF0Yl9HU3MzQjhLcE95cHFlb0ozN0JQajVxRU5HcE9CMWswQ1hSZ0dxelJXNzJyQU9rSnNoVnZvcjVpNUdCOC0yaURLOEsyUzE0Vks5d1NoUTEwRmZjeDN1b2EtMWc0Tk9NbDlvZGNXNXIxMUJFczRxdGstT3o0LVNmRXFZREo2alJzcG9JVTFQVXVQUWxidmtqbU5vY3I5cW9KNW5TTlIwZ0VSWk9YSmRnVk9hVkxwbms0TVZUektXaVFSdUZENnJ0OU5QOXVRaDBCU0tadmF1cW9JOUZvQlFKSWpVSlZ0TmpxWjlROF9rMUlOQjhZQVpYQjNIZFhn?oc=5",
-     "nb_sources": 1,
-     "primaire": false
-    },
-    {
-     "id": "f65d59bb71071b",
-     "date": "2026-11-14T08:03:53+00:00",
-     "titre": "Stratégies face à l'IA : cohérence entre Mistral, l'UE et la souveraineté",
-     "neuf": "Analyse de la cohérence des choix de Mistral avec l'Union européenne et la souveraineté.",
-     "fil": "même positionnement stratégique de Mistral AI",
-     "source": "Mistral AI (actus)",
-     "lien": "https://news.google.com/rss/articles/CBMivAJBVV95cUxOWDdJaXZ3Q2paQVNYU0ItNkFoN3FNbUJtMWxHVHgtV1BvNEFNVFVwcjlLaFg3UmFCWFoza056X1hIT011aG9fQzdGd2RMaDBwNVlEWDNKbFJBeHJKZDVqWUEySnV1Yktra1pDX0dqaG5OREtSaEpWTHRWYktiZGNxaGRtRm1SYV9oS2lWYWxPbjUycWxOaGxSTUwxUUJfcVAweFpteW4xbUtIYnRUazBhUWtNME1IeC1lemVzeXEwd0k0S041dmk1UWsyNUY0Y0hoZEFfSms0U1VDLTlUdXhSaG5McnZKS3poNk0weWZReUp4cG1MMkN5cDc5Q0lqRDBLeGNlbXVjNzF5YTJubG4zUnBZekM2THFfQ1hrLUVxU3B1WmllUi1DZzhqSnBtSndWaE9PcXdvcTZhSTRD?oc=5",
-     "nb_sources": 1,
-     "primaire": false
-    },
-    {
-     "id": "1f42f416ed94ad",
-     "date": "2026-11-16T13:42:47+00:00",
-     "titre": "« Instaurer une présomption d’utilisation des contenus culturels par les fournisseurs d’IA » : la proposition de loi dite Darcos et ses 110 amendements cristallisent les tensions entre Mistral AI et les industries culturelles - L'Usine Digitale",
-     "neuf": "La proposition de loi Darcos cristallise les tensions entre Mistral AI et les industries culturelles françaises.",
-     "fil": "même opposition de Mistral AI aux réglementations nationales",
-     "source": "Mistral AI (actus)",
-     "lien": "https://news.google.com/rss/articles/CBMixgNBVV95cUxNVVM2OXQ2b0FqWVU1MjF6TWF5X2xheDl1R0Zjbjd4MFNjY2FCS2dsZFk4eWpqV1NiVjdlbl9QZEY4N18zZHkzUFAzX1RycGJXV2hzQmFCTW8xTDR4OGhOVU9CQTBYZWRyUjRVa284NW1SR3I3NXZTVzM0ZkNLLW5uMlpyT0xvdWtFY0t4a3BKdWVrRGdrUUVseUtwYmVjUXFKdG5xNENyQUJocGw2V2lEam5BMlowYVo5M2tLSTlEaVlnUGZycndBSHIxSXZfTVJvMXhPYzlCV0FaRGJyclRNSjlfT3F6TzBWclNuV2V5TTBfVm9tZnY2eTg5MVkxbnBjZ19BR3dlWUlzR21sWGMtUlhfR3BtWXhlUGYzVGlKTTZYQlJUSDhvdWotQ0dWNVgtWDFrem5wbFJxczdnMjBfVHNieDRpdHNIc1hqaHJGSk5ELWFFZ3RoTm9pMHNsdEp5ODJtc3dmUHRFOFBCb0NPdVdLT3JiNzkxM1J2RVYzT2RRei1NZDlEQXFmZzdWeV84Z1FKcmNKUUdKYTdlYVhYUlRzYmVlalZzelJ4VGtTQXhtck5TZWdsT1BhX2w1SWRUOEZKcElR?oc=5",
-     "nb_sources": 1,
-     "primaire": false
-    },
-    {
-     "id": "1fad2ccd3bf4a8",
-     "date": "2026-11-17T05:20:00+00:00",
-     "titre": "Airbus décline son accord avec Mistral AI dans la cybersécurité - La Lettre",
-     "neuf": "Airbus décide de décliner son accord de cybersécurité avec Mistral AI.",
-     "fil": "partenariats et relations institutionnelles de Mistral AI",
-     "source": "Mistral AI (actus)",
-     "lien": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxNenlXelIwZ1JicjNiUWliT1QyUUdFeXkyRkRCVlF3a0JPclBua2YtTWtJeUhNUlRhYnJiRWgwcDNtT1lZSkJWRWNQMG1Qek5jcFprTjRPNjhFMHpHbG9DWmh5V3NXd1hyaEdOOHJra2VTbVJzc1RRTFZDRF9GZDRhaG1CUHdkb3hMdndQMWRTYWhJR3llSjV3eV95U09fVlZCczFVV2pmWUVVMHItbWhZX2dSXzhzbUpUWFRMbHM5VTNqU0NFMWN4b2N2enJiWEEwVW1vM2F6VEZrVm95Y3NfeW1jNmtTUQ?oc=5",
-     "nb_sources": 1,
-     "primaire": false
-    },
-    {
-     "id": "da4c85948f9519",
-     "date": "2026-11-17T08:30:42+00:00",
-     "titre": "Mistral et Macron réclament des milliards pour l'IA européenne",
-     "neuf": "Mistral AI et Emmanuel Macron réclament des investissements massifs de plusieurs milliards pour garantir la souveraineté de l'IA en Europe.",
-     "fil": "même démarche de souveraineté et de financement pour l'IA européenne avec Mistral AI",
-     "source": "Mistral AI (actus)",
-     "lien": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNLWFrR0dwNUh2Z0lIa2ZIY2RVbExGMzMycmJlbVVLNDN6UHVSVFZLWHVEWHZHaGRkRGEzNWF2dlNaZmo5VlY2ZldIdGc2RWZPdWpGTFU2Z2RuaU15Ql9MYnM3Z3JHbUJ6YnBOVkxNWFVHRDMtaDFQS2dHTHBUcTA5MEtvbGdhLVp4RV9VZG9lWWpiR1N6anQwWUdHUkoxWUxHY1BtY2FiWkpOcXRJYnJRWHNYRHdVWFdwRnhVcFVEdklvQlNO?oc=5",
-     "nb_sources": 1,
-     "primaire": false
-    },
-    {
-     "id": "06f0bb88f074f4",
-     "date": "2026-11-18T05:42:51+00:00",
-     "titre": "IA : le fleuron français Mistral se défend d’être « un projet personnel de Macron » devant le gotha de la Silicon Valley - Sud Ouest",
-     "neuf": "Mistral AI conteste publiquement l'idée d'être un projet personnel de Macron devant la Silicon Valley.",
-     "fil": "même stratégie politique de Mistral AI et relations avec Emmanuel Macron",
-     "source": "Mistral AI (actus)",
-     "lien": "https://news.google.com/rss/articles/CBMirAJBVV95cUxQU2Z0SC1fekJNSjFoNGpEcFBaT3gyS0JtR0F0NlpObldVa1ZzWExtNXRXQVE1dVFCYnV3MExjZXdwX1JlNjRBXzg2SWZ1Q1JaT19DU1JMQWVMdjhwdzlGZmJhMTFLRzl0UmdLbXd0aDJQSG5FUm9DWllJbDk3SGFqZ1BOMXg4elE0WHFZVGdpaFRuZkd5bTJUUGZUYW82OEhhRnh6eXFhWjNwT2djU3FDR3l1R1Brc1d3Tzc4c2tIRzRZNy1UWXBDanBsNDJwV0lrVDRpZDVuNXp1VVp5cTJuekRkSjktVnpTT2w2VmdXOUllTk1pNWtjZlJCZ29sRlhvZmo0U2xqTUdhcU90X1EtWEItU2o1VkgxWlNrdS14OHl4SklXbFZRejZNMGY?oc=5",
-     "nb_sources": 1,
-     "primaire": false
-    },
-    {
-     "id": "1278e174831ab0",
-     "date": "2026-11-19T08:18:47+00:00",
-     "titre": "Deutsche Telekom investit 100 millions d'euros dans Mistral AI",
-     "neuf": "Deutsche Telekom réalise un investissement stratégique de 100 millions d'euros dans Mistral AI.",
-     "fil": "même développement de Mistral AI",
-     "source": "Mistral AI (actus)",
-     "lien": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxPeWJ3TGFwekNWck16WTdERXhwUF9vcTdxUmh6WmZSdUZ6dl95c2dPUl9ZTUlwSEhUZGtxN0hMeUhJTVBqcjNFS2RQd00yajFwRzZFX2pacVJDa3pTX0g1VVUtTDgzVUY3ZEF2RndNMUNfRmliRlUxelFpUk84cUd3Z3Q2SkVrLWhWbmdIX3hhdGtjSnE1V0VKRmhuU1dIU0QzVkNBUW9HOXFjS0dxcUV1V3E5RzNQeTlRTnJ5V3ZiY3o2WkxWWGhoaEp3Vnh3V1FxT2ZLV0N5THR6X3BzMUFRSHZzNWtYY1phXzRpR3RDZVVUb2fSAfgBQVVfeXFMTW00WUQ1aU10S2pCaXpSZ3RybTRZNmpvc2tNZ3JBYjNpY3IxVmNidERVTVR6UlhXbkppVkZvUDNIVndyenZWdXYxWnNEZFZtdVZoSnNSMks0XzhBLUl0MVVicGVXWDY3blFDXzJKbGg2dUJ6aXJGYmdnc1dkQXRIR0Zja2tnMWl6RktZVXh3Mm9nNEtPMWJ6aE9uQWw1c3RNQllmRjhzZHhtRGVnZEw4a0dBbm01MFNBOEp0Um1PRUxGV3ZHM1EyaWNYalFGdXJSTm9Oc19lOGM2N3VQWFdNc2NGSTJJTEJ0N2VTNlBYX2R5LWJQbWhMNk0?oc=5",
-     "nb_sources": 1,
-     "primaire": false
-    },
-    {
-     "id": "10a4f4c4d459d3",
-     "date": "2026-11-20T14:15:00+00:00",
-     "titre": "Mistral AI implante son siège Asie-Pacifique à Singapour",
-     "neuf": "Mistral AI implante son siège Asie-Pacifique et un centre de recherche à Singapour.",
-     "fil": "Expansion internationale de Mistral AI",
-     "source": "Mistral AI (actus)",
-     "lien": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOVUY0bFI5WGZwYk1oOEh0WWpYWDV2NFFaSWNmS0l6cXAzOV9PLWNOUDR1XzN2cWFyNktyekVESVFpOFpPQi1FTC1jeUItWFpQRWdHZkVXdVJpd2NHb2dKMFN6ak1RTjBUcnBUZ2xBd04tSFQxZnB2bDBsTVl6UVV1SjRIX2xHZ1Y2NkJLMlRud0Q3emc?oc=5",
-     "nb_sources": 2,
-     "primaire": false
-    },
-    {
-     "id": "581bfb2ad0578d",
-     "date": "2026-11-20T15:02:29+00:00",
-     "titre": "OVH, Scaleway, Mistral... Comparatif des inférenceurs souverains d'IA - JDN",
-     "neuf": "Comparatif des inférenceurs souverains d'IA incluant Mistral, OVH et Scaleway.",
-     "fil": "Positionnement de Mistral AI parmi les inférenceurs souverains",
-     "source": "Mistral AI (actus)",
-     "lien": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPeWRPR29qRHdCc0ZhUk93Mjg3YnQ3bjdDbkxzWEN5WXExcDFmcmtxc2ZjR19oNUo0OTluNUhvcl9SMTkxTGljTkRpNlhhYlNmRFk0TVVPVlIzemZBSml1N0d2MGw5SXBwRHNTMnVKSy1nT0liWENPbjBzVEJ6cXdxUjVERkUyNXRmNk1WU2x2eVhPMVRHMTQ3ZVl6V0ViWS1YMWxLdWljVGtEcnlF?oc=5",
-     "nb_sources": 1,
-     "primaire": false
-    },
-    {
-     "id": "80c39f389b2911",
-     "date": "2026-11-20T15:33:26+00:00",
-     "titre": "Mistral : Deutsche Telekom investit 100 millions d’euros via T.Capital - Ecran Mobile",
-     "neuf": "Rappel de l'investissement de 100 millions d'euros de Deutsche Telekom via T.Capital dans Mistral.",
-     "fil": "Confirmation de l'investissement de Deutsche Telekom dans Mistral AI",
-     "source": "Mistral AI (actus)",
-     "lien": "https://news.google.com/rss/articles/CBMidEFVX3lxTFA1TkdZblcxMzF3dmpwX0xrOFc1UUVJVW1DRmUzb05RRU10WFhnZlJZZk1OM2NTVERrMXUxY2Via2xLR0ppYTJXcjRFazFpOFdHVUdqYms4MzlNWFR2WGdCcEQzZ3I0bHpHV0p4d2l6NXFKZThx?oc=5",
-     "nb_sources": 1,
-     "primaire": false
-    }
-   ],
-   "statut": "active",
-   "societes": [
-    "mistral",
-    "huggingface",
-    "openai"
-   ]
-  },
-  {
    "id": "h_520aa59662",
    "titre": "Déploiement et disponibilité de Gemini 4 Argon",
-   "resume": "Google étend son écosystème avec les lancements de la Gemini Decisions API, du modèle Gemini Decision 1, de Gemini 4 Hydrogen, des modes d'automatisation et de nouvelles capacités de contrôle direct des MacBook.",
+   "resume": "Google étend l'écosystème Gemini avec de nouveaux outils de décision, des modes d'automatisation, le contrôle direct des MacBook et l'intégration des fonctionnalités d'appel automatisé de Google Duplex.",
    "creee": "2026-10-20T09:56:16.457937+00:00",
-   "maj": "2026-11-20T15:24:14+00:00",
+   "maj": "2026-11-20T23:31:34+00:00",
    "episodes": [
     {
      "id": "15e70ee5e4a75a",
@@ -3573,11 +2958,1316 @@
      "lien": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBrdGdfelJrWHZYWWJFVV9RNGVVWndzSFZSSnl3MGlDZXVIQXd1VjJybDRjTFREc1BYOEdOOTJ3c3l4ZHdmSlBCTWhVckJIVTB5Q01GYm9yR09MSnBnWVAwVmwwNUE0VVA2Y2hkTk5R?oc=5",
      "nb_sources": 1,
      "primaire": false
+    },
+    {
+     "id": "24b7a7779a5232",
+     "date": "2026-11-20T23:31:34+00:00",
+     "titre": "Google Duplex évolue pour appeler les entreprises pour vous via Gemini",
+     "neuf": "Google intègre les appels automatisés de Google Duplex directement au sein de Gemini.",
+     "fil": "Extension des capacités d'automatisation et d'action de Gemini",
+     "source": "Google Gemini (actus)",
+     "lien": "https://news.google.com/rss/articles/CBMingFBVV95cUxPWlRVWE01Qm4tMzF5bnZxeFJXajNPR05fMTNxd184akFELTB1aF84OEZWUjRsUkRRMG4zYVlhRmI2T0lKZHV2MWVGbDdqNkdnWWNSenJkWWhtMkFzczFhMGEyLW0xM1B1Yy1lMGg5NUNLMkJ1TjhGZlBQeVZoUjRYZjVfcmtPNjlrQzVLNTYwRzFOSzY3WnJ6Z0NDd2Vvdw?oc=5",
+     "nb_sources": 1,
+     "primaire": false
     }
    ],
    "statut": "active",
    "societes": [
     "google",
+    "openai"
+   ]
+  },
+  {
+   "id": "h_97c425e6a7",
+   "titre": "Mise à jour v2.1.314 de Claude Code",
+   "resume": "Anthropic met à jour Claude Code de manière rapprochée, la version v2.1.330 intégrant le support des comptes d'entreprise, un outil de graphiques et des correctifs de stabilité.",
+   "creee": "2026-10-30T01:09:42.604214+00:00",
+   "maj": "2026-11-20T22:32:56+00:00",
+   "episodes": [
+    {
+     "id": "fd961a2239120b",
+     "date": "2026-10-30T01:06:26+00:00",
+     "titre": "Mise à jour Claude Code v2.1.314 : sécurité et résilience",
+     "neuf": "Publication de la version v2.1.314 apportant des correctifs de sécurité et de résilience.",
+     "fil": "Mises à jour de Claude Code",
+     "source": "Claude Code",
+     "lien": "https://github.com/anthropics/claude-code/releases/tag/v2.1.314",
+     "nb_sources": 1,
+     "primaire": true
+    },
+    {
+     "id": "a1eae37ef93f12",
+     "date": "2026-10-31T01:01:35+00:00",
+     "titre": "Mise à jour Claude Code v2.1.316 : budgets partagés et correctifs",
+     "neuf": "Déploiement de la version v2.1.316 introduisant des budgets partagés et de nouveaux contrôles administratifs.",
+     "fil": "Mise à jour de Claude Code",
+     "source": "Claude Code",
+     "lien": "https://github.com/anthropics/claude-code/releases/tag/v2.1.316",
+     "nb_sources": 1,
+     "primaire": true
+    },
+    {
+     "id": "21325d54bf349a",
+     "date": "2026-11-02T17:13:47+00:00",
+     "titre": "Yet another reason to self host: Anthropic has (again) cut back on reverse engineering tools",
+     "neuf": "Les utilisateurs signalent de nouvelles limitations dans Claude Code pour empêcher le clonage de jeux et le reverse engineering.",
+     "fil": "Mêmes limites et restrictions sur les outils de reverse engineering de Claude Code",
+     "source": "r/LocalLLaMA",
+     "lien": "https://www.reddit.com/r/LocalLLaMA/comments/1xm33gr/yet_another_reason_to_self_host_anthropic_has/",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "3233c3993f901c",
+     "date": "2026-11-03T01:25:46+00:00",
+     "titre": "Notes de version Claude Code v2.1.317 : sécurité et outils admin",
+     "neuf": "Sortie de la version v2.1.317 axée sur la sécurité, les outils administratifs et la correction de bugs.",
+     "fil": "Mise à jour corrective et fonctionnelle de Claude Code",
+     "source": "Claude Code",
+     "lien": "https://github.com/anthropics/claude-code/releases/tag/v2.1.317",
+     "nb_sources": 1,
+     "primaire": true
+    },
+    {
+     "id": "a506088947db76",
+     "date": "2026-11-04T00:01:03+00:00",
+     "titre": "Claude Code v2.1.318",
+     "neuf": "Publication de la version v2.1.318 ajoutant un historique des réponses pour les modifications de session et le support d'assumer un rôle sur les passerelles AWS.",
+     "fil": "Mise à jour de Claude Code",
+     "source": "Claude Code",
+     "lien": "https://github.com/anthropics/claude-code/releases/tag/v2.1.318",
+     "nb_sources": 1,
+     "primaire": true
+    },
+    {
+     "id": "5c0cfbbab24a5d",
+     "date": "2026-11-05T21:59:16.987959+00:00",
+     "titre": "Nouvelles fonctionnalités de sécurité pour l'API Claude d'Anthropic",
+     "neuf": "Ajout d'une liste blanche d'adresses IP et d'une API d'administration pour la déconnexion à distance.",
+     "fil": "même écosystème de sécurité et d'administration des outils Anthropic",
+     "source": "Notes de version Claude (API)",
+     "lien": "https://platform.claude.com/docs/en/release-notes/overview",
+     "nb_sources": 1,
+     "primaire": true
+    },
+    {
+     "id": "3b58ffb304e7b1",
+     "date": "2026-11-05T22:17:15+00:00",
+     "titre": "Claude Code sends your email address to websites",
+     "neuf": "Un problème de sécurité et de confidentialité est signalé, Claude Code transmettant l'adresse e-mail des utilisateurs à des sites web.",
+     "fil": "Mise à jour et problèmes liés à Claude Code",
+     "source": "Hacker News (IA, 100+ pts)",
+     "lien": "https://github.com/anthropics/claude-code/issues/107757",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "b5fb3b3142a3da",
+     "date": "2026-11-06T06:45:17.192402+00:00",
+     "titre": "Nouvelles fonctionnalités de l'API Claude : gestion des utilisateurs et capacités des modèles",
+     "neuf": "L'API Claude s'enrichit de nouvelles options de contrôle administrateur et de champs de modèles améliorés.",
+     "fil": "Mises à jour des fonctionnalités et de l'API Claude",
+     "source": "Notes de version Claude (API)",
+     "lien": "https://platform.claude.com/docs/en/release-notes/overview",
+     "nb_sources": 1,
+     "primaire": true
+    },
+    {
+     "id": "06e9433f39d00d",
+     "date": "2026-11-06T17:04:01+00:00",
+     "titre": "Mise à jour Claude Code v2.1.319 : sécurité, MCP et API",
+     "neuf": "La version v2.1.319 apporte des contrôles renforcés pour le mode automatique, la gestion des tâches MCP en arrière-plan et des optimisations de latence.",
+     "fil": "Mise à jour directe de l'outil Claude Code",
+     "source": "Claude Code",
+     "lien": "https://github.com/anthropics/claude-code/releases/tag/v2.1.319",
+     "nb_sources": 1,
+     "primaire": true
+    },
+    {
+     "id": "2fbff683355d87",
+     "date": "2026-11-08T10:12:49+00:00",
+     "titre": "Anthropic : règles souples et hooks stricts pour Claude",
+     "neuf": "Anthropic précise l'utilisation de CLAUDE.md pour des règles souples combinées à des hooks stricts.",
+     "fil": "même outil Claude Code / configuration de Claude",
+     "source": "Anthropic (actus)",
+     "lien": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPaGh3bGExVzQ0NDE2eG11QXBNT3E4ZjI0NEVWd1RWVWdUbnZwM3hQeG1meWJJeENJYkpzbEx5N2NObmF2dnlIUnRlMmh0OTNDOEpkNF96X3FnTmF5TlpPbXRZclRJckdfRDhXVndtTi1CTWZkZXZFai1jWjZtN1lQY1ZMekhHMkFWRWx0OTJB?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "2a50096e729630",
+     "date": "2026-11-10T02:29:43+00:00",
+     "titre": "Mise à jour Claude Code v2.1.322 : ajout du mode rapide sur Vertex",
+     "neuf": "La version v2.1.322 intègre le mode rapide sur Vertex dans plusieurs régions géographiques.",
+     "fil": "même version Claude Code",
+     "source": "Claude Code",
+     "lien": "https://github.com/anthropics/claude-code/releases/tag/v2.1.322",
+     "nb_sources": 1,
+     "primaire": true
+    },
+    {
+     "id": "d10f2a05aed896",
+     "date": "2026-11-12T22:12:13+00:00",
+     "titre": "Claude Code v2.1.323 : Code Mode et gestion avancée des plugins",
+     "neuf": "Anthropic déploie la version v2.1.323 de Claude Code en introduisant un mode Code expérimental et des améliorations de plugins.",
+     "fil": "Mise à jour Claude Code v2.1.323 : Code Mode et plugins",
+     "source": "Claude Code",
+     "lien": "https://github.com/anthropics/claude-code/releases/tag/v2.1.323",
+     "nb_sources": 1,
+     "primaire": true
+    },
+    {
+     "id": "94b85d61082b9d",
+     "date": "2026-11-13T20:40:01+00:00",
+     "titre": "Mise à jour Claude Code v2.1.325 : correctifs et améliorations",
+     "neuf": "Publication de la version v2.1.325 apportant correctifs de sécurité et de gestion des sous-agents.",
+     "fil": "même outil Claude Code",
+     "source": "Claude Code",
+     "lien": "https://github.com/anthropics/claude-code/releases/tag/v2.1.325",
+     "nb_sources": 1,
+     "primaire": true
+    },
+    {
+     "id": "a9dc79e6aa5b9d",
+     "date": "2026-11-14T00:28:11+00:00",
+     "titre": "Anthropic met à jour Claude Code Projects pour exécuter des agents IA en parallèle",
+     "neuf": "Claude Code Projects intègre l'exécution d'agents IA en parallèle.",
+     "fil": "même outil de développement Claude Code",
+     "source": "Hacker News (IA, 100+ pts)",
+     "lien": "https://claude.com/resources/articles/projects-redesigned",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "412c70223465a3",
+     "date": "2026-11-16T22:11:05+00:00",
+     "titre": "Mise à jour Claude Code v2.1.326 : correctifs et améliorations",
+     "neuf": "Déploiement de la version v2.1.326 apportant de nouveaux correctifs de stabilité et de sécurité.",
+     "fil": "Même outil Claude Code",
+     "source": "Claude Code",
+     "lien": "https://github.com/anthropics/claude-code/releases/tag/v2.1.326",
+     "nb_sources": 1,
+     "primaire": true
+    },
+    {
+     "id": "32159618a7db61",
+     "date": "2026-11-17T23:17:45+00:00",
+     "titre": "Notes de version Claude Code v2.1.327",
+     "neuf": "La version v2.1.327 intègre des correctifs et des améliorations pour les serveurs MCP et le contrôle à distance.",
+     "fil": "Mise à jour directe de Claude Code",
+     "source": "Claude Code",
+     "lien": "https://github.com/anthropics/claude-code/releases/tag/v2.1.327",
+     "nb_sources": 1,
+     "primaire": true
+    },
+    {
+     "id": "4917e11f45df6e",
+     "date": "2026-11-18T06:53:28+00:00",
+     "titre": "Anthropic Adds Code Mode to Claude Code: Claude Now Chains Tool Calls in JavaScript - MarkTechPost",
+     "neuf": "Ajout du 'Code Mode' permettant à Claude d'enchaîner des appels d'outils en JavaScript.",
+     "fil": "Même outil Claude Code",
+     "source": "Anthropic (actus)",
+     "lien": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPU1Jhd1ZQUE1lQWhlRkZFcDB5d18zeUpyS0o3ZWFlRnVwOXhFcG5IXzVITlZwcXN6ZTFDc1hIYmd2Wldwd01mYTdOR2preXpFUnBEdlJfQi1IMElxNGVaNUEwQUtxcER5NEQwcWR2Sk1zS1NETl9nc2MyNVI4bHhPTHdrUk9LM2YtUzRHZXJ2M2FuZy13LUlVS3Nn0gGaAUFVX3lxTE9TUmF3VlBQTWVBaGVGRkVwMHl3XzN5SnJLSjdlYWVGdXA5eEVwbkhfNUhOVnBxc3plMUNzWEhiZ3ZaV3B3TWZhN05Hamt5ekVScER2Ul9CLUgwSXE0ZVo1QTBBS3FwRHk0RDBxZHZKTXNLU0ROX2dzYzI1UjhseE9Md2tST0szZi1TNEdlcnYzYW5nLXctSVVLc2c?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "543433c8b6cdb8",
+     "date": "2026-11-19T01:14:04+00:00",
+     "titre": "Mise à jour Claude Code v2.1.328 : nouveautés et correctifs",
+     "neuf": "Mise à jour vers la version v0.2.1.328 (ou v2.1.328) introduisant le mode automatique sur plusieurs plateformes cloud.",
+     "fil": "Même outil Claude Code",
+     "source": "Claude Code",
+     "lien": "https://github.com/anthropics/claude-code/releases/tag/v2.1.328",
+     "nb_sources": 1,
+     "primaire": true
+    },
+    {
+     "id": "5257b8018162e4",
+     "date": "2026-11-19T22:14:41+00:00",
+     "titre": "Claude Code v2.1.329 : notes de version officielles",
+     "neuf": "Publication de la version Claude Code v2.1.329 apportant correctifs de stabilité et améliorations de l'interface.",
+     "fil": "Mise à jour v2.1.314 de Claude Code",
+     "source": "Claude Code",
+     "lien": "https://github.com/anthropics/claude-code/releases/tag/v2.1.329",
+     "nb_sources": 1,
+     "primaire": true
+    },
+    {
+     "id": "c71339fba99fa7",
+     "date": "2026-11-20T22:32:56+00:00",
+     "titre": "Mise à jour Claude Code v2.1.330 : nouveautés et correctifs",
+     "neuf": "Sortie de la version v2.1.330 de Claude Code ajoutant le support des comptes d'entreprise et un outil de graphiques intégré.",
+     "fil": "même outil Claude Code",
+     "source": "Claude Code",
+     "lien": "https://github.com/anthropics/claude-code/releases/tag/v2.1.330",
+     "nb_sources": 1,
+     "primaire": true
+    }
+   ],
+   "statut": "active",
+   "societes": [
+    "anthropic"
+   ]
+  },
+  {
+   "id": "h_e5873f2e04",
+   "titre": "Mises à jour de ComfyUI",
+   "resume": "ComfyUI poursuit ses mises à jour mineures et correctives successives, passant rapidement à la version v0.46.2 après l'intégration de nœuds partenaires.",
+   "creee": "2026-11-17T23:30:11.822089+00:00",
+   "maj": "2026-11-20T21:58:18+00:00",
+   "episodes": [
+    {
+     "id": "6a40f7c6d282d9",
+     "date": "2026-11-17T22:47:35+00:00",
+     "titre": "ComfyUI v0.45.6",
+     "neuf": "Sortie de ComfyUI v0.45.6.",
+     "fil": "Notes de version de ComfyUI",
+     "source": "ComfyUI",
+     "lien": "https://github.com/Comfy-Org/ComfyUI/releases/tag/v0.45.6",
+     "nb_sources": 1,
+     "primaire": true
+    },
+    {
+     "id": "15e6247147f701",
+     "date": "2026-11-18T22:55:32+00:00",
+     "titre": "ComfyUI v0.46.0",
+     "neuf": "Sortie de la version v0.46.0 de ComfyUI intégrant de nouveaux nœuds partenaires pour LTX et MiniMax.",
+     "fil": "Même outil ComfyUI",
+     "source": "ComfyUI",
+     "lien": "https://github.com/Comfy-Org/ComfyUI/releases/tag/v0.46.0",
+     "nb_sources": 1,
+     "primaire": true
+    },
+    {
+     "id": "7b384b126b90d1",
+     "date": "2026-11-19T21:33:50+00:00",
+     "titre": "ComfyUI v0.46.1",
+     "neuf": "Publication de la version ComfyUI v0.46.1.",
+     "fil": "Mises à jour de ComfyUI",
+     "source": "ComfyUI",
+     "lien": "https://github.com/Comfy-Org/ComfyUI/releases/tag/v0.46.1",
+     "nb_sources": 1,
+     "primaire": true
+    },
+    {
+     "id": "6bc5e973980a5d",
+     "date": "2026-11-20T21:58:18+00:00",
+     "titre": "ComfyUI v0.46.2",
+     "neuf": "Sortie de la version v0.46.2 de ComfyUI.",
+     "fil": "même outil ComfyUI",
+     "source": "ComfyUI",
+     "lien": "https://github.com/Comfy-Org/ComfyUI/releases/tag/v0.46.2",
+     "nb_sources": 1,
+     "primaire": true
+    }
+   ],
+   "statut": "active",
+   "societes": [
+    "anthropic"
+   ]
+  },
+  {
+   "id": "h_c4961b9682",
+   "titre": "Contrôles de la Chine sur l'export d'IA",
+   "resume": "Les restrictions américaines sur l'exportation de puces IA font l'objet de décisions controversées vers des firmes liées au Pentagone, tout en pesant sur les investissements et le retour sur investissement du cloud en Chine, notamment chez Tencent.",
+   "creee": "2026-10-20T09:56:16.457937+00:00",
+   "maj": "2026-11-20T20:26:12+00:00",
+   "episodes": [
+    {
+     "id": "751a7e7d96a765",
+     "date": "2026-10-16T07:00:00+00:00",
+     "titre": "La Chine dévoile un projet de contrôle des exportations d'IA et de puces",
+     "neuf": "La Chine publie un projet de réglementation spécifique visant à encadrer l'exportation de technologies d'IA et de puces.",
+     "fil": "Projet de contrôle des exportations d'IA de la Chine",
+     "source": "Contrôles à l'export IA",
+     "lien": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQZFJrS1d0QjRNNDFCeDlGc2x2cHJhTWN6SEJtWjFucjRFWnc2LWlUMFFMbjFuX3BOWGpJcVhLdnVRRnFjaUVpRXh0UHNQcWl6UkF3clZ3VExPc1dVX1hvc2o4Tnl3Mm15VE03Y1h6NHJzU3hnUmlFWlpha0hkeElUaUg1SFY?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "312d9d2bf59580",
+     "date": "2026-10-16T18:18:10+00:00",
+     "titre": "La Chine prévoit de durcir ses contrôles sur l'exportation d'IA",
+     "neuf": "La Chine planifie un renforcement de ses restrictions visant les modèles open-weight et des technologies clés.",
+     "fil": "Contrôles à l'export de l'IA par la Chine",
+     "source": "Contrôles à l'export IA",
+     "lien": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPdU1Eb2ZqTHBnQlJISXdubUVnNHZLTXJOLXlpdDI3cFlRWjZLOUpWRGpCTTgwTmZZZk1ydlRSQnVnV29sZTJwSF9LOWxnbktBejZYeGhpN1lINUxEVlRDb2xON2JJekdvdXo1dzB2VzBjOV9TR3NzSF85Z0dYc0N1NzVhWU5OU3kyZTNHSEE2ZFljX1RJdFFyWXBHdmExekZ2X0tPTUI5U1AzRUxWWkl6MENR?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "4c1e5451ed96c6",
+     "date": "2026-10-17T12:00:11+00:00",
+     "titre": "Impact des interdictions d'exportation d'IA chinoises sur les technologies à poids ouverts",
+     "neuf": "L'examen s'élargit à l'impact potentiel de ces interdictions sur l'avenir des modèles à poids ouverts.",
+     "fil": "mêmes projets de contrôles à l'exportation de l'IA en Chine",
+     "source": "Contrôles à l'export IA",
+     "lien": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNbXBIUWJVblVDTjRuV2xFYlJPd3E1bE5jdlVENVd1ek9CQjBleGJCTkItcERIT296NDNkcjQzMmJneU9RbDB3WWZrM3FBSHJvV0FjTmRWVUhHaXBQdHB6UDJuUTV1LXNwSnlqeW1hODZaclliY2pkN2FNcVA1R0RVNlNBMjRxWEQ4N3ZKNVhETGhpNHE2NUxVcnlicUtnNmpEVFdTMFNwbENtYUZkMThLX1h0czNNSDRoYlVyLVNXa2xoVVNDZFZOT1FuWTFhQmpuSVBEWjBn0gHWAUFVX3lxTE9kTHd4Z0laNEp1endfeXl3Tnlad1N4TGpDWWRCVHBRVGU5SWp6RS1EaWtOSHZxczdzeE5nSzhJNmhtbjVCWW9pOHBINHQzR2R6STBOTG1DalFtcWktSjEtbG9yTmFFY1liZnR6Y1FGZTFvcURSY1lKeFdJdk9OUmRldENHeUhBZXN4S2Vra0VPdG50VUg0cmtxTm51R1BJUlQtWXZaemtnWndzY19EWk9WczU2b2RiME1UNWFIdDZKeWtnSmlnSWJONkEwbUx0dVNzdUI2OGc?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "f16f6a62981a38",
+     "date": "2026-10-20T10:30:00+00:00",
+     "titre": "Pékin restreint l'export de technologies d'IA sans toucher aux API de DeepSeek",
+     "neuf": "Pékin officialise ses restrictions sur l'exportation de technologies d'IA tout en préservant l'accès international aux API et modèles open source de DeepSeek.",
+     "fil": "mêmes restrictions de l'exportation de technologies d'IA par la Chine",
+     "source": "ActuIA",
+     "lien": "https://www.actuia.com/actualite/pekin-veut-restreindre-lexport-de-23-technologies-dia-sans-toucher-a-lapi-de-deepseek-et-qwen/",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "5bd5883a528400",
+     "date": "2026-10-21T13:43:39+00:00",
+     "titre": "MOFCOM's New Rules and the Future of Chinese AI - ChinaTalk",
+     "neuf": "Nouvelles analyses sur l'impact à long terme des règles du MOFCOM concernant les contrôles à l'exportation d'IA en Chine.",
+     "fil": "MOFCOM's New Rules and the Future of Chinese AI",
+     "source": "Contrôles à l'export IA",
+     "lien": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBOREZsUnBob1FqbWpTTW1EMUE3TkN2Zmg4VUJrbE9KbDN5MUdWWFltczkwQWVpT3JlTlFtY1RqRFNtQkR2SDR4RkhiaHFmUVpabnJURS1kVVVxSUhpNll3?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "4be15d91491dd9",
+     "date": "2026-10-22T14:27:36+00:00",
+     "titre": "La Chine s'oppose à l'interdiction de DeepSeek par les États-Unis",
+     "neuf": "La Chine s'oppose publiquement à l'interdiction de DeepSeek par les États-Unis tout en préparant ses propres mesures réglementaires.",
+     "fil": "contrôles à l'exportation et position de la Chine",
+     "source": "Contrôles à l'export IA",
+     "lien": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPeXRNeUp2UzVnTlhiZXJNZENRTmREWWMxVFYyLS1IdndIX2pqU19PSW1SdDgtLXEtb2hVZ05BS1NlV3gxdlNZc1J3enBiY1ktZEZidmFsTVJfVXBpcU9kYTR1VUQxYVpWSm8xTHZCd09pMzRpWHdIcElkNHpBR2ZreWZldmZGNVpSd2FCTms5bGhtX0FDNURiWVRn?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "75f0d8b919659a",
+     "date": "2026-10-22T17:07:31+00:00",
+     "titre": "DeepSeek et MiniMax valident les règles chinoises d'exportation d'IA",
+     "neuf": "DeepSeek et MiniMax obtiennent l'autorisation officielle pour exporter leurs modèles.",
+     "fil": "même application des contrôles chinois sur l'exportation d'IA",
+     "source": "r/LocalLLaMA",
+     "lien": "https://www.reddit.com/r/LocalLLaMA/comments/1xcoelw/deepseek_and_minimax_clear_chinas_ai_export_rules/",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "8d092d29f2024b",
+     "date": "2026-10-23T07:10:34+00:00",
+     "titre": "DeepSeek et MiniMax obtiennent l'approbation pour un usage mondial",
+     "neuf": "DeepSeek et MiniMax reçoivent officiellement l'approbation pour l'utilisation mondiale de leur intelligence artificielle dans le cadre des contrôles à l'exportation.",
+     "fil": "même approbation pour l'utilisation mondiale et export des modèles DeepSeek et MiniMax",
+     "source": "Contrôles à l'export IA",
+     "lien": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPZUxoTk9BS0J1SUxMSzJCSGpQMl91ZTlfTzk0OE5EdFp4REZRV0EwRUk0ZlU2MVBzcmVuN0VlOWNpaXQxOFd4RWxVc0pKajdYUHNDT2JSRXlERmxDLUZucEtmNTVKNEo3Z09vdVN0U3VhLTNZck5uelFGOXVkZnd2bHFLN1VhaFZ1MFNxVGZFeXpCdV9SZk5Sa0N2NVlPWmsxSzlLTHF3U3I5TDhNcTRLWER4dmRkRjVXQXc?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "f3d45600f3b941",
+     "date": "2026-10-23T10:22:30+00:00",
+     "titre": "La Chine propose de nouveaux contrôles à l'exportation sur l'IA",
+     "neuf": "La Chine envisage d'instaurer de nouveaux contrôles formels ciblant l'intelligence artificielle, les sciences de la vie et les technologies photovoltaïques.",
+     "fil": "même politique de contrôles à l'exportation de la Chine sur l'IA",
+     "source": "Contrôles à l'export IA",
+     "lien": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNVWtCTld5UTJnajEycGpGcEF6NWFBNGhmNlowYkJNVXZEZDF0WG5zdG5FNVBXdXZ1NmppTnI5Vi0zSmVuTHFRSEN0Vk5kU2RnZFVjbFVnaWltZzFUb1hCQ0pLY1lBYnl2eDlJYlFkOU1QX3dmV1ZJMGwtcUtWeGNkVHRjU1dkLUFGVDB5RVc0OFktUnVOZlBudV8zOTJNNFRXYXpFMnhoTGNKSTFlQTRhWUVnbG1BX1I5Mm9Wcg?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "b410f5938b6955",
+     "date": "2026-10-23T19:18:13+00:00",
+     "titre": "Nouveaux contrôles à l'exportation de la Chine sur les drones, l'IA et les terres rares",
+     "neuf": "La Chine officialise et élargit ses restrictions à l'exportation en y incluant l'IA aux côtés des drones et des terres rares.",
+     "fil": "nouveaux contrôles à l'exportation de la Chine sur l'IA",
+     "source": "Contrôles à l'export IA",
+     "lien": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPbmk4QjFka2xrVXpDR3RpbkdSOXhZX0kwQXJEclNndGlxa29RVVNQOS1oQl9WcFdVWkdwd1VDd3ZPOXZKRXpXZ0NjRmRTZjdGYjJaZjc5TGhNQ2VIX2NJTGJlX2NjQVVFUFBLSzhWZGdhelFXT1U2c2stVnhfVnRhWjVTeTA?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "6c0cc7da9615ae",
+     "date": "2026-10-26T12:00:00+00:00",
+     "titre": "La Chine propose de nouveaux contrôles à l'exportation sur l'IA",
+     "neuf": "La Chine propose de nouveaux contrôles à l'exportation ciblant l'intelligence artificielle et les technologies biopharmaceutiques.",
+     "fil": "Contrôles de la Chine sur l'export d'IA",
+     "source": "Contrôles à l'export IA",
+     "lien": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQQUluM3JRMHRybHBfX0VRX2dPMTRaVEpldTJSMVo5RURBQkYyMzVZOFhTaDU2NmE2dEdEZmNsSzdLWmhQTHd0VnE3c1NEa3pfMTIyRnRCY0xIMk0zaVhNT3hzVkF0SWxqNzg0eklBTEFVZDE2NmhhVzhpemxndC1vN3V5Y1V2blFLM0t6c2h1bXRobUhPM1VDMWlxb0VTT0dBUnJrVWg3eTFGUTNRTlJRM0M4eWdrY2EtOVF3VWU3YkdrdUU?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "f1c6375f91964e",
+     "date": "2026-10-28T07:22:16+00:00",
+     "titre": "La Chine instaure de nouveaux contrôles sur ses technologies d'intelligence artificielle",
+     "neuf": "La Chine officialise de nouvelles restrictions concrètes sur l'exportation de ses technologies clés en intelligence artificielle.",
+     "fil": "Mêmes contrôles à l'exportation et restrictions technologiques de la Chine",
+     "source": "Contrôles à l'export IA",
+     "lien": "https://news.google.com/rss/articles/CBMingFBVV95cUxNd2xfamMxTE1YUUxMbmJpWG1teVNZRWFpRGktWngtOE1VMFJ3UmNYLW9jdHBSMUZ4c0FuMF9ZX3ZSa3NNU0lJMEZBbjgwR0ZPb004MmNiMUFfYV9FOEJWNlc1OWtXMGdMb1I0VGsyOXFNRHhYUE1WNUI0X085d0Jvbm40cTNLSWRkQWcyNzJ2Vy0zWHF3VU10QmxIN3Uydw?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "e2cd2186d6edbf",
+     "date": "2026-10-29T04:51:43+00:00",
+     "titre": "La Chine liste 40 technologies liées à l'IA pour ses contrôles à l'export",
+     "neuf": "La Chine formalise précisément une liste de 40 technologies liées à l'IA soumises à ses contrôles à l'export.",
+     "fil": "Contrôles de la Chine sur l'export d'IA",
+     "source": "Contrôles à l'export IA",
+     "lien": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNMmwtT0hEdmRudnBqV3Y3RTB2ZjcyZXVuWlFXTk1KUTBhc3htd0EzQXdObW01NE9iTGNBUnY5QWlmQjhzQlREWlh3SkdteDJ4WkVZbnVBbmJwY0ZKdkRnR2FmS2p2N1pmRl9RWmdGOVdxNk40Q2dNZWUweGJvd3JSNzRtOEN0RTQ?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "108d0302d46bee",
+     "date": "2026-10-29T15:38:41+00:00",
+     "titre": "Les discussions UE-Chine sur l'IA menacées par les sanctions et le contrôle des exportations",
+     "neuf": "Les discussions entre l'UE et la Chine sur l'IA sont menacées par les contrôles à l'export et les interdictions visant Huawei.",
+     "fil": "même politique de contrôles à l'export de l'IA par la Chine",
+     "source": "Contrôles à l'export IA",
+     "lien": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOVmdiNkZjcnFIOE5OUDN1SXBPSk1TY3JxQVNfZWpxdUh6WUJURHlPOXdSUldDUXRZYjU5VVFHNzdBOUFkVl9TcEQ2SUkwTmVCSDQ1b0N6cDNGZFhZdzhxeDBKOVQ0ckJaZG9welpMdU55OU1QM3J6WWlOOV9XSnhWXzNKMXNNYkpzakRCVWtUd3ZjY2stYUxodjJYd2VsdFk?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "0a373e5a677d47",
+     "date": "2026-10-29T19:24:00+00:00",
+     "titre": "Contrôles chinois à l'exportation sur la biopharmacie et l'IA",
+     "neuf": "La Chine étend ses restrictions à l'exportation à la biopharmacie et formalise de nouvelles obligations d'enregistrement.",
+     "fil": "Renforcement des contrôles chinois à l'exportation sur l'IA et la haute technologie",
+     "source": "Contrôles à l'export IA",
+     "lien": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPSUo4UFR4b0ZicWJVclJDRkJERElfaUw3aGlJdkpzZUNKLW8yal9lYzBCRzVZQWlJbzZKVHB0ZnRZekU5dFVlbXNIazl4UWFzSjc4LTF5V1R3NVJUaTY4V1IxUmFFSWdtdDJTX3hDMDBqYWhYOEt3aXlDWVhQeWlzOVo5aFFTRjJHSVZ2WF9IM2pHa2hMeGdCaVVRMVpjT0ZoX003Sk1WM0lya2F3NGNYSzB1VGROYW_SAbwBQVVfeXFMT1ZocURFS1JoTlJTZjlVS2lUZnA1S2F0LTBId2NYc0Q2RGVDMzNmb0p4ZGlBUk0zU0wwajBONzkwYlB2ZFpKY0VBQmNGME1JZVhvcDl1RkIyeHdKbjhGY3Q0UW01c1M1aFZsNDYyQVNRVVhmRTlxcllMbm1wVnVHZVZNQjJGVGQ1S3dEakdnYzFqZmtPMTZEeGFpdHFFU3BMZVp6ZTlVcmtMM09QQTFfcVEyOWJKWkNDTmoxbGc?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "26057c2cdf5d5b",
+     "date": "2026-10-30T13:00:30+00:00",
+     "titre": "Les contrôles à l'exportation de l'IA vers la Chine se retournent contre les États-Unis",
+     "neuf": "Un article de Forbes analyse comment les restrictions à l'exportation de technologies d'intelligence artificielle vers la Chine finissent par se retourner contre les États-Unis.",
+     "fil": "mêmes contrôles américains et chinois sur l'export d'IA",
+     "source": "Contrôles à l'export IA",
+     "lien": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPbmJXb3A1dC1LQ3hxU3FjdFR6SldXcDNhV240bVU0OGdIdC1YZGU1R3Z4YllXOHhSUG1zNW84T3lhYTZNYjBPTGYxM1JKSDhpbXBtazZqT25KWnZRbXdDenRiN1MwdWE0M1liUVRUelJSanBBVmt5aDB4QTJ3TE15cVpvR1J1Qmp1QTFnS3R2T0s3SW9zcmIzNk5uYnRFYU5qbUpRZ2xuSFlaQUlfOGlJamxhc2M0WlU?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "93944751f16433",
+     "date": "2026-11-01T22:22:50+00:00",
+     "titre": "Les contrôles américains à l'exportation favorisent les centres de données en Asie",
+     "neuf": "Mise en lumière de la manière dont les restrictions américaines stimulent paradoxalement le développement de centres de données en Asie soutenant l'IA chinoise.",
+     "fil": "effets des contrôles américains et restrictions à l'exportation",
+     "source": "Contrôles à l'export IA",
+     "lien": "https://news.google.com/rss/articles/CBMitgFBVV95cUxONTBYdUoxSTFKcTdFdDNMVnJiZ0ZKd3IyLTllNDFNWnN0SnA0OUVaTnpKVmpCNkNPRmh4bC1rVU5xTGNKRXBJMzI1eE1HRm5XSEhvbXVSbVhHa2QxdmNkU3RheENjc1A0QS1BOThKRHV3YVUzeFNhdHE0Q0lIQi1NcEdmZlF5V0Mtd2s2X0IybWZBUDZ0Qy1ReHh2NTdnYWVvR3I4T21yR0RNRXVXenp2djdSZGpZQQ?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "4e84ca416d4f3c",
+     "date": "2026-11-02T07:27:28+00:00",
+     "titre": "China's First Frontier AI Export Controls: Mofcom Announcement No. 48",
+     "neuf": "Publication formelle de l'annonce officielle n°48 du MOFCOM sur les premiers contrôles à l'exportation d'IA de pointe.",
+     "fil": "même annonce sur les contrôles à l'exportation de la Chine",
+     "source": "Hacker News (IA, 100+ pts)",
+     "lien": "https://labs.cloudsecurityalliance.org/research/csa-research-note-china-ai-export-controls-announcement-48-2/",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "08d3275f208695",
+     "date": "2026-11-02T16:48:44+00:00",
+     "titre": "Mistral AI met en garde contre les contrôles américains et chinois à l'exportation",
+     "neuf": "Mistral AI met publiquement en garde contre l'impact des contrôles à l'exportation américains et chinois sur l'IA.",
+     "fil": "mêmes contrôles à l'export d'IA",
+     "source": "Contrôles à l'export IA",
+     "lien": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQR09RZnFJQ0hxcFNhSmRCYU1ha19rTTUyLUlVNjFHQVdYa2k0RDNLdjhiOXp2U1JkRWczYnVLRm5hU0xhXzRueVgxaE1tUUhtU0hlMTRiaHVQcTRGRzlfS09aa2NueWVVRVRtYkNoNHdRRloxeHZ3YUlnN0VkeWFPLVd6aW1xUEk3UUE?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "6d1ba7598ece9e",
+     "date": "2026-11-05T02:28:00+00:00",
+     "titre": "Les restrictions chinoises sur le tungstène pèsent sur la chaîne d'approvisionnement de l'IA",
+     "neuf": "La Chine impose de nouvelles restrictions sur le tungstène, pesant sur la chaîne d'approvisionnement de l'IA.",
+     "fil": "même dynamique de contrôles à l'exportation et restrictions",
+     "source": "Contrôles à l'export IA",
+     "lien": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPQnEyQk96aEtwdE9fVVhzYlJkWW1oU1VVbVdNRW5IWjY4YVdXRFFaR040dEh0ZjlqWWo3U2c0NTNyQ2RIRmhudkhUem1uVzRWT2Nqdk1WbmVNM05haGtjZk91UUhXclJiOVFLREJMWV9Tb2FfdUdHQU1MeG43NjdjTlAweENBOHN6SDg0T0NfTjJacnVFU1Rjcm1id0MxZW12RGtuS3ZYTHpoT0JmWHdsM0I2dTM1Zw?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "9ae99e0851b474",
+     "date": "2026-11-05T03:35:25+00:00",
+     "titre": "Commentary: AOI locks in China's InP substrates for AI optics, but export controls threaten supply - digitimes",
+     "neuf": "Les contrôles menacent la chaîne d'approvisionnement des substrats en InP pour l'optique IA.",
+     "fil": "même cadre de contrôles à l'export",
+     "source": "Contrôles à l'export IA",
+     "lien": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNd3NsRU4wYl9DaHJOMWpzTHRCVXJ6cmdBNUFqX0phbzFNTk9kQzRXN1Blc2t5aW5USjgxMW5VTG1LZzJ6a0lpTVhNREJtOTd1eUtUWVNZa2V3YlFET3ZWSVExTWFyZ2Q4TURpT2NDeWtFdTNYb09vYVFZcWprdngtTzZCY3Vka210WnJWTmZTUlBSNTJJOC1nWnBObHNwb00?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "f631e812b043a3",
+     "date": "2026-11-09T00:39:39+00:00",
+     "titre": "Impact des sanctions américaines et du boom de l'IA sur les ventes de semi-conducteurs vers la Chine",
+     "neuf": "Un rapport analyse l'impact combiné des sanctions américaines et du boom de l'IA sur la baisse des ventes de semi-conducteurs vers la Chine.",
+     "fil": "même politique de contrôles à l'exportation et sanctions touchant la Chine",
+     "source": "Contrôles à l'export IA",
+     "lien": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQZV9WQU1SQVNZNUJzRHVWNWZmT3pTY0Jfdy1PM0xKLTRWVkYtaVQ0SEkzN2FfaFJRZUpzM1lFd0RTZFp5TUl2U0pDRTR3TFpyNnMtOUpaZEFDczNoanRPSDU5dlEwdVROSFhzYjBZLXU2SmVvb0Y5cFFtRm9TaVRHMTBNcFNJSjRu?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "bce6f7645abff8",
+     "date": "2026-11-09T16:25:00+00:00",
+     "titre": "Chute des revenus en Chine pour les fabricants de puces à cause des contrôles américains",
+     "neuf": "La part des revenus en Chine chute de manière marquée chez les quatre principaux fabricants d'équipements à cause des contrôles américains.",
+     "fil": "contrôles à l'exportation et impact sur les fabricants de semi-conducteurs",
+     "source": "Contrôles à l'export IA",
+     "lien": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9pYjc5YnljSWI1aXlJM0EzMlo1UGdWRDdVS2dneU9VQlV5YnpLR2dXMXhKMFdPNGd0QVZSREtsM1k0ZWU3RGptQ3ZIZFRSaUJkRXhmM1Q2VzZDZmVFa3NUYTNEd3ZvenJaWWlaVHZhMDFQNzRsVkE?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "6e9fe8d1be9102",
+     "date": "2026-11-11T05:10:25+00:00",
+     "titre": "Chainalysis Report: The On-Chain Shadow Market Behind China’s AI Large Model “Distillation Wave” Circumventing U.S. Exp… - 深潮TechFlow",
+     "neuf": "Un rapport de Chainalysis détaille le marché noir on-chain lié à la vague de distillation des grands modèles en Chine pour contourner les restrictions.",
+     "fil": "Impact et contournement des contrôles à l'exportation en Chine",
+     "source": "Grandes annonces IA",
+     "lien": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1vT3l2UWttbkVPTzhSNXlCd1paaVkyQUZfV1AzME94dzR2aU8xZGRpamlRaWlLY2NydU5YMFNJWnNQQ1pBcUxfUzY2VEd4WlFCVnRDLXN3LXRkTFhS?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "2406bb30d2d220",
+     "date": "2026-11-12T05:31:00+00:00",
+     "titre": "Ruée des entreprises chinoises sur les puces Nvidia par peur de nouvelles restrictions",
+     "neuf": "Les entreprises chinoises se précipitent pour acheter des puces face à la menace imminente de nouveaux contrôles américains.",
+     "fil": "mêmes contrôles à l'export de puces Nvidia",
+     "source": "Contrôles à l'export IA",
+     "lien": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPc1EtU18tWjZNZTZtOFBZNzdqZkRFMk1nbm9MTm9VWUQwUHlLc1dTdDNLWmNCcllESHVVYjFnXzlKcFJrSWpHUkY2S1lhcTFtWWdPVG9WdkcyTkFSaEpLanVzeWctM1hCTkdxUEJ6VnBrLXFYVnBsalpKUkJVUGQyUE5DOEJtaTctZlFEaV9VR1loQ1JrVlhyRmRxR25UMkI2MVgtZnBFU1pVaXhBcmw0ZV9jb0RPYlduY1ppbnpCTlc?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "558ebe3dde7ced",
+     "date": "2026-11-12T10:34:25+00:00",
+     "titre": "L'industrie indienne se prépare à de nouveaux contrôles américains sur les puces IA de Nvidia",
+     "neuf": "L'industrie indienne se prépare à l'impact de nouveaux contrôles à l'exportation sur les puces Nvidia.",
+     "fil": "Contrôles américains sur les puces Nvidia en Inde",
+     "source": "Contrôles à l'export IA",
+     "lien": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQczNZX3poeEhrVVhieW9hTEVIZGtMQ2ZnMURDSmk4MTR6NVJ4cXo2Qm4zM1VxYUNCRnhhazRqSjlTT18tNlpZRVNGeS1hNEl4elduWG1xUFZfRm1XU2dvU1lIT1FlS2F0UWIxazZYMXh5ZXkxT3lMNzA2RzF6MjdlZlMyZTRvWXlQVENjZWdhdURYdzZZMjZhWmUtLUlTbWxjUDF3a2huUWVKM0g1VGlwWXFFc012Q3FtUnhlTDhydHpfbUJpakFBRGFXX05JcktoOFRSWGF5STbSAd4BQVVfeXFMUDFVSmtTOXRHd1J5bHk2OHFrYjJmU0diQTFmQ0ZXSHZDcmg0dDJtcXR3bWJDaDUwUlBEZWZ1czkzTWNab2NidzgyR0JLWkpfY0s1R1RyM1FtNWRUaFlDdEN4OU1NNW9MUjJlanJHemJJdXJGc0VsSzZJQXpGTkxwMmdVXy1peEJzMWh5LXQ0TktSMEVEWV93MzQ4S1VXVmpibUcycDByaDZ3aEdfemdfZWdLTUFCMkZZMlpCYnZYa1NYOGNPTUh4STNfVV9Ha09TVzhseXppWFhHVVpYeEZR?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "90675ed774cc7f",
+     "date": "2026-11-12T14:35:00+00:00",
+     "titre": "L'accès de la Chine aux puces Nvidia menacé au Congrès américain",
+     "neuf": "Les restrictions sur l'exportation vers la Chine gagnent du terrain au Congrès américain, menaçant l'accès futur du pays.",
+     "fil": "même politique de contrôle et de restrictions sur l'export des puces Nvidia vers la Chine",
+     "source": "Contrôles à l'export IA",
+     "lien": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQOFBGZG9jUFFjX0tFY2tXSEVILWxGWU1rMzBvT1pTcUpqa2tEdEV0QWRybENzel9tU3hIQVhmTngyY3VGRGZZeGtCWDhEWm1oRXBzVWlGRnhwRzJrd0Z5bGZhUi1STHFLdFdLVnhoRUxMOW42MkNSSjNZX3JQR0o3OVpBSE10bE1kekw3OVVXYXVub0NzekN5NE4zb1JpRzB6Zjl2V1pTWFEteUQ1Q0hxd2lhLV9JLXloLVJqbWhUQ1pmN21H?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "b547cb56894482",
+     "date": "2026-11-12T16:40:00+00:00",
+     "titre": "Les failles de location contournent les contrôles à l'exportation des puces IA vers la Chine",
+     "neuf": "Mise en lumière d'une faille majeure liée à la location de matériel pour contourner les restrictions géographiques.",
+     "fil": "même problématique de contournement des contrôles à l'exportation de puces IA vers la Chine",
+     "source": "Contrôles à l'export IA",
+     "lien": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxOcVBHUjEzWXdGbmVIUHBpd3EtaWluWVVmTXZ6ZmRHY3FoUlBqWUllV3REM3g0VmJFMXVMVG1TLW5BZnVvcHowYWJxcHZwYzR1ck05UXJyXzEtcFBaT1N0UTNKdG5BeEo0VC0yZmlXOEtxWW01aFlqM1Jjb1hYaUc3X3hPa2M4NjRkTEdmMWJtcExzZmJITTREeWU5SWV3S2k0a05kRTNTb3ZKSmlSTEliaU9tTW51UGNHY3J3eVdrSlZiZUphcWN0aDBQdHpzc0ZRWUxzM0FpY2hJZ1J5QXc?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "ea4835e9d24a36",
+     "date": "2026-11-12T19:18:00+00:00",
+     "titre": "OpenAI soutient des projets de loi sur le contrôle des exportations de puces",
+     "neuf": "OpenAI indique officiellement au Congrès américain son soutien aux projets de loi sur le contrôle des exportations de puces.",
+     "fil": "même soutien d'OpenAI aux contrôles à l'exportation",
+     "source": "Contrôles à l'export IA",
+     "lien": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxQXzExQUE1b1ZBMWxtaWs4ejNQSi1qaDVEdjkzVU1rbkttbHMxNlp0UGdOZGpZQnhITmxkUlNxZk9fZXNoSk02UW1OSS1Ua3NQNmJRRnZvdW5udzBGUXVvQ1dUU215c0VJdVptNnBCMFZtdjN3b2lQQTg4bVRIVE1QbDEzR1dLUWdVUE5IbEN1UmpGQ25nTHdHTGNGLWNjSVl6RFlXdjFXdHJxMDVNdzk2c3V1V29wbEtBZkg4UHpUSFAzc29HcnR6RHU1ZzFwbGc5WkRTUXNhVHBTQmM?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "3fa5f2e4eb8f2a",
+     "date": "2026-11-12T21:35:58+00:00",
+     "titre": "OpenAI Joins Groundswell of Support for AI Chip Control Measures - Bloomberg.com",
+     "neuf": "OpenAI se joint au mouvement de soutien en faveur des mesures de contrôle des puces IA.",
+     "fil": "soutien d'OpenAI aux mesures de contrôle des puces IA",
+     "source": "OpenAI (actus)",
+     "lien": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNMmJ4OENGS1F1RWpJNzlmVHhSZjVvYlZVWnh0YmRKQ2oxSUlicjdzcmMwZ1pBZFJZaG1lX0FXUXl3S01CSTdROHhTdTZ0NjNvei1lLVVqaUpTcEstQlYxRE84alZ6azFYMkR4QU5XakE2VFphTjQzXzVBRjRIM19pWGtad2p6aFNzRFNpb1N4VFBTamxQRmxxMGV5bE5maFQ0Q0JHakJzNGI2bXNBN0dQRFhGcGRHZw?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "822e3b209e0bae",
+     "date": "2026-11-13T08:01:00+00:00",
+     "titre": "La Chine met en garde contre les contrôles américains sur les puces Nvidia",
+     "neuf": "La Chine émet un avertissement officiel face au renforcement des restrictions américaines sur les semi-conducteurs.",
+     "fil": "mêmes contrôles à l'export de puces Nvidia vers la Chine",
+     "source": "Contrôles à l'export IA",
+     "lien": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOaWFrSUx2S3pUajJBNERCVTlGazl5WUZ1Z3ZBcVNIeEFuQWlCMlhlbnREMHlFZjZEUV8xUUtIVmVEZDFlM0tJWm91Tm5LclJvcVVWaGZ5RUxJS1JzMzZzR2kxTWJfYjVDVjVDRGktSjlVNHlvdWp5MG9YY0ltT2s3cm8yc2ZoSHRQS1k1UXR1SEJPdFZJalNvbThoZlVUTWxlYUxlbVZZS3VQdzU0U3MxcmxhaWVEc1NReVk2N2pmTGdGZ9IBxwFBVV95cUxNQkZSTVA3YjNSWkpLOHl5Rm9kU0FZUU94b3NMa2tLZjhoMWFlN0llSXlaYjNySDJmWDZHYXhDTE9ObDVtVTVfQ3BNRWFITklXNHJxS0pweFYwRkg1cWNJVnNJdGdsZDZ6VWdMSms5V3NXd0FqTXdiR2NEZ3cxNTBlU3FIc0d6SklEM1YxMm5pMWpON0FCc3EzUmhOOXhnOW15WWt4X1RpeXVWeEE5azRYZUg4bTI1c1JoYXBYZW1WNTItTGxpVFpj?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "7ea08bdfd8838e",
+     "date": "2026-11-13T09:29:27+00:00",
+     "titre": "Les contrôles américains à l'export menacent-ils des projets d'IA en Chine ?",
+     "neuf": "La presse s'interroge ouvertement sur la viabilité des grands projets d'IA en Chine menacés par les restrictions sur les puces Nvidia.",
+     "fil": "mêmes contrôles américains à l'export de puces en Chine",
+     "source": "Contrôles à l'export IA",
+     "lien": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPcndpb1o5MzBqYVRTdWhRV1YwMlVxNjhBVjNudlBhYWlZUkx2SEFpcDdaRTZMOU5rZjZpQVBaVGplUDhNTEdHcUlaVmdkakxtRlVrelVXd2FNOHM0V25qOWRmQkV4LXBKR1lqd3h6OFJfVmtwY1VkcThSYnZMU2RQU29UZ19pU1JsTWJ4TFc1SzNuTkFqT2VmQUVFemhhZHVZTDFXNTFLQl9JaXY2aUZXUXpzMHdVQkhFaFJRUzhMcw?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "842331a0ba5889",
+     "date": "2026-11-13T09:55:00+00:00",
+     "titre": "Les contrôles américains à l'exportation contournés par des projets chinois utilisant des puces Nvidia",
+     "neuf": "Une enquête de Reuters révèle que des projets informatiques chinois de grande ampleur continuent de s'appuyer sur des puces Nvidia, remettant en question l'efficacité des restrictions.",
+     "fil": "mêmes contrôles américains à l'exportation et contournements par la Chine",
+     "source": "Contrôles à l'export IA",
+     "lien": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1EcDZud0lrRml5RHJkNjA5TWtCWnNBTi13ZXBLZTJhVktYZFRzaU1QYjZwLU1qT1Rzcjl5QS01UmxNMkFoanZsYkk4Z2FxUnI0WGg1amVqZ2hnT1FJZFpnTXczbDVnd2JVWVgtdlZoazNaek1KdWc?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "db79c2b19cc0d9",
+     "date": "2026-11-13T11:46:16+00:00",
+     "titre": "Les projets d'IA chinois menacés par le départ de Nvidia et les contrôles américains",
+     "neuf": "L'article souligne la double menace pesant sur les projets d'IA chinois, combinant le départ de Nvidia et des restrictions américaines renforcées.",
+     "fil": "mêmes contrôles américains à l'exportation et impact sur la Chine",
+     "source": "Contrôles à l'export IA",
+     "lien": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNbXpiN1BZRjJOMmpqd0tTVmNtTUQwbjZOZHlUOXgxMkxIWW5BRUpoUTlFX19hdllycG9TWWJlTHJJRlJrTG0zZy1PZkc2NC1HT09Ra09YcktwREJDU2J2d1R2RmhTdmgtdXpxaHktR0R2VXRTVUFTSk9XTmRYN25mdzlRTjdHc045LUVjNW9HT3k0RTd3aERxOUltRFBlcFVMNmlr?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "3c9f7d37b36f94",
+     "date": "2026-11-13T18:40:30+00:00",
+     "titre": "Des puces Nvidia interdites d'exportation alimentent les modèles d'IA chinois",
+     "neuf": "Des révélations confirment que des puces Nvidia restreintes alimentent directement l'entraînement de modèles avancés en Chine.",
+     "fil": "puces Nvidia soumises à des restrictions d'exportation utilisées en Chine",
+     "source": "Contrôles à l'export IA",
+     "lien": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQM2RjMXJ5cnYyUmVXT3FXVVVIeENJN0hQT3E0ZTg1YlpRSEItczBNaW1SZzlIM2hBNEZldVVzUjEwQzRDczhvVkQwMjZlLXh4U1pqd1NFcTFJOHh6MUMtQktSVmFmZUtzTUowb2hCdU1tVzY5NFFwWURpT3c5RW9zMUJOVHNvcG5aVG9lTUIzVUNqMW8yWkNzcXpidmtNRnlia3hySVpfbGRfQ3phbjJmbGZuYlhwS0E?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "450231a9db8266",
+     "date": "2026-11-13T21:16:22+00:00",
+     "titre": "Des laboratoires chinois entraînaient des modèles sur des puces Nvidia Blackwell malgré les sanctions",
+     "neuf": "Des laboratoires chinois seraient parvenus à entraîner des modèles sur des puces Nvidia Blackwell malgré les interdictions.",
+     "fil": "mêmes contrôles à l'export sur les puces Nvidia en Chine",
+     "source": "Contrôles à l'export IA",
+     "lien": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxOc2d0VmU0UHVrQlVvWElsNFVGTlhKcDc2YVR0SGxqM2dBUXlvSGpLZTNrbUhDTVhiLU0yU1lUamJ2MFpNc3V0SUxlY2xkc3dKemkxel9zbEVXaTVoVHhMdUliUERkZUNKQ2pvSnNKeUh3WDBXdkw1dVBQM09pMjBlSXdoc3JUOVpxZTZYZkphSVFzeDV5MkN5SGpLN0E3bmZVcnJtRThzNDJYSGNzSi1qUEdXUDZWYzRrbHY1RkVqeTA5WWxadzdTcE9USjMxVkZLU3p2cGZMODJpU1V5SDlBTDFyWUNnWXZpbGF1aEotVlFsMkU?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "e5fcd238ecb1eb",
+     "date": "2026-11-15T04:47:03+00:00",
+     "titre": "Règles strictes contre l'accès distant aux GPU Nvidia pour les entreprises chinoises",
+     "neuf": "Les États-Unis renforcent leurs barrières en ciblant la location de puces Nvidia via le cloud à l'étranger par des entreprises chinoises.",
+     "fil": "nouvelles règles américaines contre le contournement des sanctions par les entreprises chinoises",
+     "source": "r/LocalLLaMA",
+     "lien": "https://www.reddit.com/r/LocalLLaMA/comments/1xwmnkw/rasa_will_cause_total_chaos_to_open_llms_and/",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "9ca72ff23970aa",
+     "date": "2026-11-15T11:00:04+00:00",
+     "titre": "Le Congrès américain envisage de durcir les règles d'exportation des puces IA après un scandale Nvidia",
+     "neuf": "Le Congrès américain envisage de durcir officiellement les règles d'exportation après un scandale.",
+     "fil": "mêmes contrôles à l'exportation et puces Nvidia",
+     "source": "Contrôles à l'export IA",
+     "lien": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQVGxvZmxUQ0JxLVJuWmRILTBpbUwwbEMxbDV1bEhkYVdjdnl3WVYzWFBGZFhqckFER1JyYWptWEI3XzAzeEZ1dnZuSUdYVkFCdFZXTjVmMUxtVjJSc0dPZHR2R05TbE1mQzA0OU84TEdXd1I0UkFrS2Z0dDRIUXoxV2Y3b2o?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "1207b5c1c70bbc",
+     "date": "2026-11-15T19:15:43+00:00",
+     "titre": "Le Congrès américain veut durcir les règles d'exportation des puces IA après un scandale chez Nvidia",
+     "neuf": "Le Congrès veut renforcer les restrictions suite à une affaire d'espionnage chez Nvidia.",
+     "fil": "mêmes restrictions d'exportation de puces Nvidia",
+     "source": "The Verge IA",
+     "lien": "https://www.theverge.com/ai-artificial-intelligence/1033984/congress-export-rules-ai-chips-china",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "bfe41222a5c1eb",
+     "date": "2026-11-16T09:57:00+00:00",
+     "titre": "Chute des actions IA chinoises face aux craintes de contrôles américains",
+     "neuf": "Les actions des entreprises d'IA chinoises chutent en raison des craintes persistantes de durcissement des contrôles américains.",
+     "fil": "mêmes contrôles à l'export de l'IA",
+     "source": "Contrôles à l'export IA",
+     "lien": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPbnZNMl9tMHgzREZPWk5GVExiSFR1MkZ1bkx0d2pORzB4ejR0NlZ5ZzFuZFh0bFd5dnVUZjRhRE9zR3JROUhmaUY5VlF1azFYUGN4b2JGZHJ0MEdIWVBDREFyR1dfb2Q5VkFkVmYzMkhldl9kTFVTc2k1NllNWnUwdk5jS1oydkFwSm90RktlNnJUOGZ3bXV1Ui04YkpuTXlu?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "43465bb556008c",
+     "date": "2026-11-16T15:02:34+00:00",
+     "titre": "US tightens AI chip export controls to deter Chinese companies from accessing compute remotely",
+     "neuf": "Les États-Unis étendent les restrictions pour exiger des licences sur l'exportation de puces si elles risquent de fournir de la puissance de calcul à distance à la Chine ou d'autres pays restreints.",
+     "fil": "Mêmes contrôles à l'exportation de puces IA renforcés par les États-Unis",
+     "source": "TechCrunch IA",
+     "lien": "https://techcrunch.com/2026/11/16/us-tightens-ai-chip-export-controls-to-deter-chinese-companies-from-accessing-compute-remotely/",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "678ce90c9ecd57",
+     "date": "2026-11-16T15:02:34+00:00",
+     "titre": "Les États-Unis renforcent leurs contrôles sur les puces IA",
+     "neuf": "Nouvelle confirmation du durcissement des mesures visant à empêcher l'accès à distance des entreprises chinoises à la puissance de calcul.",
+     "fil": "Mêmes contrôles renforcés des États-Unis sur l'exportation de puces vers la Chine",
+     "source": "Contrôles à l'export IA",
+     "lien": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQMk1pUmhmX2dnNlhFZjFvM1NYbmpacVJULVNxWlgzcWpKLVNjTk8yWjREOWg5RFNqNEd0RGRfQTRJd3BNblpXNndTZVFlNzk0UnVZYkxUcjdMU0ZDVm1hWXVxR1JNcm5fUUkzN0luc3BmMzg1cU4xOEc1QXpuaDNxdnNaYU0yVzRmcXlzbU9mc1lxQ01Yd1ZkdklSeXI0NTJTTTNuOExSRlVlcU9HVUpQWVJrRk5qQXkwNVlRem04NUMtcHVPOVpwYw?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "785882bb3fd214",
+     "date": "2026-11-16T15:13:00+00:00",
+     "titre": "Le département du Commerce restreint l'accès distant aux puces IA",
+     "neuf": "Le département du Commerce prend des mesures directes pour restreindre l'accès distant aux puces à la suite des scandales de contournement.",
+     "fil": "renforcement des restrictions américaines sur l'accès distant aux puces IA",
+     "source": "Contrôles à l'export IA",
+     "lien": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNdExOdWF1TUJkSHUySjhXbUZmV05xRC1KdlFfWmJUX1dxMjNENXhIR1c0bHJhUWZtOXNyb1BPcmdUR1ZzUjJRdXZLM3pjdkhaOVhTeTlYMnpfZlZPdFZaREVuME9XLVlmNFAtbVFwTGZ4ZFlZR09feXlDeGJzeVdhaGtrS3Z6X2NNOVlrOXlhcEV2SlFIcTBkdXZlSVJmaEE?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "016e14b5029abe",
+     "date": "2026-11-16T18:51:20+00:00",
+     "titre": "L'administration Trump veut bloquer l'accès indirect de la Chine à l'IA américaine",
+     "neuf": "L'administration Trump formalise de nouvelles barrières pour bloquer l'accès indirect de la Chine à l'IA américaine.",
+     "fil": "mesures de l'administration américaine contre l'accès indirect de la Chine aux technologies IA",
+     "source": "Contrôles à l'export IA",
+     "lien": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPSFFpN3hkMjdrVkkxalhuQ1pVNHAwUDZBVXN6SWdpWWVhV2FwT3ZVcHBYMEhjeFdpNnJOWWVVYzlZbkJjeW1ZUVNGX21PNURhTm5WRWZtOV9QNjlWWEJIVDNnR0hIdG9BU0dOaXNSS1BBRkc2Zm93RnBFRjBaa3FXSzNJcHp3RGNJMUJZM3lSaTA5QmRDQXZVZ09oUzNwT25OdWZKQVJCSnROUmJfenBkZm9LbjM5ZS1NWldJ0gHAAUFVX3lxTE10UEozWGFqZ0ZQU1NjMVdxdDF6MVdnWUliaXlTZFRqYXFwcEhnaTZZTUdTTFowUHBUUDlZaVN5VmFhRzlVVlNVMVRZTzVXQlJLQ1EyUHpTOEw4T1owZ2NCdWtncWNISWFTSVFMMlAxNG9kbVFocEtGXzZrTlExazNPT2J6OVZvVTlBOERsMndxeXNRMEhXa084UXZkTy1FSHFKWFJTMFBZRE0yTkQwX09WWV94MFFrWUVqWDNLc0dsdw?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "9167b5703e35a6",
+     "date": "2026-11-16T20:08:56+00:00",
+     "titre": "AI Remote Access Rule & RASA: Export Compliance Guide - Kharon",
+     "neuf": "Publication d'un guide de conformité sur la règle d'accès distant à l'IA (AI Remote Access Rule & RASA).",
+     "fil": "même cadre des règles d'accès distant et des contrôles à l'exportation",
+     "source": "Contrôles à l'export IA",
+     "lien": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxQY1VnSGtfQjcydUxYeFFzR2VrTW9ZSVFxc0VKMlNxbXdKakc5WkNIYUE3YW1TMW0tbmg5eDhpTzUySl9pU3FpT1NrWlJ3ejQ4X3ZHXzdtcV9SV2s5VmpvMDdkUmlLeTFWTXRwWWh1ZGpzQUV2cWZZY3lSaC1VNHBoTFQ3NnlaQy1ZcG40RXNQSm9LQVY5alR5Qmx2LUJRc2ZkeVJSQUVzUVBfZk9LSjJYR1FrZm16MVhDMHp0LW8wdzNaVW92ZGlVOWI4UTNXSWo1TlFuTGlvUnFEcXZQTDYzSTVPUDFaMW8?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "46bc37fc07c1cf",
+     "date": "2026-11-17T16:28:58+00:00",
+     "titre": "Nouvelles restrictions à l'exportation imposées sur les puces IA",
+     "neuf": "De nouvelles règles d'exportation strictes sur les semi-conducteurs d'IA sont entrées en vigueur.",
+     "fil": "Mêmes nouvelles restrictions d'exportation sur les puces IA",
+     "source": "Contrôles à l'export IA",
+     "lien": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOSENWV1MwQ3lSVDNrY3Y5TWgyNHZDUWs3NXpKLWRlVE04a3VzNG5lTE9OS25IbEdNMF9XMTBna2hFdnFteEtDMFYyb3QwYjVpUHU2SUtBXzYycGxIQXlHSzhvNmNpSXFVTjNycE5lS1NlRndwQ191SkE0R3l0aERMTU45TEw4VWJxZjhGTHZrNlR1QjVIZFRmWHN6TW1fNzRueWJMektoR19wY3I2aVpOSEZhUDRFZw?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "9d9d5a4c391f33",
+     "date": "2026-11-17T19:14:46+00:00",
+     "titre": "Alerte sur les contrôles laxistes des exportations de puces IA",
+     "neuf": "Un représentant américain alerte sur le manque de rigueur des contrôles d'exportation de puces.",
+     "fil": "Mêmes contrôles à l'exportation et puces IA",
+     "source": "Contrôles à l'export IA",
+     "lien": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBsNGdoZ2VEekpIdkFEX1BUdGxJVjR3SkdpeEJidUF5QUR6bEhHZU40QWxlS2UzV0VCOXpiRG91blpqckNyd215TG5KdGdvSmExa3BnelpsTmhVNzQ?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "18cb895feb7e68",
+     "date": "2026-11-18T00:22:23+00:00",
+     "titre": "Les États-Unis restreignent l'accès distant aux puces IA avancées",
+     "neuf": "Le gouvernement américain restreint l'accès distant aux puces et abroge la règle sur la diffusion de l'IA.",
+     "fil": "mêmes restrictions et règles sur l'exportation et l'accès aux puces IA",
+     "source": "Contrôles à l'export IA",
+     "lien": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxNTENidkgzNlk2VWxOSE5OUlVJdVJISkZNU2lTLVhjUFE0b3FaYThNUVlnSnA0Uk8yQy0xTXVxOEgyZ1NOVFd0M01oQWlHX2hNbzJMOG1JcW5HNUR0X09GN1ZCY2NyeGVGdDRobVB2d2IyUzljalp0MVFOYUROWHFuTk0waThtVkpJYXdjTTNBeERGczluVXpvbFlfRjRxVVBIZmdWMHU1bkJCY1NfOEFXSDI3OVVDQjdEUWRha3dYM3JXMk4wTWFKdFE3aU5MNHlQZWF6MEkxTVFvaE43ZDhRVUNYWUdPaU1UZzJlR1lyUmdqMEJhakRr?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "e72f18fd0251cd",
+     "date": "2026-11-18T04:10:40+00:00",
+     "titre": "Extension des contrôles américains sur les puces IA en Asie du Sud-Est",
+     "neuf": "Les restrictions américaines sur les puces IA sont officiellement étendues à l'Asie du Sud-Est.",
+     "fil": "mêmes contrôles à l'exportation de puces IA",
+     "source": "Contrôles à l'export IA",
+     "lien": "https://news.google.com/rss/articles/CBMibkFVX3lxTFAxNW4zMmVpcWFHRzNfQm1xVnZlem1WTDJvVFlrbHFoM2RaZ1lZcW9QaGxwUXFQR0V5dVhGYTZpV05kbWlpM09KU3dfcFNfUS1ncEN4TGFCUDUtc0cyOFlHdk9lX0VRdEpweFZCQ0FR?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "8dd8752cc2803f",
+     "date": "2026-11-18T04:15:00+00:00",
+     "titre": "S’pore can facilitate US checks on AI chip use, won’t allow circumvention of export controls: PM Wong - The Straits Times",
+     "neuf": "Singapour s'engage à faciliter les vérifications américaines et à empêcher le contournement des contrôles à l'export.",
+     "fil": "mêmes contrôles à l'exportation de puces",
+     "source": "Contrôles à l'export IA",
+     "lien": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNMUVmSnNaLVByVmtUOGkwdXpTSThnd0NRRTBMMHdtZnVOSEJwMFRYcnczTzlvMzlXVkJIWkVGeFhvVHZCNlhGbkhCVDJMdkM0YTBHWG1jV2xzNVR1cldQczlQM1laekR1SGdkc2pDZEhCYlJta0RVMGV4OEdZS24yYU1ldVBRanBsemNtZ1pxVTVXWWNxcXdHWUNsd1JSNXpNS2E2eXREOVp5QlZZd1AybjFsUWxmcDNHcDE1QnVCLXVPT25yRlFaMXJQaw?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "72210fa035baec",
+     "date": "2026-11-18T09:21:57+00:00",
+     "titre": "Nvidia stoppe ses livraisons de puces IA vers la Chine suite au durcissement américain",
+     "neuf": "Nvidia stoppe net ses livraisons de puces vers la Chine et Pékin menace de mesures de rétorsion.",
+     "fil": "Mêmes contrôles à l'exportation des puces IA de la Chine",
+     "source": "Contrôles à l'export IA",
+     "lien": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE04ZzRsQnpmR3FsSGZFT1dVNDdkN2F5dFdwbldPblhRNVgwVnZJMHVoamd3RE1lMy15NXhTWGkzYW9IUDBnRERraTN1MmVrdlptbWxTWEhYVVNXd1owWWdWSzVR?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "d7d855e23a019e",
+     "date": "2026-11-18T11:10:21+00:00",
+     "titre": "Extension des contrôles américains à l'exportation des puces IA",
+     "neuf": "Les contrôles ciblent désormais l'identité des utilisateurs de la puissance de calcul en plus de la géographie.",
+     "fil": "Mêmes contrôles américains à l'export",
+     "source": "Contrôles à l'export IA",
+     "lien": "https://news.google.com/rss/articles/CBMiekFVX3lxTFBSX3ozWlNPV1hZeGhGR2NMOUx3TDNtX1hXZjRwQU9PRTVRN3diNFduMnZVOExTbHZEdUIydmwtV21qejEyanliVDlRUi1NREMtMnM0MDBlWVd2Nk1Xdm5DaEZFOVFaVVdoUHJUQ0c0NFA5RG5TSnJ3c0Fn?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "e46d42ea15cfe3",
+     "date": "2026-11-18T14:10:41+00:00",
+     "titre": "Les États-Unis visent la faille du cloud dans les contrôles des puces IA",
+     "neuf": "Le département du Commerce américain cherche à combler une faille liée au cloud computing dans les restrictions sur les puces.",
+     "fil": "Extension des contrôles américains à l'exportation et aux infrastructures cloud",
+     "source": "Contrôles à l'export IA",
+     "lien": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5MZmtFUWYtc2xkdkVuNEx3eTlIMVlIQVVLNTNqN2VRV3lJODJiRUNGd3BDdEJueWhZRjZiVEctdjB6dEttWWxJamloZ0VkU1l1cm0xclJ3a2dUZW1ScE9NMjdsZmJ3bDBvOUw0ck1raHgyS1JuUWY0cUowN2pSVG8?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "793a042f12c8a0",
+     "date": "2026-11-19T22:21:54+00:00",
+     "titre": "Autorisation de ventes de puces IA américaines à Alibaba et Tencent",
+     "neuf": "Les États-Unis approuvent officiellement la vente de puces IA à des entreprises chinoises comme Alibaba et Tencent.",
+     "fil": "mêmes contrôles et dérogations à l'exportation de puces IA vers la Chine",
+     "source": "IA militaire",
+     "lien": "https://news.google.com/rss/articles/CBMiswFBVV95cUxObHBwaTNEcUhVcC1PcUJxbFdYVVgwMl8ybHJCWExQOC1iSVBQQUt4dzRwVWRJQUFCQ3BheTFwVzlVS1VXWTF2RUFZd2JqbXlVcnh6VHEwX2l2NVpzdFBOLVdISDBwbm1LdzNMalQ1NkdYZWowYVhjQmQzcW4xcnBTRl9mUUJEUHFVTV92dEtielJjWW9fQnltZElRaEtKM1ZVcG0ySC1iWU9sVHc5ekhmdlF5TQ?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "7197b3673b73c7",
+     "date": "2026-11-19T23:46:03+00:00",
+     "titre": "États-Unis : approbation de puces IA pour la Chine incluant des firmes liées au Pentagone",
+     "neuf": "L'administration américaine aurait approuvé l'exportation de 880 000 puces IA vers la Chine, incluant des firmes liées au Pentagone.",
+     "fil": "mêmes exportations massives de puces vers la Chine",
+     "source": "IA militaire",
+     "lien": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOc21zakhJNUJka3BGVEhWX0J5OTdpdnljR1pQTER4REJOSFJjeDJZQWQ2VkFZNzJ5N2x0TURLZFkyUUNXSXVQRVY0Z2ZqXzZoZGR5SE1RcjBBTUw3UFI4RzI4SFFmcnRXT2FyazIySENIQkpkYjJQUXlRMzR2SkZDRG9iRmZ4Vk5kMXc?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "a565b35a03f6ac",
+     "date": "2026-11-20T20:26:12+00:00",
+     "titre": "Tencent face aux investissements massifs en IA et aux contrôles à l'exportation",
+     "neuf": "Analyse de l'impact des restrictions à l'exportation sur les dépenses et le retour sur investissement en IA de Tencent en Chine.",
+     "fil": "Impact des contrôles à l'exportation sur les investissements et le cloud en Chine",
+     "source": "Contrôles à l'export IA",
+     "lien": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOdnNwbW5walVXSjhITFBaWG1wUHRxTWJ3NXhJVEtiaVdlOTlYVlJPMTdDaE5admRqbW10UHI3WmdBYUZhb2lVSllsWnNnOG14VVYybDQ3d2ZRa3dYQzVNbVFnQmdFdmtWT3FFU0hId0Q5RUlPN3VCNlhzOHZIbkluVHFqWWJNbE9tU1hlbmdiVGNneGhFMXY0X0R0ZTAwYnhobDM1MVVFaEF5MzRmNzd1WUVJRmd6cjdqalFQN1czaWZaWU9BYnlv?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    }
+   ],
+   "statut": "active",
+   "societes": [
+    "deepseek",
+    "ue",
+    "mistral",
+    "nvidia",
+    "openai",
+    "usgov",
+    "alibaba"
+   ]
+  },
+  {
+   "id": "h_16baf84ddd",
+   "titre": "Mise à jour v2.11.0 du SDK Anthropic",
+   "resume": "Anthropic déploie la version 2.12.0 de son SDK, apportant des corrections spécifiques pour la transmission des identifiants de profil utilisateur sur Amazon Bedrock.",
+   "creee": "2026-11-19T23:03:26.698196+00:00",
+   "maj": "2026-11-20T15:56:21+00:00",
+   "episodes": [
+    {
+     "id": "3fa84539955afe",
+     "date": "2026-11-19T19:14:21+00:00",
+     "titre": "SDK Anthropic v2.11.0",
+     "neuf": "",
+     "fil": "Mise à jour du SDK Anthropic v2.11.0",
+     "source": "SDK Anthropic",
+     "lien": "https://github.com/anthropics/anthropic-sdk-python/releases/tag/v2.11.0",
+     "nb_sources": 1,
+     "primaire": true
+    },
+    {
+     "id": "cc3cf646b606ef",
+     "date": "2026-11-20T15:56:21+00:00",
+     "titre": "Sortie du SDK Anthropic v2.12.0 avec correctifs Bedrock",
+     "neuf": "La version 2.12.0 corrige la transmission des identifiants de profil utilisateur sur Amazon Bedrock.",
+     "fil": "Sortie de la version 2.12.0 du SDK Anthropic",
+     "source": "SDK Anthropic",
+     "lien": "https://github.com/anthropics/anthropic-sdk-python/releases/tag/v2.12.0",
+     "nb_sources": 1,
+     "primaire": true
+    }
+   ],
+   "statut": "active",
+   "societes": [
+    "anthropic"
+   ]
+  },
+  {
+   "id": "h_ce024d6c9b",
+   "titre": "Nouveau modèle de Mistral AI contre les acteurs chinois",
+   "resume": "Mistral AI poursuit son expansion stratégique et souveraine en ouvrant un siège Asie-Pacifique à Singapour, tout en consolidant ses partenariats européens majeurs, notamment avec Deutsche Telekom.",
+   "creee": "2026-10-27T00:58:25.413423+00:00",
+   "maj": "2026-11-20T15:33:26+00:00",
+   "episodes": [
+    {
+     "id": "0f96ced7a18023",
+     "date": "2026-10-06T07:00:00+00:00",
+     "titre": "Mistral AI lance un nouveau modèle pour concurrencer les modèles chinois",
+     "neuf": "Mistral AI lance un nouveau modèle visant à concurrencer directement les acteurs chinois.",
+     "fil": "Annonce d'un nouveau modèle Mistral AI",
+     "source": "Grandes annonces IA",
+     "lien": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNcjVFRUV6ZzZmeXFiN3NIWmZwUTBGWTR3ZUx1UUhjLWRLMC0wZThtLW00a1FYNjloa3BiSTFveFdZZFkxWnd5d283Qi04MnU1UC1IUl9KdlBkX2o2X3JpQ0pUZVRZQzJ3Uk1fRzR5VnJIdGhwVGI3Q0JWc2RWOGtBZTZzek4tcWQxRTAxZnB3eWJyV2gzY2FlNjdYVk95b2lQX2UtLVNWandvMDA?oc=5",
+     "nb_sources": 2,
+     "primaire": false
+    },
+    {
+     "id": "90a784e5869212",
+     "date": "2026-10-07T07:00:00+00:00",
+     "titre": "« Avec une avance considérable » : le Français Mistral envoie du lourd avec son nouveau modèle d’IA - Futura, le média qui explore le monde",
+     "neuf": "Sortie d'un nouveau modèle de Mistral AI salué pour ses performances face à la concurrence.",
+     "fil": "Nouveau modèle de Mistral AI contre les acteurs chinois",
+     "source": "IA en français (actus)",
+     "lien": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxQbEF4NzNrdGRmbm1qU3A3VURENTJ4Tm9fcWtQWFFQMHpTTFdadTdiOUVUSWNaWkRVbXA1WHZEV3NRU284cTFnU2IxX3FCT3RTcVNjUm1ldUZ0bUFFMnNqaUJtSU5Xakh0VW9qRU45S3BRQnpOVUFSM0o1X0JPRnpMN3FxVDMwMUw2all0VVZJMldYTWhQRVpOcExDQWxKamZLd25wczA0OTdVakt4SUNnX1RaTmt2ODBPeHBLRXdGbk5KQ3ROM0duMkNQbGhXYzN5NGdXMnJRdWptN2xaaFY0Q216eUVxOG42?oc=5",
+     "nb_sources": 2,
+     "primaire": false
+    },
+    {
+     "id": "a1765f446c5b64",
+     "date": "2026-10-29T00:00:00+00:00",
+     "titre": "Mistral Large 4 disponible sur Hugging Face",
+     "neuf": "Mistral Large 4 est désormais accessible sur la plateforme Hugging Face.",
+     "fil": "même modèle Mistral Large 4",
+     "source": "Hugging Face",
+     "lien": "https://huggingface.co/blog/mistral-large4",
+     "nb_sources": 3,
+     "primaire": false
+    },
+    {
+     "id": "df6933ff3f4e15",
+     "date": "2026-10-29T10:44:05+00:00",
+     "titre": "Sortie de Mistral Large 4 : le nouveau modèle ouvert de Mistral AI",
+     "neuf": "Mistral AI officialise la sortie de son nouveau modèle ouvert Mistral Large 4.",
+     "fil": "Même stratégie de nouveaux modèles de Mistral AI",
+     "source": "Mistral AI (actus)",
+     "lien": "https://news.google.com/rss/articles/CBMioAJBVV95cUxOQkZudHktZm14SEVHaFppU1VxaWdJVjBqS2JSYnpDdHlreTZUWjduUnhqdTZJQkV5MTRWMUNWQldDSUpPWURnVTZhRXZaekpjam5zMmxoMnBuWEhJc0lMcVBFUnhYZE4yTlh4ZU5xQkJHdlM3aS0ydnMtOEhKQThnaEhZUWxmUmFyTVhTdHV6UVYyYVA3bS02ODdkSkhPQjVpTkgxU29pWVFMVUFMSkNrWXhubWloV29QdEtucTZKeTZNUjIwU3FzY0VNaC1xS2tEbnFuOFdjdFlOMHE3dWdOWU5hYUlnbm9WbXFpTmY5d3RZU05lbm05TXBOR1ZEWWljbGxOenZpQ0ZUbms0RzdzMEY1S05BWjMxLUlwUFk5SUc?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "1ee7ff6ad9c98e",
+     "date": "2026-10-29T14:10:54+00:00",
+     "titre": "Code, cybersécurité : les nouvelles priorités de Mistral AI pour griffer ses concurrents chinois - Les Echos",
+     "neuf": "La presse souligne l'orientation de Mistral AI vers le code et la cybersécurité pour concurrencer ses rivaux.",
+     "fil": "même stratégie de Mistral AI",
+     "source": "Mistral AI (actus)",
+     "lien": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxPWnZNU0d1VERmVG1SOGI3UWp4TkdzRnRkU0M3WXMyNkMxeEpVcGd0blhmS2QtSEtObWlkX080UXE0dHBnNUk3Z1o3bk12TlNGNk9sc3ZJTlUxTkItZEw0UngxVXVwdlBCVnYzX3lPZmpMX3ZQYVVaREdteVh6OEpQLXFwd0xVUk1LTE1VNXhDajNtYzJiYlh5ZDVEU1p1NFRxdzNBYlNZcGRCVkx2RXpabW9rMzJhY3kyMEg3aVA1Q0QxVTdJUTg4M0xaMmN0QTNhRFdiWmhld3VETkJkVHhfSEV0UTU1cG4xOVB4ZmdOVjdqSTJuSVE?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "163733f8c8122a",
+     "date": "2026-10-29T14:11:42+00:00",
+     "titre": "Mistral Large 4 'Le Chonk' disponible en poids ouverts",
+     "neuf": "Mistral Large 4 (surnommé 'Le Chonk') est mis à disposition avec des poids ouverts.",
+     "fil": "même modèle Mistral Large 4",
+     "source": "r/LocalLLaMA",
+     "lien": "https://www.reddit.com/r/LocalLLaMA/comments/1xil3qy/mistral_large_4_le_chonk_is_now_open_weight/",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "46c2109033cade",
+     "date": "2026-10-29T14:16:58+00:00",
+     "titre": "Transformers v5.22.0 intègre Mistral Large 4",
+     "neuf": "La bibliothèque Transformers intègre Mistral Large 4, modèle MoE d'environ 1 000 milliards de paramètres.",
+     "fil": "même modèle Mistral Large 4",
+     "source": "Transformers",
+     "lien": "https://github.com/huggingface/transformers/releases/tag/v5.22.0",
+     "nb_sources": 1,
+     "primaire": true
+    },
+    {
+     "id": "aa833204da72d6",
+     "date": "2026-10-29T14:45:06+00:00",
+     "titre": "Mistral AI lance un nouveau modèle téléchargeable axé sur la cybersécurité",
+     "neuf": "Mistral AI propose un nouveau modèle téléchargeable axé sur la cybersécurité.",
+     "fil": "même modèle Mistral Large 4",
+     "source": "Grandes annonces IA",
+     "lien": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPOWlfcWswLUlERGllQ3RvSmx1M2JWeUlBXzJSRDNmay1NOFpVU3d2X2JGSFFtd0xaRFA5ZGFkSjE0Rl9RRWVLYlEyVUkxOTVSSmVyb3Joekt2WXNmNE0yV0MyaHZRNmpZcnBiNTU1OXZabGNWT2I0WkE2WUFvQVZKRXZKWmlTOHlhU0V2dV9INGxpbUxueDYxNnVLQjMtWjlRdTFnWUdtc3BpUlN2eFVQZE43MUdkMGR1TGdFczJQTlJGcE9K?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "c59c3778d59beb",
+     "date": "2026-10-29T14:46:43+00:00",
+     "titre": "Orange Cyberdéfense et Mistral AI unissent leurs forces pour créer des agents IA capable de déceler les failles de cybersécurité - La Tribune",
+     "neuf": "Partenariat entre Orange Cyberdéfense et Mistral AI pour développer des agents de détection de failles.",
+     "fil": "même orientation cybersécurité pour Mistral AI",
+     "source": "Mistral AI (actus)",
+     "lien": "https://news.google.com/rss/articles/CBMinwJBVV95cUxNSTRmMmhPWjJUY2dIdU1hZDVjUFF4VW5IT09kSWQySWtfRFhTYTY3VG9ueU05cnM3SXctNFNMcWNjbWo4bE5sdXBRQmxZRF80VUFUcktTZ2pOanZoNEhDVmxWT05KQnV2ZWtadHFRNmFHN05xNjY0ZGVJSVhsSUItRm5OcldNRjVITUpDdi1XQjRqT2JfM1NPa2dfdWZZZGlEZlN6aHVoWDR4YUNoNTA5SFk4bE1nb1BHR1kzWE9MY0xiQzRkbkt2QjNNdGJHcnNBYlJoT1hnMHVWS1ZKRkkwSkVLcUZiRVlNQV9COXVpZ3JyX2N3NHdOaEFNa1NJN3RneDljRUc5REM1MXJCZ2FPVzFUSWJQd1plZWp1Znh5cw?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "5f62453a07556a",
+     "date": "2026-10-29T21:09:58+00:00",
+     "titre": "Mistral AI lance publiquement Large 4 avec un accent sur la cybersécurité",
+     "neuf": "Mistral AI officialise la mise à disposition publique de son modèle Large 4 orienté cybersécurité.",
+     "fil": "Disponibilité publique de Mistral Large 4",
+     "source": "Mistral AI (actus)",
+     "lien": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxOakNoX210Zmt3WXFkVkxzZ0lZbTI0Zk5pUHJ5aVowRFVqOVJ0Vm4xamlsUGpmdnFZRnB2NTRnTXp6emFqX1JQeWZBSGUwemdWWE1zajFNeFlxd2dTbmpMdi1JUWp1bDJkVHRzdXBBZV8ydUhFdmp6d0U0Ymw3N2dvbkN1YXBlVE0tY1VlZlo3SU4ySm5KdDd1am5jZFktT3RvanhObklEVXlhSldfRUp2azhINmJKN3hKU3UwanJfZmdUSTFlcS13d050QndRWkV4RjVDU3k4SndZa1VQOGJsNTFsZ0ZVZHlGYXc?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "ea2f33362d6132",
+     "date": "2026-10-30T03:06:37+00:00",
+     "titre": "Orange Cyberdefense intègre Mistral Large 4 pour des solutions de cybersécurité",
+     "neuf": "Orange Cyberdefense intègre concrètement Mistral Large 4 pour ses solutions de cybersécurité.",
+     "fil": "même modèle Mistral Large 4 et partenariat avec Orange Cyberdéfense",
+     "source": "Mistral AI (actus)",
+     "lien": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQTXRWN214R0lzRWh5VEJXRW8wTF92TUMtU3VXX1hFLVROTE1HZjVhRFpLWDQtZ1IwNExZWVRKMnViRTc1SGxFQXhNQ2ZLZVVjWmhBRUNOUlh0dTljSUQ4MXdVS045RDRYS29oV2RtUjV5ZzBkR2E2aFF5eWxvOFJRNWRRTnJLU3pHUGF5SGFn?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "b04f3cf0fe6c1c",
+     "date": "2026-10-30T06:30:01+00:00",
+     "titre": "Orange et Mistral AI s'associent pour sécuriser les réseaux européens",
+     "neuf": "Orange et Mistral AI officialisent leur alliance pour sécuriser les infrastructures télécoms européennes.",
+     "fil": "même partenariat entre Orange et Mistral AI",
+     "source": "Mistral AI (actus)",
+     "lien": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQX1Ewb1RMa0ZXa0FBTEJ6cnlqN1Q5NW1lUzhyYnhDM3BaS3RIcDFpTzhkUEIwR1RxTXBramFHYjFiMWpYdVdPZV9WQnNaWkI0YXJseUtOQVVWWEZrRFNsUTV2WmdQSTJ6cmdLaUoteHFBVWZ4M1lXTi15Rmg3YTF3MTFlM29kZ09ySWhQZ2Q1YTBlREJlN01wUkRxTnRkQmh2aEFHdkgtUDFJdjBHQk5aOHR30gG3AUFVX3lxTE4zR09Nc2E2QjZaUG9OZ2x6blNXZVhGTFZSbnp6dkVvTW01OGFOTlE2dGphdzAyQVhMRFNla3BianNkODhPVVVfZ3Rsd0Zrd0lZS3J1UjlxWjBaU0pHWjczRlhvdUxtTmswdFoybUh1WnFmdFRXeXVEaG5ESnNrcW9fQ3F5QVdLZTE2Tk81RVNacUU1b2w0ZEw0QlRqSndNVzJMWEdVSGJ1ZUVJbG9xeUotZVpnLXphdw?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "bb2562f671cf45",
+     "date": "2026-10-30T06:46:21+00:00",
+     "titre": "Mistral AI publie les poids ouverts de son modèle Large 4",
+     "neuf": "Mistral AI libère officiellement les poids ouverts de son modèle massif Mistral Large 4.",
+     "fil": "même modèle Mistral Large 4",
+     "source": "Mistral AI (actus)",
+     "lien": "https://news.google.com/rss/articles/CBMigANBVV95cUxPaTF3YUY5ckNUd0JRZXpBbmd5UGxmbmVjS3M2M3g2VEdGTThmcGpWQTBHUWdPZDdrZ0RJRWVXSGZ2T2k3STIwZExPN1BvQV9BX3hralgtYndhWjhyU3JNMk53VU9VUV9TejdLTGxENFBaOTFlQllaMTZGbGJTNHJlQjFGeGlHTDJNZjFLYXJES0xlZDhLd0diUzBzUk1YQ0wyTmlfNHQ1OXVUa0tZZlc5NzBLTFBpWThxZHlXVnhOVnRMWk5vMFJ2eFBUWGVJSjFVNi1JTnNoTGdBTTJCV196ak1MNTdLQmRMU2FXZXUxUXdIdnpxU3pBazItdm1JTHh0aHBaY0w0MTRjN09sOTQ4LXh0b1lmZm5wT1p6VWpVNEpKcnRGeFRqeGk0Tjg3TGU2cHExeUYtdkxNNEhLbGktZy1DNVhKUE9xdW5abWdRM2gwWmt0TjZBamt5VGhrQVBqblpEV0RrdG11YkE4MGtyTkVsUFdFWWRZbTFSWHNLcDfSAYYDQVVfeXFMT3J2ZVBGUnRENlZXTk04LUtSQll6YXpfZHNYQTRnM0k3enJ2WXlqQnRMeUZCN0lTZE5nQ2hST1dnZ0RXdmdLQ0ZsNVB0MTE3NWRvd29pUkFOTXRRcHJTZGlEdmdGYUl1WVQxSzFZREFKdUQ1cy1JQ05TZWxEdVVfZGtOQ2w0dkZTZlEzZGdJMm93THJUVHVCRWFORlNrVkFldGJsdmNyUWgwSmtUYlJ5SzhWTWFYZnZtcVlfb1BTOU45M0tMOHkzdGlFUlZ6N2xpRUpNTE5jVno2N25wMVl3a1Q5NTJCbFVwS0xadzcxWV9sT3JldGF6bXBDNEtIOXBmVi01NXJ5X0F5YzcxZS1MVElaZTlRWXJrN1o5S3BvN0RzbEk3WXloOUlEa3pFaGdoNk5EYVpMWVJSM0I2LU1udjdTRFZVQkJ2VUZUMURQUEtWZ0cyaDVKZGY3TzJpbnhvS3I4SWZTVWdyNjdZU3ZJZHpXd1dIV1JFMVQ4YmRpUW0xb2JRbFdR?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "a253732e255fb1",
+     "date": "2026-10-30T09:08:40+00:00",
+     "titre": "Orange Cyberdefense obtient une variante cyber de Mistral Large 4",
+     "neuf": "Concrétisation du partenariat avec le lancement de la variante cyber affichant un taux de correction de 82 %.",
+     "fil": "même modèle Mistral Large 4 et Orange Cyberdefense",
+     "source": "Mistral AI (actus)",
+     "lien": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPN0wteFNwYW9wc2xhRVg4cmZDYWlubUZGaG9FSVRHSXBGc3g4ZFczYjByUEpvVUIwV0pQRGQ4dTE4NlZ3YlFvMGFwdVZoNTBwaUpHQ3FMWFF0ZFZYLWhOVG5XWk9HN21IeURNaE4wV1ZGSU05Vk02ODFGWEFJUGMxR2VWay1VQTU1c0NZOW5URkFsbTQ0bmpBcjNKSWxhSnBRRTM3dDRCRQ?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "0ed4a5dd067d8d",
+     "date": "2026-11-02T17:14:16+00:00",
+     "titre": "Cybersécurité : Orange Cyberdefense s’allie à Mistral AI pour développer des services souverains - Acteurs Publics",
+     "neuf": "Acteurs Publics revient en détail sur l'alliance entre Orange Cyberdefense et Mistral AI pour des services souverains.",
+     "fil": "même partenariat Orange Cyberdefense et Mistral AI",
+     "source": "Mistral AI (actus)",
+     "lien": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPaEl2RG8tcFZjQ3RYV2ZSRF9SSTV5cV9SSlhGeEpxTW9CRHRBYnd0UmFKalpaSFJLZTZmMGJFS3NmT2lmY3BKdzlkMDVaR2lYNDhKTVV0N25XbzhXcVQzRGk1MldCZGNOX1JWYlByUUNDUHB6Q3h4UDFwQUZ0cGdpakRZVUctZGJaMjNVVmd3NzdwV2NDd1dTcTk1ZGQ1ckQwa1M5LWZveXBZWDdYRm9RZXpvVjhTbzRJVG1LVmpfcUNxU0x4a25nSg?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "7f28460fea4a50",
+     "date": "2026-11-02T19:00:00+00:00",
+     "titre": "IA souveraine : OVHcloud défie Mistral AI - BFM",
+     "neuf": "OVHcloud se positionne pour défier Mistral AI sur le terrain de l'IA souveraine.",
+     "fil": "Même concurrence autour de l'offre de Mistral AI",
+     "source": "Mistral AI (actus)",
+     "lien": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQbGIwWmlWdjZpdEYtZVZoN3pxZ1NtbGVFNzFwMEptdk1xdnN5TXVpaWhGQVJ6LU80M2wtS3o0YjlfdXJRR0NnVVFJdWRJeldjVFNuYzl3MWUzcmc4cnhjNFlXLXhEbHJ2U1Frc1RuTlU4N1d3elBEVVVBYnZJdERidElLTzVaNlUtSUhRYW1TTy04ZkY5R2JBbEp2M1ZTb29qbi1jZ2JMeWNQNDl3UUc2X1dSZ3dNOVY4MVdwcFRjM1dPX2JyeFE?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "d679bfcacae435",
+     "date": "2026-11-09T14:45:33+00:00",
+     "titre": "Mistral AI menace d’investir hors de France à cause d’une nouvelle loi sur le droit d’auteur - Siècle Digital",
+     "neuf": "Mistral AI menace d'investir hors de France en raison d'une nouvelle loi sur le droit d'auteur.",
+     "fil": "même conflit de Mistral AI en France",
+     "source": "Mistral AI (actus)",
+     "lien": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOMWhvMnNtTTNGcVhCM0tXN2JTblhpR0tMZ05QbU51SWVOaWpvem4xLTRDZExJNjRQMC1CMThXRXRBbnJzQXlhNlEtZnJPcFJ2MlBtV2RfODM0WjJtT19lTDNRNHFaUVFyalhEOVZfa0RMeTMxd1ZqamREd01HcGdjSnJJdFdRY3Bmd1BORGRuQUtxdDZNT3hKZ2R2NEsyb2dFQkF0aUtMQUUxejRxc3o4aGkwQ3poWWhrUVh2VWxBdkJEbzM3?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "1bec6ecc4e0296",
+     "date": "2026-11-10T10:40:25+00:00",
+     "titre": "Loi Darcos et IA, vers l’exil des data centers ou une solution européenne équitable - Atlantico",
+     "neuf": "De nouvelles analyses soulignent le risque d'exil des data centers face à la loi Darcos.",
+     "fil": "Conflit réglementaire français et Mistral AI",
+     "source": "Mistral AI (actus)",
+     "lien": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQOUQ4NjQ4dXFFU3FJUmpHVkk1VXZlTUZUSS1EUE8zUWs0aHVnTlRYRVF0Z0dXQ2pmTVhOakg3X0FYMkpOM3VwMzU2dzYxaVhURXE4NEY4elkxcWEwZ1lrYm5aeThjcTczaDdHakNRUVhZT0NuT1dLU3hsSkZRNXdFSGVJTFRET1VyZ0ZPRld0Q3NzbUlGdkN1enBGQktjRTEycUxCZHVhZHRIVEZlRUpZZEtYbDFpSE90UEtWSTd1YVZWVlcxUkw0cldhaUg?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "c43c512353aa0b",
+     "date": "2026-11-10T14:00:00+00:00",
+     "titre": "Mistral AI appelle les députés à enterrer la loi Darcos sur l’IA et le droit d’auteur - Journal du Coin",
+     "neuf": "Mistral AI monte en créneau en appelant directement les députés à enterrer la loi Darcos.",
+     "fil": "même opposition de Mistral AI face à la loi Darcos sur le droit d'auteur",
+     "source": "Mistral AI (actus)",
+     "lien": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE9PbDFpVTNXb0V6Rk12eEhwdUJlbTVtbXhrSjgxSG5vbGZ6NXZUaUdrSm54bWdfWkRWR3BOQ2Z3MjRFWVJ2U1dJNk5udw?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "eb9b69e59fc195",
+     "date": "2026-11-13T06:47:35+00:00",
+     "titre": "Mistral revendique le rattrapage des laboratoires américains et mise sur les services pour rentabiliser ses modèles - it social",
+     "neuf": "Mistral revendique son rattrapage technologique face aux laboratoires américains et mise sur les services pour rentabiliser ses modèles.",
+     "fil": "même stratégie de Mistral AI face aux acteurs américains",
+     "source": "Mistral AI (actus)",
+     "lien": "https://news.google.com/rss/articles/CBMiqgJBVV95cUxQbm9INV9ldEdrWFhZOERfOXpVaGcyQjdfcEEwbkVGRnVtTlBSeVFnSk1sRzF0Yl9HU3MzQjhLcE95cHFlb0ozN0JQajVxRU5HcE9CMWswQ1hSZ0dxelJXNzJyQU9rSnNoVnZvcjVpNUdCOC0yaURLOEsyUzE0Vks5d1NoUTEwRmZjeDN1b2EtMWc0Tk9NbDlvZGNXNXIxMUJFczRxdGstT3o0LVNmRXFZREo2alJzcG9JVTFQVXVQUWxidmtqbU5vY3I5cW9KNW5TTlIwZ0VSWk9YSmRnVk9hVkxwbms0TVZUektXaVFSdUZENnJ0OU5QOXVRaDBCU0tadmF1cW9JOUZvQlFKSWpVSlZ0TmpxWjlROF9rMUlOQjhZQVpYQjNIZFhn?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "f65d59bb71071b",
+     "date": "2026-11-14T08:03:53+00:00",
+     "titre": "Stratégies face à l'IA : cohérence entre Mistral, l'UE et la souveraineté",
+     "neuf": "Analyse de la cohérence des choix de Mistral avec l'Union européenne et la souveraineté.",
+     "fil": "même positionnement stratégique de Mistral AI",
+     "source": "Mistral AI (actus)",
+     "lien": "https://news.google.com/rss/articles/CBMivAJBVV95cUxOWDdJaXZ3Q2paQVNYU0ItNkFoN3FNbUJtMWxHVHgtV1BvNEFNVFVwcjlLaFg3UmFCWFoza056X1hIT011aG9fQzdGd2RMaDBwNVlEWDNKbFJBeHJKZDVqWUEySnV1Yktra1pDX0dqaG5OREtSaEpWTHRWYktiZGNxaGRtRm1SYV9oS2lWYWxPbjUycWxOaGxSTUwxUUJfcVAweFpteW4xbUtIYnRUazBhUWtNME1IeC1lemVzeXEwd0k0S041dmk1UWsyNUY0Y0hoZEFfSms0U1VDLTlUdXhSaG5McnZKS3poNk0weWZReUp4cG1MMkN5cDc5Q0lqRDBLeGNlbXVjNzF5YTJubG4zUnBZekM2THFfQ1hrLUVxU3B1WmllUi1DZzhqSnBtSndWaE9PcXdvcTZhSTRD?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "1f42f416ed94ad",
+     "date": "2026-11-16T13:42:47+00:00",
+     "titre": "« Instaurer une présomption d’utilisation des contenus culturels par les fournisseurs d’IA » : la proposition de loi dite Darcos et ses 110 amendements cristallisent les tensions entre Mistral AI et les industries culturelles - L'Usine Digitale",
+     "neuf": "La proposition de loi Darcos cristallise les tensions entre Mistral AI et les industries culturelles françaises.",
+     "fil": "même opposition de Mistral AI aux réglementations nationales",
+     "source": "Mistral AI (actus)",
+     "lien": "https://news.google.com/rss/articles/CBMixgNBVV95cUxNVVM2OXQ2b0FqWVU1MjF6TWF5X2xheDl1R0Zjbjd4MFNjY2FCS2dsZFk4eWpqV1NiVjdlbl9QZEY4N18zZHkzUFAzX1RycGJXV2hzQmFCTW8xTDR4OGhOVU9CQTBYZWRyUjRVa284NW1SR3I3NXZTVzM0ZkNLLW5uMlpyT0xvdWtFY0t4a3BKdWVrRGdrUUVseUtwYmVjUXFKdG5xNENyQUJocGw2V2lEam5BMlowYVo5M2tLSTlEaVlnUGZycndBSHIxSXZfTVJvMXhPYzlCV0FaRGJyclRNSjlfT3F6TzBWclNuV2V5TTBfVm9tZnY2eTg5MVkxbnBjZ19BR3dlWUlzR21sWGMtUlhfR3BtWXhlUGYzVGlKTTZYQlJUSDhvdWotQ0dWNVgtWDFrem5wbFJxczdnMjBfVHNieDRpdHNIc1hqaHJGSk5ELWFFZ3RoTm9pMHNsdEp5ODJtc3dmUHRFOFBCb0NPdVdLT3JiNzkxM1J2RVYzT2RRei1NZDlEQXFmZzdWeV84Z1FKcmNKUUdKYTdlYVhYUlRzYmVlalZzelJ4VGtTQXhtck5TZWdsT1BhX2w1SWRUOEZKcElR?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "1fad2ccd3bf4a8",
+     "date": "2026-11-17T05:20:00+00:00",
+     "titre": "Airbus décline son accord avec Mistral AI dans la cybersécurité - La Lettre",
+     "neuf": "Airbus décide de décliner son accord de cybersécurité avec Mistral AI.",
+     "fil": "partenariats et relations institutionnelles de Mistral AI",
+     "source": "Mistral AI (actus)",
+     "lien": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxNenlXelIwZ1JicjNiUWliT1QyUUdFeXkyRkRCVlF3a0JPclBua2YtTWtJeUhNUlRhYnJiRWgwcDNtT1lZSkJWRWNQMG1Qek5jcFprTjRPNjhFMHpHbG9DWmh5V3NXd1hyaEdOOHJra2VTbVJzc1RRTFZDRF9GZDRhaG1CUHdkb3hMdndQMWRTYWhJR3llSjV3eV95U09fVlZCczFVV2pmWUVVMHItbWhZX2dSXzhzbUpUWFRMbHM5VTNqU0NFMWN4b2N2enJiWEEwVW1vM2F6VEZrVm95Y3NfeW1jNmtTUQ?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "da4c85948f9519",
+     "date": "2026-11-17T08:30:42+00:00",
+     "titre": "Mistral et Macron réclament des milliards pour l'IA européenne",
+     "neuf": "Mistral AI et Emmanuel Macron réclament des investissements massifs de plusieurs milliards pour garantir la souveraineté de l'IA en Europe.",
+     "fil": "même démarche de souveraineté et de financement pour l'IA européenne avec Mistral AI",
+     "source": "Mistral AI (actus)",
+     "lien": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNLWFrR0dwNUh2Z0lIa2ZIY2RVbExGMzMycmJlbVVLNDN6UHVSVFZLWHVEWHZHaGRkRGEzNWF2dlNaZmo5VlY2ZldIdGc2RWZPdWpGTFU2Z2RuaU15Ql9MYnM3Z3JHbUJ6YnBOVkxNWFVHRDMtaDFQS2dHTHBUcTA5MEtvbGdhLVp4RV9VZG9lWWpiR1N6anQwWUdHUkoxWUxHY1BtY2FiWkpOcXRJYnJRWHNYRHdVWFdwRnhVcFVEdklvQlNO?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "06f0bb88f074f4",
+     "date": "2026-11-18T05:42:51+00:00",
+     "titre": "IA : le fleuron français Mistral se défend d’être « un projet personnel de Macron » devant le gotha de la Silicon Valley - Sud Ouest",
+     "neuf": "Mistral AI conteste publiquement l'idée d'être un projet personnel de Macron devant la Silicon Valley.",
+     "fil": "même stratégie politique de Mistral AI et relations avec Emmanuel Macron",
+     "source": "Mistral AI (actus)",
+     "lien": "https://news.google.com/rss/articles/CBMirAJBVV95cUxQU2Z0SC1fekJNSjFoNGpEcFBaT3gyS0JtR0F0NlpObldVa1ZzWExtNXRXQVE1dVFCYnV3MExjZXdwX1JlNjRBXzg2SWZ1Q1JaT19DU1JMQWVMdjhwdzlGZmJhMTFLRzl0UmdLbXd0aDJQSG5FUm9DWllJbDk3SGFqZ1BOMXg4elE0WHFZVGdpaFRuZkd5bTJUUGZUYW82OEhhRnh6eXFhWjNwT2djU3FDR3l1R1Brc1d3Tzc4c2tIRzRZNy1UWXBDanBsNDJwV0lrVDRpZDVuNXp1VVp5cTJuekRkSjktVnpTT2w2VmdXOUllTk1pNWtjZlJCZ29sRlhvZmo0U2xqTUdhcU90X1EtWEItU2o1VkgxWlNrdS14OHl4SklXbFZRejZNMGY?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "1278e174831ab0",
+     "date": "2026-11-19T08:18:47+00:00",
+     "titre": "Deutsche Telekom investit 100 millions d'euros dans Mistral AI",
+     "neuf": "Deutsche Telekom réalise un investissement stratégique de 100 millions d'euros dans Mistral AI.",
+     "fil": "même développement de Mistral AI",
+     "source": "Mistral AI (actus)",
+     "lien": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxPeWJ3TGFwekNWck16WTdERXhwUF9vcTdxUmh6WmZSdUZ6dl95c2dPUl9ZTUlwSEhUZGtxN0hMeUhJTVBqcjNFS2RQd00yajFwRzZFX2pacVJDa3pTX0g1VVUtTDgzVUY3ZEF2RndNMUNfRmliRlUxelFpUk84cUd3Z3Q2SkVrLWhWbmdIX3hhdGtjSnE1V0VKRmhuU1dIU0QzVkNBUW9HOXFjS0dxcUV1V3E5RzNQeTlRTnJ5V3ZiY3o2WkxWWGhoaEp3Vnh3V1FxT2ZLV0N5THR6X3BzMUFRSHZzNWtYY1phXzRpR3RDZVVUb2fSAfgBQVVfeXFMTW00WUQ1aU10S2pCaXpSZ3RybTRZNmpvc2tNZ3JBYjNpY3IxVmNidERVTVR6UlhXbkppVkZvUDNIVndyenZWdXYxWnNEZFZtdVZoSnNSMks0XzhBLUl0MVVicGVXWDY3blFDXzJKbGg2dUJ6aXJGYmdnc1dkQXRIR0Zja2tnMWl6RktZVXh3Mm9nNEtPMWJ6aE9uQWw1c3RNQllmRjhzZHhtRGVnZEw4a0dBbm01MFNBOEp0Um1PRUxGV3ZHM1EyaWNYalFGdXJSTm9Oc19lOGM2N3VQWFdNc2NGSTJJTEJ0N2VTNlBYX2R5LWJQbWhMNk0?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "10a4f4c4d459d3",
+     "date": "2026-11-20T14:15:00+00:00",
+     "titre": "Mistral AI implante son siège Asie-Pacifique à Singapour",
+     "neuf": "Mistral AI implante son siège Asie-Pacifique et un centre de recherche à Singapour.",
+     "fil": "Expansion internationale de Mistral AI",
+     "source": "Mistral AI (actus)",
+     "lien": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOVUY0bFI5WGZwYk1oOEh0WWpYWDV2NFFaSWNmS0l6cXAzOV9PLWNOUDR1XzN2cWFyNktyekVESVFpOFpPQi1FTC1jeUItWFpQRWdHZkVXdVJpd2NHb2dKMFN6ak1RTjBUcnBUZ2xBd04tSFQxZnB2bDBsTVl6UVV1SjRIX2xHZ1Y2NkJLMlRud0Q3emc?oc=5",
+     "nb_sources": 2,
+     "primaire": false
+    },
+    {
+     "id": "581bfb2ad0578d",
+     "date": "2026-11-20T15:02:29+00:00",
+     "titre": "OVH, Scaleway, Mistral... Comparatif des inférenceurs souverains d'IA - JDN",
+     "neuf": "Comparatif des inférenceurs souverains d'IA incluant Mistral, OVH et Scaleway.",
+     "fil": "Positionnement de Mistral AI parmi les inférenceurs souverains",
+     "source": "Mistral AI (actus)",
+     "lien": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPeWRPR29qRHdCc0ZhUk93Mjg3YnQ3bjdDbkxzWEN5WXExcDFmcmtxc2ZjR19oNUo0OTluNUhvcl9SMTkxTGljTkRpNlhhYlNmRFk0TVVPVlIzemZBSml1N0d2MGw5SXBwRHNTMnVKSy1nT0liWENPbjBzVEJ6cXdxUjVERkUyNXRmNk1WU2x2eVhPMVRHMTQ3ZVl6V0ViWS1YMWxLdWljVGtEcnlF?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "80c39f389b2911",
+     "date": "2026-11-20T15:33:26+00:00",
+     "titre": "Mistral : Deutsche Telekom investit 100 millions d’euros via T.Capital - Ecran Mobile",
+     "neuf": "Rappel de l'investissement de 100 millions d'euros de Deutsche Telekom via T.Capital dans Mistral.",
+     "fil": "Confirmation de l'investissement de Deutsche Telekom dans Mistral AI",
+     "source": "Mistral AI (actus)",
+     "lien": "https://news.google.com/rss/articles/CBMidEFVX3lxTFA1TkdZblcxMzF3dmpwX0xrOFc1UUVJVW1DRmUzb05RRU10WFhnZlJZZk1OM2NTVERrMXUxY2Via2xLR0ppYTJXcjRFazFpOFdHVUdqYms4MzlNWFR2WGdCcEQzZ3I0bHpHV0p4d2l6NXFKZThx?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    }
+   ],
+   "statut": "active",
+   "societes": [
+    "mistral",
+    "huggingface",
     "openai"
    ]
   },
@@ -5209,630 +5899,6 @@
    ]
   },
   {
-   "id": "h_c4961b9682",
-   "titre": "Contrôles de la Chine sur l'export d'IA",
-   "resume": "Les restrictions américaines sur l'exportation de puces IA connaissent des rebondissements avec l'approbation controversée de ventes massives vers la Chine, incluant des entreprises liées au Pentagone, malgré les efforts de contrôle.",
-   "creee": "2026-10-20T09:56:16.457937+00:00",
-   "maj": "2026-11-19T23:46:03+00:00",
-   "episodes": [
-    {
-     "id": "751a7e7d96a765",
-     "date": "2026-10-16T07:00:00+00:00",
-     "titre": "La Chine dévoile un projet de contrôle des exportations d'IA et de puces",
-     "neuf": "La Chine publie un projet de réglementation spécifique visant à encadrer l'exportation de technologies d'IA et de puces.",
-     "fil": "Projet de contrôle des exportations d'IA de la Chine",
-     "source": "Contrôles à l'export IA",
-     "lien": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQZFJrS1d0QjRNNDFCeDlGc2x2cHJhTWN6SEJtWjFucjRFWnc2LWlUMFFMbjFuX3BOWGpJcVhLdnVRRnFjaUVpRXh0UHNQcWl6UkF3clZ3VExPc1dVX1hvc2o4Tnl3Mm15VE03Y1h6NHJzU3hnUmlFWlpha0hkeElUaUg1SFY?oc=5",
-     "nb_sources": 1,
-     "primaire": false
-    },
-    {
-     "id": "312d9d2bf59580",
-     "date": "2026-10-16T18:18:10+00:00",
-     "titre": "La Chine prévoit de durcir ses contrôles sur l'exportation d'IA",
-     "neuf": "La Chine planifie un renforcement de ses restrictions visant les modèles open-weight et des technologies clés.",
-     "fil": "Contrôles à l'export de l'IA par la Chine",
-     "source": "Contrôles à l'export IA",
-     "lien": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPdU1Eb2ZqTHBnQlJISXdubUVnNHZLTXJOLXlpdDI3cFlRWjZLOUpWRGpCTTgwTmZZZk1ydlRSQnVnV29sZTJwSF9LOWxnbktBejZYeGhpN1lINUxEVlRDb2xON2JJekdvdXo1dzB2VzBjOV9TR3NzSF85Z0dYc0N1NzVhWU5OU3kyZTNHSEE2ZFljX1RJdFFyWXBHdmExekZ2X0tPTUI5U1AzRUxWWkl6MENR?oc=5",
-     "nb_sources": 1,
-     "primaire": false
-    },
-    {
-     "id": "4c1e5451ed96c6",
-     "date": "2026-10-17T12:00:11+00:00",
-     "titre": "Impact des interdictions d'exportation d'IA chinoises sur les technologies à poids ouverts",
-     "neuf": "L'examen s'élargit à l'impact potentiel de ces interdictions sur l'avenir des modèles à poids ouverts.",
-     "fil": "mêmes projets de contrôles à l'exportation de l'IA en Chine",
-     "source": "Contrôles à l'export IA",
-     "lien": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNbXBIUWJVblVDTjRuV2xFYlJPd3E1bE5jdlVENVd1ek9CQjBleGJCTkItcERIT296NDNkcjQzMmJneU9RbDB3WWZrM3FBSHJvV0FjTmRWVUhHaXBQdHB6UDJuUTV1LXNwSnlqeW1hODZaclliY2pkN2FNcVA1R0RVNlNBMjRxWEQ4N3ZKNVhETGhpNHE2NUxVcnlicUtnNmpEVFdTMFNwbENtYUZkMThLX1h0czNNSDRoYlVyLVNXa2xoVVNDZFZOT1FuWTFhQmpuSVBEWjBn0gHWAUFVX3lxTE9kTHd4Z0laNEp1endfeXl3Tnlad1N4TGpDWWRCVHBRVGU5SWp6RS1EaWtOSHZxczdzeE5nSzhJNmhtbjVCWW9pOHBINHQzR2R6STBOTG1DalFtcWktSjEtbG9yTmFFY1liZnR6Y1FGZTFvcURSY1lKeFdJdk9OUmRldENHeUhBZXN4S2Vra0VPdG50VUg0cmtxTm51R1BJUlQtWXZaemtnWndzY19EWk9WczU2b2RiME1UNWFIdDZKeWtnSmlnSWJONkEwbUx0dVNzdUI2OGc?oc=5",
-     "nb_sources": 1,
-     "primaire": false
-    },
-    {
-     "id": "f16f6a62981a38",
-     "date": "2026-10-20T10:30:00+00:00",
-     "titre": "Pékin restreint l'export de technologies d'IA sans toucher aux API de DeepSeek",
-     "neuf": "Pékin officialise ses restrictions sur l'exportation de technologies d'IA tout en préservant l'accès international aux API et modèles open source de DeepSeek.",
-     "fil": "mêmes restrictions de l'exportation de technologies d'IA par la Chine",
-     "source": "ActuIA",
-     "lien": "https://www.actuia.com/actualite/pekin-veut-restreindre-lexport-de-23-technologies-dia-sans-toucher-a-lapi-de-deepseek-et-qwen/",
-     "nb_sources": 1,
-     "primaire": false
-    },
-    {
-     "id": "5bd5883a528400",
-     "date": "2026-10-21T13:43:39+00:00",
-     "titre": "MOFCOM's New Rules and the Future of Chinese AI - ChinaTalk",
-     "neuf": "Nouvelles analyses sur l'impact à long terme des règles du MOFCOM concernant les contrôles à l'exportation d'IA en Chine.",
-     "fil": "MOFCOM's New Rules and the Future of Chinese AI",
-     "source": "Contrôles à l'export IA",
-     "lien": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBOREZsUnBob1FqbWpTTW1EMUE3TkN2Zmg4VUJrbE9KbDN5MUdWWFltczkwQWVpT3JlTlFtY1RqRFNtQkR2SDR4RkhiaHFmUVpabnJURS1kVVVxSUhpNll3?oc=5",
-     "nb_sources": 1,
-     "primaire": false
-    },
-    {
-     "id": "4be15d91491dd9",
-     "date": "2026-10-22T14:27:36+00:00",
-     "titre": "La Chine s'oppose à l'interdiction de DeepSeek par les États-Unis",
-     "neuf": "La Chine s'oppose publiquement à l'interdiction de DeepSeek par les États-Unis tout en préparant ses propres mesures réglementaires.",
-     "fil": "contrôles à l'exportation et position de la Chine",
-     "source": "Contrôles à l'export IA",
-     "lien": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPeXRNeUp2UzVnTlhiZXJNZENRTmREWWMxVFYyLS1IdndIX2pqU19PSW1SdDgtLXEtb2hVZ05BS1NlV3gxdlNZc1J3enBiY1ktZEZidmFsTVJfVXBpcU9kYTR1VUQxYVpWSm8xTHZCd09pMzRpWHdIcElkNHpBR2ZreWZldmZGNVpSd2FCTms5bGhtX0FDNURiWVRn?oc=5",
-     "nb_sources": 1,
-     "primaire": false
-    },
-    {
-     "id": "75f0d8b919659a",
-     "date": "2026-10-22T17:07:31+00:00",
-     "titre": "DeepSeek et MiniMax valident les règles chinoises d'exportation d'IA",
-     "neuf": "DeepSeek et MiniMax obtiennent l'autorisation officielle pour exporter leurs modèles.",
-     "fil": "même application des contrôles chinois sur l'exportation d'IA",
-     "source": "r/LocalLLaMA",
-     "lien": "https://www.reddit.com/r/LocalLLaMA/comments/1xcoelw/deepseek_and_minimax_clear_chinas_ai_export_rules/",
-     "nb_sources": 1,
-     "primaire": false
-    },
-    {
-     "id": "8d092d29f2024b",
-     "date": "2026-10-23T07:10:34+00:00",
-     "titre": "DeepSeek et MiniMax obtiennent l'approbation pour un usage mondial",
-     "neuf": "DeepSeek et MiniMax reçoivent officiellement l'approbation pour l'utilisation mondiale de leur intelligence artificielle dans le cadre des contrôles à l'exportation.",
-     "fil": "même approbation pour l'utilisation mondiale et export des modèles DeepSeek et MiniMax",
-     "source": "Contrôles à l'export IA",
-     "lien": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPZUxoTk9BS0J1SUxMSzJCSGpQMl91ZTlfTzk0OE5EdFp4REZRV0EwRUk0ZlU2MVBzcmVuN0VlOWNpaXQxOFd4RWxVc0pKajdYUHNDT2JSRXlERmxDLUZucEtmNTVKNEo3Z09vdVN0U3VhLTNZck5uelFGOXVkZnd2bHFLN1VhaFZ1MFNxVGZFeXpCdV9SZk5Sa0N2NVlPWmsxSzlLTHF3U3I5TDhNcTRLWER4dmRkRjVXQXc?oc=5",
-     "nb_sources": 1,
-     "primaire": false
-    },
-    {
-     "id": "f3d45600f3b941",
-     "date": "2026-10-23T10:22:30+00:00",
-     "titre": "La Chine propose de nouveaux contrôles à l'exportation sur l'IA",
-     "neuf": "La Chine envisage d'instaurer de nouveaux contrôles formels ciblant l'intelligence artificielle, les sciences de la vie et les technologies photovoltaïques.",
-     "fil": "même politique de contrôles à l'exportation de la Chine sur l'IA",
-     "source": "Contrôles à l'export IA",
-     "lien": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNVWtCTld5UTJnajEycGpGcEF6NWFBNGhmNlowYkJNVXZEZDF0WG5zdG5FNVBXdXZ1NmppTnI5Vi0zSmVuTHFRSEN0Vk5kU2RnZFVjbFVnaWltZzFUb1hCQ0pLY1lBYnl2eDlJYlFkOU1QX3dmV1ZJMGwtcUtWeGNkVHRjU1dkLUFGVDB5RVc0OFktUnVOZlBudV8zOTJNNFRXYXpFMnhoTGNKSTFlQTRhWUVnbG1BX1I5Mm9Wcg?oc=5",
-     "nb_sources": 1,
-     "primaire": false
-    },
-    {
-     "id": "b410f5938b6955",
-     "date": "2026-10-23T19:18:13+00:00",
-     "titre": "Nouveaux contrôles à l'exportation de la Chine sur les drones, l'IA et les terres rares",
-     "neuf": "La Chine officialise et élargit ses restrictions à l'exportation en y incluant l'IA aux côtés des drones et des terres rares.",
-     "fil": "nouveaux contrôles à l'exportation de la Chine sur l'IA",
-     "source": "Contrôles à l'export IA",
-     "lien": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPbmk4QjFka2xrVXpDR3RpbkdSOXhZX0kwQXJEclNndGlxa29RVVNQOS1oQl9WcFdVWkdwd1VDd3ZPOXZKRXpXZ0NjRmRTZjdGYjJaZjc5TGhNQ2VIX2NJTGJlX2NjQVVFUFBLSzhWZGdhelFXT1U2c2stVnhfVnRhWjVTeTA?oc=5",
-     "nb_sources": 1,
-     "primaire": false
-    },
-    {
-     "id": "6c0cc7da9615ae",
-     "date": "2026-10-26T12:00:00+00:00",
-     "titre": "La Chine propose de nouveaux contrôles à l'exportation sur l'IA",
-     "neuf": "La Chine propose de nouveaux contrôles à l'exportation ciblant l'intelligence artificielle et les technologies biopharmaceutiques.",
-     "fil": "Contrôles de la Chine sur l'export d'IA",
-     "source": "Contrôles à l'export IA",
-     "lien": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQQUluM3JRMHRybHBfX0VRX2dPMTRaVEpldTJSMVo5RURBQkYyMzVZOFhTaDU2NmE2dEdEZmNsSzdLWmhQTHd0VnE3c1NEa3pfMTIyRnRCY0xIMk0zaVhNT3hzVkF0SWxqNzg0eklBTEFVZDE2NmhhVzhpemxndC1vN3V5Y1V2blFLM0t6c2h1bXRobUhPM1VDMWlxb0VTT0dBUnJrVWg3eTFGUTNRTlJRM0M4eWdrY2EtOVF3VWU3YkdrdUU?oc=5",
-     "nb_sources": 1,
-     "primaire": false
-    },
-    {
-     "id": "f1c6375f91964e",
-     "date": "2026-10-28T07:22:16+00:00",
-     "titre": "La Chine instaure de nouveaux contrôles sur ses technologies d'intelligence artificielle",
-     "neuf": "La Chine officialise de nouvelles restrictions concrètes sur l'exportation de ses technologies clés en intelligence artificielle.",
-     "fil": "Mêmes contrôles à l'exportation et restrictions technologiques de la Chine",
-     "source": "Contrôles à l'export IA",
-     "lien": "https://news.google.com/rss/articles/CBMingFBVV95cUxNd2xfamMxTE1YUUxMbmJpWG1teVNZRWFpRGktWngtOE1VMFJ3UmNYLW9jdHBSMUZ4c0FuMF9ZX3ZSa3NNU0lJMEZBbjgwR0ZPb004MmNiMUFfYV9FOEJWNlc1OWtXMGdMb1I0VGsyOXFNRHhYUE1WNUI0X085d0Jvbm40cTNLSWRkQWcyNzJ2Vy0zWHF3VU10QmxIN3Uydw?oc=5",
-     "nb_sources": 1,
-     "primaire": false
-    },
-    {
-     "id": "e2cd2186d6edbf",
-     "date": "2026-10-29T04:51:43+00:00",
-     "titre": "La Chine liste 40 technologies liées à l'IA pour ses contrôles à l'export",
-     "neuf": "La Chine formalise précisément une liste de 40 technologies liées à l'IA soumises à ses contrôles à l'export.",
-     "fil": "Contrôles de la Chine sur l'export d'IA",
-     "source": "Contrôles à l'export IA",
-     "lien": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNMmwtT0hEdmRudnBqV3Y3RTB2ZjcyZXVuWlFXTk1KUTBhc3htd0EzQXdObW01NE9iTGNBUnY5QWlmQjhzQlREWlh3SkdteDJ4WkVZbnVBbmJwY0ZKdkRnR2FmS2p2N1pmRl9RWmdGOVdxNk40Q2dNZWUweGJvd3JSNzRtOEN0RTQ?oc=5",
-     "nb_sources": 1,
-     "primaire": false
-    },
-    {
-     "id": "108d0302d46bee",
-     "date": "2026-10-29T15:38:41+00:00",
-     "titre": "Les discussions UE-Chine sur l'IA menacées par les sanctions et le contrôle des exportations",
-     "neuf": "Les discussions entre l'UE et la Chine sur l'IA sont menacées par les contrôles à l'export et les interdictions visant Huawei.",
-     "fil": "même politique de contrôles à l'export de l'IA par la Chine",
-     "source": "Contrôles à l'export IA",
-     "lien": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOVmdiNkZjcnFIOE5OUDN1SXBPSk1TY3JxQVNfZWpxdUh6WUJURHlPOXdSUldDUXRZYjU5VVFHNzdBOUFkVl9TcEQ2SUkwTmVCSDQ1b0N6cDNGZFhZdzhxeDBKOVQ0ckJaZG9welpMdU55OU1QM3J6WWlOOV9XSnhWXzNKMXNNYkpzakRCVWtUd3ZjY2stYUxodjJYd2VsdFk?oc=5",
-     "nb_sources": 1,
-     "primaire": false
-    },
-    {
-     "id": "0a373e5a677d47",
-     "date": "2026-10-29T19:24:00+00:00",
-     "titre": "Contrôles chinois à l'exportation sur la biopharmacie et l'IA",
-     "neuf": "La Chine étend ses restrictions à l'exportation à la biopharmacie et formalise de nouvelles obligations d'enregistrement.",
-     "fil": "Renforcement des contrôles chinois à l'exportation sur l'IA et la haute technologie",
-     "source": "Contrôles à l'export IA",
-     "lien": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPSUo4UFR4b0ZicWJVclJDRkJERElfaUw3aGlJdkpzZUNKLW8yal9lYzBCRzVZQWlJbzZKVHB0ZnRZekU5dFVlbXNIazl4UWFzSjc4LTF5V1R3NVJUaTY4V1IxUmFFSWdtdDJTX3hDMDBqYWhYOEt3aXlDWVhQeWlzOVo5aFFTRjJHSVZ2WF9IM2pHa2hMeGdCaVVRMVpjT0ZoX003Sk1WM0lya2F3NGNYSzB1VGROYW_SAbwBQVVfeXFMT1ZocURFS1JoTlJTZjlVS2lUZnA1S2F0LTBId2NYc0Q2RGVDMzNmb0p4ZGlBUk0zU0wwajBONzkwYlB2ZFpKY0VBQmNGME1JZVhvcDl1RkIyeHdKbjhGY3Q0UW01c1M1aFZsNDYyQVNRVVhmRTlxcllMbm1wVnVHZVZNQjJGVGQ1S3dEakdnYzFqZmtPMTZEeGFpdHFFU3BMZVp6ZTlVcmtMM09QQTFfcVEyOWJKWkNDTmoxbGc?oc=5",
-     "nb_sources": 1,
-     "primaire": false
-    },
-    {
-     "id": "26057c2cdf5d5b",
-     "date": "2026-10-30T13:00:30+00:00",
-     "titre": "Les contrôles à l'exportation de l'IA vers la Chine se retournent contre les États-Unis",
-     "neuf": "Un article de Forbes analyse comment les restrictions à l'exportation de technologies d'intelligence artificielle vers la Chine finissent par se retourner contre les États-Unis.",
-     "fil": "mêmes contrôles américains et chinois sur l'export d'IA",
-     "source": "Contrôles à l'export IA",
-     "lien": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPbmJXb3A1dC1LQ3hxU3FjdFR6SldXcDNhV240bVU0OGdIdC1YZGU1R3Z4YllXOHhSUG1zNW84T3lhYTZNYjBPTGYxM1JKSDhpbXBtazZqT25KWnZRbXdDenRiN1MwdWE0M1liUVRUelJSanBBVmt5aDB4QTJ3TE15cVpvR1J1Qmp1QTFnS3R2T0s3SW9zcmIzNk5uYnRFYU5qbUpRZ2xuSFlaQUlfOGlJamxhc2M0WlU?oc=5",
-     "nb_sources": 1,
-     "primaire": false
-    },
-    {
-     "id": "93944751f16433",
-     "date": "2026-11-01T22:22:50+00:00",
-     "titre": "Les contrôles américains à l'exportation favorisent les centres de données en Asie",
-     "neuf": "Mise en lumière de la manière dont les restrictions américaines stimulent paradoxalement le développement de centres de données en Asie soutenant l'IA chinoise.",
-     "fil": "effets des contrôles américains et restrictions à l'exportation",
-     "source": "Contrôles à l'export IA",
-     "lien": "https://news.google.com/rss/articles/CBMitgFBVV95cUxONTBYdUoxSTFKcTdFdDNMVnJiZ0ZKd3IyLTllNDFNWnN0SnA0OUVaTnpKVmpCNkNPRmh4bC1rVU5xTGNKRXBJMzI1eE1HRm5XSEhvbXVSbVhHa2QxdmNkU3RheENjc1A0QS1BOThKRHV3YVUzeFNhdHE0Q0lIQi1NcEdmZlF5V0Mtd2s2X0IybWZBUDZ0Qy1ReHh2NTdnYWVvR3I4T21yR0RNRXVXenp2djdSZGpZQQ?oc=5",
-     "nb_sources": 1,
-     "primaire": false
-    },
-    {
-     "id": "4e84ca416d4f3c",
-     "date": "2026-11-02T07:27:28+00:00",
-     "titre": "China's First Frontier AI Export Controls: Mofcom Announcement No. 48",
-     "neuf": "Publication formelle de l'annonce officielle n°48 du MOFCOM sur les premiers contrôles à l'exportation d'IA de pointe.",
-     "fil": "même annonce sur les contrôles à l'exportation de la Chine",
-     "source": "Hacker News (IA, 100+ pts)",
-     "lien": "https://labs.cloudsecurityalliance.org/research/csa-research-note-china-ai-export-controls-announcement-48-2/",
-     "nb_sources": 1,
-     "primaire": false
-    },
-    {
-     "id": "08d3275f208695",
-     "date": "2026-11-02T16:48:44+00:00",
-     "titre": "Mistral AI met en garde contre les contrôles américains et chinois à l'exportation",
-     "neuf": "Mistral AI met publiquement en garde contre l'impact des contrôles à l'exportation américains et chinois sur l'IA.",
-     "fil": "mêmes contrôles à l'export d'IA",
-     "source": "Contrôles à l'export IA",
-     "lien": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQR09RZnFJQ0hxcFNhSmRCYU1ha19rTTUyLUlVNjFHQVdYa2k0RDNLdjhiOXp2U1JkRWczYnVLRm5hU0xhXzRueVgxaE1tUUhtU0hlMTRiaHVQcTRGRzlfS09aa2NueWVVRVRtYkNoNHdRRloxeHZ3YUlnN0VkeWFPLVd6aW1xUEk3UUE?oc=5",
-     "nb_sources": 1,
-     "primaire": false
-    },
-    {
-     "id": "6d1ba7598ece9e",
-     "date": "2026-11-05T02:28:00+00:00",
-     "titre": "Les restrictions chinoises sur le tungstène pèsent sur la chaîne d'approvisionnement de l'IA",
-     "neuf": "La Chine impose de nouvelles restrictions sur le tungstène, pesant sur la chaîne d'approvisionnement de l'IA.",
-     "fil": "même dynamique de contrôles à l'exportation et restrictions",
-     "source": "Contrôles à l'export IA",
-     "lien": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPQnEyQk96aEtwdE9fVVhzYlJkWW1oU1VVbVdNRW5IWjY4YVdXRFFaR040dEh0ZjlqWWo3U2c0NTNyQ2RIRmhudkhUem1uVzRWT2Nqdk1WbmVNM05haGtjZk91UUhXclJiOVFLREJMWV9Tb2FfdUdHQU1MeG43NjdjTlAweENBOHN6SDg0T0NfTjJacnVFU1Rjcm1id0MxZW12RGtuS3ZYTHpoT0JmWHdsM0I2dTM1Zw?oc=5",
-     "nb_sources": 1,
-     "primaire": false
-    },
-    {
-     "id": "9ae99e0851b474",
-     "date": "2026-11-05T03:35:25+00:00",
-     "titre": "Commentary: AOI locks in China's InP substrates for AI optics, but export controls threaten supply - digitimes",
-     "neuf": "Les contrôles menacent la chaîne d'approvisionnement des substrats en InP pour l'optique IA.",
-     "fil": "même cadre de contrôles à l'export",
-     "source": "Contrôles à l'export IA",
-     "lien": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNd3NsRU4wYl9DaHJOMWpzTHRCVXJ6cmdBNUFqX0phbzFNTk9kQzRXN1Blc2t5aW5USjgxMW5VTG1LZzJ6a0lpTVhNREJtOTd1eUtUWVNZa2V3YlFET3ZWSVExTWFyZ2Q4TURpT2NDeWtFdTNYb09vYVFZcWprdngtTzZCY3Vka210WnJWTmZTUlBSNTJJOC1nWnBObHNwb00?oc=5",
-     "nb_sources": 1,
-     "primaire": false
-    },
-    {
-     "id": "f631e812b043a3",
-     "date": "2026-11-09T00:39:39+00:00",
-     "titre": "Impact des sanctions américaines et du boom de l'IA sur les ventes de semi-conducteurs vers la Chine",
-     "neuf": "Un rapport analyse l'impact combiné des sanctions américaines et du boom de l'IA sur la baisse des ventes de semi-conducteurs vers la Chine.",
-     "fil": "même politique de contrôles à l'exportation et sanctions touchant la Chine",
-     "source": "Contrôles à l'export IA",
-     "lien": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQZV9WQU1SQVNZNUJzRHVWNWZmT3pTY0Jfdy1PM0xKLTRWVkYtaVQ0SEkzN2FfaFJRZUpzM1lFd0RTZFp5TUl2U0pDRTR3TFpyNnMtOUpaZEFDczNoanRPSDU5dlEwdVROSFhzYjBZLXU2SmVvb0Y5cFFtRm9TaVRHMTBNcFNJSjRu?oc=5",
-     "nb_sources": 1,
-     "primaire": false
-    },
-    {
-     "id": "bce6f7645abff8",
-     "date": "2026-11-09T16:25:00+00:00",
-     "titre": "Chute des revenus en Chine pour les fabricants de puces à cause des contrôles américains",
-     "neuf": "La part des revenus en Chine chute de manière marquée chez les quatre principaux fabricants d'équipements à cause des contrôles américains.",
-     "fil": "contrôles à l'exportation et impact sur les fabricants de semi-conducteurs",
-     "source": "Contrôles à l'export IA",
-     "lien": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9pYjc5YnljSWI1aXlJM0EzMlo1UGdWRDdVS2dneU9VQlV5YnpLR2dXMXhKMFdPNGd0QVZSREtsM1k0ZWU3RGptQ3ZIZFRSaUJkRXhmM1Q2VzZDZmVFa3NUYTNEd3ZvenJaWWlaVHZhMDFQNzRsVkE?oc=5",
-     "nb_sources": 1,
-     "primaire": false
-    },
-    {
-     "id": "6e9fe8d1be9102",
-     "date": "2026-11-11T05:10:25+00:00",
-     "titre": "Chainalysis Report: The On-Chain Shadow Market Behind China’s AI Large Model “Distillation Wave” Circumventing U.S. Exp… - 深潮TechFlow",
-     "neuf": "Un rapport de Chainalysis détaille le marché noir on-chain lié à la vague de distillation des grands modèles en Chine pour contourner les restrictions.",
-     "fil": "Impact et contournement des contrôles à l'exportation en Chine",
-     "source": "Grandes annonces IA",
-     "lien": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1vT3l2UWttbkVPTzhSNXlCd1paaVkyQUZfV1AzME94dzR2aU8xZGRpamlRaWlLY2NydU5YMFNJWnNQQ1pBcUxfUzY2VEd4WlFCVnRDLXN3LXRkTFhS?oc=5",
-     "nb_sources": 1,
-     "primaire": false
-    },
-    {
-     "id": "2406bb30d2d220",
-     "date": "2026-11-12T05:31:00+00:00",
-     "titre": "Ruée des entreprises chinoises sur les puces Nvidia par peur de nouvelles restrictions",
-     "neuf": "Les entreprises chinoises se précipitent pour acheter des puces face à la menace imminente de nouveaux contrôles américains.",
-     "fil": "mêmes contrôles à l'export de puces Nvidia",
-     "source": "Contrôles à l'export IA",
-     "lien": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPc1EtU18tWjZNZTZtOFBZNzdqZkRFMk1nbm9MTm9VWUQwUHlLc1dTdDNLWmNCcllESHVVYjFnXzlKcFJrSWpHUkY2S1lhcTFtWWdPVG9WdkcyTkFSaEpLanVzeWctM1hCTkdxUEJ6VnBrLXFYVnBsalpKUkJVUGQyUE5DOEJtaTctZlFEaV9VR1loQ1JrVlhyRmRxR25UMkI2MVgtZnBFU1pVaXhBcmw0ZV9jb0RPYlduY1ppbnpCTlc?oc=5",
-     "nb_sources": 1,
-     "primaire": false
-    },
-    {
-     "id": "558ebe3dde7ced",
-     "date": "2026-11-12T10:34:25+00:00",
-     "titre": "L'industrie indienne se prépare à de nouveaux contrôles américains sur les puces IA de Nvidia",
-     "neuf": "L'industrie indienne se prépare à l'impact de nouveaux contrôles à l'exportation sur les puces Nvidia.",
-     "fil": "Contrôles américains sur les puces Nvidia en Inde",
-     "source": "Contrôles à l'export IA",
-     "lien": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQczNZX3poeEhrVVhieW9hTEVIZGtMQ2ZnMURDSmk4MTR6NVJ4cXo2Qm4zM1VxYUNCRnhhazRqSjlTT18tNlpZRVNGeS1hNEl4elduWG1xUFZfRm1XU2dvU1lIT1FlS2F0UWIxazZYMXh5ZXkxT3lMNzA2RzF6MjdlZlMyZTRvWXlQVENjZWdhdURYdzZZMjZhWmUtLUlTbWxjUDF3a2huUWVKM0g1VGlwWXFFc012Q3FtUnhlTDhydHpfbUJpakFBRGFXX05JcktoOFRSWGF5STbSAd4BQVVfeXFMUDFVSmtTOXRHd1J5bHk2OHFrYjJmU0diQTFmQ0ZXSHZDcmg0dDJtcXR3bWJDaDUwUlBEZWZ1czkzTWNab2NidzgyR0JLWkpfY0s1R1RyM1FtNWRUaFlDdEN4OU1NNW9MUjJlanJHemJJdXJGc0VsSzZJQXpGTkxwMmdVXy1peEJzMWh5LXQ0TktSMEVEWV93MzQ4S1VXVmpibUcycDByaDZ3aEdfemdfZWdLTUFCMkZZMlpCYnZYa1NYOGNPTUh4STNfVV9Ha09TVzhseXppWFhHVVpYeEZR?oc=5",
-     "nb_sources": 1,
-     "primaire": false
-    },
-    {
-     "id": "90675ed774cc7f",
-     "date": "2026-11-12T14:35:00+00:00",
-     "titre": "L'accès de la Chine aux puces Nvidia menacé au Congrès américain",
-     "neuf": "Les restrictions sur l'exportation vers la Chine gagnent du terrain au Congrès américain, menaçant l'accès futur du pays.",
-     "fil": "même politique de contrôle et de restrictions sur l'export des puces Nvidia vers la Chine",
-     "source": "Contrôles à l'export IA",
-     "lien": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQOFBGZG9jUFFjX0tFY2tXSEVILWxGWU1rMzBvT1pTcUpqa2tEdEV0QWRybENzel9tU3hIQVhmTngyY3VGRGZZeGtCWDhEWm1oRXBzVWlGRnhwRzJrd0Z5bGZhUi1STHFLdFdLVnhoRUxMOW42MkNSSjNZX3JQR0o3OVpBSE10bE1kekw3OVVXYXVub0NzekN5NE4zb1JpRzB6Zjl2V1pTWFEteUQ1Q0hxd2lhLV9JLXloLVJqbWhUQ1pmN21H?oc=5",
-     "nb_sources": 1,
-     "primaire": false
-    },
-    {
-     "id": "b547cb56894482",
-     "date": "2026-11-12T16:40:00+00:00",
-     "titre": "Les failles de location contournent les contrôles à l'exportation des puces IA vers la Chine",
-     "neuf": "Mise en lumière d'une faille majeure liée à la location de matériel pour contourner les restrictions géographiques.",
-     "fil": "même problématique de contournement des contrôles à l'exportation de puces IA vers la Chine",
-     "source": "Contrôles à l'export IA",
-     "lien": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxOcVBHUjEzWXdGbmVIUHBpd3EtaWluWVVmTXZ6ZmRHY3FoUlBqWUllV3REM3g0VmJFMXVMVG1TLW5BZnVvcHowYWJxcHZwYzR1ck05UXJyXzEtcFBaT1N0UTNKdG5BeEo0VC0yZmlXOEtxWW01aFlqM1Jjb1hYaUc3X3hPa2M4NjRkTEdmMWJtcExzZmJITTREeWU5SWV3S2k0a05kRTNTb3ZKSmlSTEliaU9tTW51UGNHY3J3eVdrSlZiZUphcWN0aDBQdHpzc0ZRWUxzM0FpY2hJZ1J5QXc?oc=5",
-     "nb_sources": 1,
-     "primaire": false
-    },
-    {
-     "id": "ea4835e9d24a36",
-     "date": "2026-11-12T19:18:00+00:00",
-     "titre": "OpenAI soutient des projets de loi sur le contrôle des exportations de puces",
-     "neuf": "OpenAI indique officiellement au Congrès américain son soutien aux projets de loi sur le contrôle des exportations de puces.",
-     "fil": "même soutien d'OpenAI aux contrôles à l'exportation",
-     "source": "Contrôles à l'export IA",
-     "lien": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxQXzExQUE1b1ZBMWxtaWs4ejNQSi1qaDVEdjkzVU1rbkttbHMxNlp0UGdOZGpZQnhITmxkUlNxZk9fZXNoSk02UW1OSS1Ua3NQNmJRRnZvdW5udzBGUXVvQ1dUU215c0VJdVptNnBCMFZtdjN3b2lQQTg4bVRIVE1QbDEzR1dLUWdVUE5IbEN1UmpGQ25nTHdHTGNGLWNjSVl6RFlXdjFXdHJxMDVNdzk2c3V1V29wbEtBZkg4UHpUSFAzc29HcnR6RHU1ZzFwbGc5WkRTUXNhVHBTQmM?oc=5",
-     "nb_sources": 1,
-     "primaire": false
-    },
-    {
-     "id": "3fa5f2e4eb8f2a",
-     "date": "2026-11-12T21:35:58+00:00",
-     "titre": "OpenAI Joins Groundswell of Support for AI Chip Control Measures - Bloomberg.com",
-     "neuf": "OpenAI se joint au mouvement de soutien en faveur des mesures de contrôle des puces IA.",
-     "fil": "soutien d'OpenAI aux mesures de contrôle des puces IA",
-     "source": "OpenAI (actus)",
-     "lien": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNMmJ4OENGS1F1RWpJNzlmVHhSZjVvYlZVWnh0YmRKQ2oxSUlicjdzcmMwZ1pBZFJZaG1lX0FXUXl3S01CSTdROHhTdTZ0NjNvei1lLVVqaUpTcEstQlYxRE84alZ6azFYMkR4QU5XakE2VFphTjQzXzVBRjRIM19pWGtad2p6aFNzRFNpb1N4VFBTamxQRmxxMGV5bE5maFQ0Q0JHakJzNGI2bXNBN0dQRFhGcGRHZw?oc=5",
-     "nb_sources": 1,
-     "primaire": false
-    },
-    {
-     "id": "822e3b209e0bae",
-     "date": "2026-11-13T08:01:00+00:00",
-     "titre": "La Chine met en garde contre les contrôles américains sur les puces Nvidia",
-     "neuf": "La Chine émet un avertissement officiel face au renforcement des restrictions américaines sur les semi-conducteurs.",
-     "fil": "mêmes contrôles à l'export de puces Nvidia vers la Chine",
-     "source": "Contrôles à l'export IA",
-     "lien": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOaWFrSUx2S3pUajJBNERCVTlGazl5WUZ1Z3ZBcVNIeEFuQWlCMlhlbnREMHlFZjZEUV8xUUtIVmVEZDFlM0tJWm91Tm5LclJvcVVWaGZ5RUxJS1JzMzZzR2kxTWJfYjVDVjVDRGktSjlVNHlvdWp5MG9YY0ltT2s3cm8yc2ZoSHRQS1k1UXR1SEJPdFZJalNvbThoZlVUTWxlYUxlbVZZS3VQdzU0U3MxcmxhaWVEc1NReVk2N2pmTGdGZ9IBxwFBVV95cUxNQkZSTVA3YjNSWkpLOHl5Rm9kU0FZUU94b3NMa2tLZjhoMWFlN0llSXlaYjNySDJmWDZHYXhDTE9ObDVtVTVfQ3BNRWFITklXNHJxS0pweFYwRkg1cWNJVnNJdGdsZDZ6VWdMSms5V3NXd0FqTXdiR2NEZ3cxNTBlU3FIc0d6SklEM1YxMm5pMWpON0FCc3EzUmhOOXhnOW15WWt4X1RpeXVWeEE5azRYZUg4bTI1c1JoYXBYZW1WNTItTGxpVFpj?oc=5",
-     "nb_sources": 1,
-     "primaire": false
-    },
-    {
-     "id": "7ea08bdfd8838e",
-     "date": "2026-11-13T09:29:27+00:00",
-     "titre": "Les contrôles américains à l'export menacent-ils des projets d'IA en Chine ?",
-     "neuf": "La presse s'interroge ouvertement sur la viabilité des grands projets d'IA en Chine menacés par les restrictions sur les puces Nvidia.",
-     "fil": "mêmes contrôles américains à l'export de puces en Chine",
-     "source": "Contrôles à l'export IA",
-     "lien": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPcndpb1o5MzBqYVRTdWhRV1YwMlVxNjhBVjNudlBhYWlZUkx2SEFpcDdaRTZMOU5rZjZpQVBaVGplUDhNTEdHcUlaVmdkakxtRlVrelVXd2FNOHM0V25qOWRmQkV4LXBKR1lqd3h6OFJfVmtwY1VkcThSYnZMU2RQU29UZ19pU1JsTWJ4TFc1SzNuTkFqT2VmQUVFemhhZHVZTDFXNTFLQl9JaXY2aUZXUXpzMHdVQkhFaFJRUzhMcw?oc=5",
-     "nb_sources": 1,
-     "primaire": false
-    },
-    {
-     "id": "842331a0ba5889",
-     "date": "2026-11-13T09:55:00+00:00",
-     "titre": "Les contrôles américains à l'exportation contournés par des projets chinois utilisant des puces Nvidia",
-     "neuf": "Une enquête de Reuters révèle que des projets informatiques chinois de grande ampleur continuent de s'appuyer sur des puces Nvidia, remettant en question l'efficacité des restrictions.",
-     "fil": "mêmes contrôles américains à l'exportation et contournements par la Chine",
-     "source": "Contrôles à l'export IA",
-     "lien": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1EcDZud0lrRml5RHJkNjA5TWtCWnNBTi13ZXBLZTJhVktYZFRzaU1QYjZwLU1qT1Rzcjl5QS01UmxNMkFoanZsYkk4Z2FxUnI0WGg1amVqZ2hnT1FJZFpnTXczbDVnd2JVWVgtdlZoazNaek1KdWc?oc=5",
-     "nb_sources": 1,
-     "primaire": false
-    },
-    {
-     "id": "db79c2b19cc0d9",
-     "date": "2026-11-13T11:46:16+00:00",
-     "titre": "Les projets d'IA chinois menacés par le départ de Nvidia et les contrôles américains",
-     "neuf": "L'article souligne la double menace pesant sur les projets d'IA chinois, combinant le départ de Nvidia et des restrictions américaines renforcées.",
-     "fil": "mêmes contrôles américains à l'exportation et impact sur la Chine",
-     "source": "Contrôles à l'export IA",
-     "lien": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNbXpiN1BZRjJOMmpqd0tTVmNtTUQwbjZOZHlUOXgxMkxIWW5BRUpoUTlFX19hdllycG9TWWJlTHJJRlJrTG0zZy1PZkc2NC1HT09Ra09YcktwREJDU2J2d1R2RmhTdmgtdXpxaHktR0R2VXRTVUFTSk9XTmRYN25mdzlRTjdHc045LUVjNW9HT3k0RTd3aERxOUltRFBlcFVMNmlr?oc=5",
-     "nb_sources": 1,
-     "primaire": false
-    },
-    {
-     "id": "3c9f7d37b36f94",
-     "date": "2026-11-13T18:40:30+00:00",
-     "titre": "Des puces Nvidia interdites d'exportation alimentent les modèles d'IA chinois",
-     "neuf": "Des révélations confirment que des puces Nvidia restreintes alimentent directement l'entraînement de modèles avancés en Chine.",
-     "fil": "puces Nvidia soumises à des restrictions d'exportation utilisées en Chine",
-     "source": "Contrôles à l'export IA",
-     "lien": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQM2RjMXJ5cnYyUmVXT3FXVVVIeENJN0hQT3E0ZTg1YlpRSEItczBNaW1SZzlIM2hBNEZldVVzUjEwQzRDczhvVkQwMjZlLXh4U1pqd1NFcTFJOHh6MUMtQktSVmFmZUtzTUowb2hCdU1tVzY5NFFwWURpT3c5RW9zMUJOVHNvcG5aVG9lTUIzVUNqMW8yWkNzcXpidmtNRnlia3hySVpfbGRfQ3phbjJmbGZuYlhwS0E?oc=5",
-     "nb_sources": 1,
-     "primaire": false
-    },
-    {
-     "id": "450231a9db8266",
-     "date": "2026-11-13T21:16:22+00:00",
-     "titre": "Des laboratoires chinois entraînaient des modèles sur des puces Nvidia Blackwell malgré les sanctions",
-     "neuf": "Des laboratoires chinois seraient parvenus à entraîner des modèles sur des puces Nvidia Blackwell malgré les interdictions.",
-     "fil": "mêmes contrôles à l'export sur les puces Nvidia en Chine",
-     "source": "Contrôles à l'export IA",
-     "lien": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxOc2d0VmU0UHVrQlVvWElsNFVGTlhKcDc2YVR0SGxqM2dBUXlvSGpLZTNrbUhDTVhiLU0yU1lUamJ2MFpNc3V0SUxlY2xkc3dKemkxel9zbEVXaTVoVHhMdUliUERkZUNKQ2pvSnNKeUh3WDBXdkw1dVBQM09pMjBlSXdoc3JUOVpxZTZYZkphSVFzeDV5MkN5SGpLN0E3bmZVcnJtRThzNDJYSGNzSi1qUEdXUDZWYzRrbHY1RkVqeTA5WWxadzdTcE9USjMxVkZLU3p2cGZMODJpU1V5SDlBTDFyWUNnWXZpbGF1aEotVlFsMkU?oc=5",
-     "nb_sources": 1,
-     "primaire": false
-    },
-    {
-     "id": "e5fcd238ecb1eb",
-     "date": "2026-11-15T04:47:03+00:00",
-     "titre": "Règles strictes contre l'accès distant aux GPU Nvidia pour les entreprises chinoises",
-     "neuf": "Les États-Unis renforcent leurs barrières en ciblant la location de puces Nvidia via le cloud à l'étranger par des entreprises chinoises.",
-     "fil": "nouvelles règles américaines contre le contournement des sanctions par les entreprises chinoises",
-     "source": "r/LocalLLaMA",
-     "lien": "https://www.reddit.com/r/LocalLLaMA/comments/1xwmnkw/rasa_will_cause_total_chaos_to_open_llms_and/",
-     "nb_sources": 1,
-     "primaire": false
-    },
-    {
-     "id": "9ca72ff23970aa",
-     "date": "2026-11-15T11:00:04+00:00",
-     "titre": "Le Congrès américain envisage de durcir les règles d'exportation des puces IA après un scandale Nvidia",
-     "neuf": "Le Congrès américain envisage de durcir officiellement les règles d'exportation après un scandale.",
-     "fil": "mêmes contrôles à l'exportation et puces Nvidia",
-     "source": "Contrôles à l'export IA",
-     "lien": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQVGxvZmxUQ0JxLVJuWmRILTBpbUwwbEMxbDV1bEhkYVdjdnl3WVYzWFBGZFhqckFER1JyYWptWEI3XzAzeEZ1dnZuSUdYVkFCdFZXTjVmMUxtVjJSc0dPZHR2R05TbE1mQzA0OU84TEdXd1I0UkFrS2Z0dDRIUXoxV2Y3b2o?oc=5",
-     "nb_sources": 1,
-     "primaire": false
-    },
-    {
-     "id": "1207b5c1c70bbc",
-     "date": "2026-11-15T19:15:43+00:00",
-     "titre": "Le Congrès américain veut durcir les règles d'exportation des puces IA après un scandale chez Nvidia",
-     "neuf": "Le Congrès veut renforcer les restrictions suite à une affaire d'espionnage chez Nvidia.",
-     "fil": "mêmes restrictions d'exportation de puces Nvidia",
-     "source": "The Verge IA",
-     "lien": "https://www.theverge.com/ai-artificial-intelligence/1033984/congress-export-rules-ai-chips-china",
-     "nb_sources": 1,
-     "primaire": false
-    },
-    {
-     "id": "bfe41222a5c1eb",
-     "date": "2026-11-16T09:57:00+00:00",
-     "titre": "Chute des actions IA chinoises face aux craintes de contrôles américains",
-     "neuf": "Les actions des entreprises d'IA chinoises chutent en raison des craintes persistantes de durcissement des contrôles américains.",
-     "fil": "mêmes contrôles à l'export de l'IA",
-     "source": "Contrôles à l'export IA",
-     "lien": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPbnZNMl9tMHgzREZPWk5GVExiSFR1MkZ1bkx0d2pORzB4ejR0NlZ5ZzFuZFh0bFd5dnVUZjRhRE9zR3JROUhmaUY5VlF1azFYUGN4b2JGZHJ0MEdIWVBDREFyR1dfb2Q5VkFkVmYzMkhldl9kTFVTc2k1NllNWnUwdk5jS1oydkFwSm90RktlNnJUOGZ3bXV1Ui04YkpuTXlu?oc=5",
-     "nb_sources": 1,
-     "primaire": false
-    },
-    {
-     "id": "43465bb556008c",
-     "date": "2026-11-16T15:02:34+00:00",
-     "titre": "US tightens AI chip export controls to deter Chinese companies from accessing compute remotely",
-     "neuf": "Les États-Unis étendent les restrictions pour exiger des licences sur l'exportation de puces si elles risquent de fournir de la puissance de calcul à distance à la Chine ou d'autres pays restreints.",
-     "fil": "Mêmes contrôles à l'exportation de puces IA renforcés par les États-Unis",
-     "source": "TechCrunch IA",
-     "lien": "https://techcrunch.com/2026/11/16/us-tightens-ai-chip-export-controls-to-deter-chinese-companies-from-accessing-compute-remotely/",
-     "nb_sources": 1,
-     "primaire": false
-    },
-    {
-     "id": "678ce90c9ecd57",
-     "date": "2026-11-16T15:02:34+00:00",
-     "titre": "Les États-Unis renforcent leurs contrôles sur les puces IA",
-     "neuf": "Nouvelle confirmation du durcissement des mesures visant à empêcher l'accès à distance des entreprises chinoises à la puissance de calcul.",
-     "fil": "Mêmes contrôles renforcés des États-Unis sur l'exportation de puces vers la Chine",
-     "source": "Contrôles à l'export IA",
-     "lien": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQMk1pUmhmX2dnNlhFZjFvM1NYbmpacVJULVNxWlgzcWpKLVNjTk8yWjREOWg5RFNqNEd0RGRfQTRJd3BNblpXNndTZVFlNzk0UnVZYkxUcjdMU0ZDVm1hWXVxR1JNcm5fUUkzN0luc3BmMzg1cU4xOEc1QXpuaDNxdnNaYU0yVzRmcXlzbU9mc1lxQ01Yd1ZkdklSeXI0NTJTTTNuOExSRlVlcU9HVUpQWVJrRk5qQXkwNVlRem04NUMtcHVPOVpwYw?oc=5",
-     "nb_sources": 1,
-     "primaire": false
-    },
-    {
-     "id": "785882bb3fd214",
-     "date": "2026-11-16T15:13:00+00:00",
-     "titre": "Le département du Commerce restreint l'accès distant aux puces IA",
-     "neuf": "Le département du Commerce prend des mesures directes pour restreindre l'accès distant aux puces à la suite des scandales de contournement.",
-     "fil": "renforcement des restrictions américaines sur l'accès distant aux puces IA",
-     "source": "Contrôles à l'export IA",
-     "lien": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNdExOdWF1TUJkSHUySjhXbUZmV05xRC1KdlFfWmJUX1dxMjNENXhIR1c0bHJhUWZtOXNyb1BPcmdUR1ZzUjJRdXZLM3pjdkhaOVhTeTlYMnpfZlZPdFZaREVuME9XLVlmNFAtbVFwTGZ4ZFlZR09feXlDeGJzeVdhaGtrS3Z6X2NNOVlrOXlhcEV2SlFIcTBkdXZlSVJmaEE?oc=5",
-     "nb_sources": 1,
-     "primaire": false
-    },
-    {
-     "id": "016e14b5029abe",
-     "date": "2026-11-16T18:51:20+00:00",
-     "titre": "L'administration Trump veut bloquer l'accès indirect de la Chine à l'IA américaine",
-     "neuf": "L'administration Trump formalise de nouvelles barrières pour bloquer l'accès indirect de la Chine à l'IA américaine.",
-     "fil": "mesures de l'administration américaine contre l'accès indirect de la Chine aux technologies IA",
-     "source": "Contrôles à l'export IA",
-     "lien": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPSFFpN3hkMjdrVkkxalhuQ1pVNHAwUDZBVXN6SWdpWWVhV2FwT3ZVcHBYMEhjeFdpNnJOWWVVYzlZbkJjeW1ZUVNGX21PNURhTm5WRWZtOV9QNjlWWEJIVDNnR0hIdG9BU0dOaXNSS1BBRkc2Zm93RnBFRjBaa3FXSzNJcHp3RGNJMUJZM3lSaTA5QmRDQXZVZ09oUzNwT25OdWZKQVJCSnROUmJfenBkZm9LbjM5ZS1NWldJ0gHAAUFVX3lxTE10UEozWGFqZ0ZQU1NjMVdxdDF6MVdnWUliaXlTZFRqYXFwcEhnaTZZTUdTTFowUHBUUDlZaVN5VmFhRzlVVlNVMVRZTzVXQlJLQ1EyUHpTOEw4T1owZ2NCdWtncWNISWFTSVFMMlAxNG9kbVFocEtGXzZrTlExazNPT2J6OVZvVTlBOERsMndxeXNRMEhXa084UXZkTy1FSHFKWFJTMFBZRE0yTkQwX09WWV94MFFrWUVqWDNLc0dsdw?oc=5",
-     "nb_sources": 1,
-     "primaire": false
-    },
-    {
-     "id": "9167b5703e35a6",
-     "date": "2026-11-16T20:08:56+00:00",
-     "titre": "AI Remote Access Rule & RASA: Export Compliance Guide - Kharon",
-     "neuf": "Publication d'un guide de conformité sur la règle d'accès distant à l'IA (AI Remote Access Rule & RASA).",
-     "fil": "même cadre des règles d'accès distant et des contrôles à l'exportation",
-     "source": "Contrôles à l'export IA",
-     "lien": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxQY1VnSGtfQjcydUxYeFFzR2VrTW9ZSVFxc0VKMlNxbXdKakc5WkNIYUE3YW1TMW0tbmg5eDhpTzUySl9pU3FpT1NrWlJ3ejQ4X3ZHXzdtcV9SV2s5VmpvMDdkUmlLeTFWTXRwWWh1ZGpzQUV2cWZZY3lSaC1VNHBoTFQ3NnlaQy1ZcG40RXNQSm9LQVY5alR5Qmx2LUJRc2ZkeVJSQUVzUVBfZk9LSjJYR1FrZm16MVhDMHp0LW8wdzNaVW92ZGlVOWI4UTNXSWo1TlFuTGlvUnFEcXZQTDYzSTVPUDFaMW8?oc=5",
-     "nb_sources": 1,
-     "primaire": false
-    },
-    {
-     "id": "46bc37fc07c1cf",
-     "date": "2026-11-17T16:28:58+00:00",
-     "titre": "Nouvelles restrictions à l'exportation imposées sur les puces IA",
-     "neuf": "De nouvelles règles d'exportation strictes sur les semi-conducteurs d'IA sont entrées en vigueur.",
-     "fil": "Mêmes nouvelles restrictions d'exportation sur les puces IA",
-     "source": "Contrôles à l'export IA",
-     "lien": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOSENWV1MwQ3lSVDNrY3Y5TWgyNHZDUWs3NXpKLWRlVE04a3VzNG5lTE9OS25IbEdNMF9XMTBna2hFdnFteEtDMFYyb3QwYjVpUHU2SUtBXzYycGxIQXlHSzhvNmNpSXFVTjNycE5lS1NlRndwQ191SkE0R3l0aERMTU45TEw4VWJxZjhGTHZrNlR1QjVIZFRmWHN6TW1fNzRueWJMektoR19wY3I2aVpOSEZhUDRFZw?oc=5",
-     "nb_sources": 1,
-     "primaire": false
-    },
-    {
-     "id": "9d9d5a4c391f33",
-     "date": "2026-11-17T19:14:46+00:00",
-     "titre": "Alerte sur les contrôles laxistes des exportations de puces IA",
-     "neuf": "Un représentant américain alerte sur le manque de rigueur des contrôles d'exportation de puces.",
-     "fil": "Mêmes contrôles à l'exportation et puces IA",
-     "source": "Contrôles à l'export IA",
-     "lien": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBsNGdoZ2VEekpIdkFEX1BUdGxJVjR3SkdpeEJidUF5QUR6bEhHZU40QWxlS2UzV0VCOXpiRG91blpqckNyd215TG5KdGdvSmExa3BnelpsTmhVNzQ?oc=5",
-     "nb_sources": 1,
-     "primaire": false
-    },
-    {
-     "id": "18cb895feb7e68",
-     "date": "2026-11-18T00:22:23+00:00",
-     "titre": "Les États-Unis restreignent l'accès distant aux puces IA avancées",
-     "neuf": "Le gouvernement américain restreint l'accès distant aux puces et abroge la règle sur la diffusion de l'IA.",
-     "fil": "mêmes restrictions et règles sur l'exportation et l'accès aux puces IA",
-     "source": "Contrôles à l'export IA",
-     "lien": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxNTENidkgzNlk2VWxOSE5OUlVJdVJISkZNU2lTLVhjUFE0b3FaYThNUVlnSnA0Uk8yQy0xTXVxOEgyZ1NOVFd0M01oQWlHX2hNbzJMOG1JcW5HNUR0X09GN1ZCY2NyeGVGdDRobVB2d2IyUzljalp0MVFOYUROWHFuTk0waThtVkpJYXdjTTNBeERGczluVXpvbFlfRjRxVVBIZmdWMHU1bkJCY1NfOEFXSDI3OVVDQjdEUWRha3dYM3JXMk4wTWFKdFE3aU5MNHlQZWF6MEkxTVFvaE43ZDhRVUNYWUdPaU1UZzJlR1lyUmdqMEJhakRr?oc=5",
-     "nb_sources": 1,
-     "primaire": false
-    },
-    {
-     "id": "e72f18fd0251cd",
-     "date": "2026-11-18T04:10:40+00:00",
-     "titre": "Extension des contrôles américains sur les puces IA en Asie du Sud-Est",
-     "neuf": "Les restrictions américaines sur les puces IA sont officiellement étendues à l'Asie du Sud-Est.",
-     "fil": "mêmes contrôles à l'exportation de puces IA",
-     "source": "Contrôles à l'export IA",
-     "lien": "https://news.google.com/rss/articles/CBMibkFVX3lxTFAxNW4zMmVpcWFHRzNfQm1xVnZlem1WTDJvVFlrbHFoM2RaZ1lZcW9QaGxwUXFQR0V5dVhGYTZpV05kbWlpM09KU3dfcFNfUS1ncEN4TGFCUDUtc0cyOFlHdk9lX0VRdEpweFZCQ0FR?oc=5",
-     "nb_sources": 1,
-     "primaire": false
-    },
-    {
-     "id": "8dd8752cc2803f",
-     "date": "2026-11-18T04:15:00+00:00",
-     "titre": "S’pore can facilitate US checks on AI chip use, won’t allow circumvention of export controls: PM Wong - The Straits Times",
-     "neuf": "Singapour s'engage à faciliter les vérifications américaines et à empêcher le contournement des contrôles à l'export.",
-     "fil": "mêmes contrôles à l'exportation de puces",
-     "source": "Contrôles à l'export IA",
-     "lien": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNMUVmSnNaLVByVmtUOGkwdXpTSThnd0NRRTBMMHdtZnVOSEJwMFRYcnczTzlvMzlXVkJIWkVGeFhvVHZCNlhGbkhCVDJMdkM0YTBHWG1jV2xzNVR1cldQczlQM1laekR1SGdkc2pDZEhCYlJta0RVMGV4OEdZS24yYU1ldVBRanBsemNtZ1pxVTVXWWNxcXdHWUNsd1JSNXpNS2E2eXREOVp5QlZZd1AybjFsUWxmcDNHcDE1QnVCLXVPT25yRlFaMXJQaw?oc=5",
-     "nb_sources": 1,
-     "primaire": false
-    },
-    {
-     "id": "72210fa035baec",
-     "date": "2026-11-18T09:21:57+00:00",
-     "titre": "Nvidia stoppe ses livraisons de puces IA vers la Chine suite au durcissement américain",
-     "neuf": "Nvidia stoppe net ses livraisons de puces vers la Chine et Pékin menace de mesures de rétorsion.",
-     "fil": "Mêmes contrôles à l'exportation des puces IA de la Chine",
-     "source": "Contrôles à l'export IA",
-     "lien": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE04ZzRsQnpmR3FsSGZFT1dVNDdkN2F5dFdwbldPblhRNVgwVnZJMHVoamd3RE1lMy15NXhTWGkzYW9IUDBnRERraTN1MmVrdlptbWxTWEhYVVNXd1owWWdWSzVR?oc=5",
-     "nb_sources": 1,
-     "primaire": false
-    },
-    {
-     "id": "d7d855e23a019e",
-     "date": "2026-11-18T11:10:21+00:00",
-     "titre": "Extension des contrôles américains à l'exportation des puces IA",
-     "neuf": "Les contrôles ciblent désormais l'identité des utilisateurs de la puissance de calcul en plus de la géographie.",
-     "fil": "Mêmes contrôles américains à l'export",
-     "source": "Contrôles à l'export IA",
-     "lien": "https://news.google.com/rss/articles/CBMiekFVX3lxTFBSX3ozWlNPV1hZeGhGR2NMOUx3TDNtX1hXZjRwQU9PRTVRN3diNFduMnZVOExTbHZEdUIydmwtV21qejEyanliVDlRUi1NREMtMnM0MDBlWVd2Nk1Xdm5DaEZFOVFaVVdoUHJUQ0c0NFA5RG5TSnJ3c0Fn?oc=5",
-     "nb_sources": 1,
-     "primaire": false
-    },
-    {
-     "id": "e46d42ea15cfe3",
-     "date": "2026-11-18T14:10:41+00:00",
-     "titre": "Les États-Unis visent la faille du cloud dans les contrôles des puces IA",
-     "neuf": "Le département du Commerce américain cherche à combler une faille liée au cloud computing dans les restrictions sur les puces.",
-     "fil": "Extension des contrôles américains à l'exportation et aux infrastructures cloud",
-     "source": "Contrôles à l'export IA",
-     "lien": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5MZmtFUWYtc2xkdkVuNEx3eTlIMVlIQVVLNTNqN2VRV3lJODJiRUNGd3BDdEJueWhZRjZiVEctdjB6dEttWWxJamloZ0VkU1l1cm0xclJ3a2dUZW1ScE9NMjdsZmJ3bDBvOUw0ck1raHgyS1JuUWY0cUowN2pSVG8?oc=5",
-     "nb_sources": 1,
-     "primaire": false
-    },
-    {
-     "id": "793a042f12c8a0",
-     "date": "2026-11-19T22:21:54+00:00",
-     "titre": "Autorisation de ventes de puces IA américaines à Alibaba et Tencent",
-     "neuf": "Les États-Unis approuvent officiellement la vente de puces IA à des entreprises chinoises comme Alibaba et Tencent.",
-     "fil": "mêmes contrôles et dérogations à l'exportation de puces IA vers la Chine",
-     "source": "IA militaire",
-     "lien": "https://news.google.com/rss/articles/CBMiswFBVV95cUxObHBwaTNEcUhVcC1PcUJxbFdYVVgwMl8ybHJCWExQOC1iSVBQQUt4dzRwVWRJQUFCQ3BheTFwVzlVS1VXWTF2RUFZd2JqbXlVcnh6VHEwX2l2NVpzdFBOLVdISDBwbm1LdzNMalQ1NkdYZWowYVhjQmQzcW4xcnBTRl9mUUJEUHFVTV92dEtielJjWW9fQnltZElRaEtKM1ZVcG0ySC1iWU9sVHc5ekhmdlF5TQ?oc=5",
-     "nb_sources": 1,
-     "primaire": false
-    },
-    {
-     "id": "7197b3673b73c7",
-     "date": "2026-11-19T23:46:03+00:00",
-     "titre": "États-Unis : approbation de puces IA pour la Chine incluant des firmes liées au Pentagone",
-     "neuf": "L'administration américaine aurait approuvé l'exportation de 880 000 puces IA vers la Chine, incluant des firmes liées au Pentagone.",
-     "fil": "mêmes exportations massives de puces vers la Chine",
-     "source": "IA militaire",
-     "lien": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOc21zakhJNUJka3BGVEhWX0J5OTdpdnljR1pQTER4REJOSFJjeDJZQWQ2VkFZNzJ5N2x0TURLZFkyUUNXSXVQRVY0Z2ZqXzZoZGR5SE1RcjBBTUw3UFI4RzI4SFFmcnRXT2FyazIySENIQkpkYjJQUXlRMzR2SkZDRG9iRmZ4Vk5kMXc?oc=5",
-     "nb_sources": 1,
-     "primaire": false
-    }
-   ],
-   "statut": "active",
-   "societes": [
-    "deepseek",
-    "ue",
-    "mistral",
-    "nvidia",
-    "openai",
-    "usgov",
-    "alibaba"
-   ]
-  },
-  {
    "id": "h_9e05c75a39",
    "titre": "Gemini 4 Neon : annonce et positionnement",
    "resume": "Google DeepMind a officialisé Gemini 4 Neon en tant qu'alternative économique dotée d'une large fenêtre de contexte. Le modèle s'est imposé en tête de classements majeurs de performance comme le Models Engineering Index.",
@@ -7276,6 +7342,30 @@
    "statut": "active",
    "societes": [
     "google"
+   ]
+  },
+  {
+   "id": "h_c13e94e2fa",
+   "titre": "Microsoft Aion-1.0-Instruct-2.3B : nouveau SLM local pour Windows",
+   "resume": "Microsoft publie sur Hugging Face Aion-1.0-Instruct-2.3B, un petit modèle de langage de 2,3 milliards de paramètres conçu pour fonctionner localement sur les appareils Windows.",
+   "creee": "2026-11-21T12:38:52.779441+00:00",
+   "maj": "2026-11-18T17:05:50+00:00",
+   "episodes": [
+    {
+     "id": "6375d374b049e1",
+     "date": "2026-11-18T17:05:50+00:00",
+     "titre": "Microsoft lance Aion-1.0-Instruct-2.3B, son nouveau SLM pour Windows",
+     "neuf": "",
+     "fil": "Sortie d'un nouveau petit modèle de langage local pour Windows",
+     "source": "Hugging Face : modèles en tendance",
+     "lien": "https://huggingface.co/microsoft/Aion-1.0-Instruct-2.3B",
+     "nb_sources": 1,
+     "primaire": true
+    }
+   ],
+   "statut": "active",
+   "societes": [
+    "microsoft"
    ]
   },
   {
@@ -9625,7 +9715,7 @@
      "primaire": false
     }
    ],
-   "statut": "active",
+   "statut": "en sommeil",
    "societes": []
   },
   {

@@ -1,5 +1,5 @@
 {
- "maj": "2026-11-21T01:31:18.746703+00:00",
+ "maj": "2026-11-21T12:38:52.779497+00:00",
  "sources_ok": [
   "Notes de version Claude (API)",
   "Notes de version OpenAI (API)",
@@ -39,11 +39,14 @@
   "OpenAI (actus)",
   "Grok et SpaceXAI (actus)",
   "Grandes annonces IA",
+  "Surveillance et IA",
   "IA et surveillance (FR)",
   "IA militaire",
   "Anthropic et gouvernement",
   "Sécurité des modèles",
+  "Contrôles à l'export IA",
   "Désinformation et deepfakes",
+  "Régulation européenne",
   "Vie privée et assistants IA"
  ],
  "sources_ko": [
@@ -58,29 +61,17 @@
   {
    "nom": "r/LocalLLaMA",
    "erreur": "404 Client Error: Not Found for url: https://www.reddit.com/r/LocalLLaMA/top/.rss?t=day"
-  },
-  {
-   "nom": "Surveillance et IA",
-   "erreur": "429 Client Error: Too Many Requests for url: https://news.google.com/rss/search?q=AI+mass+surveillance+OR+%22facial+recognition%22&hl=en-US&gl=US&ceid=US:en-US"
-  },
-  {
-   "nom": "Contrôles à l'export IA",
-   "erreur": "429 Client Error: Too Many Requests for url: https://news.google.com/rss/search?q=AI+%22export+controls%22&hl=en-US&gl=US&ceid=US:en"
-  },
-  {
-   "nom": "Régulation européenne",
-   "erreur": "429 Client Error: Too Many Requests for url: https://news.google.com/rss/search?q=%22AI+Act%22+OR+%22r%C3%A8glement+IA%22&hl=fr&gl=FR&ceid=FR:fr"
   }
  ],
- "total": 2218,
- "analyses": 1210,
+ "total": 2214,
+ "analyses": 1216,
  "brief": {
-  "titre": "Anthropic entre en bourse, vagues d'annonces Google et OpenAI",
-  "texte": "L'actualité de l'intelligence artificielle est dominée par l'introduction en bourse historique d'Anthropic au Nasdaq, qui réalise un bond spectaculaire de 33%. Parallèlement, Google frappe fort en dévoilant le modèle Gemini 4 Neon, doté de nouvelles capacités d'agent autonome sur macOS et du Tool Retrieval dans son API. OpenAI met à jour son API avec le lancement de GPT-Live-1.1 axé sur les voix et abandonne le traitement Flex. Enfin, l'écosystème open-source progresse avec Unsloth qui intègre le support AMD NPU et le modèle multimodal Inkling-2-Mini-GGUF.",
+  "titre": "Anthropic entre en bourse et Claude révolutionne les maths",
+  "texte": "Anthropic marque l'actualité avec une entrée en bourse record valorisée à 105 milliards de dollars, malgré des débuts boursiers turbulents et une baisse initiale. Côté technique, Claude démontre sa puissance en résolvant un problème mathématique majeur et en écrivant 90% du code d'une équipe. Pendant ce temps, l'écosystème open source progresse avec la version 5.24.0 de Transformers et l'arrivée du modèle Inkling-2-Mini-GGUF optimisé par Unsloth. Enfin, OpenAI ajuste son API en abandonnant le traitement Flex et déploie de nouvelles mesures contre la distillation.",
   "a_tester": [
-   "Tester les nouvelles fonctionnalités vocales et le mode veille de GPT-Live-1.1 via l'API OpenAI.",
-   "Explorer les capacités d'agent autonome de Gemini 4 Neon sur macOS et son nouvel outil Tool Retrieval.",
-   "Expérimenter le modèle Inkling-2-Mini-GGUF avec les dernières optimisations d'Unsloth."
+   "Tester le nouveau modèle Inkling-2-Mini-GGUF avec Unsloth pour vos tâches multimodales",
+   "Explorer la mise à jour Transformers v5.24.0 et ses intégrations multimodales",
+   "Analyser l'impact des nouvelles politiques d'API d'OpenAI sur vos flux de production"
   ]
  },
  "top5": {
