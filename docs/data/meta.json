@@ -1,5 +1,5 @@
 {
- "maj": "2026-11-20T16:57:48.128595+00:00",
+ "maj": "2026-11-21T01:31:18.746703+00:00",
  "sources_ok": [
   "Notes de version Claude (API)",
   "Notes de version OpenAI (API)",
@@ -39,14 +39,11 @@
   "OpenAI (actus)",
   "Grok et SpaceXAI (actus)",
   "Grandes annonces IA",
-  "Surveillance et IA",
   "IA et surveillance (FR)",
   "IA militaire",
   "Anthropic et gouvernement",
   "Sécurité des modèles",
-  "Contrôles à l'export IA",
   "Désinformation et deepfakes",
-  "Régulation européenne",
   "Vie privée et assistants IA"
  ],
  "sources_ko": [
@@ -61,47 +58,59 @@
   {
    "nom": "r/LocalLLaMA",
    "erreur": "404 Client Error: Not Found for url: https://www.reddit.com/r/LocalLLaMA/top/.rss?t=day"
+  },
+  {
+   "nom": "Surveillance et IA",
+   "erreur": "429 Client Error: Too Many Requests for url: https://news.google.com/rss/search?q=AI+mass+surveillance+OR+%22facial+recognition%22&hl=en-US&gl=US&ceid=US:en-US"
+  },
+  {
+   "nom": "Contrôles à l'export IA",
+   "erreur": "429 Client Error: Too Many Requests for url: https://news.google.com/rss/search?q=AI+%22export+controls%22&hl=en-US&gl=US&ceid=US:en"
+  },
+  {
+   "nom": "Régulation européenne",
+   "erreur": "429 Client Error: Too Many Requests for url: https://news.google.com/rss/search?q=%22AI+Act%22+OR+%22r%C3%A8glement+IA%22&hl=fr&gl=FR&ceid=FR:fr"
   }
  ],
- "total": 2211,
- "analyses": 1217,
+ "total": 2218,
+ "analyses": 1210,
  "brief": {
-  "titre": "Anthropic entre en bourse et Gemini 4 Neon débarque",
-  "texte": "L'écosystème IA est secoué par l'introduction en bourse historique d'Anthropic au Nasdaq, propulsant sa valorisation à 1,5 billion de dollars après une démonstration marquante sur l'hypothèse de Riemann. Pendant ce temps, Google DeepMind riposte en lançant Gemini 4 Neon doté d'un million de tokens de contexte et du Tool Retrieval en API. OpenAI fait également actualité en enrichissant son API Sora avec du 1080p et en lançant GPT-Live-1.1. Enfin, Unsloth améliore l'accessibilité locale avec son support AMD NPU et l'ajout de la diffusion LoRA.",
+  "titre": "Anthropic entre en bourse, vagues d'annonces Google et OpenAI",
+  "texte": "L'actualité de l'intelligence artificielle est dominée par l'introduction en bourse historique d'Anthropic au Nasdaq, qui réalise un bond spectaculaire de 33%. Parallèlement, Google frappe fort en dévoilant le modèle Gemini 4 Neon, doté de nouvelles capacités d'agent autonome sur macOS et du Tool Retrieval dans son API. OpenAI met à jour son API avec le lancement de GPT-Live-1.1 axé sur les voix et abandonne le traitement Flex. Enfin, l'écosystème open-source progresse avec Unsloth qui intègre le support AMD NPU et le modèle multimodal Inkling-2-Mini-GGUF.",
   "a_tester": [
-   "Tester la fenêtre de contexte d'un million de tokens avec Gemini 4 Neon sur un projet complexe",
-   "Explorer les nouvelles capacités vocales et le mode veille de GPT-Live-1.1 via l'API OpenAI",
-   "Expérimenter les références de personnages et le rendu 1080p sur l'API Sora d'OpenAI"
+   "Tester les nouvelles fonctionnalités vocales et le mode veille de GPT-Live-1.1 via l'API OpenAI.",
+   "Explorer les capacités d'agent autonome de Gemini 4 Neon sur macOS et son nouvel outil Tool Retrieval.",
+   "Expérimenter le modèle Inkling-2-Mini-GGUF avec les dernières optimisations d'Unsloth."
   ]
  },
  "top5": {
-  "maj": "2026-11-20T07:15:31.500200+00:00",
+  "maj": "2026-11-21T01:31:18.746703+00:00",
   "par_ia": true,
   "items": [
    {
     "id": "962d469daa1741",
-    "pourquoi": "Anthropic franchit une étape majeure en portant la fenêtre de contexte de Claude Opus 4.8 à un million de tokens par défaut, ce qui transforme les capacités d'analyse de documents massifs et de codebases entières.",
-    "a_faire": "Tester l'API de Claude Opus 4.8 sur un projet volumineux pour évaluer les gains sur la mise en cache automatique et la gestion de grands contextes."
+    "pourquoi": "Claude Opus 4.8 repousse les limites avec une fenêtre de contexte d'un million de tokens et une mise en cache automatique, impactant directement les architectures d'agents et le traitement de documents volumineux.",
+    "a_faire": "Mettre à jour les intégrations API pour tester la gestion du contexte à un million de tokens."
    },
    {
     "id": "549a77347d5e1e",
-    "pourquoi": "OpenAI déploie ses nouveaux modèles GPT-6.2 Astra et Sol, axés sur les performances professionnelles accrues et l'interaction avancée avec l'ordinateur.",
-    "a_faire": "Surveiller les benchmarks et tester ces nouveaux modèles sur vos cas d'usage professionnels complexes en codage et automatisation."
+    "pourquoi": "OpenAI déploie GPT-6.2 Astra et Sol, renforçant les capacités professionnelles et de code, ce qui redéfinit les standards des LLM propriétaires pour les entreprises.",
+    "a_faire": "Tester ces nouveaux modèles sur des tâches de génération de code et d'interaction système."
    },
    {
-    "id": "5bf4951adbe969",
-    "pourquoi": "L'introduction de ChatGPT Wallet marque un tournant pour les agents IA autonomes en leur permettant d'effectuer des transactions financières en ligne de manière sécurisée.",
-    "a_faire": "Se renseigner sur les modalités de ChatGPT Work et évaluer les implications de sécurité pour l'intégration future d'agents payeurs."
-   },
-   {
-    "id": "993ad2d4012afd",
-    "pourquoi": "OVH lance un modèle hybride ultra-rapide de 7 milliards de paramètres tournant sur du matériel grand public, facilitant l'adoption locale de l'IA.",
-    "a_faire": "Télécharger et tester Olala mini 7A1B sur votre machine pour mesurer ses performances en local par rapport aux solutions cloud."
+    "id": "2f787cdf5afc44",
+    "pourquoi": "L'arrivée de Gemini 4 Neon par Google marque une nouvelle étape dans la course aux performances des grands acteurs de l'IA générative.",
+    "a_faire": "Surveiller les benchmarks officiels et tester l'accès via Google Cloud."
    },
    {
     "id": "b18ca0530fdd1a",
-    "pourquoi": "Microsoft introduit des scores de risque et des outils de vérification pour rendre les agents d'IA plus transparents et contrôlables en entreprise.",
-    "a_faire": "Explorer la préversion de ces outils de gouvernance pour anticiper les exigences de conformité sur vos futurs déploiements d'agents."
+    "pourquoi": "Microsoft introduit des outils de vérification et un score de risque pour les agents d'IA, répondant aux exigences cruciales de gouvernance et de sécurité en entreprise.",
+    "a_faire": "Évaluer la solution de score de risque de Microsoft pour auditer vos projets d'agents autonomes."
+   },
+   {
+    "id": "4d5a0fc7009773",
+    "pourquoi": "La mise à jour d'Unsloth intègre le modèle Inkling 2 Mini et optimise l'inférence locale (multimodale, image/vidéo) sur du matériel grand public (16 Go de RAM).",
+    "a_faire": "Tester l'exécution locale d'Inkling 2 Mini avec les derniers scripts d'optimisation d'Unsloth."
    }
   ]
  }
