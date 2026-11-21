@@ -1,12 +1,45 @@
 {
- "maj": "2026-11-21T12:38:52.779441+00:00",
+ "maj": "2026-11-21T21:38:56.644452+00:00",
  "histoires": [
+  {
+   "id": "h_6ec6f133d3",
+   "titre": "Échec des négociations de l'ONU sur les armes autonomes",
+   "resume": "Les négociations internationales menées sous l'égide de l'ONU à Genève pour encadrer et réguler l'utilisation des armes autonomes et des 'robots tueurs' se sont soldées par un échec.",
+   "creee": "2026-11-21T21:38:56.644452+00:00",
+   "maj": "2026-11-21T20:03:37+00:00",
+   "episodes": [
+    {
+     "id": "3767fdc39f655b",
+     "date": "2026-11-21T13:15:00+00:00",
+     "titre": "Échec des négociations de l'ONU sur le contrôle des armes autonomes",
+     "neuf": "Les discussions internationales de l'ONU se soldent par un échec.",
+     "fil": "même échec des négociations de l'ONU sur les armes autonomes",
+     "source": "IA militaire",
+     "lien": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPRUNMSUo1X2dYS3gzSVJxMmttOF95YXNZSHVxdkVqcVNocWdsSzdqMVROd0hjdWZWM3ZDbFB3UVFiNVZtZjQtTjhvUVBIMDF1eXAzdXRhRGcwTmVHajZyS09KU2hZdFRfam5GZlZSNng4emstWlNWakpZUW91dU05aTVZcjdXMmRMX2VZYlEyUWZHbTFTcm1ueklldGNia0IzeG4yVW92RmJISUVIVlE?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "234da3fc18675a",
+     "date": "2026-11-21T20:03:37+00:00",
+     "titre": "L'ONU échoue à s'accorder sur la régulation des armes autonomes",
+     "neuf": "Les diplomates réunis à Genève confirment l'absence d'accord sur les robots tueurs.",
+     "fil": "même échec des négociations de l'ONU sur la régulation des armes autonomes",
+     "source": "The Verge IA",
+     "lien": "https://www.theverge.com/tech/1039554/un-regulations-killer-robots",
+     "nb_sources": 1,
+     "primaire": false
+    }
+   ],
+   "statut": "active",
+   "societes": []
+  },
   {
    "id": "h_5febc86840",
    "titre": "L'introduction en Bourse d'Anthropic",
-   "resume": "L'introduction en bourse d'Anthropic se solde par un krach boursier et une forte baisse de l'action, accompagnés de débats sur sa valorisation estimée à 1,3 billion de dollars et d'interrogations sur l'impact de l'IPO sur sa promesse de sécurité.",
+   "resume": "L'introduction en bourse d'Anthropic au Nasdaq, portée par le succès de Claude Code et une valorisation géante, se double de questions sur sa trésorerie post-IPO, sa promesse de sécurité, la gestion des pannes et un impact baissier sur les valeurs technologiques liées à l'IA.",
    "creee": "2026-10-20T09:56:16.457937+00:00",
-   "maj": "2026-11-21T10:00:00+00:00",
+   "maj": "2026-11-21T17:13:00+00:00",
    "episodes": [
     {
      "id": "6702d1aaf0afce",
@@ -2451,6 +2484,17 @@
      "primaire": false
     },
     {
+     "id": "561b1f0c12aad9",
+     "date": "2026-11-20T10:00:00+00:00",
+     "titre": "Claude Code propulse l'introduction en bourse d'Anthropic",
+     "neuf": "Le succès de Claude Code est mis en avant comme moteur de l'introduction en bourse.",
+     "fil": "même introduction en Bourse d'Anthropic",
+     "source": "Anthropic (actus)",
+     "lien": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOV2pRQUN2T29QcDU5Q2hOc0trRVFIWUt5MmlqMHdJb0dDX1JMbVdVaEFwWWt4bmhTWENCNWNrVVVGZ3VVb1dpMG9uN0NhZEZwNTVudEJYZ1Y4dlN0dV9YbEFkSjhlME5Oc1ZfNEdtMGVrYXhRVDFERFFzdWYycEZUZXc5TnFkajg4MlR3eFhSNFdnandxSWVQMzVqZXM0UzQzZFlz?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
      "id": "fd2811614640e9",
      "date": "2026-11-20T13:29:59+00:00",
      "titre": "Global stock markets slump as Anthropic's record IPO fails to stem AI sell-off",
@@ -2568,6 +2612,306 @@
      "fil": "Conséquences de l'introduction en bourse sur la gouvernance et la sécurité d'Anthropic",
      "source": "Anthropic et gouvernement",
      "lien": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQVWZST3piU2NqZVJlVFlPQU9BY1F3eXNMR3VQdVd3OTRTcUF0b0FHSmp3MFZpZHFYaWNrOE9zRnl5LXBlNDlwaXQxaHhKY0VDVjQyVHhiT2ZQZHA0c2pwWFJ2VkItZEtmMHFfSmg3VU44dHgta0VnUHNVZy1sZGhRT0V3?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "a5ca4fa090d8ca",
+     "date": "2026-11-21T11:00:00+00:00",
+     "titre": "Alerte d'un ingénieur d'Anthropic sur Claude Code et les pannes informatiques",
+     "neuf": "L'utilisation de Claude Code suscite des alertes sur la gestion des pannes technologiques à grande échelle.",
+     "fil": "mêmes suites de l'introduction en bourse et impacts d'outils d'Anthropic",
+     "source": "Anthropic (actus)",
+     "lien": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxPZHJCVThaVWVtUkpteGlHSWR3MDRPd0lsVjJ6dTlEaGhVX1hsWVFhRW45WEdDTlNTS05iUGs3TzVrTTY4QTI3aVBrVG5CbU40Yi1sWFNYN0JPUXY0RE1TUGJ1WndpanJVbUZiOVNiV2JXbUhicno2eGludENWRmFlU3RVR0hLemhoYkVLd05PMDZzSGc1dVhHNEJYWUpvMmdyTmh0TXUzWW1icGhDRGhRZTBkN2ctSlA3ei1nMEJxRnRSYlhSRlpnMC10Zm8tODhIQjkzdjl3VEZNODNVaHJCR2plZ3drajg?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "ea29ee5e39aaeb",
+     "date": "2026-11-21T12:00:00+00:00",
+     "titre": "Claude propulse Anthropic vers une valorisation géante selon The Times",
+     "neuf": "L'assistant Claude est désigné comme le fer de lance de la valorisation colossale de l'entreprise.",
+     "fil": "même valorisation et introduction en bourse d'Anthropic",
+     "source": "Anthropic (actus)",
+     "lien": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPc2MxQ3F4S2labHVnaVJQX3NSSzhRLUZ1dHVtX3Y1QjV4NHo4SHpjR0F0UnNCLWdNSTBvZktIVmFnYjlVSU1mS2J3OE1jU20wd21pNC0zT0ktUjIxS0tVOTF4V0xSNjAtNVBWdmVLYXZ1Rk1sUmVINDdXZmRQa3g1eWxLY3VmWFRrZmJqUVp0MkxqaEtjY0tYR2hsbndkTDA?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "a9f34b76fcc6d5",
+     "date": "2026-11-21T15:00:00+00:00",
+     "titre": "Anthropic entre en Bourse sur le Nasdaq",
+     "neuf": "Anthropic officialise son entrée en Bourse au Nasdaq.",
+     "fil": "même introduction en Bourse d'Anthropic",
+     "source": "The Verge IA",
+     "lien": "https://www.theverge.com/podcast/1038701/anthropic-ipo-ai-safety-openai-nvidia-structure",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "ebdfa646538b16",
+     "date": "2026-11-21T15:26:01+00:00",
+     "titre": "Situation financière d'Anthropic après son introduction en bourse",
+     "neuf": "La trésorerie disponible d'Anthropic après son introduction en bourse devient un indicateur clé.",
+     "fil": "même situation financière post-IPO d'Anthropic",
+     "source": "Anthropic (actus)",
+     "lien": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxNZmMtUzhlenBfVUNUY0J6eXhPMjdXS2VvLWpmZ19sWTQxenVWYmFOOElYWjFjMTJGcWdzalJlTmFPYVhnbk9xS21wN2hWeGkzUGNnUGR6Szg5VWZIMFNncVU2MHhWRjIxT1Q5U21UTFJHMUx4X2F0NTdDXzhjUHR5UUpjTFE4LWxiYkpiRk96bnR5U3VlN0RVZS1TaGxuQzBKLVBzNkRLMU5jU0s5aFlpX3NGUEhkMHpGSHNKTTVCUWpNb2RKdTQ1NTQtdk8tZnVVQTRnaHhLc1NIZmNCSEs0Q2ZzSVJUMHVCZ3JxLTVhTEo?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "e39b90343d080a",
+     "date": "2026-11-21T17:13:00+00:00",
+     "titre": "Baisse des actions liées à l'IA suite aux débuts d'Anthropic",
+     "neuf": "Les débuts d'Anthropic sur les marchés entraînent une baisse des actions liées à l'IA.",
+     "fil": "même impact boursier de l'entrée en bourse d'Anthropic",
+     "source": "Anthropic (actus)",
+     "lien": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOb3UwVjJjanJYWGIwb3l2UEo4aHo3dFdDeVFyb1BBODlfbF9hU0N2cERseWxxU3QxNlZPRUZBQWFhQ0dJN1V3MEd4LW9XbnFYZTJuMmJvcVFtODM2alVmWXQ2bjBaSVZBWUQ4alpsaTJuOHlGaFROdzh4NTFBQWNUY1BmVnYyeGF5a1Y2cE9NMlBrOWlJUWo4X0dxNzlKSGs0YVhTXw?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    }
+   ],
+   "statut": "active",
+   "societes": [
+    "anthropic",
+    "openai"
+   ]
+  },
+  {
+   "id": "h_448e1ef468",
+   "titre": "Lancement de Claude Fable 5.5",
+   "resume": "Anthropic déploie sa famille de modèles Fable, démontrant des capacités scientifiques avancées (comme la résolution de problèmes en physique des trous noirs ou l'aide à la démonstration de l'hypothèse de Riemann) tout en ajustant ses garde-fous.",
+   "creee": "2026-10-20T09:56:16.457937+00:00",
+   "maj": "2026-11-21T15:56:53+00:00",
+   "episodes": [
+    {
+     "id": "c435919116b493",
+     "date": "2026-10-07T07:00:00+00:00",
+     "titre": "Anthropic présente Claude Haiku 5.5",
+     "neuf": "Anthropic officialise le lancement de Claude Haiku 5.5 pour enrichir sa gamme de modèles rapides et légers.",
+     "fil": "même modèle Claude Haiku 5.5",
+     "source": "Anthropic (actus)",
+     "lien": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE94MUNId0d0TmJZUzNMVGwtcU5ZX0ZGYnlwZFVlRUxaM2tndlktanQwR3Z5OWJvMVRhWlNsVkhlWEpzY3pMY0M5Wl9DWkptZmlMYUtleA?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "b5bbf5af302275",
+     "date": "2026-10-17T12:57:51+00:00",
+     "titre": "Anthropic prépare la sortie de Claude Fable 5.5",
+     "neuf": "Anthropic prépare l'arrivée de la nouvelle version de son intelligence artificielle.",
+     "fil": "Lancement de Claude Fable 5.5",
+     "source": "Anthropic (actus)",
+     "lien": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNTTdoZzVvZTJnVmNMLXF3cWFycWlnbHNPQ1VEamVCaHZqY1dmVXl2M182ZkRnNktmU0QxN0UxMDEtT2ZZbENuMTZqSkk3NmtSdHF5WWd0MEVZX1dVOERONk52XzhqdU5rOW93dGZITHhLU3ZRdGRxNGFRaU1GMHN0LU03T1dQUk00eVdfWnoweFQ4blR2?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "f1b272ed5a8387",
+     "date": "2026-10-19T16:17:48+00:00",
+     "titre": "Lancement de Claude Haiku 5.5 pour des flux de travail rapides et économiques",
+     "neuf": "Anthropic enrichit sa gamme Claude 5.5 avec le lancement de Claude Haiku 5.5, taillé pour les flux de travail rapides et économiques.",
+     "fil": "Même gamme de modèles Claude 5.5 d'Anthropic",
+     "source": "Anthropic (actus)",
+     "lien": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQLW9KaWpQLURhY2ptbDNnQlZIT0Rfdm5MOWRSOWVrdE4zMVliS09LRmZ1RTJGUmdNR0w1NnQ3bmVfd04tdUI4OVZVUXZmLUJ2THZVdGI0WUJLdDlOOHVmVEd5MTZRZHVtbnNVU0RvNHkxQmhpMW52bkNPT3gyQktubGdiU1N1cy1tVVJqbUpxTkE0TnFEVkFvaVBVWE4xYk0?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "37808aa2c5df8d",
+     "date": "2026-11-09T18:52:17+00:00",
+     "titre": "SDK Anthropic v2.7.0",
+     "neuf": "Le SDK v2.7.0 ajoute le support de claude-fable-5-2 et claude-mythos-5-2.",
+     "fil": "nouvelles versions et SDK pour la gamme de modèles Claude",
+     "source": "SDK Anthropic",
+     "lien": "https://github.com/anthropics/anthropic-sdk-python/releases/tag/v2.7.0",
+     "nb_sources": 1,
+     "primaire": true
+    },
+    {
+     "id": "201edacbf0b210",
+     "date": "2026-11-09T19:35:35+00:00",
+     "titre": "Anthropic lance deux nouveaux modèles Claude et baisse ses prix de 20%",
+     "neuf": "Anthropic lance deux nouveaux modèles et baisse ses prix de 20%.",
+     "fil": "lancement de nouveaux modèles Claude",
+     "source": "Anthropic (actus)",
+     "lien": "https://news.google.com/rss/articles/CBMic0FVX3lxTE01NDJDcTRySFdTOUUxTnNXOXF1YU95ZFV6S2NLNEZTbFgwUEtGdFQ5bmtNZEF1MFRGU1NyczZGcFBiRDgtSWxoVmJsUV9acjQ0Yjl3SFN6OFhwaFpDbmk3aUVBZG1PZVZWdG5PSFVXWndEWnM?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "0275f0132ff724",
+     "date": "2026-11-09T20:04:37+00:00",
+     "titre": "Lancement de Claude Fable 5.2 sur AWS",
+     "neuf": "Le modèle Claude Fable 5.2 est désormais disponible sur l'infrastructure cloud d'AWS.",
+     "fil": "même modèle Claude Fable 5.2",
+     "source": "Anthropic (actus)",
+     "lien": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPd2JVY2R2SzNCdEtZdXlHOG85RU1qSkVTYndPS3c0ZWtnRm5scXZaNUhzZE5QR0t3VTRmMGxXQk9SaTJrY0ZTOElUSjZ0czN1VGFQZW9LVlRpWTRpRnVjcHhDcVNLd2ZHcWRZWlJIVkRsb1RCWTFPNVQySm9XWGZlT3BvYmtMWHJKb0E?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "255b56db4a4a44",
+     "date": "2026-11-09T20:04:55+00:00",
+     "titre": "Claude Fable 5.2 scores 65 on Artificial Analysis, highest so far",
+     "neuf": "Claude Fable 5.2 obtient un score de 65 sur Artificial Analysis, le plus élevé à ce jour.",
+     "fil": "performances des nouveaux modèles Claude Fable",
+     "source": "Hacker News (IA, 100+ pts)",
+     "lien": "https://artificialanalysis.ai/models/claude-fable-5-2",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "f70b4b29601163",
+     "date": "2026-11-09T21:02:00+00:00",
+     "titre": "Anthropic lance Claude Fable et Mythos 5.2, 20% moins cher que GPT-6 Astra",
+     "neuf": "Anthropic positionne ses nouveaux modèles 20% sous les tarifs de GPT-6 Astra.",
+     "fil": "même famille de modèles Claude Fable 5.2 et Mythos 5.2",
+     "source": "OpenAI (actus)",
+     "lien": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNZXh5WWJvWmxMbkZBakNhNWhkR3R2YnFvS2Uwc3JuOFlPOGh0aU1mbWZXZEJJU0xuRDZ2TW1nLXdyMWxnWllFcnRnRGlHWDJBdWUxdHJaR1NIZDc5Y0djdEliTUhGTDlxazlFbER1cmZyTk9udlJ1eHJxRHo1cmlKV2QtMW0yVTFaVk55dFJJVE9DRVYyM21nMXl0eEVzVEVxR1lVVGJWb2lzNDl1MmJONWVsc2ZET2VST3dEUUxGQWdIeFFkQjB6TnlKY0M5WmFqck80Q1VaSHQ?oc=5",
+     "nb_sources": 2,
+     "primaire": false
+    },
+    {
+     "id": "db84f0be1fbdb9",
+     "date": "2026-11-09T21:37:54+00:00",
+     "titre": "Anthropic annonce Claude Fable 5.2 et Mythos 5.2",
+     "neuf": "Présentation officielle des modèles capables de résoudre des problèmes de physique des trous noirs.",
+     "fil": "même annonce des modèles Claude Fable 5.2 et Mythos 5.2",
+     "source": "Anthropic (actus)",
+     "lien": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOWGw3UFZ0ZUxYWk1VSm9nMXJUNkVIamQxQ1VsVlMtOElpV3ozckEwRWRlVkdrZUdDSkZwV1ZpODQtV1RYR2MxM0Z1UUo1LW9fSXBtZ3RJZ1RkT2hJRnJMQU5KRVZiQ3ZVSFBvM09sNG4taThSb3VKcjdiaEtGTWRDXw?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "c816e072ffa177",
+     "date": "2026-11-10T00:26:00+00:00",
+     "titre": "Cisco intègre Claude Mythos d'Anthropic pour sécuriser les agents IA",
+     "neuf": "Cisco intègre Claude Mythos pour sécuriser ses solutions et opérations d'agents IA.",
+     "fil": "même modèle Claude Mythos d'Anthropic",
+     "source": "Anthropic (actus)",
+     "lien": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5hTk1PeXlLX1BjRjNYZW4xUlVCU3ZJQW00d0FIZ3ZCYXFkU3gxSFhzVTJaZFpZcTN4QmRQdVdacWpaQXp6RHdlWmRVS1pDZ2ViVXNDY0ZsQTVRQUkxNlZoZG5DX1haOW5sZUs1UU9ZY0U3UmtseTQ4MzZ30gGOAUFVX3lxTE1paFBiVjkyTjdiZ1UxaUR2dzFmTEZiVWNZSXFXVUJXRTlFZjRxeVlzTkswTkhiU1lFbWRka1QxTlJGR09IbERxYjhZaUZZUzNPWHlsYTRoaF95emFmeTcwVHVuM21TeXBjXzFJWW5ZOXllUXExbnlUZWx6QVYwV25iMXpDZVBhaXc1N1d4ckE?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "96561f0960dfd2",
+     "date": "2026-11-10T02:44:28.670758+00:00",
+     "titre": "Lancement de Claude Fable 5.2 et Claude Mythos 5.2 par Anthropic",
+     "neuf": "Anthropic officialise le lancement de Claude Fable 5.2 et Claude Mythos 5.2 dotés d'une fenêtre de contexte de 1M de tokens et d'une baisse de prix.",
+     "fil": "même lancement des modèles Claude Fable 5.2 et Claude Mythos 5.2",
+     "source": "Notes de version Claude (API)",
+     "lien": "https://platform.claude.com/docs/en/release-notes/overview",
+     "nb_sources": 1,
+     "primaire": true
+    },
+    {
+     "id": "c8bf0b8e918f2d",
+     "date": "2026-11-10T05:34:14+00:00",
+     "titre": "Quoting Prompting Claude Fable 5.2",
+     "neuf": "Analyses et tests sur la manière dont Claude Fable 5.2 réagit aux instructions concernant la propriété du code.",
+     "fil": "même modèle Claude Fable 5.2",
+     "source": "Simon Willison",
+     "lien": "https://simonwillison.net/2026/Nov/10/prompting-claude-fable-52/",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "f61f8a7895fab6",
+     "date": "2026-11-10T08:16:00+00:00",
+     "titre": "Anthropic's Claude Fable 5.2 Beats GPT-6 Cyber in Multi-Stage Cyberattack Benchmark - The Hacker News",
+     "neuf": "Claude Fable 5.2 se distingue dans les benchmarks multi-étapes de cyberattaque face à la concurrence.",
+     "fil": "mêmes performances de Claude Fable 5.2 dans les benchmarks de cybersécurité",
+     "source": "Anthropic (actus)",
+     "lien": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOaXJOZE13aW5YNlFwQkNJUXA1dEZlUzd3c1l5c2t2MFh2V0RWVWV5ZXVpM004cmhReWs4MndrUVVFWEpENWM1NHpOaTFVQUhlNTB2ZThVVWQ2ZFl2U0tIbXYxaXpvZmNoLXNxSDl5QTB6dWFvalVjRWY0OXVFLUNxQnhhTQ?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "5ffd74996fdd91",
+     "date": "2026-11-10T09:32:04+00:00",
+     "titre": "Anthropic lance Claude Fable et Mythos 5.2",
+     "neuf": "Nouvelle présentation officielle de Claude Fable et Mythos 5.2 par Anthropic.",
+     "fil": "même lancement de Claude Fable 5.2",
+     "source": "IA en français (actus)",
+     "lien": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQUm5OSlBxcGRWZUZHaTJoNTJkZGVlRmh2UnViTVZwTnVORE1sNkxaR2NxT09sNHl6bHJ2RkExX0RXajZWeF9OVG5faGo0VFVfekVXcUtPaUl5SGxwX29qWWdUYWkzbzN0NVh0OHZiNVVNRjl3UldhM3ZjY1JDVFJ3MUpCNVNydkZjVVNoSEQwaXlQTnpPNWtMZGEtNllZUVlHbjhod2Zn?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "2d0d7716dd1fc1",
+     "date": "2026-11-10T14:55:32+00:00",
+     "titre": "‘It feels like working with another staff-level engineer’: Anthropic lifts the veil on the latest features for Fable 5.2 and Mythos 5.2 built ‘for the most ambitious, open-ended technical work’ — and it's already built an operating system from scratch - TechRadar",
+     "neuf": "Anthropic détaille de nouvelles capacités pour Fable 5.2 et Mythos 5.2 présentées comme l'équivalent d'un ingénieur senior, capables de concevoir un système d'exploitation de zéro.",
+     "fil": "Nouvelles fonctionnalités et retours sur Claude Fable et Mythos 5.2",
+     "source": "Anthropic (actus)",
+     "lien": "https://news.google.com/rss/articles/CBMiqwNBVV95cUxPUm5wRERIN0FNNGRGejlWbWdLVk54TG15YlY2dW5XdVNUUDZTRzdIRUJJUE90UU5ScGVianhyMmFYYTl2Q0FOQmgwM3hRbmRHaEZWWGtoMTU3eERxOU9BUUtxdlF4SWp1WG01Vzh6ZFRveHlQdFBGWFdDUVN5OWdxQVlEaXJ1dXhRc1pOcmJaLWlDano5RlJsSFNsX1QwejF0UFp3U1JLR1pwbGw3WG1wYU10M3VrT0U1TnVGbGFna3hYdmhHd3BNLXRmUmNiQ01JR2RvamVhQWpLaWpFTUg0Y1l4T1l3emRfNl9ZNmx1Y3VYUTk2UVM2MDBOMWxMTm5KeWM4Sk5qNEN6SnBITTNKQWZQaDB4Vi1DQWktY1R0Q0ZOSkpadVJ4RjAyR3RzQXd1X0VDV19hRUVDYW5nWHRxQmJ0UVRtc0p4b2VRZXRCZks4TmxqRFJqT19zUkY5QUxjRXhjVU5za0wxZFVWUEVyTHJPR20zSzRGOVg0YklTeUxKUXZWb0dEM25KbHNleHJOeFM2eHNqTnVzRjhaLUJNS0E0WlkzbFJVWnln?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "f4256db0014aeb",
+     "date": "2026-11-14T16:50:52+00:00",
+     "titre": "Les anciennes habitudes de prompt ralentissent Claude Opus 5.5 selon Anthropic",
+     "neuf": "Anthropic indique que les anciennes habitudes de prompt ralentissent spécifiquement le modèle Claude Opus 5.5.",
+     "fil": "Même gamme de modèles Claude et optimisation des usages",
+     "source": "Anthropic (actus)",
+     "lien": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQTFM5cnNsaGNIMzZfVDNWZ19qWUg3c0UtNVZLdUdMbzc4ZS1uTGJ0VnN2dFItbVV5Q0VCMno4RGxNV05nQWd3ZDhlaVFIT3JZS0JMVFpMaUR0VlR5TGFROXpZMGwxUXBYdE9YUmtpZlZ5RVVSX0VYN1EzR2RTWW1UX0FGWHFxZVB0OUNvcEpPdDdvRUJMazNjdVRkM1RIdzA?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "6e11b5a22f5df9",
+     "date": "2026-11-15T15:46:56+00:00",
+     "titre": "Anthropic annonce Claude Fable 5.2 orienté création artistique",
+     "neuf": "Anthropic dévoile Claude Fable 5.2, orienté vers la création artistique et la capacité de 'peindre'.",
+     "fil": "modèle Claude Fable",
+     "source": "Anthropic (actus)",
+     "lien": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPeFlfNU82UGVDdk9qRlBDUDRhaFJBVlF3RmhOU2labVZFcFJaMHRySHVuSmY5cjdJbmQ3SjJBR1Z1UEc4WG1pWXVJTi1ER21YQ3JaaUZpVDhVVk1iOS1EVFR2bWE3djE5S25TZmZseVhQV21BaWJtU1czbzFMR0IwUU5adG9FVGhYdktMaVp4WkRBeTN5?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "f9488ace666a0b",
+     "date": "2026-11-16T11:00:00+00:00",
+     "titre": "Anthropic’s Claude Fable 5.2 blocks fewer security tasks, while Mythos gets better at finding bugs - BleepingComputer",
+     "neuf": "Des tests rapportent que Claude Fable 5.2 bloque moins de tâches liées à la sécurité qu'auparavant.",
+     "fil": "même modèle Claude Fable",
+     "source": "Anthropic (actus)",
+     "lien": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxOT0JBU3lhWTZqZ0ZSVmFkb3NBTUR5eWlCRVZMaXdwckRtRFhhMm92ZlVEakl0NGxaTHk1UEI0aTJXWFpxNHREQXFWTnMwOWFKMzBTRllsc19JSFNWSzdYN09CUXdqVWl1bGdPaXZFUXlSNEIta25iTnVKX2M4bjhWUDZnVGxCYzhNNkdnX2RNMUN3a05PamFKOE1mQnFPaHItWTNZOUQ1STlPVVd3LTZIMDM4YnNmT09UX1pFWHFpRW9YVk1iYjJzcThWNzFOYkU5c2NqaEEycWtzbUxldjB6WWlyRWNEai1Hb0lBUjlsNNIB9AFBVV95cUxNZ0R6aFl2anlnalFVc19xMXBYb1k3TVBDdDBlcDYxVE9BVGJmNnR2M1NzSEMxMTd0ZTA1QW9DNkMwY3lTazUzRndZWDhITDNIbHlRYUJULVJLWmc3aGlQdklnSUhJRXdIMng4WXJFLVllZWpSQ0lVZERVS1BZV2p2Snk2LXl2WnkwMkJ4TGEyZTJUUlVJYnFqREhSX0RvdzhtTlJ4UWRfNkVpWVNGdGdHNzVKbGhLUml4YVppR0hILUhzekcwdlhnLVlDcWVUamJndTBVelpuS2o2ek1ReUtBZG9TSjA5cnM2c1ZrUi1nZDVxU3g0?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "3c916aadacdd4a",
+     "date": "2026-11-17T08:00:00+00:00",
+     "titre": "Claude Fable 5.2 solves two open problems in the physics of black holes - Anthropic",
+     "neuf": "Le modèle Fable 5.2 résout deux problèmes ouverts de physique des trous noirs.",
+     "fil": "même famille de modèles Fable",
+     "source": "Anthropic (actus)",
+     "lien": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBZUGhIZlEzczZ3OTFxcjBiRFJLUDhrZjhGM1hKRHdQWnYzV05NQUh0Y19Nb2d6WHlQNWR6UkZmWEp0YlE4endwZXJTdVNwUmN3LXQxUU5MaTFaQldqZkZNZjFHZWNiZFN6LV9UdQ?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "f1632ec44a4fa3",
+     "date": "2026-11-17T09:04:28+00:00",
+     "titre": "Claude Fable 5.2 : Pourquoi le modèle le plus cher peut être le moins coûteux",
+     "neuf": "Analyse économique montrant que Claude Fable 5.2, bien que plus cher à l'appel API, peut s'avérer plus économique globalement grâce à une meilleure efficacité.",
+     "fil": "même famille de modèles Claude Fable",
+     "source": "Anthropic (actus)",
+     "lien": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQSkg3Ry1qdEQ2WjJyOHVqMTVDNGwwQUZTT2M0TU9fMktLZ3dLWVV0TjdvRVJ1QmdiQTQtTmFrSnJMRXRWNDhqMDNPLUprdEFWMFRyQ0xFOF9SeVlFZVZUX0dteUVDMmI2Y2tXdWxMMUQtQ0pEZkhEd3pyR19uam43OVRWdlVEZFVBdlh4a2xXM0x6ZVNJRGRCdmFrWWZlblU?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "16998a4ff42138",
+     "date": "2026-11-21T15:56:53+00:00",
+     "titre": "Un employé d'Anthropic affirme avoir résolu l'hypothèse de Riemann avec Claude",
+     "neuf": "Un employé affirme avoir résolu l'hypothèse de Riemann à l'aide du modèle Claude.",
+     "fil": "mêmes capacités scientifiques avancées des modèles d'Anthropic",
+     "source": "Anthropic et gouvernement",
+     "lien": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNNGIwdS1yaXpvQVR5Uk9kbXRRLWZYdFJrM21pTTk3NEk1cnl6cnp3cTl3Yl9yTGloVmdNbU1KcHFvdzlQdUhMWmtZcFpmZW1vRXhSdl9ZOFhLX1Z6ZXVwZ2FINktGcG1kYWNrZlJoXzZkT0dNOG5OOVF3YzhHME5rb2RVTHA5dWx4bU1KaTczd2VtT1R5RVdUb245ZlhrR2llcjNBX3BIMTNqT3ptNDBCZA?oc=5",
      "nb_sources": 1,
      "primaire": false
     }
@@ -3268,9 +3612,66 @@
    ]
   },
   {
+   "id": "h_db40d3ae5b",
+   "titre": "Inkling 2 Mini : modèle multimodal ouvert de Thinking Machines",
+   "resume": "Thinking Machines Lab lance Inkling 2 Mini, un modèle multimodal ouvert optimisé pour les agents et le code, rapidement décliné en versions GGUF, LoRA et non censurées pour les configurations locales.",
+   "creee": "2026-11-21T01:31:18.746635+00:00",
+   "maj": "2026-11-20T20:42:23+00:00",
+   "episodes": [
+    {
+     "id": "b4616e540a94c7",
+     "date": "2026-11-17T00:26:57+00:00",
+     "titre": "Inkling 2 Mini : un nouveau modèle multimodal ouvert de Thinking Machines",
+     "neuf": "annonce de Inkling 2 Mini, nouveau modèle multimodal ouvert de Thinking Machines.",
+     "fil": "Sortie du modèle Inkling 2 Mini",
+     "source": "Hugging Face : modèles en tendance",
+     "lien": "https://huggingface.co/thinkingmachines/Inkling-2-Mini",
+     "nb_sources": 1,
+     "primaire": true
+    },
+    {
+     "id": "80d31a6dee298b",
+     "date": "2026-11-20T00:00:00+00:00",
+     "titre": "Hugging Face lance Inkling 2 Mini pour l'IA locale",
+     "neuf": "Hugging Face met en avant les performances d'Inkling 2 Mini pour les configurations locales.",
+     "fil": "Déploiement de Inkling 2 Mini sur l'IA locale",
+     "source": "Hugging Face",
+     "lien": "https://huggingface.co/blog/inkling2mini",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "888124d35071bf",
+     "date": "2026-11-20T13:09:48+00:00",
+     "titre": "Sortie du modèle multimodal Inkling-2-Mini-GGUF sur Hugging Face",
+     "neuf": "Sortie du modèle Inkling-2-Mini-GGUF optimisé par Unsloth sur Hugging Face.",
+     "fil": "Disponibilité du format GGUF pour Inkling 2 Mini",
+     "source": "Hugging Face : modèles en tendance",
+     "lien": "https://huggingface.co/unsloth/Inkling-2-Mini-GGUF",
+     "nb_sources": 1,
+     "primaire": true
+    },
+    {
+     "id": "9700dbdecb25d3",
+     "date": "2026-11-20T20:42:23+00:00",
+     "titre": "Inkling-2-Mini-Uncensored-GGUF : version non censurée du modèle MoE",
+     "neuf": "Sortie d'une version non censurée d'Inkling 2 Mini en fichiers GGUF et LoRA pour usage local.",
+     "fil": "même modèle Inkling 2 Mini et déclinaisons locales",
+     "source": "Hugging Face : modèles en tendance",
+     "lien": "https://huggingface.co/AtomicChat/Inkling-2-Mini-Uncensored-GGUF",
+     "nb_sources": 1,
+     "primaire": true
+    }
+   ],
+   "statut": "active",
+   "societes": [
+    "huggingface"
+   ]
+  },
+  {
    "id": "h_c4961b9682",
    "titre": "Contrôles de la Chine sur l'export d'IA",
-   "resume": "Les restrictions américaines sur l'exportation de puces IA font l'objet de décisions controversées vers des firmes liées au Pentagone, tout en pesant sur les investissements et le retour sur investissement du cloud en Chine, notamment chez Tencent.",
+   "resume": "Les restrictions américaines sur l'exportation de puces IA sont renforcées pour bloquer l'accès aux calculs à distance, faisant craindre de nouvelles perturbations majeures dans la chaîne d'approvisionnement des semi-conducteurs et pesant sur Tencent en Chine.",
    "creee": "2026-10-20T09:56:16.457937+00:00",
    "maj": "2026-11-20T20:26:12+00:00",
    "episodes": [
@@ -5066,52 +5467,6 @@
     "anthropic",
     "openai",
     "microsoft"
-   ]
-  },
-  {
-   "id": "h_db40d3ae5b",
-   "titre": "Inkling 2 Mini : modèle multimodal ouvert de Thinking Machines",
-   "resume": "Thinking Machines Lab lance Inkling 2 Mini, un nouveau modèle multimodal ouvert de 20 Go optimisé pour les agents et le code, rapidement décliné en version GGUF par Unsloth pour les configurations locales.",
-   "creee": "2026-11-21T01:31:18.746635+00:00",
-   "maj": "2026-11-20T13:09:48+00:00",
-   "episodes": [
-    {
-     "id": "b4616e540a94c7",
-     "date": "2026-11-17T00:26:57+00:00",
-     "titre": "Inkling 2 Mini : un nouveau modèle multimodal ouvert de Thinking Machines",
-     "neuf": "annonce de Inkling 2 Mini, nouveau modèle multimodal ouvert de Thinking Machines.",
-     "fil": "Sortie du modèle Inkling 2 Mini",
-     "source": "Hugging Face : modèles en tendance",
-     "lien": "https://huggingface.co/thinkingmachines/Inkling-2-Mini",
-     "nb_sources": 1,
-     "primaire": true
-    },
-    {
-     "id": "80d31a6dee298b",
-     "date": "2026-11-20T00:00:00+00:00",
-     "titre": "Hugging Face lance Inkling 2 Mini pour l'IA locale",
-     "neuf": "Hugging Face met en avant les performances d'Inkling 2 Mini pour les configurations locales.",
-     "fil": "Déploiement de Inkling 2 Mini sur l'IA locale",
-     "source": "Hugging Face",
-     "lien": "https://huggingface.co/blog/inkling2mini",
-     "nb_sources": 1,
-     "primaire": false
-    },
-    {
-     "id": "888124d35071bf",
-     "date": "2026-11-20T13:09:48+00:00",
-     "titre": "Sortie du modèle multimodal Inkling-2-Mini-GGUF sur Hugging Face",
-     "neuf": "Sortie du modèle Inkling-2-Mini-GGUF optimisé par Unsloth sur Hugging Face.",
-     "fil": "Disponibilité du format GGUF pour Inkling 2 Mini",
-     "source": "Hugging Face : modèles en tendance",
-     "lien": "https://huggingface.co/unsloth/Inkling-2-Mini-GGUF",
-     "nb_sources": 1,
-     "primaire": true
-    }
-   ],
-   "statut": "active",
-   "societes": [
-    "huggingface"
    ]
   },
   {
@@ -6988,7 +7343,7 @@
   {
    "id": "h_706c77ae76",
    "titre": "Le projet de loi d'Anthropic sur la sécurité de l'IA",
-   "resume": "Le débat sur la régulation et la sécurité de l'IA se poursuit, marqué par des propositions politiques audacieuses en Californie concernant l'intégration d'un interrupteur d'urgence pour les grands modèles.",
+   "resume": "Le débat sur la régulation et la sécurité de l'IA se poursuit, marqué par la proposition formelle du gouverneur de Californie d'instaurer un interrupteur d'urgence et un signalement obligatoire des incidents en 48 heures.",
    "creee": "2026-10-20T09:56:16.457937+00:00",
    "maj": "2026-11-19T00:15:00+00:00",
    "episodes": [
@@ -7121,6 +7476,17 @@
      "fil": "même projet de loi sur la sécurité et le pouvoir de blocage",
      "source": "Grandes annonces IA",
      "lien": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9vN1o2MDlwOHp2RWRGRHdlVU9UMm0xZ2F6X1RFa2dGb0NVMENZSGRVRUhFV2hueE1JNm9nWVQ5Nnp0MFRfTmtpenZzM0dha0l2RmVKeUl5NFlrVHhxNWRZMmh0cGtHVEVCQlEzcEd5bw?oc=5",
+     "nb_sources": 1,
+     "primaire": false
+    },
+    {
+     "id": "2462ecdf444b53",
+     "date": "2026-11-18T18:41:35+00:00",
+     "titre": "Le gouverneur de Californie Gavin Newsom souhaite un pouvoir d'arrêt d'urgence pour l'IA",
+     "neuf": "Le gouverneur Gavin Newsom formalise sa proposition d'interrupteur d'urgence et de signalement obligatoire des incidents en 48 heures.",
+     "fil": "même projet de loi et propositions du gouverneur de Californie sur l'interrupteur d'urgence",
+     "source": "Sécurité des modèles",
+     "lien": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOM0t3eG1jMWl0Nm84MVNHb0I2b0pyTlBmblJ3Y3cyeXBHTkt0WDgta0lLTEUwN015cFBoTEZxY212Z0pKTzFUOFp3aWU1TDJtdmVkVWotdnBiSnN3VDFtTFVnNU1sZ040WGw3M210S0NXaWVwRUZkZ19YM0xHQmVfYWV5WmNGczE0OWRIbEhacGM?oc=5",
      "nb_sources": 1,
      "primaire": false
     },
@@ -8210,240 +8576,6 @@
    "statut": "active",
    "societes": [
     "spacexai"
-   ]
-  },
-  {
-   "id": "h_448e1ef468",
-   "titre": "Lancement de Claude Fable 5.5",
-   "resume": "Anthropic poursuit le déploiement et l'analyse de sa famille de modèles Fable (dont la version 5.2), démontrant des capacités scientifiques avancées comme la résolution de problèmes en physique des trous noirs, tout en ajustant ses garde-fous de sécurité.",
-   "creee": "2026-10-20T09:56:16.457937+00:00",
-   "maj": "2026-11-17T09:04:28+00:00",
-   "episodes": [
-    {
-     "id": "c435919116b493",
-     "date": "2026-10-07T07:00:00+00:00",
-     "titre": "Anthropic présente Claude Haiku 5.5",
-     "neuf": "Anthropic officialise le lancement de Claude Haiku 5.5 pour enrichir sa gamme de modèles rapides et légers.",
-     "fil": "même modèle Claude Haiku 5.5",
-     "source": "Anthropic (actus)",
-     "lien": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE94MUNId0d0TmJZUzNMVGwtcU5ZX0ZGYnlwZFVlRUxaM2tndlktanQwR3Z5OWJvMVRhWlNsVkhlWEpzY3pMY0M5Wl9DWkptZmlMYUtleA?oc=5",
-     "nb_sources": 1,
-     "primaire": false
-    },
-    {
-     "id": "b5bbf5af302275",
-     "date": "2026-10-17T12:57:51+00:00",
-     "titre": "Anthropic prépare la sortie de Claude Fable 5.5",
-     "neuf": "Anthropic prépare l'arrivée de la nouvelle version de son intelligence artificielle.",
-     "fil": "Lancement de Claude Fable 5.5",
-     "source": "Anthropic (actus)",
-     "lien": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNTTdoZzVvZTJnVmNMLXF3cWFycWlnbHNPQ1VEamVCaHZqY1dmVXl2M182ZkRnNktmU0QxN0UxMDEtT2ZZbENuMTZqSkk3NmtSdHF5WWd0MEVZX1dVOERONk52XzhqdU5rOW93dGZITHhLU3ZRdGRxNGFRaU1GMHN0LU03T1dQUk00eVdfWnoweFQ4blR2?oc=5",
-     "nb_sources": 1,
-     "primaire": false
-    },
-    {
-     "id": "f1b272ed5a8387",
-     "date": "2026-10-19T16:17:48+00:00",
-     "titre": "Lancement de Claude Haiku 5.5 pour des flux de travail rapides et économiques",
-     "neuf": "Anthropic enrichit sa gamme Claude 5.5 avec le lancement de Claude Haiku 5.5, taillé pour les flux de travail rapides et économiques.",
-     "fil": "Même gamme de modèles Claude 5.5 d'Anthropic",
-     "source": "Anthropic (actus)",
-     "lien": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQLW9KaWpQLURhY2ptbDNnQlZIT0Rfdm5MOWRSOWVrdE4zMVliS09LRmZ1RTJGUmdNR0w1NnQ3bmVfd04tdUI4OVZVUXZmLUJ2THZVdGI0WUJLdDlOOHVmVEd5MTZRZHVtbnNVU0RvNHkxQmhpMW52bkNPT3gyQktubGdiU1N1cy1tVVJqbUpxTkE0TnFEVkFvaVBVWE4xYk0?oc=5",
-     "nb_sources": 1,
-     "primaire": false
-    },
-    {
-     "id": "37808aa2c5df8d",
-     "date": "2026-11-09T18:52:17+00:00",
-     "titre": "SDK Anthropic v2.7.0",
-     "neuf": "Le SDK v2.7.0 ajoute le support de claude-fable-5-2 et claude-mythos-5-2.",
-     "fil": "nouvelles versions et SDK pour la gamme de modèles Claude",
-     "source": "SDK Anthropic",
-     "lien": "https://github.com/anthropics/anthropic-sdk-python/releases/tag/v2.7.0",
-     "nb_sources": 1,
-     "primaire": true
-    },
-    {
-     "id": "201edacbf0b210",
-     "date": "2026-11-09T19:35:35+00:00",
-     "titre": "Anthropic lance deux nouveaux modèles Claude et baisse ses prix de 20%",
-     "neuf": "Anthropic lance deux nouveaux modèles et baisse ses prix de 20%.",
-     "fil": "lancement de nouveaux modèles Claude",
-     "source": "Anthropic (actus)",
-     "lien": "https://news.google.com/rss/articles/CBMic0FVX3lxTE01NDJDcTRySFdTOUUxTnNXOXF1YU95ZFV6S2NLNEZTbFgwUEtGdFQ5bmtNZEF1MFRGU1NyczZGcFBiRDgtSWxoVmJsUV9acjQ0Yjl3SFN6OFhwaFpDbmk3aUVBZG1PZVZWdG5PSFVXWndEWnM?oc=5",
-     "nb_sources": 1,
-     "primaire": false
-    },
-    {
-     "id": "0275f0132ff724",
-     "date": "2026-11-09T20:04:37+00:00",
-     "titre": "Lancement de Claude Fable 5.2 sur AWS",
-     "neuf": "Le modèle Claude Fable 5.2 est désormais disponible sur l'infrastructure cloud d'AWS.",
-     "fil": "même modèle Claude Fable 5.2",
-     "source": "Anthropic (actus)",
-     "lien": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPd2JVY2R2SzNCdEtZdXlHOG85RU1qSkVTYndPS3c0ZWtnRm5scXZaNUhzZE5QR0t3VTRmMGxXQk9SaTJrY0ZTOElUSjZ0czN1VGFQZW9LVlRpWTRpRnVjcHhDcVNLd2ZHcWRZWlJIVkRsb1RCWTFPNVQySm9XWGZlT3BvYmtMWHJKb0E?oc=5",
-     "nb_sources": 1,
-     "primaire": false
-    },
-    {
-     "id": "255b56db4a4a44",
-     "date": "2026-11-09T20:04:55+00:00",
-     "titre": "Claude Fable 5.2 scores 65 on Artificial Analysis, highest so far",
-     "neuf": "Claude Fable 5.2 obtient un score de 65 sur Artificial Analysis, le plus élevé à ce jour.",
-     "fil": "performances des nouveaux modèles Claude Fable",
-     "source": "Hacker News (IA, 100+ pts)",
-     "lien": "https://artificialanalysis.ai/models/claude-fable-5-2",
-     "nb_sources": 1,
-     "primaire": false
-    },
-    {
-     "id": "f70b4b29601163",
-     "date": "2026-11-09T21:02:00+00:00",
-     "titre": "Anthropic lance Claude Fable et Mythos 5.2, 20% moins cher que GPT-6 Astra",
-     "neuf": "Anthropic positionne ses nouveaux modèles 20% sous les tarifs de GPT-6 Astra.",
-     "fil": "même famille de modèles Claude Fable 5.2 et Mythos 5.2",
-     "source": "OpenAI (actus)",
-     "lien": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNZXh5WWJvWmxMbkZBakNhNWhkR3R2YnFvS2Uwc3JuOFlPOGh0aU1mbWZXZEJJU0xuRDZ2TW1nLXdyMWxnWllFcnRnRGlHWDJBdWUxdHJaR1NIZDc5Y0djdEliTUhGTDlxazlFbER1cmZyTk9udlJ1eHJxRHo1cmlKV2QtMW0yVTFaVk55dFJJVE9DRVYyM21nMXl0eEVzVEVxR1lVVGJWb2lzNDl1MmJONWVsc2ZET2VST3dEUUxGQWdIeFFkQjB6TnlKY0M5WmFqck80Q1VaSHQ?oc=5",
-     "nb_sources": 2,
-     "primaire": false
-    },
-    {
-     "id": "db84f0be1fbdb9",
-     "date": "2026-11-09T21:37:54+00:00",
-     "titre": "Anthropic annonce Claude Fable 5.2 et Mythos 5.2",
-     "neuf": "Présentation officielle des modèles capables de résoudre des problèmes de physique des trous noirs.",
-     "fil": "même annonce des modèles Claude Fable 5.2 et Mythos 5.2",
-     "source": "Anthropic (actus)",
-     "lien": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOWGw3UFZ0ZUxYWk1VSm9nMXJUNkVIamQxQ1VsVlMtOElpV3ozckEwRWRlVkdrZUdDSkZwV1ZpODQtV1RYR2MxM0Z1UUo1LW9fSXBtZ3RJZ1RkT2hJRnJMQU5KRVZiQ3ZVSFBvM09sNG4taThSb3VKcjdiaEtGTWRDXw?oc=5",
-     "nb_sources": 1,
-     "primaire": false
-    },
-    {
-     "id": "c816e072ffa177",
-     "date": "2026-11-10T00:26:00+00:00",
-     "titre": "Cisco intègre Claude Mythos d'Anthropic pour sécuriser les agents IA",
-     "neuf": "Cisco intègre Claude Mythos pour sécuriser ses solutions et opérations d'agents IA.",
-     "fil": "même modèle Claude Mythos d'Anthropic",
-     "source": "Anthropic (actus)",
-     "lien": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5hTk1PeXlLX1BjRjNYZW4xUlVCU3ZJQW00d0FIZ3ZCYXFkU3gxSFhzVTJaZFpZcTN4QmRQdVdacWpaQXp6RHdlWmRVS1pDZ2ViVXNDY0ZsQTVRQUkxNlZoZG5DX1haOW5sZUs1UU9ZY0U3UmtseTQ4MzZ30gGOAUFVX3lxTE1paFBiVjkyTjdiZ1UxaUR2dzFmTEZiVWNZSXFXVUJXRTlFZjRxeVlzTkswTkhiU1lFbWRka1QxTlJGR09IbERxYjhZaUZZUzNPWHlsYTRoaF95emFmeTcwVHVuM21TeXBjXzFJWW5ZOXllUXExbnlUZWx6QVYwV25iMXpDZVBhaXc1N1d4ckE?oc=5",
-     "nb_sources": 1,
-     "primaire": false
-    },
-    {
-     "id": "96561f0960dfd2",
-     "date": "2026-11-10T02:44:28.670758+00:00",
-     "titre": "Lancement de Claude Fable 5.2 et Claude Mythos 5.2 par Anthropic",
-     "neuf": "Anthropic officialise le lancement de Claude Fable 5.2 et Claude Mythos 5.2 dotés d'une fenêtre de contexte de 1M de tokens et d'une baisse de prix.",
-     "fil": "même lancement des modèles Claude Fable 5.2 et Claude Mythos 5.2",
-     "source": "Notes de version Claude (API)",
-     "lien": "https://platform.claude.com/docs/en/release-notes/overview",
-     "nb_sources": 1,
-     "primaire": true
-    },
-    {
-     "id": "c8bf0b8e918f2d",
-     "date": "2026-11-10T05:34:14+00:00",
-     "titre": "Quoting Prompting Claude Fable 5.2",
-     "neuf": "Analyses et tests sur la manière dont Claude Fable 5.2 réagit aux instructions concernant la propriété du code.",
-     "fil": "même modèle Claude Fable 5.2",
-     "source": "Simon Willison",
-     "lien": "https://simonwillison.net/2026/Nov/10/prompting-claude-fable-52/",
-     "nb_sources": 1,
-     "primaire": false
-    },
-    {
-     "id": "f61f8a7895fab6",
-     "date": "2026-11-10T08:16:00+00:00",
-     "titre": "Anthropic's Claude Fable 5.2 Beats GPT-6 Cyber in Multi-Stage Cyberattack Benchmark - The Hacker News",
-     "neuf": "Claude Fable 5.2 se distingue dans les benchmarks multi-étapes de cyberattaque face à la concurrence.",
-     "fil": "mêmes performances de Claude Fable 5.2 dans les benchmarks de cybersécurité",
-     "source": "Anthropic (actus)",
-     "lien": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOaXJOZE13aW5YNlFwQkNJUXA1dEZlUzd3c1l5c2t2MFh2V0RWVWV5ZXVpM004cmhReWs4MndrUVVFWEpENWM1NHpOaTFVQUhlNTB2ZThVVWQ2ZFl2U0tIbXYxaXpvZmNoLXNxSDl5QTB6dWFvalVjRWY0OXVFLUNxQnhhTQ?oc=5",
-     "nb_sources": 1,
-     "primaire": false
-    },
-    {
-     "id": "5ffd74996fdd91",
-     "date": "2026-11-10T09:32:04+00:00",
-     "titre": "Anthropic lance Claude Fable et Mythos 5.2",
-     "neuf": "Nouvelle présentation officielle de Claude Fable et Mythos 5.2 par Anthropic.",
-     "fil": "même lancement de Claude Fable 5.2",
-     "source": "IA en français (actus)",
-     "lien": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQUm5OSlBxcGRWZUZHaTJoNTJkZGVlRmh2UnViTVZwTnVORE1sNkxaR2NxT09sNHl6bHJ2RkExX0RXajZWeF9OVG5faGo0VFVfekVXcUtPaUl5SGxwX29qWWdUYWkzbzN0NVh0OHZiNVVNRjl3UldhM3ZjY1JDVFJ3MUpCNVNydkZjVVNoSEQwaXlQTnpPNWtMZGEtNllZUVlHbjhod2Zn?oc=5",
-     "nb_sources": 1,
-     "primaire": false
-    },
-    {
-     "id": "2d0d7716dd1fc1",
-     "date": "2026-11-10T14:55:32+00:00",
-     "titre": "‘It feels like working with another staff-level engineer’: Anthropic lifts the veil on the latest features for Fable 5.2 and Mythos 5.2 built ‘for the most ambitious, open-ended technical work’ — and it's already built an operating system from scratch - TechRadar",
-     "neuf": "Anthropic détaille de nouvelles capacités pour Fable 5.2 et Mythos 5.2 présentées comme l'équivalent d'un ingénieur senior, capables de concevoir un système d'exploitation de zéro.",
-     "fil": "Nouvelles fonctionnalités et retours sur Claude Fable et Mythos 5.2",
-     "source": "Anthropic (actus)",
-     "lien": "https://news.google.com/rss/articles/CBMiqwNBVV95cUxPUm5wRERIN0FNNGRGejlWbWdLVk54TG15YlY2dW5XdVNUUDZTRzdIRUJJUE90UU5ScGVianhyMmFYYTl2Q0FOQmgwM3hRbmRHaEZWWGtoMTU3eERxOU9BUUtxdlF4SWp1WG01Vzh6ZFRveHlQdFBGWFdDUVN5OWdxQVlEaXJ1dXhRc1pOcmJaLWlDano5RlJsSFNsX1QwejF0UFp3U1JLR1pwbGw3WG1wYU10M3VrT0U1TnVGbGFna3hYdmhHd3BNLXRmUmNiQ01JR2RvamVhQWpLaWpFTUg0Y1l4T1l3emRfNl9ZNmx1Y3VYUTk2UVM2MDBOMWxMTm5KeWM4Sk5qNEN6SnBITTNKQWZQaDB4Vi1DQWktY1R0Q0ZOSkpadVJ4RjAyR3RzQXd1X0VDV19hRUVDYW5nWHRxQmJ0UVRtc0p4b2VRZXRCZks4TmxqRFJqT19zUkY5QUxjRXhjVU5za0wxZFVWUEVyTHJPR20zSzRGOVg0YklTeUxKUXZWb0dEM25KbHNleHJOeFM2eHNqTnVzRjhaLUJNS0E0WlkzbFJVWnln?oc=5",
-     "nb_sources": 1,
-     "primaire": false
-    },
-    {
-     "id": "f4256db0014aeb",
-     "date": "2026-11-14T16:50:52+00:00",
-     "titre": "Les anciennes habitudes de prompt ralentissent Claude Opus 5.5 selon Anthropic",
-     "neuf": "Anthropic indique que les anciennes habitudes de prompt ralentissent spécifiquement le modèle Claude Opus 5.5.",
-     "fil": "Même gamme de modèles Claude et optimisation des usages",
-     "source": "Anthropic (actus)",
-     "lien": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQTFM5cnNsaGNIMzZfVDNWZ19qWUg3c0UtNVZLdUdMbzc4ZS1uTGJ0VnN2dFItbVV5Q0VCMno4RGxNV05nQWd3ZDhlaVFIT3JZS0JMVFpMaUR0VlR5TGFROXpZMGwxUXBYdE9YUmtpZlZ5RVVSX0VYN1EzR2RTWW1UX0FGWHFxZVB0OUNvcEpPdDdvRUJMazNjdVRkM1RIdzA?oc=5",
-     "nb_sources": 1,
-     "primaire": false
-    },
-    {
-     "id": "6e11b5a22f5df9",
-     "date": "2026-11-15T15:46:56+00:00",
-     "titre": "Anthropic annonce Claude Fable 5.2 orienté création artistique",
-     "neuf": "Anthropic dévoile Claude Fable 5.2, orienté vers la création artistique et la capacité de 'peindre'.",
-     "fil": "modèle Claude Fable",
-     "source": "Anthropic (actus)",
-     "lien": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPeFlfNU82UGVDdk9qRlBDUDRhaFJBVlF3RmhOU2labVZFcFJaMHRySHVuSmY5cjdJbmQ3SjJBR1Z1UEc4WG1pWXVJTi1ER21YQ3JaaUZpVDhVVk1iOS1EVFR2bWE3djE5S25TZmZseVhQV21BaWJtU1czbzFMR0IwUU5adG9FVGhYdktMaVp4WkRBeTN5?oc=5",
-     "nb_sources": 1,
-     "primaire": false
-    },
-    {
-     "id": "f9488ace666a0b",
-     "date": "2026-11-16T11:00:00+00:00",
-     "titre": "Anthropic’s Claude Fable 5.2 blocks fewer security tasks, while Mythos gets better at finding bugs - BleepingComputer",
-     "neuf": "Des tests rapportent que Claude Fable 5.2 bloque moins de tâches liées à la sécurité qu'auparavant.",
-     "fil": "même modèle Claude Fable",
-     "source": "Anthropic (actus)",
-     "lien": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxOT0JBU3lhWTZqZ0ZSVmFkb3NBTUR5eWlCRVZMaXdwckRtRFhhMm92ZlVEakl0NGxaTHk1UEI0aTJXWFpxNHREQXFWTnMwOWFKMzBTRllsc19JSFNWSzdYN09CUXdqVWl1bGdPaXZFUXlSNEIta25iTnVKX2M4bjhWUDZnVGxCYzhNNkdnX2RNMUN3a05PamFKOE1mQnFPaHItWTNZOUQ1STlPVVd3LTZIMDM4YnNmT09UX1pFWHFpRW9YVk1iYjJzcThWNzFOYkU5c2NqaEEycWtzbUxldjB6WWlyRWNEai1Hb0lBUjlsNNIB9AFBVV95cUxNZ0R6aFl2anlnalFVc19xMXBYb1k3TVBDdDBlcDYxVE9BVGJmNnR2M1NzSEMxMTd0ZTA1QW9DNkMwY3lTazUzRndZWDhITDNIbHlRYUJULVJLWmc3aGlQdklnSUhJRXdIMng4WXJFLVllZWpSQ0lVZERVS1BZV2p2Snk2LXl2WnkwMkJ4TGEyZTJUUlVJYnFqREhSX0RvdzhtTlJ4UWRfNkVpWVNGdGdHNzVKbGhLUml4YVppR0hILUhzekcwdlhnLVlDcWVUamJndTBVelpuS2o2ek1ReUtBZG9TSjA5cnM2c1ZrUi1nZDVxU3g0?oc=5",
-     "nb_sources": 1,
-     "primaire": false
-    },
-    {
-     "id": "3c916aadacdd4a",
-     "date": "2026-11-17T08:00:00+00:00",
-     "titre": "Claude Fable 5.2 solves two open problems in the physics of black holes - Anthropic",
-     "neuf": "Le modèle Fable 5.2 résout deux problèmes ouverts de physique des trous noirs.",
-     "fil": "même famille de modèles Fable",
-     "source": "Anthropic (actus)",
-     "lien": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBZUGhIZlEzczZ3OTFxcjBiRFJLUDhrZjhGM1hKRHdQWnYzV05NQUh0Y19Nb2d6WHlQNWR6UkZmWEp0YlE4endwZXJTdVNwUmN3LXQxUU5MaTFaQldqZkZNZjFHZWNiZFN6LV9UdQ?oc=5",
-     "nb_sources": 1,
-     "primaire": false
-    },
-    {
-     "id": "f1632ec44a4fa3",
-     "date": "2026-11-17T09:04:28+00:00",
-     "titre": "Claude Fable 5.2 : Pourquoi le modèle le plus cher peut être le moins coûteux",
-     "neuf": "Analyse économique montrant que Claude Fable 5.2, bien que plus cher à l'appel API, peut s'avérer plus économique globalement grâce à une meilleure efficacité.",
-     "fil": "même famille de modèles Claude Fable",
-     "source": "Anthropic (actus)",
-     "lien": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQSkg3Ry1qdEQ2WjJyOHVqMTVDNGwwQUZTT2M0TU9fMktLZ3dLWVV0TjdvRVJ1QmdiQTQtTmFrSnJMRXRWNDhqMDNPLUprdEFWMFRyQ0xFOF9SeVlFZVZUX0dteUVDMmI2Y2tXdWxMMUQtQ0pEZkhEd3pyR19uam43OVRWdlVEZFVBdlh4a2xXM0x6ZVNJRGRCdmFrWWZlblU?oc=5",
-     "nb_sources": 1,
-     "primaire": false
-    }
-   ],
-   "statut": "active",
-   "societes": [
-    "anthropic",
-    "openai"
    ]
   },
   {
@@ -9691,7 +9823,7 @@
      "primaire": false
     }
    ],
-   "statut": "active",
+   "statut": "en sommeil",
    "societes": [
     "openai"
    ]
