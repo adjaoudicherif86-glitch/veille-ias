@@ -1,5 +1,5 @@
 {
- "maj": "2026-11-21T21:38:56.644497+00:00",
+ "maj": "2026-11-22T06:47:53.555894+00:00",
  "sources_ok": [
   "Notes de version Claude (API)",
   "Notes de version OpenAI (API)",
@@ -63,15 +63,15 @@
    "erreur": "404 Client Error: Not Found for url: https://www.reddit.com/r/LocalLLaMA/top/.rss?t=day"
   }
  ],
- "total": 2208,
- "analyses": 1212,
+ "total": 2212,
+ "analyses": 1223,
  "brief": {
-  "titre": "Anthropic entre en bourse et les modèles multimodaux progressent",
-  "texte": "L'actualité est marquée par l'introduction en bourse mouvementée d'Anthropic, soutenue par ses innovations comme Claude Code et des résolutions mathématiques remarquables. Côté open source, la bibliothèque Transformers passe en version 5.24.0 et Hugging Face met en avant le nouveau modèle multimodal Inkling-2-Mini, optimisé notamment par Unsloth. En parallèle, OpenAI abandonne le traitement Flex sur son API et déploie de nouvelles mesures contre la distillation. Enfin, Signal renforce la confidentialité de ses utilisateurs en bloquant les IA de Google et d'Apple.",
+  "titre": "Actualités IA : Anthropic en bourse et avancées multimodales",
+  "texte": "L'écosystème IA est marqué par l'introduction en bourse mouvementée d'Anthropic, qui coïncide avec des annonces financières et stratégiques majeures. Sur le plan technique, un chercheur de l'entreprise aurait fait progresser la résolution de l'hypothèse de Riemann à l'aide de Claude. Du côté des infrastructures et des outils, Hugging Face et Unsloth intègrent de nouveaux modèles compacts comme Inkling 2 Mini. Parallèlement, OpenAI fait évoluer sa politique tarifaire et de traitement sur ses API. Enfin, l'actualité des bibliothèques open source est rythmée par la sortie de Transformers v5.24.0.",
   "a_tester": [
-   "Explorer le nouveau modèle multimodal Inkling-2-Mini sur Hugging Face",
-   "Mettre à jour vos intégrations suite à l'abandon du traitement Flex par OpenAI",
-   "Tester les dernières optimisations de la bibliothèque Transformers v5.24.0"
+   "Tester la mise à jour Transformers v5.24.0 pour vos intégrations multimodales.",
+   "Explorer le modèle Inkling 2 Mini optimisé par Unsloth pour vos projets locaux.",
+   "Vérifier l'impact des changements d'OpenAI sur le traitement Flex dans vos codes API."
   ]
  },
  "top5": {
