@@ -1,5 +1,5 @@
 {
- "maj": "2026-11-23T07:37:57.141429+00:00",
+ "maj": "2026-11-23T20:13:53.893184+00:00",
  "sources_ok": [
   "Notes de version Claude (API)",
   "Notes de version OpenAI (API)",
@@ -63,8 +63,8 @@
    "erreur": "404 Client Error: Not Found for url: https://www.reddit.com/r/LocalLLaMA/top/.rss?t=day"
   }
  ],
- "total": 2200,
- "analyses": 1236,
+ "total": 2196,
+ "analyses": 1211,
  "brief": {
   "titre": "Anthropic entre en Bourse sur fond de turbulences de marché",
   "texte": "L'actualité de l'IA est dominée par l'entrée en Bourse historique d'Anthropic sur le Nasdaq, qui coïncide curieusement avec une baisse générale de Wall Street et des actions liées à l'intelligence artificielle. Face à ces soubresauts financiers, les géants poursuivent leurs déploiements avec l'ouverture de ChatGPT Space par OpenAI, l'intégration de Grok dans les véhicules Tesla, et la sortie de la v5.24.0 de Transformers. Côté sécurité et infrastructure, Anthropic introduit de nouveaux webhooks pour ses API, tandis que Nvidia fait face à des tensions entre ses résultats et les critiques de l'industrie.",
@@ -75,33 +75,33 @@
   ]
  },
  "top5": {
-  "maj": "2026-11-23T07:37:57.141429+00:00",
-  "par_ia": true,
+  "maj": "2026-11-23T20:13:53.893184+00:00",
+  "par_ia": false,
   "items": [
    {
-    "id": "962d469daa1741",
-    "pourquoi": "Anthropic franchit un cap critique pour les développeurs en portant le contexte de Claude Opus 4.8 à un million de tokens par défaut.",
-    "a_faire": "Tester l'API avec un large corpus de documents pour évaluer la pertinence de la mise en cache automatique."
-   },
-   {
     "id": "549a77347d5e1e",
-    "pourquoi": "Le lancement des nouveaux modèles GPT-6.2 d'OpenAI redéfinit les standards en matière de performances professionnelles et de capacités de codage.",
-    "a_faire": "Benchmarké GPT-6.2 Astra et Sol sur vos cas d'usage de développement et d'automatisation."
+    "pourquoi": "Cette mise à jour promet d'optimiser les flux de travail professionnels et le développement logiciel tout en réduisant les coûts d'utilisation des API.",
+    "a_faire": ""
    },
    {
-    "id": "1054662f25c3d8",
-    "pourquoi": "Google dote Gemini d'un agent autonome capable d'interagir directement avec le système d'exploitation macOS.",
-    "a_faire": "Surveiller les implications en termes de sécurité et tester l'agent pour automatiser des flux de travail locaux."
-   },
-   {
-    "id": "32be36537d4ad2",
-    "pourquoi": "Microsoft officialise Copilot Workspaces lors d'Ignite, structurant l'intégration de l'IA générative dans l'écosystème professionnel et Azure.",
-    "a_faire": "Explorer les nouvelles fonctionnalités de Copilot Workspaces pour identifier les gains de productivité potentiels."
+    "id": "fc6eacda44e2af",
+    "pourquoi": "",
+    "a_faire": ""
    },
    {
     "id": "993ad2d4012afd",
-    "pourquoi": "OVH démocratise l'IA locale et ultra-rapide avec un modèle hybride de 7 milliards de paramètres tournant sur du matériel grand public.",
-    "a_faire": "Télécharger et tester Olala mini 7A1B en local pour valider ses performances sur vos équipements."
+    "pourquoi": "Il démontre qu'il est possible d'exécuter des modèles performants et rapides sur du matériel grand public ou peu coûteux, démocratisant l'accès à l'IA locale.",
+    "a_faire": ""
+   },
+   {
+    "id": "2f787cdf5afc44",
+    "pourquoi": "L'arrivée d'une nouvelle version majeure d'un modèle concurrent de premier plan impacte directement l'écosystème professionnel et les capacités technologiques disponibles.",
+    "a_faire": ""
+   },
+   {
+    "id": "9dddeb89e408da",
+    "pourquoi": "Cette avancée montre comment l'IA peut accélérer la recherche fondamentale et le calcul quantique dans des domaines complexes comme l'énergie (fusion) et la chimie.",
+    "a_faire": ""
    }
   ]
  }
