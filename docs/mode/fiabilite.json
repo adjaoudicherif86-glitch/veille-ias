@@ -1,5 +1,5 @@
 {
- "maj": "2026-11-16T16:26:42.845210+00:00",
+ "maj": "2026-11-23T18:52:59.313626+00:00",
  "avis_verifies_le": "2026-11-10",
  "ecartees": [
   {
@@ -41,7 +41,7 @@
    "pays": "BE",
    "pays_nom": "Belgique",
    "hors_ue": false,
-   "retour": "14 jours",
+   "retour": "14 jours, étiquette fournie",
    "retour_gratuit": true,
    "livraison": "Gratuite, 1 à 3 jours",
    "livraison_gratuite_des": "0 €",
@@ -72,10 +72,10 @@
    "hors_ue": false,
    "retour": "14 jours, frais de 7 €",
    "retour_gratuit": false,
-   "livraison": "8 € en UE, 2 à 5 jours",
+   "livraison": "8 € en France, 2-5 jours",
    "livraison_gratuite_des": "100 €",
    "remboursement": "argent",
-   "alerte": "Livraison gratuite uniquement en point relais."
+   "alerte": "Livraison gratuite uniquement en point relais"
   },
   {
    "boutique": "Bonne Gueule",
@@ -87,12 +87,12 @@
    "pays": "FR",
    "pays_nom": "France",
    "hors_ue": false,
-   "retour": "15 jours, étiquette prépayée",
+   "retour": "15 jours, gratuit en France",
    "retour_gratuit": true,
    "livraison": "5 à 6 €, 2 à 4 jours",
    "livraison_gratuite_des": "200 €",
    "remboursement": "argent",
-   "douane": "Droits inclus dans la livraison",
+   "douane": "droits payés par la boutique",
    "alerte": "Pas de retour gratuit sur les soldes"
   },
   {
@@ -105,9 +105,9 @@
    "pays": "FR",
    "pays_nom": "France",
    "hors_ue": false,
-   "retour": "14 jours, payant (8 euros)",
+   "retour": "14 jours, payant (8 €)",
    "retour_gratuit": false,
-   "livraison": "Dès 3 €, 2 à 3 jours",
+   "livraison": "Dès 5 € en France, 2 à 3 jours",
    "livraison_gratuite_des": "200 €",
    "remboursement": "argent",
    "alerte": "Pas de remboursement après un premier échange."
@@ -134,10 +134,10 @@
    "pays": "US",
    "pays_nom": "États-Unis",
    "hors_ue": true,
-   "retour": "14 jours, retour payant",
+   "retour": "14 jours",
    "retour_gratuit": false,
    "remboursement": "argent",
-   "alerte": "Livraison USA uniquement visible dans le texte"
+   "alerte": "Pas d'information pour la France"
   },
   {
    "boutique": "Stan Ray",
@@ -161,7 +161,7 @@
    "pays": "UK",
    "pays_nom": "Royaume-Uni",
    "hors_ue": true,
-   "retour": "14 jours, frais de port exclus",
+   "retour": "14 jours, frais de port non remboursés",
    "retour_gratuit": false,
    "remboursement": "argent",
    "alerte": "Frais de port non remboursés"
@@ -212,13 +212,13 @@
    "pays": "UK",
    "pays_nom": "Royaume-Uni",
    "hors_ue": true,
-   "retour": "14 à 30 jours, payant",
+   "retour": "14 jours, retour payant",
    "retour_gratuit": false,
-   "livraison": "7,50 € en France, 3 à 5 jours",
+   "livraison": "7,50 €, 3 à 5 jours",
    "livraison_gratuite_des": "300 €",
    "remboursement": "argent",
-   "douane": "Droits payés par la boutique (DDP)",
-   "alerte": "Frais de retour international à votre charge"
+   "douane": "droits payés par la boutique",
+   "alerte": "frais de retour international déduits"
   },
   {
    "boutique": "Kestin",
@@ -230,13 +230,13 @@
    "pays": "UK",
    "pays_nom": "Royaume-Uni",
    "hors_ue": true,
-   "retour": "14 jours, retour payant",
+   "retour": "14 jours, retour payant à vos frais",
    "retour_gratuit": false,
-   "livraison": "calculé au paiement, 5 à 10 jours",
+   "livraison": "Calculé au checkout, 5 à 10 jours",
    "livraison_gratuite_des": "250 €",
    "remboursement": "argent",
-   "douane": "droits inclus au paiement",
-   "alerte": "Marquer le colis retourné pour éviter les frais."
+   "douane": "Droits payés au checkout",
+   "alerte": "Attention aux frais de retour international."
   },
   {
    "boutique": "Stuarts London",
@@ -262,10 +262,10 @@
    "hors_ue": true,
    "retour": "30 jours, retour payant",
    "retour_gratuit": false,
-   "livraison": "International, calculé au checkout",
+   "livraison": "Varie selon destination, calculé au paiement",
    "remboursement": "argent",
-   "douane": "frais de douane à votre charge",
-   "alerte": "Frais de douane et de retour à votre charge"
+   "douane": "Frais de douane à votre charge",
+   "alerte": "Frais de retour et douane à votre charge"
   },
   {
    "boutique": "Goodhood",
@@ -290,12 +290,12 @@
    "pays": "UK",
    "pays_nom": "Royaume-Uni",
    "hors_ue": true,
-   "retour": "14 jours, retour payant",
+   "retour": "14 jours, retour international payant",
    "retour_gratuit": false,
-   "livraison": "2 jours, DDP",
+   "livraison": "Expédié en DDP",
    "remboursement": "argent",
    "douane": "droits payés par la boutique",
-   "alerte": "Frais de retour international à votre charge"
+   "alerte": "Frais de retour international à votre charge."
   },
   {
    "boutique": "Taylor Stitch",
@@ -319,12 +319,12 @@
    "pays": "US",
    "pays_nom": "États-Unis",
    "hors_ue": true,
-   "retour": "21 jours, retour payant",
+   "retour": "21 jours, retour payant depuis l'étranger",
    "retour_gratuit": false,
-   "livraison": "calculé selon poids et distance",
+   "livraison": "Calculé selon poids et distance",
    "remboursement": "argent",
-   "douane": "droits à la charge du client",
-   "alerte": "Frais de retour et douane payants"
+   "douane": "Droits à la charge du client",
+   "alerte": "Frais de retour payants depuis la France"
   },
   {
    "boutique": "Avnier",
@@ -348,7 +348,7 @@
    "pays": "FR",
    "pays_nom": "France",
    "hors_ue": false,
-   "retour": "30 jours pour changer d'avis",
+   "retour": "30 jours, retours offerts",
    "retour_gratuit": true,
    "livraison": "En France",
    "livraison_gratuite_des": "150 €",
@@ -378,10 +378,10 @@
    "hors_ue": false,
    "retour": "30 jours, 3 € de frais",
    "retour_gratuit": false,
-   "livraison": "Dès 3,90 €, 48h",
+   "livraison": "Dès 3,90 €, 48h en France",
    "livraison_gratuite_des": "39 €",
    "remboursement": "argent",
-   "alerte": "3 € déduits du remboursement pour le retour"
+   "alerte": "3 € déduits du remboursement par retour"
   },
   {
    "boutique": "Olaf Hussein",
@@ -433,9 +433,9 @@
    "hors_ue": false,
    "retour": "14 jours, retour payant",
    "retour_gratuit": false,
-   "livraison": "3 à 5 jours, tarif variable",
+   "livraison": "3 à 5 jours",
    "remboursement": "argent",
-   "alerte": "Articles soldes remboursés en avoir seulement"
+   "alerte": "Articles soldés remboursés en avoir seulement"
   },
   {
    "boutique": "Hélas",
@@ -458,12 +458,11 @@
    "pays": "FR",
    "pays_nom": "France",
    "hors_ue": false,
-   "retour": "14 jours, retour payant à vos frais",
+   "retour": "14 jours, retour payant",
    "retour_gratuit": false,
    "livraison": "12 € en France, 2 à 10 jours",
    "remboursement": "argent",
-   "douane": "TVA incluse pour l'UE",
-   "alerte": "Frais de retour à votre charge"
+   "douane": "droits payés pour l'UE"
   },
   {
    "boutique": "The Next Door",
@@ -486,10 +485,10 @@
    "pays": "FR",
    "pays_nom": "France",
    "hors_ue": false,
-   "retour": "30 jours, retour postal",
+   "retour": "30 jours, par voie postale",
    "livraison": "Colissimo avec signature",
    "remboursement": "argent",
-   "alerte": "Risques transport à votre charge"
+   "alerte": "Risques de transport à votre charge"
   },
   {
    "boutique": "Afew",
@@ -503,8 +502,9 @@
    "hors_ue": false,
    "retour": "14 jours, retour à votre charge",
    "retour_gratuit": false,
+   "livraison": "Expédition depuis l'Allemagne",
    "remboursement": "argent",
-   "alerte": "Frais de retour en Allemagne à votre charge"
+   "alerte": "Frais de retour à votre charge"
   },
   {
    "boutique": "Slam Jam",
@@ -528,13 +528,13 @@
    "pays": "IT",
    "pays_nom": "Italie",
    "hors_ue": false,
-   "retour": "15 jours, retour payant",
+   "retour": "15 jours, payant",
    "retour_gratuit": false,
    "livraison": "13 € en France, 3 à 4 jours",
    "livraison_gratuite_des": "250 €",
    "remboursement": "argent",
    "douane": "droits inclus, expédié depuis l'Italie",
-   "alerte": "Frais de douane déduits du remboursement"
+   "alerte": "Frais de retour et douane déduits du remboursement"
   },
   {
    "boutique": "Aries",
@@ -573,9 +573,9 @@
    "pays": "UK",
    "pays_nom": "Royaume-Uni",
    "hors_ue": true,
-   "livraison": "10 €, 3 à 7 jours",
-   "douane": "droits et taxes à la charge client",
-   "alerte": "frais de douane applicables en France"
+   "livraison": "10 € en France, 3 à 7 jours",
+   "douane": "Droits et taxes à la charge du client",
+   "alerte": "Frais de douane applicables en France"
   },
   {
    "boutique": "Couverture & The Garbstore",
@@ -599,7 +599,7 @@
    "pays": "UK",
    "pays_nom": "Royaume-Uni",
    "hors_ue": true,
-   "alerte": "Boutique anglaise, frais de douane possibles"
+   "alerte": "Boutique anglaise, frais de douane possibles."
   },
   {
    "boutique": "Triads",
@@ -623,12 +623,11 @@
    "pays": "UK",
    "pays_nom": "Royaume-Uni",
    "hors_ue": true,
-   "retour": "21 jours, retour payant",
+   "retour": "21 jours, à vos frais",
    "retour_gratuit": false,
    "livraison": "DHL Express, calculé au panier",
    "remboursement": "argent",
-   "douane": "frais de douane à votre charge",
-   "alerte": "Déclarer unwanted returns pour éviter frais"
+   "alerte": "Déclarer 'unwanted returns' pour la douane"
   },
   {
    "boutique": "Wax London",
@@ -651,7 +650,8 @@
    "multi": false,
    "pays": "UK",
    "pays_nom": "Royaume-Uni",
-   "hors_ue": true
+   "hors_ue": true,
+   "alerte": "Informations textuelles non disponibles dans le code."
   },
   {
    "boutique": "Folk",
@@ -675,10 +675,9 @@
    "pays": "UK",
    "pays_nom": "Royaume-Uni",
    "hors_ue": true,
-   "retour": "28 jours, remboursement uniquement",
-   "retour_gratuit": false,
+   "retour": "28 jours, non précisé",
    "remboursement": "argent",
-   "alerte": "Pas de détails de livraison visibles"
+   "alerte": "Frais et modalités de livraison non précisés"
   },
   {
    "boutique": "Albam",
@@ -694,8 +693,8 @@
    "retour_gratuit": false,
    "livraison": "Environ 20 £, 1 à 3 jours",
    "remboursement": "argent",
-   "douane": "Droits de douane à la charge du client",
-   "alerte": "Retours et douanes à la charge du client"
+   "douane": "Droits de douane à votre charge",
+   "alerte": "Retours et frais de port payants"
   },
   {
    "boutique": "Stüssy",
@@ -709,7 +708,7 @@
    "hors_ue": false,
    "retour": "14 jours, retour payant",
    "retour_gratuit": false,
-   "livraison": "12 € en France",
+   "livraison": "12 € en France, 3 à 5 jours",
    "livraison_gratuite_des": "200 €",
    "remboursement": "argent",
    "alerte": "Frais de retour déduits du remboursement"
@@ -729,7 +728,7 @@
    "livraison": "2 à 5 jours",
    "remboursement": "argent",
    "douane": "frais de douane à votre charge",
-   "alerte": "Articles soldés non remboursables."
+   "alerte": "Articles soldes non remboursables."
   },
   {
    "boutique": "Carne Bollente",
@@ -743,10 +742,10 @@
    "hors_ue": false,
    "retour": "14 jours, gratuit pour la France",
    "retour_gratuit": true,
-   "livraison": "7 € à 16,50 €",
+   "livraison": "7 à 10 € en France",
    "livraison_gratuite_des": "300 €",
    "remboursement": "argent",
-   "douane": "droits inclus pour la France",
+   "douane": "Droits inclus pour la France",
    "alerte": "Chaussettes et sous-vêtements non remboursables"
   },
   {
@@ -759,12 +758,12 @@
    "pays": "FR",
    "pays_nom": "France",
    "hors_ue": false,
-   "retour": "14 jours, étiquette prépayée payante (10 €)",
+   "retour": "14 jours, retour payant (10 €)",
    "retour_gratuit": false,
-   "livraison": "10 € (standard) ou 15 € (express)",
+   "livraison": "10 € à 15 €, 2 à 3 jours",
    "livraison_gratuite_des": "150 €",
    "remboursement": "argent",
-   "douane": "droits inclus pour la France",
+   "douane": "droits payés par la boutique",
    "alerte": "10 € de frais de retour déduits"
   },
   {
@@ -797,7 +796,7 @@
    "livraison": "Calculé au paiement, délais variables",
    "remboursement": "argent",
    "douane": "TVA et droits calculés au paiement",
-   "alerte": "Étiquette de retour payante"
+   "alerte": "Frais de retour à votre charge"
   },
   {
    "boutique": "Portuguese Flannel",
@@ -829,7 +828,7 @@
    "livraison": "15 à 20 € en France, 1 à 4 jours",
    "livraison_gratuite_des": "350 €",
    "remboursement": "argent",
-   "alerte": "Frais de retour à votre charge"
+   "alerte": "Retours payants à votre charge."
   },
   {
    "boutique": "Oi Polloi",
@@ -843,11 +842,11 @@
    "hors_ue": true,
    "retour": "14 jours, retour payant",
    "retour_gratuit": false,
-   "livraison": "4 à 7 jours, gratuit (Standard)",
+   "livraison": "Gratuit en Europe, 3 à 5 jours",
    "livraison_gratuite_des": "0 €",
    "remboursement": "argent",
    "douane": "droits payés par la boutique",
-   "alerte": "Marquer le colis 'RETURNED GOODS' pour éviter la douane"
+   "alerte": "Marquer les retours 'RETURNED GOODS' pour éviter la douane."
   },
   {
    "boutique": "Peggs & Son",
@@ -871,12 +870,11 @@
    "pays": "UK",
    "pays_nom": "Royaume-Uni",
    "hors_ue": true,
-   "retour": "14 jours, retour payant max 40 €",
+   "retour": "14 jours, retour payant 40 € max",
    "retour_gratuit": false,
-   "livraison": "Coût non précisé pour la France",
    "remboursement": "argent",
-   "douane": "Frais de douane à votre charge",
-   "alerte": "Frais de douane et de retour à votre charge"
+   "douane": "droits et taxes à votre charge",
+   "alerte": "Frais de retour payants et taxes douanières pour la France"
   },
   {
    "boutique": "Sunspel",
@@ -901,7 +899,8 @@
    "hors_ue": true,
    "retour": "14 jours, frais non précisés",
    "remboursement": "argent",
-   "alerte": "Retours UE rallongés suite au Brexit"
+   "douane": "Retards douaniers liés au Brexit",
+   "alerte": "Retours UE plus longs suite au Brexit"
   },
   {
    "boutique": "Aimé Leon Dore",
@@ -941,9 +940,9 @@
    "pays": "FR",
    "pays_nom": "France",
    "hors_ue": false,
-   "retour": "30 jours, retour gratuit",
+   "retour": "30 jours, gratuit",
    "retour_gratuit": true,
-   "livraison": "3,90 € à 7,90 €",
+   "livraison": "Dès 3,90 €, Colissimo ou Chronopost",
    "livraison_gratuite_des": "90 €",
    "remboursement": "argent",
    "alerte": "Pas d'échange possible, uniquement des remboursements."
@@ -974,7 +973,8 @@
    "retour_gratuit": false,
    "livraison": "Expédié depuis l'Espagne",
    "remboursement": "argent",
-   "alerte": "Frais de retour à votre charge."
+   "douane": "Pas de douane pour la France",
+   "alerte": "Frais de retour à votre charge"
   },
   {
    "boutique": "Chevignon",
@@ -997,12 +997,12 @@
    "pays": "FR",
    "pays_nom": "France",
    "hors_ue": false,
-   "retour": "14 jours, retour gratuit en France",
+   "retour": "14 jours",
    "retour_gratuit": true,
-   "livraison": "3 à 5 jours en France",
+   "livraison": "3 à 5 jours ouvrés",
    "livraison_gratuite_des": "150 €",
    "remboursement": "argent",
-   "alerte": "Articles personnalisés non remboursables"
+   "alerte": "Délais rallongés en période de soldes"
   },
   {
    "boutique": "Olow",
@@ -1014,10 +1014,9 @@
    "pays": "FR",
    "pays_nom": "France",
    "hors_ue": false,
-   "retour": "15 jours, retour gratuit en France",
+   "retour": "15 à 45 jours, gratuit en France",
    "retour_gratuit": true,
-   "livraison": "Dès 5 €, 2 à 4 jours",
-   "livraison_gratuite_des": "120 €",
+   "livraison": "5 € à 7,50 €, 2 à 4 jours",
    "remboursement": "argent"
   },
   {
@@ -1030,11 +1029,11 @@
    "pays": "FR",
    "pays_nom": "France",
    "hors_ue": false,
-   "retour": "14 jours, frais à votre charge",
+   "retour": "14 jours, retour à votre charge",
    "retour_gratuit": false,
    "livraison": "7 jours maximum",
    "remboursement": "argent",
-   "alerte": "Frais de retour à votre charge."
+   "alerte": "Frais de retour à votre charge"
   },
   {
    "boutique": "Kappa",
@@ -1051,7 +1050,7 @@
    "livraison": "9,90 € en France, 3 à 5 jours",
    "livraison_gratuite_des": "99 €",
    "remboursement": "argent",
-   "alerte": "Pas d'échange possible, uniquement un remboursement."
+   "alerte": "Pas d'échange possible, uniquement des retours."
   },
   {
    "boutique": "Cuisse de Grenouille",
@@ -1074,12 +1073,12 @@
    "pays": "FR",
    "pays_nom": "France",
    "hors_ue": false,
-   "retour": "14 jours, retour payant",
+   "retour": "14 jours, frais à votre charge",
    "retour_gratuit": false,
    "livraison": "6 €, 2 à 5 jours",
    "livraison_gratuite_des": "80 €",
    "remboursement": "argent",
-   "alerte": "Pas d'échange possible, uniquement des remboursements"
+   "alerte": "Pas d'échange possible, uniquement un remboursement"
   },
   {
    "boutique": "Le Slip Français",
@@ -1104,9 +1103,9 @@
    "hors_ue": false,
    "retour": "14 jours, gratuit en France",
    "retour_gratuit": true,
-   "livraison": "4 à 6 jours, dès 4 €",
+   "livraison": "4 à 6€, 3 à 6 jours",
    "remboursement": "argent",
-   "alerte": "Retours en boutique impossible"
+   "alerte": "Frais de port non remboursés"
   },
   {
    "boutique": "Teddy Smith",
@@ -1137,7 +1136,7 @@
    "livraison": "5 à 8 € en France, 2 à 3 jours",
    "livraison_gratuite_des": "100 €",
    "remboursement": "argent",
-   "alerte": "Sous-vêtements non repris si ouverts."
+   "alerte": "Sous-vêtements non repris si ouverts"
   },
   {
    "boutique": "Armor Lux",
@@ -1149,12 +1148,13 @@
    "pays": "FR",
    "pays_nom": "France",
    "hors_ue": false,
-   "retour": "30 jours, retour gratuit en France",
+   "retour": "30 jours, gratuit en France",
    "retour_gratuit": true,
-   "livraison": "4,90 € à 10 €, 2 à 5 jours",
+   "livraison": "Dès 4,90 €, 2 à 5 jours",
    "livraison_gratuite_des": "100 €",
    "remboursement": "argent",
-   "alerte": "Pas d'échange possible, remboursement uniquement."
+   "douane": "Droits inclus dans le total",
+   "alerte": "Pas d'échange, obligation de repasser commande"
   },
   {
    "boutique": "Asphaltgold",
@@ -1166,13 +1166,183 @@
    "pays": "DE",
    "pays_nom": "Allemagne",
    "hors_ue": false,
-   "retour": "14 jours, payant si moins de 60€",
+   "retour": "14 jours, payant sous 60 €",
    "retour_gratuit": false,
    "livraison": "4,95 €, 3 à 5 jours",
    "livraison_gratuite_des": "100 €",
    "remboursement": "argent",
    "douane": "Pas de frais dans l'UE",
-   "alerte": "Retour payant si articles sous 60€"
+   "alerte": "Retour payant si articles < 60 €"
+  },
+  {
+   "boutique": "Naked Copenhagen",
+   "site": "nakedcph.com",
+   "niveau": "inconnu",
+   "avis": null,
+   "veille": false,
+   "multi": true,
+   "pays": "DK",
+   "pays_nom": "Danemark",
+   "hors_ue": false,
+   "retour": "30 jours, retour payant",
+   "retour_gratuit": false,
+   "remboursement": "argent",
+   "douane": "droits de douane non inclus",
+   "alerte": "Boîte à chaussures intacte obligatoire"
+  },
+  {
+   "boutique": "JOTT",
+   "site": "justoverthetop.com",
+   "niveau": "inconnu",
+   "avis": null,
+   "veille": false,
+   "multi": false,
+   "pays": "FR",
+   "pays_nom": "France",
+   "hors_ue": false,
+   "retour": "30 jours, retour payant",
+   "retour_gratuit": false,
+   "livraison": "Affiché au paiement",
+   "livraison_gratuite_des": "90 €",
+   "remboursement": "argent",
+   "alerte": "Contact obligatoire avant tout retour"
+  },
+  {
+   "boutique": "Picture Organic",
+   "site": "picture-organic-clothing.com",
+   "niveau": "inconnu",
+   "avis": null,
+   "veille": false,
+   "multi": false,
+   "pays": "FR",
+   "pays_nom": "France",
+   "hors_ue": false,
+   "retour": "30 jours, gratuit",
+   "retour_gratuit": true,
+   "livraison": "3 à 5 jours, payant",
+   "livraison_gratuite_des": "100 €",
+   "remboursement": "argent",
+   "alerte": "Pas d'échange possible, remboursement uniquement."
+  },
+  {
+   "boutique": "Maison Labiche",
+   "site": "maisonlabiche.com",
+   "niveau": "inconnu",
+   "avis": null,
+   "veille": false,
+   "multi": false,
+   "pays": "FR",
+   "pays_nom": "France",
+   "hors_ue": false,
+   "retour": "15 jours, gratuit en France",
+   "retour_gratuit": true,
+   "livraison": "5 € en France, 3 à 4 jours",
+   "livraison_gratuite_des": "150 €",
+   "remboursement": "argent",
+   "alerte": "Articles personnalisés non remboursables."
+  },
+  {
+   "boutique": "Commune de Paris",
+   "site": "communedeparis1871.com",
+   "niveau": "inconnu",
+   "avis": null,
+   "veille": false,
+   "multi": false,
+   "pays": "FR",
+   "pays_nom": "France",
+   "hors_ue": false,
+   "retour": "14 jours, bon prépayé",
+   "retour_gratuit": true,
+   "livraison": "5.90 € en relais, 2 à 5 jours",
+   "livraison_gratuite_des": "90 €",
+   "remboursement": "argent",
+   "alerte": "Frais de port initiaux non remboursés"
+  },
+  {
+   "boutique": "Edmmond Studios",
+   "site": "edmmond.com",
+   "niveau": "inconnu",
+   "avis": null,
+   "veille": false,
+   "multi": false,
+   "pays": "ES",
+   "pays_nom": "Espagne",
+   "hors_ue": false
+  },
+  {
+   "boutique": "Makia",
+   "site": "makia.com",
+   "niveau": "inconnu",
+   "avis": null,
+   "veille": false,
+   "multi": false,
+   "pays": "FI",
+   "pays_nom": "FI",
+   "hors_ue": false,
+   "retour": "30 jours, gratuit",
+   "retour_gratuit": true,
+   "livraison": "8,90 €, 2 à 4 jours",
+   "livraison_gratuite_des": "100 €",
+   "remboursement": "argent"
+  },
+  {
+   "boutique": "Obey",
+   "site": "obeyclothing.eu",
+   "niveau": "inconnu",
+   "avis": null,
+   "veille": false,
+   "multi": false,
+   "pays": "NL",
+   "pays_nom": "Pays-Bas",
+   "hors_ue": false,
+   "retour": "30 jours, retour payant",
+   "retour_gratuit": false,
+   "remboursement": "argent",
+   "alerte": "Frais de retour à votre charge."
+  },
+  {
+   "boutique": "Rains",
+   "site": "rains.com",
+   "niveau": "inconnu",
+   "avis": null,
+   "veille": true,
+   "multi": false,
+   "pays": "DK",
+   "pays_nom": "Danemark",
+   "hors_ue": false,
+   "retour": "30 jours, 3,95 € de frais",
+   "retour_gratuit": false,
+   "livraison": "Dès 5,95 €, point relais ou domicile",
+   "livraison_gratuite_des": "99 €",
+   "remboursement": "argent",
+   "alerte": "Frais de retour de 3,95 € déduits."
+  },
+  {
+   "boutique": "Overkill",
+   "site": "overkillshop.com",
+   "niveau": "inconnu",
+   "avis": null,
+   "veille": true,
+   "multi": true,
+   "pays": "DE",
+   "pays_nom": "Allemagne",
+   "hors_ue": false,
+   "retour": "14 jours, 2,95 € de frais",
+   "retour_gratuit": false,
+   "livraison": "4,99 € via DHL, 2 à 5 jours",
+   "remboursement": "argent",
+   "alerte": "Pas de livraison dans les DOM-TOM français."
+  },
+  {
+   "boutique": "Kith",
+   "site": "eu.kith.com",
+   "niveau": "inconnu",
+   "avis": null,
+   "veille": true,
+   "multi": true,
+   "pays": "FR",
+   "pays_nom": "France",
+   "hors_ue": false
   },
   {
    "boutique": "Zara",
