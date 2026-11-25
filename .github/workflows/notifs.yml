@@ -1,0 +1,33 @@
+name: "Pièce Unique : notifs téléphone"
+on:
+  # après chaque collecte et chaque lecture X ; le script n'envoie qu'une notif par créneau (3 par jour au plus)
+  workflow_run:
+    workflows: ["Pièce Unique : promos du jour", "Pièce Unique : repéré sur X (Camino & co)"]
+    types: [completed]
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: notifs
+  cancel-in-progress: false
+jobs:
+  notifs:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install pywebpush
+      - env:
+          VAPID_PRIVE: ${{ secrets.VAPID_PRIVE }}
+          PU_ABONNEMENT: ${{ secrets.PU_ABONNEMENT }}
+        run: python mode/notifs.py
+      - run: |
+          git config user.name "veille-bot"; git config user.email "veille-bot@users.noreply.github.com"
+          git add etat/notifs.json; git diff --cached --quiet && exit 0
+          git commit -m "Pièce Unique : notifs"
+          for i in 1 2 3; do git pull --rebase origin main && git push && break; sleep 5; done

@@ -4,6 +4,12 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Pièce Unique</title>
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="apple-touch-icon" href="icone-180.png">
+<meta name="theme-color" content="#000000">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="Pièce Unique">
+<meta name="apple-mobile-web-app-status-bar-style" content="black">
 <meta name="description" content="Les vrais bons plans mode homme du jour : streetwear, workwear, minimal, old money.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -32,6 +38,13 @@ button,select{font:inherit;color:inherit}
 @keyframes defile{to{transform:translateX(-50%)}}
 @media (prefers-reduced-motion:reduce){.ticker .rail{animation:none}}
 
+/* notifs */
+.notif{border-bottom:1px solid var(--noir);background:var(--sticker)}
+.notif .wrap{display:flex;flex-wrap:wrap;align-items:center;gap:8px 14px;padding-top:10px;padding-bottom:10px;font-size:14px}
+.notif p{flex:1 1 260px}
+.notif button{border:1.5px solid var(--noir);background:var(--noir);color:var(--blanc);border-radius:999px;padding:7px 14px;font-weight:700;cursor:pointer;font-size:14px}
+.notif button.non{background:none;color:var(--noir);border-color:transparent;text-decoration:underline;padding:7px 4px}
+.notif textarea{width:100%;font:12px/1.35 ui-monospace,monospace;padding:8px;border:1px solid var(--noir);height:84px;resize:none;background:var(--blanc)}
 /* en-tête */
 header.tete{border-bottom:1px solid var(--noir)}
 .tete .wrap{display:flex;align-items:center;justify-content:space-between;gap:16px;height:72px}
@@ -343,6 +356,7 @@ footer b{color:var(--blanc);font-weight:600}
     </nav>
   </div>
 </header>
+<div class="notif" id="notif" hidden><div class="wrap"></div></div>
 <nav class="styles" aria-label="Styles"><div class="wrap" id="styles"></div></nav>
 <main id="vue"></main>
 <dialog class="panneau" id="panneau" aria-label="Détail de la pièce"></dialog>
@@ -351,6 +365,7 @@ footer b{color:var(--blanc);font-weight:600}
     <div class="logo">Pièce Unique</div>
     <p id="maj"></p>
     <p id="boutiques"></p>
+    <p><button type="button" id="notif-ouvrir" style="background:none;border:0;padding:0;text-decoration:underline;cursor:pointer;font-weight:700">Notifications sur le téléphone</button></p>
     <p>Les prix sont convertis en euros au taux du jour. On garde les remises d'au moins 30 % (20 % chez Zara et Uniqlo) sur le prix boutique, avec au moins deux tailles en stock. La sélection est notée par une IA, style par style, avec la consigne d'écarter les pièces qui se ressemblent. Le classement tient compte de la saison, met en avant les boutiques françaises puis européennes, et les boutiques bien notées par leurs clients. Pour les boutiques au Royaume-Uni et aux États-Unis, la douane et la TVA peuvent s'ajouter à la livraison.</p>
   </div>
 </footer>
@@ -827,7 +842,59 @@ Promise.all([fetch("data.json?"+Date.now()).then(r=>r.json()),fetch("fiabilite.j
   document.getElementById("maj").innerHTML=`Mis à jour le <b>${m.toLocaleDateString("fr-FR",{weekday:"long",day:"numeric",month:"long"})} à ${m.toLocaleTimeString("fr-FR",{hour:"2-digit",minute:"2-digit"})}</b>, avec ${d.articles.length} pièces en promo, ${REL.length} bons plans relayés et ${d.tenues.length} fits.`;
   document.getElementById("boutiques").innerHTML="Boutiques suivies : "+d.bilan.filter(b=>b.gardes).map(b=>`<b>${esc(b.boutique)}</b> (${b.gardes})`).join(", ")+".";
   rendre();
+  allerHash(); window.addEventListener("hashchange",allerHash);
 }).catch(()=>{document.getElementById("vue").innerHTML='<p class="vide wrap">Les bons plans du jour arrivent. Reviens dans quelques minutes.</p>'});
+// Lien d'une notif : #vue=camino (un onglet) ou #id=… (ouvre la pièce)
+function allerHash(){
+  const v=location.hash.match(/vue=([a-z]+)/), i=location.hash.match(/id=([^&]+)/);
+  if(!v&&!i)return;
+  history.replaceState(null,"",location.pathname);
+  if(v&&document.querySelector(`.vues button[data-vue="${v[1]}"]`)){etat.vue=v[1];rendre(true)}
+  if(i&&parId[decodeURIComponent(i[1])])ouvrir(decodeURIComponent(i[1]));
+}
+
+// Notifs sur le téléphone (Web Push). Sur iPhone, il faut d'abord ajouter le site à l'écran d'accueil.
+const VAPID_PUBLIC="BF1t2q8YIHQ0nKK-0l9ZPS5lVfweajQmv9e511wow85Aw8X4tKzBOxLtafdNwHHAVgAAYFl-0OUCgc7pofuhyDY";
+const NB=document.getElementById("notif"), NBW=NB.querySelector(".wrap");
+function lsGet(k){try{return localStorage.getItem(k)}catch(e){return null}}
+function lsSet(k,v){try{localStorage.setItem(k,v)}catch(e){}}
+function b64(s){const p="=".repeat((4-s.length%4)%4),r=atob((s+p).replace(/-/g,"+").replace(/_/g,"/"));return Uint8Array.from(r,c=>c.charCodeAt(0))}
+function barre(html){NBW.innerHTML=html;NB.hidden=false}
+async function etatNotifs(force){
+  const ios=/iPhone|iPad|iPod/.test(navigator.userAgent), installe=matchMedia("(display-mode: standalone)").matches||navigator.standalone===true;
+  const possible="serviceWorker" in navigator&&"PushManager" in window&&"Notification" in window;
+  let reg=null; if("serviceWorker" in navigator){try{reg=await navigator.serviceWorker.register("sw.js")}catch(e){}}
+  const sub=reg&&possible?await reg.pushManager.getSubscription().catch(()=>null):null;
+  if(sub&&!force){if(lsGet("pu-notif-code")!=="copie")montrerCode(sub);return}
+  if(!force&&lsGet("pu-notif-plus-tard")&&Date.now()-+lsGet("pu-notif-plus-tard")<7*864e5)return;
+  if(ios&&!installe){
+    barre(`<p><b>Reçois les meilleurs bons plans en notif</b> (3 par jour au plus). Sur iPhone : touche <b>Partager</b> en bas de Safari, puis <b>Sur l'écran d'accueil</b>. Ouvre ensuite Pièce Unique depuis sa nouvelle icône.</p><button class="non" data-notif="tard">Plus tard</button>`);return}
+  if(!possible){if(force)barre(`<p>Ce navigateur ne sait pas recevoir de notifs. Sur iPhone, ouvre le site dans Safari et ajoute-le à l'écran d'accueil.</p><button class="non" data-notif="tard">OK</button>`);return}
+  if(!force&&!/Android|iPhone|iPad|iPod/.test(navigator.userAgent))return;
+  if(Notification.permission==="denied"){if(!force)return;barre(`<p>Les notifs sont bloquées pour Pièce Unique. Réactive-les dans Réglages, Notifications, Pièce Unique.</p><button class="non" data-notif="tard">OK</button>`);return}
+  barre(`<p><b>Active les notifs</b> : les pépites notées 9/10, les nouveaux relais de Camino &amp; co et les lancements du Black Friday. 3 par jour au plus, rien la nuit.</p><button data-notif="activer">Activer les notifs</button><button class="non" data-notif="tard">Plus tard</button>`);
+}
+function montrerCode(sub){
+  barre(`<p><b>Notifs activées sur ce téléphone.</b> Dernière étape, à faire une seule fois : copie ce code et envoie-le à Claude (ou colle-le dans le secret GitHub <b>PU_ABONNEMENT</b>).</p><textarea readonly id="notif-code">${esc(JSON.stringify(sub))}</textarea><button data-notif="copier">Copier le code</button><button class="non" data-notif="fait">C'est fait</button>`);
+}
+NB.addEventListener("click",async e=>{
+  const b=e.target.closest("[data-notif]"); if(!b)return;
+  const a=b.dataset.notif;
+  if(a==="tard"){lsSet("pu-notif-plus-tard",String(Date.now()));NB.hidden=true}
+  if(a==="fait"){lsSet("pu-notif-code","copie");NB.hidden=true}
+  if(a==="copier"){const t=document.getElementById("notif-code");t.select();try{await navigator.clipboard.writeText(t.value)}catch(_){document.execCommand("copy")}b.textContent="Copié"}
+  if(a==="activer"){
+    b.disabled=true;b.textContent="…";
+    try{
+      if(await Notification.requestPermission()!=="granted"){etatNotifs(true);return}
+      const reg=await navigator.serviceWorker.ready;
+      const sub=await reg.pushManager.subscribe({userVisibleOnly:true,applicationServerKey:b64(VAPID_PUBLIC)});
+      montrerCode(sub);
+    }catch(err){barre(`<p>L'activation n'a pas marché (${esc(err.message||String(err))}). Réessaie depuis l'icône Pièce Unique de l'écran d'accueil.</p><button data-notif="activer">Réessayer</button>`)}
+  }
+});
+etatNotifs(false);
+document.getElementById("notif-ouvrir").addEventListener("click",()=>{etatNotifs(true);scrollTo({top:0,behavior:"smooth"})});
 </script>
 </body>
 </html>
