@@ -1,5 +1,5 @@
 {
- "maj": "2026-11-24T19:29:58.749024+00:00",
+ "maj": "2026-11-25T03:33:04.866161+00:00",
  "sources_ok": [
   "Notes de version Claude (API)",
   "Notes de version OpenAI (API)",
@@ -63,15 +63,15 @@
    "erreur": "404 Client Error: Not Found for url: https://www.reddit.com/r/LocalLLaMA/top/.rss?t=day"
   }
  ],
- "total": 2197,
- "analyses": 1182,
+ "total": 2178,
+ "analyses": 1188,
  "brief": {
-  "titre": "Anthropic et OpenAI accélèrent sur l'autonomie du code",
-  "texte": "La journée est marquée par une déferlante d'annonces axées sur l'automatisation du développement et la sécurité. Anthropic se distingue particulièrement en lançant Claude Ship pour automatiser la validation et la correction du code sur GitHub, tout en s'engageant sur des investissements massifs. Parallèlement, OpenAI dévoile GPT-6.2-Astra-Sol pour les entreprises et s'associe à Cisco pour sécuriser les environnements Linux. Enfin, Google DeepMind repousse les limites de la recherche en concevant des algorithmes quantiques grâce à des agents IA.",
+  "titre": "Actualité IA : Avancées majeures en automatisation et consolidation du marché",
+  "texte": "L'actualité de l'intelligence artificielle est marquée aujourd'hui par de grandes avancées techniques et des mouvements stratégiques majeurs. Côté produits, OpenAI repousse les limites avec la conception de protéines par GPT-6, tandis qu'Anthropic automatise la revue de code et la validation avec Claude Ship. Parallèlement, l'écosystème open source progresse avec l'optimisation des modèles légers comme Unsloth et Ternary-Bonsai. Enfin, sur le plan économique, la pression s'intensifie avec l'évolution boursière d'Anthropic et la récente acquisition de Decart par Amazon.",
   "a_tester": [
-   "Tester Claude Ship pour automatiser la revue de vos pull requests sur GitHub",
-   "Explorer le runtime open source Shirudo d'OpenAI et Cisco pour sécuriser vos environnements Linux",
-   "Évaluer l'impact des nouvelles fonctionnalités de Personal Intelligence intégrées à Google Search"
+   "Tester les nouvelles capacités de Claude pour examiner et corriger vos pull requests automatiquement.",
+   "Explorer l'outil open source Shirudo d'OpenAI et Cisco pour renforcer la sécurité Linux.",
+   "Expérimenter le fine-tuning avec la dernière mise à jour d'Unsloth sur Inkling 2 Mini."
   ]
  },
  "top5": {
