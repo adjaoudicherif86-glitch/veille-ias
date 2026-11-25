@@ -1,5 +1,5 @@
 {
- "maj": "2026-11-25T03:33:04.866161+00:00",
+ "maj": "2026-11-25T14:22:11.121891+00:00",
  "sources_ok": [
   "Notes de version Claude (API)",
   "Notes de version OpenAI (API)",
@@ -63,8 +63,8 @@
    "erreur": "404 Client Error: Not Found for url: https://www.reddit.com/r/LocalLLaMA/top/.rss?t=day"
   }
  ],
- "total": 2178,
- "analyses": 1188,
+ "total": 2175,
+ "analyses": 1174,
  "brief": {
   "titre": "Actualité IA : Avancées majeures en automatisation et consolidation du marché",
   "texte": "L'actualité de l'intelligence artificielle est marquée aujourd'hui par de grandes avancées techniques et des mouvements stratégiques majeurs. Côté produits, OpenAI repousse les limites avec la conception de protéines par GPT-6, tandis qu'Anthropic automatise la revue de code et la validation avec Claude Ship. Parallèlement, l'écosystème open source progresse avec l'optimisation des modèles légers comme Unsloth et Ternary-Bonsai. Enfin, sur le plan économique, la pression s'intensifie avec l'évolution boursière d'Anthropic et la récente acquisition de Decart par Amazon.",
@@ -75,33 +75,33 @@
   ]
  },
  "top5": {
-  "maj": "2026-11-24T19:29:58.749024+00:00",
+  "maj": "2026-11-25T14:22:11.121891+00:00",
   "par_ia": true,
   "items": [
    {
-    "id": "962d469daa1741",
-    "pourquoi": "L'arrivée d'une fenêtre de contexte d'un million de tokens et de la mise en cache automatique sur Claude Opus 4.8 impacte directement l'architecture des applications d'entreprise.",
-    "a_faire": "Tester l'API avec de larges volumes de documents pour évaluer les gains de performance et de coût."
+    "id": "fc6eacda44e2af",
+    "pourquoi": "La dépréciation de Claude Opus 4.5 avec une retraite annoncée impacte directement les équipes intégrant l'API d'Anthropic.",
+    "a_faire": "Planifier la migration vers Claude Opus 5.5 avant l'échéance du 22 janvier 2027."
+   },
+   {
+    "id": "9ac21f192a97e4",
+    "pourquoi": "L'automatisation de la revue et de l'approbation du code par des agents IA redéfinit les workflows de développement.",
+    "a_faire": "Tester Claude Ship sur un projet pilote pour évaluer son impact sur la vitesse de merge."
    },
    {
     "id": "1d0c151fefed0d",
-    "pourquoi": "La collaboration entre OpenAI et Cisco pour lancer Shirudo apporte un outil de sécurité open source crucial pour le runtime Linux en production.",
-    "a_faire": "Examiner le dépôt open source de Shirudo pour intégrer ce runtime dans vos pipelines de déploiement sécurisé."
-   },
-   {
-    "id": "9dddeb89e408da",
-    "pourquoi": "L'utilisation d'agents IA pour la conception d'algorithmes quantiques avec vérification formelle représente une avancée méthodologique majeure en R&D.",
-    "a_faire": "Surveiller les publications et documentations de Google DeepMind sur cette approche d'agents appliqués à des domaines scientifiques complexes."
+    "pourquoi": "Shirudo offre une solution open source concrète co-développée par OpenAI et Cisco pour sécuriser les environnements Linux.",
+    "a_faire": "Surveiller le dépôt et évaluer le runtime pour les déploiements de serveurs Linux."
    },
    {
     "id": "bf4f3646498c61",
-    "pourquoi": "La mise à jour Transformers v5.24.1 corrige des problèmes critiques d'inférence distribuée, de vLLM et de compatibilité avec les modèles Llama4.",
-    "a_faire": "Mettre à jour la bibliothèque Transformers dans vos environnements de déploiement et tester la compatibilité avec vos instances vLLM."
+    "pourquoi": "La version 5.24.1 de Transformers apporte des correctifs critiques pour l'inférence distribuée et la compatibilité vLLM.",
+    "a_faire": "Mettre à jour la bibliothèque Transformers dans vos environnements de production."
    },
    {
-    "id": "32be36537d4ad2",
-    "pourquoi": "Les annonces de Microsoft Ignite (Copilot Workspaces et nouveaux modèles Azure) redéfinissent les standards de productivité pour les environnements professionnels.",
-    "a_faire": "Consulter les retours d'expérience sur Copilot Workspaces pour identifier les cas d'usage pertinents pour vos équipes."
+    "id": "3c6728c1bfd198",
+    "pourquoi": "GPT-6 franchit un cap avec des capacités natives de conception de protéines validées en laboratoire.",
+    "a_faire": "Suivre les publications scientifiques associées pour comprendre l'impact sur les flux de recherche."
    }
   ]
  }
