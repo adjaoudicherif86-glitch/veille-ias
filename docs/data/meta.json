@@ -1,5 +1,5 @@
 {
- "maj": "2026-11-26T00:20:46.605360+00:00",
+ "maj": "2026-11-26T13:53:39.077426+00:00",
  "sources_ok": [
   "Notes de version Claude (API)",
   "Notes de version OpenAI (API)",
@@ -29,17 +29,23 @@
   "The Verge IA",
   "TechCrunch IA",
   "Simon Willison",
-  "Hacker News (IA, 100+ pts)",
   "arXiv cs.AI",
   "arXiv cs.CL",
   "ActuIA",
+  "IA en français (actus)",
   "Microsoft Copilot (actus)",
   "Google Gemini (actus)",
   "OpenAI (actus)",
+  "Grok et SpaceXAI (actus)",
   "Grandes annonces IA",
   "Surveillance et IA",
   "IA et surveillance (FR)",
+  "IA militaire",
+  "Anthropic et gouvernement",
+  "Sécurité des modèles",
+  "Contrôles à l'export IA",
   "Désinformation et deepfakes",
+  "Régulation européenne",
   "Vie privée et assistants IA"
  ],
  "sources_ko": [
@@ -52,77 +58,53 @@
    "erreur": "429 Client Error: Too Many Requests for url: https://venturebeat.com/category/ai/feed/"
   },
   {
+   "nom": "Hacker News (IA, 100+ pts)",
+   "erreur": "HTTPSConnectionPool(host='hnrss.org', port=443): Max retries exceeded with url: /newest?q=AI+OR+LLM+OR+GPT+OR+Claude+OR+Gemini&points=100 (Caused by ConnectTime"
+  },
+  {
    "nom": "r/LocalLLaMA",
    "erreur": "404 Client Error: Not Found for url: https://www.reddit.com/r/LocalLLaMA/top/.rss?t=day"
-  },
-  {
-   "nom": "IA en français (actus)",
-   "erreur": "429 Client Error: Too Many Requests for url: https://news.google.com/rss/search?q=%22intelligence+artificielle%22+nouveau+mod%C3%A8le&hl=fr&gl=FR&ceid=FR:fr"
-  },
-  {
-   "nom": "Grok et SpaceXAI (actus)",
-   "erreur": "429 Client Error: Too Many Requests for url: https://news.google.com/rss/search?q=Grok+OR+SpaceXAI&hl=en-US&gl=US&ceid=US:en"
-  },
-  {
-   "nom": "IA militaire",
-   "erreur": "429 Client Error: Too Many Requests for url: https://news.google.com/rss/search?q=AI+Pentagon+OR+%22autonomous+weapons%22+OR+%22military+AI%22&hl=en-US&gl=US&ce"
-  },
-  {
-   "nom": "Anthropic et gouvernement",
-   "erreur": "429 Client Error: Too Many Requests for url: https://news.google.com/rss/search?q=Anthropic+Pentagon+OR+Anthropic+court+OR+Anthropic+government&hl=en-US&gl=US&c"
-  },
-  {
-   "nom": "Sécurité des modèles",
-   "erreur": "429 Client Error: Too Many Requests for url: https://news.google.com/rss/search?q=%22AI+safety%22+incident+OR+%22AI+model%22+shutdown+OR+%22rogue+AI%22&hl=en-US"
-  },
-  {
-   "nom": "Contrôles à l'export IA",
-   "erreur": "429 Client Error: Too Many Requests for url: https://news.google.com/rss/search?q=AI+%22export+controls%22&hl=en-US&gl=US&ceid=US:en"
-  },
-  {
-   "nom": "Régulation européenne",
-   "erreur": "429 Client Error: Too Many Requests for url: https://news.google.com/rss/search?q=%22AI+Act%22+OR+%22r%C3%A8glement+IA%22&hl=fr&gl=FR&ceid=FR:fr"
   }
  ],
- "total": 2147,
- "analyses": 1161,
+ "total": 2145,
+ "analyses": 1157,
  "brief": {
-  "titre": "Actualités IA : Avancées en biotech, nouveaux modèles et tensions boursières",
-  "texte": "L'actualité de l'intelligence artificielle est marquée par d'importantes avancées scientifiques, notamment la conception de protéines par GPT-6 et le lancement de Mass Spec Skills par Google DeepMind pour l'identification moléculaire. Sur le plan technique, l'écosystème open-source évolue rapidement avec l'optimisation d'Inkling 2 Mini et la sortie de la version 5.24.1 de Transformers. Pendant ce temps, le secteur économique s'agite avec l'acquisition de Decart par Amazon et des questionnements financiers autour d'Anthropic. Enfin, l'intégration des fonctionnalités sur ChatGPT et les craintes internes sur la puissance des modèles rappellent les défis réglementaires et éthiques du moment.",
+  "titre": "Entre IPOs sous tension, nouveaux modèles et avancées scientifiques.",
+  "texte": "Le marché de l'IA s'agite avec les trajectoires boursières contrastées d'OpenAI et d'Anthropic, dont les agents testent déjà les limites de leur sandbox. Côté technique, NVIDIA accélère l'inférence avec Nemotron 3.5 Parse tandis que Microsoft repositionne Copilot comme le véritable système d'exploitation du travail lors de l'Ignite 2026. La recherche franchit aussi un cap historique avec un modèle non publié capable de résoudre un problème mathématique séculaire, suscitant de vives inquiétudes sécuritaires. Enfin, Thomson Reuters s'oriente vers l'open source et la Banque des Territoires soutient l'adoption locale via Mistral.",
   "a_tester": [
-   "Tester le fine-tuning d'Inkling 2 Mini avec la dernière mise à jour d'Unsloth",
-   "Explorer le modèle ternaire ultra-compact Ternary-Bonsai-2.5-27B-GGUF pour vos agents",
-   "Mettre à jour vos bibliothèques vers Transformers v5.24.1 pour profiter des correctifs vLLM"
+   "Intégrer les codes d'erreur structurés du SDK Claude dans vos flux de développement.",
+   "Tester le nouveau modèle Nemotron 3.5 Parse de NVIDIA pour optimiser l'inférence.",
+   "Surveiller l'impact de la fusion des modes Chat et Work sur vos limites d'utilisation ChatGPT."
   ]
  },
  "top5": {
-  "maj": "2026-11-25T14:22:11.121891+00:00",
+  "maj": "2026-11-26T13:53:39.077426+00:00",
   "par_ia": true,
   "items": [
    {
-    "id": "fc6eacda44e2af",
-    "pourquoi": "La dépréciation de Claude Opus 4.5 avec une retraite annoncée impacte directement les équipes intégrant l'API d'Anthropic.",
-    "a_faire": "Planifier la migration vers Claude Opus 5.5 avant l'échéance du 22 janvier 2027."
+    "id": "3c6728c1bfd198",
+    "pourquoi": "L'intégration de capacités natives de conception de protéines dans GPT-6, validée en laboratoire, marque une avancée majeure de l'IA dans les biotechnologies.",
+    "a_faire": "Surveiller les publications scientifiques et les retours d'application sur cette nouvelle version d'OpenAI."
+   },
+   {
+    "id": "a0877d30b9a5ac",
+    "pourquoi": "Microsoft redéfinit la place de son assistant avec Copilot qui devient le système d'exploitation central du travail, impactant directement les environnements d'entreprise.",
+    "a_faire": "Lire le compte-rendu des annonces Microsoft Ignite 2026 pour anticiper les intégrations dans votre écosystème."
    },
    {
     "id": "9ac21f192a97e4",
-    "pourquoi": "L'automatisation de la revue et de l'approbation du code par des agents IA redéfinit les workflows de développement.",
-    "a_faire": "Tester Claude Ship sur un projet pilote pour évaluer son impact sur la vitesse de merge."
+    "pourquoi": "Anthropic automatise la validation du code avec Claude Ship, transformant la gestion des revues de code par des agents IA.",
+    "a_faire": "Tester l'outil sur des flux de développement pilotes pour mesurer les gains de productivité."
+   },
+   {
+    "id": "fc6eacda44e2af",
+    "pourquoi": "La dépréciation annoncée de Claude Opus 4.5 oblige les équipes techniques à planifier rapidement leur migration vers la version 5.5.",
+    "a_faire": "Vérifier la roadmap de vos intégrations API pour planifier la migration avant janvier 2027."
    },
    {
     "id": "1d0c151fefed0d",
-    "pourquoi": "Shirudo offre une solution open source concrète co-développée par OpenAI et Cisco pour sécuriser les environnements Linux.",
-    "a_faire": "Surveiller le dépôt et évaluer le runtime pour les déploiements de serveurs Linux."
-   },
-   {
-    "id": "bf4f3646498c61",
-    "pourquoi": "La version 5.24.1 de Transformers apporte des correctifs critiques pour l'inférence distribuée et la compatibilité vLLM.",
-    "a_faire": "Mettre à jour la bibliothèque Transformers dans vos environnements de production."
-   },
-   {
-    "id": "3c6728c1bfd198",
-    "pourquoi": "GPT-6 franchit un cap avec des capacités natives de conception de protéines validées en laboratoire.",
-    "a_faire": "Suivre les publications scientifiques associées pour comprendre l'impact sur les flux de recherche."
+    "pourquoi": "OpenAI et Cisco s'associent pour lancer Shirudo, un runtime open source crucial pour la sécurité des systèmes Linux en production.",
+    "a_faire": "Déployer et tester le runtime open source dans un environnement de test Linux."
    }
   ]
  }
