@@ -3,6 +3,11 @@ name: "Flair FM : épisode du jour"
 on:
   schedule:
     - cron: "41 5 * * *"   # chaque matin vers 6 h 40 (heure de Paris en hiver), après la chasse de 4 h 17 UTC
+    # GitHub retarde ou saute souvent ce passage, et Gemini peut être saturé : rattrapages dans la journée,
+    # sautés si l'épisode du jour existe déjà
+    - cron: "41 9 * * *"
+    - cron: "41 14 * * *"
+    - cron: "41 19 * * *"
   workflow_dispatch:
 
 permissions:
@@ -18,17 +23,28 @@ jobs:
     timeout-minutes: 30
     steps:
       - uses: actions/checkout@v4
+      - name: Épisode du jour déjà publié ?
+        id: deja
+        run: |
+          J=$(date -u +%Y-%m-%d)
+          if [ "${{ github.event_name }}" = "schedule" ] && python3 -c "import json,sys; sys.exit(0 if any(e['date'].startswith('$J') for e in json.load(open('docs/podcast/episodes.json'))['episodes']) else 1)"; then
+            echo "Épisode du $J déjà publié : rien à faire."; echo "fait=1" >> "$GITHUB_OUTPUT"
+          fi
       - uses: actions/setup-python@v5
+        if: steps.deja.outputs.fait != '1'
         with:
           python-version: "3.12"
       - run: pip install requests numpy scipy lameenc
+        if: steps.deja.outputs.fait != '1'
       - name: Fabriquer l'épisode
+        if: steps.deja.outputs.fait != '1'
         env:
           LLM_API_KEY: ${{ secrets.LLM_API_KEY }}
           LLM_MODEL: ${{ vars.LLM_MODEL }}
           LLM_TTS_MODEL: ${{ vars.LLM_TTS_MODEL }}
         run: python podcast/episode.py
       - name: Publier le fichier audio
+        if: steps.deja.outputs.fait != '1'
         env:
           GH_TOKEN: ${{ github.token }}
         run: |
@@ -48,6 +64,7 @@ jobs:
           for i in 1 2 3 4 5 6; do curl -sI "$U" | tee /tmp/h.txt | head -1 | grep -q " 200" && break; sleep 10; done
           echo "Vérification jsDelivr :"; grep -iE "^HTTP|content-type|accept-ranges|content-length" /tmp/h.txt
       - name: Mettre à jour le catalogue
+        if: steps.deja.outputs.fait != '1'
         run: |
           python podcast/publier.py > a_supprimer.txt
           git config user.name "veille-bot"
@@ -56,6 +73,7 @@ jobs:
           git diff --cached --quiet || git commit -m "Flair FM : épisode du $(date -u +%d/%m)"
           git pull --rebase origin main && git push
       - name: Supprimer les vieux épisodes
+        if: steps.deja.outputs.fait != '1'
         env:
           GH_TOKEN: ${{ github.token }}
         run: |

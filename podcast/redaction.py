@@ -97,7 +97,9 @@ def _modeles(session):
     stables = lambda motif: sorted([i for i in texte if motif(i) and "preview" not in i and "exp" not in i], reverse=True)
     flash = stables(lambda i: "flash" in i and "lite" not in i)
     lite = stables(lambda i: "flash-lite" in i)
-    ordre = flash[:2] + lite[:2] + ["gemini-2.5-flash", "gemini-2.5-flash-lite"]
+    # repli : les alias -latest (les vieux noms comme gemini-2.5-flash répondent 404 depuis fin novembre 2026)
+    repli = ["gemini-flash-latest", "gemini-flash-lite-latest"] + [i for i in ("gemini-2.5-flash", "gemini-2.5-flash-lite") if not ids or i in ids]
+    ordre = flash[:2] + lite[:2] + repli
     return list(dict.fromkeys(ordre))
 
 
@@ -112,8 +114,12 @@ def ecrire(maintenant=None, minutes=5):
     candidats = _modeles(s)
     consigne = CONSIGNE.format(minutes=minutes, mots=minutes * 150, regles=rocco.REGLES_ECRITURE)
     message = "MATIÈRE DE L'ÉPISODE (JSON) :\n" + json.dumps(m, ensure_ascii=False, indent=1)
-    essais = [(m, k) for m in candidats for k in range(2)]
-    for modele, k in essais:
+    # deux tours : si Gemini est surchargé (503) partout au 1er tour, on attend 2 min et on refait le tour
+    essais = [(m, k, t) for t in range(2) for m in candidats for k in range(2)]
+    for modele, k, tour in essais:
+        if tour == 1 and modele == candidats[0] and k == 0:
+            print("   (aucun modèle disponible au 1er tour : pause de 2 min, puis 2e tour)")
+            time.sleep(120)
         try:
             r = s.post(URL, timeout=150, json={"model": modele, "temperature": 0.8,
                                               "messages": [{"role": "system", "content": consigne}, {"role": "user", "content": message}]})
