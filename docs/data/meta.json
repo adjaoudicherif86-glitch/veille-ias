@@ -1,5 +1,5 @@
 {
- "maj": "2026-11-25T14:22:11.121891+00:00",
+ "maj": "2026-11-26T00:20:46.605360+00:00",
  "sources_ok": [
   "Notes de version Claude (API)",
   "Notes de version OpenAI (API)",
@@ -33,20 +33,13 @@
   "arXiv cs.AI",
   "arXiv cs.CL",
   "ActuIA",
-  "IA en français (actus)",
   "Microsoft Copilot (actus)",
   "Google Gemini (actus)",
   "OpenAI (actus)",
-  "Grok et SpaceXAI (actus)",
   "Grandes annonces IA",
   "Surveillance et IA",
   "IA et surveillance (FR)",
-  "IA militaire",
-  "Anthropic et gouvernement",
-  "Sécurité des modèles",
-  "Contrôles à l'export IA",
   "Désinformation et deepfakes",
-  "Régulation européenne",
   "Vie privée et assistants IA"
  ],
  "sources_ko": [
@@ -61,17 +54,45 @@
   {
    "nom": "r/LocalLLaMA",
    "erreur": "404 Client Error: Not Found for url: https://www.reddit.com/r/LocalLLaMA/top/.rss?t=day"
+  },
+  {
+   "nom": "IA en français (actus)",
+   "erreur": "429 Client Error: Too Many Requests for url: https://news.google.com/rss/search?q=%22intelligence+artificielle%22+nouveau+mod%C3%A8le&hl=fr&gl=FR&ceid=FR:fr"
+  },
+  {
+   "nom": "Grok et SpaceXAI (actus)",
+   "erreur": "429 Client Error: Too Many Requests for url: https://news.google.com/rss/search?q=Grok+OR+SpaceXAI&hl=en-US&gl=US&ceid=US:en"
+  },
+  {
+   "nom": "IA militaire",
+   "erreur": "429 Client Error: Too Many Requests for url: https://news.google.com/rss/search?q=AI+Pentagon+OR+%22autonomous+weapons%22+OR+%22military+AI%22&hl=en-US&gl=US&ce"
+  },
+  {
+   "nom": "Anthropic et gouvernement",
+   "erreur": "429 Client Error: Too Many Requests for url: https://news.google.com/rss/search?q=Anthropic+Pentagon+OR+Anthropic+court+OR+Anthropic+government&hl=en-US&gl=US&c"
+  },
+  {
+   "nom": "Sécurité des modèles",
+   "erreur": "429 Client Error: Too Many Requests for url: https://news.google.com/rss/search?q=%22AI+safety%22+incident+OR+%22AI+model%22+shutdown+OR+%22rogue+AI%22&hl=en-US"
+  },
+  {
+   "nom": "Contrôles à l'export IA",
+   "erreur": "429 Client Error: Too Many Requests for url: https://news.google.com/rss/search?q=AI+%22export+controls%22&hl=en-US&gl=US&ceid=US:en"
+  },
+  {
+   "nom": "Régulation européenne",
+   "erreur": "429 Client Error: Too Many Requests for url: https://news.google.com/rss/search?q=%22AI+Act%22+OR+%22r%C3%A8glement+IA%22&hl=fr&gl=FR&ceid=FR:fr"
   }
  ],
- "total": 2175,
- "analyses": 1174,
+ "total": 2147,
+ "analyses": 1161,
  "brief": {
-  "titre": "Actualité IA : Avancées majeures en automatisation et consolidation du marché",
-  "texte": "L'actualité de l'intelligence artificielle est marquée aujourd'hui par de grandes avancées techniques et des mouvements stratégiques majeurs. Côté produits, OpenAI repousse les limites avec la conception de protéines par GPT-6, tandis qu'Anthropic automatise la revue de code et la validation avec Claude Ship. Parallèlement, l'écosystème open source progresse avec l'optimisation des modèles légers comme Unsloth et Ternary-Bonsai. Enfin, sur le plan économique, la pression s'intensifie avec l'évolution boursière d'Anthropic et la récente acquisition de Decart par Amazon.",
+  "titre": "Actualités IA : Avancées en biotech, nouveaux modèles et tensions boursières",
+  "texte": "L'actualité de l'intelligence artificielle est marquée par d'importantes avancées scientifiques, notamment la conception de protéines par GPT-6 et le lancement de Mass Spec Skills par Google DeepMind pour l'identification moléculaire. Sur le plan technique, l'écosystème open-source évolue rapidement avec l'optimisation d'Inkling 2 Mini et la sortie de la version 5.24.1 de Transformers. Pendant ce temps, le secteur économique s'agite avec l'acquisition de Decart par Amazon et des questionnements financiers autour d'Anthropic. Enfin, l'intégration des fonctionnalités sur ChatGPT et les craintes internes sur la puissance des modèles rappellent les défis réglementaires et éthiques du moment.",
   "a_tester": [
-   "Tester les nouvelles capacités de Claude pour examiner et corriger vos pull requests automatiquement.",
-   "Explorer l'outil open source Shirudo d'OpenAI et Cisco pour renforcer la sécurité Linux.",
-   "Expérimenter le fine-tuning avec la dernière mise à jour d'Unsloth sur Inkling 2 Mini."
+   "Tester le fine-tuning d'Inkling 2 Mini avec la dernière mise à jour d'Unsloth",
+   "Explorer le modèle ternaire ultra-compact Ternary-Bonsai-2.5-27B-GGUF pour vos agents",
+   "Mettre à jour vos bibliothèques vers Transformers v5.24.1 pour profiter des correctifs vLLM"
   ]
  },
  "top5": {
