@@ -1,0 +1,16 @@
+{
+ "note": "Abonnements Web Push des téléphones de Chérif (inutilisables sans la clé privée VAPID, qui est un secret GitHub).",
+ "abonnements": [
+  {
+   "appareil": "iPhone de Chérif",
+   "ajoute": "2026-11-26",
+   "sub": {
+    "endpoint": "https://web.push.apple.com/QJpYWGeKBE5m9tYJywfoGI3WqmsjloGGhQzZazsNt7syBqO4O7m4VPIseo_qI63DKE9rZua3Elji8fuS6UwnrLC5BlCTH0ZFoC7SeZECcUNU3zow9B55H9my2ajWi4NU5vxb2AUnBK3dw-UevZMZk9XjI3sX2WFwGhuJkEFmb8w",
+    "keys": {
+     "p256dh": "BP-Fe7UD6JNZ1xBxKT8LbKOs6S4IjMHsv8e50sX2CP_LUNBctXvAKYDq5HIk49laBYdoKSOUVMzFgwRhf8vP5-4",
+     "auth": "ai3Mc5sd0GCOBmy4T0NJxA"
+    }
+   }
+  }
+ ]
+}

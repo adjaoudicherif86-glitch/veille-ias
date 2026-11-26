@@ -109,10 +109,11 @@ def message(neufs):
 
 
 def abonnements():
+    # 1) etat/abonnements.json (codes envoyés à Claude), 2) secret PU_ABONNEMENT (facultatif)
+    subs = [a.get("sub") for a in lire(RACINE / "etat" / "abonnements.json", {}).get("abonnements", [])]
     brut = (os.environ.get("PU_ABONNEMENT") or "").strip()
-    subs = []
     if not brut:
-        return subs
+        return dedoublonner(subs)
     try:
         v = json.loads(brut)
         subs = v if isinstance(v, list) else [v]
@@ -124,7 +125,15 @@ def abonnements():
                     subs.append(json.loads(ligne))
                 except Exception:
                     print("Abonnement illisible, ignoré")
-    return [s for s in subs if isinstance(s, dict) and s.get("endpoint")]
+    return dedoublonner(subs)
+
+
+def dedoublonner(subs):
+    vus, out = set(), []
+    for s in subs:
+        if isinstance(s, dict) and s.get("endpoint") and s["endpoint"] not in vus:
+            vus.add(s["endpoint"]); out.append(s)
+    return out
 
 
 def envoyer(msg, subs, cle_privee):
@@ -155,6 +164,12 @@ def main():
     deja = any(e.get("jour") == jour and e.get("creneau") == cr for e in etat.get("envois", []))
     print(f"{len(cands)} candidats, {len(neufs)} nouveaux ; créneau {cr or 'nuit'}{' (déjà servi)' if deja else ''} ; {len(subs)} abonnement(s)")
 
+    if "--test" in sys.argv:
+        if not (subs and cle):
+            print("Test impossible : il manque", "le secret VAPID_PRIVE" if not cle else "un abonnement"); sys.exit(1)
+        n = envoyer({"title": "Pièce Unique · test", "body": "Ça marche ! Tes vraies notifs arriveront ici, 3 par jour au plus, rien la nuit.",
+                     "url": SITE, "tag": "pu-test"}, subs, cle)
+        print(f"Notif de test envoyée à {n} appareil(s) sur {len(subs)}"); sys.exit(0 if n else 1)
     envoye = False
     if premier:
         print("Premier passage : tout ce qui existe déjà est marqué comme vu, pas de notif.")

@@ -5,6 +5,11 @@ on:
     workflows: ["Pièce Unique : promos du jour", "Pièce Unique : repéré sur X (Camino & co)"]
     types: [completed]
   workflow_dispatch:
+    inputs:
+      test:
+        description: "Envoyer une notif de test maintenant"
+        type: boolean
+        default: false
 permissions:
   contents: write
 concurrency:
@@ -25,7 +30,7 @@ jobs:
       - env:
           VAPID_PRIVE: ${{ secrets.VAPID_PRIVE }}
           PU_ABONNEMENT: ${{ secrets.PU_ABONNEMENT }}
-        run: python mode/notifs.py
+        run: python mode/notifs.py ${{ inputs.test && '--test' || '' }}
       - run: |
           git config user.name "veille-bot"; git config user.email "veille-bot@users.noreply.github.com"
           git add etat/notifs.json; git diff --cached --quiet && exit 0
