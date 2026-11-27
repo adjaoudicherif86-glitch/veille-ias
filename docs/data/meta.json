@@ -1,5 +1,5 @@
 {
- "maj": "2026-11-27T00:35:00.066277+00:00",
+ "maj": "2026-11-27T13:51:43.758235+00:00",
  "sources_ok": [
   "Notes de version Claude (API)",
   "Notes de version OpenAI (API)",
@@ -35,17 +35,14 @@
   "ActuIA",
   "IA en français (actus)",
   "Microsoft Copilot (actus)",
-  "Google Gemini (actus)",
   "OpenAI (actus)",
   "Grok et SpaceXAI (actus)",
-  "Grandes annonces IA",
   "Surveillance et IA",
   "IA et surveillance (FR)",
   "IA militaire",
   "Anthropic et gouvernement",
   "Sécurité des modèles",
   "Contrôles à l'export IA",
-  "Désinformation et deepfakes",
   "Régulation européenne",
   "Vie privée et assistants IA"
  ],
@@ -61,47 +58,59 @@
   {
    "nom": "r/LocalLLaMA",
    "erreur": "404 Client Error: Not Found for url: https://www.reddit.com/r/LocalLLaMA/top/.rss?t=day"
+  },
+  {
+   "nom": "Google Gemini (actus)",
+   "erreur": "429 Client Error: Too Many Requests for url: https://news.google.com/rss/search?q=Gemini+Google+OR+DeepMind&hl=en-US&gl=US&ceid=US:en"
+  },
+  {
+   "nom": "Grandes annonces IA",
+   "erreur": "429 Client Error: Too Many Requests for url: https://news.google.com/rss/search?q=%22AI+model%22+launch+OR+release&hl=en-US&gl=US&ceid=US:en"
+  },
+  {
+   "nom": "Désinformation et deepfakes",
+   "erreur": "429 Client Error: Too Many Requests for url: https://news.google.com/rss/search?q=deepfake+election+OR+%22AI+influence+operation%22&hl=en-US&gl=US&ceid=US:en-US"
   }
  ],
- "total": 2098,
- "analyses": 1134,
+ "total": 2082,
+ "analyses": 1140,
  "brief": {
-  "titre": "L'accélération de l'inférence et des agents IA redéfinit nos outils",
-  "texte": "Le secteur s'accélère avec des annonces majeures entre nouveaux modèles d'inférence, comme le Nemotron 3.5 de NVIDIA, et des avancées spectaculaires en recherche fondamentale grâce aux agents IA. Microsoft positionne Copilot comme le nouveau système d'exploitation du travail lors de l'Ignite 2026, tandis qu'OpenAI fait parler de lui entre IPO et fusions de modes sur ChatGPT. Les professionnels doivent également composer avec des tensions géopolitiques autour des puces et des optimisations matérielles pour AMD et Hugging Face. Cette semaine marque un tournant vers des assistants plus autonomes et intégrés en temps réel dans nos environnements.",
+  "titre": "Accélération matérielle, nouveaux modèles et avancées scientifiques en IA",
+  "texte": "L'actualité de l'intelligence artificielle est marquée par d'importantes avancées matérielles et logicielles, illustrées par le lancement de Nemotron 3.5 Parse par NVIDIA et les tests d'Amazon avec Trainium3 pour la vidéo. Microsoft accentue sa vision du travail en déployant Copilot Vision et en préparant les annonces de Microsoft Ignite 2026. Du côté de la recherche, une IA non publiée parvient à résoudre un problème mathématique centenaire, tandis que de nouveaux modèles comme Patram 1.5 et des architectures optimisées émergent. Enfin, des tensions géopolitiques se font sentir avec la suspension des livraisons de puces Nvidia en Asie du Sud-Est.",
   "a_tester": [
-   "Tester Copilot Vision pour interagir avec l'IA en temps réel sur vos flux de travail",
-   "Explorer les nouveaux benchmarks llama.cpp pour évaluer vos performances matérielles AMD",
-   "Surveiller vos quotas sur ChatGPT suite à la fusion des modes Chat et Work"
+   "Tester les capacités d'analyse de documents de Patram 1.5",
+   "Explorer les performances des nouveaux modèles MoE optimisés sur Hugging Face",
+   "Examiner les intégrations en temps réel de Copilot Vision"
   ]
  },
  "top5": {
-  "maj": "2026-11-26T13:53:39.077426+00:00",
+  "maj": "2026-11-27T13:51:43.758235+00:00",
   "par_ia": true,
   "items": [
    {
     "id": "3c6728c1bfd198",
-    "pourquoi": "L'intégration de capacités natives de conception de protéines dans GPT-6, validée en laboratoire, marque une avancée majeure de l'IA dans les biotechnologies.",
-    "a_faire": "Surveiller les publications scientifiques et les retours d'application sur cette nouvelle version d'OpenAI."
+    "pourquoi": "GPT-6 intègre des capacités natives de conception de protéines validées en laboratoire, ouvrant une nouvelle ère pour l'IA dans les sciences du vivant.",
+    "a_faire": "Surveiller les publications scientifiques et les retours d'application sur cette nouvelle version."
    },
    {
-    "id": "a0877d30b9a5ac",
-    "pourquoi": "Microsoft redéfinit la place de son assistant avec Copilot qui devient le système d'exploitation central du travail, impactant directement les environnements d'entreprise.",
-    "a_faire": "Lire le compte-rendu des annonces Microsoft Ignite 2026 pour anticiper les intégrations dans votre écosystème."
+    "id": "b48eceeee0077b",
+    "pourquoi": "Des équipes d'agents propulsées par Gemini 4 ont découvert et prouvé des algorithmes quantiques, marquant une avancée majeure dans l'autonomie scientifique de l'IA.",
+    "a_faire": "Lire les détails de cette percée pour comprendre l'impact sur la recherche en physique quantique."
    },
    {
     "id": "9ac21f192a97e4",
-    "pourquoi": "Anthropic automatise la validation du code avec Claude Ship, transformant la gestion des revues de code par des agents IA.",
-    "a_faire": "Tester l'outil sur des flux de développement pilotes pour mesurer les gains de productivité."
+    "pourquoi": "Anthropic lance Claude Ship pour automatiser la validation du code, transformant le rôle des agents IA dans le cycle de développement logiciel.",
+    "a_faire": "Tester l'outil pour évaluer son efficacité sur la revue et l'approbation du code."
    },
    {
-    "id": "fc6eacda44e2af",
-    "pourquoi": "La dépréciation annoncée de Claude Opus 4.5 oblige les équipes techniques à planifier rapidement leur migration vers la version 5.5.",
-    "a_faire": "Vérifier la roadmap de vos intégrations API pour planifier la migration avant janvier 2027."
+    "id": "c5903c8754bbbf",
+    "pourquoi": "Google Search intègre la 'Personal Intelligence' en connectant la recherche aux données personnelles (Drive, Gmail, Photos, etc.), redéfinissant l'assistant quotidien.",
+    "a_faire": "Tester ces nouvelles interactions connectées à vos services Google personnels."
    },
    {
-    "id": "1d0c151fefed0d",
-    "pourquoi": "OpenAI et Cisco s'associent pour lancer Shirudo, un runtime open source crucial pour la sécurité des systèmes Linux en production.",
-    "a_faire": "Déployer et tester le runtime open source dans un environnement de test Linux."
+    "id": "6f80f4f8d02df5",
+    "pourquoi": "Microsoft déploie Copilot Vision pour permettre une interaction en temps réel via le partage d'écran, changeant l'ergonomie de l'assistance par IA.",
+    "a_faire": "Activer et tester Copilot Vision pour vos cas d'usage professionnels en temps réel."
    }
   ]
  }
