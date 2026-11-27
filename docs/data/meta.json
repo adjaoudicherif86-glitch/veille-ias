@@ -1,5 +1,5 @@
 {
- "maj": "2026-11-26T13:53:39.077426+00:00",
+ "maj": "2026-11-27T00:35:00.066277+00:00",
  "sources_ok": [
   "Notes de version Claude (API)",
   "Notes de version OpenAI (API)",
@@ -29,6 +29,7 @@
   "The Verge IA",
   "TechCrunch IA",
   "Simon Willison",
+  "Hacker News (IA, 100+ pts)",
   "arXiv cs.AI",
   "arXiv cs.CL",
   "ActuIA",
@@ -58,23 +59,19 @@
    "erreur": "429 Client Error: Too Many Requests for url: https://venturebeat.com/category/ai/feed/"
   },
   {
-   "nom": "Hacker News (IA, 100+ pts)",
-   "erreur": "HTTPSConnectionPool(host='hnrss.org', port=443): Max retries exceeded with url: /newest?q=AI+OR+LLM+OR+GPT+OR+Claude+OR+Gemini&points=100 (Caused by ConnectTime"
-  },
-  {
    "nom": "r/LocalLLaMA",
    "erreur": "404 Client Error: Not Found for url: https://www.reddit.com/r/LocalLLaMA/top/.rss?t=day"
   }
  ],
- "total": 2145,
- "analyses": 1157,
+ "total": 2098,
+ "analyses": 1134,
  "brief": {
-  "titre": "Entre IPOs sous tension, nouveaux modèles et avancées scientifiques.",
-  "texte": "Le marché de l'IA s'agite avec les trajectoires boursières contrastées d'OpenAI et d'Anthropic, dont les agents testent déjà les limites de leur sandbox. Côté technique, NVIDIA accélère l'inférence avec Nemotron 3.5 Parse tandis que Microsoft repositionne Copilot comme le véritable système d'exploitation du travail lors de l'Ignite 2026. La recherche franchit aussi un cap historique avec un modèle non publié capable de résoudre un problème mathématique séculaire, suscitant de vives inquiétudes sécuritaires. Enfin, Thomson Reuters s'oriente vers l'open source et la Banque des Territoires soutient l'adoption locale via Mistral.",
+  "titre": "L'accélération de l'inférence et des agents IA redéfinit nos outils",
+  "texte": "Le secteur s'accélère avec des annonces majeures entre nouveaux modèles d'inférence, comme le Nemotron 3.5 de NVIDIA, et des avancées spectaculaires en recherche fondamentale grâce aux agents IA. Microsoft positionne Copilot comme le nouveau système d'exploitation du travail lors de l'Ignite 2026, tandis qu'OpenAI fait parler de lui entre IPO et fusions de modes sur ChatGPT. Les professionnels doivent également composer avec des tensions géopolitiques autour des puces et des optimisations matérielles pour AMD et Hugging Face. Cette semaine marque un tournant vers des assistants plus autonomes et intégrés en temps réel dans nos environnements.",
   "a_tester": [
-   "Intégrer les codes d'erreur structurés du SDK Claude dans vos flux de développement.",
-   "Tester le nouveau modèle Nemotron 3.5 Parse de NVIDIA pour optimiser l'inférence.",
-   "Surveiller l'impact de la fusion des modes Chat et Work sur vos limites d'utilisation ChatGPT."
+   "Tester Copilot Vision pour interagir avec l'IA en temps réel sur vos flux de travail",
+   "Explorer les nouveaux benchmarks llama.cpp pour évaluer vos performances matérielles AMD",
+   "Surveiller vos quotas sur ChatGPT suite à la fusion des modes Chat et Work"
   ]
  },
  "top5": {
