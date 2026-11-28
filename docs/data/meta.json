@@ -1,5 +1,5 @@
 {
- "maj": "2026-11-28T00:02:08.309536+00:00",
+ "maj": "2026-11-28T07:48:10.695323+00:00",
  "sources_ok": [
   "Notes de version Claude (API)",
   "Notes de version OpenAI (API)",
@@ -63,45 +63,45 @@
    "erreur": "404 Client Error: Not Found for url: https://www.reddit.com/r/LocalLLaMA/top/.rss?t=day"
   }
  ],
- "total": 2047,
- "analyses": 1122,
+ "total": 2043,
+ "analyses": 1135,
  "brief": {
-  "titre": "Entre IPO, puces et agents autonomes, l'écosystème IA s'accélère",
-  "texte": "L'actualité de l'IA est marquée par une transition majeure vers les architectures multi-agents et le contrôle automatisé, illustrée par Grok et Microsoft qui transforment les PC en véritables assistants autonomes. Sur le plan matériel et géopolitique, Nvidia suspend ses livraisons en Asie du Sud-Est tandis qu'Amazon teste ses puces Trainium3 pour la génération vidéo. Parallèlement, l'industrie est secouée par des mouvements financiers d'envergure, entre la valorisation d'Anthropic, les préparatifs d'introduction en bourse d'OpenAI et une action en justice contre Apple. Enfin, l'open source et les modèles spécialisés continuent de progresser avec des initiatives comme Inkling-2-Mini-GSQ ou le modèle Patram 1.5 de BharatGen.",
+  "titre": "L'offensive des géants de la Tech sur les PC IA et les agents",
+  "texte": "Le marché des PC IA s'accélère avec Microsoft qui transforme ses machines en PC agents et déploie Copilot Vision, tandis qu'OpenAI riposte en préinstallant ChatGPT et en lançant des poursuites contre Apple pour vol de secrets industriels. Côté matériel, Amazon teste ses puces Trainium3 avec LTX-2.5 pour la génération vidéo, alors que Nvidia suspend ses livraisons en Asie du Sud-Est. Enfin, Grok déploie des flux d'agents et Gemini 3.8 Flash égale les modèles de pointe en chimie malgré des inquiétudes sur la confidentialité des e-mails.",
   "a_tester": [
-   "Tester les nouvelles capacités de Copilot Vision pour interagir en temps réel",
-   "Explorer le modèle MoE optimisé Inkling-2-Mini-GSQ-RCO-GGUF sur Hugging Face",
-   "Profiter des crédits Microsoft pour déployer des solutions basées sur Copilot"
+   "Tester Copilot Vision pour interagir en temps réel avec vos écrans",
+   "Explorer les capacités de Gemini 3.8 Flash pour des cas d'usage en chimie",
+   "Évaluer les nouvelles fonctionnalités de flux d'agents sur Grok"
   ]
  },
  "top5": {
-  "maj": "2026-11-27T13:51:43.758235+00:00",
+  "maj": "2026-11-28T07:48:10.695323+00:00",
   "par_ia": true,
   "items": [
    {
     "id": "3c6728c1bfd198",
-    "pourquoi": "GPT-6 intègre des capacités natives de conception de protéines validées en laboratoire, ouvrant une nouvelle ère pour l'IA dans les sciences du vivant.",
-    "a_faire": "Surveiller les publications scientifiques et les retours d'application sur cette nouvelle version."
+    "pourquoi": "GPT-6 intègre des capacités natives de conception de protéines validées en laboratoire, marquant un tournant concret entre IA et biologie moléculaire.",
+    "a_faire": "Surveiller les publications scientifiques et les retours d'application sur ces nouvelles capacités bio-informatiques."
    },
    {
-    "id": "b48eceeee0077b",
-    "pourquoi": "Des équipes d'agents propulsées par Gemini 4 ont découvert et prouvé des algorithmes quantiques, marquant une avancée majeure dans l'autonomie scientifique de l'IA.",
-    "a_faire": "Lire les détails de cette percée pour comprendre l'impact sur la recherche en physique quantique."
+    "id": "dc4c1ddf681bef",
+    "pourquoi": "Microsoft transforme les PC IA en ordinateurs autonomes pilotés par des agents via Copilot, modifiant l'interaction utilisateur et les standards OS.",
+    "a_faire": "Tester les nouvelles fonctionnalités d'agents sur les PC compatibles pour anticiper les impacts sur les flux de travail."
    },
    {
     "id": "9ac21f192a97e4",
-    "pourquoi": "Anthropic lance Claude Ship pour automatiser la validation du code, transformant le rôle des agents IA dans le cycle de développement logiciel.",
-    "a_faire": "Tester l'outil pour évaluer son efficacité sur la revue et l'approbation du code."
+    "pourquoi": "Anthropic lance Claude Ship pour automatiser la revue, la correction et l'approbation du code, accélérant significativement le cycle de développement.",
+    "a_faire": "Évaluer l'outil pour intégrer l'automatisation de la validation du code dans vos pipelines CI/CD."
    },
    {
-    "id": "c5903c8754bbbf",
-    "pourquoi": "Google Search intègre la 'Personal Intelligence' en connectant la recherche aux données personnelles (Drive, Gmail, Photos, etc.), redéfinissant l'assistant quotidien.",
-    "a_faire": "Tester ces nouvelles interactions connectées à vos services Google personnels."
+    "id": "fc6eacda44e2af",
+    "pourquoi": "Anthropic annonce la dépréciation de Claude Opus 4.5 au profit de la version 5.5, nécessitant une mise à jour rapide des intégrations API existantes.",
+    "a_faire": "Planifier la migration des applications utilisant Claude Opus 4.5 vers la nouvelle version avant la date limite de janvier 2027."
    },
    {
-    "id": "6f80f4f8d02df5",
-    "pourquoi": "Microsoft déploie Copilot Vision pour permettre une interaction en temps réel via le partage d'écran, changeant l'ergonomie de l'assistance par IA.",
-    "a_faire": "Activer et tester Copilot Vision pour vos cas d'usage professionnels en temps réel."
+    "id": "1d0c151fefed0d",
+    "pourquoi": "OpenAI et Cisco lancent Shirudo, un runtime open source pour sécuriser activement les systèmes Linux en cours d'exécution.",
+    "a_faire": "Examiner le dépôt open-source pour tester la sécurisation des environnements de déploiement Linux."
    }
   ]
  }
