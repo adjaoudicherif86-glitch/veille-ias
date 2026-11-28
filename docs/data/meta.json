@@ -1,5 +1,5 @@
 {
- "maj": "2026-11-27T13:51:43.758235+00:00",
+ "maj": "2026-11-28T00:02:08.309536+00:00",
  "sources_ok": [
   "Notes de version Claude (API)",
   "Notes de version OpenAI (API)",
@@ -35,14 +35,17 @@
   "ActuIA",
   "IA en français (actus)",
   "Microsoft Copilot (actus)",
+  "Google Gemini (actus)",
   "OpenAI (actus)",
   "Grok et SpaceXAI (actus)",
+  "Grandes annonces IA",
   "Surveillance et IA",
   "IA et surveillance (FR)",
   "IA militaire",
   "Anthropic et gouvernement",
   "Sécurité des modèles",
   "Contrôles à l'export IA",
+  "Désinformation et deepfakes",
   "Régulation européenne",
   "Vie privée et assistants IA"
  ],
@@ -58,29 +61,17 @@
   {
    "nom": "r/LocalLLaMA",
    "erreur": "404 Client Error: Not Found for url: https://www.reddit.com/r/LocalLLaMA/top/.rss?t=day"
-  },
-  {
-   "nom": "Google Gemini (actus)",
-   "erreur": "429 Client Error: Too Many Requests for url: https://news.google.com/rss/search?q=Gemini+Google+OR+DeepMind&hl=en-US&gl=US&ceid=US:en"
-  },
-  {
-   "nom": "Grandes annonces IA",
-   "erreur": "429 Client Error: Too Many Requests for url: https://news.google.com/rss/search?q=%22AI+model%22+launch+OR+release&hl=en-US&gl=US&ceid=US:en"
-  },
-  {
-   "nom": "Désinformation et deepfakes",
-   "erreur": "429 Client Error: Too Many Requests for url: https://news.google.com/rss/search?q=deepfake+election+OR+%22AI+influence+operation%22&hl=en-US&gl=US&ceid=US:en-US"
   }
  ],
- "total": 2082,
- "analyses": 1140,
+ "total": 2047,
+ "analyses": 1122,
  "brief": {
-  "titre": "Accélération matérielle, nouveaux modèles et avancées scientifiques en IA",
-  "texte": "L'actualité de l'intelligence artificielle est marquée par d'importantes avancées matérielles et logicielles, illustrées par le lancement de Nemotron 3.5 Parse par NVIDIA et les tests d'Amazon avec Trainium3 pour la vidéo. Microsoft accentue sa vision du travail en déployant Copilot Vision et en préparant les annonces de Microsoft Ignite 2026. Du côté de la recherche, une IA non publiée parvient à résoudre un problème mathématique centenaire, tandis que de nouveaux modèles comme Patram 1.5 et des architectures optimisées émergent. Enfin, des tensions géopolitiques se font sentir avec la suspension des livraisons de puces Nvidia en Asie du Sud-Est.",
+  "titre": "Entre IPO, puces et agents autonomes, l'écosystème IA s'accélère",
+  "texte": "L'actualité de l'IA est marquée par une transition majeure vers les architectures multi-agents et le contrôle automatisé, illustrée par Grok et Microsoft qui transforment les PC en véritables assistants autonomes. Sur le plan matériel et géopolitique, Nvidia suspend ses livraisons en Asie du Sud-Est tandis qu'Amazon teste ses puces Trainium3 pour la génération vidéo. Parallèlement, l'industrie est secouée par des mouvements financiers d'envergure, entre la valorisation d'Anthropic, les préparatifs d'introduction en bourse d'OpenAI et une action en justice contre Apple. Enfin, l'open source et les modèles spécialisés continuent de progresser avec des initiatives comme Inkling-2-Mini-GSQ ou le modèle Patram 1.5 de BharatGen.",
   "a_tester": [
-   "Tester les capacités d'analyse de documents de Patram 1.5",
-   "Explorer les performances des nouveaux modèles MoE optimisés sur Hugging Face",
-   "Examiner les intégrations en temps réel de Copilot Vision"
+   "Tester les nouvelles capacités de Copilot Vision pour interagir en temps réel",
+   "Explorer le modèle MoE optimisé Inkling-2-Mini-GSQ-RCO-GGUF sur Hugging Face",
+   "Profiter des crédits Microsoft pour déployer des solutions basées sur Copilot"
   ]
  },
  "top5": {
