@@ -1,5 +1,5 @@
 {
- "maj": "2026-11-28T07:48:10.695323+00:00",
+ "maj": "2026-11-28T16:53:11.135377+00:00",
  "sources_ok": [
   "Notes de version Claude (API)",
   "Notes de version OpenAI (API)",
@@ -63,15 +63,15 @@
    "erreur": "404 Client Error: Not Found for url: https://www.reddit.com/r/LocalLLaMA/top/.rss?t=day"
   }
  ],
- "total": 2043,
- "analyses": 1135,
+ "total": 2029,
+ "analyses": 1137,
  "brief": {
-  "titre": "L'offensive des géants de la Tech sur les PC IA et les agents",
-  "texte": "Le marché des PC IA s'accélère avec Microsoft qui transforme ses machines en PC agents et déploie Copilot Vision, tandis qu'OpenAI riposte en préinstallant ChatGPT et en lançant des poursuites contre Apple pour vol de secrets industriels. Côté matériel, Amazon teste ses puces Trainium3 avec LTX-2.5 pour la génération vidéo, alors que Nvidia suspend ses livraisons en Asie du Sud-Est. Enfin, Grok déploie des flux d'agents et Gemini 3.8 Flash égale les modèles de pointe en chimie malgré des inquiétudes sur la confidentialité des e-mails.",
+  "titre": "L'ère des agents autonomes s'accélère malgré les tensions sécuritaires",
+  "texte": "L'actualité de l'IA est marquée par la mutation des PC en machines autonomes grâce à Copilot et l'offensive d'OpenAI sur les postes de travail, tandis qu'Anthropic automatise la gestion des PR avec Claude Ship. Du côté des infrastructures, Grok déploie ses flux d'agents et Gemini 3.8 Flash brille en chimie, mais la prudence reste de mise. De graves failles de sécurité ont touché des milliers d'utilisateurs via des modèles GGUF vérolés sur Hugging Face, et des questions se posent sur la confidentialité des données avec Google Gemini. Enfin, la bataille fait rage entre géants avec l'attaque en justice d'OpenAI contre Apple, alors que le secteur subit des restructurations comme chez SAP.",
   "a_tester": [
-   "Tester Copilot Vision pour interagir en temps réel avec vos écrans",
-   "Explorer les capacités de Gemini 3.8 Flash pour des cas d'usage en chimie",
-   "Évaluer les nouvelles fonctionnalités de flux d'agents sur Grok"
+   "Tester Claude Ship pour automatiser la gestion de vos pull requests cette semaine",
+   "Vérifier la provenance de vos modèles GGUF sur Hugging Face pour éviter les versions vérolées",
+   "Explorer les nouvelles capacités de Gemini 3.8 Flash sur vos cas d'usage en chimie"
   ]
  },
  "top5": {
